@@ -1,0 +1,867 @@
+DHARMAKIRTI: HETUBINDU
+Input by Motoi Ono
+
+
+Text used:
+
+E. STEINKELLNER, Dharmakirti's Hetubinduh. Teil I.    
+Tibetischer Text und rekonstruierter Sanskrit-Text. Wien 1967. 
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ THIS TEXT FILE IS FOR REFERENCE PURPOSES ONLY!   ³
+³ COPYRIGHT AND TERMS OF USAGE AS FOR SOURCE FILE. ³
+³						   ³
+³ Text converted to Classical Sanskrit Extended    ³
+³ (CSX) encoding:				   ³
+³ 						   ³
+³ description             character  =	ASCII	   ³
+³  						   ³
+³ long a                  à             224	   ³
+³ long A                  â             226	   ³
+³ long i                  ã             227	   ³
+³ long I                  ä             228	   ³
+³ long u                  å             229	   ³
+³ long U                  æ             230	   ³
+³ vocalic r               ç             231	   ³
+³ vocalic R               è             232	   ³
+³ long vocalic r          é             233	   ³
+³ vocalic l               ë             235	   ³
+³ long vocalic l          í             237	   ³
+³ velar n                 ï             239	   ³
+³ velar N                 ğ             240	   ³
+³ palatal n               ¤             164	   ³
+³ palatal N               ¥             165	   ³
+³ retroflex t             ñ             241	   ³
+³ retroflex T             ò             242	   ³
+³ retroflex d             ó             243	   ³
+³ retroflex D             ô             244	   ³
+³ retroflex n             õ             245	   ³
+³ retroflex N             ö             246	   ³
+³ palatal s               ÷             247	   ³
+³ palatal S               ø             248	   ³
+³ retroflex s             ù             249	   ³
+³ retroflex S             ú             250	   ³
+³ anusvara                ü             252	   ³
+³ anusvara (overdot)      §             167	   ³
+³ capital anusvara        ı             253	   ³
+³ visarga                 ş             254	   ³
+³ (capital visarga                      255)	   ³
+³ 						   ³
+³ Other characters of the CSX encoding table are   ³
+³ not included. Accents have been dropped in order ³
+³ to facilitate word search.			   ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Explanatory Remarks
+
+     A number of five figures at the left side indicates the location of the key word
+in the basic texts. In the case of the SV, the HB and the VN, the first three figures
+indicate the page number, and the last two indicate the line number (for example,
+SV16026=SV 160,26; HB02314=HB 23,14; VN06110=VN 61,10). In the case of the
+PV and the NB, the second figure indicates the chapter number and the last three
+figures indicate the karika or sutra number (for example, PV02232=PV, the
+Pramanasiddhi-chapter v.232; NB03015=NB, the Pararthanumana-chapter sutra 15.
+In the case of the SP, the last two figures indicate the karika number (for example,
+SP00015=SP, v.15).
+
+
+3. In this database, sentences are artificially divided into word-units, although they
+involve a phonetic fusion or union in the basic texts. Further, compound words are
+divided into their shortest constitutive elements (we use a hyphen to indicate that
+hyphenated elements originally form a compound word) with the following
+exceptions: 
+
+3.1. The prefixes a-, dur-, nih- remain undivided, irrespective of attachment to
+words or compound words. 
+
+3.2. Suffixes making an adverb, for example -vat, -vasa, are divided. But suffixes
+making a possessive adjective, for example -vat, -mat, remain undivided, and terms
+such as a numeral+ -dha/-vidha/-prakara remain also undivided. 
+
+3.3. Compound words with the suffixes -ta/-tva or -bhava/-bhuta fundamentally
+remain undivided. For example: karyakaranabhava/-bhuta/-ta.
+
+3.4. Compound words with evam-, tat-, tatha-, para-, yatha-, su-, sva- in the
+wordhead fundamentally remain undivided. For example: evamjatiya, tadutpatti,
+tathakrta, paratantra, yathartha, yathasvam, sujnanatva, svabhava.
+
+3.5. Some compound words which are regarded as terminology remain also
+undivided. For example: agnihotra, ayogavyavaccheda, arthapatti, padartha,
+paramartha, prasajyapratisedha, viruddhavyabhicarin, samanantarapratyaya,
+samtanaparinama, samanyalaksana, svabhavapratibandha.
+
+
+
+4. Those terms whose wordhead is subject to the Sandhi rules (for example, -d
+dhetu-) are cited in their original form (for example, -d *hetu-) for the sake of
+using this database to make an KWIC index. 
+
+1. August. 1997 / Tsukuba
+Motoi ONO
+
+Note:
+     This database is quite a tentative one, and I must admit that there are a lot of
+errors and defects in this version. I would appreciate it very much if the user would
+point out any errors in this version so that we can make a better new version in the
+future.
+
+     E-mail: ono@logos.tsukuba.ac.jp
+
+
+*****************************************************************************
+
+
+
+00104 namo buddhàya.
+00105 parokùa-artha-pratipatter anumàna-à÷rayatvàt tad-vyutpàdana- 
+00106 arthaü saükùepata idam àrabhyate.  
+00108 pakùa-dharmas tad-aü÷ena vyàpto hetus tridhà eva saş /  
+00109 avinàbhàva-niyamàd hetvàbhàsàs tato apare //  
+00110 pakùo dharmã, avayave samudàya-upacàràt. prayojana-abhàvàd
+00111 anupacàra iti cet, na, sarva-dharmi-dharma-pratiùedha-arthatvàd  
+00112 upacàrasya. evaü hi càkùuùatva-àdi-parihçtaü bhavati.  
+00113 dharma-vacanena api dharmasya parà÷rayatvàd dharmy-à÷raya- 
+00114 siddhau dharmi-grahaõàt pratyàsatteş sàdhya-dharmi-siddhir iti
+00115 cet, na, dçùñànta-dharmiõo api pratyàsatteş. tad-aü÷a-vyàptyà
+00116 dçùñànta-dharmiõi sattva-siddher dharmi-vacanàt sàdhya-dharmi-
+00117 parigrahaş. siddhe api punar-vacanaü niyama-artham à÷aïkyeta.  
+00118 sajàtãya eva sattvam iti siddhe api tad-abhàve vyatireke
+00119 sàdhya-abhàve asattva-vacana-vat tad-aü÷a-vyàpti-vacanàt siddhe 
+00120 api dçùñànta-dharmiõi sattve dharmi-vacanaü tatra eva bhàva-
+00121 niyama-artham à÷aïkyeta. tasmàt sàmarthyàd artha-gatàv apy
+00201 upacàra-màtràt samàna-nirde÷àt pratipatti-gauravaü ca parihçtaü
+00202 bhavati. pakùasya dharmatve tad-vi÷eùaõa-apekùasya anyatra ananuvçtter 
+00203 asàdhàraõatà iti cet, na, ayogavyavacchedena vi÷eùaõàd
+00204 yathà caitro dhanurdhara iti na anyayogavyavacchedena yathà 
+00205 pàrtho dhanurdhara iti.
+00206 tad-aü÷as tad-dharmaş.
+00207 vyàptir vyàpakasya tatra bhàva eva vyàpyasya và  
+00208 tatra eva bhàvaş.
+00209 etena anvayo vyatireko và pakùa-dharma÷ ca yathàsvaü 
+00210 pramàõena ni÷cita uktaş, sarvatra hetau sàdhya-dharma-abhàve
+00211 vyàpty-asiddher vyàpaka-nivçttau và vyatireka-abhàvàt anvaya-vyatirekàbhyàü
+00212 ni÷citàbhyàü tad-aü÷a-vyàptir ni÷cità.
+00213 tatra pakùa-dharmasya sàdhya-dharmiõi pratyakùato anumànato
+00214 và prasiddhir ni÷cayaş, yathà prade÷e dhåmasya ÷abde  
+00215 và kçtakatvasya. sadhåmaü hi prade÷am arthàntara-vivikta-råpam
+00216 asàdhàraõa-àtmanà dçùñavataş pratyakùeõa yathà-dçùña-bheda-viùayaü
+00217 smàrtaü liïga-vij¤ànam utpadyate. 
+00218 tatra yad àdyam asàdhàraõa-viùayaü dar÷anaü tad 
+00219 eva pramàõam. 
+00220 tasmin tathàbhåte dçùñe sati sa yena yena asàdhàraõas
+00221 tad-asàdhàraõatàü tato bhedam abhilapanty atad-vyàvçtti-viùayà 
+00222 smçtir utpannà pratyakùa-balena yathàdçùña-àkàra-grahaõàn na
+00223 pramàõam, pràg asàdhàraõaü dçùñvà asàdhàraõa ity abhilapato
+00224 apårva-artha-adhigama-abhàvàd arthakriyà-sàdhanasya dar÷anàd  
+00225 adçùñasya punas tat-sàdhana-svabhàvasya vikalpena apratipatte÷ 
+00301 ca anumàna-vat. arthakriyà-arthã hi sarvaş pramàõam apramàõaü
+00302 và anveùate prekùàvàn, na ca sàmànyaü kàücid arthakriyàm
+00303 upakalpayati svalakùaõa-pratipatter årdhvaü tat-sàmarthya-utpanna-
+00304 vikalpa-vij¤àna-gràhyaü yathà nãlaü dçùñvà nãlam iti 
+00305 j¤àne. tad eva hi nãla-svalakùaõaü tathàvidha-sàdhya-arthakriyàkàri,  
+00306 tac ca tena àtmanà dçùñam eva pratyakùeõa. na ca 
+00307 tat-svalakùaõa-grahaõa-uttarakàlabhàvi-nãla-vikalpasya viùayeõa nãla- 
+00308 artha-sàdhya-arthakriyà kriyate. tasmàd anadhigata-artha-viùayaü  
+00309 pramàõam ity apy anadhigate svalakùaõa iti vi÷eùanãyam.
+00310 adhigate tu svalakùaõe tat-sàmarthya-janmà vikalpas tad-anukàrã 
+00311 kàryatas tad-viùayatvàt smçtir eva na pramàõam, anadhigata- 
+00312 vastu-råpa-anadhigateş, vastv-adhiùñhànatvàt pramàõa-vyavasthàyàş, 
+00313 arthakriyà-yogya-viùayatvàt tad-arthinàü pravçtteş,
+00314 arthakriyà-yogya-lakùaõaü hi vastu; tato api vikalpàd vastuny
+00315 eva tad-adhyavasàyena pravçtteş, pravçttau vikalpasya pratyakùeõa
+00316 abhinna-yogakùematvàt.  
+00317 pårva-pratyakùa-kùaõena upayoga-abhedàd uttareùu kasyacid 
+00318 apràmàõya-prasaïga iti cet, na, kùaõa-vi÷eùa-sàdhya-artha-và¤chàyàü
+00319 nànà-yogakùematvàt. sàdhàraõe hi kàrye na teùàü sàmarthya-bhedaş, 
+00320 aparàpara-dhåma-pramita-saünikçùña-agniùv iva agni-màtra-sàdhye 
+00401 arthe. etena dharma-dharmi-liïga-àdi-vikalpasya pramàõa-pçùñha-  
+00402 bhàvinaş pràmàõyaü pratyuktam.
+00403 anvaya-ni÷cayo api svabhàvahetau sàdhya-dharmasya vastutas
+00404 tad-bhàvatayà sàdhana-dharma-bhàva-màtra-anubandha-
+00405 siddhiş. sà sàdhya-viparyaye hetor bàdhaka-pramàõa-vçttiş.  
+00406 yathà yat sat tat kùaõikam eva, akùaõikatve arthakriyà-virodhàt
+00407 tal-lakùaõaü vastutvaü hãyate. kàryahetau kàryakàraõabhàva-  
+00408 siddhiş, yathà idam asya upalambha upalabdhi-lakùaõa-pràptaü 
+00409 pràg anupalabdham upalabhyate, satsv apy anyeùu hetuùv  
+00410 asya abhàve na bhavati iti yas tad-bhàve bhàvas tad-abhàve
+00411 abhàva÷ ca pratyakùa-anupalambha-sàdhanaş kàryakàraõabhàvas 
+00412 tasya siddhiş. kàryakàraõabhàva eva hy arthàntarasya evaü  
+00413 syàt yatra dhåmas tatra ava÷yam agniş, agner bhàva 
+00414 eva hi bhàvo dhåmasya tat-kàryatvam. anupalabdhàv apy
+00415 anvaya-ni÷cayo asad-vyavahàrasya upalabdhi-lakùaõa-pràpta-anupalabdhi-  
+00416 màtre vçtti-sàdhanaü nimitta-antara-abhàva-upadar÷anàt. 
+00417 vyatireka-ni÷cayo api kàrya-svabhàvahetoş kàryakàraõa-  
+00418 vyàpyavyàpakabhàva-siddhau dç÷ya-viùayàbhyàü kàraõa-vyàpaka- 
+00419 anupalabdhibhyàü sàdhya-abhàve hetv-abhàva-siddhir uddiùña-  
+00420 viùayasya abhàvasya upadar÷ane, anyathà anupalabdhi-lakùaõa-pràptasya
+00421 kvacid abhàva-asiddheş. anuddiùña-viùayaü sàdhya-abhàve  
+00422 abhàva-khyàpanaü apratibandha-màtra-siddhau sidhyati iti na tatra
+00501 vyatireka-sàdhane anupalabdhyor dç÷ya-viùayatà apekùyate. vyatireka-  
+00502 ni÷cayo anupalabdhàv upalabdhi-lakùaõa-pràptàt sato anupalambha- 
+00503 abhàva-dar÷anam. 
+00504 etal-lakùaõas tridhà eva so hetus triprakàra eva, svabhàvaş  
+00505 kàryam anupalabdhi÷ ca iti yathà anitye kasmiü÷cit sàdhye sattvam
+00506 agnimati prade÷e dhåmo abhàve ca upalabdhi-lakùaõa-pràptasya anupalabdhir
+00507 ity atra eva trividhe avinàbhàva-niyamàt. pakùa-dharmasya 
+00508 yathoktà vyàptir avinàbhàvaş; sa trividhàd hetor 
+00509 anyatra na asti ity atra eva niyata ucyate.  
+00510 tatra sàdhana-dharma-bhàva-màtra-anvayini sàdhya-dharme 
+00511 svabhàvo hetuş. aparàpara-vyàvçtti-bhedena dharma-bhede api 
+00512 vastuto liïgi-svabhàva eva hetu-svabhàve anvaya-vyabhicàra-abhàvàl
+00513 lakùaõe tan-màtra-anvayena vi÷eùaõaü para-mata-apekùam.
+00514 pare hy arthàntara-nimittam atad-bhàva-màtra-anvayinam api 
+00515 dharmaü svabhàvam icchanti. vi÷eùaõena tathàvidhasya atat-
+00516 svabhàvatàü tasmin sàdhye hetor vyabhicàraü ca àha, yathà
+00517 hetumati vinà÷e kçtakatvasya.
+00518 tasya dvidhà prayogaş; sàdharmyeõa vaidharmyeõa ca,
+00519 yathà yat sat tat sarvaü kùaõikaü yathà ghaña-àdayaş saü÷  
+00520 ca ÷abda iti, tathà kùaõikatva-abhàve sattva-abhàvaş, saü÷ ca
+00521 ÷abda ity anvaya-vyatirekàbhyàü sarva-upasaühàreõa vyàpti-pradar÷ana  
+00522 lakùaõau sàdharmya-vaidharmya-prayogau.  
+00523 atra sàmarthyàd eva pratij¤à-arthasya pratãter na pratij¤àyàş 
+00524 prayogaş. apradar÷ite prameye arthe kathaü tat-pratãtir iti cet.  
+00601 svayaü pratipattau prameyasya ka upadar÷ayità. prade÷a-sthaü  
+00602 dhåmam upalabdhavatas tasya agninà vyàpteş smaraõe tat-sàmarthyàd 
+00603 eva agnir atra iti pratãtir bhavati. na ca tatra ka÷cid 
+00604 agnir atra ity asmai nivedayati. na api pràg eva pratipadyate 
+00605 kiücit, pramàõam antareõa evaü pratãter nimitta-abhàvàt. 
+00606 pratãtau liïgasya vaiyarthyaü. svayam eva akasmàd
+00607 agnir atra iti prameyaü vyavasthàpya pa÷càt tat-pratipattaye
+00608 liïgam anusarati iti ko ayaü pratipatteş kramaş. pareõa api 
+00609 tad ucyamànaü plavata eva, upayoga-abhàvàt. viùaya-upadar÷anam  
+00610 upayoga iti cet, tena eva tàvad dar÷itena ko arthaş. yadi
+00611 pratãtir anyathà na syàt, sarvaü ÷obheta. tasmàd eùaş svayaü
+00612 pratãtau vinà api kenacid viùaya-upasthàpakena pratiyan asmàn
+00613 kàryiõo dçùñvà parvabràhmaõa iva vyaktaü målyaü mçgayate. 
+00614 asmad-vacanàd api svayaü siddham eva liïgam anusçtya
+00615 pratyeti iti ko anayor avasthayor vi÷eùaş. dçùñà ca pakùa-dharma- 
+00616 sambandha-vacana-màtràd pratij¤à-vacanam antareõa api pratãtir  
+00617 iti kas tasya upayogaş. sva-ni÷caya-vad anyeùàm api ni÷caya-utpàdanàya 
+00618 ca sàdhanam ucyate, tatra svayam ayaü prameyasya upadar÷anam  
+00619 antareõa api pratipadya paraü pratipàdayan apårvam 
+00620 artha-kramam à÷rayata iti kim atra kàraõam. tasmàn na prameya- 
+00621 vacanena kiücit prayojanam, anyathà api pratipatter  
+00622 utpatteş.
+00623 etena upanaya-nigamana-àdikam api pratyuktam, etàvatà eva 
+00624 sàdhya-pratãter bhàvàt. óiõóika-ràgaü parityajya-àkùiõã-  
+00625 nimãlya cintaya tàvat kim iyatà pratãtiş syàn na và. bhàve 
+00701 kiü prapa¤ca-màlayà, iti iyàn eva sàdhana-vàkye prayogo
+00702 jyàyàn.
+00703 atra pakùa-dharma-sambandha-vacanayoş krama-niyamo api na 
+00704 ka÷cit, sarvathà gamakatvàt. 
+00705 sambandha-vacane api kevalaş prayogo bhinnaş, ubhayathà api 
+00706 dharma-bhede tathà api tad-bhàvasya eva khyàpanàt. na hy
+00707 atat-svabhàvasya bhàva ekàntena anyabhàvaş kçtakatvasya bhàve  
+00708 prayatnànantarãyakatva-vat, na apy atat-svabhàvasya nivçttàv akàryasya
+00709 tasya nivçttir yathà anayor eva dharmayor nivçttiş. tasmàd
+00710 anvaya-vyatirekayor yathà-lakùaõam eko api prayukto dvitãyam
+00711 àkùipati iti na ekatra sàdhana-vàkye dvayoş prayoga iùyate, 
+00712 vaiyarthyàt, tat-svabhàvatayà anvaya-siddhau tad-abhàve abhàva-siddheş,
+00713 tad-abhàve abhàva-siddhau ca anvayasya api siddheş. 
+00714 tad-abhàva eva abhàva-khyàtir yathà syàn na anyatra viruddhe 
+00715 và iti niyama-khyàpana-artho api vyatireka-prayogo na yuktaş,
+00716 anya-viruddhayor api vipakùatvàt.  
+00717 katham idam avagamyate sad ava÷yaü na÷vara-svabhàvam iti  
+00718 yena anvaya-vyatireka-sambhava iti cet, vinà÷a-hetv-ayogàt. svabhàvata
+00719 eva na÷varà bhàvàş; na eùàü niùpannànàm anyato  
+00720 vinà÷a-utpattiş, tasya asàmarthyàt; na hi vinà÷a-hetur bhàva-svabhàvam
+00721 eva karoti, tasya nivçtteş. na api bhàva-antaram eva,  
+00722 bhàva-antara-karaõe bhàve tad-avasthe na kiücit karoti iti tathà-upalabdhy-
+00801 àdi-prasaïgaş. na api bhàva-antaram asya àvaraõam, tad-avasthe  
+00802 tasminn àvaraõasya apy ayogàt. na api vinà÷a-hetunà bhàva-abhàvaş 
+00803 kriyate, abhàvasya vidhinà upagame vyatireka-avyatireka-  
+00804 vikalpa-anatikramàt. bhàva-pratiùedha-ekaråpatve bhàvaü na 
+00805 karoti iti syàt, evaü ca akartur ahetutvam iti na vinà÷a-hetuş  
+00806 ka÷cit.  
+00807 vaiyarthyàc ca. yadi svabhàvato na÷varaş svàtmany anavasthàyã-
+00808 bhàvaş, tasya na kiücin nà÷a-kàraõaiş, tat-svabhàvatayà 
+00809 eva svayaü nà÷àt. yo hi yat svabhàvaş sa sva-hetor 
+00810 eva utpadyamànas tàdç÷o bhavati, na punas tad-bhàve hetv-antaram  
+00811 apekùate, prakà÷a-drava-uùõa-kañhina-àdi-dravya-vat. na hi prakà÷a-àdayas
+00812 tad-àtmàna utpannà punaş prakà÷a-àdi-bhàve hetv-antaram 
+00813 apekùante, tad-àtmanas tàdàtmya-abhàve nairàtmya-pràsaïgàt. 
+00814 tadvad asthiti-dharmà cet svabhàvato niùpanno na punas
+00815 tad-àtmatàyàü hetv-antaram apekùate.
+00816 bãja-àdi-vad anekànta iti cet, syàd etat: bãja-àdãnàm aïkura-àdi-
+00817 janana-svabhàvànàm api salila-àdi-hetv-antara-apekùaõàt kevalà na
+00818 janayanti, tadvad bhàvo api vinà÷e syàd iti. na tat-svabhàvasya  
+00819 jananàd ajanakasya ca atat-svabhàvatvàt. ata eva
+00820 tayor avasthayor vastu-bhedo ni÷ceyaş, bhàvànàü svabhàva
+00821 anyathàtva-abhàvàt tat-svabhàvasya pa÷càd iva pràg api  
+00822 janana-prasaïgàt. tasmàd yo antyo avasthà-vi÷eùaş sa eva aïkura-àdi-
+00901 janana-svabhàvaş. pårva-bhàvinas tv avasthà-vi÷eùàş kàraõasya 
+00902 kàraõàni iti na anekàntaş, kùaõikeùu bhàveùv aparàpara-utpatter 
+00903 aikya-abhàvàt.  
+00904 te antyàş samarthàş kiü na janayanti iti, janayanty 
+00905 eva, na atra anyathàbhàvaş svabhàvasya avaiparãtyàt. teùu sarveùu
+00906 sahakàriùu samartha-svabhàveùu ko aparasya upayoga iti cet, na vai 
+00907 bhàvànàü kàcit prekùà-pårva-kàrità yato ayam eko api samarthaş 
+00908 kim asmàbhir ity apare nivarteran. nirabhipràya-vyàpàrà
+00909 hi sva-hetu-pariõàma-upanidhi-dharmàs tat-prakçtes tathàbhavanto 
+00910 na upàlambham arhanti. samarthàş kiü na aparàparaü janayanti
+00911 iti cet, na, tatra eva sàmarthyàt. tasya eva ekasya janane  
+00912 samarthà na anyasya iti na aparàpara-jananam. 
+00913 bhinna-svabhàvebhya÷ cakùur-àdibhyaş sahakàribhya eka-
+00914 kàrya-utpattau na kàraõa-bhedàt kàrya-bhedaş syàd iti cet,
+00915 na, yathàsvaü svabhàva-bhedena tad-vi÷eùa-upayogatas tad-upayoga-  
+00916 kàrya-svabhàva-vi÷eùa-asaïkaràt, yathà mçt-piõóa-kulàla
+00917 såtra-àdibhyo bhavato ghañasya mçt-piõóàd amçt-svabhàvebhyo  
+00918 vçkùa-àdibhyo bhinnaş svabhàvaş kulàlàt tasya eva mçd-àtmanaş  
+00919 sataş saüsthàna-vi÷eùa-àtmatayà tad-anyebhyo bhinnaş såtràt 
+00920 tasya eva mçt-saüsthàna-vi÷eùa-àtmana÷ cakra-àder vibhaktaş svabhàvo  
+00921 bhavati; tad evaü na kulàlàn mçt-svabhàvatà, na 
+01001 mçdaş saüsthàna-vi÷eùaş; na ca tayoş ÷akti-vi÷eùa-viùaya-  
+01002 bhedo api taj-janita-vi÷eùa-bhedasya kàryasya svabhàva-bhedaş,  
+01003 mçt-saüsthànayor aparaspara-àtmatayà saüsthàna-mçd-råpàbhyàü 
+01004 tayor apratibhàsana-prasaïgàt. 
+01005 anyad eva saüsthànaü guõo mçd-dravyàt, tena bhinna-  
+01006 svabhàvaş kulàla-mçt-piõóayor upayoga-viùaya iti cet, uktam  
+01007 atra. api ca yadi saüsthànaü bhinnaü mçdaş, kulàlaş kiü 
+01008 na pçthak karoti. guõasya dravya-paratantratvam iti na pçthak  
+01009 karoti. tat-saüsthàna-àdhàra-àtmakaü yadi svabhàvena tad dravyaü
+01010 tat-saüsthànaü và tad-àdheya-àtmakam, kiü kulàla-apekùayà iti cet, 
+01011 na, tataş paraspara-sambandha-yogyatà-pratilambhàt; anyathà  
+01012 vastuna eva yogyatà dharmatà iti pràg api mçt-piõóasya saüsthàna-  
+01013 vi÷eùa-sambandha-yogyatve sati saüsthàna-vi÷eùeõa sambandha- 
+01014 prasaïgaş. evaü tarhi sà yogyatà mçd-dravyasya kulàlàd  
+01015 bhavati iti na anayoş svabhàva-bhedaş, bhede hi pràg-vat prasajyeta.
+01016 asti tàvad eka-svabhàvatve api kasyacid aneka-pratyaya-upadheya-  
+01017 vi÷eùatà iti na mçt-saüsthànayor eka-svabhàvatva-sàdhanàya  
+01018 nirbandhaş. 
+01019 tena sahakàriõaş pratyayà na eka-upayoga-viùayàş kàrya- 
+01020 svabhàvasya ekatve api vastuta iti yathà iha kàraõa-bhedo bhinna-
+01021 vi÷eùa-upayogàn na eka-kàryas tathà cakùur-àdibhyo vij¤àna-utpattàv 
+01022 unneyaş. tathà hi samanantarapratyayàd vij¤ànàc
+01101 cakùurvij¤ànasya upalambha-àtmatà tasya eva upalambha-àtmanaş
+01102 sata÷ cakùur-indriyàd råpa-grahaõa-yogyatà-pratiniyamo viùayàt  
+01103 tat tulya-råpatà ity abhinnatve api vastutaş kàryasya kàraõànàü  
+01104 bhinnebhyaş svabhàvebhyo bhinnà eva vi÷eùà bhavanti iti na 
+01105 kàraõa-bhede apy abhedas tat-kàrya-vi÷eùasya. ta eva ete kàraõa-  
+01106 ÷akti-bhedà yathàsvaü prativi÷iùña-kàrya-janane avyavadheya-  
+01107 ÷aktitayà pratyupasthitàş kùaõikatvàt sàmagrã-kàryasya svabhàva-
+01108 sthity-à÷raya ity ucyante. tathà hi tat tebhyaş samastebhya  
+01109 upalambha-àtmakaü råpa-grahaõa-pratiniyataü viùaya-
+01110 råpaü ca iti prativi÷iùña-svabhàvam ekaü jàtam. 
+01111 apratirodha-÷aktikeùv anantara-kàryeùv anàdheyavi÷eùeùu kùaõikeùu  
+01112 pratyayeùu parasparaü kaş sahakàra-artha iti cet, na vai
+01113 sarvatra ati÷aya-utpàdanaü sahakriyà. kiü tarhi. bahånàü yad
+01114 eka-artha-karaõam api, yathà antyasya kàraõa-kalàpasya. tad
+01115 eva mukhyaü sahakàritvaü sahakàrãõàm, tasya eva antyasya
+01116 kàraõatvàt tatra ca kùaõa ekasya svabhàvasya avivekàd vi÷eùasya 
+01117 kartum a÷akyatvàt, svabhàva-antara-utpatti-lakùaõatvàd vi÷eùa- 
+01118 utpatteş. bhàva-antara-utpattàv antyaü na syàt, tata÷ ca na  
+01119 sàkùàt kàraõaü syàt. tasmàn na kàraõasya sahakàribhyo vi÷eùa- 
+01120 utpattiş. te samarthàş svabhàvato antyàş pratyayàş
+01121 saha jàyante kùaõikà yeùàü pràg-pa÷càt-pçthag-bhàvo na asti
+01122 yebhya÷ ca anantaraü kàryam utpadyate, tatra eka-arthakriyà  
+01123 eva sahakàritvam.
+01201 samarthaş kuto jàyata iti cet, sva-kàraõebhyaş. 
+01202 tàny enam apara-pratyaya-saünidhàna kiü janayanti,  
+01203 kadàcid anyathà api syuş, tata÷ ca eko api kvacid janayed iti
+01204 cet, aparàpara-pratyaya-yogena pratikùaõaü bhinna-÷aktayaş 
+01205 saüskàràş santanvanto yady api kuta÷cit sàmyàt saråpàş  
+01206 pratãyante, tathà api bhinna eva eùàü svabhàvaş; tena kiücid
+01207 eva kasyacit kàraõam.  
+01208 tatra yo avyavadhàna-àdi-de÷o råpa-indriya-àdi-kalàpaş sa vij¤àna-
+01209 janane samartho hetuş. yas teùàü paraspara-upasarpaõa-  
+01210 àdy-à÷rayaş pratyaya-vi÷eùaş sa tad-hetu-janane samarthaş.
+01211 teùàü ca na pårvaü na pa÷càn na pçthag bhàva iti samarthàn  
+01212 api pårva-apara-pçthag-bhàva-bhàvino doùà na upalãyante. tena yas  
+01213 teùàü paraspara-upasarpaõa-àdi-hetuş sa samarthasya hetur iti tatra  
+01214 na kadàcid anyathàbhàvaş. anena nyàyena sarvatra hetu-phala-  
+01215 bhàva-pratiniyamo boddhavyaş pratikùaõam anyànya-svabhàva- 
+01216 bheda-anvayinãùu bhàva-÷aktiùu, na tu sthira-eka-svabhàveùu bhàveùu, 
+01217 svabhàvasya anyathàtva-asambhavàt samartha-asamartha-svabhàvànàü 
+01218 kriyà-akriyà-anupapatteş.
+01219 anya-sahitaş karoti na kevala iti cet, kiü kevalasya kàrya- 
+01220 janane samarthaş svabhàvo asamartho và samartha iti cet, kiü 
+01221 na karoti, akurvan kathaü samarthaş. kuvinda-àdayaş paña-àdi- 
+01222 kriyàyàü samarthà api na sarvadà kurvanti iti cet, krãóana-÷ãlo
+01301 devànàüpriyo  
+01301 mårkhaş sukhaidhitaş kçtam api punaş punaş
+01302 kàrayati, tathà hy etad bãja-àdy-upanyàse nirloñhitam. tasmàt
+01303 svabhàvasya anyathàtva-asambhavàt tad-dharmaõas tathàbhàvo  
+01304 antya-avasthà-vad anivàryaş.
+01305 antya-avasthàyàü pràg asamarthasya sàmarthya-utpattau
+01306 sàmarthyasya tat-svabhàvatve apårva-utpattir eva sà, atat-svabhàvatve 
+01307 so akàraka eva, sàmarthya-àkhyàd bhàvàt kàrya-utpatteş.  
+01308 api ca sa eva tàvat sakala-sahakàri-sahitaş kàryaü kasmàt  
+01309 karoti kurvan dçùñaş, tena karoti iti bråmaş. aho mahà-sàmarthyaü 
+01310 mahà-prabhàvasya dar÷anam atat-svabhàvàn api bhàvàn  
+01311 svabhàva-màtreõa nànà-vyàpàreùu niyu¤janam. yadi nàma
+01312 kadàcit kiücit kathaücit atra-bhavanto dar÷ana-patham atikràmet,
+01313 hanta-aprasava-dharmakam apeta-santànaü syàd iti iyaü 
+01314 cintà cittaü dunoti. na vai vayam atat-svabhàvànàm asmad-dar÷ana-
+01315 va÷àt kàrya-kriyàü bråmaş. kiü tarhi. svabhàvena eva te 
+01316 tat-karaõa-dharmàş, tàn pa÷yantaş kevalaü jànãmahe ta ete  
+01317 kàrakà iti. satyam, idam apy asti, svabhàvas teùàü kàrya-kriyà-
+01318 dharmà, tena samasta-pratyayavatàm akçtvà na upekùà àpattir iti. 
+01319 so akùepa-kriyà-dharmà svabhàvaş kiü teùàü tadà eva antya-  
+01320 avasthàyàm utpanna àhosvit pràg apy àsãt. àsãt, apracyuta-utpanna-  
+01321 sthira-eka-svabhàvànàü kadàcana kasyacit svabhàvasya abhàva-  
+01401 virodhàt. tat kim idànãü màtà ca vandhyà ca; ko và asya  
+01402 bhàùitasya artho akùepa-kriyà-dharmà ca svabhàvo na ca karoti iti.  
+01403 sahitas tat-svabhàvo na kevala iti cet, anyas tarhi kevalo 
+01404 anya÷ ca sahitas, svabhàva-bhedo hi bhàva-bhedasya lakùaõam.  
+01405 na hi sa sàhitye api pararåpeõa kartà; svaråpaü ca asya pràg 
+01406 api tad eva iti kathaü kadàcit kriyà-viràmaş. yasya api bhàvaş
+01407 kùaõikas tasya api kasmàt kevalo na karoti, yadi bhavet, kuryàd eva. 
+01408 kathaü na bhavati. kùaõikatvàt. uktaü yàdç÷asya kriyà. sa katham 
+01409 eka-kùaõa-bhàvy anyathà bhavet. ya÷ ca bhavati, sa eva na  
+01410 bhavati iti na ayaü prasaïgaş, kàraka-akàrakayoş svabhàva-tad- 
+01411 hetor virodhàt.  
+01412 yo api manyate akùepa-kriyà-dharmà eva sa tasya svabhàvaş,  
+01413 na sa sàhityam apekùate, kàryaü tu pratyaya-antara-apekùam
+01414 iti sahitebhya eva jàyate na kevalebhya iti, tasya api  
+01415 kathaü sa kevalo api karoty eva kàryaü ca tasmàn na utpadyate  
+01416 iti tad-avastho virodhaş. na kevalaş karoty eva iti cet, katham 
+01417 idànãm akùepa-kriyà-svabhàvaş. nanv etad eva paridãpitaü  
+01418 bhavati karoty eva iti; kàryaü ca ayaü kevalo api samarthaş
+01419 san param apekùamànaü katham upekùeta. param anàdçtya etad
+01420 prasahya kuryàt, evaü hy anena àtmanaş sàmarthyaü dar÷itaü  
+01421 bhavati. kàryaü param apekùata iti tataş kevalàd anutpattir  
+01501 uktà bhavati, sa kevalo api samartha-svabhàva iti tata utpattiü 
+01502 bråùe, ete ca ekatra kathaü syàtàm. tad ayam ãr÷yà-÷alya-vitudyamàna- 
+01503 marmà viklavaü vikro÷ati ity upekùàm arhati.  
+01504 tasmàd idam eka-arthakriyà-lakùaõaü sahakàritvaü kùaõikànàü  
+01505 eva bhàvànàm, na tv akùaõikànàü pçthagbhàva-sambhavànàm,
+01506 pçthak-kriyà-sambhavena sahakàritva-niyama-ayogàt.  
+01507 yatra tu santàna-upakàreõa bhàvà hetutàü pratipadyante 
+01508 yathà taõóula-bãja-àdibhya odana-aïkura-àdi-janmani dahana-udaka-  
+01509 pçthivy-àdayaş, tatra santàna-à÷rayeõa vi÷eùa-utpàdanaü pratyayànàü  
+01510 sahakriyà ucyate, na dravya-à÷rayeõa, kùaõike dravye vi÷eùa-  
+01511 anutpatteş; na hi taõóula-àdãnàü dahana-àdau krameõa svabhàva- 
+01512 ati÷aya-anutpattàv odana-àdi-siddhiş prabhàsvaràd và apavaraka-
+01513 praviùña-indriyasya sva-upakàribhyaş santàna-vi÷eùa-anutpattàv artha- 
+01514 pratipatti-janma. 
+01515 akùepa-kàriùu tv indriya-àdiùu na vi÷eùa-utpattiş parasparataş.  
+01516 tatra yathàsvaü pratyayaiş paraspara-upasarpaõa-àdy-à÷rayair ye  
+01517 yogya-de÷a-àdy-avasthà jàtàş, te saha svabhàva-niùpattyà j¤àna- 
+01518 hetutàü pratipadyanta iti tatra eka-arthakriyà eva sahakàritvam.  
+01519 yatra vi÷eùa-utpàdanena sahakàriõaş pratyayàs tatra hetu-  
+01520 santànaş pratyayàn apekùata iti tataş svabhàva-antara-pratilambha-  
+01521 ucyate. tatra sva-rasato hetu-pratyayànàü pårva-kùaõa-nivçttau  
+01522 tebhya eva vi÷iùña-kùaõa-utpàdàt krameõa yàvad ati÷ayavato 
+01523 antya-kàraõa-kalàpàt kàryasya utpattiş.  
+01601 sahakàriõaş samutpanna-vi÷eùàt kàraõàt kàrya-utpattau vi÷eùasya 
+01602 eva utpattir na yuktà. avi÷iùñàd vi÷eùa-utpattau kàryasya api  
+01603 syàt; paraspara-vi÷eùa-utpàdàn apekùiõo api sahakàriõaş kàryaü  
+01604 kurvãran. tena akùaõikànàm api sahakàry-anapekùàõàü kàraõatà 
+01605 syàt, apekùaõãyebhyaş svabhàva-ati÷aya-utpatti÷ ca na syàt. atha  
+01606 sahakàriõà kçta-vi÷eùa eva vi÷eùa-utpàdàv apy upatiùñheta; evam  
+01607 anavasthà syàt. na ca sahakàriõaş paraspara-kàrya-utpàda-anuguõa
+01608 vi÷eùa-utpàdane nityaü yogya-avasthà yena eùàü paraspara-  
+01609 kçta-vi÷eùo nitya-anuùaktaş syàt, tad-upàya-apàyayoş kàrya-vyakti-  
+01610 viraha-dar÷anàt. tena àdyo vi÷eùaş sahakàribhyo nirupakàrasya 
+01611 na utpadyata iti cet, na asmàkaü punaş punar vacane ka÷cid 
+01612 udvego bhavati; yady evam api lokasya nyàya-pratãtir bhavati, 
+01613 hanta tarhy ucyatàm. na vi÷eùa-utpàdanàd eva sahakàriõàü  
+01614 sahakàritvàü yatas tad-abhàvàd vi÷eùa-janane sahakàriõo na  
+01615 syuş. kiü tarhi. eka-arthakriyàyà api. sa api bhavet parasparato  
+01616 vi÷eùa-rahitànàm. atha bhavet, pçthag api bhavet; tathà ca tad
+01617 vi÷eùa-bhàvi kàryam api kevalàd bhavet iti cet, pratikùaõam 
+01618 aparàparaiş pratyayair yathà bhàva-santàne vi÷eùa-utpattir yogya-  
+01619 de÷atà-àdy-avasthà-vi÷eùàõàü ca kàrya-karaõaü teùàü ca yata  
+01620 utpattiş pratyekaü ca sàmarthye api yathà kevalànàm akriyà- 
+01701 kartç-vi÷eùasya pçthagbhàva-abhàvàt kàrya-dvaividhyaü ca sahakàri-
+01702 sa¤janita-vi÷eùa-paraüpara-utpatti-dharmakam anyac ca aïkura-àdi-  
+01703 vad akùepa-kàri-indriya-vij¤àna-vac ca kàrya-kàraõayoş svabhàva- 
+01704 bhedàd iti sarvam uktam. tatra sahakàribhyaş santàna-upakàra- 
+01705 apekùa-kàrya-kàraõa-janmani sahakàriõàm àdyo vi÷eùaş sahakàri- 
+01706 kçta-vi÷eùa-janmà na bhavati anantara-kàrya-vat, tat-prabhçti ye
+01707 vi÷eùàs te taj-janmànaş, tasya teùàü ca tat-prakçtitvàd iti
+01708 na anavasthà. tathà yady akùaõiko api bhàva àdya-vi÷eùa-kàraõa-vad 
+01709 ajanita-ati÷ayaş kàryaü kuryàt, karotu nàma; so asya svabhàvo  
+01710 yady akùepa-kartç-dharmà, pçthagbhàvasya sambhavàt kevalo
+01711 api tathà syàd ity uktam atat-svabhàvas tu tadà apy akàraka eva.
+01712 tasmàd akùaõikànàü kàraõànàü na eka-arthakriyayà ka÷cit 
+01713 sahakàritva-niyamo na api santàna-upakàreõa iti na tasya ka÷cit sahakàrã;
+01714 tasmàt kevalo api kuryàt. pràyas tu saüghàta-sthàyã bhàva- 
+01715 santànaş sahakàri-pratyayair upajanita-vi÷eùaş sva-kàryaü kurvan 
+01716 dçùñaş, bãja-àdi-vat. sthirahetuvàdino pratyaya-apekùàyàü kàrakasya
+01717 svabhàva-antarasya utpattir iti vyaktam; kàryasya apekùà ity
+01718 ucyate. kàrakasya svabhàvasya pràg api bhàvo akriyà na yujyate.  
+01801 tasmàd yo yad-àtmà sa sattà-màtreõa tàdç÷o bhavati; 
+01802 na bhåtvà tad-bhàve para-abhisaüskàram apekùate. svabhàvato  
+01803 asthiti-dharmaõo bhàvasya na kiücin nà÷a-kàraõaiş; sthiti-dharmaõo
+01804 api bhàvasya nà÷a-kàraõaiş kim, svabhàvasya kenacid anyathà  
+01805 kartum a÷akyatvàt. anyathàtva-pratipattau và tat-svabhàva eva 
+01806 na syàd iti pårva eva vikalpaş, tatra ca uktam. ya÷ ca parasmàd 
+01807 anyathàbhàvaş so aparaş svabhàvaş ya÷ ca aparaş sa kathaü  
+01808 tasya, svabhàva-bheda-lakùaõatvàd bhàva-bhedasya. tathà ca pårvako  
+01809 bhàvo acyuti-dharme sthita iti na tasya anyathàbhàvaş.
+01810 etena kañhina-àdãnàü tàmra-àdãnàm agny-àdibhyo drava-àdi-
+01811 svabhàva-antara-utpattiş pratyuktà. tatra api pårvakasya sva-rasa-nirodhitvàd
+01812 vinà÷e agny-àder upàdànàc ca apara eva drava-àdi-svabhàva-
+01813 utpannaş.
+01814 sa svayaü sthiti-dharmà eva, vinà÷a-hetv-asambhave avasthànàt.  
+01815 tasya parasmàd vinà÷aş, na ca vinà÷o nàma aparaş svabhàvaş,
+01816 bhàva-cyutir eva vinà÷a iti cet, na idam uttaraü vikalpa- 
+01817 dvayam atikràmati. kiü nityo bhàvaş svabhàvena àhosvid anityo iti
+01818 vikalpe pràï nityo bhåtvà pa÷càd anityo bhavati iti bruvàõaş
+01819 pràktanasya nitya-abhimatasya sarvadà nitya-anitya-svabhàva-bhedaü  
+01820 bhàva-dvayaü ca svayaü ca nà÷am anà÷aü ca pràha iti 
+01821 pårvasmin vinà÷a-hetur asamarthaş. na pràï nityo bhåtvà pa÷càd 
+01822 anityo bhavati. kiü tarhi. pa÷càd api nityo eva, eka-svabhàvatvàt.
+01823 sa tarhi bhàvaş svabhàvena nà÷am anàvi÷an kathaü naùño 
+01901 nàma, tat-svabhàva-vinà÷ayor aparaspara-råpatvàt. 
+01902 tasmàt saty asya vinà÷e vinà÷a-svabhàvena anena bhavitavyam.
+01903 tathà api vyartho vinà÷a-hetur ity uktam. tena svabhàvato
+01904 na÷vare ana÷vare và bhàve na vinà÷a-hetor upayogaş.
+01905 tasmàd vinà÷e anapekùo bhàvas tad-bhàva-niyata iti yaş  
+01906 san sa vinà÷ã, nà÷varatàyà nivçttau ca sattva-nivçttir ity
+01907 anvaya-vyatireka-siddhiş.  
+01908 svabhàvato na÷varatve api ka÷cid atat-svabhàvo api syàt, na  
+01909 hi sarvaş sarvasya svabhàva iti na anvaya-vyatireka-siddhir iti cet,
+01910 na, akùaõikatve avastutva-prasaïgàt. ÷aktir hi bhàva-lakùaõam, 
+01911 sarva-÷akti-viraho abhàva-lakùaõam. na ca akùaõya kvacit kàcic  
+01912 ÷aktiş, kramayaugapadyàbhyàm arthakriyà-virahàt. tasmàd yat
+01913 sat tat kùaõikam eva iti vyàpti-siddhiş. 
+01914 arthàntare gamye kàrye kàryaü hetuş, avyabhicàràt. 
+01915 kàryakàraõabhàvena yadi liïgasya gamakatvam, sarvathà 
+01916 gamyagamakabhàvaş. sarvathà janyajanakabhàvàd iti cet,
+01917 na, tad-abhàve bhavataş tadupatti-niyama-abhàvàt. tasmàt 
+01918 kàryaü svabhàvair yàvadbhir avinàbhàvi kàraõe, teùàü 
+01919 hetuş, tat-kàryatva-niyamàt, tair eva ca dharmair ye tair  
+01920 vinà na bhavanti. aü÷ena janyajanakatva-prasaïga iti cet, na,
+01921 taj-janya-vi÷eùa-grahaõe abhimatatvàl liïga-vi÷eùa-upàdhãnàü ca sàmànyànàm.
+02001 avi÷iùña-sàmànya-vivakùàyàü vyabhicàràn na iùyate.  
+02002 kasyacit kadàcit kuta÷cit bhàve api sarvas tàdç÷as tathàvidha-
+02003 janmà iti kuto avasitam. tathà ca na anvaya-vyatirekàv iti cet, 
+02004 na, atad-bhàvinas tasya sakçd api tato abhàvàt. paraspara-apekùayà
+02005 janya-janaka-svabhàva-lakùaõe kàrya-kàraõe. tatra yadi 
+02006 dhåmo agny-àdi-sàmagryà anyato api bhavet, tasya taj-janyaş
+02007 svabhàvo na bhavati iti sakçd api tato na bhaved arthàntara-vat,
+02008 na api sàmagrã taü janayet, ataj-janana-svabhàvatvàt sàmagry-antara-  
+02009 vat. na ca dhåmasya tad-ataj-janya-svabhàvo yuktaş,  
+02010 eka-svabhàvatvàt. dhåma-adhåma-janana-svabhàvàd bhavato dhåma-
+02011 adhåma-svabhàvaş syàt, kàrya-svabhàvànàü kàraõa-svabhàva-kçtatvàd
+02012 akàraõa-apekùaõe ca ahetutva-prasaïgàt. tasmàd yo  
+02013 dhåma-jananaş, so agny-àdi-sàmagrã-vi÷eùaş yo agny-àdy-sàmagrã-  
+02014 vi÷eùa-janitaş so dhåma iti kàrya-kàraõayor evaü svabhàva-niyamàt  
+02015 tad vijàtãyàd utpattir na bhavati. tat kàryaü kàraõaü  
+02016 na vyabhicarati. tena siddhe kàryakàraõabhàve kàryasya  
+02017 kàraõena vyàptiş siddhà bhavati. 
+02018 nanu vijàtãyàd api kiücid bhavad dçùñam, tad yathà 
+02019 gomaya-àdeş ÷àlåka-àdiş. na vijàtãyàd utpattiş. tathàvidham
+02020 eva hi tàdç÷àm àdi-nimittam iti na kàraõa-bhedaş. prabandhena 
+02101 vçttau tu ÷aràd bhavati. asti ca gomaya-itara-janman-svabhàva-  
+02102 bhedo råpasya abhede api, na hy àkàra-tulyatà eva bhàvànàü 
+02103 tattve nimittam, abhinna-àkàràõàm api keùàücid anyato vi÷eùàj 
+02104 jàti-bheda-dar÷anàt. anyathà hi vilakùaõàyà api sàmagryà
+02105 avilakùaõa-kàrya-utpattau ca kàraõa-bheda-abhedàbhyàü kàrya-bheda-
+02106 abhedàv ity ahetukau vi÷vasya bheda-abhedau syàtàm. tathà  
+02107 hi na bhedàd bheda ity abhedàd api na abhedaş, tad-vyatirikta÷  
+02108 ca na ka÷cid bhàva-svabhàva ity ahetukatvàd bhàvànàü nityaü
+02109 sattvam asattvaü và syàt, apekùyasya abhàvàt. apekùayà hi 
+02110 bhàvàş kàdàcitkà bhavanti vyavasthàvàü÷ ca sàdhyeùu
+02111 sàdhana-niyogo na syàt. kàraõa-÷akti-pratiniyame hi kiücid eva 
+02112 kasyacit sàdhanàya upàdãyeta, na aparam, tasya eva tatra ÷akter
+02113 anyasya ca a÷akteş, tayos taj-janana-itara-svabhàvatvena bhedàt. 
+02114 taj-janana-svabhàva-vilakùaõàd api tasya utpattau na taj-janana-  
+02115 ÷akti-niyame iti yat-yataş-kuta÷cit syàt, taj-janana-
+02116 ÷akti-sàmye tu tad eva iti na kàryaü dçùñaü kàraõaü vyabhicarati. 
+02118 upalabdhi-lakùaõa-pràptasya anupalabdhir abhàva-hetur abhàva- 
+02119 vyavahàra-hetur và.
+02120 atra upalabdher upalabhamàna-dharmatve taj-j¤ànam upalabdhiş.
+02121 tasmàd anya-upalabdhir anupalabdhiş, vivakùita-upalabdher  
+02122 anyatvàd abhakùya-aspar÷anãya-vat paryudàsa-vçttyà. upalabhyamàna- 
+02123 dharmatve sva-viùaya-vij¤àna-janana-yogyatà-lakùaõo viùaya- 
+02201 svabhàva upalabdhiş, yogyatàyà bhàva-råpatvàt. tasmàd anya-upalabdhi-
+02202 yogyatà eva anupalabdhiş pårvavat. yatra yasminn upalabhyamàne 
+02203 niyamena yasya upalabdhir bhavati yogyatàyà avi÷eùàt, 
+02204 sa tat-saüsçùñaş, eka-j¤àna-saüsargàt. tayoş sator na eka-råpa- 
+02205 niyatà pratipattiş, asambhavàt. tasmàd avi÷iùña-yogyatà-råpayor  
+02206 eka-j¤àna-saüsargiõoş paraspara-apekùam eva anyatvam iha abhipretam,
+02207 pratyàsatter à÷rayaõàt. sa kevalaş tad-apekùayà
+02208 tad-anya iti taj-j¤ànaü tat-svabhàvo và j¤àtç-j¤eya-dharma-  
+02209 lakùaõa-anupalabdhiş. sà abhàvaü pratiyogino abhàva-vyavahàraü
+02210 và sàdhayati.
+02211 katham anyabhàvas tad-abhàvaş, yena abhàva-råpa-anupalabdhir
+02212 abhàva-vyavahàraü sàdhayed iti cet, uktam atra yathà paryudàsa- 
+02213 vçttyà apekùàto abhàvo anupalabdhi÷ ca anupalabdhiş. na pratiùedha- 
+02214 màtram, tasya sàdhana-asiddher abhàva-vyavahàra-asiddhi-
+02215 prasaïgàt. tasya asaüsçùña-råpasya bhàva-siddhir eva aparasya abhàva-  
+02216 siddhir ity anyabhàvo api tad-abhàva iti vyapade÷yate. 
+02217 anyabhàva-lakùaõo bhàvaş svayaü pramàõa-siddhas tad-abhàva-
+02218 vyavahàraü sàdhayet tat-siddhi-siddho và tad-abhàva iti
+02219 na ka÷cid vi÷eùaş, yena anupalabdhyà abhàva-vyavahàra-siddher virodhaş  
+02301 syàt. sa eva anyabhàvas tad-viùayà ca upalabdhis tad-abhàvasya  
+02302 kiü na sàdhanam, kiü punar anyabhàvasya siddhir eva 
+02303 tad-abhàva-siddhir iti cet, apçthak-siddhiş sambandha-abhàvàc ca.  
+02304 anyabhàvas tàvan na sàdhanam.  
+02305 yat-siddhau yasya na siddhiş, tat tasya liïgaü bhavati, dhåma-  
+02306 agni-vat. anyabhàva-siddhyà eva tad-abhàvaş prasidhyati, tasya  
+02307 tad-anya-asaüsçùña-råpasya tattva-vyavasthàpakena pramàõena eva anya-  
+02308 vyavaccheda-siddheş. 
+02309 sambandha-abhàvàc ca. tac ca tasya liïgaü yadi syàt, tasya 
+02310 tena ka÷cit sambandho bhavet, yathà kçtakatva-anityatvayor eka-artha-  
+02311 samavàyo dhåmasya liïgina÷ ca eka-artha-samavàyo và àdhàràdheyabhàvo
+02312 và janyajanakabhàvo và. na evaü ka÷cid bhàva-abhàvayoş 
+02313 sambandhaş, yena asya sàdhanaü syàt.  
+02314 asti viùayaviùayibhàvaş ÷abda-artha-sambandha-vad iti cet, ÷abda- 
+02315 arthayos tat-pratipàdana-abhipràye sati tat-prayogàt tena saha
+02316 kàrya-kàraõa-lakùaõo avinàbhàva-lakùaõo và sambandhaş syàt.  
+02317 ayaü ca atra na sambhavati iti kathaü viùayaviùayibhàvaş syàt.  
+02318 siddhe hi tayoş sàdhyasàdhanabhàve tan-mukhena viùayaviùayibhàvaş 
+02319 syàt; sa eva asati sambandhe na sidhyati; tad-asiddhau
+02320 viùayaviùayibhàvo api na. anyathà itaretara-à÷rayam idaü syàt. 
+02321 anyabhàvàc ca abhàva-siddhàv asamudàya÷ ca sàdhyaş 
+02322 syàt. tathà ca ghaña-abhàvas tad-anyabhàvàd iti ghañasya sarvatra  
+02323 sarvadà ca abhàvaş syàt. na, prade÷a-àdi-dharmy-abhàva-sàdhanàd iti  
+02401 cet; prade÷a-àdi-dharmi-vi÷eùaõa-bhåto abhàvaş sàdhyate, na tu 
+02402 kevalaş; tato na asamudàyasya sàdhyatà. na ca liïga-liïginor 
+02403 asambandho anyabhàvasya prade÷a-àdinà dharmiõà sambandhàd
+02404 iti manyate. na, prade÷a-àder eva anyabhàvatvàt. yatra eva hi 
+02405 prade÷e yan na asti ity ucyate sa eva tena asaüsçùño anyabhàvaş. 
+02406 tad-dar÷anàd eva asya ghaño na asti iti vikalpa iti kathaü tasya eva  
+02407 liïgaliïgibhàvaş.
+02408 na ca atra sàmànya-vi÷eùa-bhàva-kalpanà sambhavati, yena
+02409 sàmànyaü hetur bhavet vi÷eùo dharmã iti, tad-vi÷eùa-pratipatter eva  
+02410 tad-abhàvasya pratãtes tasya ca anyatra anya-abhàvàt. pratij¤àrthaikade÷atvàc
+02411 ca na hetutvam. na ca yatra prade÷a-màtraü  
+02412 tatra ghaña-abhàvaş. tàdç÷e kevale prade÷e abhàva eva iti cet,  
+02413 nanu tasya eva kevala iti ghaña-viraha iti. sa ca liïgabhåta- 
+02414 prade÷a-pratipattàv eva siddhaş. kasya idànãü tal liïgam. anvayasya
+02415 anugamanaü ca nirarthakam. tasmàd anyabhàvo na sàdhanam  
+02416 abhàvasya. 
+02417 asti virodhaş sambandhaş, tato anyabhàvàd abhàvasya 
+02418 siddhir iti cet, kena kasya virodhaş. anyabhàvena pratiyoginaş. 
+02419 kiü nu vai pratiyogã pramàtum iùño, yena liïga-liïginor virodhaş
+02420 sambandhaş syàt. abhàvas tu pratiyogino ghañasya anyabhàvena aviruddhaş, 
+02421 saha-avasthànàt. tasmin prameye liïga-liïginoş kathaü  
+02422 virodhaş. tasmàt sambandha-abhàvaş. atra apy asamudàya-sàdhyatvaü 
+02423 tad-avastham.  
+02424 nanv anyabhàva-tadbhàvayor asati sambandhe anyabhàva- 
+02425 gatyà api tad-abhàva-gatir na syàd iti cet, na vai kuta÷cit sambandhàd 
+02501 anyabhàvas tad-abhàva-gamaka iùñaş, kiü tv anyabhàva- 
+02502 eva tad-abhàvaş, yathoktaü pràk. tasya anya-asaüsçùña-råpasya kevalasya  
+02503 ekàtma-vyavasthitasya tadàtmanà paricchedasya eva anya-vyavacchedatvàt
+02504 tasya kaivalyam aparasya vaikalyam iti tad-anyabhàva
+02505 eva tad-abhàvaş, tad-anya-pratipattir eva ca tad-apratipattir 
+02506 iti. anyathà tasya paricchedena tato anyasya avyavacchede  
+02507 tat-pariccheda eva na syàt, tad-atadråpayor avivekàt. ya eùa 
+02508 vyavahàraş kasyacid dar÷anàt kvacit pràpti-parihàra-arthaş, sa
+02509 na syàt. na hy ayam analaü pa÷yann api kevalam analam
+02510 eva pa÷yati, yena salila-arthã na pravarteta.
+02511 anupalambhena salila-abhàvaş pratãyata iti cet, ko ayam anupalambho 
+02512 nàma. yadi salila-upalambha-abhàva iti, kathaü so abhàvaş 
+02513 kasyacit pratipattiş pratipatti-hetur và; tasya api kathaü 
+02514 pratipattiş. tasya tato và anyasya kasyacid apy apratipattàv 
+02515 apy abhàva-pratipattau satyàü svàpa-mada-mårchà-vyavadhàna-  
+02516 pçùñhãbhava-àdy-avasthàsv apy abhàvaş kiü na pratãyate. bhåyo api  
+02517 vicàritaü pramàõavini÷caye. tasmàd ayam analaü pa÷yann apy  
+02518 analo ayaü na salilam ity anadhyavasyan na tiùñhen na api  
+02519 pratiùñheta iti dustaraü vyasanaü pratipannaş syàt.  
+02520 tata eva ekasya dar÷anàd anya-abhàva-gatir bhavati iti cet,
+02521 katham ekaü dçùñam anyan na asti iti pratyàyayati. kevalasya  
+02601 dar÷anàd iti cet, idam eva asmàbhir abhihitam, kasmàt tava atra 
+02602 paruùam iva àbhàti. tasmàt tãra-adar÷inà eva ÷akuninà paryañà 
+02603 api pratyàgantavyam ity alam avidyamàna-pratiùñhànayà di÷aş  
+02604 pratipattyà.  
+02605 yady eka-paricchedàd eva anya-vyavacchedaş sidhyati, sarvasya  
+02606 anyasya avi÷eùeõa tatra abhàva-siddhir bhavet, na tulya-yogya-avasthasya 
+02607 eva; upalabdhi-lakùaõa-pràptasya anupalabdhir abhàva-sàdhanã
+02608 iti vi÷eùaõaü ca na vaktavyam, anupalabdhi-lakùaõa-pràptànàm
+02609 api tatra vyavacchedàt. ekàtma-paricchedàt tad-anya-àtma-  
+02610 vyavacchedaş, tad-àtma-niyata-pratibhàsa-j¤ànàt na hi tadàtmà
+02611 tad-anyasya àtmà bhavati. anya-àtmano avyavacchede pravçtti-
+02612 nivçttyor abhàva iti pårvaş prasaïgaş. taü ca de÷a-kàla-svabhàva-
+02613 avasthà-niyataü tadàtmanà upalambhamànà buddhis tathàtva-  
+02614 pracyutim asya vyavacchinatti. evaü hi sa tayà paricchinno 
+02615 yady anyathàbhàvo vyavacchinno bhavati tathàtvaü ca  
+02616 tasya eva bhavati na anyasya ity anyathàbhåtàd vyavacchindaty 
+02617 eva tat paricchinatti. evam ekasya pramàõasya vçttiş sarva-
+02618 bhàvàn dvairà÷ye vyavasthàpayati, tasya anvaya-vyatireka-buddhi- 
+02619 hetutvena eva sàphalyàt. 
+02620 tad-vyatiriktasya a÷eùasya vyavacchedena vyàpti-sàdhanàd eva
+02621 prakàra-antara-abhàvaş sidhyati, tasya tad-anyatayà vyàpty-abhàve  
+02622 tena tad-artha-avyavacchedàt punar bhàvasya apariccheda-prasaïgàt.
+02623 tasmàt kvacit pramàõaü pravçttaü tat paricchinatti 
+02624 tad-anyad vyavacchinatti tçtãya-prakàra-antara-abhàvaü ca  
+02701 såcayati iti eka-pramàõa-vyàpàra eùaş. tathà hi kvacit pramàõaü
+02702 pravçttaü tad eva tad-anyasmàd vyavacchinatti, 
+02703 tasya eva paricchedàt, tad-anyad eva ca tasmàd vyavacchinatti,
+02704 tatra aparicchedàt. atas tad eva pramàõaü prakàra-antara-abhàvaü 
+02705 sàdhayati, tasmin dç÷yamàne adçùñasya tad-anyatvena sarvasya 
+02706 vyavasthàpanàd atad-anyasya eva ca tattvena vyavasthàpanàt.
+02707 etena krama-akrama-àdayo apy anyonya-vyavaccheda-råpà vyàkhyàtàş. 
+02709 tad evaü ekasya upalambhàt tasya tad-anya-àtmano vyavacchedaş,
+02710 na tad-de÷a-kàlayoş sarvasya anyasya bhàvasya vyavacchedaş.  
+02711 tasmàd atadàtmà ca syàt tad-de÷a-kàla÷ ca, rasa-råpa-àdi-  
+02712 vat. tasmàd yathoktàd eva anupalambhàt kvacit kadàcit
+02713 kasyacid abhàva-siddhiş.  
+02714 anyabhàva-viùaya-upalabdhir api tad-abhàvasya sàdhikà iùñà eva,  
+02715 na tu liïgatvena, tatra apy abhàvasya pçthak sàdhyatve 
+02716 sambandha-abhàvasya tulyatvàt. liïga-àvirbhàva-kàla eva tad-abhàva-  
+02717 siddheş. na hy anyabhàvaü pratipadya tat-pratipatter anvaya-  
+02718 vyatirekau prasàdhya tad-abhàvaü pratipadyate. kiü tarhi.  
+02719 tad-anyaü pratipadyamàna eva tad-abhàvaü pratipadyate, 
+02720 dar÷ana-anantaraü vyavadhànena vinà idam asti idaü tu na asti iti 
+02721 vyavasthàpanàt, dçùñànta-asiddheş. tac ca tasya liïgaü yad
+02722 yasya anvayi vyatireki ca. na hy evaü ÷akyaü dar÷ayituü yatra anya-  
+02723 bhàva-upalabdhis tatra tad-abhàva iti, tad-eka-upalabdheş kvacid apy  
+02724 abhàvàt. sàmànyena pradar÷ane dçùñànte api pramàõa-antara-abhàvàt  
+02725 sà eva tad-anyabhàva-upalabdhiş sàdhya-dharmasya sàdhikà iti
+02726 dçùñànta-anavasthitvàd apratipattiş. 
+02801 tasmàn na kuta÷cil liïgàd abhàva-siddhiş. so anyabhàvaş  
+02802 pratyakùa-lakùaõena anupalambhena siddho måóha-pratipattàv  
+02803 abhàva-vyavahàraü sàdhayed ity alaü prasaïgena. 
+02804 sà iyaü tridhà anupalabdhiş. siddhe kàryakàraõabhàve 
+02805 bhàvasya kàraõasya anupalabdhir vyàpyavyàpakabhàva-siddhau  
+02806 siddha-abhàvasya vyàpakasya anupalabdhiş svabhàva-anupalabdhi÷ ca.
+02807 tatra kàraõa-vyàpakayor api svabhàvasya asad-vyavahàra-siddhir  
+02808 anyabhàva-siddher eva. sa tatra asiddhaş kàrya-vyàpyayor abhàvam 
+02809 abhàva-vyavahàraü và sàdhayati. svabhàva-anupalabdhau tv anupalabdhyà
+02810 liïgabhåtayà abhàva-vyavahàra eva sàdhyate.
+02811 yadi kàraõa-vyàpakau tad-anyabhàva-siddhi-råpayà anupalabdhyà  
+02812 siddha-asad-vyavahàràv anyasya abhàvam abhàva-vyavahàraü 
+02813 ca sàdhayataş sà ca anupalabdhis tayor upalabdhi-lakùaõa-
+02814 pràptàv eva asad-vyavahàrasya sàdhikà, kathaü tayoş parokùe  
+02815 arthe prayogaş. na eva prayogaş pramàõatayà, liïgasya ani÷cayàt. 
+02816 kevalaü kàraõa-vyàpakayoş siddha-sambandhayor yady abhàvaş 
+02817 parasya ava÷yam abhàva-ni÷caya iti dar÷ana-artham ete prayujyete.
+02818 ity eùa pakùa-dharmo anvaya-vyatirekavàn iti tad-aü÷ena  
+02819 vyàptas tri-lakùaõas triråpa eva hetur gamakaş, sva-sàdhya- 
+02820 dharma-avyabhicàràt.  
+02821 ùaó-lakùaõo hetur ity apare. trãõi ca etàny abàdhita-viùayatvam 
+02901 vivakùita-eka-saükhyatvaü j¤àtatvaü ca iti. 
+02902 tatra abàdhita-viùayatvaü tàvat pçthag lakùaõaü na bhavati,
+02903 bàdha-avinàbhàvayor virodhàt. avinàbhàvo hi saty eva sàdhya-  
+02904 dharme bhàvo hetoş. sa hetus tal-lakùaõo dharmiõi syàt, atra  
+02905 ca sàdhya-dharmaş kathaü na bhavet. pratyakùa-anumàne hi  
+02906 sàdhya-dharmaş bàdhamàne taü dharmiõo niùkàsayataş,  
+02907 tasmin saty eva hetur bhavaüs taü tatra eva dharmiõy avasthàpayati 
+02908 iti paraü bata bhàvànàm asvàsthyam. anyatra 
+02909 sàdhya-dharmeõa avinàbhàvã hetur na dharmiõy eva iti cet, tat 
+02910 kim ayaü tapasvã ùaõóham udvàhya putraü mçgyate. yasya 
+02911 dharmiõy asaty api sàdhya-dharme bhàvas tam upadar÷ya 
+02912 kathaü sa dharmã sàdhya-dharmavàn ity ucyate. ata eva bàdhà  
+02913 bhàva uktaş; syàd etat: yata eva hetur anyathà api bhavet, ata
+02914 eva pramàõàbhyàm abàdhita-dharmà dharmã ity ucyate iti tat 
+02915 kim idànãü hetoş sàmarthyam abàdhayà eva sàdhya-siddheş. 
+02916 yadi sàdhya-abhàvo bàdhaka-pramàõa-vçttau niyataş. abàdhàyàü  
+02917 sàdhya-siddhir iti vyartho hetuş; bàdhàyàm api, sàdhana-sàmarthya  
+02918 abhàvàt. aniyame na ca bàdhakaü pramàõaü syàt sàdhya-abhàvasya
+02919 ca sambhava iti na sàmarthyam abàdhàyàş. 
+02920 na bàdhàyà abhàvo abàdhà. kiü tarhi. bàdhàyà anupalabdhiş. 
+02921 sà ca puruùasya kvacid bàdha-asambhave api syàd iti sa  
+02922 hetu-prayogasya viùayaş. kiü nu vai hetur bàdha-upalabdher api
+02923 bibheti, na punar bàdhàyàş, yena bàdhàm anàdçtya apy anupalabdhau 
+02924 prayoktavya iùñaş. sa tarhi hetuş paramàrthena 
+03001 bàdhà kim asti na asti ity anapekùya bàdhà-anupalabdhau prayoktavyaş  
+03002 kim arthaü prayujyate. sàdhya-siddhy-artham. sa kiü
+03003 kvacit satyàm api bàdhàyàü sàdhyaü sàdhayet, yena asyà abhàva
+03004 ni÷cayaü prati yatno na kriyate hetu÷ ca prayujyate. tathà 
+03005 ca abàdhita-viùayatvaü hetu-lakùaõaü na bhavati, bàdhàyàm  
+03006 api satyàm asya sàmarthyàt; tathà ca anabhyupagamye saü÷ayitasya 
+03007 pravçtty-ayogàd yathà anupalabdhau bàdhà-sadbhàva-sambhave  
+03008 apy abhyupagamya prayujyate, tathà bàdha-upalabdhàv api  
+03009 prayujyatàm, abhyupagame vi÷eùa-abhàvàt.
+03010 na bàdhàyàü satyàü sàmarthyam iti cet, yady evaü  
+03011 prayuktasya apy asàmarthya-pràptir ity anirõãta-bàdhà-sambhavaş
+03012 prayogaü na arhati. bàdhà-anupalambhe sàmarthyam iti cet, kim
+03013 upalambho bàdhàü vyàpnoti, yata evaü hetor bàdhà-sambhava-
+03014 kçtam asàmarthyaü na sambhavet. atha tan-nivçttau bàdhà  
+03015 nivartate, tathà api bàdhà-anupalambhàd eva sàdhya-siddher vyartho 
+03016 hetuş, anupalambhe bàdhàyà asambhavàt. upalambhasya nivçttàv  
+03017 api bàdhàyà anivçttau tad-avasthaü hetor asàmarthyam
+03018 ity aprayogaş. tasmàt sva-sàdhya-bhàva-abhàvàbhyàm anyathà api
+03019 bhavan hetur dharmiõi kiücin na bhàvayati na vibhàvayati ity
+03020 upakùepo na samarthaş. tan na bàdhà-avinàbhàvau sahàvasthitau;
+03021 tena abàdhà råpa-antaraü na bhavati.
+03022 tan nàma tasmàd vi÷eùaõa-antaraü lakùaõa-antara-upàdàna-arthaü
+03023 và bhavet, yasya bhàve api yasya anyasya abhàvaş. tad yathà 
+03024 pakùadharmatvaü sapakùe ca bhàva iti. na ca etad bàdhàyà avinàbhàve  
+03101 sati sambhavati iti na sàdhya-viparyaya-avibhàvinor hetu-viruddhayor 
+03102 viùaye bàdhà sambhavati iti na tad-abhàvaş pçthag 
+03103 anayor lakùaõa-antaratvena vàcyaş. tasmàd hetoş prayoge
+03104 pratij¤àyà doùàõàü sambhavo na asti. na api kevalà pratij¤à 
+03105 prayujyata iti na pratij¤à-doùà vàcyàş.  
+03106 etena eka-saükhyà-vivakùà api pratyuktà. katham. eko hi sva-  
+03107 sàdhya-bhàva eva bhàvàt tad-avyabhicàrã. tatra eva tasmàd anyas  
+03108 tad-bàdhakasya eva bhàvàt tad-viruddha ity atra bàdhayà  
+03109 samànam.
+03110 api ca kiü vastuto asambhavat-pratihetuş sa samyag-j¤àna-  
+03111 viparyaya-hetur àhosvid apradar÷ita-pratihetuş kiü ca ataş.
+03112 yady asambhavat-pratihetuş, a÷akya-ni÷cayatvàd alakùaõam 
+03113 etat. hetv-abhàvo và. na hy ani÷cita-àtmanaş pratipàdaka-dharmasya
+03114 tal-lakùaõatvaü bhavati yathà sandigdha-pakùadharmatvasya, 
+03115 na api sandigdha-lakùaõo hetur bhavati iti na ka÷cid hetur 
+03116 bhavet. tulya-lakùaõe hi dçùñaş pratiyogi-sambhavo adçùña-  
+03117 pratiyogiùv api ÷aïkàm utpàdayati, vi÷eùa-abhàvàt; sati và 
+03118 vi÷eùe hetor lakùaõam; tato hi hetur ekàntena nirasta-pratipakùaş
+03119 sva-sàdhyaü ni÷càyayati ity atal-lakùaõo na hetuş syàt. tathà ca 
+03120 vyartha-eka-saükhyà-vivakùà. ato viruddhàvyabhicàriõo lakùaõaü
+03121 hãyeta svalakùaõa-yuktayor hetvor ekatra dharmiõi virodhena upanipàte
+03122 viruddhàvyabhicàrã iti. na ca tasya vi÷eùasya svaråpaü
+03123 nirdi÷yate, yat pratãtya pratiyoginaş sambhava-asambhavàv 
+03124 utpa÷yàmaş. tasmàn na asty eva vi÷eùa iti sarvatra ÷aïkayà  
+03201 bhavitavyam; dçùña-pratihetor api hetoş pràg itareõa na ka÷cid
+03202 vi÷eùo lakùyate. na ca sambhavat-pratihetånàm api sarvadà
+03203 tasya upalabdhiş; ati÷ayavatã tu praj¤à-utprekùiõã dçùñà. tena ani÷cayaş
+03204 sambhava-asambhavayor iti lakùaõasya ani÷citatvàn na
+03205 ka÷cid hetuş syàt.  
+03206 atha apradar÷ita-pratihetuş, yathà àha: yadà tarhi ÷abdatvaü  
+03207 nityam abhyupagacchati, tadà ayaü hetur eva syàt, yady atra anityatva  
+03208 hetuü kçtakatva-àdi ka÷cin na dar÷ayed iti. idam aprakà÷yam  
+03209 apy asaüvaraõãyam api iti kaùñhataraü vyasanam àyàtaü
+03210 kathaü nirvoóhuü ÷akyeta. sa tàvad ayaü hetur vaståni  
+03211 sva-sàdhya-tattva-prakçtãni kçtvà tat-pramàõakàn puruùàn abhyudaya  
+03212 niş÷reyasàbhyàü saüyojayitvà punaş pratibhàvatà 
+03213 puruùeõa hetv-antara-nidar÷anena utkãlita-sàdhana-sàmarthyas tàni  
+03214 vaståni tàü÷ ca puruùàn tadbhàva-sampadaş pracyàvya-  
+03215 bhraùña-ràjya iva ràjà tapovanaü gacchati iti kiü atra bråmaş. 
+03216 puruùa-pratibhàkçtaü ca sàdhanatvam. tat kiü vastutaş
+03217 sàdhanam asàdhanaü và. sa ca hetuş svabhàvatas tad-dharma-bhàvã 
+03218 yadi katham anyathà kriyeta, vastånàü svabhàva-anyathàbhàvasya 
+03219 ubhayo÷ ca viruddha-svabhàvayor abhàvàt. atad-dharma-bhàvã 
+03220 ca katham anyadà api sàdhanaü kasyacit. 
+03221 tasmàt svabhàvataş sva-sàdhya-avinàbhàvinor ukta-lakùaõayoş  
+03222 kàrya-svabhàvayos tal-lakùaõasya pratihetor asambhavàd alakùaõam 
+03301 eka-saükhyà-vivakùà, vyavacchedya-abhàvàt.
+03302 j¤ànaü punar aliïga-dharmatve kathaü liïga-lakùaõaü  
+03303 bhaviùyati. kiü-råpàl liïgàd artho j¤àtavya iti cintàyàü pratipattur 
+03304 avisaüvàdakasya råpam abhidhãyate, yasya dar÷anàd 
+03305 ayaü sàdhana-asàdhane pravibhajya tasya iùña-artha-saünidhàna 
+03306 pratyayàt pravçttim avalambate. tathà yad asya àtma-råpaü tal 
+03307 lakùaõam, na tu pararåpam. pratipatti-janmany upayoga-màtràt 
+03308 tal-lakùaõatve atiprasaïgaş. evaü prameya-puruùa-àdãnàm api 
+03309 tal-lakùaõatvaü bhavet, na hi teùv asatsu liïgini j¤ànaü bhavati. 
+03310 ni÷cita-grahaõaü tarhi na kartavyam. na na kartavyam,
+03311 tasya anya-arthatvàt. sapakùa-vipakùayor dar÷ana-adar÷anàbhyàü gamakaü  
+03312 hetum icchatàü na eva samartho hetur bhavati, sator api 
+03313 dar÷ana-adar÷anayor agamakatva-dar÷anàt. tena bhàva-abhàvàbhyàü 
+03314 gamaka iti j¤àpana-arthaü ni÷cita-grahaõam. tena pararåpaü
+03315 lakùaõaü na bhavati, tena liïgasya råpa-vi÷eùa-anabhidhànàt, tau
+03316 hi bhàva-abhàvau tad-bhàva-sàdhaka-vçttyà boddhavyau, upàya-antara- 
+03317 abhàvàt. tena, yady api bhàva-abhàva-vacana-màtreõa tat-sàdhana-
+03318 pramàõam àkùipyate, tayoş pratipàdanàya ni÷cita-÷abdaş  
+03319 prayukto lakùaõe, anyathà j¤àna-sattà-nibandhanatvàj j¤eya-
+03320 sattà-vyavasthàyàs tayor eva sattà-prasiddher iti sarvatra
+03401 sattà-vyavasthà eva tat-sàdhanaü pramàõam àkarùati. paràrthatvàc 
+03402 ca ÷àstra-praõayanasya. triråpaü liïgaü saüvàdakam 
+03403 arthasya iti tad råpaü ye na vidanti, na teùàü tataş pravçttir iti 
+03404 para-upalakùaõatvàd yady api j¤ànaü siddham, tathà api tàv eva  
+03405 bhàva-abhàvau kecid dar÷ana-adar÷ana-màtreõa vyavasthàpayanti iti  
+03406 tan-niùedha-artho ni÷cita-÷abda uktaş, sator api bhàva-abhàvayor
+03407 anvaya-vyatirekayoş sattàyàü saü÷ayàt. tasmàd yataş sattà-
+03408 prasàdhaka-pramàõàd anayor ni÷cayas tad-adhãnà iti j¤àpana-artham
+03409 asmàbhir grahaõaü kçtam.  
+03410 yato api bhàva-abhàva-vacana-màtreõa tat-sàdhana-pramàõa-àkùepa-siddhiş,
+03411 pçthag ato j¤ànaü lakùaõaü na bhavati, tena eva arthasya avagatatvàd 
+03412 upanaya-artha-vat pakùadharmatvàt. anvaya-vyatirekayor  
+03413 api tarhi na pçthaktvam, ekasya prayogàd ubhaya-gater
+03414 iti cet, na, hetoş sapakùa-asapakùayor bhàva-abhàvayor aparaspara-
+03415 àkùepàt; ekaü vàkyam ubhayaü gamayati ity ucyate,
+03416 na eko artho dvitãyasya. nanu tatra eva bhàvo tad-abhàve 
+03417 ca abhàva iti vàkye paraspara-àkùepa iti cet, vacanam etad ekasya 
+03418 api niyama-khyàpakasya dvitãya-àkùepa-nàntarãyakatvàt sàmarthyàd 
+03419 ubhayam àkùipati na punaş kevalau bhàva-abhàvàv àkùipataş;
+03420 niyamavantau ca na kevalau, niyamasya ubhaya-råpatvàt.  
+03421 tasmàt tatra eva bhàva iti na bhàva eva ucyate, itareõa api na abhàva  
+03501 eva, yena bhàvo abhàvo và dvitãyam àkùipet. na evaü j¤ànaü
+03502 para-upalakùaõàt trailakùaõyàd vyatirekitam iti na lakùaõa-antaram.
+03503 tasmàn na hetuş ùaó-lakùaõaş.
+03504 hetubindur àcàrya-dharmakãrti-kçtaş samàptaş.  
+

@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slokantara</title>
+    <style>
+      body     { background-color: #FFFFFF; font-family: Arial Unicode Ms, Arial Unicode Ms Standard }
+      .large { font-size: 18px; }
+      .red { color: #FF0000; }
+      .blue { color: #0000FF; }
+      td { font-family: 'Arial Unicode MS', 'Arial Unicode MS Standard', 'Gentium', 'Gandhari Unicode', 'Lucida Grande', 'CyberBit', 'Bitstream CyberBase', 'Bitstream CyberCJK',
+'Code2000', 'Courier New', 'Doulos SIL', 'Fixedsys Excelsio', 'Free Monospaced',
+'Free Serif', 'Everson Mono Unicode', 'Arial', 'CN-Arial', 'CN-Times'; }
+      hr { width: 50%; height: 1px; margin-left: 0; margin-right: auto; }
+    </style>
+  </head>
+  <body>
+<br><br>Slokantara<br>
+<br>
+<br>
+Based on Sharada Rani: Ślokāntara, an Old Javanese Didactic Text, critically edited and annotated. New Delhi: International Academy of Indian Culture 1957.<br>
+<br>
+<br>
+Input by Timothy Lubin and Arlo Griffiths<br>
+[GRETIL-Version: 2018-08-22]<br>
+<br>
+<br>
+STRUCTURE OF REFERENCES<br>
+Slo_ns-abcd = Ślokāntara_verseSanskrit-pāda<br>
+Slo_nj(§n) = Ślokāntara_verse-referenceJavanese(ParagraphNumber)<br>
+<br>
+<br>
+MARKUP<br>
+<span class="red">problems</span><br>
+<span class="blue">remarks</span><br>
+[additions]<br>
+<br>
+"=" used in the text as a disambiguation character<br>
+<br>
+<br>
+ADDITIONAL NOTES<br>
+The input was based on the romanized text in Sharada Rani's edition. There are some small discrepancies between this text and the Balinese-script edition in the same book, and it seems the Balinese text does not show some printing errors that are found in the romanized text. The whole text needs to be corrected again starting from the Balinese-script edition.<br>
+<br>
+Timothy Lubin (2017): Input of Sanskrit stanzas into file produced by OCR, and first clean-up of the Old Javanese.<br>
+Arlo Griffiths (2017–2018): Further corrections and structuring of the text.<br>
+<br>
+<br>
+<br>
+<hr>
+<br>
+THIS <a href="http://gretil.sub.uni-goettingen.de/gretil.htm" target="_blank">GRETIL</a> TEXT FILE IS FOR REFERENCE PURPOSES ONLY!<br>
+COPYRIGHT AND TERMS OF USAGE AS FOR SOURCE FILE.<br>
+<br>
+Text converted to Unicode (UTF-8).<br>
+(This file is to be used with a UTF-8 font and your browser's VIEW configuration<br>
+set to UTF-8.)
+<br>
+<br>
+<table style="width: 50%">
+<tr><td>description:</td><td style="text-align: center">multibyte sequence:</td></tr>
+<tr><td>long a</td><td style="text-align: center">  ā   </td></tr>
+<tr><td>long A</td><td style="text-align: center">  Ā   </td></tr>
+<tr><td>long i</td><td style="text-align: center">  ī   </td></tr>
+<tr><td>long I</td><td style="text-align: center">  Ī   </td></tr>
+<tr><td>long u</td><td style="text-align: center">  ū   </td></tr>
+<tr><td>long U</td><td style="text-align: center">  Ū   </td></tr>
+<tr><td>vocalic r</td><td style="text-align: center">  ṛ  </td></tr>
+<tr><td>vocalic R</td><td style="text-align: center">  Ṛ  </td></tr>
+<tr><td>long vocalic r</td><td style="text-align: center">  ṝ  </td></tr>
+<tr><td>vocalic l</td><td style="text-align: center">  ḷ  </td></tr>
+<tr><td>vocalic L</td><td style="text-align: center">  Ḷ  </td></tr>
+<tr><td>long vocalic l</td><td style="text-align: center">  ḹ  </td></tr>
+<tr><td>velar n</td><td style="text-align: center">  ṅ  </td></tr>
+<tr><td>velar N</td><td style="text-align: center">  Ṅ  </td></tr>
+<tr><td>palatal n</td><td style="text-align: center">  ñ   </td></tr>
+<tr><td>palatal N</td><td style="text-align: center">  Ñ   </td></tr>
+<tr><td>retroflex t</td><td style="text-align: center">  ṭ  </td></tr>
+<tr><td>retroflex T</td><td style="text-align: center">  Ṭ  </td></tr>
+<tr><td>retroflex d</td><td style="text-align: center">  ḍ  </td></tr>
+<tr><td>retroflex D</td><td style="text-align: center">  Ḍ  </td></tr>
+<tr><td>retroflex n</td><td style="text-align: center">  ṇ  </td></tr>
+<tr><td>retroflex N</td><td style="text-align: center">  Ṇ  </td></tr>
+<tr><td>palatal s</td><td style="text-align: center">  ś   </td></tr>
+<tr><td>palatal S</td><td style="text-align: center">  Ś   </td></tr>
+<tr><td>retroflex s</td><td style="text-align: center">  ṣ  </td></tr>
+<tr><td>retroflex S</td><td style="text-align: center">  Ṣ  </td></tr>
+<tr><td>anusvara</td><td style="text-align: center">  ṃ  </td></tr>
+<tr><td>visarga</td><td style="text-align: center">  ḥ  </td></tr>
+<tr><td>schwa</td><td style="text-align: center">  ə  </td></tr>
+<tr><td>long schwa</td><td style="text-align: center">  ə̄  </td></tr>
+</table>
+<br>
+<p>
+Unless indicated otherwise, accents have been dropped in order <br>
+to facilitate word search.<br>
+<br>
+For a comprehensive list of GRETIL encodings and formats see:<br>
+http://gretil.sub.uni-goettingen.de/gretil/gretdiac.pdf<br>
+and<br>
+http://gretil.sub.uni-goettingen.de/gretil/gretdias.pdf<br>
+<br>
+For further information see:<br>
+http://gretil.sub.uni-goettingen.de/gretil.htm</p>
+<br>
+<hr>
+<br>
+<br>
+<br>
+<br>
+Ślokāntara<br>
+<br>
+<br>
+[Slo_00s-opening] || avighnam astu ||<br>
+<br>
+[Slo_01s-ab] brāhmaṇo vā manuṣyāṇām ādityo vāpi tejasām |<br>
+[Slo_01s-cd] śiro vā sarvagātreṣu dharmeṣu satyam uttamam || 1 ||<br>
+<br>
+[Slo_01j§1] kaliṅanya | nihan dharma rəṅə̄n de saṅ mahyun vruheṅ kaviśeṣan iṅ janma | yan manuṣya tan hana ləvih kadi brāhmaṇa | brāhmaṇa ṅaranya saṅ kumavaśākən kabrahmacāryan | tiga lvirnya | ndya ta nihan | hana śuklabrahmacārī | hana śavalabrahmacārī | hana kṛṣṇabrahmacārī | sira brāhmaṇa ṅaranira | sira ta ləvih sakeṅ mānuṣajanma | śuklabrahmacārī ṅaranira | tan parabi saṅkan rare | tan mañju tan kumiṅ sira | adyāpi təka riṅ vṛddha tuvi | sira tan paṅucap arabi saṅka pisan | maṅkana saṅ brahmacārī ṅaranira | yan sira śuklabrahmacarī || śavalabrahmacārī ṅaranira | marabi pisan | tan parabi muvah | kunaṅ yan kahalaṅan mati strīnira | tan parabi muvah muvah sira | adyāpi təka ri kapatinira | tan paṅucap arabya | maṅkana saṅ brahmacārī | yan sira śavalabrahmacārī || kṛṣṇabrahmacārī ṅaranira | marabi papat taṅhiṅ hiṅanya | tan parabi muvah | syapa kari pinakadarśaneṅ loka maṅkana | saṅ hyaṅ rudra sira pat devīnira | ndya ta lviriṅ devīnira | umā | gaṅgā | gaurī | durgā | nahan devī caturbhaginī | tiniru de saṅ kṛṣṇabrahmacārī | ndan vruha ta sireṅ kāladeśaniṅ strīsaṅgama | maṅkana krama saṅ brahmacārī sovaṅsovaṅ ||<br>
+[Slo_01j§2] kunaṅ ika yan teja, tan hana kadi teja saṅ hyaṅ āditya | sira viśeṣaniṅ teja riṅ loka ||<br>
+[Slo_01j§3] kunaṅ yan riṅ sarvagātraniṅ śarīra | tan hana kadi śirah viśeṣa ||<br>
+[Slo_01j§4] maṅkana ikaṅ dharma | tan hana ləvih kadi kasatyan | yeka uttama riṅ loka ||<br>
+<br>
+[Slo_02s-ab] tithau daśaguṇaṁ dānaṁ grahaṇe śatam eva ca |<br>
+[Slo_02s-cd] kanyāgate sahasrāṇi anantaṁ yugāntakāle || 2 ||<br>
+<br>
+[Slo_02j] kaliṅanya | yan pūrṇama tiləm | kāla saṅ sādhujana maṅhanākən puṇyadāna | tuṅgal mulih sapuluh ika de bhaṭāra | kunaṅ yan candragrahaṇa | sūryagrahaṇa | kāla saṅ sādhu maṅhanākən puṇyadāna | tuṅgal mulih sātus ika de bhaṭāra | kunaṅ yan kanyāgatakāla | saṅ sādhu maṅhanākən puṇyadāna | tuṅgal mulih sevu ika de bhaṭāra | kunaṅ yan səḍəṅ iṅ yugāntakāla saṅ sādhu maṅhanākən puṇyadāna ika | tuṅgal mulih tan pahiṅan ika de bhaṭāra | keṅətakna de saṅ maṅusir kapradhānan ika ||<br>
+<br>
+[Slo_03s-ab] samam abrāhmaṇe dānaṁ dviguṇaṁ brahmabandhuṣu |<br>
+[Slo_03s-cd] sahasraguṇitaṁ vipre anantaṁ vedapārage || 3 ||<br>
+<br>
+[Slo_03j] kaliṅanya | deya saṅ sādhu maṅhanākən puṇyadāna | yan maveh dāna riṅ sāmānyajanma | tan kadaṅ saṅ brāhmaṇa | tan riṅ vvaṅ paṇḍita | tan hana tapabratanya | yan pavehana puṇyadāna | ikaṅ tuṅgal mulih tuṅgal de bhaṭāra | kunaṅ yan kadaṅ saṅ brāhmaṇa | ikaṅ vehana dāna de saṅ sādhujana | ikaṅ dāna tuṅgal muliha ta ya rva | muvah yan saṅ brāhmaṇa sira vineh dāna de saṅ sādhujana | ikaṅ tuṅgal mulih sevu de bhaṭāra | kunaṅ yan saṅ brāhmaṇa vedapāraga sira vineh dāna de saṅ sādhujana | ikaṅ dāna tuṅgal mulih tan pahiṅan ika de bhaṭāra | brāhmaṇa vedapāraga ṅaranira saṅ brāhmaṇa vruh riṅ vedaśāstra paripūrṇa ||<br>
+<br>
+[Slo_04s-ab] kiṁcid yadyapi taddānaṁ śraddhayā sahitaṁ kṛtam |<br>
+[Slo_04s-cd] mahāphalam avāpnoti nyagrodhāṁkurabījavat || 4 ||<br>
+<br>
+[Slo_04j] kaliṅanya | ika saṅ sādhujana | yan sira maveh puṇyadāna | yadyapi akəḍika tuvi | pavehnira irikaṅ dāna | magave sukhaniṅ manah ikaṅ dinānan | makakāraṇa śuddhaniṅ hati saṅ maveh dāna | śuddha ṅaranya həniṅ | mamaṅguh ika phala magə̄ṅ saṅ maveh dāna | mapa ta paḍanika | kadyaṅganiṅ vijiniṅ variṅin tuṅgal | mələṭik ta ya vəkasan | iniṅu pva yenupādita | ri vəkasan saṅśaya magə̄ṅ | təhər pinakapaṅhə̄ban iṅ vvaṅ | vənaṅ ta yenuṅsir iṅ janma kaniṣṭhamadhyamottama | maṅkana taṅ puṇyadāna yan akəḍik | yan dinuluran manah śuddha | magə̄ṅ phalanya de bhaṭāra ||<br>
+<br>
+[Slo_05s-ab] anantadānaṁ dattaṁ vai dātṝṇāṁ roṣamiśritam |<br>
+[Slo_05s-cd] tṛṇasaṁnipāto hy agneḥ sādhane niyataṁ bhasma || 5 ||<br>
+<br>
+[Slo_05j] kaliṅanya | hana pvekaṅ dāna | tan pahiṅan ika gə̄ṅ iṅ pavevehnya riṅ saṅ paṇḍita | sakveh saṅ brāhmaṇa vinehnya dāna | salvir iṅ dāna mūlya | ndan ta ya deny aveh | kavoran ta ya buddhiroṣa | roṣa ṅaranyagələṅ ambək amaṅkəl sərəṅən aṅrəs asəṅhit agalak | irikaṅ vinehnya dāna | kumrut alisnya | tan tuhu puṇya ṅaran ika ri denyāṅheman lvaṅ i drəvyanya | liṅnya harah malavas drəvya tan mulih muvah ri kami | ikaṅ dāna yan maṅkana | dānabhagna ṅaranya | ndātan pakāryā yaśa dāna dinaməlnya | mapa ta paḍaniṅ dāna yan maṅkana | kadyaṅganiṅ dukut akiṅ sagunuṅ | katibān ta ya apuy sakukunaṅ | ri vəkasan murub ikaṅ sukət akiṅ sagunuṅ | bhasmībhūta tan paśeṣa | maṅkana ikaṅ dāna sagunuṅ | hilaṅ atha ya <span class="blue">(read hilaṅa ta ya?)</span> deniṅ sərəṅən sakukunaṅ | saṅkṣepanya | parahilaṅ ikaṅ dāna | yan kavoran buddhikrodha | mataṅyan hayva kavoran hala ikaṅ ambək | yan mahyun gumavayakna puṇyadāna ||<br>
+<br>
+[Slo_06s-a] kūpaśatād vai paramaṁ saro [']pi<br>
+[Slo_06s-b] saraḥśatād vai paramo [']pi yajñaḥ |<br>
+[Slo_06s-c] yajñaśatād vai paramo [']pi putraḥ<br>
+[Slo_06s-d] putraśatād vai paramaṁ hi satyam || 6 ||<br>
+<br>
+[Slo_06j] kaliṅanya | hana pveka vvaṅ magave sumur sātus | alah ika deniṅ magave talaga tuṅgal | ləvih ikaṅ vvaṅ magave talaga | hana pveka vvaṅ magave talaga sātus | alah ika phalanya deniṅ vvaṅ gumavayakən yajña pisan | atyanta ləvih iṅ gumavayakən yajña | kunaṅ ikaṅ vvaṅ mayajña piṅsātus | alah ika phalanya denikaṅ vvaṅ mānakanak tuṅgal | yan anak viśeṣa | kaliṅanya ikaṅ mānakanaka ta ləvih phalanya | muvah ikaṅ vvaṅ mavəka sātus | alah deniṅ kasatyan | saṅkṣepanya | ləvih phalanikaṅ vvaṅ satya | ya ta mataṅyan saṅ sādhu | hayva tan satya riṅ brata | mvaṅ riṅ vacana | maṅkana ulaha nira ||<br>
+<br>
+[Slo_07s-ab] nāsti satyāt paro dharmo nānṛtāt pātakaṁ paraṁ |<br>
+[Slo_07s-cd] triloke ca hi dharma[ḥ] syāt tasmāt satyaṁ na lopayet || 7 ||<br>
+<br>
+[Slo_07j] kaliṅanya | tan hana dharma <span class="blue">(ed. Rom. dhama, ed. Bal. dharmma)</span> ləviha saṅkeṅ kasatyan | mataṅnyan | hayva lupa riṅ kasatyan ikaṅ vvaṅ ||<br>
+<br>
+[Slo_08s-ab] tiryag daśaguṇaṁ pāpaṁ manuṣye śatam eva ca |<br>
+[Slo_08s-cd] prabhau daśasahasrāṇi anantaṁ munidevayoḥ || 8 ||<br>
+<br>
+[Slo_08j] kaliṅanya | ikaṅ vvaṅ maṅdvadva tiryak | sadaśa tahun kapāpanya | ikaṅ vvaṅ maṅdvadva mānuṣa | sātus tahun kapāpanya | ikaṅ maṅdvadva saṅ prabhu | sevu tahun kapāpanya | ikaṅ maṅdvadva ri saṅ paṇḍita | mvaṅ maṅdvadva deva | tan pahiṅan kapāpanya | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_09s-ab] anityaṁ yauvanaṁ rūpam anityo dravyasaṁcayaḥ |<br>
+[Slo_09s-cd] anityaḥ priyasaṁyogas tasmād dharmaṁ samācaret || 9 ||<br>
+<br>
+[Slo_09j] kaliṅanya | ikaṅ kayovanan mvaṅ rūpa | tan lanā jātinya | ikaṅ kasugihan samūhaniṅ drəvya | tan lanā ika | muvah ikaṅ vvaṅ amaṅan aturu lavan rabinya | tan lanā ika | mataṅnyan ulahakna dharma juga | tan aṅalahalaha samaniṅ dadi janma | vənaṅ matakvana salvir iṅ sinaṅgah dharmaśāsana ri saṅ paṇḍita | marapvan tan anəmu pāpa | maṅkana kramaniṅ dadi janma ||<br>
+<br>
+[Slo_10s-ab] arthā gṛhe nivartante śmaśāne mitrabāndhavāḥ |<br>
+[Slo_10s-cd] sukṛtaṁ duṣkṛtaṁ caiva chāyāvad anugacchati || 10 ||<br>
+<br>
+[Slo_10j] kaliṅanya | ikaṅ mās pirak ratnādibhūṣaṇa | salvir iṅ drəve | tatan tumūt i katəkaniṅ kapatin | hiṅanya maṇḍəg iṅ gṛha | rinəbut iṅ anak putu buyut | yan salah hiḍəp ikaṅ putv anak santāna | dadi tukarnya | dady amatyani pinatyan | kunaṅ ikaṅ anak kadaṅ varga | hiṅanya maṇḍəg iṅ śmaśāna | śmaśāna ṅaranya uṅgvan iṅ asalah vaṅke | lvir iṅ tumūt iṅ kapatin | ulah hala mvaṅ ahayu | tumūt ri hilaṅ iṅ prāṇa | yan ala ikaṅ ulah | yeka tibeṅ naraka | yapvan ikaṅ ulah rahayu | yeka tibeṅ svarga | soṅgvan iṅ prāṇa tumibā | yeka patibanya | yan paṅjanma ikaṅ prāṇa tinūt iṅ halahayu | yeka pataṅyan ṅaranya | mataṅyan <span class="blue">(em. pataṅyan?)</span> takvanakna riṅ saṅ vruh riṅ kaliṅan ika | hetuniṅ hana sinaṅgah upadeśa | riṅ saṅ paṇḍita | maṅkana liṅ saṅ hyaṅ aji | ndya taṅ inəntas sakeṅ <span class="blue">(em. inəntasa sakeṅ?)</span> naraka | yan paṅjanma nihan ||<br>
+<br>
+[Slo_11s-ab] anapatyākāmarasau klībo [']balo vadhriḥ kiluḥ |<br>
+[Slo_11s-cd] māṁsī pittī kujihvāṅgur mūtribhinnoṣṭhabadhirāḥ || 11 ||<br>
+<br>
+[Slo_12s-ab] nimattonmattakuṣṭhāś ca rogakukṣir vigantikaḥ |<br>
+[Slo_12s-cd] khañjaḥ kubjo [']ndha ekadṛg ghrasvaḥ śleṣmikunetrakau || 12 ||<br>
+<br>
+[Slo_11-12j] kaliṅanya | anapatya ṅaranya tan paṅanaki | akāmarasa ṅaranya kumiṅ | klīva ṅaranya kəḍi | valavadi <span class="blue">(> vadhri?)</span> ṅaranya strī tan strī | kilu ṅaranya vvaṅ vəlu | māṅsī ṅaranya gembolən | pittī ṅaranya vvaṅ məṅi | busuṅ adinya | kujihva ṅaranya vvaṅ bisu | aṅgu ṅaranya jiṅkəṅ | mūtrī ṅaranya beser | bhinnoṣṭha ṅaranya davir lambenya | vadhira ṅaranya tuli | nimatta ṅaranya hayan | unmatta ṅaranya edan | kuṣṭha ṅaranya vuḍug | rogakukṣi ṅaranya salvir iṅ vyādhi vətəṅ | vigantika ṅaranya saṅar | khañja ṅaranya piñcaṅ | kubja ṅaranya vuṅkuk | andha ṅaranya vuta | ekadṛk ṅaranya micəkṣu tuṅgal <span class="blue">(em. macakṣu tuṅgal or, with OJED, micək satuṅgal)</span> | hrasva ṅaranya cabuval | bāhunya piṅkər kunaṅ | śleṣma ṅaranya humbələn | tumbuṅ adinya | kunetra ṅaranya asiṅ vyādhi netra pinakamalanya | jilak adinya | ika ta kabeh cihnaniṅ sakiṅ kavah | tutug halanya muktiṅ naraka riṅ yamaniloka | tinibākən iṅ madhyapada ika təmahnya | mataṅyan ikaṅ buddhi sakalvir iṅ ahala tiṅgalakna | apan iki təmahniṅ anaṅsāra janma <span class="blue">(ed. ianma)</span> | hetunyan sinaṅsāra de saṅ hyaṅ yamarāja | muvah pājarakna ikaṅ vvaṅ kelī deniṅ buddhi hala | sumaṅsāra samasamanya maṅdadi | kathamapi anaṅsāra riṅ saṅ paṇḍita | kahilahilanya | yadyan deva tuvi yan salah buddhinira | pramāda kuraṅ yoga | iki halanira ||<br>
+<br>
+[Slo_13s-ab] devānāṁ narakāṁ jantur jantūnāṁ narakaṁ paśuḥ |<br>
+[Slo_13s-cd] paśūnāṁ narakaṁ mṛgo mṛgāṇāṁ narakaṁ khagaḥ || 13 ||<br>
+<br>
+[Slo_14s-ab] pakṣiṇāṁ narakaṁ vyālo vyālānāṁ narakaṁ daṁṣṭrī |<br>
+[Slo_14s-cd] daṁṣṭriṇāṁ narakaṁ viṣī viṣiṇāṁ naramāraṇe || 14 ||<br>
+<br>
+[Slo_13-14j] kaliṅanya | ri kadadin yan kadrəsan halaniṅ buddhi | yeka janma kelī ṅaranya | kadyaṅganiṅ mīna kadrəsan bañu | saṅśaya umiṅsor ika prakṛtinya | aṅhel ulihnya mareṅ deva | yadyastun maliha mareṅ mānuṣa mevəh ika | vyaktinyan aṅhel piṅruhurnya riṅ deva hala | dadi mānuṣa | manuṣya hala buddhinya | matəmah paśu | paśu hala buddhinya | matəmah alpapaśu | ndya ta śṛgāla celeṅ | alpapaśu magalak riṅ samanyāṅdadi | matəmah ta ya mṛga | ikaṅ mṛga hala buddhinya | matəmah pakṣī mvaṅ mīna | apan paḍa jātinyāṇḍaja | ikaṅ pakṣī mvaṅ mīna | hala buddhinya ri samanyāṅdadi | matəmah ta ya ulā | ikaṅ ulā magalak mamatyani | atyanta krūranya | matəmah asiṅ asihuṅ mahākrūra | mamaṅan samanyāṅdadi | yeka matəmah viṣa | ikaṅ viṣa mamatyani janma gatinya | yeka kālakūṭaviṣa jātinya | pinakaḍasar iṅ sor | yeka inajarakən tan patəmah | inaranan hitipniṅ kavah ṅaranya | aṅhiṅ tuṅgal gavenya | rumaksa ri səḍəṅ iṅ apraṅ | yeka donya hana riṅ saṅ vatək iṅ praṅ | kunaṅ de saṅ brāhmana | saṅ bhujaṅga śaiva sogata | sakveh saṅ aṅulah kapaṇḍitan | tan yogya sira uṅgvananya | yan aṅgaməla kunaṅ | yadyan umulata makakāraṇa mahā | tan yogya juga yan maṅkana | apan humiliṅi hitipniṅ kavah ṅaranya | liṅ saṅ hyaṅ aji | tan paṅuniṅaha irika ||<br>
+<br>
+[Slo_15s-ab] ahiṁsā brahmacaryaṁ ca śuddhir āhāralāghavam |<br>
+[Slo_15s-cd] astainyam iti pañcaite yamā rudreṇa bhāṣitāḥ || 15 ||<br>
+<br>
+[Slo_15j] kaliṅanya | ulah saṅ brāhmaṇa | saṅ bhujaṅga śaiva sogata | gəgə̄n nityanitya denira | ahiṅsā ṅaranya hayva mamātimāti | kevala guməgə̄ tapabrata || tapanira brahmacārī kadīnujarakən ṅūni | tiga lvirnya | śuklabrahmacārī | śavalabrahmacārī | kṛṣṇabrahmacārī | iki saṅ kṛṣṇabrahmacārī vənaṅ aṅucapana masaṅət riṅ rabinira | mvaṅ anaknira | makadon tan sasaraniṅ buddhiniṅ anakrabi | apan iṅ rare mvaṅ strī | yan tan saṅətiniṅ <span class="blue">(em. saṅətən iṅ)</span> śabda | yāvat anasar pāmbəkanya | tan hana janma strī abənəra | vilut hatinya | hetunyabāṅana riṅ vulat mvaṅ śabda | makadon abənərāmbəknya | amuhara kasatyanya | maṅkana kramaniṅ gṛhastha | hayva ta kapatmən <span class="blue">(read kapitmən, with ms. D)</span> tan ulaha <span class="blue">(em. hayva tan kapitmənn an ulaha?)</span> | kunaṅ riṅ vvaṅ lyan hayva maṅkana | yadyastun si hiyaha <span class="blue">(em. sira hiyaha?)</span> de saṅ paṇḍita | sira juga maṅalaha | ṅuniṅuni yan duduha denira | maṅkin tan yogya lumavanana galaknya | maṅkana kramanya | śuddha <span class="blue">(em. śuddhi?)</span> ṅaranya eñjiṅeñjiṅ madyus aśuddha śarīra | masūryasevana | mamūjā | majapa | mahoma || āhāralāghava ṅaranya aḍaṅana riṅ pinaṅan | tan amaṅan asiṅ dinalih camah riṅ loka | kunaṅ yan amaṅan ikaṅ dinalih camah de saṅ śuddhabrata | tan brāhmaṇa śaiva sogata ṅaranya | janmatuccha ṅaranya | yeka pātaka | tan vuruṅ tumampuh riṅ kavah təmahnya | astainya ṅaranya tan añoloṅa tanəm-anəmaniṅ parajana | tan amaliṅana drəvyaniṅ para | tan akirakira hala riṅ parajanma | yadyan iṅ sattva tuvi tan ulaha | kunaṅ yan sira dinalih duṣṭa deniṅ vaneh | hayva trāsani ri <span class="blue">(read trāsa ri, with ms. D)</span> daləm hati | kevalāhəniṅa tuturira | ika ta yamabrata ṅaranya | liṅ ḍaṅ ācārya ṅūni | pavarah saṅ hyaṅ rudra tinilarakən iṅ saṅ hyaṅ aji | agə̄ṅ təmən phalanya saṅ guməgə̄ brata śaivasiddhānta ||<br>
+<br>
+[Slo_16s-a] yo dharmaśīlo jitamānaroṣo<br>
+[Slo_16s-b] vidyāvinīto na paropatāpī |<br>
+[Slo_16s-c] svadāratuṣṭaḥ paradāravarjī<br>
+[Slo_16s-d] na tasya loke bhayam asti kiṁcit || 16 ||<br>
+<br>
+[Slo_16j] kaliṅanya | ulaha saṅ tapa | bhujaṅga śaivasiddhānta | dharma gavayakna | śīlanira rahayu pagəhakna | hayva mānabuddhi | jitaka <span class="blue">(read jitakna? see OJED)</span> ikaṅ māna | hayva matukar lavan para | yeka roṣa ṅaranya | hayva katunan vidyā vruha riṅ sarvaśāstra kabeh | tan butuhaniṅ patakvan <span class="blue">(read matakvan — see OJED butuh)</span> sarvāgamapramāṇa | ślokādivākya | mvaṅ halahayuniṅ rāt | hayva mamanasi samajanma | yan amuvus madhuravacana | tuṣṭa deniṅ svadāra | svadāra ṅaranya rabi prihavak | yeka hetunira vinənaṅakəna rabi papat | paradāravarjī ṅaranya hayva maṅaṅənaṅəna strīniṅ para | yeka donya yan maṅkana | tan hana bhayanira riṅ loka | kunaṅ sira yan linaran deniṅ para | tan sayogya doṣanira | kinkinən tan pinakaduḥkhaniṅ manaḥ: uttama | aṅucap iṅ laranira ri daləm hati: madhyama | yan aṅucap laranira mətu riṅ śabda: kaniṣṭha | yapvan amaḍani halanya: kaniṣṭhaniṅ kaniṣṭha yan maṅkana | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_17s-a] ā cireṇa parasya bhūyasīṁ<br>
+[Slo_17s-b] viparītāṁ vigaṇayya cātmanaḥ |<br>
+[Slo_17s-c] kṣayayuktim upekṣate kṛtī<br>
+[Slo_17s-d] kurute tatpratikāram anyathā || 17 ||<br>
+<br>
+[Slo_17j] kaliṅanya | kṛtī ṅaran iṅ saṅ paṇḍita | hayva sira maṅlavani halaniṅ maveh lara riṅ sira | yadyan asādhya mamātyanana kunəṅ | tan valəsana halanya | kevala guməgə̄ha laranira prihavak | mājarakən təkaniṅ lara | mvaṅ pralaya | pilih māsaniṅ surud iṅ hurip ira | ya pinakasopānaniṅ paratra | ambal iṅ mantuk iṅ śivaloka | aṅhiṅ ikaṅ śīlayukti juga pagəhakna | mvaṅ tapabrata saṅ viku | yeka kṣayayukti | upekṣa <span class="blue">(em. kṣayayukti-upekṣa?)</span> ṅaranya | hana pvekaṅ duṣṭa maṅhalahala riṅ sira | makaṅuni mamātyanana | tan vandhyānəmu ṅ upadrava denira | ya ta pamaləsnira | yeka pratikāra ṅaranya | mabalik ikaṅ lara upadrava | devadaṇḍa irikaṅ maṅhalahala | mapan pinakabalakośavāhananira | prabhāvaniṅ tapabrata juga | yekāvās manəmu pāpa magə̄ṅ ikaṅ vvaṅ duṣṭa makārya duḥkha ri sira | maṅkana krama saṅ paṇḍita ||<br>
+<br>
+[Slo_18s-a] bhūpālo balakośavāhanacamūḥ saṁkīrṇamantryanvitaḥ<br>
+[Slo_18s-b] rājārevyartito yudhaṁ tu samare nonābhimāno [']hataḥ |<br>
+[Slo_18s-c] dhairyaṁ vīryaparākramās tu galitā jīven ninindaprajeḥ<br>
+[Slo_18s-d] klībaṁ janmani-janmani pratibhaven mṛtyor avandhyaṁ gataḥ || 18 ||<br>
+<span class="blue">corrupt</span><br>
+<br>
+[Slo_18j] kaliṅanya | heki taṅ ratu | kita <span class="blue">(em. heki ta?)</span> bhūpāla | rumakṣaṅ bhūmi | kinahanan iṅ balakośavāhana | tan pahiṅan kvehiṅ mantrī ri śira | aṅiriṅ saṅ prabhu | təkā pva sireṅ raṇamadhya | mapraṅ ta ya lavan musuhnira | vəkasan ta ya mamrih alayu | jərih ri panimbatiṅ sañjataniṅ musuh tumampuheṅ avaknira | hilaṅ kāhaṅkāran iṅ ratu | mapa ta lvirnira yan mahuripa | byakta sira tininda deniṅ rāt kabeh | kunaṅ ikaṅ kadhīran lavan kavīryan | mvaṅ kaśūktira <span class="blue">(em. kaśūranira? kaśaktinira?)</span> | suruda ṅaranya | tuvi saṅ hyaṅ mṛtyu tan vandhyāṅalap ri huripnira | irika ta yan janmanira paṅdadi <span class="blue">(OJED 625b and 2180b em. maṅdadi)</span> kəḍi | valavadi | maṅkana kahilahilaniṅ janma kṣatriya surud iṅ papraṅan | tan ulahanira <span class="blue">(em. ulahənira?)</span> | maṅkana saṅ viku yan sumurudakən tapabratanira | kadi pāpaniṅ ratu mavədi riṅ musuhira | yeki śāsananiṅ ratu kapaṇḍitan | paḍa kramanya ||<br>
+<br>
+[Slo_19s-ab] siṁhākṛtī raṇamadhye strīmadhye madhuraṁkathaḥ |<br>
+[Slo_19s-cd] munimadhye tu tattvajñaḥ sa yukto nagaraṁ gataḥ || 19 ||<br>
+<br>
+[Slo_19j] kaliṅanya | deya saṅ puruṣa | yan iṅ madhyanikaṅ raṇa | kadi siṅha rūpaniṅ galakira | tan hana katakutireṅ musuh | kunaṅ yan ri pasamūhaniṅ strī | madhuravacana ujaraknanira | kunaṅ ri pasamūhan saṅ paṇḍita | vruha ta sira maṅucapakna tattva | hana pvekaṅ vvaṅ maṅkana | yogya panampaka nagara | kṣatriya | mantrī | śāsana maṅkana ||<br>
+<br>
+[Slo_20s-ab] śāstrajñaḥ kulasampannas tattvadharmaparāyaṇaḥ |<br>
+[Slo_20s-cd] apakṣapāto medhāvī dharmādhyakṣo [']bhidhīyate || 20 ||<br>
+<br>
+[Slo_20j] kaliṅanya | ikaṅ yogya aranana dhyakṣa <span class="blue">(em. aranən adhyakṣa?)</span> | de saṅ mahyun vruha | śāstrajña ṅaranya tan hana kapuṅguṅanireṅ śāstrāgama kabeh | kulasampannaḥ ṅaranya | agə̄ṅ kavoṅanya | tattvadharmaparāyaṇa ṅaranya jənək sira ri kocapan iṅ tattva saṅ hyaṅ dharma | buddhinira tan hana pakṣapāta riṅ para | yadyan kadaṅ sānak bapebu tuvi | yan anaka kunəṅ | yan duṣṭabuddhi | tan siniṅitan denira | yeka apakṣapāta ṅaranya | yeka inajarakən dharmādhyakṣa | vənaṅ dhyakṣa liṅ saṅ vruh | yeki bhujaṅgaśāsana | liṅ saṅ paṇḍita śāstravān ||<br>
+<br>
+[Slo_21s-ab] surā sarasvatī lakṣmī ity etā madakāraṇam |<br>
+[Slo_21s-cd] mādayanti na cetāṁsi sa eva puruṣo mataḥ || 21 ||<br>
+<br>
+[Slo_21j] kaliṅanya | ikaṅ amuhara vərə riṅ dadi vvaṅ | tiga lvirnya | ndya ta | surā ṅaranya tvak | sarasvatī ṅaranira saṅ hyaṅ aji | lakṣmī ṅaranika kasugihan | mās pirak | ika ta kāraṇaniṅ vərə muṅgv iṅ citta | kunaṅ yan hana vvaṅ tan kataman vərə deniṅ tvak | deniṅ bisanyāṅaji | deniṅ kasugihan mās piraknya | yeka puruṣa ṅaranya | yan hana vvaṅ maṅkana | byakta kinahyunan iṅ rāt | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_22s-ab] narma[ḥ] syād vacanaṁ yad dhi prāṇadravyarakṣaṇe ca |<br>
+[Slo_22s-cd] strīṣu vivāhakāle tu pañcānṛtaṁ na pātakam || 22 ||<br>
+<br>
+[Slo_22j] kaliṅanya | lima ikaṅ tan amuhara pāpaniṅ ləñok | lvirnya | kavruhana | ujar iṅ sivo mapacəh-pacəhan | karakṣahan iṅ hurip | karakṣahan iṅ drəvya | karakṣahan iṅ anak rabi | muvah ri səḍəṅ iṅ pasaṅgaman | vənaṅ ləñok iṅ maṅkana ||<br>
+<br>
+[Slo_23s-ab] nadīnāṁ ca latānāṁ ca strīṇāṁ ca kuṭilā gatiḥ |<br>
+[Slo_23s-cd] yadi satyā bhaven nārī śilāyāṁ kumudaṁ bhavet || 23 ||<br>
+<br>
+[Slo_23j] kaliṅanya | tiga ikaṅ tan abənər lakunya riṅ loka | lvirnya | ikaṅ lvah | ikaṅ udvad | ikaṅ janma strī | yeka katəlu | vilut gatinya | yadin pvekanaṅ strī hana satya buddhinya | dadi ikaṅ tuñjuṅ tumuvuh riṅ śilā | saṅkṣepanya | tan hana ikaṅ tuñjuṅ yan dadya tumuvuh riṅ śilā | liṅ saṅ hyaṅ aji |<br>
+<br>
+[Slo_24s-ab] rūpayauvanasampannā viśālakulasaṁbhavāḥ |<br>
+[Slo_24s-cd] vidyāhīnā na śobhante nirgandhā iva kiṁśukāḥ || 24 ||<br>
+<br>
+[Slo_24j] kaliṅanya | hana pvekaṅ vvaṅ atyanta pinənuhan iṅ rūpa lituhayu | mvaṅ vayahnya yovana | lavan ika <span class="blue">(em. ikaṅ?)</span> yinogyakən deniṅ gə̄ṅ i kakulan iriya | ndan teka hīna riṅ sarvaśāstra | tan hana aji kavruhnya saśabdaśāstra <span class="blue">(em. sarvaśāstra?)</span> | kunaṅ ikaṅ vvaṅ maṅkana | tan ahaləp ika ri madhyaniṅ sabhā | paran ika paḍanya | kadyaṅganiṅ kəmbaṅ palāśa | abhrā dinələ̄ sakeṅ doh | kunaṅ yan inambuṅ tan pagandha | nahan ika papaḍanya ||<br>
+<br>
+[Slo_25s-a] madhu viṣakusumebhyo jāyate pathyam etat<br>
+[Slo_25s-b] mahiṣarudhiramāṁsāt kṣīram utpadyate hi |<br>
+[Slo_25s-c] kamalam api sugandhaṁ kardamaṁ tasya yoniḥ<br>
+[Slo_25s-d] puruṣaguṇaviśeṣe naiva jātiḥ pramāṇam || 25 ||<br>
+<br>
+[Slo_25j] kaliṅanya | ikaṅ madhu | atyanta riṅ pathyarasa | ika ta umətu sakiṅ kəmbaṅiṅ lalatəṅ apituvi | tathāpinyan śuci | maṅkana ikaṅ pəhan | umətu sakeṅ rudhiramāṅsaniṅ mahiṣa | tathāpinyan śucy atiśaya pathyarasanika | maṅkanekaṅ tuñjuṅ | umətu sakeṅ latək tuvi | tathāpinyan śucy atiśayeṅ sugandhanika | maṅkana saṅ puruṣa guṇaviśeṣa | tan makapramāṇaṅ jāti | maṅkana liṅ saṅ hyaṅ śāstra ||<br>
+<br>
+[Slo_26s-ab] viṣād apy amṛtaṁ grāhyam amedhyād api kāñcanam |<br>
+[Slo_26s-cd] nīcād apy uttamā vidyā strīratnaṁ duṣkulād api || 26 ||<br>
+<br>
+[Slo_26j] kaliṅanya | ikaṅ amṛta | umətu sakiṅ viṣa yogyālapən | ikaṅ mās mətu sakiṅ ajrəm avor lavan purīṣa | yogyālapən | saṅ hyaṅ aji śāstrāgama | yan mətu sakiṅ vvaṅ nīca | yogyālapən | maṅkanekaṅ strīratna | yadyan sakavoṅanya <span class="blue">(?)</span> | yogyālapən | liṅiṅ aji ||<br>
+<br>
+[Slo_27s-ab] vaiśyaḥ kṛṣīvalaḥ kāryo gopaḥ sasyabhṛtivrataḥ |<br>
+[Slo_27s-cd] vārtāyukto gṛhopetaḥ kṣetrapālo [']tha vaiśyajaḥ || 27 ||<br>
+<br>
+[Slo_27j] kaliṅanya | kāryaniṅ <span class="blue">(em. kārya?)</span> saṅ vaiśya | masavahsavah | rumakṣa riṅ ləmbu | dhumāraṇaṅ pari | makasahāya vuluku | kahananya umuṅguh riṅ gṛha kathānyan | kṣetrapāla ṅaranya rumakṣaṅ savah | yeka vaiśyaśāsana | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_28s-ab] baṇigranis tu bhāṇḍakṛd baṇijaḥ padajātayaḥ | <span class="blue">(baṇigranis: conj. TL baṇigjanas AG baṇigrāmās; padajātayaḥ: em. TL pādajātayaḥ)</span><br>
+[Slo_28s-cd] krayavikrayakāry atha śūdras tu vāṇijyakriyaḥ || 28 ||<br>
+<br>
+[Slo_28j] kaliṅanya | kārya saṅ sūdra | adagaṅ alayar | madval-avəli | kavṛdhyaniṅ artha donya | baṇyajakriyā | yeka śūdraśāsana | liṅ saṅ hyaṅ aji || kunaṅ ikaṅ antyajāti ṅaranya | vvalu vilaṅnika | sor jātyanyeṅ rāt liṅ saṅ hyaṅ śāstra ||<br>
+<br>
+[Slo_29s-ab] cūrṇakṛt surāsun nīlī nejakaḥ kumbhakārakaḥ |<br>
+[Slo_29s-cd] prāṇaghno dhātudagdhā ca tantuvarṇo [']ṣṭacāṇḍālāḥ || 29 ||<br>
+<br>
+[Slo_29j] kaliṅanya | ikaṅ inajarakən aṣṭacāṇḍāla riṅ loka | cūrṇakṛt adol apuh | surāsut adol sajə̄ṅ | nīlī adol lom | kumbhakāraka adol dyun | prāṇaghna añjagal | dhātudagdha apaṇḍe mās | nejaka amalantən | tantuvarṇa aṅgabag | yekāṣṭacāṇḍāla liṅ niṅ śāstra ||<br>
+<br>
+[Slo_30s-ab] ye vyatītāḥ svakarmabhyaḥ parakarmopajīvinaḥ |<br>
+[Slo_30s-cd] dvijatvam avajānanti tāṁś ca śūdravad ācaret || 30 ||<br>
+<br>
+[Slo_30j] kaliṅanya | yan hana vvaṅ aṅhilaṅakən kulanya | mari aṅulahakən sagaveniṅ tuha-tuhanya sovaṅ-sovaṅ | amaṅan ulihnya gumavayakən sakāryaniṅ vvaṅ len | yeka pinakopajīvanya | yan saṅ brāhmaṇa | ṛṣi | śaiva sogata | maṅkana | hilaṅ kulanira | deniṅ sama-sama kulanira | tan inaku ika | kinonira miluheṅ aṣṭacāṇḍāla | mari kadaṅanya | apan salah kārya | saṅkṣepanya hayva saṅ janma kulaśuddha salah bhāṣa | salah kārya | muvah saṅ kṣatriya | saṅ mantrī | sama apagəha kramanira | sovaṅ-sovaṅ | apan sira janmī janmottama riṅ rāt | yapvan hilaṅa kramanira | yogya səṅgahən cāṇḍāla | yeka sumurudakən kaśuddhavaṅśan | hila-hila yan maṅkana | doṣa de bhaṭāra | kadyaṅganiṅ vvaṅ masavita sāmānya janma | vineh kavoṅan | patih dəmaṅ | tuməṅguṅ | raṅga | mvaṅ dmak-dadar | tan karəṇan i saṅ maveh | kinārya tan mūlya ikaṅ <span class="blue">(em. i saṅ?)</span> anugrahani | hana karika krodha <span class="blue">(em. krodhe?)</span> saṅ maveh | tan hana karika bəndu saṅ anugrahani | maṅkana de bhaṭāra paramakāraṇa maṅanugrahani kula | guṇa vīryaniṅ janma | mogha tan rəṇa ri paveh saṅ hyaṅ anugraha | riṅ janma maṅkana | mavās dadi tiryak | sattvādhama | bhaṭāra krodha ri vvaṅ maṅkana | yeka kahila-hilanya liṅniṅ aji ||<br>
+<br>
+[Slo_31s-ab] nirdhano [']pi naraḥ sādhuḥ karma nindyaṁ na kārayet |<br>
+[Slo_31s-cd] śārdūlaś chinnapādo [']pi tṛṇaṁ jātu na bhakṣayet || 31 ||<br>
+<br>
+[Slo_31j] kaliṅanya | saṅ sādhujana sira saṅ vvaṅ uttamajanma | yadyapi sira nirdhana | kasyasiha tuvi | agaveha ta sira salah kārya | salah hiḍəp | taha tan maṅkana saṅ vvaṅ uttamajanma | iva paḍanira nihan | kadyaṅganiṅ śārdūla | śārdūla ṅaranya macan | tugəl jarijinya | pisaniṅū ika mamaṅana dukut | nora juga maṅkana pravṛttinya | apan eṅət iṅ pinaṅanya kajanmanya | maṅkana liṅiṅ aji ||<br>
+<br>
+[Slo_32s-ab] agnido viṣadātharvau śastraghno dārātikramaḥ |<br>
+[Slo_32s-cd] piśunas tatra tad rājñi ṣaḍ ete hy ātatāyinaḥ || 32 ||<br>
+<br>
+[Slo_32j] kaliṅanya | agnida ṅaranya vvaṅ anu[n?]vani nagara | yan dudū makakāraṇaṅ praṅ | vvaṅ anunvani umah saṅ deva saṅ hyaṅ | vvaṅ anunvani umah saṅ paṇḍita | yeki agnida || śāstraghna ṅaranya vvaṅ aṅamuk || dārātikrama ṅaranya vvaṅ ambahud aṅris | rāja-piśuna ṅaranya vvaṅ aṅadoni tukar | makādi yan piśuna riṅ saṅ ratu | saṅ mantrī | magave ujar saṅkaniṅ deśa ruga | salviriṅ ujar īrṣya | magave kirakira riṅ hala | tan tuhu asiṅ vuvusnya | piśuna juga || viṣada ṅaranya maṅupasi || atharva ṅaranya manəluh | andeṣṭi | aməməṇḍəm | aninibāni hala-hala | salviranya akriyāla | yeka ṣaḍātatāyī ṅaranya || tan ulahaniṅ janma | ikaṅ ulah nəm prakāra | tan vuruṅ ika tumampuh riṅ naraka | kinəla de bhaṭāra yama inarvakən prāṇanya | deniṅ kiṅkara liṅ saṅ hyaṅ aji || nihan paṅjanmanya | yan vuvus kinəla riṅ kavah | siniratakniṅ bhūmi | kadi duk tinətək | patiṅ samburat təmahanya | nihan kadadiniṅ vvaṅ maṅkana ||<br>
+<br>
+[Slo_33s-ab] jalaukā jaṅgamapāpaṁ purīṣāṇāṁ kṛmiś caiva |<br>
+[Slo_33s-cd] nirasthirūpāṇāṁ rūpaṁ jagannecchopadarśayet || 33 ||<br>
+<br>
+[Slo_33j] kaliṅanya | jalaukā ṅaranya lintah | jaṅgamapāpam ṅaranya asiṅ lumaku tan pahiḍəp | tan panūt havanya ṅūni | amuraṅ-muraṅ anasar hulər agatəlādinya | kadyaṅganiṅ kalabaṅ | kalalupan | purīṣāṇāṁ kṛmiś caiva | muvah kadyaṅganiṅ siṅgat iṅ purīṣa | salviriṅ siṅgat | nirasthirūpāṇāṁ rūpam | asiṅ lumur lumaku tan pabaluṅ | lumaku māvan ḍaḍanya | kadyaṅganiṅ vəḍit | kuricak | hiri-hirispoh | caciṅ | varya-varya | ityevamādi | salviriṅ kelik-ilik iṅ jagat | ya ta dadiniṅ maṅulahakən ṣaḍātatāyī riṅ loka | ləvəs pagavenya pātaka sumurup iṅ tan parah | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_34s-ab] mukhaṁ padmadalākāraṁ vacaś candanaśītalam |<br>
+[Slo_34s-cd] hṛdayaṁ kartrasaṁyuktam ity etad dhūrtalakṣaṇam || 34 ||<br>
+<br>
+[Slo_34j] kaliṅanya | hana ta vvaṅ | mukhanya suməkar | kadi somyaniṅ tarate məkar | vuvusnya matis | kadi sərəpniṅ candana linepākən iṅ śarīra | anis-nisi | amanis-manisi riṅ vvaṅ kahīnan kasyasih | ndan sinapa vani kaṅ hati ri jro kadi kartra | kartra ṅaranya guntiṅ | kadi laṇḍəp iṅ pamaṅaniṅ guntiṅ alanya | tībraniṅ īrṣya kumrəṅəs hanugəl grīvaniṅ sādhu kasyasih | dahat aṅlarani | paḍanya kadi madhu mavor lavan racun | tuhun iṅ amanis hala nikāmātyani | yeka duṣṭalakṣaṇa <span class="blue">(em. dhūrtalakṣaṇa?)</span> ṅaranya | sākṣāt pāvak iṅ viṣa kālakūṭa | yeka rūpaniṅ ḍasar iṅ kavah | saṅkṣepanya | tan ulaha saṅ janma paramottama ika | liṅ saṅ hyaṅ śāstrāgama <span class="blue">(ed. śāstrāgāma)</span> ||<br>
+<br>
+[Slo_35s-ab] bālo yuvā ca vṛddhaś ca yat karoti śubhāśubham |<br>
+[Slo_35s-cd] tasyāṁ-tasyām avasthāyāṁ bhuṁkte janmani-janmani || 35 ||<br>
+<br>
+[Slo_35j] kaliṅanya | yan rare ikaṅ vvaṅ agave hayu | katəmu phalanya riṅ janmantara rahayu | ri səḍəṅ iṅ rare | kunaṅ yan agave hala | katəmu ikaṅ hala ri səḍəṅnyan rare || kunaṅ yan təṅah tuvuh | ikaṅ vvaṅ agave hayu | katəmu tika phalanya hayu | ri səḍəṅiṅ təṅah tuvuh | kunaṅ yan agave hala | katəmu ta ya ikaṅ hala ri səḍəṅiṅ təṅah tuvuh riṅ janmāntara || muvah yan atuva ikaṅ vvaṅ agave hayu | katəmu tika phalanya hayu | ri səḍəṅ iṅ matuva | kunaṅ yan magave hala | katəmu ta ya ikaṅ hala ri səḍəṅ iṅ matuva riṅ janmāntara | maṅkana vəkas iṅ gumavayakən hala-hayu tan hana tan kabhuktya | yāvat katəmu riṅ pañjanmanya | mataṅyan gavayakna juga ikaṅ buddhi rahayu | saṅkan rare | den təka riṅ kavṛddhan | maraniṅ janmāntara manəmu bhāgya saṅkan rare | təkeṅ atuha | maṅkana liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_36s-a] tṛṇakuśamuditānāṁ kāñcanaiḥ kiṁ mṛgāṇām<br>
+[Slo_36s-b] phalatarumuditānāṁ ratnabhir vānarāṇāṁ |<br>
+[Slo_36s-c] asurabhimuditānāṁ gandhibhiḥ sūkarāṇām<br>
+[Slo_36s-d] na ca bhavati narāṇāṁ tu priyaṁ tad viśeṣam || 36 ||<br>
+<br>
+[Slo_36j] kaliṅanya | ikaṅ mṛga | kidaṅ | mañjaṅan | tan pinakasukhaniṅ tvasnya ika yan vehana mās mvaṅ bhūṣaṇa | kunaṅ ika yan pinakasukhaniṅ manahnya | yan haneṅ alas akveh dukutnya hayu | mvaṅ alaṅ-alaṅ | ramban-rambanan | yeka jənək iṅ manahnya | maṅkana ikaṅ vānara | yan vehana sahananiṅ ratna mūlya | tan pinakasukhanya ika | kunaṅ yan umulat irikaṅ vvah-vvahan məṇḍuh paḍa matasak | yeka magave sukhanya | maṅkana tekaṅ və̄k | tan sukha ika deniṅ sarvasugandha | kunaṅ ikaṅ magave sukha ri tvasnya | paṅəməh rikaṅ pacaryan durgandha | yeka manukhani riṅ cittanya | maṅkana ikaṅ vvaṅ dadiha ika riṅ tan kinahyunan denika | taha tan maṅkana | asiṅ viniśeṣaken iṅ tvasnya | yeka siṅhit iṅ hatinya | hetu niṅ janma vvaṅ | hana sor | hana vvaṅ menak | hana kavula | hana tuhan | hana mūḍha | hana guṇa | hana virūpa | hana surūpa | hana manəmu hala | hana manəmu hayu | hana manuṣya | hana sattva | hana taru | hana latā | hana tṛṇa | irika ta katiṅhalan ikaṅ svarga lavan naraka | mapa rūpanya | yan hana vvaṅ atyanta vibhuh riṅ bhūminira | yeka svarga ṅaranya | yeka dinalih saṅ hyaṅ indra | yan hana vadvanira kasihan | yeka sākṣāt vidyādhara | yan hana bhujaṅga mvaṅ brāhmaṇa vedapāraga | tan kakuraṅ iṅ tattva sarvaśāstrāgama | yeka bhagavān vṛhaspati ṅaranira | muvah yan hana vvaṅ virūpa | mūḍha kasyasih | griṅan | gə̄ṅ duhkhanya | yeka kavah ṅaranya | ṅuni-ṅuni ikaṅ vvaṅ kaṇḍəhan lara tan sāmānya | tan ucapən ikaṅ tiryak kabeh | təkeṅ tṛṇa | taru | latā | pipīlikā | ikaṅ satumuvuh | yeka naraka | mataṅyan ikaṅ ulah rahayu | gavayakna | narapvan tan kaləbv iṅ mahārorava | saṅ vruh irika yeka vruh riṅ dharma rahayu | yan tan hana buddhidharma | inajarakən mahāniraya ṅaranya | nir ṅaranya nor | aya ṅaranya laku | tan lumakvakən dharma rahayu kaliṅanya | mataṅyan siṅgahana ikaṅ havan mareṅ kavah | lakvanana ikaṅ mārga mareṅ svarga | liṅ saṅ hyaṅ dharma | ya tutur ṅaranya | liṅniṅ aji ||<br>
+<br>
+[Slo_37s-a] śūratvam ārogyaṁ ratir avadyā<br>
+[Slo_37s-b] deveṣu bhaktiḥ kanakasya lābhaḥ |<br>
+[Slo_37s-c] rājapriyatvaṁ sujanapriyatvaṁ<br>
+[Slo_37s-d] svargacyutānāṁ kila cihnam etat || 37 ||<br>
+<br>
+[Slo_37j] kaliṅanya | hana inajarakən svargacyuta ṅaranya | vvaṅ huvus amukti sukha riṅ svarga | dadi tibā saṅkeṅ indraloka | taha tan maṅkana ika | tuhun yan hana inajarakən | vāhyanya maṅke liṅən | hana sira saṅ janmottama riṅ kula | makādi yan sira prabhu | sāvakan iṅ saṅ janmottama | yan sira vibhuh | agə̄ṅ kasugihan ira | dharmabuddhi riṅ kadi sira | vruh riṅ kajanmaniṅ mānuṣa sovaṅsovaṅ | mavəlas iṅ kavulanira | ikaṅ kāsyasih | maṅampura ri tivas iṅ dāsadāsī | paṅhə̄ban iṅ kapanasan | amayuṅi riṅ kodanan | lanāṅivə̄ha ri vvaṅ kasəpər | saka lor | saka kidul | saka vetan | saka kulvan | aṅinaki buddhiniṅ vadva | tan maveh laraniṅ thāni bala | savəṅku de nira | rahayu paṅucap iṅ mosyan | makādi inaləm buddhinira de saṅ brāhmaṇa | ṛṣi | śaiva sogata | salviriṅ saṅ sinaṅgah paṇḍita ṅastuti | kaluṅhāluṅhā pocapanira pinūji deniṅ rāt | tan patipaty amātimāti | tan patipati aṅdaṇḍa | yan tan sudoṣa | yan hana vvaṅ pinatyanira | dinaṇḍanira | huvus sayogya doṣanya | təlas vinulik denira riṅ āgamapramāṇa | ya ta samaṅkā katon halaniṅ kavulanira | kavayaṅ duṣṭanya | de saṅ dharmādhyakṣa | irika ta yan tinibān ḍaṇḍa | sasəḍəṅ iṅ doṣanya | de saṅ rumakṣa bhūminira | aṅḍaṇḍa tuvi sira | tan trāsa ikaṅ dinoṣa denira | apan sudharma ḍaṇḍa paṅdoṣanireṅ vvaṅ duṣṭa | yan hana vvaṅ maṅkana | yadyan matya sira | tumūt tikaṅ dharma rahayu | ri hilaṅiṅ prāṇanira | maṅdadi muvah kottaman ira | maṅjanma riṅ prabhu | yan riṅ saṅ pradhāna riṅ bhūmi kunaṅ | nahan lviriṅ dadinira | śūratva ṅaranya makāvak vāni | tan hana siriṅireṅ papraṅan | ārogya ṅaranya tan kəneṅ gəriṅ salavas ṅ hurip | rati ṅaranya kinahyunan deniṅ rāt | deveṣu bhaktih ṅaranya apagəh kabhaktinireṅ saṅ hyaṅ | kanakalābha ṅaranya atyanta sugih mās | rājapriyatva ṅaranya sira pāvakniṅ kinasihan saṅ prabhu | ika ta cihnaniṅ vvaṅ maṅulah puṇyadāna | rahayu dharmiṣṭha riṅ samajanma | yeka vvaṅ sinaṅguh tibā saṅkeṅ svarga | liṅ saṅ sujana maṅucap ||<br>
+<br>
+[Slo_38s-ab] suvarṇapuṣpāṁ pṛthivīṁ bhuñjanti catvāro narāḥ |<br>
+[Slo_38s-cd] upāyajñaś ca śūraś ca kṛtavidyaḥ priyaṁvadaḥ || 38 ||<br>
+<br>
+[Slo_38j] kaliṅanya | ikaṅ vvaṅ sinaṅguh mamukti kəmbaṅ həmās riṅ ləmah pāt lvirnya | vruh magave upāya | vruh riṅ upāyaniṅ śatru | yeka upāyajña ṅaranya || vāni riṅ samara | tan hana paḍanira | yeka śūra ṅaranya || vicakṣaṇa riṅ aji śāstrāgama | tan hana kapuṅguṅira riṅ sarvatattva | yeka kṛtavidya ṅaranya || bahu strīratna | paḍa vagəd anivi saṅ mahāpuruṣa priya | irika ta saṅ amava vruh riṅ anaṅgaśāstra | kinalulutan iṅ strī | yeka priyaṁvada ṅaranya | yan hana maṅkana kadadiniṅ vvaṅ pradhāna maṅulahakən puṇyadharma | pilih dadiniṅ vvaṅ guməgə̄ tapabrata liṅniṅ śāstra ||<br>
+<br>
+[Slo_39s-ab] vādānāṁ bahuvākyānāṁ vacanāni punaḥpunaḥ |<br>
+[Slo_39s-cd] jñānagamyena dūṣitā na grahītavyā vicakṣaṇaiḥ || 39 ||<br>
+<br>
+[Slo_39j] kaliṅanya | ikaṅ ujar tan yogya hiḍəpən de saṅ vicakṣaṇa | tan yogya uṅgvan iṅ asevitaha | vāda ṅaranya tūr doyan atukar paḍanya ratu || bahuvākya ṅaranya ratu kakvehan ujar || vacana punah-punah ṅaranya ratu tan paṣṭiṅ ujar | jñānagamya ṅaranya ratu kakvehan kaharəp | kaduk viveka | ika tatan ulaha saṅ ratu | doṣanira yan maṅkana | ikaṅ vadva kepvan buddhinya | apan avədi ivəhniṅ buddhi saṅ prabhu | tan hana kəna tinūt iṅ mantrīnira | salah sinevaka | tan kəna ginəgvan savuvus ira | saṅ ratu yan maṅkana kaṅhelan kavulanira | liṅniṅ śāstra ||<br>
+<br>
+[Slo_40s-ab] tyajet svāminam atyugram atyugrāt kṛpaṇaṁ tyajet |<br>
+[Slo_40s-cd] kṛpaṇād aviśeṣajñam aviśeṣāt kṛtaghnakam || 40 ||<br>
+<br>
+[Slo_40j] kaliṅanya | ikaṅ bhṛtya matiṅgal ratunya | yan hana ratu akəras mapanas iṅ gave | byakta sira tiniṅgal iṅ vadvanira | ləhəṅ ikaṅ ratu makəras svapadi ṅ ratu makuməd | tūr paraḍaṇḍa | yan hana ratu maṅkana tiniṅgal iṅ kavulanira | ya ləhəṅ ikaṅ ratu makuməd paraḍaṇḍa | svapadi ṅ ratu aviśeṣa | aviśeṣa ṅaranya mañarub | yan hana vvaṅ kulīnajanma sinorakən | yan hana vvaṅ adhahjāti ḍinuhurakən | yekāñarub ṅaranya | yan hana ratu maṅkana tiniṅgal sira deniṅ janma vvaṅ kulīnajanma | tathāpinyan ləhəṅ ikaṅ ratv añarub | svapadi ṅ kṛtaghna | kṛtaghna ṅaranya edan | tan pəgat anənəvək | tan pəgat ananalyani | amraṅ vvaṅ tan pakāraṇa | aṅgantuṅ vvaṅ tan pakāraṇa | haṅumu vvaṅ tan padoṣa | haṅoborobor iṅ vvaṅ tan padoṣa | salviriṅ ulah kṛtaghna linakvakən | yan hana ratu maṅkana | atyanta gilaniṅ vadvanya mulat | atakut amrəm kavəs girigiri | kadyaṅganiṅ masevita riṅ ula taruṅa | manahiṅ taṇḍa mantrīnya | keməṅan tanolah | ndan hatinya kumətər marəs | maṅkana liṅniṅ aji ||<br>
+<br>
+[Slo_41s-a] na yajñadānaṁ na tapo [']gnihotraṁ<br>
+[Slo_41s-b] na brahmacaryaṁ na ca satyavākyam |<br>
+[Slo_41s-c] na sarvavedādhyayane vrataṁ ca<br>
+[Slo_41s-d] prāptaṁ phalaṁ yat tad anaihikasya || 41 ||<br>
+<br>
+[Slo_41j] kaliṅanya | mapa ta hetunya | katəkan vibhava ikaṅ ratu maṅkana | tan hilaṅ tumuli kavīryanya | agə̄ṅ panəmunya lābha | apan tan maṅhanākən yajña | tan paveh dāna <span class="blue">(ed. dana)</span> riṅ saṅ paṇḍita | tan hana tapanya | tan paṅhanākən agnihotra | tan brahmacarya | tan satya siṅ ujarnya | tan aṅavruh iṅ sarvavedādhyayana | tan pabrata | tan asih iṅ saṅ brāhmaṇa | ṛṣi śaiva sogata | tathāpi prāptaṅ phala | agə̄ṅ vīryanya tan kahanān surud | kunaṅ hetunyan prāptaṅ phala | gə̄ṅ tapabratanya ṅūni | saṅkanya maṅguh lābha tan surud | hana pveka huvus hanti phalaniṅ tapabrata ṅūni | maṅke pva yeki tan iṅət riṅ mārganiṅ lābha | tan maṅhanākən yajña | tan paveh dāna ri saṅ paṇḍita | yama ta yan paratra | maṅjanma ta ya riṅ hīnajanma | tar pahiṅan kiṅkiṅ iṅ paṅjanmanya | ləvihləvih panəmunya duhkha | pilihpilih kamalan | salviriṅ pagavenya hala duk ratu katəmu | riṅ paṅjanmanya maṅke | mataṅyan saṅ vibhuh hayva tan prayatna | atutura juga sireṅ dharma rahayu | maran katəmu muvah vīryanira | yeka ivəhniṅ dadi vvaṅ | kadyaṅganiṅ vvaṅ thāni masavahsavah | tan pahiṅan lābhanika molih pari | dadi kaṅ tavun malih tan pasavahsavah | ya ta nihan paḍanya | ikaṅ śarīrāṅkənaṅ savah | ikaṅ kula yeka pavinihan | yan ikaṅ savah bəra | tan ginave | hana karika tumuvuh parinya muvah | tan maṅkana rehnya | kevala ikaṅ savah katuvuhan sukət kayukayu | mapa taṅ sinaṅguh sukət | pasamūhaniṅ indriya tumuvuh | mapa taṅ sinaṅguh kayukayu | gə̄ṅniṅ lobha | moha | mada | māna | mātsarya | hiṅsā | yeka ṣaḍvarga ṅaran ika | lobha ṅaranya harəp drəvyaniṅ len bisaṅkuhira | moha ṅaranya baraṅ amətəṅ təvasnya | mada ṅaranya avuru deniṅ kasugihan | māna ṅaranya tan hana kagə̄ṅan iṅ samasama | aṅləvihakən avak | mātsarya ṅaranya asəṅhit i samajanma | hiṅsā ṅaranya mamātimāti | hetuniṅ janma pāpa deniṅ ṣaḍripu | apituvi ikaṅ janma kasyasih | kagə̄ṅan ṣaḍripu | tan sipi denya tan kavəs | amaṅguh pāpa | tan ucapən ikaṅ tiryak | maṅkin kadurus | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_42s-ab] abalā tu calā puṁsi avivekas tu bhūmipaḥ |<br>
+[Slo_42s-cd] arakṣyāṁs tān prayatnena mantrī tyajed dhi dūrataḥ || 42 ||<br>
+<br>
+[Slo_42j] kaliṅanya | ikaṅ strī yan halāmbəknya riṅ lakinya | yogya tiṅgalakna | maṅkana teka saṅ prabhu yan ahala buddhinira | kady ambək niṅ raray aṅvan | tiṅgalakna ika deniṅ mantrīnira | maṅkana svabhāvaniṅ ratu lavan ikaṅ strī | yan ahala pamaryādān ika | tan rakṣanən | luṅhānana rehnya | hayva tan makalakṣaṇa ṅ prayatnāṅdohana | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_43s-ab] surāsut kṛmidāhaś ca prāṇaghnaḥ kumbhakārakaḥ |<br>
+[Slo_43s-cd] dhātudagdhā ca pañcaite cāṇḍālāḥ parikīrttitāḥ || 43 ||<br>
+<br>
+[Slo_43j] kaliṅanya | ikaṅ sinaṅgah cāṇḍāla riṅ loka | lima kvehnya | ndya ta | surāsut ṅaranya vvaṅ amahat | kṛmidāha ṅaranya vvaṅ amalantən | prāṇaghna ṅaranya vvaṅ añjagal | kumbhakāraka ṅaranya vvaṅ andyun | dhātudagdhā ṅaranya vvaṅ apaṇḍemās | ika ta kalima | inajarakən cāṇḍāla ṅaranya | tan yogya paranana umahnya deniṅ vvaṅ menak | yāvat ta ñāṇḍālani | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_44s-ab] pakṣiṇāṁ kākaś cāṇḍālo mṛgacāṇḍālo gardabhaḥ |<br>
+[Slo_44s-cd] narāṇāṁ kopī cāṇḍālaḥ sarvacāṇḍālo durjanaḥ || 44 ||<br>
+<br>
+[Slo_44j] kaliṅanya | riṅ pakṣī cāṇḍāla | tan hana kadi gagak | riṅ mṛga cāṇḍāla | tan hana kadi burvan gardabha | yan riṅ vvaṅ cāṇḍāla | tan hana kadi srəṅən | kunaṅ ikaṅ vvaṅ durjana | sakvehniṅ cāṇḍāla | alah deniṅ durjana | ləvih iṅ cāṇḍāla ika | apan aṅrusak iṅ samasamanya janma kaharəpnika | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_45s-a] gavāśanānāṁ sa giraḥ śṛṇoti<br>
+[Slo_45s-b] ahaṁ tu rājan munīnāṁ śṛṇomi |<br>
+[Slo_45s-c] pratyakṣam etad bhavatāpi dṛṣṭaṁ<br>
+[Slo_45s-d] saṁsargajā doṣaguṇā bhavanti || 45 ||<br>
+<br>
+[Slo_45j] kaliṅanya | yan hana vvaṅ masaṅsarga lavan vvaṅ nīca | niyatanika katularan buddhi durjana nīca | maṅkana yan asaṅsarga lavan ikaṅ vvaṅ sādhu | katularan buddhi sādhu | dṛṣṭopamānyatah | kadyaṅganikaṅ atat rvaṅ siki | maṅaran si gāvākṣa | mvaṅ si girikā | ikaṅ sasiki | inalap iṅ tuha buru | iniṅūnika | ikaṅ sasiki | inalap de saṅ paṇḍita | iniṅūnira | kathañcit hana ta sira ratu maburu-buru | kasasar ta sira prihavak | kavava marery umahniṅ tuha buru | kahanan ikaṅ atat si girikā | mojar tekaṅ atat riṅ saṅ prabhu | liṅnya | ndah mah ta mah | sivak kapālanya | maṅkana ta vuvusnikaṅ atat | karəṅə̄ de saṅ prabhu | alayū ta sira ruməṅə̄ vuvusnya | ri vəkasan ta sira | kavava mareṅ patapan saṅ paṇḍita | ri kahanan ikaṅ atat si gāvākṣa | mojar ta ya | liṅnya | dhūh bhāgya ta kita saṅ prabhu | diṅāryan ta rahadyan saṅhulun | kasəpəra riṅ patapan | arāryana ta laki | aluṅguha riṅ vidig añar | aṅinaṅa vvah ampiji | mvaṅ sərə hañar | apūh məntah | yapvan aṅhel rahadyan saṅhulun | maḍamva śrī mahārāja | irikaṅ vulakan | maṅkā liṅnikaṅ atat ri sira | kāścaryan ta manahnira saṅ prabhu | ruməṅvakən ujarikaṅ atat | ri vəkasan ta saṅ prabhu | matakvan ri saṅ paṇḍita | irikaṅ atat iniṅūnira | mojar ta saṅ paṇḍita | yan kavava deniṅ saṅsarganika | saṅkṣepanika saṅ sādhujana | hayva sira tan pamilihi saṅsarganira | ikaṅ sayogyāmuvuhana guṇa ri sira | hayva sira masaṅsarga lavan ikaṅ vvaṅ durjana | apan amava mareṅ kavah | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_46s-ab] doṣo [']py asti guṇo [']py asti nirdoṣo naiva jāyate |<br>
+[Slo_46s-cd] kardamād iva padmasya nālo doṣo [']sti kaṇṭakaiḥ || 46 ||<br>
+<br>
+[Slo_46j] kaliṅanya | ikaṅ dadi vvaṅ ṅaranya | tan hana luputa riṅ doṣa | yāvat ikaṅ vvaṅ inaləma guṇa deniṅ loka | hana ika calanya | deniṅ paḍanya vvaṅ | yadyan sugiha | pira vruhanya maṅaji | pira lituhayuhan iṅ rūpanya | yayanika cinalan deniṅ paḍanya janma | saṅkṣepanya | tan hana juga manulus | tan pacalaha | kadyaṅganikaṅ kəmbaṅ padma | inucap pavitra təmən ika | arah aparan ta yañ cinalan | agatəl liṅniṅ loka ||<br>
+<br>
+[Slo_47s-a] ambhojaṁ kaṇṭakāḍhyaṁ sahimahimagiriś candanaḥ sarpajuṣṭaḥ<br>
+[Slo_47s-b] sūryas tīkṣṇaḥ śaśāṅkaḥ śaśamalinatanuḥ sāgaras tiktatoyaḥ |<br>
+[Slo_47s-c] viṣṇur gopaḥ surendraś capalataragatiḥ śaṅkaro nīlakaṇṭhaḥ<br>
+[Slo_47s-d] ete sarve sadoṣāḥ kimuta bhuvi janā doṣavanto bhavanti || 47 ||<br>
+<br>
+[Slo_47j] kaliṅanya | tan hana juga tan pacala | pūrvanikaṅ śabda | inucapakən | tuñjuṅ arvi calanika | ikaṅ gunuṅ atis deniṅ hima calanya | ikaṅ kayu candana | mesi ulā kuvuṅnya calanika | saṅ hyaṅ vulan makatalutuh vuṅkukan calanira | ikaṅ sāgara apahit bañunya calanika | saṅ hyaṅ āditya mapanas tejanira | pinakacala riṅ sira | bhaṭāra viṣṇu aṅon ləmbu calanira | saṅ hyaṅ indra capala dahat calanira | bhaṭāra śaṅkara ahirəṅ gulunira | deniṅ viṣa kālakūṭa calanira | saṅkṣepanya | tan hana tan pacala ṅaranika | sanistanya hyaṅ deva tuvi hana cala rumakət iṅ sira | kimuta | sāmpun karuhun ikaṅ janma vvaṅ | tan hana vastu tan pacalaha | aṅhiṅ makəḍik lavan akveh prabhedanya | kunaṅ kadeyakna de saṅ sādhujana kabeh | prihənikaṅ doṣa akəḍik | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_48s-ab] rājavat pañca varṣeṣu daśa varṣeṣu dāsavat |<br>
+[Slo_48s-cd] mitravat ṣoḍaśavarṣa ity etat putraśāsanam || 48 ||<br>
+<br>
+[Slo_48j] kaliṅanya | deniṅ anibākna varavarah riṅ anak | yan limaṅ tahun tuvuhnya | kadi deniṅ aṅiriṅ anak saṅ prabhu deniṅ anibākən varah iriya | matuha pva ya ikaṅ svaputra | katəka riṅ sadaśa tahun tuvuhnya | irika ta yan varah hulun deniṅ anibākən varavarah iriya | kunaṅ yan atuha ikaṅ anak | katəka riṅ nəmbəlas tahun tuvuhnya | ika ta yan kadi deniṅ amarahmarah iṅ mitra deniṅ anibākən varahvarah iriya | maṅkana kramaniṅ amarahmarah putra | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_49s-ab] lālanād bahavo doṣās tāḍanād bahavo guṇāḥ |<br>
+[Slo_49s-cd] tasmāt putreṣu śiṣyeṣu tāḍanaṁ na tu lālanam || 49 ||<br>
+<br>
+[Slo_49j] kaliṅanya | ikaṅ putra yan lālana | tuhun ika tan pinihəran | tan vuruṅ mamaṅguh doṣa | kunaṅ ikaṅ putra yan tināḍana | tuhun ika yan sinakitan iṅ varahvarah | tan vuruṅ ika mamaṅguh guṇa | mataṅyan ikaṅ putra mvaṅ śiṣya tāḍananika | maran agə̄ṅ guṇanya | hayva vineh lālana liṅniṅ aji ||<br>
+<br>
+[Slo_50s-ab] kanyādāna ṛṇacchede dharmadāne dhanārjane |<br>
+[Slo_50s-cd] śatruvidyāgnirogeṣu kālakṣepaṁ na kārayet || 50 ||<br>
+<br>
+[Slo_50j] kaliṅanya | ikaṅ tan yogya suvena | kavehan iṅ kanyā | kapəgatan iṅ utaṅ | kavehan iṅ dharma | kapetan iṅ mās | kahilaṅan iṅ satru | kapetan iṅ vidyā | kapaḍəman iṅ apuy kavarasan iṅ roga | ika tatan kālakṣepa | kagavayanya kabeh | liṅniṅ aji ||<br>
+<br>
+[Slo_51s-ab] paro [']pi hitavān bandhur bandhur apy ahitaḥ paraḥ |<br>
+[Slo_51s-cd] ahito dehajo vyādhir hitam āranyaṁ auṣadham || 51 ||<br>
+<br>
+[Slo_51j] kaliṅanya | ikaṅ vvaṅ lyan apituvi | yan marahvarah sukhaniṅ śarīra | yeka kadaṅ ṅaranya | ikaṅ kadaṅ apituvi yan tan aveh sukhaniṅ śarīra | nityaśah maṅlarani | yeka vvaṅ len ṅaranya | hana pvekaṅ vyādhi umuṅgv iṅ avak | aharəp ta ya mamātyanana | yeka śatru ṅaranya | kunaṅ ikaṅ auṣadha | maveh sukha mamarasakən iṅ avak | umuṅgv iṅ alas apituvi | tathāpinya vinulatan pinet vinulik | syapa tinon ta maṅkana | nihan ika saṅ sugrīva | kalaran ika deniṅ sānak ira | makaṅaran bāli | kunaṅ ika saṅ rāmalakṣmaṇa | vvaṅ len apituvi sira | tathāpinyan pinetnika sira | ri təṅahnikaṅ alas | pinakoṣadhaniṅ lara saṅ sugrīva | maṅkana paḍaniṅ sānak bandhuvarga | yan ahyun amatyanana riṅ avak | mavās śatru ṅaranya | vvaṅ lyan tuvi | yan maṅhuripaṅ śarīra | prasiddha kadaṅ sānak ṅaranya | liṅniṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_52s-ab] śarvarīdīpakaś candraḥ prabhāte ravir dīpakaḥ |<br>
+[Slo_52s-cd] trailokye dīpako dharmaḥ suputraḥ kuladīpakaḥ || 52 ||<br>
+<br>
+[Slo_52j] kaliṅanya | yan iṅ vəṅi saṅ hyaṅ candra sira pinakadamar | yan iṅ rahina saṅ hyaṅ ravi pinakadamar | yan iṅ triloka saṅ hyaṅ dharma pinakadamar | kunaṅ yan iṅ kula ikaṅ anak suputra pinakadamar | liṅniṅ aji ||<br>
+<br>
+[Slo_53s-ab] ekorasasamutpannā ekanakṣatrakānvitāḥ |<br>
+[Slo_53s-cd] na bhavanti samācārā yathā badarakaṇṭakāḥ || 53 ||<br>
+<br>
+[Slo_53j] kaliṅanya | ikaṅ anak ṅaranika | yadyan parəṅ amətu saṅkeṅ garbhavāsa tuvi | tuṅgala ṅaranika | de saṅ bapa mvaṅ ibu | paḍa ta rakva sodara ika kabeh | paḍa dinanya mvaṅ nakṣatranyan duk mətu | tathāpinya tan paḍa buddhinika salahsiki | kadyaṅganiṅ rvinikaṅ badara savit | hanābənər | hanan vilut | ya ta paḍaniṅ buddhinikaṅ vvaṅ pinakānak | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_54s-ab] bhāryābhujaṅgapāśasya putrasnehānvitasya ca |<br>
+[Slo_54s-cd] tṛṣṇāpāvakadagdhasya tyāga eva mahauṣadhiḥ || 54 ||<br>
+<br>
+[Slo_54j] kaliṅanya | ikaṅ strī pinakarabi | yan ahalāmbəknya | yāvakan iṅ nāgapāśa milət i śarīra | umuṅgv iṅ gulu | tinūt i sihniṅ maputra | kunaṅ ikaṅ tṛṣṇā guməsəṅi riṅ avak | yeka viṣa | mapa tika oṣadhanya | kevala tyāga | liṅ saṅ hyaṅ āgama ||<br>
+<br>
+[Slo_55s-ab] vṛddhā dhanavatī strī ca virūpātyantakartṛkā |<br>
+[Slo_55s-cd] daridrā rūpasaṁpannā tisraḥ sevyā vicakṣanaiḥ || 55 ||<br>
+<br>
+[Slo_55j] kaliṅanya | ikaṅ vvaṅ marabi | yan inalap huvus matuva vayahnya | yan sugih mās | alapən ika | muvah yan hala rūpanya | atyanta riṅ prajña | alapən ika | kunəṅ yan amosel kasihan | pinənuhan deniṅ hayuniṅ rūpanya | alapən ika | ika ta katəlu sivinən ika de saṅ vicakṣaṇa | liṅniṅ aji ||<br>
+<br>
+[Slo_56s-ab] dhanahīno [']pi kulajo vedahīno [']pi vā dvijaḥ |<br>
+[Slo_56s-cd] bhṛtyahīno nṛpo loke brāhmaṇaiś cāpi pūjyate || 56 ||<br>
+<br>
+[Slo_56j] kaliṅanya | ikaṅ vvaṅ yan aluhur kulanya | ndan tika kasyasih | yogya katvaṅana | apan agə̄ṅ kavoṅan ika | maṅkana ta sira saṅ brāhmaṇa | yadyan hīnaha ri saṅ hyaṅ veda sira | tathāpinyan sireki yogya katvaṅana deniṅ janma | maṅkana ta sira saṅ ratu | yadyan hīnaha vadva sira | akəḍik atah balakośavāhananira | yogya sira katvaṅana riṅ loka | apituvi yan sira ratu pinūji de saṅ brāhmaṇa | ṛṣi | śaiva sogata | katvaṅana | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_57s-ab] hiṁsā balam anāryāṇāṁ kṣamā guṇavatāṁ balam |<br>
+[Slo_57s-cd] rājñāṁ daṇḍavidhir balaṁ śuśrūṣā hi balaṁ strīṇām || 57 ||<br>
+<br>
+[Slo_57j] kaliṅanya | ikaṅ vvaṅ durjana pinakaśaktinya | amatyani riṅ paḍanya janma | kunaṅ saṅ vvaṅ agə̄ṅ guṇanira | kopaśaman pinakaśakti nira | kopaśaman ṅaranya asih ri samasamanira mānuṣa | yadyan iṅ sattva tuvi | kinavəlasan denira | yan hana laranya | maṅkana sira saṅ ratu | ḍaṇḍavidhi pinakaśaktinira | ḍaṇḍavidhi ṅaranya ikaṅ andoṣani saṅkeṅ āgamaśāstrādi | kunaṅ ika śaktiniṅ strī | si kaśuśrūṣān pinakaśaktinya | kaśuśrūṣān ṅaranya satya malaki | anūt sabuddhiniṅ svāmī | maṅkana liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_58s-ab] urage [']pi viṣaṁ dante citte mūrkhaviṣaṁ matam |<br>
+[Slo_58s-cd] ahite vandanaṁ viṣaṁ nārīṣu kuṭilā gatiḥ || 58 ||<br>
+<br>
+[Slo_58j] kaliṅanya | ikaṅ ulā riṅ huntunya uṅgvaniṅ viṣanika | maṅkana ikaṅ durjana mūrkha | riṅ cittanya uṅgvaniṅ viṣanya | kunaṅ ikaṅ vvaṅ tan rovaṅiṅ enak | amatyani pinakaviṣanya | muvah ikaṅ strī | caṅgih riṅ lakinya | uṅgvaniṅ viṣanika | maṅkana liṅ niṅ aji ||<br>
+<br>
+[Slo_59s-ab] anabhyāse viṣaṁ śāstram ajīrṇe bhojanaṁ viṣam |<br>
+[Slo_59s-cd] daridrasya viṣaṁ goṣṭhī vṛddhasya taruṇī viṣam || 59 ||<br>
+<br>
+[Slo_59j] kaliṅanya | ikaṅ vvaṅ aṅabhyāsa śāstra | yan harəp tan pārəp | dadi viṣa ikaṅ śāstra riṅ vvaṅ maṅkana | maṅkana ikaṅ vvaṅ amaṅan | yan tan jīrṇa riṅ vətəṅ | tuvin harəp tan pārəp | dadi viṣa yan maṅkana | kunaṅ ikaṅ vvaṅ daridra | asiṅ inucap de nika pinakaviṣa | apan savuvus iṅ janma kasyasih | dinalih harəp deniṅ sugih | liṅniṅ aji ||<br>
+<br>
+[Slo_60s-ab] amadanayutā kanyā yuvatī ca rajasvalā |<br>
+[Slo_60s-cd] kāntā payodharāṇvitā pramadā ca hatā smaraiḥ || 60 ||<br>
+<br>
+[Slo_60j] kaliṅanya | ikaṅ strī anvam | turuṅ ana ravatravat iṅ madane iriya | yeka kanyā ṅaranya | kunaṅ ikaṅ strī bahurajasvalā yuvatī ṅaranya | hana pvekaṅ strī kapətək susunya | turuṅ ika sinaṅgama | yeka kāntā ṅaranya | muvah ikaṅ strī huvus kasimbat iṅ hrū saṅ hyaṅ smara | vahuvahu māri kasatan paṅəneniṅ sañjata | yeka pramadā ṅaranika | liṅiṅ śāstra ||<br>
+<br>
+[Slo_61s-a] vidyā sahasraguṇitā pariśaṅkanīyā<br>
+[Slo_61s-b] ārādhito [']pi nṛpatiḥ pariśaṅkanīyaḥ |<br>
+[Slo_61s-c] bhāryāgatiś ca kuṭilā pariśaṅkanīyā<br>
+[Slo_61s-d] aśvo [']pi vegagatitaḥ pariśaṅkanīyaḥ || 61 ||<br>
+<br>
+[Slo_61j] kaliṅanya | ikaṅ vvaṅ manəgəs padārthanikaṅ śloka | hayva maṅucap təlas virasanira saṅ hyaṅ vidyā | adyāpi guṇitanən piṅsevu kəna | rasaniṅ śāstra | tathāpinyan ika saṅśayanən juga hananiṅ rasa saṅ hyaṅ aji muvahmuvah | tan gagampaṅən de saṅ mahyun vruheṅ panəgəs | maṅkana ika saṅ ratu | pira saṅkəpan ira riṅ pasamūhaniṅ bala | lavan mantrīnira | təkeṅ aśva gaja ratha sahāyudhanya | tathāpinya yogya saṅśayanən ika deniṅ śatrunira | tan gagampaṅən deniṅ śatru lumagāna riṅ sira | maṅkana ikaṅ strī pinakabhāryā | adyāpi hana ri kisapvan tuvi | səḍəṅnyan kinasihan deniṅ lakinya | tathāpi yogya saṅśayanən vilut iṅ buddhinya | tan gagampaṅən pāmbəkanya | maṅkana ikaṅ kuda | pira kari dərəsan iṅ paṅrapnya | tathāpi yogya saṅśayanən dərəsniṅ gatinya maṅrap | tan gagampaṅən | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_62s-a] na tṛptī rājño dhanasaṁgraheṇa<br>
+[Slo_62s-b] na sāgaratṛptir ato jalena |<br>
+[Slo_62s-c] na paṇḍitatṛptiḥ subhāṣitena<br>
+[Slo_62s-d] na tṛptiś cakṣoḥ priyadarśanena || 62 ||<br>
+<br>
+[Slo_62j] kaliṅanya | sira saṅ prabhu | pira kvehaniṅ kanaka rajata ratna vastra bhūṣaṇa | lavan artha sinimpənan denira | tathāpi tan tṛpti manahnira mahyun muva juga sira riṅ sarvadrəvya | ndatan santoṣa sira denika | maṅkana tekaṅ sāgara | yan pira kvehaniṅ bañu prāpti manāmbəh irika | tathāpi tan tṛpti ika deniṅ bañu tumambəh irikaṅ jaladhi | tan kahanan kəbək juga denya pratidina təka | maṅkana teka saṅ paṇḍita | yan pira kvehan ikaṅ aji śāstrāgama katama denira | lavan pira kvehaniṅ karma śubhāśubha kapaṅguh denira | tathāpi ḍatəṅ ika kabeh tan tṛpti sira denika | tan varəg sira deniṅ gave halahayu | muvah tan kəbək juga vətəṅira | sumimpən irikaṅ aji kabeh | maṅkana tekaṅ cakṣurindriya | yan pira tan kvehaniṅ tuməkanana kahyunika | tathāpinya tan tṛpti ika denika manon asiṅ sahananiṅ manohara vinulatan mahyun maṅko rahayu muvahmuvah | maṅkana liṅ saṅ hyaṅ āgama ||<br>
+<br>
+[Slo_63s-a] <span class="red">śāstran tadāpīva vaśān prakāśāt</span><br>
+[Slo_63s-b] mūḍhasya santoṣa evaṁ latābhaḥ |<br>
+[Slo_63s-c] sa koṭare kumbha matonyavetti<br>
+[Slo_63s-d] dhījñānadīpaḥ kuta eva dṛṣṭaḥ || 63 ||<br>
+<span class="blue">Slo63s-c read: sa koṭare kumbham ato nyaveti? <span class="blue">(TL)</span></span><br>
+<br>
+[Slo_63j] kaliṅanya | atyanta paḍaṅiṅ jñananira saṅ paṇḍita | təkap i gə̄ṅnikaṅ aji śāstrāgama ri hati nira mahāprabhāva | iva paḍanya nihan | kadyaṅganiṅ damar umuṅgv iṅ kuvuṅiṅ kumbha paḍanya | dumilah riṅ jro | tan katon ri heṅ | tathāpinyan katiṅhalan | hana mātra kukusnya riṅ jaba umijil panəṅran iriya | maṅkana teka saṅ vruh iṅ śāstra | hana mātra vijil iṅ ślokanirān makarakara katon iṅ loka | yeka paṅavruh ira yan apaḍaṅ i jro | kunaṅ ikaṅ vvaṅ mūḍha | kadyaṅganiṅ luṅgahniṅ latā | yan kapanasan | kamərut muṅkərəd katrək | ndatan pasəmi | kevala santoṣa | saṅkṣepaniṅ jñāna saṅ vidvān kadi damar | takvanakna riṅ saṅ vruh ri kaliṅan iṅ jñāna mahāviśeṣa | təməntəmən liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_64s-ab] dvijātir abhivyākhātā devatānām anugrahī |<br>
+[Slo_64s-cd] prabhuś ca yogayuktaś ca catvāro [']vyabhicāriṇaḥ || 64 ||<br>
+<br>
+[Slo_64j] kaliṅanya | ikaṅ tan adva śabdanira riṅ loka | saṅ brāhmaṇa paripūrṇa riṅ caturveda | sira tan ləñok | muvah saṅ huvus anəmu devānugraha | tan ləñok sira | muvah saṅ ratu yan vus prabhu cakravartī | tan ləñok sira | saṅ paṇḍita | yan sira təlas yukti gumavayakən yoga viśeṣa | kakavaśeṅ niṣkalajñāna | tan ləñok sira | ika ta kapat ndatan kahanan ləñok | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_65s-ab] tapaḥ paraṁ kṛtayuge tretāyāṁ jñānam ity āhuḥ |<br>
+[Slo_65s-cd] dvāpare yajñam ity āhur dānam eva kalau yuge || 65 ||<br>
+<br>
+[Slo_65j] kaliṅanya | ulah ṅūni riṅ kṛtayuga | ikaṅ vvaṅ atapabrata sinaṅguh viśeṣa | mūlya kinaləvihakən samaṅkā | kunaṅ riṅ traitayuga | jñāna sinaṅguh ləvih | jñāna ṅaranya yoga | yeka viniśeṣākən iṅ vvaṅ samaṅkā | muvah ikaṅ dvāparakāla | homa yajña viśeṣākən iṅ vvaṅ | mapa ta lvirniṅ yajña | aśvamedhayajñādi | yeka sinaṅguh ləvih | kunaṅ kālaniṅ kaliyuga maṅke | mās pirak səkul ulam sinaṅguh ləvih deniṅ vvaṅ | mataṅyan sira saṅ sādhu | duhkha ri kālaniṅ kaliyuga | apan sinakitan deniṅ vvaṅ durjana məta | saṅkṣepanya | ikaṅ durjana duṣṭa pinakavvaṅ avak iṅ saṅhāra | apan magave kahilaṅan ira saṅ sādhujana | mataṅyan saṅ ahyun iṅ buddhi rahayu | hayva sira tumūt aṅlarani ri saṅ sādhu mahāpaṇḍita | marapvan tan tumūt ta pātakaniṅ janma riṅ kaliyuga | ndatan sinaṅgah pāvak iṅ saṅhāra | apan ikaṅ vvaṅ pāvak iṅ saṅhāra riṅ kaliyuga | amukti mahāpātaka | təmahnya riṅ kālaniṅ kṛtayuga | traitayuga | dvāparayuga | yeka lavasnya dadi itipniṅ kavah | apan doṣanyan paṅlarani ri saṅ paṇḍita | mamatimati saṅ paṇḍita | hetunya mamaṅguh pāpa | irikaṅ kapintigan iṅ yuga | yeka sinaṅguh cakrabhāva | tuhun sukha ri təkaniṅ kaliyuga kevala | apan pinakapanaṅhāra buddhi saṅ paṇḍita | pinakapāvak iṅ maṅharuhara rāt | ginave panaṅhāra sarva rahayu | gatinya tinuvuhakən riṅ kaliyuga | yeka śumīrṇākən sarva dharma gavenya | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_66s-ab] pradhānaṁ śakaṭopamaṁ puruṣo vṛṣabhopamaḥ |<br>
+[Slo_66s-cd] īśasārathisaṁyuktaṁ jagad bhramitacakravat || 66 ||<br>
+<br>
+[Slo_66j] kaliṅanya | ika vyaktiniṅ tigaṅ yuga | magantiganti lavan kaliyuga | təluṅ yuga malavan sayuga | saṅ pradhāna sira paṅavak iṅ śakaṭa | saṅ puruṣa lumakvakən buddhi hala-hayu | nimitta saṅ puruṣa makāvak vṛṣabha | kinon de bhaṭāra maṅirida śakaṭa | amot pagaveniṅ janma hala-hayu | bhaṭāra īśvara sira pinakasārathiniṅ paḍati | kinon de bhaṭāra mahulun | aməcuta irikaṅ sapi | avak saṅ puruṣa | ikaṅ caturyuga kipiṅ iṅ paḍati pataṅ ulər | təvasniṅ inucap | ṅūni tattvanika | saṅ hyaṅ sūryacandra pinakapacəkiṅ kipiṅ pataṅ ulər | ikaṅ candra kiva | ikaṅ sūrya təṅən tattvanira | apan dvādaśa sūrya | dvādaśa candra | hetuniṅ satuhan rvavəlas vulan vilaṅnya | saṅkṣiptaniṅ kipiṅ papat vilaṅnya | hetuniṅ pacəkiṅ kipiṅ rovəlas kvehnya | ikaṅ buṅbuṅan kālih | rahina vəṅi tattvanya | saṅ hyaṅ dharma hiṇḍən tattvanira | ikaṅ rajah tamah lavan daśendriya | ləmah katūtiṅ kipiṅ tattvanya | mvaṅ salviriṅ rəgəd rumakət irikaṅ kipiṅ | kunəṅ yan arəgəd duṣṭāmbək ikaṅ vvaṅ riṅ kṛtatraitadvāpara | pəjah maṅjanma | tumuvuh riṅ kaliyuga | kunaṅ ikaṅ vvaṅ riṅ kaliyuga | yan rahayu buddhidharma ulahnya | yan pəjah maṅjanma | tumuvuh riṅ kṛtatraitadvāparayuga | yan apagəh buddhidharma riṅ kṛtatraitadvāpara | mapagəh tuvuhnya irikaṅ yuga tiga | kunaṅ ikaṅ vvaṅ iṅ kaliyuga yan apagəh buddhinya marəgəd duṣṭa | mapagəh tuvuhnya riṅ kali aṅjanma | kunaṅ prabhedaniṅ janma riṅ kṛtatraitadvāpara | yan təkaniṅ kaliyugakāla | tan tumurun muvah aṅjanma irika | mulih mariṅ puruṣatattva | dadi deva | maṅanti riṅ brahmapada | viṣṇupada | īśvarapada | yan təka pva ya kālamāsaniṅ kṛtatraitadvāpara | tumurun muvah maṅjanma mānuṣa | nihan prabhedanikaṅ vvaṅ riṅ kaliyuga | yan prāptaniṅ māsakāla kṛtatraitadvāpara | mulih riṅ pradhānatattva | matəmahan tiryak sattva magə̄ṅ aḍmit | sarva kumilip | maṅanti riṅ sthāvarajaṅgama | kunaṅ yan kapaṅan kenum iriṅ kṛtatraitadvāpara | ikaṅ sthāvarajaṅgama | dadi manuṣya sāriniṅ kapaṅan kenum | aṅhiṅ kadyaṅganiṅ dyun vavadah hiṅgu | tan ilaṅ gandhanya | hetuniṅ yuga saṅsaya luṅsur | kṛtayuga matəmah traita | traita matəmah dvāpara | dvāpara matəmah kali muvah | hetuniṅ tan kavaśeṅ tapa magave jñāna | tan kavaśeṅ jñāna magave yajña | tan kavaśeṅ yajña magave puṇyadāna | maveh mās pirak səkul ulam | yeka vyaktinyan saṅśaya miṅsor | liṅ saṅ hyaṅ āgama ||<br>
+<br>
+[Slo_67s-ab] annadānaṁ kaniṣṭhaṁ ca dhanadānaṁ ca madhyamam |<br>
+[Slo_67s-cd] uttamaṁ kanyādānaṁ ca vidyādānam anantakam || 67 ||<br>
+<br>
+[Slo_67j] ikaṅ aveh səkul | kaniṣṭhadāna ṅaranya | ikaṅ vvaṅ adāna mās maṇik | madhyamadāna ṅaranya | muvah ikaṅ vvaṅ aveh kanyā | uttamadāna ṅaranya | muvah ikaṅ vvaṅ amarahmarahi dharma haji śāstrāgama | manuduhakən iṅ hala-hayuniṅ ulah | anantadāna ṅaranya | tan pahiṅan phalanika | liṅ saṅ hyaṅ āgamavidhi ||<br>
+<br>
+[Slo_68s-ab] ekākṣarapradātāraṁ dātāraṁ nānumanyate |<br>
+[Slo_68s-cd] śvānayonau prasūya tu cāṇḍālo hy abhijāyate || 68 ||<br>
+<br>
+[Slo_68j] kaliṅanya | svabuddhiniṅ janma manuṣya riṅ kaliyuga | yan hana saṅ vruh maṅaji śāstrāgama | tinakvanakən panəgəsnikaṅ śāstra | katanvruhnyākṣara salahtuṅgaliṅ akṣara | huvus vinarah | bisa ta ya vəkasan | kunaṅ ujarnya | tan saṅ paṇḍita riṅ anu saṅkaniṅ hulun vruh riṅ āgama śāstra | aku vruh ḍavak | maṅkanāmbəkniṅ janma riṅ kaliyuga | yan hana vvaṅ maṅkana | huvus ta ya varəg amukti karmaphala | karmaphala ṅaranika phalaniṅ gave hala-hayu | pəjah ta ya vvaṅ maṅkana | vəkasan mulih riṅ śvānayoni | śvānayoni ṅaranya maṅjanma riṅ camra | pəjah ikaṅ camra | maṅjanma ta ya riṅ cāṇḍāla | mapa ta buddhinikaṅ cāṇḍāla | nihan pravṛttiniṅ janma cāṇḍāla | tumuvuh riṅ kaliyuga | hana vvaṅ aṅlarani vvaṅ tan padoṣa | aṅdalihdalih hala riṅ saṅ sādhujana | amilarani riṅ saṅ sādhu | aneyaneya riṅ saṅ paṇḍita | amatimati viku | amaliṅ | maṅrañcab | manumpu | mamuṅpaṅ | mamuṅpuṅ | aṅrampas | ambegal | maṅamuk | ambahud aṅris | aṅupas | aṅracun | manəluh | mandeṣṭi | maməməṇḍəm | mamiśunākən aveh ujar capala pāruṣya | niṅkiri ri vvaṅ sugih | īrṣyā riṅ vvaṅ anəmu bhāgya | malulut iṅ drəvyaniṅ para | aheva riṅ kasyasih | sampe riṅ saṅ hyaṅ tapabrata | avalepa riṅ dharma yukti | agələm aṅulah aṣṭaduṣṭa aṣṭacora | mvaṅ ṣaḍātatāyī | agələm amatyani ləmbu | amatyani brāhmaṇa | bhujaṅga ṛṣi śaiva sogata | agələm amatyani guru | vvaṅ atuha | maṅrubuhakən ḍaṅ kakahyaṅan | amet devadrəvya | maṅalap guru | maṅalap śiṣya | malaky arabi samanya lanaṅ | malaky arabi samanya vadon | hana malap ibunya | hana malap anaknya | tan paratu | tan paviku | tan pakabuyutan | tan pasaṅgar | yeka ulahniṅ kalisaṅhāra | tan hana sor | tan hana ruhur | kunaṅ ikaṅ rāt | traṅtraṅ laṅit | ləbu mələk | tahun vuruṅ | hilan | praṅ maṅekadesa | laraniṅ vvaṅ thāni bala | sīma | dharma kalaṅ kalagyan <span class="blue">(ed. kalaṅka lāgyan)</span> | rusak iṅ nagara | gəriṅ urəm | muris | gigil aməvəh | mvaṅ edan kavaraṅan | pāmbəkan iṅ janma | tan atutur iṅ tuhan | tan panolih rāma reṇa | mvaṅ kadaṅ sānak | paliṅ | pəṅə̄ṅ | maṅkana svabhāvaniṅ buddhiniṅ vvaṅ riṅ kalisaṅhāra | kunaṅ ulaha saṅ matakitaki dharma rahayu | hayva sira milu kalulut iṅ pracāranikaṅ duṣṭacittaniṅ kaliyuga | marapvan tan tumibeṅ kavah | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_69s-ab] bhrūṇahā puruṣaghnaś ca kanyācoro [']grayājakaḥ |<br>
+[Slo_69s-cd] ajñātasāṁvatsarikaḥ pātakāḥ parikīrtitāḥ || 69 ||<br>
+<br>
+[Slo_69j] kaliṅanya | bhrūṇahā ṅaranya mamatyani rareṅ jro vətəṅ | puruṣaghna ṅaranya mamatyani saṅ puruṣa | rva lvir ika saṅ puruṣa | ndya ta | yan hana vvaṅ vīrya sugih viśeṣa riṅ deśanira | yeka puruṣa | dhanavān ṅaranira | muvah yan hana vvaṅ bahuśāstra | tan hana kapuṅguṅireṅ aji tattvāgama | yeka puruṣa śāstravān ṅaranira | kanyācora ṅaranya amaliṅ iṅ rarā laraṅan | agrayājaka ṅaranya alaky arabi maṅlumpati kaka | tan panūt kramaniṅ akakāri | ajñātasāṁvatsarika ṅaranya masasavah salah māsa | yan hana vvaṅ maṅkana | tibā riṅ kavah | dadi hitipniṅ nirayapada | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_70s-ab] govadho yuvatīvadho bālavṛddhaś ca vadhyate |<br>
+[Slo_70s-cd] āgāradāhaś ca tathā upapātakam ucyate || 70 ||<br>
+<br>
+[Slo_70j] kaliṅanya | nihan ulahnikaṅ vvaṅ riṅ kaliyuga | govadha ṅaranya mamunuh ləmbu | yuvatīvadha ṅaranya mamatyani voṅ vadon | bālavadha ṅaranya mamatyani rare duruṅ vruh iṅ hiḍəp | vṛddhavadha ṅaranya mamatyani voṅ huvus atuha tumakul | āgāradāha ṅaranya aṅrañcab andukeni | yeka upapātaka ṅaranya | yan hana vvaṅ maṅkana | tibā riṅ kavah | dadi hitipniṅ mahānirayapada | liṅniṅ aji ||<br>
+<br>
+[Slo_71s-ab] brahmavadhaḥ surāpānaṁ suvarṇasteyam eva ca |<br>
+[Slo_71s-cd] kanyāvighnaṁ guror vadho mahāpātakam ucyate || 71 ||<br>
+<br>
+[Slo_71j] kaliṅanya | nihan ulahnikaṅ vvaṅ riṅ kaliyuga | brahmavadha ṅaranya amatyani saṅ brāhmaṇa | surāpāna ṅaranya akon aṅinuma sajə̄ṅ ri saṅ bhujaṅga śaivasiddhānta | suvarṇasteya ṅaranya añoloṅ mās | kanyāvighna ṅaranya manaṅgama rara duruṅ māsanika rovaṅən iṅ masaṅgama təhər agriṅ | makādi yan mati | yeka mamighnani kanyā | guruvadha ṅaranya amateni guru | yeka mahāpātaka ṅaranya | yan hana vvaṅ maṅkana | tibā riṅ kavah | dadi hitipniṅ roravapada | liṅniṅ aji ||<br>
+<br>
+[Slo_72s-ab] svāṁ putrīṁ bhajate yas tu bhajate yas tu mātaram |<br>
+[Slo_72s-cd] yaś codgṛhṇāti talliṅgām atipātakam ucyate || 72 ||<br>
+<br>
+[Slo_72j] kaliṅanya | svaputrībhajana ṅaranya vvaṅ arabi anaknya | mātṛbhajana ṅaranya vvaṅ arabi ibunya | liṅgagrahaṇa ṅaranya vvaṅ anāhasa andədəl liṅga | arca | kabuyutan | aṅrusak umahniṅ deva saṅ hyaṅ | sakalviraniṅ aṅrusak liṅga | arca | tinugəltugəlnya makādi | yeka liṅgagrahaṇa ṅaranya | maṅkana pāmbəkaniṅ janma vvaṅ riṅ kaliyuga | hetunyan tan sama lavan vvaṅ riṅ kṛtatraitadvāpara | pāmbəkanya | yan hana vvaṅ manūt iṅ pracāraniṅ janma riṅ kaliyuga | atyanta riṅ kuhakabuddhi | makaṅūni liṅgagrahaṇa | yeka tibā riṅ kavah | dadi hitipniṅ mahāroravapada | inajarakən atipātaka ṅaranya | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_73s-ab] utpalasyāravindasya matsyasya kumudasya ca |<br>
+[Slo_73s-cd] ekayoniprasūtānāṁ teṣāṁ gandhaḥ pṛthakpṛthak || 73 ||<br>
+<br>
+[Slo_73j] kaliṅanya | utpala ṅaranya tunjuṅ biru | aravinda ṅaranya tarate | kumuda ṅaranya tuñjuṅ piṅhe | tuñjuṅ baṅ tuñjuṅ sindūra | matsya ṅaranya ivak loh | paḍa ika sakiṅ bañu | kavijilanika | tathāpinya tan sagandhanya | bheda juga riṅ satuṅgalsatuṅgal | maṅkana tikaṅ vvaṅ dumadi janma | yan tumuvuh riṅ kaliyuga | hayva makabuddhi ri pāmbəkaniṅ vvaṅ riṅ kaliyuga | anəlata ta sira makāmbəkan duk kadi buddhiniṅ vvaṅ riṅ kṛtayuga | riṅ traita | riṅ dvāpara | aṅgugvanana dharma rahayu | marapvan umulih devatā muvah | apan iṅ vvaṅ dumadi mānuṣa | dadiniṅ deva ṅūni | kuraṅ yoga | ya tāṅdadi mānuṣa | ndon iṅ maṅkana salah kaliṅanya | huvus iṅ dadi manuṣya | akṛtī kinkinən mārganiṅ tan dadi tiryak | ikaṅ janma ṅaranya | durgama təməntəmən | viṣṭinya | yan anūt iṅ ambək hala | nihan kapratyakṣa ika | tontonən ikaṅ sattva lavan mānuṣa | tan adoh pravṛttinya | patitah bhaṭāra prabhedanya | ikaṅ sattva tan hana jñāna viśeṣa | kunaṅ ikaṅ vvaṅ kinahanan iṅ jñāna viśeṣa | ika tatan bheda de bhaṭāra maveh hurip | apan iṅ sattva tiryak | dadiniṅ janma tan arəp iṅ dharma rahayu ṅūni | mataṅyan tan hana kadi saṅ hyaṅ dharma | pinakahambalniṅ mulih devatā muvah | kunaṅ ika yan tan bhāgyaniṅ avak | maluy ika mānuṣa | akṛtī muvah | pilihpilih prabheda lavan ikaṅ janma kasyasih | mapa ta phala saṅ hyaṅ dharma kinavruhan | yan tumuvuh malih | rva pakolihnya | ndya ta təmahnya | vīryavān | śāstravān | mapa sādhana saṅ vīryavān umaluy irikaṅ kadevatan | dāna dharma pinakahavanira | mapa pakolih saṅ śāstravān | phalanira kinahanan iṅ śāstra | tapabrata pinakasādhana | lavan sira mavās riṅ sarvatattva | lvirniṅ utpatti | sthiti | pralīna | yeka bhuvanatattva | kinavruhan ika | katiga de saṅ śāstravān | iṅətiṅətən | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_74s-ab] dhanaṁ vibhūṣaṇaṁ loke mukhasya vimalaṁ dhanam |<br>
+[Slo_74s-cd] dhanaṁ svargasya sopānaṁ dhanaṁ durgativāraṇam || 74 ||<br>
+<br>
+[Slo_74j] kaliṅanya | ikaṅ mās pinakadrəvyaniṅ sugih | kinārya bhūṣaṇa <span class="blue">(ed. bhūṣāṇa)</span> donya riṅ loka | muvah ikaṅ mās | akārya buṅah iṅ vadana phalanya | kunaṅ yan pinakasādhananiṅ svargasopāna | dānākna riṅ saṅ brāhmaṇa vedapāraga | muvah riṅ saṅ paṇḍita | adulurana sukhacitta | rahayuniṅ buddhi | yapvan ikaṅ mās tan linvaṅ mariṅ dharma | tan hana mās tumūta paratra riṅ saṅ sumimpən irika | pilihpilih ikaṅ mās pinakahavan iṅ kapatin | pilihpilih mārganiṅ kaləbu riṅ kavah | yan salah deniṅ matiṅkah yeka hetu saṅ paṇḍita tan aharəp sira uṅgvan iṅ mās | kevala saṅ hyaṅ dharma pinakamāsmaṇikira | lanā sinimpən iṅ hati | adyāpi təka riṅ kapatinira | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_75s-a] dagdhaṁ dagdhaṁ punar api kāñcanaṁ kāntivarṇam<br>
+[Slo_75s-b] ghṛṣṭaṁ ghṛṣṭaṁ punar api punaś candanaṁ cārugandham |<br>
+[Slo_75s-c] chinnaṁ chinnaṁ punar api punaś cekṣudaṇḍaṁ sakhaṇḍam<br>
+[Slo_75s-d] bhāvānte [']pi prakṛtivikṛtir jāyate nottamānām || 75 ||<br>
+<br>
+[Slo_75j] kaliṅanya | ikaṅ mās ṅaranya inaluban ta ya muvahmuvah | ri vəkasan suteja varṇanya | makārya harṣaniṅ tumon phalanya | maṅkana ikaṅ candana | cinacalcacal linvaṅ muvahmuvah | təkeṅ daləm iṅ tvasnya | ri vəkasan saṅśaya riṅ atiśaya vaṅinya | makārya harṣaniṅ aṅambuṅ phalanya | nihan ikaṅ təbu | tinugəl ta ya sakhaṇḍakhaṇḍa | sakiṅ tuṅtuṅnya | malah təka riṅ buṅkah | ri vəkasan ta ya rinasarasa yan pinaṅan surasaniṅ manisnya | ndi ta ya paṅrasaniṅ amaṅan | kaliṅanya | saṅ tumon iṅ rūpavarṇa rahayu | mās ajiniṅ varṇa | ndi ta vəkas iṅ panon saṅ manon | maṅkana ikaṅ candana | mavaṅi inambuṅ deniṅ aṅgandha | ndi teka vəkas ikaṅ paṅambuṅ | lavan ikaṅ manisniṅ təbu | rinasaniṅ jihvā manisnya | ndi teka vəkas iṅ rasa | kaliṅanya | rūpa | gandha | rasa | yeka mūlaniṅ janma tumuvuh | yeka prakṛti lavan vikṛti | ikaṅ vikṛti mareṅ prakṛti | dadi nara | ikaṅ akṣara na | tan pasaṅkan təkanya | ikaṅ akṣara ra | laṅgəṅ hananya riṅ rāt | saṅkṣepanya | ikaṅ na amor iṅ ra | hetuniṅ rāt tumuvuh | hetuniṅ rāt matəmahan pati | yeka iṅətakna təkanya | lavan ulihnya | yeka dharma ṅaranya | liṅ saṅ vruh | ikaṅ mətu | kalavan luṅhā tan hana kottamanya | mataṅyan maṅke taṅabhyāsanən | prihprih hayva luṅhā | hayva təka | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_76s-ab] sukhasyānantaraṁ duḥkhaṁ duḥkhasyānantaraṁ sukham |<br>
+[Slo_76s-cd] cakravaj jagataḥ sarvaṁ vartate sthāvarajaṅgamam || 76 ||<br>
+<br>
+[Slo_76j] kaliṅanya | ikaṅ rāt ṅaranika | tan hana tan katamanana sukhaduhkha | ikaṅ sukha lavan duhkha | tan pakahələtan jātinya | tan apilih uṅgvanya | riṅ sugih tuvi | tan ucapən ikaṅ kasihan | huvus karuhun ikaṅ jagat kabeh | sahananiṅ sthāvarajaṅgama | tan hana kalivatan | hetuniṅ hana tapabrata | yoga | samādhi | puṇyadāna | dharma | amrih kədikan iṅ duhkha | gə̄ṅan iṅ sukha | nimittaniṅ saṅ vruh riṅ dharma | tan harep aveha duhkha riṅ samasameṅ tumuvuh | pinrihnira litan iṅ duhkhanira riṅ janmāntara muvah | apan kramaniṅ jagat kabeh | veveh vinevehan | ahutaṅ anahur | apihutaṅ sinahuran | amalat vinalat | kāraṇaniṅ saṅ vruh riṅ dharma | tan harəp amalat drəvyaniṅ len | maṅkana kahilahilanya | aṅhiṅ kinkinən aṅinakana buddhiniṅ samasama tumuvuh | hayva aveh laraniṅ hatiniṅ len | liṅ saṅ hyaṅ aji ||<br>
+<br>
+[Slo_77s-ab] atithiś cāpavādī ca dvāv ete mama bandhavaḥ |<br>
+[Slo_77s-cd] apavādī haret pāpam atithi svargagāmakaḥ || 77 ||<br>
+<br>
+[Slo_77j] kaliṅanya | atithi ṅaranya vvaṅ kasyasih sasaṅkanya | sambhramanən iṅ səkul ivak sakavaśa | hayva ta makadon pamaləsanya | phalanya ri təkaniṅ kapatin ikaṅ dhinarman anuntun mariṅ svarga | yeka pūjātithi ṅaranya | apavādī ṅaranika hayva mandalihdalih riṅ nora | hayva maṅucap iṅ hala | yan tuhuniṅ hala | sakalviran iṅ andalih riṅ hala | tatan tūtən ika | kahilahila iṅ apavādī | aṅganteni sapāpapātakaniṅ dinalih | mvaṅ inucap iṅ hala | yeka apavādī ṅaranya | liṅ saṅ hyaṅ dharmaśāstra | təməntəmən ||<br>
+<br>
+[Slo_78s-ab] lalāṭāj jāyate vipraḥ kṣatriyo bāhujas tathā |<br>
+[Slo_78s-cd] ūrubhyāṁ jāyate vaiśyaḥ śūdras tu pādajas tathā || 78 ||<br>
+<br>
+[Slo_78j§1] kaliṅanya | pat tikaṅ janma ṅaranya | mijil sakiṅ avak saṅ hyaṅ brahmā ṅūni | inajarakən caturvarṇa ṅaranya riṅ loka | vipra ṅaranira saṅ brāhmaṇa | mijil sakiṅ lalāṭa bhaṭāra brahmā | kāryanira mamūja | mahoma | mayajña | majapāmantrāyogāsamādhi | maṅavruhi sarvaśāstra | sira sthānaniṅ caturveda | sira viśeṣa jāti ||<br>
+[Slo_78j§2] kṣatriya ṅaranira ratu | mijil sakiṅ bāhu saṅ hyaṅ brahmā | kāry nira vruh riṅ ayuddha | riṅ sarvaśāstra | vruh riṅ dhanuh | śrīsampanna ya ta sira | vīryavān iṅ rāt | viveka rumakṣa ri saṅ brāhmaṇa kāryanira | maveh dāna | rumakṣeṅ rāt | śūra vatək praṅ | masih riṅ kasyasih | ahalapi durjana | paṅhə̄ban iṅ saṅ sādhu ||<br>
+[Slo_78j§3] kunaṅ ikaṅ vaiśya | vvaṅ thāni jātinya | mətu sakiṅ pupu saṅ hyaṅ brahmā ṅūni | kāryanira rumakṣaṅ ləbu | magaga masavahsavah | mananəmnanəm sakalviran iṅ sarvavīja tinandurnira | amətvakən paṅan iṅ rāt | pinakahulun de saṅ kṣatriya ||<br>
+[Slo_78j§4] muvah ikaṅ śūdra | baṇijakriya | mətu sakiṅ talampakan suku saṅ hyaṅ brahmā | krayavikraya gavenya | krayavikraya ṅaranya madol atuku madagaṅ alayar | mahutaṅ mapihutaṅ | mamarəkakna bhūṣaṇa | pinakahulun de saṅ kṣatriya | nahan prabhedaniṅ kāryaniṅ caturjanma | ikaṅ kṣatriya | vaiśya | śūdra | paḍa bhakti matvaṅ riṅ saṅ brāhmaṇa | pinakaguru katattvanira de saṅ kṣatriya vaiśya śūdra | kunaṅ yan tan meṅət iṅ kramanira sovaṅsovaṅ | yeka jagat=harohara ṅaranya | tan vriṅ sor tan vriṅ aruhur | acarub ṅaranya | tatan asor tatan aruhur | yeka cihnaniṅ rātsaṅhāra | samaṅkana taṅ jagat kabalik | tan ana sānak kadaṅ varga | mvaṅ paman tuvva <span class="blue">(?)</span> | adyāpi bapa ibu tan kinavədyanya | laṅghana ri saṅ sinaṅguh atuhatuha mvaṅ guru | amatyani pinatyan lavan sānaknya mvaṅ paman tuvva <span class="blue">(?)</span> | yadyapi bapa pinakaśatrunya | makveh praṅ | ləbu mələk | hudan tan tumibā | tahun tan dadi | gəriṅ urəm uris gigil amə̄nvəh tāmba tan mandi | cacab magalak maliṅ makveh | apan ikaṅ rāt tan paratu | tan pabapa-ibu tan pakabuyutan tan pasaṅgar | tan apilih siṅ den patyani | hana saṅ brāhmaṇa minraṅ | saṅ paṇḍita śaiva sogata ṛṣi pinraṅ pinatyan makahetu galaknya | makapaṅaya yeka vaninya | laṇḍapi sañjatanya | mavərə sadā buddhinya | pəṅə̄ṅ biṅuṅ | kadyaṅganiṅ liman avərə ikaṅ asārathi tuvi tinujah denya | hayvenucap ikaṅ vvaṅ lyan | makahetu paliṅnya riṅ hala hayu | kadyaṅganiṅ ivak iṅ sāgara paḍanya ivak pinaṅanya | maṅkana svabhāvaniṅ vvaṅ riṅ kaliyuga | paḍanya janma pinaṅanya | vyaktinya pinatyan tinavan kinārya dagaṅan | dinol vinəlinya | mataṅyan saṅ vruh hayva sira tumūt ri buddhiniṅ vvaṅ riṅ kaliyuga ||<br>
+<br>
+[Slo_79s-ab] kaścit praśno vivādārthaṁ kaścid bālasamarthanaḥ |<br>
+[Slo_79s-cd] kaścit paraparīkṣārthaṁ kaścit paribhavāya ca || 79 ||<br>
+<br>
+[Slo_79j] kaliṅanya | ikaṅ patakvan iṅ vvaṅ | hana ujar makadon acəṅil | hana ujar makadon patakvan kadi patañaniṅ rare | hana ujar makadon parīkṣā mahyun vruha ri prakārani guṇaniṅ tinañan | hana ujar makadon ahyun kālahaniṅ tinakvanan | nahan ika prabhedanyan papat | vivādārtha | [ ... ... ... ... ... ... | ] parīkṣārtha | paribhavārtha | ya ika ujar patakvan papat | asiṅ avakaniṅ pataña | maṅkana juga kavruhakna dya saṅ vidagdha puruṣa ||<br>
+<br>
+[Slo_80s-a] yathā caturbhiḥ kanakaṁ parīkṣitam |<br>
+[Slo_80s-b] nigharṣaṇātāḍanacchedatāpanaiḥ |<br>
+[Slo_80s-c] tathā caturbhiḥ puruṣaḥ parīkṣitaḥ |<br>
+[Slo_80s-d] śrutena śīlena guṇena karmaṇā || 80 ||<br>
+<br>
+[Slo_80j§1] kaliṅanya | de saṅ amarīkṣaṅ əmās | nyan kramanya | nigharṣaṇa ṅaranya makakāraṇa paṅdadar | tāḍana ṅaranya makakāraṇa pamalu | chedana ṅaranya makakāraṇa panugəl | tāpana ṅaranya makakāraṇa paṅləbur | maṅkana mamarīkṣaṅ əmās ||<br>
+[Slo_80j§2] kunaṅ pamarīkṣa puruṣa | yan madoh saṅkanya | tan hana vruh ri kajanmanya | yan pinarīkṣa | makadon kavruhana kajātinya | nyan prakāraniṅ parīkṣā | śrutena makakāraṇa haji ika kinavruhanya | śīlena makakāraṇa śīlanya lavan tan suśīlanya | guṇena makakāraṇaṅ kavruhakna kabisanya | karmaṇā makakāraṇaṅ kavruhakən iṅ gavenya | ikaṅ inulahakənya | yeka deniṅ umiṅətakən kulaniṅ vvaṅ | katon ika yan vvaṅ sujanma lavan tan sujanma ākāreṅgitanya ||<br>
+<br>
+[Slo_81s-ab] ācāraḥ kulam ākhyāti deśam ākhyāti bhāṣitam |<br>
+[Slo_81s-cd] hṛdayaṁ cakṣur ākhyāti vapur ākhyāti bhojanam || 81 ||<br>
+<br>
+[Slo_81j] kaliṅanya | ikaṅ ācāra mamarahakən kulaniṅ vvaṅ | ikaṅ bhāṣa mamarahakən panaṅkaniṅ deśaniṅ vvaṅ | ikaṅ mata mamarahakən hala-hayuniṅ hatiniṅ vvaṅ iṅ jro | ika śarīra mamarahakən kuraṅ iṅ bhukti lavan pənuh i bhukti | maṅkana panəṅəraniṅ solahiṅ vvaṅ ||<br>
+<br>
+[Slo_82s-ab] ākārair iṅgitair gatyā ceṣṭayā bhāṣitena ca |<br>
+[Slo_82s-cd] netravaktravikāreṇa jāyate ca parīkṣitaḥ || 82 ||<br>
+<br>
+[Slo_82j] kaliṅanya | tiṅkahiṅ saṅ mahyun amarīkṣā hala-hayuniṅ janma vvaṅ | nəm prakāranya | ndya ta | ākāra ṅaranya papiṇḍan iṅ rūpanya tiṅhalana | təmbeyanya | iṅgita ṅaranya riṅariṅanən sasmitanya | tiṅhalakən polahnya | gati ṅaranya lakunya tiṅhalana | kapiṅtiganya | ceṣṭā ṅaranya kətəktig iṅ avaknya tiṅhalana | kapiṅpat ika | bhāṣita ṅaranya paṅucapucapnya iṅətakna | kapiṅlimanya | hana ta muvah panəṅəran iṅ vəkasan | riṅ mukha mvaṅ mata | yan vikāra paniṅhalanya | vikāra ṅaranya hana rəṅat iṅ mata lavan mukha katon | apan ulat iṅ durjana lavan saṅ sādhu | makveh prabhedanya | lvir iṅ ulat iṅ durjana meṅas chala mukhanya | apan meṅas atinya | apan hatinya mesi kaduṣṭan | maṅkana tiṅkahiṅ vvaṅ yan masādhya hala | kunaṅ saṅ sādhu tumuṅkul ararəm śānta somya mamanisi tiṅhalira | apan daləm iṅ hatinira tan pasādhya hala | kevala nirmala sadā | maṅkana kramanya liṅ saṅ hyaṅ śāstra ||<br>
+<br>
+[Slo_83s-ab] āpadgato [']pi doṣajño dharmaśāstraṁ na varjayet |<br>
+[Slo_83s-cd] saroruhaṁ yathā bhṛṅgaś chinnapakṣo [']pi jñātibhiḥ || 83 ||<br>
+<br>
+[Slo_83j] kaliṅanya | doṣajña ṅaranira saṅ paṇḍita | āpadgata ṅaranya təkaniṅ laraniṅ voṅ vaneh doṣa sira deniṅ durjana | tathāpinya ṅkana | tan patiṅgal dharma mvaṅ śāstrāgama sira | tan surud sira riṅ ulah rahayu | makakāraṇa svajātinireṅ paṇḍita | kadyaṅganikaṅ bhṛṅga | bhṛṅga ṅaranya bhramara | chinnapakṣa apituvi tugəl həlarika | tathāpinya tan patiṅgal kambaṅ iṅ saroruha inisəp ika | pisaniṅū maṅisəpa purīṣa | taha tan maṅkana | maṅkana saṅ paṇḍita | pisaniṅū sira ṅaṅənaṅəna hala ri samasamanira tumuvuh | tah tan maṅkana ulahnira | yadyapi vehana larāmbək sira | mvaṅ dalihən durjana deniṅ vvaṅ | tan paṅaṅənmaṅən ahala sira riṅ loka ||<br>
+<br>
+[Slo_84] daśa paramārtha daśa mala nava saṅa<br>
+[Slo_84j§1] nihan daśa paramārtha | kavruhakna de saṅ sevakadharma | saṅ tumakitaki ambək aviratin | saṅ mahyun valvi mānuṣa jāti | kaṅ saṅkan iṅ luput iṅ pāpa kavah | ya ta ulahakna ikaṅ daśa paramārtha || ndya ta | tapa | brata | samādhi | śānta | sanmata | karuṇā | karuṇi | upekṣā | muditā | maitrī || kramanya | tapa ṅa ambək kaviratin || brata ṅa aṅloṅi sakaviṣayaniṅ mahurip || samādhi ṅa mābhyāsa ataṅiṅ vəṅi aṅituṅ saṅ hyaṅ dharma || śānta ṅa śabda tuṅgal tan ləñok || sanmata ṅa tuṅgal karəp ira kevala riṅ karahayvan | dera gavayakən || karuṇā ṅa avəlas ri sasamaniṅ mahurip || karuṇi ṅa asih riṅ sarva tumuvuh | muvah sakveh iṅ sarva sato || upekṣā ṅa vruh iṅ hala-hayu | ata mamarahi riṅ voṅ mūḍha | mariṅ apəkik || muditā ṅa ambək ayu ləgeṅ buddhi | tan purik yen pinituturan || maitrī ṅa aveh śabda rahayu riṅ sasama niṅ ahurip ||<br>
+[Slo_84j§2] nihan ambək daśa mala ṅa | tan yogya ulahakna | lvirnya | tandrī | kleda | ləja | kuhaka | metraya | məgata | rāga strī | kuṭila | bhakṣabhuvana | [kimburu] || tandrī ṅa vvaṅ suṅkanān | ləson baləbəh səmpənəh adoh iṅ rahayu | aṅhiṅ hala juga kaharəpnya || kleda ṅa ambək aṅələmələm | meraṅan mariṅ harəp | tan katəkan pinakṣanya || ləja ṅa ambək tamah | agə̄ṅ tṛṣṇā | agə̄ṅ lulut asih | mariṅ hala || kuṭila ṅa parachidra | pesta peda riṅ kavəlas asih | pramāda pracale | nor ana vvaṅ den keriṅi || kuhaka ṅa ambək krodha | agə̄ṅ runtik | capalaśabda | baṅgaporaka || metraya ṅa bisāgave ujar mahala | sikaradumikara | vivikiviveka | sapa kadi sira | botārṣā rabiniṅ arabi | tan hana ulahnya rahayu | yan mətu śabdanyārūm amanis aṅhiṅ hala ri daləm | tan papilih buddhi cavuh | kāla ri hatinya | purikan || rāgastrī ṅa bahud lañji vavadonən | rambaṅ panon | bhakṣabhuvana aṇḍəṇḍa sasamaniṅ tumuvuh | akirya riṅ vvaṅ sādhu | ardeṅ paṅan inum | haṅkāra śabda prəṅkaṅ || kimburu ṅa aṅhiṅ gavene akiryakirya drəveniṅ vvaṅ sādhu | tan papilih | nor kadaṅ sānak mitra | yata memet drəveniṅ saṅ viku || maṅkana kramaniṅ daśa mala | tan rahayu ||<br>
+[Slo_84j§3] nihan ambək nava saṅa ṅa marapvan sira siddha rahayu | lvirnya | andrayuga | guṇabhikṣama | [sādhuniragṛha] | vidagdhaprasanna | virotasādhāraṇa | kṛtarājahita | tyāgaprasanna | śūralakṣaṇa | śūrapratyayana | saṅa kvehnya || andrayuga ṅa prajñāniṅ dharmātutur | vatək aṅaji | vidagdha vruh riṅ hala-hayu || guṇabhikṣama ṅa sādhu sira riṅ arthaniṅ gusti | lumaṅlaṅ sira riṅ pakevəh | upekṣā sira rorovaṅ | anūt sakramaniṅ vvaṅ akveh | enak denira kṛta rahayu || sādhuniragṛha ṅa sādhu sira riṅ vavadon | tan cəkap sira riṅ samasama vvaṅ || vidagdhaprasanna ṅa tan mamaṅan sira iṅaturan śabda tan yogya | tan suṅsut purik sira | prasannabuddhinira enak || virotasādhāraṇa ṅa vani tan karahatan | [tan?] asor iṅ ujar | mrih riṅ nīti || kṛtarājahita ṅa vani asor | vruh riṅ kuṭāramānavādi || tyāgaprasanna ṅa tan panəṅguh aṅel | yen iṅutus deniṅ gusti || śūralakṣaṇa ṅa tan anəṅguh vədi | eṅgal tan asuve | śūrapratyayana ṅa bhakty agusti | śūralakṣaṇa riṅ papəraṅan | sumaṅga riṅ pakevəh | rumakṣa riṅ gusti || iti ambək nava saṅa | kayatnākna kramanya | sovaṅsovaṅ | rahayu dahat | yan kalakṣaṇan ||o||<br>
+<br>
+[Slo_00-end] || iti ślokāntara ||<br>
+</body></html>

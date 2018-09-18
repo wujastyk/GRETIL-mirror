@@ -1,0 +1,4018 @@
+ % From{\em TeX Users Group Eighth Annual: Conference Proceedings} 
+ % Meeting, Seattle, August 24-26, 1987,  TeXniques n.o 5, (Providence, 1988), 
+ % .p 11.
+
+Intermediate version with TeX encoding converted to CSX+ by Stefan Baums.
+
+The transliteration of the present version has been simplified 
+for easier reference. All accents and additional diacritics have 
+been dropped. However, capital letters for technical terms, and
+analytic hyphens have been retained.
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ THIS TEXT FILE IS FOR REFERENCE PURPOSES ONLY!	³
+³ COPYRIGHT AND TERMS OF USAGE AS FOR SOURCE FILE.	³
+³							³
+³ Text converted to Ronald E. Emmerick's encoding for   ³
+³ WordPerfect 5.1 DOS and related utility programmes 	³
+³ BHELA, CARAKA etc. (DOS versions): 			³
+³ 							³
+³ description             character  =	ASCII		³
+³  							³
+³ long a                  Ã             195		³
+³ long A                  ù             249		³
+³ long i                  Å             197		³
+³ long I                  ı             253		³
+³ long u                  Æ             198		³
+³ long U                  ô             244		³
+³ vocalic r               ­             173		³
+³ vocalic R               ã             227		³
+³ long vocalic r          Ì             204		³
+³ vocalic l               Ê             202		³
+³ long vocalic l          Ë             203		³
+³ velar n                 Ç             199		³
+³ velar N                 §             167		³
+³ palatal n               ¤             164		³
+³ palatal N               ¥             165		³
+³ retroflex t             Â             194		³
+³ retroflex T             è             232		³
+³ retroflex d             ¬             172		³
+³ retroflex D             Ö             214		³
+³ retroflex n             ï             239		³
+³ retroflex N             ×             215		³
+³ palatal s               Ó             211		³
+³ palatal S               Á             193		³
+³ retroflex s             «             171		³
+³ retroflex S             å             229		³
+³ anusvara                æ             230		³
+³ capital anusvara        õ             245		³
+³ visarga                 ÷             247		³
+³ capital visarga         ê             234		³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+ 
+1.01.001 v­d-dhir ÃT=aiC
+1.01.002 aT=e§ guïa÷
+1.01.003 iKo guïa-v­d-dhÅ
+1.01.004 na dhÃtulope=ÃrdhadhÃtuke
+1.01.005 K-§-ITi ca
+1.01.006 dÅdhÅ-vevÅ=ièÃm
+1.01.007 haLa÷=anantarÃ÷ saæyoga÷
+1.01.008 mukha-nÃsikÃ-vacana÷=anunÃsika÷
+1.01.009 tulya=Ãsya-prayatnam savarïam
+1.01.010 na=aC=haLau
+1.01.011 ÅT=ÆT-eT=dvivacanam prag­hyam
+1.01.012 adaso mÃt
+1.01.013 Áe
+1.01.014 nipÃta eka=aC=an-Ã§
+1.01.015 oT
+1.01.016 sambuddhau ÓÃkalyasya itau=an-Ãr«e
+1.01.017 u¥a÷
+1.01.018 oæ
+1.01.019 ÅT=ÆT-au ca saptamy-arthe
+1.01.020 dÃ-dhÃ GHU=a-dÃP
+1.01.021 Ãdy-antavat=ekasmin
+1.01.022 taraP-tamaPau GHA÷
+1.01.023 bahu-gaïa-vatU-Öati saækhyÃ
+1.01.024 «-ïa=antÃ åAè
+1.01.025 Öati ca
+1.01.026 Kta-Ktavatô ni«ÂhÃ
+1.01.027 sarva-ÃdÅni sarvanÃmÃni
+1.01.028 vibhÃ«Ã dik-samÃse bahuvrÅhau
+1.01.029 na bahuvrÅhau
+1.01.030 t­tÅyÃ-samÃse
+1.01.031 dvaædve ca
+1.01.032 vibhÃ«a Jasi
+1.01.033 prathama-carama-taya=alpa=ardha-katipaya-nemÃÓ ca
+1.01.034 pÆrva-para=avara=dak«iïa=uttara=apara=adharÃïi vyavasthÃyÃm a-saæj¤ÃyÃm
+1.01.035 svam a-j¤Ãti-dhana=ÃkhyÃyÃm
+1.01.036 antaram bahiryoga=upasaævyÃnayo÷
+1.01.037 svar-Ãdi-nipÃtam avyayam
+1.01.038 taddhitaÓ ca a-sarva-vibhakti÷
+1.01.039 k­t=m=eC=anta÷
+1.01.040 KtvÃ-tosuN-KasuNÃ÷
+1.01.041 avayÅbhÃvas=ca
+1.01.042 Ái sarvanÃma-sthÃnam
+1.01.043 sUè a-napuæsakasya
+1.01.044 na vÃ=iti vibhÃ«Ã
+1.01.045 iK=ya×a÷ samprasÃraïam
+1.01.046 Ãdy-antau èa-K-ITau
+1.01.047 M-IT=aCa÷=antyÃt para÷
+1.01.048 eCa iK=hrasva=ÃdeÓe
+1.01.049 «a«ÂhÅ sthÃne-yogÃ
+1.01.050 sthÃne=antara-tama÷
+1.01.051 ur a× rA~-para÷
+1.01.052 aLa÷=antyasya
+1.01.053 §-ITca
+1.01.054 Ãde÷ parasya
+1.01.055 aneka=aL ÁIT sarvasya
+1.01.056 sthÃnivad ÃdeÓa÷=an-aL-vidhau
+1.01.057 aCa÷ parasmin pÆrva-vidhau
+1.01.058 na pada=anta-dvir-vacana-vare-ya-lopa-svara-savarïa=anusvÃra-dÅrgha-jaS=caR-vidhi«u
+1.01.059 dvir-vacane=aCi
+1.01.060 a-darÓanaæ lopa÷
+1.01.061 pratyayasya luK-Álu-luPa÷
+1.01.062 pratyaya-lope pratyaya-lak«aïam
+1.01.063 na lumatÃ=a­gasya
+1.01.064 aCa÷=antya=Ãdi èI
+1.01.065 aLa÷=antyÃt pÆrva upadhÃ
+1.01.066 tasmin=iti nirdi«Âe pÆrvasya
+1.01.067 tasmÃd ity uttarasya
+1.01.068 svaæ rÆpaæ Óabdasya=a-Óabda-saæj¤Ã
+1.01.069 a× uT=it savarïasya ca=a-pratyaya÷
+1.01.070 Ta-paras tat-kÃlasya
+1.01.071 Ãdir antyena saha=ITÃ
+1.01.072 yena vidhis tad-antasya
+1.01.073 v­d-dhi-r yasya=aCÃm Ãdis tad v­d-dham
+1.01.074 tyad-ÃdÅni ca
+1.01.075 e§ prÃcÃm deÓe
+1.02.001 gÃ§-kuÂÃdibhya÷=a-¥-×-IT=§-IT
+1.02.002 vija iè
+1.02.003 vibhÃ«Ã=Ærïo÷
+1.02.004 sÃrvadhÃtukam a-P-IT
+1.02.005 a-saæyogÃt=lIè K-IT
+1.02.006 indhi-bhavatibhyÃæ ca
+1.02.007 m­¬ş-m­dş-gudhş-ku«ş-kliÓA-vadş-vasa÷ KrvÃ
+1.02.008 ruda-vidş-mu«ş-grahi-svapi-praccha÷ saN=ca
+1.02.009 iKo jhaL
+1.02.010 haL-antÃt=ca
+1.02.011 lI§-siCau=Ãtmanepade«u
+1.02.012 us ca
+1.02.013 vÃ gama÷
+1.02.014 hana÷ siC
+1.02.015 yamo gandhane
+1.02.016 vibhÃ«Ã=upayamane
+1.02.017 sthÃ-GHVor iT=ca
+1.02.018 na KtvÃ sa=iè
+1.02.019 ni«ÂhÃ ÓÅ§-svidi-midi-k«vidi-dh­«a÷
+1.02.020 m­«as titik«ÃyÃm
+1.02.021 uT=upadhÃt=bhÃva=Ãdikarmaïor anyatarasyÃm
+1.02.022 pÆ§a÷ KtvÃ ca
+1.02.023 na=upadhÃt tha-pha=antÃt=vÃ
+1.02.024 vanci=lunci=­tas ca
+1.02.025 t­«i-m­«i-k­Óe÷ kÃÓyapasya
+1.02.026 raLo u=i=upadhÃt=haL-Ãde÷ saN=ca
+1.02.027 Æ-kÃla÷=aC=hrasva-dÅrgha-pluta÷
+1.02.028 aCaÓ ca
+1.02.029 uccair udÃtta÷
+1.02.030 nÅcair anudÃtta÷
+1.02.031 samÃhÃra÷ svarita÷
+1.02.032 tasya=Ãdita udÃttam ardha-hrasvam
+1.02.033 eka-Óruti dÆrÃt sambuddhau
+1.02.034 yaj¤a-karmaïi=a-japa-nyÆ­kha-sÃmasu
+1.02.035 uccaistarÃæ vÃ va«aÂkÃra÷
+1.02.036 vibhÃ«Ã chandasi
+1.02.037 na subrahmaïyÃyÃm svaritasya tu=udÃtta÷
+1.02.038 deva-brahmaïor anudÃtta÷
+1.02.039 svaritÃt saæhitÃyÃm anudÃttÃnÃm
+1.02.040 udÃtta-svarita-parasya sannatara÷
+1.02.041 ap­kta eka=aL pratyaya÷
+1.02.042 tatpuru«a÷ samÃna=adhikaraïa÷ karmadhÃraya÷
+1.02.043 prathamÃ-nirdi«Âaæ samÃsa upasarjanam
+1.02.044 eka-vibhakti ca=a-Ærva-nipÃte
+1.02.045 arthavad a-dhÃtur a-pratyaya÷ prÃtipadikam
+1.02.046 k­t-taddhita-samÃsÃÓ ca
+1.02.047 hrasvo napuæsake prÃtipadikasya
+1.02.048 go-striyor upasarjanasya
+1.02.049 luK taddhita-luKi
+1.02.050 iT=goïyÃ÷
+1.02.051 luPi yuktavat=vyakti-vacane
+1.02.052 viÓe«aïÃnÃæ ca=a-jÃte÷
+1.02.053 tad aÓi«yaæ saæj¤Ã-pramÃïatvÃt
+1.02.054 lup=yoga=a-prakhyÃnÃt
+1.02.055 yoga-pramÃïe ca tad-abhÃve=a-darÓanaæ syÃt
+1.02.056 pradhÃna-pratyaya=artha-vacanam arthasya=anya-pramÃïatvÃt
+1.02.057 kÃla=upasarjane ca tulyam
+1.02.058 jÃty-ÃkhyÃyÃm ekasmin bahuvacanam anyatarasyÃm
+1.02.059 asmado dvÃyoÓ ca
+1.02.060 phalgunÅ-pro«ÂhapadÃnÃæ ca nak«atre
+1.02.061 chandasi punarvasvor ekavacanam
+1.02.062 visÃkhayos ca
+1.02.063 ti«ya-punarvasvor nak«atra-dvaædve bahuvacanasya dvivacanam nityam
+1.02.064 sarÆpÃïÃm ekaÓe«a eka-vibhaktau
+1.02.065 v­ddho yÆnÃ tad=lak«aïaÓ ced-eva viÓe«a÷
+1.02.066 strÅ puævat=ca
+1.02.067 pumÃn striyÃ
+1.02.068 bhrÃt­-putrau svas­-duhit­bhyÃm
+1.02.069 napuæsakam a-napuæsakena=ekavat=a=asya=nyatarasyÃm
+1.02.070 pitÃ mÃtrÃ
+1.02.071 ÓvaÓura÷ ÓvaÓrvÃ
+1.02.072 tyad-ÃdÅni sarvair nityam
+1.02.073 grÃmya-paÓu-saæghe«u=a-taruïe«u strÅ
+1.03.001 bhÆvÃdayo dhÃtava÷
+1.03.002 upadeÓe=aC=anunÃsika IT
+1.03.003 haL antyam
+1.03.004 na vibhaktau tU-s-mÃ÷
+1.03.005 Ãdir ¥I-èU-ÖAV-a÷
+1.03.006 «a÷ pratyayasya
+1.03.007 cU-Âô
+1.03.008 la-Óa-kU=a-taddhite
+1.03.009 tasya lopa÷
+1.03.010 yathÃ-saækhyam anudeÓa÷ samÃnÃm
+1.03.011 svaritena=adhikÃra÷
+1.03.012 anudÃtta-§-ITa Ãtmanepadam
+1.03.013 bhÃva-karmaïo÷
+1.03.014 kartari karma-vyatiare
+1.03.015 na gati-hiæsÃ=arthebhya÷
+1.03.016 itaretara=anyonya=upapadÃt=ca
+1.03.017 ner viÓa÷
+1.03.018 pari-vi=avebhya÷ kriya÷
+1.03.019 vi-parÃ-bhyÃæ je-÷
+1.03.020 Ã§o da÷=an-Ãsya-viharaïe
+1.03.021 krÅ¬a÷=anu-sam-paribhyaÓ ca
+1.03.022 sam=ava-pra-vibhya÷ shta÷
+1.03.023 prakÃÓana=stheya=Ãkhyayo÷
+1.03.024 uda÷=an-Ærdhva-karmaïi
+1.03.025 upÃt=mantra-karaïe
+1.03.026 a-karmakÃt=ca
+1.03.027 ud-vibhyÃm tapa÷
+1.03.028 Ã§o yama-hana÷
+1.03.029 samo gami=­cchi-pracchi-svarati=arti-Óru-vidibhya÷
+1.03.030 ni-sam-upa-vihhyo hva÷
+1.03.031 spardhÃyÃm Ã§a÷
+1.03.032 gandhana=avak«epaïa-sevana-sÃhasikya-pratiyatna-prakathana=upayoge«u k­¥a÷
+1.03.033 adhe÷ prasahane
+1.03.034 ve÷ Óabda-karmaïa÷
+1.03.035 akarmakÃt=ca
+1.03.036 sammÃnana=utsa¤jana=ÃcÃryakaraïa-j¤Ãna-bh­ti-vigaïana-vyaye«u niya÷
+1.03.037 kart­sthe ca=a-ÓarÅre karmaïi
+1.03.038 v­tti-sarga-tÃtyane«u krama÷
+1.03.039 upa-parÃbhyÃm
+1.03.040 Ã§a udgamane
+1.03.041 ve÷ pÃda-viharaïe
+1.03.042 pra=upÃbhyÃm sam-arthÃ-bhyÃm
+1.03.043 an-upasargÃd vÃ
+1.03.044 apahnave j¤a÷
+1.03.045 a-karmakÃ=ca
+1.03.046 sam-pratibhyÃm an-Ã-dhyÃne
+1.03.047 bhÃsana=upasambhÃ«Ã-j¤Ãna-yatna-vimati-upamantraïe«u vada÷
+1.03.048 vyaktavÃcÃm samuccÃraïe
+1.03.049 anor a-karmakÃt
+1.03.050 vibhÃ«Ã vi-pra-lÃpe
+1.03.051 avÃd gra÷
+1.03.052 sama÷ pratij¤Ãne
+1.03.053 udaÓ cara÷ sa-karmakÃt
+1.03.054 samas t­tÅyÃ-yuktÃt
+1.03.055 dÃ×as ca sÃ cet=caturty-arthe
+1.03.056 upÃd yama÷ sva-karaïe
+1.03.057 j¤Ã-Óru-sm­-d­ÓÃm saNa÷
+1.03.058 na=anor j¤a÷
+1.03.059 prati=Ã§bhyÃm Óruva÷
+1.03.060 Óade÷ Á-IT-a÷
+1.03.061 mriyater lU§-lI§oÓ ca
+1.03.062 pÆrvavat saNa÷
+1.03.063 Ãm-pratyayavat k­¥a÷=anuprayogasya
+1.03.064 pra=upÃbhyÃæ yujer a-yaj¤a-pÃtre«u
+1.03.065 sama÷ k«ïuva÷
+1.03.066 bhuja÷=an-avane
+1.03.067 ×er a×au yat karma ×au cet sa kartÃ anÃdhyÃne
+1.03.068 bhÅ-smyor hetu-bhaye
+1.03.069 g­dhi-vancyoh pralambhane
+1.03.070 liya÷ sam-mÃnana-ÓÃlinÅ-karaïayoÓ ca
+1.03.071 mithyopapadÃt k­¥a÷=abhyÃse
+1.03.072 svarita-¥-ITa÷ kartr=abhiprÃye kriyÃ-phale
+1.03.073 apÃd vada÷
+1.03.074 ×iCaÓ ca
+1.03.075 sam-ud=Ã§bhyah=ama÷=a-granthe
+1.03.076 an-upasargÃt=j¤a÷
+1.03.077 vibhÃ«Ã=upapadena pratÅyamÃne
+1.03.078 Óe«Ãt kartari parasmaipadam
+1.03.079 anu-parÃbhyÃæ k­¥a÷
+1.03.080 abhi-prati=atibhya÷ k«ipa÷
+1.03.081 prÃd vaha÷
+1.03.082 parer m­«a÷
+1.03.083 vi-Ã§-paribhya÷=rama÷
+1.03.084 upÃt=ca
+1.03.085 vibhÃ«Ã=a-karmakÃt
+1.03.086 budhş-yudhA-naÓş-jana-i§-pru-dru-srubhyo ×e÷
+1.03.087 nigaraïa-calana=arthebhya÷
+1.03.088 a×au=a-karmakÃt=cittavat-kart­kÃt
+1.03.089 na pÃ-dami=Ã§-yamA-Ã§-yasa-pari-muha-ruci-n­ti-vadA-vasa÷
+1.03.090 vÃ Kyaåa÷
+1.03.091 dyudbhyo lU§i
+1.03.092 v­dbhya÷ sya-saNo÷
+1.03.093 lUèi ca kÊp-a÷
+1.04.001 Ã ka¬ÃrÃt=ekÃ saæj¤Ã
+1.04.002 viprati«edhe param kÃryam
+1.04.003 yÆ strÅ=akhyau nadÅ
+1.04.004 na=iya§=uva§-sthÃnau=a-strÅ
+1.04.005 vÃ=Ãmi
+1.04.006 §IT-i hrasvaÓ ca
+1.04.007 Óe«o GHI=a-sakhi
+1.04.008 pati÷ samÃse=eva
+1.04.009 «a«ÂhÅ-yuktaÓ chandasi vÃ
+1.04.010 hrasvam laghu
+1.04.011 saæyoge guru
+1.04.012 dÅrghaæ ca
+1.04.013 yasmÃt pratyaya-vidhis tad-Ãdi pratyaye=a­gam
+1.04.014 sUP-ti§=antam padam
+1.04.015 na÷ Kye
+1.04.016 S-IT-i ca
+1.04.017 sş=Ãdi«u=a-sarvanamasthÃne
+1.04.018 y-aCi BHAm
+1.04.019 ta-sau matU=arthe
+1.04.020 ayasmaya=ÃdÅni chandasi
+1.04.021 bahu«u bahu-vacanam
+1.04.022 dvi=ekayor dvi-vacana=eka-vacane
+1.04.023 kÃrake
+1.04.024 dhruvam apÃye=apÃdÃnam
+1.04.025 bhÅ-trÃ-arthÃnÃm bhaya-hetu÷
+1.04.026 parÃ-jer a-so¬ha÷
+1.04.027 vÃraïa=arthÃnÃm Åpsita÷
+1.04.028 antardhau yena a-darÓanam icchati
+1.04.029 ÃkhyÃtÃ=upayoge
+1.04.030 jani-kartu÷ prak­ti÷
+1.04.031 bhuva÷ prabhava÷
+1.04.032 karmaïÃ yam abhi-praiti sa sampradÃnam
+1.04.033 ruci=arthÃnÃm prÅyamÃïa÷
+1.04.034 ÓlÃgha-hnu§-sthÃ-ÓapÃm j¤ÅpsyamÃna÷
+1.04.035 dhÃrer uttamarïa÷
+1.04.036 sp­her Åpsita÷
+1.04.037 krudhş-druhş-År«yş=asÆyÃn Ãm
+1.04.038 krudhş-druhor upas­«Âayo÷ karma
+1.04.039 rÃdh-Åk«yor yasya vipraÓna÷
+1.04.040 prati=Ã§bhyÃæ Óruva÷ pÆrvasya kartÃ
+1.04.041 anu-prati-g­ïaÓ ca
+1.04.042 sÃdhakatamam karaïam
+1.04.043 diva÷ karma ca
+1.04.044 pari-krayaïe sampradÃnan anyatarasyÃm
+1.04.045 ÃdhÃra÷=adhikaraïam
+1.04.046 adhi-ÓÅ§-sthÃ=ÃsÃæ karma
+1.04.047 abhi-ni-viÓaÓ ca
+1.04.048 upa=anu=adhi-Ã§-asa÷
+1.04.049 kartur Åpsitatamam karma
+1.04.050 tathÃ-yuktaæ ca=an-ipsÅtam
+1.04.051 a-kathitaæ ca
+1.04.052 gati-buddhi-pratyavasÃna=artha-Óabda-karma=a-karmakÃïÃm a×i kartÃ sa ×au
+1.04.053 h­-kror anyatarasyÃm
+1.04.054 svatantra÷ kartÃ
+1.04.055 tat-prayojako hetuÓ ca
+1.04.056 prÃk=iÓvarÃt=nipÃ ta÷
+1.04.057 ca=Ãdayo=a-sattve
+1.04.058 pra=Ãdaya÷
+1.04.059 upasargÃ÷ kriyÃ-yoge
+1.04.060 gatiÓ ca
+1.04.061 ÆrÅ=Ãdi-Cvi-ÖÃCaÓ ca
+1.04.062 anukaraïam ca=an=iti-param
+1.04.063 Ãdara=an-Ãdarayo÷ sat-asat-Å
+1.04.064 bhÆ«aïe=alam
+1.04.065 antar a-parigrahe
+1.04.066 kaïe-manas-Å ÓraddhÃ-pratÅghÃte
+1.04.067 puras=avyayam
+1.04.068 astaæ ca
+1.04.069 accha gati=artha-vade«u
+1.04.070 ada÷=an-upa-deÓe
+1.04.071 tira÷=antardhau
+1.04.072 vibhÃ«Ã k­¥-i
+1.04.073 upÃje=anvÃje
+1.04.074 sÃk«Ãt-prabh­tÅni ca
+1.04.075 an-atyÃdhÃne=urasi-manasÅ
+1.04.076 madhye-pade-nivacane ca
+1.04.077 nityaæ haste pÃïau=upayamane
+1.04.078 prÃdhvam bandhane
+1.04.079 jÅvikÃ-upani«adau=aupamye
+1.04.080 te prÃg dhÃtoh
+1.04.081 chandasi pare=api
+1.04.082 vyavahitÃÓ ca
+1.04.083 karma-pravacanÅyÃ÷
+1.04.084 anur lak«aïe
+1.04.085 t­tÅyÃ=arthe
+1.04.086 hÅne
+1.04.087 upa÷=adhike ca
+1.04.088 apa-parÅ varjane
+1.04.089 Ã§ maryÃdÃ-vacane
+1.04.090 lak«aïa=ittham-bhÆta=ÃkhyÃna-bhÃga-vÅpsÃsu prati-pari-anava÷
+1.04.091 abhir a-bhÃge
+1.04.092 prati÷ pratinidhi-pratidÃnayo÷
+1.04.093 adhi-parÅ anarthakau
+1.04.094 su÷ pÆjÃyÃm
+1.04.095 atir atikramaïe ca
+1.04.096 api÷ padÃrtha-sambhÃvana=anvavasarga-garhÃ-samuccaye«u
+1.04.097 adhir ÅÓvare
+1.04.098 vibhÃ«Ã k­¥-i
+1.04.099 la÷ parasmaipadam
+1.04.100 ta§-Ãmau=Ãtmanepadam
+1.04.101 ti§as trÅïi trÅïi prathama-madhyama=uttamÃ÷
+1.04.102 tÃni=ekavacana-dvivacana-bahuvacanÃni ekaÓa÷
+1.04.103 sUpa÷
+1.04.104 vibhaktiÓ ca
+1.04.105 yu«madi=upapade samÃna=dhikaraïe sthÃniny=api madhyama÷
+1.04.106 prahÃse ca manya=upapade manyater uttama ekavat=ca
+1.04.107 asmady uttama÷
+1.04.108 Óe«e prathama÷
+1.04.109 para÷ saænikar«a÷ saæhitÃ
+1.04.110 virÃma÷ avasÃnam
+
+2.01.001 samartha÷ pada-vidhi÷
+2.01.002 sUP Ãmantrite para=a­gavat svare
+2.01.003 prÃk ka¬ÃrÃt samÃsa÷
+2.01.004 saha sUP-Ã
+2.01.005 avyayÅ-bhÃva÷
+2.01.006 avyayam vibhakti-samÅpa-sam­ddhi-vy-­ddhi-artha=abhÃva=atyaya-a-samprati-Óabda-prÃdurbhÃva-paÓcÃt=yathÃ=ÃnupÆrvya-yaugapadya-sÃd­Óya-sampatti-sÃkalya=antavacane«u
+2.01.007 yathÃ=a-sÃd­ye
+2.01.008 yÃvad avadhÃraïe
+2.01.009 sUP pratinÃ mÃtrÃ=arthe
+2.01.010 ak«a-ÓalÃkÃ-saækhyÃ÷ pariïÃ
+2.01.011 vibhÃ«Ã
+2.01.012 apa-pari-bahis=a¤cava÷ pa¤camyÃ
+2.01.013 Ã§ maryÃdÃabhividhyo÷
+2.01.014 lak«aïena=abhi-pratÅ=Ãbhimukhye
+2.01.015 anur yat-samayÃ
+2.01.016 yasya ca=ÃyÃma÷
+2.01.017 ti«Âhad-gu-prabh­tÅni ca
+2.01.018 pÃre madhye «a«ÂhyÃ vÃ
+2.01.019 saækhyÃ vaæÓyena
+2.01.020 nadÅbhiÓ ca
+2.01.021 anya-padÃrthe ca saæj¤ÃyÃm
+2.01.022 tatpuru«a÷
+2.01.023 dviguÓ ca
+2.01.024 dvitÅyÃ Órita=atÅta=patita-gata=atyasta-prÃpta=Ãpannai÷
+2.01.025 svayaæ Ktena
+2.01.026 khaÂvÃ k«epe
+2.01.027 sÃmi
+2.01.028 kÃlÃ÷
+2.01.029 atyanta-saæyoge ca
+2.01.030 t­tÅyÃ tat-k­ta=arthena guïa-vacanena
+2.01.031 pÆrva-sad­Óa-sama=Æna=artha-kalaha-nipuïa-miÓra-Ólak«ïai÷
+2.01.032 kart­-karaïe k­tÃ bahulam
+2.01.033 k­tyair adhika=Ãrtha-vacane
+2.01.034 annena vya¤janam
+2.01.035 bhakÓyeïa miÓrÅkaraïam
+2.01.036 caturthÅ tad-artha=artha-bali-hita-sukha-rak«itai÷
+2.01.037 pa¤camÅ bhayena
+2.01.038 apeta=apo¬ha-mukta-patita=apatrastair alpaÓa÷
+2.01.039 stoka=antika-dÆra=artha-k­cchrÃïi Ktena
+2.01.040 saptamÅ Óauï¬ai÷
+2.01.041 siddha-Óu«ka-pakva-bandhaiÓ ca
+2.01.042 dhvÃ­k«eïa k«epe
+2.01.043 k­tyair ­ïe
+2.01.044 saæj¤ÃyÃm
+2.01.045 Ktena=aho-rÃtra=avayavÃ÷
+2.01.046 tatra
+2.01.047 k«epe
+2.01.048 pÃtre-samita=Ãdayas=ca
+2.01.049 pÆrva-kÃla=eka-sarva-jarat-purÃïa-nava-kevalÃ÷ samÃna=dhikaraïena
+2.01.050 dik-saækhye saæj¤ÃyÃm
+2.01.051 taddhita=artha-uttara-pada-samÃhÃre ca
+2.01.052 saækhyÃ-pÆrvo dvigu÷
+2.01.053 kutsitÃnai kutsanai÷
+2.01.054 pÃpa=aïake kutsitai÷
+2.01.055 upamÃnÃni sÃmÃnaya-vacanai÷
+2.01.056 upamitam vyÃghra=Ãbibhi÷ sÃmÃnya=a-prayoge
+2.01.057 viÓe«aïam viÓe«yeïa bahulam
+2.01.058 pÆrva=apara-prathama-carama-jaghanya-samÃna-madhya-madhyama-vÅrÃÓ ca
+2.01.059 Óreïi=Ãdaya÷ k­ta=Ãdibhi÷
+2.01.060 Ktena na¥-viÓi«Âena=a-na¥
+2.01.061 sat=mahat-parama=uttama=utkr«ÂÃ÷ pÆjyamanai÷
+2.01.062 v­ndÃraka-nÃga-ku¤jarai÷ pÆjyamÃnam
+2.01.063 katara-katamau jÃti-pari-praÓne
+2.01.064 kiæ k«epe
+2.01.065 poÂÃ-yuvati-stoka-katipaya-g­«Âi-dhenu-vaÓÃ-vehat-ba«kayaïÅ-pravakt­-Órotriya=adhyÃpaka-dhÆrtair jÃti÷
+2.01.066 praÓaæsÃ-vacanaiÓ ca
+2.01.067 yuvÃ khalati-palita-valina-jaratÅbhi÷
+2.01.068 k­tya-tulya=ÃkhyÃ a-jÃtyÃ
+2.01.069 varïo varïena
+2.01.070 kumÃra÷ ÓramaïÃ=Ãdibhi÷
+2.01.071 catu«pÃdo garbhiïyÃ
+2.01.072 mayÆra-vyaæsaka=ÃdayaÓ ca
+2.02.001 pÆrva=apara=adh ara=uttaram ekadeÓinÃ=ka=dhikaraïe
+2.02.002 ardham napuæsakam
+2.02.003 dvitÅya-t­tÅya-caturtha-turyÃïi anyatarasyÃm
+2.02.004 prÃpta=Ãpanne ca dvitÅyayÃ
+2.02.005 kÃlÃ÷ partimÃïinÃ
+2.02.006 na¥
+2.02.007 Å«at=a-k­t-Ã
+2.02.008 «a«ÂhÅ
+2.02.009 yÃjaka=ÃdibhiÓ ca
+2.02.010 na nirdhÃraïe
+2.02.011 pÆraïa-guïa-suhita=artha-SAT=avyaya-tavya-samÃna=dhikaraïena
+2.02.012 Ktena ca pÆjÃyÃm
+2.02.013 adhikaraïa-vÃcinÃ ca
+2.02.014 karmaïi ca
+2.02.015 t­C=akÃbhyÃm kartari
+2.02.016 kartari ca
+2.02.017 nityaæ krÅ¬Ã-jÅvikayo÷
+2.02.018 ku-gati-pra=Ãdaya÷
+2.02.019 upapadam a-ti§
+2.02.020 amÃ=eva=avyayena
+2.02.021 t­tÅyÃ-prabh­tÅni=anyatarasyÃm
+2.02.022 KtvÃ ca
+2.02.023 Óe«o bahuvrÅhi÷
+2.02.024 anekam anya-pada=arthe
+2.02.025 saækhyayÃ=avyaya=Ãsanna=adÆra=adhika-saækhyÃ÷ saækhyeye
+2.02.026 di­-nÃmÃny antarÃle
+2.02.027 tatra tena=idam iti sarÆpe
+2.02.028 tena saha=iti tulya-yoge
+2.02.029 ca=arthe dvaædva÷
+2.02.030 upasarjanam pÆrvam
+2.02.031 rÃja-danta=Ãdi«u param
+2.02.032 dvaædve GHI
+2.02.033 aC=adi=aT=antam
+2.02.034 alpa=aC-taram
+2.02.035 saptamÅ-viÓe«aïe bahvrÅhau
+2.02.036 ni«ÂhÃ
+2.02.037 vÃ=Ãhita=agni=Ãdi« u
+2.02.038 ka¬ÃrÃ÷ karmadharÃye
+2.03.001 anabhihite
+2.03.002 karmaïi dvitÅyÃ
+2.03.003 t­tÅyÃ ca hos chandasi
+2.03.004 antarÃ=antareïa yukte
+2.03.005 kÃla=adhvanor atyanta-saæyoge
+2.03.006 apavarge t­tÅyÃ
+2.03.007 saptamÅ-pa¤camyau kÃraka-madhye
+2.03.008 karmapravacanÅya-yukte dvitÅyÃ
+2.03.009 yasmÃd adhikam yasya ca=ÅÓvara-vacanam tatra saptamÅ
+2.03.010 pa¤camÅ=apa-Ã§-pari-bhi÷
+2.03.011 pratinidhi-pratidÃne ca yasmÃt
+2.03.012 gaty-artha-karmaïi dvitÅyÃ-caturthyau ce«ÂÃyÃm an-adhvani
+2.03.013 caturthÅ sampradÃne
+2.03.014 kriyÃ=arthÃ=upapadasya ca karmaïi stÃnina÷
+2.03.015 tum-arthÃt=ca bhÃva-vacanÃt
+2.03.016 namas-svasti-svÃhÃ-svadhÃ=alam=va«aÂ=ogÃt=ca
+2.03.017 manya-karmaïi=an-Ãdare vibhÃ«Ã=a-prÃïi«u
+2.03.018 kart­-karaïayos t­tÅyÃ
+2.03.019 saha-yukte=a-pradhÃne
+2.03.020 yena=a­ga-vikÃra÷
+2.03.021 ittham-bhÆta-laksaïe
+2.03.022 saæ-j¤a÷=anyatarasyÃm karmaïi
+2.03.023 hetau
+2.03.024 a-kartari=­ïe pa¤camÅ
+2.03.025 vibhÃ«Ã guïe=a-striyÃm
+2.03.026 «a«ÂhÅ hetu-prayoge
+2.03.027 sarvanÃmnas t­tÅyÃ ca
+2.03.028 apÃdÃne pa¤camÅ
+2.03.029 anya=Ãrat=itara=­te-dik-Óabda=ancş=uttarapada=ÃC=Ãhi-ukte
+2.03.030 «a«ÂhÅ=atas-artha-pratyayena
+2.03.031 enaPÃ dvitÅyÃ
+2.03.032 p­thak-vinÃ-nÃnÃ-Æbhis t­tÅyÃ=nyatarasyÃm
+2.03.033 karaïe ca stoka=alpa-k­cchra-atipayasya a-sattva-vacanasya
+2.03.034 dÆra=antika=arthai÷ «a«ÂhÅ=nyatarasyÃm
+2.03.035 dÆra=antika=arthebhyo dvitÅyÃ ca
+2.03.036 saptamÅ=adhikaraïe
+2.03.037 yasya ca bhÃvena bhÃva-lak«aïam
+2.03.038 «a«ÂhÅ ca=an-Ãdare
+2.03.039 svÃmi(n)=ÅÓvara=adhipati-dÃyÃda-sÃk«i(n)-pratibhÆ-prasutaiÓ ca
+2.03.040 Ãyukta-kuÓalÃbhyÃm ca=ÃsevÃyÃm
+2.03.041 yatas ca nirdhÃraïam
+2.03.042 pa¤camÅ vibhakte
+2.03.043 sÃdhu-nipuïÃbhyÃm arcÃyÃæ saptamÅ a-prate÷
+2.03.044 prasita=utsukÃbhyÃm t­tÅyÃ ca
+2.03.045 nak«atre ca luPi
+2.03.046 prÃtipadika=artha-li­ga-parimÃïa-vacana-mÃtre prathamÃ
+2.03.047 sambodhane ca
+2.03.048 sÃ=Ãmantritam
+2.03.049 ekavacanam saæbuddhi÷
+2.03.050 «a«ÂhÅ Óe«e
+2.03.051 jna÷=a-vid-arthasya karaïe
+2.03.052 adhi=iK=artha-dayA=ÅÓÃm karmaïi
+2.03.053 k­¥a÷ pratiyatne
+2.03.054 rujÃ=arthÃnÃm bhÃva-vacanÃnÃm a-jvare÷
+2.03.055 ÃÓi«i nÃtha÷
+2.03.056 jÃsi-ni-pra-haïş-nÃÂa-krÃtha-pi«Ãæ hiæsÃyÃm
+2.03.057 vy-ava-h­-païo÷ sam-arthayo÷
+2.03.058 divas tad-arthasya
+2.03.059 vibhÃ«Ã=upasarge
+2.03.060 dvitÅyÃ brÃhmaïe
+2.03.061 pre«ya-bruvor havi«o devatÃ-sampradÃne
+2.03.062 caturthy-arthe bahulam chandasi
+2.03.063 yajeÓ ca karaïe
+2.03.064 k­tvas=artha-prayoge kÃle=adhikaraïe
+2.03.065 kart­-karmaïo÷ k­t-i
+2.03.066 ubhaya-prÃptau karmaïi
+2.03.067 Ktasya ca vartamÃne
+2.03.068 adhikarana-vÃcinaÓ ca
+2.03.069 na la=u=uka-avyaya-ni«ÂhÃ-KHaL-rtha-tãNÃm
+2.03.070 aka=inor bhavi«yad=Ãdhamarïyayo÷
+2.03.071 k­tyÃnÃæ kartari vÃ
+2.03.072 tulya=arthair a-tulÃ=upamÃbhyÃæ t­tÅyÃ=anyatarasyÃm
+2.03.073 caturthÅ ca=ÃÓi«i=Ãyu«ya-madra-bhadra-kuÓala-sukha=artha-hitai÷
+2.04.001 dvigur ekavacanam
+2.04.002 dvaædvaÓ ca prÃïi(n)-tÆrya-senÃ=­gÃnÃm
+2.04.003 anuvÃde caraïÃnÃm
+2.04.004 adhvaryu-kratur a-napuæsakam
+2.04.005 adhyayanata÷=a-vi-pra-k­«Âa=ÃkhyÃnÃm
+2.04.006 jÃtir a-prÃïinÃm
+2.04.007 viÓi«Âa-li­go nadÅ deÓa÷=a-grÃmÃ÷
+2.04.008 k«udra-jantava÷
+2.04.009 ye«Ãæ ca virodha÷ ÓÃÓvatika÷
+2.04.010 ÓÆdrÃïÃm anirvasitÃnÃm
+2.04.011 gavÃÓva-prabh­tÅni ca
+2.04.012 vibhÃ«Ã v­k«a-m­ga-t­ïa-dhÃnya-vya¤jana-paÓu-Óakuni-aÓva-va¬ava-pÆrvÃpara=adharottarÃïÃm
+2.04.013 viprati«iddhaæ ca=an-adhi-karaïa-vÃci
+2.04.014 na dadhi-paya=ÃdÅni
+2.04.015 adhikaraïa=etÃvattve ca
+2.04.016 vibhÃ«Ã samÅpe
+2.04.017 sa napuæsakam
+2.04.018 avyayÅbhÃvaÓ ca
+2.04.019 tatpurusa÷=a-na¥-karmadhÃraya÷
+2.04.020 saæj¤ÃyÃæ kanthÃ=uÓÅnare«u
+2.04.021 upaj¤Ã=upakramaæ tad-Ãdi=ÃcikhyÃsÃyÃm
+2.04.022 chÃyÃ bÃhulye
+2.04.023 sabhÃ rÃja(n)=a-manu«ya-pÆrvÃ
+2.04.024 a-ÓÃlÃ ca
+2.04.025 vibhÃ«Ã senÃ-surÃ-chÃyÃ-sÃlÃ-nisÃnÃm
+2.04.026 paravat=li­gam dvaædva-tatpuru«ayo÷
+2.03.027 pÆrvavat=aÓva-va¬avau
+2.04.028 hemanta-ÓiÓirau=aho-rÃtre ca=chandasi
+2.04.029 rÃtra=ahna=ahÃ÷ puæsi
+2.04.030 apathaæ napuæsaksm
+2.04.031 ardharcÃ÷ puæsi ca
+2.04.032 idama÷=anvÃdeÓe=aÁ=anudÃttas t­tÅyÃ=Ãdau
+2.04.033 etadas tra-tasos tra-tasau ca=anudÃttau
+2.04.034 dvitÅyÃ-TÃ=os-su=ena÷
+2.04.035 Ãrdha-dhÃtuke
+2.04.036 ado jagdhir LyaP ti K-IT-i
+2.04.037 lU§-saNor ghasì
+2.04.038 GHa¥-aPoÓ ca
+2.04.039 bahulam Chandasi
+2.04.040 lIèy anyatarasyÃm
+2.04.041 ve¥o vayi÷
+2.04.042 hano vadha lI§-i
+2.04.043 lU§-i ca
+2.04.044 Ãtmanepade«u=anyatarasyÃm
+2.04.045 i×o gÃ lU§-i
+2.04.046 ×au gamir a-bodhane
+2.04.047 saN-i ca
+2.04.048 i§-aÓ ca
+2.04.049 gÃ§ lIè-i
+2.04.050 vibhÃ«Ã lU§-lã§-o÷
+2.04.051 ×au ca saN=Ca§-o÷
+2.04.052 aster bhÆ÷
+2.04.053 bruvo vaci-÷
+2.04.054 cak«i§a÷ khyÃ¥
+2.04.055 vÃ lIè-i
+2.04.056 ajer vÅ=a-GHa¥-aP-o÷
+2.04.057 vÃ yau
+2.04.058 ×ya-k«atriya-Ãr«a-¥-IT-o yÆni luK=a×-i¥-o÷
+2.04.059 paila=Ãdibhyas=ca
+2.04.060 i¥-a÷ prÃc-Ãm
+2.04.061 na taulvali-bhya÷
+2.04.062 tad-rÃjasya bahu«u tena=eva=astriyÃm
+2.04.063 yaska=Ãdibhyo gotre
+2.04.064 ya¥-a¥-oÓ ca
+2.04.065 atri-bh­gu-kutsa-vasi«Âha-gotama=a­girobhyaÓ ca
+2.04.066 bahu=aCa÷=i¥-a÷ prÃcya-bharate«u
+2.04.067 na gopav-ana=Ãdibhyah
+2.04.068 tika-kitava=Ãdibhyo dvaædve
+2.04.069 upaka=Ãdibhya÷=anyatarasyÃm a-dvaædve
+2.04.070 Ãgastya-kauï¬inyay-or agasti-kuï¬inaC
+2.04.071 suPo dhÃtu-prÃtipadikay-o÷
+2.04.072 adi-prabh­tibhya÷ ÁaP-a÷
+2.04.073 bahulam chandasi
+2.04.074 ya§-a÷=aCi ca
+2.04.075 ju-ho-ti=Ãdibhya÷ Álu÷
+2.04.076 bahulaæ chandasi
+2.04.077 gÃti-sthÃ-GHU-pÃ-bhÆ-ya÷ siC-a÷ parasmaipade«u
+2.04.078 vibhÃ«Ã ghrÃ-dheè-ÓÃ=chÃ-sa÷
+2.04.079 tan=Ãdibhya÷=ta-thÃs-o÷
+2.04.080 mantre ghasa-hvara-ïaÓş-v­-dahş=ÃT-v­c-k­-gami-jani-bhyo lE÷
+2.04.081 Ãma÷
+2.04.082 avyayÃt=ÃP-sUP-a÷
+2.04.083 na=avyayÅbhÃvÃt=aTa÷=am tu=a-pa¤camyÃ÷
+2.04.084 t­tÅyÃ-saptamyor bahulam
+2.04.085 lUè-a÷ prathama-sya ÖÃ-rau-ras-a÷
+
+3.01.001 pratyaya÷
+3.01.002 paraÓ ca
+3.01.003 Ãdy=udÃttas ca
+3.01.004 anudattau sUP-P-IT-au
+3.01.005 gup-tij-kit=bhya÷ saN
+3.01.006 mÃn-badhA-dÃn-ÓÃn-bhyo dÅrghaÓ ca=abhyÃsasya
+3.01.007 dhÃto÷ karmaï-a÷ samÃna-kart­k-Ãt icchÃyÃm vÃ
+3.01.008 sUPa÷=Ãtman-a÷ KyaC
+3.01.009 kÃmyaC ca
+3.01.010 upamÃnÃt=ÃcÃre
+3.01.011 kart-u÷ Kya§ sÃ-lopaÓ=ca
+3.01.012 bh­Óa=Ãdibhya÷=bhuvi=a-Cve÷ lopaÓ ca haL-a÷
+3.01.013 lohita=Ãdi-ÖÃC=bhya÷ Kyaå
+3.01.014 ka«ÂÃ-ya kramaïe
+3.01.015 karmaï-a÷=romantha-tapo-bhyÃæ varti-car-o÷
+3.01.016 bÃ«pa=Æ«mÃ-bhyÃm ud-vamane
+3.01.017 Óabda-vaira-kalaha=abhra-kaïva-meghe-hya÷ karaïe
+3.01.018 sukha=Ãdibhya÷ kart­-vedanÃyÃm
+3.01.019 namas=varivas=citra§-a÷ KyaC
+3.01.020 puccha-bhÃï¬a-cÅvarÃt=×i§
+3.01.021 muï¬a-miÓra-slak«ïa-lavaïa-vrata-vastra-hala-kala-k­ta-tÆstebhya÷=×iC
+3.01.022 dhÃtor eka=aCa÷=haL-Ãde÷ kriyÃ-sam-bhi-hÃre ya§
+3.01.023 nityaæ kauÂilye gatau
+3.01.024 lupa-sada-carş-japş-jabhA-dahş-daÓş-gÌ-bhyo bhÃva-garhÃyÃm
+3.01.025 satyÃpa-pÃÓa-rÆpa-vÅïÃ-tÆla-Óloka-senÃ-loma(n)=tvaca=varma(n)=varïa-cÆrïa-cur=Ãdibhyo ×iC
+3.01.026 hetumat-i ca
+3.01.027 kaï¬Æ=Ãdibhyo yaK
+3.01.028 gupô-dhÆpş-vicchi-païi-pani-bhya Ãya÷
+3.01.029 ­ter Åya§
+3.01.030 kamer ×i§
+3.01.031 Ãya=Ãdaya÷=Ãrdhad hÃtuke vÃ
+3.01.032 saN=Ãdi=antÃ÷=dhÃtav-a÷
+3.01.033 sya-tÃsÅ lã-lşè-o÷
+3.01.034 siP=bahulaæ lEè-i
+3.01.035 kÃs-pratyayÃt=Ãm=a-mantre lIè-i
+3.01.036 iC=ÃdeÓ ca gurumata÷=an-­cch-a÷
+3.01.037 dayş=ayA=Ãs -aÓ ca
+3.01.038 u«ş-vidş-jÃg­-bhya÷=nyatarasyÃm
+3.01.039 bhÅ-hrÅ-bh­-huv-Ãæ Álu-vat=ca
+3.01.040 k­¥ ca=anu-pra-yuj-ya-te lIè-i
+3.01.041 vid-Ãæ=kur-v-antu=iti=anyatarasyÃm
+3.01.042 abhy-ut-sÃd-ay-Ãm=pra-jan-ay-Ãm-ci-kay-Ãm-ram-ay-Ãm+aka÷pÃv-ay-Ãæ+kri-yÃt-vid-Ãm+akrann iti=chandssi
+3.01.043 Cli lU§-i
+3.01.044 Cle÷ siC
+3.01.045 ÓaL-a÷=iK=upadh-Ãt=an-iè-a÷ Ksa-÷
+3.01.046 Óli«-a÷=Ã-li­gane
+3.01.047 na d­Ó-a÷
+3.01.048 ×i-Óri-dru-sru-bhya÷ kartari Ca§
+3.01.049 vibhÃ«Ã dheè-Óvy-o÷
+3.01.050 gupeÓ chandasi
+3.01.051 na=Æn-ay-a-ti-dhvan-ay-a-ti=el-ay-a-ti=ard-ay-a-ti-bhya÷
+3.01.052 asyati-vakti-khyÃti-bhya÷=a§
+3.01.053 lipi-sici-hv-aÓ ca
+3.01.054 Ãtmanepade«u=anyatarasyÃm
+3.01.055 pu«=Ãdi-dyut-Ãdi=ÊT=IT-a÷ parasmaipade«u
+3.01.056 sar-ti-ÓÃs-ti-ar-ti-bhyaÓ ca
+3.01.057 IR=IT-o vÃ
+3.01.058 jÌ-stanbhU-mrucş-mlucş-grucş-glucş-gluncş-Óvi-bhyaÓ ca
+3.01.059 k­-m­-d­-ruhi-bhyaÓ chandasi
+3.01.060 Ci× te pad-a÷
+3.01.061 dÅpa-jana-budhA-pÆri-tÃyi-pyÃyi-hya÷=nyatarasyÃm
+3.01.062 aC-a÷ karma-kartar-i
+3.01.063 duh-aÓ ca
+3.01.064 na rudh-a÷
+3.01.065 tapa÷=anutÃpe ca
+3.01.066 Ci× bhÃva-karmaï-o÷
+3.01.067 sÃrvadhÃtuke yak
+3.01.068 kartar-i ÁaP
+3.01.069 div-Ãdibhya÷ ÁyaN
+3.01.070 vÃ bhrÃÓa-bhlÃÓa-bhramş-kramş-klamş-trasi-truÂi-la«-a÷
+3.01.071 yas-a÷=an-upasargÃt
+3.01.072 saæ-yas-aÓ ca
+3.01.073 su=Ãdibhyah Ánu÷
+3.01.074 Óruv-a÷ Ó­ ca
+3.01.075 ak«-a÷=anyatarasyÃm
+3.01.076 tanÆ-karaïe tak«-a÷
+3.01.077 tud-Ãdibhya÷ Áa-÷
+3.01.078 rudh-Ãdibhya÷ ÁnaM
+3.01.079 tan-Ãdi-k­¥-bhya÷=u-÷
+3.01.080 dhinvi=k­ïvy-or a ca
+3.01.081 krÅ-Ãdibhya÷ ÁnÃ
+3.01.082 stanbhş-stunbhş-skanbhş-skunbhş-sku¥-bhya÷ ÁnuÓ ca
+3.01.083 haL-a÷ Án-a÷ ÁÃnaC=hau
+3.01.084 chandas-i ÁÃyaC=api
+3.01.085 vyatyayo bahulam
+3.01.086 lI§-i=ÃÓi«-i=a§
+3.01.087 karmavat karmaï-Ã tulya-kriya÷
+3.01.088 tap-as tapa÷-karmakasya=eva
+3.01.089 na duhş-snu-namÃm yaK-Ci×-au
+3.01.090 ku«i-raj-o÷ prÃcÃm ÁyaN parasmaipadaæ ca
+3.01.091 dhÃto-÷
+3.01.092 ta-tra=upapadam saptamÅ-stham
+3.01.093 k­t=a-ti§
+3.01.094 vÃ=a-sarÆpa-÷=a-striyÃm
+3.01.095 k­tyÃ÷ prÃ­ ×vuL-a÷
+3.01.096 tavyaT-tavya=anÅyaR-a÷
+3.01.097 aC-a÷=yaT
+3.01.098 pOr aT=upadhÃt
+3.01.099 Óaki-Óah-oÓ ca
+3.01.100 gadA-mada-carş-yamaÓ ca=an-upa-sarge
+3.01.101 avadya-païya-varyÃ÷ garhya-païitavya=a-nirodhe«u
+3.01.102 vahyam karaïam
+3.01.103 arya-÷ svÃmi(n)=vaiÓyayo÷
+3.01.104 upa-saryÃ kÃlyÃ pra-jane
+3.01.105 a-jar-yam saæ-gatam
+3.01.106 vad-a÷ sUP-i KyaP ca
+3.01.107 bhuv-o bhÃve
+3.01.108 han-as ta ca
+3.01.109 eti-stu-sÃs=v­-d­-ju«-a÷ KyaP
+3.01.110 ­T=upadh-Ãt=ca=a-kÊpi-c­te-÷
+3.01.111 Å ca khan-a÷
+3.01.112 bh­¥-a÷=a-saæj¤ÃyÃm
+3.01.113 m­je-r vibhÃ«Ã
+3.01.114 rÃjasÆya-sÆrya-m­«odya-rucya-kupya-k­«Âapacya=avyathyÃ÷
+3.01.115 bhid-ya=uddh-yau nade
+3.01.116 pu«-ya-sidh-yau nak«atre
+3.01.117 vipÆya-vinÅya-jityÃ÷ mu¤ja-kalka-hali«u
+3.01.118 prati=api-bhyÃm graheÓ chandas-i
+3.01.119 pada=asvairi(n)-bÃhyÃ-paksye«u ca
+3.01.120 vibhÃ«Ã k­-v­«o÷
+3.01.121 yug-yam ca pattre
+3.01.122 amÃvasyaT=anyatarasyÃm
+3.01.123 chandas-i ni«Âarkya-devahÆya-praïÅya=unnÅya=ucchi«ya-marya-staryÃ-dhvarya-khanya-khÃnya-devayajyÃ-Ãp­cchya-prati«Åvya-brahmavÃdya-bhÃvya-stÃvya=upacÃyya-p­¬Ãni
+3.01.124 ­-haL-or ×yaT
+3.01.125 o-r ÃvaÓyake
+3.01.126 Ã-su-yu-vapi-rapi-lapi-trapi-camaÓ ca
+3.01.127 ÃnÃyya÷=a-nitye
+3.01.128 praïÃyya÷=a-saæ-matau
+3.01.129 pÃyya-sÃæ-nÃyya-ni-kÃyya-dhÃyyÃ÷ mÃna-havis=nivÃsa-sÃmidhenÅ-«u
+3.01.130 kratau kuï¬a-pÃy-ya-saæ-cÃyyau
+3.01.131 agnau pari-cÃy-ya=upa-cÃy-ya-samÆhyÃ÷
+3.01.132 cit-ya=agni-cit-ye ca
+3.01.133 ×vuL-t­C-au
+3.01.134 nandi-grahi-paca=Ãdibhya÷ Lyu-×ini-aC-a÷
+3.01.135 iK=upadha=j¤Ã-prÅ-kir-a÷ Ka-÷
+3.01.136 ÃT-aÓ ca=upasarge
+3.01.137 pÃ-ghrÃ-dhmÃ-dheè-d­Ó-a÷ Áa÷
+3.01.138 an-upasargÃt=limpA-vinda-dhÃr-i-pÃr-i-vedi-ud-ej-i-cet-i-sÃt-i-sÃh-i-hyaÓ ca
+3.01.139 da-dÃ-ti=da-dhÃ-ty-or vibhÃ«Ã
+3.01.140 jval-iti=kas-antebhya÷=×a÷
+3.01.141 ÓyÃ-ÃT=vyadhş=Ã-sru-saæ-sru-ati-i×=ava-sÃ=ava-h­-lihş-Óli«ş-Óvas-aÓ ca
+3.01.142 du-ny-or an-upasarge
+3.01.143 vibhÃ«Ã grahe÷
+3.01.144 gehe Ka÷
+3.01.145 Óilpin-i åvuN
+3.01.146 gas thakaN
+3.01.147 ×yuè ca
+3.01.148 haÓ ca vrÅhi-kÃlayo÷
+3.01.149 pru-s­-lv-a÷ sam-abhi-hÃre vuN
+3.01.150 ÃÓi«-i ca
+3.02.001 karmaï-i=a×
+3.02.002 hvÃ-vÃ-amaÓ ca
+3.02.003 ÃTa÷=an-upa-sarge Ka÷
+3.02.004 sUP-i stha÷
+3.02.005 tunda-Óokay-o÷ pari-m­ja=apa-nud-o÷
+3.02.006 pre dÃ-j¤-a÷
+3.02.007 sam-i khya÷
+3.02.008 gÃpo÷=èaK
+3.02.009 har-a-ter an-ud-yamane=aC
+3.02.010 vayas-i ca
+3.02.011 Ã§-i tÃc-chÅlye
+3.02.012 arh-a÷
+3.02.013 stamba-karïay-o÷ rami-jap-o÷
+3.02.014 Óam-i dhÃt-o÷ saæj¤Ã-y-Ãm
+3.02.015 adhikaraïe Óete÷
+3.02.016 careÓ èa÷
+3.02.017 bhik«Ã-ÓenÃ=ÃdÃye-«u ca
+3.02.018 puras=agratas=agre-«u sart-e÷
+3.02.019 pÆrv-e kartar-i
+3.02.020 k­¥-a÷=hetu-tÃcchÅlya-Ãnulomye-«u
+3.02.021 divÃ-vibbhÃ-niÓÃ-prabhÃ-bhÃs-kÃra=anta=an-anta=Ãdi-bahu-nÃndÅ-kim-lipi-libi-bali-bhakti-kart­-citra-k«etra-saækhyÃ-ja­ghÃ-bÃhu-ahan=yad=tad= dhanus=aru«-«u
+3.02.022 karmaï-i bh­t-au
+3.02.023 na Óabda-sloka-kalaha-gÃthÃ-vaira-cÃÂu-sÆtra-mantra-pade-«u
+3.02.024 stamba-Óak­t-or iN
+3.02.025 harate÷=d­ti-nÃthay-o÷ paÓau
+3.02.026 phale-grah-ir-Ãtmam-bhariÓ ca
+3.02.027 chandas-i vanş-sanş-rak«i-math-Ãm
+3.02.028 eje÷ KHaÁ
+3.02.029 nÃsikÃ-stanay-o÷=dhmÃ-dheè-o÷
+3.02.030 nÃ¬Å-mu«Ây-oÓ ca
+3.02.031 ud-i kÆl-e ruji-vah-o÷
+3.02.032 vaha=abhr-e lih-a÷
+3.02.033 parimÃï-e pac-a÷
+3.02.034 mita-nakh-e ca
+3.02.035 vidhu=aru«-o÷=tud-a÷
+3.02.036 a-sÆrya-lalÃÂay-o÷-d­Ói-tap-o÷
+3.02.037 ugra-m-paÓy-a=ira-m-mad-a-pÃïi-æ-dhamÃ÷
+3.02.038 priya-vaÓ-e vad-a÷ KHaC
+3.02.039 dvi«att-paray-os=tÃpe÷
+3.02.040 vÃc-i yama-÷=vrat-e
+3.02.041 pur=sarvay-o÷ dÃr-i-sah-o÷
+3.02.042 sarva-kÆla=abhra-karÅ«e-«u ka«-a÷
+3.02.043 megha=­ti-bhaye-«u k­¥-a÷
+3.02.044 k«ema-priya-madre-e a× ca
+3.02.045 ÃÓit-e bhuv-a÷ karaïa-bhÃvay-o÷
+3.02.046 saæj¤Ã yÃm bh­-tÌ=v­-ji-dhÃr-i-Óahi-tapi-dam-a÷
+3.02.047 gam-aÓ ca
+3.02.048 anta=aty-anta=adhva(n)-dÆra-pÃra-sarva-an-ante-«u Öa-÷
+3.02.049 ÃÓi«-i han-a÷
+3.02.050 ap-e kleÓa-tamas-o÷
+3.02.051 kumÃra-ÓÅr«ay-oh=×ini-÷
+3.02.052 lak«aï-e jÃyÃ-paty-o÷=èaK-
+3.02.053 a-manu«ya-kart­k-e ca
+3.02.054 Óakt-au hasti(n)=kapÃÂay-o÷
+3.02.055 pÃïi-gh-a-tÃ¬a-gh-au Óilpin-i
+3.02.056 Ã¬hya-subhaga-sthÆla-palita-nagna=andha-priye-«u Cvi=rthe-«u=a-Cvau k­¥-a÷ karaï-e KHyuN
+3.02.057 kartar-i bhuv-a÷ KHi«ïuC-KHuka¥-au
+3.02.058 sp­Ó-a÷=an-udak-e KviN
+3.02.059 ­tv-ij=dadh­«=sraj=diÓ=u«ïih=a¤cU=yuji-kru¤c-Ãæ ca
+3.02.060 tyad-Ãdi-«u d­Ó-a÷=an-Ãlocane Ka¥ ca
+3.02.061 sad=sÆ-dvi«ş-druhş-duhş-yujA-vidş-bhida-chida-ji-nÅ-rÃj-Ãm upasarge=api KviP
+3.02.062 bhaj-a÷=×vi-÷
+3.02.063 chandas-i sah-a÷
+3.02.064 vah-aÓ ca
+3.02.065 kavya-purÅ«a-purÅ«ye-«u ¥yuè
+3.02.066 havy-e=an-anta÷-pÃdam
+3.02.067 janA-sanş-khana-krama-gam-o viè
+3.02.068 ad-a÷=an=anne
+3.02.069 kravy-e ca
+3.02.070 duh-a÷ KaP=gha-Ó ca
+3.02.071 mantre Óveta-vah-a-uktha-Óas=puro-¬ÃÓ-o ×viN
+3.02.072 av-e yaj-a÷
+3.02.073 viC=up-e chandas-i
+3.02.074 ÃT-a÷ maniN=KvaniP-vaniP-aÓ ca
+3.02.075 anye-bhya÷=api d­Ó-yante
+3.02.076 KviP ca
+3.02.077 sth-a÷ Ka ca
+3.02.078 sUPy a-jÃt-au ×ini-s tÃcchily-e
+3.02.079 kartar-i=upa-mÃn-e
+3.02.080 vrat-e
+3.02.081 bahulam ÃbhÅk«ïy-e
+3.02.082 man-a÷
+3.02.083 Ãtma-mÃn-e KHaÁ=ca
+3.02.084 bhÆt-e
+3.02.085 karaï-e yaj-a÷
+3.02.086 karmaï-i han-a÷
+3.02.087 brahm(n)-bhrÆïa-v­tre-«u KviP
+3.02.088 bahulam chandas-i
+3.02.089 su-karma(n)-pÃpa-mantra-puïye-su k­¥a÷
+3.02.090 som-e su¥-a÷
+3.02.091 agn-au ce-÷
+3.02.092 karmaï-i=agni=ÃkhyÃ-yÃm
+3.02.093 karmaï-i=ini÷=vi-kriy-a÷
+3.02.094 d­Óe-÷ KvaniP
+3.02.095 rÃjan-i yudh-i-k­¥-a÷
+3.02.096 sah-e ca
+3.02.097 saptamy-Ãm jane-r Öa÷
+3.02.098 pa¤camy-Ãm a-jÃt-au
+3.02.099 upa-sarg-e ca saæj¤Ã-yÃm
+3.02.100 an-au karmaï-i
+3.02.101 anye-«u=api d­Ó-ya-te
+3.02.102 ni«ÂhÃ
+3.02.103 su-yaj-or §vaniP
+3.02.104 jÅr-ya-te-r atãN
+3.02.105 chandas-i lIè
+3.02.106 lIè-a÷ KÃnaC=vÃ
+3.02.107 KvasU-s=ca
+3.02.108 bhÃ«Ã-yÃm sada-vasş-Óruv-a÷
+3.02.109 upey-i-vÃn=anÃÓ-vÃn=anÆcÃnas-s=ca
+3.02.110 lU§
+3.02.111 an-adya-tane lA§
+3.02.112 abhij¤Ã-vacane lãè
+3.02.113 na yad-i
+3.02.114 vibhÃ«Ã sÃkÃ­k«-e
+3.02.115 parok«-e lIè
+3.02.116 ha-ÓaÓvat-or lA§ ca
+3.02.117 praÓn-e ca=Ã-sanna-kÃl-e
+3.02.118 lAè sm-e
+3.02.119 a-parok«-e ca
+3.02.120 nan-au p­«Âa-prati-vacan-e
+3.02.121 na-nv-or vibhÃ«Ã
+3.02.122 pur-i lU§ ca=a-sm-e
+3.02.123 vartamÃn-e lAè
+3.02.124 lAè-a÷ Áatã-ÁanaC-au=a-rathamÃ-amÃna=dhi-araï-e
+3.02.125 sam-bodhan-e ca
+3.02.126 lak«aïa-hetv-o÷ kriyÃ-yÃ÷
+3.02.127 t-au SAT
+3.02.128 pÆ§-yaj-o÷ ÁÃnaN
+3.02.129 tÃcchÅlya-vayovacana-Óakti-«u CÃnaÁ
+3.02.130 i§=dhÃry-o÷ Áatã=­cchriï-i
+3.02.131 dvi«-a÷=a-mitr-e
+3.02.132 su¥-a÷=yaj¤a-saæ-yog-e
+3.02.133 arh-a÷ pÆjÃ-yÃm
+3.02.134 Ã-kve-÷ tac-chÅla-tad-dharma-tat-sÃdhu-kÃri-«u
+3.02.135 t­N
+3.02.136 alaæ-k­¥-nir-Ã-k­¥-pra-jana=ut-pacA=ut-pata=un-mada-ruci-apa-trapa-v­tU-v­dhU-sahA-carş i«ïuC
+3.02.137 ×e-Ó chandas-i
+3.02.138 bhuv-aÓ ca
+3.02.139 glÃ-ji-sthaÓ ca Ksnu-÷
+3.02.140 trasi-g­dhi-dh­«i-k«ip-e÷ Knu-÷
+3.02.141 Óam-iti=a«ÂÃ-bhya÷ GHinu×
+3.02.142 saæ-p­ca=anu-rudha=Ã§-yamş=Ã§-yasa-pari-s­-saæ-s­jş-pari-devi-saæ-jvarş=pari-k«ipş-pari-vadş-pari-dahş-pari-muhş-du«ş-dvi«ş-druhş-duhş-yuja-Ã-krÅ¬a-vi-vica-tyajş-rajş-bhajş=ati-carş=apa-carş=Ã-mu«ş=abhy-Ã-han-aÓ ca
+3.02.143 v-au ka«ş-lasş-katthA-srambh-a÷
+3.02.144 ap-e ca la«-a÷
+3.02.145 pr-e lapş-s­-dru-matha-vadş-vas-a÷
+3.02.146 ninda-hiæsa-kliÓA-khÃda-vi-nÃÓa-pari-kliÓş-pari-raÂş-pari-vÃd-i-vyÃ-bhÃ«A=asÆy-a÷ vU¥
+3.02.147 dev-i-kruÓ-os=ca=upasarge
+3.02.148 calana-Óabda=rth-Ãt=a-karmak-Ãt=uC
+3.02.149 anudÃtta=IT-as=ca haL-Ãde-÷
+3.02.150 ju-ca­-kram-ya-dan-dram-ya-s­-g­dhi-jvalş-Óucş-la«A-pata-pad-a÷
+3.02.151 krudhş-maï¬a=arthe-bhyas=ca
+3.02.152 na y-a÷
+3.02.153 sÆdA-dÅpa-dÅk«-as=ca
+3.02.154 la«A-pata-padA-sthÃ-bhÆ-v­«a-hanş-kama-gama-ÓÌ-bhya÷=uka¥
+3.02.155 jalpş-bhik«A-kuÂÂş-luïÂş-v­§-hy÷=åÃkaN
+3.02.156 pra-jo-r ini-÷
+3.02.157 ji-d­-k«i-vi-Óri=i×-vamş=a-vyathA=abhş-amA-pari-bhÆ-pra-sÆ-bhyas=ca
+3.02.158 sp­h-i-g­h-i-pat-i-dayi-ni-drÃ-tandrÃ-Órad-dhÃ-bhya÷=ÃluC
+3.02.159 dÃ-dheè-si-Óada-sad-a÷=u-÷
+3.02.160 s­-ghasi=ad-a÷ KmaraC
+3.02.161 bhanja-bhÃsa-mid-a÷=GHuraC
+3.02.162 vidi-bhidi-cchide-÷ KuraC
+3.02.163 i×-naÓ-ji-sar-ti-bhya÷ KvaraP
+3.02.164 ga-t-vara-s=ca
+3.02.165 jÃgu-r Æka-÷
+3.02.166 yajş-japş-daÓ-Ãm ya§-a÷
+3.02.167 nami-kampi-smi=a-jasa-kama-hiæsa-dÅp-a÷=ra-÷
+3.02.168 saN=Ã-Óaæsa-bhik«-a÷=u-÷
+3.02.169 vind-u-r icch-u-÷
+3.02.170 KyÃt=chandas-i
+3.02.171 ÃÂ=­-gama-hanş-jan-a÷ Ki-Kin-au=lIè ca
+3.02.172 svapi-t­«-o÷=naji§
+3.02.173 ÓÌ-vandy-or Ãru-÷
+3.02.174 bhiy-a÷ Kru-KlukaN-au
+3.02.175 sthÃ-ÅÓA-bhÃsA-pisa-kas-a÷=varaC
+3.02.176 y-as=ca ya§-a÷
+3.02.177 bhrÃja-bhÃsa-dhurvi-dyutA=Ærji-pÌ-ju-grÃva-stuv-a÷ KviP
+3.02.178 anye-bhya÷=api d­Ó-ya-te
+3.02.179 bhuv-a÷ saæj¤Ã=antaray-o÷
+3.02.180 vi-pra-sam-bhya÷=Öu=a-saæj¤Ã-yÃm
+3.02.181 dh-a÷ karmaï-i åÂraN
+3.02.182 dÃP-nÅ-Óasa-yu-yuja-stu-tudş-si-sicA-mihş-pata-daÓş-nah-a÷ karaïe
+3.02.183 hala-sÆkaray-o÷ puv-a÷
+3.02.184 ar-ti-lÆ-dhÆ-sÆ-khana-ÓahA-car-a÷=itra-÷
+3.02.185 puv-a÷ saæj¤Ã-yÃm
+3.02.186 kartar-i ca=­«i-devatay-o÷
+3.02.187 ¥I=IT-a÷ Kta-÷
+3.02.188 mati-buddhi-pÆjÃ=arthe-bhyas=ca
+3.03.001 u×=Ãday-a÷=bahulam
+3.03.002 bhÆt-e=api d­Ó-yante
+3.03.003 bhavi«yat-i gami(n)=Ãday-a÷
+3.03.004 yÃvat-purÃ-nipÃtay-o÷=lAè
+3.03.005 vibhÃ«Ã kadÃ-karhy-o÷
+3.03.006 kiæ-v­tt-e lipsÃ-yÃm
+3.03.007 lip-sya-m-Ãna-siddh-au ca
+3.03.008 lOè=artha-lak«aï-e ca
+3.03.009 lI§ ca=Ærdhva-mauhÆrtik-e
+3.03.010 tumuN=×vuL-au kriyÃ-yÃm kriyÃ-arthÃ-yÃm
+3.03.011 bhÃva-vacanÃÓ ca
+3.03.012 a× karmaï-i ca
+3.03.013 lãè Óe«-e ca
+3.03.014 lãè-a÷ SAT=vÃ
+3.03.015 an-adya-tan-e lUè
+3.03.016 padA-ruja-viÓş-sp­Ó-a÷=GHa¥
+3.03.017 s­ sthir-e
+3.03.018 bhÃv-e
+3.03.019 a-kartar-i ca kÃrak-e saæj¤Ã-yÃm
+3.03.020 parimaïa=ÃkhyÃ-yÃm sarve-bhya÷
+3.03.021 i§-as=ca
+3.03.022 upasarg-e ruv-a÷
+3.03.023 sam-i yu-dru-duv-a÷
+3.03.024 Óri-ïÅ-bhuv-a÷=anyatara-syÃm
+3.03.025 v-au k«u-sruv-a÷
+3.03.026 ava=ud-or niy-a÷
+3.03.027 pr-e dru-stu-sruv-a÷
+3.03.028 nis=abhy-o÷ pÆ-lv-o÷
+3.03.029 ud=ny-or gr-a÷
+3.03.030 kÌ dhÃny-e
+3.03.031 yaj¤-e sam-i stuv-a÷
+3.03.032 pr-e str-a÷=a-yaj¤-e
+3.03.033 prathan-e v-au=a-Óabd-e
+3.03.034 chando-nÃmn-i ca
+3.03.035 ud-i grah-a÷
+3.03.036 sam-i mu«Â-au
+3.03.037 pari-ny-or nÅ-i×-or dyÆta-abhre«a-yo÷
+3.03.038 par-au=an-upa=atyay-e=i×-a÷
+3.03.039 vi=upay-o÷ Óete-÷ pary-Ãy-e
+3.03.040 hasta=Ã-dÃn-e ce-r a-stey-e
+3.03.041 nivÃsa-citi-ÓarÅra-upa-sam-Ã-dhÃne-«u Ãdes=ca ka-÷
+3.03.042 saægh-e ca=an-auttarÃdhary-e
+3.03.043 karma-vy-ati-hÃr-e ×aC striy-Ãm
+3.03.044 abhi-vidh-au bhÃv-e=inu×
+3.03.045 Ã-kroÓ-e=ava-ny-or grah-a÷
+3.03.046 pr-e lipsÃ-yÃm
+3.03.047 par-au yaj¤-e
+3.03.048 n-au v­ dhÃny-e
+3.03.049 ud-i Óray-a-ti-yau-ti-pÆ-druv-a÷
+3.03.050 vibhÃ«Ã=Ã§-i ru-pluv-o÷
+3.03.051 av-e grah-a÷=var«a-prati-bandh-e
+3.03.052 pr-e vaïij-Ãm
+3.03.053 raÓm-au ca
+3.03.054 v­-ïo-te-r Ã-cchÃdan-e
+3.03.055 par-au bhuv-a÷=ava-j¤Ãn-e
+3.03.056 e-r aC
+3.03.057 Ìd-o-r aP
+3.03.058 grahş-v­-d­-nis=ci-gam-a÷=ca
+3.03.059 upasarg-e ad-a÷
+3.03.060 n-au ×a ca
+3.03.061 vyadhş-jap-or an-upasarg-e
+3.03.062 svanş-has-or vÃ
+3.03.063 yam-a÷ sam-upa-ni-vi-«u
+3.03.064 n-au gadş-nadş-paÂhş-svan-a÷
+3.03.065 kvaï-a÷=vÅïÃ-yÃæ=ca
+3.03.066 nityam paï-a÷ pari-mÃï-e
+3.03.067 mad-a÷=an=upasarg-e
+3.03.068 pra-mad-a-sam-mad-au har«-e
+3.03.069 sam-ud-or aj-a÷ paÓu-«u
+3.03.070 ak«e-«u glah-a÷
+3.03.071 pra-jan-e sar-te-÷
+3.03.072 hv-a÷ sam-pra-sÃraïaæ ca ni=abhi=upa-vi-«u
+3.03.073 Ã§-i yuddh-e
+3.03.074 ni-pÃn-am Ã-hÃv-a-÷
+3.03.075 bhÃv-e=an-upa-sarga-sya
+3.03.076 han-as=ca vadh-a-÷
+3.03.077 mÆrt-au ghana-÷
+3.03.078 antar-ghan-a-÷=deÓ-e
+3.03.079 agÃra=eka-deÓ-e pra-ghaï-a=pra-ghÃï-au ca
+3.03.080 ud-ghan-a-÷ aty-Ã-dhÃna-m
+3.03.081 apa-ghan-a-÷=a­ga-m
+3.03.082 karaï-e ayas=vi-dru-«u
+3.03.083 stamb-e Ka ca
+3.03.084 par-au gha-÷
+3.03.085 upa-ghn-a-÷ Ã-Óray-e
+3.03.086 saæ-gh-a=ud-gh-au gaïa-pra-Óaæsay-o÷
+3.03.087 ni-gh-a-÷=niimita-m
+3.03.088 ÖU=IT=a÷=Ktri-÷
+3.03.089 èU-IT-a÷=athuC
+3.03.090 yajA-yÃca-yata-vichş-prachş-rak«-a÷=na§
+3.03.091 svap-a÷=naN
+3.03.092 upa-sarg-e GHO-÷ Ki-÷
+3.03.093 karmaï-i=adhi-karaï-e ca
+3.03.094 striy-Ãm KtiN
+3.03.095 sthÃ-gÃ-pÃ-pac-Ãm bhÃv-e
+3.03.096 mantr-e v­«a=i«A-pacA-manA-vidş-bhÆ-vÅ-rÃ-÷ udÃtta-÷
+3.03.097 Æ-ti-yÆ-ti-jÆ-ti-sÃ-ti-he-ti-kÅr-tay-as=ca
+3.03.098 vrajş-yaj-or bhÃv-e KyaP
+3.03.099 saæj¤Ã-yÃm sam-ajş-ni-«ada-ni-pata-manA-vidş-«u¥-ÓÅ§-bh­¥=i×-a÷
+3.03.100 k­¥-a÷ Áa ca
+3.03.101 icch-Ã
+3.03.102 a praty-ay-Ãt
+3.03.103 guro-s=ca haL-a÷
+3.03.104 å-IT=bhid-Ã=Ãdi-bhya÷=a§
+3.03.105 cint-i-pÆj-i-kath-i-kumb-i-carc-as=ca
+3.03.106 ÃT=as=ca=upa-sarg-e
+3.03.107 ×i=ÃsA-sranth-a÷=yuC
+3.03.108 roga=ÃkhyÃ-yÃæ ×vuL bahulam
+3.03.109 saæj¤Ã-yÃm
+3.03.110 vibhÃ«Ã=ÃkhyÃna-pari-praÓna-yor i¥ ca
+3.03.111 pary-Ãya=arha=­ïa=ut-patti-«u ×vuC
+3.03.112 Ã-kroÓ-e na¥-i=ani-÷
+3.03.113 k­tya-LyuÂ-a÷=bahulam
+3.03.114 napuæsak-e bhÃv-e Kta-÷
+3.03.115 Lyuè ca
+3.03.116 karmaï-i ca y-ena saæ-spraÓ-Ãt kart-u÷ ÓarÅra-sukha-m
+3.03.117 karaïa-adhi-karaïay-os=ca
+3.03.118 puæs-i saæj¤Ã-yÃm GHa-÷ prÃy-eïa
+3.03.119 go-cara-saæ-cara-vaha-vraja=vyaj-a=Ã-paï-a-ni-gamÃs=ca
+3.03.120 av-e tÌ-str-or GHa¥
+3.03.121 haL-as=ca
+3.03.122 adhy-Ãy-a-ny-Ãy-a-ud-yÃv-a-saæ-hÃr-a=Ã-dhÃr-a=Ã-vayÃs=ca
+3.03.123 ud-a­k-a-÷=an-udak-e
+3.03.124 jÃl-am Ã-nÃy-a-÷
+3.03.125 khan-a÷=GHa ca
+3.03.126 Å«ad-dus-su-«u k­cchra=ak­cchra=arthe«u KHaL
+3.03.127 kart­-karmaï-os=ca bhÆ-k­¥-o÷
+3.03.128 ÃT-a÷=yuC
+3.03.129 chandas-i gaty-arthe-bhya÷
+3.03.130 anye-bhya÷=api d­Ó-ya-te
+3.03.131 vartamÃna-sÃmÅpy-e vartamÃna-at=vÃ
+3.03.132 Ã-ÓaæsÃ-yÃm bhÆta-vat=ca
+3.03.133 k«ipra-vacan-e lãè
+3.03.134 Ã-ÓaæsÃ-vacan-e lI§
+3.03.135 na=an-adya-tana-vat kriyÃ-prabandha-sÃmÅpyay-o÷
+3.03.136 bhav-i-«yat-i maryÃdÃ-acan-e=avara-smin
+3.03.137 kÃla-vi-bhÃg-e ca=an-aho-rÃtrÃ-ïÃm
+3.03.138 para-smin vibhÃ«Ã
+3.03.139 lI§-nimitt-e lã§ kriyÃ=ati-patt-au
+3.03.140 bhÆt-e ca
+3.03.141 vÃ=Ã=uta=apy-o÷
+3.03.142 garhÃ-yÃm lAè=api-jÃtv-o÷
+3.03.143 vibhÃ«Ã katham-i lI§ ca
+3.03.144 kiæ-v­tt-e lI§-lãè-au
+3.03.145 an-ava-kÊpti=a-mar«ay-or a-kiæ-v­tt-e=api
+3.03.146 kiæ=kila=asti=arthe-«u lãè
+3.03.147 jÃtu-yad-or lI§
+3.03.148 yat=ca-yatray-o÷
+3.03.149 garhÃ-yÃæ ca
+3.03.150 citrÅ-karaï-e ca
+3.03.151 Óe«-e lãè=a-yad-au
+3.03.152 uta-apy-o÷ sam-arthay-o÷=lI§
+3.03.153 kÃma-pra-vedan-e=a-kaccit-i
+3.03.154 sam-bhavÃn-e=alam iti cet siddha=a-prayog-e
+3.03.155 vibhÃ«Ã dhÃt-au sam-bhÃvana-acan-e=a-yadi
+3.03.156 hetu-hetu-mat-or lI§
+3.03.157 icchÃ=arthe-«u lI§-lOè-au
+3.03.158 samÃna-kart­ke-«u tumuN
+3.03.159 lI§ ca
+3.03.160 icchÃ-arthe-bhya÷=vibhÃ«Ã vart-a-m-Ãn-e
+3.03.161 vidhi-ni-mantr-aïa-Ã-mantr-aïa=adhi=i«Âa-sam-praÓ-na-pra=arth-ane-«u lI§
+3.03.162 lOè ca
+3.03.163 prai«a=ati-sarga-prÃpta-kÃle-«u k­tyÃs=ca
+3.03.164 lI§ ca=Ærdhva-mauhurtik-e
+3.03.165 sm-e lOè
+3.03.166 adhÅ«Â-e ca
+3.03.167 kÃla-samaya-velÃ-su tumuN
+3.03.168 lI§ yad-i
+3.03.169 arh-e k­tya-t­C-as=ca
+3.03.170 ÃvaÓyaka=Ãdhamarïyay-o÷=×ini-÷
+3.03.171 k­tyÃs=ca
+3.03.172 Óak-i lI§ ca
+3.03.173 ÃÓi«-i lI§-lOè-au
+3.03.174 KtiC=Kt-au ca saæj¤Ã-yÃm
+3.03.175 mÃ§-i lU§
+3.03.176 sma=uttar-e lA§ ca
+3.04.001 dhÃtu-sam-bandh-e praty-ayÃ÷
+3.04.002 kriyÃ-sam-abhi-hÃr-e lOè, lOè-a÷=hi-sv-au vÃ ca ta-dhvam-o÷
+3.04.003 sam-uc-cay-e=anya-tara-syÃm
+3.04.004 yathÃ-vidhi=anu-pra-yog-a-÷ pÆrva-smin
+3.04.005 sam=ut=cay-e sÃmÃnya-vacana-sya
+3.04.006 chandas-i lU§-lA§-lIè-a÷
+3.04.007 lI§=arth-e lEè
+3.04.008 upa-saæ-vÃda=Ã-Óa­kay-os=ca
+3.04.009 tum=arth-e se-seN-ase=aseN-Kse-KaseN+adhyai=adhyaiN-Kadhyai-KadhyaiN-Áadhyai-ÁadhyaiN-tavai-tave§-taveN-a÷
+3.04.010 prayai rohi«yai a-vyathi«yai
+3.04.011 d­Óe vikhye ca
+3.04.012 Óak-i ×amuL-KamuL-au
+3.04.013 ÅÓvar-e tosuN-KasuN-au
+3.04.014 k­tya=arth-e tavai-Ken-Kenya-tvaN-a÷
+3.04.015 ava-cak«-e ca
+3.04.016 bhÃva-laksaï-e sthÃ=i×-k­-vadi-cari-hu-tami-jani-bhyas tosuN
+3.04.017 s­pi-t­d-o÷ KasuN
+3.04.018 alam=khalv-o÷ prati-«edhay-o÷ prÃcÃm KtvÃ
+3.04.019 udÅc-Ãm mÃ§-a÷=vy-atÅhÃr-e
+3.04.020 para=avara-yog-e ca
+3.04.021 samÃna-kart­kay-o÷ pÆrva-kÃl-e
+3.04.022 ÃbhÅk«ïy-e ×amuL ca
+3.04.023 na yad-i=an-Ã-kÃ­k«-e
+3.04.024 vibhÃ«Ã=agr-e=prathama-pÆrve-«u
+3.04.025 karmaï-i=Ã-kroÓ-e k­¥-a÷ KHamu¥
+3.04.026 svÃdum-i ×amuL
+3.04.027 anyathÃ=evam=katham=ittham-su siddha=a=rayoga-s=cet
+3.04.028 yathÃ-tathay-or asÆyÃ-prati-vacan-e
+3.04.029 karman-i d­Ói-vid-o÷ sÃkaly-e
+3.04.030 yÃ-vat-i vinda-jÅv-o÷
+3.04.031 carma(n)=udaray-o÷ pÆr-e-÷
+3.04.032 var«a-pra-mÃï-e=Æ-lpa-s=ca=sya=nyatarÃsyam
+3.04.033 cel-e knop-e-÷
+3.04.034 ni-mÆla-sa-mÆlay-o÷ ka«-a÷
+3.04.035 Óu«-ka-cÆrïa-rÆk«e-«u pi«-a÷
+3.04.036 sa-mÆla=a-k­ta-jÅve-«u han-k­¥-grah-÷
+3.04.037 kar-aï-e han-a÷
+3.04.038 sneh-an-e pi«-a÷
+3.04.039 hast-e vart-i-grah-o÷
+3.04.040 sv-e pu«-a÷
+3.04.041 adhi-kar-aï-e bandh-a÷
+3.04.042 saæj¤Ã-yÃm
+3.04.043 kartr-or jÅva-puru«ay-or naÓi-vah-o÷
+3.04.044 Ærdhv-e Óu«i-pÆr-o÷
+3.04.045 upa-mÃn-e karmaï-i ca
+3.04.046 ka«-Ãdi-«u yathÃ-vidhi=nu-pra-yoga-÷
+3.04.047 upa-daæÓ-as t­tÅyÃ-yÃm
+3.04.048 hiæsÃ=arthÃnÃæ ca sa-mÃna-art­kÃ-ïÃm
+3.04.049 saptamy-Ãm ca=upa-pÅ¬A-rudha-kar«-a÷
+3.04.050 sam-Ã-satt-au
+3.04.051 pra-mÃï-e ca
+3.04.052 apa=Ã-dÃn-e parÅpsÃ-yÃm
+3.04.053 dvitÅyÃ-yÃæ ca
+3.04.054 sva=a­g-e=a-dhruv-e
+3.04.055 pari-kliÓ-ya-m-Ãn-e ca
+3.04.056 viÓi-pati-padi-skand-Ãæ vy-Ãp-ya-m-Ãna-Ã-sev-ya-m-Ãnay-o÷
+3.04.057 as-ya-ti-t­«-a÷ kriyÃ=antar-e kÃle-«u
+3.04.058 nÃmn-i=Ã-diÓi-grah-o÷
+3.04.059 avyay-e=a-yathÃbhipreta=ÃkhyÃn-e k­¥-a÷ KtvÃ-×amuL-au
+3.04.060 tiryac-i=apa-varg-e
+3.04.061 sva=a­g-e tas-pratyay-e k­-bhv-o÷
+3.04.062 nÃ-dhÃ-artha-pratyay-e Cvi=arth-e
+3.04.063 tÆ«ïÅm-i bhuv-a÷
+3.04.064 anv-ac-i Ãnu-lomy-e
+3.04.065 Óaka-dh­«ş-j¤Ã-glÃghaÂA-rabhA-labhA-krama-sahA-arhş-asti=arthe-«u tumuN
+3.04.066 pary-Ãp-ti-vacane-«u=alam-arthe-«u
+3.04.067 kartar-i k­t
+3.04.068 bhav-ya-ge-ya-pra-vac-anÅya=upa-sthÃn-Åya-jan-ya=ÃplÃv-ya=Ã-pÃt-yÃ vÃ
+3.04.069 l-a÷ karmaï-i ca bhÃv-e ca=a-karmake-bhya÷
+3.04.070 tay-or eva k­tya-Kta-KHaL-arthÃ÷
+3.04.071 adi-karmaï-i Kta-÷ kartar-i ca
+3.04.072 gaty=arthaa-karma-ka=Óli«ş-ÓÅ§=shthÃ=ÃsA-vasş-jana-ruhş-jÅr-ya-ti-bhya÷
+3.04.073 dÃÓa-goghn-au sam-pra-dÃ-e
+3.04.075 tÃ-bhyÃm anya-tra=u×=Ãday-a÷
+3.04.076 Kta-÷=adhi-kar-aï-e ca dhrauvya-gati-prati=ava-sÃna=rthe-bhya÷
+3.04.077 la-sya
+3.04.078 tiP-tas-jhi=siP-thas-tha=miP-vas-mas=ta=ÃtÃm=jha=thÃs-ÃthÃm-dhvam=iè-vahi-mahi§
+3.04.079 è-IT-a÷=ÃtmanepadÃ-nÃm èE-r e
+3.04.080 thÃ-a÷=se
+3.04.081 lIè-as ta-jhay-or eÁ-ireC
+3.04.082 parsmaipadÃ-nÃm ×aL-atus-us-thaL-athus-a-×aL-va-mÃ÷
+3.04.083 vid-a÷=lAè-a÷=vÃ
+3.04.084 bruv-a÷ pa¤cÃ-nÃm Ãdi-ta÷=Ãha-÷=bruv-a÷
+3.04.085 lOè-a÷=lA§-vat
+3.04.086 e-r u-÷
+3.04.087 se-r hi=a-P-IT=ca
+3.04.088 vÃ chandas-i
+3.04.089 me-r ni-÷
+3.04.090 Ãm eT-a÷
+3.04.091 sa-vÃ-bhyÃm va=am-au
+3.04.092 Ãè=uttama-sya P-IT=ca
+3.04.093 eT-a÷=ai
+3.04.094 lEè-a÷ aè-Ãè-au
+3.04.095 ÃT-a÷=ai
+3.04.096 vÃ=eT-a÷=anya-tra
+3.04.097 iT-as=ca lopa-÷ parasmaipade-«u
+3.04.098 s-a÷=uttama-sya
+3.04.099 nityaæ §-IT-a÷
+3.04.100 iT-as=ca
+3.04.101 tas-thas-tha-miP-Ãm tÃm-tam-ta=am-a÷
+3.04.102 lI§-a÷ sÅyuè
+3.04.103 yÃsuè parasipade-«u=dÃtta-÷=§-IT=ca
+3.04.104 K-IT=ÃÓi«-i
+3.04.105 jha-sya raN
+3.04.106 iè-a÷=aT
+3.04.107 suè ti-th-o÷
+3.04.108 jhe-r Jus
+3.04.109 sÅC=abhyasta-vidi-bhyas=ca
+3.04.110 ÃT-a÷
+3.04.111 lA§-a÷ ÓÃkaÂÃyana-sya=eva
+3.04.112 dvi«-as=ca
+3.04.113 ti§-Á-IT sÃrvadhÃtukam
+3.04.114 ÃrdhadhÃtuka-m Óe«a-÷
+3.04.115 lIè ca
+3.04.116 lI§ ÃÓi«-i
+
+4.01.001 NÅ-ÃP-prÃtipadik-Ãt
+4.01.002 sU=au-Jas=am-auè=Áas=èÃ-bhyÃm-bhis=§e-bhyÃm-bhyas=§asI-bhyÃm-bhyas-§as-os-Ãm=§i-os-suP
+4.01.003 striy-Ãm
+4.01.004 aja=Ãdi=aTas=èÃP
+4.01.005 ­T=ne-bhya÷=§ÅP
+4.01.006 uK=IT-as=ca
+4.01.007 van-a÷=ra ca
+4.01.008 pÃd-a÷=anya-tara-syÃm
+4.01.009 èÃP=­c-i
+4.01.010 na «aÂ-svas­=Ãdi-bhya÷
+4.01.011 man-a÷
+4.01.012 an-a÷=bahuvrÅhe-÷
+4.01.013 ÖÃP=ubhÃ-bhyÃm anya-tara-syÃm
+4.01.014 an-upa-sarjan-Ãt
+4.01.015 è-IT=¬ha=a×= a¥=dvayasaC=daghnaC-mÃtraC=tayaP--Âha¥-ka¥-KvaraP-a÷
+4.01.016 ya¥=as=ca
+4.01.017 prÃc-Ãm åpha taddhita-÷
+4.01.018 sarvatra lohita=Ãdi=kata=ante-bhya÷
+4.01.019 kauravya-mÃï¬ÆkÃ-bhyÃæ ca
+4.01.020 vayas-i pratham-e
+4.01.021 dvigo-÷
+4.01.022 a-pari-mÃïa-bista=Ã-cita-kambalye-bhya-÷ na taddhita-luK-i
+4.01.023 kÃï¬a=ant-Ãt k«etr-e
+4.01.024 puru«-Ãt pra-mÃï-e=anya-tara-syÃm
+4.01.025 bahuvrÅhe-r Ædhas-a÷=§Åå
+4.01.026 saækhyÃ=avyaya=Ãd e-r §ÅP
+4.01.027 dÃma(n)=hÃyana=ant-Ãt=ca
+4.01.028 an-a÷=upadhÃ-opin-a÷=nya-ara-yÃm
+4.01.029 nityam saæj¤Ã-chandas-o÷
+4.01.030 kevala-mÃmaka-bhÃga-dheya-pÃpa=apara-samÃna=Ãrya-k­ta-su-ma­gala-bhe«aj-Ãt=ca
+4.01.031 rÃtre-s=ca a-Jas-au
+4.01.032 antar-vat-pativat-or nuK
+4.01.033 patyu-r na-÷=yaj¤a-saæ-yog-e
+4.01.034 vibhÃ«Ã sa-pÆrva-sya
+4.01.035 nitya-æ sa-patnÅ=Ãdi-«u
+4.01.036 pÆta-krato-r ai ca
+4.01.037 v­«Ã-kapi=agni-kusita-kusÅdÃ-nÃm udÃtta-÷
+4.01.038 manor au vÃ
+4.01.039 varï-Ãt=anudÃtt-Ãt ta=upadh-Ãt t-a÷ na-÷
+4.01.040 anya-ta÷=§Åå
+4.01.041 å-IT=gaura=Ãdi-bhya÷
+4.01.042 jÃnapada-kuï¬a-goïa-sthala-bhÃja-nÃga-kÃla-nÅla-kuÓa-kÃmuka-kabar-Ãt v­tti=amatra=Ã-vapana=a-k­trimÃ-ÓrÃïÃ-sthaulya-varïa=an-Ã-cchÃdana=ayo-vikÃra-maithuna=icchÃ-keÓa-veÓe-«u
+4.01.043 Óoï-Ãt prÃ-Ãm
+4.01.044 vÃ=uT-a÷=guïa-vacan-Ãt
+4.01.045 bahu=Ãdi-bhyas=ca
+4.01.046 nitya-æ chandas-i
+4.01.047 bhuv-as=ca
+4.01.048 puæ-yog-Ãt=ÃkhyÃ-yÃm
+4.01.049 indra-varuïa-bhava-Óarva-rudra-m­¬a-hima=araïya-yava-yavana-mÃtula-ÃcÃryÃ-ïÃm ÃnuK
+4.01.050 krÅ-t-Ãt karaïa-pÆrv-Ãt
+4.01.051 Kt-Ãt alpa=ÃkhyÃ-yÃm
+4.01.052 bahuvrÅhe-s=ca=anta=udÃtt-Ãt
+4.01.053 a-svÃ­ga-pÆrva-pad-Ãt=vÃ
+4.01.054 svÃ­g-Ãt=ca=upa-sarj-an-Ãt=a-aæyoga=padh-Ãt
+4.01.055 nÃsikÃ=udara=o«Âha-ja­ghÃ-danta-karïa-Ó­­g-Ãt=ca
+4.01.056 na kro¬a=Ãdi-bahv-aC-a÷
+4.01.057 saha-na¥-vid-ya-m-Ãna-pÆrv-Ãt
+4.01.058 nakha-mukh-Ãt saæj¤Ã-yÃm
+4.01.059 dÅrgha-jihv-Å ca=chandas-i
+4.01.060 dik-pÆrva-pad-Ãt §ÅP
+4.01.061 vÃh-a÷
+4.01.062 sakhÅ=a-ÓiÓv-Å=iti bhÃ«Ã-yÃm
+4.01.063 jÃte-r a-strÅ-vi«ay-Ãt=a-ya=upadh-Ãt
+4.01.064 pÃka-karïa-parïa-pu«pa-phala-mÆla-vÃla=uttara-pad-Ãt=ca
+4.01.065 iT-a÷=manu«ya-jÃte-÷
+4.01.066 Æ§ uT-a÷
+4.01.067 bÃhu=ant-Ãt saæj¤Ã-yÃm
+4.01.068 pa­go-s=ca
+4.01.069 Æru-uttara-pad-Ãt=aupamy-e
+4.01.070 saæ-hita-Óapha-lak«aïa-vÃma=Ãde-s=ca
+4.01.071 kadru-kamaï¬alv-os=chandas-i
+4.01.072 saæj¤Ã-yÃm
+4.01.073 ÓÃr­garava=Ãdi=a¥-a÷=§ÅN
+4.01.074 ya§-as=CÃP
+4.01.075 ÃvaÂy-Ãt=ca
+4.01.076 taddhit-Ã÷
+4.01.077 yÆn-as ti-h
+4.01.078 a×-i¥-or an-Ãr«ay-or guru=pottamay-os=åya§ gotr-e
+4.01.079 gotra=avayav-Ãt
+4.01.080 krau¬i=Ãdi-bhyas=ca
+4.01.081 daiva-yaj¤i-Óauci-v­k«i-sÃtya-m-ugri-kÃïÂhe-viddhi-bhya÷=nya-tara-syÃm
+4.01.082 samarthÃ-nÃm pratham-Ãt=vÃ
+4.01.083 prÃg dÅvyat-a÷=a×
+4.01.084 aÓva-pati=Ãdi-bhyas=ca
+4.01.085 diti=aditi-Ãditya-pati=uttara-pad-Ãt ×ya-÷
+4.01.086 utsa-Ãdi-bhya÷=a¥
+4.01.087 strÅ-puæsÃ-bhyÃm na¥-sna¥-au bhavan-Ãt
+4.01.088 dvigo-r luK=an-apaty-e
+4.01.089 gotr-e=a-luK=aC-i
+4.01.090 yÆn-i luK
+4.01.091 phaK-phi¥-or anya-tara-syÃm
+4.01.092 ta-sya=apatya-m
+4.01.093 eka-÷=gotr-e
+4.01.094 gotr-Ãt=yÆn-i=a-striy-Ãm
+4.01.095 aT-a÷=i¥
+4.01.096 bÃhu=Ãdi-bhyas=ca
+4.01.097 su-dhÃtu-r aka§ ca
+4.01.098 gotr-e ku¤ja=Ãdi-bhyas=Cpha¥
+4.01.099 na¬a=Ãdi-bhya÷ phaK
+4.01.100 harita=Ãdibhya÷=a¥-a÷
+4.01.101 ya¥=i¥-os=ca
+4.01.102 Óarad-vat-Óunaka-darbh-Ãt bh­gu-vatsa=ÃgrÃyaïe-«u
+4.01.103 droïa-parvata-jÅvant-Ãt=nya-ara-yÃm
+4.01.104 an-­«i=Ãnantary-e bida=Ãdibhya÷=a¥
+4.01.105 garga=Ãdibhya÷=ya¥
+4.01.106 madhu-babhrv-or brÃhmaïa-kauÓike-«u
+4.01.107 kapi-bodh-Ãt=Ã­giras-e
+4.01.108 vataï¬-Ãt=ca
+4.01.109 luK striy-Ãm
+4.01.110 aÓva=Ãdibhya÷ phaK
+4.01.111 bharg-Ãt traigart-e
+4.01.112 Óiva=Ãdibhya÷=a×
+4.01.113 a-v­ddhÃ-bhya÷=nadÅ-mÃnu«Å-hya÷=an-ÃmikÃ-hya÷
+4.01.114 ­«i=andhaka-v­«ïi-kuru-bhyas=ca
+4.01.115 mÃtu-r uT saækhyÃ-sam=bhadra-pÆrvÃ-yÃ÷
+4.01.116 kanyÃ-yÃ÷ kanÅna ca
+4.01.117 vikarïa-Óu­ga-chagal-Ãt vatsa-bharadvÃja=atri-«u
+4.01.118 pÅlÃ-yÃ÷=vÃ
+4.01.119 ¬haK ca maï¬Æk-Ãt
+4.01.120 strÅ-bhya÷=¬haK
+4.01.121 dvy-aC-a÷
+4.01.122 iT=as=ca=an-i¥=a÷
+4.01.123 Óubhra=Ãdi-bhyas=ca
+4.01.124 vikarïa-kuÓÅtak-Ãt kÃÓyap-e
+4.01.125 bhruv-a÷=vuK ca
+4.01.126 kalyÃïÅ=ÃdÅ-nÃm ina§
+4.01.127 kulaÂÃ-yÃ÷=vÃ
+4.01.128 caÂakÃyÃ÷=airaK
+4.01.129 godhÃ-yÃ÷=¬hraK
+4.01.130 ÃraK udÅc-Ãm
+4.01.131 k«udrÃ-bhya÷=vÃ
+4.01.132 pit­-«va-us=cha×
+4.01.133 ¬haK-i lopa-÷
+4.01.134 mÃt­-«vas-us=ca
+4.01.135 catu«-pÃd-bhya÷=¬ha¥
+4.01.136 g­«Âi=Ãdi-bhyas=ca
+4.01.137 rÃja(n)-Óvasur-Ãt=yaT
+4.01.138 k«atr-Ãt gha-÷
+4.01.139 kul-Ãt kha-÷
+4.01.140 a-pÆrva-pad-Ãt=anya-tara-syÃm yşt=¬haka¥-au
+4.01.141 mahÃ-kul-Ãt=a¥-kha¥-au
+4.01.142 du«-kul-Ãt ¬haK
+4.01.143 svas-us=cha-÷
+4.01.144 bhrÃt-ur vyaT=ca
+4.01.145 vyaN sapatn-e
+4.01.146 revatÅ=Ãdi-bhya÷=ÂhaK
+4.01.147 gotra-striy-Ã÷ kutsan-e ×a ca
+4.01.148 v­ddh-Ãt=ÂhaK sauvÅre-«u bahulam
+4.01.149 phe-s=cha ca
+4.01.150 phÃïÂÃh­ti-mimatÃ-bhyÃm ×a-phi¥-au
+4.01.151 kuru=Ãdi-bhya÷=×ya-÷
+4.01.152 senÃ=anta-lak«aïa-kÃri-bhyas=ca
+4.01.153 udÅc-Ãm i¥
+4.01.154 tika=Ãdi-bhya÷ phi¥
+4.01.155 kausalya-kÃrmÃryÃ-bhyÃæ ca
+4.01.156 a×-a÷=dvy-aC-a÷
+4.01.157 udÅc-Ãm v­ddh-Ãt=a-gotr-Ãt
+4.01.158 vÃkina=ÃdÅ-nÃm kuK ca
+4.01.159 putra=ant-Ãt=anya-tara-syÃm
+4.01.160 prÃc-Ãm a-v­ddh-Ãt phiN bahulam
+4.01.161 mano-r jÃt-au a¥-yaT-au «uK ca
+4.01.162 apatyam pautra-prabh­ti gotram
+4.01.163 jÅvat-i tu vaæÓy-e yuvÃ
+4.01.164 bhrÃtar-i ca jyÃyas-i
+4.01.165 vÃ=anya-smin sa-piï¬-e sthavira-tare jÅvat-i
+4.01.166 v­ddha-sya ca pÆjÃ-yÃm
+4.01.167 yÆn-as=ca kutsÃ-yÃm
+4.01.168 jana-pada-Óabd-Ãt k«atriy-Ãt=a¥
+4.01.169 sÃlveya-gÃndhÃri-bhyÃæ ca
+4.01.170 dvi=aC-magadha-kali­ga-sÆramas-Ãt=a×
+4.01.171 v­ddha=iT-kosala=ajÃd-Ãt=¥ya§
+4.01.172 kuru-n-Ãdi-bhya÷=×ya-÷
+4.01.173 sÃlva=avayava-pratyagratha-kalakÆÂa=aÓmak-Ãt=i¥
+4.01.174 te tad-rÃj-Ã÷
+4.01.175 kamboj-Ãt=luK
+4.01.176 striy-Ãm avanti-kunti-kuru-bhyas=ca
+4.01.177 aT-as=ca
+4.01.178 na prÃcya-bharga=Ãdi-yaudheya-Ãdi-hyas=a
+4.02.001 t-ena ra-kt-aæ rÃg-Ãt
+4.02.002 lÃk«Ã-rocanÃ-(Óakala-kardam-)Ãt ÂhaK
+4.02.003 nak«atr-eïa yuk-ta-÷ kÃla-÷
+4.02.004 luP=a-viÓe«-e
+4.02.005 saæj¤Ã-yÃm Óravaïa-aÓvatthÃ-bhyÃm
+4.02.006 dvaædv-Ãt=cha-÷
+4.02.007 d­«-Âa-æ sÃma
+4.02.008 kale-r ¬haK
+4.02.009 vÃmadev-Ãt=ÖyaT=Öy-au
+4.02.010 pari-v­-ta-÷=ratha-÷
+4.02.011 pÃï¬u-kambalÃt=ini-÷
+4.02.012 dvaipa-vaiyÃghr-Ãt=a¥
+4.02.013 kaumÃr-a=a-pÆrva-vacan-e
+4.02.014 ta-tra=ud-dh­-ta-m amatre-bhya÷
+4.02.015 sthaï¬il-Ãt Óayitar-i vrat-e
+4.02.016 saæ-s-k­-ta-m bhak«-Ã÷
+4.02.017 ÓÆla=ukh-Ãt=yaT
+4.02.018 dadhn-a÷=ÂhaK
+4.02.019 udaÓvit-a÷=anya-tara-syÃm
+4.02.020 k«År-Ãt=¬ha¥
+4.02.021 sÃ=a-smin paurïamÃsÅ=iti (saæj¤Ã-yÃm)
+4.02.022 ÃgrahÃyaïÅ=aÓvatth-Ãt=ÂhaK
+4.02.023 vibhÃ«Ã phÃlgunÅ-sravaïÃ-kÃrttikÅ-caitrÅ-bhya÷
+4.02.024 sÃ=a-sya deva-tÃ
+4.02.025 ka-sya iT
+4.02.026 Óukr-Ãt=ghaN
+4.02.027 apo-napt­=apÃæ-napt­-bhyÃæ gha-÷
+4.02.028 cha ca
+4.02.029 mahendr-Ãt=gha=a×-au ca
+4.02.030 som-Ãt=èya×
+4.02.031 vÃyu=­tu-pit­=u«as-a÷=yaT
+4.02.032 dyÃvÃ-p­thivÅ-ÓunÃsÅra-marutvat=agnÅ-«oma-vÃsto«-pati-g­ha-medh-Ãt=cha ca
+4.02.033 agne-r ¬haK
+4.02.034 kÃle-bhya÷=bhava-vat
+4.02.035 mahÃ-rÃja-pro«Âha-pad-Ãt=Âha¥
+4.02.036 pit­vya-mÃtula-mÃtÃmaha-pitÃmah-Ã÷
+4.02.037 ta-sya sam-Æha-÷
+4.02.038 bhik«Ã=Ãdi-bhya÷=a×
+4.02.039 gotra=uk«a(n)=u«Âra=urabhra-rÃjan-rÃjanya-rÃja-putra-vatsa-manu«ya=aj-Ãt=vu¥
+4.02.040 kedÃr-Ãt=ya¥=ca
+4.02.041 Âha¥ kavacin-as=ca
+4.02.042 brÃhmaïa-mÃïava-vÃ¬av-Ãt=yaN
+4.02.043 grÃma-jana-bandhu-sahÃye-bhyas=taL
+4.02.044 an-udÃtt-Ãde-r a¥
+4.02.045 khaï¬ika=Ãdi-bhyas=ca
+4.02.046 caraïe-bhya÷=dharma-vat
+4.02.047 a-citta-hasti(n)-dheno-s=ÂhaK
+4.02.048 keÓa=aÓvÃ-bhyÃæ ya¥=ch-au=anya-tara-syÃm
+4.02.049 pÃÓa=Ãdi-bhya÷=ya-÷
+4.02.050 khala-go-rath-Ãt
+4.02.051 ini-tra-kaÂyaC-as=ca
+4.02.052 vi«aya-÷=deÓ-e
+4.02.053 rÃjanya=Ãdi-bhya÷=vu¥
+4.02.054 bhauriki=Ãdi-ai«ukÃri=Ãdi-bhya÷ vidhaL=bhaktaL-au
+4.02.055 sa-÷=a-sya=Ãdi-r iti=chandas-a÷ pragÃthe-«u
+4.02.056 saæ-grÃm-e pra-yoj-ana-yod-dh­-bhya÷
+4.02.057 tad a-syÃm pra-har-aïa-m iti krÅ¬Ã-yÃm ×a-÷
+4.02.058 GHa¥-a÷ sÃ=a-syÃm kriyÃ=iti ¥a-÷
+4.02.059 tad adhÅte tad veda
+4.02.060 kratu=uktha=Ãdi-sÆtra=nt-Ãt=ÂhaK
+4.02.061 krama=Ãdi-bhya÷=vuN
+4.02.062 anu-brÃhmaï-Ãt=inÅ-÷
+4.02.063 vasanta=Ãdi-bhya÷=ÂhaK
+4.02.064 proktÃt=luK
+4.02.065 sÆtr-Ãt=ca ka=upadh-Ãt
+4.02.066 chandas=brÃhmaïÃ-n-i ca tad-vi«ayÃ-ïi
+4.02.067 tad a-smin as-ti=iti deÓ-e tan-nÃmn-i
+4.02.068 t-ena nir-v­t-ta-m
+4.02.069 ta-sya ni-vÃs-a-÷
+4.02.070 a-dÆra-bhava-s=ca
+4.02.071 o-r a¥
+4.02.072 matO-s=ca bahu=aC=a­g-Ãt
+4.02.073 bahu=aC-a÷ kÆpe-«u
+4.02.074 udak ca vipÃÓ-a÷
+4.02.075 saæ-kala=Ãdi-bhyas=ca
+4.02.076 strÅ«u sauvÅra-sÃlva-prÃk-«u
+4.02.077 suvÃstu=Ãdi-bhya÷=a×
+4.02.078 roïÅ
+4.02.079 kA=upadh-Ãt=ca
+4.02.080 vu¥-cha×-ka-ÂhaC=ila-sa-ini-ra-¬ha¥-×ya-ya-phaK-phi¥-i¥-¥ya-kaK-ÂhaK-a÷ arÅhaïa-k­ÓÃÓva=­Óya-kumuda-kÃÓa-t­ïa-prek«Ã-aÓma(n)-sakhi-saæ-kÃÓa-bala-pak«a-karïa-sutaæ-gama-pragadin-varÃha-kumuda=Ãdi-bhya÷
+4.02.081 janapad-e luP
+4.02.082 varaïÃ=Ãdi-bhyas=ca
+4.02.083 ÓarkarÃ-yÃ÷=vÃ
+4.02.084 ÂhaK-ch-au ca
+4.02.085 nady-Ãm matUP
+4.02.086 madhu=Ãdi-bhyas=ca
+4.02.087 kumuda-na¬a-vetase-hya÷=ÖmatUP
+4.02.088 na¬a-ÓÃd-Ãt=ÖvalaC
+4.02.089 ÓikhÃ-yÃ÷=valaC
+4.02.090 utkara=Ãdi-bhyas=cha-÷
+4.02.091 na¬a=ÃdÅ-nÃæ kuK ca
+4.02.092 Óe«-e
+4.02.093 rÃ«Âra=avÃra-pÃr-Ãt=gha=kh-au
+4.02.094 grÃm-Ãt=ya-kha¥-au
+4.02.095 kattri=Ãdi-bhyas=¬haka¥
+4.02.096 kula-kuk«i-grÅvÃ-hyas=Óva(n)=asi= alaæ-Ãre-«u
+4.02.097 nadÅ=Ãdi-bhyas=¬haK
+4.02.098 dak«iïÃ-paÓcÃt-puras-as=tyaK
+4.02.099 kÃpiÓy-Ãs=åphaK
+4.02.100 ranko-r a-manu«ye=a× ca
+4.02.101 dyu-prÃc=apÃc=u dac-pratÅc-a÷=yaT
+4.02.102 kanthÃ-yÃs=ÂhaK
+4.02.103 varï-au vuK
+4.02.104 avyay-Ãt tyaP
+4.02.105 ai«amas=hyas=Óvas-a÷=nya-ara-yÃm
+4.02.106 tÅra-rÆpya=uttarapad-Ãt a¥-¥-au
+4.02.107 dik-pÆrva-pad-Ãt=a-saæj¤Ã-yam ¥a-÷
+4.02.108 madre-bhya÷=a¥
+4.02.109 udÅcya-grÃm-Ãt=ca bahu=aC-a÷=anta=udÃtt-Ãt
+4.02.110 prastha=uttara-pada=paladÅ=Ãdi-ka=padh-Ãt=a×
+4.02.111 kaïva=Ãdi-bhya÷=gotr-e
+4.02.112 i¥-as=ca
+4.02.113 na dvi=aC-a÷ prÃcya-bharate-«u
+4.02.114 v­ddh-Ãt=cha-÷
+4.02.115 bhavat-as=ÂhaK=chaS-au
+4.02.116 kÃÓi=Ãdi-bhyas=Âha¥-¥iÂh-au
+4.02.117 vÃhÅka-grÃme-bhyas=ca
+4.02.118 vibhÃ«Ã=uÓÅnare-«u
+4.02.119 o-r deÓ-e Âha¥
+4.02.120 v­ddh-Ãt prÃc-Ãm
+4.02.121 dhanva(n)=ya=upadh-at=vu¥
+4.02.122 prastha-pura-vaha=nt-Ãt=ca
+4.02.123 ra=upadha=ÅT-o÷ prÃc-Ãm
+4.02.124 janapada-tad-avadhy-os=ca
+4.02.125 a-v­ddh-Ãt=api bahu-vacana-vi«ay-Ãt
+4.02.126 kaccha=agni-vaktra-vartta=ttara-pad-Ãt
+4.02.127 dhÆma=Ãdi-bhyas=ca
+4.02.128 nagar-Ãt kutsana-prÃvÅïyay-o÷
+4.02.129 araïy-Ãt=manu«y-e
+4.02.130 vibhÃ«Ã kuru-yugandharÃ-bhyÃm
+4.02.131 madra=v­jy-o÷ kaN
+4.02.132 ka=upadh-Ãt=a×
+4.02.133 kaccha=Ãdi-bhyas=ca
+4.02.134 manu«ya-tat-sthay-or vu¥
+4.02.135 a-padÃt-au sÃlv-Ãt
+4.02.136 go-yavÃgv-os=ca
+4.02.137 garta=uttara-pad-Ãt=cha-÷
+4.02.138 gaha=Ãdi-bhyas=ca
+4.02.139 prÃc-Ãæ kaÂa=Ãde-÷
+4.02.140 rÃj¤-a÷ ka ca
+4.02.141 v­ddh-Ãt=aka=ika=ant -Ãt kha=upadh-Ãt
+4.02.142 kanthÃ-palada-nagara-grÃma-hrada=uttara-pad-Ãt
+4.02.143 parvat-Ãt=ca
+4.02.144 vibhÃ«Ã=a-manu«y-e
+4.02.145 k­kaïa--parï-Ãt bharadvÃj-e
+4.03.001 yu«mad-asmad-or anya-tara-syÃm kha¥=ca
+4.03.002 ta-smin=a×-i ca yu«mÃka=asmÃk=au
+4.03.003 tavaka-mamak-au=eka-vacan-e
+4.03.004 ardh-Ãt=yaT
+4.03.005 para=avara=adhama=uttama-pÆrv-Ãt=ca
+4.03.006 dik-pÆrva-pad-Ãt=Âha¥=ca
+4.03.007 grÃma-janapada=eka-deÓ-Ãt=a¥-Âha¥-u
+4.03.008 madhy-Ãt ma-÷
+4.03.009 a sÃm-prati-k-e
+4.03.010 dvÅp-Ãt=anu-samudr-am ya¥
+4.03.011 kÃl-Ãt=Âha¥
+4.03.012 ÓrÃddh-e Óarad-a÷
+4.03.013 vibhÃ«Ã roga-Ãtapay-o÷
+4.03.014 niÓÃ-prado«Ã-bhyÃæ ca
+4.03.015 Óvas-as tuè ca
+4.03.016 saæ-dhi+velÃ=Ãdi=­tu-nak«atre-hya÷=a×
+4.03.017 prÃv­«-a÷=eïya-÷
+4.03.018 var«Ã-bhyas=ÂhaK
+4.03.019 chandas-i Âha¥
+4.03.020 vasant-Ãt=ca
+4.03.021 hemant-Ãt=ca
+4.03.022 sarva-tra=a× ca ta-lopa-s=ca
+4.03.023 sÃyam=ciram=prÃhï-e=prage=avyaye-hya÷ èyu-èyuL-au tu-è ca
+4.03.024 vibhÃ«Ã pÆrvÃhïa=aparÃhïÃ-bhyÃm
+4.03.025 ta-tra jÃ-ta-÷
+4.03.026 prÃv­«-as=ÂhaP
+4.03.027 saæj¤Ã-y-Ãæ Óarad-a÷=vu¥
+4.03.028 pÆrvÃhïa=aparÃhïa=ÃrdrÃ=mÆla-prado«a=avaskar-Ãt=vuN
+4.03.029 path-a÷ pantha ca
+4.03.030 amÃvÃsyÃ-y-Ã÷=vÃ
+4.03.031 a ca
+4.03.032 sindhu=apakarÃ-bhyÃm kaN
+4.03.033 a×=a¥-au ca
+4.03.034 Óravi«ÂhÃ-phalgunÅ=anurÃdhÃ=svÃti-ti«ya-punarvasu-hasta-viÓÃkhÃ=a«Ã¬hÃ-bahul-Ãt=luK
+4.03.035 sthÃna=anta-go-ÓÃla-khara-ÓÃl-Ãt=ca
+4.03.036 vatsa-ÓÃlÃ=abhijit=aÓva-yuj=Óata-hi«aj-a÷=vÃ
+4.03.037 nak«atre-bhya÷=bahulam
+4.03.038 k­-ta-lab-dha-krÅ-ta-kuÓal-Ã÷
+4.03.039 prÃya-bhava-÷
+4.03.040 upa-jÃnu=upa-karïa=upa-nÅve-s=ÂhaK
+4.03.041 saæ-bhÆ-t-e
+4.03.042 koÓ-Ãt=¬ha¥
+4.03.043 kÃl-Ãt sÃdhu-pu«pyat-pacya-m-Ãne-«u
+4.03.044 up-t-e ca
+4.03.045 ÃÓva-yujy-Ã÷=vu¥
+4.03.046 grÅ«ma-vasant-Ãt=anya-tara-syÃm
+4.03.047 deya-m ­ï-e
+4.03.048 kalÃpi(n)=aÓvattha=yava -bus-Ãt=uN
+4.03.049 grÅ«ma=avara-sam-Ãt=vu¥
+4.03.050 saævatsara=Ãgra-hÃyaïÅ-bhyÃm Âha¥=ca
+4.03.051 vy-Ã-har-a-ti m­ga-÷
+4.03.052 tad a-sya so¬ha-m
+4.03.053 ta-tra bhava-÷
+4.03.054 diÓ=Ãdi-bhya÷=yaT
+4.03.055 ÓarÅra=avayav-Ãt=ca
+4.03.056 d­ti-kuk«i-kalaÓi-vasti=asti=aher ¬ha¥
+4.03.057 grÅvÃ-bhya÷=a× ca
+4.03.058 gambhÅr-Ãt=¥ya-÷
+4.03.059 avyayÅ-bhÃv=Ãt=ca
+4.03.060 anta÷-pÆrva-pad-Ãt=Âha¥
+4.03.061 grÃm-Ãt pari=anu-pÆrv-Ãt
+4.03.062 jihvÃ-mÆla=a­gule-s=cha-÷
+4.03.063 varga=ant-Ãt=ca
+4.03.064 a-Óabd-e yaT-kh-au=nya-tara-syÃm
+4.03.065 karïa-lalÃÂ-Ãt kaN alaæ-kÃr-e
+4.03.066 ta-sya vy-Ã-khyÃn-e=iti ca vy-Ã-khyÃ-avya-Ãmn-a÷
+4.03.067 bahu=aC=a÷=anta=udÃ tt-Ãt=Âha¥
+4.03.068 kratu-yaj¤e-bhyas=ca
+4.03.069 adhy-Ãye-«u=eva=­«e-÷
+4.03.070 pauro¬ÃÓa-puro¬ÃÓ-Ãt=åÂhaN
+4.03.071 chandas-a÷=yaT=a×-au
+4.03.072 dvy-aC=­T=brÃhmaïa=­c-prathama=adhvara-pura«-caraïa-nÃmÃkhyÃt-Ãt ÂhaK
+4.03.073 a× ­g-ayana=Ãdi-bhya÷
+4.03.074 ta-ta÷=Ã-ga-ta-÷
+4.03.075 ÂhaK=Ãya-sthÃne-bhya÷
+4.03.076 Óuï¬ika=Ãdi-bhya÷=a×
+4.03.077 vidyÃ-yoni-saæ-bandhe-bhya÷=vu¥
+4.03.078 ­T=as=Âha¥
+4.03.079 pitur yaT=ca
+4.03.080 gotr-Ãt=a­ka-vat
+4.03.081 hetu-manu«ye-bhya÷=anya-tara-syÃm rÆpya-÷
+4.03.082 mayaè=ca
+4.03.083 pra-bhav-a-ti
+4.03.084 vidÆr-Ãt=¥ya-÷
+4.03.085 tad gacch-a-ti pathi(n)-dÆtay-o÷
+4.03.086 abhi-ni«-krÃm-a-ti dvÃr-am
+4.03.087 adhi-k­-t-ya k­-t-e granth-e
+4.03.088 ÓiÓu-kranda-yama-sabha-dvaædva=indra-janana=Ãdi-bhyas=cha-÷
+4.03.089 sa-÷=a-sya ni-vÃsa-÷
+4.03.090 abhi-jana-s=ca
+4.03.091 Ãyudha-jÅvi-bhyas=cha-÷ parvat-e
+4.03.092 Óaï¬ika=Ãdi-bhya÷=¥ya-÷
+4.03.093 sindhu-tak«a-ÓilÃ=Ãdi-hya÷=a×=a¥-u
+4.03.094 tÆdÅ-ÓalÃtura-varmatÅ-kÆcavÃr-Ãt ¬haK-cha×-¬ha¥-yaK-a÷
+4.03.095 bhak-ti-÷
+4.03.096 a-citt-Ãt a-deÓa-kÃl-Ãt=ÂhaK
+4.03.097 mahÃrÃj-Ãt=Âha¥
+4.03.098 vÃsudeva= arjunÃ-bhyÃm vuN
+4.03.099 gotra-k«atriya=Ãkhye-hya÷=ahulam vu¥
+4.03.100 jana-padin-Ãæ jana-pada-vat sarvaæ jana-pad-ena samÃna-ÓabdÃ-nÃm bahu-vacan-e
+4.03.101 t-ena prokta-m
+4.03.102 tittiri-vara-tantu-khaï¬ika=ukh-Ãt=cha-×
+4.03.103 kÃÓyapa-kauÓikÃ-bhyÃm ­«i-bhyÃm ×ini-÷
+4.03.104 kalÃpi(n)=vaisampÃyana=nte-Ãsi-hyas=ca
+4.03.105 purÃïa-pro-kte«u brÃhmaïa-alpe-«u
+4.03.106 Óaunaka=Ãdi-bhyas=chandas-i
+4.03.107 kaÂha-carak-Ãt=luK
+4.03.108 kalÃpin-a÷=a×
+4.03.109 chagalin-a÷=¬hinuK
+4.03.110 pÃrÃÓarya-ÓilÃli-bhyÃm bhik«u-naÂa-sÆtray-o÷
+4.03.111 karmanda-k­ÓÃÓv-Ãt=ini-÷
+4.03.112 t-ena=eka-dik
+4.03.113 tasi-s=ca
+4.03.114 uras-a÷=yaT=ca
+4.03.115 upa-j¤Ã-t-e
+4.03.116 k­-t-e granth-e
+4.03.117 saæj¤a-y-Ãm
+4.03.118 kulÃla=Ãdi-bhya÷=vu¥
+4.03.119 k«udrÃ-bhramara-vaÂara-pÃdap-Ãt=a¥
+4.03.120 ta-sya=idam
+4.03.121 rath-Ãt=yaT
+4.03.122 pattra-pÆrv-Ãt=a¥
+4.03.123 pattra=adhvaryu-pari«ad-as=ca
+4.03.124 hala-sÅr-Ãt=ÂhaK
+4.03.125 dvaædv-Ãt=vuN vaira-maithunikay-o÷
+4.03.126 gotra-caraï-Ãt=vu¥
+4.03.127 saægha=a­ka-lak«aïe-«u=a¥-ya¥-i¥-Ãm a×
+4.03.128 ÓÃkal-Ãt=vÃ
+4.03.129 chandoga=aukthika-yÃj¤ika-bahv-­ca-naÂ-Ãt=¥ya-÷
+4.03.130 na daï¬a-mÃïava=ante-vÃsi-«u
+4.03.131 raivatika=Ãdi-bhyas=cha-÷
+4.03.132 kaupi¤jala-hÃsti-pad-Ãt=a×
+4.03.133 Ãtharvaïika-sya=ika-lopas=ca
+4.03.134 ta-sya vi-kÃr-a-÷
+4.03.136 bilva=Ãdi=bhyya÷=a×
+4.03.137 ka=upadhÃt=ca
+4.03.138 trapu-jatu-n-o÷ «uK
+4.03.139 o-r a¥
+4.03.140 an-udÃtta=Ãdes=ca
+4.03.141 palÃÓa=Ãdi-bhya÷=vÃ
+4.03.142 Óamy-Ã-s=èla¥
+4.03.143 mayaè=vÃ=etay-or bhÃ«Ã-y-Ãm a-bhak«ya=ÃcchÃdanay-o÷
+4.03.144 nityam v­ddha-Óara=Ãdi-bhya÷
+4.03.145 go-s=ca pÆrÅ«-e
+4.03.146 pi«Â-Ãt=ca
+4.03.147 saæj¤Ã-y-Ãæ kaN
+4.03.148 vrÅhe-÷ puro¬ÃÓ-e
+4.03.149 a-saæj¤a-y-Ãm tila-yavÃ-bhyÃm
+4.03.150 dvy-aC-as=chandas-i
+4.03.151 na=uT-vat=vardhra-bilv-Ãt
+4.03.152 tÃla=Ãdi-bhya÷=a×
+4.03.153 jÃta-rÆpe-bhya÷ pari-mÃï-e
+4.03.155 ¥-IT-as=ca tat-pratyay-Ãt
+4.03.156 krÅta-vat parimÃï-Ãt
+4.03.157 u«Âr-Ãt=vu¥
+4.03.158 umÃ=Ærïay-or vÃ
+4.03.159 eïy-Ã÷=¬ha¥
+4.03.160 go-payas-or yaT
+4.03.161 dro-s=ca
+4.03.162 mÃn-e vaya-÷
+4.03.163 phal-e luK
+4.03.164 plak«a=Ãdi-bhya÷=a×
+4.03.165 jambv-Ã÷=vÃ
+4.03.166 luP ca
+4.03.167 harÅtakÅ=Ãdi-bhyas=ca
+4.03.168 kaæsÅya-paraÓavyay-or ya¥=a¥=au luK ca
+4.04.001 prÃk=vahate-s=ÂhaK
+4.04.002 t-ena dÅv-ya-ti khan-a-ti jay-a-ti ji-ta-m
+4.04.003 saæ-s-k­-ta-m
+4.04.004 kulattha-ka=upadh-Ãt=a×
+4.04.005 tar-a-ti
+4.04.006 go-pucch-Ãt=Âha¥
+4.04.007 nau-dvy-aC-as=ÂhaN
+4.04.008 car-a-ti
+4.04.009 Ã-kar«-Ãt=åÂhaL
+4.04.010 parpa=Ãdi-bhyas=åÂhaN
+4.04.011 Óva-gaï-Ãt=Âha¥=ca
+4.04.012 vetana=Ãdi-bhya÷=jÅv-a-ti
+4.04.013 vasna-kraya-vikray-Ãt=ÂhaN
+4.04.014 Ã-yudh-Ãt=cha ca
+4.04.015 har-a-ti=ut-sa­ga=Ãdi-bhya÷
+4.04.016 bhastrÃ=Ãdi-bhyas=åÂhaN
+4.04.017 vibhÃ«Ã vivadha-vÅvadh-Ãt
+4.04.018 a× kÆÂilikÃ-y-Ã÷
+4.04.019 nir-v­t-t-e=ak«a-dyÆta=Ãdi-bhya÷
+4.04.020 Ktre-r maP=nitya-m
+4.04.021 apa-mi-t-ya-yÃcitÃ-bhyÃæ kaK= kaNau
+4.04.022 saæ-s­«-Â-e
+4.04.023 cÆrï-Ãt=ini-÷
+4.04.024 lavaï-Ãt=luK
+4.04.025 mudg-Ãt=a×
+4.04.026 vy-a¤jan-air upa-sik-t-e
+4.04.027 ojas=sahas=ambhas-Ã vart-a-te
+4.04.029 pari-mukha-æ=ca
+4.04.030 pra-yacch-a-ti garhya-m
+4.04.031 kusÅda-daÓa=ekÃdaÓ-Ãt åÂhaN=åÂhaC-au
+4.04.032 u¤ch-a-ti
+4.04.033 rak«-a-ti
+4.04.034 Óabda-dardura-æ kar-o-ti
+4.04.036 pari-pantha-æ=ca ti«Âh-a-ti
+4.04.037 mÃtha=uttara-pada-padavÅ=anupada-æ dhÃv-a-ti
+4.04.038 Ã-krand-Ãt=tha¥ ca
+4.04.039 pada=uttara-pada-æ g­h-ïÃ-ti
+4.04.040 prati-kaïÂha=artha=lalÃma-æ ca
+4.04.041 dharma-æ car-a-ti
+4.04.042 prati-path-am e-ti ÂhaN=ca
+4.04.043 samavÃyÃ-n sam-a-vaiti
+4.04.044 pari-«ad-a÷=×ya-÷
+4.04.045 senÃ-y-Ã÷=vÃ
+4.04.046 saæj¤Ã-y-Ãæ lalÃÂa-kukkuÂy-au paÓy-a-ti
+4.04.047 ta-sya dharm-ya-m
+4.04.048 a× mahi«Å=Ãdi-bhya÷
+4.04.049 ­T-a÷=a¥
+4.04.050 ava-kray-a-÷
+4.04.051 tad a-sya païya-m
+4.04.052 lavaï-Ãt=Âha¥
+4.04.053 kiÓara=Ãdi-bhyas=åÂhaN
+4.04.054 ÓalÃlu-n-a÷=anya-taras-syÃm
+4.04.055 Óilpa-m-
+4.04.056 ma¬¬uka-jharjar-Ãt=a×=nya-tara-syÃm
+4.04.057 pra-har-aïa-m
+4.04.058 paraÓvadh-Ãt=Âha¥ ca
+4.04.059 Óakti-ya«Ây-or ÅkaK
+4.04.060 asti-nÃsti-di«Âa-m mati-÷
+4.04.061 ÓÅla-m
+4.04.062 chattra=Ãdi-bhya÷=×a-÷
+4.04.063 karma=adhy-ayan-e v­t-ta-m
+4.04.064 bahu=aC-pÆrva-pad-Ãt=ÂhaC
+4.04.065 hi-ta-m bhak«Ã-÷
+4.04.066 tad a-smai dÅ-ya-te ni-yuk-ta-m
+4.04.067 ÓrÃïÃ-mÃæsa=odan-Ãt=èiÂhaN
+4.04.068 bhak-t-Ãt=a×=anya-tara-syÃm
+4.04.069 ta-tra ni-yuk-ta-÷
+4.04.070 agÃra=ant-Ãt=ÂhaN
+4.04.071 adhy-Ãy-in-i=a-deÓa-kÃl-Ãt
+4.04.072 kaÂhina=anta-pra-stÃr-a-saæ-thÃne-«u vy-ava-ar-a-ti
+4.04.073 ni-kaÂ-e vas-a-ti
+4.04.074 Ã-vas-ath-Ãt=åÂhaL
+4.04.075 prÃk=hi-t-Ãt=yaT
+4.04.076 tad vah-a-ti ratha-yuga-prÃsa­ga-m
+4.04.077 dhur-a÷=yaT= ¬haK-au
+4.04.078 kha-÷ sarva-dhur-Ãt
+4.04.079 eka-dhur-Ãt=luK ca
+4.04.080 ÓakaÂ-Ãt=a×
+4.04.081 hala-sÅr-Ãt=ÂhaK
+4.04.082 saæj¤Ã-y-Ãæ jany-Ã÷
+4.04.083 vidh-ya-ti=a-dhanu«-Ã
+4.04.084 dhana-gaïa-m lab-dhÃ
+4.04.085 ann-Ãt=×a-÷
+4.04.086 vaÓa-æ ga-ta-÷
+4.04.087 pada-m a-smin d­Ó-ya-m
+4.04.088 mÆla-m a-sya=Ã-barhi
+4.04.089 saæj¤Ã-y-Ãm dhenu«yÃ
+4.04.090 g­ha-pati-nÃ saæ-yuk-t-e ¥ya-÷
+4.04.091 nau-vayas=dharma-visa-mÆla-mÆla-sÅtÃ-tulÃ-bhyas=tÃr-ya-tul-ya-prÃp-ya-vadh-ya=Ã-nÃm-ya-sama-sa-mita-sam-mi-te-«u
+4.04.093 chandas-o nir-mi-t-e
+4.04.094 urasa-a÷=a× ca
+4.04.095 h­daya-sya priy-a-÷
+4.04.096 bandh-an=e ca=­«-au
+4.04.097 mata-jana-hal-Ãt karaïa-jalpa-kar«e-su
+4.04.098 ta-tra sÃdhÆ-÷
+4.04.099 pratijana=Ãdi-bhy÷ kha¥
+4.04.100 bhak-t-Ãt=×a-÷
+4.04.101 pari-«ad-a÷=×ya-÷
+4.04.102 kathÃ-Ãdi-bhyas=ÂhaK
+4.04.103 gu¬a=Ãdi-bhyas=Âha¥
+4.04.105 sabhÃ-y-Ã÷=ya-÷
+4.04.106 ¬ha-s=chandas-i
+4.04.107 sa-mÃn-a-tÅrth-e vÃs-Å
+4.04.108 sa-mÃna=udar-e Óay-ita-s=o ca=udÃtta-÷
+4.04.109 sodar-Ãt=ya-÷
+4.04.110 bhav-e chandas-i
+4.04.111 pÃthas=nadÅ-bhyÃm Öya×
+4.04.112 veÓanta-himavad-bhyÃm a×
+4.04.113 srotas-a÷=vibhÃ«Ã ÖyaT=Öy-aÆ
+4.04.114 sa-garbha-sa-yÆtha-sa-nu-t-Ãt=yaN
+4.04.115 tugr-Ãt=ghaN
+4.04.116 agr-Ãt=yaT
+4.04.117 gha=ch-au ca
+4.04.118 samudra=abhr-Ãt=gha-÷
+4.04.119 barhi«-i dat-ta-m
+4.04.120 dÆta-syabhÃga-karman-Å
+4.04.121 rak«as=yÃtÆ-n-Ãæ han-an-Å
+4.04.122 revatÅ-jagatÅ-havi«yÃ-bhya÷ pra-Óas-y-e
+4.04.123 asura-sya sva-m
+4.04.124 mÃyÃ-y-Ãm a×
+4.04.125 tad-vÃn Ã-sÃm upa-dhÃ-n-o mantra=iti i«ÂakÃ-su luK ca matO-÷
+4.04.126 aÓvi-mÃn a×
+4.04.127 vayasyÃ-su mÆrdh-n-o matUP
+4.04.128 matU=arth-e mÃsa-tanv-o÷
+4.04.129 madho-r ¥a ca
+4.04.130 ojas-a÷=ahan-i yaT-kh-au
+4.04.132 kha ca
+4.04.133 pÆrv-ai÷ k­-ta-m ini-y-au ca
+4.04.134 ad-bhi÷ saæ-s-k­-ta-m
+4.04.135 sahasr-eïa saæ-mit-aÆ gha-÷
+4.04.136 mat-AU ca
+4.04.137 soma-m arh-a-ti ya-÷
+4.04.138 may-e ca
+4.04.139 madho-÷
+4.04.140 vaso-÷ sam-Æh-e ca
+4.04.141 nak«atr-Ãt=gha-÷
+4.04.142 sarva-dev-Ãt tÃtiL
+4.04.143 Óiva-Óam=ari«Âa-ya kar-e
+4.04.144 bhÃv-e ca
+
+5.01.001 prÃk=krÅt-Ãt=cha-÷
+5.01.002 u-gav=Ãdi-hya÷=aT
+5.01.003 kambal-Ãt=ca saæj¤Ã-y-Ãm
+5.01.004 vibhÃ«Ã havis=apÆpa=Ãdi-hya÷
+5.01.005 ta-smai hi-tam
+5.01.006 ÓarÅra=avayav=Ãt=yaT
+5.01.007 khala-yava-mÃ«a-tilav­«a-brahmaï-s=ca
+5.01.008 aja=avi-bhyÃm thyaN
+5.01.009 Ãtman=viÓva-jana-bhoga=ttara-ad-Ãt kha-÷
+5.01.010 sarva-puru«Ã-hyÃm ×a-¬ha¥-au
+5.01.011 mÃïava-carakÃ-bhyÃm kha¥
+5.01.012 tad-artha-æ vi-k­-te-÷ pra-k­-t-au
+5.01.013 chadis=upa-dhi-bale-÷=¬ha¥
+5.01.014 ­«abha-upÃnah-or ¥ya-÷
+5.01.015 carmaï-a÷=a¥
+5.01.016 tad a-sya tad a-smin s-yÃt=iti
+5.01.017 parikhÃ-y-Ã÷=¬ha¥
+5.01.018 prÃk=vate-s=Âha¥
+5.01.019 Ã=arh-Ãt=a-go-puccha-saækhyÃ-pari-Ãï-Ãt=ÂhaK
+5.01.020 a-sam-Ãs-e ni«ka=Ãdi-bhya÷
+5.01.021 Óat-Ãt=ca ÂhaN-yaT-u=a-Óat-e
+5.01.022 saækhyÃ-y-Ã÷=a-ti-Óat=ntÃ-y-Ã÷ kaN
+5.01.023 vatO-r iè=vÃ
+5.01.024 viæÓati-triæÓat=hyÃm ÖvuN a-aæj¤Ã--Ãm
+5.01.025 kaæs-Ãt=èiÂhaN
+5.01.026 ÓÆrp-Ãd a¥ anya-tara-syÃm
+5.01.027 Óata-mÃna-viæÓatika-sahasra-vasan-Ãt=a×
+5.01.028 adhi=ardha-pÆrva-dvigo-r luK a-aæj¤Ã--Ãm
+5.01.029 vibhÃsÃ kÃr«Ãpaïa-sahasrÃ-bhyÃm
+5.01.030 dvi-tri-pÆrv-Ãt ni«k-Ãt
+5.01.031 bist-Ãt=ca
+5.01.032 viæÓatik-Ãt kha-÷
+5.01.033 khÃry-Ã÷=ÅkaN
+5.01.034 païa-pÃda-mÃ«a-Óat-Ãt=aT
+5.01.035 ÓÃï-Ãt=vÃ
+5.01.036 dvi-tri-pÆrv-Ãt=a× ca
+5.01.037 t-ena krÅ-ta-m
+5.01.038 ta-sya nimitta-m saæ-yoga=ut-Ãt-au
+5.01.039 go-dvy-aC-a÷=a-saækhyÃ-pari-Ãïa=aÓva=de-r yaT
+5.01.040 putr-Ãt=cha=ca
+5.01.041 sarva-bhÆmi-p­thivÅ bhyÃm a×a¥-au
+5.01.042 ta-sya=ÅÓ-vara-÷
+5.01.043 ta-tra vid-i-ta iti ca
+5.01.044 loka-sarva-lok-Ãt=Âha¥
+5.01.045 ta-sya vÃp-a-÷
+5.01.046 pÃtr-Ãt=åÂhaN
+5.01.047 tad a-smin v­d-dhi=Ãya-lÃbha-Óulka=upa-dÃ dÅ-a-te
+5.01.048 pÆraïa=ardh-Ãt=ÂhaN
+5.01.049 bhÃg-Ãt=yaT=ca
+5.01.050 tad=har-a-ti-vah-a-ti=Ã-vah-a-ti bhÃr-Ãt=vaæÓa=Ãdi-bhya÷
+5.01.051 vasna-dravyÃ-bhyÃæ ÂhaN-kaN-au
+5.01.052 sam-bhav-a-ti=ava-har-a-ti-pac-a-i
+5.01.053 Ã¬haka=Ãcita-pÃtr-Ãt kha-÷=nya-tara-yÃm
+5.01.054 dvigo-s=åÂhaN=ca
+5.01.055 kulij-Ãt=luK-kh-au ca
+5.01.056 sa-÷=a-sya=aæÓa-vasna-bh­tay-÷
+5.01.057 tad a-sya pari-mÃïa-m
+5.01.058 samkhyÃ-y-Ã÷ saæj¤Ã-saægha-sÆtra-adhy-ay-ne-«u
+5.01.059 pa­kti-viæÓati-triæÓat-catvÃriæÓat-pa¤cÃÓat-«a«Âi-saptati=aÓÅti-navati-Óata-m
+5.01.060 pa¤cat=daÓat-au varg-e vÃ
+5.01.061 saptan-a÷=a¥ chandas-i
+5.01.062 triæÓat=catvÃriæÓat-or brÃhmaï-e saæj¤Ã--Ãm Öa×
+5.01.063 tad arh-a-ti
+5.01.064 cheda=Ãdi-bhya÷ nityam
+5.01.065 ÓÅr«a-cched-Ãt=yaT=ca
+5.01.066 daï¬a=Ãdi-bhya÷
+5.01.067 chandas-i ca
+5.01.068 pÃtr-Ãt=ghaN=ca
+5.01.069 ka¬a­kara-dak«iï-Ãt=cha ca
+5.01.070 sthÃlÅ-bil-Ãt
+5.01.071 yaj¤a=­tv-ig-bhyÃæ gha-kha¥-au
+5.01.072 pÃrÃyaïa-turÃyaïa-cÃndrÃyaïa-æ vart-ay-a-ti
+5.01.073 saæ-Óay-am Ã-panna-÷
+5.01.074 yojana-æ gacch-a-ti
+5.01.075 path-a÷=åkaN
+5.01.076 panth-o ×a nitya-m
+5.01.077 ut-tara-path-ena=Ã-h­-ta-æ ca
+5.01.078 kÃl-Ãt
+5.01.079 t-ena nir-v­t-ta-m
+5.01.080 tam adhÅ«Âa-÷ bh­-ta-÷=hÆ-ta-÷=hÃvÅ
+5.01.081 mÃs-Ãt=vayas-i yaT-kh-au
+5.01.082 dvigo-r yaP
+5.01.083 «aï-mÃs-Ãt=×yaT=ca
+5.01.084 a-vayas-i ÂhaN=ca
+5.01.085 samÃ-y-Ã÷ kha-÷
+5.01.086 dvigo-r vÃ
+5.01.088 var«-Ãt=luK ca
+5.01.089 citta-vat-i nitya-m
+5.01.090 «a«Âi-k-Ã÷ «a«Âi-rÃtr-eïa pac-y-ante
+5.01.091 vatsara=ant=Ãt=cha-s=chandas-i
+5.01.092 sam-pari-Ærv-Ãt kha ca
+5.01.093 t-ena pari-jay-ya-labh-ya-kÃr-ya-su-ar-am
+5.01.094 tad a-sya brahma-car-ya-m
+5.01.095 ta-sya ca dak«iïÃ yaj¤a=Ãkhye-bhya÷
+5.01.096 ta-tra ca dÅ-ya-te kÃr-ya-m bhav-a-vat
+5.01.097 vy-u«Âa=Ãdi-bhya÷=a×
+5.01.098 t-enayathÃ-kathÃ-ca-hastÃ-hyÃæ ×a-yaT-au
+5.01.099 sam-pÃd-in-i
+5.01.101 ta-smai pra-bhav-a-ti saæ-tÃpa=Ãdi-bhya÷
+5.01.102 yog-Ãt=yaT=ca
+5.01.103 karmaï-a÷=uka¥
+5.01.104 samaya-s tad a-sya prÃ-p-ta-m
+5.01.105 ­to-r a×
+5.01.106 chandas-i ghaS
+5.01.107 kÃl-Ãt=yaT
+5.01.108 pra-k­«-Â-e Âha¥
+5.01.109 pra-yoj-ana-m
+5.01.110 vi-ÓÃkhÃ=a«Ã¬h-Ãt a× mantha-daï¬ay-÷
+5.01.111 anu-pra-vac-ana=Ãdi-bhya÷=cha-÷
+5.01.112 sam-Ãp-an-Ãt sa-pÆrva-pad-Ãt
+5.01.113 aikÃgÃrikaè caur-e
+5.01.114 Ã-kÃl-ika-è=Ãdy-anta-vac-an-e
+5.01.115 t-ena tul-ya-æ kriyÃ ced vati-÷
+5.01.116 ta-tra ta-sya=iva
+5.01.117 tad arh-a-m
+5.01.118 upa-sarg-Ãt=chandas-i dhÃtv-arth-e
+5.01.119 ta-sya bhÃv-a-÷=tva-taL-u
+5.01.120 Ã ca tv-Ãt
+5.01.121 na na¥-pÆrv-Ãt tatpuru«-Ãt=a-catura-saæ-gata-lavaïa-vaÂa-yudha-kata-rasa-lase-bhya÷
+5.01.122 p­thu=Ãdi-bhya÷=maniC=Ã
+5.01.123 varïa-d­¬ha-Ãdi-hya÷ åya¥ ca
+5.01.124 guïa-vac-ana-brÃhmaïa=Ãdihya÷ karmaï-i ca
+5.01.125 sten-Ãt=yaT=na-lopa-s=ca
+5.01.126 sakhy-ur ya-÷
+5.01.127 kapi-j¤Ãty-or ¬haK
+5.01.128 pati=anta-puro-hita=Ãdi-hya÷=aK
+5.01.129 prÃïa-bh­t=jÃti-vayo-vac-ana=ud-gÃ-t­=Ãdi-hya÷=a¥
+5.01.131 iK=ant-Ãt=ca laghu-pÆrv-Ãt
+5.01.132 ya=upadh-Ãt=guru=pottam-Ãt=u¥
+5.01.133 dvaædva-mano-j¤a=Ãdi-hyas=a
+5.01.134 go-tra-caraï-Ãt ÓlÃghÃ=aty-Ã-kÃra-tad-ve-te-«u
+5.01.135 hotrÃ-bhyas=cha-÷
+5.01.136 brahmaï-as tva-÷
+5.02.001 dhÃnyÃ-n-Ãm bhav-an-e k«etr-e kha¥
+5.02.002 vrÅhiÓÃly-or ¬haK
+5.02.003 yava-yava-ka-«a«Âi--Ãt=aT
+5.02.004 vibhÃ«Ã tila-mÃ«a=umÃ-bha­gÃ-aïu=hya÷
+5.02.005 sarva-carmaï-a÷ k­-ta-÷ kha-kha¥-au
+5.02.006 yathÃ-mukha- saæ-mukha-sya darÓ-ana-÷ kha-÷
+5.02.008 Ã-pra-pada-m pr-Ãp-no-ti
+5.02.009 anu-pada-sarva-anna=aya=an-ay-am baddhÃ-bhak«-ay-a-ti-neye-«u
+5.02.010 parovara-param-para-putra-pautra-m anu-bhav-a-ti
+5.02.011 avÃra-pÃra=aty-anta=anu-Ãma-m gÃm-Å
+5.02.012 samÃ-æ-samÃ-m vi-jÃ-ya-te
+5.02.013 adya-Óv-Ån-Ã ava-«Âab-dh-e
+5.02.014 Ã-gav-Åna-÷
+5.02.015 anu-gu=alaæ-gÃm-Å
+5.02.016 adhvan-a÷=yaT-kh-au
+5.02.017 abhy-a-mitr-Ãt=cha ca
+5.02.018 go«Âh-Ãt kha¥ bhÆ-ta-pÆrv-e
+5.02.019 aÓva-sya=eka=aha=gama-÷
+5.02.020 ÓÃl-Åna-kaup-Ån-e a-h­«-Âa-a-Ãryay-o÷
+5.02.021 vrÃt-ena jÅv-a-ti
+5.02.022 sÃpta-pad-Åna-æ sakh-ya-m
+5.02.023 haiyaæ-gav-Åna-æ saæj¤Ã-y-Ã
+5.02.024 ta-sya pÃka-mÆl-e pÅlu=adi-karïa=Ãdi-hya÷ kuïaP=jÃhaC-au
+5.02.025 pak«-Ãt ti-÷
+5.02.026 t-ena vit-ta-÷ cu¤cuP-caïaP-au
+5.02.027 vi-na¥-bhyÃm nÃ-nÃ¥-au na-saha
+5.02.028 ve-÷ ÓÃlaC-Óa­kaÂaC-au
+5.02.029 sam-pra=ud-as=ca kaÂaC
+5.02.030 av-Ãt kuÂÃraC ca
+5.02.031 na-t-e nÃsikÃ-y-Ã÷ saæj¤Ã--Ãæ ÂÅÂaC-nÃÂaC-bhrÃÂaC-÷
+5.02.032 ne-r bi¬aC-birÅsaC-au
+5.02.033 inaC-piÂaC-cika-ci ca
+5.02.034 upa=adhi-bhyÃm tyakaN Ã-san-na=Ã-Æ-¬hay-o÷
+5.02.035 karmaï-i ghaÂa-÷=aÂhaC
+5.02.036 tad a-sya saæ-jÃ-ta-æ-tÃrakÃ=Ãdibhya÷ itaC
+5.02.037 pra-mÃï-e dvayasaC-daghnaC-mÃtraC-a÷
+5.02.038 puru«a-hasti-bhyÃm a× ca
+5.02.039 yad=tad=ete-hya÷ pari-Ãï-e vatUP
+5.02.040 kim=idam-bhyÃm v-a÷ gha-÷
+5.02.041 kim-a÷ saækhyÃ-pari-mÃï-e Öati ca
+5.02.042 saækhyÃ-y-Ã÷=ava-yav-e tayaP
+5.02.043 dvi-tri-bhyÃm taya-ya=yaC=vÃ
+5.02.044 ubh-Ãt udÃtta÷ nitya-m
+5.02.045 tad a-sminn adhi-ka-m iti daÓa=nt-Ãt Öa-÷
+5.02.046 Óat=anta=viæÓate-=ca
+5.02.047 saækhyÃ-y-Ã÷=guïa-sya ni-mÃn-e mayaè
+5.02.048 ta-sya pÆr-aï-e Öaè
+5.02.049 na=ant-Ãt=a-saækhyÃ=Ãde-r maè
+5.02.050 thaè ca chandas-i
+5.02.051 «aÂ-kati-katipaya-catur-Ãæ thuK
+5.02.052 bahu-pÆga-gaïa-saægha-sya tithuK
+5.02.054 dve-s tÅya-÷
+5.02.055 tre-÷ sam-pra-sÃr-aïa-m
+5.02.056 viæ-Óati=Ãdi-bhya÷ tamaè=anya-tara-syÃm
+5.02.057 nitya-æ Óata=Ãdi-mÃsa=ardha-mÃsa-saæ-atsar-Ãt=ca
+5.02.058 «a«Âi-Ãde-s=ca=a-saækhyÃ-Ãde-÷
+5.02.059 matAU cha-÷ sÆkta-sÃmn-÷
+5.02.060 adhy-Ãya-anu-vÃkay-or luK
+5.02.061 vi-muk-ta=Ãdi-bhya÷=a×
+5.02.062 go-«ad=Ãdi-bhya÷ vuN
+5.02.063 ta-tra kuÓala-÷ path-a÷
+5.02.064 Ã-kar«a=Ãdi-bhya÷ kaN
+5.02.065 dhana-hiraïy-Ãt kÃm-e
+5.02.066 sva=a­ge-bhya÷ pra-si-t-e
+5.02.067 udar-Ãt=ÂhaK=Ã-dyÆ-n-e
+5.02.068 sasy-ena pari-jÃ-ta-÷
+5.02.069 aæÓa-æ hÃr-Å
+5.02.070 tantr-Ãt=a-cira=apa-h­-t-e
+5.02.071 brÃhmaïa-ka=u«ïi-k-e saæj¤Ã--Ãm
+5.02.072 ÓÅta=u«ïa-bhyÃm kÃriï-i
+5.02.073 adhi-ka-m
+5.02.074 anu-ka=abhi-ka=abhÅ-a-÷ kam-i-Ã
+5.02.075 pÃrÓv-ena=anv-icch-a-ti
+5.02.076 aya÷-ÓÆla-daï¬a=jinÃ-hyÃæ ÂhaK-Âha¥-au
+5.02.077 tÃva-titha-æ grah-aïa-m iti luK=vÃ
+5.02.078 sa e-«Ãm grÃma-ïÅ-÷
+5.02.079 Ó­­khala-m a-sya bandh-ana-æ karabh-e
+5.02.080 ut-ka-÷ un-manÃ÷
+5.02.081 kÃla-pra-yoj-an-Ãt=og-e
+5.02.082 tad a-sminn anna-m prÃy-e saæj¤Ã-y-Ãm
+5.02.083 kulmÃ«-Ãt=a¥
+5.02.084 ÓrotriyaN=chanda÷=adhÅ-te
+5.02.085 ÓrÃddha-m an-ena bhuk-ta-m ini-ÂhaN-au
+5.02.086 pÆrv-Ãt=ini-÷
+5.02.087 sa-pÆrv-Ãt=ca
+5.02.088 i«-Âa=Ãdi-bhyas=ca
+5.02.090 anu-pad-Å=anv-e«-ÂÃ
+5.02.091 sÃk«-Ãt dra«Âar-i saæj¤Ã-y-Ãm
+5.02.092 k«etr-iyaC para-k«etr-e cikit-s-ya-÷
+5.02.093 indr-iya-m=indra-linga-m=indra-d­«-Âa-m-indra-­«-Âa-m-indra-u«-Âa-m-indra-at-ta-m iti vÃ
+5.02.094 tad a-sya=as-ti=a-smin=iti matUP
+5.02.095 rasa=Ãdi-bhyas=ca
+5.02.096 prÃïi-sth-Ãt=ÃTo laC=anya-tara-syÃm
+5.02.097 sidhma=Ãdi-bhyas=ca
+5.02.098 vatsa=aæsÃ-bhyÃm kÃma-bal-e
+5.02.099 phen-Ãt=ilaC ca
+5.02.101 pra-j¤Ã-Órad-dhÃ=arc-Ã-v­tti-hya÷ ×a-÷
+5.02.102 tapas-sahasrÃ-bhyÃm vini=ini
+5.02.103 a× ca
+5.02.104 sikatÃ-Óarkara-hyÃm=a
+5.02.105 deÓ-e luP=ilaC=au ca
+5.02.106 danta un-na-ta uraC
+5.02.107 Æ«a-su«i-mu«ka-madho-÷ ra-÷
+5.02.108 dyu-dru-bhyÃm ma-÷
+5.02.109 keÓ-Ãt=va-÷=anya-tara-syÃm
+5.02.110 gÃï¬Å=ajag-Ãt saæj¤Ã-y-Ãm
+5.02.111 kÃï¬a=Ãï¬-Ãt ÅraN=ÅraC-au
+5.02.112 rajas=k­«i=Ã-uti-pari-«ad-a÷ valaC
+5.02.113 danta-Óikh-Ãt saæj¤Ã-y-Ãm
+5.02.114 jyotsnÃ-tamisrÃ-Ó­­g-ïa-Ærjas-in=Ærjas-ala-go-min-malina-malÅmas-Ã÷
+5.02.115 aT-a÷=ini-ÂhaN-au
+5.02.116 vrÅhi=Ãdi-bhyas=ca
+5.02.117 tunda=Ãdi-bhya÷=ilaC ca
+5.02.118 eka-go-pÆrv-Ãt=Âha¥ nitya-m
+5.02.119 Óata-sahasra=ant-Ãt=a ni«k-Ãt
+5.02.120 rÆp-at=Ã-ha-ta-pra-Óaæsay-÷=aP
+5.02.121 as-mÃyÃ-medhÃ-sraj-a÷=ini-÷
+5.02.122 bahula-æ chandas-i
+5.02.123 ÆrïÃ-y-Ã÷=yuS
+5.02.124 vÃc-o gmini-÷
+5.02.125 ÃlaC=ÃÂaC-au bahu-hÃ«-iï-i
+5.02.126 sv-Ãm-in=aiÓvar-y-e
+5.02.127 arÓ-as=Ãdi-bhya÷=aC
+5.02.128 dvaædva=upa-tÃp-a-garh-y-Ãt prÃïi-th-Ãt ini-÷
+5.02.129 vÃta=atÅ-sÃr-Ã-bhyÃm kuK ca
+5.02.130 vayas-i pÆr-aï-Ãt
+5.02.131 sukha=Ãdi-bhyas=ca
+5.02.132 dharma-ÓÅla-varïa=nt-Ãt=a
+5.02.133 hast-Ãt=jÃt-au
+5.02.134 varï-Ãt=brahma-cÃr-iï-i
+5.02.135 pu«kara=Ãdi=bhya÷=deÓ-e
+5.02.136 bala=Ãdi-bhya÷ matUP=nya-ara-yÃm
+5.02.137 saæj¤Ã-y-Ãm man-mÃ-hyÃm
+5.02.138 kam=Óam=hyÃæ ba-bha-yuS=ti-tu-ta-yaS-a÷
+5.02.139 tundi-vali-vaÂe-r bha-÷
+5.02.140 aham=subham-or yuS
+5.03.001 prÃk=diÓ-a÷=vi-bhak-ti-÷
+5.03.003 idam-a÷=iÁ
+5.03.004 eta=it-au ra-th-o÷
+5.03.005 etad-a÷=an
+5.03.006 sarva-sya sa-÷=anya-tara-syÃm d-i
+5.03.007 pa¤camy-Ãs=tasiL
+5.03.008 tase-s=ca
+5.03.009 pari=abhi-hyÃm=a
+5.03.010 saptamy-Ãs=traL
+5.03.011 idam-a÷=ha-÷
+5.03.012 kim-a÷=aT
+5.03.013 vÃ ha ca=chandas-i
+5.03.014 itarÃ-bhya÷=api d­Ó-y-ante
+5.03.015 sarva=eka=anya=kim-yad=tad-a÷ kÃl-e dÃ
+5.03.016 idam-a÷=rhiL
+5.03.017 adhunÃ
+5.03.018 dÃnÅm ca
+5.03.019 tad-a÷=dÃ ca
+5.03.020 tayor dÃ-rhiL-au ca=chandas-i
+5.03.021 an-adya-tan-e rhiL anya-tara-syÃm
+5.03.022 sadyas=parut-parÃri-ai«amas=pare-dyav-i=adya=pÆrve-dyus=anye-dyus=anya-tar-e-dyus=itar-e-dyus=apar-e-dyus=adhar-e-dyus=ubhay-e-dyus=uttar-e-dyu÷
+5.03.023 pra-kÃr-a-vac-an-e thÃL
+5.03.024 idam-as thamu-÷
+5.03.025 kim-as=ca
+5.03.026 thÃ het-au ca=chandas-i
+5.03.027 dik=Óabde-bhya÷ sapta-mÅ-pa¤ca-mÅ-prathamÃ-hya÷=diÓ-deÓa-kÃle-«u=astÃti-÷
+5.03.028 dak«iïa=uttarÃ-bhyÃm atasuC
+5.03.029 vibhÃ«Ã para=avarÃ-bhyÃ
+5.03.030 a¤ce-r luK
+5.03.031 upari=upari«ÂÃt
+5.03.032 paÓcÃt
+5.03.033 paÓca-paÓcÃ ca=chandas-i
+5.03.034 uttara=adhara=dak«iï-Ãt=Ãti-÷
+5.03.035 enaP=anya-tara-syÃm a-dÆre=a-a¤camy-Ã÷
+5.03.036 dak«iï-Ãt ÃC
+5.03.037 Ãhi ca dÆr-e
+5.03.038 uttar-Ãt=ca
+5.03.039 pÆrva=adhara=av arÃ-n-Ãm asi pur=adh=av-as=ca=e-«Ãm
+5.03.040 astÃt-i ca
+5.03.041 vibhÃ«Ã=avara-sya
+5.03.042 saækhyÃ-y-Ã÷=-vidhÃ=arth-e dhÃ
+5.03.043 adhi-kar-aïa-vi-cÃl-e ca
+5.03.044 ek-Ãt=dh-a÷=dhyamu¥=nya-ara-yÃm
+5.03.045 dvi-try-os=ca dhamu¥
+5.03.046 edhÃC ca
+5.03.047 yÃp-y-e pÃÓaP
+5.03.048 pÆraïÃt=bhÃg-e tÅy-Ãt=aN
+5.03.049 prÃk=ekÃ-daÓa-bhya÷=a-cchandas-i
+5.03.050 «a«Âha=a«Âa-Ã-hyÃm ¥a ca
+5.03.051 mÃna-paÓu=­ge-hya÷ kaN-luK-au ca
+5.03.052 ek-Ãt=ÃkiniC ca=a-sahÃy-e
+5.03.053 bhÆ-ta-pÆrv-e caraè
+5.03.054 «a«Âhy-Ã rÆpya ca
+5.03.055 ati-ÓÃy-an-e tamaP=i«ÂhaN-au
+5.03.056 ti§-as=ca
+5.03.057 dvi-vac-ana-vi-bhaj-ya=pa-pad-e taraP=ÅyasuN-au
+5.03.058 aC=Ãd-Å guïa-vac-an-Ãt=eva
+5.03.059 tu-s=chandas-i
+5.03.060 pra-Óas-ya-sya Óra-÷
+5.03.061 jya ca
+5.03.062 v­ddha-sya ca
+5.03.063 antika-bÃ¬hay-or neda-sÃdh-au
+5.03.065 vin-matOr luK
+5.03.066 pra-Óaæs-Ã-y-Ãm rÆpaP
+5.03.067 Å«ad-a-sam-Ãp-t-au kalpaP-deÓya-deÓÅyaR-a÷
+5.03.068 vibhÃ«Ã sUP-a÷=bahuC pur-astÃt tu
+5.03.069 pra-kÃr-a-vac-an-e jÃtÅyaR
+5.03.070 prÃk=iv-Ãt ka-÷
+5.03.071 avyaya-sarva-nÃmn-Ãm akaC prÃk èE-÷
+5.03.072 ka-sya ca da-÷
+5.03.073 a-j¤a-t-e
+5.03.074 kuts-i-t-e
+5.03.075 saæj¤Ã-y-Ãæ kaN
+5.03.076 anu-kamp-Ã-y-Ãm
+5.03.077 nÅ-t-au ca tad-yuk-t-Ãt
+5.03.078 bahv-aC-a÷ manu«ya-nÃmn=a÷ ÂhaC=vÃ
+5.03.079 ghaN-ilaC-au ca
+5.03.080 prÃc-Ãm upa=Ãde-r a¬aC=vuC-au ca
+5.03.081 jÃti-nÃmn-a÷ kaN
+5.03.082 ajina=anta-sya=uttara-ada-opas=ca
+5.03.083 Âha=aC=Ãd-au=Ærdhva-æ dvi-Åy-Ãt=C-a÷
+5.03.084 Óevala-supari-viÓÃla-varuïa-aryaman=ÃdÅ-n-Ãæ t­-tÅy-Ãt
+5.03.085 alp-e
+5.03.086 hrasv-e
+5.03.087 saæj¤Ã-y-Ãm kaN
+5.03.088 kuÂÅ-ÓamÅ-Óuï¬Ã-hya÷ ra-÷
+5.03.089 kutv-Ã÷ ÖupaC
+5.03.090 kÃsÆ-goïÅ-bhyÃæ åÂaraC
+5.03.092 kim=yad-tad-a÷ nir-hÃr-aï-e dvay-or eka-sya ÖataraC
+5.03.093 vÃ bahÆ-n-Ãæ jÃti-pari-praÓn-e ÖatamaC
+5.03.094 ek-Ãt=ca prÃc-Ãm
+5.03.095 ava-k«ep-aï-e kaN
+5.03.096 iv-e prati-k­-t-au
+5.03.097 saæj¤Ã-y-Ãæ ca
+5.03.098 lup=manu«y-e
+5.03.099 jÅvikÃ=arth-e ca-a-paï-y-e
+5.03.100 deva-patha=Ãdi-bhyas=ca
+5.03.101 vaste-r ¬ha¥
+5.03.102 ÓilÃ-y-Ã÷ ¬ha-÷
+5.03.103 ÓÃkhÃ=Ãdi-bhya÷ yaT
+5.03.104 drav-ya-æ ca bhav-y-e
+5.03.105 kuÓa=agr-at=cha-÷
+5.03.106 sam=Ãs=Ãt=ca tad-vi-«ay-Ãt
+5.03.107 ÓarkarÃ=Ãdi-bhya÷=a×
+5.03.108 a­guli=Ãdi-bhyas=ÂhaK
+5.03.109 eka-ÓÃlÃ-yÃ-s=ÂhaC=anya-tara-syÃm
+5.03.110 karka-lohit-Ãt=ÅkaK
+5.03.111 pratna-pÆrva-viÓva-im-Ãt thÃL chandas-i
+5.03.112 pÆg-Ãt=¥ya-÷=a-grÃmaïÅ-pÆrv-Ãt
+5.03.113 vrÃta-Cpha¥-r a-striy-Ãm
+5.03.114 Ã-yudh-a=jÅv-i-saæ-gh-Ãt-¥yaè=ÃhÅke-«u a-brÃhmaïa-rÃjan-y-Ãt
+5.03.115 v­k-Ãt=èeïya×
+5.03.116 dÃmani=Ãdi-tri-garta-«a«Âh-Ãt=ha-÷
+5.03.117 parÓu=Ãdi-yaudheya=Ãdi-hyÃm a×=a¥-au
+5.03.118 abhi-jit=vida-bh­t-ÓÃlÃ-vat=ÓikhÃ-vat=ÓamÅ-vat=ÆrïÃ-vat=Óru-mat=a×-a÷ ya¥
+5.03.119 ¥ya-Ãday-as tad-rÃjÃ-÷
+5.04.001 pÃda-Óata-sya saækhyÃ=Ãde-r vÅpsÃ-y-Ãm vuN lopa-s=ca
+5.04.002 daï¬a-vy-ava-sarg-ay-os=ca
+5.04.003 sthÆla=Ãdi-bhya÷ pra-kÃr-a-vac-an-e kaN
+5.04.004 an-aty-anta-ga-t-au Kt-Ãt
+5.04.005 na sÃmi-vac-an-e
+5.04.006 b­haty-Ã Ã-cchÃd-an-e
+5.04.007 a-«a¬-aks-a=ÃÓ-i-ta-æ-gu=alaæ-karman=alam-puru«a=adhy-uttara-pad-Ãt kha-÷
+5.04.008 vibhÃ«Ã=a¤ce-r a-dik-striy-Ãm
+5.04.009 jÃti=ant-Ãt=cha bandhu-n-i
+5.04.010 sthÃna=ant-Ãt=vibhÃ«Ã sa-sthÃn-ena=iti cet
+5.04.011 kim=eT=ti§=avyaya=GH-ùT=Ãmu=a-ravya-ra-ar«-e
+5.04.012 amu ca=chandas-i
+5.04.013 anu-gÃd-in-as=ÂhaK
+5.04.014 ×aC-as striy-Ãm a¥
+5.04.015 a× inu×-a÷
+5.04.016 vi-sÃr-iï-a÷ matsy-e
+5.04.017 saæ-khyÃ-y-Ã÷ kriyÃ=bhy-Ã-­t-ti-gaï-an-e k­tvasuC
+5.04.018 dvi-tri-catur-bhyÃm suC
+5.04.019 eka-sya sak­t=ca
+5.04.020 vibhÃ«Ã baho-r dhÃ=-vi-pra-­«-Âa-kÃl-e
+5.04.021 tat pra-k­-ta-vac-an-e mayaè
+5.04.022 sam-Æha-vat=ca bahu-«u
+5.04.023 an-anta=Ã-vas-atha=itiha=bhe«aj-Ãt=¥ya÷
+5.04.024 devata=ant-Ãt tÃd-arth-y-e yaT
+5.04.025 pÃda=arghÃ-bhyÃæ ca
+5.04.026 atithe-r ¥ya-÷
+5.04.027 dev-Ãt taL
+5.04.028 ave-÷ ka-÷
+5.04.029 yÃva=Ãdi-bhya÷ kaN
+5.04.030 lohit-Ãt=maï-au
+5.04.031 varï-e ca=a-nity-e
+5.04.032 rak-t-e
+5.04.033 kÃl-Ãt=ca
+5.04.034 vi-nay-a=Ãdi-bhyas=ÂhaK
+5.04.035 vÃc-a÷ vy-Ã-h­-ta=arthÃ-y-Ãm
+5.04.036 tad-yuk-t-Ãt karmaï-a÷=a×
+5.04.037 o«adhe-r a-jÃ-t-au
+5.04.038 pra-j¤a=Ãdi-bhyas=ca
+5.04.039 m­d-as tikaN
+5.04.040 sa-sn-au pra-Óaæs-Ã-y-Ãm
+5.04.041 v­ka-jye«ÂhÃ-hyÃæ tiL-tÃtiL-au ca=chandas-i
+5.04.042 bahu=alpa=arth-Ãt=Óas kÃrak-Ãd anya-ara-yÃm
+5.04.043 saækhyÃ=ekavacan-Ãt=a vÅpsÃ-y-Ãm
+5.04.044 prati-yog-e pa¤camy-Ãs tasi-÷
+5.04.045 apa=Ã-dÃn-e ca=a-hÅya-ruh-÷
+5.04.046 ati-grah-a=a-vyath-ana=k«epe-«u a-kar-tar-i t­-tÅyÃ-y-Ã÷
+5.04.047 hÅ-ya-m-Ãna-pÃpa-yog-Ãt=ca
+5.04.048 «a«-Âhy-Ã vy-Ã-Óray-e
+5.04.049 rog-Ãt=ca=apa-nay-an-e
+5.04.050 k­=bhÆ=as-ti-yog-e sam-pad-ya-ar-tar-i Cvi÷
+5.04.051 arus=manas=cak«us=cetas=rahas=rajas-Ãæ lopa-s=ca
+5.04.052 vibhÃ«Ã sÃti kÃrt-sn-y-e
+5.04.053 abhi-vi-dh-au sam-pad-Ã ca
+5.04.054 tad-adh-Åna-vac-an-e
+5.04.055 de-y-e trÃ ca
+5.04.056 deva-manu«ya-puru«a-puru-martye-hya÷ dvi-tÅy-Ã-apta-y-or bahulam
+5.04.057 a-vy-ak-ta-anu-kar-aï-Ãt=vi-aC=vara=ardh-Ãt an-it-au ÖÃC
+5.04.058 k­¤-a÷ dvi-tÅya-t­-tÅya-Óamba-bÅj-Ãt k­«-au
+5.04.059 saækhyÃ-y-a÷ guïa=anta-y-Ã÷
+5.04.060 sam-ay-Ãt=ca yÃp-anÃ-y-Ãm
+5.04.061 sa-pat-tra-ni«-pat-r-Ãt=ti-yath-n-e
+5.04.062 ni«-kul-Ãt=ni«-ko«-aï-e
+5.04.063 sukha-pri-y-Ãt Ãnu-lom-y-e
+5.04.064 du÷-kh-Ãt prÃti-lom-y-e
+5.04.065 ÓÆl-Ãt pÃk-e
+5.04.066 sat-y-Ãt a-Óap-ath-e
+5.04.067 mad-r-Ãt pari-vÃ-p-an-e
+5.04.068 sam-Ãsa=ant-Ã÷
+5.04.069 na pÆj-an-Ãt
+5.04.070 kim-a÷ k«ep-e
+5.04.071 na¥-as tatpuru«-Ãt
+5.04.072 path-a÷=vibhÃ«Ã
+5.04.073 bahvrÅh-au saækhy-ey-e ÖaC a-bahu-gaï-Ãt
+5.04.074 ­c=pur=ap=dhur-path-Ãm a=an-ak«-e
+5.04.076 ak«ï-a÷=a-darÓ-an-Ãt
+5.04.077 a-catur-a=vi-catur-a-su-catur-a-strÅ-uæs-a-dhenv-na¬uh-a=­k-Ãm-a=vÃ­-anas-a=ak«ibhruv-a=dÃra-gav-a=Ærv-«ÂhÅv-a-pad-a«ÂhÅv-a-nakta-æ-iv-a-ratri-æ-div-a=ahar-div-a-sa-rajas-a-ni÷-Óreyas-a-puru«Ãyus-a-dvy-Ãyu«-a-try-Ãyu«-a=­g-aju«-a-jÃtok«-a-mahok«-a-v­ddhok«-a=upa-Óun-a-go«Âha-Óv-Ã÷
+5.04.079 ava-sam-andhe-hyas tamas-a÷
+5.04.080 Óvas-a÷ vasÅyas=Óreyas-÷
+5.04.081 anu=ava-tap-t-Ãt rahas-a÷
+5.04.082 prate-r ur-as-a÷ sapta-mÅ-sth-Ãt
+5.04.083 anu-gav-a-m Ã-yÃm-e
+5.04.084 dvi-stÃvÃ tri-stÃvÃ vedi-÷
+5.04.085 upa-sarg-Ãt adhvan-a÷
+5.04.086 tatpuru«a-sya=­gule-÷ saækhyÃ-avyaya-Ãde-÷
+5.04.087 ahan=sarva=eka-deÓa-saæ-khyÃ-ta-puïy-Ãt=ca rÃtre-÷
+5.04.088 ahn-a÷ ahna-÷=ete-bhya÷
+5.04.089 na saækhyÃ=Ãde-÷ sam-Ã-hÃr-e
+5.04.090 ut-tama=ekÃ-bhyÃæ ca
+5.04.092 go-r a-taddhita-luK-i
+5.04.093 agra=Ã-khyÃ-y-Ãm uras-a÷
+5.04.095 grÃma-kauÂÃ-hyÃæ ca tak«ï-a÷
+5.04.096 at-e÷ Óuun-a÷
+5.04.097 upa-mÃ-n-Ãt a-prÃïi-«u
+5.04.098 ut-tara=m­ga-Ærv-Ãt=ca sakth-n-a÷
+5.04.099 nÃv-a÷=dvigo-÷
+5.04.100 ardh-Ãt=ca
+5.04.101 khÃry-Ã÷ prÃc-Ãm
+5.04.102 dvi-tri-hyÃm a¤jale-÷
+5.04.103 an-as-ant-Ãt napuæsak-Ãt=chandas-i
+5.04.104 brahmaï-a÷ jÃna-pada=ÃkhyÃ-y-Ãm
+5.04.105 ku-mahat=bhyÃm anya-ara-yÃm
+5.04.106 dvaædv-Ãt cU-da-«a=ha-nt-Ãt sam-Ã-Ãr-e
+5.04.107 avyayÅbhÃv-e Óarad=ra-bh­ti-bhya÷
+5.04.108 an-as=ca
+5.04.109 napuæsak-Ãt=any-tara-syÃm
+5.04.110 nadÅ-paurïa-mÃsÅ-Ãgra-Ãy-aïÅ-hya÷
+5.04.111 jhaY-a÷
+5.04.112 gire-s=ca senaka-sya
+5.04.113 bahuvrÅh-au sakthi=ak«ïo-÷ sva=­g-Ãt åaC
+5.04.114 a­gule-r dÃru-ï-i
+5.04.115 dvi-tri-bhyÃæ åa mÆrdhn-a÷
+5.04.116 aP pÆr-aï-Å-pra-mÃïy-o÷
+5.04.117 antar-bahir-bhyÃæ ca lomn-a÷
+5.04.118 aC=nÃsikÃ-y-Ã÷ saæj¤Ã-y-Ãæ nas-aæ ca a-sthÆ-l-e
+5.04.119 upa-sarg-Ãt=ca
+5.04.120 su-prÃt-a-su-Óv-a-su-div-a-ÓÃri-kuk«-a-catur-aÓr-a=eïÅ-pad-a=aja-pad-a-pro«Âha-ad-Ã-÷
+5.04.121 na¥-dus-su-hya÷ hali-sakthy-or anya-tara-yÃm
+5.04.122 nitya-m asiC prajÃ-medhay-o÷
+5.04.123 bahu-prajÃs=chandas-i
+5.04.124 dharm-Ãt=aniC keval-Ãt
+5.04.125 jambhÃ su-har-i-ta-t­ïa-some-hya÷
+5.04.126 dak«iïermÃ lub-dha-yog-e
+5.04.127 iC karma-vy-ati-hÃr-e
+5.04.128 dvi-daï¬-i=Ãdi-bhyas=ca
+5.04.129 pra-sam-bhyÃæ jÃnu-n-or j¤u-÷
+5.04.130 Ærdhv-Ãt vibhÃ«Ã
+5.04.131 Ædhas-a÷=ana§
+5.04.132 dhanu«-as=ca
+5.04.133 vÃ saæj¤Ã-y-Ãm
+5.04.134 jÃyÃ-y-Ã÷ ni§
+5.04.135 gandha-sya iT ud=pÆti-su-surabhi-hya÷
+5.04.136 alpa=Ã-khyÃ-y-Ãm
+5.04.137 upa-mÃn-Ãt=ca
+5.04.139 kumbha-pad-Å-«u ca
+5.04.140 saæ-khyÃ-su-pÆrva-sya
+5.04.141 vayas-i danta-sya datã
+5.04.142 chandas-i ca
+5.04.143 striy-Ãæ saæj¤Ã-y-Ãm
+5.04.144 vibhÃ«Ã ÓyÃva=arokÃ-bhyÃm
+5.04.145 agra=anta-Óuddha-Óubhra-v­«a-varÃhe-hyas=a
+5.04.146 kakuda-sya=ava-sthÃ-y-Ãæ lopa-÷
+5.04.147 tri-kakud=parvat-e
+5.04.148 ud=vi-bhyÃm kÃkuda-sya
+5.04.149 pÆrï-Ãt vibhÃ«Ã
+5.04.150 su-h­d=dur-h­d-au mitra=a-mitray-o÷
+5.04.151 uras=pra-bh­-ti-bhya÷ kaP
+5.04.152 in-a÷ striy-Ãm
+5.04.153 nadÅ=­T-as=ca
+5.04.154 Óe«-Ãt vibhÃ«Ã
+5.04.155 na saæj¤Ã-y-Ãm
+5.04.156 Åyas-as=ca
+5.04.157 vand-i-t-e bhrÃtu-÷
+5.04.158 ­T-as=chandas-i
+5.04.159 nÃ¬Å-tantry-o÷ sva=a­g-e
+5.04.160 ni«-pra-vÃïi-s=ca
+
+6.01.001 eka=aC-a÷=dv-e prathama-sya
+6.01.002 aC=Ãde-r dvi-tÅya-sya
+6.01.003 na=n-d-r-Ã÷ saæ-yog-a=Ãday-a÷
+6.01.004 pÆrva-÷ abhy-Ãs-a-÷
+6.01.005 ubh-e abhy-as-ta-m
+6.01.006 jak«-i-ti=Ãday-a÷ «aÂ
+6.01.007 tuj-ÃdÅ-nÃæ dÅrgha-÷=abhy-Ãs-a-sya
+6.01.008 lIè-i dhÃtor an-abhy-Ãs-a-sya
+6.01.009 saN-ya§-o÷
+6.01.010 Ál-au
+6.01.011 Ca§-i
+6.01.012 dÃÓ-vÃn sÃh-vÃn mÅ¬h-vÃn=ca
+6.01.013 åya§-a÷ sam-pra-sÃr-aïa-m putra-paty-os tatpuru«-e
+6.01.014 bandhu-n-i bahuvrÅh-au
+6.01.015 vaci-svapi-yajA=Ãdi-n-Ãæ K-IT-i
+6.01.016 grahi-jyÃ-vayi-vyadhi-va«-Âi-vic-a-ti-v­Óc-a-ti-p­chh-a-ti-bh­jj-a-tÅ-n-Ãm §-IT-i ca
+6.01.017 lIè-i=abhy-Ãs-a-sya=ubhaye-«Ãm
+6.01.018 svÃp-e-s=Ca§-i
+6.01.019 svapi-syami-vye¥-Ãm ya§-i
+6.01.020 na vaÓ-a÷
+6.01.021 cÃy-a÷ kÅ
+6.01.022 sphsÃy-a÷ sphÅ ni«ÂhÃ-y-Ãm
+6.01.023 sty-a÷ pra-pÆrva-sya
+6.01.024 drava-mÆrti-sparÓay-o÷ Óy-a÷
+6.01.025 prates=ca
+6.01.026 vibhÃ«Ã abhi=ava-pÆrva-sya
+6.01.027 Ó­-ta-m pÃk-e
+6.01.028 pyÃy-a÷ pÅ
+6.01.029 lIè=ya§-os=ca
+6.01.030 vibhÃ«Ã Óve-÷
+6.01.031 ×-au ca saN=Ca§-o÷
+6.01.032 hv-a÷ samprasÃraïam
+6.01.033 abhy-as-ta-sya ca
+6.01.034 bahula-m chandas-i
+6.01.035 cÃy-a÷ kÅ
+6.01.036 apa-sp­dh-e-thÃm=Ãn-­c-us=Ãn-­h-us-ci-cyu-«e-ti-tyÃj-a-ÓrÃtÃ-÷-Óri-tam=ÃÓÅr-ta÷
+6.01.037 na sam-pra-sÃr-aï-e sam-pra-sÃr-aïa-m
+6.01.038 lIè-i vay-o y-a÷
+6.01.039 va-s=ca=a-sya=anya-tara-syÃm K-IT-i
+6.01.040 ve¥-a÷
+6.01.041 LyaP-i ca
+6.01.042 jy-as=ca
+6.01.043 vy-as=ca
+6.01.044 vibhÃ«Ã pare-÷
+6.01.045 ÃT=eC-a÷=upa-deÓ-e=aÁ-IT-i
+6.01.046 na vy-a÷=lIè-i
+6.01.047 sphur-a-ti-sphul-a-ty-or GHa¥-i
+6.01.048 krÅ-i§-jÅ-n-Ãm ×-au
+6.01.049 sidh-ya-te-r a-pÃra-laukik-e
+6.01.050 mÅ-nÃ-ti-mi-no-ti-dÅ§-Ãæ LyaP-i ca
+6.01.051 vibhÃ«Ã lÅ-ya-te-÷
+6.01.052 khide-s=chandas-i
+6.01.053 apa-gur-o ×amuL-i
+6.01.054 ci-sphur-or ×-au
+6.01.055 pra-jan-e vÅ-ya-te-÷
+6.01.056 bi-bhe-te-r hetu-bhay-e
+6.01.057 nitya-æ smay-a-te-÷
+6.01.058 s­ji-d­Ó-or jhaL-i=aM=a-K-IT-i
+6.01.059 anudÃtta-sya ca=­T=padha-sya=nya-tara-syÃm
+6.01.060 ÓÅr«an=chandas-i
+6.01.061 y-e ca taddhit-e
+6.01.062 aC-i ÓÅr«a-÷
+6.01.063 pad-dat=nas=mÃs=h­d=niÓ=asan=yÆ«an=do«an=yakan=Óakan-udan=Ãsan Áas-pra-bh­-ti-«u
+6.01.064 dhÃtv=Ãde÷ «-a÷ sa-÷
+6.01.065 ï-a÷ na-÷
+6.01.066 lopo v-y-or vaL-i
+6.01.067 ve-r a-p­k-ta-sya
+6.01.068 haL=§Å=ÃP=bh ya÷ dÅrgh-Ãt sU-ti-si=a-p­k-ta-m haL
+6.01.069 e§=hrasv-Ãt sam-bud-dhe-÷
+6.01.070 Áe-s=chandas-i bahula-m
+6.01.071 hrasva-sya P-IT-i k­t-i tuK
+6.01.072 saæ-hitÃ-y-Ãm
+6.01.073 ch-e ca
+6.01.074 Ã§-mÃ§-os=ca
+6.01.075 dÅrgh-Ãt
+6.01.076 pada=ant-Ãt=vÃ
+6.01.077 iK-a÷ ya× aC-i
+6.01.078 eC-a÷=ay-av-Ãy-Ãv-a÷
+6.01.079 va=anta-÷ y-i praty-ay-e
+6.01.080 dhÃto-s tan-nimitta-sya=eva
+6.01.081 k«ay-ya-jay-ya-au Óakya=arth-e
+6.01.082 kray-ya-s tad-arth-e
+6.01.083 bhay-ya- pra-vay-y-e ca=chandas-i
+6.01.084 eka-÷ pÆrva-paray-o÷
+6.01.085 anta=Ãdi-vat=ca
+6.01.086 «a-tva-tuK-or a-sid-dha-÷
+6.01.087 Ãt=guïa-÷
+6.01.088 v­d-dhi-r eC-i
+6.01.089 e-ti=edh-a-ti=ÆèH-su
+6.01.090 Ãè-as=ca
+6.01.091 upa-sarg-Ãt ­T-i dhÃt-au
+6.01.092 vÃ sUP-y ÃpiÓale-÷
+6.01.093 Ã=oT-a÷=am-Áas-o÷
+6.01.094 e§-i para-rÆpa-m
+6.01.095 om=Ã§-os=ca
+6.01.096 us-i a-pada=ant-Ãt
+6.01.097 aT-a÷=guï-e
+6.01.098 a-vyak-ta=anu-kar-aïa-sya=at-a÷ it-au
+6.01.099 na=Ã-mre¬-i-ta-sya=ant-ya-sya tu vÃ
+6.01.100 nitya-m Ã-mre¬-i-t-e ÖÃC-i
+6.01.101 aK-a÷ sa-varï-e dÅrgha-÷
+6.01.102 prathamay-o÷ pÆrva-savarïa-÷
+6.01.103 ta-smÃt=Áas-a÷=na-÷ puæs-i
+6.01.104 na=Ãt=iC-i
+6.01.105 dÅrgh-Ãt=Jas-i ca
+6.01.106 vÃ chandas-i
+6.01.107 am-i pÆrva-÷
+6.01.108 sam-pra-sÃr-aï-Ãt=ca
+6.01.109 e§-a÷ pada=ant-Ãt=aT-i
+6.01.110 §asI-§as-os=ca
+6.01.111 ­T-a÷=uT
+6.01.112 khya-ty-Ãt para-sya
+6.01.113 aT-a÷=rO-÷=a-plut-Ãt=a-plut-e
+6.01.114 haÁ-i ca
+6.01.115 pra-k­-ty-Ã=anta÷-pÃda-m a-v-y-a-par-e
+6.01.116 avyÃt=avadyÃt=ava-kramus=a-vrata=ayam=avantu=av as-yu-«u
+6.01.117 yaju«-i=ura÷
+6.01.118 Ãpo=jusÃïo=v­«ïo=var«-i«Âhe=ambe=ambÃle=ambike-pÆrv-e
+6.01.119 a­ga ity-Ãd-au ca
+6.01.120 anu-dÃtt-e ca kU-dha-par-e
+6.01.121 a-vap-a-thÃs-i ca
+6.01.122 sarva-tra vibhÃ«Ã go-÷
+6.01.123 ava§ sphoÂÃyana-sya
+6.01.124 indr-e (nitya-m*)
+6.01.125 plu-ta=pra-g­h-y-Ã-÷ aC-i nitya-m
+6.01.126 Ã§-a÷=anu-nÃs-ika-s=chandas-i
+6.01.127 iK-a÷=a-sa-varï-e ÓÃkalya-sya hrasvaÓs=ca
+6.01.128 ­T-y aK-a÷
+6.01.129 a-plu-ta-vat=upa-sthi-t-e
+6.01.130 Å3 cÃkra-varmaï-a-sya
+6.01.131 div-a÷=uT
+6.01.132 etad=tad-o÷ sU-lopa-÷=a-k-o÷ a-na¥-sam-Ãs-e haL-i
+6.01.133 sya-Ó chandas-i bahula-m
+6.01.134 s-a÷=aC-i lop-e cet pÃda-pÆr-aïa-m
+6.01.135 suè k-at pÆrva-÷
+6.01.136 aè=abhyÃsa-vy-av-Ãy-e=api
+6.01.137 sam-pari=upe-bhy÷ kar-o-t-au bhÆ«-aï-e
+6.01.138 sam-av-Ãy-e ca
+6.01.139 up-Ãt prati-yat-na-vai-k­-ta-vÃkya=dhy-Ã-hÃr-e-«u
+6.01.140 kir-a-t-au lav-an-e
+6.01.141 hiæsÃ-y-Ãm prate-s=ca
+6.01.142 ap-Ãt=catu«-pÃd=Óakuni-«u=Ã-lekh-an-e
+6.01.143 ku-s-tumburÆ-ï-i jÃ-ti-÷
+6.01.144 a-para-s-par-Ã-÷ kriy-Ã-sÃtat-y-e
+6.01.145 go-«-pada-m sevita=a-sevita-pramÃïe-«u
+6.01.146 Ã-s-pada-m prati-«ÂhÃ-y-Ãm
+6.01.147 Ã-Ó-car-ya-m a-ni-ty-e
+6.01.148 varc-as-k-e=ava-s-kar-a-÷
+6.01.149 apa-s-kar-o ratha=a­ga-m
+6.01.150 vi-«-kir-a-÷ Óakuni-r vÃ
+6.01.151 hrasv-Ãt=candra=ut-tara-pad-e mantr-e
+6.01.152 prati-«-kaÓa-s=ca kaÓe-÷
+6.01.153 pra-s-kaïva-hari-s-candr-au=­«-Å
+6.01.154 ma-s-kar-a-ma-s-kar-iï-au veïu-pari-vrÃj-akay-o÷
+6.01.155 kÃ-s-tÅra=aja-s-tund-e nagar-e
+6.01.156 kÃr-a-s-kar-o v­k«a-÷
+6.01.157 pÃra-s-kar-a=pra-bh­-tÅ-n-i ca saæj¤Ã-y-Ãm
+6.01.158 an-udatta-m pada-m eka-varja-m
+6.01.159 kar«-a=ÃT-vat-a÷ GHa¥-a÷=anta=dÃtta-÷
+6.01.160 u¤ch-a=ÃdÅ-n-Ãæ ca
+6.01.161 an-udÃtta-sya ca yatra=udÃtta-lopa-÷
+6.01.162 dhÃto-÷
+6.01.163 C-IT=a÷
+6.01.164 taddhita-sya
+6.01.165 K-IT-a÷
+6.01.166 tis­-bhya÷ Jas-a÷
+6.01.167 catur-a÷ Áas-i
+6.01.168 s-au eka=aC-as=t­-tÅyÃ=Ãdir vi-bhak-ti-÷
+6.01.169 anta=datt-Ãt=ittara-pad-Ãt=nya-tara-yÃm a-nitya-am-Ãs-e
+6.01.170 a¤ce-s=chandas-i=a-sarva-Ãma-sthÃ-ne
+6.01.171 ÆèH=idam=pad-Ãdi=ap-pum-rai-dyu-bhya÷
+6.01.172 a«Âan-o dÅrgh-Ãt
+6.01.173 Áatu-r a-nuM-a÷ nadÅ=aC=ÃdÅ
+6.01.174 udÃtta-ya×-a÷ haL-pÆrv-Ãt
+6.01.175 na=Æ§-dhÃtv-o÷
+6.01.176 hrasva-nuè=bhyÃm matUP
+6.01.177 n-Ãm anya-tara-syÃm
+6.01.178 §y-Ãs=chandas-i bahula-m
+6.01.179 «a«-tri-catur-bhya÷ haL=Ãdi-÷
+6.01.180 jhaL-i upottama-m
+6.01.181 vibhÃ«Ã bhÃ«Ã-y-Ãm
+6.01.182 na go-Óvan-sAU=a-varïa=rÃj=a­=kru­=k­d-bhya÷
+6.01.183 div-o jhaL
+6.01.184 n­ ca=anya-tara-syÃm
+6.01.185 T=IT svar-i-ta-m
+6.01.186 tÃsi=an-udÃtta=IT=§IT=aT=upa-deÓ-Ãt la-sÃrvadhÃtuka-m anu-dÃttam a-hnu=i§-o÷
+6.01.187 Ãdi-÷ siC-a÷=anya-tara-syÃm
+6.01.188 svap=Ãdi=hiæs-Ãm aC-i=an-iè-i
+6.01.189 abhy-as-tÃ-n-Ãm Ãdi-÷
+6.01.190 an-udÃtt-e ca
+6.01.191 sarva-sya sUP-i
+6.01.192 bhÅ-hrÅ-bh­-hu-mada-janA-dhanA-daridrÃ-jÃgar-Ãm pÆrva-m P-IT-i
+6.01.193 L-IT-i
+6.01.194 Ãdi-r ×amuL-i=anya-tara-syÃm
+6.01.195 aC-a÷ kar-t­-yaK-i
+6.01.196 thaL-i ca sa-iè-i=iè=anta-÷=vÃ
+6.01.197 ¥-N-IT-y Ãdi-r nitya-m
+6.01.198 Ã-mantr-ita-sya ca
+6.01.199 pathi-math-o÷ sarvanÃmasthÃn-e
+6.01.200 antas=ca tavai yugapat
+6.01.201 k«ay-a-÷ ni-vÃs-e
+6.01.202 jay-a-÷ kar-aïa-m
+6.01.203 v­«a=ÃdÅ-n-Ãæ ca
+6.01.204 saæj¤Ã-y-Ãm upa-mÃ-na-m
+6.01.205 ni«ÂhÃ ca dvy-aC an-ÃT
+6.01.206 Óu«-ka=dh­«-Â-au
+6.01.207 ÃÓ-i-ta-÷ kar-tÃ
+6.01.208 rik-t-e vibhÃ«Ã
+6.01.209 ju«-Âa=ar-p-i-t-e ca=chandas-i
+6.01.210 nitya-æ mantr-e
+6.01.211 yu«mad=asmad-or §as-i
+6.01.212 §ay-i ca
+6.01.213 yaT-a÷=a-nÃv-a÷
+6.01.214 Å¬A-vanda-v­-Óaæsa-duh-Ãæ ×yaT-a÷
+6.01.215 vibhÃ«Ã veïu=indhÃnay-o÷
+6.01.216 tyÃg-a-rÃg-a=hÃs-a-kuh-a-ÓvaÂh-a-krath-Ã-n-Ãm
+6.01.217 upa=ut-tama-m R-IT-i
+6.01.218 Ca§-i=anya-tara-syÃm
+6.01.219 matO-÷ pÆrva-m ÃT saæj¤Ã-y-Ãæ striy-Ãm
+6.01.220 anta-÷=avaty-Ã÷
+6.01.221 Å-vaty-Ã÷
+6.01.222 c-au
+6.01.223 sam-Ãs-a-sya
+6.02.001 bahu-vrÅh-au pra-k­-ty-Ã pÆrva-pada-m
+6.02.002 tatpuru«-e tulya=artha-t­-tÅyÃ-saptamÅ-upamÃna=avyaya-dvi-tÅyÃ-k­tyÃ-÷
+6.02.003 varïa-÷ varïe-«u=an-et-e
+6.02.004 gÃdha-lavaïay-o÷ pra-mÃ-ï-e
+6.02.005 dÃyÃd-ya-æ dÃy-Ã-d-e
+6.02.006 prati-bandh-i cira-k­cchray-o÷
+6.02.007 pad-e=apa-deÓ-e
+6.02.008 ni-vÃt-e vÃta-trÃ-ï-e
+6.02.009 ÓÃrad-e an-Ãrtav-e
+6.02.010 adhvaryu-ka«Ãyay-or jÃ-t-au
+6.02.011 sa-d­Ó-a-prati-rÆpay-o÷ sÃd­Óy-e
+6.02.012 dvig-au pra-mÃ-ï-e
+6.02.013 gan-tavya-paï-ya-æ vÃïij-e
+6.02.014 mÃtrÃ=upa-j¤Ã=upa-kram-a=chÃy-e na-puæs-ak-e
+6.02.015 sukha-priyay-or hi-t-e
+6.02.016 prÅ-t-au ca
+6.02.017 sva-m svÃmin-i
+6.02.018 paty-au=aiÓ-var-y-e
+6.02.019 na bhÆ-vÃc=cit=didhi«u
+6.02.020 vÃ bhuv-ana-m
+6.02.021 Ã-Óa­ka=Ã-bÃdha-ned-Åyas-su sam-bhÃv-an-e
+6.02.022 pÆrv-e bhÆ-ta-pÆrv-e
+6.02.023 sa-vidha-sa-nÅ¬a-sa-mar-yÃda-sa-veÓa-sa-deÓe-«u sÃmÅp-y-e
+6.02.024 vi-spa«-Âa=ÃdÅ-n-i guïa-vac-ane-«u
+6.02.025 Óra-jya=avama-kan-pÃpa-vat-su bhÃv-e karma-dhÃr-ay-e
+6.02.026 kumÃra-s=ca
+6.02.027 Ãdi-÷ praty-enas-i
+6.02.028 pÆge-«u=anya-tara-syÃm
+6.02.029 iK=anta=kÃla-kapÃla-bhagÃla-ÓarÃve-«u dvig-au
+6.02.030 bahu=anya-tara-syÃm
+6.02.031 di«-Âi-vi-tas-ty-os=ca
+6.02.032 sapta-m-Å sid-dha-Óu«-ka-pak-va-bandhe-«u=a-kÃl-Ãt
+6.02.033 pari-prati=upa=ap-Ã-÷ varj-ya-m-Ãna=aho-rÃtra=va-yave-«u
+6.02.034 rÃjan-ya-bahu-vac-ana-dvaædv-e andhaka-v­«ïi-«u
+6.02.035 saæ-khy-Ã
+6.02.036 Ã-cÃr-ya=upa-sarj-anas=ca=nte-vÃs-Å
+6.02.037 kÃrta-kaujapa=Ãday-a÷
+6.02.038 mahÃn vrÅhi=apar-Ã-hïa=g­«Âi=i«v-Ãsa-jÃbÃla-bhÃra-bhÃrata-hailihila-raurava-pra-v­d-dhe-«u
+6.02.039 k«ullaka-s=ca vaiÓva-dev-e
+6.02.040 u«Âra-÷ sÃdi-vÃmy-o÷
+6.02.041 gau-÷ sÃd-a-sÃd-i-sÃrathi-«u
+6.02.042 kuru-gÃrha-pat-a-rik-ta-guru=a-sÆ-ta-jar-at-Å=a-ÓlÅ-la-d­-¬ha-rÆp-Ã-pÃre-va¬avÃ-taittila-kadrÆ-÷-païya=ambala-÷=ÃsÅ-bhÃrÃ-ï-Ãæ ca
+6.02.043 caturthÅ tad-arthe
+6.02.044 arth-e
+6.02.045 Kt-e ca
+6.02.046 karma-dhÃray-e=a-ni«ÂhÃ
+6.02.047 a-hÅ-n-e dvi-tÅyÃ
+6.02.048 t­-tÅyÃ kar-maï-i
+6.02.049 ga-ti-r an-antara-÷
+6.02.050 ta=Ãd-au ca N-IT-i k­t-i=a-t-au
+6.02.051 tavai ca=anta-s=ca yugapat
+6.02.052 an-iK=anta-÷=a¤c-a-t-au va-praty-ay-e
+6.02.053 ni=adh-Å ca
+6.02.054 Å«at=anya-tara-syÃm
+6.02.055 hiraïya-pari-mÃ-ïa-æ dhan-e
+6.02.056 prathama-÷=a-cira=pa-am-at-t-au
+6.02.057 k-atara- k-atam-au karmadhÃray-e
+6.02.058 Ãrya-÷ brÃhmaïa-kumÃray-o÷
+6.02.059 rÃjÃ ca
+6.02.060 «a«ÂhÅ praty-enas-i
+6.02.061 Kt-e nitya=arth-e
+6.02.062 grÃma-÷ Óilpin-i
+6.02.063 rÃjÃ ca pra-ÓaæsÃ-y-Ãm
+6.02.064 Ãdi-r udÃtta-÷
+6.02.065 saptamÅ-hÃr-iï-au dharm-y-e=a-har-aï-e
+6.02.066 yuk-t-e ca
+6.02.067 vibhÃ«Ã=adhy-ak«-e
+6.02.068 pÃpa-æ ca Óilp-in-i
+6.02.069 gotra=antevÃsi(n)=mÃïava-brÃhmaïe-«u k«ep-e
+6.02.070 a­gÃ-n-i mair-ey-e
+6.02.071 bhak-ta=Ã-khy-Ãs tad-arthe-«u
+6.02.072 go-bi¬Ãla-siæha-saindhave-«u upa-mÃ-n-e
+6.02.073 ak-e jÅv-ik-Ã=arth-e
+6.02.074 prÃc-Ãæ krÅ¬Ã-y-Ãm
+6.02.075 a×-i ni-yuk-t-e
+6.02.076 Óilp-in-i ca a-k­¥-a÷
+6.02.077 saæj¤Ã-y-Ãæ ca
+6.02.078 go-tanti-yava-m pÃl-e
+6.02.079 ×in-i
+6.02.080 upa-mÃ-nam Óabda=rtha-pra-k­-t-au=va
+6.02.081 yuk-ta=Ã=roh-i(n)=Ãday-as=ca
+6.02.082 dÅrgha-kÃÓa-tu«a-bhrÃ«Âra-vaÂa-m j-e
+6.02.083 ant-y-Ãt pÆrva-m bahv-aC-a÷
+6.02.084 grÃm-e a-ni-vas-ant-a÷
+6.02.085 gho«a=Ãdi-«u
+6.02.086 chÃttri=Ãday-as ÓÃlÃ-y-Ãm
+6.02.087 pra-sth-e=a-v­d-dha-m a-karkÅ=ÃdÅ-n-Ãm
+6.02.088 mÃlÃ=ÃdÅ-n-Ãæ ca
+6.02.089 a-mahat=nava-æ nagar-e=an-udÅc-Ãm
+6.02.090 arm-e ca a-varïa-m dvy-aC try-aC
+6.02.091 na bhÆ-ta=adhi-ka-saæ-jÅva-madra=aÓma(n)=kajjala-m
+6.02.092 anta-÷
+6.02.093 sarva-æ guïa-kÃrtsn-y-e
+6.02.094 saæj¤Ã-y-Ãæ giri-ni-kÃyay-o÷
+6.02.095 kumÃry-Ãæ vayas-i
+6.02.096 udak-e=Ac(a)-keval-e
+6.02.097 dvig-au krat-au
+6.02.098 sabhÃ-y-Ãæ napuæsak-e
+6.02.099 pur-e prÃc-Ãm
+6.02.100 a-ri«-Âa-gau¬a-pÆrv-e ca
+6.02.101 na hÃstina-phala-ka-mÃrdey-Ã-÷
+6.02.102 kusÆla-kÆpa-kumbha-ÓÃla-m bil-e
+6.02.103 dik=Óabd-Ã-÷ grÃma-jana-pada=Ã-khyÃ-na-cÃnarÃÂe-«u
+6.02.104 Ã-cÃr-ya=upa-sarj-anas=ca=nte-vÃsÅ
+6.02.105 ut-tara-pada-v­d-dh-au sarva-æ ca
+6.02.106 bahu-vrÅh-au viÓva-æ saæj¤a-yÃm
+6.02.107 udara=aÓva=i«u-«u
+6.02.108 k«ep-e
+6.02.109 nadÅ bandhu-n-i
+6.02.110 ni«ÂhÃ=upa-sarg-a-pÆrva-m anya-tara-syÃm
+6.02.111 uttara-pada=Ãdi÷
+6.02.112 karïa-÷ varïa-lak«aï-Ãt
+6.02.113 saæj¤Ã=aupam-yay-os=ca
+6.02.114 kaïÂha-p­«Âha-grÅvÃ-jangha-æ ca
+6.02.115 Ó­­ga-m ava-sthÃ-y-Ãæ ca
+6.02.116 na¥-a÷=jar-a-mar-a-mi-tra-m­-t-Ã-÷
+6.02.117 so-r man-as-Å=a-loma(n)=u«as-Å
+6.02.118 kratu=Ãday-a÷
+6.02.119 Ãdi=udÃttaæ dvy-aC chandas-i
+6.02.120 vÅra-vÅr-y-au ca
+6.02.121 kÆla-tÅra-tÆla-mÆla-ÓÃlÃ=ak«a-sama-m avyayÅ-bhÃv-e
+6.02.122 kaæsa-mantha-ÓÆrpa-pÃyya-kÃï¬a-æ dvig-au
+6.02.123 tatpuru«-e ÓÃlÃ-y-Ãæ na-puæs-ak-e
+6.02.124 kanthÃ ca
+6.02.125 Ãdi-s=cihaïa=ÃdÅ-n-Ãm
+6.02.126 cela-kheÂa-kaÂuka-kÃï¬a-æ garhÃ-y-Ãm
+6.02.127 cÅra-m upa-mÃ-na-m
+6.02.128 palala-sÆpa-ÓÃka-m miÓr-e
+6.02.129 kÆla-sÆda-sthala-kar«-Ã-÷ saæj¤Ã-y-Ãm
+6.02.130 a-karmadhÃray-e rÃj-ya-m
+6.02.131 vargya=Ãday-as=ca
+6.02.132 put-ra-÷ puæ-bhya÷
+6.02.133 na=Ã-cÃr-ya-rÃja(n)=­tv-ij-saæ-yuk-ta-j¤Ã-ti=Ã-khyÃ-y-Ãm
+6.02.134 cÆrïa-ÃdÅ-n-i=a-prÃïi-«a«Âhy-Ã÷
+6.02.135 «aÂ ca kÃï¬a-ÃdÅ-n-i
+6.02.136 kuï¬a-æ vana-m
+6.02.137 pra-k­-ty-Ã bhagÃla-m
+6.02.138 Óite-r nitya=a=bah-v=C=ahuvrÅh-au=a-bhasat
+6.02.139 ga-ti-kÃr-aka=upa-pad-Ãt k­t
+6.02.140 ubh-e vanas-pati-Ãdi-«u yugapat
+6.02.141 deva-tÃ-dvaædv-e ca
+6.02.142 na=uttara-pad-e=anudÃtta=Ãd-au=a-p­thivÅ-rudra-pÆ«a(n)=manthi-«u
+6.02.143 anta-÷
+6.02.144 tha=atha-GHa¥-Kta=aC=aP=itra-KÃ-ï-Ãm
+6.02.145 su=upa-mÃ-n-Ãt Kta-÷
+6.02.146 saæj¤Ã-y-Ãm an-Ã-ci-ta=ÃdÅ-n-Ãm
+6.02.147 pra-v­d-dha-ÃdÅ-n-Ãæ ca
+6.02.148 kÃrak-Ãt=datta=Óru-tay-or eva ÃÓi«-i
+6.02.149 ittham-bhÆt-ena k­-ta-m iti ca
+6.02.150 ana-÷ bhÃva-karma-vac-ana-÷
+6.02.151 man-KtiN=vyÃ-khyÃ-na-Óay-ana=Ãs-ana-sthÃ-na-yÃj-aka=Ãdi-krÅ-t-Ã-÷
+6.02.152 saptamy-Ã÷ puïya-m
+6.02.153 Æna=artha-kalaha-m t­-tÅya-y-Ã÷
+6.02.154 miÓra-æ ca=an-upa-sarga-m a-saæ-dh-au
+6.02.155 na¥-a÷ guïa-prati-«edh-e sam-pÃd-i(n)=arha-hi-ta=alam-arth-Ã-s taddhit-Ã-÷
+6.02.156 ya-yaT-os=ca a-tad-arth-e
+6.02.157 aC=K-au=a-Óak-t-e
+6.02.158 Ã-kroÓ-e ca
+6.02.159 saæ-j¤Ã-y-Ãm
+6.02.160 k­t-ya=uka=i«ïuC-cÃru=Ãday-a÷
+6.02.161 vibhÃ«Ã t­N=anna-tÅk«-ïa-Óuci-«u
+6.02.162 bahuvrÅh-au=idam=etad=tad-hya÷ prathama-pÆr-aïay-o÷ kriyÃ-gaï-an-e
+6.02.163 saæ-khyÃ-y-Ã÷ stana-÷
+6.02.164 vibhÃ«Ã chandas-i
+6.02.165 saæj¤Ã-y-Ãm mitra=ajinay-o÷
+6.02.166 vy-av-Ã-y-in-a÷=antaram
+6.02.167 mukha-æ sva=a­ga-m
+6.02.168 na=a-vy-aya=dik=Óabda-go-mahat-sthÆ-la-mu«Âi-p­thu-vatse-bhya÷
+6.02.169 ni«ÂhÃ=upa-mÃ-n-Ãt=nya-tara-syÃm
+6.02.170 jÃ-ti-kÃla-sukha=Ãdi-bhya÷=an-Ã-cchÃd-an-Ãt Kta-÷=a-k­-ta-mi-ta-prati-pan-n-Ã-÷
+6.02.171 vÃ jÃ-t-e
+6.02.172 naN-subhyÃm
+6.02.173 kaP-i pÆrva-m
+6.02.174 hrasva=ant-e ant-y-Ãt pÆrva-m
+6.02.175 baho-r na¥-vat=t-tara-pada-hÆmn-i
+6.02.176 na guïa=Ãday-a÷=ava-yav-Ã÷
+6.02.177 upa-sarg-Ãt sva=a­gam dhruva-m a-parÓu
+6.02.178 vana-æ sam-Ãs-e
+6.02.179 anta÷
+6.02.180 anta-s=ca
+6.02.181 na ni-vi-bhyÃm
+6.02.182 pare-r abhito-bhÃv-i-maï¬ala-m
+6.02.183 pr-Ã-t=a-sva=a­ga-æ saæj¤Ã-y-Ãm
+6.02.184 nir-udaka=ÃdÅ-n-i ca
+6.02.185 abhe-r mukha-m
+6.02.186 ap-Ãt=ca
+6.02.187 sphiga-pÆ-ta-vÅïÃ-a¤jas=adhva(n)=kuk«i-sÅra-nÃma-nÃma ca
+6.02.188 adhe-r upari-stha-m
+6.02.189 ano-r a-pra-dhÃ-na-kan-Åyas-Å
+6.02.190 puru«as=ca anv=Ã-di«-Âa-÷
+6.02.191 ate-r a-k­t-pad-e
+6.02.192 ne-r a-ni-dhÃ-n-e
+6.02.193 prate-r aæÓu=Ãday-as tatpuru«-e
+6.02.194 up-Ãt dvy-aC=ajina-m a-gaura-Ãday-a÷
+6.02.195 so-r ava-k«ep-a-ï-e
+6.02.196 vibhÃ«Ã=ut-pucch-e
+6.02.197 dvi-tri-bhyÃm pad-dat=mÆrdha-su bahuvrÅh-au
+6.02.198 saktha-æ ca=a-kra=ant-Ãt
+6.02.199 para=Ãdi-s=chandas-i bahula-m
+6.03.001 a-luK=udttara-pad-e
+6.03.002 pa¤camy-Ã÷ stoka=Ãdi-bhya÷
+6.03.003 ojas=sahas=ambhas=tamas-as t­-tÅya-y-Ã÷
+6.03.004 man-as-as=saæj¤Ã-y-Ãm
+6.03.005 Ã-j¤Ã-y-in-i ca
+6.03.006 Ãt-man-as=ca pÆr-aï-e
+6.03.007 vai-y-Ã-kar-aïa=Ã-khyÃ-y-Ãm caturthy-Ã÷
+6.03.008 para-sya ca
+6.03.009 haL=aT=ant-Ãt saptamy-Ã÷ saæj¤Ã-y-Ãm
+6.03.010 kÃra-nÃmn-i ca prÃc-Ãæ haL=Ãd-au
+6.03.011 madhy-Ãd gur-au
+6.03.012 a-mÆrdha(n)=mastak-Ãt sva=a­g-Ãt a-kÃm-e
+6.03.013 bandh-e ca vibhÃ«Ã
+6.03.014 tatpuru«-e k­t-i bahula-m
+6.03.015 prÃ-v­«=Óarad-kÃla-div-Ãæ j-e
+6.03.016 vibha«a var«a-k«ara-Óara-var-Ãt
+6.03.017 GHA-kÃla-tane-«u kÃla-nÃmn-a÷
+6.03.018 Óaya-vÃsa-vÃsi-«u=a-kÃl-Ãt
+6.03.019 na=in=sid-dha-badh-nÃ-ti-«u
+6.03.020 sth-e ca bhÃ«Ã-y-Ãm
+6.03.021 «a«Âhy-Ã÷=Ã-kroÓ-e
+6.03.022 putr-e anya-tara-syÃm
+6.03.023 ­T-o vid-y-Ã-yoni-sam-bandhe-hya÷
+6.03.024 vibhÃ«Ã svas­=paty-o÷
+6.03.025 Ãna§ ­T-a÷=dvaædv-e
+6.03.026 deva-tÃ-dvaædv-e ca
+6.03.027 ÅT=agne-÷ soma-varuïay-o÷
+6.03.028 iT=v­d-dh-au
+6.03.029 div-a÷=dyÃvÃ
+6.03.030 divasa-s=ca p­thivy-Ãm
+6.03.031 u«ÃsÃ=u«as-a÷
+6.03.032 mÃtara-pitar-au udÅc-Ãm
+6.03.033 pitarÃ-mÃtarÃ ca=chandas-i
+6.03.034 striy-Ã÷ puæ-vat=hÃ«-i-ta-puæsk-Ãt an-Æ§ sa-mÃ-na=adhi-kar-aï-e striy-Ãm a-pÆr-aïÅ-priyÃ=Ãdi-«u
+6.03.035 tasiL=Ãdi-«u Ã k­tvasuC-a÷
+6.03.036 Kya§=mÃn-in-os=ca
+6.03.037 na ka=upa-dhÃ-y-Ã÷
+6.03.038 saæj¤Ã-pÆraïy-os=ca
+6.03.039 v­d-dhi-ni-mit-ta-sya ca taddhita-sya a-rak-ta-vi-kÃr-e
+6.03.040 sva=a­g-Ãt=ca ÅT-a÷=a-mÃn-in-i
+6.03.041 jÃte-s=ca
+6.03.042 puæ-vat karma-dhÃraya-jÃtÅya-deÓÅye-«u
+6.03.043 GHA-rÆpa-kalpa-celaè-bruva-gotra-mata-hate-«u §ya÷=an-eka=aC-a÷ hrasva-÷
+6.03.044 nady-Ã÷ Óe«a-sya=anya-tara-syÃm
+6.03.045 uK=IT-as=ca
+6.03.046 ÃT=mahat-a÷ sa-mÃ-na=adhi-kar-aïa-jatÅyay-o÷
+6.03.047 dvy-a«Âan-a÷ saækhyÃ-y-Ãm a-bahuvrÅhi=aÓÅty-o÷
+6.03.048 tre-s traya÷
+6.03.049 vibhÃ«Ã catvÃriæÓat-pra-bh­-t-au sarve-«Ãm
+6.03.050 h­daya-sya h­d=lekha-yaT=a×-lÃse-«u
+6.03.051 vÃ Óoka-åya¥-roge-«u
+6.03.052 pÃda-sya pada=Ãji=Ãti=ga-upa-ha-te-«u
+6.03.053 pad yaT-i=a-tad-arth-e
+6.03.054 hima-kÃ«i-ha-ti-«u ca
+6.03.055 ­c-a÷ Ó-e
+6.03.056 vÃ gho«a-miÓra-Óabde-«u
+6.03.057 udaka-sya uda-÷ saæj¤Ã-y-Ãm
+6.03.058 pe«am-vÃs-a-vÃh-ana-dhi-«u
+6.03.059 eka-haL=Ãd-au pÆr-ay-i-tavye=nya-ara-yÃm
+6.03.060 mantha=odana-saktu-bindu-vajra-bhÃra-hÃr-a-vÅvadha-gÃhe-«u ca
+6.03.061 iK-a÷=hrasva-÷=a-§y-a÷ gÃlava-sya
+6.03.062 eka taddhit-e ca
+6.03.063 §Å=ÃP-o÷ saæj¤Ã-chandas-o÷=ahula-m
+6.03.064 tv-e ca
+6.03.065 i«Âa-kÃ=i«Å-kÃ-mÃlÃ-n-Ãæ cita-tÆla-bhÃr-i-«u
+6.03.066 KH-IT-i=an-a-vy-aya-sya
+6.03.067 arus=dvi«at=aC=nta=sya muM
+6.03.068 iC-a÷=eka=aC-a÷=m-ratyaya-at=a
+6.03.069 vÃca-æ-yam-a-pura-æ-dar-au
+6.03.070 kÃr-e sat-ya=agadasya
+6.03.071 Óyena-tila-sya pÃt-e ¥-e
+6.03.072 rÃtre-÷ k­t-i vibhÃ«Ã
+6.03.073 na-lop-a÷ na¥-a÷
+6.03.074 ta-smÃt=nuè=aCi
+6.03.075 na-bhrÃj=na-pÃt=na-vedas=nÃ-satyÃ-na-muc-i-na-kula-na-kha-na-puæs-aka-na-k«atra-na-kra-nÃ-ke-«u pra-k­-ty-Ã
+6.03.076 eka=Ãdi-s=ca=eka-sya ca=ÃduK
+6.03.077 na-ga-÷=a-prÃïi-«u=nya-ara-yÃm
+6.03.078 saha-sya sa-÷ saæj¤Ã-y-Ãm
+6.03.079 grantha=anta=adhi-k-e ca
+6.03.080 dvi-tÅy-e ca=an-upa=aty-ay-e
+6.03.081 avyayÅ-bhÃv-e ca=a-kÃl-e
+6.03.082 vÃ=upa-sarj-ana-sya
+6.03.083 pra-k­-ty-Ã ÃÓi«-i=-go-vatsa-hale-«u
+6.03.084 samÃna-sya chandas-i a-mÆrdha(n)=pra-bh­-ti=udarke-«u
+6.03.085 jyotis-janapada-rÃtri-nÃbhi-nÃma(n)=gotra-rÆpa-sthÃna-varïa-vayas-vac-ana-bandhu-«u
+6.03.086 car-aï-e brahma-cÃr-iï-i
+6.03.087 tÅrth-e y-e
+6.03.088 vibhÃ«Ã=udar-e
+6.03.089 d­Ó=d­Óa=vatU-«u
+6.03.090 idam-kim-or ÅÁ-kÅ
+6.03.091 Ã sarva-nÃmn-a÷
+6.03.092 vi«va(¤)c-devay-os=ca èE-r adri=a¤c-a-tau va-praty-ay-e
+6.03.093 sam-a÷ sami
+6.03.094 tiras-as tiri=a-lop-e
+6.03.095 saha-sya sadhri-÷
+6.03.096 sadha mÃda-sthay-os=handas-i
+6.03.097 dvi=antar=upa-sarg-e-hya÷ ap-a÷ ÅT
+6.03.098 ÆT=an-or deÓ-e
+6.03.099 a-«a«ÂhÅ=a-t­-tÅya-sthasya=nya-sya duKÃÓis=ÃÓÃ=Ã-sthÃ=Ã-sthi-ta=ut-su-ka=Æti-kÃr-aka-rÃga=che-«u
+6.03.100 arth-e vibhÃ«Ã
+6.03.101 ko-÷ kat tatpuru«-e=aC-i
+6.03.102 ratha-vaday-os=ca
+6.03.103 t­ï-e ca jÃ-t-au
+6.03.104 kÃ pathi(n)=ak«ay-o÷
+6.03.105 Å«ad-arth-e
+6.03.106 vibhÃ«Ã puru«-e
+6.03.107 kava-æ ca=u«-ï-e
+6.03.108 path-i ca=chandas-i
+6.03.109 p­«-o-dara=ÃdÅ-n-i yath-o-pa-di«-ta-m
+6.03.110 saæ-khyÃ-vi-sÃy-a=Ærva-sya ahna-sya ahan anya-tara-syÃæ §-au
+6.03.111 ¬h-ra-lop-e pÆrva-sya dÅrgha-÷=×-a÷
+6.03.112 sahi-vah-or oT=a-varïa-sya
+6.03.113 sÃ-¬hyai sÃ-¬vhvÃ sÃ-¬ha=iti ni-gam-e
+6.03.114 saæ-hi-t-Ã-y-Ãm
+6.03.115 karï-e lak«ana-sya a-vi«-Âa-a«Âa(n)-pa¤ca(n)=maïi-bhin-na-chin-na-chid-ra-sruva-svasti-ka-sya
+6.03.116 nahi-v­ti-v­«i-vyadhi-ruci-sahi-tani-«u Kv-au
+6.03.117 vana-giry-o÷ saæj¤Ã-y-Ãæ koÂara-kiæÓulaka=ÃdÅ-n-Ãm
+6.03.118 val-e
+6.03.119 mat-AU bahv-aC-a÷=an-ajira=ÃdÅ-n-Ãm
+6.03.120 Óara=ÃdÅ-n-Ãæ ca
+6.03.121 iK-a÷=vah-e=a-pÅl-o÷
+6.03.122 upa-sarg-a-sya GHa¥-i=a-manu«y-e bahula-m
+6.03.123 iK-a÷ kÃÓ-e
+6.03.124 d-as t-i
+6.03.125 a«Âan-a÷ saæj¤Ã-y-Ãm
+6.03.126 chandas-i ca
+6.03.127 cite-÷ kaP-i
+6.03.128 viÓva-sya vasu-rÃÂ-o÷
+6.03.129 nar-e saæj¤Ã-y-Ãm
+6.03.130 mitr-e ca=­«-au
+6.03.131 mantr-e soma=aÓva=indriya=viÓva-evya-ya mat-AU
+6.03.132 o«sadhe-s=ca vi-bhak-t-au=a-prathamÃ--Ãm
+6.03.133 ­c-i tu-nu-gha-mak«u-ta§-ku-tra=uru«-yÃ-ï-Ãm
+6.03.134 iK-a÷ su¥-i
+6.03.135 dvy-aC-a÷=aT-as ti§-a÷
+6.03.136 ni-pÃt-a-sya ca
+6.03.137 anye-«Ãm api d­Ó-ya-te
+6.03.138 c-au
+6.03.139 sam-pra-sÃr-aïa-sya
+6.04.001 a­ga-sya
+6.04.002 haL-a÷
+6.04.003 nÃm-i
+6.04.004 na tis­-catas­
+6.04.005 chandas-i ubhaya-thÃ
+6.04.006 n­ ca
+6.04.007 na=upa-dhÃ-y-Ã÷
+6.04.008 sarva-nÃma-sthÃn-e ca=a-sam-bud-dh-au
+6.04.009 vÃ «a-pÆrva-sya ni-gam-e
+6.04.010 sa=anta-mahat-a÷ saæ-yog-a-sya
+6.04.011 ap-t­N-t­C-svas­-nap-t­-ne«-Â­-tva«-Â­-k«at-t­=ho-t­-po-t­-pra-ÓÃs-t Ì-ï-Ãm
+6.04.012 in-han-pÆ«a(n)=arya-mï-Ãæ Á-au
+6.04.013 s-AU ca
+6.04.014 atU=as-anta-sya ca=a-dhÃto-÷
+6.04.015 anu-nÃs-ika-sya Kvi-jhaL-o÷ K-§-IT-i
+6.04.016 aC=hanş-gam-Ãæ saN-i
+6.04.017 tan-o-te-r vibhÃ«Ã
+6.04.018 kram-as=ca Ktv-i
+6.04.019 c-ch-v-o÷ Ó-ÆèH=anu-nÃs-ik-e ca
+6.04.020 jvarş-tvara-srivi=avi-mav-Ãm upa-hÃ-y-Ãs=ca
+6.04.021 r-Ãt=lopa-÷
+6.04.022 a-sid-ha-vat=a-tra=Ã bh-Ãt
+6.04.023 Án-Ãt=na-lopa-÷
+6.04.024 an-iT=IT-Ãm haL-a÷=upa-dhÃ-y-Ã÷ K-§-ITi
+6.04.025 danÓş-sanjş-svanj-Ãm Áap-i
+6.04.026 ranje-s=ca
+6.04.027 GHa¥-i ca bhÃv-a-kar-aïay-o÷
+6.04.028 syada-÷ jav-e
+6.04.029 av-o-d-a=edh-a=od-ma(n)-pra-Órath-a-hima-Órath-Ã÷
+6.04.030 na=ance-÷ pÆjÃ-y-Ãm
+6.04.031 Ktv-i skandi-syandy-o÷
+6.04.032 ja=anta-naÓ-Ãm vibhÃ«Ã
+6.04.033 bhanjes=ca Ci×-i
+6.04.034 ÓÃs-a÷=iT=a§-haL-o÷
+6.04.035 ÓÃ h-au
+6.04.036 han-te-r ja-÷
+6.04.037 an-udÃtta=upa-deÓ-a-van-a-ti-tan-o-ti=ÃdÅ-n-Ãm anu-Ãs-ka-opa-÷ jhaL-i K-§-IT-i
+6.04.038 vÃ LyaP-i
+6.04.039 na KtiC-i dÅrgha-s=ca
+6.04.040 gam-a÷ Kv-au
+6.04.041 viè=van-or anu-nÃs-ika-sya=ÃT
+6.04.042 janş-sanş-khan-Ãæ saN=jhaL-o÷
+6.04.043 y-e vibhÃ«Ã
+6.04.044 tan-o-te-r yaK-i
+6.04.045 san-a÷ KtiC-i lopa-s=ca asya=nya-ara-yÃm
+6.04.046 Ãrdha-dhÃtu-k-e
+6.04.047 bhrasj-a÷ ra=upa-dhay-o÷ raM anya-ara-yÃm
+6.04.048 aT-a÷ lopa-÷
+6.04.049 ya-sya haL-a÷
+6.04.050 Kya-sya vibhÃ«Ã
+6.04.051 ×e-r an-iè-i
+6.04.052 ni«ÂhÃ-y-Ãæ s-e-è-i
+6.04.053 jan-i-tÃ mantr-e
+6.04.054 Óam-i-tÃ yaj¤-e
+6.04.055 ay Ãm=anta=Ãlu =Ãyya=itnu=i«ïu-«u
+6.04.056 LyaP-i laghu-pÆrv-Ãt
+6.04.057 vibhÃ«Ã Ãp-a÷
+6.04.058 yu-pluv-or dÅrgha-s=chandas-i
+6.04.059 k«iy-a÷
+6.04.060 ni«ÂhÃ-y-Ãm a-×yaT=arth-e
+6.04.061 vÃ Ã-kroÓ-a-dai-n-yay-o÷
+6.04.062 sya-siC-sÅyuè-tÃsi-su bhÃv-a-kar-maï-o÷ upa-deÓ-e aC=hanş-grahA-d­Ó-Ãæ Ci×-vat=iè ca
+6.04.063 dÅ§-a÷ yuè=aC-i K-§-IT-i
+6.04.064 ÃT-a÷ lopa-÷ iè-i ca
+6.04.065 ÅT=yaT-i
+6.04.066 GHU-mÃ-sthÃ-gÃ-pÃ-ja-hÃ-ti-s-Ãæ haL-i
+6.04.067 e-r lI§-i
+6.04.068 vÃ anya-sya saæ-yog-a=Ãde-÷
+6.04.069 na LyaP-i
+6.04.070 may-a-te-r iT=anya-tara-syÃm
+6.04.071 lU§-lI§=lã§-k-«u=aè=udÃtta-÷
+6.04.072 Ãè aC=ÃdÅ-n-Ãm
+6.04.073 chandas-i=api d­Ó-ya-te
+6.04.074 na mÃ§-yog-e
+6.04.075 bahula-æ chandas-y a-mÃ§-yog-e=api
+6.04.076 iray-a÷ re
+6.04.077 aC-i Ánu-dhÃtu-bhruv-Ãm y-v-or iya§=una§-au
+6.04.078 abhy-Ãs-a-sya=a-sa-varï-e
+6.04.079 striy-Ã÷
+6.04.080 vÃ am-Áas-o÷
+6.04.081 i×-a÷ ya×
+6.04.082 e-÷ an-eka=aC-a÷=a-saæ-og-a-Ærva-sya
+6.04.083 o-÷ sUP-i
+6.04.084 var«Ã-bhv-as=ca
+6.04.085 na bhÆ-su-dhiy-o÷
+6.04.086 chandas-i ubha-ya-thÃ
+6.04.087 hu-Ánuv-o÷ sÃrva-dhÃtu-k-e
+6.04.088 bhuv-a÷ vuK lU§-lIè-o÷
+6.04.089 ÆT=upa-dhÃ-y-Ã÷ goh-a÷
+6.04.090 do«-a÷ ×-au
+6.04.091 vÃ cit-ta-vi-rÃg-e
+6.04.092 M-IT-Ãæ hrasva-÷
+6.04.093 Ci×- ×amuL-or dÅrgha-÷=anya-tara-syÃm
+6.04.094 KHaC-i hrasva-÷
+6.04.095 hlÃd-a÷ ni«ÂhÃ-y-Ãm
+6.04.096 chÃd-e-r GHe a-dvi=upa-sarg-a-sya
+6.04.097 is-man-traN-kvi-«u ca
+6.04.098 gama-hanş-jana-khana-ghas-Ãæ lopa-÷ K-§-IT-i an-a§-i
+6.04.099 tani-paty-os=chandas-i
+6.04.100 ghasi-bhas-or haL-i ca
+6.04.101 hu-jhaL-bhya÷=he-r dhi-÷
+6.04.102 Óru-Ó­-ïu-pÌ-k­-v­-bhyas=chandas-i
+6.04.103 a-§-IT=as=ca
+6.04.104 Ci×-a÷ luK
+6.04.105 aT-a÷ he-÷
+6.04.106 uT-as=ca praty-ay-Ãt=a-saæyog-a-Ærv-Ãt
+6.04.107 lopa-s=ca=a-sya=anya-tara-syÃm m-v-o÷
+6.04.108 nitya-æ kar-o-te-÷
+6.04.109 y-e ca
+6.04.110 aT-a÷ uT sÃrva-dhÃtu-k-e
+6.04.111 Ána=as-or aT=lopa-÷
+6.04.112 ÁnÃ=abhy-as-tay-or ÃT-a÷
+6.04.113 Å haL-i=a-GHO-÷
+6.04.114 iT=daridra-sya
+6.04.115 bhiy-a÷=anya-tara-syÃm
+6.04.116 ja-hÃ-te-s=ca
+6.04.117 Ã ca h-au
+6.04.118 lopa-÷=y-i
+6.04.119 GHU=as-or eT=h-au=bhy-Ãs-a-opa-s=ca
+6.04.120 aT-a÷ eka-haL-madhy-e=an-ÃdeÓa=Ãde-r lIè-i
+6.04.121 thaL-i ca sa=iè-i
+6.04.122 tÌ-phalş-bhajş-trap-as=ca
+6.04.123 rÃdh-a÷ hiæsÃ-y-Ãm
+6.04.124 vÃ jÌ-bhramş-tras-Ãm
+6.04.125 phaï-Ãæ ca saptÃ-n-Ãm
+6.04.126 na Óasa-dadA-v=Ãdi-guïÃ-ï-Ãm
+6.04.127 arvaï-as tã=a-sAU=a-na¥-a÷
+6.04.128 maghavÃ bahula-m
+6.04.129 BHA-sya
+6.04.130 pÃd-a÷ pad-
+6.04.131 vasO-÷ sam-pra-sÃr-aïa-m
+6.04.132 vÃh-a÷ ÆèH
+6.04.133 Óva(n)=yuva(n)=maghon-Ãm a-taddhit-e
+6.04.134 aT=lupa-÷ an-a÷
+6.04.135 «a-pÆrva-han-dh­-ta-rÃj¤-Ãm a×-i
+6.04.136 vibhÃ«Ã §i-Áy-o÷
+6.04.137 na saæ-yog-Ãt=va=m=ant-Ãt
+6.04.138 ac-a÷
+6.04.139 ud-a÷ ÅT
+6.04.140 ÃT-a÷ dhÃto-÷
+6.04.141 mantre-«u Ã§-i Ãde-r Ãtman-a÷
+6.04.142 ti viæÓate-r Ö-IT-i
+6.04.143 èE-÷
+6.04.144 n-as taddhit-e
+6.04.145 ahn-as=èa-kh-or eva
+6.04.146 o-r guïa-÷
+6.04.147 ¬h-e lopa-÷ a-kadrv-Ã÷
+6.04.148 y-a-sya ÅT-i ca
+6.04.149 sÆrya-ti«ya-agastya-matsyÃ-n-Ãæ y-a÷ upa-dhÃ-y-Ã÷
+6.04.150 haL-as taddhita-sya
+6.04.151 Ãpat-ya-sya ca taddhit-e=an-ÃT-i
+6.04.152 Kya-Cvy-os=ca
+6.04.153 bilva-ka=Ãdi-bhyas=cha-sya luK
+6.04.154 tu-r i«Âha(N)=ima(niC)-Åyas-su
+6.04.155 èE-÷
+6.04.156 sthÆla-dÆra-yuva(n)=hrasva-k«ip-ra-k«udrÃ-ï-Ãæ ya×=Ãdi param pÆrva-sya ca guïa-÷
+6.04.157 priy-a-sthi-ra-sphi-ra-uru-bahu-la-guru-v­d-dha-t­p-ra-dÅrgha-v­ndÃrakÃ-ï-Ãm pra-stha-spha-var-baæhi-gar-var«i-trap-drÃghi-v­nd-Ã-÷
+6.04.158 baho-r lopa-÷=bhÆ ca baho-÷
+6.04.159 i«Âha-sya yiè ca
+6.04.160 jy-Ãt=Ãt=Åyas-a÷
+6.04.161 ra ­T=a÷=haL-Ãde-r lagho-÷
+6.04.162 vibhÃ«Ã=­j-os=chandas-i
+6.04.163 pra-k­-ty-Ã eka=aC
+6.04.164 in a×-i=an-apaty-e
+6.04.165 gÃth-i(n)=vidath-i(n)=keÓ-i(n)-gaï-i(n)=paï-in-as=ca
+6.04.166 saæ-yog-a=Ãdi-s=ca
+6.04.167 an
+6.04.168 y-e ca a-bhÃva-kar-maï-o÷
+6.04.169 Ãtma(n)=adh-vÃn-au kh-e
+6.04.170 na ma-pÆrva-÷=apaty-e=a-var-maï-a÷
+6.04.171 brÃhm-a-÷=a-jÃ-t-au
+6.04.172 kÃrm-a-÷ tÃc-chÅl-y-e
+6.04.173 auk«-a-m an-apty-e
+6.04.174 dÃï¬in-Ãyana-hÃstin-Ãyana-Ãtharvaï-ika-jaihmÃÓin-eya-vÃsin-eyani-bhrauïa-hat-ya-dhai-vat-ya-sÃrava-aik«vÃka-maitreya-hiraï-mayÃ-n-i
+6.04.175 ­tv-ya-vÃstv-ya=vÃstv-a-mÃdhv-Å-hiraïya-yÃ-n-i chandas-i
+
+7.01.001 yu-vo-r ana-ak-au
+7.01.002 Ãyan-ey-Ån-Åy-iy-a÷ pha-¬ha-kha-cha-gh-Ãm praty-ay-a=ÃdÅ-n-Ãm
+7.01.003 jh-a÷=anta-÷
+7.01.004 at=abhy-as-t-Ãt
+7.01.005 Ãtmane-pade-«u=an-aT-a÷
+7.01.006 ÓÅ§-a÷=ruè
+7.01.007 vet-te-r vibhÃ«Ã
+7.01.008 bahu-laæ chandas-i
+7.01.009 aT-a÷=bhis-a÷=ais
+7.01.010 bahu-la-æ chandas-i
+7.01.011 na=idam=adas-or a-k-o÷
+7.01.012 èÃ-§asI-§as-Ãm ina=Ãt=sy-Ã÷
+7.01.013 §e-r ya-÷
+7.01.014 sarva-nÃmn-a÷ smai
+7.01.015 §asI-§y-o÷ smÃt-smin-au
+7.01.016 pÆrva=Ãdi-bhya÷=nava-hya÷=Ã
+7.01.017 Jas-a÷ ÁÅ
+7.01.018 au§-a÷ ÃP-a÷
+7.01.019 na-puæs-ak-Ãt=ca
+7.01.020 Jas=Áas-o÷ Ái-÷
+7.01.021 a«ÂÃ-bhya÷=auÁ
+7.01.022 «a¬-bhya÷=luK
+7.01.023 sU=am-or na-puæs-ak-Ãt
+7.01.024 aT-a÷=am
+7.01.025 adÖ Öatara=Ãdi-bhya÷ pa¤ca-bhya÷
+7.01.026 na=itar-Ãt=chandas-i
+7.01.027 yu«mad=asmad-bhyÃm §as-a÷=aÁ
+7.01.028 §e-prathamay-or am
+7.01.029 Áas-a÷ na
+7.01.030 bhyas-a÷=bhyam
+7.01.031 pa¤camy-Ã÷=at
+7.01.032 eka-vac-ana-sya ca
+7.01.033 sÃm-a÷=Ãkam
+7.01.034 ÃT-a÷ au ×aL-a÷
+7.01.035 tu-hy-os tÃta§ ÃÓi«-i=nya-ara-yÃm
+7.01.036 vide-÷ Áatu-r vasU-÷
+7.01.037 sam-Ãs-e a-na¥-pÆrv-e Ktv-a÷=LyaP
+7.01.038 KtvÃ=api chandas-i
+7.01.039 sUP-Ãæ sU-luK-pÆrva-savarïa=Ã-Ãt=Áe-yÃ-ÖÃ-ÖyÃ-yÃC=ÃL-a÷
+7.01.040 am-a÷ maÁ
+7.01.041 lopa-s t-a÷ Ãtmane-pade-«u
+7.01.042 dhvam-a÷ dhvÃt
+7.01.043 yaj-a-dhvainam iti ca
+7.01.044 ta-sya tÃt
+7.01.045 taP-tanaP-tana-than-Ã-s=ca
+7.01.046 iT=anta-÷ masi
+7.01.047 Ktv-a÷ yaK
+7.01.048 i«-Âv-Ånam iti ca
+7.01.049 snÃ-tvÅ=Ãday-as=ca
+7.01.050 Ãt=Jase-r asuK
+7.01.051 aÓva-k«Åra-v­«a-lavaïÃ-n-Ãm Ãtma-prÅ-t-au KyaC-i
+7.01.052 Ãm-i sarva-nÃmn-a÷ suè
+7.01.053 tre-s traya-÷
+7.01.054 hrasva-nadÅ=ÃP-a÷ nuè
+7.01.055 «aÂ-catur-bhyas=ca
+7.01.056 ÓrÅ-grÃma-ïy-os=chandas-i
+7.01.057 go-÷ pÃda=ant-e
+7.01.058 iT=IT-a÷ nuM dhÃto-÷
+7.01.059 Á-e muc-ÃdÅ-n-Ãm
+7.01.060 masji-naÓ-or jhaL-i
+7.01.061 radhi-jabh-or aC-i
+7.01.062 na=iè-i=a-lIè-i radhe-÷
+7.01.063 rabhe-r a-ÁaP=lIè-o÷
+7.01.064 labhe-s=ca
+7.01.065 Ã§-a÷ y-i
+7.01.066 up-Ãt pra-ÓamÓÃ-y-Ãm
+7.01.067 upa-sarg-Ãt KHaL-GHa¥-o÷
+7.01.068 na su-dur-bhyÃæ kevalÃ-bhyÃm
+7.01.069 vibhÃ«Ã Ci×-×amuL-o÷
+7.01.070 uK=IT-ac-Ãæ sarva-nÃma-sthÃn-e=a-dhÃt-o÷
+7.01.071 yuje-r a-sam-Ãs-e
+7.01.072 na-puæs-aka-sya jhaL=aC-a÷
+7.01.073 iK-a÷=aC-i vi-bhak-t-au
+7.01.074 t­-tÅyÃ=Ãdi-«u bhÃ«-i-ta-puæs-k-Ãt puæ-vat=Ãlava-sya
+7.01.075 asthi-dadhi-sakthi=ak«-ï-Ãm ana§ udÃtta-÷
+7.01.076 chandas-i=api d­Ó-ya-te
+7.01.077 Å ca dvi-vac-an-e
+7.01.078 na=abhy-as-t-Ãt=Áatu÷
+7.01.079 vÃ na-puæs-aka-sya
+7.01.080 Ã-t ÁÅ-nady-or nuM
+7.01.081 ÁaP-ÁyaN-or nitya-m
+7.01.082 s-AU ana¬uh-a÷
+7.01.083 d­Ó=sv-avas=sva-tavas-Ãæ chandas-i
+7.01.084 div-a÷=auT
+7.01.085 pathi(n)mathi(n)=­bhuk«-Ãm ÃT
+7.01.086 iT-a÷=aT sarva-nÃma-sthÃn-e
+7.01.087 th-a÷ nth-a÷
+7.01.088 bha-sya èE-r lopa-÷
+7.01.089 puæs-a÷=asU§
+7.01.090 go-ta÷=×-IT
+7.01.091 ×aL uttama-÷ vÃ
+7.01.092 sakhy-ur a-sam-bud-dh-au
+7.01.093 ana§ s-AU
+7.01.094 ­T=uÓanas=puru-daæÓ-as=an-eh-as-Ãæ ca
+7.01.095 t­C=vat kro«-Âu-÷
+7.01.096 striy-Ãæ ca
+7.01.097 vibhÃ«Ã t­-tÅyÃ-Ãdi-«u=aC-i
+7.01.098 catur-ana¬-uh-or ÃM udÃtta-÷
+7.01.099 aM sam-bud-dh-au
+7.01.100 ÌT-a÷ iT=dhÃto-÷
+7.01.101 upa-dhÃ-y-Ãs=ca
+7.01.102 uT o«Âh-ya-pÆrva-sya
+7.01.103 bahula-æ chandas-i
+7.02.001 siC-i v­d-dhi-÷ parasmai-pade-«u
+7.02.002 aT-a÷ r-la=anta-sya
+7.02.003 vadş-vrajş-haL-anta-sya aC-a÷
+7.02.004 na=iè-i
+7.02.005 h-m-y=anta=k«aïa-Óvasş-jÃg­-×i-Óvi=eT=IT-Ãm
+7.02.006 Ærï-o-te-r vibhÃ«Ã
+7.02.007 aT-a÷ haL-Ãde-r lagho-÷
+7.02.008 na=iè vaÁ-i k­t-i
+7.02.009 ti-tu-tra-ta-tha-si-su-sara-ka-se-«u ca
+7.02.010 eka=aC-a÷ upa-deÓ-e=an-udÃtt-Ãt
+7.02.011 Óri=uK-a÷ K-IT-i
+7.02.012 saN-i grahş-guh-os=ca
+7.02.013 k­-s­-bh­-v­-stu-dru-sru-Óruv-a÷ lIè-i
+7.02.014 Óvi=ÅT=IT -a÷ ni«ÂhÃ-y-Ãm
+7.02.015 ya-sya vibhÃ«Ã
+7.02.016 ÃT=IT=as=ca
+7.02.017 vibhÃ«Ã bhÃva=Ãdi-kar-maï-o÷
+7.02.018 k«ub-dha-svÃn-ta-dhvÃn-ta-lag-na-mli«-Âa-vi-rib-dha-phÃï-Âa-bÃ-¬hÃ-n-i mantha-manas=tamas=sakta=a-vi-spa«-Âa-svara=an-Ã-yÃs-a-bh­Óe-«u
+7.02.019 dh­si-Óas-Å vaiyÃt-y-e
+7.02.020 d­-¬ha-÷ sthÆ-la-bal-ay-o÷
+7.02.021 pra-bh-au pari-v­-¬ha-÷
+7.02.022 k­cch-ra=gah-anay-o÷ ka«-a÷
+7.02.023 ghu«şR a-vi-Óabd-an-e
+7.02.024 ard-e-÷ sam=ni-vi-bhya÷
+7.02.025 abhe-s=ca Ã-vi-dÆr-y-e
+7.02.026 ×e-r adhy-ay-an-e v­t-ta-m
+7.02.027 vÃ dÃn-ta-ÓÃn-ta-pÆr-ïa-das-ta-spa«-Âa-chan-na-j¤a-p-tÃ-÷
+7.02.028 ru«i=amş-tvara-saæ-ghu«a=Ã-svan-Ãm
+7.02.029 h­«e-r loma-su
+7.02.030 apa-ci-ta-s=ca
+7.02.031 hru hvare-s=chandas-i
+7.02.032 a-pari-hv­-ta-s ca
+7.02.033 som-e hva-r-ita-÷
+7.02.034 gras-i-ta-skabh-i-ta-stabh-i-ta=ut-tabh-i-ta=cat-ta-vi-kas-ta-vi-Óas-t­-Óaæs-t­-ÓÃs-t­-taru-t­-tarÆ-t­-varut­-varÆ-t­-varu-trÅ-r=uj-jval-i-ti-k«ar-i-ti-k«am-i-ti-vam-i-ti=am-i-ti=itica
+7.02.035 Ãrdha-dhÃtuka-sya iè=vaL-Ãde-÷
+7.02.036 snu-kramo-r an-Ãtmane-pada-ni-mit-t-e
+7.02.037 grah-a÷=a-lIè-i dÅrgha-÷
+7.02.038 v­=ÌT-a÷ vÃ
+7.02.039 na lI§-i
+7.02.040 siC-i ca parasmai-pade-«u
+7.02.041 iè saN-i vÃ
+7.02.042 lI§-siC-or Ãtmane-pade-«u
+7.02.043 ­T-as=ca saæ-yog-a=Ãde-÷
+7.02.044 svar-a-ti-sÆ-ti-sÆ-ya-ti-dhÆ¥=ÆT=IT-a÷ vÃ
+7.02.045 radhş=Ãdi-bhyas=ca
+7.02.046 nir-a÷ ku«-a÷
+7.02.047 iè ni«ÂhÃ-y-Ãm
+7.02.048 ti=i«ş-sahA-lubhş-ru«A-ri«-a÷
+7.02.049 saN-i iv=anta=­dha-bhrasjA-danbhU-Óri-sv­-yu=Ærïu-bhara-j¤api-san-Ãm
+7.02.050 kliÓ-a÷ KtvÃ-ni«Âhay-o÷
+7.02.051 pÆ§-as=ca
+7.02.052 vas-a-ti=k«udh-or iè
+7.02.053 ance-÷ pÆjÃ-y-Ãm
+7.02.054 lubh-a÷ vi-moc-an-e
+7.02.055 jÌ-vraÓcy-o÷ Ktv-i
+7.02.056 uT=IT-a÷ vÃ
+7.02.057 se=a-siC-i k­ta-c­ta-ch­da-t­da-n­t-a÷
+7.02.058 game-r iè parasmaipade-«u
+7.02.059 na v­t=bhyaÓ catur-bhya÷
+7.02.060 tÃs-i ca kÊp-a÷
+7.02.061 aC-as tas-vat thaL-i=an-iè-a÷=nitya-m
+7.02.062 upa-deÓ-e aT=vat-a÷
+7.02.063 ­T-a÷ bhÃradvÃja-sya
+7.02.064 ba-bhÆ-tha=Ã-ta-tan-tha-ja-g­bh-ma-va-var-tha=ti ni-gam-e
+7.02.065 vibhÃ«Ã s­ji-d­«-o÷
+7.02.066 iè at-ti=ar-ti=vyay-a-ti-n-Ãm
+7.02.067 vasU eka=aC=ÃT=ghas-Ãm
+7.02.068 vibhÃ«Ã gama-hanş-vidş-viÓ-Ãm
+7.02.069 saniæ-sa-san-i-vÃæs-am
+7.02.070 ­T=han-o÷ sy-e
+7.02.071 anje-÷ siC-i
+7.02.072 stu-su-dhÆ¥-bhya÷ parasmai-pade-«u
+7.02.073 yamş-ramA-namş=ÃT-Ãm saK ca
+7.02.074 smi-pÆ§=­=anjô=aÓ-Ãm saN-i
+7.02.075 kir-as=ca pa¤ca-bhya÷
+7.02.076 rud-Ãdi-bhya÷ sÃrvadhatuk-e
+7.02.077 ÅÓ-a÷ se
+7.02.078 Å¬A=jan-or dhve ca
+7.02.079 lI§-a÷ sa-lopa-÷=an-ant-ya-sya
+7.02.080 aT-a÷ yÃ=iya-÷
+7.02.081 ÃT-a÷ §-IT-a÷
+7.02.082 Ãn-e muK
+7.02.083 ÅT Ãs-a÷
+7.02.084 a«tan-a÷ Ã vi-bhak-t-au
+7.02.085 rÃy-a÷=haL-i
+7.02.086 yu«mad=asmad-or an-Ã-deÓ-e
+7.02.087 dvi-tÅyÃ-y-Ãæ ca
+7.02.088 prathamÃ-y-Ãs=ca dvi-vac-an-e bhÃ«Ã-y-Ãm
+7.02.089 ya-÷=aC-i
+7.02.090 Óe«-e lopa-÷
+7.02.091 ma-pary-anta-sya
+7.02.092 yuva=Ãv-au dvi-vac-an-e
+7.02.093 yÆva-vay-au Jas-i
+7.02.094 tva=ah-au s-AU
+7.02.095 tubhya-mahy-au §ay-i
+7.02.096 tava-mam-au §as-i
+7.02.097 tva-m-au eka-vac-an-e
+7.02.098 prat-ay-a=uttara-paday-os=ca
+7.02.099 tri-catur-o÷ striy-Ãm tis­-cats­
+7.02.100 aC-i ra ­T-a÷
+7.02.101 jarÃ-y-Ã÷ jaras anya-tara-syÃm
+7.02.102 tyad-ÃdÅ-n-Ãm a-÷
+7.02.103 kim-a÷ ka-÷
+7.02.104 ku ti-h-o÷
+7.02.105 kva aT-i
+7.02.106 ta-d-o÷ sa-÷ s-AU an-antyay-o÷
+7.02.107 adas-a÷ au sU-lopa-s=ca
+7.02.108 idam-a÷ ma-÷
+7.02.109 d-as=ca
+7.02.110 y-a÷ s-AU
+7.02.111 id-a÷=ay puæs-i
+7.02.112 ana=ÃP-i a-k-a÷
+7.02.113 haL-i lopa-÷
+7.02.114 m­je-r v­d-dhi-÷
+7.02.115 aC-a÷=¥-×-IT-i
+7.02.116 aT-a÷ upa-dhÃ-y-Ã÷
+7.02.117 taddhite-«u aC-Ãm Ãde-÷
+7.02.118 K-IT-i ca
+7.03.001 devikÃ-ÓiæÓapÃ-ditya-vÃh-dÅrgha-sattra-Óreyas-Ãm ÃT
+7.03.002 kekaya-mitray-u-pra-layÃ-n-Ãæ ya=Ãde-r iy-a÷
+7.03.003 na y-vÃ-bhyÃm pada=antÃ-bhyÃm pÆrv-au tu tÃ-bhyÃm aiC
+7.03.004 dvÃra=ÃdÅ-n-Ãæ ca
+7.03.005 ny-ag-rodha-sya ca kevala-sya
+7.03.006 na karma-vy-ati-hÃr-e
+7.03.007 su=Ã-ga-ta=ÃdÅ-n-Ãæ ca
+7.03.008 Óva(n)=Ãde-r i¥-i
+7.03.009 pada=anta-sya anya-tara-syÃm
+7.03.010 uttara-pada-sya
+7.03.011 ava-yav-Ãt ­to-÷
+7.03.012 su-sarva=ardh-Ãt jana-pada-sya
+7.03.013 diÓ-a÷=a-madrÃ-ï-Ãm
+7.03.014 prÃc-Ãæ grÃma-nagarÃ-ï-Ãm
+7.03.015 saæ-khyÃ-y-Ã÷ saæ-vatsara-saækhya-sya ca
+7.03.016 var«a-sya=a-bhav-i-«y-at-i
+7.03.017 pari-mÃïa=anta-sya a-saæj¤Ã-ÓÃïay-o÷
+7.03.018 j-e pro«Âha-padÃ-n-Ãm
+7.03.019 h­d-bhaga-sindhu=ante pÆrva-ada-ya ca
+7.03.020 anu-Óat-ika=ÃdÅ-nÃæ ca
+7.03.021 deva-tÃ-dvaædv-e ca
+7.03.022 na indra-sya parasya
+7.03.023 dÅrgh-Ãt=ca varuïa-sya
+7.03.024 prÃc-Ãæ nagara=ant-e
+7.03.025 ja­gala-dhenu-vala-ja=anta-sya vibhÃ«itam uttaram
+7.03.026 ardh-Ãt pari-mÃ-ïa-sya pÅrva-sya tu vÃ
+7.03.027 na=aT-a÷ para-sya
+7.03.028 pra-vÃhaïa-sya ¬h-e
+7.03.029 tat-praty-ay-a-sya ca
+7.03.030 na¥-a÷ Óuc-i=ÅÓ-vara-k«e-tra-j¤a-kuÓa-la-nipuïÃ-n-Ãm
+7.03.031 yathÃ-tatha-yathÃ-puray-o÷ pary-Ãy-e
+7.03.032 han-as ta-÷ a-Ci×-×aL-o÷
+7.03.033 ÃT-a÷ yuK Ci×-k­t-o÷
+7.03.034 na=udÃtta=upa-deÓ-a-sya ma=nta-ya an-Ã-ame-÷
+7.03.035 jani-vadhyo-s=ca
+7.03.036 ar-ti-hrÅ-vlÅ-rÅ-knÆyÅ-ksmÃyÅ=ÃT-Ãm puK=×-au
+7.03.037 ÓÃ-chÃ-sÃ-hvÃ-vyÃ-ve-p-Ãæ yuK
+7.03.038 v-a÷ vi-dhÆ-n-ane juK
+7.03.039 lÅ-l-or nuK=luK-au=nya-ara-yÃm sneha-ipÃtane
+7.03.040 bhiy-a÷ hetu-bhay-e «uK
+7.03.041 sphÃy-a÷ va-÷
+7.03.042 Óade-r a-ga-t-au ta-÷
+7.03.043 ruh-a÷ pa-÷ anya-tara-syÃm
+7.03.044 praty-ay-a-sth-Ãt k-Ãt pÆrva-sya=T-a÷ iT ÃP-i a-sUP-a÷
+7.03.045 na yÃ-say-o÷
+7.03.046 udÅc-Ãm ÃT-a÷ sthÃn-e ya-ka-pÆrvÃ-y-Ã÷
+7.03.047 bhastrÃ=e«Ã=ajÃ-j¤Ã-dvÃ-svÃ na¥-ÆrvÃ-ï-Ãm api
+7.03.048 a-bhÃ«-i-ta-puæs-k-Ãt=ca
+7.03.049 ÃT=ÃcÃryÃ-ï-Ãm
+7.03.050 Âha-sya ika-÷
+7.03.051 is=us=uK-ta=ant-Ãt ka-÷
+7.03.052 ca-j-o÷ kU GHIT=×yaT-o÷
+7.03.053 ny-a­ku=ÃdÅ-n-Ãæ ca
+7.03.054 h-a÷ han-te-r ¥-×-IT-ne-«u
+7.03.055 abhy-Ãs-Ãt=ca
+7.03.056 he-r a-Ca§-i
+7.03.057 saN-lIè-or je-÷
+7.03.058 vibhÃ«Ã ce-÷
+7.03.059 na kU=Ãde-÷
+7.03.060 aji-v­jy-os=ca
+7.03.061 bhuj-a-ny-ubj-au pÃïi=upa-tÃp-ay-o÷
+7.03.062 pra-yÃj-a=anu-yÃj-au yaj¤a=­g-e
+7.03.063 vance-r ga-t-au
+7.03.064 oka-÷=uc-a÷ K-e
+7.03.065 ×y-e Ã-vaÓ-ya-k-e
+7.03.066 yajA-yÃca-rucA-pra-vacş=­c-as=ca
+7.03.067 vac-a÷ a-Óabda-saæjnÃ-y-Ãm
+7.03.068 pra-yoj-ya-ni-yoj-y-au Óak-ya=arth-e
+7.03.069 bhoj-ya-m bhak«-y-e
+7.03.070 GHO-r lopa-÷ lEè-i vÃ
+7.03.071 oT-a÷ ÁyaN-i
+7.03.072 Ksa-sya aC-i
+7.03.073 luK=vÃ duhA-dihA-lihA-guh-Ãm Ãtman-e-ad-e dant-y-e
+7.03.074 Óam-Ãm a«ÂÃ-n-Ãæ dÅrgha-÷ ÁyaN-i
+7.03.075 «Âhivş-klami-Ã-cam-Ãæ Á-IT-i
+7.03.076 kram-a÷ parasma-pade-«u
+7.03.077 i«ş-gami-yam-Ãæ cha-÷
+7.03.078 pÃ-ghrÃ-dhmÃ-sthÃ-mnÃ-dÃ×-d­Ói=arti-sarti-Óada-sad-Ãm piba-jighra-dhama-ti«tha-mana-yaccha-paÓya-­ccha-dhau-ÓÅya-sÅd-Ã-÷
+7.03.079 j¤Ã-jan-or jÃ
+7.03.080 pÆ-ÃdÅ-n-Ãm hrasva-÷
+7.03.081 mÅ-nÃ-te-r ni-gam-e
+7.03.082 mid-er guïa-÷
+7.03.083 Jus-i ca
+7.03.084 sÃrva-dhÃtu-ka=Ãrdha-hÃtu-ay-÷
+7.03.085 jÃgr-a÷ a-vi-Ci×-×aL-§-IT-su
+7.03.086 puK=anta-laghu=upa-dha-sya ca
+7.03.087 na=abhy-asta-sya=aC-i P-IT-i sÃrvadhÃtuk-e
+7.03.088 bhÆ-suv-os ti§-i
+7.03.089 uT-a÷ v­d-dhi-r luK-i haL-i
+7.03.090 Ærï-o-te-r vibhÃ«Ã
+7.03.091 guïa-÷ a-p­k-t-e
+7.03.092 t­ïah-a÷ iM
+7.03.093 bruv-a÷ Åè
+7.03.094 ya§-a÷ vÃ
+7.03.095 tu-ru-stu-Óami=am-a÷ sÃrvadhÃtuk-e
+7.03.096 as-ti-siC-a÷=a-p­k-t-e
+7.03.097 bahula-æ chandas-i
+7.03.098 rud-as ca pa¤ca-bhya÷
+7.03.099 aè gÃrg-ya-gÃlavay-o÷
+7.03.100 ad-a÷ sarve-«Ãm
+7.03.101 aT-a÷ dÅrgha-÷ ya¥-i
+7.03.102 sUP-i ca
+7.03.103 bahu-vacan-e jhaL-i eT
+7.03.104 os-i ca
+7.03.105 Ã§-i ca=ÃP-a÷
+7.03.106 sam-bud-dh-au ca
+7.03.107 ambÃ=artha-nady-or hrasva-÷
+7.03.108 hrasva-sya guïa-÷
+7.03.109 Jas-i ca
+7.03.110 ­T-a÷ §i-sarvanÃmasthÃnay-o÷
+7.03.111 GHE-r §-IT-i
+7.03.112 Ãè=nady-Ã÷
+7.03.113 yÃè ÃP-a÷
+7.03.114 sarva-nÃmn-a÷ syÃè hrasva-s=h ca
+7.03.115 vibhÃ«Ã dvi-tÅyÃ-t­-ÅyÃ-hyÃm
+7.03.116 §e-r Ãm nadÅ=ÃP=nÅ-bhya÷
+7.03.117 iT=uT=bhyÃm
+7.03.118 auT
+7.03.119 aT=ca GHE-÷
+7.03.120 Ã§-a÷ nÃ a-striy-Ãm
+7.04.001 ×-au Ca§-i upa-dhÃ-y-Ã÷ hrasva-÷
+7.04.002 na aC=lopi(n)=ÓÃsş=­T=IT-Ãm
+7.04.003 bhrÃja-bhÃsa-bhÃ«A-dÅpa-jÅvş-mÅlş-pÅ¬-Ãm anya-ara-yÃm
+7.04.004 lopa-÷ pib-a-te-r ÅT=ca abhy-Ãs-a-sya
+7.04.005 ti-«Âh-a-te-r iT
+7.04.006 ji-ghr-a-te-r vÃ
+7.04.007 ur ­T
+7.04.008 nitya-æ chandas-i
+7.04.009 day-a-te-r digi lIè-i
+7.04.010 ­T-as ca saæ-yoga=Ãde-r guïa-÷
+7.04.011 ­cch-a-ti=­=ÌT-Ãm
+7.04.012 ÓÌ-dÌ-pÌ-Ãæ hrasva-÷ vÃ
+7.04.013 k-e=a×-a÷
+7.04.014 na kaP-i
+7.04.015 ÃP-a÷ anya-tara-syÃm
+7.04.016 ­-d­Ó-a÷ a§-i guïa-÷
+7.04.017 as-ya-te-s thuK
+7.04.018 Óvay-a-te-r a-÷
+7.04.019 pat-a÷ puM
+7.04.020 vac-a÷ uM
+7.04.021 ÓÅ§-a÷ sÃrva-dhdÃtu-ke guïa-÷
+7.04.022 aya§ y-i K-§-IT-i
+7.04.023 upa-sarg-Ãt hrasva-÷ Æh-a-te-÷
+7.04.024 e-te-r lI§-i
+7.04.025 a-k­t-sÃrva-dhÃtu-kay-o÷ dÅrgha-÷
+7.04.026 Cv-AU ca
+7.04.027 rÅ§ ­T-a÷
+7.04.028 ri§ Ása-yaK-lI§-k-«u
+7.04.029 guïa-÷ arti-saæ-yog-a-Ãdy-o÷
+7.04.030 ya§-i ca
+7.04.031 Å ghrÃ-dhm-o÷
+7.04.032 a-sya Cv-au
+7.04.033 KhaC-i ca
+7.04.034 aÓanÃ-ya=udan-ya-dhdanÃ-y-Ã÷ bu-bhk-«Ã-pi-pÃ-sÃ-gardhe-«u
+7.04.035 na=chandas-i a-putra-sya
+7.04.036 duras-y-u-r-draviïas-y-u-r=v­«aï-ya-ti-ri«aï-ya-ti
+7.04.037 aÓva=agha-sya ÃT
+7.04.038 deva-sumnay-or yaju«-i kÃÂhak-e
+7.04.039 kavi=adhvara-p­tana-sya=­c-i lopa-÷
+7.04.040 dya-ti-sya-ti-mÃ-sth-Ãm iT t-i K-IT-i
+7.04.041 ÓÃ-ch-or anya-tara-syÃm
+7.04.042 da-dhÃ-te-r hi-÷
+7.04.043 ja-hÃ-te-Ó ca Ktv-i
+7.04.044 vibhÃ«Ã chandas-i
+7.04.045 su-dhi-ta-vasu-dhi-ta-nema-dhi-ta-dhi-«va-dhi-«Åy-a ca
+7.04.046 d-a÷ dad GHO-÷
+7.04.047 aC-a÷ upa-sarg-Ãt ta-÷
+7.04.048 ap-a÷ bh-i
+7.04.049 s-a÷ s-i Ãrdha-dhÃtu-k-e
+7.04.050 tÃs=as-ty-or lopa-÷
+7.04.051 r-i ca
+7.04.052 ha eT-i
+7.04.053 y-i=i-varïay-or dÅdhÅ-vevy-o÷
+7.04.054 saN-i mÅ-mÃ-GHU-rabhA-labhA-Óaka-pata-pad-Ãm aC-a÷ is
+7.04.055 Ãp-j¤api=­dh-Ãm ÅT
+7.04.056 dambh-a÷ iT=ca
+7.04.057 muc-a÷ a-karma-ka-sya guïa-÷=vÃ
+7.04.058 a-tra lopa-÷ abhy-Ãs-a-sya
+7.04.059 hrasva-÷
+7.04.060 haL-Ãdi-÷ Óe«a-÷
+7.04.061 ÓaR-pÆrv-Ã-÷ khaY-a÷
+7.04.062 kU-h-os=cU-÷
+7.04.063 na kav-a-te-r ya§-i
+7.04.064 k­«e-Ó chandas-i
+7.04.065 dÃ-dhar-ti-dar-dhar-ti-dar-dhar-«i-bo-bhÆ-tu-te-tik-te=al-ar-«i-Ã-païÅ-phaï-at-saæ-sani-«yad-at-kari-kr-at-kani-krad-at-bhari-bhr-at-davi-dhv-at-a÷=davi-dyut-at-tari-tr-at-a÷=sarÅ-s­p-at-am-varÅ-v­j-at-mar-m­jy-a=Ã-ganÅ-gan-ti iti ca
+7.04.066 u-r aT
+7.04.067 dyuti-svÃpy-o÷ sam-pra-sÃr-aïa-m
+7.04.068 vyath-a÷ lIè-i
+7.04.069 dÅrgha-÷ i×-a÷ K-IT-i
+7.04.070 aT-a÷ Ãde-÷
+7.04.071 ta-smÃt nuè dvi-haL-a÷
+7.04.072 aÓ-no-te-s=ca
+7.04.073 bhav-a-te-r a-÷
+7.04.074 sa-sÆv-a iti nigam-e
+7.04.075 nij-Ãæ trayÃ-ï-Ãæ guïa-÷ Ál-au
+7.04.076 bh­¥-Ãm iT
+7.04.077 arti-pi-par-ty-oÓ ca
+7.04.078 bahula-æ chandas-i
+7.04.079 saN-i aT-a÷
+7.04.080 o-÷ pU-ya×=j-i=a-par-e
+7.04.081 srav-a-ti-Ó­-ïo-ti-drav-a-ti-prav-a-ti-plav-a-ticyav-a-tÅ-n-Ãæ vÃ
+7.04.082 guïa-÷ ya§-luK-o÷
+7.04.083 dÅrgha-÷ a-K-IT-a÷
+7.04.084 nÅK vancU-sransU-dhvansU-bhranÓU-kasş-pata-padA-skand-Ãm
+7.04.085 nuK aT-a÷ anu-nÃsika=nta-sya
+7.04.086 japş-jabhş-dahş-daÓş-bhanja-paÓ-sÃæ ca
+7.04.087 carş-phal-os=ca
+7.04.088 uT para-sya aT-a÷
+7.04.089 t-i ca
+7.04.090 rÅK ­T=upa-dha-sya ca
+7.04.091 ruK=riK-au ca luK-i
+7.04.092 ­T-as ca
+7.04.093 saN-vat laghu-n-i Ca§pare an-aC=lop-e
+7.04.094 dÅrgha-÷ lagho-÷
+7.04.095 aT sm­-d Ì-tvara-prathA-mradA-st Ì-spaÓ-Ãm
+7.04.096 vibhÃ«Ã ve«Âi-ce«Ây-o÷
+7.04.097 Å ca gaï-a÷
+
+8.01.001 sarva-sya dv-e
+8.01.002 ta-sya para-m Ã-mre¬-i-ta-m
+8.01.003 anudattÃ-æ ca
+8.01.004 nit-ya-vÅpsa-y-o÷
+8.01.005 pare-r varj-an-e
+8.01.006 pra-sam=upa=ud-a÷ pÃda-pÆr-aï-e
+8.01.007 upari-adhi-adhas-a÷ sÃm-Å-py-e
+8.01.008 vÃk-ya=Ãde-r Ã-mantr-i-ta-sya asÆyÃ-sam-ma-ti-kop-a-kuts-ana-bharts-an-e-«u
+8.01.009 eka-m bahuvrÅhi-vat
+8.01.010 Ã-bÃdh-e ca
+8.01.011 karma-dhÃr-aya-vat uttare-«u
+8.01.012 pra-kÃr-e guïa-vac-ana-sya
+8.01.013 a-k­cchr-e priy-a-sukhay-or anya-tara-syÃm
+8.01.014 ya-thÃ-sv-e ya-thÃ-ya-tha-m
+8.01.015 dvaæ-dva-m rahas-ya-maryÃdÃ-acana-vy-ut-kram-aïa-yaj¤a-pÃtra-ra-yog-a=abhi-vyak-ti-«u
+8.01.016 pada-sya
+8.01.017 pad-Ãt
+8.01.018 anudÃtta-æ sarva-m a-pada-Ãd-au
+8.01.019 Ã-mantr-i-ta-sya ca
+8.01.020 yu«mad-asmad-o÷ «a«ÂhÅ-caturthÅ-dvi-tÅyÃ-sthÃy-or vÃm-nÃv-au
+8.01.021 bahu-vac-an-e vas-nas-su
+8.01.022 te-may-au=eka-vac-ana-sya
+8.01.023 tvÃ-m-au dvi-tÅyÃ-y-Ã÷
+8.01.024 na ca-vÃ-ha=aha=eva-yuk-t-e
+8.01.025 paÓya=arth-ais=ca=an-Ã-loc-an-e
+8.01.026 sa-pÆrvÃ-y-Ã÷ prathamÃ-y-Ã÷ vibhÃ«Ã
+8.01.027 ti§-a÷ gotra-ÃdÅ-n-i kuts-ana=ÃbhÅk«ï-yay-o÷
+8.01.028 ti§ a-ti§-a÷
+8.01.029 na lUè
+8.01.030 ni-pÃt-air yad-yadi-hanta-kuvid-ned-ced-ca×-kaccid-ya-tra-yuk-ta-m
+8.01.031 naha praty-Ã-rambh-e
+8.01.032 satya-m praÓn-e
+8.01.033 a­ga a-prÃti-lom-y-e
+8.01.034 hi ca
+8.01.035 chandas-i an-eka-m api sa=Ã-kÃ­k«-am
+8.01.036 yÃ-vad-ya-thÃ-bhyÃm
+8.01.037 pÆjÃ-y-Ãæ na=an-antara-m
+8.01.038 upa-sarg-a-vy-ap-e-taæ ca
+8.01.039 tu-paÓya-paÓya-ta=ah-ai÷ pÆjÃ-y-Ãm
+8.01.040 aho ca
+8.01.041 Óe«-e vibhÃ«Ã
+8.01.042 purÃ ca par-Å-psÃ-y-Ãm
+8.01.043 nanu iti anu-j¤Ã=e«-aïÃ-y-Ãm
+8.01.044 kiæ kriyÃ-praÓ-n-e an-upa-sarg-am a-prati-«id-dha-m
+8.01.045 lop-e vibhÃ«Ã
+8.01.046 e-hi-man-y-e pra-hÃs-e lãè
+8.01.047 jÃtu a-pÆrva-m
+8.01.048 kim-v­t-ta-æ ca cid-ut-tara-m
+8.01.049 Ãho=utÃho ca=an-antara-m
+8.01.050 Óe«-e vibhÃ«Ã
+8.01.051 gaty-artha-lOè-Ã lãè na cet kÃr-aka-æ sarva=nyat
+8.01.052 lOè ca
+8.01.053 vi-bhÃ«-i-taæ sa=upa-sarg-am an-uttama-m
+8.01.054 hanta ca
+8.01.055 Ãm-a÷ eka=antara-m Ã-mantr-i-tam an-antik-e
+8.01.056 yad=hi-tu-para-æ chandas-i
+8.01.057 cana-cid=iva-go-tra=Ãdi-taddhita=Ã-mre¬-i-te-«u=a-gate-÷
+8.01.058 ca=Ãdi-«u ca
+8.01.059 ca-vÃ-yog-e prathamÃ
+8.01.060 ha=iti k«i-yÃ-y-Ãm
+8.01.061 aha iti vi-ni-yog-e ca
+8.01.062 ca=aha-lop-e eva iti ava-dhÃr-aïa-m
+8.01.063 ca=Ãdi-lop-e vibhÃ«Ã
+8.01.064 vai-vÃva iti ca=chandas-i
+8.01.065 eka=anyÃ-bhyÃæ sam-arthÃ-bhyÃm
+8.01.066 yad-v­t-t-Ãt nitya-m
+8.01.067 pÆj-an-Ãt pÆj-i-ta-m anudÃttam (kÃ«Âha=Ãdi-bhya÷)
+8.01.068 sa-ga-ti-r api ti§
+8.01.069 kuts-an-e ca sUPi=a-go-tra-Ãd-au
+8.01.070 ga-ti-r ga-t-au
+8.01.071 ti§-i ca udÃtta-vat-i
+8.01.072 Ã-mantr-ita-m pÆrva-m a-vid-ya-Ãna-vat
+8.01.073 na Ã-mantr-it-e sa-mÃna=dhi-kar-aï-e (sÃ-mÃn-ya-vac-ana-m)
+8.01.074 (sÃmÃnya-vac-ana-æ) vi-bhÃ«-i-ta-æ vi-Óe«-a-vac-an-e (bahu-vac-an-e)
+8.02.001 pÆrva-tra=a-sid-dha-m
+8.02.002 na-lopa-÷ sUP-svara-saæ-j¤Ã-tuK=i-dhi-«u k­t-i
+8.02.003 na mu n-e
+8.02.004 udÃtta-svar-itay-or ya×-a÷ svar-i-ta-÷ anudÃtta-sya
+8.02.005 eka=Ã-deÓ-a-÷ udÃtt-ena udÃtta-÷
+8.02.006 svar-i-ta-÷ vÃ anudÃtt-e pada=Ãd-au
+8.02.007 na-lop-a-÷ prÃti-pad-ika=anta-sya
+8.02.008 na §i-sam-bud-dhy-o÷
+8.02.009 m-Ãt=pa-dhÃ-y-ÃÓ ca mat-Or va-÷ a-yava=Ãdi-bhya÷
+8.02.010 jhaY-a÷
+8.02.011 saæ-j¤Ã-y-Ãm
+8.02.012 ÃsandÅ-vat=a«ÂhÅ-vat-cakrÅ-vat-kak«Å-vat=rumaï-vat=carmaï-vatÅ
+8.02.013 udan-vÃn uda-dh-au ca
+8.02.014 rÃjan-vÃn sau-rÃj-y-e
+8.02.015 chandas-i i-r-a÷
+8.02.016 an-a÷ nuè
+8.02.017 n-Ãt GHA-sya
+8.02.018 k­p-a÷ r-a÷ la-÷
+8.02.019 upa-sarg-a-sya ay-a-t-au
+8.02.020 gr-a÷ ya§-i
+8.02.021 aC-i vibhÃ«Ã
+8.02.022 pare-Ó ca gha=a­kay-o÷
+8.02.023 saæ-yog-a=anta-sya lopa-÷
+8.02.024 r-aÃt sa-sya
+8.02.025 dh-i ca
+8.02.026 jhaL-a÷ jhaL-i
+8.02.027 hrasv-Ãd a­g-Ãt
+8.02.028 iè-a÷ Åè-i
+8.02.029 s-k-o÷ saæ-yog-a=Ãdy-o÷ ant-e ca
+8.02.030 cO-÷ kU-÷
+8.02.031 h-a÷ ¬ha-÷
+8.02.032 d-Ãde-r dhÃto-r gha-÷
+8.02.033 vÃ druhş-muhş-«ïuhş-«ïih-Ãm
+8.02.034 nah-a÷ dha-÷
+8.02.035 Ãh-as tha-÷
+8.02.036 vraÓca-bhrasjA-s­jş-m­jş-yajA-rÃja-bhrÃja=cha-Ó-Ãm «a-÷
+8.02.037 eka=aC-a÷ baÁ-a÷ bhaå jhaå-anta-sya s-dhv-o÷
+8.02.038 dadh-as ta-th-oÓ ca
+8.02.039 jhaL-Ãæ jaÁ-a÷ ant-e
+8.02.040 jhaå-as ta-th-or dha-÷ a-dh-a÷
+8.02.041 «a-¬h-o÷ ka-÷ s-i
+8.02.042 ra-dÃ-bhyÃæ ni«ÂhÃ-t-a÷ na-÷ pÆrva-sya tu d-a÷
+8.02.043 saæ-yog-a=Ãde-r ÃT-a÷ dhÃto-r ya×-vat-a÷
+8.02.044 lÆ=Ãdi-bhya÷
+8.02.045 oT=IT-aÓ ca
+8.02.046 k«iy-a÷ dÅrgh-Ãt
+8.02.047 Óy-a÷ a-sparÓ-e
+8.02.048 anc-a÷ an-ap-Ã-dÃ-n-e
+8.02.049 div-a÷ a-v-ji-gÅ-«Ã-y-Ãm
+8.02.050 nir-vÃ-ïa÷ a-vÃ-t-e
+8.02.051 Óu«-a÷ ka-÷
+8.02.052 pac-a÷ va-÷
+8.02.053 k«Ãy-a÷ ma-÷
+8.02.054 pra-sty-a÷ anya-tara-syÃm
+8.02.055 an-upa-sarg-Ãt phul-la-k«Åb-a-k­Ó-a-ul-lÃgh-Ã-÷
+8.02.056 nudş-vidA=unda-trÃ-ghrÃ-hrÅ-bhya÷ anya-ara-yÃm
+8.02.057 na dhyÃ-khyÃ-pÌ-mÆrchi-mad-Ãm
+8.02.058 vit-ta-÷ bhog-a-praty-ayay-o÷
+8.02.059 bhit-ta-æ Óakala-m
+8.02.060 ­-ïa-m Ãdhamarï-y-e
+8.02.061 na-sat-ta-ni-«at-ta=a-nut-ta-pra-tÆr-ta-sÆr-ta-gÆrtÃ-n-i chandas-i
+8.02.062 KviN-praty-aya-sya kU-÷
+8.02.063 naÓe-r vÃ
+8.02.064 m-a÷ na-÷ dhÃto-÷
+8.02.065 m-v-oÓ ca
+8.02.066 sa-saju«-o÷ rU-÷
+8.02.067 ava-yÃ÷=Óveta-vÃ÷=uro-¬ÃÓ ca
+8.02.068 ahan
+8.02.069 ra-÷ a-sUP-i
+8.02.070 amnas=Ædhas=ava s=ity ubhayathÃ chandas-i
+8.02.071 bhuvas=ca mahÃ-vy-Ã-h­-te-÷
+8.02.072 vasU-sraæsU-dhvaæsU=ana¬uh-Ãm da-÷
+8.02.073 tiP-i an-as-te-÷
+8.02.074 siP-i dhÃto-r=rU-÷=vÃ
+8.02.075 d-as=ca
+8.02.076 r-v-o÷ upa-dhÃ-y-Ã÷ dÅrgha-÷ iK-a÷
+8.02.077 haL-i ca
+8.02.078 upa-dhÃ-y-Ãæ ca
+8.02.079 na BHA-kur-chur-Ãm
+8.02.080 adas-a÷=a-se-r d-Ãt=u d-a÷=ma-÷
+8.02.081 eT-a÷=ÅT bahu-vac-an-e
+8.02.082 vÃk-ya-sya èE-÷ plu-ta-÷=udÃtta-÷
+8.02.083 praty-abhi-vÃd-e=a-ÓÆdr-e
+8.02.084 dÆr-Ãt=hÆ-t-e ca
+8.02.085 hai-he-pra-yog-e hai-hay-o÷
+8.02.086 guro-r an-­T-a÷ an-anty-ya-sya=api ekaika-ya prÃc-Ãm
+8.02.087 om abhy-Ã-dÃ-n-e
+8.02.088 y-e yaj-¤a-kar-maï-i
+8.02.089 pra-ïav-a-« èE-÷
+8.02.090 yÃj-yÃ=anta-÷
+8.02.091 brÆ-hi-pr-e-sya-Órau«aÂ-vau«aÂ-Ã-vahÃ-nÃm Ãde-÷
+8.02.092 agn-Å-dh=pr-e-«-aïe para-sya ca
+8.02.093 vibhÃ«Ã p­«-Âa-prati-vac-an-e he-÷
+8.02.094 ni-g­h-ya=anu-yog-e ca
+8.02.095 Ã-mre¬-i-ta-m bharts-an-e
+8.02.096 a­ga-yuk-ta-æ ti§ Ã-kÃ­k«-a-m
+8.02.097 vi-cÃr-ya-m-ÃïÃ-n-Ãm
+8.02.098 pÆrva-æ tu bhÃ«Ã-y-Ãm
+8.02.099 prati-Órav-aï-e ca
+8.02.100 an-udÃttam praÓ-na=anta=abhi-pÆj-i-tay-o÷
+8.02.101 cid iti ca upa-mÃ=arth-e pra-yuj-ya-m-Ãn-e
+8.02.102 upari-svid Ãs-Å3-t=iti ca
+8.02.103 svar-i-tam Ã-mre¬-i-t-e asÆyÃ=sam-ma-ti-kopa-kuts-ane-«u
+8.02.104 k«iyÃ=ÃÓis-prai«e-«u ti§ Ã-kÃ­k«-a-m
+8.02.105 an-ant-ya-sya=api praÓna=Ã-khyÃnay-o÷
+8.02.106 plu-t-au aiC-a÷ iT=uT-au
+8.02.107 eC-a÷ a-pra-g­h-ya-sya=a-dÆr-Ãt=Æ-t-e pÆrva-sya ardha-sya=ÃT=uttara-sya iT=uT-au
+8.02.108 tay-or y-v-au aC-i saæ-hi-tÃ-y-Ãm
+8.03.001 matU-vasO-÷ rU sam-bud-dh-au chandas-i
+8.03.002 a-tra anu-nÃsika-÷ pÆrva-sya tu vÃ
+8.03.003 ÃT-a÷=aè-i nitya-m
+8.03.004 anu-nÃsik-Ãt para-÷ anu-svÃr-a-÷
+8.03.005 sam-a÷ suè-i
+8.03.006 pum-a÷ khaY-i=aM-par-e
+8.03.007 n-as=chaV-i a-pra-ÓÃn
+8.03.008 ubha-ya-thÃ ­k-«u
+8.03.009 dÅrgh-Ãt aè-i sa-mÃna-pad-e
+8.03.010 nÌ-n p-e
+8.03.011 svatavÃn pÃy-au
+8.03.012 kÃn Ãmre¬it-e
+8.03.013 ¬h-a÷ ¬h-e lop-a-÷
+8.03.014 r-a÷ r-i
+8.03.015 khaR=ava-sÃ-nayo-r vi-sarj-anÅya-÷
+8.03.016 rO-÷ suP-i
+8.03.017 bho=bhago=agho=a-pÆrva-sya ya-÷ aÁ-i
+8.03.018 v-y-or laghu-pra-yat-na-tara-÷ ÓÃkaÂÃyana-sya
+8.03.019 lop-a-÷ ÓÃkalya-sya
+8.03.020 oT-a÷ gÃrg-ya-sya
+8.03.021 u¥-i ca pad-e
+8.03.022 haL-i sarve-«Ãm
+8.03.023 m-a÷ anu-svÃr-a-÷
+8.03.024 n-aÓ ca a-pada=anta-sya jhaL-i
+8.03.025 ma-÷ rÃj-i sam-a÷ Kv-au
+8.03.026 h-e ma-par-e vÃ
+8.03.027 na-par-e na-÷
+8.03.028 ­-ï-o÷ kuK-ÂuK ÓaR-i
+8.03.029 ¬-a÷ s-i dhuè
+8.03.030 n-aÓ ca
+8.03.031 Ó-i tuK
+8.03.032 ­aM-a÷=hrasv-Ãt aC-i ­aMuè nitya-m
+8.03.033 maY-a÷ u¥-a÷ va-÷ vÃ
+8.03.034 vi-sarj-anÅya-sya sa-÷
+8.03.035 ÓaR-par-e vi-sarj-anÅya-÷
+8.03.036 vÃ ÓaR-i
+8.03.037 kU-pV-o÷ Xk-Xp-au ca
+8.03.038 sa-÷ a-pada-Ãd-au
+8.03.039 i×-a÷ «a-÷
+8.03.040 namas-puras-or gaty-o÷
+8.03.041 iT=uT=upa-dha-sya ca a-praty-ay-a-sya
+8.03.042 tiras-a÷ anya-tara-syÃm
+8.03.043 dvis-tris-catur iti k­tvas=arth-e
+8.03.044 is=us-o÷ sÃmarth-y-e
+8.03.045 nitya-æ sam-Ãs-e an-uttara-ada-tha-ya
+8.03.046 aT-a÷ k­-kami-kaæsa-kumbha-pÃtra-kuÓÃ-karïÅ-«u an-a-vy-ay-a-sya
+8.03.047 adhas=Óiras-Å pad-e
+8.03.048 kas-ka=Ãdi-«u ca
+8.03.049 chandas-i vÃ apra=Ãmre¬itay-o÷
+8.03.050 ka-÷-kar-a-t-kar-a-ti-k­-dhi-k­-te-«u an-adite-÷
+8.03.051 pa¤camy-Ã÷ par-au adhy-arth-e
+8.03.052 pÃ-t-au ca bahula-m
+8.03.053 «a«thy-Ã÷ pati-putra-p­«Âha-pÃra-pada-payas-po«e-«u
+8.03.054 i¬Ã-y-Ã÷ vÃ
+8.03.055 a-pada=anta-sya mÆrdhan-ya-÷
+8.03.056 sahe-÷ sÃ¬-a÷ s-a÷
+8.03.057 i×-kO-÷
+8.03.058 nuM-vi-sarj-anÅya-ÓaR-vy-av-Ãy-e=api
+8.03.059 Ã-deÓ-a-praty-ayay-o÷
+8.03.060 ÓÃsi-vasi-ghasÅ-n-Ãæ ca
+8.03.061 stau-ti-×y-or eva «a×-i abhy-Ãs-Ãt
+8.03.062 sa-÷ svidi-svadi-sahÅ-n-Ãæ ca
+8.03.063 prÃk sit-Ãt aè=vy-av-Ãy-e api
+8.03.064 sthÃ=Ãdi-«u abhy-Ãs-ena ca abhy-Ãs-a-ya
+8.03.065 upa-sarg-Ãt su-no-ti-suv-a-ti-s-ya-ti-stau-ti-stobh-a-ti-sthÃ-sen-ay-a-sedha-sicA-sanjA-svanj-Ãm
+8.03.066 sadi-r a-prate-÷
+8.03.067 stanbhe-÷
+8.03.068 av-Ãt ca Ã-lamb-ana-Ã-vi-dÆr-yaya-o÷
+8.03.069 ve-Ó ca svan-a÷ bhoj-an-e
+8.03.070 pari-ni-vi-bhyah sevasi-ta-say-a-sivş-sahA-suè-stu-sanj-Ãm
+8.03.071 siv-ÃdÅ-n-Ãæ vÃ aè=vy-av-Ãy-e api
+8.03.072 anu-vi-pari-abhi-ni-bhya÷ syand-a-te-r a-prÃïi-«u
+8.03.073 ve-÷ skande-r a-ni«ÂhÃ-y-Ãm
+8.03.074 pare-Ó ca
+8.03.075 pari-skand-a-÷ prÃc-ya-bharate-«u
+8.03.076 sphur-a-ti-sphul-a-ty-or nir-ni-vi-bhya÷
+8.03.077 ve-÷ skabh-nÃ-te-r nitya-m
+8.03.078 i×-a÷ «Å-dhvam-lU§-lIè-Ãæ dh-a÷ a­g-Ãt
+8.03.079 vibhÃ«Ã iè-a÷
+8.03.080 sam-Ãs-e a­gule-÷ sa­ga-÷
+8.03.081 bhÅro-÷ sthÃna-m
+8.03.082 agne-÷ stu-t-stoma-som-Ã-÷
+8.03.083 jyotis=Ãyus-a÷ stoma-÷
+8.03.084 mÃt­-pit­-bhyÃæ svasu÷
+8.03.085 mÃtur=pitur-bhyÃm anya-ara-yÃm
+8.03.086 abhi+nis-a÷ stan-a÷ Óabda-aæj¤Ã-y-Ãm
+8.03.087 upa-sarg-a-prÃdur-bhyÃm as-ti-r y-aC-ara-÷
+8.03.088 su-vi-nis-dur-bhya÷ supi-sÆ-ti-sam-Ã-÷
+8.03.089 ni-nadÅ-bhyÃæ snÃ-te-÷ kauÓal-e
+8.03.090 sÆtra-m prati-«ïÃ-ta-m
+8.03.091 kapi-«Âhala-÷ gotr-e
+8.03.092 pra-«Âha-÷ agra-gÃm-in-i
+8.03.093 v­k«a=Ãs-anay-or vi-«Âar-a-÷
+8.03.094 chanda÷-nÃmn-i ca
+8.03.095 gav-i-yudh-i-bhyÃæ sthi-ra-÷
+8.03.096 vi-ku-Óami-pari-bhya÷ sthal-a-m
+8.03.097 amba-Ãmba-go-bhÆmi-savya-apa-dvi-tri-kuÓe-ku-Óa­ku-a­gu-ma¤ji-pu¤ji-param-e-barhis=div-i=agni-bhya÷ sta-÷
+8.03.098 su-«Ãma(n)=Ãdi-«u ca
+8.03.099 eT-i saæj¤Ã-y-Ãm a-g-Ãt
+8.03.100 nak«atr-Ãt vÃ
+8.03.101 hrasv-Ãt t-Ãd-au taddhit-e
+8.03.102 nis-as tap-a-t-au an-Ã-sev-an-e
+8.03.103 yu«mad=tad=tatak«u÷-«u anta÷-Ãda-m
+8.03.104 yaju«-i eke-«Ãm
+8.03.105 stu-ta-stomay-oÓ chandas-i
+8.03.106 pÆrva-pad-Ãt
+8.03.107 su¥-a÷
+8.03.108 san-o-te-r a-n-a÷
+8.03.109 sahe-÷ p­tanÃ=­-tÃ-bhyÃæ ca
+8.03.110 na ra-para-s­pi-s­ji-sp­si-sp­hi-sav-ana=ÃdÅ-n-Ãm
+8.03.111 sÃt-pada=Ãdy-o÷
+8.03.112 sic-a÷ ya§-i
+8.03.113 sedh-a-ter ga-t-au
+8.03.114 prati-stab-dha- ni-stab-dh-au ca
+8.03.115 so¬h-a÷
+8.03.116 stanbhU-Óivş-sah-Ãæ Ca§-i
+8.03.117 su-no-te-÷ sya-saN-o÷
+8.03.118 sadi-svanj-o÷ para-sya lIè-i
+8.03.119 ni-vi=abhi-bhya÷ aè=y-Ãv-ay-e vÃ chandas-i
+8.04.001 ra-«Ã-bhyÃm n-a÷ ïa-÷ samÃna-ad-e
+8.04.002 aè-kU-pU=Ã§-nuM-vy-av-Ãy-e api
+8.04.003 pÆrva-pad-Ãt saæ-j¤Ã-y-Ãm a-g-a÷
+8.04.004 vana-m puragÃ-miÓrakÃ-sidhrakÃ-ÓÃrikÃ-koÂara=agre-bhya÷
+8.04.005 pra-nir=antar-Óara=ik«u-plak«a-Ãmra-kÃr«-ya-khadira-piyÆk«Ã-bhya÷ a-saæ-¤Ã-y-Ãm api
+8.04.006 vibhÃ«Ã o«adhi-vanas-pati-bhya÷
+8.04.007 ahna-÷ aT=ant-Ãt
+8.04.008 vÃh-ana-m Ã-hi-t-Ãt
+8.04.009 pÃna-æ deÓ-e
+8.04.010 vÃ bhÃv-a-kar-aïay-o÷
+8.04.011 prÃti-pad-ika=anta-nuM-vi-hak-ti-«u ca
+8.04.012 eka=aC=uttara-pad-e ïa-÷
+8.04.013 kU-mat-i ca
+8.04.014 upa-sarg-Ãt a-sam-Ãs-e api ïa=pa-eÓ-a-ya
+8.04.015 hi-nu=mÅ-nÃ
+8.04.016 Ãni lOè
+8.04.017 ne-rgadş-nadş-pata-padA-GHU-mÃ-sya-ti-han-ti-yÃ-ti-vÃ-ti-drÃ-ti-psÃ-ti-vap-a-ti-vah-a-ti-ÓÃm-ya-ti-ci-no-ti-deg-dhi-«u ca
+8.04.018 Óe«-e vibhÃ«Ã a-ka-kha=Ãd-au-a-«a-nt-e=pa-deÓ-e
+8.04.019 an-i-te-÷
+8.04.020 anta-÷
+8.04.021 ubh-au sa=abhy-Ãs-a-sya
+8.04.022 han-te-r aT-pÆrva-sya
+8.04.023 va-m-or vÃ
+8.04.024 antar a-deÓ-e
+8.04.025 ay-ana-æ ca
+8.04.026 chandas-i ­T=ava-grah-Ãt
+8.04.027 nas=ca dhÃtu-stha=uru-«u-hya÷
+8.04.028 upa-sarg-Ãt an-oT-para=÷
+8.04.029 k­t-i=aC-a÷
+8.04.030 ×e-r vibhÃ«Ã
+8.04.031 haL-aÓ ca iC=upa=dh-Ãt
+8.04.032 iC=Ãde-÷ sa-nuM-a÷
+8.04.033 vÃ niæsa-nik«A-nind-Ãm
+8.04.034 na bhÃ-bhÆ-pÆ-kami-gami-pyÃyı-vep-Ãm
+8.04.035 «-Ãt pada=ant-Ãt
+8.04.036 naÓ-e÷ «a-anta-sya
+8.04.037 pada=anta-sya
+8.04.038 pada-vy-av-Ãy-e api
+8.04.039 k«ubh-nÃ=Ãdi-su ca
+8.04.040 s-tO-÷ Ó-cU-nÃ Ó-cU-÷
+8.04.041 «-ÂU-nÃ «-ÂU-÷
+8.04.042 na pada=ant-Ãt=ÂO-r a-n-Ãm
+8.04.043 tO-÷ «-i
+8.04.044 Ó-Ãt
+8.04.045 yaR-a÷ anu-nÃsik-e anu-nÃskika-÷ vÃ
+8.04.046 aC-a÷ ra-hÃ-bhyÃm dv-e
+8.04.047 an-aC-i ca
+8.04.048 na=Ãd-in-Å=Ã-kroÓ-e putra-sya
+8.04.049 ÓaR-a÷ aC-i
+8.04.050 tri-pra-bh­-ti-«u ÓÃkaÂ-Ãyana-sya
+8.04.051 sarva-tra ÓÃkal-ya-sya
+8.04.052 dÅrgh-Ãt Ã-cÃr-yÃ-ï-Ãm
+8.04.053 jhaL-Ãæ jaÁ jhaÁ-i
+8.04.054 abhy-Ãs-e caR ca
+8.04.055 khaR-i ca
+8.04.056 vÃ ava-s-Ã-n-e
+8.04.057 a×-a÷ a-pra-g­h-ya-sya anu-Ãsika-÷
+8.04.058 anu-svÃr-a-sya yÃY-i para-sa-arïa-÷
+8.04.059 vÃ pada=anta-sya
+8.04.060 tO-r l-i
+8.04.061 ud-a÷ sthÃ-stanbhO-÷ pÆrva-sya
+8.04.062 jhaY-a÷ ha-÷ anya-tara-syÃm
+8.04.063 Ó-as cha-÷ aè-i
+8.04.064 haL-a÷ yaM-Ãm yaM-i lopa-÷
+8.04.065 jhaR-a÷ jhaR-i sa-varï-e
+8.04.066 udÃtt-Ãt anudÃtta-sya svarita-÷
+8.04.067 na=udÃtta-svarita=udayam a-gÃrgya-kÃÓyapa-gÃlava-n-Ãm
+8.04.068 a a iti

@@ -1,0 +1,4035 @@
+Panini: Astadhyayi
+
+Extracted from:
+Vamana & Jayaditya: Kasikavrtti
+Based on the ed. by Aryendra Sharma:
+Kasika - a commentary on Panini's grammar by Vamana and Jayaditya.
+Hyderabad : Osmania University, Sanskrit Academy 1969-1985
+(Samskrtaparisadgranthavali, 17-)
+[SEE SEPARATE FILE]
+
+
+Input by Ms. Mari Minamino, Kyoto
+
+
+After extensive reformatting, this GRETIL version still retains
+some inconsistencies that cannot be standardized at present, especially
+with regard to sandhi  / pausa.
+
+
+ADDITIONAL CHARACTERS (CSX+)
+Á  = anunàsika 
+Û  = jihvàmålãya 
+Ü  = upadhmànãya
+
+
+- = word sandhi
++ = sentence sandhi
+
+
+
+___________________________________________________________________
+
+THIS TEXT FILE IS FOR REFERENCE PURPOSES ONLY!   
+COPYRIGHT AND TERMS OF USAGE AS FOR SOURCE FILE. 
+                                       
+Text converted to CSX+ encoding:
+                                       
+description             character  =ASCII   
+                                       
+long a                  à             224   
+long A                  â             226   
+long i                  ã             227   
+long I                  ä             228   
+long u                  å             229   
+long U                  æ             230   
+vocalic r                            157
+vocalic R               »             187
+long vocalic r          ®             174
+vocalic l               ¯             175
+long vocalic l          °             176
+velar n                 ï             239   
+velar N                 ğ             240   
+palatal n               ¤             164   
+palatal N               ¥             165   
+retroflex t             ñ             241   
+retroflex T             ò             242   
+retroflex d             ó             243   
+retroflex D             ô             244   
+retroflex n             õ             245   
+retroflex N             ö             246   
+palatal s               ÷             247   
+palatal S               ø             248   
+retroflex s             ù             249   
+retroflex S             ú             250   
+anusvara                ü             252   
+capital anusvara        ı             253   
+visarga                 ş             254   
+
+                                      
+Other characters of the CSX encoding table are not included.
+Unless indicated otherwise, accents have been dropped in order 
+to facilitate word search.             
+
+For a comprehensive list of CSX and other GRETIL encodings 
+and formats see:
+www.sub.uni-goettingen.de/ebene_1/fiindolo/gretil/gretdiac.pdf
+and
+www.sub.uni-goettingen.de/ebene_1/fiindolo/gretil/gretdias.pdf
+___________________________________________________________________
+
+
+
+
+vddhir àd-aic  || PS_1,1.1 ||
+adeï guõaş  || PS_1,1.2 ||
+iko guõa-vddhã  || PS_1,1.3 ||
+na dhàtu-lopa àrdhadhàtuke  || PS_1,1.4 ||
+kïiti ca  || PS_1,1.5 ||
+dãdhã-vevã-iñàm  || PS_1,1.6 ||
+halo 'nantaràş saüyogaş  || PS_1,1.7 ||
+mukha-nàsikà-vacano 'nunàsikaş  || PS_1,1.8 ||
+tulya-àsya-prayarnaü savarõam  || PS_1,1.9 ||
+na aj-jhalau  || PS_1,1.10 ||
+ãd-åd-ed-dvivacanaü praghyam  || PS_1,1.11 ||
+adaso màt  || PS_1,1.12 ||
+÷e  || PS_1,1.13 ||
+nipàta eka-aj-an-àï  || PS_1,1.14 ||
+ot  || PS_1,1.15 ||
+sambuddhau ÷àkalyasya-itàv anàrùe  || PS_1,1.16 ||
+u¤aş  || PS_1,1.17 ||
+åü  || PS_1,1.18 ||
+ãd-åtau ca saptamy-arthe  || PS_1,1.19 ||
+dà-dhà ghv-adàp  || PS_1,1.20 ||
+àdyantavad ekasmin  || PS_1,1.21 ||
+tarap-tamapau ghaş  || PS_1,1.22 ||
+bahu-gaõa-vatu-óati saïkhyà  || PS_1,1.23 ||
+ùõa-antà ùañ  || PS_1,1.24 ||
+óati ca  || PS_1,1.25 ||
+kta-ktavatå niùñhà  || PS_1,1.26 ||
+sarva-àdãni sarvanàmàni  || PS_1,1.27 ||
+vibhàùà dikùamàse bahuvrãhau  || PS_1,1.28 ||
+na bahuvrãhau  || PS_1,1.29 ||
+ttãyà-samàse  || PS_1,1.30 ||
+dvandve ca  || PS_1,1.31 ||
+vibhàùà jasi  || PS_1,1.32 ||
+prathama-carama-taya-alpa-ardha-katipaya-nemà÷ ca  || PS_1,1.33 ||
+pårva-para-avaradakùiõa-uttara-apara-adharàõi vyavasthàyàm asa¤j¤àyàm  || PS_1,1.34 ||
+svam aj¤àti-dhana-àkhyàyàm  || PS_1,1.35 ||
+antaraü bahiryoga-upasaüvyànayoş  || PS_1,1.36 ||
+svaràdi-nipàtam avyayam  || PS_1,1.37 ||
+taddhita÷ ca asarva-vibhaktiş  || PS_1,1.38 ||
+kn-m-ej-antaş  || PS_1,1.39 ||
+ktvà-tosun-kasunaş  || PS_1,1.40 ||
+avyayã-bhàva÷ ca  || PS_1,1.41 ||
+÷i sarvanàma-sthànam  || PS_1,1.42 ||
+suó anapuüsakasya  || PS_1,1.43 ||
+na và-iti vibhàùà  || PS_1,1.44 ||
+ig-yaõaş samprasàraõam  || PS_1,1.45 ||
+gàï-kuñàdibhyo '¤õinïit  || PS_1,2.1 ||
+vija iñ  || PS_1,2.2 ||
+vibhàùà-årõoş  || PS_1,2.3 ||
+sàrvadhàtukam apit  || PS_1,2.4 ||
+asaüyogàl liñ kit  || PS_1,2.5 ||
+indhi-bhavatibhyàü ca  || PS_1,2.6 ||
+mó-amda-gudha-kuùa-kli÷a-vada-vasaş ktvà  || PS_1,2.7 ||
+ruda-vida-muùa-grahi-svapi-pracchaş saü÷ ca  || PS_1,2.8 ||
+iko jhal  || PS_1,2.9 ||
+halantàc ca  || PS_1,2.10 ||
+liï-sicau àtmanepadeùu  || PS_1,2.11 ||
+u÷ ca  || PS_1,2.12 ||
+và gamaş  || PS_1,2.13 ||
+hanaş sic  || PS_1,2.14 ||
+yamo gandhane  || PS_1,2.15 ||
+vibhàùà-upayamane  || PS_1,2.16 ||
+sthàghvor icca  || PS_1,2.17 ||
+na ktvà sa-iñ  || PS_1,2.18 ||
+niùñhà ÷ãï-svidi-midi-kùvidi-dhùaş  || PS_1,2.19 ||
+mùas titikùàyàm  || PS_1,2.20 ||
+udupadhàd bhàva-àdikarmaõor anyatarasyàm  || PS_1,2.21 ||
+påïaş ktvà ca  || PS_1,2.22 ||
+na-upadhàt tha-pha-antàd và  || PS_1,2.23 ||
+va¤ci-lu¤cy-ta÷ ca  || PS_1,2.24 ||
+tùi-mùi-k÷eş kà÷yapasya  || PS_1,2.25 ||
+ralo v-y-upadhad-dhal-àdeş saü÷ ca  || PS_1,2.26 ||
+åkàlo 'j-jhrasva-dãrgha-plutaş  || PS_1,2.27 ||
+aca÷ ca  || PS_1,2.28 ||
+uccair udàttaş  || PS_1,2.29 ||
+nãcair anudàttaş  || PS_1,2.30 ||
+samàhàraş svaritaş  || PS_1,2.31 ||
+tasya-àdita udàttam ardha-hrasvam  || PS_1,2.32 ||
+eka-÷ruti dåràt sambuddhau  || PS_1,2.33 ||
+yaj¤a-karmaõy-ajapa-nyåïkha-sàmasu  || PS_1,2.34 ||
+uccaistaràü và vaùañkàraş  || PS_1,2.35 ||
+vibhàùà chandasi  || PS_1,2.36 ||
+na subrahmaõyàyàü svaritasya tu udàttaş  || PS_1,2.37 ||
+deva-brahmaõor anudàttaş  || PS_1,2.38 ||
+svaritàt saühitàyàm anudàttànàm  || PS_1,2.39 ||
+udàtta-svarita-parasya sannataraş  || PS_1,2.40 ||
+apkta eka-al pratyayaş  || PS_1,2.41 ||
+tatpuruùaş samàna-adhikaraõaş karmadhàrayaş  || PS_1,2.42 ||
+prathamà-nirdiùñaü samàsa upasarjanam  || PS_1,2.43 ||
+eka-vibhàkti ca apårva-nipàte  || PS_1,2.44 ||
+arthavad adhàtur apratyayaş pràtipadikam  || PS_1,2.45 ||
+kt-taddhita-samàsà÷ ca  || PS_1,2.46 ||
+hrasvo napuüsake pràtipadikasya  || PS_1,2.47 ||
+gostriyor upasarjanasya  || PS_1,2.48 ||
+luk taddhita-luki  || PS_1,2.49 ||
+id-goõyàş  || PS_1,2.50 ||
+lupi yuktavad-vyaktivacane  || PS_1,2.51 ||
+vi÷eùaõànàü ca ajàteş  || PS_1,2.52 ||
+tad a÷iùyaü sa¤j¤à-pramàõatvàt  || PS_1,2.53 ||
+lub yoga-aprakhyànàt  || PS_1,2.54 ||
+yoga-pramàõe ca tad-abhàve 'dar÷anam syàt  || PS_1,2.55 ||
+pradhàna-pratyaya-arthavacanam arthasya anya-pramàõàtvàt  || PS_1,2.56 ||
+kàla-upasarjane ca tulyam  || PS_1,2.57 ||
+jàty-àkhyàyam ekasmin bahuvacanam anyatarasyàm  || PS_1,2.58 ||
+asmado dvayo÷ ca  || PS_1,2.59 ||
+phalgunã-proùñhapadànàü ca nakùatre  || PS_1,2.60 ||
+chandasi punarvasvorekavacanam  || PS_1,2.61 ||
+vi÷àkhayo÷ ca  || PS_1,2.62 ||
+tiùya-punarvasvor nakùatra-dvandve bahuvacanasya dvivacanaü nityam  || PS_1,2.63 ||
+sasåpàõàm eka÷eùa eka-vibhaktau  || PS_1,2.64 ||
+vddho yånà tal-lakùaõa÷ ced-eva vi÷eùaş  || PS_1,2.65 ||
+ strã puüvac-ca  || PS_1,2.66 ||
+pumàn striyà  || PS_1,2.67 ||
+bhràt-putrau svas-duhitbhyàm  || PS_1,2.68 ||
+napuüsakam anapuüsakena-ekavac-ca-asya-anyatarasyàm  || PS_1,2.69 ||
+pità màtrà  || PS_1,2.70 ||
+÷va÷uraş ÷vasravà  || PS_1,2.71 ||
+tyad-àdãni sarvair nityam  || PS_1,2.72 ||
+gràmya-pa÷u-saïgheùv ataruõe÷u strã  || PS_1,2.73 ||
+bhåvàdayo dhàtavaş  || PS_1,3.1 ||
+upade÷e 'j-anunàsika it  || PS_1,3.2 ||
+hal-antyam  || PS_1,3.3 ||
+na vibhaktau tusmàş  || PS_1,3.4 ||
+àdir ¤i-ñu-óavaş  || PS_1,3.5 ||
+ùaş pratyayasaya  || PS_1,3.6 ||
+duñå  || PS_1,3.7 ||
+la-÷a-kv ataddhite  || PS_1,3.8 ||
+tasya lopaş  || PS_1,3.9 ||
+yathà-saïkhyam anude÷aş samànàm  || PS_1,3.10 ||
+svaritena adhikàraş  || PS_1,3.11 ||
+anudàttaïita àtmanepadam  || PS_1,3.12 ||
+bhàva-karmaõoş  || PS_1,3.13 ||
+kartari karma-vyatihàre  || PS_1,3.14 ||
+na gati-hiüsà-arthebhyaş  || PS_1,3.15 ||
+itaretara-anyonya-upapadàc ca  || PS_1,3.16 ||
+ner vi÷aş  || PS_1,3.17 ||
+parivy-avebhyaş kriyaş  || PS_1,3.18 ||
+viparàbhyàü jeş  || PS_1,3.19 ||
+aïo do 'nàsya-viharaõe  || PS_1,3.20 ||
+krãóo 'nu-saü-paribhya÷ ca  || PS_1,3.21 ||
+samavapravibhyaş sthaş  || PS_1,3.22 ||
+prakà÷ana-stheya-àkhyaho÷ ca  || PS_1,3.23 ||
+udo 'nårdhva-karmaõi  || PS_1,3.24 ||
+upàn mantra-karaõe  || PS_1,3.25 ||
+akarmakàc ca  || PS_1,3.26 ||
+ud-vibhyàü tapaş  || PS_1,3.27 ||
+àïo yama-hanaş  || PS_1,3.28 ||
+samo gamy-cchi-pracchi-svaraty arti-÷ru-vidighyaş  || PS_1,3.29 ||
+ni-sam-upa-vibhyo hvaş  || PS_1,3.30 ||
+spardhàyàm àïaş  || PS_1,3.31 ||
+gandhana-avakùepaõa-sevana-sàhasikya-pratithatna-prakathana-upayogeùu k¤aş  || PS_1,3.32 ||
+adheş prasahane  || PS_1,3.33 ||
+veş ÷abda-karmaõaş  || PS_1,3.34 ||
+akarmakàc ca  || PS_1,3.35 ||
+sammànana-utsa¤jana-àcàryakaraõa-j¤àna-bhti-vigaõana-vyayeùu niyaş  || PS_1,3.36 ||
+kartsthe ca ÷arãre karmaõi  || PS_1,3.37 ||
+vtti-sarga-tàyaneùu kramaş  || PS_1,3.38 ||
+upa-paràbhyàm  || PS_1,3.39 ||
+àïa udgamane  || PS_1,3.40 ||
+veş pàda-viharaõe  || PS_1,3.41 ||
+pra-upàbhyàü samarthàbhyàm  || PS_1,3.42 ||
+anupasargàd và  || PS_1,3.43 ||
+apahnave j¤aş  || PS_1,3.44 ||
+akarmakàc ca  || PS_1,3.45 ||
+saü-pratibhyàm anàdhyàne  || PS_1,3.46 ||
+bhàsana-upasambhàùà-j¤àna-yatna-vimaty-upamantraõeùu vadaş  || PS_1,3.47 ||
+vyaktavàcàü samuccàraõe  || PS_1,3.48 ||
+anor akarmakàt  || PS_1,3.49 ||
+vibhàùà vipralàpe  || PS_1,3.50 ||
+avàd graş  || PS_1,3.51 ||
+samaş pratij¤àne  || PS_1,3.52 ||
+uda÷ caraş sakarmakàt  || PS_1,3.53 ||
+saüs ttãyà-yuktàt  || PS_1,3.54 ||
+dàõa÷ ca sà cec caturthy-arthe  || PS_1,3.55 ||
+upàd yamaş svakarane  || PS_1,3.56 ||
+j¤à-÷ru-sm-d÷àü sanaş  || PS_1,3.57 ||
+na anor j¤aş  || PS_1,3.58 ||
+praty-àïbhyàü ÷ruvaş  || PS_1,3.59 ||
+÷adeş ÷itaş  || PS_1,3.60 ||
+mriyater luï-liïo÷ ca  || PS_1,3.61 ||
+pårvavat sanaş  || PS_1,3.62 ||
+àm-pratyayavat k¤o 'nuprayogasya  || PS_1,3.63 ||
+pra-upàbhyàü yujer ayaj¤a-pàtreùu  || PS_1,3.64 ||
+samaş kùõuvaş  || PS_1,3.65 ||
+bhujo 'navane  || PS_1,3.66 ||
+õe raõau yat karma õau cet sa kartà 'nàdhyàne  || PS_1,3.67 ||
+bhã-smyor hetubhaye  || PS_1,3.68 ||
+gdhi-va¤cyoş pralambhane  || PS_1,3.69 ||
+liyaş saümànana-÷àlãnãkaraõayo÷ ca  || PS_1,3.70 ||
+mithyopapadàt k¤o 'bhyàse  || PS_1,3.71 ||
+svarita-¤itaş kartr-abhipràye kriyàphale  || PS_1,3.72 ||
+apàd vadaş  || PS_1,3.73 ||
+õica÷ ca  || PS_1,3.74 ||
+sam-ud-àïbhyo yamo 'granthe  || PS_1,3.75 ||
+anupasargàj j¤aş  || PS_1,3.76 ||
+vibhàùà-upapadena pratãyamàne  || PS_1,3.77 ||
+÷eùàt kartari parasmaipadam  || PS_1,3.78 ||
+anu-paràbhyàü k¤aş  || PS_1,3.79 ||
+abhi-praty-atibhyaş kùipaş  || PS_1,3.80 ||
+pràdvahaş  || PS_1,3.81 ||
+parer mùaş  || PS_1,3.82 ||
+vy-àï-paribhyo ramaş  || PS_1,3.83 ||
+upàc ca  || PS_1,3.84 ||
+vibhà÷à 'karmakàt  || PS_1,3.85 ||
+budha-yudha-na÷a-jana-iï-pru-dru-srubhyo õeş  || PS_1,3.86 ||
+nigaraõa-calana-arthebhya÷ ca  || PS_1,3.87 ||
+aõàv akarmakàc cittavat-kartkàt  || PS_1,3.88 ||
+na pàdamy-àïyama-àïyasa-parimuha-ruci-nti-vada-vasaş  || PS_1,3.89 ||
+và kyaùaş  || PS_1,3.90 ||
+dhydbhyo luïi  || PS_1,3.91 ||
+vdbhyaş syasanoş  || PS_1,3.92 ||
+luñi ca klupaş  || PS_1,3.93 ||
+à kaóàràdekà sa¤j¤à  || PS_1,4.1 ||
+vipratiùedhe paraü kàryam  || PS_1,4.2 ||
+yå stry-àkhyau nadã  || PS_1,4.3 ||
+na-iyaï-uvaï-sthànàv astrã  || PS_1,4.4 ||
+va+àmi  || PS_1,4.5 ||
+ïiti hrasva÷ ca  || PS_1,4.6 ||
+÷eùo ghyasakhi  || PS_1,4.7 ||
+patiş samàsa eva  || PS_1,4.8 ||
+ùaùñhã-yukta÷ chandasi và  || PS_1,4.9 ||
+hrasvaü laghu  || PS_1,4.10 ||
+saüyoge guru  || PS_1,4.11 ||
+dãrghaü ca  || PS_1,4.12 ||
+yasmàt pratyaya-vidhis tad-àdi pratyaye 'ïgam  || PS_1,4.13 ||
+sup-tiï-antaü padam  || PS_1,4.14 ||
+naş kye  || PS_1,4.15 ||
+siti ca  || PS_1,4.16 ||
+svàdiùv a-sarvanamasthàne  || PS_1,4.17 ||
+yaci bham  || PS_1,4.18 ||
+tasau matv-arthe  || PS_1,4.19 ||
+ayasmaya-àdãni chandasi  || PS_1,4.20 ||
+bahuùu bahuvacanam  || PS_1,4.21 ||
+dvy-ekayor dvibacanaa-ekavacane  || PS_1,4.22 ||
+kàrake  || PS_1,4.23 ||
+dhruvamapàye 'pàdànam  || PS_1,4.24 ||
+bhã-trà-arthànàü bhaya-hetuş  || PS_1,4.25 ||
+parà-jer asoóhaş  || PS_1,4.26 ||
+vàraõa-arthànàm ãpsitaş  || PS_1,4.27 ||
+antardhau yena adar÷anam icchati  || PS_1,4.28 ||
+àkhyàtà-upayoge  || PS_1,4.29 ||
+jani-kartuş praktiş  || PS_1,4.30 ||
+bhuvaş prabhavaş  || PS_1,4.31 ||
+karmaõà yam abhipraiti sa sampradànam  || PS_1,4.32 ||
+rucy-arthànàm prãyamàõaş  || PS_1,4.33 ||
+÷làgha-hnuï-sthà-÷apàü j¤ãpsyamànaş  || PS_1,4.34 ||
+dhàrer uttamarõaş  || PS_1,4.35 ||
+spher ãpsitaş  || PS_1,4.36 ||
+krudha-druha-ãrùya-asåya-arthànàü yaü prati kopaş  || PS_1,4.37 ||
+krudha-druhor upasùñhayoş karma  || PS_1,4.38 ||
+ràdş-ãkùyor yasya vipra÷naş  || PS_1,4.39 ||
+praty-àïbhyàü ÷ruvaş pårvasya kartà  || PS_1,4.40 ||
+anu-prati-gõa÷ ca  || PS_1,4.41 ||
+sàdhakatamaü karaõam  || PS_1,4.42 ||
+divaş karma ca  || PS_1,4.43 ||
+parikrayaõe sampradànam anyatarasyàm  || PS_1,4.44 ||
+àdhàro 'dhikaraõam  || PS_1,4.45 ||
+adhi-÷ãï-sthà-àsàü karma  || PS_1,4.46 ||
+abhinivi÷a÷ ca  || PS_1,4.47 ||
+upa-anv-adhy-àï-vasaş  || PS_1,4.48 ||
+kartrur ãpsitatamaü karma  || PS_1,4.49 ||
+tathà-yuktaü ca anãpsitam  || PS_1,4.50 ||
+akathitaü ca  || PS_1,4.51 ||
+guti-buddhi-pratyavasàna-artha-÷abda-karma-akarmakàõàm aõi kartà sa õau  || PS_1,4.52 ||
+h-kror anyatarasyàm  || PS_1,4.53 ||
+svatantraş kartà  || PS_1,4.54 ||
+tat-prayojako hetu÷ ca  || PS_1,4.55 ||
+pràg-rã÷varàn nipàtàş  || PS_1,4.56 ||
+ca-àdayo 'sattve  || PS_1,4.57 ||
+pra-àdayaş  || PS_1,4.58 ||
+upasargàş kriyà-yoge  || PS_1,4.59 ||
+gati÷ ca  || PS_1,4.60 ||
+åry-àdi-cvi-óàca÷ ca  || PS_1,4.61 ||
+anukaraõaü ca aniti-param  || PS_1,4.62 ||
+àdara-anàdarayoş sad-asatã  || PS_1,4.63 ||
+bhåùane 'lam  || PS_1,4.64 ||
+antar aparigrahe  || PS_1,4.65 ||
+kaõe-manasã ÷raddhà-pratãghàte  || PS_1,4.66 ||
+puro 'vyayam  || PS_1,4.67 ||
+astaü ca  || PS_1,4.68 ||
+accha gaty-artha-vadeùu  || PS_1,4.69 ||
+ado 'nupade÷e  || PS_1,4.70 ||
+taro 'ntardhau  || PS_1,4.71 ||
+vibhàùà k¤i  || PS_1,4.72 ||
+upàje 'nvàje  || PS_1,4.73 ||
+sàkùàt-prabhtãni ca  || PS_1,4.74 ||
+anatyàdhàna urasi-manasã  || PS_1,4.75 ||
+madhye pade nivacane ca  || PS_1,4.76 ||
+nityaü haste pànàv-upayamane  || PS_1,4.77 ||
+pràdhvaü vandhane  || PS_1,4.78 ||
+jãvià-upaniùadàv aupamye  || PS_1,4.79 ||
+te pràg dhàtoş  || PS_1,4.80 ||
+chandasi pare 'pi  || PS_1,4.81 ||
+vyavahità÷ ca  || PS_1,4.82 ||
+karmapravacanãyàş  || PS_1,4.83 ||
+anur lakùaõe  || PS_1,4.84 ||
+ttãyà-arthe  || PS_1,4.85 ||
+hãne  || PS_1,4.86 ||
+upo 'dhike ca  || PS_1,4.87 ||
+apa-parã varjane  || PS_1,4.88 ||
+àï maryàdà-vacane  || PS_1,4.89 ||
+lakùana-itthaü-bhåta-àkhyàna-bhàga-vãpsàsu prati-pary-anavaş  || PS_1,4.90 ||
+abhir abhàge  || PS_1,4.91 ||
+pratiş pratinidhi-pratidànayoş  || PS_1,4.92 ||
+adhiparã anarthakau  || PS_1,4.93 ||
+suş påjàyàm  || PS_1,4.94 ||
+atir atikramaõe ca  || PS_1,4.95 ||
+apiş padàrtha-sambhàvana-anvavasarga-garhà-samuccayeùu  || PS_1,4.96 ||
+adhir ã÷vare  || PS_1,4.97 ||
+vibhàùà k¤i  || PS_1,4.98 ||
+laş parasmaipadam  || PS_1,4.99 ||
+taï-ànàv àtmanepadam  || PS_1,4.100 ||
+tiïas trãõi trãõi prathama-madhyama-uttamàş  || PS_1,4.101 ||
+tàny ekavacanàd vivacanabahuvacanàny eka÷aş  || PS_1,4.102 ||
+supaş  || PS_1,4.103 ||
+vibhakti÷ ca  || PS_1,4.104 ||
+yuùmady-upapade samàna-adhikaraõe sthàniny api madhyamaş  || PS_1,4.105 ||
+prahàse ca manya-upapade manyater uttama ekavac ca  || PS_1,4.106 ||
+asmady uttamaş  || PS_1,4.107 ||
+÷eùe prathamaş  || PS_1,4.108 ||
+paraş saünikarùaş saühità  || PS_1,4.109 ||
+viràmo 'vasànam  || PS_1,4.110 ||
+samarthaş padavidhiş  || PS_2,1.1 ||
+sub àmantrite para-aïgavat svare  || PS_2,1.2 ||
+pràk kaóàràt samàsaş  || PS_2,1.3 ||
+saha supà  || PS_2,1.4 ||
+avyayãbhavaş  || PS_2,1.5 ||
+avyayaü vibhakti-samãpa-samddhi-vyddhy-arthàbhàva-atyaya-asamprati-÷abdapràdurbhàva-pa÷càd-yathà-ànupårvya-yaugapadya-sàd÷ya-sampatti-sàkalya-antavcaneùu  || PS_2,1.6 ||
+yathà 'sàd÷ye  || PS_2,1.7 ||
+yàvad avadhàraõe  || PS_2,1.8 ||
+sup praitnà màtrà-arthe  || PS_2,1.9 ||
+akùa-÷alàkà-saïkhyàş pariõà  || PS_2,1.10 ||
+vibhàùà  || PS_2,1.11 ||
+apa-pari-bahir a¤cavaş pa¤camyà  || PS_2,1.12 ||
+àï maryàdà-abhividhyoş  || PS_2,1.13 ||
+lakùaõena abhipratã àbhimukhye  || PS_2,1.14 ||
+anur yat-samayà  || PS_2,1.15 ||
+yasya ca àyàmaş  || PS_2,1.16 ||
+tiùñhadgu-prabhtãni ca  || PS_2,1.17 ||
+pàre madhye ùaùñhyà và  || PS_2,1.18 ||
+saïkhyà vaü÷yena  || PS_2,1.19 ||
+nadãbhi÷ ca  || PS_2,1.20 ||
+anyapadarthe ca sa¤j¤àyàm  || PS_2,1.21 ||
+tatpuruùaş  || PS_2,1.22 ||
+dvigu÷ ca  || PS_2,1.23 ||
+dvidãyà ÷rita-atãta-patita-gata-atyasta-pràpta-àpanaiş  || PS_2,1.24 ||
+svayaü ktena  || PS_2,1.25 ||
+khañvà kùepe  || PS_2,1.26 ||
+sàmi  || PS_2,1.27 ||
+kàlàş  || PS_2,1.28 ||
+atyantasaüyoge ca  || PS_2,1.29 ||
+ttãyà tatkta-arthena guõavacanena  || PS_2,1.30 ||
+pårva-sad÷a-sama-ånàrtha-kalaha-nipuõa-mi÷ra-÷lakùõaiş  || PS_2,1.31 ||
+kartkarõe dtà bahulam  || PS_2,1.32 ||
+ktyair adhika-àrtha-vacane  || PS_2,1.33 ||
+annena vya¤janam  || PS_2,1.34 ||
+bhakùyeõa mi÷rãkaranam  || PS_2,1.35 ||
+caturthã tadartha-artha-bali-hita-sukha-rakùitaiş  || PS_2,1.36 ||
+pa¤camã bhayena  || PS_2,1.37 ||
+apeta-apoóha-mukta-patita-apatrastair alpa÷aş  || PS_2,1.38 ||
+stoka-antika-dåra-artha-kcchràõi ktena  || PS_2,1.39 ||
+saptamã ÷auõóaiş  || PS_2,1.40 ||
+siddha-÷uùka-pakva-bandhai÷ ca  || PS_2,1.41 ||
+dhvàïkùena kùepe  || PS_2,1.42 ||
+krtyair õe  || PS_2,1.43 ||
+sa¤j¤àyàm  || PS_2,1.44 ||
+ktena aho-ràtra-avayavàş  || PS_2,1.45 ||
+tatra  || PS_2,1.46 ||
+kùepe  || PS_2,1.47 ||
+pàtresamita-àdaya÷ ca  || PS_2,1.48 ||
+pårvakàla-eka-sarva-jarat-puràõà-nava-kevalàş samànàdhikaraõena  || PS_2,1.49 ||
+dik-saïkhye sa¤j¤àyàm  || PS_2,1.50 ||
+taddhitartha-uttarapada-samàhàre ca  || PS_2,1.51 ||
+saïkhyà-pårvo dviguş  || PS_2,1.52 ||
+kutsitàni kutsanaiş  || PS_2,1.53 ||
+pàpàõake kutsitaiş  || PS_2,1.54 ||
+upamànàni sàmànya-vacanaiş  || PS_2,1.55 ||
+upamitaü vyàghra-àdibhiş sàmànya-aprayoge  || PS_2,1.56 ||
+vi÷esanaü vi÷eùyeõa bahulam  || PS_2,1.57 ||
+pårva-apara-prathama-carama-jaghanya-samàna-madhya-madhyama-vãrà÷ ca  || PS_2,1.58 ||
+÷reõy-àdayaş kta-àdibhiş  || PS_2,1.59 ||
+ktena na¤-vi÷iùñena ana¤  || PS_2,1.60 ||
+san-mahat-parama-uttama-utkùñàş påjyamànaiş  || PS_2,1.61 ||
+vndaraka-nàga-ku¤jaraiş påjyamànam  || PS_2,1.62 ||
+katara-katamau jàtiparipra÷ne  || PS_2,1.63 ||
+kiü kùepe  || PS_2,1.64 ||
+poñà-yuvati-stoka-katipaya-gùñi-dhenu-va÷à-vehad-baùkayaõã-pravakt-÷rotriya-adhyàpaka-dhårtair jàtiş  || PS_2,1.65 ||
+pra÷aüsà-vacanai÷ ca  || PS_2,1.66 ||
+yuvà khalati-pàlita-valina-jaratãbhiş  || PS_2,1.67 ||
+ktya-tulya-àkhyà ajàtyà  || PS_2,1.68 ||
+varõo varõena  || PS_2,1.69 ||
+kumàraş ÷ramaõà-àdibhiş  || PS_2,1.70 ||
+catuùpàdo garbhiõyà  || PS_2,1.71 ||
+mayåra-vyaüsaka-àdaya÷ ca  || PS_2,1.72 ||
+pårva-apara-adhara-uttaram ekade÷inà-ekàdhikaraõe  || PS_2,2.1 ||
+ardhaü napuüsakam  || PS_2,2.2 ||
+dvitiya-ttãya-caturtha-turyàõy anytarasyàm  || PS_2,2.3 ||
+pràptàpanne ca dvitãyayà  || PS_2,2.4 ||
+kàlàş parimàõinà  || PS_2,2.5 ||
+na¤  || PS_2,2.6 ||
+ãùadaktà  || PS_2,2.7 ||
+ùaùñhã  || PS_2,2.8 ||
+yàjaka-àdibhi÷ ca  || PS_2,2.9 ||
+na nirdhàraõe  || PS_2,2.10 ||
+påraõa-guõa-suhitàrtha-sad-avyaya-tavya-samànàdhikaranena  || PS_2,2.11 ||
+kten a ca påjàyàm  || PS_2,2.12 ||
+adhikaraõa-vàcinà ca  || PS_2,2.13 ||
+karmaõi ca  || PS_2,2.14 ||
+tj-akàbhyàü kartari  || PS_2,2.15 ||
+kartari ca  || PS_2,2.16 ||
+nityaü krãóà-jãvikayoş  || PS_2,2.17 ||
+ku-gati-pra-àdayaş  || PS_2,2.18 ||
+upapadam atiï  || PS_2,2.19 ||
+amà-eva avyayena  || PS_2,2.20 ||
+ttãyà-prabhtãnyatarasyam  || PS_2,2.21 ||
+ktvà ca  || PS_2,2.22 ||
+÷eùo bahuvrãhiş  || PS_2,2.23 ||
+anekam anyapadàrthe  || PS_2,2.24 ||
+saïkhyayà 'vyaya-àsanna-adåra-adhika-saïkhyàş saïkhyeye  || PS_2,2.25 ||
+diïnàmàny antaràle  || PS_2,2.26 ||
+tatra tena+idam iti saråpe  || PS_2,2.27 ||
+tena saha+iti tulyayoge  || PS_2,2.28 ||
+ca-arthe dvandvaş  || PS_2,2.29 ||
+upasarjanaü pårvam  || PS_2,2.30 ||
+ràjadanta-àdiùu param  || PS_2,2.31 ||
+dvandve ghi  || PS_2,2.32 ||
+aj-àdy-ad-antam  || PS_2,2.33 ||
+alpa-ac-taram  || PS_2,2.34 ||
+saptamã-vi÷eùane bahuvrãhau  || PS_2,2.35 ||
+niùñhà  || PS_2,2.36 ||
+và+àhita-agny-àdiùu  || PS_2,2.37 ||
+kaóàràş karmadhàraye  || PS_2,2.38 ||
+anabhihite  || PS_2,3.1 ||
+karmaõi dvitãyà  || PS_2,3.2 ||
+ttãyà ca ho÷ chandasi  || PS_2,3.3 ||
+antarà 'ntareõa yukte  || PS_2,3.4 ||
+kàla-adhvanor atyanta-saüyoge  || PS_2,3.5 ||
+apavarge ttãyà  || PS_2,3.6 ||
+saptamã-pa¤camyau kàraka-madhye  || PS_2,3.7 ||
+karmapravacanãya-yukte dvitãyà  || PS_2,3.8 ||
+yasmàd adhikaü yasya ca+ã÷vara-vacanaü tatra saptamã  || PS_2,3.9 ||
+pa¤camy-apa-àï-paribhiş  || PS_2,3.10 ||
+pratinidhi-pratidàne ca yasmàt  || PS_2,3.11 ||
+gatyartha-karmaõi dvitãyà-caturthyau ceùñàyàm anadhvani  || PS_2,3.12 ||
+caturthã sampradàne  || PS_2,3.13 ||
+kriya-artha-upapadasya ca karmaõi sthàninaş  || PS_2,3.14 ||
+tumarthàc ca bhàva-vacanàt  || PS_2,3.15 ||
+namaş-svasti-svàhà-svadhà 'laü-vaùaó-yogàc ca  || PS_2,3.16 ||
+manya-karmaõy-anàdare vibhàùà 'pràõiùu  || PS_2,3.17 ||
+kart-karaõayos ttãyà  || PS_2,3.18 ||
+sahayukte 'pradhàne  || PS_2,3.19 ||
+yena aïga-vikàraş  || PS_2,3.20 ||
+ittham-bhåta-lakùaõe  || PS_2,3.21 ||
+sa¤j¤o 'nyatarasyàü karmaõi  || PS_2,3.22 ||
+hetau  || PS_2,3.23 ||
+akartary-õe pa¤camã  || PS_2,3.24 ||
+vibhàùà guõe 'strãyàm  || PS_2,3.25 ||
+ùaùñhã hetu-prayoge  || PS_2,3.26 ||
+sarvanàmnas ttãyà ca  || PS_2,3.27 ||
+apàdàne pa¤camã  || PS_2,3.28 ||
+anya-àràd-itara-rte-dik-÷abda-a¤cu-uttarapada-aj-àhi-yukte  || PS_2,3.29 ||
+ùaùñhy-atasartha-pratyayena  || PS_2,3.30 ||
+enapà dvitãyà  || PS_2,3.31 ||
+pthag-vinà-nànàbhis ttãyà 'nyatarasyàm  || PS_2,3.32 ||
+kareõa ca stoka-alpa-kcchra-katipayasya asattva-vacanasya  || PS_2,3.33 ||
+dåra-antika-arthaiş ùaùñhy-anyatarasyàm  || PS_2,3.34 ||
+dåra-antika-arthebhyo dvitãyà ca  || PS_2,3.35 ||
+saptamy-adhikarane ca  || PS_2,3.36 ||
+yasya ca bhàvena bhàva-lakùaõam  || PS_2,3.37 ||
+ùaùñhã ca anàdare  || PS_2,3.38 ||
+svàmi-ã÷var-àdhipati-dàyàda-sàkùi-pratibhå-prasutai÷ ca  || PS_2,3.39 ||
+àyukta-ku÷alàbhyàü ca àsevàyàm  || PS_2,3.40 ||
+yata÷ ca nirdhàranam  || PS_2,3.41 ||
+pa¤camã vibhakte  || PS_2,3.42 ||
+sàdhu-nipuõàbhyàm arcàyàü saptamy aprateş  || PS_2,3.43 ||
+prasita-utsukàbhyàü ttãyà ca  || PS_2,3.44 ||
+nakùatre ca lupi  || PS_2,3.45 ||
+pràtipadikàrtha-liïga-parimàõavacana-màtre prathamà  || PS_2,3.46 ||
+sambodhane ca  || PS_2,3.47 ||
+sà+àmantritam  || PS_2,3.48 ||
+ekavacanaü sambuddhiş  || PS_2,3.49 ||
+ùaùñhã ÷eùe  || PS_2,3.50 ||
+j¤o 'vid-arthasya karaõe  || PS_2,3.51 ||
+adhi-ig-artha-daya-ã÷àm karmaõi  || PS_2,3.52 ||
+k¤aş pratiyatne  || PS_2,3.53 ||
+rujà-arthànàü bhàva-vacanànàm ajvareş  || PS_2,3.54 ||
+à÷iùi nàthaş  || PS_2,3.55 ||
+jàsi-niprahaõa-nàña-kràtha-piùàü hiüsàyàm  || PS_2,3.56 ||
+vyavah-paõoş samarthayoş  || PS_2,3.57 ||
+divas tad-arthasya  || PS_2,3.58 ||
+vibhàùa-upasarge  || PS_2,3.59 ||
+dvitãyà bràhmaõe  || PS_2,3.60 ||
+preùya-bruvor haviùo devatà-sampradàne  || PS_2,3.61 ||
+caturthy-arthe bahulaü chandasi  || PS_2,3.62 ||
+yaje÷ ca karaõe  || PS_2,3.63 ||
+ktvo 'rthaprayoge kàle 'dhikaraõe  || PS_2,3.64 ||
+kart-karmaõoş kti  || PS_2,3.65 ||
+ubhaya-pràptau karmaõi  || PS_2,3.66 ||
+ktasya ca vartamàne  || PS_2,3.67 ||
+adhikaraõa-vàcina÷ ca  || PS_2,3.68 ||
+na la-u-uka-avyaya-niùñhà-khalartha-tnàm  || PS_2,3.69 ||
+aka-inor bhaviùyad-àdhamarõyayoş  || PS_2,3.70 ||
+ktyànàü kartari và  || PS_2,3.71 ||
+tulya-arthair atulà-upamàbhyàü ttãyà 'nyatarasyàm  || PS_2,3.72 ||
+caturthã ca à÷iùy àyuùya-madra-bhadra-ku÷ala-sukha-artha-hitaiş  || PS_2,3.73 ||
+dvigur ekavacanam  || PS_2,4.1 ||
+dvandva÷ ca pràõi-tårya-senà-aïgànàm  || PS_2,4.2 ||
+anuvàde caraõànàm  || PS_2,4.3 ||
+adhvaryu-kratur anapuüsakam  || PS_2,4.4 ||
+adhyayanato 'viprakùña-àkhyànàm  || PS_2,4.5 ||
+jàtir apràõinàm  || PS_2,4.6 ||
+vi÷iùña-liïgo nadã de÷o 'gràmàş  || PS_2,4.7 ||
+kùudra-jantavaş  || PS_2,4.8 ||
+yeùàü ca virodhaş ÷à÷vatikaş  || PS_2,4.9 ||
+÷ådràõàm aniravasitànàm  || PS_2,4.10 ||
+gavà÷va-prabhtãni ca  || PS_2,4.11 ||
+vibhàùà vkùa-mga-tõa-dhànya-vya¤jana-pa÷u-÷akuny-a÷vavaóava-pårvàpara-adharottaràõàm  || PS_2,4.12 ||
+vipratiùiddhaü ca anadhikaraõa-vàci  || PS_2,4.13 ||
+na dadhipaya-àdãni  || PS_2,4.14 ||
+adhikarana-etàvattve ca  || PS_2,4.15 ||
+vibhàùà samãpe  || PS_2,4.16 ||
+sa napuüsakam  || PS_2,4.17 ||
+avyayãbhàva÷ ca  || PS_2,4.18 ||
+tatpuruùo 'na¤-karmadhàrayaş  || PS_2,4.19 ||
+sa¤j¤àyàü kantà-u÷ãnareùu  || PS_2,4.20 ||
+upaj¤à-upakramam tad-àdy-àcikhyàsàyàm  || PS_2,4.21 ||
+chàyà bàhulye  || PS_2,4.22 ||
+sabhà ràjà 'manusya-pårvà  || PS_2,4.23 ||
+a÷àlà ca  || PS_2,4.24 ||
+vibhàùà senà-surà-cchàyà-÷àlà-ni÷ànàm  || PS_2,4.25 ||
+paraval-liïgaü dvandva-tatpuruùayoş  || PS_2,4.26 ||
+pårvavad-a÷vava-óavau  || PS_2,4.27 ||
+hemanta-÷i÷iràv aho-ràtre ca chandasi  || PS_2,4.28 ||
+ràtra-ahna-ahàş puüsi  || PS_2,4.29 ||
+apathaü napuüsakam  || PS_2,4.30 ||
+ardharcàş puüsi ca  || PS_2,4.31 ||
+idamo 'nvàde÷e '÷ anudàttas ttãyà-àdau  || PS_2,4.32 ||
+etadas tra-tasos tra-tasau ca anudàtau  || PS_2,4.33 ||
+dvitãyà-ñà-ossv enaş  || PS_2,4.34 ||
+àrdhadhàtuke  || PS_2,4.35 ||
+ado jagdhir lyap ti kiti  || PS_2,4.36 ||
+luï-sanor ghas¯  || PS_2,4.37 ||
+gha¤-apo÷ ca  || PS_2,4.38 ||
+bahulaü chandasi  || PS_2,4.39 ||
+liñy antarasyàm  || PS_2,4.40 ||
+ve¤o vayiş  || PS_2,4.41 ||
+hano vadha liïi  || PS_2,4.42 ||
+luïi ca  || PS_2,4.43 ||
+àtmanepadeùv anyatarasyàm  || PS_2,4.44 ||
+iõo gà luïi  || PS_2,4.45 ||
+õau gamir abodhane  || PS_2,4.46 ||
+sani ca  || PS_2,4.47 ||
+iïa÷ ca  || PS_2,4.48 ||
+gàï liñi  || PS_2,4.49 ||
+vibhàùà luï¯ïoş  || PS_2,4.50 ||
+õau ca saü÷-caïoş  || PS_2,4.51 ||
+aster bhåş  || PS_2,4.52 ||
+bruvo baciş  || PS_2,4.53 ||
+cakùiïaş khyà¤  || PS_2,4.54 ||
+và liñi  || PS_2,4.55 ||
+ajer vy agha¤-apoş  || PS_2,4.56 ||
+và yau  || PS_2,4.57 ||
+õya-kùatriya-àrùa-¤ito yåni lug aõ-i¤oş  || PS_2,4.58 ||
+paila-àdibya÷ ca  || PS_2,4.59 ||
+i¤aş pràcàm  || PS_2,4.60 ||
+na taulvalibhyaş  || PS_2,4.61 ||
+tadràjasya bahuùu tena+eva astriyàm  || PS_2,4.62 ||
+yaska-àdibhyo gotre  || PS_2,4.63 ||
+ya¤-a¤o÷ ca  || PS_2,4.64 ||
+atri-bhgu-kutsa-vasiùñha-gotama-aïgirobhya÷ ca  || PS_2,4.65 ||
+bahvac i¤aş pràcya-bhrateùu  || PS_2,4.66 ||
+na gopavana-àdibhyaş  || PS_2,4.67 ||
+tika-kitava-àdibhyo dvandve  || PS_2,4.68 ||
+upaka-àdibhyo 'nyatarasyàm advandve  || PS_2,4.69 ||
+àgastya-kauõóinyayor agasti-kuõóinac  || PS_2,4.70 ||
+supo dhàtu-pràtipadikayoş  || PS_2,4.71 ||
+adiprabhtibhyaş ÷apaş  || PS_2,4.72 ||
+bahulaü chandasi  || PS_2,4.73 ||
+yaïo 'ci ca  || PS_2,4.74 ||
+juhoty-àdibhyaş ÷luş  || PS_2,4.75 ||
+bahulaü chandasi  || PS_2,4.76 ||
+gàti-sthà-ghu-pà-bhåbhyaş sicaş parasmaipadeùu  || PS_2,4.77 ||
+vibhàùà ghrà-dheñ-÷àc-chà-saş  || PS_2,4.78 ||
+tan-àdibhyas ta-thàsoş  || PS_2,4.79 ||
+mantre ghasa-hvara-na÷a-v-daha-àd-vc-k-gami-janibhyo leş  || PS_2,4.80 ||
+àmaş  || PS_2,4.81 ||
+avyayàd àp-supaş  || PS_2,4.82 ||
+na avyayãbhàvàd ato 'm tv apa¤camyàş  || PS_2,4.83 ||
+ttãyà-saptamyor bahulam  || PS_2,4.84 ||
+luñaş prathamasya óàraurasaş  || PS_2,4.85 ||
+pratyayaş  || PS_3,1.1 ||
+para÷ ca  || PS_3,1.2 ||
+àdy-udàtta÷ ca  || PS_3,1.3 ||
+anudàttau sup-pitau  || PS_3,1.4 ||
+gup-tij-kidbhyaş san  || PS_3,1.5 ||
+màn-badha-dàn-÷ànbhyo dãrgha÷ ca abhyàsasya  || PS_3,1.6 ||
+dhàtoş karmaõaş samàna-kartkàd icchàyàü và  || PS_3,1.7 ||
+supa àtmanaş kyac  || PS_3,1.8 ||
+kàmyac ca  || PS_3,1.9 ||
+upamànàd àcàre  || PS_3,1.10 ||
+kartuş kyaï salopa÷ ca  || PS_3,1.11 ||
+bh÷àdibhyo bhuvy-acver lopa÷ ca halaş  || PS_3,1.12 ||
+lohitàdi-óàjbhyaş kyaù  || PS_3,1.13 ||
+kaùñàya kramaõe  || PS_3,1.14 ||
+karmaõo romantha-tapobhyàü varti-caroş  || PS_3,1.15 ||
+bàùpa-åùmabhyàm udvamane  || PS_3,1.16 ||
+÷abda-vaira-kalaha-abhra-kaõva-meghebhyaş karaõe  || PS_3,1.17 ||
+sukhàdibhyaş kart-vedanàyàm  || PS_3,1.18 ||
+namo-variva÷-citraïaş kyac  || PS_3,1.19 ||
+puccha-bhànóa-cãvaràõ õiï  || PS_3,1.20 ||
+muõóa-mi÷ra-÷lakùõa-lavaõa-vrata-vastra-hala-kala-kta-tåstebhyo õic  || PS_3,1.21 ||
+dhàtor eka-aco hala-àdeş kriyàsamabhihàre yaï  || PS_3,1.22 ||
+nityaü kauñilye gatau  || PS_3,1.23 ||
+lupa-sada-cara-japa-jabha-daha-da÷a-g®bhyo bhàva-garhàyàm  || PS_3,1.24 ||
+satyàpa-pà÷a-råpa-vãõà-tåla-÷loka-senà-loma-tvaca-varma-varõa-cårõa-curàdibhyo õic  || PS_3,1.25 ||
+hetumati ca  || PS_3,1.26 ||
+kaõóv-àdibhyo yak  || PS_3,1.27 ||
+gupå-dhåpa-vicchi-paõi-panibhya àyaş  || PS_3,1.28 ||
+ter ãyaï  || PS_3,1.29 ||
+kamer õiï  || PS_3,1.30 ||
+àyàdaya àrdhadhàtuke và  || PS_3,1.31 ||
+san-àdyantà dhàtavaş  || PS_3,1.32 ||
+syatàsã ¯luñoş  || PS_3,1.33 ||
+sib-bahulaü leti  || PS_3,1.34 ||
+kàs-pratyayàd àm amantre liñi  || PS_3,1.35 ||
+ij-àde÷ ca gurumato 'ncchaş  || PS_3,1.36 ||
+daya-aya-àsa÷ ca  || PS_3,1.37 ||
+uùa-vida-jàgbhyo 'nyatarasyàm  || PS_3,1.38 ||
+bhã-hrã-bh-huvàü ÷luvac ca  || PS_3,1.39 ||
+k¤ ca anuprayujyate liñi  || PS_3,1.40 ||
+vidàï-kurvantv ity anyatarasyàm  || PS_3,1.41 ||
+abhyutsàdayàü-prajanayàm-cikayàü-ramayàm-akaş pàvayàm-kriyàd vidàm-akrann iti cchandasi  || PS_3,1.42 ||
+cli luói  || PS_3,1.43 ||
+cleş sic  || PS_3,1.44 ||
+÷ala ig-upadhàd aniñaş kùaş  || PS_3,1.45 ||
+÷liùa àliïgane  || PS_3,1.46 ||
+na d÷aş  || PS_3,1.47 ||
+õi-÷ri-dru-srubhyaş kartari caï  || PS_3,1.48 ||
+vibhàùà dheñ-÷vyoş  || PS_3,1.49 ||
+gupe÷ chandasi  || PS_3,1.50 ||
+na-unayati-dhvanayaty-elayaty-ardayatibhyaş  || PS_3,1.51 ||
+asyati-vakti-khyàtibhyo 'ï  || PS_3,1.52 ||
+lipi-sici-hva÷ ca  || PS_3,1.53 ||
+àtmanepadeùv anyatarasyàm  || PS_3,1.54 ||
+puùàdi-dyutàdy-¯ditaş prasmaipadeùu  || PS_3,1.55 ||
+sarti-÷àsty-artibhya÷ ca  || PS_3,1.56 ||
+irito và  || PS_3,1.57 ||
+j®-stambhu-mrucu-mlucu-grucu-glucu-glu¤cu-÷vibhya÷ ca  || PS_3,1.58 ||
+k-m-d-ruhibhya÷ chandasi  || PS_3,1.59 ||
+ciõ te padaş  || PS_3,1.60 ||
+dãpa-jana-budha-påri-tàyi-pyàyibhyo 'nyatarasyàm  || PS_3,1.61 ||
+acaş karmakartari  || PS_3,1.62 ||
+duha÷ ca  || PS_3,1.63 ||
+na rudhaş  || PS_3,1.64 ||
+tapo 'nutàpe ca  || PS_3,1.65 ||
+ciõ bhàvakarmaõoş  || PS_3,1.66 ||
+sàrvadhàtuke yak  || PS_3,1.67 ||
+kartari ÷ap  || PS_3,1.68 ||
+div-àdibhyaş ÷yan  || PS_3,1.69 ||
+và bhrà÷a-bhlà÷a-bhramu-kramu-klamu-trasi-truti-laùaş  || PS_3,1.70 ||
+yaso 'nupasargàt  || PS_3,1.71 ||
+saüyasa÷ ca  || PS_3,1.72 ||
+sv-àdibhyaş ÷nuş  || PS_3,1.73 ||
+÷ruvaş ÷ ca  || PS_3,1.74 ||
+akùo 'nyatarasyàm  || PS_3,1.75 ||
+tanå-karaõe takùaş  || PS_3,1.76 ||
+tud-àdibhyaş ÷aş  || PS_3,1.77 ||
+rudş-àdibhyaş ÷nam  || PS_3,1.78 ||
+tan-àdi-k¤bhyaş uş  || PS_3,1.79 ||
+dhinvi-kõvyor a ca  || PS_3,1.80 ||
+kry-àdibhyaş ÷nà  || PS_3,1.81 ||
+stambhu-stumbhu-skambhu-skumbhu-sku¤bhyaş ÷nu÷ ca  || PS_3,1.82 ||
+halaş ÷naş ÷ànajj¤au  || PS_3,1.83 ||
+chandasi ÷àyaj api  || PS_3,1.84 ||
+vyatyayo bahulam  || PS_3,1.85 ||
+liïy à÷iùy aï  || PS_3,1.86 ||
+karmavat karmaõà tulyakriyaş  || PS_3,1.87 ||
+tapas tapaş-karmakasya+eva  || PS_3,1.88 ||
+na duha-snu-namàü yak-ciõau  || PS_3,1.89 ||
+kuùi-rajoş pràcàü ÷yan parasmaipadaü ca  || PS_3,1.90 ||
+dhàtoş  || PS_3,1.91 ||
+tatra+upapadaü saptamãstham  || PS_3,1.92 ||
+kd atiï  || PS_3,1.93 ||
+và 'saråpo 'striyàm  || PS_3,1.94 ||
+ktyàş pragõ vulaş  || PS_3,1.95 ||
+tavyat-tavya-anãyaraş  || PS_3,1.96 ||
+aco yat  || PS_3,1.97 ||
+por ad-upadhàt  || PS_3,1.98 ||
+÷aki-saho÷ ca  || PS_3,1.99 ||
+gada-mada-cara-yama÷ ca anupasarge  || PS_3,1.100 ||
+avadya-paõya-varyà garhya-paõitavya-anirodheùu  || PS_3,1.101 ||
+vahyaü karaõam  || PS_3,1.102 ||
+aryaş svami-vai÷yayoş  || PS_3,1.103 ||
+upasaryà kàlyà prajane  || PS_3,1.104 ||
+ajaryaü saïgatam  || PS_3,1.105 ||
+vadaş supi kyap ca  || PS_3,1.106 ||
+bhuvo bhàve  || PS_3,1.107 ||
+hanas ta ca  || PS_3,1.108 ||
+eti-stu-÷às-v-d-juùaş kyap  || PS_3,1.109 ||
+d upadhàc ca ak¯pi-cteş  || PS_3,1.110 ||
+ã ca khanaş  || PS_3,1.111 ||
+bh¤o 'sa¤j¤àyàm  || PS_3,1.112 ||
+mjer vibhàùà  || PS_3,1.113 ||
+ràjasåya-sårya-mùodya-rucya-kupya-kùñapacya-avyathyàş  || PS_3,1.114 ||
+bhidya-uddhyau nade  || PS_3,1.115 ||
+puùya-siddhyau nakùatre  || PS_3,1.116 ||
+vipåya-vinãya-jityà muïja-kalka-haliùu  || PS_3,1.117 ||
+praty-apibhyàü grahe÷ chandasi  || PS_3,1.118 ||
+pada-asvairi-bàhyà-pakùyeùu ca  || PS_3,1.119 ||
+vibhàùà k-vùoş  || PS_3,1.120 ||
+yugyaü ca patre  || PS_3,1.121 ||
+amàvasyad-anyatarasyàm  || PS_3,1.122 ||
+chandasi niùñarkya-devahåya-praõãya-unnãya-ucchiùya-marya-starya-dhvarya-khanya-khànya-devayajyà-àpcchya-pratiùãvya-brahmavàdya-bhàvya-stàvya-upacàyyapóàni  || PS_3,1.123 ||
+-halor õyat  || PS_3,1.124 ||
+or àva÷yake  || PS_3,1.125 ||
+àsu-yu-vapi-rapi-lapi-trapi-cama÷ ca  || PS_3,1.126 ||
+ànàyyo 'nitye  || PS_3,1.127 ||
+praõàyyo 'sammatau  || PS_3,1.128 ||
+pàyya-sàn-nàyya-nikàyya-dhàyyà màna-havir-nivàsa-sàmidhenãùu  || PS_3,1.129 ||
+kratau kuõóapàyya-sa¤càyyau  || PS_3,1.130 ||
+agnau paricàyya-upacàyya-samåhyàş  || PS_3,1.131 ||
+citya-agnicitye ca  || PS_3,1.132 ||
+õvul-tcau  || PS_3,1.133 ||
+nandi-grahi-pacàdibhyo lyu-õiny-acaş  || PS_3,1.134 ||
+igupadha-j¤à-prã-kiraş kaş  || PS_3,1.135 ||
+àta÷ ca+upasarge  || PS_3,1.136 ||
+pà-ghrà-dhmà-dheñ-d÷aş ÷aş  || PS_3,1.137 ||
+anupasargàl limpa-vinda-dhàri-pàri-vedy-udeji-ceti-sàti-sàhibhya÷ ca  || PS_3,1.138 ||
+dadàti-dadhàtyor vibhàùà  || PS_3,1.139 ||
+jvaliti-kasantebhyo õaş  || PS_3,1.140 ||
+÷yà-àd-vyadha-àsru-saüsrv-atãõ-avasà-avah-liha-÷liùa-÷vasa÷ ca  || PS_3,1.141 ||
+du-nyor anupasarge  || PS_3,1.142 ||
+vibhà÷à grahaş  || PS_3,1.143 ||
+gehe kaş  || PS_3,1.144 ||
+÷ilpini ùvun  || PS_3,1.145 ||
+gasthakan  || PS_3,1.146 ||
+õyuñ ca  || PS_3,1.147 ||
+ha÷ ca vrãhi-kàlayoş  || PS_3,1.148 ||
+pru-s-lvaş samabhihàre vun  || PS_3,1.149 ||
+à÷iùi ca  || PS_3,1.150 ||
+karmaõy aõ  || PS_3,2.1 ||
+hvà-và-ama÷ ca  || PS_3,2.2 ||
+àto 'nupasarge kaş  || PS_3,2.3 ||
+supi sthaş  || PS_3,2.4 ||
+tunda-÷okayoş parimja-apanudoş  || PS_3,2.5 ||
+pre dà-j¤aş  || PS_3,2.6 ||
+sami khyaş  || PS_3,2.7 ||
+gà-poù ñak  || PS_3,2.8 ||
+harater anudyamane 'c  || PS_3,2.9 ||
+vayasi ca  || PS_3,2.10 ||
+àïi tàcchãlye  || PS_3,2.11 ||
+arhaş  || PS_3,2.12 ||
+stamba-karõayo rami-japoş  || PS_3,2.13 ||
+÷ami dhàtoş sa¤j¤àyàm  || PS_3,2.14 ||
+adhikaraõe ÷eteş  || PS_3,2.15 ||
+careù ñaş  || PS_3,2.16 ||
+bhikùà-senà-àdàyeùu ca  || PS_3,2.17 ||
+puro 'grato 'greùu sarteş  || PS_3,2.18 ||
+pårve kartari  || PS_3,2.19 ||
+k¤o hetu-tàcchãlya-ànulomyeùu  || PS_3,2.20 ||
+divà-vibhà-ni÷à-prabhà-bhàs-kàra-anta-ananta-àdi-bahu-nàndã-kiü-lipi-libi-bali-bhakti-kart-citra-kùetra-saïkhyà-jaïghà-bàhv-ahar-yat-tad-dhanur-aruùùu  || PS_3,2.21 ||
+karmaõi bhtau  || PS_3,2.22 ||
+na ÷abda-÷loka-kalaha-gàthà-vaira-càñu-såtra-mantra-padeùu  || PS_3,2.23 ||
+stamba-÷aktor in  || PS_3,2.24 ||
+harater dti-nàthayoş pa÷au  || PS_3,2.25 ||
+phalegrahir-àtmambhari÷ ca  || PS_3,2.26 ||
+chandasi vana-sana-rakùi-mathàm  || PS_3,2.27 ||
+ejeş kha÷  || PS_3,2.28 ||
+nàsikà-stanayor dhmà-dheñoş  || PS_3,2.29 ||
+nàóã-muùñyo÷ ca  || PS_3,2.30 ||
+udi kåle ruji-vahoş  || PS_3,2.31 ||
+vaha-abhre lihaş  || PS_3,2.32 ||
+parimàõe pacaş  || PS_3,2.33 ||
+mita-nakhe ca  || PS_3,2.34 ||
+vidhv-aruùos tudaş  || PS_3,2.35 ||
+asårya-lalàñayor d÷i-tapoş  || PS_3,2.36 ||
+ugrampa÷ya-irammada-pàõindhamà÷ ca  || PS_3,2.37 ||
+priyava÷e vadaş khac  || PS_3,2.38 ||
+dviùat-parayos tàpeş  || PS_3,2.39 ||
+vàci yamo vrate  || PS_3,2.40 ||
+påş-sarvayor dàri-sahoş  || PS_3,2.41 ||
+sarva-kåla-abhra-karãùeùu kaùaş  || PS_3,2.42 ||
+megha-rti-bhayeùu k¤aş  || PS_3,2.43 ||
+kùema-priya-madre 'õ ca  || PS_3,2.44 ||
+à÷ite bhuvaş karaõa-bhàvayoş  || PS_3,2.45 ||
+sa¤j¤àyàü bh-t®-v-ji-dhàri-sahi-tapi-damaş  || PS_3,2.46 ||
+gama÷ ca  || PS_3,2.47 ||
+anta-atyanta-adhva-dåra-pàra-sarva-ananteùu óaş  || PS_3,2.48 ||
+à÷iùi hanaş  || PS_3,2.49 ||
+ape kle÷a-tamasoş  || PS_3,2.50 ||
+kumàra-÷ãrùayor õiniş  || PS_3,2.51 ||
+lakùaõe jàyà-patyoù ñak  || PS_3,2.52 ||
+amanuùyakartke ca  || PS_3,2.53 ||
+÷aktau hasti kapàñayoş  || PS_3,2.54 ||
+pàõigha-tàóaghau ÷ilpini  || PS_3,2.55 ||
+àóhya-subhaga-sthåla-palita-nagna-andha-priyeùu cvy-artheùv acvau k¤aş karaõe khyun  || PS_3,2.56 ||
+kartari bhuvaş khiùõuc-khuka¤au  || PS_3,2.57 ||
+sp÷o 'nudake kvin  || PS_3,2.58 ||
+tvig-dadhk-srag-dig-uùõig-a¤cu-yuji-kru¤càü ca  || PS_3,2.59 ||
+tyadàdiùu d÷o 'nàlocane ka¤ ca  || PS_3,2.60 ||
+sat-så-dviùa-druha-duha-yuja-vida-bhidac-chida-ji-nã-ràjàm uasarge 'pi kvip  || PS_3,2.61 ||
+bhajo õviş  || PS_3,2.62 ||
+chandasi sahaş  || PS_3,2.63 ||
+vaha÷ ca  || PS_3,2.64 ||
+kavya-purãùa-purãùyeùu ¤yuñ  || PS_3,2.65 ||
+havye 'nantaşpàdàm  || PS_3,2.66 ||
+jana-sana-khana-krama-gamo viñ  || PS_3,2.67 ||
+ado 'nanne  || PS_3,2.68 ||
+kravye ca  || PS_3,2.69 ||
+duhaş kab gha÷ ca  || PS_3,2.70 ||
+mantre ÷veta-vaha-uktha÷as-puroóà÷o õvin  || PS_3,2.71 ||
+ave yajaş  || PS_3,2.72 ||
+vij upe chandasi  || PS_3,2.73 ||
+àto manin-kvanib-vanipa÷ ca  || PS_3,2.74 ||
+anyebhyo 'pi d÷yante  || PS_3,2.75 ||
+kvip ca  || PS_3,2.76 ||
+sthaş ka ca  || PS_3,2.77 ||
+supy ajàtau õinis tàcchãlye  || PS_3,2.78 ||
+kartary upamàme  || PS_3,2.79 ||
+vrate  || PS_3,2.80 ||
+bahulam àbhãkùõye  || PS_3,2.81 ||
+manaş  || PS_3,2.82 ||
+àtmamàne kha÷ ca  || PS_3,2.83 ||
+bhåte  || PS_3,2.84 ||
+karaõe yajaş  || PS_3,2.85 ||
+karamaõi hanaş  || PS_3,2.86 ||
+brahma-bhråõa-vtreùu kvip  || PS_3,2.87 ||
+bahulaü chandasi  || PS_3,2.88 ||
+su-karma-pàpa-mantra-puõyeùu k¤aş  || PS_3,2.89 ||
+some su¤aş  || PS_3,2.90 ||
+agnau ceş  || PS_3,2.91 ||
+karmaõy-agny-àkhyàyàm  || PS_3,2.92 ||
+karmaõi inir vikriyaş  || PS_3,2.93 ||
+d÷eş kvanip  || PS_3,2.94 ||
+ràjani yudhik¤aş  || PS_3,2.95 ||
+sahe ca  || PS_3,2.96 ||
+saptamyàü janer óaş  || PS_3,2.97 ||
+pa¤camyàm ajàtau  || PS_3,2.98 ||
+upasarge ca sa¤j¤àyàm  || PS_3,2.99 ||
+anau karmaõi  || PS_3,2.100 ||
+anyeùv api d÷yate  || PS_3,2.101 ||
+niùñhà  || PS_3,2.102 ||
+su-yajor ïvanip  || PS_3,2.103 ||
+jãryater atn  || PS_3,2.104 ||
+chandasi liñ  || PS_3,2.105 ||
+liñaş kànaj và  || PS_3,2.106 ||
+kvasu÷ ca  || PS_3,2.107 ||
+bhàùàyàü sada-vasa-÷ruvaş  || PS_3,2.108 ||
+upeyivàn anà÷vàn anåcàna÷ ca  || PS_3,2.109 ||
+luï  || PS_3,2.110 ||
+anadyatane laï  || PS_3,2.111 ||
+abhij¤à-vacane lñ  || PS_3,2.112 ||
+na yadi  || PS_3,2.113 ||
+vibhàùà sàkàïkùe  || PS_3,2.114 ||
+parokùe liñ  || PS_3,2.115 ||
+ha-÷a÷vator laï ca  || PS_3,2.116 ||
+pra÷ne ca àsanna-kale  || PS_3,2.117 ||
+lañ sme  || PS_3,2.118 ||
+aparokùe ca  || PS_3,2.119 ||
+nanau pùña-prati-vacane  || PS_3,2.120 ||
+na-nvor vibhàùà  || PS_3,2.121 ||
+puri luï ca asme  || PS_3,2.122 ||
+vartamàne lañ  || PS_3,2.123 ||
+lañaş ÷at-÷ànacàv aprathamà-samànàdhikaraõe  || PS_3,2.124 ||
+sambodhane ca  || PS_3,2.125 ||
+lakùaõa-hetvoş kriyàyàş  || PS_3,2.126 ||
+tau sat  || PS_3,2.127 ||
+påï yajoş ÷ànan  || PS_3,2.128 ||
+tàcchãya-vayovacana-÷aktiùu càna÷  || PS_3,2.129 ||
+iï-dhàryoş ÷atra-kcchriõi  || PS_3,2.130 ||
+dviùo 'mitre  || PS_3,2.131 ||
+su¤o yaj¤asaüyoge  || PS_3,2.132 ||
+arhaş pra÷aüsàyàm  || PS_3,2.133 ||
+à kveş tacchãla-taddharma-tatsàdhukàriùu  || PS_3,2.134 ||
+tn  || PS_3,2.135 ||
+alaï-k¤-niràk¤-prajana-utpaca-utpata-unmada-rucy-apatrapa-vtu-vdhu-saha-cara iùõuc  || PS_3,2.136 ||
+õe÷ chandasi  || PS_3,2.137 ||
+bhuva÷ ca  || PS_3,2.138 ||
+glà-ji-stha÷ ca kùnuş  || PS_3,2.139 ||
+trasi-gdhi-dhùi-kùipeş knuş  || PS_3,2.140 ||
+÷am-ity aùñàbhyo ghinuõ  || PS_3,2.141 ||
+saüpca-anurudha-àïyama-àïyasa-paris-saüsja-paridevi-saüjvara-parikùipa-pariraña-parivada-paridaha-parimuha-duùa-dviùa-druha-duha-yuja-àkrãóa-vivica-tyaja-raja-bhaja-aticara-apacara-àmuùa-abhyàhana÷ ca  || PS_3,2.142 ||
+vau kaùa-lasa-kattha-srambhaş  || PS_3,2.143 ||
+ape ca laùaş  || PS_3,2.144 ||
+pre lapa-s-dru-matha-vada-vasaş  || PS_3,2.145 ||
+ninda-hiüsa-kli÷a-khàda-vinà÷a-parikùipa-pariraña-parivàdi-vyàbhàùa-asåyo vu¤  || PS_3,2.146 ||
+devi-kra÷o÷ ca+upasarge  || PS_3,2.147 ||
+calana-÷abdàrthàd akarmakàd yuc  || PS_3,2.148 ||
+anudàtta-ita÷ ca halàdeş  || PS_3,2.149 ||
+ju-caïkramya-dandramya-s-gdhi-jvala-÷uca-laùa-pata-padaş  || PS_3,2.150 ||
+krudha-maõóa-arthebhya÷ ca  || PS_3,2.151 ||
+na yaş  || PS_3,2.152 ||
+såda-dãpa-dãkùa÷ ca  || PS_3,2.153 ||
+laùa-pata-pada-sthà-bhå-vùa-hana-kama-gama-÷®bhya uka¤  || PS_3,2.154 ||
+jalpa-bhikùa-kuñña-luõña-vïaş ùàkan  || PS_3,2.155 ||
+prajor iniş  || PS_3,2.156 ||
+ji-d-kùi-vi÷ri-iõ-vama-avyatha-abhyama-paribhå-prasåbhya÷ ca  || PS_3,2.157 ||
+sphi-ghi-pati-dayi-nidrà-dandrà-÷raddhàbhya àluc  || PS_3,2.158 ||
+dà-dheñ-si-÷ada-sado ruş  || PS_3,2.159 ||
+s-ghasy-adaş kmarac  || PS_3,2.160 ||
+bha¤ja-bhàsa-mido ghurac  || PS_3,2.161 ||
+vidi-bhidi-cchideş kurac  || PS_3,2.162 ||
+iõ-na÷-ji-sartibhyaş kvarap  || PS_3,2.163 ||
+gatvara÷ ca  || PS_3,2.164 ||
+jàgur åkaş  || PS_3,2.165 ||
+yaja-japa-da÷àü yaïaş  || PS_3,2.166 ||
+nami-kampi-smy-ajasa-kama-hiüsa-dãpo raş  || PS_3,2.167 ||
+san-à÷aüsa-bhikùa uş  || PS_3,2.168 ||
+vindur icchuş  || PS_3,2.169 ||
+kyàc chandasi  || PS_3,2.170 ||
+àd--gama-hana-janaş ki-kinau liñ ca  || PS_3,2.171 ||
+svapitùornajiï  || PS_3,2.172 ||
+÷®-vandyor àruş  || PS_3,2.173 ||
+bhiyaş kru-klukanau  || PS_3,2.174 ||
+sthà-ã÷a-bhàsa-pisa-kaso varac  || PS_3,2.175 ||
+ya÷ ca yaïaş  || PS_3,2.176 ||
+bhràja-bhàsa-dhurvi-dyuta-urji-p®-jugràvastuvaş kvip  || PS_3,2.177 ||
+anyebhyo 'pi d÷yate  || PS_3,2.178 ||
+bhuvaş sa¤j¤à-antarayoş  || PS_3,2.179 ||
+vi-pra-sambhyo óv-asa¤j¤àyàm  || PS_3,2.180 ||
+dhaş karamõi ùñran  || PS_3,2.181 ||
+dàm-nã-÷asa-yu-yuja-stu-tuda-si-sica-miha-pata-da÷a-nahaş karaõe  || PS_3,2.182 ||
+hala-såkarayoş puvaş  || PS_3,2.183 ||
+arti-lå-dhå-så-khana-saha-cara itraş  || PS_3,2.184 ||
+puvaş sa¤j¤àyàm  || PS_3,2.185 ||
+kartari carùidevatayoş  || PS_3,2.186 ||
+¤ãtaş ktaş  || PS_3,2.187 ||
+mati-buddhi-påjà-arthebhya÷ ca  || PS_3,2.188 ||
+uõàdayo bahulam  || PS_3,3.1 ||
+bhåte 'pi d÷yante  || PS_3,3.2 ||
+bhaviùyati gamyàdayaş  || PS_3,3.3 ||
+yàvat-purà-nipàtayor lañ  || PS_3,3.4 ||
+vibhàùà kadà-karhyoş  || PS_3,3.5 ||
+kiüvtte lipsàyàm  || PS_3,3.6 ||
+lipsyamàna-siddhau ca  || PS_3,3.7 ||
+loó-arthalakùane ca  || PS_3,3.8 ||
+liï ca+årdhva-mauhårtike  || PS_3,3.9 ||
+tumun-õvulau kriyàyàü kriya-arthàyàm  || PS_3,3.10 ||
+bhàva-vacanà÷ ca  || PS_3,3.11 ||
+aõ karmaõi ca  || PS_3,3.12 ||
+lñ ÷eùe ca  || PS_3,3.13 ||
+lñaş sadvà  || PS_3,3.14 ||
+anadyatane luñ  || PS_3,3.15 ||
+pada-ruja-vi÷a-sp÷o gha¤  || PS_3,3.16 ||
+s sthire  || PS_3,3.17 ||
+bhàve  || PS_3,3.18 ||
+akartari ca kàrake sa¤j¤àyàm  || PS_3,3.19 ||
+parimàõa-àkhyàyàü sarvebhyaş  || PS_3,3.20 ||
+iïa÷ ca  || PS_3,3.21 ||
+upasarge ruvaş  || PS_3,3.22 ||
+sami yu-dru-duvaş  || PS_3,3.23 ||
+÷ri-õã-bhuvo 'nupasarge  || PS_3,3.24 ||
+vau kùu-÷ruvaş  || PS_3,3.25 ||
+ava-udor niyaş  || PS_3,3.26 ||
+pre dru-stu-sruvaş  || PS_3,3.27 ||
+nir-abhyoş på-lvoş  || PS_3,3.28 ||
+un-nyor graş  || PS_3,3.29 ||
+k® dhànye  || PS_3,3.30 ||
+yaj¤e sami stuvaş  || PS_3,3.31 ||
+pre stro 'yaj¤e  || PS_3,3.32 ||
+prathane vàv a÷abde  || PS_3,3.33 ||
+chandonàmni ca  || PS_3,3.34 ||
+udi grahaş  || PS_3,3.35 ||
+sami muùñau  || PS_3,3.36 ||
+pari-nyor nã-õor dyåta-abhreùayoş  || PS_3,3.37 ||
+paràv anupàtyaya iõaş  || PS_3,3.38 ||
+vy-upayoş ÷eteş paryàye  || PS_3,3.39 ||
+hasta-adàne cer asteye  || PS_3,3.40 ||
+nivàsa-citi-÷arãra-upasamàdhàneùv àde÷ ca kaş  || PS_3,3.41 ||
+saïghe ca anauttaràdharye  || PS_3,3.42 ||
+karma-vyatihàre õac striyàm  || PS_3,3.43 ||
+abhividhau bhàve inuõ  || PS_3,3.44 ||
+àkro÷e 'vanyor grahaş  || PS_3,3.45 ||
+pre lipsàyàm  || PS_3,3.46 ||
+parau yaj¤e  || PS_3,3.47 ||
+nau v dhànye  || PS_3,3.48 ||
+udi ÷rayati-yauti-på-druvaş  || PS_3,3.49 ||
+vibhàùà+àïi ru-pluvoş  || PS_3,3.50 ||
+ave graho varùa-pratibandhe  || PS_3,3.51 ||
+pre vaõijàm  || PS_3,3.52 ||
+ra÷mau ca  || PS_3,3.53 ||
+võoter àcchàdane  || PS_3,3.54 ||
+prau bhuvo 'vaj¤àne  || PS_3,3.55 ||
+er ac  || PS_3,3.56 ||
+®dor ap  || PS_3,3.57 ||
+graha-v-d-ni÷cigama÷ ca  || PS_3,3.58 ||
+upasarge 'daş  || PS_3,3.59 ||
+nau õa ca  || PS_3,3.60 ||
+vyadha-japor anupasarge  || PS_3,3.61 ||
+svana-hasor và  || PS_3,3.62 ||
+yamaş sam-upa-ni-viùu ca  || PS_3,3.63 ||
+nau gada-nada-pañha-svanaş  || PS_3,3.64 ||
+kvaõo vãõàyàü ca  || PS_3,3.65 ||
+nityaü paõaş parimàõe  || PS_3,3.66 ||
+mado 'nupasarge  || PS_3,3.67 ||
+pramada-sammadau harùe  || PS_3,3.68 ||
+sam-udor ajaş pa÷uùu  || PS_3,3.69 ||
+akùeùu glahaş  || PS_3,3.70 ||
+prajane sarteş  || PS_3,3.71 ||
+hvaş samprasàraõaü ca ny-abhy-upa-viùu  || PS_3,3.72 ||
+àïi yuddhe  || PS_3,3.73 ||
+nipànam àhàvaş  || PS_3,3.74 ||
+bhàve 'nupasargasya  || PS_3,3.75 ||
+hana÷ ca vadhaş  || PS_3,3.76 ||
+mårtau ghanaş  || PS_3,3.77 ||
+antarghano de÷e  || PS_3,3.78 ||
+agàra-ekade÷e praghaõaş praghàõà÷ ca  || PS_3,3.79 ||
+udghano 'tyàdhànam  || PS_3,3.80 ||
+apaghano 'ïgam  || PS_3,3.81 ||
+karaõe 'yo-vidruùu  || PS_3,3.82 ||
+stambe ka ca  || PS_3,3.83 ||
+parau ghaş  || PS_3,3.84 ||
+upaghna à÷raye  || PS_3,3.85 ||
+saïgha-udghau gaõa-pra÷aüsayoş  || PS_3,3.86 ||
+nigho nimitam  || PS_3,3.87 ||
+óvitaş ktriş  || PS_3,3.88 ||
+ñvito 'thuc  || PS_3,3.89 ||
+yaja-yàca-yata-viccha-praccha-rakùo naï  || PS_3,3.90 ||
+svapo nan  || PS_3,3.91 ||
+upasarge ghoş kiş  || PS_3,3.92 ||
+karmaõy adhikaraõe ca  || PS_3,3.93 ||
+striyàü ktin  || PS_3,3.94 ||
+sthà-gà-pàpaco bhàve  || PS_3,3.95 ||
+mantre vùa-iùa-paca-mana-vida-bhå-vã-rà udàttaş  || PS_3,3.96 ||
+åti-yåti-jåti-sàti-heti-kãrtaya÷ ca  || PS_3,3.97 ||
+vraja-yajor bhàve kyap  || PS_3,3.98 ||
+sa¤j¤àyàü sam-aja-niùada-nipata-mana-vida-ùu¤-÷ãï-bh¤-iõaş  || PS_3,3.99 ||
+k¤aş ÷a ca  || PS_3,3.100 ||
+iccyà  || PS_3,3.101 ||
+a pratyayàt  || PS_3,3.102 ||
+guro÷ ca halaş  || PS_3,3.103 ||
+ùid-bhidàdibhyo 'ï  || PS_3,3.104 ||
+cinti-påji-kathi-kumbi-carca÷ ca  || PS_3,3.105 ||
+àta÷ ca+upasarge  || PS_3,3.106 ||
+õy-àsa-÷rantho yuc  || PS_3,3.107 ||
+roga-àkhyàyaü õvul bahulam  || PS_3,3.108 ||
+sa¤j¤àyàm  || PS_3,3.109 ||
+vibhà-àùakhyàna-paripra÷nayor i¤ ca  || PS_3,3.110 ||
+paryàya-arha-rõa-utpattiùu õvuc  || PS_3,3.111 ||
+àkro÷e na¤y atiş  || PS_3,3.112 ||
+ktya-lyuño bahulam  || PS_3,3.113 ||
+napuüsake bhàve ktaş  || PS_3,3.114 ||
+lyuñ ca  || PS_3,3.115 ||
+karmaõi ca yena saüspar÷àt kartuş ÷arãra-sukham  || PS_3,3.116 ||
+karaõa-adhikaraõayo÷ ca  || PS_3,3.117 ||
+puüsi sa¤j¤àyàü ghaş pràyeõa  || PS_3,3.118 ||
+gocara-sa¤cara-vaha-vraja-vyaja-àpaõa-nigamà÷ ca  || PS_3,3.119 ||
+ave t®-stror gha¤  || PS_3,3.120 ||
+hala÷ ca  || PS_3,3.121 ||
+adhyàya-nyàya-udyàva-saühàra-àdhàra-àvàyà÷ ca  || PS_3,3.122 ||
+udaïko 'nudake  || PS_3,3.123 ||
+jàlam ànàyaş  || PS_3,3.124 ||
+khano gha ca  || PS_3,3.125 ||
+ãùad-duş-suùu kcchra-akccra-artheùu khal  || PS_3,3.126 ||
+kart-karmaõo÷ ca bhå-kr¤oş  || PS_3,3.127 ||
+àto yuc  || PS_3,3.128 ||
+chandasi gaty-arthebhyaş  || PS_3,3.129 ||
+anyebhyo 'pi d÷yate  || PS_3,3.130 ||
+vartamàna-sàmãpye vartamànavad và  || PS_3,3.131 ||
+à÷aüsàyàü bhåtavac ca  || PS_3,3.132 ||
+kùipra-vacane lñ  || PS_3,3.133 ||
+à÷aüsà-vacane liï  || PS_3,3.134 ||
+na anadyatanavat kriyàprabandha-sàmãpyayoş  || PS_3,3.135 ||
+bhaviùyati maryàdà-vacane 'varasmin  || PS_3,3.136 ||
+kàla-vihbhàge ca anahoràtràõàm  || PS_3,3.137 ||
+parasmin vibhàùà  || PS_3,3.138 ||
+liï-nimitte lï kriyà-atipattau  || PS_3,3.139 ||
+bhåte ca  || PS_3,3.140 ||
+và-å-uta-apyoş  || PS_3,3.141 ||
+garhàyàü laó-api-jàtvoş  || PS_3,3.142 ||
+vibhàùa kathami liï ca  || PS_3,3.143 ||
+kiüvtte liï-lñau  || PS_3,3.144 ||
+anavaklpty-amarùayor akiüvtte 'pi  || PS_3,3.145 ||
+kiükila-asty-artheùu lñ  || PS_3,3.146 ||
+jàtu-yador liï  || PS_3,3.147 ||
+yaccayatrayoş  || PS_3,3.148 ||
+garhàyàü ca  || PS_3,3.149 ||
+citrãkaraõe ca  || PS_3,3.150 ||
+÷eùe ló-ayadau  || PS_3,3.151 ||
+uta-apyoş samarthayor liï  || PS_3,3.152 ||
+kàma-pravedane 'kacciti  || PS_3,3.153 ||
+sambhàvane 'lam iti cet siddha-aprayoge  || PS_3,3.154 ||
+vibhàùà dhàtau sambhàvana-vacane 'yadi  || PS_3,3.155 ||
+hetu-hetumator liï  || PS_3,3.156 ||
+icchà-artheùu liï-loñau  || PS_3,3.157 ||
+samàna-kartkeùu tumun  || PS_3,3.158 ||
+liï ca  || PS_3,3.159 ||
+icchàrthebhyo vibhàùà vartamàne  || PS_3,3.160 ||
+vidhi-nimantraõa-àmantraõa-adhãùña-saüpra÷na-pràrthaneùu liï  || PS_3,3.161 ||
+loñ ca  || PS_3,3.162 ||
+praiùa-atisarga-pràptakàleùu katyà÷ ca  || PS_3,3.163 ||
+liï ca+årdhva-mauhårtike  || PS_3,3.164 ||
+sme loñ  || PS_3,3.165 ||
+adhãùñe ca  || PS_3,3.166 ||
+kàla-samaya-velàsu tumun  || PS_3,3.167 ||
+liï yadi  || PS_3,3.168 ||
+arhe ktya-tca÷ ca  || PS_3,3.169 ||
+àva÷yaka-àdhamarõyayor õiniş  || PS_3,3.170 ||
+ktyà÷ ca  || PS_3,3.171 ||
+÷aki liï ca  || PS_3,3.172 ||
+à÷iùi liï loñau  || PS_3,3.173 ||
+ktic-ktau ca sa¤j¤àyàm  || PS_3,3.174 ||
+màïi luï  || PS_3,3.175 ||
+sma-uttare laï ca  || PS_3,3.176 ||
+dhàtu-sambandhe pratyayàş  || PS_3,4.1 ||
+kriyàsam-abhihàre loñ loño hi-svau và ca ta-dhvamoş  || PS_3,4.2 ||
+sayuccaye 'nyatarasyàm  || PS_3,4.3 ||
+yathàvidhy-anuprayogaş pårvasmin  || PS_3,4.4 ||
+samuccaye sàmànya-vacanasya  || PS_3,4.5 ||
+chandasi luï-laï-liñaş  || PS_3,4.6 ||
+liï-arthe leñ  || PS_3,4.7 ||
+upasaüvàda-à÷aïkayo÷ ca  || PS_3,4.8 ||
+tumarthe se-sen-ase-asen-kùe-kasen-adhyai-adhyain-kadhyai-kadhyain-÷adhyai-÷adhyain-tavai-taveï-tavenaş  || PS_3,4.9 ||
+prayai rohiùyai avyathiùyai  || PS_3,4.10 ||
+d÷e vikhye ca  || PS_3,4.11 ||
+÷aki õamulkamulau  || PS_3,4.12 ||
+ã÷vare tosun-kasunau  || PS_3,4.13 ||
+ktya-arthe tavai-ken-kenya-tvanaş  || PS_3,4.14 ||
+avacakùe ca  || PS_3,4.15 ||
+bhàval-akùane sthà-iõ-k¤-vadi-cari-hu-tami-janibhyas tosun  || PS_3,4.16 ||
+spi-tdoş kasun  || PS_3,4.17 ||
+alaü-khalvoş pratiùedhayoş pràcàü ktvà  || PS_3,4.18 ||
+udãcàü màïo vyatãhàre  || PS_3,4.19 ||
+para-avara-yoge ca  || PS_3,4.20 ||
+samàna-kartukayoş pårvakàle  || PS_3,4.21 ||
+àbhãkùõye õamul ca  || PS_3,4.22 ||
+na yady anàkàïkùe  || PS_3,4.23 ||
+vibhàùà 'gre prathama-pårveùu  || PS_3,4.24 ||
+karmaõy àkro÷e k¤aş khamu¤  || PS_3,4.25 ||
+svàdumi õamul  || PS_3,4.26 ||
+anyathà-evaü-katham-itthaüsu siddha-aprayoga÷-cet  || PS_3,4.27 ||
+yathà-tathayor asåyà-prativacane  || PS_3,4.28 ||
+karmaõi d÷i-vidoş sàkalye  || PS_3,4.29 ||
+yàvati vinda-jãvoş  || PS_3,4.30 ||
+carma-udarayoş påreş  || PS_3,4.31 ||
+varùa-pramàõa ålopa÷ ca asya anyatrasyàm  || PS_3,4.32 ||
+cele knopeş  || PS_3,4.33 ||
+nimåla-samålayoş kaùaş  || PS_3,4.34 ||
+÷uùka-cårõa-råkùeùu piùaş  || PS_3,4.35 ||
+samåla-akta-jãveùu han-k¤-grahaş  || PS_3,4.36 ||
+karaõe hanaş  || PS_3,4.37 ||
+snehane piùaş  || PS_3,4.38 ||
+haste varti-grahoş  || PS_3,4.39 ||
+sve puùaş  || PS_3,4.40 ||
+adhikaraõe vandhaş  || PS_3,4.41 ||
+sa¤j¤àyàm  || PS_3,4.42 ||
+kartor jãva-puruùayor na÷i-vahoş  || PS_3,4.43 ||
+årdhve ÷uùi-påroş  || PS_3,4.44 ||
+upamàne karmaõi ca  || PS_3,4.45 ||
+kaùàdiùu yathàvidhy-anuprayogaş  || PS_3,4.46 ||
+upadaü÷as ttãyàyàm  || PS_3,4.47 ||
+hiüsà-arthànàü ca samànakarmakàõàm  || PS_3,4.48 ||
+saptamyàü ca+upapãóa-rudha-karùaş  || PS_3,4.49 ||
+samàsattau  || PS_3,4.50 ||
+pramàõe ca  || PS_3,4.51 ||
+apàdàne parãpsàyàm  || PS_3,4.52 ||
+dvitiyàyàü ca  || PS_3,4.53 ||
+svàïge 'dhruve  || PS_3,4.54 ||
+parikla÷yamàne ca  || PS_3,4.55 ||
+vi÷i-pati-padi-skandàm vyàpyamàna-àsevyamànayoş  || PS_3,4.56 ||
+asyati-tùoş kriyàntare kàleùu  || PS_3,4.57 ||
+nàmny-àdi÷i-grahoş  || PS_3,4.58 ||
+avyaye 'yathàbhipreta-àkhyàne k¤aş ktvà-õamulau  || PS_3,4.59 ||
+tiryacy apavarge  || PS_3,4.60 ||
+svàïge tas-pratyaye kbhvoş  || PS_3,4.61 ||
+nà-dhà-arthapratyaye cvy-arthe  || PS_3,4.62 ||
+tåùõãmi bhuvaş  || PS_3,4.63 ||
+anvacy ànulomye  || PS_3,4.64 ||
+÷aka-dhùa-j¤à-glà-ghaña-rabha-labha-krama-saha-arha-asty-artheùu tumun  || PS_3,4.65 ||
+paryàpti-vacaneùv alam-artheùu  || PS_3,4.66 ||
+kartari kt  || PS_3,4.67 ||
+bhavya-geya-pravacanãya-upasthànãya-janya-àplàvya-àpàtyà và  || PS_3,4.68 ||
+laş karmaõi ca bhàve ca akramakebhyaş  || PS_3,4.69 ||
+tayor eva ktya-kta-khal-arthàş  || PS_3,4.70 ||
+àdikarmaõi ktaş kartari ca  || PS_3,4.71 ||
+gaty-artha-akramaka-÷liùa-÷ãï-sthà-àsa-vasa-jana-ruha-jãryatibhya÷ ca  || PS_3,4.72 ||
+dà÷a-goghnau sampradàne  || PS_3,4.73 ||
+bhãma-àdayo 'pàdàne  || PS_3,4.74 ||
+tàbhyàm anyatra-uõàdayaş  || PS_3,4.75 ||
+kto 'dhikaraõe ca dhrauvya-gati-pratyavasàna-arthebhyaş  || PS_3,4.76 ||
+lasya  || PS_3,4.77 ||
+tip-tas-jhi-sip-thas-tha-mib-vas-mas-ta-àtàü-jha-thàs-àthàm-dhvam-ió-vahi-mahiï  || PS_3,4.78 ||
+ñita àtmanepadànàü ñere  || PS_3,4.79 ||
+thàsaş se  || PS_3,4.80 ||
+liñas ta-jhayor e÷-irec  || PS_3,4.81 ||
+prasmaipadànàü õal-atus-us-thal-thus-aõal-va-màş  || PS_3,4.82 ||
+vido laño và  || PS_3,4.83 ||
+bruvaş pa¤cànàm àdita àho bruvaş  || PS_3,4.84 ||
+loño laïvat  || PS_3,4.85 ||
+er uş  || PS_3,4.86 ||
+ser hy apic ca  || PS_3,4.87 ||
+và chandasi  || PS_3,4.88 ||
+mer niş  || PS_3,4.89 ||
+àm etaş  || PS_3,4.90 ||
+sa-vàbhyàm vàmau  || PS_3,4.91 ||
+àó uttamasya pic ca  || PS_3,4.92 ||
+eta ai  || PS_3,4.93 ||
+leño 'ó-àñau  || PS_3,4.94 ||
+àta ai  || PS_3,4.95 ||
+và-eto 'nyatra  || PS_3,4.96 ||
+ita÷ ca lopaş parasmaipadesu  || PS_3,4.97 ||
+sa uttamasya  || PS_3,4.98 ||
+nityaü óitaş  || PS_3,4.99 ||
+ita÷ ca  || PS_3,4.100 ||
+tas-thas-tha-mipàm tàü-taü-ta-amaş  || PS_3,4.101 ||
+liïaş sãyuñ  || PS_3,4.102 ||
+yàsuñ parasmaipadesu udàtto ïic ca  || PS_3,4.103 ||
+kid à÷isi  || PS_3,4.104 ||
+jhasya ran  || PS_3,4.105 ||
+iño 't  || PS_3,4.106 ||
+suñ tithoş  || PS_3,4.107 ||
+jher juså  || PS_3,4.108 ||
+sij-abhyasta-vidibhya÷ ca  || PS_3,4.109 ||
+àtaş  || PS_3,4.110 ||
+laïaş ÷àkañàyanasya+eva  || PS_3,4.111 ||
+dviùa÷ ca  || PS_3,4.112 ||
+tiï-÷it-sàrvadhàtukam  || PS_3,4.113 ||
+àrdhadhàtukaü ÷eùaş  || PS_3,4.114 ||
+liñ ca  || PS_3,4.115 ||
+liï à÷iùi  || PS_3,4.116 ||
+chandasy ubhayathà  || PS_3,4.117 ||
+ïy-àp-pràtipadikàt  || PS_4,1.1 ||
+sv-au-jas-am-auñ-chaù-ñà-bhyàü-bhis-ïebhyàm-bhyas-ïasi-bhyàü-bhyas-ïas-os-àm-ïy-os-sup  || PS_4,1.2 ||
+striyàm  || PS_4,1.3 ||
+ajàdy-ataù ñàp  || PS_4,1.4 ||
+n-nebhyo ïãp  || PS_4,1.5 ||
+ugita÷ ca  || PS_4,1.6 ||
+vano ra ca  || PS_4,1.7 ||
+pàdo 'nyatarasyàm  || PS_4,1.8 ||
+ñàb ci  || PS_4,1.9 ||
+na ùañsvasràdibhyaş  || PS_4,1.10 ||
+manaş  || PS_4,1.11 ||
+ano bahuvrãheş  || PS_4,1.12 ||
+óàb ubhàbhyàm anyatarasyàm  || PS_4,1.13 ||
+anupasarjanàt  || PS_4,1.14 ||
+ñió-óha-aõ-a¤-dvayasaj-daghna¤-màtrac-tayap-ñhak-ñha¤-ka¤-kvarapkhyunàm  || PS_4,1.15 ||
+ya¤a÷ ca  || PS_4,1.16 ||
+pràcàü ùpha taddhitaş  || PS_4,1.17 ||
+sarvatra lohitàdi-katantebhyaş  || PS_4,1.18 ||
+kauravya-màõóåkàbhyàü ca  || PS_4,1.19 ||
+vayasi prathame  || PS_4,1.20 ||
+dvigoş  || PS_4,1.21 ||
+aparimàõa-bista-àcita-kambalyebhyo na taddhitaluki  || PS_4,1.22 ||
+kàõóa-antàt kùetre  || PS_4,1.23 ||
+puruùàt pramàõe 'nyatarasyàm  || PS_4,1.24 ||
+bahuvrãher ådhaso ïãù  || PS_4,1.25 ||
+saïkhyàvyayàderïãp  || PS_4,1.26 ||
+dàma-hàyana-anàc ca  || PS_4,1.27 ||
+ana upadhàlopino 'nyatarasyàm  || PS_4,1.28 ||
+nityaü sa¤j¤à-chandasoş  || PS_4,1.29 ||
+kevala-màmaka-bhàgadheya-pàpa-apara-samàna-àryakta-sumaïgala-bheùajàc ca  || PS_4,1.30 ||
+ràtre÷ ca ajasau  || PS_4,1.31 ||
+antarvat-pativator nuk  || PS_4,1.32 ||
+patyur no yaj¤asaüyoge  || PS_4,1.33 ||
+vibhàùà sapårvasya  || PS_4,1.34 ||
+nityaü sapatnyàdiùu  || PS_4,1.35 ||
+påtakrator ai ca  || PS_4,1.36 ||
+vùàkapy-agni-kusita-kusidànàm udàttaş  || PS_4,1.37 ||
+manor au và  || PS_4,1.38 ||
+varõàd anudàttàt topadhàtto naş  || PS_4,1.39 ||
+anyato ïãù  || PS_4,1.40 ||
+ùid-gauràdibhya÷ ca  || PS_4,1.41 ||
+jànapada-kuõóa-goõa-sthala-bhàja-nàga-kàla-nãla-ku÷a-kàmuka-kabaràd vtty-amatra-àvapana-aktrimà-÷ràõà-sthaulya-varõa-anàcchàdana-ayovikàra-maithunecchà-ke÷ave÷eùu  || PS_4,1.42 ||
+÷oõàt pràcàm  || PS_4,1.43 ||
+và+uto guõavacanàt  || PS_4,1.44 ||
+bahva-àdibhya÷ ca  || PS_4,1.45 ||
+nityaü chandasi  || PS_4,1.46 ||
+bhuva÷ ca  || PS_4,1.47 ||
+puüyogàd àkhyàyàm  || PS_4,1.48 ||
+indra-varuõa-bhava-÷arva-rudra-móa-hima-araõya-yava-yavana-màtula-àcàryàõàmànuk  || PS_4,1.49 ||
+krãtàt karaõa-pårvàt  || PS_4,1.50 ||
+ktàd alpàakhyàyàm  || PS_4,1.51 ||
+bahuvrãhe÷ ca antodattàt  || PS_4,1.52 ||
+asvàïga-pårvapadàd và  || PS_4,1.53 ||
+svàïgàc ca+upasarjanàd asaüyoga-upadhàt  || PS_4,1.54 ||
+nàsikà-udara-oùñha-jaïghà-danta-karõa-÷ïgàc ca  || PS_4,1.55 ||
+na kroóàdi-bahvacaş  || PS_4,1.56 ||
+saha-na¤-vidyamàna-pårvàc ca  || PS_4,1.57 ||
+nakha-mukhàt sa¤j¤àyàm  || PS_4,1.58 ||
+dãrghajihvã ca cchandasi  || PS_4,1.59 ||
+dik-pårvapadàn ïãp  || PS_4,1.60 ||
+vàhaş  || PS_4,1.61 ||
+sakhy a÷iùvã iti bhàùàyàm  || PS_4,1.62 ||
+jàter astrãviùayàd aya-upadhàt  || PS_4,1.63 ||
+pàka-karõa-parõa-puùpa-phala-måla-vàla-uttarapadàc ca  || PS_4,1.64 ||
+ito manusya-jàteş  || PS_4,1.65 ||
+åï utaş  || PS_4,1.66 ||
+bàhvantàt sa¤j¤àyàm  || PS_4,1.67 ||
+païgo÷ ca  || PS_4,1.68 ||
+åru-uttarapadàd aupamye  || PS_4,1.69 ||
+saühita-÷apha-lakùaõa-vàma-àde÷ ca  || PS_4,1.70 ||
+kadru-kamaõóalvo÷ chandasi  || PS_4,1.71 ||
+sa¤j¤àyàm  || PS_4,1.72 ||
+÷àrïgarava-àdy-a¤o ïãn  || PS_4,1.73 ||
+yaïa÷ càp  || PS_4,1.74 ||
+àvaïyàc ca  || PS_4,1.75 ||
+taddhitàş  || PS_4,1.76 ||
+yånas tiş  || PS_4,1.77 ||
+aõ-i¤or anàrùayor guru-upottamayoş ùyaï gotre  || PS_4,1.78 ||
+gora-avayavàt  || PS_4,1.79 ||
+krauóy-àdibhya÷ ca  || PS_4,1.80 ||
+daivayaj¤i-÷aucivkùi-sàtyamugri-kàõñheviddhibhyo 'nyatarasyàm  || PS_4,1.81 ||
+samarthànàü prathamàd và  || PS_4,1.82 ||
+pràg dãvyato 'õ  || PS_4,1.83 ||
+a÷vapatyàdibhya÷ ca  || PS_4,1.84 ||
+dity-adity-àditya-paty-uttarapadàõ õyaş  || PS_4,1.85 ||
+utsa-àdibhyo '¤  || PS_4,1.86 ||
+strã-puüsàbhyàü na¤-sna¤au bhavanàt  || PS_4,1.87 ||
+dvigor lug-anapatye  || PS_4,1.88 ||
+gotre 'lug-aci  || PS_4,1.89 ||
+yåni luk  || PS_4,1.90 ||
+phak-phi¤or anyatarasyàm  || PS_4,1.91 ||
+tasya apatyam  || PS_4,1.92 ||
+eko gotre  || PS_4,1.93 ||
+gotràd yåny astriyàü  || PS_4,1.94 ||
+ata i¤  || PS_4,1.95 ||
+bàhv-àdibhya÷ ca  || PS_4,1.96 ||
+sudhàtur akaï ca  || PS_4,1.97 ||
+gotre ku¤ja-àdibhya÷ cpha¤  || PS_4,1.98 ||
+naóàdibhyaş phak  || PS_4,1.99 ||
+harita-àdibhyo '¤aş  || PS_4,1.100 ||
+ya¤-i¤o÷ ca  || PS_4,1.101 ||
+÷aradvac-chunaka-darbhàd bhgu-vatsa-àgràyaõeùu  || PS_4,1.102 ||
+droõa-parvata-jãvantàd anyatarasyàm  || PS_4,1.103 ||
+anùy-ànantarye bida-àdibhyo '¤  || PS_4,1.104 ||
+garga-àdibhyo ya¤  || PS_4,1.105 ||
+madhu-babhvror bràhmaõa-kau÷ikayoş  || PS_4,1.106 ||
+kapi-bodhàd àïgirase  || PS_4,1.107 ||
+vataõóàc ca  || PS_4,1.108 ||
+luk striyàm  || PS_4,1.109 ||
+a÷vàdibhyaş pha¤  || PS_4,1.110 ||
+bhargàt traigarte  || PS_4,1.111 ||
+÷iva-àdibhyo 'õ  || PS_4,1.112 ||
+avddhàbhyo nadã-mànuùãbhyas tannàmikàbhyaş  || PS_4,1.113 ||
+ùy-andhaka-vùõi-kurubhya÷ ca  || PS_4,1.114 ||
+màtur ut saïkhyà-saü-bhadra-pårvàyàş  || PS_4,1.115 ||
+kanyàyàş kanãna ca  || PS_4,1.116 ||
+vikarõa-÷uïga-chaïgalàd vatsa-bharadvàja-atriùu  || PS_4,1.117 ||
+pãlàyà và  || PS_4,1.118 ||
+ñhak ca maõóåkàt  || PS_4,1.119 ||
+strãbhyo óhak  || PS_4,1.120 ||
+dvyacaş  || PS_4,1.121 ||
+ita÷-ca-ani¤aş  || PS_4,1.122 ||
+÷ubhra-àdibhya÷ ca  || PS_4,1.123 ||
+vikarõa-kuùãtakàt kàùyape  || PS_4,1.124 ||
+bhravo vuk ca  || PS_4,1.125 ||
+kalyàõyàdãnàm inaï  || PS_4,1.126 ||
+kulañàyà  || PS_4,1.127 ||
+cañakàyà airak  || PS_4,1.128 ||
+godhàyà óhrak  || PS_4,1.129 ||
+àrag udãcàm  || PS_4,1.130 ||
+kùudràbhyo và  || PS_4,1.131 ||
+pitùvasu÷ chaõ  || PS_4,1.132 ||
+ñhaki lopaş  || PS_4,1.133 ||
+màt-ùvasu÷ ca  || PS_4,1.134 ||
+catuùpàdbhyo óha¤  || PS_4,1.135 ||
+gùñy-àdibhya÷ ca  || PS_4,1.136 ||
+ràja-÷va÷uràd yat  || PS_4,1.137 ||
+kùatràd ghaş  || PS_4,1.138 ||
+kulàt khaş  || PS_4,1.139 ||
+apårvapadàd anyatrasyàü yaï-óhaka¤au  || PS_4,1.140 ||
+mahàkulàd a¤-kha¤au  || PS_4,1.141 ||
+duùkulàó óhak  || PS_4,1.142 ||
+svasu÷ chaş  || PS_4,1.143 ||
+bhràtur vyac ca  || PS_4,1.144 ||
+vyan sapatne  || PS_4,1.145 ||
+revaty-àdibhyaù ñhak  || PS_4,1.146 ||
+gotra-striyàş kutsane õa ca  || PS_4,1.147 ||
+vddhàñ ñhak sauvãreùu bahulam  || PS_4,1.148 ||
+phe÷ cha ca  || PS_4,1.149 ||
+phàõóàhti-mimatàbhyàü õa-phi¤au  || PS_4,1.150 ||
+kurvàdibhyo õyaş  || PS_4,1.151 ||
+senànta-lakùaõa-kàribhya÷ ca  || PS_4,1.152 ||
+udãcàm i¤  || PS_4,1.153 ||
+tikàdibhyaş phi¤  || PS_4,1.154 ||
+kau÷alya-kàrmàryàbhyàü ca  || PS_4,1.155 ||
+aõo dvyacaş  || PS_4,1.156 ||
+udãcàü vddhàd agotràt  || PS_4,1.157 ||
+vàkina-adãnàü kuk ca  || PS_4,1.158 ||
+putràntàd anyatarasyàm  || PS_4,1.159 ||
+pràcàm avddhàt phin bahulam  || PS_4,1.160 ||
+manor jàtàv a¤-ayatau ùuk ca  || PS_4,1.161 ||
+apatyeaü pautraprabhti gotram  || PS_4,1.162 ||
+jãvati tu vaü÷ye yuvà  || PS_4,1.163 ||
+bhràtari ca jyàyasi  || PS_4,1.164 ||
+và anyasmin sapiõóe sthaviratare jivati  || PS_4,1.165 ||
+vddhasya ca påjàyàm  || PS_4,1.166 ||
+yåna÷ ca kutsàyàm  || PS_4,1.167 ||
+janapada-÷abdàt kùatriyàd a¤  || PS_4,1.168 ||
+sàlveya-gàndhàribhyàü ca  || PS_4,1.169 ||
+dvy-a¤-magadha-kaliïg-asåramasàd aõ  || PS_4,1.170 ||
+vddha-it-kosala-ajàdà¤ ¤yaï  || PS_4,1.171 ||
+kuru-nàdibhyo õyaş  || PS_4,1.172 ||
+sàlvàvayava-pratyagratha-kalakåña-a÷makàd i¤  || PS_4,1.173 ||
+te tadràjàş  || PS_4,1.174 ||
+kambojàl luk  || PS_4,1.175 ||
+striyàm avanti-kunti-kurubhya÷ ca  || PS_4,1.176 ||
+ata÷ ca  || PS_4,1.177 ||
+na pràcya-bharga-àdi-yaudheya-àdibhyaş  || PS_4,1.178 ||
+tena raktaü ràgàt  || PS_4,2.1 ||
+làkùà-rocanà-÷akala-kardamàñ ñhak  || PS_4,2.2 ||
+nakùatreõa yuktaü kàlaş  || PS_4,2.3 ||
+lub avi÷eùe  || PS_4,2.4 ||
+sa¤j¤àyàü ÷ravaõa-a÷vatthàbhyàm  || PS_4,2.5 ||
+dvanvàc chaş  || PS_4,2.6 ||
+dùñaü sàma  || PS_4,2.7 ||
+kaler óhak  || PS_4,2.8 ||
+vàmadevàó óyaó-óyau  || PS_4,2.9 ||
+parivto rathaş  || PS_4,2.10 ||
+pàõóukambalàd iniş  || PS_4,2.11 ||
+dvaipa-vaiyàghràd a¤  || PS_4,2.12 ||
+kaumàra-apårvavacane  || PS_4,2.13 ||
+tatra+uddhtam amatrebhyaş  || PS_4,2.14 ||
+sthaõóilàc chayitari vrate  || PS_4,2.15 ||
+saüsktaü bhakùàş  || PS_4,2.16 ||
+÷åla-ukhàd yat  || PS_4,2.17 ||
+dadhnaù ñhak  || PS_4,2.18 ||
+uda÷vito 'nyatarasyàm  || PS_4,2.19 ||
+kùãràó óha¤  || PS_4,2.20 ||
+sà 'smin paurõamàsã iti sa¤j¤àyàm  || PS_4,2.21 ||
+àgrahàyaõy-a÷vatthàñ ñhak  || PS_4,2.22 ||
+vibhàùà phàlgunã-÷ravaõà-kàrtikã-caitrãbhyaş  || PS_4,2.23 ||
+sà 'sya devatà  || PS_4,2.24 ||
+kasya+it  || PS_4,2.25 ||
+÷ukràd ghan  || PS_4,2.26 ||
+aponaptr-apàünaptbhyàü ghaş  || PS_4,2.27 ||
+cha ca  || PS_4,2.28 ||
+mahendràd ghàõau ca  || PS_4,2.29 ||
+somàñ ñyaõ  || PS_4,2.30 ||
+vàyv-tu-pitr-uùaso yat  || PS_4,2.31 ||
+dyàvàpthivã-÷unàsãra-marutvad-agnãùoma-vàstoùpati-ghamedhàc cha ca  || PS_4,2.32 ||
+agner óhak  || PS_4,2.33 ||
+kàlebhyo bhavavat  || PS_4,2.34 ||
+mahàràja-proùñhapadàñ ñha¤  || PS_4,2.35 ||
+pitvya-màtula-màtàmaha-pitàmahàş  || PS_4,2.36 ||
+tasya samåhaş  || PS_4,2.37 ||
+bhikùà-àdibhyo 'õ  || PS_4,2.38 ||
+gotra-ukùa-uùñra-urabhra-ràja-ràjanya-ràjaputra-vatsa-manuùya-ajàd vu¤  || PS_4,2.39 ||
+kedàràd ya¤ ca  || PS_4,2.40 ||
+ñha¤ kavacina÷ ca  || PS_4,2.41 ||
+bràhmaõa-màõava-vàóavàd yan  || PS_4,2.42 ||
+gràma-jana-bandhu-sahàyebhyas tal  || PS_4,2.43 ||
+anudàttàder a¤  || PS_4,2.44 ||
+khaõóika-àdibhya÷ ca  || PS_4,2.45 ||
+caraõebhyo dharmavat  || PS_4,2.46 ||
+acitta-hasti-dhenoù ñhak  || PS_4,2.47 ||
+ke÷a-a÷vàbhyàü ya¤-chàv anyatarasyàm  || PS_4,2.48 ||
+pà÷àdibhyo yaş  || PS_4,2.49 ||
+khala-go-rathàt  || PS_4,2.50 ||
+ini-tra-kañyaca÷ ca  || PS_4,2.51 ||
+viùayo de÷e  || PS_4,2.52 ||
+ràjanyàdibhyo vu¤  || PS_4,2.53 ||
+bhaurikyàdy-aiùukàryàdibhyo vidhalbhaktalau  || PS_4,2.54 ||
+so 'sya-àdir iti cchandasaş pragàtheùu  || PS_4,2.55 ||
+saïgràme prayojana-yoddhbhyaş  || PS_4,2.56 ||
+tad asyàü praharaõam iti krãóàyàü õaş  || PS_4,2.57 ||
+gha¤aş sàsyàü kriyeti ¤aş  || PS_4,2.58 ||
+tad adhãte tad veda  || PS_4,2.59 ||
+kratu-ukthàdi-såtràntàñ ñhak  || PS_4,2.60 ||
+kramàdibhyo vun  || PS_4,2.61 ||
+ anubràhmaõàd iniş  || PS_4,2.62 ||
+ vasantàdibhyaù ñhak  || PS_4,2.63 ||
+proktàl luk  || PS_4,2.64 ||
+ såtràc ca ka+upadhàt  || PS_4,2.65 ||
+ chando-bràhamaõàni ca tad-viùayàõi  || PS_4,2.66 ||
+tad asminn asti iti de÷e tannàmni  || PS_4,2.67 ||
+tena nirvttam  || PS_4,2.68 ||
+tasya nivàsaş  || PS_4,2.69 ||
+adårabhava÷ ca  || PS_4,2.70 ||
+or a¤  || PS_4,2.71 ||
+mato÷ ca bahv-aj-aïgàt  || PS_4,2.72 ||
+bahv-acaş kåpeùu  || PS_4,2.73 ||
+udak ca vipà÷aş  || PS_4,2.74 ||
+saïkalàdibhya÷ ca  || PS_4,2.75 ||
+strãùu sauvãra-sàlva-pràkùu  || PS_4,2.76 ||
+suvàstv-àdibhyo 'õ  || PS_4,2.77 ||
+roõã  || PS_4,2.78 ||
+ka-upadhàc ca  || PS_4,2.79 ||
+vu¤-chaõ-ka-ñhaj-ila-sa-ini-ra-óha õya-ya-phak-phi¤-i¤-¤ya-kak-ñhako 'rãhaõa-k÷à÷va-r÷ya-kumuda-kà÷a-tõa-prekùà-a÷ma-sakhi-saïkà÷a-bala-pakùa-karõa-sutaïgama-pragadin-varàha-kumuda-àdibhyaş  || PS_4,2.80 ||
+janapade lup  || PS_4,2.81 ||
+varaõa-àdibhya÷ ca  || PS_4,2.82 ||
+÷arkaràyà và  || PS_4,2.83 ||
+ñhak-chau ca  || PS_4,2.84 ||
+nadyàü matup  || PS_4,2.85 ||
+madhvàdibhya÷ ca  || PS_4,2.86 ||
+kumuda-naóa-vetasebhyo ómatup  || PS_4,2.87 ||
+naóa-÷àdàó óvalac  || PS_4,2.88 ||
+÷ikhàyà valac  || PS_4,2.89 ||
+utkaràdibhya÷ chaş  || PS_4,2.90 ||
+naóàdãnàü kuk ca  || PS_4,2.91 ||
+÷eùe  || PS_4,2.92 ||
+ràùñra-avàrapàràd gha-khau  || PS_4,2.93 ||
+ràùñra-avàrapàràd gha-khau  || PS_4,2.94 ||
+katry-àdibhyo óhaka¤  || PS_4,2.95 ||
+kula-kukùi-grãvàbhyaş ÷va-asy-alaïkàreùu  || PS_4,2.96 ||
+nady-àdibhyo óhak  || PS_4,2.97 ||
+dakùiõà-pa÷càt-purasas tyak  || PS_4,2.98 ||
+kàpi÷yàş ùphak  || PS_4,2.99 ||
+raïkor amanuùye 'õ ca  || PS_4,2.100 ||
+dyu-pràg-apàg-udak-pratãco yat  || PS_4,2.101 ||
+kanthàyàùñhak  || PS_4,2.102 ||
+varõau vuk  || PS_4,2.103 ||
+avyayàt tyap  || PS_4,2.104 ||
+aiùameo-hyaş-÷vaso 'nyatarasyàm  || PS_4,2.105 ||
+tãra-råpya-uttarapadàd a¤-¤au  || PS_4,2.106 ||
+dik-pårvapadàd asa¤j¤àyàü ¤aş  || PS_4,2.107 ||
+madrebhyo '¤  || PS_4,2.108 ||
+udãcyagràmàc ca bahvaco 'ntodàttàt  || PS_4,2.109 ||
+prastha-uttarapada-paladyàdi-ka-upadhàdaõ  || PS_4,2.110 ||
+kaõva-àdibhyo gotre  || PS_4,2.111 ||
+i¤a÷ ca  || PS_4,2.112 ||
+na dvy-acaş pràcya-bharatesu  || PS_4,2.113 ||
+vddhàc chaş  || PS_4,2.114 ||
+bhavataù ñhak-chasau  || PS_4,2.115 ||
+kà÷yàdibhyaù ñha¤-¤iñhau  || PS_4,2.116 ||
+vàhãkagràmebhya÷ ca  || PS_4,2.117 ||
+vibhàùà+u÷ãnareùu  || PS_4,2.118 ||
+or de÷e ñha¤  || PS_4,2.119 ||
+vddhat pràcàm  || PS_4,2.120 ||
+dhanva-ya-upadhàd vu¤  || PS_4,2.121 ||
+prastha-pura-vahàntàc ca  || PS_4,2.122 ||
+ra-upadha-itoş pràcàm  || PS_4,2.123 ||
+janapada-tadavadhyo÷ ca  || PS_4,2.124 ||
+avddhàd api bahuvacana-viùayàt  || PS_4,2.125 ||
+kaccha-agni-vaktra-garta-uttarapadàt  || PS_4,2.126 ||
+dhåmàdibhya÷ ca  || PS_4,2.127 ||
+nagaràt kutsana-pràvãõyayoş  || PS_4,2.128 ||
+araõyàn manusye  || PS_4,2.129 ||
+vibhàùà kuru-yugandharàbhyàm  || PS_4,2.130 ||
+madra-vjyoş kan  || PS_4,2.131 ||
+kopadhàd aõ  || PS_4,2.132 ||
+kaccha-àdibhya÷ ca  || PS_4,2.133 ||
+manusya-tatsthayor vu¤  || PS_4,2.134 ||
+apadàtau sàlvàt  || PS_4,2.135 ||
+go-yavagvo÷ ca  || PS_4,2.136 ||
+garta-uttarapadàc chaş  || PS_4,2.137 ||
+gaha-àdibhya÷ ca  || PS_4,2.138 ||
+pràcàü kañàdeş  || PS_4,2.139 ||
+ràj¤aş ka ca  || PS_4,2.140 ||
+vddhàd aka-ika-anta-kha-upadhàt  || PS_4,2.141 ||
+kanthà-palada-nagara-gràma-hrada-uttarapadàt  || PS_4,2.142 ||
+parvatàc ca  || PS_4,2.143 ||
+vibhàùà 'manuùye  || PS_4,2.144 ||
+kkaõa-parõàd bharadvàje  || PS_4,2.145 ||
+yuùmad-asmador anyatarasyàü kha¤ ca  || PS_4,3.1 ||
+tasminn aõi ca yuùmàka-asmàkau  || PS_4,3.2 ||
+tavaka-mamakàv ekavacane  || PS_4,3.3 ||
+ardhàd yat  || PS_4,3.4 ||
+para-avara-adhama-uttama-pårvàc ca  || PS_4,3.5 ||
+dik-pårvapadàñ ñha¤ ca  || PS_4,3.6 ||
+gràma-janapada+ekade÷àd a¤-ñha¤au  || PS_4,3.7 ||
+madhyànamaş  || PS_4,3.8 ||
+a sàmpratike  || PS_4,3.9 ||
+dvãpàd anusamudraü ya¤  || PS_4,3.10 ||
+kàlàñ ñha¤  || PS_4,3.11 ||
+÷ràddhe ÷aradaş  || PS_4,3.12 ||
+vibhàùà roga-àtapayoş  || PS_4,3.13 ||
+ni÷à-pradoùàbhyàü ca  || PS_4,3.14 ||
+÷vasas tuñ ca  || PS_4,3.15 ||
+sandhivela-àdy-tu-nakùatrebhyo 'õ  || PS_4,3.16 ||
+pràvùa eõyaş  || PS_4,3.17 ||
+varùàbhyaùñhak  || PS_4,3.18 ||
+chandasi ñha¤  || PS_4,3.19 ||
+vasantàc ca  || PS_4,3.20 ||
+hemantàc ca  || PS_4,3.21 ||
+sarvatra aõ ca talopa÷ ca  || PS_4,3.22 ||
+sàyaü-ciraü-pràhõe-prage 'vyayebhyaù ñyu-ñyulau tuñ ca  || PS_4,3.23 ||
+vibhàùà pårvàhõa-aparàhõàbhyàm  || PS_4,3.24 ||
+tatra jàtaş  || PS_4,3.25 ||
+pràvùaùñhap  || PS_4,3.26 ||
+sa¤j¤àyàü ÷arado vu¤  || PS_4,3.27 ||
+pårvàhõa-aparàhõa-àrdrà-måla-pradoùa-avaskaràd vun  || PS_4,3.28 ||
+pathaş pantha ca  || PS_4,3.29 ||
+amàvàsyàyà và  || PS_4,3.30 ||
+a ca  || PS_4,3.31 ||
+sindhv-apakaràbhyàü kan  || PS_4,3.32 ||
+aõa¤au ca  || PS_4,3.33 ||
+÷raviùñhà-phalguny-anuràdhà-svàti-tiùya-punarvasu-hasta-vi÷àkhà-aùàóhà-bahulàl luk  || PS_4,3.34 ||
+sthànànata-go÷àla-khara÷àlàc ca  || PS_4,3.35 ||
+vatsa÷àlà-abhijid-a÷vayuk-chatabhiùajo và  || PS_4,3.36 ||
+nakùatrebhyo bahulam  || PS_4,3.37 ||
+kta-labdha-krãta-ku÷alàş  || PS_4,3.38 ||
+pràyabhavaş  || PS_4,3.39 ||
+upajànu-upakarõa-upanãveù ñhak  || PS_4,3.40 ||
+sambhåte  || PS_4,3.41 ||
+ko÷àó óha¤  || PS_4,3.42 ||
+kàlàt sàdhu-puùpyat-pacyamàneùu  || PS_4,3.43 ||
+upte ca  || PS_4,3.44 ||
+à÷vayujyà vu¤  || PS_4,3.45 ||
+grãùma-vasantàd anyatrasyàm  || PS_4,3.46 ||
+deyam õe  || PS_4,3.47 ||
+kalàpy-a÷vattha-yavabusàd vun  || PS_4,3.48 ||
+grãùma-avarasamàd vu¤  || PS_4,3.49 ||
+saüvatsara-àgrahàyaõãbhyàü ñha¤ ca  || PS_4,3.50 ||
+vyàharati mgaş  || PS_4,3.51 ||
+tad asya soóham  || PS_4,3.52 ||
+tatra bhavaş  || PS_4,3.53 ||
+dig-àdibhyo yat  || PS_4,3.54 ||
+÷arãra-avayavàc ca  || PS_4,3.55 ||
+dti-kukùi-kala÷i-vasty-asty-aher óha¤  || PS_4,3.56 ||
+grãvàbhyo 'õ ca  || PS_4,3.57 ||
+gambhãrà¤ ¤yaş  || PS_4,3.58 ||
+avyayãbhàvàc ca  || PS_4,3.59 ||
+antaş-pårvapadàñ ñha¤  || PS_4,3.60 ||
+gràmàt pary-anu-pårvàt  || PS_4,3.61 ||
+jihvàmåla-aïgule÷ chaş  || PS_4,3.62 ||
+vargàntàc ca  || PS_4,3.63 ||
+a÷abde yat-khàv anyatarasyàm  || PS_4,3.64 ||
+karõa-lalàñàt kan alaïkàre  || PS_4,3.65 ||
+tasya vyàkhyàna iti ca vyàkhyàtavyanàmnaş  || PS_4,3.66 ||
+bahvaco 'ntodàttàña ñha¤  || PS_4,3.67 ||
+kratu-yaj¤ebhya÷ ca  || PS_4,3.68 ||
+adhyàyeùv eva rùeş  || PS_4,3.69 ||
+pauràóà÷a-puroóà÷àt ùñhan  || PS_4,3.70 ||
+chandaso yadaõau  || PS_4,3.71 ||
+dvyaj-d-bràhmaõa-rk-prathama-adhvara-pura÷caraõa-nàmàkhyàtàñ ñhak  || PS_4,3.72 ||
+aõ gayana-àdibhyaş  || PS_4,3.73 ||
+tata àgataş  || PS_4,3.74 ||
+ñhag àyasthànebhyaş  || PS_4,3.75 ||
+÷uõóikàdibhyo 'õ  || PS_4,3.76 ||
+vidyà-yoni-sambandhebhyo vu¤  || PS_4,3.77 ||
+taù-ñha¤  || PS_4,3.78 ||
+pitur yac ca  || PS_4,3.79 ||
+gotràd aïkavat  || PS_4,3.80 ||
+hetu-manuùyebhyo 'nyatarasyàü råpyaş  || PS_4,3.81 ||
+mayañ ca  || PS_4,3.82 ||
+prabhavati  || PS_4,3.83 ||
+vidårà¤ ¤yaş  || PS_4,3.84 ||
+tad gacchati pathi-dåtayoş  || PS_4,3.85 ||
+abhiniùkràmati dvàram  || PS_4,3.86 ||
+adhiktya kte granthe  || PS_4,3.87 ||
+÷i÷ukranda-yamasabha-dvandva-indrajanana-àdibhya÷ chaş  || PS_4,3.88 ||
+so 'sya nivàsaş  || PS_4,3.89 ||
+abhijana÷ ca  || PS_4,3.90 ||
+àyudhajãvibhya÷ chaş parvate  || PS_4,3.91 ||
+÷aõdika-àdibhyo ¤yaş  || PS_4,3.92 ||
+sindhu-takùa÷ilà-àdibhyo 'õ-a¤au  || PS_4,3.93 ||
+tådã-÷alàtura-varmatã-kåcavàràó ñhak-chaõ-óha¤-yakaş  || PS_4,3.94 ||
+bhaktiş  || PS_4,3.95 ||
+acittàd ade÷a-kàlàñ ñhak  || PS_4,3.96 ||
+mahàràjàñ ñha¤  || PS_4,3.97 ||
+vàsudeva-arjunàbhyàü vun  || PS_4,3.98 ||
+gotra-kùatriya-àkhyebhyo bahulaü vu¤  || PS_4,3.99 ||
+janapadinàü janapadavat sarvaü janapadena samàna÷abdànàü bahuvacane  || PS_4,3.100 ||
+tena proktam  || PS_4,3.101 ||
+tittiri-varatantu-khaõóika-ukhàc chaõ  || PS_4,3.102 ||
+kà÷yapa-kau÷ikàbhyàm ùibhyàü õiniş  || PS_4,3.103 ||
+kalàpi-vai÷ampàyana-antevàsibhya÷ ca  || PS_4,3.104 ||
+puràõa-prokteùu bràhmaõa-kalpeùu  || PS_4,3.105 ||
+÷aunaka-àdibhya÷ chandasi  || PS_4,3.106 ||
+kañha-carakàl luk  || PS_4,3.107 ||
+kalàpino 'õ  || PS_4,3.108 ||
+chagalino óhinuk  || PS_4,3.109 ||
+pàrà÷arya-÷ilàlibhyàü bhikùu-nañasåtrayoş  || PS_4,3.110 ||
+karmanda-k÷à÷vàd iniş  || PS_4,3.111 ||
+tena+ekadik  || PS_4,3.112 ||
+tasi÷ ca  || PS_4,3.113 ||
+uraso yac ca  || PS_4,3.114 ||
+upaj¤àte  || PS_4,3.115 ||
+kte granthe  || PS_4,3.116 ||
+sa¤j¤àyàm  || PS_4,3.117 ||
+kulàla-àdibhyo vu¤  || PS_4,3.118 ||
+kùudrà-bhramara-vañara-pàdapàd a¤  || PS_4,3.119 ||
+tasya+idam  || PS_4,3.120 ||
+rathàdyat  || PS_4,3.121 ||
+patrapårvà da¤  || PS_4,3.122 ||
+patra-adhvaryu-pariùada÷ ca  || PS_4,3.123 ||
+hala-sãràñ ñhak  || PS_4,3.124 ||
+dvandvàd vun vaira-maithunikayoş  || PS_4,3.125 ||
+gotra-caraõàd vu¤  || PS_4,3.126 ||
+saïgha-aïka-lakùaõeùv a¤-ya¤-i¤àm aõ  || PS_4,3.127 ||
+÷àkalàd và  || PS_4,3.128 ||
+chandoga-aukthika-yàj¤ika-bahvca-nañàj ¤yaş  || PS_4,3.129 ||
+na daõóamàõava-antevàsiùu  || PS_4,3.130 ||
+raivatika-àdibhya÷ chaş  || PS_4,3.131 ||
+kaupi¤jala-hàsitapadàdaõ  || PS_4,3.132 ||
+àtharvaõikasya+ika-lopa÷ ca  || PS_4,3.133 ||
+tasya vikàraş  || PS_4,3.134 ||
+avayave ca pràõy-oùadhi-vkùebhyaş  || PS_4,3.135 ||
+bilva-àdibhyo 'õ  || PS_4,3.136 ||
+ka-upàdhàc ca  || PS_4,3.137 ||
+trapu-jatunoş ùuk  || PS_4,3.138 ||
+ora¤  || PS_4,3.139 ||
+anudàtta-àde÷ ca  || PS_4,3.140 ||
+palà÷a-àdibhyo và  || PS_4,3.141 ||
+÷amyàù ñla¤  || PS_4,3.142 ||
+mayaó vaà+etayor bhàùàyàm abhakùya àcchàdanayoş  || PS_4,3.143 ||
+nityaü vddha-÷ara-àdibhyaş  || PS_4,3.144 ||
+go÷ ca purãùe  || PS_4,3.145 ||
+piùñàc ca  || PS_4,3.146 ||
+sa¤j¤àyàü kan  || PS_4,3.147 ||
+vrãheş puroóà÷e  || PS_4,3.148 ||
+asa¤j¤àyàü tila-yavàbhyàm  || PS_4,3.149 ||
+dvyaca÷ chandasi  || PS_4,3.150 ||
+na+uttvad-vardhra-bilvàt  || PS_4,3.151 ||
+tàla-àdibhyo 'õ  || PS_4,3.152 ||
+jàtaråpebhyaş parimàõe  || PS_4,3.153 ||
+pràõi-rajata-àdibhyo '¤  || PS_4,3.154 ||
+¤ita÷ ca tatpratyayàt  || PS_4,3.155 ||
+krãtavat praimàõàt  || PS_4,3.156 ||
+uùñràd vu¤  || PS_4,3.157 ||
+umà-årõayor và  || PS_4,3.158 ||
+eõyà óha¤  || PS_4,3.159 ||
+gopayasor yat  || PS_4,3.160 ||
+dro÷ ca  || PS_4,3.161 ||
+màne vayaş  || PS_4,3.162 ||
+phale luk  || PS_4,3.163 ||
+plakùa-àdi-bhyo 'õ  || PS_4,3.164 ||
+jambvà và  || PS_4,3.165 ||
+lup ca  || PS_4,3.166 ||
+harãtaky-àdibhya ÷ca  || PS_4,3.167 ||
+kaüsãya-para÷avyayor ya¤-a¤au luk ca  || PS_4,3.168 ||
+pràg vahateù ñhak  || PS_4,4.1 ||
+tena dãvyati khanati jayati jitam  || PS_4,4.2 ||
+saüsktam  || PS_4,4.3 ||
+kulattha-ka-upadhàd aõ  || PS_4,4.4 ||
+tarati  || PS_4,4.5 ||
+gopucchàñ ñha¤  || PS_4,4.6 ||
+nau-dvyacaù ñhan  || PS_4,4.7 ||
+parati  || PS_4,4.8 ||
+àkarùàt ùñhal  || PS_4,4.9 ||
+parpa-àdibhyaş ùñhan  || PS_4,4.10 ||
+÷vagaõàñ ñha¤ca  || PS_4,4.11 ||
+vetana-àdibhyo jãvati  || PS_4,4.12 ||
+vasna-kraya-vikrayàñ ñhan  || PS_4,4.13 ||
+àyudhac cha ca  || PS_4,4.14 ||
+haraty utsaïga-àdibhyaş  || PS_4,4.15 ||
+bhastràdibhyaş ùñhan  || PS_4,4.16 ||
+vibhàùà vivadha-vãvadhàt  || PS_4,4.17 ||
+aõ kuñilikàyàş  || PS_4,4.18 ||
+nirvtte 'kùadyåta-àdibhyaş  || PS_4,4.19 ||
+trermam nityam  || PS_4,4.20 ||
+apamitya-yàcitàbhyàü kak kanau  || PS_4,4.21 ||
+saüsùñe  || PS_4,4.22 ||
+cårõàdiniş  || PS_4,4.23 ||
+lavaõàl luk  || PS_4,4.24 ||
+mudgàd aõ  || PS_4,4.25 ||
+vya¤janair upasikte  || PS_4,4.26 ||
+ojaşsaho 'mbhasà vartate  || PS_4,4.27 ||
+tat praty-anu-pårvam ãpa-loma-kålam  || PS_4,4.28 ||
+parimukhaü ca  || PS_4,4.29 ||
+prayacchati garhyam  || PS_4,4.30 ||
+kusãda-da÷a-ekàda÷àt ùñhanùñhacau  || PS_4,4.31 ||
+ucchati  || PS_4,4.32 ||
+rakùati  || PS_4,4.33 ||
+÷abda-darduraü karoti  || PS_4,4.34 ||
+pakùi-matsya-mgàn hanti  || PS_4,4.35 ||
+paripanthaü ca tiùñhati  || PS_4,4.36 ||
+màtha-uttarapada-padavy-anupadaü dhàvati  || PS_4,4.37 ||
+àkrandàñ ñha¤ ca  || PS_4,4.38 ||
+pada-uttarapadaü ghõàti  || PS_4,4.39 ||
+pratikaõñha-artha-lalàmaü ca  || PS_4,4.40 ||
+dharmaü carati  || PS_4,4.41 ||
+pratipatham eti ñhaü÷ ca  || PS_4,4.42 ||
+samavàyàn samavaiti  || PS_4,4.43 ||
+pariùado õyaş  || PS_4,4.44 ||
+senàyà và  || PS_4,4.45 ||
+sa¤j¤àyàü lalàña-kukkuñyau pa÷yati  || PS_4,4.46 ||
+tasya dharmyam  || PS_4,4.47 ||
+aõ mahiùy-àdibhyaş  || PS_4,4.48 ||
+to '¤  || PS_4,4.49 ||
+avakrayaş  || PS_4,4.50 ||
+tad asya paõyam  || PS_4,4.51 ||
+lavaõàñ ñha¤  || PS_4,4.52 ||
+ki÷aràdibhyaş ùñhan  || PS_4,4.53 ||
+÷alàluno 'nyatarasyàm  || PS_4,4.54 ||
+÷ilpam  || PS_4,4.55 ||
+maóóuka-jharjharàd aõ anyatarasyàm  || PS_4,4.56 ||
+praharaõam  || PS_4,4.57 ||
+para÷vadhàñ ñha¤ ca  || PS_4,4.58 ||
+÷akti-yaùñyor ãkak  || PS_4,4.59 ||
+asti-nàsti-diùñaü matiş  || PS_4,4.60 ||
+÷ãlaü  || PS_4,4.61 ||
+chatràdibhyo õaş  || PS_4,4.62 ||
+karmàdhyayane vttam  || PS_4,4.63 ||
+bahv-ac-pårvapadàñ ñhac  || PS_4,4.64 ||
+hitaü bhakùàş  || PS_4,4.65 ||
+ta dasmai dãyate niyuktam  || PS_4,4.66 ||
+÷ràõà-màüsa-odanàñ ñiñhan  || PS_4,4.67 ||
+bhakñàd aõ ànyatarasyàm  || PS_4,4.68 ||
+tatra niyuktaş  || PS_4,4.69 ||
+agàra-antàñ ñhan  || PS_4,4.70 ||
+adhyàyiny ade÷a-kàlàt  || PS_4,4.71 ||
+kañhinànta-prastàra-saüsthàneùu vyavaharati  || PS_4,4.72 ||
+nikañe vasati  || PS_4,4.73 ||
+àvasathàt ùñhal  || PS_4,4.74 ||
+pràg ghitàd yat  || PS_4,4.75 ||
+tadvahati rathayugapràsaïgam  || PS_4,4.76 ||
+dhuro yaó-óhakau  || PS_4,4.77 ||
+khaş sarvadhuràt  || PS_4,4.78 ||
+ekadhuràl luk ca  || PS_4,4.79 ||
+÷akañàd aõ  || PS_4,4.80 ||
+halasãràñ ñhak  || PS_4,4.81 ||
+sa¤j¤àyàü janyàş  || PS_4,4.82 ||
+vidhyatyadhanuùà  || PS_4,4.83 ||
+dhana-gaõaü labdhà  || PS_4,4.84 ||
+annàõ õaş  || PS_4,4.85 ||
+va÷aü gataş  || PS_4,4.86 ||
+padam asmin d÷yam  || PS_4,4.87 ||
+målam asya àvarhi  || PS_4,4.88 ||
+sa¤j¤àyàü dhenuùyà  || PS_4,4.89 ||
+ghapatinà saüyukte ¤yaş  || PS_4,4.90 ||
+nau-vayo-dharma-viùa-måla-måla-sãtà-tulàbhyas tàrya-tulya-pràpya-vadhya-ànàmya-sama-samita-saümiteùu  || PS_4,4.91 ||
+dharma-pathy-artha-nyàyàd anapete  || PS_4,4.92 ||
+chandaso nirmite  || PS_4,4.93 ||
+uraso 'õ ca  || PS_4,4.94 ||
+hdayasya priyaş  || PS_4,4.95 ||
+bandhane carùau  || PS_4,4.96 ||
+matajanahalàt karaõajalpakarùeùu  || PS_4,4.97 ||
+tatra sàdhuş  || PS_4,4.98 ||
+pratijana-àdibhyaş kha¤  || PS_4,4.99 ||
+bhaktàõ õaş  || PS_4,4.100 ||
+pariùado õyaş  || PS_4,4.101 ||
+kathàdibhyaù ñhak  || PS_4,4.102 ||
+guóa-àdibhyaù ñha¤  || PS_4,4.103 ||
+pathy-atithi-vasati-svapater óha¤  || PS_4,4.104 ||
+sabhàyàş yaş  || PS_4,4.105 ||
+óha÷ chandasi  || PS_4,4.106 ||
+samànàtãrthe vàsã  || PS_4,4.107 ||
+samàna-udare ÷ayita o codàttaş  || PS_4,4.108 ||
+sodaràd yaş  || PS_4,4.109 ||
+bhave chandasi  || PS_4,4.110 ||
+pàtho-nadãbhyàü óyaõ  || PS_4,4.111 ||
+ve÷anta-himavadbhyàm aõ  || PS_4,4.112 ||
+srotaso vibhàùà óyaó-óyau  || PS_4,4.113 ||
+sagarbha-sayåtha-sanutàd yan  || PS_4,4.114 ||
+tugràd ghan  || PS_4,4.115 ||
+agràd yat  || PS_4,4.116 ||
+gha-cchau ca  || PS_4,4.117 ||
+samudra-abhràd ghaş  || PS_4,4.118 ||
+barhiùi dattam  || PS_4,4.119 ||
+dutasya bhàga-karmaõã  || PS_4,4.120 ||
+rakùo-yàtånàü hananã  || PS_4,4.121 ||
+revatã-jagatã-haviùyàbhyaş pra÷asye  || PS_4,4.122 ||
+asurasya svam  || PS_4,4.123 ||
+màyàyàm aõ  || PS_4,4.124 ||
+tadvàn àsàm upadhàno mantra iti iùñakàsu luk ca matoş  || PS_4,4.125 ||
+a÷vimànaõ  || PS_4,4.126 ||
+vayasyàsu mårdhno matup  || PS_4,4.127 ||
+ matv-arhe màsa-tanvoş  || PS_4,4.128 ||
+madhor ¤a ca  || PS_4,4.129 ||
+ojaso 'hani yatkhau  || PS_4,4.130 ||
+ve÷o-ya÷a-àder bhagàd yal  || PS_4,4.131 ||
+kha ca  || PS_4,4.132 ||
+pårvaiş ktam ina-yau ca  || PS_4,4.133 ||
+adbhiş saüsktam  || PS_4,4.134 ||
+sahasreõa saümitau ghaş  || PS_4,4.135 ||
+matau ca  || PS_4,4.136 ||
+somam arhati yaş  || PS_4,4.137 ||
+maye ca  || PS_4,4.138 ||
+madhoş  || PS_4,4.139 ||
+vasoş samåhe ca  || PS_4,4.140 ||
+nakùatràd ghaş  || PS_4,4.141 ||
+sarvadevàt tàtil  || PS_4,4.142 ||
+÷iva-÷am-ariùñasya kare  || PS_4,4.143 ||
+bhàve ca  || PS_4,4.144 ||
+pràk-krãtàc chaş  || PS_5,1.1 ||
+u-gavàdibhyo yat  || PS_5,1.2 ||
+kaüvalàc ca sa¤j¤àyàm  || PS_5,1.3 ||
+vibhàùà havir-apåpa-àdibhyaş  || PS_5,1.4 ||
+tasmai hitam  || PS_5,1.5 ||
+÷arãra-avayavàd yat  || PS_5,1.6 ||
+khala-yava-màùa-tila-vùa-brahmaõa÷ ca  || PS_5,1.7 ||
+ajàvibhyàü thyan  || PS_5,1.8 ||
+àtman-vi÷vajana-bhoga-uttarapadàt khaş  || PS_5,1.9 ||
+sarva-puruùàbhyàü õa-óha¤au  || PS_5,1.10 ||
+màõava-carakàbhyàü kha¤  || PS_5,1.11 ||
+tad-arthaü vikteş praktau  || PS_5,1.12 ||
+chadir-upadhi-baler óha¤  || PS_5,1.13 ||
+ùabha-upànahor ¤yaş  || PS_5,1.14 ||
+carmaõo '¤  || PS_5,1.15 ||
+tad asya tad asmin syàd iti  || PS_5,1.16 ||
+parikhàyà ñha¤  || PS_5,1.17 ||
+pràg-vateù ñha¤  || PS_5,1.18 ||
+à-arhàd a-gopuccha-saïkhyà-parimàõàñ ñhak  || PS_5,1.19 ||
+asamàse niùka-àdibhyaş  || PS_5,1.20 ||
+÷atàc ca ñhanyatàv a÷ate  || PS_5,1.21 ||
+saïkhyàyà ati-÷ad-antàyàş kan  || PS_5,1.22 ||
+vator ió và  || PS_5,1.23 ||
+viü÷ati-triü÷adbhyàü óvun asa¤j¤àyàm  || PS_5,1.24 ||
+kaüsàñ ñiñhaõ  || PS_5,1.25 ||
+÷årpàd a¤ anyatarasyàm  || PS_5,1.26 ||
+÷atamàna-viü÷atika-sahasra-vasanàd aõ  || PS_5,1.27 ||
+adhyardhapårva-dvigor lug asa¤j¤àyàm  || PS_5,1.28 ||
+vibhàùà kàrùàpaõa-sahasràbhyàm  || PS_5,1.29 ||
+dvi-tri-pårvàn niùkàt  || PS_5,1.30 ||
+bistàc ca  || PS_5,1.31 ||
+viü÷atikàt khaş  || PS_5,1.32 ||
+khàryà ãkan  || PS_5,1.33 ||
+paõa-pàda-màùa-÷atàd yat  || PS_5,1.34 ||
+÷àõàd và  || PS_5,1.35 ||
+dvi-tri-pårvàd aõ ca  || PS_5,1.36 ||
+tena krãtam  || PS_5,1.37 ||
+tasya nimittaü saüyoga-utpàtau  || PS_5,1.38 ||
+godvyaco 'saïkhyà-parimàõa-a÷va-ader yat  || PS_5,1.39 ||
+putràc cha ca  || PS_5,1.40 ||
+sarvabhåmi-pthivãbhyàm aõa¤au  || PS_5,1.41 ||
+tasya+ã÷varaş  || PS_5,1.42 ||
+tatra vidita iti ca  || PS_5,1.43 ||
+loka-sarvalokàñ ñha¤  || PS_5,1.44 ||
+tasya vàpaş  || PS_5,1.45 ||
+pàtràt ùñhan  || PS_5,1.46 ||
+tad asmin vddhy-àya-làbha-÷ulka-upadà dãyate  || PS_5,1.47 ||
+påraõa-ardhàñ ñhan  || PS_5,1.48 ||
+bhàgàd yac ca  || PS_5,1.49 ||
+tad dharati vahavty àvahati bhàràd vaü÷àdibhyaş  || PS_5,1.50 ||
+vasna-dravyàbhyàü ñhan-kanau  || PS_5,1.51 ||
+sambhavaty avaharati pacati  || PS_5,1.52 ||
+àóhaka-àcita-pàtràt kho 'nyatarasyàm  || PS_5,1.53 ||
+dvigoş ùñhaü÷ ca  || PS_5,1.54 ||
+kulijàl lukkhau ca  || PS_5,1.55 ||
+so 'sya aü÷a-vasna-bhtayaş  || PS_5,1.56 ||
+tad asya parimàõam  || PS_5,1.57 ||
+saïkhyàyàş sa¤j¤à-saïgha-såtra-adhyayaneùu  || PS_5,1.58 ||
+païkti-viü÷ati-triü÷ac-catvàriü÷at-pa¤cà÷at-ùaùñi-saptaty-a÷ãti-navati-÷atam  || PS_5,1.59 ||
+pa¤cad-da÷atau varge và  || PS_5,1.60 ||
+saptano '¤ chandasi  || PS_5,1.61 ||
+triü÷ac-catvàriü÷ator bràhmaõe sa¤j¤àyàü óaõ  || PS_5,1.62 ||
+tad arhati  || PS_5,1.63 ||
+cheda-àdibhyo nityam  || PS_5,1.64 ||
+÷ãrùacchedàd yac ca  || PS_5,1.65 ||
+daõdàdibhyaş  || PS_5,1.66 ||
+chandasi ca  || PS_5,1.67 ||
+pàtràd ghaü÷ ca  || PS_5,1.68 ||
+kaóaïkaradakùiõàc cha ca  || PS_5,1.69 ||
+sthàlãbilàt  || PS_5,1.70 ||
+yaj¤a-rtvigbhyàü gha-kha¤au  || PS_5,1.71 ||
+pàràyaõa-turàyaõa-càdnràyaõaü vartayati  || PS_5,1.72 ||
+saü÷ayamàpannaş  || PS_5,1.73 ||
+yojanaü gacchati  || PS_5,1.74 ||
+pathaş ùkan  || PS_5,1.75 ||
+pantho õa nityam  || PS_5,1.76 ||
+uttarapathen àhtaü ca  || PS_5,1.77 ||
+kàlàt  || PS_5,1.78 ||
+tena virvttam  || PS_5,1.79 ||
+tam adhãùño bhto bhåto bhàvã  || PS_5,1.80 ||
+màsàd vayasi yatkha¤au  || PS_5,1.81 ||
+dvigor yap  || PS_5,1.82 ||
+ùaõmàsàõ õyac ca  || PS_5,1.83 ||
+avayasi ñhaü÷ ca  || PS_5,1.84 ||
+samàyàş khaş  || PS_5,1.85 ||
+dvigor và  || PS_5,1.86 ||
+ràtry-ahaş-saüvatsaràc ca  || PS_5,1.87 ||
+varùàl luk ca  || PS_5,1.88 ||
+cittavati nityam  || PS_5,1.89 ||
+ùaùñikàş ùaùñiràtreõa pacyante  || PS_5,1.90 ||
+vatsaràntàc cha÷ chandasi  || PS_5,1.91 ||
+saüparipårvàt kha ca  || PS_5,1.92 ||
+tena parijayya-labhya-kàrya-sukaram  || PS_5,1.93 ||
+tad asya brahmacaryam  || PS_5,1.94 ||
+tasya ca dakùiõà yaj¤àkhyebhyaş  || PS_5,1.95 ||
+tatra ca dãyate kàryaü bhavavat  || PS_5,1.96 ||
+vyuùña-àdibhyo 'õ  || PS_5,1.97 ||
+tena yathàkathàca-hastàbhyàü õa-yatau  || PS_5,1.98 ||
+sampàdini  || PS_5,1.99 ||
+karma-veùàd yat  || PS_5,1.100 ||
+tasmai prathavati santàpa-àdibhyàş  || PS_5,1.101 ||
+yogàd yac ca  || PS_5,1.102 ||
+karmaõa uka¤  || PS_5,1.103 ||
+samayas tad asya pràptam  || PS_5,1.104 ||
+toraõ  || PS_5,1.105 ||
+chandasi ghas  || PS_5,1.106 ||
+kàlàd yat  || PS_5,1.107 ||
+prakùñe ñha¤  || PS_5,1.108 ||
+prayojanam  || PS_5,1.109 ||
+vi÷àkhà-aùàóhàd aõ mantha-daõóayoş  || PS_5,1.110 ||
+anupravacana-àdibhya÷ chaş  || PS_5,1.111 ||
+samàpanàt sapårvapadàt  || PS_5,1.112 ||
+aikàgàrikañ caure  || PS_5,1.113 ||
+àkàlikaó-àdyantavacane  || PS_5,1.114 ||
+tena tulyaü kriyà ced vatiş  || PS_5,1.115 ||
+tatra tasya+iva  || PS_5,1.116 ||
+tad arham  || PS_5,1.117 ||
+upasargàc chandasi dhàtv-arthe  || PS_5,1.118 ||
+tasya bhàvas tva-talau  || PS_5,1.119 ||
+à ca tvàt  || PS_5,1.120 ||
+na na¤pårvàt tatpuruùàd acatura-saïgatal-avaõa-vaña-budha-kata-rasa-lasebhyaş  || PS_5,1.121 ||
+pthv-àdibhya imanij và  || PS_5,1.122 ||
+varõa-dóha-àdibhyaş ùya¤ ca  || PS_5,1.123 ||
+guõavacana-bràhmaõàdibhyaş karmaõi ca  || PS_5,1.124 ||
+stonàd yan nalopa÷ ca  || PS_5,1.125 ||
+sakhyur yaş  || PS_5,1.126 ||
+kapi-j¤àtyor óhak  || PS_5,1.127 ||
+patyantapurohitàdibhyo yak  || PS_5,1.128 ||
+pràõabhjjàti-vayovacana-udgàtràdibhyo '¤  || PS_5,1.129 ||
+hàyanànta-yuvàdibhyo 'õ  || PS_5,1.130 ||
+ig-antà÷ ca laghu-pårvàt  || PS_5,1.131 ||
+ya-upadhàd guru-upottamàd vu¤  || PS_5,1.132 ||
+dvandva-manoj¤a-àdibhya÷ ca  || PS_5,1.133 ||
+gotracaraõàc chlàghà-atyàkàra-tadaveteùu  || PS_5,1.134 ||
+hotràbhya÷ chaş  || PS_5,1.135 ||
+brahmaõas tvaş  || PS_5,1.136 ||
+dhànyànàü bhavane kùetre kha¤  || PS_5,2.1 ||
+vrãhi-÷àlyor óhak  || PS_5,2.2 ||
+yava-yavaka-ùaùñikàd yat  || PS_5,2.3 ||
+vibhàùà tila-màùa-umà-bhaïgà-aõubhyaş  || PS_5,2.4 ||
+sarvacarmaõaş ktaş kha-kha¤au  || PS_5,2.5 ||
+yathàmukha-sammukhasya dar÷anaş khaş  || PS_5,2.6 ||
+tat sarva-àdeş pathy-aïga-karma-patra-pàtraü vyàpnoti  || PS_5,2.7 ||
+àprapadaü pràpnoti  || PS_5,2.8 ||
+anupada-sarvànna-aya-anayaü baddhà-bhakùayati-neyeùu  || PS_5,2.9 ||
+parovara-parampara-putrapautram anubhavati  || PS_5,2.10 ||
+avàrapàra-atyanta-anukàmaü gàmã  || PS_5,2.11 ||
+samàüsamàü vijàyate  || PS_5,2.12 ||
+adya÷vãnà avaùñabdhe  || PS_5,2.13 ||
+àgavãnaş  || PS_5,2.14 ||
+anugv-alaïgàmã  || PS_5,2.15 ||
+adhvano yat-khau  || PS_5,2.16 ||
+abhyamitràc cha ca  || PS_5,2.17 ||
+goùñhàt kha¤ bhåtapårve  || PS_5,2.18 ||
+a÷vasyaikàhagamaş  || PS_5,2.19 ||
+÷àlãna-kaupãne adhùña-akàryayoş  || PS_5,2.20 ||
+vràtena jãvati  || PS_5,2.21 ||
+sàptapadãnaü sakhyam  || PS_5,2.22 ||
+haiyaïgavãnaü sa¤j¤àyàm  || PS_5,2.23 ||
+tasya pàka-måle pãlvadi-karõàdibhyaş kuõab-jàhacau  || PS_5,2.24 ||
+pakùàt tiş  || PS_5,2.25 ||
+tena vitta÷ cu¤cup-caõapau  || PS_5,2.26 ||
+vi-na¤bhyàü nà-nà¤au nasaha  || PS_5,2.27 ||
+veş ÷àlac-chaïkañacau  || PS_5,2.28 ||
+saü-pra-uda÷ ca kañac  || PS_5,2.29 ||
+avàt kuñàrac ca  || PS_5,2.30 ||
+nate nàsikàyàş sa¤j¤àyàü ñãña¤-nàñaj-bhrañacaş  || PS_5,2.31 ||
+nerbióajbirãsacau  || PS_5,2.32 ||
+inac piñac cika ci ca  || PS_5,2.33 ||
+upa-adhibhyàü tyakann àsanna-àråóhayoş  || PS_5,2.34 ||
+karmaõi ghaño 'ñhac  || PS_5,2.35 ||
+tad asya sa¤jàtaü tàrakà-àdibhya itac  || PS_5,2.36 ||
+pramàõe dvayasaj-daghna¤-màtracaş  || PS_5,2.37 ||
+puruùa-hastibhyàm aõ ca  || PS_5,2.38 ||
+yat-tad-etebhyaş parimàõe vatup  || PS_5,2.39 ||
+kim-idam-bhyàü vo ghaş  || PS_5,2.40 ||
+kimaş saïkhyàparimàõe óati ca  || PS_5,2.41 ||
+saïkhyàyà avayave tayap  || PS_5,2.42 ||
+dvi-tribhyàü tayasya ayaj và  || PS_5,2.43 ||
+ubhàd udàtto nityam  || PS_5,2.44 ||
+tad asminn adhikam iti da÷àntàó óaş  || PS_5,2.45 ||
+÷adanta-viü÷ate÷ ca  || PS_5,2.46 ||
+saïkhyàyà guõasya nimàne mayañ  || PS_5,2.47 ||
+tasya påraõe óañ  || PS_5,2.48 ||
+na antàd asaïkhyà-àder mañ  || PS_5,2.49 ||
+thañ ca chandasi  || PS_5,2.50 ||
+ùañ-kati-katipaya-caturàü thuk  || PS_5,2.51 ||
+bahu-påga-gaõa-saïghasya tithuk  || PS_5,2.52 ||
+vator ithuk  || PS_5,2.53 ||
+dves tãyaş  || PS_5,2.54 ||
+treş samprasàraõaü ca  || PS_5,2.55 ||
+viü÷aty-àdibhyas tamaó anyatarasyàm  || PS_5,2.56 ||
+nityaü ÷atàdi-màsa-ardhamàsa-saüvatsaràc ca  || PS_5,2.57 ||
+ùaùñyàde÷ ca asaïkhyàdeş  || PS_5,2.58 ||
+matau chaş såkta-sàmnoş  || PS_5,2.59 ||
+adhyàya-anuvàkayor luk  || PS_5,2.60 ||
+vimukta-àdibhyo 'õ  || PS_5,2.61 ||
+goùadàdibhyo vun  || PS_5,2.62 ||
+tatra ku÷alaş pathaş  || PS_5,2.63 ||
+àkar÷àdibhyaş kan  || PS_5,2.64 ||
+dhana-hiraõyàt kàme  || PS_5,2.65 ||
+svàïgebhyaş prasite  || PS_5,2.66 ||
+udaràñ ñhagàdyåne  || PS_5,2.67 ||
+sasyena parijàtaş  || PS_5,2.68 ||
+aü÷aü hàri  || PS_5,2.69 ||
+tantràd-acira-apahte  || PS_5,2.70 ||
+bràhmaõaka-uùõike sa¤j¤àyàm  || PS_5,2.71 ||
+÷ãtoùõàbhyàü kàriõi  || PS_5,2.72 ||
+adhikam  || PS_5,2.73 ||
+anuka-abhika-abhãkaş kamità  || PS_5,2.74 ||
+pàr÷vena anvicchati  || PS_5,2.75 ||
+ayaş÷åla-daõóa-ajinàbhyàü ñhak-ñha¤au  || PS_5,2.76 ||
+tàvatithaü grahaõam iti lug và  || PS_5,2.77 ||
+sa eùàü gràmaõãş  || PS_5,2.78 ||
+÷ïkhalam asya bandhanaü karabhe  || PS_5,2.79 ||
+utka unamanàş  || PS_5,2.80 ||
+kàla-prayojanàd roge  || PS_5,2.81 ||
+tad asminn annaü pràye sa¤j¤àyàm  || PS_5,2.82 ||
+kulmàùàd a¤  || PS_5,2.83 ||
+÷rotriyaü ÷chando 'dhãte  || PS_5,2.84 ||
+÷ràddham anenan bhuktam ini-ñhanau  || PS_5,2.85 ||
+pårvàdiniş  || PS_5,2.86 ||
+sapårvàc ca  || PS_5,2.87 ||
+iùña-àdibhya÷ ca  || PS_5,2.88 ||
+chandasi paripanthi-paripariõau paryavasthàtari  || PS_5,2.89 ||
+anupady-anveùñà  || PS_5,2.90 ||
+sàkùàd draùñari sa¤j¤àyàm  || PS_5,2.91 ||
+kùetriyac parakùetre cikitsyaş  || PS_5,2.92 ||
+indriyam-indraliïgam-indradùñam-indrasùñam-indrajuùñam-indradattam iti và  || PS_5,2.93 ||
+tad asya asty asminn iti matup  || PS_5,2.94 ||
+rasàdibhya÷ ca  || PS_5,2.95 ||
+pràõisthàd àto laj anyatarasyàm  || PS_5,2.96 ||
+sidhma-àdibhya÷ ca  || PS_5,2.97 ||
+vatsàüsàbhyàü kàmabale  || PS_5,2.98 ||
+phenàd ilac ca  || PS_5,2.99 ||
+lomàdi-pàmàdi-picchàdibhyaş ÷a-na-ilacaş  || PS_5,2.100 ||
+praj¤à-÷raddhà-arcà-vttibhyo õaş  || PS_5,2.101 ||
+tapaş-sahasràbhyàü vini-inã  || PS_5,2.102 ||
+aõ ca  || PS_5,2.103 ||
+sikatà-÷arkaràbhyàü ca  || PS_5,2.104 ||
+de÷e lub-ilacau ca  || PS_5,2.105 ||
+danta unnata urac  || PS_5,2.106 ||
+åùa-suùi-muùka-madho raş  || PS_5,2.107 ||
+dyu-drubhyàü maş  || PS_5,2.108 ||
+ke÷àd vo 'nyatarasyàm  || PS_5,2.109 ||
+gàõóyajagàt sa¤j¤àyàm  || PS_5,2.110 ||
+kàõóa-àõóàd ãrann-ãracau  || PS_5,2.111 ||
+rajaş-kùy-àsuti-pariùado valac  || PS_5,2.112 ||
+danta-÷ikhàt sa¤j¤àyàm  || PS_5,2.113 ||
+jyotsnà-tamisrà-÷ïgiõa-årjasvinn-årjasvala-gomin-malina-malãmasàş  || PS_5,2.114 ||
+ata iniñhanau  || PS_5,2.115 ||
+vrãhyàdibhya÷ ca  || PS_5,2.116 ||
+tundàdibhya ilac ca  || PS_5,2.117 ||
+eka-go-pårvàñ ñha¤ nityam  || PS_5,2.118 ||
+÷ata-sahasra-antàc ca niùkàt  || PS_5,2.119 ||
+råpàd àhata-pra÷aüsayor yap  || PS_5,2.120 ||
+as-màyà-medhà-srajo viniş  || PS_5,2.121 ||
+bahulaü chandasi  || PS_5,2.122 ||
+årõàyà yus  || PS_5,2.123 ||
+vàco gminiş  || PS_5,2.124 ||
+àlajàñacau bahubhàùiõi  || PS_5,2.125 ||
+svàminn-ai÷varye  || PS_5,2.126 ||
+ar÷a-àdibhyo 'c  || PS_5,2.127 ||
+dvandva-upatàpa-garhyàt pràõisthàd iniş  || PS_5,2.128 ||
+vàta-atisàràbhyàü kuk ca  || PS_5,2.129 ||
+vayasi påraõàt  || PS_5,2.130 ||
+sukha-àdibhya÷ ca  || PS_5,2.131 ||
+dharma-÷ãla-varõàntàc ca  || PS_5,2.132 ||
+hastàj jàtau  || PS_5,2.133 ||
+varõàd bràhmacàriõi  || PS_5,2.134 ||
+puùkara-àdibhyo de÷e  || PS_5,2.135 ||
+balàdibhyo matub anyatarasyàm  || PS_5,2.136 ||
+sa¤j¤àyàü man-màbhyàm  || PS_5,2.137 ||
+kaü-÷aübhyàü ba-bha-yus-ti-tu-ta-yasaş  || PS_5,2.138 ||
+tundi-bali-vañer bhaş  || PS_5,2.139 ||
+ahaü-÷ubhamor yus  || PS_5,2.140 ||
+pràg-di÷o vibhaktiş  || PS_5,3.1 ||
+kiü-sarvanàma-bahubhyo 'dvy-àdibhyaş  || PS_5,3.2 ||
+idam i÷  || PS_5,3.3 ||
+eta-itau ra-thoş  || PS_5,3.4 ||
+etado '÷  || PS_5,3.5 ||
+sarvasya so 'nyatarasyàü di  || PS_5,3.6 ||
+pa¤camyàs tasil  || PS_5,3.7 ||
+tase÷ ca  || PS_5,3.8 ||
+pary-abhibhyàü ca  || PS_5,3.9 ||
+saptamyàs tral  || PS_5,3.10 ||
+idamo haş  || PS_5,3.11 ||
+kimo 't  || PS_5,3.12 ||
+và ha ca cchandasi  || PS_5,3.13 ||
+itaràbhhyo 'pi d÷yante  || PS_5,3.14 ||
+sarva-eka-anya-kiü-yat-tadaş kàle dà  || PS_5,3.15 ||
+idamo rhil  || PS_5,3.16 ||
+adhunà  || PS_5,3.17 ||
+dànãü ca  || PS_5,3.18 ||
+tado dà ca  || PS_5,3.19 ||
+tayor dà-rhilau ca chandasi  || PS_5,3.20 ||
+anadyatane rhil anyatarasyàm  || PS_5,3.21 ||
+sadyaş parut paràry-auùamaş paredyavy-adya-pårvedyur-anyedyur-anyataredyur-itaredyur-aparedyur-adharedyur-ubhayedyur-uttaredyuş  || PS_5,3.22 ||
+prakàravacane thàl  || PS_5,3.23 ||
+idamas thamuş  || PS_5,3.24 ||
+kima÷ ca  || PS_5,3.25 ||
+thà hetau ca cchandasi  || PS_5,3.26 ||
+dik-÷abdebhyaş saptamã-pa¤camã-prathamàbhyo dig-de÷a-kàleùv astàtiş  || PS_5,3.27 ||
+dikùiõa-uttaràbhyàm atasuc  || PS_5,3.28 ||
+vibhàùà para-avaràbhyàm  || PS_5,3.29 ||
+a¤cer luk  || PS_5,3.30 ||
+upary-upariùñàt  || PS_5,3.31 ||
+pa÷càt  || PS_5,3.32 ||
+pa÷ca pa÷cà ca chandasi  || PS_5,3.33 ||
+uttara-adhara-dakùiõàd àtiş  || PS_5,3.34 ||
+enav anyatarasyàm adåre 'pa¤camyàş  || PS_5,3.35 ||
+dakùiõàd àc  || PS_5,3.36 ||
+àhi ca dåre  || PS_5,3.37 ||
+uttaràc ca  || PS_5,3.38 ||
+pårva-adhara-avarànàm asi pur-adş-ava÷ ca+eùàm  || PS_5,3.39 ||
+astàti ca  || PS_5,3.40 ||
+vibhàùà 'varasya  || PS_5,3.41 ||
+saïkhyàyà vidhàrthe dhà  || PS_5,3.42 ||
+adhikaraõavicàle ca  || PS_5,3.43 ||
+ekàd dho dyamu¤ anyatarasyàm  || PS_5,3.44 ||
+dvi-tryo÷ ca dhamu¤  || PS_5,3.45 ||
+edhàc ca  || PS_5,3.46 ||
+yàpye pà÷ap  || PS_5,3.47 ||
+påraõàd bhàge tãyàd an  || PS_5,3.48 ||
+pràg ekàda÷abhyo 'cchandasi  || PS_5,3.49 ||
+ùaùñha-aùñamàbhyàü ¤a ca  || PS_5,3.50 ||
+màna-pa÷v-aïgayoş kan-lukau ca  || PS_5,3.51 ||
+ekàd àkinic ca asahàye  || PS_5,3.52 ||
+bhåtapårve carañ  || PS_5,3.53 ||
+ùaùñhyà råpya ca  || PS_5,3.54 ||
+ati÷àyane tamabiùñhanau  || PS_5,3.55 ||
+tiïa÷ ca  || PS_5,3.56 ||
+dvivacana-vibhajya-upapade tarab-ãyasunau  || PS_5,3.57 ||
+ajàdi guõavacanàd eva  || PS_5,3.58 ||
+tu÷ chandasi  || PS_5,3.59 ||
+pra÷asyasya ÷raş  || PS_5,3.60 ||
+jya ca  || PS_5,3.61 ||
+vddhasya ca  || PS_5,3.62 ||
+antika-bàóhayor neda-sàdhau  || PS_5,3.63 ||
+yuva-alpayoş kan anyatarasyàm  || PS_5,3.64 ||
+vin-mator luk  || PS_5,3.65 ||
+pra÷aüsàyàü råpap  || PS_5,3.66 ||
+ãùadasamàptau kalpab-de÷ya-de÷ãyaraş  || PS_5,3.67 ||
+vibhàùà supo bahuc parastàt tu  || PS_5,3.68 ||
+prakàravacane jàtãyar  || PS_5,3.69 ||
+pràg-ivàt kaş  || PS_5,3.70 ||
+avyaya-sarvanàmnàm akac pràk ñeş  || PS_5,3.71 ||
+kasya ca daş  || PS_5,3.72 ||
+aj¤àte  || PS_5,3.73 ||
+kutsite  || PS_5,3.74 ||
+sa¤j¤àyàü kan  || PS_5,3.75 ||
+anuampàyàm  || PS_5,3.76 ||
+nãtau ca tadyuktàt  || PS_5,3.77 ||
+bahvaco manusyanàmnaù ñhaj và  || PS_5,3.78 ||
+ghan-ilacau ca  || PS_5,3.79 ||
+pràcàm upàder aóaj-vucau ca  || PS_5,3.80 ||
+jàtinàmnaş kan  || PS_5,3.81 ||
+ajinàntasya+uttarapadalopa÷ ca  || PS_5,3.82 ||
+ñha-aj-àdàv årdhvaü dvitãyàd acaş  || PS_5,3.83 ||
+÷evala-supari-vi÷àlà-varuõa-aryama-àdinàü ttãyàt  || PS_5,3.84 ||
+alpe  || PS_5,3.85 ||
+hrasve  || PS_5,3.86 ||
+sa¤j¤àyàü kan  || PS_5,3.87 ||
+kuñã-÷amã-÷uõóàbhyo raş  || PS_5,3.88 ||
+kutvà óupac  || PS_5,3.89 ||
+kàså-goõãbhyàü ùñarac  || PS_5,3.90 ||
+vatsa-ukùa-a÷va-rùabhebhya÷ ca tanutve  || PS_5,3.91 ||
+kiü-yat-tado nirdhàraõe dvayor ekasya óatarac  || PS_5,3.92 ||
+và bahånàü jàtiparipra÷no óatamac  || PS_5,3.93 ||
+ekàc ca pràcàm  || PS_5,3.94 ||
+avakùepaõe kan  || PS_5,3.95 ||
+ive pratiktau  || PS_5,3.96 ||
+sa¤j¤àyàü ca  || PS_5,3.97 ||
+lum-manusye  || PS_5,3.98 ||
+jãvikàrthe càpaõye  || PS_5,3.99 ||
+devapathàdibhya÷ ca  || PS_5,3.100 ||
+vaster dha¤  || PS_5,3.101 ||
+÷ilàyà óhaş  || PS_5,3.102 ||
+÷àkhàdibhyo yat  || PS_5,3.103 ||
+dravyaü ca bhavye  || PS_5,3.104 ||
+ku÷àgràc chaş  || PS_5,3.105 ||
+samàsàc ca tadviùayàt  || PS_5,3.106 ||
+÷arkarà-àdibhyo 'õ  || PS_5,3.107 ||
+aïgulyàdibhyaù ñhak  || PS_5,3.108 ||
+eka÷àlàyàù ñhaj anyatarasyàm  || PS_5,3.109 ||
+karka-lohitàd ãkak  || PS_5,3.110 ||
+pratna-pårva-vi÷va-imàt thàl chandasi  || PS_5,3.111 ||
+pågà¤ ¤yo 'gràmaõãpårvàt  || PS_5,3.112 ||
+vràta-cpha¤or astriyàm  || PS_5,3.113 ||
+àyudha-jãvisaïkghà¤¤yaó-vàhãkeùv abràhmaõa-ràjanyàt  || PS_5,3.114 ||
+vkàñ ñeõyaõ  || PS_5,3.115 ||
+dàmanyàdi-trigartaùñhàc chaş  || PS_5,3.116 ||
+par÷vàdi-yaudheyàdibhyàm aõ-a¤au  || PS_5,3.117 ||
+abhijid-vidabhc-chàlàvac-chikhàvac-chamãvad-årõàvac-charumad-aõo ya¤  || PS_5,3.118 ||
+¤yàdayas tadràjàş  || PS_5,3.119 ||
+pàda÷atasya saïkhyàder vãpsàyàü vun lopa÷ ca  || PS_5,4.1 ||
+daõóa-vyavasargayo÷ ca  || PS_5,4.2 ||
+sthålàdibhyaş prakàravacane kan  || PS_5,4.3 ||
+anatyantagatau ktàt  || PS_5,4.4 ||
+na sàmivacane  || PS_5,4.5 ||
+bhatyà àcchàdane  || PS_5,4.6 ||
+aùaóakùa-à÷itaïgv-alaïkarma-alampuruùa-adhyuttarapadàt khaş  || PS_5,4.7 ||
+vibhàùà-a¤cer adikùtriyàm  || PS_5,4.8 ||
+jàtyantàc cha bandhuni  || PS_5,4.9 ||
+sthànàntàd vibhàùà sasthànena+iti cet  || PS_5,4.10 ||
+kim-et-tiï-avyaya-ghàd-àüv-adravyaprakarùe  || PS_5,4.11 ||
+amu ca cchandasi  || PS_5,4.12 ||
+anugàdinaù ñhak  || PS_5,4.13 ||
+õacaş striyàm a¤  || PS_5,4.14 ||
+aõ inuõaş  || PS_5,4.15 ||
+visàriõo matsye  || PS_5,4.16 ||
+saïkyàyàş kriyà-abhyàvttigaõane ktvasuc  || PS_5,4.17 ||
+dvi-tri-caturbhyaş suc  || PS_5,4.18 ||
+ekasya sakc ca  || PS_5,4.19 ||
+vibhàùà bahor dhà 'viprakrùñakàle  || PS_5,4.20 ||
+tat praktavacane mayañ  || PS_5,4.21 ||
+samåhavac ca bahuùu  || PS_5,4.22 ||
+ananta-àvasatha-itiha-bheùajà¤ ¤yaş  || PS_5,4.23 ||
+devatàntàt tàdarthye yat  || PS_5,4.24 ||
+pàda-arghàbhyàü ca  || PS_5,4.25 ||
+atither ¤yaş  || PS_5,4.26 ||
+devàt tal  || PS_5,4.27 ||
+aveş kaş  || PS_5,4.28 ||
+yàvàdibhyaş kan  || PS_5,4.29 ||
+lohitàn maõau  || PS_5,4.30 ||
+varõe ca anitye  || PS_5,4.31 ||
+rakte  || PS_5,4.32 ||
+kàlàc ca  || PS_5,4.33 ||
+vinayàdibhyaù ñhak  || PS_5,4.34 ||
+vàco vyàhta-arthàyàm  || PS_5,4.35 ||
+tadyuktàt karmaõo 'õ  || PS_5,4.36 ||
+oùadher ajàtau  || PS_5,4.37 ||
+praj¤àdibhya÷ ca  || PS_5,4.38 ||
+mdas tikan  || PS_5,4.39 ||
+sasnau pra÷aüsàyàü  || PS_5,4.40 ||
+vka-jyeùñhàbhyàü til-tàtilau ca chandasi  || PS_5,4.41 ||
+bahv-alpa-arthàc chaskàrakàd anyatarasyàm  || PS_5,4.42 ||
+saïkhyà-ekavacanàc ca vãpsàyàm  || PS_5,4.43 ||
+pratiyoge pa¤camyàs tasiş  || PS_5,4.44 ||
+apàdàne ca ahãya-ruhoş  || PS_5,4.45 ||
+atigraha-avyathana-kùepeùv akartari ttãyàyàş  || PS_5,4.46 ||
+hãyamàna-pàpayogàc ca  || PS_5,4.47 ||
+ùaùñhyà vyà÷raye  || PS_5,4.48 ||
+rogàc ca apanayane  || PS_5,4.49 ||
+abhåtatadbhàve k-bhv-astiyoge sampadyakartari cviş  || PS_5,4.50 ||
+arur-mana÷-cakùu÷-ceto-raho-rajasàü lopa÷ ca  || PS_5,4.51 ||
+vibhàùà sàti kàrtsnye  || PS_5,4.52 ||
+abhividhau sampadà ca  || PS_5,4.53 ||
+tadadhãnavacane  || PS_5,4.54 ||
+deye trà ca  || PS_5,4.55 ||
+deva-manuùya-puruùa-puru-martyebhyo dvitãyàsaptamyor bahulam  || PS_5,4.56 ||
+avyaktànukaraõàd dvyajavaràrdhàd anitau óàc  || PS_5,4.57 ||
+k¤o dvitãya-ttãya-÷amba-bãjàt kùau  || PS_5,4.58 ||
+saïkhyàyà÷ ca guõàntàyàş  || PS_5,4.59 ||
+samayàc ca yàpanàyàm  || PS_5,4.60 ||
+sapatra-niùpatràd ativyathane  || PS_5,4.61 ||
+niùkulàn niùkoùaõe  || PS_5,4.62 ||
+sukha-priyàd ànulomye  || PS_5,4.63 ||
+duşkhàt pràtilomye  || PS_5,4.64 ||
+÷ålàt pàke  || PS_5,4.65 ||
+satyàd a÷apathe  || PS_5,4.66 ||
+madràt parivàpaõe  || PS_5,4.67 ||
+samàsàntàş  || PS_5,4.68 ||
+na påjanàt  || PS_5,4.69 ||
+kimaş kùepe  || PS_5,4.70 ||
+na¤as tatpuruùàt  || PS_5,4.71 ||
+patho vibhàùà  || PS_5,4.72 ||
+bahuvrãhau saïkhyeye óaj abahu-gaõàt  || PS_5,4.73 ||
+k-pår-ab-dhåş-pathàm ànakùe  || PS_5,4.74 ||
+ac praty-anv-avapårvàt sàma-lomnaş  || PS_5,4.75 ||
+akùõo 'dar÷anàt  || PS_5,4.76 ||
+acatura-vicatura-sucatura-strãpuüsa-dhenvanaóuha-rkùàma-vàïmanasa-akùibhruva-dàragava-årvaùñhãva-padaùñhãva-naktaüdiva-ràtriüdiva-ahardiva-sarajasa-niş÷reyasa-puruùàyuùa-dvyàyuùa-tryàyuùa-rgyajuùa-jàtokùa-mahokùa-vddhokùa-upa÷una-goùñha÷vàş  || PS_5,4.77 ||
+brahmahastibhyàü varcasaş  || PS_5,4.78 ||
+ava-sam-andhebhyas tamasaş  || PS_5,4.79 ||
+÷vaso vasãyaş-÷reyasaş  || PS_5,4.80 ||
+anv-ava-taptàd rahasaş  || PS_5,4.81 ||
+prater urasaş saptamãsthàt  || PS_5,4.82 ||
+anugavam àyàme  || PS_5,4.83 ||
+dvistàvà tirstàvà vediş  || PS_5,4.84 ||
+upasargàd adhvanaş  || PS_5,4.85 ||
+tatpuruùasya aïguleş saïkhyà-avyayàdeş  || PS_5,4.86 ||
+ahaş-sarva-ekade÷a-saïkhyàta-puõyàc ca ràtreş  || PS_5,4.87 ||
+ahno 'hna etebhyaş  || PS_5,4.88 ||
+na saïkhyàdeş samàhàre  || PS_5,4.89 ||
+uttama-ekàbhyàü ca  || PS_5,4.90 ||
+ràja-ahaş-sakhibhyaù ñac  || PS_5,4.91 ||
+gor ataddhita-luki  || PS_5,4.92 ||
+agra-àkhyàyàm urasaş  || PS_5,4.93 ||
+ano '÷ma-ayas-sarasàü jàti-sa¤j¤àyoş  || PS_5,4.94 ||
+gràma-kauñàbhyàü ca takùõaş  || PS_5,4.95 ||
+ateş ÷unaş  || PS_5,4.96 ||
+uapmànàd apràõiùu  || PS_5,4.97 ||
+uttaramgapårvàc ca sakthnaş  || PS_5,4.98 ||
+nàvo dvigoş  || PS_5,4.99 ||
+ardhàc ca  || PS_5,4.100 ||
+khàryàş pràcàm  || PS_5,4.101 ||
+dvi-tribhyàm a¤jaleş  || PS_5,4.102 ||
+an-as-antàn napuüsakàc chandasi  || PS_5,4.103 ||
+brahmaõo jànapadàkhyàyàm  || PS_5,4.104 ||
+ku-mahadbhyàm anyatarasyàm  || PS_5,4.105 ||
+dvandvàc cu-da-ùa-ha-antàt samàhàre  || PS_5,4.106 ||
+avyayãbhàve ÷arat-prabhtibhyaş  || PS_5,4.107 ||
+ana÷ ca  || PS_5,4.108 ||
+napuüsakàd anyatarasyàm  || PS_5,4.109 ||
+nadã paurõamàsy-àgrahàyaõãbhyaş  || PS_5,4.110 ||
+j¤ayaş  || PS_5,4.111 ||
+gire÷ ca  || PS_5,4.112 ||
+bahuvrãhau sakthy-akùõoş svàïgàt ùac  || PS_5,4.113 ||
+aïguler dàruõi  || PS_5,4.114 ||
+dvi-tribhyàü ùa mårdhnaş  || PS_5,4.115 ||
+ap påraõã-pramàõyoş  || PS_5,4.116 ||
+antar-bahirbhyàü ca lomnaş  || PS_5,4.117 ||
+a¤ nàsikàyàş sa¤j¤àyàü nasaü ca asthålàt  || PS_5,4.118 ||
+upasargàc ca  || PS_5,4.119 ||
+supràta-su÷va-sudiva-÷àrikukùa-catura÷ra-eõãpadàjapada-proùñhapadàş  || PS_5,4.120 ||
+na¤-duş-subhyo hali-sakthyor anyàrasyàm  || PS_5,4.121 ||
+nityam asic prajà-medhayoş  || PS_5,4.122 ||
+bahuprajà÷c chandasi  || PS_5,4.123 ||
+dharmàd anic kevalàt  || PS_5,4.124 ||
+jambhà suharitatõasomebhyaş  || PS_5,4.125 ||
+dakùiõer mà lubdhayoge  || PS_5,4.126 ||
+ic karmavyatihàre  || PS_5,4.127 ||
+dvidaõóyàdibhya÷ ca  || PS_5,4.128 ||
+pra-saübhyàü jànunor j¤uş  || PS_5,4.129 ||
+årdhvàd vibhàùà  || PS_5,4.130 ||
+ådhaso 'naï  || PS_5,4.131 ||
+dhanuùa÷ ca  || PS_5,4.132 ||
+và sa¤j¤àyàm  || PS_5,4.133 ||
+jàyàyà niï  || PS_5,4.134 ||
+gandhasya+id ut-påti-su-surabhibhyaş  || PS_5,4.135 ||
+alpa-àkhyàyàm  || PS_5,4.136 ||
+upamànàc ca  || PS_5,4.137 ||
+pàdasya lopo 'hastyàdibhyaş  || PS_5,4.138 ||
+kumbhapadãùu ca  || PS_5,4.139 ||
+saïkhyà-supårvasya  || PS_5,4.140 ||
+vayasi dantasya dat  || PS_5,4.141 ||
+chandasi ca  || PS_5,4.142 ||
+striyàü sa¤j¤àyàm  || PS_5,4.143 ||
+vibhàùà ÷yàva-arokàbhyàm  || PS_5,4.144 ||
+agrànta-÷uddha-÷ubhra-vùa-varàhebhya÷ ca  || PS_5,4.145 ||
+kakudasya avasthàyàü lopaş  || PS_5,4.146 ||
+trikakut parvate  || PS_5,4.147 ||
+ud-vibhyàü kàkudasya  || PS_5,4.148 ||
+pårõàd vibhàùà  || PS_5,4.149 ||
+suhd-durhdau mitra-amitrayoş  || PS_5,4.150 ||
+uraşprabhtibhyaş kap  || PS_5,4.151 ||
+inaş striyàm  || PS_5,4.152 ||
+nady-ta÷ ca  || PS_5,4.153 ||
+÷eùàd vibhàùà  || PS_5,4.154 ||
+na sa¤j¤àyàm  || PS_5,4.155 ||
+ãyasa÷ ca  || PS_5,4.156 ||
+vandite bhràtuş  || PS_5,4.157 ||
+ta÷ chandasi  || PS_5,4.158 ||
+nàóã-tantryoş svàïge  || PS_5,4.159 ||
+niùpravàõi÷ ca  || PS_5,4.160 ||
+eka-aco dve prathamasya  || PS_6,1.1 ||
+ajàder dvitãyasya  || PS_6,1.2 ||
+na ndràş saüyogàdayaş  || PS_6,1.3 ||
+pårvo 'bhyàsaş  || PS_6,1.4 ||
+ubhe abhyastam  || PS_6,1.5 ||
+jakùity-àdayaş ùañ  || PS_6,1.6 ||
+tujàdãnàü dãrgho 'bhyàsasya  || PS_6,1.7 ||
+liñi dhàtor anabhyàsasya  || PS_6,1.8 ||
+san-yaïoş  || PS_6,1.9 ||
+÷lau  || PS_6,1.10 ||
+caïi  || PS_6,1.11 ||
+dà÷vàn sàhvàn mãóvàü÷ ca  || PS_6,1.12 ||
+ùyaïaş samprasàraõaü putra-patyos tatpuruùe  || PS_6,1.13 ||
+bandhuni bahuvrãhau  || PS_6,1.14 ||
+vaci-svapi-yajàdãnàü kiti  || PS_6,1.15 ||
+grahi-jyà-vayi-vyadhi-vaùñi-vicati-v÷cati-pcchati-bhjjatãnàü ïiti ca  || PS_6,1.16 ||
+liñy abhyàsasya+ubhayeùàm  || PS_6,1.17 ||
+svàpe÷ caïi  || PS_6,1.18 ||
+svapi-syami-vye¤àü yaïi  || PS_6,1.19 ||
+na va÷aş  || PS_6,1.20 ||
+càyaş kã  || PS_6,1.21 ||
+sphàyaş sphã niùñhàyàm  || PS_6,1.22 ||
+styaş prapårvasya  || PS_6,1.23 ||
+dravamårti-spar÷ayoş ÷yaş  || PS_6,1.24 ||
+prate÷ ca  || PS_6,1.25 ||
+vibhàùà 'bhy-ava-pårvasya  || PS_6,1.26 ||
+÷taü pàke  || PS_6,1.27 ||
+pyàyaş pã  || PS_6,1.28 ||
+lió-yaïo÷ ca  || PS_6,1.29 ||
+vibhàùà ÷veş  || PS_6,1.30 ||
+õau ca saü÷-caïoş  || PS_6,1.31 ||
+hvaş saüprasàraõam  || PS_6,1.32 ||
+abhyastasya ca  || PS_6,1.33 ||
+bahulaü chandasi  || PS_6,1.34 ||
+càyaş kã  || PS_6,1.35 ||
+apaspdhethàm-àncur-ànhu÷-cicyuùetityàja-÷ràtàş ÷ritam-à÷ãrà÷ãrtàş  || PS_6,1.36 ||
+na samprasàraõe samprasàraõam  || PS_6,1.37 ||
+liñi vyo yaş  || PS_6,1.38 ||
+va÷ ca asya anyatarasyàü kiti  || PS_6,1.39 ||
+ve¤aş  || PS_6,1.40 ||
+lyapi ca  || PS_6,1.41 ||
+jya÷ ca  || PS_6,1.42 ||
+vya÷ ca  || PS_6,1.43 ||
+vibhàùà pareş  || PS_6,1.44 ||
+àd eca upade÷e '÷iti  || PS_6,1.45 ||
+na vyo liñi  || PS_6,1.46 ||
+sphurati-sphulatyor gha¤i  || PS_6,1.47 ||
+krã-iï-jãnàü õau  || PS_6,1.48 ||
+sidhyater apàralaukike  || PS_6,1.49 ||
+mãnàti-minoti-dãïàü lyapi ca  || PS_6,1.50 ||
+vibhàùà lãyateş  || PS_6,1.51 ||
+khide÷ chandasi  || PS_6,1.52 ||
+apaguro õamuli  || PS_6,1.53 ||
+ci-sphuror õau  || PS_6,1.54 ||
+prajane vãyateş  || PS_6,1.55 ||
+bibheter hetubhaye  || PS_6,1.56 ||
+nityaü smayateş  || PS_6,1.57 ||
+sji-d÷or j¤aly am akiti  || PS_6,1.58 ||
+anudàttasya ca rdupadhasya anyatarsyàm  || PS_6,1.59 ||
+÷ãrùaü÷ chandasi  || PS_6,1.60 ||
+ye ca taddhite  || PS_6,1.61 ||
+aci ÷ãrùaş  || PS_6,1.62 ||
+pad-dan-no-màs-hn-ni÷-asan-yåùan-doùan-yaka¤-chakann-udann-àsa¤ chasprabhtiùu  || PS_6,1.63 ||
+dhàtvàdeş ùaş saş  || PS_6,1.64 ||
+õo naş  || PS_6,1.65 ||
+lopo vyor vali  || PS_6,1.66 ||
+ver apktasya  || PS_6,1.67 ||
+hal-ïy-àbbhyo dãrghàt su-ti-sy-apktaü hal  || PS_6,1.68 ||
+eï hrasvàt sambuddheş  || PS_6,1.69 ||
+÷eş chandasi bahulam  || PS_6,1.70 ||
+hrasvasya piti kti tuk  || PS_6,1.71 ||
+saühitàyàm  || PS_6,1.72 ||
+che ca  || PS_6,1.73 ||
+àï-màïo÷ ca  || PS_6,1.74 ||
+dãrghàt  || PS_6,1.75 ||
+padàntàd và  || PS_6,1.76 ||
+iko yaõaci  || PS_6,1.77 ||
+eco 'y-av-ày-àvaş  || PS_6,1.78 ||
+vànto yi pratyaye  || PS_6,1.79 ||
+dhàtos tannimittasya+eva  || PS_6,1.80 ||
+kùayya-jayyau ÷akyàrthe  || PS_6,1.81 ||
+krayyas tadarthe  || PS_6,1.82 ||
+bhyyapravayye ca cchandasi  || PS_6,1.83 ||
+ekaş pårvaparayoş  || PS_6,1.84 ||
+antàdivac ca  || PS_6,1.85 ||
+ùatva-tukor asiddhaş  || PS_6,1.86 ||
+àdguõaş  || PS_6,1.87 ||
+vddhir eci  || PS_6,1.88 ||
+ety-edhaty-åñhsu  || PS_6,1.89 ||
+àña÷ ca  || PS_6,1.90 ||
+upasargàd ti dhàtau  || PS_6,1.91 ||
+và supyàpi÷aleş  || PS_6,1.92 ||
+à-oto 'm-÷asoş  || PS_6,1.93 ||
+eïi pararåpam  || PS_6,1.94 ||
+om-àïo÷ ca  || PS_6,1.95 ||
+usy apadàntàt  || PS_6,1.96 ||
+ato guõe  || PS_6,1.97 ||
+avyakta-anukaraõasya ata itau  || PS_6,1.98 ||
+na àmreóitasya anatyasya tu và  || PS_6,1.99 ||
+nityam àmreóite óàci  || PS_6,1.100 ||
+akaş savarõe dãrghaş  || PS_6,1.101 ||
+prathamayoş pårvasavarõaş  || PS_6,1.102 ||
+tasmàc chaso naş puüsi  || PS_6,1.103 ||
+nàd ici  || PS_6,1.104 ||
+dãrghàj jasi ca  || PS_6,1.105 ||
+và chandasi  || PS_6,1.106 ||
+ami pårvaş  || PS_6,1.107 ||
+samprasàraõàc ca  || PS_6,1.108 ||
+eïaş padàntàd ati  || PS_6,1.109 ||
+ïasiïaso÷ ca  || PS_6,1.110 ||
+ta ut  || PS_6,1.111 ||
+khyatyàt parasya  || PS_6,1.112 ||
+ato ror aplutàd aplute  || PS_6,1.113 ||
+ha÷i ca  || PS_6,1.114 ||
+praktyà 'ntaşpàdam avyapare  || PS_6,1.115 ||
+avyàd-avadyàd-avakramur-avrata-ayam-avantv-avasyusu ca  || PS_6,1.116 ||
+yajuùy uraş  || PS_6,1.117 ||
+àpo-juùaõo-vùõo-varùiùñhe 'mbe 'mbàle 'mbikepårve  || PS_6,1.118 ||
+aïga ity àdau ca  || PS_6,1.119 ||
+anudàtte ca kudhapare  || PS_6,1.120 ||
+avapathàsi ca  || PS_6,1.121 ||
+sarvatra vibhàùà goş  || PS_6,1.122 ||
+avaï sphoñàyanasya  || PS_6,1.123 ||
+indre ca nityam  || PS_6,1.124 ||
+pluta-praghyà aci  || PS_6,1.125 ||
+àïo 'nunàsika÷ chandasi  || PS_6,1.126 ||
+iko 'savarõe ÷àkalyasya hrasva÷ ca  || PS_6,1.127 ||
+ty akaş  || PS_6,1.128 ||
+aplutavad-upasthite  || PS_6,1.129 ||
+ã3 càkravarmaõasya  || PS_6,1.130 ||
+diva ut  || PS_6,1.131 ||
+etat-tadoş sulopo 'kor ana¤samàse hali  || PS_6,1.132 ||
+sya÷ chandasi bahulam  || PS_6,1.133 ||
+so 'ci lope cet pàdapåraõam  || PS_6,1.134 ||
+suñ kàt pårvaş  || PS_6,1.135 ||
+aó-abhyàsa-vyavàye 'pi  || PS_6,1.136 ||
+samparyupebhyaş karotau bhåùaõe  || PS_6,1.137 ||
+samavàye ca  || PS_6,1.138 ||
+upàt pratiyatna-vaikta-vàkya-adhyàhàresu  || PS_6,1.139 ||
+kiratau lavane  || PS_6,1.140 ||
+hiüsàyàü prate÷ ca  || PS_6,1.141 ||
+apàc catuùpàc-chakuniùv àlekhane  || PS_6,1.142 ||
+kustumburåõi jàtiş  || PS_6,1.143 ||
+aparasparàş kriyàsàtatye  || PS_6,1.144 ||
+goùpadaü sevita-asevita-pramàõesu  || PS_6,1.145 ||
+àspadaü pratiùñhàyàm  || PS_6,1.146 ||
+à÷caryam anitye  || PS_6,1.147 ||
+varcaske 'vaskaraş  || PS_6,1.148 ||
+apaskaro rathàïgam  || PS_6,1.149 ||
+viùkiraş ÷ukumnirvikiro và  || PS_6,1.150 ||
+hvasvàc candra-uttarapade mantre  || PS_6,1.151 ||
+pratiùka÷a÷ ca ka÷eş  || PS_6,1.152 ||
+praskaõva-hari÷candràv ùã  || PS_6,1.153 ||
+maskaramaskariõau veõuparivràjakayoş  || PS_6,1.154 ||
+kàstãràjastunde nagare  || PS_6,1.155 ||
+kàraskaro vkùaş  || PS_6,1.156 ||
+pàraskaraprabhtãni ca sa¤j¤àyàm  || PS_6,1.157 ||
+anudàttaü padam ekavarjam  || PS_6,1.158 ||
+karùa-àtvato gha¤o 'nta udàttaş  || PS_6,1.159 ||
+ucchàdãnàü ca  || PS_6,1.160 ||
+anudàttasya ca yatra+udàttalopaş  || PS_6,1.161 ||
+dhàtoş  || PS_6,1.162 ||
+citaş  || PS_6,1.163 ||
+taddhitasya  || PS_6,1.164 ||
+kitaş  || PS_6,1.165 ||
+tisbhyo jasaş  || PS_6,1.166 ||
+caturaş ÷asi  || PS_6,1.167 ||
+sàv eka-acas ttãyà-àdir vibhaktiş  || PS_6,1.168 ||
+anta-udàttàd uttarapadàdanyatarasyàm anityasamàse  || PS_6,1.169 ||
+a¤ce÷ chandasy asarvanàmasthànam  || PS_6,1.170 ||
+åó-idaü-padàdy-ap-pum-rai-dyubhyaş  || PS_6,1.171 ||
+aùñano dãrghàt  || PS_6,1.172 ||
+÷atur anumo nady-aj-àdã  || PS_6,1.173 ||
+udàttayaõo halpårvàt  || PS_6,1.174 ||
+na+uï-dhàtvoş  || PS_6,1.175 ||
+hrasva-nuóbhyàü matup  || PS_6,1.176 ||
+nàm anyatarasyàm  || PS_6,1.177 ||
+ïyà÷ chandasi bahulam  || PS_6,1.178 ||
+ùañtricaturbhyo halàdiş  || PS_6,1.179 ||
+j¤aly upottamam  || PS_6,1.180 ||
+vibhàùà bhàùàyàm  || PS_6,1.181 ||
+na go-÷van-sàvavarõa-ràó-aï-kruï-kdbhyaş  || PS_6,1.182 ||
+divo jhal  || PS_6,1.183 ||
+n ca anyatarasyàm  || PS_6,1.184 ||
+tit svaritam  || PS_6,1.185 ||
+tàsy-anudàten-ïid-ad-upade÷àl la-sàrvadhàtukam anudàttam ahnviïoş  || PS_6,1.186 ||
+àdiş sico 'nyatarasyàm  || PS_6,1.187 ||
+svapàdi-hiüsàm acy aniñi  || PS_6,1.188 ||
+abhyastànàm àdiş  || PS_6,1.189 ||
+anudàte ca  || PS_6,1.190 ||
+sarvasya supi  || PS_6,1.191 ||
+bhã-hrã-bh-hu-mada-jana-dhana-daridrà-jàgaràü pratyayàt pårvaü piti  || PS_6,1.192 ||
+liti  || PS_6,1.193 ||
+àdir õamuly anyatarasyàm  || PS_6,1.194 ||
+acaş kartyaki  || PS_6,1.195 ||
+thali ca señãóanto và  || PS_6,1.196 ||
+¤nityàdir nityam  || PS_6,1.197 ||
+àmantritasya ca  || PS_6,1.198 ||
+pathi-mathoş sarvanàmasthàne  || PS_6,1.199 ||
+anta÷ ca tavai yugapat  || PS_6,1.200 ||
+kùayo nivàse  || PS_6,1.201 ||
+jayaş karaõam  || PS_6,1.202 ||
+vùa-àdãnàü ca  || PS_6,1.203 ||
+sa¤j¤àyàm upamànam  || PS_6,1.204 ||
+niùñhà ca dvyaj anàt  || PS_6,1.205 ||
+÷uùka-dhùtau  || PS_6,1.206 ||
+à÷itaş kartà  || PS_6,1.207 ||
+rikte vibhàùà  || PS_6,1.208 ||
+juùña-arpite ca cchandasi  || PS_6,1.209 ||
+nityaü mantre  || PS_6,1.210 ||
+yuùmad-asmador ïasi  || PS_6,1.211 ||
+ïayi ca  || PS_6,1.212 ||
+yato 'nàvaş  || PS_6,1.213 ||
+ãóa-vanda-v-÷aüsa-duhàü õyataş  || PS_6,1.214 ||
+vibhàùà veõv-indhànayoş  || PS_6,1.215 ||
+tyàga-ràga-hàsa-kuha-÷vañha-krathànàm  || PS_6,1.216 ||
+upottamaü riti  || PS_6,1.217 ||
+caïy anyatarasyàm  || PS_6,1.218 ||
+matoş pårvamàt sa¤j¤àyàü striyàm  || PS_6,1.219 ||
+anto 'vatyàş  || PS_6,1.220 ||
+ãvatyàş  || PS_6,1.221 ||
+cau  || PS_6,1.222 ||
+samàsasya  || PS_6,1.223 ||
+bahuvrãhau praktyà pårvapadam  || PS_6,2.1 ||
+tatpuruùe tulyàrtha-ttãyà-saptamy-upamàna-avyaya-dvitãyà-ktyàş  || PS_6,2.2 ||
+varõo varneùv anete  || PS_6,2.3 ||
+gàdha-lavanayoş pramàõe  || PS_6,2.4 ||
+dàyàdyaü dàyàde  || PS_6,2.5 ||
+pratibandhi cira-kcchrayoş  || PS_6,2.6 ||
+pade 'pade÷e  || PS_6,2.7 ||
+nivàte vàtatràõe  || PS_6,2.8 ||
+÷àrade 'nàrtave  || PS_6,2.9 ||
+adhvaryu-kaùàyayor jàtau  || PS_6,2.10 ||
+sa-d÷a-pratiråpayoş sàd÷ye  || PS_6,2.11 ||
+dvigau pramàõe  || PS_6,2.12 ||
+gantavya-paõya vàõije  || PS_6,2.13 ||
+màtropaj¤opakramacchàye napuüsake  || PS_6,2.14 ||
+sukha-priyayor hite  || PS_6,2.15 ||
+prãtau ca  || PS_6,2.16 ||
+svaü svàmini  || PS_6,2.17 ||
+patyàv ai÷varye  || PS_6,2.18 ||
+na bhå-vàk-cid-didhiùu  || PS_6,2.19 ||
+và bhåvanam  || PS_6,2.20 ||
+à÷aïka-àbàdha-nedãyassu sambhàvane  || PS_6,2.21 ||
+pårve bhåtapårve  || PS_6,2.22 ||
+savidha-sanãóa-samaryàda-save÷a-sade÷eùu sàmãpye  || PS_6,2.23 ||
+vispaùña-àdãni guõavacaneùu  || PS_6,2.24 ||
+÷ra-jya-avama-kan-pàpa-vatsu bhàve karmadhàraye  || PS_6,2.25 ||
+kumàra÷ ca  || PS_6,2.26 ||
+àdiş pratyenasi  || PS_6,2.27 ||
+pågeùv anyatarasyàm  || PS_6,2.28 ||
+iganta-kàla-kapàla-bhagàla-÷aràveùu dvigau  || PS_6,2.29 ||
+bahv-anyatarasyàm  || PS_6,2.30 ||
+diùñi-vitastyo÷ ca  || PS_6,2.31 ||
+saptamã siddha-÷uùka-pakva-bandheùv akàlàt  || PS_6,2.32 ||
+pari-praty-upa-apà varjyamàna-ahoràtra-avayaveùu  || PS_6,2.33 ||
+ràjanya-bahuvacana-dvandve 'ndhaka-vùõiùu  || PS_6,2.34 ||
+saïkhyà  || PS_6,2.35 ||
+àcàrya-upasarjana÷ ca antevàsã  || PS_6,2.36 ||
+kàrta-kaujapa-àdaya÷ ca  || PS_6,2.37 ||
+mahàn vrãhy-aparàhõa-gùñi-iùvàsa-jàbàla-bhàra-bhàrata-hailihila-raurava-pravddheùu  || PS_6,2.38 ||
+kùullaka÷ ca vai÷vadeve  || PS_6,2.39 ||
+uùñraş sàdi-vàmyoş  || PS_6,2.40 ||
+gauş sàda-sàdi-sàrathiùu  || PS_6,2.41 ||
+kurugàrhapata-riktagurv-asåtajaraty-a÷lãladóharåpà-pàrevaóavà-taitilakadrå-paõyakambalo dàsãbhàràõàü ca  || PS_6,2.42 ||
+caturthã tadarthe  || PS_6,2.43 ||
+arthe  || PS_6,2.44 ||
+kte ca  || PS_6,2.45 ||
+karmadhàraye 'niùñhà  || PS_6,2.46 ||
+ahãne dvitãyà  || PS_6,2.47 ||
+ttãyà karmaõi  || PS_6,2.48 ||
+gatiranantaraş  || PS_6,2.49 ||
+ta-àdau ca niti kty-atau  || PS_6,2.50 ||
+tavai ca anta÷ ca yugapat  || PS_6,2.51 ||
+aniganto '¤catau vapratyaye  || PS_6,2.52 ||
+ny-adhã ca  || PS_6,2.53 ||
+ãùad anyatarasyàm  || PS_6,2.54 ||
+hiraõyaparimàõaü dhane  || PS_6,2.55 ||
+prathamo 'cira-upasampattau  || PS_6,2.56 ||
+katara-katamau karmadhàraye  || PS_6,2.57 ||
+àryo bràhmaõa-kumàrayoş  || PS_6,2.58 ||
+ràjà ca  || PS_6,2.59 ||
+ùaùñhã pratyenasi  || PS_6,2.60 ||
+kte nitya-arthe  || PS_6,2.61 ||
+gràmaş ÷ilpini  || PS_6,2.62 ||
+ràjà ca pra÷aüsàyàm  || PS_6,2.63 ||
+àdir udàttaş  || PS_6,2.64 ||
+saptamãhàriõau dharmye 'haraõe  || PS_6,2.65 ||
+yukte ca  || PS_6,2.66 ||
+vibhàùà adhyakùe  || PS_6,2.67 ||
+pàpaü ca ÷ilpini  || PS_6,2.68 ||
+gotra-antevàsi-mànava-bràhmaõesu kùepe  || PS_6,2.69 ||
+aïgàni maireye  || PS_6,2.70 ||
+bhakta-àkhyàs tadartheùu  || PS_6,2.71 ||
+go-bióàla-siüha-saindhaveùu upamàne  || PS_6,2.72 ||
+ake jãvikà-arthe  || PS_6,2.73 ||
+pràcàü krãóàyàü  || PS_6,2.74 ||
+aõi niyukte  || PS_6,2.75 ||
+÷ilpini ca ak¤aş  || PS_6,2.76 ||
+sa¤j¤àyàü ca  || PS_6,2.77 ||
+gotantiyavaü pàle  || PS_6,2.78 ||
+õini  || PS_6,2.79 ||
+upamanaü ÷abda-artha-praktàv eva  || PS_6,2.80 ||
+yuktàrohy-àdaya÷ ca  || PS_6,2.81 ||
+dãrgha-kà÷a-tuùa-bhràùñra-vañaü je  || PS_6,2.82 ||
+antyàt pårvaü bahv-acaş  || PS_6,2.83 ||
+gràme 'nivasantaş  || PS_6,2.84 ||
+ghoùa-àdiùu ca  || PS_6,2.85 ||
+chàtry-àdayaş ÷àlàyàm  || PS_6,2.86 ||
+prasthe 'vddham akarky-àdãnàm  || PS_6,2.87 ||
+màlàdãnàü ca  || PS_6,2.88 ||
+amahan-navaü nagare 'nudãcàm  || PS_6,2.89 ||
+arme ca avarõam dvyac tryac  || PS_6,2.90 ||
+na bhåta-adhika-sa¤jãva-madra-a÷ma-kajjalam  || PS_6,2.91 ||
+antaş  || PS_6,2.92 ||
+vkùyati - sarvaü guõakàrtsnye  || PS_6,2.93 ||
+sa¤j¤àyàü girinikàyayoş  || PS_6,2.94 ||
+kumàryàm vayasi  || PS_6,2.95 ||
+udake 'kevale  || PS_6,2.96 ||
+dvigau kratau  || PS_6,2.97 ||
+sabhàyàü napuüsake  || PS_6,2.98 ||
+pure pràcàm  || PS_6,2.99 ||
+ariùña-gauóa-pårve ca  || PS_6,2.100 ||
+na hàstina-phalaka-màrdeyàş  || PS_6,2.101 ||
+kusåla-kåpa-kumbha-÷àlaü bile  || PS_6,2.102 ||
+dik-÷abdà gràma-janapada-àkhyàna-cànaràñeùu  || PS_6,2.103 ||
+àcàrya-upasarjana÷ ca antevàsini  || PS_6,2.104 ||
+uttarapadavddhau sarvaü ca  || PS_6,2.105 ||
+bahuvrãhau vi÷vaü sa¤j¤àyàü  || PS_6,2.106 ||
+udara-a÷va-iùuùu  || PS_6,2.107 ||
+kùepe  || PS_6,2.108 ||
+nadã bandhuni  || PS_6,2.109 ||
+niùñhà-upasargapårvam anyatarasyàm  || PS_6,2.110 ||
+uttarapada-àdiş  || PS_6,2.111 ||
+karõo varõalakùaõàt  || PS_6,2.112 ||
+sa¤j¤à-aupamyayo÷ ca  || PS_6,2.113 ||
+kaõñha-pùtha-grãvà-jaïghaü ca  || PS_6,2.114 ||
+÷ïgam avasthàyàü ca  || PS_6,2.115 ||
+na¤o jara-mara-mitra-mtàş  || PS_6,2.116 ||
+sor man-asã aloma-uùasã  || PS_6,2.117 ||
+kratv-àdaya÷ ca  || PS_6,2.118 ||
+àdy-udàttaü dvyac chandasi  || PS_6,2.119 ||
+vãra-vãryau ca  || PS_6,2.120 ||
+kåla-tãra-tåla-måla-÷àlà-akùa-samam avyayãbhàve  || PS_6,2.121 ||
+kiüsa-mantha-÷årpa-pàyya-kàõóaü dvigau  || PS_6,2.122 ||
+tatpuruùe ÷àlàyàü napuüsake  || PS_6,2.123 ||
+kanthà ca  || PS_6,2.124 ||
+àdi÷cihaõàdãnàü  || PS_6,2.125 ||
+cela-kheña-kañuka-kàõóaü garhàyàm  || PS_6,2.126 ||
+cãram upamànam  || PS_6,2.127 ||
+palala-såpa-÷àkaü mi÷re  || PS_6,2.128 ||
+kålasådasthalakarùàş sa¤j¤àyàm  || PS_6,2.129 ||
+akamadhàraye ràjyam  || PS_6,2.130 ||
+vargya-àdaya÷ ca  || PS_6,2.131 ||
+putraş pumbhyaş  || PS_6,2.132 ||
+na àcàrya-ràja-rtvik-saüyukta-j¤àty-àkhyebhyaş  || PS_6,2.133 ||
+cårõa-àdãny apràõiùaùñhyàş  || PS_6,2.134 ||
+ùañ ca kàõóàdãni  || PS_6,2.135 ||
+kuõóaü vanam  || PS_6,2.136 ||
+praktyà bhagàlam  || PS_6,2.137 ||
+÷iter nitya-abahv-ajb-ahuvrãhàv abhasat  || PS_6,2.138 ||
+gati-kàraka-upapadàt kt  || PS_6,2.139 ||
+ubhe vanaspatyàdiùu yugapat  || PS_6,2.140 ||
+devatàdvandve ca  || PS_6,2.141 ||
+na+uttarapade 'nudàttàdàv apthivã-rudra-påùa-manthiùu  || PS_6,2.142 ||
+antaş  || PS_6,2.143 ||
+tha-atha-gha¤-kta-aj-ab-itra-kàõàm  || PS_6,2.144 ||
+su-upamànàt ktaş  || PS_6,2.145 ||
+sa¤j¤àyàm anàcitàdãnàm  || PS_6,2.146 ||
+pravddhàdãnàü ca  || PS_6,2.147 ||
+kàrakàd datta-÷rutayor eva à÷iùi  || PS_6,2.148 ||
+itthaübhåtena ktam iti ca  || PS_6,2.149 ||
+ano bhàva-karma-vacanaş  || PS_6,2.150 ||
+man-ktin-vyàkhyàna-÷ayana-àsana-sthàna-yàjaka-àdi-krãtàş  || PS_6,2.151 ||
+saptamyàş puõyam  || PS_6,2.152 ||
+ånàrtha-kalahaü ttãàyàş  || PS_6,2.153 ||
+mi÷raü ca anupasargam asandhau  || PS_6,2.154 ||
+na¤o guõapratiùedhe sampàdy-arha-hita-alamarthàs taddhitàş  || PS_6,2.155 ||
+ya-yato÷ ca atadarthe  || PS_6,2.156 ||
+ac-kàv a÷aktau  || PS_6,2.157 ||
+àkro÷e ca  || PS_6,2.158 ||
+sa¤j¤àyàm  || PS_6,2.159 ||
+ktya-uka-iùõuc-càrv-àdaya÷ ca  || PS_6,2.160 ||
+vibhàùà tnn-anna-tãkùõa-÷uciùu  || PS_6,2.161 ||
+bahuvrãhàv idam-etat-tadbhyaş prathama-påranayoş kriyàgaõane  || PS_6,2.162 ||
+saïkhyàyàş stanaş  || PS_6,2.163 ||
+vibhàùà  || PS_6,2.164 ||
+sa¤j¤àyàü mitra-ajinayoş  || PS_6,2.165 ||
+vyavàyino 'ntaram  || PS_6,2.166 ||
+mukhaü svàïgaü  || PS_6,2.167 ||
+na avyaya-dik÷abda-go-mahat-sthåla-muùñi-pthu-vatsebhyaş  || PS_6,2.168 ||
+niùñhà-upamànàd anyatarasyàm  || PS_6,2.169 ||
+jàti-kàla-sukha-àdibhyo 'nàcchàdanàt kto 'kta-mita-pratipannàş  || PS_6,2.170 ||
+và jàte  || PS_6,2.171 ||
+na¤-subhyàm  || PS_6,2.172 ||
+kapi pårvam  || PS_6,2.173 ||
+hrasvànte 'ntyàt pårvam  || PS_6,2.174 ||
+bahor na¤vad uttarapadabhåmni  || PS_6,2.175 ||
+na guõàdayo 'vayavàş  || PS_6,2.176 ||
+upasargàt svàïgaü dhruvam apar÷u  || PS_6,2.177 ||
+vanaü samàse  || PS_6,2.178 ||
+antaş  || PS_6,2.179 ||
+anta÷ ca  || PS_6,2.180 ||
+na ni-vi-bhyàm  || PS_6,2.181 ||
+parer abhitobhàvi maõóalam  || PS_6,2.182 ||
+pràd-asvaïgaü sa¤j¤àyàm  || PS_6,2.183 ||
+nirudakàdãni ca  || PS_6,2.184 ||
+abher mukham  || PS_6,2.185 ||
+apàc ca  || PS_6,2.186 ||
+sphiga-påta-vãõà-a¤jo 'dhva-kukùi-sãranàma-nàma ca  || PS_6,2.187 ||
+adher uparistham  || PS_6,2.188 ||
+anor apradhànakanãyasã  || PS_6,2.189 ||
+puruùa÷ ca anvàdiùñaş  || PS_6,2.190 ||
+ater akt-pade  || PS_6,2.191 ||
+ner anidhàne  || PS_6,2.192 ||
+prater aü÷v-àdayas tatpuruùe  || PS_6,2.193 ||
+upàd dvyaj-ajinam agauràdayaş  || PS_6,2.194 ||
+sor avakùepaõe  || PS_6,2.195 ||
+vibhàùà+utpucche  || PS_6,2.196 ||
+dvi-tribhyàü pàd-dan-mårdhasu bahuvrãhau  || PS_6,2.197 ||
+sakthaü ca akràntàt  || PS_6,2.198 ||
+paràdi÷ chandasi bahulam  || PS_6,2.199 ||
+alug uttarapade  || PS_6,3.1 ||
+pa¤camyàş stokàdibhyaş  || PS_6,3.2 ||
+ojaş-saho 'mbhas-tamasas ttãyayàş  || PS_6,3.3 ||
+manasaş sa¤j¤àyàm  || PS_6,3.4 ||
+àj¤àyini ca  || PS_6,3.5 ||
+àtmana÷ ca påraõe  || PS_6,3.6 ||
+vaiyàkaraõàkhyàyàü caturthyàş  || PS_6,3.7 ||
+parasya ca  || PS_6,3.8 ||
+hal-adantàt saptamyàş sa¤j¤àyàm  || PS_6,3.9 ||
+kàranàmni ca pràcàü hal-àdau  || PS_6,3.10 ||
+madhyàd gurau  || PS_6,3.11 ||
+amårdha-mastakàt svàïgàd akàme  || PS_6,3.12 ||
+bhandhe ca vibhàùà  || PS_6,3.13 ||
+tatpuruùe kti bahulam  || PS_6,3.14 ||
+pràvñ-÷arat-kàla-divàü je  || PS_6,3.15 ||
+vibhàùà  || PS_6,3.16 ||
+gha-kàla-tanesu kàlanàmnaş  || PS_6,3.17 ||
+÷aya-vàsa-vàsiùv akalàt  || PS_6,3.18 ||
+na-in-siddha-badhnàtiùu ca  || PS_6,3.19 ||
+sthe ca bhàùàyàm  || PS_6,3.20 ||
+ùaùñhyà àkro÷e  || PS_6,3.21 ||
+putre 'nyatarasyàm  || PS_6,3.22 ||
+to vidyàyonisambandhebhyaş  || PS_6,3.23 ||
+vibhàùà svas-patyoş  || PS_6,3.24 ||
+anaï to dvandve  || PS_6,3.25 ||
+devatàdvandve ca  || PS_6,3.26 ||
+ãdagneş somavaruõayoş  || PS_6,3.27 ||
+id vddhau  || PS_6,3.28 ||
+devo dyàvà  || PS_6,3.29 ||
+divasa÷ ca pthivyàm  || PS_6,3.30 ||
+uùàsà-uùasaş  || PS_6,3.31 ||
+màtara-pitaràv udãcam  || PS_6,3.32 ||
+pitarà-màtarà ca cchandasi  || PS_6,3.33 ||
+striyàş puüvad-bhàùãtapuüskàdanåï samànàdhikaraõe striyàm apåraõã-priyàdiùu  || PS_6,3.34 ||
+tasil-àdiùv à ktvasucaş  || PS_6,3.35 ||
+kyaï-mànino÷ ca  || PS_6,3.36 ||
+na kopadhàyàş  || PS_6,3.37 ||
+sa¤j¤à-påraõyo÷ ca  || PS_6,3.38 ||
+vddhinimittasya ca taddhitasyàraktavikàre  || PS_6,3.39 ||
+svàïgàc ca+ito 'mànini  || PS_6,3.40 ||
+jàte÷ ca  || PS_6,3.41 ||
+puüvat karmadhàraya-jàtãya-de÷ãyeùu  || PS_6,3.42 ||
+gharåpakalpacelaóbråvagotramatahateùu ïyo 'nekàco hrasvaş  || PS_6,3.43 ||
+nadyàş ÷eùasya anyatarasyàm  || PS_6,3.44 ||
+ug-ita÷ ca  || PS_6,3.45 ||
+ànmahataş samànàdhikaranajàtãyayoş  || PS_6,3.46 ||
+dvyaùñanaş saïkhyàyàm abahuvrãhy-a÷ãtyoş  || PS_6,3.47 ||
+tres trayaş  || PS_6,3.48 ||
+vibhàùà catvàriü÷atprabhtau sarveùàm  || PS_6,3.49 ||
+hdayasya hl lekha-yad-aõ-làseùu  || PS_6,3.50 ||
+và ÷oka-ùya¤-rogeùu  || PS_6,3.51 ||
+pàdasya pada-àjy-àti-ga-upahatesu  || PS_6,3.52 ||
+pad yaty atadarthe  || PS_6,3.53 ||
+hima-kàùi-hatisu ca  || PS_6,3.54 ||
+caş ÷e  || PS_6,3.55 ||
+và ghoùami÷ra÷abdeùu  || PS_6,3.56 ||
+udakasya+udaş sa¤j¤àyàm  || PS_6,3.57 ||
+peùam-vàsa-vàhana-dhiùu ca  || PS_6,3.58 ||
+ekahal-àdau pårayitavye 'nyatarasyàm  || PS_6,3.59 ||
+mantha-odana-saktu-bindu-vajra-bhàra-hàra-vãvadha-gàheùu ca  || PS_6,3.60 ||
+iko hrasvo 'ïyo gàlavasya  || PS_6,3.61 ||
+eka taddhite ca  || PS_6,3.62 ||
+ïyàpoş sa¤j¤àchandasor bahulam  || PS_6,3.63 ||
+tve ca  || PS_6,3.64 ||
+iùñakà-iùãkà-màlànàü citatålabhàriùu  || PS_6,3.65 ||
+khity anavyayasya  || PS_6,3.66 ||
+arur-dviùad-ajantasya mum  || PS_6,3.67 ||
+ica ekàco 'mpratyayavac ca  || PS_6,3.68 ||
+vàcaüyama-purandarau ca  || PS_6,3.69 ||
+kàre satya-agadasya  || PS_6,3.70 ||
+÷yena-tilasya pàte ¤e  || PS_6,3.71 ||
+ràtreş kti vibhàùà  || PS_6,3.72 ||
+nalopo na¤aş  || PS_6,3.73 ||
+tasmàn nuó aci  || PS_6,3.74 ||
+nabhràõ-napàn-navedà-nàsatyà-namuci-nakula-nakha-napuüsaka-nakùatra-nakra-nàkeùu praktyà  || PS_6,3.75 ||
+ekàdi÷ ca+ekasya ca àduk  || PS_6,3.76 ||
+nago 'pràõiùv anyatarasyàm  || PS_6,3.77 ||
+sahasya saş sa¤j¤àyàm  || PS_6,3.78 ||
+granthànta-adhike ca  || PS_6,3.79 ||
+dvitãye ca anupàkhye  || PS_6,3.80 ||
+avyayãbhàve càkàle  || PS_6,3.81 ||
+và+upasarjanasya  || PS_6,3.82 ||
+praktyà à÷iùy ago-vatsa-haleùu  || PS_6,3.83 ||
+samànasya chandasy apårdha-prabhty-udarkeùu  || PS_6,3.84 ||
+jyotir-janapada-ràtri-nàbhi-nàma-gotra-råpa-sthàna-varõa-varyo-vacana-bandhuùu  || PS_6,3.85 ||
+caraõe brahmacàriõi  || PS_6,3.86 ||
+tãrthe ye  || PS_6,3.87 ||
+vibhàùà+udare  || PS_6,3.88 ||
+dg-d÷a-vatuùu  || PS_6,3.89 ||
+idaü kimor ã÷kã  || PS_6,3.90 ||
+à sarvanàmnaş  || PS_6,3.91 ||
+viùvag-devayo÷ ca ñer adry a¤catau vapratyaye  || PS_6,3.92 ||
+samaş sami  || PS_6,3.93 ||
+tirasas tiry alope  || PS_6,3.94 ||
+sahasya sadhriş  || PS_6,3.95 ||
+sadha màda-sthayo÷ chandasi  || PS_6,3.96 ||
+dvy-antar-upasargebhyo 'pa ãt  || PS_6,3.97 ||
+åd anor de÷e  || PS_6,3.98 ||
+aùaùthy-attãyàsthasya anayasya dug à÷ãr-à÷à-àsthà-àsthita-utsuka-åti-kàraka-ràga-ccheùu  || PS_6,3.99 ||
+arthe vibhàùà  || PS_6,3.100 ||
+koş kat tatpuruùe 'ci  || PS_6,3.101 ||
+ratha-vadayo÷ ca  || PS_6,3.102 ||
+dõe ca jàtau  || PS_6,3.103 ||
+kà pathy-akùayoş  || PS_6,3.104 ||
+ãùadarthe ca  || PS_6,3.105 ||
+vibhàùà puruùe  || PS_6,3.106 ||
+kava¤coùõe  || PS_6,3.107 ||
+pathi ca cchandasi  || PS_6,3.108 ||
+pùodara-àdãni yathopadiùñam  || PS_6,3.109 ||
+saïkhyà-vi-sàya-pårvasya ahnasya ahann anyatarasyàü ïau  || PS_6,3.110 ||
+óhralope pårvasya dãrgho 'õaş  || PS_6,3.111 ||
+sahi-vahor od avarõasya  || PS_6,3.112 ||
+sàóhyai sàóhvà sàóha+iti nigame  || PS_6,3.113 ||
+saühitàyàm  || PS_6,3.114 ||
+karõe lakùaõasya aviùña-aùña-pa¤ca-maõi-bhinna-cchinna-cchidra-sruva-svastikasya  || PS_6,3.115 ||
+nahi-vti-vùi-vyadhi-ruci-sahi-taniùu kvau  || PS_6,3.116 ||
+vana-giryoş saj¤àyàü koñara-kiü÷ulukàdãnàm  || PS_6,3.117 ||
+vale  || PS_6,3.118 ||
+matau bahvaco 'najiràdãnàm  || PS_6,3.119 ||
+÷aràdãnàm ca  || PS_6,3.120 ||
+iko vahe 'pãloş  || PS_6,3.121 ||
+upasargasya gha¤yamanuùye bahulam  || PS_6,3.122 ||
+ikaş kà÷e  || PS_6,3.123 ||
+das ti  || PS_6,3.124 ||
+aùñanaş sa¤j¤àyàm  || PS_6,3.125 ||
+chandasi ca  || PS_6,3.126 ||
+citeş kapi  || PS_6,3.127 ||
+vi÷vasya vasu-ràñoş  || PS_6,3.128 ||
+nare sa¤j¤àyàm  || PS_6,3.129 ||
+mitre carùau  || PS_6,3.130 ||
+mantre soma-a÷va-indriya-vi÷vadevyasya matau  || PS_6,3.131 ||
+oùadhe÷ ca vibhaktàv aprathamàyàm  || PS_6,3.132 ||
+ci tunughamakùutaïkutroruùyàõàm  || PS_6,3.133 ||
+ikaş su¤i  || PS_6,3.134 ||
+dvyaco 'tastiïaş  || PS_6,3.135 ||
+nipàtasya ca  || PS_6,3.136 ||
+anyeùàm api d÷yate  || PS_6,3.137 ||
+cau  || PS_6,3.138 ||
+samprasàraõasya  || PS_6,3.139 ||
+aïgasya  || PS_6,4.1 ||
+halaş  || PS_6,4.2 ||
+nàmi  || PS_6,4.3 ||
+na tis-catas  || PS_6,4.4 ||
+chandasy ubhayathà  || PS_6,4.5 ||
+n ca  || PS_6,4.6 ||
+na-upadhàyàş  || PS_6,4.7 ||
+sarvanàmasthàne ca asambuddhau  || PS_6,4.8 ||
+và ùapårvasya nigame  || PS_6,4.9 ||
+sàntamahataş saüyogasya  || PS_6,4.10 ||
+ap-tn-tc-svas-napt-neùñ-tvaùñ-kùatt-hot-pot-pra÷àst®õàm  || PS_6,4.11 ||
+in-han-påùa-aryamõàü ÷au  || PS_6,4.12 ||
+sau ca  || PS_6,4.13 ||
+atv-asantasya ca adhàtoş  || PS_6,4.14 ||
+anunàsikasya kvi-jhaloş kïiti  || PS_6,4.15 ||
+aj-jhana-gamàü sani  || PS_6,4.16 ||
+tanoter vibhàùà  || PS_6,4.17 ||
+krama÷ ca ktvi  || PS_6,4.18 ||
+ccş-voş ÷-åóş-anunàsike ca  || PS_6,4.19 ||
+jvara-tvara-srivy-avi-mavàm upadhàyà÷ ca  || PS_6,4.20 ||
+ràl lopaş  || PS_6,4.21 ||
+asiddhavatra-à bhàt  || PS_6,4.22 ||
+÷nàn nalopaş  || PS_6,4.23 ||
+aniditàü hala upadhàyàş kïiti  || PS_6,4.24 ||
+daü÷a-sa¤ja-sva¤jàm ÷api  || PS_6,4.25 ||
+ra¤je÷ ca  || PS_6,4.26 ||
+gha¤i ca bhàvakaranayoş  || PS_6,4.27 ||
+syado jave  || PS_6,4.28 ||
+avoda-edş-odma-pra÷ratha-hima÷rathàş  || PS_6,4.29 ||
+na a¤ceş påjàyàm  || PS_6,4.30 ||
+ktvi skandi-syandoş  || PS_6,4.31 ||
+jànta-na÷àü vibhàùà  || PS_6,4.32 ||
+bha¤je÷ ca ciõi  || PS_6,4.33 ||
+÷àsa idaïhaloş  || PS_6,4.34 ||
+÷à hau  || PS_6,4.35 ||
+hanterjaş  || PS_6,4.36 ||
+anudàtta-upade÷a-vanati-tanoty-àdãnàm anunàsikalopo jhali kïiti  || PS_6,4.37 ||
+và lyapi  || PS_6,4.38 ||
+na ktici dãrgha÷ ca  || PS_6,4.39 ||
+gamaş kvau  || PS_6,4.40 ||
+vió-vanor anunàsikasya àt  || PS_6,4.41 ||
+jana-sana-khanàü sa¤-jhaloş  || PS_6,4.42 ||
+ye vibhàùà  || PS_6,4.43 ||
+tanoteryaki  || PS_6,4.44 ||
+sanaş ktici lopa÷ ca asya anyatarasyàm  || PS_6,4.45 ||
+àrdhadhàtuke  || PS_6,4.46 ||
+bhrasjo ra-upadhayo ram anyatarasyàm  || PS_6,4.47 ||
+ato lopaş  || PS_6,4.48 ||
+yasya halaş  || PS_6,4.49 ||
+kyasya vibhàùà  || PS_6,4.50 ||
+õer aniñi  || PS_6,4.51 ||
+niùñhàyàü señi  || PS_6,4.52 ||
+janità mantre  || PS_6,4.53 ||
+÷amità yaj¤e  || PS_6,4.54 ||
+ay àm-anta-àlv-àyya-itnv-iùõuùu  || PS_6,4.55 ||
+lyapi laghupårvàt  || PS_6,4.56 ||
+vibhàùà+àpaş  || PS_6,4.57 ||
+yu-pluvor dãrgha÷ chandasi  || PS_6,4.58 ||
+kùiyaş  || PS_6,4.59 ||
+naùñhàyàm aõyadarthe  || PS_6,4.60 ||
+và+àkro÷a-dainyayoş  || PS_6,4.61 ||
+sya-sic-sãyuñ-tàsiùu bhàva-karmaõor upade÷e 'j-jhana-graha-d÷àü và ciõvad-iñ ca  || PS_6,4.62 ||
+dãïo yuóaci kïiti  || PS_6,4.63 ||
+àto lopa iñi ca  || PS_6,4.64 ||
+ãdyati  || PS_6,4.65 ||
+ghu-mà-sthà-gà-pà-jahàti-sà hali  || PS_6,4.66 ||
+er liïi  || PS_6,4.67 ||
+và 'nyasya saüyoga-àdeş  || PS_6,4.68 ||
+na lyapi  || PS_6,4.69 ||
+mayater id-anyatarasyàm  || PS_6,4.70 ||
+luï-laï-lï-kùv aó-udàttaş  || PS_6,4.71 ||
+àó aj-àdãnàm  || PS_6,4.72 ||
+chandasy api d÷yate  || PS_6,4.73 ||
+na màïyoge  || PS_6,4.74 ||
+bahulaü chandasy amàïyoge 'pi  || PS_6,4.75 ||
+irayo re  || PS_6,4.76 ||
+aci ÷nu-dhàtu-bhruvàü y-vor iyaï-uvaïau  || PS_6,4.77 ||
+abhyàsasya asavarõe  || PS_6,4.78 ||
+striyàş  || PS_6,4.79 ||
+và 'ü÷asoş  || PS_6,4.80 ||
+iõo yaõ  || PS_6,4.81 ||
+er anekàco 'samyogapårvasya  || PS_6,4.82 ||
+oş supi  || PS_6,4.83 ||
+varùàbhva÷ ca  || PS_6,4.84 ||
+na bhåsudhiyoş  || PS_6,4.85 ||
+chandasy ubhayathà  || PS_6,4.86 ||
+hu÷nuvoş sàrvadhàtuke  || PS_6,4.87 ||
+bhuvo vug luïliñoş  || PS_6,4.88 ||
+åd upadhàyà gohaş  || PS_6,4.89 ||
+doùo õau  || PS_6,4.90 ||
+và cittaviràge  || PS_6,4.91 ||
+mitàü hrasvaş  || PS_6,4.92 ||
+ciõ-õamulor dãrgho 'nyatarasyàm  || PS_6,4.93 ||
+khaci hrasvaş  || PS_6,4.94 ||
+hlàdo niùñhàyàm  || PS_6,4.95 ||
+chàder ghe 'dvy-upasargasya  || PS_6,4.96 ||
+is-man-tran-kviùu ca  || PS_6,4.97 ||
+gama-hana-jana-khana-ghasàü lopaş kïity anaïi  || PS_6,4.98 ||
+tani-patyo÷ chandasi  || PS_6,4.99 ||
+ghasi-bhasor hali ca  || PS_6,4.100 ||
+hu-jhalbhyo her dhiş  || PS_6,4.101 ||
+÷ru-÷õu-p®-k-vbhya÷ chandasi  || PS_6,4.102 ||
+aïita÷ ca  || PS_6,4.103 ||
+ciõo luk  || PS_6,4.104 ||
+ato heş  || PS_6,4.105 ||
+uta÷ ca pratyayàd asaüyogapårvàt  || PS_6,4.106 ||
+lopa÷ ca asya anyatarasyàü üvoş  || PS_6,4.107 ||
+nityaü karoteş  || PS_6,4.108 ||
+ye ca  || PS_6,4.109 ||
+ata ut sàrvadhàtuke  || PS_6,4.110 ||
+÷nasorallopaş  || PS_6,4.111 ||
+÷nà-abhyas tayor àtaş  || PS_6,4.112 ||
+ã halyadhoş  || PS_6,4.113 ||
+id daridrasya  || PS_6,4.114 ||
+bhiyo 'nyatarasyam  || PS_6,4.115 ||
+jahàte÷ ca  || PS_6,4.116 ||
+à ca hau  || PS_6,4.117 ||
+lopo yi  || PS_6,4.118 ||
+ghv-asor ed-dhàv abhyàsalopa÷ ca  || PS_6,4.119 ||
+ata ekahalmadhye 'nàde÷àder liñi  || PS_6,4.120 ||
+thali ca seti  || PS_6,4.121 ||
+t®-phala-bhaja-trapa÷ ca  || PS_6,4.122 ||
+radho hiüsàyàm  || PS_6,4.123 ||
+và j®-bhramu-trasàm  || PS_6,4.124 ||
+phaõàü ca saptànàm  || PS_6,4.125 ||
+na ÷asa-dada-v-àdi-guõànàm  || PS_6,4.126 ||
+arvaõas tr-asàv-ana¤aş  || PS_6,4.127 ||
+maghavà bahulam  || PS_6,4.128 ||
+bhasya  || PS_6,4.129 ||
+vakùyati - pàdaş pat  || PS_6,4.130 ||
+vasoş samprasàraõaü  || PS_6,4.131 ||
+vàha åñş  || PS_6,4.132 ||
+÷va-yuva-maghonàm ataddhite  || PS_6,4.133 ||
+al-lopo 'naş  || PS_6,4.134 ||
+ùapårva-han-dhtaràj¤àm aõi  || PS_6,4.135 ||
+vibhàùà ïi÷yoş  || PS_6,4.136 ||
+na saüyogàd va-m-antàt  || PS_6,4.137 ||
+acaş  || PS_6,4.138 ||
+uda ãt  || PS_6,4.139 ||
+àto dhàtoş  || PS_6,4.140 ||
+mantreùvàïyàderàtmanaş  || PS_6,4.141 ||
+ti viü÷ater óiti  || PS_6,4.142 ||
+ñeş  || PS_6,4.143 ||
+nas taddhite  || PS_6,4.144 ||
+ahnaù ña-kher eva  || PS_6,4.145 ||
+orguõaş  || PS_6,4.146 ||
+óhe lopo 'kadrvàş  || PS_6,4.147 ||
+yasya+iti ca  || PS_6,4.148 ||
+sårya-tiùya-agastya-matsyànàü ya upadhàyàş  || PS_6,4.149 ||
+halas taddhitasya  || PS_6,4.150 ||
+àpatyasya ca taddhite 'nàti  || PS_6,4.151 ||
+kyacvyo÷ ca  || PS_6,4.152 ||
+bilvaka-àdibhya÷ chasya luk  || PS_6,4.153 ||
+tur iùñha-ima-ãyassu  || PS_6,4.154 ||
+ñeş  || PS_6,4.155 ||
+sthåla-dåra-yuva-hrasva-kùiprakùudràõàü yaõàdiparaü pårvasya ca guõaş  || PS_6,4.156 ||
+priya-sthira-sphira-uru-bahula-guru-vddha-tpra-dãrgha-vndàrakàõàü pra-stha-spha-var-baühi-gar-varùi-trab-dràghi-vndàş  || PS_6,4.157 ||
+bahor lopo bhå ca bahoş  || PS_6,4.158 ||
+iùñhasya yiñ ca  || PS_6,4.159 ||
+jyàd àd ãyasaş  || PS_6,4.160 ||
+ra to halàder laghoş  || PS_6,4.161 ||
+vibhàùà rjo÷ chandasi  || PS_6,4.162 ||
+praktyà+eka-ac  || PS_6,4.163 ||
+in aõy-anapatye  || PS_6,4.164 ||
+gàthi-vidathi-ke÷i-gaõi-paõina÷ ca  || PS_6,4.165 ||
+saüyoga-àdi÷ ca  || PS_6,4.166 ||
+an  || PS_6,4.167 ||
+ye ca abhàva-karmaõoş  || PS_6,4.168 ||
+àtma-adhvànau khe  || PS_6,4.169 ||
+na mapårvo 'patye 'varmaõaş  || PS_6,4.170 ||
+bràhmo 'jàtau  || PS_6,4.171 ||
+kàrmas tàcchãlye  || PS_6,4.172 ||
+aukùam anapatye  || PS_6,4.173 ||
+dàõóinàyana-hàstinàyana-àtharvaõika-jaihmà÷ineya-vàsinàyani-bhrauõahatya-dhaivatya-sàrava-aikùvàka-maitreya-hiraõmayàni  || PS_6,4.174 ||
+tvya-vàstvya-vàstva-màdhvã-hiraõyayàni cchandasi  || PS_6,4.175 ||
+yu-vor ana-akau  || PS_7,1.1 ||
+àyan-ey-ãn-ãy-iyaş pha-óha-kha-cha-ghàü pratyayàadãnàm  || PS_7,1.2 ||
+jho 'ntaş  || PS_7,1.3 ||
+ad abhyastàt  || PS_7,1.4 ||
+àtmanepadeùv anataş  || PS_7,1.5 ||
+÷ãïo ruñ  || PS_7,1.6 ||
+vetter vibhàùà  || PS_7,1.7 ||
+bahulaü chandasi  || PS_7,1.8 ||
+ato bhisa ais  || PS_7,1.9 ||
+bahulaü chandasi  || PS_7,1.10 ||
+na+idam-adasor akoş  || PS_7,1.11 ||
+ñà-ïasi-ïasàm ina-àt-syàş  || PS_7,1.12 ||
+ïer yaş  || PS_7,1.13 ||
+sarvanàmnaş smai  || PS_7,1.14 ||
+ïasi-ïyoş samàt-sminau  || PS_7,1.15 ||
+pårva-àdibhyo navabhyo và  || PS_7,1.16 ||
+jasaş ÷ã  || PS_7,1.17 ||
+auïa àpaş  || PS_7,1.18 ||
+napuüsakàc ca  || PS_7,1.19 ||
+ja÷-÷asoş ÷iş  || PS_7,1.20 ||
+aùñàbhya au÷  || PS_7,1.21 ||
+ùaóbhyo luk  || PS_7,1.22 ||
+sv-amor napuüsakàt  || PS_7,1.23 ||
+ato 'm  || PS_7,1.24 ||
+adó óatara-àdibhyaş pa¤cabhyaş  || PS_7,1.25 ||
+na+itaràc chandasi  || PS_7,1.26 ||
+yuùmad-asmadbhyàü ïaso '÷  || PS_7,1.27 ||
+ïe prathamayor am  || PS_7,1.28 ||
+÷aso na  || PS_7,1.29 ||
+bhyaso bhyam  || PS_7,1.30 ||
+pa¤camyà at  || PS_7,1.31 ||
+ekavacanasya ca  || PS_7,1.32 ||
+sàma àkam  || PS_7,1.33 ||
+àta au õalaş  || PS_7,1.34 ||
+tu-hyos tàtaï à÷iùy anyatarasyàm  || PS_7,1.35 ||
+videş ÷atur vasuş  || PS_7,1.36 ||
+samàse 'na¤-pårve ktvo lyap  || PS_7,1.37 ||
+ktvà api chandasi  || PS_7,1.38 ||
+supàü su-luk-pårvasavarna-à-àc-che-yà-óà-óyà-yàj-àlaş  || PS_7,1.39 ||
+amo ma÷  || PS_7,1.40 ||
+lopas ta àtmanepadeùu  || PS_7,1.41 ||
+dhvamo dhvàt  || PS_7,1.42 ||
+yajadhvainam iti ca  || PS_7,1.43 ||
+tasya tàt  || PS_7,1.44 ||
+taptanaptanathanà÷ ca  || PS_7,1.45 ||
+id-anto masi  || PS_7,1.46 ||
+ktvo yak  || PS_7,1.47 ||
+iùñvãnam iti ca  || PS_7,1.48 ||
+snàtvyàdaya÷ ca  || PS_7,1.49 ||
+àj jaser asuk  || PS_7,1.50 ||
+a÷va-kùãra-vùa-lavaõànàm àtmaprãtau kyaci  || PS_7,1.51 ||
+àmi sarvanàmnaş suñ  || PS_7,1.52 ||
+tres trayaş  || PS_7,1.53 ||
+hrasvanadyàpo nuñ  || PS_7,1.54 ||
+ùañ-caturbhya÷ ca  || PS_7,1.55 ||
+÷rã-gràmaõyo÷ chandasi  || PS_7,1.56 ||
+goş pàdànte  || PS_7,1.57 ||
+idato num dhàtoş  || PS_7,1.58 ||
+÷e mucàdãnàm  || PS_7,1.59 ||
+masji-na÷or jhali  || PS_7,1.60 ||
+radhi-jabhor aci  || PS_7,1.61 ||
+neñyaliñi radheş  || PS_7,1.62 ||
+rabher a÷ab-liñoş  || PS_7,1.63 ||
+labhe÷ ca  || PS_7,1.64 ||
+àïo yi  || PS_7,1.65 ||
+upàt pra÷aüsàyàm  || PS_7,1.66 ||
+upasargàt khal-gha¤oş  || PS_7,1.67 ||
+na su-durbhyàü kevalàbhyàm  || PS_7,1.68 ||
+vibhàùà ciõ-õamuloş  || PS_7,1.69 ||
+ugidacàü sarvanàmasthàne 'dhàtoş  || PS_7,1.70 ||
+yujer asamàse  || PS_7,1.71 ||
+napuüsakasya jhal-acaş  || PS_7,1.72 ||
+iko 'ci vibhaktau  || PS_7,1.73 ||
+ttãyàdiùu bhàùitapuüskaü puüvad gàlavasya  || PS_7,1.74 ||
+asthi-dadhi-sakthy-akùõàm anaï udàttaş  || PS_7,1.75 ||
+chandasy api d÷yate  || PS_7,1.76 ||
+ã ca dvivacane  || PS_7,1.77 ||
+na abhyastàc chatuş  || PS_7,1.78 ||
+và napuüsakasya  || PS_7,1.79 ||
+àc chã-nadyor num  || PS_7,1.80 ||
+÷ap-÷yanor nityam  || PS_7,1.81 ||
+sàv anaóuha  || PS_7,1.82 ||
+dk-svavas-svatavasàü chandasi  || PS_7,1.83 ||
+diva aut  || PS_7,1.84 ||
+pathi-mathy-bhukùàm àt  || PS_7,1.85 ||
+ito 't sarvanàmasthàne  || PS_7,1.86 ||
+tho nthaş  || PS_7,1.87 ||
+bhasya ñer lopaş  || PS_7,1.88 ||
+puüso 'suï  || PS_7,1.89 ||
+goto õit  || PS_7,1.90 ||
+õal uttamo và  || PS_7,1.91 ||
+sakhyur asambuddhau  || PS_7,1.92 ||
+anaï sau  || PS_7,1.93 ||
+d-u÷anas-puru-daüso 'nehasàü ca  || PS_7,1.94 ||
+tj-vat kroùñuş  || PS_7,1.95 ||
+striyàü ca  || PS_7,1.96 ||
+vibhàùà ttãyàdiùv aci  || PS_7,1.97 ||
+catur-anaóuhor àmudàttaş  || PS_7,1.98 ||
+am sambuddhau  || PS_7,1.99 ||
+®ta id-dhatoş  || PS_7,1.100 ||
+upadhàyà÷ ca  || PS_7,1.101 ||
+ud oùñhyapårvasya  || PS_7,1.102 ||
+bahulaü chandasi  || PS_7,1.103 ||
+sici vddhiş parasmaipadeùu  || PS_7,2.1 ||
+ato lràntasya  || PS_7,2.2 ||
+vada-vraja-halantasya acaş  || PS_7,2.3 ||
+neñi  || PS_7,2.4 ||
+ş-m-yanta-kùaõa-÷vasa-jàg-õi-÷vy-ed-itàm  || PS_7,2.5 ||
+årõoter vibhàùà  || PS_7,2.6 ||
+ato halàder laghoş  || PS_7,2.7 ||
+na-ió va÷i kti  || PS_7,2.8 ||
+ti-tu-tra-ta-tha-si-su-sara-ka-seùu ca  || PS_7,2.9 ||
+ekàca upade÷e 'nudàttàt  || PS_7,2.10 ||
+÷ry-ukaş kiti  || PS_7,2.11 ||
+sani graha-guho÷ ca  || PS_7,2.12 ||
+k-s-bh-v-stu-dru-sru-÷ruvo liñi  || PS_7,2.13 ||
+÷vi-idito niùthàyàm  || PS_7,2.14 ||
+yasya vibhàùà  || PS_7,2.15 ||
+àdita÷ ca  || PS_7,2.16 ||
+vibhàùà bhàva-àdikarmaõoş  || PS_7,2.17 ||
+kùubdha-svànta-dhvànta-lagna-mliùña-viribdha-phàõña-bàóhàni mantha-manas-tamaş-sakta-avispaùña-svara-anàyàsa-bh÷eùu  || PS_7,2.18 ||
+dhùã ÷asã vaiyàtye  || PS_7,2.19 ||
+dóhaş sthålabalayoş  || PS_7,2.20 ||
+prabhau parivóhaş  || PS_7,2.21 ||
+kcchra-gahanayoş kaùaş  || PS_7,2.22 ||
+ghuùir avi÷abdane  || PS_7,2.23 ||
+ardeş saü-ni-vibhyaş  || PS_7,2.24 ||
+abhe÷ ca àvidårye  || PS_7,2.25 ||
+õer adhyayane vttam  || PS_7,2.26 ||
+và dànta-÷ànta-pårõa-dasta-spaùña-cchanna-j¤aptàş  || PS_7,2.27 ||
+ruùy-ama-tvara-saïghuùa-àsvanàm  || PS_7,2.28 ||
+hùer lomasu  || PS_7,2.29 ||
+apacita÷ ca  || PS_7,2.30 ||
+hru hvare÷ chandasi  || PS_7,2.31 ||
+aparihvtà÷ ca  || PS_7,2.32 ||
+some hvaritaş  || PS_7,2.33 ||
+grasita-skabhita-stabhita-uttabhita-catta-vikastà vi÷ast-÷aüst-÷àst-tarut-taråt-varut-varåt-varåtrãr-ujjvaliti-kùariti-kùamiti-vamity-amiti iti ca  || PS_7,2.34 ||
+àrdhadhàtukasya+ió valàdeş  || PS_7,2.35 ||
+snu-kramor anàtmanepadanimitte  || PS_7,2.36 ||
+graho 'liñi dãrghaş  || PS_7,2.37 ||
+v®to và  || PS_7,2.38 ||
+na liïi  || PS_7,2.39 ||
+sici ca parasmaipadeùu  || PS_7,2.40 ||
+iñ sani và  || PS_7,2.41 ||
+liïsicor àtmanepadeùu  || PS_7,2.42 ||
+ta÷ ca saüyogàdeş  || PS_7,2.43 ||
+svarati-såti-såyati-dhå¤-ådito và  || PS_7,2.44 ||
+radhàdibhya÷ ca  || PS_7,2.45 ||
+niraş kuùaş  || PS_7,2.46 ||
+iõ niùñhàyàm  || PS_7,2.47 ||
+ti-iùa-saha-lubha-ruùa-riùaş  || PS_7,2.48 ||
+sani ivanta-rdha-bhrasja-dambhu-÷ri-sv-yu-årõu-bhara-j¤api-sanàm  || PS_7,2.49 ||
+kli÷aş ktvàniùñhayoş  || PS_7,2.50 ||
+påïa÷ ca  || PS_7,2.51 ||
+vasati-kùudhor iñ  || PS_7,2.52 ||
+a¤ceş påjàyàm  || PS_7,2.53 ||
+lubho vimohane  || PS_7,2.54 ||
+j®-vra÷cyoş ktvi  || PS_7,2.55 ||
+udito và  || PS_7,2.56 ||
+se 'sici kta-cta-cchda-tda-ntaş  || PS_7,2.57 ||
+gamer iñ parasmaipadeùu  || PS_7,2.58 ||
+na vdbhya÷ caturbhyaş  || PS_7,2.59 ||
+tàsi ca k¯paş  || PS_7,2.60 ||
+acas tàsvat thaly aniño nityam  || PS_7,2.61 ||
+upade÷e 'tvataş  || PS_7,2.62 ||
+to bhàradvàjasya  || PS_7,2.63 ||
+vabhåtha-àtatantha-jagbhma-vavartha+iti nigame  || PS_7,2.64 ||
+vibhàùà sjid÷oş  || PS_7,2.65 ||
+ió atty-arti-vyayatãnàm  || PS_7,2.66 ||
+vasv ekàj-àd-ghasàm  || PS_7,2.67 ||
+vibhàùà gama-hana-vida-vi÷àm  || PS_7,2.68 ||
+saniüsasanivàüsam  || PS_7,2.69 ||
+ddhanoş sye  || PS_7,2.70 ||
+aj¤eş sici  || PS_7,2.71 ||
+stu-su-dhå¤bhyaş parasmaipadeùu  || PS_7,2.72 ||
+yama-rama-nama-àtàü sak ca  || PS_7,2.73 ||
+smi-påï-r-a¤jv-a÷àü sani  || PS_7,2.74 ||
+kira÷ ca pa¤cabhyaş  || PS_7,2.75 ||
+rudàdibhyaş sàrvadhàtuke  || PS_7,2.76 ||
+ã÷aş se  || PS_7,2.77 ||
+ãóa-janor dhve ca  || PS_7,2.78 ||
+liïaş salopo 'nantyasya  || PS_7,2.79 ||
+ato yeyaş  || PS_7,2.80 ||
+àto ïitaş  || PS_7,2.81 ||
+àne muk  || PS_7,2.82 ||
+ãdàsaş  || PS_7,2.83 ||
+aùñana à vibhaktau  || PS_7,2.84 ||
+ràyo hali  || PS_7,2.85 ||
+yuùmad-asmador anàde÷e  || PS_7,2.86 ||
+dvitãyàyàü ca  || PS_7,2.87 ||
+prathamàyà÷ ca dvivacane bhàùàyàm  || PS_7,2.88 ||
+yo 'ci  || PS_7,2.89 ||
+÷eùe lopaş  || PS_7,2.90 ||
+maparyantasya  || PS_7,2.91 ||
+vakùyati - yuvàvau dvivacane  || PS_7,2.92 ||
+yåyavayau jasi  || PS_7,2.93 ||
+tvàhau sau  || PS_7,2.94 ||
+tubhya-mahyau ïayi  || PS_7,2.95 ||
+tava-mamau ïasi  || PS_7,2.96 ||
+tva-màv ekavacane  || PS_7,2.97 ||
+pratyaya-uttarapadayo÷ ca  || PS_7,2.98 ||
+tri-caturoş striyàü tis-catas  || PS_7,2.99 ||
+aci ra taş  || PS_7,2.100 ||
+jaràyà jaras anyatarasyàm  || PS_7,2.101 ||
+tyadàdãnàm aş  || PS_7,2.102 ||
+kimaş kaş  || PS_7,2.103 ||
+ku ti-hoş  || PS_7,2.104 ||
+kva ati  || PS_7,2.105 ||
+tadoş saş sàvanantyayoş  || PS_7,2.106 ||
+adasa au sulopa÷ ca  || PS_7,2.107 ||
+idamo maş  || PS_7,2.108 ||
+da÷ ca  || PS_7,2.109 ||
+yaş sau  || PS_7,2.110 ||
+ido 'y puüsi  || PS_7,2.111 ||
+ana-àpy akaş  || PS_7,2.112 ||
+hali lopaş  || PS_7,2.113 ||
+mjer vddhiş  || PS_7,2.114 ||
+aco ¤õiti  || PS_7,2.115 ||
+ata upadhàyàş  || PS_7,2.116 ||
+taddhiteùv acàm àdeş  || PS_7,2.117 ||
+kiti ca  || PS_7,2.118 ||
+devikà-÷iü÷apà-dityavàó-dãrghasatra-÷reyasàm àt  || PS_7,3.1 ||
+kekaya-mitrayu-pralayànàü ya-àder iyaş  || PS_7,3.2 ||
+na y-vàbhyàü padàntàbhyàü pårvau tu tàbhyàm aic  || PS_7,3.3 ||
+dvàràdãnàü ca  || PS_7,3.4 ||
+nyagrodhasya ca kevalasya  || PS_7,3.5 ||
+na karmavyatihàre  || PS_7,3.6 ||
+sv-àgata-àdãnàü ca  || PS_7,3.7 ||
+÷va-àder i¤i  || PS_7,3.8 ||
+padàntasya anyatarasyàm  || PS_7,3.9 ||
+uttarapadasya  || PS_7,3.10 ||
+vakùyati - avayavàdtoş  || PS_7,3.11 ||
+su-sarva-ardhàj janapadasya  || PS_7,3.12 ||
+di÷o 'madràõàm  || PS_7,3.13 ||
+pràcàü gràma-nagaràõàm  || PS_7,3.14 ||
+saïkhyàyàş saüvatsara-saïkhyasya ca  || PS_7,3.15 ||
+varùasya abhaviùyati  || PS_7,3.16 ||
+parimàõàntasya asa¤j¤à-÷àõayoş  || PS_7,3.17 ||
+je proùñhapadànàm  || PS_7,3.18 ||
+hd-bhaga-sindhvante pårvapadasya ca  || PS_7,3.19 ||
+anu÷atika-àdãnàm ca  || PS_7,3.20 ||
+devatàdvandve ca  || PS_7,3.21 ||
+na+indrasya parasya  || PS_7,3.22 ||
+dirghàc ca varuõasya  || PS_7,3.23 ||
+pràcàü nagarànte  || PS_7,3.24 ||
+jaïgala-dhenu-valajàntasya vibhàùitam uttaram  || PS_7,3.25 ||
+ardhàt parimàõasya pårvasya tu và  || PS_7,3.26 ||
+nàtaş parasya  || PS_7,3.27 ||
+pravàhaõasya óhe  || PS_7,3.28 ||
+tatpratyayasya ca  || PS_7,3.29 ||
+na¤aş ÷uci-ã÷vara-kùetraj¤a-ku÷ala-nipuõànàm  || PS_7,3.30 ||
+yathàtatha-yathàpurayoş paryàyeõa  || PS_7,3.31 ||
+hanas to 'ciõ-õaloş  || PS_7,3.32 ||
+àto yuk ciõ-ktoş  || PS_7,3.33 ||
+na+udàtta-upade÷asya ma-antasya anàcameş  || PS_7,3.34 ||
+jani-vadhyo÷ ca  || PS_7,3.35 ||
+arti-hvã-vlã-rã-knåyã-kùmàyy-àtàü pug õau  || PS_7,3.36 ||
+÷à-cchà-sà-hvà-vyà-ve-pàü yuk  || PS_7,3.37 ||
+vo vidhånane juk  || PS_7,3.38 ||
+lã-lor nug-lukàv anyatarasyàü snehavipàtane  || PS_7,3.39 ||
+bhiyo hetubhaye ùuk  || PS_7,3.40 ||
+sphàyo vaş  || PS_7,3.41 ||
+÷ader agatau taş  || PS_7,3.42 ||
+ruhaş po 'nyatarasyàm  || PS_7,3.43 ||
+pratyayasthàt kàt pårvasya ata id àpy asupaş  || PS_7,3.44 ||
+na yà-sayoş  || PS_7,3.45 ||
+udãcàmàtaş sthàne yakapårvàyàş  || PS_7,3.46 ||
+bhastrà-eùà-ajà-j¤à-dvà-svà na¤pårvàõàm api  || PS_7,3.47 ||
+abhàùitapuüskàc ca  || PS_7,3.48 ||
+àd-àcàryàõàm  || PS_7,3.49 ||
+ñhasya+ikaş  || PS_7,3.50 ||
+is-us-uk-tàntàt kaş  || PS_7,3.51 ||
+ca-joş ku ghiõ-õyatoş  || PS_7,3.52 ||
+nyaïkv-àdãnàü ca  || PS_7,3.53 ||
+ho hanter ¤-õin-neùu  || PS_7,3.54 ||
+abhyàsàc ca  || PS_7,3.55 ||
+her acaïi  || PS_7,3.56 ||
+san-liñor jeş  || PS_7,3.57 ||
+vibhàùà ceş  || PS_7,3.58 ||
+na kv-àdeş  || PS_7,3.59 ||
+aji-vrajyo÷ ca  || PS_7,3.60 ||
+bhuja-nyubjau pàõy-upatàpayoş  || PS_7,3.61 ||
+prayàja-anuyàjau yaj¤àïge  || PS_7,3.62 ||
+va¤cer gatau  || PS_7,3.63 ||
+oka ucaş ke  || PS_7,3.64 ||
+õya àva÷yake  || PS_7,3.65 ||
+yaja-yàca-ruca-pravaca-rca÷ ca  || PS_7,3.66 ||
+vaco '÷abdasa¤j¤àyàü  || PS_7,3.67 ||
+prayojya-niyojyau ÷akyàrthe  || PS_7,3.68 ||
+bhojyaü bhakùye  || PS_7,3.69 ||
+ghor lopo leñi và  || PS_7,3.70 ||
+otaş ÷yani  || PS_7,3.71 ||
+kùasya aci  || PS_7,3.72 ||
+lug và duha-diha-liha-guhàm àtmanepade dantye  || PS_7,3.73 ||
+÷amàm aùñànàü dãrghaş ÷yani  || PS_7,3.74 ||
+ùñhivu-klamy-àcamàü ÷iti  || PS_7,3.75 ||
+kramaş parasmaipadeùu  || PS_7,3.76 ||
+iùu-gami-yamàü chaş  || PS_7,3.77 ||
+pà-ghrà-dhmà-shà-mnà-dàõ-d÷y-arti-sarti-÷ada-sadàü piba-jighra-dhama-tiùtha-mana-yaccha-pa÷ya-rccha-dhau-÷ãya-sãdàş  || PS_7,3.78 ||
+j¤à-janor jà  || PS_7,3.79 ||
+pv-àdãnàü hrasvaş  || PS_7,3.80 ||
+mãnàter nigame  || PS_7,3.81 ||
+mider guõaş  || PS_7,3.82 ||
+jusi ca  || PS_7,3.83 ||
+sàrvadhàtuka-àrdhadhàtukayoş  || PS_7,3.84 ||
+jàgro 'vi-ciõ-õal-ïitsu  || PS_7,3.85 ||
+puganta-laghåpadhasya ca  || PS_7,3.86 ||
+na abhyastasya aci piti sàrvadhàtuke  || PS_7,3.87 ||
+bhå-suvos tiïi  || PS_7,3.88 ||
+uto vddhir luki hali  || PS_7,3.89 ||
+årõoter vibhàùà  || PS_7,3.90 ||
+guõo 'pkto  || PS_7,3.91 ||
+tõaha im  || PS_7,3.92 ||
+bruva ãñ  || PS_7,3.93 ||
+yaïo và  || PS_7,3.94 ||
+tu-ru-stu-÷amy-amaş sàrvadhàtuke  || PS_7,3.95 ||
+asti-sico 'pkte  || PS_7,3.96 ||
+bahulaü chandasi  || PS_7,3.97 ||
+ruda÷ ca pa¤cabhyaş  || PS_7,3.98 ||
+aó gàrgyagàlavayoş  || PS_7,3.99 ||
+adaş sarveùàm  || PS_7,3.100 ||
+ato dãrgho ya¤i  || PS_7,3.101 ||
+supi ca  || PS_7,3.102 ||
+bahuvacane jhalyet  || PS_7,3.103 ||
+osi ca  || PS_7,3.104 ||
+àïi càpaş  || PS_7,3.105 ||
+sambuddhau ca  || PS_7,3.106 ||
+ambàrthanadyor hrasvaş  || PS_7,3.107 ||
+hrasvasya guõaş  || PS_7,3.108 ||
+jasi ca  || PS_7,3.109 ||
+to ïi-sarvanàmasthànayoş  || PS_7,3.110 ||
+gher ïiti  || PS_7,3.111 ||
+àõ nadyàş  || PS_7,3.112 ||
+yàó àpaş  || PS_7,3.113 ||
+sarvanàmnaş syàó óhrasva÷ ca  || PS_7,3.114 ||
+vibhàùà dvitãyà-ttãyàbhyàm  || PS_7,3.115 ||
+ïeràm nady-àm-nãbhyaş  || PS_7,3.116 ||
+id-udbhyàm  || PS_7,3.117 ||
+aut  || PS_7,3.118 ||
+ac ca gheş  || PS_7,3.119 ||
+àïo nà 'striyàm  || PS_7,3.120 ||
+õau caïy upadhàyà hrasvaş  || PS_7,4.1 ||
+na aglopi-÷àsv-ditàm  || PS_7,4.2 ||
+bhràja-bhàsa-bhàùa-dãpa-jãva-mãla-pãóàm anyatarasyàm  || PS_7,4.3 ||
+lopaş pibater ãcca abhyàsasya  || PS_7,4.4 ||
+tiùñhater it  || PS_7,4.5 ||
+jighrater và  || PS_7,4.6 ||
+ur t  || PS_7,4.7 ||
+nityaü chandasi  || PS_7,4.8 ||
+dayater digi liñi  || PS_7,4.9 ||
+ta÷ ca saüyogàder guõaş  || PS_7,4.10 ||
+cchaty--tàm  || PS_7,4.11 ||
+÷®-d®-pràü hrasvo và  || PS_7,4.12 ||
+ke 'õaş  || PS_7,4.13 ||
+na kapi  || PS_7,4.14 ||
+apo 'nyatarasyàm  || PS_7,4.15 ||
+-d÷o 'ïi guõaş  || PS_7,4.16 ||
+asyates thuk  || PS_7,4.17 ||
+÷vayater aş  || PS_7,4.18 ||
+pataş pum  || PS_7,4.19 ||
+vaca um  || PS_7,4.20 ||
+÷ãïaş sàrvadhàtuke guõaş  || PS_7,4.21 ||
+ayaï yi kïiti  || PS_7,4.22 ||
+upasargàd dhrasva åhateş  || PS_7,4.23 ||
+eter ligi  || PS_7,4.24 ||
+akt-sàrvadhàtukayor dãrghaş  || PS_7,4.25 ||
+cvau ca  || PS_7,4.26 ||
+rãï taş  || PS_7,4.27 ||
+riï ÷ayagliïkùu  || PS_7,4.28 ||
+guõo 'rti-saüyogàd yoş  || PS_7,4.29 ||
+yaïi ca  || PS_7,4.30 ||
+ã ghrà-dhmoş  || PS_7,4.31 ||
+asya cvau  || PS_7,4.32 ||
+kyaci ca  || PS_7,4.33 ||
+a÷anàya-udanya-dhànàyà bubhukùà-pipàsà-gardheùu  || PS_7,4.34 ||
+na cchandasy aputrasya  || PS_7,4.35 ||
+durasyur-draviõasyur-vùaõyati riùaõyati  || PS_7,4.36 ||
+a÷va-aghasya àt  || PS_7,4.37 ||
+deva-sumnayor yajuùi kàñhake  || PS_7,4.38 ||
+kavy-adhavara-ptanasya-rci lopaş  || PS_7,4.39 ||
+dyati-syati-mà-sthàm it ti kiti  || PS_7,4.40 ||
+÷à-chor anyatarasyàm  || PS_7,4.41 ||
+dadhàter hiş  || PS_7,4.42 ||
+jahàte÷ ca ktvi  || PS_7,4.43 ||
+vibhàùà chandasi  || PS_7,4.44 ||
+sudhita-vasudhita-nemadhita-dhiùva-dhiùãya ca  || PS_7,4.45 ||
+do dad ghoş  || PS_7,4.46 ||
+aca upasargàt taş  || PS_7,4.47 ||
+apo bhi  || PS_7,4.48 ||
+saş sy àrdhadhàtuke  || PS_7,4.49 ||
+tàs-astyor lopaş  || PS_7,4.50 ||
+ri ca  || PS_7,4.51 ||
+ha eti  || PS_7,4.52 ||
+yi-ivarnayor dãdhã-vevyoş  || PS_7,4.53 ||
+sani mã-mà-ghu-rabha-labha-÷aka-pata-padàm aca is  || PS_7,4.54 ||
+àp-j¤apy-dhàm ãt  || PS_7,4.55 ||
+dambha ic-ca  || PS_7,4.56 ||
+muco 'karmakasya guõo và  || PS_7,4.57 ||
+atra lopo 'bhyàsasya  || PS_7,4.58 ||
+hrasvaş  || PS_7,4.59 ||
+halàdiş ÷eùaş  || PS_7,4.60 ||
+÷arpårvàş khayaş  || PS_7,4.61 ||
+ku-ho÷ cuş  || PS_7,4.62 ||
+na kavater yaïi  || PS_7,4.63 ||
+kùe÷chandasi  || PS_7,4.64 ||
+dàdharti-dardharti-dardharùi-bobhåtu-tetikte 'larùy-àpanãphaõat-saüsaniùyadat-karikrat-kanikradat-bharibhrad-davidhvato-davidyutat-taritrataş-sarãspataü-varãvjan-marmjya-àganãganti iti ca  || PS_7,4.65 ||
+urat  || PS_7,4.66 ||
+dyuti-svàpyoş samprasàraõam  || PS_7,4.67 ||
+vyatho liñi  || PS_7,4.68 ||
+dãrgha iõaş kiti  || PS_7,4.69 ||
+ata àdeş  || PS_7,4.70 ||
+tasmàn nuó dvihalaş  || PS_7,4.71 ||
+a÷note÷ ca  || PS_7,4.72 ||
+bhavater aş  || PS_7,4.73 ||
+sasåveti nigame  || PS_7,4.74 ||
+õijàü trayàõàü guõaş ÷lau  || PS_7,4.75 ||
+bh¤àmit  || PS_7,4.76 ||
+arti-pipartyo÷ ca  || PS_7,4.77 ||
+bahulaü chandasi  || PS_7,4.78 ||
+sanyataş  || PS_7,4.79 ||
+oş pu-yaõ-jy-apare  || PS_7,4.80 ||
+stravati-÷õoti-dravati-pravati-plavati-cyavatãnàü và  || PS_7,4.81 ||
+guõo yaï-lukoş  || PS_7,4.82 ||
+dãrgho 'kitaş  || PS_7,4.83 ||
+nãg va¤cu-sraüsu-dhvaüsu-bhraüsu-kasa-pata-pada-skandàm  || PS_7,4.84 ||
+nug ato 'nunàsikàntasya  || PS_7,4.85 ||
+japa-jabha-daha-da÷a-bha¤ja-pa÷àü ca  || PS_7,4.86 ||
+cara-phalo÷ ca  || PS_7,4.87 ||
+ut parasya ataş  || PS_7,4.88 ||
+ti ca  || PS_7,4.89 ||
+rãgdupadhasya ca  || PS_7,4.90 ||
+rug-rikau ca luki  || PS_7,4.91 ||
+ta÷ ca  || PS_7,4.92 ||
+sanval laghuni caïpare 'nag lope  || PS_7,4.93 ||
+dãrgho laghoş  || PS_7,4.94 ||
+at sm-d®-tvara-pratha-mrada-st®-spa÷àm  || PS_7,4.95 ||
+vibhàùà veùñiceùñyoş  || PS_7,4.96 ||
+ã ca gaõaş  || PS_7,4.97 ||
+sarvasya dve  || PS_8,1.1 ||
+tasya param àmreóitam  || PS_8,1.2 ||
+anudàttaü ca  || PS_8,1.3 ||
+nitya-vãpsayoş  || PS_8,1.4 ||
+parer varjane  || PS_8,1.5 ||
+pra-sam-upa-udaş pàdapåraõe  || PS_8,1.6 ||
+uparyadhyadhasaş sàmãpye  || PS_8,1.7 ||
+vàkyàder àmantritasya asåyà-sammati-kopa-kutsana-bhartsaneùu  || PS_8,1.8 ||
+ekaü bahuvrãhivat  || PS_8,1.9 ||
+àbàdhe ca  || PS_8,1.10 ||
+karmadhàrayavad uttareùu  || PS_8,1.11 ||
+prakàre guõavacanasya  || PS_8,1.12 ||
+akcchre priya-sukhayor anyatarasyàm  || PS_8,1.13 ||
+yathàsve yathàyatham  || PS_8,1.14 ||
+dvandvaü rahasya-maryàdàvacana-vyutkramaõa-yaj¤apàtraprayoga-abhivyaktiùu  || PS_8,1.15 ||
+padasya  || PS_8,1.16 ||
+padàt  || PS_8,1.17 ||
+anudàttaü sarvam apàdàdau  || PS_8,1.18 ||
+àmantritasya ca  || PS_8,1.19 ||
+yuùmad-asmadoş ùaùñhã-caturthã-dvitãyàsthayor vàn-nàvau  || PS_8,1.20 ||
+bahuvacanasya vas-nasau  || PS_8,1.21 ||
+temayàv ekavacanasya  || PS_8,1.22 ||
+tvàmau dvitãyàyàş  || PS_8,1.23 ||
+na ca-và-ha-aha-evayukte  || PS_8,1.24 ||
+pa÷yàrthai÷ ca anàlocane  || PS_8,1.25 ||
+sapårvàyàş prathamàyà vibhàùà  || PS_8,1.26 ||
+tiïo gotràdãni kutsana-àbhãkùõyayoş  || PS_8,1.27 ||
+tiïï atiïaş  || PS_8,1.28 ||
+na luñ  || PS_8,1.29 ||
+nipàtair yad-yadi-hanta-kuvin-nec-cec-caõ-kaccid-yatrayutam  || PS_8,1.30 ||
+naha pratyàrambhe  || PS_8,1.31 ||
+satyaü pra÷ne  || PS_8,1.32 ||
+aïgàpràtilomye  || PS_8,1.33 ||
+hi ca  || PS_8,1.34 ||
+chandasy anekam api sàkàïkùam  || PS_8,1.35 ||
+yàvad-yathàbhyàm  || PS_8,1.36 ||
+påjàyàü na anantaram  || PS_8,1.37 ||
+upasargavyapetaü ca  || PS_8,1.38 ||
+tu-pa÷yapa÷yata-ahaiş påjàyàm  || PS_8,1.39 ||
+aho ca  || PS_8,1.40 ||
+÷eùe vibhàùà  || PS_8,1.41 ||
+purà ca parãpsàyàm  || PS_8,1.42 ||
+nanv ity anuj¤à-eùaõàyàm  || PS_8,1.43 ||
+kiü kriyàpra÷ne 'nupasargam apratiùiddham  || PS_8,1.44 ||
+lope vibhàùà  || PS_8,1.45 ||
+ehi manye prahàse lñ  || PS_8,1.46 ||
+jàtvapårvam  || PS_8,1.47 ||
+kiüvttaü ca ciduttaram  || PS_8,1.48 ||
+àho utàho ca anantaram  || PS_8,1.49 ||
+÷eùe vibhàùà  || PS_8,1.50 ||
+gatyartha-loñà lõ na cet kàrakaü sarvànyat  || PS_8,1.51 ||
+loñ ca  || PS_8,1.52 ||
+vibhàùitaü sopasargam anuttamam  || PS_8,1.53 ||
+hanta ca  || PS_8,1.54 ||
+àma ekàntaram àmantritam anantike  || PS_8,1.55 ||
+yad-dhi-tuparaü chandasi  || PS_8,1.56 ||
+cana-cid-iva-gotràdi-taddhita-àmreóiteùv agateş  || PS_8,1.57 ||
+càdiùu ca  || PS_8,1.58 ||
+ca-và-yoge prathamà  || PS_8,1.59 ||
+heti kùiyàyàm  || PS_8,1.60 ||
+aha+iti viniyoge ca  || PS_8,1.61 ||
+ca-aha-lopa eva+ity avadhàraõam  || PS_8,1.62 ||
+cadilope vibhàùà  || PS_8,1.63 ||
+vai-vàva+iti ca cchandasi  || PS_8,1.64 ||
+ekànyàbhyàü samarthàbhyàm  || PS_8,1.65 ||
+yadvttàn nityam  || PS_8,1.66 ||
+påjanàt påjitam anudàttaü kàùñhàdibhyaş  || PS_8,1.67 ||
+sagatir api tiï  || PS_8,1.68 ||
+kutsane ca supy agotràdau  || PS_8,1.69 ||
+gatir gatau  || PS_8,1.70 ||
+tiïi ca+udàttavati  || PS_8,1.71 ||
+àmantritaü pårvam avidyamànavat  || PS_8,1.72 ||
+na àmantrite samànàdhikaraõe sàmànyavacanam  || PS_8,1.73 ||
+vibhàùitaü vi÷eùavacane bahuvacanam  || PS_8,1.74 ||
+pårvatra asiddham  || PS_8,2.1 ||
+nalopaş sup-svara-sa¤j¤à-tug-vidhiùu kti  || PS_8,2.2 ||
+na mu ne  || PS_8,2.3 ||
+udàtta-svaritayor yaõaş svarito 'nudàttasya  || PS_8,2.4 ||
+ekàde÷a udàtena+udàttaş  || PS_8,2.5 ||
+svarito và 'nudàtte padàdau  || PS_8,2.6 ||
+nalopaş pràtipadikàntasya  || PS_8,2.7 ||
+na ïi-sambuddhyoş  || PS_8,2.8 ||
+m-àd-upadhàyà÷ ca mator vo 'yava-àdibhyaş  || PS_8,2.9 ||
+jhayaş  || PS_8,2.10 ||
+sa¤j¤àyàm  || PS_8,2.11 ||
+àsandãvad-aùñhãvac-cakrãvat-kakùãvad-rumaõvac-carmaõvatã  || PS_8,2.12 ||
+udanvan udadhau ca  || PS_8,2.13 ||
+ràjanvàn sauràjye  || PS_8,2.14 ||
+chandasi iraş  || PS_8,2.15 ||
+ano nuñ  || PS_8,2.16 ||
+nàd ghasya  || PS_8,2.17 ||
+kpo ro laş  || PS_8,2.18 ||
+upasargaya ayatau  || PS_8,2.19 ||
+gro yaïi  || PS_8,2.20 ||
+aci vibhàùà  || PS_8,2.21 ||
+pare÷ ca gha-aïkayoş  || PS_8,2.22 ||
+saüyogàntasya lopaş  || PS_8,2.23 ||
+ràt sasya  || PS_8,2.24 ||
+dhi ca  || PS_8,2.25 ||
+jhalo jhali  || PS_8,2.26 ||
+hrasvàd aïgàt  || PS_8,2.27 ||
+iña ãñi  || PS_8,2.28 ||
+s-koş saüyoga-àdyor ante ca  || PS_8,2.29 ||
+coş kuş  || PS_8,2.30 ||
+ho óhaş  || PS_8,2.31 ||
+dàder dhàtor ghaş  || PS_8,2.32 ||
+và druha-muha-ùõuha-ùõihàm  || PS_8,2.33 ||
+naho dhaş  || PS_8,2.34 ||
+àhasthaş  || PS_8,2.35 ||
+vra÷ca-bhrasja-sja-mja-yaja-ràja-bhràja-ccha-÷àü ùaş  || PS_8,2.36 ||
+ekàco ba÷o bhaù jhaùantasya s-dhvoş  || PS_8,2.37 ||
+dadhas ta-tho÷ ca  || PS_8,2.38 ||
+jhalàü ja÷o 'nte  || PS_8,2.39 ||
+jhaùas ta-thor dho 'dhaş  || PS_8,2.40 ||
+ùa-óhoş kaş si  || PS_8,2.41 ||
+ra-dàbhyàü niùthàto naş pårvasya ca daş  || PS_8,2.42 ||
+saüyogàder àto dhàtor yaõvataş  || PS_8,2.43 ||
+lvàdibhyaş  || PS_8,2.44 ||
+odita÷ ca  || PS_8,2.45 ||
+kùiyo dãrghàt  || PS_8,2.46 ||
+÷yo 'spar÷e  || PS_8,2.47 ||
+a¤co 'napàdàne  || PS_8,2.48 ||
+divo 'vijigãùàyàm  || PS_8,2.49 ||
+nirvàõo 'vàte  || PS_8,2.50 ||
+÷uùaş kaş  || PS_8,2.51 ||
+paco vaş  || PS_8,2.52 ||
+kùàyo maş  || PS_8,2.53 ||
+prastyo 'nyatarasyàm  || PS_8,2.54 ||
+anupasargàt phulla-kùãba-k÷a-ullàghàş  || PS_8,2.55 ||
+nuda-vida-unda-trà-ghrà-hrãbhyo 'nyatarasyàm  || PS_8,2.56 ||
+na dhyà-khyà-p®-mårcchi-madàm  || PS_8,2.57 ||
+vitto bhoga-pratyayayoş  || PS_8,2.58 ||
+bhittaü ÷akalam  || PS_8,2.59 ||
+õam àdhamarõye  || PS_8,2.60 ||
+nasatta-niùatta-anutta-pratårta-sårta-gårtàni chandasi  || PS_8,2.61 ||
+kvinpratyayasya kuş  || PS_8,2.62 ||
+na÷er và  || PS_8,2.63 ||
+mo no dhàtoş  || PS_8,2.64 ||
+m-vo÷ ca  || PS_8,2.65 ||
+sa-sajuùo ruş  || PS_8,2.66 ||
+avayàş ÷vetavàş påroóà÷ ca  || PS_8,2.67 ||
+ahan  || PS_8,2.68 ||
+ro 'supi  || PS_8,2.69 ||
+amnar-ådhar-avar ity ubhayathà chandasi  || PS_8,2.70 ||
+bhuva÷ ca mahàvyàhteş  || PS_8,2.71 ||
+vasu-sraüsu-dhvaüsv-anaóuhàü daş  || PS_8,2.72 ||
+tipy anasteş  || PS_8,2.73 ||
+sipi dhàto rurvà  || PS_8,2.74 ||
+da÷ ca  || PS_8,2.75 ||
+r-vor upadhàyà dãrgha ikaş  || PS_8,2.76 ||
+hali ca  || PS_8,2.77 ||
+upadhàyàü ca  || PS_8,2.78 ||
+na bha-kur-churàm  || PS_8,2.79 ||
+adaso 'ser dàd u do maş  || PS_8,2.80 ||
+eta ãd bahuvacane  || PS_8,2.81 ||
+vàkyasya ñeş pluta udàttaş  || PS_8,2.82 ||
+vakùyati - pratyabhivàde '÷ådre  || PS_8,2.83 ||
+dåràd dhåte ca  || PS_8,2.84 ||
+hai-heprayoge hai-hayoş  || PS_8,2.85 ||
+guror anto 'nantyasya apy ekaikasya pràcàm  || PS_8,2.86 ||
+om abhyàdàne  || PS_8,2.87 ||
+ye yaj¤akarmaõi  || PS_8,2.88 ||
+praõavaù ñeş  || PS_8,2.89 ||
+yàjyàntaş  || PS_8,2.90 ||
+bråhi-preùya-÷rauùaó-vauùaó-àvahànàm àdeş  || PS_8,2.91 ||
+agnãt-preùaõe parasya ca  || PS_8,2.92 ||
+vibhàùà pùñaprativacane heş  || PS_8,2.93 ||
+nighya-anuyoge ca  || PS_8,2.94 ||
+àmreóitaü bhartsane  || PS_8,2.95 ||
+aïgayuktaü tiï àkàïkùam  || PS_8,2.96 ||
+vicàryamàõànàm  || PS_8,2.97 ||
+pårvaü tu bhàùàyàm  || PS_8,2.98 ||
+prati÷ravaõe ca  || PS_8,2.99 ||
+anudàttaü pra÷nànta-abhipåjitayoş  || PS_8,2.100 ||
+cid iti ca+upamàrthe prayujyamàne  || PS_8,2.101 ||
+uparisvid àsãd iti ca  || PS_8,2.102 ||
+svaritam àmreóite 'såyà-sammati-kopa-kutsaneùu  || PS_8,2.103 ||
+kùiyà-à÷ãş-praiùeùu tiï àkàïkùam  || PS_8,2.104 ||
+anantyasya api pra÷nàkhyànayoş  || PS_8,2.105 ||
+plutàv aica idutau  || PS_8,2.106 ||
+eco 'praghyasya adåràdhdåte pårvasya ardhasya ad uttarasya+idutau  || PS_8,2.107 ||
+tayor y-v-àv aci saühitàyàm  || PS_8,2.108 ||
+matu-vaso ru sambuddhau chandasi  || PS_8,3.1 ||
+atrànunàsikaş pårvasya tu và  || PS_8,3.2 ||
+ato 'ñi nityam  || PS_8,3.3 ||
+anunàsikàt paro 'nusvàraş  || PS_8,3.4 ||
+vakùyati - samaş suti  || PS_8,3.5 ||
+pumaş khayyampare  || PS_8,3.6 ||
+na÷chavyapra÷àn  || PS_8,3.7 ||
+ubhayatha rkùu  || PS_8,3.8 ||
+dãrghàd añi samànapàde  || PS_8,3.9 ||
+n®n pe  || PS_8,3.10 ||
+svatavàn pàyau  || PS_8,3.11 ||
+kàn àmreóite  || PS_8,3.12 ||
+óho óhe lopaş  || PS_8,3.13 ||
+ro ri  || PS_8,3.14 ||
+khar-avasànayor visarjanãyaş  || PS_8,3.15 ||
+roş supi  || PS_8,3.16 ||
+bho-bhago-agho-apårvasya yo '÷i  || PS_8,3.17 ||
+v-yor laghuprayatnataraş ÷àkañàyanasya  || PS_8,3.18 ||
+lopaş ÷àkalyasya  || PS_8,3.19 ||
+oto gargyasya  || PS_8,3.20 ||
+u¤i ca pade  || PS_8,3.21 ||
+hali sarveùàü  || PS_8,3.22 ||
+mo 'nusvàraş  || PS_8,3.23 ||
+na÷ ca apadàntasya jhali  || PS_8,3.24 ||
+mo ràji samaş kvau  || PS_8,3.25 ||
+he mapare và  || PS_8,3.26 ||
+napare naş  || PS_8,3.27 ||
+ï-õoş kuk-ñuk ÷ari  || PS_8,3.28 ||
+óaş si óhuñ  || PS_8,3.29 ||
+na÷ ca  || PS_8,3.30 ||
+÷i tuk  || PS_8,3.31 ||
+ïamo hrasvàd aci ïamuõ nityam  || PS_8,3.32 ||
+maya u¤o vo và  || PS_8,3.33 ||
+visarjanãyasya saş  || PS_8,3.34 ||
+÷arpare visarjanãyaş  || PS_8,3.35 ||
+và ÷ari  || PS_8,3.36 ||
+kupvoş ÛkaÜpau ca (READ: [jihvàmålãya-]ka-[upadhmànãya-]pau)  || PS_8,3.37 ||
+so 'padàdau  || PS_8,3.38 ||
+iõaş ùaş  || PS_8,3.39 ||
+namas-purasor gatyoş  || PS_8,3.40 ||
+id-ud-upadhasya ca apratyayasya  || PS_8,3.41 ||
+tiraso 'nyatarasyàm  || PS_8,3.42 ||
+dvis-tri÷-catur iti ktvo 'rthe  || PS_8,3.43 ||
+is-usoş sàmarthye  || PS_8,3.44 ||
+nityaü samàse 'nuttarapadasthasya  || PS_8,3.45 ||
+ataş k-kami-kaüsa-kumbha-pàtra-ku÷à-karõãùv anavyayasya  || PS_8,3.46 ||
+adhaş-÷irasã pade  || PS_8,3.47 ||
+kaskàdiùu ca  || PS_8,3.48 ||
+chandasi và 'pra-àmreóitayoş  || PS_8,3.49 ||
+kaşkaratkaratikdhikteùvanaditeş  || PS_8,3.50 ||
+pa¤camyàş paràvadhyarthe  || PS_8,3.51 ||
+pàtau ca bahulam  || PS_8,3.52 ||
+ùaùñhyàş pati-putra-pùñha-pàra-pada-payas-poùeùu  || PS_8,3.53 ||
+ióàyà và  || PS_8,3.54 ||
+apadàntasya mårdhanyaş  || PS_8,3.55 ||
+saheş sàóaş saş  || PS_8,3.56 ||
+iõ-koş  || PS_8,3.57 ||
+nam-visarjanãya-÷arvyavàye 'pi  || PS_8,3.58 ||
+àde÷apratyayayoş  || PS_8,3.59 ||
+÷àsi-vasi-ghasãnàü ca  || PS_8,3.60 ||
+stauti-õyor eva ùaõy abhyàsàt  || PS_8,3.61 ||
+saş svidi-svadi-sahãnàü ca  || PS_8,3.62 ||
+pràk sitàd aó vyavàye 'pi  || PS_8,3.63 ||
+svàdiùv abhyàsena ca abhyàsasya  || PS_8,3.64 ||
+upasargàt sunoti-suvati-syati-stauti-stobhati-sthà-senaya-sedha-sica-sa¤ja-sva¤jàm  || PS_8,3.65 ||
+sadir aprateş  || PS_8,3.66 ||
+stanbheş  || PS_8,3.67 ||
+avàc ca àlaüvana-àvidåryayoş  || PS_8,3.68 ||
+ve÷ ca svano bhojane  || PS_8,3.69 ||
+parinivibhyaş seva-sita-saya-sivu-saha-suñ-stu-sva¤jàm  || PS_8,3.70 ||
+sivàdãnàü và aóvyavàye 'pi  || PS_8,3.71 ||
+anu-vi-pary-abhi-nibhyaş syandater apràõiùu  || PS_8,3.72 ||
+veş skander aniùñhàyàm  || PS_8,3.73 ||
+pare÷ ca  || PS_8,3.74 ||
+pariskandaş pràcyabharateùu  || PS_8,3.75 ||
+sphurati-sphulatyor nir-ni-vibhyaş  || PS_8,3.76 ||
+veş skabhnàter nityam  || PS_8,3.77 ||
+iõaş ùãdhvaü-luï-liñàü dho 'ïgàt  || PS_8,3.78 ||
+vibhàùà+iñaş  || PS_8,3.79 ||
+samàse 'ïguleş saïgaş  || PS_8,3.80 ||
+bhãroş sthànam  || PS_8,3.81 ||
+agneş stut-stoma-somàş  || PS_8,3.82 ||
+jyotir-àyuùaş stomaş  || PS_8,3.83 ||
+màt-pitbhyàü svasà  || PS_8,3.84 ||
+màtuşpiturbhyàmanyatarasyàm  || PS_8,3.85 ||
+abhinisaş stanaş ÷abdasa¤j¤àyàm  || PS_8,3.86 ||
+upasarga-pràdurbhyàm astir y-ac-paraş  || PS_8,3.87 ||
+su-vi-nir-durbhyaş supi-såti-samàş  || PS_8,3.88 ||
+ni-nadãbhyàü snàteş kau÷ale  || PS_8,3.89 ||
+såtraü pratiùõàtam  || PS_8,3.90 ||
+kapiùñhalo gotre  || PS_8,3.91 ||
+praùñho 'gragàmini  || PS_8,3.92 ||
+vkùa-àsanayor viùñaraş  || PS_8,3.93 ||
+chandonàmni ca  || PS_8,3.94 ||
+gavi-yudhibhyàü sthiraş  || PS_8,3.95 ||
+vi-ku-÷ami-paribhyaş sthalam  || PS_8,3.96 ||
+amba-àmba-go-bhåmi-savya-apa-dvi-tri-ku-÷eku-÷aïkv-aïgu-ma¤ji-pu¤ji-parame-barhir-divy-agnibhyaş sthaş  || PS_8,3.97 ||
+suùàmàdiùu ca  || PS_8,3.98 ||
+hrasvàt tàdau taddhite  || PS_8,3.99 ||
+nisas tapatàv anasevane  || PS_8,3.100 ||
+yuùmat-tat-tatakùuşùv antaşpàdam  || PS_8,3.101 ||
+yujuùy ekeùàm  || PS_8,3.102 ||
+stuta-stomayo÷ chandasi  || PS_8,3.103 ||
+pårvapadàt  || PS_8,3.104 ||
+su¤aş  || PS_8,3.105 ||
+sanoter anaş  || PS_8,3.106 ||
+saheş ptana-rtàbhyàü ca  || PS_8,3.107 ||
+na rapara-spi-sji-sp÷i-sphi-savana-àdãnàm  || PS_8,3.108 ||
+sàt padàdyoş  || PS_8,3.109 ||
+sico yaïi  || PS_8,3.110 ||
+sedhater gatau  || PS_8,3.111 ||
+pratistabdha-nistabdhau ca  || PS_8,3.112 ||
+soóhaş  || PS_8,3.113 ||
+stambhusivusahàü caïi  || PS_8,3.114 ||
+sanoteş sya-sanoş  || PS_8,3.115 ||
+sadiùva¤joş parasya liñi  || PS_8,3.116 ||
+nivyabhibhyo 'óvyavàye và chandasi  || PS_8,3.117 ||
+ra-ùàbhyàü no õaş samànapade  || PS_8,4.1 ||
+añ-ku-pv-àï-num-vyavàye 'pi  || PS_8,4.2 ||
+pårvapadàt sa¤j¤àyàm agaş  || PS_8,4.3 ||
+vanaü puragà-mi÷rakà-sidhrakà-÷àrikà-koñara-agrebhyaş  || PS_8,4.4 ||
+pra-nir-antaş-÷ara-ikùu-plakùa-àmra-kàrùya-khadira-pãyåkùàbhyo 'sa¤j¤àyàm api  || PS_8,4.5 ||
+vibhàùauùadhivanaspatibhyaş  || PS_8,4.6 ||
+ahno 'dantàt  || PS_8,4.7 ||
+vàhanam àhitàt  || PS_8,4.8 ||
+pànaü de÷e  || PS_8,4.9 ||
+và bhàva-karaõayoş  || PS_8,4.10 ||
+pràtipadikànta-num-vibhaktiùu ca  || PS_8,4.11 ||
+ekàjuttarapade õaş  || PS_8,4.12 ||
+kumati ca  || PS_8,4.13 ||
+upasargàd asamàse 'pi õa-upade÷asya  || PS_8,4.14 ||
+hinu-mãnà  || PS_8,4.15 ||
+àni loñ  || PS_8,4.16 ||
+ner gada-nada-pata-pada-ghu-mà-syati-hanti-yàti-vàti-dràti-psàti-vapati-vahati-÷àmyati-cinoti-degdhiùu ca  || PS_8,4.17 ||
+÷eùe vibhàùà 'ka-khàdàv-aùànta upade÷e  || PS_8,4.18 ||
+aniteş  || PS_8,4.19 ||
+antaş  || PS_8,4.20 ||
+ubhau sàbhyàsasya  || PS_8,4.21 ||
+hanter atpårvasya  || PS_8,4.22 ||
+va-mor và  || PS_8,4.23 ||
+antar ade÷e  || PS_8,4.24 ||
+ayanaü ca  || PS_8,4.25 ||
+chandasy davagrahàt  || PS_8,4.26 ||
+na÷ ca dhàtustha-uru-ùubhyaş  || PS_8,4.27 ||
+upasargàd bahulam  || PS_8,4.28 ||
+kty acaş  || PS_8,4.29 ||
+õer vibhàùà  || PS_8,4.30 ||
+hala÷cejupadhàt  || PS_8,4.31 ||
+ijàdeş sanumaş  || PS_8,4.32 ||
+và niüsa-nikùa-nindàm  || PS_8,4.33 ||
+na bhà-bhå-på-kami-gami-pyàyã-vepàm  || PS_8,4.34 ||
+ùàt padàntàt  || PS_8,4.35 ||
+na÷eş ùàntasya  || PS_8,4.36 ||
+padàntasya  || PS_8,4.37 ||
+padavyavàye 'pi  || PS_8,4.38 ||
+kùubhnàdiùu ca  || PS_8,4.39 ||
+s-toş ÷-cunà ÷-cuş  || PS_8,4.40 ||
+ùñunà ùuş  || PS_8,4.41 ||
+na padàntàñ ñor anàm  || PS_8,4.42 ||
+toş ùi  || PS_8,4.43 ||
+÷àt  || PS_8,4.44 ||
+yaro 'nunàsike 'nunàsiko và  || PS_8,4.45 ||
+aco ra-hàbhyàü dve  || PS_8,4.46 ||
+anaci ca  || PS_8,4.47 ||
+na àdiny-àkro÷e putrasya  || PS_8,4.48 ||
+÷aro 'ci  || PS_8,4.49 ||
+triprabhtiùu ÷àkañàyanasya  || PS_8,4.50 ||
+sarvatra ÷àkalyasya  || PS_8,4.51 ||
+dãrghàd àcàryàõàm  || PS_8,4.52 ||
+jhalaü ja÷ jha÷i  || PS_8,4.53 ||
+abhyàse carca  || PS_8,4.54 ||
+khari ca  || PS_8,4.55 ||
+và+avasàne  || PS_8,4.56 ||
+aõo 'praghyasya anunàsikaş  || PS_8,4.57 ||
+anusvàrasya yayi parasavarõaş  || PS_8,4.58 ||
+và padàntasya  || PS_8,4.59 ||
+tor li  || PS_8,4.60 ||
+udaş sthàstambhoş pårvasya  || PS_8,4.61 ||
+jhayo ho 'nyatarasyàm  || PS_8,4.62 ||
+÷a÷cho 'ñi  || PS_8,4.63 ||
+halo yamàü yami lopaş  || PS_8,4.64 ||
+jharo jhari savarõe  || PS_8,4.65 ||
+udattàd anudàttasya svaritaş  || PS_8,4.66 ||
+na+udàttasvaritodayam a-gàrghya-kà÷yapa-gàlavànàm  || PS_8,4.67 ||
+a a iti  || PS_8,4.68 ||
+

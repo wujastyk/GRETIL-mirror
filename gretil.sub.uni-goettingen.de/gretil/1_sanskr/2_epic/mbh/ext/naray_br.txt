@@ -1,0 +1,2880 @@
+Narayaniya (Mahabharata 12.321-339)
+Input by Peter Schreiner
+
+Analytic version (BHELA conventions)
+
+
+This file is based on the package NARAYANIYA.ZIP accompanying
+the following book:
+
+Reinhold Gruenendahl ; Angelika Malinar ; Thomas Oberlies ; Peter
+Schreiner: Narayaniya-Studien. Herausgegeben von Peter Schreiner.
+Wiesbaden: Harrassowitz, 1997.  
+(Purana Research Publications Tuebingen ; 5)
+
+
+___________________________________________________________________
+
+THIS TEXT FILE IS FOR REFERENCE PURPOSES ONLY!
+COPYRIGHT AND TERMS OF USAGE AS FOR SOURCE FILE.
+            
+Text converted to Ronald E. Emmerick's encoding for WordPerfect 5.1 DOS 
+and related utility programmes BHELA, CARAKA etc. (DOS versions):
+            
+description             character  =ASCII
+            
+long a                  Ã             195
+long A                  ù             249
+long i                  Å             197
+long I                  ı             253
+long u                  Æ             198
+long U                  ô             244
+vocalic r               ­             173
+vocalic R               ã             227
+long vocalic r          Ì             204
+vocalic l               Ê             202
+long vocalic l          Ë             203
+velar n                 Ç             199
+velar N                 §             167
+palatal n               ¤             164
+palatal N               ¥             165
+retroflex t             Â             194
+retroflex T             è             232
+retroflex d             ¬             172
+retroflex D             Ö             214
+retroflex n             ï             239
+retroflex N             ×             215
+palatal s               Ó             211
+palatal S               Á             193
+retroflex s             «             171
+retroflex S             å             229
+anusvara                æ             230
+capital anusvara        õ             245
+visarga                 ÷             247
+capital visarga         ê             234
+
+Other characters of the REE encoding table are not included.
+Unless indicated otherwise, accents have been dropped in order 
+to facilitate word search.             
+
+For a comprehensive list of REE and other GRETIL encodings 
+and formats see:
+www.sub.uni-goettingen.de/ebene_1/fiindolo/gretil/gretdiac.pdf
+and
+www.sub.uni-goettingen.de/ebene_1/fiindolo/gretil/gretdias.pdf
+___________________________________________________________________
+
+
+
+
+Sandhi markers:
+(. =short vowel, - =long vowel)
+
+in word-sandhi:
+1: . .  e.g.: veda+anta = vedà1nta
+2: - .
+3: . -
+4: - -
+ 
+in sentence-sandhi:
+7: . .  e.g.: ca+api = cÃ7pi
+8: . -
+9: - .
+0: - -
+
+
+
+<12321.1/1> yudhi-«Âhira uvÃca: g­ha-stho brahma-cÃrÅ vÃ !vÃnaprastho 'tha bhik«uka÷ !
+<12321.1/2> ya icchet siddhim ÃsthÃtuæ !devatÃæ kÃæ yajeta sa÷ !!12321.1!
+<12321.2/1> kuto hy asya dhruva÷ svarga÷ !kuto ni÷-Óreyasaæ param !
+<12321.2/2> vidhinÃ kena juhuyÃd !daivaæ pitryaæ tathai9va ca !!12321.2!
+<12321.3/1> muktaÓ ca kÃæ gatiæ gacchen !mok«aÓ cai7va kim-Ãtmaka÷ !
+<12321.3/2> svar-gataÓ cai7va kiæ kuryÃd !yena na cyavate diva÷ !!12321.3!
+<12321.4/1> devatÃnÃæ ca ko deva÷ !pitÌïÃæ ca tathÃ pitÃ !
+<12321.4/2> tasmÃt parataraæ yac ca !tan me brÆhi pitÃ-maha !!12321.4!
+<12321.5/1> bhÅ«ma uvÃca: gÆ¬haæ mÃæ praÓna-vit praÓnaæ !p­cchase tvam ihÃ7n-agha !
+<12321.5/2> na hy e«a tarkayÃ Óakyo !vaktuæ var«a-Óatair api !!12321.5!
+<12321.6/1> ­te deva-prasÃdÃd vÃ !rÃja¤ j¤ÃnÃ3gamena vÃ !
+<12321.6/2> gahanaæ hy etad ÃkhyÃnaæ !vyÃkhyÃtavyaæ tavÃ7ri-han !!12321.6!
+<12321.7/1> atrÃ7py udÃharantÅ7mam !itihÃsaæ purÃtanam !
+<12321.7/2> nÃradasya ca saævÃdam !­«er nÃrÃyaïasya ca !!12321.7!
+<12321.8/1> nÃrÃyaïo hi viÓvÃ3tmÃ !catur-mÆrti÷ sanÃtana÷ !
+<12321.8/2> dharmÃ3tma-ja÷ saæbabhÆva !pitai9vaæ me 'bhyabhÃ«ata !!12321.8!
+<12321.9/1> k­te yuge mahÃ-rÃja !purÃ svÃyaæbhuve 'ntare !
+<12321.9/2> naro nÃrÃyaïaÓ cai7va !hari÷ k­«ïas tathai9va ca !!12321.9!
+<12321.10/1> tebhyo nÃrÃyaïa-narau !tapas tepatur a-vyayau !
+<12321.10/2> badary--ÃÓramam ÃsÃdya !ÓakaÂe kanakÃmaye !!12321.10!
+<12321.11/1> a«Âa-cakraæ hi tad yÃnaæ !bhÆta-yuktaæ mano-ramam !
+<12321.11/2> tatrÃ8dyau loka-nÃthau tau !k­Óau dhamani-saætatau !!12321.11!
+<12321.12/1> tapasÃ tejasÃ cai7va !dur-nirÅk«au surair api !
+<12321.12/2> yasya prasÃdaæ kurvÃte !sa devau dra«Âum arhati !!12321.12!
+<12321.13/1> nÆnaæ tayor anumate !h­di h­c-chaya-codita÷ !
+<12321.13/2> mahÃ-meror gire÷ Ó­ÇgÃt !pracyuto gandha-mÃdanam !!12321.13!
+<12321.14/1> nÃrada÷ su-mahad-bhÆtaæ !lokÃn sarvÃn acÅcarat !
+<12321.14/2> taæ deÓam agamad rÃjan !badary--ÃÓramam ÃÓu-ga÷_1 !!12321.14!
+<12321.15/1> tayor Ãhnika-velÃyÃæ !tasya kautÆhalaæ tv abhÆt !
+<12321.15/2> idaæ tad-Ãspadaæ k­tsnaæ !yasmiæl lokÃ÷ prati«ÂhitÃ÷ !!12321.15!
+<12321.16/1> sa-devÃ1sura-gandharvÃ÷ !sar1«i-kiæ-nara-lelihÃ÷ !
+<12321.16/2> ekÃ mÆrtir iyaæ pÆrvaæ !jÃtÃ bhÆyaÓ catur-vidhÃ !!12321.16!
+<12321.17/1> dharmasya kula-saætÃno !mahÃn ebhir vivardhita÷ !
+<12321.17/2> aho hy anug­hÅto 'dya !dharma ebhi÷ surair iha !
+<12321.17/3> nara-nÃrÃyaïÃbhyÃæ ca !k­«ïena hariïÃ tathÃ !!12321.17!
+<12321.18/1> tatra k­«ïo hariÓ cai7va !kasmiæÓ-cit kÃraïÃ1ntare !
+<12321.18/2> sthitau dharmo1ttarau hy etau !tathÃ tapasi dhi«Âhitau !!12321.18!
+<12321.19/1> etau hi paramaæ dhÃma !kÃ9nayor Ãhnika-kriyÃ !
+<12321.19/2> pitarau sarva-bhÆtÃnÃæ !daivataæ ca yaÓasvinau !
+<12321.19/3> kÃæ devatÃæ nu yajata÷ !pitÌn vÃ kÃn mahÃ-matÅ !!12321.19!
+<12321.20/1> iti saæcintya manasÃ !bhaktyÃ nÃrÃyaïasya ha !
+<12321.20/2> sahasÃ prÃdur abhavat !samÅpe devayos tadÃ !!12321.20!
+<12321.21/1> k­te daive ca pitrye ca !tatas tÃbhyÃæ nirÅk«ita÷ !
+<12321.21/2> pÆjitaÓ cai7va vidhinÃ !yathÃ-proktena ÓÃstrata÷ !!12321.21!
+<12321.22/1> taæ d­«ÂvÃ mahad ÃÓcaryam !a-pÆrvaæ vidhi-vistaram !
+<12321.22/2> upopavi«Âa÷ su-prÅto !nÃrado bhagavÃn ­«i÷ !!12321.22!
+<12321.23/1> nÃrÃyaïaæ saænirÅk«ya !prasannenÃ7ntar-ÃtmanÃ !
+<12321.23/2> namas k­tvÃ mahÃ-devam !idaæ vacanam abravÅt !!12321.23!
+<12321.24/1> vede«u sa-purÃïe«u !sÃ1Çgo1pÃ1Çge«u gÅyase !
+<12321.24/2> tvam a-ja÷ ÓÃÓvato dhÃtÃ !mato '-m­tam an-uttamam !
+<12321.24/3> prati«Âhitaæ bhÆta-bhavyaæ !tvayi sarvam idaæ jagat !!12321.24!
+<12321.25/1> catvÃro hy ÃÓramÃ deva !sarve gÃrhasthya-mÆlakÃ÷ !
+<12321.25/2> yajante tvÃm ahar-ahar !nÃnÃ-mÆrti-samÃsthitam !!12321.25!
+<12321.26/1> pitÃ mÃtÃ ca sarvasya !jagata÷ ÓÃÓvato guru÷ !
+<12321.26/2> kaæ tv adya yajase devaæ !pitaraæ kaæ na vidmahe !!12321.26!
+<12321.27/001> [X T G1-3.6 M1.5-7 ins.:: kam arcasi mahÃ-bhÃga !tan me brÆhÅ7ha p­cchata÷ !12321.26800! X]
+<12321.27/1> ÓrÅ-bhagavÃn uvÃca: a-vÃcyam etad vaktavyam !Ãtma-guhyaæ sanÃtanam !
+<12321.27/2> tava bhaktimato brahman !vak«yÃmi tu yathÃ-tatham !!12321.27!
+<12321.28/1> yat tat sÆk«mam a-vij¤eyam !a-vyaktam a-calaæ dhruvam !
+<12321.28/2> indriyair indriyÃ1rthaiÓ ca !sarva-bhÆtaiÓ ca varjitam !!12321.28!
+<12321.29/1> sa hy antar-ÃtmÃ bhÆtÃnÃæ !k«etra-j¤aÓ ce7ti kathyate !
+<12321.29/2> tri-guïa-vyatirikto 'sau !puru«aÓ ce7ti kalpita÷ !
+<12321.29/3> tasmÃd a-vyaktam utpannaæ !tri-guïaæ dvi-ja-sattama !!12321.29!
+<12321.30/1> a-vyaktÃ vyakta-bhÃva-sthÃ !yÃ sÃ prak­tir a-vyayÃ !
+<12321.30/2> tÃæ yonim Ãvayor viddhi !yo 'sau sad-a-sad-Ãtmaka÷ !
+<12321.30/3> ÃvÃbhyÃæ pÆjyate 'sau hi !daive pitrye ca kalpite !!12321.30!
+<12321.31/1> nÃ7sti tasmÃt paro 'nyo hi !pitÃ devo 'tha vÃ dvi-ja÷ !
+<12321.31/2> ÃtmÃ hi nau sa vij¤eyas !tatas taæ pÆjayÃvahe !!12321.31!
+<12321.32/1> tenai7«Ã prathitÃ brahman !maryÃdÃ loka-bhÃvinÅ !
+<12321.32/2> daivaæ pitryaæ ca kartavyam !iti tasyÃ7nuÓÃsanam !!12321.32!
+<12321.33/1> brahmÃ sthÃïur manur dak«o !bh­gur dharmas tapo dama÷ !
+<12321.33/2> marÅcir aÇgirÃatriÓ ca !pulastya÷ pulaha÷ kratu÷ !!12321.33!
+<12321.34/1> vasi«Âha÷ parame-«ÂhÅ ca !vivasvÃn soma eva ca !
+<12321.34/2> kardamaÓ cÃ7pi ya÷ prokta÷ !krodho vikrÅta eva ca !!12321.34!
+<12321.35/1> eka-viæÓatir utpannÃs !te prajÃ-pataya÷ sm­tÃ÷ !
+<12321.35/2> tasya devasya maryÃdÃæ !pÆjayanti sanÃtanÅm !!12321.35!
+<12321.36/1> daivaæ pitryaæ ca satataæ !tasya vij¤Ãya tattvata÷ !
+<12321.36/2> Ãtma-prÃptÃni ca tato !jÃnanti dvi-ja-sattamÃ÷ !!12321.36!
+<12321.37/1> svarga-sthÃ api ye ke-cit !taæ namasyanti dehina÷ !
+<12321.37/2> te tat-prasÃdÃd gacchanti !tenÃ8di«Âa-phalÃæ gatim !!12321.37!
+<12321.38/1> ye hÅnÃ÷ sapta-daÓabhir !guïai÷ karmabhir eva ca !
+<12321.38/2> kalÃ÷ pa¤ca-daÓa tyaktvÃ !te muktÃ iti niÓcaya÷ !!12321.38!
+<12321.39/1> muktÃnÃæ tu gatir brahman !k«etra-j¤a iti kalpita÷ !
+<12321.39/2> sa hi sarva-gataÓ cai7va !nir-guïaÓ cai7va kathyate !!12321.39!
+<12321.40/1> d­Óyate j¤Ãna-yogena !ÃvÃæ ca pras­tau tata÷ !
+<12321.40/2> evaæ j¤ÃtvÃ tam ÃtmÃnaæ !pÆjayÃva÷ sanÃtanam !!12321.40!
+<12321.41/1> taæ vedÃÓ cÃ8ÓramÃÓ cai7va !nÃnÃ-tanu-samÃsthitÃ÷ !
+<12321.41/2> bhaktyÃ saæpÆjayanty Ãdyaæ !gatiæ cai7«Ãæ dadÃti sa÷ !!12321.41!
+<12321.42/1> ye tu tad-bhÃvitÃ loke !ekÃntitvaæ samÃsthitÃ÷ !
+<12321.42/2> etad abhy-adhikaæ te«Ãæ !yat te taæ praviÓanty uta !!12321.42!
+<12321.43/1> iti guhya-samuddeÓas !tava nÃrada kÅrtita÷ !
+<12321.43/2> bhaktyÃ premïÃ ca viprar1«e !asmad-bhaktyÃ ca te Óruta÷ !!12321.43!
+<12322.1/1> bhÅ«ma uvÃca: sa evam ukto dvi-padÃæ vari«Âho !
+<12322.1/2> nÃrÃyaïeno7ttama-puru«eïa !
+<12322.1/3> jagÃda vÃkyaæ dvi-padÃæ vari«Âhaæ !
+<12322.1/4> nÃrÃyaïaæ loka-hitÃ1dhivÃsam !!12322.1!
+<12322.2/1> yad-artham Ãtma-prabhave7ha janma !
+<12322.2/2> tavo7ttamaæ dharma-g­he caturdhÃ !
+<12322.2/3> tat sÃdhyatÃæ loka-hitÃ1rtham adya !
+<12322.2/4> gacchÃmi dra«Âuæ prak­tiæ tavÃ8dyÃm !!12322.2!
+<12322.3/1> vedÃ÷ sv-adhÅtÃ mama loka-nÃtha !
+<12322.3/2> taptaæ tapo nÃ7n-­tam ukta-pÆrvam !
+<12322.3/3> pÆjÃæ gurÆïÃæ satataæ karomi !
+<12322.3/4> parasya guhyaæ na ca bhinna-pÆrvam !!12322.3!
+<12322.4/1> guptÃni catvÃri yathÃ4gamaæ me !
+<12322.4/2> Óatrau ca mitre ca samo 'smi nityam !
+<12322.4/3> taæ cÃ8di-devaæ satataæ prapanna !
+<12322.4/4> ekÃ1nta-bhÃvena v­ïomy a-jasram !
+<12322.4/5> ebhir viÓe«ai÷ pariÓuddha-sattva÷ !
+<12322.4/6> kasmÃn na paÓyeyam an-antam ÅÓam !!12322.4!
+<12322.5/1> tat pÃrame«Âhyasya vaco niÓamya !
+<12322.5/2> nÃrÃyaïa÷ sÃtvata-dharma-goptÃ !
+<12322.5/201> [X M5 ins.:: tasmÃd anuj¤Ãæ mama dehi deva !
+<12322.5/202> X taæ vai d­«ÂvÃ k­ta-k­tyo bhavÃmi !12322.25801! X]
+<12322.5/3> gacche7ti taæ nÃradam uktavÃn sa !
+<12322.5/4> saæpÆjayitvÃ0tma-vidhi-kriyÃbhi÷ !!12322.5!
+<12322.6/1> tato vis­«Âa÷ parame-«Âhi-putra÷ !
+<12322.6/2> so 'bhyarcayitvÃ tam ­«iæ purÃïam !
+<12322.6/3> kham utpapÃto7ttama-vega-yuktas !
+<12322.6/4> tato 'dhi-merau sahasÃ nililye !!12322.6!
+<12322.7/1> tatrÃ7vatasthe ca munir muhÆrtam !
+<12322.7/2> ekÃ1ntam ÃsÃdya gire÷ sa Ó­Çge !
+<12322.7/3> Ãlokayann uttara-paÓcimena !
+<12322.7/4> dadarÓa cÃ7ty-adbhuta-rÆpa-yuktam !!12322.7!
+<12322.8/1> k«Åro1da-dher uttarato hi dvÅpa÷ !
+<12322.8/2> Óveta÷ sa nÃmnÃ prathito viÓÃla÷ !
+<12322.8/3> mero÷ sahasrai÷ sa hi yojanÃnÃæ !
+<12322.8/4> dvÃ-triæÓato3rdhvaæ kavibhir nirukta÷ !!12322.8!
+<12322.9/1> atÅ1ndriyÃÓ cÃ7n-aÓanÃÓ ca tatra !
+<12322.9/2> ni«panda-hÅnÃ÷ su-su-gandhinaÓ ca !
+<12322.9/3> ÓvetÃ÷ pumÃæso gata-sarva-pÃpÃÓ !
+<12322.9/4> cak«ur-mu«a÷ pÃpa-k­tÃæ narÃïÃm !!12322.9!
+<12322.10/1> vajrÃ1sthi-kÃyÃ÷ sama-mÃno1nmÃnÃ !
+<12322.10/2> divyÃ1nvaya-rÆpÃ÷ Óubha-sÃro1petÃ÷ !
+<12322.10/3> chattrÃ3k­ti-ÓÅr«Ã meghau1gha-ninÃdÃ÷ !
+<12322.10/4> sat-pu«kara-catu«kÃ rÃjÅva-Óata-pÃdÃ÷ !!12322.10!
+<12322.11/1> «a«ÂyÃ dantair yuktÃ÷ Óuklair !a«ÂÃbhir daæ«ÂrÃbhir ye !
+<12322.11/2> jihvÃbhir ye vi«vag-vaktraæ !lelihyante sÆrya-prakhyam !!12322.11!
+<12322.12/1> bhaktyÃ devaæ viÓvo1tpannaæ !yasmÃt sarve lokÃ÷ sÆtÃ÷ !
+<12322.12/2> vedÃ dharmÃ munaya÷ ÓÃntÃ !devÃ÷ sarve tasya visargÃ÷ !!12322.12!
+<12322.13/1> yudhi-«Âhira uvÃca: atÅ1ndriyÃ nir-ÃhÃrÃ !a-ni«pandÃ÷ su-gandhina÷ !
+<12322.13/2> kathaæ te puru«Ã jÃtÃ÷ !kÃ te«Ãæ gatir uttamÃ !!12322.13!
+<12322.14/1> ye vimuktÃ bhavantÅ7ha !narÃ bharata-sattama !
+<12322.14/2> te«Ãæ lak«aïam etad dhi !yac chveta-dvÅpa-vÃsinÃm !!12322.14!
+<12322.15/1> tasmÃn me saæÓayaæ chindhi !paraæ kautÆhalaæ hi me !
+<12322.15/2> tvaæ hi sarva-kathÃ4rÃmas !tvÃæ cai7vo7pÃÓritÃ vayam !!12322.15!
+<12322.16/1> bhÅ«ma uvÃca: vistÅrïai9«Ã kathÃ rÃja¤ !ÓrutÃ me pit­-saænidhau !
+<12322.16/2> sai9«Ã tava hi vaktavyÃ !kathÃ-sÃro hi sa sm­ta÷ !!12322.16!
+<12322.17/001> [X T G1-3.6 M6 Kumbh..ed. ins.:: Óaæ-tano÷ kathayÃm Ãsa !nÃrado muni-sattama÷ !
+<12322.17/002> X rÃj¤Ã p­«Âa÷ purÃ prÃha !tatrÃ7haæ ÓrutavÃn purÃ !12322.16802! X]
+<12322.17/1> rÃjo9pari-caro nÃma !babhÆvÃ7dhi-patir bhuva÷ !
+<12322.17/2> Ãkhaï¬ala-sakha÷ khyÃto !bhakto nÃrÃyaïaæ harim !!12322.17!
+<12322.18/1> dhÃrmiko nitya-bhaktaÓ ca !pitÌn nityam a-tandrita÷ !
+<12322.18/2> sÃmrÃjyaæ tena saæprÃptaæ !nÃrÃyaïa-varÃt purÃ !!12322.18!
+<12322.19/1> sÃtvataæ vidhim ÃsthÃya !prÃk-sÆrya-mukha-ni÷s­tam !
+<12322.19/2> pÆjayÃm Ãsa deve3Óaæ !tac-che«eïa pitÃ-mahÃn !!12322.19!
+<12322.20/1> pit­-Óe«eïa viprÃæÓ ca !saævibhajyÃ8ÓritÃæÓ ca sa÷ !
+<12322.20/2> Óe«Ã1nna-bhuk satya-para÷ !sarva-bhÆte«v a-hiæsaka÷ !
+<12322.20/3> sarva-bhÃvena bhakta÷ sa !deva-devaæ janÃ1rdanam !!12322.20!
+<12322.21/001> [X K6 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.5.8 T G1-3.6 M1.5-7 editions ins.:: an-Ãdi-madhya-nidhanaæ !loka-kartÃram a-vyayam !12322.20803! X]
+<12322.21/1> tasya nÃrÃyaïe bhaktiæ !vahato '-mitra-karÓana !
+<12322.21/2> eka-ÓayyÃ4sanaæ Óakro !dattavÃn deva-rÃÂ svayam !!12322.21!
+<12322.22/1> ÃtmÃ rÃjyaæ dhanaæ cai7va !kalatraæ vÃhanÃni ca !
+<12322.22/2> etad bhagavate sarvam !iti tat prek«itaæ sadÃ !!12322.22!
+<12322.23/1> kÃmya-naimittikÃ1-jasraæ !yaj¤iyÃ÷ parama-kriyÃ÷ !
+<12322.23/2> sarvÃ÷ sÃtvatam ÃsthÃya !vidhiæ cakre samÃhita÷ !!12322.23!
+<12322.24/1> pa¤ca-rÃtra-vido mukhyÃs !tasya gehe mahÃ4tmana÷ !
+<12322.24/2> prÃyaïaæ bhagavat-proktaæ !bhu¤jate cÃ7gra-bhojanam !!12322.24!
+<12322.25/1> tasya praÓÃsato rÃjyaæ !dharmeïÃ7-mitra-ghÃtina÷ !
+<12322.25/2> nÃ7n-­tÃ vÃk samabhavan !mano du«Âaæ na cÃ7bhavat !
+<12322.25/3> na ca kÃyena k­tavÃn !sa pÃpaæ param aïv api !!12322.25!
+<12322.26/1> ye hi te munaya÷ khyÃtÃ÷ !sapta citra-Óikhaï¬ina÷ !
+<12322.26/2> tair eka-matibhir bhÆtvÃ !yat proktaæ ÓÃstram uttamam !!12322.26!
+<12322.27/001> [X K6.7 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.4.5.8.9 M1.5-7 Ca editions ins.:: vedaiÓ caturbhi÷ samitaæ !k­taæ merau mahÃ-girau !
+<12322.27/002> X Ãsyai÷ saptabhir udgÅrïaæ !loka-dharmam an-uttamam !12322.26804! X]
+<12322.27/1> marÅcir atry-aÇgirasau !pulastya÷ pulaha÷ kratu÷ !
+<12322.27/2> vasi«ÂhaÓ ca mahÃ-tejÃ !ete citra-Óikhaï¬ina÷ !!12322.27!
+<12322.28/1> sapta prak­tayo hy etÃs !tathÃ svÃyaæbhuvo '«Âama÷ !
+<12322.28/2> etÃbhir dhÃryate lokas !tÃbhya÷ ÓÃstraæ vini÷s­tam !!12322.28!
+<12322.29/1> ekÃ1gra-manaso dÃntÃ !munaya÷ saæyame ratÃ÷ !
+<12322.29/101> [X K6 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.5.8 editions ins.:: bhÆta-bhavya-bhavi«ya-j¤Ã÷ !satya-dharma-parÃ1yaïÃ÷ !12322.28805! X]
+<12322.29/2> idaæ Óreya idaæ brahma !idaæ hitam an-uttamam !
+<12322.29/3> lokÃn saæcintya manasÃ !tata÷ ÓÃstraæ pracakrire !!12322.29!
+<12322.30/1> tatra dharmÃ1rtha-kÃmÃ hi !mok«a÷ paÓcÃc ca kÅrtita÷ !
+<12322.30/2> maryÃdÃ vi-vidhÃÓ cai7va !divi bhÆmau ca saæsthitÃ÷ !!12322.30!
+<12322.31/1> ÃrÃdhya tapasÃ devaæ !hariæ nÃrÃyaïaæ prabhum !
+<12322.31/2> divyaæ var«a-sahasraæ vai !sarve te ­«ibhi÷ saha !!12322.31!
+<12322.32/1> nÃrÃyaïÃ1nuÓÃstÃ hi !tadÃ devÅ sarasvatÅ !
+<12322.32/2> viveÓa tÃn ­«Ån sarvÃæl !lokÃnÃæ hita-kÃmyayÃ !!12322.32!
+<12322.33/1> tata÷ pravartitÃ samyak !tapo-vidbhir dvi-jÃtibhi÷ !
+<12322.33/2> Óabde cÃ7rthe ca hetau ca !e«Ã prathama-sarga-jÃ !!12322.33!
+<12322.34/1> ÃdÃv eva hi tac chÃstram !oæ-kÃra-svara-bhÆ«itam !
+<12322.34/2> ­«ibhir bhÃvitaæ tatra !yatra kÃruïiko hy asau !!12322.34!
+<12322.35/1> tata÷ prasanno bhagavÃn !a-nirdi«Âa-ÓarÅra-ga÷_1 !
+<12322.35/2> ­«Ån uvÃca tÃn sarvÃn !a-d­Óya÷ puru«o1ttama÷ !!12322.35!
+<12322.36/1> k­taæ Óata-sahasraæ hi !ÓlokÃnÃm idam uttamam !
+<12322.36/2> loka-tantrasya k­tsnasya !yasmÃd dharma÷ pravartate !!12322.36!
+<12322.37/1> prav­ttau ca niv­ttau ca !yonir etad bhavi«yati !
+<12322.37/2> ­g-yaju÷-sÃmabhir ju«Âam !atharvÃ1Çgirasais tathÃ !!12322.37!
+<12322.38/1> tathÃ-pramÃïaæ hi mayÃ !k­to brahmÃ prasÃda-ja÷ !
+<12322.38/2> rudraÓ ca krodha-jo viprÃ !yÆyaæ prak­tayas tathÃ !!12322.38!
+<12322.39/1> sÆryÃ-candra-masau vÃyur !bhÆmir Ãpo 'gnir eva ca !
+<12322.39/2> sarve ca nak«atra-gaïÃ !yac ca bhÆtÃ1bhiÓabditam !!12322.39!
+<12322.40/1> adhikÃre«u vartante !yathÃ-svam brahma-vÃdina÷ !
+<12322.40/2> sarve pramÃïaæ hi yathÃ !tathai9tac chÃstram uttamam !!12322.40!
+<12322.41/1> bhavi«yati pramÃïaæ vai !etan mad-anuÓÃsanam !
+<12322.41/2> asmÃt pravak«yate dharmÃn !manu÷ svÃyaæbhuva÷ svayam !!12322.41!
+<12322.42/1> uÓanÃ b­has-patiÓ cai7va !yado9tpannau bhavi«yata÷ !
+<12322.42/2> tadÃ pravak«yata÷ ÓÃstraæ !yu«man-matibhir uddh­tam !!12322.42!
+<12322.43/1> svÃyaæbhuve«u dharme«u !ÓÃstre co7ÓanasÃ k­te !
+<12322.43/2> b­has-pati-mate_1 cai7va !loke«u pravicÃrite !!12322.43!
+<12322.44/1> yu«mat-k­tam idaæ ÓÃstraæ !prajÃ-pÃlo vasus tata÷ !
+<12322.44/2> b­has-pati-sa-kÃÓÃd vai !prÃpsyate dvi-ja-sattamÃ÷ !!12322.44!
+<12322.45/1> sa hi mad-bhÃvito rÃjÃ !mad-bhaktaÓ ca bhavi«yati !
+<12322.45/2> tena ÓÃstreïa loke«u !kriyÃ÷ sarvÃ÷ kari«yati !!12322.45!
+<12322.46/1> etad dhi sarva-ÓÃstrÃïÃæ !ÓÃstram uttama-saæj¤itam !
+<12322.46/2> etad arthyaæ ca dharmyaæ ca !yaÓasyaæ cai7tad uttamam !!12322.46!
+<12322.47/1> asya pravartanÃc cai7va !prajÃvanto bhavi«yatha !
+<12322.47/2> sa ca rÃjÃ ÓriyÃ yukto !bhavi«yati mahÃn vasu÷ !!12322.47!
+<12322.48/1> saæsthite tu n­-pe_2 tasmi¤ !ÓÃstram etat sanÃtanam !
+<12322.48/2> antar dhÃsyati tat satyam !etad va÷ kathitaæ mayÃ !!12322.48!
+<12322.49/1> etÃvad uktvÃ vacanam !a-d­Óya÷ puru«o1ttama÷ !
+<12322.49/2> vis­jya tÃn ­«Ån sarvÃn !kÃm-api prasthito diÓam !!12322.49!
+<12322.50/1> tatas te loka-pitara÷ !sarva-lokÃ1rtha-cintakÃ÷ !
+<12322.50/2> prÃvartayanta tac chÃstraæ !dharma-yoniæ sanÃtanam !!12322.50!
+<12322.51/1> utpanne ÃÇgirase cai7va !yuge prathama-kalpite !
+<12322.51/2> sÃ1Çgo1pani«adaæ ÓÃstraæ !sthÃpayitvÃ b­has-patau !!12322.51!
+<12322.52/1> jagmur yathe4psitaæ deÓaæ !tapase k­ta-niÓcayÃ÷ !
+<12322.52/2> dhÃraïÃt sarva-lokÃnÃæ !sarva-dharma-pravartakÃ÷ !!12322.52!
+<12323.1/1> bhÅ«ma uvÃca: tato 'tÅte mahÃ-kalpe !utpanne 'Çgirasa÷ sute !
+<12323.1/2> babhÆvur nirv­tÃ devÃ !jÃte deva-puro-hite !!12323.1!
+<12323.2/1> b­had brahma mahac ce7ti !ÓabdÃ÷ paryÃya-vÃcakÃ÷ !
+<12323.2/2> ebhi÷ samanvito rÃjan !guïair vidvÃn b­has-pati÷ !!12323.2!
+<12323.3/1> tasya Ói«yo babhÆvÃ7gryo !rÃjo9pari-caro vasu÷ !
+<12323.3/2> adhÅtavÃæs tadÃ ÓÃstraæ !samyak citra-Óikhaï¬i-jam !!12323.3!
+<12323.4/1> sa rÃjÃ bhÃvita÷ pÆrvaæ !daivena vidhinÃ vasu÷ !
+<12323.4/2> pÃlayÃm Ãsa p­thivÅæ !divam Ãkhaï¬alo yathÃ !!12323.4!
+<12323.5/1> tasya yaj¤o mahÃn ÃsÅd !aÓva-medho mahÃ4tmana÷ !
+<12323.5/2> b­has-patir upÃdhyÃyas !tatra hotÃ babhÆva ha !!12323.5!
+<12323.6/1> prajÃ-pati-sutÃÓ cÃ7tra !sadasyÃs tv abhavaæs traya÷ !
+<12323.6/2> ekataÓ ca dvitaÓ cai7va !tritaÓ cai7va mahar2«aya÷ !!12323.6!
+<12323.7/1> dhanu«Ã1k«o 'tha raibhyaÓ ca !arvÃ-vasu-parÃ-vasÆ !
+<12323.7/2> ­«ir medhÃ1tithiÓ cai7va !tÃï¬yaÓ cai7va mahÃn ­«i÷ !!12323.7!
+<12323.8/1> ­«i÷ Óaktir mahÃ-bhÃgas !tathÃ veda-ÓirÃÓ ca ya÷ !
+<12323.8/2> kapilaÓ ca ­«i-Óre«Âha÷ !ÓÃli-hotra-pitÃ-maha÷ !!12323.8!
+<12323.9/1> Ãdya÷ kaÂhas taittiriÓ ca !vaiÓaæpÃyana-pÆrva-ja÷ !
+<12323.9/2> kaïvo 'tha deva-hotraÓ ca !ete «o-¬aÓa kÅrtitÃ÷ !
+<12323.9/3> saæbh­tÃ÷ sarva-saæbhÃrÃs !tasmin rÃjan mahÃ-kratau !!12323.9!
+<12323.10/1> na tatra paÓu-ghÃto 'bhÆt !sa rÃjai9vaæ sthito 'bhavat !
+<12323.10/2> a-hiæsra÷ Óucir a-k«udro !nir-ÃÓÅ÷ karma-saæstuta÷ !
+<12323.10/3> Ãraïyaka-pado1dgÅtÃ !bhÃgÃs tatro7pakalpitÃ÷ !!12323.10!
+<12323.11/1> prÅtas tato 'sya bhagavÃn !deva-deva÷ purÃtana÷ !
+<12323.11/2> sÃ1k«Ãt taæ darÓayÃm Ãsa !so '-d­Óyo 'nyena kena-cit !!12323.11!
+<12323.12/1> svayaæ bhÃgam upÃghrÃya !puro-¬ÃÓaæ g­hÅtavÃn !
+<12323.12/2> a-d­Óyena h­to bhÃgo !devena hari-medhasÃ !!12323.12!
+<12323.13/1> b­has-patis tata÷ kruddha÷ !sruvam udyamya vegita÷ !
+<12323.13/2> ÃkÃÓaæ ghnan sruva÷ pÃtai !ro«Ãd aÓrÆïy avartayat !!12323.13!
+<12323.14/1> uvÃca co7pari-caraæ !mayÃ bhÃgo 'yam udyata÷ !
+<12323.14/2> grÃhya÷ svayaæ hi devena !mat-praty-ak«aæ na saæÓaya÷ !!12323.14!
+<12323.15/1> udyatÃ yaj¤a-bhÃgÃ hi !sÃ1k«Ãt prÃptÃ÷ surair iha !
+<12323.15/2> kim-artham iha na prÃpto !darÓanaæ sa harir vibhu÷ !!12323.15!
+<12323.16/1> tata÷ sa taæ samuddhÆtaæ !bhÆmi-pÃlo mahÃn vasu÷ !
+<12323.16/2> prasÃdayÃm Ãsa muniæ !sadasyÃs te ca sarvaÓa÷ !!12323.16!
+<12323.17/001> [X T G1-3.6 Kumbh..ed. ins.:: upari-cara-vasur uvÃca: hutaæ tvayÃ0vadÃnÅ7ha !puro-¬ÃÓasya yÃvatÅ !
+<12323.17/002> X g­hÅtÃ deva-devena !mat-praty-ak«aæ na saæÓaya÷ !
+<12323.17/003> X ity evam ukto vasunÃ !sa-ro«aÓ cÃ7bravÅd guru÷ !
+<12323.17/004> X na yajeyam ahaæ cÃ7tra !paribhÆtas tvayÃ9n-agha !
+<12323.17/005> X tvayÃ paÓur vÃritaÓ ca !k­ta÷ pi«Âamaya÷ paÓu÷ !
+<12323.17/006> X tvaæ devaæ paÓyase nityaæ !na paÓyeyam ahaæ katham !
+<12323.17/007> X vasur uvÃca: paÓu-hiæsÃ vÃritÃ ca !yajur-vedÃ3di-mantrata÷ !
+<12323.17/008> X ahaæ na vÃraye hiæsÃæ !drak«yÃmy ekÃ1ntiko harim !
+<12323.17/009> X tasmÃt kopo na kartavyo !bhavatÃ guruïÃ mayi !
+<12323.17/01> X bhÅ«ma uvÃca: vasum evaæ bruvÃïaæ tu !kruddha eva b­has-pati÷ !
+<12323.17/011> X uvÃca ­tv-ijaÓ cai7va !kiæ na÷ karme7ti vÃrayan !
+<12323.17/012> X athai7kato dvitaÓ cai7va !tritaÓ cai7va mahar2«aya÷ !12323.16806! X]
+<12323.17/1> ÆcuÓ cai7nam a-saæbhrÃntÃ !na ro«aæ kartum arhasi !
+<12323.17/101> [X T G1.3.6 Kumbh..ed. ins.:: Ó­ïu tvaæ vacanaæ putra !asmÃbhi÷ samudÃh­tam !12323.17807! X]
+<12323.17/2> nai7«a dharma÷ k­ta-yuge !yas tvaæ ro«am acÅk­thÃ÷ !!12323.17!
+<12323.18/1> a-ro«aïo hy asau devo !yasya bhÃgo 'yam udyata÷ !
+<12323.18/2> na sa Óakyas tvayÃ dra«Âum !asmÃbhir vÃ b­has-pate !
+<12323.18/3> yasya prasÃdaæ kurute !sa vai taæ dra«Âum arhati !!12323.18!
+<12323.19/001> [X For the ref., Bo.8 Dn1.ï4 Ds D2.3.8 Cal. Bom..ed. subst. the line:: ekata-dvita-tritÃÓ co8cus !tataÓ citra-Óikhaï¬ina÷ !12323.18808! X]
+<12323.19/1> ekata-dvita-tritÃ Æcu÷: vayaæ hi brahmaïa÷ putrÃ !mÃnasÃ÷ parikÅrtitÃ÷ !
+<12323.19/2> gatÃ ni÷-ÓreyasÃ1rthaæ hi !kadÃ-cid diÓam uttarÃm !!12323.19!
+<12323.20/1> taptvÃ var«a-sahasrÃïi !catvÃri tapa uttamam !
+<12323.20/2> eka-pÃda-sthitÃ÷ samyak !kÃ«Âha-bhÆtÃ÷ samÃhitÃ÷ !!12323.20!
+<12323.21/1> meror uttara-bhÃge tu !k«Åro1dasyÃ7nu-kÆlata÷ !
+<12323.21/2> sa deÓo yatra nas taptaæ !tapa÷ parama-dÃruïam !
+<12323.21/3> kathaæ paÓyemahi vayaæ !devaæ nÃrÃyaïaæ tv iti !!12323.21!
+<12323.22/001> [X K6 B6-9 Da3..a4 Ds D5 ins. after 21, Dn1.ï4 D2.3.8 after the first occurrence of 21ef:: vareïyaæ vara-daæ taæ vai !deva-devaæ sanÃtanam !12323.21809! X]
+<12323.22/1> tato vratasyÃ7vabh­the !vÃg uvÃcÃ7-ÓarÅriïÅ !
+<12323.22/101> [X K6 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.5.8 editions ins.:: snigdha-gambhÅrayÃ vÃcÃ !prahar«aïa-karÅ vibho !12323.22810! X]
+<12323.22/2> su-taptaæ vas tapo viprÃ÷ !prasannenÃ7ntar-ÃtmanÃ !!12323.22!
+<12323.23/1> yÆyaæ jij¤Ãsavo bhaktÃ÷ !kathaæ drak«yatha taæ prabhum !
+<12323.23/2> k«Åro1da-dher uttarata÷ !Óveta-dvÅpo mahÃ-prabha÷ !!12323.23!
+<12323.24/1> tatra nÃrÃyaïa-parÃ !mÃnavÃÓ candra-varcasa÷ !
+<12323.24/2> ekÃ1nta-bhÃvo1pagatÃs !te bhaktÃ÷ puru«o1ttamam !!12323.24!
+<12323.25/1> te sahasrÃ1rci«aæ devaæ !praviÓanti sanÃtanam !
+<12323.25/2> atÅ1ndriyÃ nir-ÃhÃrÃ !a-ni«pandÃ÷ su-gandhina÷ !!12323.25!
+<12323.26/1> ekÃ1ntinas te puru«Ã÷ !Óveta-dvÅpa-nivÃsina÷ !
+<12323.26/2> gacchadhvaæ tatra munayas !tatrÃ8tmÃ me prakÃÓita÷ !!12323.26!
+<12323.27/1> atha ÓrutvÃ vayaæ sarve !vÃcaæ tÃm a-ÓarÅriïÅm !
+<12323.27/2> yathÃ-khyÃtena mÃrgeïa !taæ deÓaæ pratipedire !!12323.27!
+<12323.28/1> prÃpya Óvetaæ mahÃ-dvÅpaæ !tac-cittÃs tad-did­k«ava÷ !
+<12323.28/101> [X T G1.3.6 M1.5-7 Kumbh..ed. ins. after 28ab, G2 after 27a:: sahasÃ9bhihatÃ÷ sarve !tejasÃ tasya mohitÃ÷ !12323.28811! X]
+<12323.28/2> tato no d­«Âi-vi«ayas !tadÃ pratihato 'bhavat !!12323.28!
+<12323.29/1> na ca paÓyÃma puru«aæ !tat-tejo-h­ta-darÓanÃ÷ !
+<12323.29/2> tato na÷ prÃdur abhavad !vij¤Ãnaæ deva-yoga-jam !!12323.29!
+<12323.30/1> na kilÃ7-tapta-tapasÃ !Óakyate dra«Âum a¤jasÃ !
+<12323.30/2> tata÷ punar var«a-Óataæ !taptvÃ tÃtkÃlikaæ mahat !!12323.30!
+<12323.31/1> vratÃ1vasÃne su-ÓubhÃn !narÃn dad­Óire vayam !
+<12323.31/2> ÓvetÃæÓ candra-pratÅkÃÓÃn !sarva-lak«aïa-lak«itÃn !!12323.31!
+<12323.32/1> nityÃ1¤jali-k­tÃn brahma !japata÷ prÃg-udaÇ-mukhÃn !
+<12323.32/2> mÃnaso nÃma sa japo !japyate tair mahÃ4tmabhi÷ !
+<12323.32/3> tenai7kÃ1gra-manastvena !prÅto bhavati vai hari÷ !!12323.32!
+<12323.33/1> yÃ bhaven muni-ÓÃrdÆla !bhÃ÷ sÆryasya yuga-k«aye !
+<12323.33/2> ekai1kasya prabhÃ tÃ-d­k !sÃ9bhavan mÃnavasya ha !!12323.33!
+<12323.34/1> tejo-nivÃsa÷ sa dvÅpa !iti vai menire vayam !
+<12323.34/2> na tatrÃ7bhy-adhika÷ kaÓ-cit !sarve te sama-tejasa÷_1 !!12323.34!
+<12323.35/1> atha sÆrya-sahasrasya !prabhÃæ yuga-pad-utthitÃm !
+<12323.35/2> sahasÃ d­«Âavanta÷ sma !punar eva b­has-pate !!12323.35!
+<12323.36/1> sahitÃÓ cÃ7bhyadhÃvanta !tatas te mÃnavÃ drutam !
+<12323.36/2> k­tÃ1¤jali-puÂÃ÷ h­«ÂÃ !nama ity eva vÃdina÷ !!12323.36!
+<12323.37/1> tato 'bhivadatÃæ te«Ãm !aÓrau«ma vipulaæ dhvanim !
+<12323.37/2> bali÷ kilo7pahriyate !tasya devasya tair narai÷ !!12323.37!
+<12323.38/1> vayaæ tu tejasÃ tasya !sahasÃ h­ta-cetasa÷ !
+<12323.38/2> na kiæ-cid api paÓyÃmo !hata-d­«Âi-bale1ndriyÃ÷ !!12323.38!
+<12323.39/1> ekas tu Óabdo '-virata÷ !Óruto 'smÃbhir udÅrita÷ !
+<12323.39/101> [X K7 D4.9 T G1-3.6 Kumbh..ed. ins.:: ÃkÃÓaæ pÆrayan sarvaæ !Óik«Ã2-k«ara-samanvita÷ !12323.39812! X]
+<12323.39/2> jitaæ te puï¬arÅkÃ1k«a !namas te viÓva-bhÃvana !!12323.39!
+<12323.40/1> namas te 'stu h­«ÅkeÓa !mahÃ-puru«a-pÆrva-ja !
+<12323.40/2> iti Óabda÷ Óruto 'smÃbhi÷ !Óik«Ã2-k«ara-samÅrita÷ !!12323.40!
+<12323.41/1> etasminn antare vÃyu÷ !sarva-gandha-vaha÷ Óuci÷ !
+<12323.41/2> divyÃny uvÃha pu«pÃïi !karmaïyÃÓ cau7«adhÅs tathÃ !!12323.41!
+<12323.42/1> tair i«Âa÷_2 pa¤ca-kÃla-j¤air !harir ekÃ1ntibhir narai÷ !
+<12323.42/2> nÆnaæ tatrÃ8gato devo !yathÃ tair vÃg udÅritÃ !
+<12323.42/201> [X K6 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.5.8 editions ins.:: bhaktyÃ paramayÃ yuktair !mano-vÃk-karmabhis tadÃ !12323.42813! X]
+<12323.42/3> vayaæ tv enaæ na paÓyÃmo !mohitÃs tasya mÃyayÃ !!12323.42!
+<12323.43/1> mÃrute saæniv­tte ca !balau ca pratipÃdite !
+<12323.43/2> cintÃ-vyÃkulitÃ3tmÃno !jÃtÃ÷ smo 'ÇgirasÃæ vara !!12323.43!
+<12323.44/1> mÃnavÃnÃæ sahasre«u !te«u vai Óuddha-yoni«u !
+<12323.44/2> asmÃn na kaÓ-cin manasÃ !cak«u«Ã vÃ9py apÆjayat !!12323.44!
+<12323.45/1> te 'pi sva-sthÃ muni-gaïÃ !eka-bhÃvam anu-vratÃ÷ !
+<12323.45/2> nÃ7smÃsu dadhire bhÃvaæ !brahma-bhÃvam anu«ÂhitÃ÷ !!12323.45!
+<12323.46/1> tato 'smÃn su-pariÓrÃntÃæs !tapasÃ cÃ7pi karÓitÃn !
+<12323.46/2> uvÃca kha-sthaæ kim-api !bhÆtaæ tatrÃ7-ÓarÅrakam !!12323.46!
+<12323.47/1> d­«ÂÃ va÷ puru«Ã÷ ÓvetÃ÷ !sarve1ndriya-varjitÃ÷ !
+<12323.47/2> d­«Âo bhavati deve3Óa !ebhir d­«Âair dvi-jo1ttamÃ÷ !!12323.47!
+<12323.48/1> gacchadhvaæ munaya÷ sarve !yathÃ4gatam ito '-cirÃt !
+<12323.48/2> na sa Óakyo a-bhaktena !dra«Âuæ deva÷ kathaæ-cana !!12323.48!
+<12323.49/1> kÃmaæ kÃlena mahatÃ !ekÃntitvaæ samÃgatai÷ !
+<12323.49/2> Óakyo dra«Âuæ sa bhagavÃn !prabhÃ-maï¬ala-dur-d­Óa÷ !!12323.49!
+<12323.50/1> mahat kÃryaæ tu kartavyaæ !yu«mÃbhir dvi-ja-sattamÃ÷ !
+<12323.50/2> ita÷ k­ta-yuge 'tÅte !viparyÃsaæ gate_1 'pi ca !!12323.50!
+<12323.51/1> vaivasvate 'ntare viprÃ÷ !prÃpte tretÃ-yuge tata÷ !
+<12323.51/2> surÃïÃæ kÃrya-siddhy-arthaæ !sahÃyÃ vai bhavi«yatha !!12323.51!
+<12323.52/1> tatas tad adbhutaæ vÃkyaæ !niÓamyai7vaæ sma soma-pa_1 !
+<12323.52/2> tasya prasÃdÃt prÃptÃ÷ smo !deÓam Åpsitam a¤jasÃ !!12323.52!
+<12323.53/1> evaæ su-tapasÃ cai7va !havya-kavyais tathai9va ca !
+<12323.53/2> devo 'smÃbhir na d­«Âa÷ sa !kathaæ tvaæ dra«Âum arhasi !
+<12323.53/3> nÃrÃyaïo mahad bhÆtaæ !viÓva-s­g ghavya-kavya-bhuk !!12323.53!
+<12323.54/001> [X K4.6 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.5.8 editions ins.:: an-Ãdi-nidhano '-vyakto !deva-dÃnava-pÆjita÷ !12323.53814! X]
+<12323.54/1> bhÅ«ma uvÃca: evam ekata-vÃkyena !dvita-trita-matena ca !
+<12323.54/2> anunÅta÷ sadasyaiÓ ca !b­has-patir udÃra-dhÅ÷ !
+<12323.54/3> samÃnÅya tato yaj¤aæ !daivataæ samapÆjayat !!12323.54!
+<12323.55/1> samÃpta-yaj¤o rÃjÃ9pi !prajÃ÷ pÃlitavÃn vasu÷ !
+<12323.55/2> brahma-ÓÃpÃd divo bhra«Âa÷ !praviveÓa mahÅæ tata÷ !!12323.55!
+<12323.56/001> [X K6 Bo.6-9 Da3..a4 Dn2.ï4 Ds D2.3.8 editions ins.:: sa rÃjÃ rÃja-ÓÃrdÆla !satya-dharma-parÃ1yaïa÷ !12323.55815! X]
+<12323.56/1> antar-bhÆmi-gataÓ cai7va !satataæ dharma-vatsala÷ !
+<12323.56/2> nÃrÃyaïa-paro bhÆtvÃ !nÃrÃyaïa-padaæ jagau !!12323.56!
+<12323.57/1> tasyai7va ca prasÃdena !punar evo7tthitas tu sa÷ !
+<12323.57/2> mahÅ-talÃd gata÷ sthÃnaæ !brahmaïa÷ sam-an-antaram !
+<12323.57/3> parÃæ gatim anuprÃpta !iti nai«Âhikam a¤jasÃ !!12323.57!
+<12324.1/1> yudhi-«Âhira uvÃca: yadÃ bhakto bhagavata !ÃsÅd rÃjÃ mahÃ-vasu÷ !
+<12324.1/2> kim-arthaæ sa paribhra«Âo !viveÓa vivaraæ bhuva÷ !!12324.1!
+<12324.2/1> bhÅ«ma uvÃca: atrÃ7py udÃharantÅ7mam !itihÃsaæ purÃtanam !
+<12324.2/2> ­«ÅïÃæ cai7va saævÃdaæ !tri-daÓÃnÃæ ca bhÃrata !!12324.2!
+<12324.3/001> [X T G1-3.6 Kumbh..ed. ins:: iyaæ vai karma-bhÆmir hi !svargo bh-ogÃya kalpita÷ !
+<12324.3/002> X tasmÃd indro mahÅæ prÃpya !yajamÃnas tu dÅk«ita÷ !
+<12324.3/003> X savanÅya-paÓo÷ kÃlae !Ãgate tu b­has-pati÷ !
+<12324.3/004> X pi«Âam ÃnÅyatÃm atra !paÓv-arthae iti bhÃ«ata !
+<12324.3/005> X tac chrutvÃ devatÃ÷ sarvÃ !idam Æcur dvi-jo1ttamam !
+<12324.3/006> X b­has-patiæ mÃæsa-g­dhnÃ÷ !p­thak p­thag ariæ-dama !12324.2816! X]
+<12324.3/1> ajena ya«Âavyam iti !devÃ÷ prÃhur dvi-jo1ttamÃn !
+<12324.3/2> sa ca chÃgo hy ajo j¤eyo !nÃ7nya÷ paÓur iti sthiti÷ !!12324.3!
+<12324.4/1> ­«aya Æcu÷: bÅjair yaj¤e«u ya«Âavyam !iti vai vaidikÅ Óruti÷ !
+<12324.4/2> aja-saæj¤Ãni bÅjÃni !chÃgaæ na ghnantum arhatha !!12324.4!
+<12324.5/1> nai7«a dharma÷ satÃæ devÃ !yatra vadhyeta vai paÓu÷ !
+<12324.5/2> idaæ k­ta-yugaæ Óre«Âhaæ !kathaæ vadhyeta vai paÓu÷ !!12324.5!
+<12324.6/001> [X T G2.3.6 ins.:: yu«mÃkam aja-buddhir hi !ajo bÅjaæ tad ucyate !12324.5817! X]
+<12324.6/1> bhÅ«ma uvÃca: te«Ãæ saævadatÃm evam !­«ÅïÃæ vibudhai÷ saha !
+<12324.6/2> mÃrgÃ3gato n­-pa_2-Óre«Âhas !taæ deÓaæ prÃptavÃn vasu÷ !
+<12324.6/3> antarik«a-cara÷ ÓrÅmÃn !sam-agra-bala-vÃhana÷ !!12324.6!
+<12324.7/1> taæ d­«ÂvÃ sahasÃ0yÃntaæ !vasuæ te tv antarik«a-gam_1 !
+<12324.7/2> Æcur dvi-jÃtayo devÃn !e«a chetsyati saæÓayam !!12324.7!
+<12324.8/1> yajvÃ dÃna-pati÷ Óre«Âha÷ !sarva-bhÆta-hita-priya÷ !
+<12324.8/2> kathaæ svid anyathÃ brÆyÃd !vÃkyam e«a mahÃn vasu÷ !!12324.8!
+<12324.9/1> evaæ te saævidaæ k­tvÃ !vibudhÃ ­«ayas tathÃ !
+<12324.9/2> ap­cchan sahasÃ9bhyetya !vasuæ rÃjÃnam antikÃt !!12324.9!
+<12324.10/1> bho rÃjan kena ya«Âavyam !ajenÃ7ho svid au«adhai÷ !
+<12324.10/2> etan na÷ saæÓayaæ chindhi !pramÃïaæ no bhavÃn mata÷ !!12324.10!
+<12324.11/1> sa tÃn k­tÃ1¤jalir bhÆtvÃ !paripapraccha vai vasu÷ !
+<12324.11/2> kasya va÷ ko mata÷ pak«o !brÆta satyaæ samÃgatÃ÷ !!12324.11!
+<12324.12/1> ­«aya Æcu÷: dhÃnyair ya«Âavyam ity e«a !pak«o 'smÃkaæ narÃ1dhipa !
+<12324.12/2> devÃnÃæ tu paÓu÷ pak«o !mato rÃjan vadasva na÷ !!12324.12!
+<12324.13/1> bhÅ«ma uvÃca: devÃnÃæ tu mataæ j¤ÃtvÃ !vasunÃ pak«a-saæÓrayÃt !
+<12324.13/2> chÃgenÃ7jena ya«Âavyam !evam uktaæ vacas tadÃ !!12324.13!
+<12324.14/1> kupitÃs te tata÷ sarve !munaya÷ sÆrya-varcasa÷ !
+<12324.14/2> Æcur vasuæ vimÃna-sthaæ !deva-pak«Ã1rtha-vÃdinam !!12324.14!
+<12324.15/1> sura-pak«o g­hÅtas te !yasmÃt tasmÃd diva÷ pata !
+<12324.15/2> adya-prabh­ti te rÃjan !nÃ8kÃÓe vihitÃ gati÷ !
+<12324.15/3> asmac-chÃpÃ1bhighÃtena !mahÅæ bhittvÃ pravek«yasi !!12324.15!
+<12324.16/001> [X T G1-3.6 Kumbh..ed. ins.:: viruddhaæ veda-sÆtrÃïÃm !uktaæ yadi bhaven n­-pa_2 !
+<12324.16/002> X vayaæ viruddha-vacanÃ !yadi tatra patÃmahe !12324.15818! X]
+<12324.16/1> tatas tasmin muhÆrte 'tha !rÃjo9pari-caras tadÃ !
+<12324.16/2> adho vai saæbabhÆvÃ8Óu !bhÆmer vivara-go_1 n­-pa÷_2 !
+<12324.16/3> sm­tis tv enaæ na prajahau !tadÃ nÃrÃyaïÃ3j¤ayÃ !!12324.16!
+<12324.17/1> devÃs tu sahitÃ÷ sarve !vaso÷ ÓÃpa-vimok«aïam !
+<12324.17/2> cintayÃm Ãsur a-vy-agrÃ÷ !su-k­taæ hi n­-pasya_2 tat !!12324.17!
+<12324.18/1> anenÃ7smat-k­te rÃj¤Ã !ÓÃpa÷ prÃpto mahÃ4tmanÃ !
+<12324.18/2> asya prati-priyaæ kÃryaæ !sahitair no divau1kasa÷ !!12324.18!
+<12324.19/1> iti buddhyÃ vyavasyÃ8Óu !gatvÃ niÓcayam ÅÓvarÃ÷ !
+<12324.19/2> Æcus taæ h­«Âa-manaso !rÃjo1pari-caraæ tadÃ !!12324.19!
+<12324.20/1> brahmaïya-devaæ tvaæ bhakta÷ !surÃ1sura-guruæ harim !
+<12324.20/2> kÃmaæ sa tava tu«ÂÃ3tmÃ !kuryÃc chÃpa-vimok«aïam !!12324.20!
+<12324.21/1> mÃnanÃ tu dvi-jÃtÅnÃæ !kartavyÃ vai mahÃ4tmanÃm !
+<12324.21/2> a-vaÓyaæ tapasÃ te«Ãæ !phalitavyaæ n­-pa_2-uttama !!12324.21!
+<12324.22/001> [X T G1-3.6 Kumbh..ed. ins.:: viruddhaæ veda-ÓÃstrÃïÃæ !na vaktavyaæ hitÃ1rthinÃ !12324.21819! X]
+<12324.22/1> yatas tvaæ sahasÃ bhra«Âa !ÃkÃÓÃn medinÅ-talam !
+<12324.22/101> [X T G1-3.6 ins.,  Kumbh..ed. cont. after 819:: asmat-pak«a-nimittaæ te !vyasanaæ prÃptam Å-d­Óam !12324.22820! X]
+<12324.22/2> ekaæ tv anugrahaæ tubhyaæ !dadmo vai n­-pa_2-sattama !!12324.22!
+<12324.23/1> yÃvat tvaæ ÓÃpa-do«eïa !kÃlam Ãsi«yase 'n-agha !
+<12324.23/2> bhÆmer vivara-go_1 bhÆtvÃ !tÃvantaæ kÃlam Ãpsyasi !
+<12324.23/3> yaj¤e«u su-hutÃæ viprair !vasor-dhÃrÃæ mahÃ4tmabhi÷ !!12324.23!
+<12324.24/1> prÃpsyase 'smad-anudhyÃnÃn !mÃ ca tvÃæ glÃnir Ãsp­Óet !
+<12324.24/2> na k«ut-pipÃse rÃje1ndra !bhÆmeÓ cchidre bhavi«yata÷ !!12324.24!
+<12324.25/1> vasor-dhÃrÃ2nupÅtatvÃt !tejasÃ0pyÃyitena ca !
+<12324.25/101> [X K7 D4.9 ins.:: taæ bhakto 'si mahÃ4tmÃnaæ !deva-devaæ sanÃtanam !12324.25821! X]
+<12324.25/2> sa devo 'smad-varÃt prÅto !brahma-lokaæ hi ne«yati !!12324.25!
+<12324.26/1> evaæ dattvÃ varaæ rÃj¤e !sarve tatra divau1kasa÷ !
+<12324.26/101> [X T G1-3.6 Kumbh..ed. ins.:: kratuæ samÃpya pi«Âena !munÅnÃæ vacanÃt tadÃ !12324.26822! X]
+<12324.26/2> gatÃ÷ sva-bhavanaæ devÃ !­«ayaÓ ca tapo-dhanÃ÷ !!12324.26!
+<12324.27/001> [X T G1-3.6 Kumbh..ed. ins.:: g­hÅtvÃ dak«iïÃæ sarve !gatÃ÷ svÃn ÃÓramÃn puna÷ !
+<12324.27/002> X vasuæ vicintya ÓakraÓ ca !praviveÓÃ7-marÃvatÅm !
+<12324.27/003> X vasur vivara-gas tatra !vyalÅkasya phalÃd guro÷ !12324.26823! X]
+<12324.27/1> cakre ca satataæ pÆjÃæ !vi«vak-senÃya bhÃrata !
+<12324.27/2> japyaæ jagau ca satataæ !nÃrÃyaïa-mukho1dgatam !!12324.27!
+<12324.28/1> tatrÃ7pi pa¤cabhir yaj¤ai÷ !pa¤ca-kÃlÃn ariæ-dama !
+<12324.28/2> ayajad dhariæ sura-patiæ !bhÆmer vivara-go_1 'pi san !!12324.28!
+<12324.29/1> tato 'sya tu«Âo bhagavÃn !bhaktyÃ nÃrÃyaïo hari÷ !
+<12324.29/2> an-anya-bhaktasya satas !tat-parasya jitÃ3tmana÷ !!12324.29!
+<12324.30/1> vara-do bhagavÃn vi«ïu÷ !samÅpa-sthaæ dvi-jo1ttamam !
+<12324.30/2> garutmantaæ mahÃ-vegam !ÃbabhÃ«e smayann iva !!12324.30!
+<12324.31/1> dvi-jo1ttama mahÃ-bhÃga !gamyatÃæ vacanÃn mama !
+<12324.31/2> samrÃ¬ rÃjÃ vasur nÃma !dharmÃ3tmÃ mÃæ samÃÓrita÷ !!12324.31!
+<12324.32/1> brÃhmaïÃnÃæ prakopena !pravi«Âo vasu-dhÃ-talam !
+<12324.32/2> mÃnitÃs te tu vipre1ndrÃs !tvaæ tu gaccha dvi-jo1ttama !!12324.32!
+<12324.33/1> bhÆmer vivara-saæguptaæ !garu¬e7ha mamÃ8j¤ayÃ !
+<12324.33/2> adhaÓ-caraæ n­-pa_2-Óre«Âhaæ !khe-caraæ kuru mÃ-ciram !!12324.33!
+<12324.34/1> garutmÃn atha vik«ipya !pak«au mÃruta-vegavÃn !
+<12324.34/2> viveÓa vivaraæ bhÆmer !yatrÃ8ste vÃg-yato vasu÷ !!12324.34!
+<12324.35/1> tata enaæ samutk«ipya !sahasÃ vinatÃ-suta÷ !
+<12324.35/101> [X G1 ins.:: g­hÅtvÃ taæ vasuæ bhaktaæ !sahasÃ vasu-dhÃ-talÃt !12324.35824! X]
+<12324.35/2> utpapÃta nabhas tÆrïaæ !tatra cai7nam amu¤cata !!12324.35!
+<12324.36/1> tasmin muhÆrte saæjaj¤e !rÃjo9pari-cara÷ puna÷ !
+<12324.36/2> sa-ÓarÅro gataÓ cai7va !brahma-lokaæ n­-pa_2-uttama÷ !!12324.36!
+<12324.37/1> evaæ tenÃ7pi kaunteya !vÃg-do«Ãd devatÃ4j¤ayÃ !
+<12324.37/2> prÃptÃ gatir a-yajvÃ1rhÃ !dvi-ja-ÓÃpÃn mahÃ4tmanÃ !!12324.37!
+<12324.38/1> kevalaæ puru«as tena !sevito harir ÅÓvara÷ !
+<12324.38/2> tata÷ ÓÅghraæ jahau ÓÃpaæ !brahma-lokam avÃpa ca !!12324.38!
+<12324.39/1> etat te sarvam ÃkhyÃtaæ !te bhÆtÃ mÃnavÃ yathÃ !
+<12324.39/2> nÃrado 'pi yathÃ Óvetaæ !dvÅpaæ sa gatavÃn ­«i÷ !
+<12324.39/3> tat te sarvaæ pravak«yÃmi !Ó­ïu«vai7ka-manÃ n­-pa_2 !!12324.39!
+<12325.1/1> bhÅ«ma uvÃca: prÃpya Óvetaæ mahÃ-dvÅpaæ !nÃrado bhagavÃn ­«i÷ !
+<12325.1/2> dadarÓa tÃn eva narÃ¤ !ÓvetÃæÓ candra-prabhÃ¤ ÓubhÃn !!12325.1!
+<12325.2/001> [X T G3.6 ins.:: an-indriyÃn an-ÃhÃrÃn !a-ni«yandÃn su-gandhina÷ !
+<12325.2/002> X baddhÃ1¤jali-puÂÃn h­«ÂÃ¤ !jitaæ tae iti vÃdina÷ !
+<12325.2/003> X maho2pani«adaæ mantram !adhÅyÃnÃn svarÃ1nvitam !
+<12325.2/004> X pa¤co1pani«adair mantrair !manasÃ dhyÃyata÷ ÓucÅn !
+<12325.2/005> X ÓÃÓvataæ brahma paramaæ !g­ïÃnÃn sÆrya-varcasa÷ !
+<12325.2/006> X pÆjÃ-parÃn bali-k­ta÷ !stuvata÷ parame-«Âhinam !
+<12325.2/007> X ekÃ1gra-manaso dÃntÃn !ekÃntitvam upÃÓritÃn !12325.1825! X]
+<12325.2/1> pÆjayÃm Ãsa ÓirasÃ !manasÃ taiÓ ca pÆjita÷ !
+<12325.2/2> did­k«ur japya-parama÷ !sarva-k­cchra-dhara÷ sthita÷ !!12325.2!
+<12325.3/1> bhÆtvai9kÃ1gra-manÃ vipra !Ærdhva-bÃhur mahÃ-muni÷ !
+<12325.3/2> stotraæ jagau sa viÓvÃya !nir-guïÃya mahÃ4tmane !!12325.3!
+<12325.4/001> nÃrada uvÃca: namas te deva-deva (1) !
+<12325.4/002> ni«-kriya (2) !
+<12325.4/003> nir-guïa (3) !
+<12325.4/004> loka-sÃ1k«in (4) !
+<12325.4/005> k«etra-j¤a (5) !
+<12325.4/006> an-anta (6) !
+<12325.4/007> puru«a (7) !
+<12325.4/008> mahÃ-puru«a (8) !
+<12325.4/009> tri-guïa (9) !
+<12325.4/01> pradhÃna (10) !
+<12325.4/011> a-m­ta (11) !
+<12325.4/012> vyoma (12) !
+<12325.4/013> sanÃtana (13) !
+<12325.4/014> sad-a-sad-vyaktÃ1-vyakta (14) !
+<12325.4/015> ­ta-dhÃman (15) !
+<12325.4/016> pÆrvÃ3di-deva (16) !
+<12325.4/017> vasu-prada (17) !
+<12325.4/018> prajÃ-pate (18) !
+<12325.4/019> su-prajÃ-pate (19) !
+<12325.4/02> vanas-pate (20) !
+<12325.4/021> mahÃ-prajÃ-pate (21) !
+<12325.4/022> Ærjas-pate (22) !
+<12325.4/023> vÃcas-pate (23) !
+<12325.4/024> manas-pate (24) !
+<12325.4/025> jagat-pate (25) !
+<12325.4/026> divas-pate (26) !
+<12325.4/027> marut-pate (27) !
+<12325.4/028> salila-pate (28) !
+<12325.4/029> p­thivÅ-pate (29) !
+<12325.4/03> dik-pate (30) !
+<12325.4/031> pÆrva-nivÃsa (31) !
+<12325.4/032> brahma-puro-hita (32) !
+<12325.4/033> brahma-kÃyika (33) !
+<12325.4/034> mahÃ-kÃyika (34) !
+<12325.4/035> mahÃ-rÃjika (35) !
+<12325.4/036> catur-mahÃ-rÃjika (36) !
+<12325.4/037> ÃbhÃ-sura (37) !
+<12325.4/038> mahÃ4bhÃ-sura (38) !
+<12325.4/039> sapta-mahÃ4bhÃ-sura (39) !
+<12325.4/04> yÃmya (40) !
+<12325.4/041> mahÃ-yÃmya (41) !
+<12325.4/042> saæj¤Ã-saæj¤a (42) !
+<12325.4/043> tu«ita (43) !
+<12325.4/044> mahÃ-tu«ita (44) !
+<12325.4/045> pratardana (45) !
+<12325.4/046> parinirmita (46) !
+<12325.4/047> vaÓa-vartin (47) !
+<12325.4/048> a-parinirmita (48) !
+<12325.4/049> yaj¤a (49) !
+<12325.4/05> mahÃ-yaj¤a (50) !
+<12325.4/051> yaj¤a-saæbhava (51) !
+<12325.4/052> yaj¤a-yone (52) !
+<12325.4/053> yaj¤a-garbha (53) !
+<12325.4/054> yaj¤a-h­daya (54) !
+<12325.4/055> yaj¤a-stuta (55) !
+<12325.4/056> yaj¤a-bhÃga-hara (56) !
+<12325.4/057> pa¤ca-yaj¤a-dhara (57) !
+<12325.4/058> pa¤ca-kÃla-kart­-gate_2 (58) !
+<12325.4/059> pa¤ca-rÃtrika (59) !
+<12325.4/06> vaikuïÂha (60) !
+<12325.4/061> a-parÃjita (61) !
+<12325.4/062> mÃnasika (62) !
+<12325.4/063> parama-svÃmin (63) !
+<12325.4/064> su-snÃta (64) !
+<12325.4/065> haæsa (65) !
+<12325.4/066> parama-haæsa (66) !
+<12325.4/067> parama-yÃj¤ika (67) !
+<12325.4/068> sÃækhya-yoga (68) !
+<12325.4/069> a-m­te-Óaya (69) !
+<12325.4/07> hiraïye-Óaya (70) !
+<12325.4/071> vede-Óaya (71) !
+<12325.4/072> kuÓe-Óaya (72) !
+<12325.4/073> brahme-Óaya (73) !
+<12325.4/074> padme-Óaya (74) !
+<12325.4/075> viÓve3Óvara (75) !
+<12325.4/076> tvaæ jagad-anvaya÷ (76) !
+<12325.4/077> tvaæ jagat-prak­ti÷ (77) !
+<12325.4/078> tavÃ7gnir Ãsyam (78) !
+<12325.4/079> va¬avÃ-mukho 'gni÷ (79) !
+<12325.4/08> tvam Ãhuti÷ (80) !
+<12325.4/081> tvaæ sÃrathi÷ (81) !
+<12325.4/082> tvaæ va«aÂ-kÃra÷ (82) !
+<12325.4/083> tvam oæ-kÃra÷ (83) !
+<12325.4/084> tvaæ mana÷ (84) !
+<12325.4/085> tvaæ candra-mÃ÷ (85) !
+<12325.4/086> tvaæ cak«ur  Ãdyam (86) !
+<12325.4/087> tvaæ  sÆrya÷ (87) !
+<12325.4/088> tvaæ  diÓÃæ  gaja÷ (88) !
+<12325.4/089> dig-bhÃno (89) !
+<12325.4/09> haya-Óira÷ (90) !
+<12325.4/091> prathama-tri-sauparïa (91) !
+<12325.4/092> pa¤cÃ1gne (92) !
+<12325.4/093> tri-ïÃciketa (93) !
+<12325.4/094> «a¬-aÇga-vidhÃna (94) !
+<12325.4/095> prÃg-jyoti«a (95) !
+<12325.4/096> jye«Âha-sÃma-ga (96) !
+<12325.4/097> sÃmika-vrata-dhara (97) !
+<12325.4/098> atharva-Óira÷ (98) !
+<12325.4/099> pa¤ca-mahÃ-kalpa (99) !
+<12325.4/1> phena-pa_1-ÃcÃrya (100) !
+<12325.4/101> vÃlakhilya (101) !
+<12325.4/102> vaikhÃnasa (102) !
+<12325.4/103> a-bhagna-yoga (103) !
+<12325.4/104> a-bhagna-parisaækhyÃna (104) !
+<12325.4/105> yugÃ3de (105) !
+<12325.4/106> yuga-madhya (106) !
+<12325.4/107> yuga-nidhana (107) !
+<12325.4/108> Ãkhaï¬ala (108) !
+<12325.4/109> prÃcÅna-garbha (109) !
+<12325.4/11> kauÓika (110) !
+<12325.4/111> puru-«Âuta (111) !
+<12325.4/112> puru-hÆta (112) !
+<12325.4/113> viÓva-rÆpa (113) !
+<12325.4/114> an-anta-gate_2 (114) !
+<12325.4/115> an-anta-bhoga (115) !
+<12325.4/116> an-anta (116) !
+<12325.4/117> an-Ãde (117) !
+<12325.4/118> a-madhya (118) !
+<12325.4/119> a-vyakta-madhya (119) !
+<12325.4/12> a-vyakta-nidhana (120) !
+<12325.4/121> vratÃ3vÃsa (121) !
+<12325.4/122> samudrÃ1dhivÃsa (122) !
+<12325.4/123> yaÓo-vÃsa (123) !
+<12325.4/124> tapo-vÃsa (124) !
+<12325.4/125> lak«my--ÃvÃsa (125) !
+<12325.4/126> vidyÃ4vÃsa (126) !
+<12325.4/127> kÅrty-ÃvÃsa (127) !
+<12325.4/128> ÓrÅ-vÃsa (128) !
+<12325.4/129> sarvÃ3vÃsa (129) !
+<12325.4/13> vÃsudeva (130) !
+<12325.4/131> sarva-cchandaka (131) !
+<12325.4/132> hari-haya (132) !
+<12325.4/133> hari-medha (133) !
+<12325.4/134> mahÃ-yaj¤a-bhÃga-hara (134) !
+<12325.4/135> vara-prada (135) !
+<12325.4/136> yama-niyama-mahÃ-niyama-k­cchrÃ1ti-k­cchra-mahÃ-k­cchra-sarva-k­cchra-niyama-dhara (136) !
+<12325.4/137> niv­tta-dharma-pravacana-gate_2 (137) !
+<12325.4/138> prav­tta-veda-kriya (138) !
+<12325.4/139> a-ja (139) !
+<12325.4/14> sarva-gate_2 (140) !
+<12325.4/141> sarva-darÓin (141) !
+<12325.4/142> a-grÃhya (142) !
+<12325.4/143> a-cala (143) !
+<12325.4/144> mahÃ-vidhÆte (144) !
+<12325.4/145> mÃhÃtmya-ÓarÅra (145) !
+<12325.4/146> pavitra (146) !
+<12325.4/147> mahÃ-pavitra (147) !
+<12325.4/148> hiraïmaya (148) !
+<12325.4/149> b­hat (149) !
+<12325.4/15> a-pratarkya (150) !
+<12325.4/151> a-vij¤eya (151) !
+<12325.4/152> brahmÃ1grya (152) !
+<12325.4/153> prajÃ-sarga-kara (153) !
+<12325.4/154> prajÃ-nidhana-kara (154) !
+<12325.4/155> mahÃ-mÃyÃ-dhara (155) !
+<12325.4/156> citra-Óikhaï¬in (156) !
+<12325.4/157> vara-prada (157) !
+<12325.4/158> puro-¬ÃÓa-bhÃga-hara (158) !
+<12325.4/159> gatÃ1dhvan (159) !
+<12325.4/16> chinna-t­«ïa (160) !
+<12325.4/161> chinna-saæÓaya (161) !
+<12325.4/162> sarvato-niv­tta (162) !
+<12325.4/163> brÃhmaïa-rÆpa (163) !
+<12325.4/164> brÃhmaïa-priya (164) !
+<12325.4/165> viÓva-mÆrte (165) !
+<12325.4/166> mahÃ-mÆrte (166) !
+<12325.4/167> bÃndhava (167) !
+<12325.4/168> bhakta-vatsala (168) !
+<12325.4/169> brahmaïya-deva (169) !
+<12325.4/17> bhakto 'haæ tvÃæ did­k«u÷ (170) !
+<12325.4/171> ekÃ1nta-darÓanÃya namo nama÷ (171) !!12325.4!
+<12326.1/1> bhÅ«ma uvÃca: evaæ stuta÷ sa bhagavÃn !guhyais tathyaiÓ ca nÃmabhi÷ !
+<12326.1/2> taæ muniæ darÓayÃm Ãsa !nÃradaæ viÓva-rÆpa-dh­k !!12326.1!
+<12326.2/1> kiæ-cic candra-viÓuddhÃ3tmÃ !kiæ-cic candrÃd viÓe«avÃn !
+<12326.2/2> k­ÓÃnu-varïa÷ kiæ-cic ca !kiæ-cid dhi«ïyÃ3k­ti÷ prabhu÷ !!12326.2!
+<12326.3/1> Óuka-patra-varïa÷ kiæ-cic ca !kiæ-cit sphaÂika-sa-prabha÷ !
+<12326.3/2> nÅlÃ1¤jana-caya-prakhyo !jÃta-rÆpa-prabha÷ kva-cit !!12326.3!
+<12326.4/1> pravÃlÃ1Çkura-varïaÓ ca !Óveta-varïa÷ kva-cid babhau !
+<12326.4/2> kva-cit su-varïa-varïÃ3bho !vai¬Ærya-sa-d­Óa÷ kva-cit !!12326.4!
+<12326.5/1> nÅla-vai¬Ærya-sa-d­Óa !indra-nÅla-nibha÷ kva-cit !
+<12326.5/2> mayÆra-grÅvÃ-varïÃ3bho !muktÃ-hÃra-nibha÷ kva-cit !!12326.5!
+<12326.6/1> etÃn varïÃn bahu-vidhÃn !rÆpe bibhrat sanÃtana÷ !
+<12326.6/2> sahasra-nayana÷ ÓrÅmÃ¤ !Óata-ÓÅr«a÷ sahasra-pÃt !!12326.6!
+<12326.7/1> sahasro1dara-bÃhuÓ ca !a-vyakta iti ca kva-cit !
+<12326.7/2> oæ-kÃram udgiran vaktrÃt !sÃvitrÅæ ca tad-anvayÃm !!12326.7!
+<12326.8/1> Óe«ebhyaÓ cai7va vaktrebhyaÓ !catur-vedo1dgataæ vasu !
+<12326.8/101> [X B9 subst.:: udgiraæÓ caturo vedÃ¤ !Óe«Ãn vasu-dhÃ2dhipa !12326.8826! X]
+<12326.8/2> Ãraïyakaæ jagau devo !harir nÃrÃyaïo vaÓÅ !!12326.8!
+<12326.9/1> vedÅæ kamaï¬aluæ darbhÃn !maïi-rÆpÃn atho7palÃn !
+<12326.9/2> ajinaæ daï¬a-kÃ«Âhaæ ca !jvalitaæ ca hutÃ1Óanam !
+<12326.9/3> dhÃrayÃm Ãsa deve3Óo !hastair yaj¤a-patis tadÃ !!12326.9!
+<12326.10/1> taæ prasannaæ prasannÃ3tmÃ !nÃrado dvi-ja-sattama÷ !
+<12326.10/2> vÃg-yata÷ prayato bhÆtvÃ !vavande parame3Óvaram !
+<12326.10/3> tam uvÃca nataæ mÆrdhnÃ !devÃnÃm Ãdir a-vyaya÷ !!12326.10!
+<12326.11/1> ekataÓ ca dvitaÓ cai7va !tritaÓ cai7va mahar2«aya÷ !
+<12326.11/2> imaæ deÓam anuprÃptÃ !mama darÓana-lÃlasÃ÷ !!12326.11!
+<12326.12/1> na ca mÃæ te dad­Óire !na ca drak«yati kaÓ-cana !
+<12326.12/2> ­te hy ekÃ1ntika-Óre«ÂhÃt !tvaæ cai7vai7kÃ1ntiko mata÷ !!12326.12!
+<12326.13/1> mamai7tÃs tanava÷ Óre«ÂhÃ !jÃtÃ dharma-g­he dvi-ja !
+<12326.13/2> tÃs tvaæ bhajasva satataæ !sÃdhayasva yathÃ-gatam !!12326.13!
+<12326.14/1> v­ïÅ«va ca varaæ vipra !mattas tvaæ yam ihe7cchasi !
+<12326.14/2> prasanno 'haæ tavÃ7dye7ha !viÓva-mÆrtir ihÃ7-vyaya÷ !!12326.14!
+<12326.15/1> nÃrada uvÃca: adya me tapaso deva !yamasya niyamasya ca !
+<12326.15/2> sadya÷ phalam avÃptaæ vai !d­«Âo yad bhagavÃn mayÃ !!12326.15!
+<12326.16/1> vara e«a mamÃ7ty-antaæ !d­«Âas tvaæ yat sanÃtana÷ !
+<12326.16/2> bhagavÃn viÓva-d­k siæha÷ !sarva-mÆrtir mahÃ-prabhu÷ !!12326.16!
+<12326.17/1> bhÅ«ma uvÃca: evaæ saædarÓayitvÃ tu !nÃradaæ parame-«Âhi-jam !
+<12326.17/2> uvÃca vacanaæ bhÆyo gaccha nÃrada mÃ-ciram !!12326.17!
+<12326.18/1> ime hy an-indriyÃ3hÃrÃ !mad-bhaktÃÓ candra-varcasa÷ !
+<12326.18/2> ekÃ1grÃÓ cintayeyur mÃæ !nai7«Ãæ vighno bhaved iti !!12326.18!
+<12326.19/1> siddhÃÓ cai7te mahÃ-bhÃgÃ÷ !purÃ hy ekÃ1ntino 'bhavan !
+<12326.19/2> tamo-rajo-vinirmuktÃ !mÃæ pravek«yanty a-saæÓayam !!12326.19!
+<12326.20/1> na d­ÓyaÓ cak«u«Ã yo 'sau !na sp­Óya÷ sparÓanena ca !
+<12326.20/2> na ghreyaÓ cai7va gandhena !rasena ca vivarjita÷ !!12326.20!
+<12326.21/1> sattvaæ rajas tamaÓ cai7va !na guïÃs taæ bhajanti vai !
+<12326.21/2> yaÓ ca sarva-gata÷ sÃ1k«Å !lokasyÃ8tme9ti kathyate !!12326.21!
+<12326.22/1> bhÆta-grÃma-ÓarÅre«u !naÓyatsu na vinaÓyati !
+<12326.22/2> a-jo nitya÷ ÓÃÓvataÓ ca !nir-guïo ni«-kalas tathÃ !!12326.22!
+<12326.23/1> dvir dvÃ-daÓebhyas tattvebhya÷ !khyÃto ya÷ pa¤ca-viæÓaka÷ !
+<12326.23/2> puru«o ni«-kriyaÓ cai7va !j¤Ãna-d­ÓyaÓ ca kathyate !!12326.23!
+<12326.24/1> yaæ praviÓya bhavantÅ7ha !muktÃ vai dvi-ja-sattama !
+<12326.24/2> sa vÃsudevo vij¤eya÷ !paramÃ3tmÃ sanÃtana÷ !!12326.24!
+<12326.25/1> paÓya devasya mÃhÃtmyaæ !mahimÃnaæ ca nÃrada !
+<12326.25/101> [X K6 B9 Da3..a4 Dn4 ins.:: na vidur munayaÓ cai7va !yÃthÃrthyaæ muni-puæ-gava !12326.25827! X]
+<12326.25/2> ÓubhÃ1-Óubhai÷ karmabhir yo !na lipyati kadÃ-cana !!12326.25!
+<12326.26/1> sattvaæ rajas tamaÓ cai7va !guïÃn etÃn pracak«ate !
+<12326.26/2> ete sarva-ÓarÅre«u !ti«Âhanti vicaranti ca !!12326.26!
+<12326.27/1> etÃn guïÃæs tu k«etra-j¤o !bhuÇkte nai7bhi÷ sa bhujyate !
+<12326.27/101> [X K1.7 Da3..a4 D4.5.7.9 T G1-3.6 M1.5-7 ins.:: paÓya jÅvasya mÃhÃtmyaæ !ya evaæ guïa-bhojaka÷ !
+<12326.27/102> X Å«al-laghu-parikrÃnto !na guïÃs tasya bhojakÃ÷ !12326.27828! X]
+<12326.27/103> [X K7 D4.9 cont.:: sarva-stha÷ sarva-go viÓvaæ !guïa-bhuÇ nir-guïo 'pi ca !
+<12326.27/104> X bhojyo 'haæ bhojako bhoktÃ !paktÃ9haæ jaÂhare 'nala÷ !
+<12326.27/105> X bhÆta-grÃmam imaæ k­tsnaæ !p­thak-karma p­thaÇ-mukham !
+<12326.27/106> X prak­ti-stho 'vati«ÂhÃmi !na ca ti«ÂhÃmi mÆrtimÃn !
+<12326.27/107> X prÃïÃ1pÃna-pravÃreïa !ÓarÅraæ prÃpya dhi«Âhita÷ !
+<12326.27/108> X aham eva hi jantÆnÃæ !nime«o1nme«a-k­d dvi-ja !
+<12326.27/109> X mÃæ tu jÃnÅhi viprar1«e !puru«aæ sarva-gaæ prabhum !12326.27829! X]
+<12326.27/2> nir-guïo guïa-bhuk cai7va !guïa-sra«ÂÃ guïÃ1dhika÷ !!12326.27!
+<12326.28/1> jagat-prati«ÂhÃ devar1«e !p­thivy- apsu pralÅyate !
+<12326.28/2> jyoti«y Ãpa÷ pralÅyante !jyotir vÃyau pralÅyate !!12326.28!
+<12326.29/1> khe vÃyu÷ pralayaæ yÃti !manasy ÃkÃÓam eva ca !
+<12326.29/101> [X K7 D4.9 T G2.3.6 ins.:: kÃlo hi paramaæ bhÆtaæ !manasy e«a pralÅyate !12326.29830! X]
+<12326.29/2> mano hi paramaæ bhÆtaæ !tad a-vyakte pralÅyate !!12326.29!
+<12326.30/1> a-vyaktaæ puru«e brahman !ni«-kriye saæpralÅyate !
+<12326.30/2> nÃ7sti tasmÃt parataraæ !puru«Ãd vai sanÃtanÃt !!12326.30!
+<12326.31/001> [X K1.2.4.7 Da3..a4 D4.5.7.9 T G1.3.6 M1.5-7 ins.:: mÃæ tu jÃnÅhi brahmar1«e !puru«aæ sarva-gaæ prabhum !12326.30831! X]
+<12326.31/1> nityaæ hi nÃ7sti jagati !bhÆtaæ sthÃvara-jaÇgamam !
+<12326.31/2> ­te tam ekaæ puru«aæ !vÃsudevaæ sanÃtanam !
+<12326.31/3> sarva-bhÆtÃ3tma-bhÆto hi !vÃsudevo mahÃ-bala÷ !!12326.31!
+<12326.32/1> p­thivÅ vÃyur ÃkÃÓam !Ãpo jyotiÓ ca pa¤camam !
+<12326.32/2> te sametÃ mahÃ4tmÃna÷ !ÓarÅram iti saæj¤itam !!12326.32!
+<12326.33/1> tadÃ0viÓati yo brahmann !a-d­Óyo laghu-vikrama÷ !
+<12326.33/2> utpanna eva bhavati !ÓarÅraæ ce«Âayan prabhu÷ !!12326.33!
+<12326.34/1> na vinÃ dhÃtu-saæghÃtaæ !ÓarÅraæ bhavati kva-cit !
+<12326.34/2> na ca jÅvaæ vinÃ brahman !dhÃtavaÓ ce«Âayanty uta !!12326.34!
+<12326.35/001> [X K1.2.4.7 Da3..a4 D4.5.7.9 T G1-3.6 M1.5-7 ins.:: p­thag-bhÆtÃÓ ca te nityaæ !k«etra-j¤a÷ p­thag eva ca !
+<12326.35/002> X sattvaæ rajas tamaÓ cai7va !na guïÃs tasya bhojakÃ÷ !
+<12326.35/003> X ete pa¤casu bhÆte«u !ÓarÅra-sthe«u kalpitÃ÷ !12326.34832! X]
+<12326.35/1> sa jÅva÷ parisaækhyÃta÷ !Óe«a÷ saækar«aïa÷ prabhu÷ !
+<12326.35/2> tasmÃt sanat-kumÃratvaæ !yo labheta sva-karmaïÃ !!12326.35!
+<12326.36/1> yasmiæÓ ca sarva-bhÆtÃni !pralayaæ yÃnti saæk«aye !
+<12326.36/2> sa mana÷ sarva-bhÆtÃnÃæ !pradyumna÷ paripaÂhyate !!12326.36!
+<12326.37/1> tasmÃt prasÆto ya÷ kartÃ !kÃryaæ kÃraïam eva ca !
+<12326.37/2> yasmÃt sarvaæ prabhavati !jagat sthÃvara-jaÇgamam !
+<12326.37/3> so '-niruddha÷ sa ÅÓÃno !vyakti÷ sÃ sarva-karmasu !!12326.37!
+<12326.38/1> yo vÃsudevo bhagavÃn !k«etra-j¤o nir-guïÃ3tmaka÷ !
+<12326.38/2> j¤eya÷ sa eva bhagavÃ¤ !jÅva÷ saækar«aïa÷ prabhu÷ !!12326.38!
+<12326.39/1> saækar«aïÃc ca pradyumno !mano-bhÆta÷ sa ucyate !
+<12326.39/2> pradyumnÃd yo '-niruddhas tu !so 'haæ-kÃro mahe4Óvara÷ !!12326.39!
+<12326.40/1> matta÷ sarvaæ saæbhavati !jagat sthÃvara-jaÇgamam !
+<12326.40/2> a-k«araæ ca k«araæ cai7va !sac cÃ7-sac cai7va nÃrada !!12326.40!
+<12326.41/1> mÃæ praviÓya bhavantÅ7ha !muktÃ bhaktÃs tu ye mama !
+<12326.41/2> ahaæ hi puru«o j¤eyo !ni«-kriya÷ pa¤ca-viæÓaka÷ !!12326.41!
+<12326.42/1> nir-guïo ni«-kalaÓ cai7va !nir-dvaædvo ni«-parigraha÷ !
+<12326.42/2> etat tvayÃ na vij¤eyaæ !rÆpavÃn iti d­Óyate !
+<12326.42/3> icchan muhÆrtÃn naÓyeyam !ÅÓo 'haæ jagato guru÷ !!12326.42!
+<12326.43/1> mÃyÃ hy e«Ã mayÃ s­«ÂÃ !yan mÃæ paÓyasi nÃrada !
+<12326.43/2> sarva-bhÆta-guïair yuktaæ !nai7vaæ tvaæ j¤Ãtum arhasi !
+<12326.43/3> mayai9tat kathitaæ samyak !tava mÆrti-catu«Âayam !!12326.43!
+<12326.44/1> siddhÃ hy ete mahÃ-bhÃgÃ !narÃ hy ekÃ1ntino 'bhavan !
+<12326.44/2> tamo-rajobhyÃæ nirmuktÃ÷ !pravek«yanti ca mÃæ mune !!12326.44!
+<12326.45/1> ahaæ kartÃ ca kÃryaæ ca !kÃraïaæ cÃ7pi nÃrada !
+<12326.45/2> ahaæ hi jÅva-saæj¤o vai !mayi jÅva÷ samÃhita÷ !
+<12326.45/3> mai9vaæ te buddhir atrÃ7bhÆd !d­«Âo jÅvo maye9ti ca !!12326.45!
+<12326.46/1> ahaæ sarvatra-go_1 brahman !bhÆta-grÃmÃ1ntar-Ãtmaka÷ !
+<12326.46/2> bhÆta-grÃma-ÓarÅre«u !naÓyatsu na naÓÃmy aham !!12326.46!
+<12326.47/1> hiraïya-garbho lokÃ3diÓ !catur-vaktro nirukta-ga÷_1 !
+<12326.47/2> brahmÃ sanÃtano devo !mama bahv-artha-cintaka÷ !!12326.47!
+<12326.48/001> [X K6 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.5.7.8 ins.:: lalÃÂÃc cai7va me rudro !deva÷ krodhÃd vini÷s­ta÷ !12326.47833! X]
+<12326.48/1> paÓyai7kÃ-daÓa me rudrÃn !dak«iïaæ pÃrÓvam ÃsthitÃn !
+<12326.48/2> dvÃ-daÓai7va tathÃ0dityÃn !vÃmaæ pÃrÓvaæ samÃsthitÃn !!12326.48!
+<12326.49/1> agrataÓ cai7va me paÓya !vasÆn a«Âau suro1ttamÃn !
+<12326.49/2> nÃsatyaæ cai7va dasraæ ca !bhi«ajau paÓya p­«Âhata÷ !!12326.49!
+<12326.50/1> sarvÃn prajÃ-patÅn paÓya !paÓya sapta ­«Ån api !
+<12326.50/2> vedÃn yaj¤ÃæÓ ca ÓataÓa÷ !paÓyÃ7-m­tam athau7«adhÅ÷ !!12326.50!
+<12326.51/1> tapÃæsi niyamÃæÓ cai7va !yamÃn api p­thag-vidhÃn !
+<12326.51/2> tathÃ9«Âa-guïam aiÓvaryam !eka-sthaæ paÓya mÆrtimat !!12326.51!
+<12326.52/1> Óriyaæ lak«mÅæ ca kÅrtiæ ca !p­thivÅæ ca kakudminÅm !
+<12326.52/2> vedÃnÃæ mÃtaraæ paÓya !mat-sthÃæ devÅæ sarasvatÅm !!12326.52!
+<12326.53/1> dhruvaæ ca jyoti«Ãæ Óre«Âhaæ !paÓya nÃrada khe-caram !
+<12326.53/2> ambho-dharÃn samudrÃæÓ ca !sarÃæsi saritas tathÃ !!12326.53!
+<12326.54/1> mÆrtimanta÷ pit­-gaïÃæÓ !catura÷ paÓya sattama !
+<12326.54/2> trÅæÓ cai7ve7mÃn guïÃn paÓya !mat-sthÃn mÆrti-vivarjitÃn !!12326.54!
+<12326.55/1> deva-kÃryÃd api mune !pit­-kÃryaæ viÓi«yate !
+<12326.55/2> devÃnÃæ ca pitÌïÃæ ca !pitÃ hy eko 'ham Ãdita÷ !!12326.55!
+<12326.56/1> ahaæ haya-Óiro bhÆtvÃ !samudre paÓcimo1ttare !
+<12326.56/2> pibÃmi su-hutaæ havyaæ !kavyaæ ca ÓraddhayÃ9nvitam !!12326.56!
+<12326.57/1> mayÃ s­«Âa÷ purÃ brahmÃ !mad-yaj¤am ayajat svayam !
+<12326.57/2> tatas tasmai varÃn prÅto !dadÃv aham an-uttamÃn !!12326.57!
+<12326.58/1> mat-putratvaæ ca kalpÃ3dau !lokÃ1dhyak«atvam eva ca !
+<12326.58/2> ahaæ-kÃra-k­taæ cai7va !nÃma paryÃya-vÃcakam !!12326.58!
+<12326.59/1> tvayÃ k­tÃæ ca maryÃdÃæ !nÃ7tikrÃmyati kaÓ-cana !
+<12326.59/2> tvaæ cai7va vara-do brahman !vare3psÆnÃæ bhavi«yasi !!12326.59!
+<12326.60/1> surÃ1sura-gaïÃnÃæ ca !­«ÅïÃæ ca tapo-dhana !
+<12326.60/2> pitÌïÃæ ca mahÃ-bhÃga !satataæ saæÓita-vrata !
+<12326.60/3> vi-vidhÃnÃæ ca bhÆtÃnÃæ !tvam upÃsyo bhavi«yasi !!12326.60!
+<12326.61/1> prÃdur-bhÃva-gataÓ cÃ7haæ !sura-kÃrye«u nityadÃ !
+<12326.61/2> anuÓÃsyas tvayÃ brahman !niyojyaÓ ca suto yathÃ !!12326.61!
+<12326.62/1> etÃæÓ cÃ7nyÃæÓ ca rucirÃn !brahmaïe '-mita-tejase !
+<12326.62/101> [X G1 Kumbh..ed. ins.:: evaæ rudrÃya manave !indrÃyÃ7-mita-tejase !12326.62834! X]
+<12326.62/2> ahaæ dattvÃ varÃn prÅto !niv­tti-paramo 'bhavam !!12326.62!
+<12326.63/1> nirvÃïaæ sarva-dharmÃïÃæ !niv­tti÷ paramÃ sm­tÃ !
+<12326.63/2> tasmÃn niv­ttim ÃpannaÓ !caret sarvÃ1Çga-nirv­ta÷ !!12326.63!
+<12326.64/1> vidyÃ-sahÃyavantaæ mÃm !Ãditya-sthaæ sanÃtanam !
+<12326.64/2> kapilaæ prÃhur ÃcÃryÃ÷ !sÃækhya-niÓcita-niÓcayÃ÷ !!12326.64!
+<12326.65/1> hiraïya-garbho bhagavÃn !e«a chandasi su-«Âuta÷ !
+<12326.65/2> so 'haæ yoga-gatir brahman !yoga-ÓÃstre«u Óabdita÷ !!12326.65!
+<12326.66/1> e«o 'haæ vyaktim Ãgamya !ti«ÂhÃmi divi ÓÃÓvata÷ !
+<12326.66/2> tato yuga-sahasrÃ1nte !saæhari«ye jagat puna÷ !
+<12326.66/3> k­tvÃ0tma-sthÃni bhÆtÃni !sthÃvarÃïi carÃïi ca !!12326.66!
+<12326.67/1> ekÃkÅ vidyayÃ sÃ1rdhaæ !vihari«ye dvi-jo1ttama !
+<12326.67/2> tato bhÆyo jagat sarvaæ !kari«yÃmÅ7ha vidyayÃ !!12326.67!
+<12326.68/1> asman-mÆrtiÓ caturthÅ yÃ !sÃ9s­jac che«am a-vyayam !
+<12326.68/2> sa hi saækar«aïa÷ prokta÷ !pradyumnaæ so 'py ajÅjanat !!12326.68!
+<12326.69/1> pradyumnÃd a-niruddho 'haæ !sargo mama puna÷ puna÷ !
+<12326.69/2> a-niruddhÃt tathÃ brahmÃ !tatrÃ8di-kamalo1dbhava÷ !!12326.69!
+<12326.70/1> brahmaïa÷ sarva-bhÆtÃni !carÃïi sthÃvarÃïi ca !
+<12326.70/2> etÃæ s­«Âiæ vijÃnÅhi !kalpÃ3di«u puna÷ puna÷ !!12326.70!
+<12326.71/1> yathÃ sÆryasya gaganÃd !udayÃ1stamayÃv iha !
+<12326.71/2> na«Âau punar balÃt kÃlae !Ãnayaty a-mita-dyuti÷ !
+<12326.71/201> [X Ds2 D7 T G1-3.6 Kumbh..ed. ins.:: bhÅ«ma÷: nÃradas tv atha papraccha !bhagavantaæ janÃ1rdanam !
+<12326.71/202> X ke«u ke«u ca bhÃve«u !dra«Âavyo 'si mayÃ prabho !
+<12326.71/203> X ÓrÅ-bhagavÃn uvÃca: Ó­ïu nÃrada tattvena !prÃdur-bhÃvÃn mahÃ-mune !
+<12326.71/204> X matsya÷ kÆrmo varÃhaÓ ca !nÃrasiæho 'tha vÃmana÷ !
+<12326.71/205> X rÃmo rÃmaÓ ca rÃmaÓ ca !k­«ïa÷ kalkÅ ca te daÓa !
+<12326.71/206> X pÆrvaæ mÅno bhavi«yÃmi !sthÃpayi«yÃm ahaæ prajÃ÷ !
+<12326.71/207> X lokÃn vedÃn dhari«yÃmi !majjamÃnÃn mahÃ2rïave !
+<12326.71/208> X dvitÅyaæ kÆrma-rÆpaæ me !hema-kÆÂa-nibhaæ sm­tam !
+<12326.71/209> X mandaraæ dhÃrayi«yÃmi !a-m­tÃ1rthaæ dvi-jo1ttama !
+<12326.71/21> X magnÃæ mahÃ2rïave ghore !bhÃrÃ3krÃntÃm imÃæ puna÷ !12326.71835! X]
+<12326.71/3> tathÃ balÃd ahaæ p­thvÅæ !sarva-bhÆta-hitÃya vai !!12326.71!
+<12326.72/1> sattvair ÃkrÃnta-sarvÃ1ÇgÃæ !na«ÂÃæ sÃgara-mekhalÃm !
+<12326.72/2> Ãnayi«yÃmi svaæ sthÃnaæ !vÃrÃhaæ rÆpam Ãsthita÷ !!12326.72!
+<12326.73/1> hiraïyÃ1k«aæ hani«yÃmi !daiteyaæ bala-garvitam !
+<12326.73/2> nÃrasiæhaæ vapu÷ k­tvÃ !hiraïya-kaÓipuæ puna÷ !
+<12326.73/3> sura-kÃrye hani«yÃmi !yaj¤a-ghnaæ diti-nandanam !!12326.73!
+<12326.74/1> virocanasya balavÃn !bali÷ putro mahÃ2sura÷ !
+<12326.74/101> [X K6 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.5.8 ins.:: a-vadhya÷ sarva-lokÃnÃæ !sa-devÃ1sura-rak«asÃm !12326.74836! X]
+<12326.74/2> bhavi«yati sa Óakraæ ca !sva-rÃjyÃc cyÃvayi«yati !!12326.74!
+<12326.75/1> trailokye 'pah­te tena !vi-mukhe ca ÓacÅ-patau !
+<12326.75/2> adityÃæ dvÃ-daÓa÷ putra÷ !saæbhavi«yÃmi kaÓyapÃt !!12326.75!
+<12326.76/001> [X D7 T G1-3.6 Kumbh..ed. Cv ins.:: jaÂÅ gatvÃ yaj¤a-sada÷ !stÆyamÃno dvi-jo1ttamai÷ !
+<12326.76/002> X yaj¤a-stavaæ kari«yÃmi !ÓrutvÃ prÅto bhaved bali÷ !
+<12326.76/003> X kim icchasi baÂo brÆhÅ7ty !ukto yÃce mahad varam !
+<12326.76/004> X dÅyatÃæ tri-padÅ-mÃtram !iti yÃce mahÃ2suram !
+<12326.76/005> X sa dadyÃn mayi saæprÅta÷ !prati«iddhaÓ ca mantribhi÷ !
+<12326.76/006> X yÃvaj jalaæ hasta-gataæ !tribhir vikramaïair v­tam !12326.75837! X]
+<12326.76/1> tato rÃjyaæ pradÃsyÃmi !ÓakrÃyÃ7-mita-tejase !
+<12326.76/2> devatÃ÷ sthÃpayi«yÃmi !sve«u sthÃne«u nÃrada !
+<12326.76/3> baliæ cai7va kari«yÃmi !pÃtÃla-tala-vÃsinam !!12326.76!
+<12326.77/001> [X K6 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.8 Kumbh..ed. ins.:: dÃnavaæ balinÃæ Óre«Âham !a-vadhyaæ sarva-daivatai÷ !12326.76838! X]
+<12326.77/1> tretÃ-yuge bhavi«yÃmi !rÃmo bh­gu-kulo1dvaha÷ !
+<12326.77/101> [X D7 T G1-3.6 ins. after 77a:: dvÃ-viæÓad-yuga-paryaye !
+<12326.77/102> X bhavi«yÃmi ­«is tatra !jamad-agni-suto balÅ !
+<12326.77/103> X bÃhu-vÅrya-yuto rÃmo !12326.77839! X]
+<12326.77/2> k«atraæ co7tsÃdayi«yÃmi !sam­ddha-bala-vÃhanam !!12326.77!
+<12326.78/1> saædhau tu samanuprÃpte !tretÃyÃæ dvÃ-parasya ca !
+<12326.78/2> rÃmo dÃÓarathir bhÆtvÃ !bhavi«yÃmi jagat-pati÷ !!12326.78!
+<12326.79/1> trito1paghÃtÃd vairÆpyam !ekato 'tha dvitas tathÃ !
+<12326.79/2> prÃpsyato vÃnaratvaæ hi !prajÃ-pati-sutÃv ­«Å !!12326.79!
+<12326.80/1> tayor ye tv anvaye jÃtÃ !bhavi«yanti vanau1kasa÷ !
+<12326.80/101> [X K1.2.4.6.7 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2-5.7-9 T G1-3.6 Kumbh..ed. ins.:: mahÃ-balÃ mahÃ-vÅryÃ÷ !Óakra-tulya-parÃkramÃ÷ !12326.80840! X]
+<12326.80/2> te sahÃyÃ bhavi«yanti !sura-kÃrye mama dvi-ja !!12326.80!
+<12326.81/1> tato rak«a÷-patiæ ghoraæ !pulastya-kula-pÃæsanam !
+<12326.81/2> hani«ye rÃvaïaæ saækhye !sa-gaïaæ loka-kaïÂakam !!12326.81!
+<12326.82/001> [X Da4 Ds D7 T1 G3.6 Kumbh..ed. ins.:: tad-rÃjye sthÃpayi«yÃmi !vibhÅ«aïam a-kalma«am !
+<12326.82/002> X a-yodhyÃ-vÃsina÷ sarvÃn !ne«ye 'haæ lokam a-vyayam !
+<12326.82/003> X vibhÅ«aïÃya dÃsyÃmi !rÃjyaæ tasya yathÃ-kramam !12326.81841! X]
+<12326.82/1> dvÃ-parasya kaleÓ cai7va !saædhau paryavasÃnike !
+<12326.82/2> prÃdur-bhÃva÷ kaæsa-hetor !mÃthurÃyÃæ bhavi«yati !!12326.82!
+<12326.83/001> [X D7 T G1-3.6 subst.:: kali-dvÃparayo÷ saædhÃv !a«ÂÃ-viæÓe catur-yuge !
+<12326.83/002> X prÃdur-bhÃvaæ kari«yÃmi !bhÆyo v­«ïi-kulo1dvaha÷ !
+<12326.83/003> X madhurÃyÃæ kaæsa-hetor !vÃsudeve7ti nÃmata÷ !
+<12326.83/004> X t­tÅyo rÃma ity eva !vasu-deva-suto balÅ !12326.82842! X]
+<12326.83/1> tatrÃ7haæ dÃnavÃn hatvÃ !su-bahÆn deva-kaïÂakÃn !
+<12326.83/2> kuÓa-sthalÅæ kari«yÃmi !nivÃsaæ dvÃrakÃæ purÅm !!12326.83!
+<12326.84/1> vasÃnas tatra vai puryÃm !aditer vi-priyaæ-karam !
+<12326.84/2> hani«ye narakaæ bhaumaæ !muraæ pÅÂhaæ ca dÃnavam !!12326.84!
+<12326.85/1> prÃg-jyoti«a-puraæ ramyaæ !nÃnÃ-dhana-samanvitam !
+<12326.85/2> kuÓa-sthalÅæ nayi«yÃmi !hatvÃ vai dÃnavo1ttamÃn !!12326.85!
+<12326.86/001> [X D7 T G1-3.6 Kumbh..ed. ins.:: k­kalÃsa-bhÆtaæ ca n­-gaæ !mocayi«ye ca vai puna÷ !
+<12326.86/002> X tata÷ pautra-nimittena !gatvÃ vai Óoïitaæ puram !
+<12326.86/003> X bÃïasya ca puraæ gatvÃ !kari«ye kadanaæ mahat !12326.85843! X]
+<12326.86/1> Óaæ-karaæ ca mahÃ-senaæ !bÃïa-priya-hitai1«iïam !
+<12326.86/2> parÃje«yÃmy atho7dyuktau !deva-loka-namas-k­tau !!12326.86!
+<12326.87/1> tata÷ sutaæ baler jitvÃ !bÃïaæ bÃhu-sahasriïam !
+<12326.87/2> vinÃÓayi«yÃmi tata÷ !sarvÃn saubha-nivÃsina÷ !!12326.87!
+<12326.88/001> [X D7 T G1-3.6 Kumbh..ed. ins.:: kaæsaæ keÓiæ tathÃ krÆram !a-ri«Âaæ ca mahÃ2suram !
+<12326.88/002> X cÃïÆraæ ca mahÃ-vÅryaæ !mu«Âikaæ ca mahÃ-balam !
+<12326.88/003> X pralambaæ dhenukaæ cai7va !a-ri«Âaæ v­«a-rÆpiïam !
+<12326.88/004> X kÃlÅyaæ ca vaÓe k­tvÃ !yamunÃyÃ mahÃ-hrade !
+<12326.88/005> X go-kule«u tata÷ paÓcÃd !gavÃ1rthe tu mahÃ-girim !
+<12326.88/006> X sapta-rÃtraæ dhari«yÃmi !var«amÃïe tu vÃsave !
+<12326.88/007> X apakrÃnte tato var«e !giri-mÆrdhany avasthita÷ !
+<12326.88/008> X indreïa saha saævÃdaæ !kari«yÃmi tadÃ dvi-ja !12326.87844! X]
+<12326.88/1> ya÷ kÃla-yavana÷ khyÃto !garga-tejo-abhisaæv­ta÷ !
+<12326.88/2> bhavi«yati vadhas tasya !matta eva dvi-jo1ttama !!12326.88!
+<12326.89/001> [X Kumbh..ed. cont.:: laghv Ãcchidya dhanaæ sarvaæ !vÃsudevaæ ca pauï¬rakam !12326.88845! X]
+<12326.89/1> jarÃ-saædhaÓ ca balavÃn !sarva-rÃja-virodhaka÷ !
+<12326.89/2> bhavi«yaty asura÷ sphÅto !bhÆmi-pÃlo giri-vraje !
+<12326.89/3> mama buddhi-parispandÃd !vadhas tasya bhavi«yati !!12326.89!
+<12326.90/001> [X K6 Bo.7-9 Da3..a4 Dn1.ï4 Ds D2.3.5.8 Kumbh..ed. ins.:: ÓiÓu-pÃlaæ vadhi«yÃmi !yaj¤e dharma-sutasya vai !12326.89846! X]
+<12326.90/002> [X Kumbh..ed. cont., D7 T G1-3.6 ins. after 89:: dur-yodhanÃ1parÃdhena !yudhi-«Âhira-guïena ca !12326.89847! X]
+<12326.90/1> samÃgate«u bali«u !p­thivyÃæ sarva-rÃjasu !
+<12326.90/2> vÃsavi÷ su-sahÃyo vai !mama hy eko bhavi«yati !!12326.90!
+<12326.91/001> [X K6 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.5.8 Kumbh..ed. ins.:: yudhi-«Âhiraæ sthÃpayi«ye !sva-rÃjye bhrÃt­bhi÷ saha !12326.90848! X]
+<12326.91/1> evaæ lokÃ vadi«yanti !nara-nÃrÃyaïÃv ­«Å !
+<12326.91/2> udyuktau dahata÷ k«atraæ !loka-kÃryÃ1rtham ÅÓvarau !!12326.91!
+<12326.92/001> [X D7 T G1-3.6 Kumbh..ed. ins.:: Óastrair nipatitÃ÷ sarve !n­-pÃ_2 yÃsyanti vai divam !12326.91849! X]
+<12326.92/1> k­tvÃ bhÃrÃ1vataraïaæ !vasu-dhÃyÃ yathe4psitam !
+<12326.92/101> [X D7 T G1-3.6 ins.:: rÃjyaæ praÓÃsati puna÷ !kuntÅ-putre yudhi-«Âhire !12326.91850! X]
+<12326.92/2> sarva-sÃtvata-mukhyÃnÃæ !dvÃrakÃyÃÓ ca sattama !
+<12326.92/3> kari«ye pralayaæ ghoram !Ãtma-j¤Ãti-vinÃÓanam !!12326.92!
+<12326.93/1> karmÃïy a-parimeyÃni !catur-mÆrti-dharo hy aham !
+<12326.93/2> k­tvÃ lokÃn gami«yÃmi !svÃn ahaæ brahma-sat-k­tÃn !!12326.93!
+<12326.94/001> [X D7 T G1-3.6 ins. after 12326.93, Kumbh..ed. after 12.326.92:: AppI.31 X]
+<12326.94/1> haæso haya-ÓirÃÓ cai7va !prÃdur-bhÃvÃ dvi-jo1ttama !
+<12326.94/101> [X K6 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.5.8 Ca ins.:: vÃrÃho nÃrasiæhaÓ ca !vÃmano rÃma eva ca !
+<12326.94/102> X rÃmo dÃÓarathiÓ cai7va !sÃtvata÷ kalkir eva ca !12326.94851! X]
+<12326.94/2> yadÃ veda-Órutir na«ÂÃ !mayÃ pratyÃh­tÃ tadÃ !
+<12326.94/3> sa-vedÃ÷ sa-ÓrutÅkÃÓ ca !k­tÃ÷ pÆrvaæ k­te yuge !!12326.94!
+<12326.95/1> atikrÃntÃ÷ purÃïe«u !ÓrutÃs te yadi vÃ kva-cit !
+<12326.95/2> atikrÃntÃÓ ca bahava÷ !prÃdur-bhÃvÃ mamo7ttamÃ÷ !
+<12326.95/3> loka-kÃryÃïi k­tvÃ ca !puna÷ svÃæ prak­tiæ gatÃ÷ !!12326.95!
+<12326.96/001> [X K1.2.4.7 D4.5.7.9 T G1-3.6 M1.5-7 ins.:: puru«a÷ sarvam eve7dam !a-k«ayaÓ cÃ7-vyayaÓ ca ha !12326.95852! X]
+<12326.96/1> na hy etad brahmaïÃ prÃptam !Å-d­Óaæ mama darÓanam !
+<12326.96/2> yat tvayÃ prÃptam adye7ha !ekÃ1nta-gata-buddhinÃ !!12326.96!
+<12326.97/1> etat te sarvam ÃkhyÃtaæ !brahman bhaktimato mayÃ !
+<12326.97/2> purÃïaæ ca bhavi«yaæ ca !sa-rahasyaæ ca sattama !!12326.97!
+<12326.98/1> evaæ sa bhagavÃn devo !viÓva-mÆrti-dharo '-vyaya÷ !
+<12326.98/2> etÃvad uktvÃ vacanaæ !tatrai7vÃ7ntaradhÅyata !!12326.98!
+<12326.99/1> nÃrado 'pi mahÃ-tejÃ÷ !prÃpyÃ7nugraham Åpsitam !
+<12326.99/2> nara-nÃrÃyaïau dra«Âuæ !prÃdravad badarÃ3Óramam !!12326.99!
+<12326.100/1> idaæ maho2pani«adaæ !catur-veda-samanvitam !
+<12326.100/2> sÃækhya-yoga-k­taæ tena !pa¤ca-rÃtrÃ1nuÓabditam !!12326.100!
+<12326.101/1> nÃrÃyaïa-mukho1dgÅtaæ !nÃrado 'ÓrÃvayat puna÷ !
+<12326.101/2> brahmaïa÷ sadane tÃta !yathÃ d­«Âaæ yathÃ Órutam !!12326.101!
+<12326.102/001> [X D7 T G1-3.6 ins.:: ÓrutvÃ brahma-mukhÃd rudra÷ !sa devyai kathayat puna÷ !12326.102853! X]
+<12326.102/1> yudhi-«Âhira uvÃca: etad ÃÓcarya-bhÆtaæ hi !mÃhÃtmyaæ tasya dhÅmata÷ !
+<12326.102/2> kiæ brahmÃ na vijÃnÅte !yata÷ ÓuÓrÃva nÃradÃt !!12326.102!
+<12326.103/1> pitÃ-maho hi bhagavÃæs !tasmÃd devÃd an-antara÷ !
+<12326.103/2> kathaæ sa na vijÃnÅyÃt !prabhÃvam a-mitau1jasa÷ !!12326.103!
+<12326.104/1> bhÅ«ma uvÃca: mahÃ-kalpa-sahasrÃïi !mahÃ-kalpa-ÓatÃni ca !
+<12326.104/2> samatÅtÃni rÃje1ndra !sargÃÓ ca pralayÃÓ ca ha !!12326.104!
+<12326.105/1> sargasyÃ8dau sm­to brahmÃ !prajÃ-sarga-kara÷ prabhu÷ !
+<12326.105/2> jÃnÃti deva-pravaraæ !bhÆyaÓ cÃ7to 'dhikaæ n­-pa_2 !
+<12326.105/3> param ÃtmÃnam ÅÓÃnam !Ãtmana÷ prabhavaæ tathÃ !!12326.105!
+<12326.106/1> ye tv anye brahma-sadane !siddha-saæghÃ÷ samÃgatÃ÷ !
+<12326.106/2> tebhyas tac chrÃvayÃm Ãsa !purÃïaæ veda-saæmitam !!12326.106!
+<12326.107/1> te«Ãæ sa-kÃÓÃt sÆryaÓ ca !ÓrutvÃ vai bhÃvitÃ3tmanÃm !
+<12326.107/2> ÃtmÃ1nugÃminÃæ brahma !ÓrÃvayÃm Ãsa bhÃrata !!12326.107!
+<12326.108/1> «aÂ-«a«Âir hi sahasrÃïi !­«ÅïÃæ bhÃvitÃ3tmanÃm !
+<12326.108/2> sÆryasya tapato lokÃn !nirmitÃ ye pura÷-sarÃ÷ !
+<12326.108/3> te«Ãm akathayat sÆrya÷ !sarve«Ãæ bhÃvitÃ3tmanÃm !!12326.108!
+<12326.109/1> sÆryÃ1nugÃmibhis tÃta !­«ibhis tair mahÃ4tmabhi÷ !
+<12326.109/2> merau samÃgatÃ devÃ÷ !ÓrÃvitÃÓ ce7dam uttamam !!12326.109!
+<12326.110/1> devÃnÃæ tu sa-kÃÓÃd vai !tata÷ ÓrutvÃ9sito dvi-ja÷ !
+<12326.110/2> ÓrÃvayÃm Ãsa rÃje1ndra !pitÌïÃæ muni-sattama÷ !!12326.110!
+<12326.111/001> [X D7 T G1-3.6 ins.:: evaæ paraæ-parÃ4khyÃtam !idaæ Óaæ-tanunÃ Órutam !12326.110854! X]
+<12326.111/1> mama cÃ7pi pitÃ tÃta !kathayÃm Ãsa Óaæ-tanu÷ !
+<12326.111/2> tato mayai9tac chrutvÃ ca !kÅrtitaæ tava bhÃrata !!12326.111!
+<12326.112/001> [X K7 D4.9 ins.:: nÃradÃc cai7va devar1«e÷ !purÃïam aham ÃptavÃn !12326.111855! X]
+<12326.112/1> surair vÃ munibhir vÃ9pi !purÃïaæ yair idaæ Órutam !
+<12326.112/2> sarve te paramÃ3tmÃnaæ !pÆjayanti puna÷ puna÷ !!12326.112!
+<12326.113/1> idam ÃkhyÃnam Ãr«eyaæ !pÃraæparyÃ3gataæ n­-pa_2 !
+<12326.113/2> nÃ7-vÃsudeva-bhaktÃya !tvayÃ deyaæ kathaæ-cana !!12326.113!
+<12326.114/001> [X D7 T G1-3.6 ins. after 113, K1.2.4 ins. after 120:: ÃkhyÃnam uttamaæ ce7daæ !ÓrÃvayed ya÷ sadÃ n­-pa_2 !
+<12326.114/002> X sadai9va manu-jo bhakta÷ !Óucir bhÆtvÃ samÃhita÷ !
+<12326.114/003> X prÃpnuyÃd a-cirÃd rÃjan !vi«ïu-lokaæ sanÃtanam !12326.113856! X]
+<12326.114/1> matto 'nyÃni ca te rÃjann !upÃkhyÃna-ÓatÃni vai !
+<12326.114/2> yÃni ÓrutÃni dharmyÃïi !te«Ãæ sÃro 'yam uddh­ta÷ !!12326.114!
+<12326.115/1> surÃ1surair yathÃ rÃjan !nirmathyÃ7-m­tam uddh­tam !
+<12326.115/2> evam etat purÃ viprai÷ !kathÃ2-m­tam iho7ddh­tam !!12326.115!
+<12326.116/1> yaÓ ce7daæ paÂhate nityaæ !yaÓ ce7daæ Ó­ïuyÃn nara÷ !
+<12326.116/2> ekÃ1nta-bhÃvo1pagata !ekÃ1nte su-samÃhita÷ !!12326.116!
+<12326.117/1> prÃpya Óvetaæ mahÃ-dvÅpaæ !bhÆtvÃ candra-prabho nara÷ !
+<12326.117/2> sa sahasrÃ1rci«aæ devaæ !praviÓen nÃ7tra saæÓaya÷ !!12326.117!
+<12326.118/1> mucyed Ãrtas tathÃ rogÃc !chrutve9mÃm Ãdita÷ kathÃm !
+<12326.118/2> jij¤Ãsur labhate kÃmÃn !bhakto bhakta-gatiæ vrajet !!12326.118!
+<12326.119/1> tvayÃ9pi satataæ rÃjann !abhyarcya÷ puru«o1ttama÷ !
+<12326.119/101> [X K1.2.4 ins.:: vÃsudevaæ mahÃ4tmÃnaæ !Órotavyaæ vidhi-pÆrvakam !12326.119857! X]
+<12326.119/2> sa hi mÃtÃ pitÃ cai7va !k­tsnasya jagato guru÷ !!12326.119!
+<12326.120/1> brahmaïya-devo bhagavÃn !prÅyatÃæ te sanÃtana÷ !
+<12326.120/2> yudhi-«Âhira mahÃ-bÃho !mahÃ-bÃhur janÃ1rdana÷ !!12326.120!
+<12326.121/001> [X B6.7 ins.:: pÆjanÅyo sadÃ9-vy-agro !munibhir veda-pÃra-gai÷ !12326.120858! X]
+<12326.121/1> vaiÓaæpÃyana uvÃca: Órutvai9tad ÃkhyÃna-varaæ !dharma-rÃ¬ janam-ejaya !
+<12326.121/2> bhrÃtaraÓ cÃ7sya te sarve !nÃrÃyaïa-parÃabhavan !!12326.121!
+<12326.122/1> jitaæ bhagavatÃ tena !puru«eïe7ti bhÃrata !
+<12326.122/2> nityaæ japya-parÃ bhÆtvÃ !sarasvatÅm udÅrayan !!12326.122!
+<12326.123/1> yo hy asmÃkaæ guru÷ Óre«Âha÷ !k­«ïa-dvaipÃyano muni÷ !
+<12326.123/2> sa jagau paramaæ japyaæ !nÃrÃyaïam udÅrayan !!12326.123!
+<12326.124/1> gatvÃ9ntarik«Ãt satataæ !k«Åro1dam a-m­tÃ3Óayam !
+<12326.124/2> pÆjayitvÃ ca deve3Óaæ !punar ÃyÃt svam ÃÓramam !!12326.124!
+<12327.1/001> [X K6 Bo.6.7.9 Da4 Dn1.ï4 Ds2 D2.3.5.8 M1.5-7 B8 D7 T G1-3.6 ins.:: bhÅ«ma uvÃca: etat te sarvam ÃkhyÃtaæ !nÃrado1ktaæ maye0ritam !
+<12327.1/002> X pÃraæparyÃ3gataæ hy etat !pitrÃ me kathitaæ purÃ !12326.124859! X]
+<12327.1/003> [X K6 Bo.6-9 Da4 Dn1.ï4 Ds2 D2.3.5.7.8 & G1-3.6 cont., K1.2.4.7 Ds1 D4.9 editions ins. after 124:: sÆta uvÃca: etat te sarvam ÃkhyÃtaæ !vaiÓaæpÃyana-kÅrtitam !
+<12327.1/004> X janam-ejayena yac chrutvÃ !k­taæ samyag yathÃ-vidhi !
+<12327.1/005> X yÆyaæ hi tapta-tapasa÷ !sarve ca carita-vratÃ÷ !
+<12327.1/006> X sarve veda-vido mukhyÃ !naimi«Ã1raïya-vÃsina÷ !
+<12327.1/007> X Óaunakasya mahÃ-sattraæ !prÃptÃ÷ sarve dvi-jo1ttamÃ÷ !
+<12327.1/008> X yajadhvaæ su-hutair yaj¤air !ÃtmÃnaæ parame3Óvaram !12326.124860! X]
+<12327.1/1> janam-ejaya uvÃca: kathaæ sa bhagavÃn devo !yaj¤e«v agra-hara÷ prabhu÷ !
+<12327.1/2> yaj¤a-dhÃrÅ ca satataæ !veda-vedÃ1Çga-vit tathÃ !!12327.1!
+<12327.2/1> niv­ttaæ cÃ8sthito dharmaæ !k«emÅ bhÃgavata-priya÷ !
+<12327.2/2> prav­tti-dharmÃn vidadhe !sa eva bhagavÃn prabhu÷ !!12327.2!
+<12327.3/1> kathaæ prav­tti-dharme«u !bhÃgÃ1rhÃ devatÃ÷ k­tÃ÷ !
+<12327.3/2> kathaæ niv­tti-dharmÃÓ ca !k­tÃ vyÃv­tta-buddhaya÷ !!12327.3!
+<12327.4/1> etaæ na÷ saæÓayaæ vipra !chindhi guhyaæ sanÃtanam !
+<12327.4/2> tvayÃ nÃrÃyaïa-kathÃ !ÓrutÃ vai dharma-saæhitÃ !!12327.4!
+<12327.5/001> [X K1.2.4.6.7 Bo.6-9 Da4 Dn1.ï4 Ds D2-5.7-9 T G1-3.6 Cn editions:: sÆta uvÃca: janam-ejayena yat p­«Âa÷ !Ói«yo vyÃsasya dhÅmata÷ !
+<12327.5/002> X tat te 'haæ kÅrtayi«yÃmi !paurÃïaæ Óaunako1ttama !
+<12327.5/003> X ÓrutvÃ mÃhÃtmyam etasya !dehinÃæ paramÃ3tmana÷ !
+<12327.5/004> X janam-ejayo mahÃ-prÃj¤o !vaiÓaæpÃyanam abravÅt !12327.4861! X]
+<12327.5/1> ime sa-brahmakÃ lokÃ÷ !sa-surÃ1sura-mÃnavÃ÷ !
+<12327.5/2> kriyÃsv abhyudayo1ktÃsu !saktÃ d­Óyanti sarvaÓa÷ !
+<12327.5/3> mok«aÓ co7ktas tvayÃ brahman !nirvÃïaæ paramaæ sukham !!12327.5!
+<12327.6/1> ye ca muktÃ bhavantÅ7ha !puïya-pÃpa-vivarjitÃ÷ !
+<12327.6/2> te sahasrÃ1rci«aæ devaæ !praviÓantÅ7ti ÓuÓruma÷ !!12327.6!
+<12327.7/1> aho hi dur-anu«Âheyo !mok«a-dharma÷ sanÃtana÷ !
+<12327.7/2> yaæ hitvÃ devatÃ÷ sarvÃ !havya-kavya-bhujo 'bhavan !!12327.7!
+<12327.8/1> kiæ nu brahmÃ ca rudraÓ ca !ÓakraÓ ca bala-bhit prabhu÷ !
+<12327.8/2> sÆryas tÃrÃ1dhipo vÃyur !agnir varuïa eva ca !
+<12327.8/3> ÃkÃÓaæ jagatÅ cai7va !ye ca Óe«Ã divau1kasa÷ !!12327.8!
+<12327.9/1> pralayaæ na vijÃnanti !Ãtmana÷ parinirmitam !
+<12327.9/2> tatas te nÃ8sthitÃ mÃrgaæ !dhruvam a-k«ayam a-vyayam !!12327.9!
+<12327.10/1> sm­tvÃ kÃla-parÅmÃïaæ !prav­ttiæ ye samÃsthitÃ÷ !
+<12327.10/2> do«a÷ kÃla-parÅmÃïe !mahÃn e«a kriyÃvatÃm !!12327.10!
+<12327.11/1> etan me saæÓayaæ vipra !h­di Óalyam ivÃ7rpitam !
+<12327.11/2> chindhÅ7tihÃsa-kathanÃt !paraæ kautÆhalaæ hi me !!12327.11!
+<12327.12/1> kathaæ bhÃga-harÃ÷ proktÃ !devatÃ÷ kratu«u dvi-ja !
+<12327.12/2> kim-arthaæ cÃ7dhvare brahmann !ijyante tri-divau1kasa÷ !!12327.12!
+<12327.13/1> ye ca bhÃgaæ prag­hïanti !yaj¤e«u dvi-ja-sattama !
+<12327.13/2> te yajanto mahÃ-yaj¤ai÷ !kasya bhÃgaæ dadanti vai !!12327.13!
+<12327.14/1> vaiÓaæpÃyana uvÃca: aho gÆ¬hatama÷ praÓnas !tvayÃ p­«Âo jane3Óvara !
+<12327.14/2> nÃ7-tapta-tapasÃ hy e«a !nÃ7-veda-vidu«Ã tathÃ !
+<12327.14/3> nÃ7-purÃïa-vidÃ cÃ7pi !Óakyo vyÃhartum a¤jasÃ !!12327.14!
+<12327.15/1> hanta te kathayi«yÃmi !yan me p­«Âa÷ purÃ guru÷ !
+<12327.15/2> k­«ïa-dvaipÃyano vyÃso !veda-vyÃso mahÃn ­«i÷ !!12327.15!
+<12327.16/1> su-mantur jaiminiÓ cai7va !pailaÓ ca su-d­¬ha-vrata÷ !
+<12327.16/2> ahaæ caturtha÷ Ói«yo vai !pa¤camaÓ ca Óuka÷ sm­ta÷ !!12327.16!
+<12327.17/1> etÃn samÃgatÃn sarvÃn !pa¤ca Ói«yÃn damÃ1nvitÃn !
+<12327.17/2> ÓaucÃ3cÃra-samÃyuktÃ¤ !jita-krodhÃ¤ jite1ndriyÃn !!12327.17!
+<12327.18/1> vedÃn adhyÃpayÃm Ãsa !mahÃ-bhÃrata-pa¤camÃn !
+<12327.18/2> merau giri-vare ramye !siddha-cÃraïa-sevite !!12327.18!
+<12327.19/1> te«Ãm abhyasyatÃæ vedÃn !kadÃ-cit saæÓayo 'bhavat !
+<12327.19/101> [X K6 ins.:: kiæ tu brahmÃ9tha rudro vÃ !devatÃ ­«ayas tathÃ !
+<12327.19/102> X prÃya÷ prav­tti-mÃrga-sthÃ÷ !kasya devasya ÓÃsanÃt !
+<12327.19/103> X ke vai niv­tti-mÃrga-sthÃ÷ !kasya devasya ÓÃsanÃt !
+<12327.19/104> X ke vai yajante sarve 'pi !ka e«Ãm ÅÓvara÷ para÷ !12327.19862! X]
+<12327.19/2> e«a vai yas tvayÃ p­«Âas !tena te«Ãæ prakÅrtita÷ !
+<12327.19/3> tata÷ Óruto mayÃ cÃ7pi !tavÃ8khyeyo 'dya bhÃrata !!12327.19!
+<12327.20/1> Ói«yÃïÃæ vacanaæ ÓrutvÃ !sarvÃ1-j¤Ãna-tamo-nuda÷ !
+<12327.20/2> parÃÓara-suta÷ ÓrÅmÃn !vyÃso vÃkyam uvÃca ha !!12327.20!
+<12327.21/1> mayÃ hi su-mahat taptaæ !tapa÷ parama-dÃruïam !
+<12327.21/2> bhÆtaæ bhavyaæ bhavi«yac ca !jÃnÅyÃm iti sattamÃ÷ !!12327.21!
+<12327.22/1> tasya me tapta-tapaso !nig­hÅte1ndriyasya ca !
+<12327.22/2> nÃrÃyaïa-prasÃdena !k«Åro1dasyÃ7nu-kÆlata÷ !!12327.22!
+<12327.23/1> traikÃlikam idaæ j¤Ãnaæ !prÃdur-bhÆtaæ yathe4psitam !
+<12327.23/2> tac ch­ïudhvaæ yathÃ-j¤Ãnaæ !vak«ye saæÓayam uttamam !
+<12327.23/3> yathÃ v­ttaæ hi kalpÃ3dau !d­«Âaæ me j¤Ãna-cak«u«Ã !!12327.23!
+<12327.24/1> paramÃ3tme9ti yaæ prÃhu÷ !sÃækhya-yoga-vido janÃ÷ !
+<12327.24/2> mahÃ-puru«a-saæj¤Ãæ sa !labhate svena karmaïÃ !!12327.24!
+<12327.25/1> tasmÃt prasÆtam a-vyaktaæ !pradhÃnaæ tad vidur budhÃ÷ !
+<12327.25/2> a-vyaktÃd vyaktam utpannaæ !loka-s­«Ây-artham ÅÓvarÃt !!12327.25!
+<12327.26/1> a-niruddho hi loke«u !mahÃn Ãtme9ti kathyate !
+<12327.26/2> yo 'sau vyaktatvam Ãpanno !nirmame ca pitÃ-maham !
+<12327.26/3> so 'haæ-kÃra iti prokta÷ !sarva-tejomayo hi sa÷ !!12327.26!
+<12327.27/1> p­thivÅ vÃyur ÃkÃÓam !Ãpo jyotiÓ ca pa¤camam !
+<12327.27/2> ahaæ-kÃra-prasÆtÃni !mahÃ-bhÆtÃni bhÃrata !!12327.27!
+<12327.28/1> mahÃ-bhÆtÃni s­«ÂvÃ9tha !tad-guïÃn nirmame puna÷ !
+<12327.28/2> bhÆtebhyaÓ cai7va ni«pannÃ !mÆrtimanto '«Âa tÃ¤ Ó­ïu !!12327.28!
+<12327.29/1> marÅcir aÇgirÃÓ cÃ7tri÷ !pulastya÷ pulaha÷ kratu÷ !
+<12327.29/2> vasi«ÂhaÓ ca mahÃ4tmÃ vai !manu÷ svÃyaæbhuvas tathÃ !
+<12327.29/3> j¤eyÃ÷ prak­tayo '«Âau tÃ !yÃsu lokÃ÷ prati«ÂhitÃ÷ !!12327.29!
+<12327.30/1> vedÃn vedÃ1Çga-saæyuktÃn !yaj¤Ãn yaj¤Ã1Çga-saæyutÃn !
+<12327.30/101> [X K7 D4.9 ins.:: etÃn vai su-mahÃ-bhÃgÃn !­«Åæl loka-pitÃ-mahÃn !12327.30863! X]
+<12327.30/2> nirmame loka-siddhy-arthaæ !brahmÃ loka-pitÃ-maha÷ !
+<12327.30/3> a«ÂÃbhya÷ prak­tibhyaÓ ca !jÃtaæ viÓvam idaæ jagat !!12327.30!
+<12327.31/1> rudro ro«Ã3tmako jÃto !daÓÃ7nyÃn so 's­jat svayam !
+<12327.31/2> ekÃ-daÓai7te rudrÃs tu !vikÃrÃ÷ puru«Ã÷ sm­tÃ÷ !!12327.31!
+<12327.32/1> te rudrÃ÷ prak­tiÓ cai7va !sarve cai7va surar1«aya÷ !
+<12327.32/2> utpannÃ loka-siddhy-arthaæ !brahmÃïaæ samupasthitÃ÷ !!12327.32!
+<12327.33/1> vayaæ hi s­«ÂÃ bhagavaæs !tvayÃ vai prabhavi«ïunÃ !
+<12327.33/2> yena yasminn adhÅkÃre !vartitavyaæ pitÃ-maha !!12327.33!
+<12327.34/1> yo 'sau tvayÃ vinirdi«Âo !adhikÃro 'rtha-cintaka÷ !
+<12327.34/2> paripÃlya÷ kathaæ tena !so 'dhikÃro 'dhikÃriïÃ !!12327.34!
+<12327.35/1> pradiÓasva balaæ tasya !yo 'dhikÃrÃ1rtha-cintaka÷ !
+<12327.35/2> evam ukto mahÃ-devo !devÃæs tÃn idam abravÅt !!12327.35!
+<12327.36/1> sÃdhv ahaæ j¤Ãpito devÃ !yu«mÃbhir bhadram astu va÷ !
+<12327.36/2> mamÃ7py e«Ã samutpannÃ !cintÃ yÃ bhavatÃæ matÃ !!12327.36!
+<12327.37/1> loka-tantrasya k­tsnasya !kathaæ kÃrya÷ parigraha÷ !
+<12327.37/2> kathaæ bala-k«ayo na syÃd !yu«mÃkaæ hy ÃtmanaÓ ca me !!12327.37!
+<12327.38/1> ita÷ sarve 'pi gacchÃma÷ !Óaraïaæ loka-sÃ1k«iïam !
+<12327.38/2> mahÃ-puru«am a-vyaktaæ !sa no vak«yati yad dhitam !!12327.38!
+<12327.39/1> tatas te brahmaïÃ sÃ1rdham !­«ayo vibudhÃs tathÃ !
+<12327.39/2> k«Åro1dasyo7ttaraæ kÆlaæ !jagmur loka-hitÃ1rthina÷ !!12327.39!
+<12327.40/1> te tapa÷ samupÃti«Âhan !brahmo1ktaæ veda-kalpitam !
+<12327.40/2> sa mahÃ-niyamo nÃma !tapaÓ-caryÃ su-dÃruïÃ !!12327.40!
+<12327.41/1> Ærdhvaæ d­«Âir bÃhavaÓ ca !ekÃ1graæ ca mano 'bhavat !
+<12327.41/2> eka-pÃda-sthitÃ÷ samyak !kÃ«Âha-bhÆtÃ÷ samÃhitÃ÷ !!12327.41!
+<12327.42/1> divyaæ var«a-sahasraæ te !tapas taptvÃ tad uttamam !
+<12327.42/2> ÓuÓruvur madhurÃæ vÃïÅæ !veda-vedÃ1Çga-bhÆ«itÃm !!12327.42!
+<12327.43/1> bho bho÷ sa-brahmakÃ devÃ !­«ayaÓ ca tapo-dhanÃ÷ !
+<12327.43/2> sv-ÃgatenÃ7rcya va÷ sarvÃ¤ !ÓrÃvaye vÃkyam uttamam !!12327.43!
+<12327.44/1> vij¤Ãtaæ vo mayÃ kÃryaæ !tac ca loka-hitaæ mahat !
+<12327.44/2> prav­tti-yuktaæ kartavyaæ !yu«mat-prÃïo1pab­æhaïam !!12327.44!
+<12327.45/1> su-taptaæ vas tapo devÃ !mamÃ8rÃdhana-kÃmyayÃ !
+<12327.45/2> bhok«yathÃ7sya mahÃ-sattvÃs !tapasa÷ phalam uttamam !!12327.45!
+<12327.46/1> e«a brahmÃ loka-guru÷ !sarva-loka-pitÃ-maha÷ !
+<12327.46/2> yÆyaæ ca vibudha-Óre«ÂhÃ !mÃæ yajadhvaæ samÃhitÃ÷ !!12327.46!
+<12327.47/1> sarve bhÃgÃn kalpayadhvaæ !yaj¤e«u mama nityaÓa÷ !
+<12327.47/2> tathÃ Óreyo vidhÃsyÃmi !yathÃ2dhÅkÃram ÅÓvarÃ÷ !!12327.47!
+<12327.48/1> Órutvai9tad deva-devasya !vÃkyaæ h­«Âa-tanÆ-ruhÃ÷ !
+<12327.48/2> tatas te vibudhÃ÷ sarve !brahmÃ te ca mahar2«aya÷ !!12327.48!
+<12327.49/1> veda-d­«Âena vidhinÃ !vai«ïavaæ kratum Ãharan !
+<12327.49/2> tasmin sattre tadÃ brahmÃ !svayaæ bhÃgam akalpayat !
+<12327.49/3> devÃ devar1«ayaÓ cai7va !sarve bhÃgÃn akalpayan !!12327.49!
+<12327.50/1> te kÃrtayuga-dharmÃïo !bhÃgÃ÷ parama-sat-k­tÃ÷ !
+<12327.50/2> prÃpur Ãditya-varïaæ taæ !puru«aæ tamasa÷ param !
+<12327.50/3> b­hantaæ sarva-gaæ_1 devam !ÅÓÃnaæ vara-daæ prabhum !!12327.50!
+<12327.51/1> tato 'tha vara-do devas !tÃn sarvÃn a-marÃn sthitÃn !
+<12327.51/2> a-ÓarÅro babhÃ«e7daæ !vÃkyaæ kha-stho mahe4Óvara÷ !!12327.51!
+<12327.52/1> yena ya÷ kalpito bhÃga÷ !sa tathÃ samupÃgata÷ !
+<12327.52/2> prÅto 'haæ pradiÓÃmy adya !phalam Ãv­tti-lak«aïam !!12327.52!
+<12327.53/1> etad vo lak«aïaæ devÃ !mat-prasÃda-samudbhavam !
+<12327.53/2> yÆyaæ yaj¤air ijyamÃnÃ÷ !samÃpta-vara-dak«iïai÷ !
+<12327.53/3> yuge yuge bhavi«yadhvaæ !prav­tti-phala-bhogina÷ !!12327.53!
+<12327.54/1> yaj¤air ye cÃ7pi yak«yanti !sarva-loke«u vai surÃ÷ !
+<12327.54/2> kalpayi«yanti vo bhÃgÃæs !te narÃ veda-kalpitÃn !!12327.54!
+<12327.55/1> yo me yathÃ kalpitavÃn !bhÃgam asmin mahÃ-kratau !
+<12327.55/2> sa tathÃ yaj¤a-bhÃgÃ1rho !veda-sÆtre mayÃ k­ta÷ !!12327.55!
+<12327.56/1> yÆyaæ lokÃn dhÃrayadhvaæ !yaj¤a-bhÃga-phalo1ditÃ÷ !
+<12327.56/2> sarvÃ1rtha-cintakÃ loke !yathÃ2dhÅkÃra-nirmitÃ÷ !!12327.56!
+<12327.57/1> yÃ÷ kriyÃ÷ pracari«yanti !prav­tti-phala-sat-k­tÃ÷ !
+<12327.57/2> tÃbhir ÃpyÃyita-balÃ !lokÃn vai dhÃrayi«yatha !!12327.57!
+<12327.58/1> yÆyaæ hi bhÃvitÃ loke !sarva-yaj¤e«u mÃnavai÷ !
+<12327.58/2> mÃæ tato bhÃvayi«yadhvam !e«Ã vo bhÃvanÃ mama !!12327.58!
+<12327.59/1> ity-arthaæ nirmitÃ vedÃ !yaj¤ÃÓ cau7«adhibhi÷ saha !
+<12327.59/2> ebhi÷ samyak prayuktair hi !prÅyante devatÃ÷ k«itau !!12327.59!
+<12327.60/1> nirmÃïam etad yu«mÃkaæ !prav­tti-guïa-kalpitam !
+<12327.60/2> mayÃ k­taæ sura-Óre«ÂhÃ !yÃvat kalpa-k«ayÃd iti !
+<12327.60/3> cintayadhvaæ loka-hitaæ !yathÃ2dhÅkÃram ÅÓvarÃ÷ !!12327.60!
+<12327.61/1> marÅcir aÇgirÃÓ cÃ7tri÷ !pulastya÷ pulaha÷ kratu÷ !
+<12327.61/2> vasi«Âha iti saptai7te !mÃnasÃ nirmitÃ hi vai !!12327.61!
+<12327.62/1> ete veda-vido mukhyÃ !vedÃ3cÃryÃÓ ca kalpitÃ÷ !
+<12327.62/2> prav­tti-dharmiïaÓ cai7va !prÃjÃpatyena kalpitÃ÷ !!12327.62!
+<12327.63/1> ayaæ kriyÃvatÃæ panthÃ !vyaktÅ-bhÆta÷ sanÃtana÷ !
+<12327.63/2> a-niruddha iti prokto !loka-sarga-kara÷ prabhu÷ !!12327.63!
+<12327.64/1> sana÷ sanat-su-jÃtaÓ ca !sanaka÷ sa-sanandana÷ !
+<12327.64/2> sanat-kumÃra÷ kapila÷ !saptamaÓ ca sanÃtana÷ !!12327.64!
+<12327.65/1> saptai7te mÃnasÃ÷ proktÃ !­«ayo brahmaïa÷ sutÃ÷ !
+<12327.65/2> svayam-Ãgata-vij¤ÃnÃ !niv­ttaæ dharmam ÃsthitÃ÷ !!12327.65!
+<12327.66/1> ete yoga-vido mukhyÃ÷ !sÃækhya-dharma-vidas tathÃ !
+<12327.66/2> ÃcÃryÃ mok«a-ÓÃstre ca !mok«a-dharma-pravartakÃ÷ !!12327.66!
+<12327.67/1> yato 'haæ pras­ta÷ pÆrvam !a-vyaktÃt tri-guïo mahÃn !
+<12327.67/2> tasmÃt parataro yo 'sau !k«etra-j¤a iti kalpita÷ !
+<12327.67/3> so 'haæ kriyÃvatÃæ panthÃ÷ !punar-Ãv­tti-dur-labha÷ !!12327.67!
+<12327.68/1> yo yathÃ nirmito jantur !yasmin yasmiæÓ ca karmaïi !
+<12327.68/2> prav­ttau vÃ niv­ttau vÃ !tat-phalaæ so 'Ónute '-vaÓa÷ !!12327.68!
+<12327.69/1> e«a loka-gurur brahmÃ !jagad-Ãdi-kara÷ prabhu÷ !
+<12327.69/2> e«a mÃtÃ pitÃ cai7va !yu«mÃkaæ ca pitÃ-maha÷ !
+<12327.69/3> mayÃ9nuÓi«Âo bhavitÃ !sarva-bhÆta-vara-prada÷ !!12327.69!
+<12327.70/1> asya cai7vÃ7nujo rudro !lalÃÂÃd ya÷ samutthita÷ !
+<12327.70/2> brahmÃ1nuÓi«Âo bhavitÃ !sarva-trasa-vara-prada÷ !!12327.70!
+<12327.71/1> gacchadhvaæ svÃn adhÅkÃrÃæÓ !cintayadhvaæ yathÃ-vidhi !
+<12327.71/2> pravartantÃæ kriyÃ÷ sarvÃ÷ !sarva-loke«u mÃ-ciram !!12327.71!
+<12327.72/1> prad­ÓyantÃæ ca karmÃïi !prÃïinÃæ gatayas tathÃ !
+<12327.72/2> parinirmita-kÃlÃni !ÃyÆæ«i ca suro1ttamÃ÷ !!12327.72!
+<12327.73/1> idaæ k­ta-yugaæ nÃma !kÃla÷ Óre«Âha÷ pravartate !
+<12327.73/101> [X D5 ins.:: tri-pÃda-hÅno dharmaÓ ca !yuge tasmin bhavi«yati !12327.73864! X]
+<12327.73/2> a-hiæsyÃ yaj¤a-paÓavo !yuge 'smin nai7tad anyathÃ !
+<12327.73/3> catu«-pÃt sa-kalo dharmo !bhavi«yaty atra vai surÃ÷ !!12327.73!
+<12327.74/1> tatas tretÃ-yugaæ nÃma !trayÅ yatra bhavi«yati !
+<12327.74/2> prok«itÃ yatra paÓavo !vadhaæ prÃpsyanti vai makhe !
+<12327.74/3> tatra pÃda-caturtho vai !dharmasya na bhavi«yati !!12327.74!
+<12327.75/1> tato vai dvÃ-paraæ nÃma !miÓra÷ kÃlo bhavi«yati !
+<12327.75/2> dvi-pÃda-hÅno dharmaÓ ca !yuge tasmin bhavi«yati !!12327.75!
+<12327.76/001> [X D7 T1 G1-3.6 after 75, T2 after 74abc:: tatra vadhyanti paÓavo !yÆpe«v atra nibadhyate !12327.75865! X]
+<12327.76/1> tatas ti«ye 'tha saæprÃpte !yuge kali-puras-k­te !
+<12327.76/2> eka-pÃda-sthito dharmo !yatra tatra bhavi«yati !!12327.76!
+<12327.77/001> [X K6 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.5.8 ins.:: devÃ devar1«ayaÓ co8cus !tam evaæ-vÃdinaæ gurum !12327.76866! X]
+<12327.77/1> devÃ Æcu÷: eka-pÃda-sthite dharme !yatra-kva-cana-gÃmini !
+<12327.77/2> kathaæ kartavyam asmÃbhir !bhagavaæs tad vadasva na÷ !!12327.77!
+<12327.78/1> ÓrÅ-bhagavÃn uvÃca: yatra vedÃÓ ca yaj¤ÃÓ ca !tapa÷ satyaæ damas tathÃ !
+<12327.78/2> a-hiæsÃ-dharma-saæyuktÃ÷ !pracareyu÷ suro1ttamÃ÷ !
+<12327.78/3> sa vai deÓa÷ sevitavyo !mÃ vo '-dharma÷ padÃ sp­Óet !!12327.78!
+<12327.79/001> vyÃsa uvÃca: [X D7 T G1-3.6:: guravo yatra pÆjyante !sÃdhu-v­ttÃ÷ ÓamÃ1nvitÃ÷ !
+<12327.79/002> X vastavyaæ tatra yu«mÃbhir !yatra dharmo na hÅyate !12327.78867! X]
+<12327.79/1> te 'nuÓi«ÂÃ bhagavatÃ !devÃ÷ sar1«i-gaïÃs tathÃ !
+<12327.79/2> namas-k­tvÃ bhagavate !jagmur deÓÃn yathe4psitÃn !!12327.79!
+<12327.80/1> gate«u tri-divau1ka÷su !brahmai9ka÷ paryavasthita÷ !
+<12327.80/2> did­k«ur bhagavantaæ tam !a-niruddha-tanau sthitam !!12327.80!
+<12327.81/1> taæ devo darÓayÃm Ãsa !k­tvÃ haya-Óiro mahat !
+<12327.81/2> sÃ1ÇgÃn Ãvartayan vedÃn !kamaï¬alu-gaïitra-dh­k !!12327.81!
+<12327.82/1> tato 'Óva-Óirasaæ d­«ÂvÃ !taæ devam a-mitau1jasam !
+<12327.82/2> loka-kartÃ prabhur brahmÃ !lokÃnÃæ hita-kÃmyayÃ !!12327.82!
+<12327.83/1> mÆrdhnÃ praïamya vara-daæ !tasthau prÃ1¤jalir agrata÷ !
+<12327.83/2> sa pari«vajya devena !vacanaæ ÓrÃvitas tadÃ !!12327.83!
+<12327.84/1> loka-kÃrya-gatÅ÷ sarvÃs !tvaæ cintaya yathÃ-vidhi !
+<12327.84/2> dhÃtÃ tvaæ sarva-bhÆtÃnÃæ !tvaæ prabhur jagato guru÷ !
+<12327.84/3> tvayy ÃveÓita-bhÃro 'haæ !dh­tiæ prÃpsyÃmy athÃ7¤jasÃ !!12327.84!
+<12327.85/1> yadÃ ca sura-kÃryaæ te !a-vi«ahyaæ bhavi«yati !
+<12327.85/2> prÃdur-bhÃvaæ gami«yÃmi !tadÃ0tma-j¤Ãna-deÓika÷ !!12327.85!
+<12327.86/1> evam uktvÃ haya-ÓirÃs !tatrai7vÃ7ntaradhÅyata !
+<12327.86/2> tenÃ7nuÓi«Âo brahmÃ9pi !svaæ lokam a-cirÃd gata÷ !!12327.86!
+<12327.87/1> evam e«a mahÃ-bhÃga÷ !padma-nÃbha÷ sanÃtana÷ !
+<12327.87/2> yaj¤e«v agra-hara÷ prokto !yaj¤a-dhÃrÅ ca nityadÃ !!12327.87!
+<12327.88/1> niv­ttiæ cÃ8sthito dharmaæ !gatim a-k«aya-dharmiïÃm !
+<12327.88/2> prav­tti-dharmÃn vidadhe !k­tvÃ lokasya citratÃm !!12327.88!
+<12327.89/1> sa Ãdi÷ sa madhya÷ sa cÃ7nta÷ prajÃnÃæ !
+<12327.89/2> sa dhÃtÃ sa dheya÷ sa kartÃ sa kÃryam !
+<12327.89/3> yugÃ1nte sa supta÷ su-saæk«ipya lokÃn !
+<12327.89/4> yugÃ3dau prabuddho jagad dhy utsasarja !!12327.89!
+<12327.90/001> [X K1.2.4 subst.:: sa Ãdi÷ sa ca madhyaæ vai !buddha÷ s­jati vai jagat !12327.89868! X]
+<12327.90/1> tasmai namadhvaæ devÃya !nir-guïÃya guïÃ3tmane !
+<12327.90/2> a-jÃya viÓva-rÆpÃya !dhÃmne sarva-divau1kasÃm !!12327.90!
+<12327.91/1> mahÃ-bhÆtÃ1dhi-pataye !rudrÃïÃæ pataye tathÃ !
+<12327.91/2> Ãditya-pataye cai7va !vasÆnÃæ pataye tathÃ !!12327.91!
+<12327.92/1> aÓvibhyÃæ pataye cai7va !marutÃæ pataye tathÃ !
+<12327.92/2> veda-yaj¤Ã1dhi-pataye !vedÃ1Çga-pataye 'pi ca !!12327.92!
+<12327.93/1> samudra-vÃsine nityaæ !haraye mu¤ja-keÓine !
+<12327.93/2> ÓÃntaye sarva-bhÆtÃnÃæ !mok«a-dharmÃ1nubhÃ«iïe !!12327.93!
+<12327.94/1> tapasÃæ tejasÃæ cai7va !pataye yaÓaso 'pi ca !
+<12327.94/2> vÃcaÓ ca pataye nityaæ !saritÃæ pataye tathÃ !!12327.94!
+<12327.95/1> kapardine varÃhÃya !eka-Ó­ÇgÃya dhÅmate !
+<12327.95/2> vivasvate 'Óva-Óirase !catur-mÆrti-dh­te sadÃ !!12327.95!
+<12327.96/1> guhyÃya j¤Ãna-d­ÓyÃya !a-k«arÃya k«arÃya ca !
+<12327.96/2> e«a deva÷ saæcarati !sarvatra-gatir a-vyaya÷ !!12327.96!
+<12327.97/1> evam etat purÃ d­«Âaæ !mayÃ vai j¤Ãna-cak«u«Ã !
+<12327.97/2> kathitaæ tac ca va÷ sarvaæ !mayÃ p­«Âena tattvata÷ !!12327.97!
+<12327.98/1> kriyatÃm mad-vaca÷ Ói«yÃ÷ !sevyatÃæ harir ÅÓvara÷ !
+<12327.98/2> gÅyatÃæ veda-ÓabdaiÓ ca !pÆjyatÃæ ca yathÃ-vidhi !!12327.98!
+<12327.99/1> vaiÓaæpÃyana uvÃca: ity uktÃs tu vayaæ tena !veda-vyÃsena dhÅmatÃ !
+<12327.99/2> sarve Ói«yÃ÷ sutaÓ cÃ7sya !Óuka÷ parama-dharma-vit !!12327.99!
+<12327.100/1> sa cÃ7smÃkam upÃdhyÃya÷ !sahÃ7smÃbhir viÓÃæ pate !
+<12327.100/2> catur-vedo1dgatÃbhiÓ ca !­gbhis tam abhitu«Âuve !!12327.100!
+<12327.101/1> etat te sarvam ÃkhyÃtaæ !yan mÃæ tvaæ parip­cchasi !
+<12327.101/2> evaæ me 'kathayad rÃjan !purÃ dvaipÃyano guru÷ !!12327.101!
+<12327.102/1> yaÓ ce7daæ Ó­ïuyÃn nityaæ !yaÓ ce7daæ parikÅrtayet !
+<12327.102/2> namo bhagavate k­tvÃ !samÃhita-manÃ nara÷ !!12327.102!
+<12327.103/1> bhavaty a-rogo dyutimÃn !bala-rÆpa-samanvita÷ !
+<12327.103/2> Ãturo mucyate rogÃd !baddho mucyeta bandhanÃt !!12327.103!
+<12327.104/1> kÃma-kÃmÅ labhet kÃmaæ !dÅrgham Ãyur avÃpnuyÃt !
+<12327.104/2> brÃhmaïa÷ sarva-vedÅ syÃt !k«atriyo vijayÅ bhavet !
+<12327.104/3> vaiÓyo vipula-lÃbha÷ syÃc !chÆdra÷ sukham avÃpnuyÃt !!12327.104!
+<12327.105/1> a-putro labhate putraæ !kanyÃ cai7ve8psitaæ patim !
+<12327.105/2> lagna-garbhÃ vimucyeta !garbhiïÅ janayet sutam !
+<12327.105/3> vandhyÃ prasavam Ãpnoti !putra-pautra-sam­ddhimat !!12327.105!
+<12327.106/1> k«emeïa gacched adhvÃnam !idaæ ya÷ paÂhate pathi !
+<12327.106/2> yo yaæ kÃmaæ kÃmayate !sa tam Ãpnoti ca dhruvam !!12327.106!
+<12327.107/001> [X B6 ins.:: ity Ãha bhagavÃn vyÃsa÷ !parÃÓara-suta÷ prabhu÷ !12327.106869! X]
+<12327.107/1> idaæ mahar2«er vacanaæ viniÓcitaæ !
+<12327.107/2> mahÃ4tmana÷ puru«a-varasya kÅrtanam !
+<12327.107/3> samÃgamaæ car7«i-divau1kasÃm imaæ !
+<12327.107/4> niÓamya bhaktÃ÷ su-sukhaæ labhante !!12327.107!
+<12328.1/1> janam-ejaya uvÃca: astau«Åd yair imaæ vyÃsa÷ !sa-Ói«yo madhu-sÆdanam !
+<12328.1/2> nÃmabhir vi-vidhair e«Ãæ !niruktaæ bhagavan mama !!12328.1!
+<12328.2/1> vaktum arhasi ÓuÓrÆ«o÷ !prajÃ-pati-pater hare÷ !
+<12328.2/2> ÓrutvÃ bhaveyaæ yat pÆta÷ !Óarac-candra ivÃ7-mala÷ !!12328.2!
+<12328.3/1> vaiÓaæpÃyana uvÃca: Ó­ïu rÃjan yathÃ0ca«Âa !phalgunasya harir vibhu÷ !
+<12328.3/2> prasannÃ3tmÃ0tmano nÃmnÃæ !niruktaæ guïa-karma-jam !!12328.3!
+<12328.4/1> nÃmabhi÷ kÅrtitais tasya !keÓavasya mahÃ4tmana÷ !
+<12328.4/2> p­«ÂavÃn keÓavaæ rÃjan !phalguna÷ para-vÅra-hÃ !!12328.4!
+<12328.5/1> arjuna uvÃca: bhagavan bhÆta-bhavye3Óa !sarva-bhÆta-s­g a-vyaya !
+<12328.5/2> loka-dhÃma jagan-nÃtha !lokÃnÃm a-bhaya-prada !!12328.5!
+<12328.6/1> yÃni nÃmÃni te deva !kÅrtitÃni mahar2«ibhi÷ !
+<12328.6/2> vede«u sa-purÃïe«u !yÃni guhyÃni karmabhi÷ !!12328.6!
+<12328.7/1> te«Ãæ niruktaæ tvatto 'haæ !Órotum icchÃmi keÓava !
+<12328.7/2> na hy anyo vartayen nÃmnÃæ !niruktaæ tvÃm ­te prabho !!12328.7!
+<12328.8/1> ÓrÅ-bhagavÃn uvÃca: ­g-vede sa-yajur-vede !tathai9vÃ7tharva-sÃmasu !
+<12328.8/2> purÃïe so1pani«ade !tathai9va jyoti«e 'rjuna !!12328.8!
+<12328.9/1> sÃækhye ca yoga-ÓÃstre ca !Ãyur-vede tathai9va ca !
+<12328.9/2> bahÆni mama nÃmÃni !kÅrtitÃni mahar2«ibhi÷ !!12328.9!
+<12328.10/1> gauïÃni tatra nÃmÃni !karma-jÃni ca kÃni-cit !
+<12328.10/2> niruktaæ karma-jÃnÃæ ca !Ó­ïu«va prayato 'n-agha !
+<12328.10/3> kathyamÃnaæ mayÃ tÃta !tvaæ hi me 'rdhaæ sm­ta÷ purÃ !!12328.10!
+<12328.11/1> namo 'ti-yaÓase tasmai !dehinÃæ paramÃ3tmane !
+<12328.11/2> nÃrÃyaïÃya viÓvÃya !nir-guïÃya guïÃ3tmane !!12328.11!
+<12328.12/1> yasya prasÃda-jo brahmÃ !rudraÓ ca krodha-saæbhava÷ !
+<12328.12/2> yo 'sau yonir hi sarvasya !sthÃvarasya carasya ca !!12328.12!
+<12328.13/1> a«ÂÃ-daÓa-guïaæ yat tat !sattvaæ sattvavatÃæ vara !
+<12328.13/2> prak­ti÷ sÃ parÃ mahyaæ !rodasÅ yoga-dhÃriïÅ !
+<12328.13/3> ­tÃ satyÃ9-marÃ9-jayyÃ !lokÃnÃm Ãtma-saæj¤itÃ !!12328.13!
+<12328.14/1> tasmÃt sarvÃ÷ pravartante !sarga-pralaya-vikriyÃ÷ !
+<12328.14/2> tato yaj¤aÓ ca ya«ÂÃ ca !purÃïa÷ puru«o virÃÂ !
+<12328.14/3> a-niruddha iti prokto !lokÃnÃæ prabhavÃ1pyaya÷ !!12328.14!
+<12328.15/1> brÃhme rÃtri-k«aye prÃpte !tasya hy a-mita-tejasa÷_1 !
+<12328.15/2> prasÃdÃt prÃdur abhavat !padmaæ padma-nibhe3k«aïa !
+<12328.15/3> tatra brahmÃ samabhavat !sa tasyai7va prasÃda-ja÷ !!12328.15!
+<12328.16/1> ahna÷ k«aye lalÃÂÃc ca !suto devasya vai tathÃ !
+<12328.16/2> krodhÃ3vi«Âasya saæjaj¤e !rudra÷ saæhÃra-kÃraka÷ !!12328.16!
+<12328.17/1> etau dvau vibudha-Óre«Âhau !prasÃda-krodha-jau sm­tau !
+<12328.17/2> tad-ÃdeÓita-panthÃnau !s­«Âi-saæhÃra-kÃrakau !
+<12328.17/3> nimitta-mÃtraæ tÃv atra !sarva-prÃïi-vara-pradau !!12328.17!
+<12328.18/1> kapardÅ jaÂilo muï¬a÷ !ÓmaÓÃna-g­ha-sevaka÷ !
+<12328.18/2> ugra-vrata-dharo rudro !yogÅ tri-pura-dÃruïa÷ !!12328.18!
+<12328.19/1> dak«a-kratu-haraÓ cai7va !bhaga-netra-haras tathÃ !
+<12328.19/2> nÃrÃyaïÃ3tmako j¤eya÷ !pÃï¬aveya yuge yuge !!12328.19!
+<12328.20/001> [X Ds D8 Cs ins.:: yo 'sau rudra÷ so 'ham asmi !yo 'ham asmi Óiva÷ para÷ !
+<12328.20/002> X yathÃ rudras tathÃ9haæ ca !nÃ7vayor antaraæ tathÃ !12328.19870! X]
+<12328.20/1> tasmin hi pÆjyamÃne vai !deva-deve mahe4Óvare !
+<12328.20/2> saæpÆjito bhavet pÃrtha !devo nÃrÃyaïa÷ prabhu÷ !!12328.20!
+<12328.21/1> aham ÃtmÃ hi lokÃnÃæ !viÓvÃnÃæ pÃï¬u-nandana !
+<12328.21/2> tasmÃd ÃtmÃnam evÃ7gre !rudraæ saæpÆjayÃmy aham !!12328.21!
+<12328.22/1> yady ahaæ nÃ7rcayeyaæ vai !ÅÓÃnaæ vara-daæ Óivam !
+<12328.22/2> ÃtmÃnaæ nÃ7rcayet kaÓ-cit !iti me bhÃvitaæ mana÷ !
+<12328.22/3> mayÃ pramÃïaæ hi k­taæ !loka÷ samanuvartate !!12328.22!
+<12328.23/1> pramÃïÃni hi pÆjyÃni !tatas taæ pÆjayÃmy aham !
+<12328.23/2> yas taæ vetti sa mÃæ vetti !yo 'nu taæ sa hi mÃm anu !!12328.23!
+<12328.24/1> rudro nÃrÃyaïaÓ cai7va !sattvam ekaæ dvidhÃ-k­tam !
+<12328.24/2> loke carati kaunteya !vyakti-sthaæ sarva-karmasu !!12328.24!
+<12328.25/1> na hi me kena-cid deyo !vara÷ pÃï¬ava-nandana !
+<12328.25/2> iti saæcintya manasÃ !purÃïaæ viÓvam ÅÓvaram !
+<12328.25/3> putrÃ1rtham ÃrÃdhitavÃn !ÃtmÃnam aham ÃtmanÃ !!12328.25!
+<12328.26/1> na hi vi«ïu÷ praïamati !kasmai-cid vibudhÃya tu !
+<12328.26/2> ­tae ÃtmÃnam eve7ti !tato rudraæ bhajÃmy aham !!12328.26!
+<12328.27/1> sa-brahmakÃ÷ sa-rudrÃÓ ca !se1ndrÃ devÃ÷ sahar7«ibhi÷ !
+<12328.27/2> arcayanti sura-Óre«Âhaæ !devaæ nÃrÃyaïaæ harim !!12328.27!
+<12328.28/1> bhavi«yatÃæ vartatÃæ ca !bhÆtÃnÃæ cai7va bhÃrata !
+<12328.28/2> sarve«Ãm agra-ïÅr vi«ïu÷ !sevya÷ pÆjyaÓ ca nityaÓa÷ !!12328.28!
+<12328.29/1> namasva havya-daæ vi«ïuæ !tathÃ Óaraïa-daæ nama !
+<12328.29/2> vara-daæ namasva kaunteya !havya-kavya-bhujaæ nama !!12328.29!
+<12328.30/1> catur-vidhÃ mama janÃ !bhaktÃ evaæ hi te Órutam !
+<12328.30/2> te«Ãm ekÃ1ntina÷ Óre«ÂhÃs !te cai7vÃ7n-anya-devatÃ÷ !
+<12328.30/3> aham eva gatis te«Ãæ !nir-ÃÓÅ÷-karma-kÃriïÃm !!12328.30!
+<12328.31/1> ye ca Ói«ÂÃs trayo bhaktÃ÷ !phala-kÃmÃ hi te matÃ÷ !
+<12328.31/2> sarve cyavana-dharmÃïa÷ !pratibuddhas tu Óre«Âha-bhÃk !!12328.31!
+<12328.32/1> brahmÃïaæ Óiti-kaïÂhaæ ca !yÃÓ cÃ7nyÃ devatÃ÷ sm­tÃ÷ !
+<12328.32/2> prabuddha-varyÃ÷ sevante !mÃm evai7«yanti yat-param !
+<12328.32/3> bhaktaæ prati viÓe«as te !e«a pÃrthÃ7nukÅrtita÷ !!12328.32!
+<12328.33/1> tvaæ cai7vÃ7haæ ca kaunteya !nara-nÃrÃyaïau sm­tau !
+<12328.33/2> bhÃrÃ1vataraïÃ1rthaæ hi !pravi«Âau mÃnu«Åæ tanum !!12328.33!
+<12328.34/1> jÃnÃmy adhy-Ãtma-yogÃæÓ ca !yo 'haæ yasmÃc ca bhÃrata !
+<12328.34/2> niv­tti-lak«aïo dharmas !tathÃ9bhyudayiko 'pi ca !!12328.34!
+<12328.35/1> narÃïÃm ayanaæ khyÃtam !aham eka÷ sanÃtana÷ !
+<12328.35/2> Ãpo nÃrÃ iti proktÃ !Ãpo vai nara-sÆnava÷ !
+<12328.35/3> ayanaæ mama tat pÆrvam !ato nÃrÃyaïo hy aham !!12328.35!
+<12328.36/1> chÃdayÃmi jagad viÓvaæ !bhÆtvÃ sÆrya ivÃ7æÓubhi÷ !
+<12328.36/2> sarva-bhÆtÃ1dhivÃsaÓ ca !vÃsudevas tato hy aham !!12328.36!
+<12328.37/1> gatiÓ ca sarva-bhÆtÃnÃæ !prajÃnÃæ cÃ7pi bhÃrata !
+<12328.37/2> vyÃptÃ me rodasÅ pÃrtha !kÃntiÓ cÃ7bhy-adhikÃ mama !!12328.37!
+<12328.38/1> adhi-bhÆtÃni cÃ7nte 'haæ !tad icchaæÓ cÃ7smi bhÃrata !
+<12328.38/2> kramaïÃc cÃ7py ahaæ pÃrtha !vi«ïur ity abhisaæj¤ita÷ !!12328.38!
+<12328.39/1> damÃt siddhiæ parÅpsanto !mÃæ janÃ÷ kÃmayanti hi !
+<12328.39/2> divaæ co7rvÅæ ca madhyaæ ca !tasmÃd dÃmo1daro hy aham !!12328.39!
+<12328.40/1> p­Ónir ity ucyate cÃ7nnaæ !vedÃ Ãpo '-m­taæ tathÃ !
+<12328.40/2> mamai7tÃni sadÃ garbhe !p­Óni-garbhas tato hy aham !!12328.40!
+<12328.41/1> ­«aya÷ prÃhur evaæ mÃæ !trita-kÆpÃ1bhipÃtitam !
+<12328.41/2> p­Óni-garbha tritaæ pÃhÅ7ty !ekata-dvita-pÃtitam !!12328.41!
+<12328.42/1> tata÷ sa brahmaïa÷ putra !Ãdyo ­«i-varas trita÷ !
+<12328.42/2> uttatÃro7da-pÃnÃd vai !p­Óni-garbhÃ1nukÅrtanÃt !!12328.42!
+<12328.43/1> sÆryasya tapato lokÃn !agne÷ somasya cÃ7py uta !
+<12328.43/2> aæÓavo ye prakÃÓante !mama te keÓa-saæj¤itÃ÷ !
+<12328.43/3> sarva-j¤Ã÷ keÓavaæ tasmÃn !mÃm Ãhur dvi-ja-sattamÃ÷ !!12328.43!
+<12328.44/1> sva-patnyÃm Ãhito garbha !utathyena mahÃ4tmanÃ !
+<12328.44/2> utathye 'ntarhite cai7va !kadÃ-cid deva-mÃyayÃ !
+<12328.44/3> b­has-patir athÃ7vindat !tÃæ patnÅæ tasya bhÃrata !!12328.44!
+<12328.45/1> tato vai tam ­«i-Óre«Âhaæ !maithuno1pagataæ tathÃ !
+<12328.45/2> uvÃca garbha÷ kaunteya !pa¤ca-bhÆta-samanvita÷ !!12328.45!
+<12328.46/1> pÆrvÃ3gato 'haæ vara-da !nÃ7rhasy ambÃæ prabÃdhitum !
+<12328.46/2> etad b­has-pati÷ ÓrutvÃ !cukrodha ca ÓaÓÃpa ca !!12328.46!
+<12328.47/1> maithuno1pagato yasmÃt !tvayÃ9haæ vinivÃrita÷ !
+<12328.47/2> tasmÃd andho jÃsyasi tvaæ !mac-chÃpÃn nÃ7tra saæÓaya÷ !!12328.47!
+<12328.48/1> sa ÓÃpÃd ­«i-mukhyasya !dÅrghaæ tama upeyivÃn !
+<12328.48/2> sa hi dÅrgha-tamÃ nÃma !nÃmnÃ hy ÃsÅd ­«i÷ purÃ !!12328.48!
+<12328.49/1> vedÃn avÃpya catura÷ !sÃ1Çgo1pÃ1ÇgÃn sanÃtanÃn !
+<12328.49/2> prayojayÃm Ãsa tadÃ !nÃma guhyam idaæ mama !!12328.49!
+<12328.50/1> ÃnupÆrvyeïa vidhinÃ !keÓave7ti puna÷ puna÷ !
+<12328.50/2> sa cak«u«mÃn samabhavad !gautamaÓ cÃ7bhavat puna÷ !!12328.50!
+<12328.51/1> evaæ hi vara-daæ nÃma !keÓave7ti mamÃ7rjuna !
+<12328.51/2> devÃnÃm atha sarve«Ãm !­«ÅïÃæ ca mahÃ4tmanÃm !!12328.51!
+<12328.52/1> agni÷ somena saæyukta !eka-yoni mukhaæ k­tam !
+<12328.52/2> agnÅ-«omÃ3tmakaæ tasmÃj !jagat k­tsnaæ carÃ1-caram !!12328.52!
+<12328.53/1> api hi purÃïe bhavati !
+<12328.53/2> eka-yony-ÃtmakÃv agnÅ-«omau !
+<12328.53/3> devÃÓ cÃ7gni-mukhÃ iti !
+<12328.53/4> eka-yonitvÃc ca paras-paraæ mahayanto lokÃn dhÃrayata iti !!12328.53!
+<12329.1/1> arjuna uvÃca: agnÅ-«omau kathaæ pÆrvam !eka-yonÅ pravartitau !
+<12329.1/2> e«a me saæÓayo jÃtas !taæ chindhi madhu-sÆdana !!12329.1!
+<12329.2/1> ÓrÅ-bhagavÃn uvÃca: hanta te vartayi«yÃmi !purÃïaæ pÃï¬u-nandana !
+<12329.2/2> Ãtma-tejo-udbhavaæ pÃrtha !Ó­ïu«vai7ka-manÃ mama !!12329.2!
+<12329.3/1> saæprak«Ãlana-kÃle 'tikrÃnte caturthe yuga-sahasrÃ1nte !
+<12329.3/2> a-vyakte sarva-bhÆta-pralaye sthÃvara-jaÇgame !
+<12329.3/3> jyotir-dharaïi-vÃyu-rahite 'ndhe tamasi jalai1kÃ1rïave loke !
+<12329.3/4> tama ity evÃ7bhibhÆte '-saæj¤ake '-dvitÅye prati«Âhite !
+<12329.3/5> nai7va rÃtryÃæ na divase na sati nÃ7-sati na vyakte nÃ7-vyakte vyavasthite !
+<12329.3/6> etasyÃm avasthÃyÃæ nÃrÃyaïa-guïÃ3ÓrayÃd a-k«ayÃd a-jarÃd an-indriyÃd a-grÃhyÃd a-saæbhavÃt satyÃd a-hiæsrÃl lalÃmÃd vi-vidha-prav­tti-viÓe«Ãt !
+<12329.3/7> a-k«ayÃd a-jarÃ1-marÃd a-mÆrtita÷ sarva-vyÃpina÷ sarva-kartu÷ ÓÃÓvatÃt tamasa÷ puru«a÷ prÃdur-bhÆto harir a-vyaya÷ !!12329.3!
+<12329.4/1> nidarÓanam api hy atra bhavati !
+<12329.4/2> nÃ8sÅd aho na rÃtrir ÃsÅt !
+<12329.4/3> na sad ÃsÅn nÃ7-sad ÃsÅt !
+<12329.4/4> tama eva purastÃd abhavad viÓva-rÆpam !
+<12329.4/5> sÃ viÓvasya jananÅ9ty evam asyÃ7rtho 'nubhÃ«yate !!12329.4!
+<12329.5/1> tasye7dÃnÅæ tama÷-saæbhavasya puru«asya padma-yoner brahmaïa÷ prÃdur-bhÃve sa puru«a÷ prajÃ÷ sis­k«amÃïo netrÃbhyÃm agnÅ-«omau sasarja !
+<12329.5/2> tato bhÆta-sarge prav­tte prajÃ-krama-vaÓÃd brahma-k«atram upÃti«Âhat !
+<12329.5/3> ya÷ somas tad brahma yad brahma te brÃhmaïÃ÷ !
+<12329.5/4> yo 'gnis tat k«atraæ k«atrÃd brahma balavattaram !
+<12329.5/5> kasmÃd iti loka-praty-ak«a-guïam etat tad yathÃ !
+<12329.5/6> brÃhmaïebhya÷ paraæ bhÆtaæ no1tpanna-pÆrvam !
+<12329.5/7> dÅpyamÃne 'gnau juhotÅ7ti k­tvÃ bravÅmi !
+<12329.5/8> bhÆta-sarga÷ k­to brahmaïÃ bhÆtÃni ca prati«ÂhÃpya trailokyaæ dhÃryatae iti !!12329.5!
+<12329.6/1> mantra-vÃdo 'pi hi bhavati !
+<12329.6/2> tvam agne yaj¤ÃnÃæ hotÃ viÓve«Ãm !
+<12329.6/3> hito devebhir mÃnu«e jane iti !
+<12329.6/4> nidarÓanaæ cÃ7tra bhavati !
+<12329.6/5> viÓve«Ãm agne yaj¤ÃnÃæ hote9ti !
+<12329.6/6> hito devair mÃnu«air jagata iti !
+<12329.6/7> agnir hi yaj¤ÃnÃæ hotÃ kartÃ !
+<12329.6/8> sa cÃ7gnir brahma !!12329.6!
+<12329.7/1> na hy ete mantrÃd dhavanam asti !
+<12329.7/2> na vinÃ puru«aæ tapa÷ saæbhavati !
+<12329.7/3> havir mantrÃïÃæ saæpÆjÃ vidyate deva-manu«yÃïÃm anena tvaæ hote9ti niyukta÷ !
+<12329.7/4> ye ca mÃnu«Ã hotrÃ1dhikÃrÃs te ca !
+<12329.7/5> brÃhmaïasya hi yÃjanaæ vidhÅyate na k«atra-vaiÓyayor dvi-jÃtyo÷ !
+<12329.7/6> tasmÃd brÃhmaïÃ hy agni-bhÆtÃ yaj¤Ãn udvahanti !
+<12329.7/7> yaj¤Ã devÃæs tarpayanti devÃ÷ p­thivÅæ bhÃvayanti !!12329.7!
+<12329.8/1> Óata-pathe hi brÃhmaïaæ bhavati !
+<12329.8/2> agnau samiddhe sa juhoti yo vidvÃn brÃhmaïa-mukhe dÃnÃ3hutiæ juhoti !
+<12329.8/3> evam apy agni-bhÆtÃ brÃhmaïÃ vidvÃæso 'gniæ bhÃvayanti !
+<12329.8/4> agnir vi«ïu÷ sarva-bhÆtÃny anupraviÓya prÃïÃn dhÃrayati !
+<12329.8/5> api cÃ7tra sanat-kumÃra-gÅtÃ÷ ÓlokÃ bhavanti !!12329.8!
+<12329.9/1> viÓvaæ brahmÃ9s­jat pÆrvaæ !sarvÃ3dir nir-avaskaram !
+<12329.9/2> brahma-gho«air divaæ ti«Âhanty !a-marÃ brahma-yonaya÷ !!12329.9!
+<12329.10/1> brÃhmaïÃnÃæ matir vÃkyaæ !karma ÓraddhÃ tapÃæsi ca !
+<12329.10/2> dhÃrayanti mahÅæ dyÃæ ca !ÓaityÃd vÃry a-m­taæ yathÃ !!12329.10!
+<12329.11/1> nÃ7sti satyÃt paro dharmo !nÃ7sti mÃt­-samo guru÷ !
+<12329.11/2> brÃhmaïebhya÷ paraæ nÃ7sti !pretya ce7ha ca bhÆtaye !!12329.11!
+<12329.12/1> nai7«Ãm uk«Ã vardhate no7ta vÃhÃ !
+<12329.12/2> na gargaro mathyate saæpradÃne !
+<12329.12/3> apadhvastÃ dasyu-bhÆtÃ bhavanti !
+<12329.12/4> ye«Ãæ rÃ«Âre brÃhmaïÃ v­tti-hÅnÃ÷ !!12329.12!
+<12329.13/1> veda-purÃïe1tihÃsa-prÃmÃïyÃn nÃrÃyaïa-mukho1dgatÃ÷ sarvÃ3tmÃna÷ sarva-kartÃra÷ sarva-bhÃvanÃÓ ca brÃhmaïÃ÷ !
+<12329.13/2> vÃk-sama-kÃlaæ hi tasya devasya vara-pradasya brÃhmaïÃ÷ prathamaæ prÃdur-bhÆtÃ brÃhmaïebhyaÓ ca Óe«Ã varïÃ÷ prÃdur-bhÆtÃ÷ !
+<12329.13/3> itthaæ ca surÃ1sura-viÓi«ÂÃ brÃhmaïÃ yadÃ mayÃ brahma-bhÆtena purÃ svayam evo7tpÃditÃ÷ surÃ1sura-mahar2«ayo bhÆta-viÓe«Ã÷ sthÃpitÃ nig­hÅtÃÓ ca !!12329.13!
+<12329.14/1> ahalyÃ-dhar«aïa-nimittaæ hi gautamÃd dhari-ÓmaÓrutÃm indra÷ prÃpta÷ !
+<12329.14/2> kauÓika-nimittaæ ce7ndro mu«ka-viyogaæ me«a-v­«aïatvaæ cÃ7vÃpa !
+<12329.14/3> aÓvinor graha-prati«edho1dyata-vajrasya puraæ-darasya cyavanena stambhito bÃhu÷ !
+<12329.14/4> kratu-vadha-prÃpta-manyunÃ ca dak«eïa bhÆyas tapasÃ cÃ8tmÃnaæ saæyojya netrÃ3k­tir anyÃ lalÃÂe rudrasyo7tpÃditÃ !!12329.14!
+<12329.15/1> tri-pura-vadhÃ1rthaæ dÅk«Ãm abhyupagatasya rudrasyo7ÓanasÃ Óiraso jaÂÃ utk­tya prayuktÃ÷ !
+<12329.15/2> tata÷ prÃdur-bhÆtÃ bhuja-gÃ÷_1 !
+<12329.15/3> tair asya bhuja-gai÷_1 pÅ¬yamÃna÷ kaïÂho nÅlatÃm upanÅta÷ !
+<12329.15/4> pÆrve ca manv-antare svÃyaæbhuve nÃrÃyaïa-hasta-bandha-grahaïÃn nÅla-kaïÂhatvam eva vÃ !!12329.15!
+<12329.16/1> a-m­to1tpÃdane puraÓ-caraïatÃm upagatasyÃ7Çgiraso b­has-pater upasp­Óato na prasÃdaæ gatavatya÷ kilÃ8pa÷ !
+<12329.16/2> atha b­has-patir apÃæ cukrodha !
+<12329.16/3> yasmÃn mamo7pasp­Óata÷ kalu«Å-bhÆtÃ na prasÃdam upagatÃs tasmÃd adya-prabh­ti jha«a-makara-matsya-kacchapa-jantu-saækÅrïÃ÷ kalu«Å-bhavate7ti !
+<12329.16/4> tadÃ-prabh­ty Ãpo yÃdobhi÷ saækÅrïÃ÷ saæv­ttÃ÷ !!12329.16!
+<12329.17/1> viÓva-rÆpo vai tvÃ«Âra÷ puro-hito devÃnÃm ÃsÅt svasrÅyo 'surÃïÃm !
+<12329.17/2> sa praty-ak«aæ devebhyo bhÃgam adadat paro-ak«am asurebhya÷ !!12329.17!
+<12329.18/1> atha hiraïya-kaÓipuæ puras-k­tya_1 viÓva-rÆpa-mÃtaraæ svasÃram asurÃ varam ayÃcanta !
+<12329.18/2> he svasar ayaæ te putras tvÃ«Âro viÓva-rÆpas tri-ÓirÃ devÃnÃæ puro-hita÷ praty-ak«aæ devebhyo bhÃgam adadat paro-ak«am asmÃkam !
+<12329.18/3> tato devÃ vardhante vayaæ k«ÅyÃma÷ !
+<12329.18/4> tad enaæ tvaæ vÃrayitum arhasi tathÃ yathÃ9smÃn bhajed iti !!12329.18!
+<12329.19/1> atha viÓva-rÆpaæ nandana-vanam upagataæ mÃto9vÃca !
+<12329.19/2> putra kiæ para-pak«a-vardhanas tvaæ mÃtula-pak«aæ nÃÓayasi !
+<12329.19/3> nÃ7rhasy evaæ kartum iti !
+<12329.19/4> sa viÓva-rÆpo mÃtur vÃkyam an-atikramaïÅyam iti matvÃ saæpÆjya hiraïya-kaÓipum agÃt !!12329.19!
+<12329.20/1> hairaïyagarbhÃc ca vasi«ÂhÃd dhiraïya-kaÓipu÷ ÓÃpaæ prÃptavÃn !
+<12329.20/2> yasmÃt tvayÃ9nyo v­to hotÃ tasmÃd a-samÃpta-yaj¤as tvam a-pÆrvÃt sattva-jÃtÃd vadhaæ prÃpsyasÅ7ti !
+<12329.20/3> tac-chÃpa-dÃnÃd dhiraïya-kaÓipu÷ prÃptavÃn vadham !!12329.20!
+<12329.21/1> viÓva-rÆpo mÃt­-pak«a-vardhano 'ty-arthaæ tapasy abhavat !
+<12329.21/2> tasya vrata-bhaÇgÃ1rtham indro bahvÅ÷ ÓrÅmatyo 'psaraso niyuyoja !
+<12329.21/3> tÃÓ ca d­«ÂvÃ mana÷ k«ubhitam tasyÃ7bhavat tÃsu cÃ7psara÷su na-cirÃd eva sakto 'bhavat !
+<12329.21/4> saktaæ cai7naæ j¤ÃtvÃ9psarasa Æcur gacchÃmahe vayaæ yathÃ4gatam iti !!12329.21!
+<12329.22/1> tÃs tvÃ«Âra uvÃca !
+<12329.22/2> kva gami«yatha ÃsyatÃm tÃvan mayÃ saha Óreyo bhavi«yatÅ7ti !
+<12329.22/3> tÃs tam abruvan !
+<12329.22/4> vayaæ deva-striyo 'psarasa indraæ vara-daæ purÃ prabhavi«ïuæ v­ïÅmahae iti !!12329.22!
+<12329.23/1> atha tÃ viÓva-rÆpo 'bravÅd adyai7va se1ndrÃ devÃ na bhavi«yantÅ7ti !
+<12329.23/2> tato mantrÃ¤ jajÃpa !
+<12329.23/3> tair mantrai÷ prÃvardhata tri-ÓirÃ÷ !
+<12329.23/4> ekenÃ8syena sarva-loke«u dvi-jai÷ kriyÃvadbhir yaj¤e«u su-hutaæ somaæ papÃv ekenÃ8pa ekena se1ndrÃn devÃn !
+<12329.23/5> athe7ndras taæ vivardhamÃnaæ soma-pÃnÃ3pyÃyita-sarva-gÃtraæ d­«ÂvÃ cintÃm Ãpede !!12329.23!
+<12329.24/1> devÃÓ ca te sahe7ndreïa brahmÃïam abhijagmur ÆcuÓ ca !
+<12329.24/2> viÓva-rÆpeïa sarva-yaj¤e«u su-huta÷ soma÷ pÅyate !
+<12329.24/3> vayam a-bhÃgÃ÷ saæv­ttÃ÷ !
+<12329.24/4> asura-pak«o vardhate vayaæ k«ÅyÃma÷ !
+<12329.24/5> tad arhasi no vidhÃtuæ Óreyo yad an-antaram iti !!12329.24!
+<12329.25/1> tÃn brahmo9vÃca ­«ir bhÃrgavas tapas tapyate dadhÅca÷ !
+<12329.25/2> sa yÃcyatÃæ varaæ yathÃ kalevaraæ jahyÃt !
+<12329.25/3> tasyÃ7sthibhir vajraæ kriyatÃm iti !!12329.25!
+<12329.26/1> devÃs tatrÃ7gacchan yatra dadhÅco bhagavÃn ­«is tapas tepe !
+<12329.26/2> se1ndrÃ devÃs tam abhigamyo8cur bhagavaæs tapasa÷ kuÓalam a-vighnaæ ce7ti !
+<12329.26/3> tÃn dadhÅca uvÃca sv-Ãgataæ bhavadbhya÷ kiæ kriyatÃm !
+<12329.26/4> yad vak«yatha tat kari«yÃmÅ7ti !
+<12329.26/5> te tam abruva¤ ÓarÅra-parityÃgaæ loka-hitÃ1rthaæ bhagavÃn kartum arhatÅ7ti !
+<12329.26/501> [X D7 T G1-3.6 Kumbh..ed. ins.:: evam ukto dadhÅcas tÃn abravÅt !
+<12329.26/502> X sahasraæ var«ÃïÃm aindraæ padam avÃpyate mayÃ yadi jahyÃm !
+<12329.26/503> X tathe9ty uktve9ndra÷ sva-sthÃnaæ dattvÃ tapasvy- abhavat !
+<12329.26/504> X indro dadhÅco 'bhavat !
+<12329.26/505> X tÃvat pÆrïe se1ndrÃ devÃ Ãgaman kÃlo 'yaæ deha-nyÃsÃye7ti !12329.26871! X]
+<12329.26/6> atha dadhÅcas tathai9vÃ7-vi-manÃ÷ sukha-du÷kha-samo mahÃ-yogÅ ÃtmÃnaæ samÃdhÃya ÓarÅra-parityÃgaæ cakÃra !!12329.26!
+<12329.27/001> [X Kumbh..ed. ins.:: Órutir apy atra bhavati !
+<12329.27/002> X indro dadhÅco 'sthibhi÷ k­tam iti !12329.26872! X]
+<12329.27/1> tasya paramÃ3tmany avas­te tÃny asthÅni dhÃtÃ saæg­hya vajram akarot !
+<12329.27/2> tena vajreïÃ7-bhedyenÃ7-pradh­«yeïa brahmÃ1sthi-saæbhÆtena vi«ïu-pravi«Âene7ndro viÓva-rÆpaæ jaghÃna !
+<12329.27/3> ÓirasÃæ cÃ7sya chedanam akarot !
+<12329.27/301> [X D7 T G1-3.6 Kumbh..ed. Cv:: tak«ïÃ yaj¤a-paÓo÷ Óiras te dadÃmÅ7ty uktvÃ !12329.27873! X]
+<12329.27/4> tasmÃd an-antaraæ viÓva-rÆpa-gÃtra-mathana-saæbhavaæ tva«Âro9tpÃditam evÃ7riæ v­tram indro jaghÃna !!12329.27!
+<12329.28/1> tasyÃæ dvaidhÅ-bhÆtÃyÃæ brahma-vadhyÃyÃæ bhayÃd indro deva-rÃjyaæ parityajya apsu-saæbhavÃæ ÓÅtalÃæ mÃnasa-saro-gatÃæ nalinÅæ apsu !
+<12329.28/2> tatra cai8Óvarya-yogÃd aïu-mÃtro bhÆtvÃ bisa-granthiæ praviveÓa !!12329.28!
+<12329.29/1> atha brahma-vadhyÃ-bhaya-prana«Âe trailokya-nÃthe ÓacÅ-patau jagad an-ÅÓvaraæ babhÆva !
+<12329.29/2> devÃn rajas tamaÓ cÃ8viveÓa !
+<12329.29/3> mantrÃ na prÃvartanta mahar2«ÅïÃæ !
+<12329.29/4> rak«Ãæsi prÃdur abhavan !
+<12329.29/5> brahma co7tsÃdanaæ jagÃma !
+<12329.29/6> an-indrÃÓ cÃ7-balÃ lokÃ÷ su-pradh­«yÃ babhÆvu÷ !!12329.29!
+<12329.30/1> atha devÃ ­«ayaÓ cÃ8yu«a÷ putraæ nahu«aæ nÃma deva-rÃjatve 'bhi«i«icu÷ !
+<12329.30/2> nahu«a÷ pa¤cabhi÷ Óatair jyoti«Ãæ lalÃÂe jvaladbhi÷ sarva-tejo-harais tri-vi«Âapaæ pÃlayÃæ babhÆva !
+<12329.30/3> atha lokÃ÷ prak­tim Ãpedire sva-sthÃÓ ca babhÆvu÷ !!12329.30!
+<12329.31/1> atho7vÃca nahu«a÷ !
+<12329.31/2> sarvaæ mÃæ Óakro1pabhuktam upasthitam ­te ÓacÅm iti !
+<12329.31/3> sa evam uktvÃ ÓacÅ-samÅpam agamad uvÃca cai7nÃm !
+<12329.31/4> su-bhage 'ham indro devÃnÃæ bhajasva mÃm iti !
+<12329.31/5> taæ ÓacÅ pratyuvÃca !
+<12329.31/6> prak­tyÃ tvaæ dharma-vatsala÷ soma-vaæÓo1dbhavaÓ ca !
+<12329.31/7> nÃ7rhasi para-patnÅ-dhar«aïaæ kartum iti !!12329.31!
+<12329.32/1> tÃm atho7vÃca nahu«a÷ !
+<12329.32/2> aindraæ padam adhyÃsyate mayÃ !
+<12329.32/3> aham indrasya rÃjya-ratna-haro nÃ7trÃ7-dharma÷ kaÓ-cit tvam indra-bhukte9ti !
+<12329.32/4> sÃ tam uvÃca !
+<12329.32/5> asti mama kiæ-cid vratam a-paryavasitam !
+<12329.32/6> tasyÃ7vabh­the tvÃm upagami«yÃmi kaiÓ-cid evÃ7hobhir iti !
+<12329.32/7> sa Óacyai9vam abhihito nahu«o jagÃma !!12329.32!
+<12329.33/1> atha ÓacÅ du÷kha-ÓokÃ3rtÃ bhart­-darÓana-lÃlasÃ nahu«a-bhaya-g­hÅtÃ b­has-patim upÃgacchat !
+<12329.33/2> sa ca tÃm abhigatÃæ d­«Âvai9va dhyÃnaæ praviÓya bhart­-kÃrya-tat-parÃæ j¤ÃtvÃ b­has-patir uvÃca !
+<12329.33/3> anenai7va vratena tapasÃ cÃ7nvitÃ devÅæ vara-dÃm upaÓrutim Ãhvaya !
+<12329.33/4> sÃ tave7ndraæ darÓayi«yatÅ7ti !!12329.33!
+<12329.34/1> sÃ9tha mahÃ-niyamam ÃsthitÃ devÅæ vara-dÃm upaÓrutiæ mantrair Ãhvayat !
+<12329.34/2> so9paÓruti÷ ÓacÅ-samÅpam agÃt !
+<12329.34/3> uvÃca cai7nÃm iyam asmi tvayo9pahÆto9pasthitÃ kiæ te priyaæ karavÃïÅ7ti !
+<12329.34/4> tÃæ mÆrdhnÃ praïamyo7vÃca ÓacÅ bhagavaty arhasi me bhartÃraæ darÓayituæ tvaæ satyÃ matÃ ce7ti !
+<12329.34/5> sai9nÃæ mÃnasaæ saro 'nayat !
+<12329.34/6> tatre7ndraæ bisa-granthi-gatam adarÓayat !!12329.34!
+<12329.35/1> tÃm indra÷ patnÅæ k­ÓÃæ glÃnÃæ ca d­«ÂvÃ cintayÃæ babhÆva !
+<12329.35/2> aho mama mahad du÷kham idam adyo7pagatam !
+<12329.35/3> na«Âaæ hi mÃm iyam anvi«yo7pÃgamad du÷khÃ3rte9ti !
+<12329.35/4> tÃm indra uvÃca kathaæ vartayasÅ7ti !
+<12329.35/5> sÃ tam uvÃca !
+<12329.35/6> nahu«o mÃm Ãhvayati !
+<12329.35/7> kÃlaÓ cÃ7sya mayÃ k­ta iti !!12329.35!
+<12329.36/1> tÃm indra uvÃca !
+<12329.36/2> gaccha !
+<12329.36/3> nahu«as tvayÃ vÃcyo '-pÆrveïa mÃm ­«i-yuktena yÃnena tvam adhirÆ¬ha udvahasva !
+<12329.36/4> indrasya hi mahÃnti vÃhanÃni manasa÷ priyÃïy adhirÆ¬hÃni mayÃ !
+<12329.36/5> tvam anyeno7payÃtum arhasÅ7ti !
+<12329.36/6> sai9vam uktÃ h­«ÂÃ jagÃma !
+<12329.36/7> indro 'pi bisa-granthim evÃ8viveÓa bhÆya÷ !!12329.36!
+<12329.37/1> athe7ndrÃïim abhyÃgatÃæ d­«Âvo9vÃca nahu«a÷ pÆrïa÷ sa kÃla iti !
+<12329.37/2> taæ Óacy- abravÅc chakreïa yatho9ktam !
+<12329.37/3> sa mahar2«i-yuktaæ vÃhanam adhirÆ¬ha÷ ÓacÅ-samÅpam upÃgacchat !!12329.37!
+<12329.38/1> atha maitrÃvaruïi÷ kumbha-yonir agastyo mahar2«Ån vikriyamÃïÃæs tÃn nahu«eïÃ7paÓyat !
+<12329.38/2> padbhyÃæ ca tenÃ7sp­Óyata !
+<12329.38/3> tata÷ sa nahu«am abravÅd a-kÃrya-prav­tta pÃpa patasva mahÅm !
+<12329.38/4> sarpo bhava yÃvad bhÆmir girayaÓ ca ti«Âheyus tÃvad iti !
+<12329.38/5> sa mahar2«i-vÃkya-sama-kÃlam eva tasmÃd yÃnÃd avÃpatat !!12329.38!
+<12329.39/1> athÃ7n-indraæ punas trailokyam abhavat !
+<12329.39/2> tato devÃ ­«ayaÓ ca bhagavantaæ vi«ïuæ Óaraïam indrÃ1rthe 'bhijagmu÷ !
+<12329.39/3> ÆcuÓ cai7naæ bhagavann indraæ brahma-vadhyÃ2bhibhÆtaæ trÃtum arhasÅ7ti !
+<12329.39/4> tata÷ sa vara-das tÃn abravÅd aÓva-medhaæ yaj¤aæ vai«ïavaæ Óakro 'bhiyajatu !
+<12329.39/5> tata÷ svaæ sthÃnaæ prÃpsyatÅ7ti !!12329.39!
+<12329.40/1> tato devÃ ­«ayaÓ ce7ndraæ nÃ7paÓyan yadÃ tadÃ ÓacÅm Æcur gaccha su-bhage indram Ãnayasve7ti !
+<12329.40/2> sÃ punas tat sara÷ samabhyagacchat !
+<12329.40/3> indraÓ ca tasmÃt sarasa÷ samutthÃya b­has-patim abhijagÃma !
+<12329.40/4> b­has-patiÓ cÃ7Óva-medhaæ mahÃ-kratuæ ÓakrÃyÃ8harat !
+<12329.40/5> tata÷ k­«ïa-sÃraÇgaæ medhyam aÓvam uts­jya vÃhanaæ tam eva k­tvÃ indraæ marut-patiæ b­has-pati÷ sva-sthÃnaæ prÃpayÃm Ãsa !!12329.40!
+<12329.41/1> tata÷ sa deva-rÃ¬ devair ­«ibhi÷ stÆyamÃnas tri-vi«Âapa-stho ni«-kalma«o babhÆva !
+<12329.41/2> brahma-vadhyÃæ catur«u sthÃne«u vanitÃ2gni-vanas-pati-go«u vyabhajat !
+<12329.41/201> [X D7 T G1-3.6 Cs.v ins.:: vanitÃsu raja÷ !
+<12329.41/202> X v­k«e«u niryÃsa÷ !
+<12329.41/203> X giri«u Óamba÷ !
+<12329.41/204> X p­thivyÃm Æ«arÃ÷ !
+<12329.41/205> X te '-sp­ÓyÃ÷ !
+<12329.41/206> X tasmÃd dhavir a-lavaïaæ pacyate !12329.41874! X]
+<12329.41/3> evaæ indro brahma-teja÷-prabhÃvo1pab­æhita÷ Óatru-vadhaæ k­tvÃ sva-sthÃnaæ prÃpita÷ !!12329.41!
+<12329.42/001> [X D7 T1 G1.3.6 Kumbh..ed. ins.:: nahu«asya ÓÃpa-mok«a-nimittaæ devair ­«ibhir yÃcyamÃno 'gastya÷ prÃha !
+<12329.42/002> X yÃvat sva-kula-ja÷ ÓrÅmÃn !dharma-rÃjo yudhi-«Âhira÷ !
+<12329.42/003> X kathayitvÃ svakÃn praÓnÃn !svaæ bhÅmaæ ca vimok«yate !12329.41875! X]
+<12329.42/1> ÃkÃÓa-gaÇgÃ-gataÓ ca purÃ bharad-vÃjo mahar2«ir upÃsp­Óaæs trÅn kramÃn kramatÃ vi«ïunÃ9bhyÃsÃdita÷ !
+<12329.42/2> sa bharad-vÃjena sa-salilena pÃïino9rasi tÃ¬ita÷ sa-lak«aïo1raska÷ saæv­tta÷ !!12329.42!
+<12329.43/1> bh­guïÃ mahar2«iïÃ Óapto 'gni÷ sarva-bhak«atvam upanÅta÷ !!12329.43!
+<12329.44/1> aditir vai devÃnÃm annam apacad etad bhuktvÃ9surÃn hani«yantÅ7ti !
+<12329.44/2> tatra budho vrata-caryÃ-samÃptÃv Ãgacchat !
+<12329.44/3> aditiæ cÃ7vocad bhik«Ãæ dehÅ7ti !
+<12329.44/4> tatra devai÷ pÆrvam etat prÃÓyaæ nÃ7nyene7ty aditir bhik«Ãæ nÃ7dÃt !
+<12329.44/5> atha bhik«Ã-pratyÃkhyÃna-ru«itena budhena brahma-bhÆtena vivasvato dvitÅye janmany aï¬a-saæj¤itasyÃ7ï¬aæ mÃritam adityÃ÷ !
+<12329.44/501> [X K6.7 V1 Dn1.ï4 Ds D2-5.7-9 Cs Kumbh..ed. ins. after brahmabhÆtena:: aditi÷ ÓaptÃ aditer udare bhavi«yati vyathÃ !12329.44876! X]
+<12329.44/6> sa mÃrtaï¬o vivasvÃn abhavac chrÃddha-deva÷ !!12329.44!
+<12329.45/1> dak«asya vai duhitara÷ «a«Âir Ãsan !
+<12329.45/2> tÃbhya÷ kaÓyapÃya trayo-daÓa prÃdÃd daÓa dharmÃya daÓa manave sapta-viæÓatim indave !
+<12329.45/3> tÃsu tulyÃsu nak«atrÃ3khyÃæ gatÃsu somo rohiïyÃm abhy-adhikÃæ prÅtim akarot !
+<12329.45/4> tatas tÃ÷ Óe«Ã÷ patnya År«yÃvatya÷ pitu÷ samÅpaæ somo rohiïÅm adhikaæ bhajatÅ7ti !
+<12329.45/5> so 'bravÅd yak«mai9nam Ãvek«yatÅ7ti !!12329.45!
+<12329.46/1> dak«a-ÓÃpÃt somaæ rÃjÃnaæ yak«mÃ0viveÓa !
+<12329.46/2> sa yak«maïÃ0vi«Âo dak«am agamat !
+<12329.46/3> dak«aÓ cai7nam abravÅn na samaæ vartasae iti !
+<12329.46/4> tatrar7«aya÷ somam abruvan k«Åyase yak«maïÃ !
+<12329.46/5> paÓcimasyÃæ diÓi samudre hiraïya-saras-tÅrtham !
+<12329.46/6> tatra gatvÃ0tmÃnam abhi«ecayasve7ti !
+<12329.46/7> athÃ7gacchat somas tatra hiraïya-saras-tÅrtham !
+<12329.46/8> gatvÃ cÃ8tmÃna÷ snapanam akarot (!)
+<12329.46/9> snÃtvÃ cÃ8tmÃnaæ pÃpmano mok«ayÃm Ãsa (!)
+<12329.46/91> tatra cÃ7vabhÃsitas tÅrthe yadÃ somas tadÃ-prabh­ti tÅrthaæ tat prabhÃsam iti nÃmnÃ khyÃtaæ babhÆva (!)
+<12329.46/92> tac-chÃpÃd adyÃ7pi k«Åyate somo 'mÃvÃsyÃ1ntara-stha÷ (!)
+<12329.46/93> paurïamÃsÅ-mÃtre_1 'dhi«Âhito megha-lekhÃ-praticchannaæ vapur darÓayati (!)
+<12329.46/94> megha-sa-d­Óaæ varïam agamat tad asya ÓaÓa-lak«ma vi-malam abhavat !!12329.46!
+<12329.47/1> sthÆla-ÓirÃ mahar2«ir mero÷ prÃg-uttare dig-bhÃge tapas tepe !
+<12329.47/2> tasya tapas tapyamÃnasya sarva-gandha-vaha÷ Óucir vÃyur vivÃyamÃna÷ ÓarÅram asp­Óat !
+<12329.47/3> sa tapasÃ tÃpita-ÓarÅra÷ k­Óo vÃyuno9pavÅjyamÃno h­daya-parito«am agamat !
+<12329.47/4> tatra tasyÃ7nila-vyajana-k­ta-parito«asya sadyo vanas-pataya÷ pu«pa-ÓobhÃæ na darÓitavanta iti sa etÃ¤ ÓaÓÃpa na sarva-kÃlaæ pu«pavanto bhavi«yathe7ti !!12329.47!
+<12329.48/1> nÃrÃyaïo loka-hitÃ1rthaæ va¬avÃ-mukho nÃma mahar2«i÷ purÃ9bhavat !
+<12329.48/2> tasya merau tapas tapyata÷ samudra ÃhÆto nÃ8gata÷ !
+<12329.48/3> tenÃ7-mar«itenÃ8tma-gÃtro1«maïÃ samudra÷ stimita-jala÷ k­ta÷ !
+<12329.48/4> sveda-prasyandana-sa-d­ÓaÓ cÃ7sya lavaïa-bhÃvo janita÷ !
+<12329.48/5> uktaÓ cÃ7-peyo bhavi«yasi !
+<12329.48/6> etac ca te toyaæ va¬avÃ-mukha-saæj¤itena pÅyamÃnaæ madhuraæ bhavi«yati !
+<12329.48/7> tad etad adyÃ7pi va¬avÃ-mukha-saæj¤itenÃ7nuvartinÃ toyaæ sÃmudraæ pÅyate !!12329.48!
+<12329.49/001> [X D7 T G1-3.6 Kumbh..ed. ins.:: punar umÃ dak«a-kopÃd dhimavato girer duhitÃ babhÆva !12329.48877! X]
+<12329.49/1> himavato girer duhitaram umÃæ rudraÓ cakame !
+<12329.49/2> bh­gur api ca mahar2«ir himavantam ÃgamyÃ7bravÅt kanyÃm umÃæ me dehÅ7ti !
+<12329.49/3> tam abravÅd dhimavÃn abhila«ito varo rudra iti !
+<12329.49/4> tam abravÅd bh­gur yasmÃt tvayÃ9haæ kanyÃ-varaïa-k­ta-bhÃva÷ pratyÃkhyÃtas tasmÃn na ratnÃnÃæ bhavÃn bhÃjanaæ bhavi«yatÅ7ti !
+<12329.49/5> adya-prabh­ty etad avasthitam ­«i-vacanam !!12329.49!
+<12329.50/1> tad evaæ-vidhaæ mÃhÃtmyaæ brÃhmaïÃnÃm !
+<12329.50/2> k«atram api ÓÃÓvatÅm a-vyayÃæ p­thivÅæ patnÅm abhigamya bubhuje !
+<12329.50/3> tad etad brahmÃ7gnÅ-«omÅyam !
+<12329.50/4> tena jagad dhÃryate !!12329.50!
+<12330.1/1> ÓrÅ-bhagavÃn uvÃca: sÆryÃ-candra-masau ÓaÓvat !keÓair me aæÓu-saæj¤itai÷ !
+<12330.1/2> bodhayaæs tÃpayaæÓ cai7va !jagad utti«Âhata÷ p­thak !!12330.1!
+<12330.2/1> bodhanÃt tÃpanÃc cai7va !jagato har«aïaæ bhavet !
+<12330.2/2> agnÅ-«oma-k­tair ebhi÷ !karmabhi÷ pÃï¬u-nandana !
+<12330.2/3> h­«ÅkeÓo 'ham ÅÓÃno !vara-do loka-bhÃvana÷ !!12330.2!
+<12330.3/1> i¬o2pahÆta-yogena !hare bhÃgaæ kratu«v aham !
+<12330.3/2> varïaÓ ca me hari-Óre«Âhas !tasmÃd dharir ahaæ sm­ta÷ !!12330.3!
+<12330.4/1> dhÃma sÃro hi lokÃnÃm !­taæ cai7va vicÃritam !
+<12330.4/2> ­ta-dhÃmÃ tato viprai÷ !satyaÓ cÃ7haæ prakÅrtita÷ !!12330.4!
+<12330.5/1> na«ÂÃæ ca dharaïÅæ pÆrvam !avindaæ vai guhÃ-gatÃm !
+<12330.5/2> govinda iti mÃæ devÃ !vÃgbhi÷ samabhitu«Âuvu÷ !!12330.5!
+<12330.6/1> Óipi-vi«Âe7ti cÃ8khyÃyÃæ !hÅna-romÃ ca yo bhavet !
+<12330.6/2> tenÃ8vi«Âaæ hi yat kiæ-cic !chipi-vi«Âaæ hi tat sm­tam !!12330.6!
+<12330.7/1> yÃsko mÃm ­«ir a-vy-agro !nai1ka-yaj¤e«u gÅtavÃn !
+<12330.7/2> Óipi-vi«Âa iti hy asmÃd !guhya-nÃma-dharo hy aham !!12330.7!
+<12330.8/1> stutvÃ mÃæ Óipi-vi«Âe7ti !yÃsko ­«ir udÃra-dhÅ udÃra-dhÅ÷ !
+<12330.8/2> mat-prasÃdÃd adho na«Âaæ !niruktam abhijagmivÃn !!12330.8!
+<12330.9/1> na hi jÃto na jÃye 'haæ !na jani«ye kadÃ-cana !
+<12330.9/2> k«etra-j¤a÷ sarva-bhÆtÃnÃæ !tasmÃd aham a-ja÷ sm­ta÷ !!12330.9!
+<12330.10/1> no7kta-pÆrvaæ mayÃ k«udram !a-slÅlaæ vÃ kadÃ-cana !
+<12330.10/2> ­tÃ brahma-sutÃ sÃ me !satyÃ devÅ sarasvatÅ !!12330.10!
+<12330.11/1> sac cÃ7-sac cai7va kaunteya !mayÃ0veÓitam Ãtmani !
+<12330.11/2> pau«kare brahma-sadane !satyaæ mÃm ­«ayo vidu÷ !!12330.11!
+<12330.12/1> sattvÃn na cyuta-pÆrvo 'haæ !sattvaæ vai viddhi mat-k­tam !
+<12330.12/2> janmanÅ7hÃ7bhavat sattvaæ !paurvikaæ me dhanaæ-jaya !!12330.12!
+<12330.13/1> nir-ÃÓÅ÷-karma-saæyuktaæ !sÃtvataæ mÃæ prakalpaya !
+<12330.13/2> sÃtvata-j¤Ãna-d­«Âo 'haæ !sÃtvata÷ sÃtvatÃæ pati÷ !!12330.13!
+<12330.14/1> k­«Ãmi medinÅæ pÃrtha !bhÆtvÃ kÃr«ïÃyaso mahÃn !
+<12330.14/2> k­«ïo varïaÓ ca me yasmÃt !tasmÃt k­«ïo 'ham arjuna !!12330.14!
+<12330.15/1> mayÃ saæÓle«itÃ bhÆmir !adbhir vyoma ca vÃyunÃ !
+<12330.15/2> vÃyuÓ ca tejasÃ sÃ1rdhaæ !vaikuïÂhatvaæ tato mama !!12330.15!
+<12330.16/1> nirvÃïaæ paramaæ saukhyaæ !dharmo 'sau para ucyate !
+<12330.16/2> tasmÃn na cyuta-pÆrvo 'ham !a-cyutas tena karmaïÃ !!12330.16!
+<12330.17/1> p­thivÅ-nabhasÅ co7bhe !viÓrute viÓva-laukike !
+<12330.17/2> tayo÷ saædhÃraïÃ1rthaæ hi !mÃm adho-ak«a-jam a¤jasÃ !!12330.17!
+<12330.18/1> niruktaæ veda-vidu«o !ye ca ÓabdÃ1rtha-cintakÃ÷ !
+<12330.18/2> te mÃæ gÃyanti prÃg-vaæÓe !adho-ak«a-ja iti sthiti÷ !!12330.18!
+<12330.19/001> [X D7 T G2.3.6 ins.:: adho na k«Åyate yasmÃd !vadanty anye 'py adho-ak«a-jam !12330.18879! X]
+<12330.19/1> Óabda eka-matair e«a !vyÃh­ta÷ paramar1«ibhi÷ !
+<12330.19/2> nÃ7nyo hy adho-ak«a-jo loke !­te nÃrÃyaïaæ prabhum !!12330.19!
+<12330.20/1> gh­taæ mamÃ7rci«o loke !jantÆnÃæ prÃïa-dhÃraïam !
+<12330.20/2> gh­tÃ1rcir aham a-vy-agrair !veda-j¤ai÷ parikÅrtita÷ !!12330.20!
+<12330.21/1> trayo hi dhÃtava÷ khyÃtÃ÷ !karma-jÃ iti ca sm­tÃ÷ !
+<12330.21/2> pittaæ Óle«mÃ ca vÃyuÓ ca !e«a saæghÃta ucyate !!12330.21!
+<12330.22/1> etaiÓ ca dhÃryate jantur !etai÷ k«ÅïaiÓ ca k«Åyate !
+<12330.22/2> Ãyur-veda-vidas tasmÃt !tri-dhÃtuæ mÃæ pracak«ate !!12330.22!
+<12330.23/1> v­«o hi bhagavÃn dharma÷ !khyÃto loke«u bhÃrata !
+<12330.23/2> naighaïÂuka-padÃ3khyÃtaæ !viddhi mÃæ v­«am uttamam !!12330.23!
+<12330.24/1> kapir varÃha÷ Óre«ÂhaÓ ca !dharmaÓ ca v­«a ucyate !
+<12330.24/2> tasmÃd v­«Ã-kapiæ prÃha !kaÓyapo mÃæ prajÃ-pati÷ !!12330.24!
+<12330.25/001> [X K7 D4.9 ins.:: nÃ8dimantaæ na cÃ7ntaæ ca !kadÃ-cid vidyate  surÃ÷ !12330.24880! X]
+<12330.25/1> na cÃ8diæ na madhyaæ tathÃ nai7va cÃ7ntaæ !
+<12330.25/2> kadÃ-cid vidante surÃÓ cÃ7surÃÓ ca !
+<12330.25/3> an-Ãdyo hy a-madhyas tathÃ cÃ7py an-anta÷ !
+<12330.25/4> pragÅto 'ham ÅÓo vibhur loka-sÃ1k«Å !!12330.25!
+<12330.26/1> ÓucÅni ÓravaïÅyÃni !Ó­ïomÅ7ha dhanaæ-jaya !
+<12330.26/2> na ca pÃpÃni g­hïÃmi !tato 'haæ vai Óuci-ÓravÃ÷ !!12330.26!
+<12330.27/1> eka-Ó­Çga÷ purÃ bhÆtvÃ !varÃho divya-darÓana÷ !
+<12330.27/2> imÃm uddh­tavÃn bhÆmim !eka-Ó­Çgas tato hy aham !!12330.27!
+<12330.28/1> tathai9vÃ8saæ tri-kakudo !vÃrÃhaæ rÆpam Ãsthita÷ !
+<12330.28/2> tri-kakut tena vikhyÃta÷ !ÓarÅrasya tu mÃpanÃt !!12330.28!
+<12330.29/1> viri¤ca iti ya÷ prokta÷ !kapila-j¤Ãna-cintakai÷ !
+<12330.29/2> sa prajÃ-patir evÃ7haæ !cetanÃt sarva-loka-k­t !!12330.29!
+<12330.30/1> vidyÃ-sahÃyavantaæ mÃm !Ãditya-sthaæ sanÃtanam !
+<12330.30/2> kapilaæ prÃhur ÃcÃryÃ÷ !sÃækhyÃ niÓcita-niÓcayÃ÷ !!12330.30!
+<12330.31/1> hiraïya-garbho dyutimÃn !e«a yaÓ chandasi stuta÷ !
+<12330.31/2> yogai÷ saæpÆjyate nityaæ !sa evÃ7haæ vibhu÷ sm­ta÷ !!12330.31!
+<12330.32/1> eka-viæÓati-ÓÃkhaæ ca !­g-vedaæ mÃæ pracak«ate !
+<12330.32/2> sahasra-ÓÃkhaæ yat sÃma !ye vai veda-vido janÃ÷ !
+<12330.32/3> gÃyanty Ãraïyake viprÃ !mad-bhaktÃs te 'pi dur-labhÃ÷ !!12330.32!
+<12330.33/1> «aÂ-pa¤cÃÓatam a«Âau ca !sapta-triæÓatam ity uta !
+<12330.33/2> yasmi¤ ÓÃkhÃ yajur-vede !so 'ham Ãdhvaryave sm­ta÷ !!12330.33!
+<12330.34/1> pa¤ca-kalpam atharvÃïaæ !k­tyÃbhi÷ parib­æhitam !
+<12330.34/2> kalpayanti hi mÃæ viprÃ !atharvÃïa-vidas tathÃ !!12330.34!
+<12330.35/1> ÓÃkhÃ-bhedÃÓ ca ye ke-cid !yÃÓ ca ÓÃkhÃsu gÅtaya÷ !
+<12330.35/2> svara-varïa-samuccÃrÃ÷ !sarvÃæs tÃn viddhi mat-k­tÃn !!12330.35!
+<12330.36/1> yat tad dhaya-Óira÷ pÃrtha !samudeti vara-pradam !
+<12330.36/2> so 'ham evo7ttare bhÃge !kramÃ1-k«ara-vibhÃga-vit !!12330.36!
+<12330.37/1> rÃmÃ3deÓita-mÃrgeïa !mat-prasÃdÃn mahÃ4tmanÃ !
+<12330.37/2> pÃ¤cÃlena krama÷ prÃptas !tasmÃd bhÆtÃt sanÃtanÃt !
+<12330.37/3> bÃbhravya-gotra÷ sa babhau !prathama÷ krama-pÃra-ga÷_1 !!12330.37!
+<12330.38/1> nÃrÃyaïÃd varaæ labdhvÃ !prÃpya yogam an-uttamam !
+<12330.38/2> kramaæ praïÅya Óik«Ãæ ca !praïayitvÃ sa gÃlava÷ !!12330.38!
+<12330.39/1> kaï¬arÅko 'tha rÃjÃ ca !brahma-datta÷ pratÃpavÃn !
+<12330.39/2> jÃtÅ-maraïa-jaæ du÷khaæ !sm­tvÃ sm­tvÃ puna÷ puna÷ !
+<12330.39/3> sapta-jÃti«u mukhyatvÃd !yogÃnÃæ saæpadaæ gata÷ !!12330.39!
+<12330.40/1> purÃ9haæ Ãtma-ja÷ pÃrtha !prathita÷ kÃraïÃ1ntare !
+<12330.40/2> dharmasya kuru-ÓÃrdÆla !tato 'haæ dharma-ja÷ sm­ta÷ !!12330.40!
+<12330.41/1> nara-nÃrÃyaïau pÆrvaæ !tapas tepatur a-vyayam !
+<12330.41/2> dharma-yÃnaæ samÃrÆ¬hau !parvate gandha-mÃdane !!12330.41!
+<12330.42/1> tat-kÃla-samayaæ cai7va !dak«a-yaj¤o babhÆva ha !
+<12330.42/2> nai7vÃ7kalpayad bhÃgaæ !dak«o rudrasya bhÃrata !!12330.42!
+<12330.43/1> tato dadhÅci-vacanÃd !dak«a-yaj¤am apÃharat !
+<12330.43/2> sasarja ÓÆlaæ krodhena !prajvalantaæ muhur muhu÷ !!12330.43!
+<12330.44/1> tac-chÆlaæ bhasmasÃt k­tvÃ !dak«a-yaj¤aæ sa-vistaram !
+<12330.44/2> Ãvayo÷ sahasÃ0gacchad !badary--ÃÓramam antikÃt !
+<12330.44/3> vegena mahatÃ pÃrtha !patan nÃrÃyaïo1rasi !!12330.44!
+<12330.45/1> tata÷ sva-tejasÃ0vi«ÂÃ÷ !keÓÃ nÃrÃyaïasya ha !
+<12330.45/2> babhÆvur mu¤ja-varïÃs tu !tato 'haæ mu¤ja-keÓavÃn !!12330.45!
+<12330.46/1> tac ca ÓÆlaæ vinirdhÆtaæ !huæ-kÃreïa mahÃ4tmanÃ !
+<12330.46/2> jagÃma Óaæ-kara-karaæ !nÃrÃyaïa-samÃhatam !!12330.46!
+<12330.47/1> atha rudra upÃdhÃvat !tÃv ­«Å tapasÃ9nvitau !
+<12330.47/2> tata enaæ samuddhÆtaæ !kaïÂhe jagrÃha pÃïinÃ !
+<12330.47/3> nÃrÃyaïa÷ sa viÓvÃ3tmÃ !tenÃ7sya Óiti-kaïÂhatÃ !!12330.47!
+<12330.48/1> atha rudra-vighÃtÃ1rtham !i«ÅkÃæ jag­he nara÷ !
+<12330.48/2> mantraiÓ ca saæyuyojÃ8Óu !so 'bhavat paraÓur mahÃn !!12330.48!
+<12330.49/1> k«iptaÓ ca sahasÃ rudre !khaï¬anaæ prÃptavÃæs tadÃ !
+<12330.49/2> tato 'haæ khaï¬a-paraÓu÷ !sm­ta÷ paraÓu-khaï¬anÃt !!12330.49!
+<12330.50/001> [X Kumbh..ed. ins.:: rudrasya bhÃgaæ pradadur !bhÃgam ucche«aïaæ puna÷ !
+<12330.50/002> X Órutir apy atra bhavati !vedair uktas tathÃ puna÷ !
+<12330.50/003> X ucche«aïa-bhÃgo vai rudras tasyo7cche«aïena hotavyam iti sarve gamya-rÆpeïa tadÃ !12330.49881! X]
+<12330.50/1> arjuna uvÃca: asmin yuddhe tu vÃr«ïeya !trailokya-mathane tadÃ !
+<12330.50/2> jayaæ ka÷ prÃptavÃæs tatra !Óaæsai7tan me janÃ1rdana !!12330.50!
+<12330.51/1> ÓrÅ-bhagavÃn uvÃca: tayo÷ saælagnayor yuddhe !rudra-nÃrÃyaïÃ3tmano÷ !
+<12330.51/2> udvignÃ÷ sahasÃ k­tsnÃ !lokÃ÷ sarve 'bhavaæs tadÃ !!12330.51!
+<12330.52/1> nÃ8g­hïÃt pÃvaka÷ Óubhraæ !makhe«u su-hutaæ havi÷ !
+<12330.52/2> vedÃ na pratibhÃnti sma !­«ÅïÃæ bhÃvitÃ3tmanÃm !!12330.52!
+<12330.53/1> devÃn rajas tamaÓ cai7va !samÃviviÓatus tadÃ !
+<12330.53/2> vasu-dhÃ saæcakampe 'tha !nabhaÓ ca vipaphÃla ha !!12330.53!
+<12330.54/1> ni«-prabhÃïi ca tejÃæsi !brahmÃ cai7vÃ8sanÃc cyuta÷ !
+<12330.54/2> agÃc cho«aæ samudraÓ ca !himavÃæÓ ca vyaÓÅryata !!12330.54!
+<12330.55/1> tasminn evaæ samutpanne !nimitte pÃï¬u-nandana !
+<12330.55/2> brahmÃ v­to deva-gaïair !­«ibhiÓ ca mahÃ4tmabhi÷ !
+<12330.55/3> ÃjagÃmÃ8Óu taæ deÓaæ !yatra yuddham avartata !!12330.55!
+<12330.56/1> sÃ1¤jali-pragraho bhÆtvÃ !catur-vaktro nirukta-ga÷_1 !
+<12330.56/2> uvÃca vacanaæ rudraæ !lokÃnÃm astu vai Óivam !
+<12330.56/3> nyasyÃ7yudhÃni viÓve3Óa !jagato hita-kÃmyayÃ !!12330.56!
+<12330.57/1> yad a-k«aram athÃ7-vyaktam !ÅÓaæ lokasya bhÃvanam !
+<12330.57/2> kÆÂa-sthaæ kart­-nir-dvaædvam !a-karte9ti ca yaæ vidu÷ !!12330.57!
+<12330.58/1> vyakti-bhÃva-gatasyÃ7sya !ekÃ mÆrtir iyaæ ÓivÃ !
+<12330.58/2> naro nÃrÃyaïaÓ cai7va !jÃtau dharma-kulo1dvahau !!12330.58!
+<12330.59/1> tapasÃ mahatÃ yuktau !deva-Óre«Âhau mahÃ-vratau !
+<12330.59/2> ahaæ prasÃda-jas tasya !kasmiæÓ-cit kÃraïÃ1ntare !
+<12330.59/3> tvaæ cai7va krodha-jas tÃta !pÆrva-sarge sanÃtana÷ !!12330.59!
+<12330.60/1> mayÃ ca sÃ1rdhaæ vara-daæ !vibudhaiÓ ca mahar2«ibhi÷ !
+<12330.60/2> prasÃdayÃ8Óu lokÃnÃæ !ÓÃntir bhavatu mÃ-ciram !!12330.60!
+<12330.61/1> brahmaïÃ tv evam uktas tu !rudra÷ krodhÃ1gnim uts­jan !
+<12330.61/2> prasÃdayÃm Ãsa tato !devaæ nÃrÃyaïaæ prabhum !
+<12330.61/3> Óaraïaæ ca jagÃmÃ8dyaæ !vareïyaæ vara-daæ harim !!12330.61!
+<12330.62/1> tato 'tha vara-do devo !jita-krodho jite1ndriya÷ !
+<12330.62/2> prÅtimÃn abhavat tatra !rudreïa saha saægata÷ !!12330.62!
+<12330.63/1> ­«ibhir brahmaïÃ cai7va !vibudhaiÓ ca su-pÆjita÷ !
+<12330.63/2> uvÃca devam ÅÓÃnam !ÅÓa÷ sa jagato hari÷ !!12330.63!
+<12330.64/1> yas tvÃæ vetti sa mÃæ vetti !yas tvÃm anu sa mÃm anu !
+<12330.64/2> nÃ8vayor antaraæ kiæ-cin !mÃ te bhÆd buddhir anyathÃ !!12330.64!
+<12330.65/1> adya-prabh­ti ÓrÅ-vatsa÷ !ÓÆlÃ1Çko 'yaæ bhavatv ayam !
+<12330.65/2> mama pÃïy-aÇkitaÓ cÃ7pi !ÓrÅ-kaïÂhas tvaæ bhavi«yasi !!12330.65!
+<12330.66/1> evaæ lak«aïam utpÃdya !paras-para-k­taæ tadÃ !
+<12330.66/2> sakhyaæ cai7vÃ7-tulaæ k­tvÃ !rudreïa sahitÃv ­«Å !
+<12330.66/3> tapas tepatur a-vy-agrau !vis­jya tri-divau1kasa÷ !!12330.66!
+<12330.67/1> e«a te kathita÷ pÃrtha !nÃrÃyaïa-jayo m­dhe !
+<12330.67/2> nÃmÃni cai7va guhyÃni !niruktÃni ca bhÃrata !
+<12330.67/3> ­«ibhi÷ kathitÃnÅ7ha !yÃni saækÅrtitÃni te !!12330.67!
+<12330.68/1> evaæ bahu-vidhai rÆpaiÓ !carÃmÅ7ha vasuæ-dharÃm !
+<12330.68/2> brahma-lokaæ ca kaunteya !go-lokaæ ca sanÃtanam !
+<12330.68/3> mayÃ tvaæ rak«ito yuddhe !mahÃntaæ prÃptavÃ¤ jayam !!12330.68!
+<12330.69/1> yas tu te so 'grato yÃti !yuddhe saæpratyupasthite !
+<12330.69/2> taæ viddhi rudraæ kaunteya !deva-devaæ kapardinam !!12330.69!
+<12330.70/1> kÃla÷ sa eva kathita÷ !krodha-je7ti mayÃ tava !
+<12330.70/2> nihatÃæs tena vai pÆrvaæ !hatavÃn asi vai ripÆn !!12330.70!
+<12330.71/1> a-prameya-prabhÃvaæ taæ !deva-devam umÃ-patim !
+<12330.71/2> namasva devaæ prayato !viÓve3Óaæ haram a-vyayam !!12330.71!
+<12330.71/201> [X K1.2.4.6.7 V1 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2-5.8.9 Kumbh..ed. ins.:: ya÷ sa te kathita÷ pÆrvaæ !krodha-je7ti puna÷ puna÷ !
+<12330.71/202> X tasya prabhÃvam evÃ7gryaæ !yac chrutaæ te dhanaæ-jaya !12330.71882! X]
+<12331.1/1> janam-ejaya uvÃca: brahman su-mahad ÃkhyÃnaæ !bhavatÃ parikÅrtitam !
+<12331.1/2> yac chrutvÃ munaya÷ sarve !vismayaæ paramaæ gatÃ÷ !!12331.1!
+<12331.2/001> [X K1.2.4.6 V1 after 6, Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.5.7.8 & G1-3.6 editions ins. AppI.32 X]
+<12331.2/1> idaæ Óata-sahasrÃd dhi !bhÃratÃ3khyÃna-vistarÃt !
+<12331.2/2> Ãmathya mati-manthena !j¤Ãno1da-dhim an-uttamam !!12331.2!
+<12331.3/1> nava-nÅtaæ yathÃ dadhno !malayÃc candanaæ yathÃ !
+<12331.3/2> Ãraïyakaæ ca vedebhya !o«adhibhyo '-m­taæ yathÃ !!12331.3!
+<12331.4/1> samuddh­tam idaæ brahman !kathÃ2-m­tam an-uttamam !
+<12331.4/2> tapo-nidhe tvayo9ktaæ hi !nÃrÃyaïa-kathÃ4Órayam !!12331.4!
+<12331.5/1> sa hÅ8Óo bhagavÃn deva÷ !sarva-bhÆtÃ3tma-bhÃvana÷ !
+<12331.5/2> aho nÃrÃyaïaæ tejo !dur-darÓaæ dvi-ja-sattama !!12331.5!
+<12331.6/1> yatrÃ8viÓanti kalpÃ1nte !sarve brahmÃ3daya÷ surÃ÷ !
+<12331.6/2> ­«ayaÓ ca sa-gandharvÃ !yac ca kiæ-cic carÃ1-caram !
+<12331.6/3> na tato 'sti paraæ manye !pÃvanaæ divi ce7ha ca !!12331.6!
+<12331.7/1> sarvÃ3ÓramÃ1bhigamanaæ !sarva-tÅrthÃ1vagÃhanam !
+<12331.7/2> na tathÃ phala-daæ cÃ7pi !nÃrÃyaïa-kathÃ yathÃ !!12331.7!
+<12331.8/1> sarvathÃ pÃvitÃ÷ sme7ha !Órutve9mÃm Ãdita÷ kathÃm !
+<12331.8/2> harer viÓve3Óvarasye7ha !sarva-pÃpa-praïÃÓanÅm !!12331.8!
+<12331.9/1> na citraæ k­tavÃæs tatra !yad Ãryo me dhanaæ-jaya÷ !
+<12331.9/2> vÃsudeva-sahÃyo ya÷ !prÃptavÃ¤ jayam uttamam !!12331.9!
+<12331.10/1> na cÃ7sya kiæ-cid a-prÃpyaæ !manye loke«v api tri«u !
+<12331.10/2> trailokya-nÃtho vi«ïu÷ sa !yasyÃ8sÅt sÃhya-k­t sakhÃ !!12331.10!
+<12331.11/1> dhanyÃÓ ca sarvae evÃ8san !brahmaæs te mama pÆrvakÃ÷ !
+<12331.11/2> hitÃya Óreyase cai7va !ye«Ãm ÃsÅj janÃ1rdana÷ !!12331.11!
+<12331.12/1> tapasÃ9pi na d­Óyo hi !bhagavÃæl loka-pÆjita÷ !
+<12331.12/2> yaæ d­«Âavantas te sÃ1k«Ãc !chrÅ-vatsÃ1Çka-vibhÆ«aïam !!12331.12!
+<12331.13/1> tebhyo dhanyataraÓ cai7va !nÃrada÷ parame-«Âhi-ja÷ !
+<12331.13/2> na cÃ7lpa-tejasam ­«iæ !vedmi nÃradam a-vyayam !
+<12331.13/201> [X T2 G1.2 ins.:: d­«ÂavÃn yo hariæ devaæ !nÃrÃyaïam a-jaæ vibhum !12331.13883! X]
+<12331.13/3> Óveta-dvÅpaæ samÃsÃdya !yena d­«Âa÷ svayaæ hari÷ !!12331.13!
+<12331.14/1> deva-prasÃdÃ1nugataæ !vyaktaæ tat tasya darÓanam !
+<12331.14/2> yad d­«ÂavÃæs tadÃ devam !a-niruddha-tanau sthitam !!12331.14!
+<12331.15/1> badarÅm ÃÓramaæ yat tu !nÃrada÷ prÃdravat puna÷ !
+<12331.15/2> nara-nÃrÃyaïau dra«Âuæ !kiæ nu tat-kÃraïaæ mune !!12331.15!
+<12331.16/1> Óveta-dvÅpÃn niv­ttaÓ ca !nÃrada÷ parame-«Âhi-ja÷ !
+<12331.16/2> badarÅm ÃÓramaæ prÃpya !samÃgamya ca tÃv ­«Å !!12331.16!
+<12331.17/1> kiyantaæ kÃlam avasat !kÃ÷ kathÃ÷ p­«ÂavÃæÓ ca sa÷ !
+<12331.17/2> Óveta-dvÅpÃd upÃv­tte !tasmin vÃ su-mahÃ4tmani !!12331.17!
+<12331.18/1> kim abrÆtÃæ mahÃ4tmÃnau !nara-nÃrÃyaïÃv ­«Å !
+<12331.18/2> tad etan me yathÃ-tattvaæ !sarvam ÃkhyÃtum arhasi !!12331.18!
+<12331.19/001> [X K1.2.4 V1 ins. after 18:: sÆta uvÃca: evaæ p­«Âas tadÃ rÃj¤Ã !parÃÓaryo mahÃ-muni÷ !
+<12331.19/002> X samÅpa-sthaæ tata÷ Ói«yaæ !vaiÓaæpÃyanam abravÅt !
+<12331.19/003> X brÆhy asmai sarvam a-khilaæ !yad v­ttaæ nÃradasya ha !
+<12331.19/004> X tayo÷ sa-kÃÓaæ gatvÃ ca !yathÃ sa k­tavÃn puna÷ !12331.18884! X]
+<12331.19/005> [X D7 T G1-3.6 ins. after 18:: sÆta uvÃca: tasya tad vacanaæ ÓrutvÃ !k­«ïa-dvaipÃyanas tadÃ !
+<12331.19/006> X ÓaÓÃsa Ói.yam ÃsÅnaæ !vaiÓaæpÃyanam antike !
+<12331.19/007> X tad asmai sarvam Ãcak«va !yat matta÷ ÓrutavÃn asi !
+<12331.19/008> X guror vacanam Ãj¤Ãya !sa tu viprar1«abhas tadÃ !
+<12331.19/009> X Ãcacak«e tata÷ sarvam !itihÃsaæ purÃtanam !12331.18885! X]
+<12331.19/1> vaiÓaæpÃyana uvÃca: namo bhagavate tasmai !vyÃsÃyÃ7-mita-tejase !
+<12331.19/2> yasya prasÃdÃd vak«yÃmi !nÃrÃyaïa-kathÃm imÃm !!12331.19!
+<12331.20/001> [X T1 G3.6 T2 G1.2 ins.:: nÃ7sti nÃrÃyaïa-samaæ !na bhÆtaæ na bhavi«yati !
+<12331.20/002> X etena satya-vÃkyena !sarvÃ1rthÃn sÃdhayÃmy aham !
+<12331.20/003> X nÃradena purÃ yÃ me !gurave viniveditÃ !
+<12331.20/004> X ­«ÅïÃæ pÃï¬avÃnÃæ ca !Ó­ïvato÷ k­«ïa-bhÅ«mayo÷ !12331.19886! X]
+<12331.20/1> prÃpya Óvetaæ mahÃ-dvÅpaæ !d­«ÂvÃ ca harim a-vyayam !
+<12331.20/2> niv­tto nÃrado rÃjaæs !tarasÃ merum Ãgamat !
+<12331.20/3> h­dayeno7dvahan bhÃraæ !yad uktaæ paramÃ3tmanÃ !!12331.20!
+<12331.21/1> paÓcÃd asyÃ7bhavad rÃjann !Ãtmana÷ sÃdhvasaæ mahat !
+<12331.21/2> yad gatvÃ dÆram adhvÃnaæ !k«emÅ punar ihÃ8gata÷ !!12331.21!
+<12331.22/1> tato mero÷ pracakrÃma !parvataæ gandha-mÃdanam !
+<12331.22/2> nipapÃta ca khÃt tÆrïaæ !viÓÃlÃæ badarÅm anu !!12331.22!
+<12331.23/1> tata÷ sa dad­Óe devau !purÃïÃv ­«i-sattamau !
+<12331.23/2> tapaÓ carantau su-mahad !Ãtma-ni«Âhau mahÃ-vratau !!12331.23!
+<12331.24/1> tejasÃ9bhy-adhikau sÆryÃt !sarva-loka-virocanÃt !
+<12331.24/2> ÓrÅ-vatsa-lak«aïau pÆjyau !jaÂÃ-maï¬ala-dhÃriïau !!12331.24!
+<12331.25/1> jÃla-pÃda-bhujau_2 tau tu !pÃdayoÓ cakra-lak«aïau !
+<12331.25/2> vyÆ¬ho1raskau dÅrgha-bhujau_2 !tathÃ mu«ka-catu«kiïau !!12331.25!
+<12331.26/1> «a«Âi-dantÃv a«Âa-daæ«Ârau !meghau1gha-sa-d­Óa-svanau !
+<12331.26/2> sv-Ãsyau p­thu-lalÃÂau ca !su-hanÆ su-bhru-nÃsikau !!12331.26!
+<12331.27/1> Ãtapa-treïa sa-d­Óe !ÓirasÅ devayos tayo÷ !
+<12331.27/2> evaæ lak«aïa-saæpannau !mahÃ-puru«a-saæj¤itau !!12331.27!
+<12331.28/1> tau d­«ÂvÃ nÃrado h­«Âas !tÃbhyÃæ ca pratipÆjita÷ !
+<12331.28/2> sv-ÃgatenÃ7bhibhÃ«yÃ7tha !p­«ÂaÓ cÃ7n-Ãmayaæ tadÃ !!12331.28!
+<12331.29/1> babhÆvÃ7ntar-gata-matir !nirÅk«ya puru«o1ttamau !
+<12331.29/2> sado-gatÃs tatra ye vai !sarva-bhÆta-namas-k­tÃ÷ !!12331.29!
+<12331.30/1> Óveta-dvÅpe mayÃ d­«ÂÃs !tÃ-d­ÓÃv ­«i-sattamau !
+<12331.30/2> iti saæcintya manasÃ !k­tvÃ cÃ7bhi-pra-dak«iïam !
+<12331.30/3> upopaviveÓe tatra !pÅÂhe kuÓamaye Óubhe !!12331.30!
+<12331.31/1> tatas tau tapasÃæ vÃsau !yaÓasÃæ tejasÃm api !
+<12331.31/2> ­«Å Óama-damo1petau !k­tvÃ pÆrvÃ3hïikaæ vidhim !!12331.31!
+<12331.32/1> paÓcÃn nÃradam a-vy-agrau !pÃdyÃ1rghyÃbhyÃæ prapÆjya ca !
+<12331.32/2> pÅÂhayoÓ co7pavi«Âau tau !k­tÃ3tithyÃ3hnikau n­-pa_2 !!12331.32!
+<12331.33/1> te«u tatro7pavi«Âe«u !sa deÓo 'bhivyarÃjata !
+<12331.33/2> ÃjyÃ3huti-mahÃ-jvÃlair !yaj¤a-vÃÂo 'gnibhir yathÃ !!12331.33!
+<12331.34/1> atha nÃrÃyaïas tatra !nÃradaæ vÃkyam abravÅt !
+<12331.34/2> sukho1pavi«Âaæ viÓrÃntaæ !k­tÃ3tithyaæ sukha-sthitam !!12331.34!
+<12331.35/1> apÅ7dÃnÅæ sa bhagavÃn !paramÃ3tmÃ sanÃtana÷ !
+<12331.35/2> Óveta-dvÅpe tvayÃ d­«Âa !Ãvayo÷ prak­ti÷ parÃ !!12331.35!
+<12331.36/1> nÃrada uvÃca: d­«Âo me puru«a÷ ÓrÅmÃn !viÓva-rÆpa-dharo '-vyaya÷ !
+<12331.36/2> sarve hi lokÃs tatra-sthÃs !tathÃ devÃ÷ sahar1«ibhi÷ !
+<12331.36/3> adyÃ7pi cai7naæ paÓyÃmi !yuvÃæ paÓyan sanÃtanau !!12331.36!
+<12331.37/1> yair lak«aïair upeta÷ sa !harir a-vyakta-rÆpa-dh­k !
+<12331.37/2> tair lak«aïair upetau hi !vyakta-rÆpa-dharau yuvÃm !!12331.37!
+<12331.38/1> d­«Âau mayÃ yuvÃæ tatra !tasya devasya pÃrÓvata÷ !
+<12331.38/2> iha cai7vÃ8gato 'smy adya !vis­«Âa÷ paramÃ3tmanÃ !!12331.38!
+<12331.39/1> ko hi nÃma bhavet tasya !tejasÃ yaÓasÃ ÓriyÃ !
+<12331.39/2> sa-d­Óas tri«u loke«u !­te dharmÃ3tma-jau yuvÃm !!12331.39!
+<12331.40/1> tena me kathitaæ pÆrvaæ !nÃma k«etra-j¤a-saæj¤itam !
+<12331.40/2> prÃdur-bhÃvÃÓ ca kathitÃ !bhavi«yanti hi ye yathÃ !!12331.40!
+<12331.41/1> tatra ye puru«Ã÷ ÓvetÃ÷ !pa¤ce1ndriya-vivarjitÃ÷ !
+<12331.41/2> pratibuddhÃÓ ca te sarve !bhaktÃÓ ca puru«o1ttamam !!12331.41!
+<12331.42/1> te 'rcayanti sadÃ devaæ !tai÷ sÃ1rdhaæ ramate ca sa÷ !
+<12331.42/2> priya-bhakto hi bhagavÃn !paramÃ3tmÃ dvi-ja-priya÷ !!12331.42!
+<12331.43/1> ramate so 'rcyamÃno hi !sadÃ bhÃgavata-priya÷ !
+<12331.43/2> viÓva-bhuk sarva-go_1 devo !bÃndhavo bhakta-vatsala÷ !
+<12331.43/3> sa kartÃ kÃraïaæ cai7va !kÃryaæ cÃ7ti-bala-dyuti÷ !!12331.43!
+<12331.44/001> [X K6 V1 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.5.8 Kumbh..ed. ins.:: hetuÓ cÃ8j¤Ã-vidhÃnaæ ca !tattvaæ cai7va mahÃ-yaÓÃ÷ !12331.43887! X]
+<12331.44/1> tapasÃ yojya so ÃtmÃnaæ !Óveta-dvÅpÃt paraæ hi yat !
+<12331.44/2> teja ity abhivikhyÃtaæ !svayaæ-bhÃsÃ1vabhÃsitam !!12331.44!
+<12331.45/1> ÓÃnti÷ sÃ tri«u loke«u !siddhÃnÃæ bhÃvitÃ3tmanÃm !
+<12331.45/2> etayÃ ÓubhayÃ buddhyÃ !nai«Âhikaæ vratam Ãsthita÷ !!12331.45!
+<12331.46/1> na tatra sÆryas tapati !na somo 'bhivirÃjate !
+<12331.46/2> na vÃyur vÃti deve3Óe !tapaÓ carati duÓ-caram !!12331.46!
+<12331.47/1> vedÅm a«Âa-talo1tsedhÃæ !bhÆmÃv ÃsthÃya viÓva-bhuk !
+<12331.47/2> eka-pÃda-sthito deva !Ærdhva-bÃhur udaÇ-mukha÷ !
+<12331.47/3> sÃ1ÇgÃn Ãvartayan vedÃæs !tapas tepe su-duÓ-caram !!12331.47!
+<12331.48/1> yad brahmÃ ­«ayaÓ cai7va !svayaæ paÓu-patiÓ ca yat !
+<12331.48/2> Óe«ÃÓ ca vibudha-Óre«ÂhÃ !daitya-dÃnava-rÃk«asÃ÷ !!12331.48!
+<12331.49/1> nÃgÃ÷ su-parïÃ gandharvÃ÷ !siddhÃ rÃjar1«ayaÓ ca ye !
+<12331.49/2> havyaæ kavyaæ ca satataæ !vidhi-pÆrvaæ prayu¤jate !
+<12331.49/3> k­tsnaæ tat tasya devasya !caraïÃv upati«Âhati !!12331.49!
+<12331.50/1> yÃ÷ kriyÃ÷ saæprayuktÃs tu !ekÃ1nta-gata-buddhibhi÷ !
+<12331.50/2> tÃ÷ sarvÃ÷ ÓirasÃ deva÷ !pratig­hïÃti vai svayam !!12331.50!
+<12331.51/1> na tasyÃ7nya÷ priyatara÷ !pratibuddhair mahÃ4tmabhi÷ !
+<12331.51/2> vidyate tri«u loke«u !tato 'smy aikÃntikaæ gata÷ !
+<12331.51/3> iha cai7vÃ8gatas tena !vis­«Âa÷ paramÃ3tmanÃ !!12331.51!
+<12331.52/001> [X G1 ins.:: an-anya-devatÃ-bhaktir !an-anya-manutÃ hare÷ !
+<12331.52/002> X an-anya-sevyatÃ vi«ïor !an-anyÃ1rcyatvam eva ca !
+<12331.52/003> X brahma-rudrÃ3di-sÃmyatvaæ !buddhir Ãhrityam eva ca !
+<12331.52/004> X an-anya-devÃ3laya-gatir !an-anya-bhaktÃ3dya-vÅk«aïam !
+<12331.52/005> X tathÃ karma-phalÃ1-saÇgo hy !ekÃntitvam idaæ matam !12331.51888! X]
+<12331.52/1> evaæ me bhagavÃn deva÷ !svayam ÃkhyÃtavÃn hari÷ !
+<12331.52/2> Ãsi«ye tat-paro bhÆtvÃ !yuvÃbhyÃæ saha nityaÓa÷ !!12331.52!
+<12332.1/1> nara-nÃrÃyaïÃv Æcatu÷: dhanyo 'sy anug­hÅto 'si !yat te d­«Âa÷ svayaæ prabhu÷ !
+<12332.1/2> na hi taæ d­«ÂavÃn kaÓ-cit !padma-yonir api svayam !!12332.1!
+<12332.2/1> a-vyakta-yonir bhagavÃn !dur-darÓa÷ puru«o1ttama÷ !
+<12332.2/2> nÃradai7tad dhi te satyaæ !vacanaæ samudÃh­tam !!12332.2!
+<12332.3/1> nÃ7sya bhaktai÷ priyataro !loke kaÓ-cana vidyate !
+<12332.3/2> tata÷ svayaæ darÓitavÃn !svam ÃtmÃnaæ dvi-jo1ttamam !!12332.3!
+<12332.4/1> tapo hi tapyatas tasya !yat sthÃnaæ paramÃ3tmana÷ !
+<12332.4/2> na tat saæprÃpnute kaÓ-cid !­te hy ÃvÃæ dvi-jo1ttama !!12332.4!
+<12332.5/1> yÃ hi sÆrya-sahasrasya !samastasya bhaved dyuti÷ !
+<12332.5/2> sthÃnasya sÃ bhavet tasya !svayaæ tena virÃjatÃ !!12332.5!
+<12332.6/1> tasmÃd utti«Âhate vipra !devÃd viÓva-bhuva÷ pate÷ !
+<12332.6/2> k«amÃ k«amÃvatÃæ Óre«Âha !yayÃ bhÆmis tu yujyate !!12332.6!
+<12332.7/1> tasmÃc co7tti«Âhate devÃt !sarva-bhÆta-hito rasa÷ !
+<12332.7/2> Ãpo yena hi yujyante !dravatvaæ prÃpnuvanti ca !!12332.7!
+<12332.8/1> tasmÃd eva samudbhÆtaæ !tejo rÆpa-guïÃ3tmakam !
+<12332.8/2> yena sma yujyate sÆryas !tato lokÃn virÃjate !!12332.8!
+<12332.9/1> tasmÃd devÃt samudbhÆta÷ !sparÓas tu puru«o1ttamÃt !
+<12332.9/2> yena sma yujyate vÃyus !tato lokÃn vivÃty asau !!12332.9!
+<12332.10/1> tasmÃc co7tti«Âhate Óabda÷ !sarva-loke3ÓvarÃt prabho÷ !
+<12332.10/2> ÃkÃÓaæ yujyate yena !tatas ti«Âhaty a-saæv­tam !!12332.10!
+<12332.11/1> tasmÃt co7tti«Âhate devÃt !sarva-bhÆta-gataæ mana÷ !
+<12332.11/2> candra-mÃ yena saæyukta÷ !prakÃÓa-guïa-dhÃraïa÷ !!12332.11!
+<12332.12/1> «a¬-bhÆto1tpÃdakaæ nÃma !tat sthÃnaæ veda-saæj¤itam !
+<12332.12/2> vidyÃ-sahÃyo yatrÃ8ste !bhagavÃn havya-kavya-bhuk !!12332.12!
+<12332.13/1> ye hi ni«-kalma«Ã loke !puïya-pÃpa-vivarjitÃ÷ !
+<12332.13/2> te«Ãæ vai k«emam adhvÃnaæ !gacchatÃæ dvi-ja-sattama !
+<12332.13/3> sarva-loka-tamo-hantÃ !Ãdityo dvÃram ucyate !!12332.13!
+<12332.14/001> [X V1 B6.8 D7 T G1-3.6 M1.5-7 Kumbh..ed. ins.:: jvÃlÃ-mÃlÅ mahÃ-tejÃ !yene7daæ dhÃryate jagat !12332.13889! X]
+<12332.14/1> Ãditya-dagdha-sarvÃ1ÇgÃ !a-d­ÓyÃ÷ kena-cit kva-cit !
+<12332.14/2> paramÃ1ïu-bhÆtÃ bhÆtvÃ tu !taæ devaæ praviÓanty uta !!12332.14!
+<12332.15/1> tasmÃd api vinirmuktÃ !a-niruddha-tanau sthitÃ÷ !
+<12332.15/2> mano-bhÆtÃs tato bhÆya÷ !pradyumnaæ praviÓanty uta !!12332.15!
+<12332.16/1> pradyumnÃc cÃ7pi nirmuktÃ !jÅvaæ saækar«aïaæ tathÃ !
+<12332.16/2> viÓanti vipra-pravarÃ÷ !sÃækhyÃ bhÃgavatai÷ saha !!12332.16!
+<12332.17/1> tatas traiguïya-hÅnÃs te !paramÃ3tmÃnam a¤jasÃ !
+<12332.17/2> praviÓanti dvi-ja-Óre«Âha !k«etra-j¤aæ nir-guïÃ3tmakam !
+<12332.17/3> sarvÃ3vÃsaæ vÃsudevaæ !k«etra-j¤aæ viddhi tattvata÷ !!12332.17!
+<12332.18/1> samÃhita-manaskÃÓ ca !niyatÃ÷ saæyate1ndriyÃ÷ !
+<12332.18/2> ekÃ1nta-bhÃvo1pagatÃ !vÃsudevaæ viÓanti te !!12332.18!
+<12332.19/1> ÃvÃm api ca dharmasya !g­he jÃtau dvi-jo1ttama !
+<12332.19/2> ramyÃæ viÓÃlÃm ÃÓritya !tapa ugraæ samÃsthitau !!12332.19!
+<12332.20/1> ye tu tasyai7va devasya !prÃdur-bhÃvÃ÷ sura-priyÃ÷ !
+<12332.20/2> bhavi«yanti tri-loka-sthÃs !te«Ãæ sv-astÅ7ty ato dvi-ja !!12332.20!
+<12332.21/1> vidhinÃ svena yuktÃbhyÃæ !yathÃ-pÆrvaæ dvi-jo1ttama !
+<12332.21/2> ÃsthitÃbhyÃæ sarva-k­cchraæ !vrataæ samyak tad uttamam !!12332.21!
+<12332.22/001> [X D7 T G2.3.6 Kumbh..ed. ins. after 21, M1.5-7 after 20:: svÃ1rthena vidhinÃ yukta÷ !sarva-k­cchra-vrate sthita÷ !12332.21890! X]
+<12332.22/1> ÃvÃbhyÃm api d­«Âas tvaæ !Óveta-dvÅpe tapo-dhana !
+<12332.22/2> samÃgato bhagavatÃ !saæjalpaæ k­tavÃn yathÃ !!12332.22!
+<12332.23/1> sarvaæ hi nau saæviditaæ !trailokye sa-carÃ1-care !
+<12332.23/2> yad bhavi«yati v­ttaæ vÃ !vartate vÃ ÓubhÃ1-Óubham !!12332.23!
+<12332.24/001> [X K6 V1 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.5.8 Kumbh..ed. ins.:: sarvaæ sa te kathitavÃn !deva-devo mahÃ-mune !12332.23891! X]
+<12332.24/1> vaiÓaæpÃyana uvÃca: etac chrutvÃ tayor vÃkyaæ !tapasy ugre 'bhyavartata !
+<12332.24/2> nÃrada÷ prÃ1¤jalir bhÆtvÃ !nÃrÃyaïa-parÃ1yaïa÷ !!12332.24!
+<12332.25/1> jajÃpa vidhivan mantrÃn !nÃrÃyaïa-gatÃn bahÆn !
+<12332.25/2> divyaæ var«a-sahasraæ hi !nara-nÃrÃyaïÃ3Órame !!12332.25!
+<12332.26/1> avasat sa mahÃ-tejÃ !nÃrado bhagavÃn ­«i÷ !
+<12332.26/2> tam evÃ7bhyarcayan devaæ !nara-nÃrÃyaïau ca tau !!12332.26!
+<12333.1/1> vaiÓaæpÃyana uvÃca: kasya-cit tv atha kÃlasya !nÃrada÷ parame-«Âhi-ja÷ !
+<12333.1/2> daivaæ k­tvÃ yathÃ-nyÃyaæ !pitryaæ cakre tata÷ param !!12333.1!
+<12333.2/1> tatas taæ vacanaæ prÃha !jye«Âho dharmÃ3tma-ja÷ prabhu÷ !
+<12333.2/2> ka ijyate dvi-ja-Óre«Âha !daive pitrye ca kalpite !!12333.2!
+<12333.3/1> tvayÃ matimatÃæ Óre«Âha !tan me Óaæsa yathÃ4gamam !
+<12333.3/2> kim etat kriyate karma !phalaæ cÃ7sya kim i«yate !!12333.3!
+<12333.4/1> nÃrada uvÃca: tvayai9tat kathitaæ pÆrvaæ !daivaæ kartavyam ity api !
+<12333.4/2> daivataæ ca paro yaj¤a÷ !paramÃ3tmÃ sanÃtana÷ !!12333.4!
+<12333.5/1> tatas tad-bhÃvito nityaæ !yaje vaikuïÂham a-vyayam !
+<12333.5/2> tasmÃc ca pras­ta÷ pÆrvaæ !brahmÃ loka-pitÃ-maha÷ !!12333.5!
+<12333.6/1> mama vai pitaraæ prÅta÷ !parame-«Âhy- apy ajÅjanat !
+<12333.6/2> ahaæ saækalpa-jas tasya !putra÷ prathama-kalpita÷ !!12333.6!
+<12333.7/1> yajÃmy ahaæ pitÌn sÃdho !nÃrÃyaïa-vidhau k­te !
+<12333.7/2> evaæ sa eva bhagavÃn !pitÃ mÃtÃ pitÃ-maha÷ !
+<12333.7/3> ijyate pit­-yaj¤e«u !mayÃ nityaæ jagat-pati÷ !!12333.7!
+<12333.8/1> ÓrutiÓ cÃ7py aparÃ deva !putrÃn hi pitaro 'yajan !
+<12333.8/2> veda-Óruti÷ praïa«ÂÃ ca !punar adhyÃpitÃ sutai÷ !
+<12333.8/3> tatas te mantra-dÃ÷ putrÃ÷ !pit­tvam upapedire !!12333.8!
+<12333.9/1> nÆnaæ purai9tad viditaæ !yuvayor bhÃvitÃ3tmano÷ !
+<12333.9/2> putrÃÓ ca pitaraÓ cai7va !paras-param apÆjayan !!12333.9!
+<12333.10/1> trÅn piï¬Ãn nyasya vai p­thvyÃæ !pÆrvaæ dattvÃ kuÓÃn iti !
+<12333.10/2> kathaæ tu piï¬a-saæj¤Ãæ te !pitaro lebhire purÃ !!12333.10!
+<12333.11/1> nara-nÃrÃyaïÃv Æcatu÷: imÃæ hi dharaïÅæ pÆrvaæ !na«ÂÃæ sÃgara-mekhalÃm !
+<12333.11/2> govinda ujjahÃrÃ8Óu !vÃrÃhaæ rÆpam ÃÓrita÷ !!12333.11!
+<12333.12/1> sthÃpayitvÃ tu dharaïÅæ !sve sthÃne puru«o1ttama÷ !
+<12333.12/2> jala-kardama-liptÃ1Çgo !loka-kÃryÃ1rtham udayata÷ !!12333.12!
+<12333.13/1> prÃpte cÃ8hnika-kÃle sa !madhyaæ-dina-gate_1 ravau !
+<12333.13/2> daæ«ÂrÃ-vilagnÃn m­t-piï¬Ãn !vidhÆya sahasÃ prabhu÷ !
+<12333.13/3> sthÃpayÃm Ãsa vai p­thvyÃæ !kuÓÃn ÃstÅrya nÃrada !!12333.13!
+<12333.14/1> sa te«v ÃtmÃnam uddiÓya !pitryaæ cakre yathÃ-vidhi !
+<12333.14/2> saækalpayitvÃ trÅn piï¬Ãn !svenai7va vidhinÃ prabhu÷ !!12333.14!
+<12333.15/1> Ãtma-gÃtro1«ma-saæbhÆtai÷ !sneha-garbhais tilair api !
+<12333.15/2> prok«yÃ7pavargaæ deve3Óa÷ !prÃÇ-mukha÷ k­tavÃn svayam !!12333.15!
+<12333.16/1> maryÃdÃ-sthÃpanÃ1rthaæ ca !tato vacanam uktavÃn !
+<12333.16/2> ahaæ hi pitara÷ sra«Âum !udyato loka-k­t svayam !!12333.16!
+<12333.17/1> tasya cintayata÷ sadya÷ !pit­-kÃrya-vidhiæ param !
+<12333.17/2> daæ«ÂrÃbhyÃæ pravinirdhÆtÃ !mamai7te dak«iïÃæ diÓam !
+<12333.17/3> ÃÓritÃ dharaïÅæ piï¬Ãs !tasmÃt pitara eva te !!12333.17!
+<12333.18/1> trayo mÆrti-vihÅnÃ vai !piï¬a-mÆrti-dharÃs tv ime !
+<12333.18/2> bhavantu pitaro loke !mayÃ s­«ÂÃ÷ sanÃtanÃ÷ !!12333.18!
+<12333.19/1> pitÃ pitÃ-mahaÓ cai7va !tathai9va pra-pitÃ-maha÷ !
+<12333.19/2> aham evÃ7tra vij¤eyas !tri«u piï¬e«u saæsthita÷ !!12333.19!
+<12333.20/1> nÃ7sti matto 'dhika÷ kaÓ-cit !ko vÃ9bhyarcyo mayÃ svayam !
+<12333.20/2> ko vÃ mama pitÃ loke !aham eva pitÃ-maha÷ !!12333.20!
+<12333.21/1> pitÃ-maha-pitÃ cai7va !aham evÃ7tra kÃraïam !
+<12333.21/2> ity evam uktvÃ vacanaæ !deva-devo v­«Ã-kapi÷ !!12333.21!
+<12333.22/1> varÃha-parvate vipra !dattvÃ piï¬Ãn sa-vistarÃn !
+<12333.22/2> ÃtmÃnaæ pÆjayitvai9va !tatrai7vÃ7-darÓanaæ gata÷ !!12333.22!
+<12333.23/1> etad-arthaæ Óubha-mate !pitara÷ piï¬a-saæj¤itÃ÷ !
+<12333.23/2> labhante satataæ pÆjÃæ !v­«Ã-kapi-vaco yathÃ !!12333.23!
+<12333.24/1> ye yajanti pitÌn devÃn !gurÆæÓ cai7vÃ7tithÅæs tathÃ !
+<12333.24/2> gÃÓ cai7va dvi-ja-mukhyÃæÓ ca !p­thivÅæ mÃtaraæ tathÃ !
+<12333.24/3> karmaïÃ manasÃ vÃcÃ !vi«ïum eva yajanti te !!12333.24!
+<12333.25/1> antar-gata÷ sa bhagavÃn !sarva-sattva-ÓarÅra-ga÷_1 !
+<12333.25/2> sama÷ sarve«u bhÆte«u !ÅÓvara÷ sukha-du÷khayo÷ !
+<12333.25/3> mahÃn mahÃ4tmÃ sarvÃ3tmÃ !nÃrÃyaïa iti Óruta÷ !!12333.25!
+<12334.1/1> vaiÓaæpÃyana uvÃca: Órutvai9tan nÃrado vÃkyaæ !nara-nÃrÃyaïe3ritam !
+<12334.1/2> aty-anta-bhaktimÃn deve !ekÃntitvam upeyivÃn !!12334.1!
+<12334.2/1> pro«ya var«a-sahasraæ tu !nara-nÃrÃyaïÃ3Órame !
+<12334.2/2> ÓrutvÃ bhagavad-ÃkhyÃnaæ !d­«ÂvÃ ca harim a-vyayam !
+<12334.2/3> himavantaæ jagÃmÃ8Óu !yatrÃ7sya svaka ÃÓrama÷ !!12334.2!
+<12334.3/1> tÃv api khyÃta-tapasau !nara-nÃrÃyaïÃv ­«Å !
+<12334.3/2> tasminn evÃ8Órame ramye !tepatus tapa uttamam !!12334.3!
+<12334.4/1> tvam apy a-mita-vikrÃnta÷ !pÃï¬avÃnÃæ kulo1dvaha÷ !
+<12334.4/2> pÃvitÃ3tmÃ9dya saæv­tta÷ !Órutve9mÃm Ãdita÷ kathÃm !!12334.4!
+<12334.5/1> nai7va tasya paro loko !nÃ7yaæ pÃrthiva-sattama !
+<12334.5/2> karmaïÃ manasÃ vÃcÃ !yo dvi«yÃd vi«ïum a-vyayam !!12334.5!
+<12334.6/1> majjanti pitaras tasya !narake ÓÃÓvatÅ÷ samÃ÷ !
+<12334.6/2> yo dvi«yÃd vibudha-Óre«Âhaæ !devaæ nÃrÃyaïaæ harim !!12334.6!
+<12334.7/1> kathaæ nÃma bhaved dve«ya !ÃtmÃ lokasya kasya-cit !
+<12334.7/2> ÃtmÃ hi puru«a-vyÃghra !j¤eyo vi«ïur iti sthiti÷ !!12334.7!
+<12334.8/1> ya e«a gurur asmÃkam !­«ir gandhavatÅ-suta÷ !
+<12334.8/2> tenai7tat kathitaæ tÃta !mÃhÃtmyaæ paramÃ3tmana÷ !
+<12334.8/3> tasmÃc chrutaæ mayÃ ce7daæ !kathitaæ ca tavÃ7n-agha !!12334.8!
+<12334.9/1> k­«ïa-dvaipÃyanaæ vyÃsaæ !viddhi nÃrÃyaïaæ prabhum !
+<12334.9/2> ko hy anya÷ puru«a-vyÃghra !mahÃ-bhÃrata-k­d bhavet !
+<12334.9/3> dharmÃn nÃnÃ-vidhÃæÓ cai7va !ko brÆyÃt tam ­te prabhum !!12334.9!
+<12334.10/1> vartatÃæ te mahÃ-yaj¤o !yathÃ saækalpitas tvayÃ !
+<12334.10/2> saækalpitÃ1Óva-medhas tvaæ !Óruta-dharmaÓ ca tattvata÷ !!12334.10!
+<12334.11/1> etat tu mahad ÃkhyÃnaæ !ÓrutvÃ pÃrik«ito n­-pa÷_2 !
+<12334.11/2> tato yaj¤a-samÃpty-arthaæ !kriyÃ÷ sarvÃ÷ samÃrabhat !!12334.11!
+<12334.12/1> nÃrÃyaïÅyam ÃkhyÃnam !etat te kathitaæ mayÃ !
+<12334.12/101> [X K1.2.4.6.7 V1 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2-5.7-9 T G1-3.6 Kumbh..ed. ins:: p­«Âena ÓaunakÃ7dye7ha !naimi«Ã1raïya-vÃsi«u !12334.12892! X]
+<12334.12/2> nÃradena purÃ rÃjan !gurave me niveditam !
+<12334.12/3> ­«ÅïÃæ pÃï¬avÃnÃæ ca !Ó­ïvato÷ k­«ïa-bhÅ«mayo÷ !!12334.12!
+<12334.13/1> sa hi parama-gurur bhuvana-patir !
+<12334.13/2> dharaïi-dhara÷ Óama-niyama-nidhi÷ !
+<12334.13/3> Óruti-vinaya-nidhir dvi-ja-parama-hitas !
+<12334.13/4> tava bhavatu gatir harir a-mara-hita÷ !!12334.13!
+<12334.14/1> tapasÃæ nidhi÷ su-mahatÃæ mahato !
+<12334.14/2> yaÓasaÓ ca bhÃjanam a-ri«Âaka-hÃ !
+<12334.14/3> ekÃ1ntinÃæ Óaraïa-do '-bhaya-do gati-do 'stu va÷ sa makha-bhÃga-haras tri-guïÃ1tiga÷ !!12334.14!
+<12334.15/1> catu«-pa¤ca-dhara÷ pÆrte1«ÂayoÓ ca phala-bhÃga-hara÷ !
+<12334.15/2> vidadhÃti nityam a-jito 'ti-balo !
+<12334.15/3> gatim Ãtma-gÃæ_1 su-k­tinÃm ­«iïÃm !!12334.15!
+<12334.16/1> taæ loka-sÃ1k«iïam a-jaæ puru«aæ !
+<12334.16/2> ravi-varïam ÅÓvara-gatiæ bahuÓa÷ !
+<12334.16/3> praïamadhvam eka-matayo yataya÷ !
+<12334.16/4> salilo1dbhavo 'pi tam ­«iæ praïata÷ !!12334.16!
+<12334.17/1> sa hi loka-yonir a-m­tasya padaæ !
+<12334.17/2> sÆk«maæ purÃïam a-calaæ paramam !
+<12334.17/3> tat sÃækhya-yogibhir udÃra-dh­taæ !
+<12334.17/4> buddhyÃ yatÃ3tmabhir viditaæ satatam !!12334.17!
+<12335.1/1> janam-ejaya uvÃca: Órutaæ bhagavatas tasya !mÃhÃtmyaæ paramÃ3tmana÷ !
+<12335.1/2> janma dharma-g­he cai7va !nara-nÃrÃyaïÃ3tmakam !
+<12335.1/3> mahÃ-varÃha-s­«ÂÃ ca !piï¬o1tpatti÷ purÃtanÅ !!12335.1!
+<12335.2/1> prav­ttau ca niv­ttau ca !yo yathÃ parikalpita÷ !
+<12335.2/2> sa tathÃ na÷ Óruto brahman !kathyamÃnas tvayÃ9n-agha !!12335.2!
+<12335.3/1> yac ca tat kathitaæ pÆrvaæ !tvayÃ haya-Óiro mahat !
+<12335.3/2> havya-kavya-bhujo vi«ïor !udak-pÆrve maho2da-dhau !
+<12335.3/3> tac ca d­«Âaæ bhagavatÃ !brahmaïÃ parame-«ÂhinÃ !!12335.3!
+<12335.4/1> kiæ tad utpÃditaæ pÆrvaæ !hariïÃ loka-dhÃriïÃ !
+<12335.4/2> rÆpaæ prabhÃva-mahatÃm !a-pÆrvaæ dhÅmatÃæ vara !!12335.4!
+<12335.5/1> d­«ÂvÃ hi vibudha-Óre«Âham !a-pÆrvam a-mitau1jasam !
+<12335.5/2> tad aÓva-Óirasaæ puïyaæ !brahmÃ kim akaron mune !!12335.5!
+<12335.6/1> etan na÷ saæÓayaæ brahman !purÃïa-j¤Ãna-saæbhavam !
+<12335.6/2> kathayasvo7ttama-mate !mahÃ-puru«a-nirmitam !
+<12335.6/3> pÃvitÃ÷ sma tvayÃ brahman !puïyÃæ kathayatÃ kathÃm !!12335.6!
+<12335.7/1> vaiÓaæpÃyana uvÃca: kathayi«yÃmi te sarvaæ !purÃïaæ veda-saæmitam !
+<12335.7/2> jagau yad bhagavÃn vyÃso !rÃj¤o dharma-sutasya vai !!12335.7!
+<12335.8/001> [X K7 D4.9 ins.:: tat te 'haæ saæpravak«yÃmi !sarvaæ tac ch­ïu Óaunaka !12335.7893! X]
+<12335.8/002> [X M5 ins. after 7:: k­«ïa-dvaipÃyanaæ vyÃsam !­«iæ veda-nidhiæ prabhum !
+<12335.8/003> X paripapraccha rÃje1ndra÷ !pÃrÅk«ita yudhi-«Âhira÷ !12335.7894! X]
+<12335.8/1> ÓrutvÃ9Óva-Óiraso mÆrtiæ !devasya hari-medhasa÷ !
+<12335.8/2> utpanna-saæÓayo rÃjÃ !tam eva samacodayat !!12335.8!
+<12335.9/1> yudhi-«Âhira uvÃca: yat tad darÓitavÃn brahmÃ !devaæ haya-Óiro-dharam !
+<12335.9/2> kim-arthaæ tat samabhavad !vapur devo1pakalpitam !!12335.9!
+<12335.10/1> vyÃsa uvÃca: yat kiæ-cid iha loke vai !deha-baddhaæ viÓÃæ pate !
+<12335.10/2> sarvaæ pa¤cabhir Ãvi«Âaæ !bhÆtair ÅÓvara-buddhi-jai÷ !!12335.10!
+<12335.11/1> ÅÓvaro hi jagat-sra«ÂÃ !prabhur nÃrÃyaïo virÃÂ !
+<12335.11/2> bhÆtÃ1ntar-ÃtmÃ vara-da÷ !sa-guïo nir-guïo 'pi ca !
+<12335.11/3> bhÆta-pralayam a-vyaktaæ !Ó­ïu«va n­-pa_2-sattama !!12335.11!
+<12335.12/1> dharaïyÃm atha lÅnÃyÃm !apsu cai7kÃ1rïave purÃ !
+<12335.12/2> jyotir-bhÆte jale cÃ7pi !lÅne jyoti«i cÃ7nile !!12335.12!
+<12335.13/1> vÃyau cÃ8kÃÓa-saælÅne !ÃkÃÓe ca mano-anuge !
+<12335.13/2> vyakte manasi saælÅne !vyakte cÃ7-vyaktatÃæ gate_1 !!12335.13!
+<12335.14/1> a-vyakte puru«aæ yÃte !puæsi sarva-gate_1 'pi ca !
+<12335.14/2> tama evÃ7bhavat sarvaæ !na prÃj¤Ãyata kiæ-cana !!12335.14!
+<12335.15/1> tamaso brahma saæbhÆtaæ !tamo-mÆlam ­tÃ3tmakam !
+<12335.15/2> tad viÓva-bhÃva-saæj¤Ã2ntaæ !pauru«Åæ tanum Ãsthitam !!12335.15!
+<12335.16/1> so '-niruddha iti proktas !tat pradhÃnaæ pracak«ate !
+<12335.16/2> tad a-vyaktam iti j¤eyaæ !tri-guïaæ n­-pa_2-sattama !!12335.16!
+<12335.17/1> vidyÃ-sahÃyavÃn devo !vi«vak-seno hari÷ prabhu÷ !
+<12335.17/101> [X Kumbh..ed. ins.:: Ãdi-karmÃ sa bhÆtÃnÃm !a-prameyo hari÷ prabhu÷ !12335.17895! X]
+<12335.17/2> apsv eva Óayanaæ cakre !nidrÃ-yogam upÃgata÷ !
+<12335.17/3> jagataÓ cintayan s­«Âiæ !citrÃæ bahu-guïo1dbhavÃm !!12335.17!
+<12335.18/1> tasya cintayata÷ s­«Âiæ !mahÃn Ãtma-guïa÷ sm­ta÷ !
+<12335.18/2> ahaæ-kÃras tato jÃto !brahmÃ Óubha-catur-mukha÷ !
+<12335.18/3> hiraïya-garbho bhagavÃn !sarva-loka-pitÃ-maha÷ !!12335.18!
+<12335.19/1> padme '-niruddhÃt saæbhÆtas !tadÃ padma-nibhe3k«aïa÷ !
+<12335.19/2> sahasra-patre dyutimÃn !upavi«Âa÷ sanÃtana÷ !!12335.19!
+<12335.20/1> dad­Óe 'dbhuta-saækÃÓe !lokÃn ÃpomayÃn prabhu÷ !
+<12335.20/2> sattva-stha÷ parame-«ÂhÅ sa !tato bhÆta-gaïÃn s­jat !!12335.20!
+<12335.21/1> pÆrvam eva ca padmasya !patre sÆryÃ1æÓu-sa-prabhe !
+<12335.21/2> nÃrÃyaïa-k­tau bindÆ !apÃm ÃstÃæ guïo1ttarau !!12335.21!
+<12335.22/1> tÃv apaÓyat sa bhagavÃn !an-Ãdi-nidhano '-cyuta÷ !
+<12335.22/2> ekas tatrÃ7bhavad bindur !madhv-Ãbho rucira-prabha÷ !!12335.22!
+<12335.23/1> sa tÃmaso madhur jÃtas !tadÃ nÃrÃyaïÃ3j¤ayÃ !
+<12335.23/2> kaÂhinas tv aparo bindu÷ !kaiÂabho rÃjasas tu sa÷ !!12335.23!
+<12335.24/1> tÃv abhyadhÃvatÃæ Óre«Âhau !tamo-raja-guïÃ1nvitau !
+<12335.24/2> balavantau gadÃ-hastau !padma-nÃlÃ1nusÃriïau !!12335.24!
+<12335.25/1> dad­ÓÃte 'ravinda-sthaæ !brahmÃïam a-mita-prabham !
+<12335.25/2> s­jantaæ prathamaæ vedÃæÓ !caturaÓ cÃru-vigrahÃn !!12335.25!
+<12335.26/1> tato vigrahavantau tau !vedÃn d­«ÂvÃ9suro1ttamau !
+<12335.26/2> sahasÃ jag­hatur vedÃn !brahmaïa÷ paÓyatas tadÃ !!12335.26!
+<12335.27/1> atha tau dÃnava-Óre«Âhau !vedÃn g­hya sanÃtanÃn !
+<12335.27/2> rasÃæ viviÓatus tÆrïam !udak-pÆrve maho2da-dhau !!12335.27!
+<12335.28/1> tato h­te«u vede«u !brahmÃ kaÓmalam ÃviÓat !
+<12335.28/2> tato vacanam ÅÓÃnaæ !prÃha vedair vinÃ-k­ta÷ !!12335.28!
+<12335.29/1> vedÃ me paramaæ cak«ur !vedÃ me paramaæ balam !
+<12335.29/2> vedÃ me paramaæ dhÃma !vedÃ me brahma co7ttamam !!12335.29!
+<12335.30/1> mama vedÃ h­tÃ÷ sarve !dÃnavÃbhyÃæ balÃd ita÷ !
+<12335.30/2> andha-kÃrÃ hi me lokÃ !jÃtÃ vedair vinÃ-k­tÃ÷ !
+<12335.30/3> vedÃn ­te hi kiæ kuryÃæ !lokÃn vai sra«Âum udyata÷ !!12335.30!
+<12335.31/1> aho bata mahad du÷khaæ !veda-nÃÓana-jaæ mama !
+<12335.31/2> prÃptaæ dunoti h­dayaæ !tÅvra-ÓokÃya randhayan !!12335.31!
+<12335.32/1> ko hi ÓokÃ1rïave magnaæ !mÃm ito 'dya samuddharet !
+<12335.32/2> vedÃæs tÃn Ãnayen na«ÂÃn !kasya cÃ7haæ priyo bhave !!12335.32!
+<12335.33/1> ity evaæ bhÃ«amÃïasya !brahmaïo n­-pa_2-sattama !
+<12335.33/2> hare÷ stotrÃ1rtham udbhÆtÃ !buddhir buddhimatÃæ vara !
+<12335.33/3> tato jagau paraæ japyaæ !sÃ1¤jali-pragraha÷ prabhu÷ !!12335.33!
+<12335.34/1> namas te brahma-h­daya !namas te mama pÆrva-ja !
+<12335.34/2> lokÃ3dya bhuvana-Óre«Âha !sÃækhya-yoga-nidhe vibho !!12335.34!
+<12335.35/1> vyaktÃ1-vyakta-karÃ7-cintya !k«emaæ panthÃnam Ãsthita !
+<12335.35/2> viÓva-bhuk sarva-bhÆtÃnÃm !antar-Ãtmann a-yoni-ja !!12335.35!
+<12335.36/1> ahaæ prasÃda-jas tubhyaæ !loka-dhÃmne svayaæ-bhuve !
+<12335.36/2> tvatto me mÃnasaæ janma !prathamaæ dvi-ja-pÆjitam !!12335.36!
+<12335.37/1> cÃk«u«aæ vai dvitÅyaæ me !janma cÃ8sÅt purÃtanam !
+<12335.37/2> tvat-prasÃdÃc ca me janma !t­tÅyaæ vÃcikaæ mahat !!12335.37!
+<12335.38/1> tvatta÷ Óravaïa-jaæ cÃ7pi !caturthaæ janma me vibho !
+<12335.38/2> nÃsikyaæ cÃ7pi me janma !tvatta÷ pa¤camam ucyate !!12335.38!
+<12335.39/1> aï¬a-jaæ cÃ7pi me janma !tvatta÷ «a«Âhaæ vinirmitam !
+<12335.39/2> idaæ ca saptamaæ janma !padma-jaæ me '-mita-prabha !!12335.39!
+<12335.40/1> sarge sarge hy ahaæ putras !tava tri-guïa-varjita÷ !
+<12335.40/2> prathita÷ puï¬arÅkÃ1k«a !pradhÃna-guïa-kalpita÷ !!12335.40!
+<12335.41/1> tvam ÅÓvara-sva-bhÃvaÓ ca !svayaæ-bhÆ÷ puru«o1ttama÷ !
+<12335.41/2> tvayÃ vinirmito 'haæ vai !veda-cak«ur vayo-atiga÷ !!12335.41!
+<12335.42/1> te me vedÃ h­tÃÓ cak«ur !andho jÃto 'smi jÃg­hi !
+<12335.42/2> dadasva cak«u«Å mahyaæ !priyo 'haæ te priyo 'si me !!12335.42!
+<12335.43/1> evaæ stuta÷ sa bhagavÃn !puru«a÷ sarvato-mukha÷ !
+<12335.43/2> jahau nidrÃm atha tadÃ !veda-kÃryÃ1rtham udyata÷ !
+<12335.43/3> aiÓvareïa prayogeïa !dvitÅyÃæ tanum Ãsthita÷ !!12335.43!
+<12335.44/1> su-nÃsikena kÃyena !bhÆtvÃ candra-prabhas tadÃ !
+<12335.44/2> k­tvÃ haya-Óira÷ Óubhraæ !vedÃnÃm Ãlayaæ prabhu÷ !!12335.44!
+<12335.45/1> tasya mÆrdhÃ samabhavad !dyau÷ sa-nak«atra-tÃrakÃ !
+<12335.45/2> keÓÃÓ cÃ7syÃ7bhavan dÅrghÃ !raver aæÓu-sama-prabhÃ÷ !!12335.45!
+<12335.46/1> karïÃv ÃkÃÓa-pÃtÃle !lalÃÂaæ bhÆta-dhÃriïÅ !
+<12335.46/2> gaÇgÃ sarasvatÅ puïyÃ !bhruvÃv ÃstÃæ mahÃ-nadÅ !!12335.46!
+<12335.47/1> cak«u«Å soma-sÆryau te !nÃsÃ saædhyÃ puna÷ sm­tÃ !
+<12335.47/2> oæ-kÃras tv atha saæskÃro !vidyuj jihvÃ ca nirmitÃ !!12335.47!
+<12335.48/1> dantÃÓ ca pitaro rÃjan !soma-pÃ iti viÓrutÃ÷ !
+<12335.48/2> go-loko brahma-lokaÓ ca !o«ÂhÃv ÃstÃæ mahÃ4tmana÷ !
+<12335.48/3> grÅvÃ cÃ7syÃ7bhavad rÃjan !kÃla-rÃtrir guïo1ttarÃ !!12335.48!
+<12335.49/1> etad dhaya-Óira÷ k­tvÃ !nÃnÃ-mÆrtibhir Ãv­tam !
+<12335.49/2> antardadhe sa viÓve3Óo !viveÓa ca rasÃæ prabhu÷ !!12335.49!
+<12335.50/1> rasÃæ puna÷ pravi«ÂaÓ ca !yogaæ paramam Ãsthita÷ !
+<12335.50/2> Óaik«aæ svaraæ samÃsthÃya !om iti prÃs­jat svaram !!12335.50!
+<12335.51/1> sa svara÷ sÃ1nunÃdÅ ca !sarva-ga÷_1 snigdha eva ca !
+<12335.51/2> babhÆvÃ7ntar-mahÅ-bhÆta÷ !sarva-bhÆta-guïo1dita÷ !!12335.51!
+<12335.52/1> tatas tÃv asurau k­tvÃ !vedÃn samaya-bandhanÃn !
+<12335.52/2> rasÃ-tale vinik«ipya !yata÷ Óabdas tato drutau !!12335.52!
+<12335.53/1> etasminn antare rÃjan !devo haya-Óiro-dhara÷ !
+<12335.53/2> jagrÃha vedÃn a-khilÃn !rasÃ-tala-gatÃn hari÷ !
+<12335.53/3> prÃdÃc ca brahmaïe bhÆyas !tata÷ svÃæ prak­tiæ gata÷ !!12335.53!
+<12335.54/1> sthÃpayitvÃ haya-Óira !udak-pÆrve maho2da-dhau !
+<12335.54/2> vedÃnÃm ÃlayaÓ cÃ7pi !babhÆvÃ7Óva-ÓirÃs tata÷ !!12335.54!
+<12335.55/1> atha kiæ-cid a-paÓyantau !dÃnavau madhu-kaiÂabhau !
+<12335.55/2> punar Ãjagmatus tatra !vegitau paÓyatÃæ ca tau !
+<12335.55/3> yatra vedÃ vinik«iptÃs !tat sthÃnaæ ÓÆnyam eva ca !!12335.55!
+<12335.56/1> tata uttamam ÃsthÃya !vegaæ balavatÃæ varau !
+<12335.56/2> punar uttasthatu÷ ÓÅghraæ !rasÃnÃm ÃlayÃt tadÃ !
+<12335.56/3> dad­ÓÃte ca puru«aæ !tam evÃ8di-karaæ prabhum !!12335.56!
+<12335.57/1> Óvetaæ candra-viÓuddhÃ3bham !a-niruddha-tanau sthitam !
+<12335.57/2> bhÆyo 'py a-mita-vikrÃntaæ !nidrÃ-yogam upÃgatam !!12335.57!
+<12335.58/1> Ãtma-pramÃïa-racite !apÃm upari kalpite !
+<12335.58/2> Óayane nÃga-bhogÃ3¬hye !jvÃlÃ-mÃlÃ-samÃv­te !!12335.58!
+<12335.59/1> ni«-kalma«eïa sattvena !saæpannaæ rucira-prabham !
+<12335.59/2> taæ d­«ÂvÃ dÃnave1ndrau tau !mahÃ-hÃsam amu¤catÃm !!12335.59!
+<12335.60/1> ÆcatuÓ ca samÃvi«Âau !rajasÃ tamasÃ ca tau !
+<12335.60/2> ayaæ sa puru«a÷ Óveta÷ !Óete nidrÃm upÃgata÷ !!12335.60!
+<12335.61/1> anena nÆnaæ vedÃnÃæ !k­tam Ãharaïaæ rasÃt !
+<12335.61/2> kasyai7«a ko nu khalv e«a !kiæ ca svapiti bhogavÃn !!12335.61!
+<12335.62/1> ity uccÃrita-vÃkyau tau !bodhayÃm Ãsatur harim !
+<12335.62/2> yuddhÃ1rthinau tu vij¤Ãya !vibuddha÷ puru«o1ttama÷ !!12335.62!
+<12335.63/1> nirÅk«ya cÃ7sure1ndrau tau !tato yuddhe mano dadhe !
+<12335.63/101> [X T1 G3.6 ins.:: vibuddha÷ su-mahÃ-tejÃ !yodhayÃm Ãsa tÃv ubhau !12335.63896! X]
+<12335.63/2> atha yuddhaæ samabhavat !tayor nÃrÃyaïasya ca !!12335.63!
+<12335.64/1> rajas-tamo-vi«Âa-tanÆ !tÃv ubhau madhu-kaiÂabhau !
+<12335.64/2> brahmaïo9pacitiæ kurva¤ !jaghÃna madhu-sÆdana÷ !!12335.64!
+<12335.65/1> tatas tayor vadhenÃ8Óu !vedÃ1paharaïena ca !
+<12335.65/2> ÓokÃ1panayanaæ cakre !brahmaïa÷ puru«o1ttama÷ !!12335.65!
+<12335.66/1> tata÷ pariv­to brahmÃ !hatÃ1rir veda-sat-k­ta÷ !
+<12335.66/2> nirmame sa tadÃ lokÃn !k­tsnÃn sthÃvara-jaÇgamÃn !!12335.66!
+<12335.67/1> dattvÃ pitÃ-mahÃyÃ7gryÃæ !buddhiæ loka-visargikÅm !
+<12335.67/2> tatrai7vÃ7ntardadhe devo !yata evÃ8gato hari÷ !!12335.67!
+<12335.68/1> tau dÃnavau harir hatvÃ !k­tvÃ haya-Óiras tanum !
+<12335.68/2> puna÷ prav­tti-dharmÃ1rthaæ !tÃm eva vidadhe tanum !!12335.68!
+<12335.69/001> [X M5 ins.:: vaiÓaæpÃyana uvÃca: evaæ sa bhagavÃn vyÃso !guru mama viÓÃæ pate !
+<12335.69/002> X kathayÃm Ãsa dharma-j¤o !dharma-rÃj¤e dvi-jo1ttama÷ !12335.68897! X]
+<12335.69/1> evam e«a mahÃ-bhÃgo !babhÆvÃ7Óva-ÓirÃ hari÷ !
+<12335.69/2> paurÃïam etad ÃkhyÃtaæ !rÆpaæ vara-daæ aiÓvaram !!12335.69!
+<12335.70/1> yo hy etad brÃhmaïo nityaæ !Ó­ïuyÃd dhÃrayeta vÃ !
+<12335.70/2> na tasyÃ7dhyayanaæ nÃÓam !upagacchet kadÃ-cana !!12335.70!
+<12335.71/1> ÃrÃdhya tapaso9greïa !devaæ haya-Óiro-dharam !
+<12335.71/2> pÃ¤cÃlena krama÷ prÃpto !rÃmeïa pathi deÓite !!12335.71!
+<12335.72/1> etad dhaya-Óiro rÃjann !ÃkhyÃnaæ tava kÅrtitam !
+<12335.72/2> purÃïaæ veda-samitaæ !yan mÃæ tvaæ parip­cchasi !!12335.72!
+<12335.73/1> yÃæ yÃm icchet tanuæ deva÷ !kartuæ kÃrya-vidhau kva-cit !
+<12335.73/2> tÃæ tÃæ kuryÃd vikurvÃïa÷ !svayam ÃtmÃnam ÃtmanÃ !!12335.73!
+<12335.74/1> e«a veda-nidhi÷ ÓrÅmÃn !e«a vai tapaso nidhi÷ !
+<12335.74/2> e«a yogaÓ ca sÃækhyaæ ca !brahma cÃ7gryaæ harir vibhu÷ !!12335.74!
+<12335.75/1> nÃrÃyaïa-parÃ vedÃ !yaj¤Ã nÃrÃyaïÃ3tmakÃ÷ !
+<12335.75/2> tapo nÃrÃyaïa-paraæ !nÃrÃyaïa-parÃ gati÷ !!12335.75!
+<12335.76/1> nÃrÃyaïa-paraæ satyam !­taæ nÃrÃyaïÃ3tmakam !
+<12335.76/2> nÃrÃyaïa-paro dharma÷ !punar-Ãv­tti-dur-labha÷ !!12335.76!
+<12335.77/1> prav­tti-lak«aïaÓ cai7va !dharmo nÃrÃyaïÃ3tmaka÷ !
+<12335.77/2> nÃrÃyaïÃ3tmako gandho !bhÆmau Óre«Âhatama÷ sm­ta÷ !!12335.77!
+<12335.78/1> apÃæ cai7va guïo rÃjan !raso nÃrÃyaïÃ3tmaka÷ !
+<12335.78/2> jyoti«Ãæ ca guïo rÆpaæ !sm­taæ nÃrÃyaïÃ3tmakam !!12335.78!
+<12335.79/1> nÃrÃyaïÃ3tmakaÓ cÃ7pi !sparÓo vÃyu-guïa÷ sm­ta÷ !
+<12335.79/2> nÃrÃyaïÃ3tmakaÓ cÃ7pi !Óabda ÃkÃÓa-saæbhava÷ !!12335.79!
+<12335.80/1> manaÓ cÃ7pi tato bhÆtam !a-vyakta-guïa-lak«aïam !
+<12335.80/2> nÃrÃyaïa-para÷ kÃlo !jyoti«Ãm ayanaæ ca yat !!12335.80!
+<12335.81/1> nÃrÃyaïa-parÃ kÅrti÷ !ÓrÅÓ ca lak«mÅÓ ca devatÃ÷ !
+<12335.81/2> nÃrÃyaïa-paraæ sÃækhyaæ !yogo nÃrÃyaïÃ3tmaka÷ !!12335.81!
+<12335.82/1> kÃraïaæ puru«o ye«Ãæ !pradhÃnaæ cÃ7pi kÃraïam !
+<12335.82/2> sva-bhÃvaÓ cai7va karmÃïi !daivaæ ye«Ãæ ca kÃraïam !!12335.82!
+<12335.83/001> [X K7 Dn1.ï4 Ds D2-5.8.9 Cs Kumbh..ed. ins.:: adhi«ÂhÃnaæ tathÃ kartÃ !karaïaæ ca p­thag-vidham !
+<12335.83/002> X vi-vidhÃ ca tathÃ ce«ÂÃ !daivaæ cai7vÃ7tra pa¤camam !12335.82898! X]
+<12335.83/1> pa¤ca-kÃraïa-saækhyÃto !ni«ÂhÃ sarvatra vai hari÷ !
+<12335.83/2> tattvaæ jij¤ÃsamÃnÃnÃæ !hetubhi÷ sarvato-mukhai÷ !!12335.83!
+<12335.84/1> tattvam eko mahÃ-yogÅ !harir nÃrÃyaïa÷ prabhu÷ !
+<12335.84/2> sa-brahmakÃnÃæ lokÃnÃm !­«ÅïÃæ ca mahÃ4tmanÃm !!12335.84!
+<12335.85/1> sÃækhyÃnÃæ yoginÃæ cÃ7pi !yatÅnÃm Ãtma-vedinÃm !
+<12335.85/2> manÅ«itaæ vijÃnÃti !keÓavo na tu tasya te !!12335.85!
+<12335.86/1> ye ke-cit sarva-loke«u !daivaæ pitryaæ ca kurvate !
+<12335.86/2> dÃnÃni ca prayacchanti !tapyanti ca tapo mahat !!12335.86!
+<12335.87/1> sarve«Ãm ÃÓrayo vi«ïur !aiÓvaraæ vidhim Ãsthita÷ !
+<12335.87/2> sarva-bhÆta-k­tÃ3vÃso !vÃsudeve7ti co7cyate !!12335.87!
+<12335.88/1> ayaæ hi nitya÷ paramo mahar2«ir !
+<12335.88/2> mahÃ-vibhÆtir guïavÃn nir-guïÃ3khya÷ !
+<12335.88/3> guïaiÓ ca saæyogam upaiti ÓÅghraæ !
+<12335.88/4> kÃlo yathar2tÃv ­tu-saæprayukta÷ !!12335.88!
+<12335.89/1> nai7vÃ7sya vindanti gatiæ mahÃ4tmano !
+<12335.89/2> na cÃ8gatiæ kaÓ-cid ihÃ7nupaÓyati !
+<12335.89/3> j¤ÃnÃ3tmakÃ÷ saæyamino mahar2«aya÷ !
+<12335.89/4> paÓyanti nityaæ puru«aæ guïÃ1dhikam !!12335.89!
+<12336.1/1> janam-ejaya uvÃca: aho hy ekÃ1ntina÷ sarvÃn !prÅïÃti bhagavÃn hari÷ !
+<12336.1/2> vidhi-prayuktÃæ pÆjÃæ ca !g­hïÃti bhagavÃn svayam !!12336.1!
+<12336.2/1> ye tu dagdhe1ndhanÃ loke !puïya-pÃpa-vivarjitÃ÷ !
+<12336.2/2> te«Ãæ tvayÃ9bhinirdi«ÂÃ !pÃraæparyÃ3gatÃ gati÷ !!12336.2!
+<12336.3/1> caturthyÃæ cai7va te gatyÃæ !gacchanti puru«o1ttamam !
+<12336.3/2> ekÃ1ntinas tu puru«Ã !gachanti paramaæ padam !!12336.3!
+<12336.4/1> nÆnam ekÃ1nta-dharmo 'yaæ !Óre«Âho nÃrÃyaïa-priya÷ !
+<12336.4/2> a-gatvÃ gatayas tisro !yad gacchanty a-vyayaæ harim !!12336.4!
+<12336.5/1> saho1pani«adÃn vedÃn !ye viprÃ÷ samyag ÃsthitÃ÷ !
+<12336.5/2> paÂhanti vidhim ÃsthÃya !ye cÃ7pi yati-dharmiïa÷ !!12336.5!
+<12336.6/1> tebhyo viÓi«ÂÃæ jÃnÃmi !gatim ekÃ1ntinÃæ n­ïÃm !
+<12336.6/2> kenai7«a dharma÷ kathito !devena ­«iïÃ9pi vÃ !!12336.6!
+<12336.7/1> ekÃ1ntinÃæ ca kÃ caryÃ !kadÃ co7tpÃditÃ vibho !
+<12336.7/2> etan me saæÓayaæ chindhi !paraæ kautÆhalaæ hi me !!12336.7!
+<12336.8/1> vaiÓaæpÃyana uvÃca: samupo¬he«v anÅke«u !kuru-pÃï¬avayor m­dhe !
+<12336.8/2> arjune vi-manaske ca !gÅtÃ bhagavatÃ svayam !!12336.8!
+<12336.9/1> ÃgatiÓ ca gatiÓ cai7va !pÆrvaæ te kathitÃ mayÃ !
+<12336.9/2> gahano hy e«a dharmo vai !dur-vij¤eyo '-k­tÃ3tmabhi÷ !!12336.9!
+<12336.10/1> saæmita÷ sÃma-vedena !purai9vÃ8di-yuge k­ta÷ !
+<12336.10/2> dhÃryate svayam ÅÓena !rÃjan nÃrÃyaïena ha !!12336.10!
+<12336.11/1> etam arthaæ mahÃ-rÃja !p­«Âa÷ pÃrthena nÃrada÷ !
+<12336.11/2> ­«i-madhye mahÃ-bhÃga÷ !Ó­ïvato÷ k­«ïa-bhÅ«mayo÷ !!12336.11!
+<12336.12/1> guruïÃ ca mamÃ7py e«a !kathito n­-pa_2-sattama !
+<12336.12/2> yathÃ tu kathitas tatra !nÃradena tathÃ Ó­ïu !!12336.12!
+<12336.13/1> yadÃ0sÅn mÃnasaæ janma !nÃrÃyaïa-mukho1dgatam !
+<12336.13/2> brahmaïa÷ p­thivÅ-pÃla !tadÃ nÃrÃyaïa÷ svayam !
+<12336.13/3> tena dharmeïa k­tavÃn !daivaæ pitryaæ ca bhÃrata !!12336.13!
+<12336.14/1> phena-pÃ_1 ­«ayaÓ cai7va !taæ dharmaæ pratipedire !
+<12336.14/2> vaikhÃnasÃ÷ phena-pebhyo_1 !dharmam etaæ prapedire !
+<12336.14/3> vaikhÃnasebhya÷ somas tu !tata÷ so 'ntardadhe puna÷ !!12336.14!
+<12336.15/1> yadÃ0sÅc cÃk«u«aæ janma !dvitÅyaæ brahmaïo n­-pa_2 !
+<12336.15/2> tadÃ pitÃ-mahÃt somÃd !etaæ dharmam ajÃnata !
+<12336.15/3> nÃrÃyaïÃ3tmakaæ rÃjan !rudrÃya pradadau ca sa÷ !!12336.15!
+<12336.16/1> tato yoga-sthito rudra÷ !purÃ k­ta-yuge n­-pa_2 !
+<12336.16/2> vÃlakhilyÃn ­«Ån sarvÃn !dharmam etam apÃÂhayat !
+<12336.16/3> antardadhe tato bhÆyas !tasya devasya mÃyayÃ !!12336.16!
+<12336.17/001> [X K7 D4.9 ins.:: vÃlakhilyÃ mahÃ4tmÃno !dharmÃya pradaduÓ ca tam !12336.16899! X]
+<12336.17/1> t­tÅyaæ brahmaïo janma !yadÃ0sÅd vÃcikaæ mahat !
+<12336.17/2> tatrai7«a dharma÷ saæbhÆta÷ !svayaæ nÃrÃyaïÃn n­-pa_2 !!12336.17!
+<12336.18/1> su-parïo nÃma tam ­«i÷ !prÃptavÃn puru«o1ttamÃt !
+<12336.18/2> tapasÃ vai su-taptena !damena niyamena ca !!12336.18!
+<12336.19/1> tri÷ parikrÃntavÃn etat !su-parïo dharmam uttamam !
+<12336.19/2> yasmÃt tasmÃd vrataæ hy etat !tri-sauparïam iho7cyate !!12336.19!
+<12336.20/1> ­g-veda-pÃÂha-paÂhitaæ !vratam etad dhi duÓ-caram !
+<12336.20/2> su-parïÃc cÃ7py adhigato !dharma e«a sanÃtana÷ !!12336.20!
+<12336.21/1> vÃyunÃ dvi-padÃæ Óre«Âha !prathito jagad Ãyu«Ã !
+<12336.21/2> vÃyo÷ sa-kÃÓÃt prÃptaÓ ca !­«ibhir vighasÃ3Óibhi÷ !!12336.21!
+<12336.22/1> tebhyo maho2da-dhiÓ cai7naæ !prÃptavÃn dharmam uttamam !
+<12336.22/2> tata÷ so 'ntardadhe bhÆyo !nÃrÃyaïa-samÃhita÷ !!12336.22!
+<12336.23/1> yadÃ bhÆya÷ Óravaïa-jÃ !s­«Âir ÃsÅn mahÃ4tmana÷ !
+<12336.23/2> brahmaïa÷ puru«a-vyÃghra !tatra kÅrtayata÷ Ó­ïu !!12336.23!
+<12336.24/1> jagat sra«Âu-manÃ devo !harir nÃrÃyaïa÷ svayam !
+<12336.24/2> cintayÃm Ãsa puru«aæ !jagat sarga-karaæ prabhu÷ !!12336.24!
+<12336.25/1> atha cintayatas tasya !karïÃbhyÃæ puru«a÷ s­ta÷ !
+<12336.25/2> prajÃ-sarga-karo brahmÃ !tam uvÃca jagat-pati÷ !!12336.25!
+<12336.26/1> s­ja prajÃ÷ putra sarvÃ !mukhata÷ pÃdatas tathÃ !
+<12336.26/2> Óreyas tava vidhÃsyÃmi !balaæ tejaÓ ca su-vrata !!12336.26!
+<12336.27/1> dharmaæ ca matto g­hïÅ«va !sÃtvataæ nÃma nÃmata÷ !
+<12336.27/2> tena sarvaæ k­ta-yugaæ !sthÃpayasva yathÃ-vidhi !!12336.27!
+<12336.28/1> tato brahmÃ namaÓ cakre !devÃya hari-medhase !
+<12336.28/2> dharmaæ cÃ7gryaæ sa jagrÃha !sa-rahasyaæ sa-saægraham !
+<12336.28/3> Ãraïyakena sahitaæ !nÃrÃyaïa-mukho1dgatam !!12336.28!
+<12336.29/1> upadiÓya tato dharmaæ !brahmaïe '-mita-tejase !
+<12336.29/2> taæ kÃrtayuga-dharmÃïaæ !nir-ÃÓÅ÷-karma-saæj¤itam !
+<12336.29/3> jagÃma tamasa÷ pÃraæ !yatrÃ7-vyaktaæ vyavasthitam !!12336.29!
+<12336.30/1> tato 'tha vara-do devo !brahma-loka-pitÃ-maha÷ !
+<12336.30/2> as­jat sa tadÃ lokÃn !k­tsnÃn sthÃvara-jaÇgamÃn !!12336.30!
+<12336.31/1> tata÷ prÃvartata tadÃ !Ãdau k­ta-yugaæ Óubham !
+<12336.31/2> tato hi sÃtvato dharmo !vyÃpya lokÃn avasthita÷ !!12336.31!
+<12336.32/1> tenai7vÃ8dyena dharmeïa !brahmÃ loka-visarga-k­t !
+<12336.32/2> pÆjayÃm Ãsa deve3Óaæ !hariæ nÃrÃyaïaæ prabhum !!12336.32!
+<12336.33/1> dharma-prati«ÂhÃ-hetoÓ ca !manuæ svÃroci«aæ tata÷ !
+<12336.33/2> adhyÃpayÃm Ãsa tadÃ !lokÃnÃæ hita-kÃmyayÃ !!12336.33!
+<12336.34/1> tata÷ svÃroci«a÷ putraæ !vayaæ ÓaÇkha-padaæ n­-pa_2 !
+<12336.34/2> adhyÃpayat purÃ9-vy-agra÷ !sarva-loka-patir vibhu÷ !!12336.34!
+<12336.35/1> tata÷ ÓaÇkha-padaÓ cÃ7pi !putram Ãtma-jam aurasam !
+<12336.35/2> diÓÃ-pÃlaæ su-dharmÃïam !adhyÃpayata bhÃrata !
+<12336.35/3> tata÷ so 'ntardadhe bhÆya÷ !prÃpte tretÃ-yuge puna÷ !!12336.35!
+<12336.36/1> nÃsikya-janmani purÃ !brahmaïa÷ pÃrthivo1ttama !
+<12336.36/2> dharmam etaæ svayaæ devo !harir nÃrÃyaïa÷ prabhu÷ !
+<12336.36/3> ujjagÃrÃ7ravindÃ1k«o !brahmaïa÷ paÓyatas tadÃ !!12336.36!
+<12336.37/1> sanat-kumÃro bhagavÃæs !tata÷ prÃdhÅtavÃn n­-pa_2 !
+<12336.37/2> sanat-kumÃrÃd api ca !vÅraïo vai prajÃ-pati÷ !
+<12336.37/3> k­tÃ3dau kuru-ÓÃrdÆla !dharmam etam adhÅtavÃn !!12336.37!
+<12336.38/1> vÅraïaÓ cÃ7py adhÅtyai7naæ !raucyÃya manave dadau !
+<12336.38/2> raucya÷ putrÃya ÓuddhÃya !su-vratÃya su-medhase !!12336.38!
+<12336.39/1> kuk«i-nÃmne 'tha pradadau !diÓÃæ pÃlÃya dharmiïe !
+<12336.39/2> tata÷ so 'ntardadhe bhÆyo !nÃrÃyaïa-mukho1dgata÷ !!12336.39!
+<12336.40/1> aï¬a-je janmani punar !brahmaïe hari-yonaye !
+<12336.40/2> e«a dharma÷ samudbhÆto !nÃrÃyaïa-mukhÃt puna÷ !!12336.40!
+<12336.41/1> g­hÅto brahmaïÃ rÃjan !prayuktaÓ ca yathÃ-vidhi !
+<12336.41/2> adhyÃpitÃÓ ca munayo !nÃmnÃ barhi-«ado n­-pa_2 !!12336.41!
+<12336.42/1> barhi-«adbhyaÓ ca saækrÃnta÷ !sÃma-vedÃ1nta-gaæ_1 dvi-jam !
+<12336.42/2> jye«Âhaæ nÃmnÃ9bhivikhyÃtaæ !jye«Âha-sÃma-vrato hari÷ !!12336.42!
+<12336.43/1> jye«ÂhÃc cÃ7py anusaækrÃnto !rÃjÃnam a-vikampanam !
+<12336.43/2> antardadhe tato rÃjann !e«a dharma÷ prabhor hare÷ !!12336.43!
+<12336.44/1> yad idaæ saptamaæ janma !padma-jaæ brahmaïo n­-pa_2 !
+<12336.44/2> tatrai7«a dharma÷ kathita÷ !svayaæ nÃrÃyaïena hi !!12336.44!
+<12336.45/1> pitÃ-mahÃya ÓuddhÃya !yugÃ3dau loka-dhÃriïe !
+<12336.45/2> pitÃ-mahaÓ ca dak«Ãya !dharmam etaæ purÃ dadau !!12336.45!
+<12336.46/1> tato jye«Âhe tu dauhitre !prÃdÃd dak«o n­-pa_2-uttama !
+<12336.46/2> Ãditye savitur jye«Âhe !vivasvÃ¤ jag­he tata÷ !!12336.46!
+<12336.47/1> tretÃ-yugÃ3dau ca punar !vivasvÃn manave dadau !
+<12336.47/2> manuÓ ca loka-bhÆty-arthaæ !sutÃye7k«vÃkave dadau !!12336.47!
+<12336.48/1> ik«vÃkuïÃ ca kathito !vyÃpya lokÃn avasthita÷ !
+<12336.48/2> gami«yati k«ayÃ1nte ca !punar nÃrÃyaïaæ n­-pa_2 !!12336.48!
+<12336.49/1> vratinÃæ cÃ7pi yo dharma÷ !sa te pÆrvaæ n­-pa_2-uttama !
+<12336.49/2> kathito hari-gÅtÃsu !samÃsa-vidhi-kalpita÷ !!12336.49!
+<12336.50/1> nÃradena tu saæprÃpta÷ !sa-rahasya÷ sa-saægraha÷ !
+<12336.50/2> e«a dharmo jagan-nÃthÃt !sÃ1k«Ãn nÃrÃyaïÃn n­-pa_2 !!12336.50!
+<12336.51/1> evam e«a mahÃn dharma !Ãdyo rÃjan sanÃtana÷ !
+<12336.51/2> dur-vij¤eyo du«-karaÓ ca !sÃtvatair dhÃryate sadÃ !!12336.51!
+<12336.52/1> dharma-j¤Ãnena cai7tena !su-prayuktena karmaïÃ !
+<12336.52/2> a-hiæsÃ-dharma-yuktena !prÅyate harir ÅÓvara÷ !!12336.52!
+<12336.53/1> eka-vyÆha-vibhÃgo vÃ !kva-cid dvi-vyÆha-saæj¤ita÷ !
+<12336.53/2> tri-vyÆhaÓ cÃ7pi saækhyÃtaÓ !catur-vyÆhaÓ ca d­Óyate !!12336.53!
+<12336.54/1> harir eva hi k«etra-j¤o !nir-mamo ni«-kalas tathÃ !
+<12336.54/2> jÅvaÓ ca sarva-bhÆte«u !pa¤ca-bhÆta-guïÃ1tiga÷ !!12336.54!
+<12336.55/1> manaÓ ca prathitaæ rÃjan !pa¤ce1ndriya-samÅraïam !
+<12336.55/2> e«a loka-nidhir dhÅmÃn !e«a loka-visarga-k­t !!12336.55!
+<12336.56/1> a-kartÃ cai7va kartÃ ca !kÃryaæ kÃraïam eva ca !
+<12336.56/2> yathe9cchati tathÃ rÃjan !krÅ¬ate puru«o '-vyaya÷ !!12336.56!
+<12336.57/1> e«a ekÃ1nti-dharmas te !kÅrtito n­-pa_2-sattama !
+<12336.57/2> mayÃ guru-prasÃdena !dur-vij¤eyo '-k­tÃ3tmabhi÷ !
+<12336.57/3> ekÃ1ntino hi puru«Ã !dur-labhÃ bahavo n­-pa_2 !!12336.57!
+<12336.58/1> yady ekÃ1ntibhir ÃkÅrïaæ !jagat syÃt kuru-nandana !
+<12336.58/2> a-hiæsakair Ãtma-vidbhi÷ !sarva-bhÆta-hite ratai÷ !
+<12336.58/3> bhavet k­ta-yuga-prÃptir !ÃÓÅ÷-karma-vivarjitai÷ !!12336.58!
+<12336.59/1> evaæ sa bhagavÃn vyÃso !gurur mama viÓÃæ pate !
+<12336.59/2> kathayÃm Ãsa dharma-j¤o !dharma-rÃj¤e dvi-jo1ttama÷ !!12336.59!
+<12336.60/1> ­«ÅïÃæ saænidhau rÃja¤ !Ó­ïvato÷ k­«ïa-bhÅ«mayo÷ !
+<12336.60/2> tasyÃ7py akathayat pÆrvaæ !nÃrada÷ su-mahÃ-tapÃ÷ !!12336.60!
+<12336.61/1> devaæ paramakaæ brahma !Óvetaæ candrÃ3bham a-cyutam !
+<12336.61/2> yatra cai7kÃ1ntino yÃnti !nÃrÃyaïa-parÃ1yaïÃ÷ !!12336.61!
+<12336.62/001> [X T1 G3.6 ins.:: tad eva kevalaæ sthÃnaæ !muktÃnÃæ paramaæ bhavet !12336.61900! X]
+<12336.62/1> janam-ejaya uvÃca: evaæ bahu-vidhaæ dharmaæ !pratibuddhair ni«evitam !
+<12336.62/2> na kurvanti kathaæ viprÃ !anye nÃnÃ-vrate sthitÃ÷ !!12336.62!
+<12336.63/1> vaiÓaæpÃyana uvÃca: tisra÷ prak­tayo rÃjan !deha-bandhe«u nirmitÃ÷ !
+<12336.63/2> sÃttvikÅ rÃjasÅ cai7va !tÃmasÅ ce7ti bhÃrata !!12336.63!
+<12336.64/1> deha-bandhe«u puru«a÷ !Óre«Âha÷ kuru-kulo1dvaha !
+<12336.64/2> sÃttvika÷ puru«a-vyÃghra !bhaven mok«Ã1rtha-niÓcita÷ !!12336.64!
+<12336.65/1> atrÃ7pi sa vijÃnÃti !puru«aæ brahma-vartinam !
+<12336.65/2> nÃrÃyaïa-paro mok«as !tato vai sÃttvika÷ sm­ta÷ !!12336.65!
+<12336.66/1> manÅ«itaæ ca prÃpnoti !cintayan puru«o1ttamam !
+<12336.66/2> ekÃ1nta-bhakti÷ satataæ !nÃrÃyaïa-parÃ1yaïa÷ !!12336.66!
+<12336.67/1> manÅ«iïo hi ye ke-cid !yatayo mok«a-kÃÇk«iïa÷ !
+<12336.67/2> te«Ãæ vai chinna-t­«ïÃnÃæ !yoga-k«ema-vaho hari÷ !!12336.67!
+<12336.68/1> jÃyamÃnaæ hi puru«aæ !yaæ paÓyen madhu-sÆdana÷ !
+<12336.68/2> sÃttvikas tu sa vij¤eyo !bhaven mok«e ca niÓcita÷ !!12336.68!
+<12336.69/1> sÃækhya-yogena tulyo hi !dharma ekÃ1nta-sevita÷ !
+<12336.69/2> nÃrÃyaïÃ3tmake mok«e !tato yÃnti parÃæ gatim !!12336.69!
+<12336.70/1> nÃrÃyaïena d­«ÂaÓ ca !pratibuddho bhavet pumÃn !
+<12336.70/2> evam Ãtme1cchayÃ rÃjan !pratibuddho na jÃyate !!12336.70!
+<12336.71/1> rÃjasÅ tÃmasÅ cai7va !vyÃmiÓre prak­tÅ sm­te !
+<12336.71/2> tad-Ãtmakaæ hi puru«aæ !jÃyamÃnaæ viÓÃæ pate !
+<12336.71/3> prav­tti-lak«aïair yuktaæ !nÃ7vek«ati hari÷ svayam !!12336.71!
+<12336.72/1> paÓyaty enaæ jÃyamÃnaæ !brahmÃ loka-pitÃ-maha÷ !
+<12336.72/2> rajasÃ tamasÃ cai7va !mÃnu«aæ samabhiplutam !!12336.72!
+<12336.73/1> kÃmaæ devÃÓ ca ­«aya÷ !sattva-sthÃ n­-pa_2-sattama !
+<12336.73/2> hÅnÃ÷ sattvena sÆk«meïa !tato vaikÃrikÃ÷ sm­tÃ÷ !!12336.73!
+<12336.74/1> janam-ejaya uvÃca: kathaæ vaikÃriko gacchet !puru«a÷ puru«o1ttamam !!12336.74!
+<12336.75/001> [X K1.2.4.6 V1 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2-5.7-9 editions ins.:: vada sarvaæ yathÃ-d­«Âaæ !prav­ttiæ ca yathÃ-kramam !12336.74901! X]
+<12336.75/1> vaiÓaæpÃyana uvÃca: su-sÆk«ma-sattva-saæyuktaæ !saæyuktaæ tribhir a-k«arai÷ !
+<12336.75/2> puru«a÷ puru«aæ gacchen !ni«-kriya÷ pa¤ca-viæÓakam !!12336.75!
+<12336.76/1> evam ekaæ sÃækhya-yogaæ !vedÃ3raïyakam eva ca !
+<12336.76/2> paras-parÃ1ÇgÃny etÃni !pa¤ca-rÃtraæ ca kathyate !
+<12336.76/3> e«a ekÃ1ntinÃæ dharmo !nÃrÃyaïa-parÃ3tmaka÷ !!12336.76!
+<12336.77/1> yathÃ samudrÃt pras­tÃ jalau1ghÃs !
+<12336.77/2> tam eva rÃjan punar ÃviÓanti !
+<12336.77/3> ime tathÃ j¤Ãna-mahÃ-jalau1ghÃ !
+<12336.77/4> nÃrÃyaïaæ vai punar ÃviÓanti !!12336.77!
+<12336.78/1> e«a te kathito dharma÷ !sÃtvato yadu-bÃndhava !
+<12336.78/2> kuru«vai7naæ yathÃ-nyÃyaæ !yadi Óakno«i bhÃrata !!12336.78!
+<12336.79/1> evaæ hi su-mahÃ-bhÃgo !nÃrado gurave mama !
+<12336.79/2> ÓvetÃnÃæ yatinÃm Ãha !ekÃ1nta-gatim a-vyayÃm !!12336.79!
+<12336.80/1> vyÃsaÓ cÃ7kathayat prÅtyÃ !dharma-putrÃya dhÅmate !
+<12336.80/2> sa evÃ7yaæ mayÃ tubhyam !ÃkhyÃta÷ pras­to guro÷ !!12336.80!
+<12336.81/1> itthaæ hi duÓ-caro dharma !e«a pÃrthiva-sattama !
+<12336.81/2> yathai9va tvaæ tathai9vÃ7nye !na bhajanti vimohitÃ÷ !!12336.81!
+<12336.82/1> k­«ïa eva hi lokÃnÃæ !bhÃvano mohanas tathÃ !
+<12336.82/2> saæhÃra-kÃrakaÓ cai7va !kÃraïaæ ca viÓÃæ pate !!12336.82!
+<12337.1/1> janam-ejaya uvÃca: sÃækhyaæ yogaæ pa¤ca-rÃtraæ !vedÃ3raïyakam eva ca !
+<12337.1/2> j¤ÃnÃny etÃni brahmar1«e !loke«u pracaranti ha !!12337.1!
+<12337.2/1> kim etÃny eka-ni«ÂhÃni !p­thaÇ-ni«ÂhÃni vÃ mune !
+<12337.2/2> prabrÆhi vai mayÃ p­«Âa÷ !prav­ttiæ ca yathÃ-kramam !!12337.2!
+<12337.3/1> vaiÓaæpÃyana uvÃca: jaj¤e bahu-j¤aæ param aty-udÃraæ !
+<12337.3/2> yaæ dvÅpa-madhye sutam Ãtmavantam !
+<12337.3/3> parÃÓarÃd gandhavatÅ mahar2«iæ !
+<12337.3/4> tasmai namo '-j¤Ãna-tamo-nudÃya !!12337.3!
+<12337.4/1> pitÃ-mahÃ3dyaæ pravadanti «a«Âhaæ !
+<12337.4/2> mahar2«im Ãr«eya-vibhÆti-yuktam !
+<12337.4/3> nÃrÃyaïasyÃ7æÓa-jam eka-putraæ !
+<12337.4/4> dvaipÃyanaæ veda-mahÃ-nidhÃnam !!12337.4!
+<12337.5/1> tam Ãdi-kÃle«u mahÃ-vibhÆtir !
+<12337.5/2> nÃrÃyaïo brahma-mahÃ-nidhÃnam !
+<12337.5/3> sasarja putrÃ1rtham udÃra-tejÃ !
+<12337.5/4> vyÃsaæ mahÃ4tmÃnam a-ja÷ purÃïa÷ !!12337.5!
+<12337.6/1> janam-ejaya uvÃca: tvayai9va kathita÷ pÆrvaæ !saæbhavo dvi-ja-sattama !
+<12337.6/2> vasi«Âhasya suta÷ Óakti÷ !Óakte÷ putra÷ parÃÓara÷ !!12337.6!
+<12337.7/1> parÃÓarasya dÃyÃ3da÷ !k­«ïa-dvaipÃyano muni÷ !
+<12337.7/2> bhÆyo nÃrÃyaïa-sutaæ !tvam evai7naæ prabhÃ«ase !!12337.7!
+<12337.8/1> kim ata÷ pÆrva-jaæ janma !vyÃsasyÃ7-mita-tejasa÷_1 !
+<12337.8/2> kathayasvo7ttama-mate_2 !janma nÃrÃyaïo1dbhavam !!12337.8!
+<12337.9/1> vaiÓaæpÃyana uvÃca: vedÃ1rthÃn vettu-kÃmasya !dharmi«Âhasya tapo-nidhe÷ !
+<12337.9/2> guror me j¤Ãna-ni«Âhasya !himavat-pÃdae Ãsata÷ !!12337.9!
+<12337.10/1> k­tvÃ bhÃratam ÃkhyÃnaæ !tapa÷-ÓrÃntasya dhÅmata÷ !
+<12337.10/2> ÓuÓrÆ«Ãæ tat-parÃ rÃjan !k­tavanto vayaæ tadÃ !!12337.10!
+<12337.11/1> su-mantur jaiminiÓ cai7va !pailaÓ ca su-d­¬ha-vrata÷ !
+<12337.11/2> ahaæ caturtha÷ Ói«yo vai !Óuko vyÃsÃ3tma-jas tathÃ !!12337.11!
+<12337.12/1> ebhi÷ pariv­to vyÃsa÷ !Ói«yai÷ pa¤cabhir uttamai÷ !
+<12337.12/2> ÓuÓubhe himavat-pÃde !bhÆtair bhÆta-patir yathÃ !!12337.12!
+<12337.13/1> vedÃn Ãvartayan sÃ1ÇgÃn !bhÃratÃ1rthÃæÓ ca sarvaÓa÷ !
+<12337.13/2> tam eka-manasaæ dÃntaæ !yuktÃ vayam upÃsmahe !!12337.13!
+<12337.14/1> kathÃ2ntare 'tha kasmiæÓ-cit !p­«Âo 'smÃbhir dvi-jo1ttama÷ !
+<12337.14/2> vedÃ1rthÃn bhÃratÃ1rthÃæÓ ca !janma nÃrÃyaïÃt tathÃ !!12337.14!
+<12337.15/1> sa pÆrvam uktvÃ vedÃ1rthÃn !bhÃratÃ1rthÃæÓ ca tattva-vit !
+<12337.15/2> nÃrÃyaïÃd idaæ janma !vyÃhartum upacakrame !!12337.15!
+<12337.16/1> Ó­ïudhvam ÃkhyÃna-varam !etad Ãr«eyam uttamam !
+<12337.16/2> Ãdi-kÃlo1dbhavaæ viprÃs !tapasÃ9dhigataæ mayÃ !!12337.16!
+<12337.17/1> prÃpte prajÃ-visarge vai !saptame padma-saæbhave !
+<12337.17/2> nÃrÃyaïo mahÃ-yogÅ !ÓubhÃ1-Óubha-vivarjita÷ !!12337.17!
+<12337.18/1> sas­je nÃbhita÷ putraæ !brahmÃïam a-mita-prabham !
+<12337.18/2> tata÷ sa prÃdur abhavad !athai7naæ vÃkyam abravÅt !!12337.18!
+<12337.19/1> mama tvaæ nÃbhito jÃta÷ !prajÃ-sarga-kara÷ prabhu÷ !
+<12337.19/2> s­ja prajÃs tvaæ vi-vidhÃ !brahman sa-ja¬a-paï¬itÃ÷ !!12337.19!
+<12337.20/1> sa evam ukto vi-mukhaÓ !cintÃ-vyÃkula-mÃnasa÷ !
+<12337.20/2> praïamya vara-daæ devam !uvÃca harim ÅÓvaram !!12337.20!
+<12337.21/1> kÃ Óaktir mama deve3Óa !prajÃ÷ sra«Âuæ namo 'stu te !
+<12337.21/2> a-praj¤ÃvÃn ahaæ deva !vidhatsva yad an-antaram !!12337.21!
+<12337.22/1> sa evam ukto bhagavÃn !bhÆtvÃ9thÃ7ntarhitas tata÷ !
+<12337.22/2> cintayÃm Ãsa deve3Óo !buddhiæ buddhimatÃæ vara÷ !!12337.22!
+<12337.23/1> sva-rÆpiïÅ tato buddhir !upatasthe hariæ prabhum !
+<12337.23/2> yogena cai7nÃæ nir-yoga÷ !svayaæ niyuyuje tadÃ !!12337.23!
+<12337.24/1> sa tÃm aiÓvarya-yoga-sthÃæ !buddhiæ ÓaktimatÅæ satÅm !
+<12337.24/2> uvÃca vacanaæ devo !buddhiæ vai prabhur a-vyaya÷ !!12337.24!
+<12337.25/1> brahmÃïaæ praviÓasve7ti !loka-s­«Ây-artha-siddhaye !
+<12337.25/2> tatas tam ÅÓvarÃ3di«ÂÃ !buddhi÷ k«ipraæ viveÓa sÃ !!12337.25!
+<12337.26/1> athai7naæ buddhi-saæyuktaæ !puna÷ sa dad­Óe hari÷ !
+<12337.26/2> bhÆyaÓ cai7naæ vaca÷ prÃha !s­je7mÃ vi-vidhÃ÷ prajÃ÷ !!12337.26!
+<12337.27/001> [X K1.2.4.6.7 V1 Bo.6-9 Da3..a4 Dn2.ï4 Ds D2-5.7-9 T1 G1.3.6 Cs Kumbh..ed. ins.:: bÃ¬ham ity eva k­tvÃ sa !yathÃ4j¤Ãæ ÓirasÃ hare÷ !12337.26902! X]
+<12337.27/002> [X D7 T1 G3.6 cont.:: tathÃ9karoc ca dharmÃ3tmÃ !brahmÃ loka-pitÃ-maha÷ !12337.26903! X]
+<12337.27/1> evam uktvÃ sa bhagavÃæs !tatrai7vÃ7ntaradhÅyata !
+<12337.27/2> prÃpa cai7va muhÆrtena !sva-sthÃnaæ deva-saæj¤itam !!12337.27!
+<12337.28/1> tÃæ cai7va prak­tiæ prÃpya !ekÅ-bhÃva-gato 'bhavat !
+<12337.28/2> athÃ7sya buddhir abhavat !punar anyÃ tadÃ kila !!12337.28!
+<12337.29/1> s­«ÂÃ imÃ÷ prajÃ÷ sarvÃ !brahmaïÃ parame-«ÂhinÃ !
+<12337.29/2> daitya-dÃnava-gandharva- !rak«o-gaïa-samÃkulÃ÷ !
+<12337.29/3> jÃtÃ hÅ7yaæ vasumatÅ !bhÃrÃ3krÃntÃ tapasvinÅ !!12337.29!
+<12337.30/1> bahavo balina÷ p­thvyÃæ !daitya-dÃnava-rÃk«asÃ÷ !
+<12337.30/2> bhavi«yanti tapo-yuktÃ !varÃn prÃpsyanti co7ttamÃn !!12337.30!
+<12337.31/1> a-vaÓyam eva tai÷ sarvair !vara-dÃnena darpitai÷ !
+<12337.31/2> bÃdhitavyÃ÷ sura-gaïÃ !­«ayaÓ ca tapo-dhanÃ÷ !
+<12337.31/3> tatra nyÃyyam idaæ kartuæ !bhÃrÃ1vataraïaæ mayÃ !!12337.31!
+<12337.32/1> atha nÃnÃ-samudbhÆtair !vasu-dhÃyÃæ yathÃ-kramam !
+<12337.32/2> nigraheïa ca pÃpÃnÃæ !sÃdhÆnÃæ pragraheïa ca !!12337.32!
+<12337.33/1> imÃæ tapasvinÅæ satyÃæ !dhÃrayi«yÃmi medinÅm !
+<12337.33/2> mayÃ hy e«Ã hi dhriyate !pÃtÃla-sthena bhoginÃ !!12337.33!
+<12337.34/1> mayÃ dh­tÃ dhÃrayati !jagad dhi sa-carÃ1-caram !
+<12337.34/2> tasmÃt p­thvyÃ÷ paritrÃïaæ !kari«ye saæbhavaæ gata÷ !!12337.34!
+<12337.35/1> evaæ sa cintayitvÃ tu !bhagavÃn madhu-sÆdana÷ !
+<12337.35/2> rÆpÃïy an-ekÃny as­jat !prÃdur-bhÃva-bhavÃya sa÷ !!12337.35!
+<12337.36/1> vÃrÃhaæ nÃrasiæhaæ ca !vÃmanaæ mÃnu«aæ tathÃ !
+<12337.36/2> ebhir mayÃ nihantavyÃ !dur-vinÅtÃ÷ surÃ1raya÷ !!12337.36!
+<12337.37/1> atha bhÆyo jagat-sra«ÂÃ !bho÷-ÓabdenÃ7nunÃdayan !
+<12337.37/2> sarasvatÅm uccacÃra !tatra sÃrasvato 'bhavat !!12337.37!
+<12337.38/1> apÃ1ntara-tamÃ nÃma !suto vÃk-saæbhavo vibho÷ !
+<12337.38/2> bhÆta-bhavya-bhavi«ya-j¤a÷ !satya-vÃdÅ d­¬ha-vrata÷ !!12337.38!
+<12337.39/1> tam uvÃca nataæ mÆrdhnÃ !devÃnÃm Ãdir a-vyaya÷ !
+<12337.39/2> vedÃ3khyÃne Óruti÷ kÃryÃ !tvayÃ matimatÃæ vara !
+<12337.39/3> tasmÃt kuru yathÃ4j¤aptaæ !mayai9tad vacanaæ mune !!12337.39!
+<12337.40/1> tena bhinnÃs tadÃ vedÃ !mano÷ svÃyaæbhuve 'ntare !
+<12337.40/2> tatas tuto«a bhagavÃn !haris tenÃ7sya karmaïÃ !
+<12337.40/3> tapasÃ ca su-taptena !yamena niyamena ca !!12337.40!
+<12337.41/1> ÓrÅ-bhagavÃn uvÃca: manv-antare«u putra tvam !evaæ loka-pravartaka÷ !
+<12337.41/2> bhavi«yasy a-calo brahmann !a-pradh­«yaÓ ca nityaÓa÷ !!12337.41!
+<12337.42/1> punas ti«ye ca saæprÃpte !kuravo nÃma bhÃratÃ÷ !
+<12337.42/2> bhavi«yanti mahÃ4tmÃno !rÃjÃna÷ prathitÃ bhuvi !!12337.42!
+<12337.43/1> te«Ãæ tvatta÷ prasÆtÃnÃæ !kula-bhedo bhavi«yati !
+<12337.43/2> paras-para-vinÃÓÃ1rthaæ !tvÃm ­te dvi-ja-sattama !!12337.43!
+<12337.44/1> tatrÃ7py an-ekadhÃ vedÃn !bhetsyase tapasÃ9nvita÷ !
+<12337.44/2> k­«ïe yuge ca saæprÃpte !k­«ïa-varïo bhavi«yasi !!12337.44!
+<12337.45/1> dharmÃïÃæ vi-vidhÃnÃæ ca !kartÃ j¤Ãna-karas tathÃ !
+<12337.45/2> bhavi«yasi tapo-yukto !na ca rÃgÃd vimok«yase !!12337.45!
+<12337.46/1> vÅta-rÃgaÓ ca putras te !paramÃ3tmÃ bhavi«yati !
+<12337.46/2> mahe4Óvara-prasÃdena !nai7tad vacanam anyathÃ !!12337.46!
+<12337.47/1> yaæ mÃnasaæ vai pravadanti putraæ !
+<12337.47/2> pitÃ-mahasyo7ttama-buddhi-yuktam !
+<12337.47/3> vasi«Âham agryaæ tapaso nidhÃnaæ !
+<12337.47/4> yaÓ cÃ7pi sÆryaæ vyatiricya bhÃti !!12337.47!
+<12337.48/1> tasyÃ7nvaye cÃ7pi tato mahar2«i÷ !
+<12337.48/2> parÃÓaro nÃma mahÃ-prabhÃva÷ !
+<12337.48/3> pitÃ sa te veda-nidhir vari«Âho !
+<12337.48/4> mahÃ-tapÃ vai tapaso nivÃsa÷ !
+<12337.48/5> kÃnÅna-garbha÷ pit­-kanyakÃyÃæ !
+<12337.48/6> tasmÃd ­«es tvaæ bhavitÃ ca putra÷ !!12337.48!
+<12337.49/1> bhÆta-bhavya-bhavi«yÃïÃæ !chinna-sarvÃ1rtha-saæÓaya÷ !
+<12337.49/2> ye hy atikrÃntakÃ÷ pÆrvaæ !sahasra-yuga-paryayÃ÷ !!12337.49!
+<12337.50/1> tÃæÓ ca sarvÃn mayo9ddi«ÂÃn !drak«yase tapasÃ9nvita÷ !
+<12337.50/2> punar drak«yasi cÃ7n-eka- !sahasra-yuga-paryayÃn !!12337.50!
+<12337.51/1> an-Ãdi-nidhanaæ loke !cakra-hastaæ ca mÃæ mune !
+<12337.51/2> anudhyÃnÃn mama mune !nai7tad vacanam anyathÃ !!12337.51!
+<12337.52/0> [X K6 V1 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.5.8 Kumbh..ed. ins.:: bhavi«yati mahÃ-sattva !khyÃtiÓ cÃ7py a-tulÃ tava !!12337.51904! X]
+<12337.52/1> ÓanaiÓ-cara÷ sÆrya-putro !bhavi«yati manur mahÃn !
+<12337.52/2> tasmin manv-antare cai7va !saptar1«i-gaïa-pÆrvaka÷ !
+<12337.52/3> tvam eva bhavitÃ vatsa !mat-prasÃdÃn na saæÓaya÷ !!12337.52!
+<12337.53/001> [X K6 V1 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.5.8 Kumbh..ed. ins.:: yat kiæ-cid vidyate loke !sarvaæ tan mad-vice«Âitam !
+<12337.53/002> X anyo hy anyaæ cintayati !sva-cchandaæ vidadhÃmy aham !12337.52905! X]
+<12337.53/1> vyÃsa uvÃca: evaæ sÃrasvatam ­«im !apÃ1ntara-tamaæ tadÃ !
+<12337.53/2> uktvÃ vacanam ÅÓÃna÷ !sÃdhayasve7ty athÃ7bravÅt !!12337.53!
+<12337.54/1> so 'haæ tasya prasÃdena !devasya hari-medhasa÷ !
+<12337.54/2> apÃ1ntara-tamÃ nÃma !tato jÃto Ãj¤ayÃ hare÷ !
+<12337.54/3> punaÓ ca jÃto vikhyÃto !vasi«Âha-kula-nandana÷ !!12337.54!
+<12337.55/1> tad etat kathitaæ janma !mayÃ pÆrvakam Ãtmana÷ !
+<12337.55/2> nÃrÃyaïa-prasÃdena !tathÃ nÃrÃyaïÃ1æÓa-jam !!12337.55!
+<12337.56/1> mayÃ hi su-mahat taptaæ !tapa÷ parama-dÃruïam !
+<12337.56/2> purÃ matimatÃæ Óre«ÂhÃ÷ !parameïa samÃdhinÃ !!12337.56!
+<12337.57/1> etad va÷ kathitaæ sarvaæ !yan mÃæ p­cchatha putrakÃ÷ !
+<12337.57/2> pÆrva-janma bhavi«yaæ ca !bhaktÃnÃæ snehato mayÃ !!12337.57!
+<12337.58/1> vaiÓaæpÃyana uvÃca: e«a te kathita÷ pÆrvaæ !saæbhavo 'smad-guror n­-pa_2 !
+<12337.58/2> vyÃsasyÃ7-kli«Âa-manaso !yathÃ p­«Âa÷ puna÷ Ó­ïu !!12337.58!
+<12337.59/1> sÃækhyaæ yogaæ pa¤ca-rÃtraæ !vedÃ÷ pÃÓupataæ tathÃ !
+<12337.59/2> j¤ÃnÃny etÃni rÃjar1«e !viddhi nÃnÃ-matÃni vai !!12337.59!
+<12337.60/1> sÃækhyasya vaktÃ kapila÷ !paramar1«i÷ sa ucyate !
+<12337.60/2> hiraïya-garbho yogasya !vettÃ nÃ7nya÷ purÃtana÷ !!12337.60!
+<12337.61/1> apÃ1ntara-tamÃÓ cai7va !vedÃ3cÃrya÷ sa ucyate !
+<12337.61/2> prÃcÅna-garbhaæ tam ­«iæ !pravadantÅ7ha ke-cana !!12337.61!
+<12337.62/1> umÃ-patir bhÆta-pati÷ !ÓrÅ-kaïÂho brahmaïa÷ suta÷ !
+<12337.62/2> uktavÃn idam a-vy-agro !j¤Ãnaæ pÃÓupataæ Óiva÷ !!12337.62!
+<12337.63/1> pa¤ca-rÃtrasya k­tsnasya !vettÃ tu bhagavÃn svayam !
+<12337.63/2> sarve«u ca n­-pa_2-Óre«Âha !j¤Ãne«v ete«u d­Óyate !!12337.63!
+<12337.64/1> yathÃ4gamaæ yathÃ-j¤Ãnaæ !ni«ÂhÃ nÃrÃyaïa÷ prabhu÷ !
+<12337.64/2> na cai7nam evaæ jÃnÃti !tamo-bhÆtÃ viÓÃæ pate !!12337.64!
+<12337.65/1> tam eva ÓÃstra-kartÃraæ !pravadanti manÅ«iïa÷ !
+<12337.65/2> ni«ÂhÃæ nÃrÃyaïam ­«iæ !nÃ7nyo 'stÅ7ti ca vÃdina÷ !!12337.65!
+<12337.66/1> ni÷-saæÓaye«u sarve«u !nityaæ vasati vai hari÷ !
+<12337.66/2> sa-saæÓayÃn hetu-balÃn !nÃ7dhyÃvasati mÃdhava÷ !!12337.66!
+<12337.67/1> pa¤ca-rÃtra-vido ye tu !yathÃ-krama-parÃ n­-pa_2 !
+<12337.67/2> ekÃ1nta-bhÃvo1pagatÃs !te hariæ praviÓanti vai !!12337.67!
+<12337.68/1> sÃækhyaæ ca yogaæ ca sanÃtane dve !
+<12337.68/2> vedÃÓ ca sarve ni-khilena rÃjan !
+<12337.68/3> sarvai÷ samastair ­«ibhir nirukto !
+<12337.68/4> nÃrÃyaïo viÓvam idaæ purÃïam !!12337.68!
+<12337.69/1> ÓubhÃ1-Óubhaæ karma samÅritaæ yat !
+<12337.69/2> pravartate sarva-loke«u kiæ-cit !
+<12337.69/3> tasmÃd ­«es tad bhavatÅ7ti vidyÃd !
+<12337.69/4> divy antarik«e bhuvi cÃ7psu cÃ7pi !!12337.69!
+<12338.1/1> janam-ejaya uvÃca: bahava÷ puru«Ã brahmann !utÃ7ho eka eva tu !
+<12338.1/2> ko hy atra puru«a÷ Óre«Âha÷ !ko vÃ yonir iho7cyate !!12338.1!
+<12338.2/1> vaiÓaæpÃyana uvÃca: bahava÷ puru«Ã loke !sÃækhya-yoga-vicÃriïÃm !
+<12338.2/2> nai7tad icchanti puru«am !ekaæ kuru-kulo1dvaha !!12338.2!
+<12338.3/1> bahÆnÃæ puru«ÃïÃæ ca !yathai9kÃ yonir ucyate !
+<12338.3/2> tathÃ taæ puru«aæ viÓvaæ !vyÃkhyÃsyÃmi guïÃ1dhikam !!12338.3!
+<12338.4/1> namas-k­tvÃ tu gurave !vyÃsÃyÃ7-mita-tejase !
+<12338.4/2> tapo-yuktÃya dÃntÃya !vandyÃya paramar1«aye !!12338.4!
+<12338.5/1> idaæ puru«a-sÆ1ktaæ hi !sarva-vede«u pÃrthiva !
+<12338.5/2> ­taæ satyaæ ca vikhyÃtam !­«i-siæhena cintitam !!12338.5!
+<12338.6/1> utsargeïÃ7pavÃdena !­«ibhi÷ kapilÃ3dibhi÷ !
+<12338.6/2> adhy-Ãtma-cintÃm ÃÓritya !ÓÃstrÃïy uktÃni bhÃrata !!12338.6!
+<12338.7/1> samÃsatas tu yad vyÃsa÷ !puru«ai1katvam uktavÃn !
+<12338.7/2> tat te 'haæ saæpravak«yÃmi !prasÃdÃd a-mitau1jasa÷ !!12338.7!
+<12338.8/1> atrÃ7py udÃharantÅ7mam !itihÃsaæ purÃtanam !
+<12338.8/2> brahmaïÃ saha saævÃdaæ !try-ambakasya viÓÃæ pate !!12338.8!
+<12338.9/1> k«Åro1dasya samudrasya !madhye hÃÂaka-sa-prabha÷ !
+<12338.9/2> vaijayanta iti khyÃta÷ !parvata-pravaro n­-pa_2 !!12338.9!
+<12338.10/1> tatrÃ7dhy-Ãtma-gatiæ deva !ekÃkÅ pravicintayan !
+<12338.10/2> vairÃja-sadane nityaæ !vaijayantaæ ni«evate !!12338.10!
+<12338.11/1> atha tatrÃ8satas tasya !catur-vaktrasya dhÅmata÷ !
+<12338.11/2> lalÃÂa-prabhava÷ putra÷ !Óiva ÃgÃd yad-­cchayÃ !
+<12338.11/3> ÃkÃÓenai7va yogÅ3Óa÷ !purÃ tri-nayana÷ prabhu÷ !!12338.11!
+<12338.12/1> tata÷ khÃn nipapÃtÃ8Óu !dharaïÅ-dhara-mÆrdhani !
+<12338.12/2> agrataÓ cÃ7bhavat prÅto !vavande cÃ7pi pÃdayo÷ !!12338.12!
+<12338.13/1> taæ pÃdayor nipatitaæ !d­«ÂvÃ savyena pÃïinÃ !
+<12338.13/2> utthÃpayÃm Ãsa tadÃ !prabhur eka÷ prajÃ-pati÷ !!12338.13!
+<12338.14/1> uvÃca cai7naæ bhagavÃæÓ !cirasyÃ8gatam Ãtma-jam !
+<12338.14/2> sv-Ãgataæ te mahÃ-bÃho !di«ÂyÃ prÃpto 'si me 'ntikam !!12338.14!
+<12338.15/1> kac-cit te kuÓalaæ putra !svÃ1dhyÃya-tapaso÷ sadÃ !
+<12338.15/2> nityam ugra-tapÃs tvaæ hi !tata÷ p­cchÃmi te puna÷ !!12338.15!
+<12338.16/1> rudra uvÃca: tvat-prasÃdena bhagavan !svÃ1dhyÃya-tapasor mama !
+<12338.16/2> kuÓalaæ cÃ7-vyayaæ cai7va !sarvasya jagatas tathÃ !!12338.16!
+<12338.17/1> cira-d­«Âo hi bhagavÃn !vairÃja-sadane mayÃ !
+<12338.17/2> tato 'haæ parvataæ prÃptas tv !imaæ tvat-pÃda-sevitam !!12338.17!
+<12338.18/1> kautÆhalaæ cÃ7pi hi me !ekÃ1nta-gamanena te !
+<12338.18/2> nai7tat kÃraïam alpaæ hi !bhavi«yati pitÃ-maha !!12338.18!
+<12338.19/1> kiæ nu tat sadanaæ Óre«Âhaæ !k«ut-pipÃsÃ-vivarjitam !
+<12338.19/2> surÃ1surair adhyu«itam !­«ibhiÓ cÃ7-mita-prabhai÷ !!12338.19!
+<12338.20/1> gandharvair apsarobhiÓ ca !satataæ saæni«evitam !
+<12338.20/2> uts­jye7maæ giri-varam !ekÃkÅ prÃptavÃn asi !!12338.20!
+<12338.21/1> brahmo9vÃca: vaijayanto giri-vara÷ !satataæ sevyate mayÃ !
+<12338.21/2> atrai7kÃ1greïa manasÃ !puru«aÓ cintyate virÃÂ !!12338.21!
+<12338.22/1> rudra uvÃca: bahava÷ puru«Ã brahmaæs !tvayÃ s­«ÂÃ÷ svayaæ-bhuvÃ !
+<12338.22/2> s­jyante cÃ7pare brahman !sa cai7ka÷ puru«o virÃÂ !!12338.22!
+<12338.23/1> ko hy asau cintyate brahmaæs !tvayÃ vai puru«o1ttama÷ !
+<12338.23/2> etan me saæÓayaæ brÆhi !mahat kautÆhalaæ hi me !!12338.23!
+<12338.24/1> brahmo9vÃca: bahava÷ puru«Ã÷ putra !ye tvayÃ samudÃh­tÃ÷ !
+<12338.24/2> evam etad atikrÃntaæ !dra«Âavyaæ nai7vam ity api !
+<12338.24/3> ÃdhÃraæ tu pravak«yÃmi !ekasya puru«asya te !!12338.24!
+<12338.25/1> bahÆnÃæ puru«ÃïÃæ sa !yathai9kÃ yonir ucyate !
+<12338.25/2> tathÃ taæ puru«aæ viÓvaæ !paramaæ su-mahattamam !
+<12338.25/3> nir-guïaæ nir-guïÃ bhÆtvÃ !praviÓanti sanÃtanam !!12338.25!
+<12339.1/1> brahmo9vÃca: Ó­ïu putra yathÃ hy e«a !puru«a÷ ÓÃÓvato '-vyaya÷ !
+<12339.1/2> a-k«ayaÓ cÃ7-prameyaÓ ca !sarva-gaÓ ca nirucyate !!12339.1!
+<12339.2/1> na sa Óakyas tvayÃ dra«Âuæ !mayÃ9nyair vÃ9pi sattama !
+<12339.2/2> sa-guïo nir-guïo viÓvo !j¤Ãna-d­Óyo hy asau sm­ta÷ !!12339.2!
+<12339.3/1> a-ÓarÅra÷ ÓarÅre«u !sarve«u nivasaty asau !
+<12339.3/2> vasann api ÓarÅre«u !na sa lipyati karmabhi÷ !!12339.3!
+<12339.4/1> mamÃ7ntar-ÃtmÃ tava ca !ye cÃ7nye deha-saæj¤itÃ÷ !
+<12339.4/2> sarve«Ãæ sÃ1k«i-bhÆto 'sau !na grÃhya÷ kena-cit kva-cit !!12339.4!
+<12339.5/1> viÓva-mÆrdhÃ viÓva-bhujo !viÓva-pÃdÃ1k«i-nÃsika÷ !
+<12339.5/2> ekaÓ carati k«etre«u !svaira-cÃrÅ yathÃ-sukham !!12339.5!
+<12339.6/1> k«etrÃïi hi ÓarÅrÃïi !bÅjÃni ca ÓubhÃ1-Óubhe !
+<12339.6/2> tÃni vetti sa yogÃ3tmÃ !tata÷ k«etra-j¤a ucyate !!12339.6!
+<12339.7/1> nÃ8gatir na gatis tasya !j¤eyÃ bhÆtena kena-cit !
+<12339.7/2> sÃækhyena vidhinÃ cai7va !yogena ca yathÃ-kramam !!12339.7!
+<12339.8/1> cintayÃmi gatiæ cÃ7sya !na gatiæ vedmi co7ttamÃm !
+<12339.8/2> yathÃ-j¤Ãnaæ tu vak«yÃmi !puru«aæ taæ sanÃtanam !!12339.8!
+<12339.9/1> tasyai7katvaæ mahattvaæ hi !sa cai7ka÷ puru«a÷ sm­ta÷ !
+<12339.9/2> mahÃ-puru«a-Óabdaæ sa !bibharty eka÷ sanÃtana÷ !!12339.9!
+<12339.10/1> eko hutÃ3Óo bahudhÃ samidhyate !
+<12339.10/2> eka÷ sÆryas tapasÃæ yonir ekÃ !
+<12339.10/3> eko vÃyur bahudhÃ vÃti loke !
+<12339.10/4> maho2da-dhiÓ cÃ7mbhasÃæ yonir eka÷ !
+<12339.10/5> puru«aÓ cai7ko nir-guïo viÓva-rÆpas !
+<12339.10/6> taæ nir-guïaæ puru«aæ cÃ8viÓanti !!12339.10!
+<12339.11/1> hitvÃ guïamayaæ sarvaæ !karma hitvÃ ÓubhÃ1-Óubham !
+<12339.11/2> ubhe satyÃ1n-­te tyaktvÃ !evaæ bhavati nir-guïa÷ !!12339.11!
+<12339.12/1> a-cintyaæ cÃ7pi taæ j¤ÃtvÃ !bhÃva-sÆk«maæ catu«Âayam !
+<12339.12/2> vicared yo yatir yatta÷ !sa gacchet puru«aæ prabhum !!12339.12!
+<12339.13/1> evaæ hi paramÃ3tmÃnaæ !ke-cid icchanti paï¬itÃ÷ !
+<12339.13/2> ekÃ3tmÃnaæ tathÃ0tmÃnam !apare 'dhy-Ãtma-cintakÃ÷ !!12339.13!
+<12339.14/1> tatra ya÷ paramÃ3tmÃ hi !sa nityaæ nir-guïa÷ sm­ta÷ !
+<12339.14/2> sa hi nÃrÃyaïo j¤eya÷ !sarvÃ3tmÃ puru«o hi sa÷ !
+<12339.14/3> na lipyate phalaiÓ cÃ7pi !padma-patram ivÃ7mbhasÃ !!12339.14!
+<12339.15/1> karmÃ3tmÃ tv aparo yo 'sau !mok«a-bandhai÷ sa yujyate !
+<12339.15/2> sa-sapta-daÓakenÃ7pi !rÃÓinÃ yujyate hi sa÷ !
+<12339.15/3> evaæ bahu-vidha÷ prokta÷ !puru«as te yathÃ-kramam !!12339.15!
+<12339.16/1> yat tat k­tsnaæ loka-tantrasya dhÃma !
+<12339.16/2> vedyaæ paraæ bodhanÅyaæ sa-boddh­ !
+<12339.16/3> mantÃ mantavyaæ prÃÓitÃ prÃÓitavyaæ !
+<12339.16/4> ghrÃtÃ ghreyaæ sparÓitÃ sparÓanÅyam !!12339.16!
+<12339.17/1> dra«ÂÃ dra«Âavyaæ ÓrÃvitÃ ÓrÃvaïÅyaæ !
+<12339.17/2> j¤ÃtÃ j¤eyaæ sa-guïaæ nir-guïaæ ca !
+<12339.17/3> yad vai proktaæ guïa-sÃmyaæ pradhÃnaæ !
+<12339.17/4> nityaæ cai7tac chÃÓvataæ cÃ7-vyayaæ ca !!12339.17!
+<12339.18/1> yad vai sÆte dhÃtur Ãdyaæ nidhÃnaæ !
+<12339.18/2> tad vai viprÃ÷ pravadante '-niruddham !
+<12339.18/3> yad vai loke vaidikaæ karma sÃdhu !
+<12339.18/4> ÃÓÅr-yuktaæ tad dhi tasyo7pabhojyam !!12339.18!
+<12339.19/1> devÃ÷ sarve munaya÷ sÃdhu dÃntÃs !
+<12339.19/2> taæ prÃg-yaj¤air yaj¤a-bhÃgaæ yajante !
+<12339.19/3> ahaæ brahmÃ Ãdya ÅÓa÷ prajÃnÃæ !
+<12339.19/4> tasmÃj jÃtas tvaæ ca matta÷ prasÆta÷ !
+<12339.19/5> matto jagaj jaÇgamaæ sthÃvaraæ ca !
+<12339.19/6> sarve vedÃ÷ sa-rahasyÃ hi putra !!12339.19!
+<12339.20/1> catur-vibhakta÷ puru«a÷ !sa krÅ¬ati yathe9cchati !
+<12339.20/2> evaæ sa eva bhagavÃ¤ !j¤Ãnena pratibodhita÷ !!12339.20!
+<12339.21/1> etat te kathitaæ putra !yathÃvad anup­cchata÷ !
+<12339.21/2> sÃækhya-j¤Ãne tathÃ yoge !yathÃvad anuvarïitam !!12339.21!
+<12999.31/001> [X D7 T G1-3.6 ins. after 12326.93; Kumbh..ed. after 12326.92:: tata÷ kali-yugasyÃ8dau !bhutvÃ rÃja-taruæ Órita÷ !
+<12999.31/002> X bhÃ«ayÃ mÃgadhenai7va !dharma-rÃja-g­he vadan !
+<12999.31/003> X kÃ«Ãya-vastra-saævÅto !muï¬ita÷ Óukla-dantavÃn !
+<12999.31/004> X Óuddho1dana-suto buddho !mohayi«yÃmi mÃnavÃn !
+<12999.31/005> X ÓÆdrÃ÷ ÓrÃddhe«u bhojyante !mayi buddhatvam Ãgate !
+<12999.31/006> X bhavi«yanti narÃ÷ sarve !muï¬Ã÷ kÃ«Ãya-saæv­tÃ÷ !
+<12999.31/007> X an-adhyÃyÃ bhavi«yanti !viprÃÓ cÃ7gni-vivarjitÃ÷ !
+<12999.31/008> X agni-hotrÃïi sÅdanti !guru-pÆjÃ ca naÓyati !
+<12999.31/009> X na Ó­ïvanti pitu÷ putrÃ !na snu«Ã nai7va mÃtara÷ !
+<12999.31/01> X na mitraæ na kalatraæ vÃ !vartate hy adharo1ttaram !
+<12999.31/011> X evaæ bhÆtaæ jagat sarvaæ !Óruti-sm­ti-vivarjitam !
+<12999.31/012> X bhavi«yati kalau nagno hy !a-Óuddho varïa-saækara÷ !
+<12999.31/013> X te«Ãæ sa-kÃÓÃd dharma-j¤Ã !deva-brahma-dvi«o narÃ÷ !
+<12999.31/014> X bhavi«yanti hy a-ÓuddhÃÓ ca !nyÃya-cchala-vibhÃ«iïa÷ !
+<12999.31/015> X ye nagna-dharma-ÓrotÃras te !samÃ÷ pÃpa-niÓcayai÷ !
+<12999.31/016> X tasmÃd ete na saæbhÃ«yÃ !na spra«ÂavyÃ itÃ1rthibhi÷ !
+<12999.31/017> X upavÃsa-trayaæ kuyÃt !tat-saæsarga-viÓuddhaye !
+<12999.31/018> X tata÷ kali-yugasyÃ7nte !brÃhmaïo hari-piÇgala÷ !
+<12999.31/019> X kalkir vi«ïu-yaÓa÷-putro !yÃj¤avalkya-purohita÷ !
+<12999.31/02> X sahÃyÃ brÃhmaïÃ÷ sarve !tair ahaæ sahita÷ puna÷ !
+<12999.31/021> X mlecchÃn utsÃdayi«yÃmi !pÃ«aï¬ÃæÓ cai7va sarvaÓa÷ !
+<12999.31/022> X pÃ«aï¬i-«aÂkÃn hatvÃ vai !tatrÃ7nta÷-pralaye tata÷ !
+<12999.31/023> X ahaæ paÓcÃd bhavi«yÃmi !yaj¤e«u nirata÷ sadÃ !12999.31! X]
+<12999.32/001> [X K1.2.4.6 Bo.6-9 Da3..a4 Dn1.ï4 Ds D2.3.5.7.8 T G1-3.6 Kumbh. ed. ins after 12331.1, V1 after 6:: sarvÃ3ÓramÃ1bhigamanaæ !sarva-tÅrthÃ1vagÃhanam !
+<12999.32/002> X na tathÃ phala-daæ saute !nÃrÃyaïa-kathÃ yathÃ
+<12999.32/003> X pÃvitÃ1ÇgÃ÷ sma saævrÂtÃ÷ !Órutve9mÃm Ãdita÷ kathÃm !
+<12999.32/004> X nÃrÃyaïÃ3Órayaæ punyÃæ !sarva-pÃpa-pramocanÅm !
+<12999.32/005> X dur-darÓo bhagavÃn deva÷ !sarva-loka-namas-k­ta÷!
+<12999.32/006> X devai÷ sa-brahmakai÷ k­tsnair !anyaiÓ cai7va mahar2«ibhi÷ !
+<12999.32/007> X d­«ÂavÃn nÃrado yatra !devaæ nÃrÃyaïaæ harim !
+<12999.32/008> X nÆnam etad dhy anumataæ !tasya devasya sÆta-ja !
+<12999.32/009> X yad d­«ÂavÃ¤ jagan-nÃtham !a-niruddha-tanau sthitam !
+<12999.32/01> X yat prÃdravat punar bhÆyo !nÃrado deva-sattamau !
+<12999.32/011> X nara-nÃrÃyaïau dra«Âuæ !kÃraïaæ tad bravÅhi me !
+<12999.32/012> X sÆta uvÃca: tasmin yaj¤e vartamÃne !rÃj¤a÷ pÃrik«itasya vai !
+<12999.32/013> X karmÃ1ntare«u vidhivad !vartamÃne«u Óaunaka !
+<12999.32/014> X k­«ïa-dvaipÃyanaæ vyÃsam !­«iæ veda-nidhiæ prabhum !
+<12999.32/015> X paripapraccha rÃje1ndra÷ !pitÃ-maha-pitÃ-maham !
+<12999.32/016> X janam-ejaya uvÃca: Óveta-dvÅpÃn niv­ttena !nÃradena surar1«iïÃ !
+<12999.32/017> X dhyÃyatÃ bhagavad-vÃkyaæ !ce«Âitaæ kim ata÷ param !
+<12999.32/018> X badary--ÃÓramam Ãgamya samÃgamya ca tÃv ­«Å !
+<12999.32/019> X kiyantaæ kÃlam avasat !kÃæ kathÃm p­«ÂavÃæÓ ca sa÷ !12999.32! X]
+

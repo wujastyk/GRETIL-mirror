@@ -1,0 +1,1605 @@
+RGVEDA 5
+
+
+% EXCERPTS FROM README:
+
+% The edition used was that of Aufrecht, 1877. Apparently the edition was 
+% compiled by H.S. Ananthanarayana and W. P. Lehman. 
+% It is a "research-only" text. 
+% Reputedly, it was verified against Grassmann, 1876-77.
+
+
+THE MODIFIED VERSE NUMBERING:
+
+two digits for Mandala.
+three digits for Sukta.
+two digits for verse.
+one digit for line.
+{two digits for varga}
+
+e.g.: 01.001.01.1{01}
+
+
+___________________________________________________________________
+
+THIS TEXT FILE IS FOR REFERENCE PURPOSES ONLY!
+COPYRIGHT AND TERMS OF USAGE AS FOR SOURCE FILE.
+            
+Text converted to Ronald E. Emmerick's encoding for WordPerfect 5.1 DOS 
+and related utility programmes BHELA, CARAKA etc. (DOS versions):
+            
+description             character  =ASCII
+            
+long a                  Ã             195
+long A                  ù             249
+long i                  Å             197
+long I                  ı             253
+long u                  Æ             198
+long U                  ô             244
+vocalic r               ­             173
+vocalic R               ã             227
+long vocalic r          Ì             204
+vocalic l               Ê             202
+long vocalic l          Ë             203
+velar n                 Ç             199
+velar N                 §             167
+palatal n               ¤             164
+palatal N               ¥             165
+retroflex t             Â             194
+retroflex T             è             232
+retroflex d             ¬             172
+retroflex D             Ö             214
+retroflex n             ï             239
+retroflex N             ×             215
+palatal s               Ó             211
+palatal S               Á             193
+retroflex s             «             171
+retroflex S             å             229
+anusvara                æ             230
+capital anusvara        õ             245
+visarga                 ÷             247
+capital visarga         ê             234
+
+Other characters of the REE encoding table are not included.
+Unless indicated otherwise, accents have been dropped in order 
+to facilitate word search.             
+
+For a comprehensive list of REE and other GRETIL encodings 
+and formats see:
+www.sub.uni-goettingen.de/ebene_1/fiindolo/gretil/gretdiac.pdf
+and
+www.sub.uni-goettingen.de/ebene_1/fiindolo/gretil/gretdias.pdf
+___________________________________________________________________
+
+
+
+
+
+
+RV_05.001.01.1  abodhy agni÷ samidhÃ janÃnÃm prati dhenum ivÃyatÅm u«Ãsam
+RV_05.001.01.2  yahvÃ iva pra vayÃm ujjihÃnÃ÷ pra bhÃnava÷ sisrate nÃkam acha
+RV_05.001.02.1  abodhi hotÃ yajathÃya devÃn Ærdhvo agni÷ sumanÃ÷ prÃtar asthÃt
+RV_05.001.02.2  samiddhasya ruÓad adarÓi pÃjo mahÃn devas tamaso nir amoci
+RV_05.001.03.1  yad Åæ gaïasya raÓanÃm ajÅga÷ Óucir aÇkte Óucibhir gobhir agni÷
+RV_05.001.03.2  Ãd dak«iïÃ yujyate vÃjayanty uttÃnÃm Ærdhvo adhayaj juhÆbhi÷
+RV_05.001.04.1  agnim achÃ devayatÃm manÃæsi cak«Ææ«Åva sÆrye saæ caranti
+RV_05.001.04.2  yad Åæ suvÃte u«asÃ virÆpe Óveto vÃjÅ jÃyate agre ahnÃm
+RV_05.001.05.1  jani«Âa hi jenyo agre ahnÃæ hito hite«v aru«o vane«u
+RV_05.001.05.2  dame-dame sapta ratnÃ dadhÃno 'gnir hotÃ ni «asÃdÃ yajÅyÃn
+RV_05.001.06.1  agnir hotÃ ny asÅdad yajÅyÃn upasthe mÃtu÷ surabhÃ uloke
+RV_05.001.06.2  yuvÃ kavi÷ puruni«Âha ­tÃvÃ dhartÃ k­«ÂÅnÃm uta madhya iddha÷
+RV_05.001.07.1  pra ïu tyaæ vipram adhvare«u sÃdhum agniæ hotÃram ÅÊate namobhi÷
+RV_05.001.07.2  Ã yas tatÃna rodasÅ ­tena nityam m­janti vÃjinaæ gh­tena
+RV_05.001.08.1  mÃrjÃlyo m­jyate sve damÆnÃ÷ kavipraÓasto atithi÷ Óivo na÷
+RV_05.001.08.2  sahasraÓ­Çgo v­«abhas tadojÃ viÓvÃæ agne sahasÃ prÃsy anyÃn
+RV_05.001.09.1  pra sadyo agne aty e«y anyÃn Ãvir yasmai cÃrutamo babhÆtha
+RV_05.001.09.2  ÅÊenyo vapu«yo vibhÃvÃ priyo viÓÃm atithir mÃnu«ÅïÃm
+RV_05.001.10.1  tubhyam bharanti k«itayo yavi«Âha balim agne antita ota dÆrÃt
+RV_05.001.10.2  Ã bhandi«Âhasya sumatiæ cikiddhi b­hat te agne mahi Óarma bhadram
+RV_05.001.11.1  Ãdya ratham bhÃnumo bhÃnumantam agne ti«Âha yajatebhi÷ samantam
+RV_05.001.11.2  vidvÃn pathÅnÃm urv antarik«am eha devÃn haviradyÃya vak«i
+RV_05.001.12.1  avocÃma kavaye medhyÃya vaco vandÃru v­«abhÃya v­«ïe
+RV_05.001.12.2  gavi«Âhiro namasÃ stomam agnau div¤va rukmam uruvya¤cam aÓret 
+
+RV_05.002.01.1  kumÃram mÃtÃ yuvati÷ samubdhaæ guhÃ bibharti na dadÃti pitre
+RV_05.002.01.2  anÅkam asya na minaj janÃsa÷ pura÷ paÓyanti nihitam aratau
+RV_05.002.02.1  kam etaæ tvaæ yuvate kumÃram pe«Å bibhar«i mahi«Å jajÃna
+RV_05.002.02.2  pÆrvÅr hi garbha÷ Óarado vavardhÃpaÓyaæ jÃtaæ yad asÆta mÃtÃ
+RV_05.002.03.1  hiraïyadantaæ Óucivarïam ÃrÃt k«etrÃd apaÓyam ÃyudhÃ mimÃnam
+RV_05.002.03.2  dadÃno asmÃ am­taæ vip­kvat kim mÃm anindrÃ÷ k­ïavann anukthÃ÷
+RV_05.002.04.1  k«etrÃd apaÓyaæ sanutaÓ carantaæ sumad yÆthaæ na puru ÓobhamÃnam
+RV_05.002.04.2  na tÃ ag­bhrann ajani«Âa hi «a÷ paliknÅr id yuvatayo bhavanti
+RV_05.002.05.1  ke me maryakaæ vi yavanta gobhir na ye«Ãæ gopÃ araïaÓ cid Ãsa
+RV_05.002.05.2  ya Åæ jag­bhur ava te s­jantv ÃjÃti paÓva upa naÓ cikitvÃn
+RV_05.002.06.1  vasÃæ rÃjÃnaæ vasatiæ janÃnÃm arÃtayo ni dadhur martye«u
+RV_05.002.06.2  brahmÃïy atrer ava taæ s­jantu ninditÃro nindyÃso bhavantu
+RV_05.002.07.1  ÓunaÓ cic chepaæ niditaæ sahasrÃd yÆpÃd amu¤co aÓami«Âa hi «a÷
+RV_05.002.07.2  evÃsmad agne vi mumugdhi pÃÓÃn hotaÓ cikitva iha tÆ ni«adya
+RV_05.002.08.1  h­ïÅyamÃno apa hi mad aiye÷ pra me devÃnÃæ vratapÃ uvÃca
+RV_05.002.08.2  indro vidvÃæ anu hi tvÃ cacak«a tenÃham agne anuÓi«Âa ÃgÃm
+RV_05.002.09.1  vi jyoti«Ã b­hatÃ bhÃty agnir Ãvir viÓvÃni k­ïute mahitvÃ
+RV_05.002.09.2  prÃdevÅr mÃyÃ÷ sahate durevÃ÷ ÓiÓÅte Ó­Çge rak«ase vinik«e
+RV_05.002.10.1  uta svÃnÃso divi «antv agnes tigmÃyudhÃ rak«ase hantavÃ u
+RV_05.002.10.2  made cid asya pra rujanti bhÃmÃ na varante paribÃdho adevÅ÷
+RV_05.002.11.1  etaæ te stomaæ tuvijÃta vipro rathaæ na dhÅra÷ svapÃ atak«am
+RV_05.002.11.2  yadÅd agne prati tvaæ deva haryÃ÷ svarvatÅr apa enÃ jayema
+RV_05.002.12.1  tuvigrÅvo v­«abho vÃv­dhÃno 'Óatrv arya÷ sam ajÃti veda÷
+RV_05.002.12.2  itÅmam agnim am­tÃ avocan barhi«mate manave Óarma yaæsad dhavi«mate manave Óarma yaæsat 
+
+RV_05.003.01.1  tvam agne varuïo jÃyase yat tvam mitro bhavasi yat samiddha÷
+RV_05.003.01.2  tve viÓve sahasas putra devÃs tvam indro dÃÓu«e martyÃya
+RV_05.003.02.1  tvam aryamÃ bhavasi yat kanÅnÃæ nÃma svadhÃvan guhyam bibhar«i
+RV_05.003.02.2  a¤janti mitraæ sudhitaæ na gobhir yad dampatÅ samanasÃ k­ïo«i
+RV_05.003.03.1  tava Óriye maruto marjayanta rudra yat te janima cÃru citram
+RV_05.003.03.2  padaæ yad vi«ïor upamaæ nidhÃyi tena pÃsi guhyaæ nÃma gonÃm
+RV_05.003.04.1  tava ÓriyÃ sud­Óo deva devÃ÷ purÆ dadhÃnÃ am­taæ sapanta
+RV_05.003.04.2  hotÃram agnim manu«o ni «edur daÓasyanta uÓija÷ Óaæsam Ãyo÷
+RV_05.003.05.1  na tvad dhotÃ pÆrvo agne yajÅyÃn na kÃvyai÷ paro asti svadhÃva÷
+RV_05.003.05.2  viÓaÓ ca yasyÃ atithir bhavÃsi sa yaj¤ena vanavad deva martÃn
+RV_05.003.06.1  vayam agne vanuyÃma tvotÃ vasÆyavo havi«Ã budhyamÃnÃ÷
+RV_05.003.06.2  vayaæ samarye vidathe«v ahnÃæ vayaæ rÃyÃ sahasas putra martÃn
+RV_05.003.07.1  yo na Ãgo abhy eno bharÃty adhÅd agham aghaÓaæse dadhÃta
+RV_05.003.07.2  jahÅ cikitvo abhiÓastim etÃm agne yo no marcayati dvayena
+RV_05.003.08.1  tvÃm asyÃ vyu«i deva pÆrve dÆtaæ k­ïvÃnÃ ayajanta havyai÷
+RV_05.003.08.2  saæsthe yad agna Åyase rayÅïÃæ devo martair vasubhir idhyamÃna÷
+RV_05.003.09.1  ava sp­dhi pitaraæ yodhi vidvÃn putro yas te sahasa÷ sÆna Æhe
+RV_05.003.09.2  kadÃ cikitvo abhi cak«ase no 'gne kadÃm ­tacid yÃtayÃse
+RV_05.003.10.1  bhÆri nÃma vandamÃno dadhÃti pitÃ vaso yadi taj jo«ayÃse
+RV_05.003.10.2  kuvid devasya sahasÃ cakÃna÷ sumnam agnir vanate vÃv­dhÃna÷
+RV_05.003.11.1  tvam aÇga jaritÃraæ yavi«Âha viÓvÃny agne duritÃti par«i
+RV_05.003.11.2  stenÃ ad­Óran ripavo janÃso 'j¤ÃtaketÃ v­jinÃ abhÆvan
+RV_05.003.12.1  ime yÃmÃsas tvadrig abhÆvan vasave vÃ tad id Ãgo avÃci
+RV_05.003.12.2  nÃhÃyam agnir abhiÓastaye no na rÅ«ate vÃv­dhÃna÷ parÃ dÃt 
+
+RV_05.004.01.1  tvÃm agne vasupatiæ vasÆnÃm abhi pra mande adhvare«u rÃjan
+RV_05.004.01.2  tvayÃ vÃjaæ vÃjayanto jayemÃbhi «yÃma p­tsutÅr martyÃnÃm
+RV_05.004.02.1  havyavÃÊ agnir ajara÷ pitÃ no vibhur vibhÃvÃ sud­ÓÅko asme
+RV_05.004.02.2  sugÃrhapatyÃ÷ sam i«o didÅhy asmadryak sam mimÅhi ÓravÃæsi
+RV_05.004.03.1  viÓÃæ kaviæ viÓpatim mÃnu«ÅïÃæ Óucim pÃvakaæ gh­tap­«Âham agnim
+RV_05.004.03.2  ni hotÃraæ viÓvavidaæ dadhidhve sa deve«u vanate vÃryÃïi
+RV_05.004.04.1  ju«asvÃgna iÊayÃ sajo«Ã yatamÃno raÓmibhi÷ sÆryasya
+RV_05.004.04.2  ju«asva na÷ samidhaæ jÃtaveda Ã ca devÃn haviradyÃya vak«i
+RV_05.004.05.1  ju«Âo damÆnÃ atithir duroïa imaæ no yaj¤am upa yÃhi vidvÃn
+RV_05.004.05.2  viÓvÃ agne abhiyujo vihatyÃ ÓatrÆyatÃm Ã bharÃ bhojanÃni
+RV_05.004.06.1  vadhena dasyum pra hi cÃtayasva vaya÷ k­ïvÃnas tanve svÃyai
+RV_05.004.06.2  pipar«i yat sahasas putra devÃnt so agne pÃhi n­tama vÃje asmÃn
+RV_05.004.07.1  vayaæ te agna ukthair vidhema vayaæ havyai÷ pÃvaka bhadraÓoce
+RV_05.004.07.2  asme rayiæ viÓvavÃraæ sam invÃsme viÓvÃni draviïÃni dhehi
+RV_05.004.08.1  asmÃkam agne adhvaraæ ju«asva sahasa÷ sÆno tri«adhastha havyam
+RV_05.004.08.2  vayaæ deve«u suk­ta÷ syÃma ÓarmaïÃ nas trivarÆthena pÃhi
+RV_05.004.09.1  viÓvÃni no durgahÃ jÃtaveda÷ sindhuæ na nÃvÃ duritÃti par«i
+RV_05.004.09.2  agne atrivan namasÃ g­ïÃno 'smÃkam bodhy avitÃ tanÆnÃm
+RV_05.004.10.1  yas tvÃ h­dÃ kÅriïÃ manyamÃno 'martyam martyo johavÅmi
+RV_05.004.10.2  jÃtavedo yaÓo asmÃsu dhehi prajÃbhir agne am­tatvam aÓyÃm
+RV_05.004.11.1  yasmai tvaæ suk­te jÃtaveda ulokam agne k­ïava÷ syonam
+RV_05.004.11.2  aÓvinaæ sa put­ïaæ vÅravantaæ gomantaæ rayiæ naÓate svasti 
+
+RV_05.005.00.11  susamiddhÃya Óoci«e gh­taæ tÅvraæ juhotana
+RV_05.005.00.12  agnaye jÃtavedase
+RV_05.005.00.21  narÃÓaæsa÷ su«ÆdatÅmaæ yaj¤am adÃbhya÷
+RV_05.005.00.22  kavir hi madhuhastya÷
+RV_05.005.00.31  ÅÊito agna Ã vahendraæ citram iha priyam
+RV_05.005.00.32  sukhai rathebhir Ætaye
+RV_05.005.00.41  ÆrïamradÃ vi prathasvÃbhy arkÃ anÆ«ata
+RV_05.005.00.42  bhavÃ na÷ Óubhra sÃtaye
+RV_05.005.00.51  devÅr dvÃro vi Órayadhvaæ suprÃyaïÃ na Ætaye
+RV_05.005.00.52  pra-pra yaj¤am p­ïÅtana
+RV_05.005.00.61  supratÅke vayov­dhÃ yahvÅ ­tasya mÃtarÃ
+RV_05.005.00.62  do«Ãm u«Ãsam Åmahe
+RV_05.005.00.71  vÃtasya patmann ÅÊitÃ daivyÃ hotÃrÃ manu«a÷
+RV_05.005.00.72  imaæ no yaj¤am Ã gatam
+RV_05.005.00.81  iÊÃ sarasvatÅ mahÅ tisro devÅr mayobhuva÷
+RV_05.005.00.82  barhi÷ sÅdantv asridha÷
+RV_05.005.00.91  Óivas tva«Âar ihÃ gahi vibhu÷ po«a uta tmanÃ
+RV_05.005.00.92  yaj¤e-yaj¤e na ud ava
+RV_05.005.01.01  yatra vettha vanaspate devÃnÃæ guhyÃ nÃmÃni
+RV_05.005.01.02  tatra havyÃni gÃmaya
+RV_05.005.01.11  svÃhÃgnaye varuïÃya svÃhendrÃya marudbhya÷ svÃhÃ devebhyo havi÷ |
+RV_05.006.01.1  agniæ tam manye yo vasur astaæ yaæ yanti dhenava÷
+RV_05.006.01.2  astam arvanta ÃÓavo 'staæ nityÃso vÃjina i«aæ stot­bhya Ã bhara
+RV_05.006.02.1  so agnir yo vasur g­ïe saæ yam Ãyanti dhenava÷
+RV_05.006.02.2  sam arvanto raghudruva÷ saæ sujÃtÃsa÷ sÆraya i«aæ stot­bhya Ã bhara
+RV_05.006.03.1  agnir hi vÃjinaæ viÓe dadÃti viÓvacar«aïi÷
+RV_05.006.03.2  agnÅ rÃye svÃbhuvaæ sa prÅto yÃti vÃryam i«aæ stot­bhya Ã bhara
+RV_05.006.04.1  Ã te agna idhÅmahi dyumantaæ devÃjaram
+RV_05.006.04.2  yad dha syÃ te panÅyasÅ samid dÅdayati dyavÅ«aæ stot­bhya Ã bhara
+RV_05.006.05.1  Ã te agna ­cÃ havi÷ Óukrasya Óoci«as pate
+RV_05.006.05.2  suÓcandra dasma viÓpate havyavÃÂ tubhyaæ hÆyata i«aæ stot­bhya Ã bhara
+RV_05.006.06.1  pro tye agnayo 'gni«u viÓvam pu«yanti vÃryam
+RV_05.006.06.2  te hinvire ta invire ta i«aïyanty Ãnu«ag i«aæ stot­bhya Ã bhara
+RV_05.006.07.1  tava tye agne arcayo mahi vrÃdhanta vÃjina÷
+RV_05.006.07.2  ye patvabhi÷ ÓaphÃnÃæ vrajÃ bhuranta gonÃm i«aæ stot­bhya Ã bhara
+RV_05.006.08.1  navÃ no agna Ã bhara stot­bhya÷ suk«itÅr i«a÷
+RV_05.006.08.2  te syÃma ya Ãn­cus tvÃdÆtÃso dame-dama i«aæ stot­bhya Ã bhara
+RV_05.006.09.1  ubhe suÓcandra sarpi«o darvÅ ÓrÅïÅ«a Ãsani
+RV_05.006.09.2  uto na ut pupÆryÃ ukthe«u Óavasas pata i«aæ stot­bhya Ã bhara
+RV_05.006.10.1  evÃæ agnim ajuryamur gÅrbhir yaj¤ebhir Ãnu«ak
+RV_05.006.10.2  dadhad asme suvÅryam uta tyad ÃÓvaÓvyam i«aæ stot­bhya Ã bhara 
+
+RV_05.007.01.1  sakhÃya÷ saæ va÷ samya¤cam i«aæ stomaæ cÃgnaye
+RV_05.007.01.2  var«i«ÂhÃya k«itÅnÃm Ærjo naptre sahasvate
+RV_05.007.02.1  kutrÃ cid yasya sam­tau raïvÃ naro n­«adane
+RV_05.007.02.2  arhantaÓ cid yam indhate saæjanayanti jantava÷
+RV_05.007.03.1  saæ yad i«o vanÃmahe saæ havyÃ mÃnu«ÃïÃm
+RV_05.007.03.2  uta dyumnasya Óavasa ­tasya raÓmim Ã dade
+RV_05.007.04.1  sa smÃ k­ïoti ketum Ã naktaæ cid dÆra Ã sate
+RV_05.007.04.2  pÃvako yad vanaspatÅn pra smÃ minÃty ajara÷
+RV_05.007.05.1  ava sma yasya ve«aïe svedam pathi«u juhvati
+RV_05.007.05.2  abhÅm aha svajenyam bhÆmÃ p­«Âheva ruruhu÷
+RV_05.007.06.1  yam martya÷ purusp­haæ vidad viÓvasya dhÃyase
+RV_05.007.06.2  pra svÃdanam pitÆnÃm astatÃtiæ cid Ãyave
+RV_05.007.07.1  sa hi «mÃ dhanvÃk«itaæ dÃtÃ na dÃty Ã paÓu÷
+RV_05.007.07.2  hiriÓmaÓru÷ Óucidann ­bhur anibh­«Âatavi«i÷
+RV_05.007.08.1  Óuci÷ «mÃ yasmÃ atrivat pra svadhitÅva rÅyate
+RV_05.007.08.2  su«Ær asÆta mÃtÃ krÃïÃ yad ÃnaÓe bhagam
+RV_05.007.09.1  Ã yas te sarpirÃsute 'gne Óam asti dhÃyase
+RV_05.007.09.2  ai«u dyumnam uta Órava Ã cittam martye«u dhÃ÷
+RV_05.007.10.1  iti cin manyum adhrijas tvÃdÃtam Ã paÓuæ dade
+RV_05.007.10.2  Ãd agne ap­ïato 'tri÷ sÃsahyÃd dasyÆn i«a÷ sÃsahyÃn nÌn 
+
+RV_05.008.01.1  tvÃm agna ­tÃyava÷ sam Ådhire pratnam pratnÃsa Ætaye sahask­ta
+RV_05.008.01.2  puruÓcandraæ yajataæ viÓvadhÃyasaæ damÆnasaæ g­hapatiæ vareïyam
+RV_05.008.02.1  tvÃm agne atithim pÆrvyaæ viÓa÷ Óoci«keÓaæ g­hapatiæ ni «edire
+RV_05.008.02.2  b­hatketum pururÆpaæ dhanasp­taæ suÓarmÃïaæ svavasaæ jaradvi«am
+RV_05.008.03.1  tvÃm agne mÃnu«År ÅÊate viÓo hotrÃvidaæ viviciæ ratnadhÃtamam
+RV_05.008.03.2  guhÃ santaæ subhaga viÓvadarÓataæ tuvi«vaïasaæ suyajaæ gh­taÓriyam
+RV_05.008.04.1  tvÃm agne dharïasiæ viÓvadhÃ vayaæ gÅrbhir g­ïanto namasopa sedima
+RV_05.008.04.2  sa no ju«asva samidhÃno aÇgiro devo martasya yaÓasÃ sudÅtibhi÷
+RV_05.008.05.1  tvam agne pururÆpo viÓe-viÓe vayo dadhÃsi pratnathÃ puru«Âuta
+RV_05.008.05.2  purÆïy annÃ sahasÃ vi rÃjasi tvi«i÷ sÃ te titvi«Ãïasya nÃdh­«e
+RV_05.008.06.1  tvÃm agne samidhÃnaæ yavi«Âhya devÃ dÆtaæ cakrire havyavÃhanam
+RV_05.008.06.2  urujrayasaæ gh­tayonim Ãhutaæ tve«aæ cak«ur dadhire codayanmati
+RV_05.008.07.1  tvÃm agne pradiva Ãhutaæ gh­tai÷ sumnÃyava÷ su«amidhÃ sam Ådhire
+RV_05.008.07.2  sa vÃv­dhÃna o«adhÅbhir uk«ito 'bhi jrayÃæsi pÃrthivÃ vi ti«Âhase 
+
+RV_05.009.01.1  tvÃm agne havi«manto devam martÃsa ÅÊate
+RV_05.009.01.2  manye tvÃ jÃtavedasaæ sa havyÃ vak«y Ãnu«ak
+RV_05.009.02.1  agnir hotÃ dÃsvata÷ k«ayasya v­ktabarhi«a÷
+RV_05.009.02.2  saæ yaj¤ÃsaÓ caranti yaæ saæ vÃjÃsa÷ Óravasyava÷
+RV_05.009.03.1  uta sma yaæ ÓiÓuæ yathÃ navaæ jani«ÂÃraïÅ
+RV_05.009.03.2  dhartÃram mÃnu«ÅïÃæ viÓÃm agniæ svadhvaram
+RV_05.009.04.1  uta sma durg­bhÅyase putro na hvÃryÃïÃm
+RV_05.009.04.2  purÆ yo dagdhÃsi vanÃgne paÓur na yavase
+RV_05.009.05.1  adha sma yasyÃrcaya÷ samyak saæyanti dhÆmina÷
+RV_05.009.05.2  yad Åm aha trito divy upa dhmÃteva dhamati ÓiÓÅte dhmÃtarÅ yathÃ
+RV_05.009.06.1  tavÃham agna Ætibhir mitrasya ca praÓastibhi÷
+RV_05.009.06.2  dve«oyuto na duritÃ turyÃma martyÃnÃm
+RV_05.009.07.1  taæ no agne abhÅ naro rayiæ sahasva Ã bhara
+RV_05.009.07.2  sa k«epayat sa po«ayad bhuvad vÃjasya sÃtaya utaidhi p­tsu no v­dhe 
+
+RV_05.010.01.1  agna oji«Âham Ã bhara dyumnam asmabhyam adhrigo
+RV_05.010.01.2  pra no rÃyÃ parÅïasÃ ratsi vÃjÃya panthÃm
+RV_05.010.02.1  tvaæ no agne adbhuta kratvÃ dak«asya maæhanÃ
+RV_05.010.02.2  tve asuryam Ãruhat krÃïÃ mitro na yaj¤iya÷
+RV_05.010.03.1  tvaæ no agna e«Ãæ gayam pu«Âiæ ca vardhaya
+RV_05.010.03.2  ye stomebhi÷ pra sÆrayo naro maghÃny ÃnaÓu÷
+RV_05.010.04.1  ye agne candra te gira÷ Óumbhanty aÓvarÃdhasa÷
+RV_05.010.04.2  Óu«mebhi÷ Óu«miïo naro divaÓ cid ye«Ãm b­hat sukÅrtir bodhati tmanÃ
+RV_05.010.05.1  tava tye agne arcayo bhrÃjanto yanti dh­«ïuyÃ
+RV_05.010.05.2  parijmÃno na vidyuta÷ svÃno ratho na vÃjayu÷
+RV_05.010.06.1  nÆ no agna Ætaye sabÃdhasaÓ ca rÃtaye
+RV_05.010.06.2  asmÃkÃsaÓ ca sÆrayo viÓvÃ ÃÓÃs tarÅ«aïi
+RV_05.010.07.1  tvaæ no agne aÇgira stuta stavÃna Ã bhara
+RV_05.010.07.2  hotar vibhvÃsahaæ rayiæ stot­bhya stavase ca na utaidhi p­tsu no v­dhe 
+
+RV_05.011.01.1  janasya gopÃ ajani«Âa jÃg­vir agni÷ sudak«a÷ suvitÃya navyase
+RV_05.011.01.2  gh­tapratÅko b­hatÃ divisp­ÓÃ dyumad vi bhÃti bharatebhya÷ Óuci÷
+RV_05.011.02.1  yaj¤asya ketum prathamam purohitam agniæ naras tri«adhasthe sam Ådhire
+RV_05.011.02.2  indreïa devai÷ sarathaæ sa barhi«i sÅdan ni hotÃ yajathÃya sukratu÷
+RV_05.011.03.1  asamm­«Âo jÃyase mÃtro÷ Óucir mandra÷ kavir ud ati«Âho vivasvata÷
+RV_05.011.03.2  gh­tena tvÃvardhayann agna Ãhuta dhÆmas te ketur abhavad divi Órita÷
+RV_05.011.04.1  agnir no yaj¤am upa vetu sÃdhuyÃgniæ naro vi bharante g­he-g­he
+RV_05.011.04.2  agnir dÆto abhavad dhavyavÃhano 'gniæ v­ïÃnÃ v­ïate kavikratum
+RV_05.011.05.1  tubhyedam agne madhumattamaæ vacas tubhyam manÅ«Ã iyam astu Óaæ h­de
+RV_05.011.05.2  tvÃæ gira÷ sindhum ivÃvanÅr mahÅr Ã p­ïanti ÓavasÃ vardhayanti ca
+RV_05.011.06.1  tvÃm agne aÇgiraso guhÃ hitam anv avinda¤ chiÓriyÃïaæ vane vane
+RV_05.011.06.2  sa jÃyase mathyamÃna÷ saho mahat tvÃm Ãhu÷ sahasas putram aÇgira÷ 
+
+RV_05.012.01.1  prÃgnaye b­hate yaj¤iyÃya ­tasya v­«ïe asurÃya manma
+RV_05.012.01.2  gh­taæ na yaj¤a ÃsyQ supÆtaæ giram bhare v­«abhÃya pratÅcÅm
+RV_05.012.02.1  ­taæ cikitva ­tam ic cikiddhy ­tasya dhÃrÃ anu t­ndhi pÆrvÅ÷
+RV_05.012.02.2  nÃhaæ yÃtuæ sahasÃ na dvayena ­taæ sapÃmy aru«asya v­«ïa÷
+RV_05.012.03.1  kayÃ no agna ­tayann ­tena bhuvo navedÃ ucathasya navya÷
+RV_05.012.03.2  vedÃ me deva ­tupÃ ­tÆnÃæ nÃham patiæ sanitur asya rÃya÷
+RV_05.012.04.1  ke te agne ripave bandhanÃsa÷ ke pÃyava÷ sani«anta dyumanta÷
+RV_05.012.04.2  ke dhÃsim agne an­tasya pÃnti ka Ãsato vacasa÷ santi gopÃ÷
+RV_05.012.05.1  sakhÃyas te vi«uïÃ agna ete ÓivÃsa÷ santo aÓivÃ abhÆvan
+RV_05.012.05.2  adhÆr«ata svayam ete vacobhir ­jÆyate v­jinÃni bruvanta÷
+RV_05.012.06.1  yas te agne namasÃ yaj¤am ÅÂÂa ­taæ sa pÃty aru«asya v­«ïa÷
+RV_05.012.06.2  tasya k«aya÷ p­thur Ã sÃdhur etu prasarsrÃïasya nahu«asya Óe«a÷ 
+
+RV_05.013.01.1  arcantas tvÃ havÃmahe 'rcanta÷ sam idhÅmahi
+RV_05.013.01.2  agne arcanta Ætaye
+RV_05.013.02.1  agne stomam manÃmahe sidhram adya divisp­Óa÷
+RV_05.013.02.2  devasya draviïasyava÷
+RV_05.013.03.1  agnir ju«ata no giro hotÃ yo mÃnu«e«v Ã
+RV_05.013.03.2  sa yak«ad daivyaæ janam
+RV_05.013.04.1  tvam agne saprathÃ asi ju«Âo hotÃ vareïya÷
+RV_05.013.04.2  tvayÃ yaj¤aæ vi tanvate
+RV_05.013.05.1  tvÃm agne vÃjasÃtamaæ viprÃ vardhanti su«Âutam
+RV_05.013.05.2  sa no rÃsva suvÅryam
+RV_05.013.06.1  agne nemir arÃæ iva devÃæs tvam paribhÆr asi
+RV_05.013.06.2  Ã rÃdhaÓ citram ­¤jase 
+
+RV_05.014.01.1  agniæ stomena bodhaya samidhÃno amartyam
+RV_05.014.01.2  havyÃ deve«u no dadhat
+RV_05.014.02.1  tam adhvare«v ÅÊate devam martÃ amartyam
+RV_05.014.02.2  yaji«Âham mÃnu«e jane
+RV_05.014.03.1  taæ hi ÓaÓvanta ÅÊate srucÃ devaæ gh­taÓcutÃ
+RV_05.014.03.2  agniæ havyÃya voÊhave
+RV_05.014.04.1  agnir jÃto arocata ghnan dasyÆ¤ jyoti«Ã tama÷
+RV_05.014.04.2  avindad gÃ apa÷ sva÷
+RV_05.014.05.1  agnim ÅÊenyaæ kaviæ gh­tap­«Âhaæ saparyata
+RV_05.014.05.2  vetu me Ó­ïavad dhavam
+RV_05.014.06.1  agniæ gh­tena vÃv­dhu stomebhir viÓvacar«aïim
+RV_05.014.06.2  svÃdhÅbhir vacasyubhi÷ 
+
+RV_05.015.00.11  pra vedhase kavaye vedyÃya giram bhare yaÓase pÆrvyÃya
+RV_05.015.00.12  gh­taprasatto asura÷ suÓevo rÃyo dhartÃ dharuïo vasvo agni÷
+RV_05.015.00.21  ­tena ­taæ dharuïaæ dhÃrayanta yaj¤asya ÓÃke parame vyoman
+RV_05.015.00.22  divo dharman dharuïe sedu«o n¤¤ jÃtair ajÃtÃæ abhi ye nanak«u÷
+RV_05.015.00.31  aÇhoyuvas tanvas tanvate vi vayo mahad du«Âaram pÆrvyÃya
+RV_05.015.00.32  sa saævato navajÃtas tuturyÃt siÇhaæ na kruddham abhita÷ pari «Âhu÷
+RV_05.015.00.41  mÃteva yad bharase paprathÃno janaæ-janaæ dhÃyase cak«ase ca
+RV_05.015.00.42  vayo-vayo jarase yad dadhÃna÷ pari tmanÃ vi«urÆpo jigÃsi
+RV_05.015.00.51  vÃjo nu te Óavasas pÃtv antam uruæ doghaæ dharuïaæ deva rÃya÷
+RV_05.015.00.52  padaæ na tÃyur guhÃ dadhÃno maho rÃye citayann atrim aspa÷ 
+
+RV_05.016.01.1  b­had vayo hi bhÃnave 'rcÃ devÃyÃgnaye
+RV_05.016.01.2  yam mitraæ na praÓastibhir martÃso dadhire pura÷
+RV_05.016.02.1  sa hi dyubhir janÃnÃæ hotÃ dak«asya bÃhvo÷
+RV_05.016.02.2  vi havyam agnir Ãnu«ag bhago na vÃram ­ïvati
+RV_05.016.03.1  asya stome maghona÷ sakhye v­ddhaÓoci«a÷
+RV_05.016.03.2  viÓvÃ yasmin tuvi«vaïi sam arye Óu«mam Ãdadhu÷
+RV_05.016.04.1  adhÃ hy agna e«Ãæ suvÅryasya maæhanÃ
+RV_05.016.04.2  tam id yahvaæ na rodasÅ pari Óravo babhÆvatu÷
+RV_05.016.05.1  nÆ na ehi vÃryam agne g­ïÃna Ã bhara
+RV_05.016.05.2  ye vayaæ ye ca sÆraya÷ svasti dhÃmahe sacotaidhi p­tsu no v­dhe 
+
+RV_05.017.01.1  Ã yaj¤air deva martya itthÃ tavyÃæsam Ætaye
+RV_05.017.01.2  agniæ k­te svadhvare pÆrur ÅÊÅtÃvase
+RV_05.017.02.1  asya hi svayaÓastara ÃsÃ vidharman manyase
+RV_05.017.02.2  taæ nÃkaæ citraÓoci«am mandram paro manÅ«ayÃ
+RV_05.017.03.1  asya vÃsÃ u arci«Ã ya Ãyukta tujÃ girÃ
+RV_05.017.03.2  divo na yasya retasÃ b­hac chocanty arcaya÷
+RV_05.017.04.1  asya kratvÃ vicetaso dasmasya vasu ratha Ã
+RV_05.017.04.2  adhÃ viÓvÃsu havyo 'gnir vik«u pra Óasyate
+RV_05.017.05.1  nÆ na id dhi vÃryam ÃsÃ sacanta sÆraya÷
+RV_05.017.05.2  Ærjo napÃd abhi«Âaye pÃhi Óagdhi svastaya utaidhi p­tsu no v­dhe 
+
+RV_05.018.01.1  prÃtar agni÷ purupriyo viÓa stavetÃtithi÷
+RV_05.018.01.2  viÓvÃni yo amartyo havyÃ marte«u raïyati
+RV_05.018.02.1  dvitÃya m­ktavÃhase svasya dak«asya maæhanÃ
+RV_05.018.02.2  induæ sa dhatta Ãnu«ak stotÃ cit te amartya
+RV_05.018.03.1  taæ vo dÅrghÃyuÓoci«aæ girÃ huve maghonÃm
+RV_05.018.03.2  ari«Âo ye«Ãæ ratho vy aÓvadÃvann Åyate
+RV_05.018.04.1  citrÃ vÃ ye«u dÅdhitir Ãsann ukthÃ pÃnti ye
+RV_05.018.04.2  stÅrïam barhi÷ svarïare ÓravÃæsi dadhire pari
+RV_05.018.05.1  ye me pa¤cÃÓataæ dadur aÓvÃnÃæ sadhastuti
+RV_05.018.05.2  dyumad agne mahi Óravo b­hat k­dhi maghonÃæ n­vad am­ta n­ïÃm 
+
+RV_05.019.01.1  abhy avasthÃ÷ pra jÃyante pra vavrer vavriÓ ciketa
+RV_05.019.01.2  upasthe mÃtur vi ca«Âe
+RV_05.019.02.1  juhure vi citayanto 'nimi«aæ n­mïam pÃnti
+RV_05.019.02.2  Ã d­ÊhÃm puraæ viviÓu÷
+RV_05.019.03.1  Ã Óvaitreyasya jantavo dyumad vardhanta k­«Âaya÷
+RV_05.019.03.2  ni«kagrÅvo b­haduktha enÃ madhvÃ na vÃjayu÷
+RV_05.019.04.1  priyaæ dugdhaæ na kÃmyam ajÃmi jÃmyo÷ sacÃ
+RV_05.019.04.2  gharmo na vÃjajaÂharo 'dabdha÷ ÓaÓvato dabha÷
+RV_05.019.05.1  krÅÊan no raÓma Ã bhuva÷ sam bhasmanÃ vÃyunÃ vevidÃna÷
+RV_05.019.05.2  tÃ asya san dh­«ajo na tigmÃ÷ susaæÓitÃ vak«yo vak«aïesthÃ÷ 
+
+RV_05.020.01.1  yam agne vÃjasÃtama tvaæ cin manyase rayim
+RV_05.020.01.2  taæ no gÅrbhi÷ ÓravÃyyaæ devatrÃ panayÃ yujam
+RV_05.020.02.1  ye agne nerayanti te v­ddhÃ ugrasya Óavasa÷
+RV_05.020.02.2  apa dve«o apa hvaro 'nyavratasya saÓcire
+RV_05.020.03.1  hotÃraæ tvÃ v­ïÅmahe 'gne dak«asya sÃdhanam
+RV_05.020.03.2  yaj¤e«u pÆrvyaæ girÃ prayasvanto havÃmahe
+RV_05.020.04.1  itthÃ yathÃ ta Ætaye sahasÃvan dive-dive
+RV_05.020.04.2  rÃya ­tÃya sukrato gobhi÷ «yÃma sadhamÃdo vÅrai÷ syÃma sadhamÃda÷ 
+
+RV_05.021.01.1  manu«vat tvÃ ni dhÅmahi manu«vat sam idhÅmahi
+RV_05.021.01.2  agne manu«vad aÇgiro devÃn devayate yaja
+RV_05.021.02.1  tvaæ hi mÃnu«e jane 'gne suprÅta idhyase
+RV_05.021.02.2  srucas tvÃ yanty Ãnu«ak sujÃta sarpirÃsute
+RV_05.021.03.1  tvÃæ viÓve sajo«aso devÃso dÆtam akrata
+RV_05.021.03.2  saparyantas tvÃ kave yaj¤e«u devam ÅÊate
+RV_05.021.04.1  devaæ vo devayajyayÃgnim ÅÊÅta martya÷
+RV_05.021.04.2  samiddha÷ Óukra dÅdihy ­tasya yonim Ãsada÷ sasasya yonim Ãsada÷ 
+
+RV_05.022.01.1  pra viÓvasÃmann atrivad arcÃ pÃvakaÓoci«e
+RV_05.022.01.2  yo adhvare«v Å¬yo hotÃ mandratamo viÓi
+RV_05.022.02.1  ny agniæ jÃtavedasaæ dadhÃtÃ devam ­tvijam
+RV_05.022.02.2  pra yaj¤a etv Ãnu«ag adyÃ devavyacastama÷
+RV_05.022.03.1  cikitvinmanasaæ tvÃ devam martÃsa Ætaye
+RV_05.022.03.2  vareïyasya te 'vasa iyÃnÃso amanmahi
+RV_05.022.04.1  agne cikiddhy asya na idaæ vaca÷ sahasya
+RV_05.022.04.2  taæ tvÃ suÓipra dampate stomair vardhanty atrayo gÅrbhi÷ Óumbhanty atraya÷ 
+
+RV_05.023.01.1  agne sahantam Ã bhara dyumnasya prÃsahÃ rayim
+RV_05.023.01.2  viÓvÃ yaÓ car«aïÅr abhy ­sÃ vÃje«u sÃsahat
+RV_05.023.02.1  tam agne p­tanÃ«ahaæ rayiæ sahasva Ã bhara
+RV_05.023.02.2  tvaæ hi satyo adbhuto dÃtÃ vÃjasya gomata÷
+RV_05.023.03.1  viÓve hi tvÃ sajo«aso janÃso v­ktabarhi«a÷
+RV_05.023.03.2  hotÃraæ sadmasu priyaæ vyanti vÃryÃ puru
+RV_05.023.04.1  sa hi «mÃ viÓvacar«aïir abhimÃti saho dadhe
+RV_05.023.04.2  agna e«u k«aye«v Ã revan na÷ Óukra dÅdihi dyumat pÃvaka dÅdihi 
+
+RV_05.024.01.1  agne tvaæ no antama uta trÃtÃ Óivo bhavÃ varÆthya÷
+RV_05.024.02.1  vasur agnir vasuÓravÃ achÃ nak«i dyumattamaæ rayiæ dÃ÷
+RV_05.024.03.1  sa no bodhi ÓrudhÅ havam uru«yÃ ïo aghÃyata÷ samasmÃt
+RV_05.024.04.1  taæ tvÃ Óoci«Âha dÅdiva÷ sumnÃya nÆnam Åmahe sakhibhya÷ |
+RV_05.025.00.11  achÃ vo agnim avase devaæ gÃsi sa no vasu÷
+RV_05.025.00.12  rÃsat putra ­«ÆïÃm ­tÃvÃ par«ati dvi«a÷
+RV_05.025.00.21  sa hi satyo yam pÆrve cid devÃsaÓ cid yam Ådhire
+RV_05.025.00.22  hotÃram mandrajihvam it sudÅtibhir vibhÃvasum
+RV_05.025.00.31  sa no dhÅtÅ vari«ÂhayÃ Óre«ÂhayÃ ca sumatyÃ
+RV_05.025.00.32  agne rÃyo didÅhi na÷ suv­ktibhir vareïya
+RV_05.025.00.41  agnir deve«u rÃjaty agnir marte«v ÃviÓan
+RV_05.025.00.42  agnir no havyavÃhano 'gniæ dhÅbhi÷ saparyata
+RV_05.025.00.51  agnis tuviÓravastamaæ tuvibrahmÃïam uttamam
+RV_05.025.00.52  atÆrtaæ ÓrÃvayatpatim putraæ dadÃti dÃÓu«e
+RV_05.025.00.61  agnir dadÃti satpatiæ sÃsÃha yo yudhÃ n­bhi÷
+RV_05.025.00.62  agnir atyaæ raghu«yadaæ jetÃram aparÃjitam
+RV_05.025.00.71  yad vÃhi«Âhaæ tad agnaye b­had arca vibhÃvaso
+RV_05.025.00.72  mahi«Åva tvad rayis tvad vÃjÃ ud Årate
+RV_05.025.00.81  tava dyumanto arcayo grÃvevocyate b­hat
+RV_05.025.00.82  uto te tanyatur yathÃ svÃno arta tmanÃ diva÷
+RV_05.025.00.91  evÃæ agniæ vasÆyava÷ sahasÃnaæ vavandima
+RV_05.025.00.92  sa no viÓvÃ ati dvi«a÷ par«an nÃveva sukratu÷ 
+
+RV_05.026.01.1  agne pÃvaka roci«Ã mandrayÃ deva jihvayÃ
+RV_05.026.01.2  Ã devÃn vak«i yak«i ca
+RV_05.026.02.1  taæ tvÃ gh­tasnav Åmahe citrabhÃno svard­Óam
+RV_05.026.02.2  devÃæ Ã vÅtaye vaha
+RV_05.026.03.1  vÅtihotraæ tvÃ kave dyumantaæ sam idhÅmahi
+RV_05.026.03.2  agne b­hantam adhvare
+RV_05.026.04.1  agne viÓvebhir Ã gahi devebhir havyadÃtaye
+RV_05.026.04.2  hotÃraæ tvÃ v­ïÅmahe
+RV_05.026.05.1  yajamÃnÃya sunvata Ãgne suvÅryaæ vaha
+RV_05.026.05.2  devair Ã satsi barhi«i
+RV_05.026.06.1  samidhÃna÷ sahasrajid agne dharmÃïi pu«yasi
+RV_05.026.06.2  devÃnÃæ dÆta ukthya÷
+RV_05.026.07.1  ny agniæ jÃtavedasaæ hotravÃhaæ yavi«Âhyam
+RV_05.026.07.2  dadhÃtÃ devam ­tvijam
+RV_05.026.08.1  pra yaj¤a etv Ãnu«ag adyÃ devavyacastama÷
+RV_05.026.08.2  st­ïÅta barhir Ãsade
+RV_05.026.09.1  edam maruto aÓvinÃ mitra÷ sÅdantu varuïa÷
+RV_05.026.09.2  devÃsa÷ sarvayÃ viÓÃ 
+
+RV_05.027.01.1  anasvantÃ satpatir mÃmahe me gÃvÃ ceti«Âho asuro maghona÷
+RV_05.027.01.2  traiv­«ïo agne daÓabhi÷ sahasrair vaiÓvÃnara tryaruïaÓ ciketa
+RV_05.027.02.1  yo me ÓatÃ ca viæÓatiæ ca gonÃæ harÅ ca yuktÃ sudhurÃ dadÃti
+RV_05.027.02.2  vaiÓvÃnara su«Âuto vÃv­dhÃno 'gne yacha tryaruïÃya Óarma
+RV_05.027.03.1  evÃ te agne sumatiæ cakÃno navi«ÂhÃya navamaæ trasadasyu÷
+RV_05.027.03.2  yo me giras tuvijÃtasya pÆrvÅr yuktenÃbhi tryaruïo g­ïÃti
+RV_05.027.04.1  yo ma iti pravocaty aÓvamedhÃya sÆraye
+RV_05.027.04.2  dadad ­cÃ saniæ yate dadan medhÃm ­tÃyate
+RV_05.027.05.1  yasya mÃ paru«Ã÷ Óatam uddhar«ayanty uk«aïa÷
+RV_05.027.05.2  aÓvamedhasya dÃnÃ÷ somÃ iva try­Óira÷
+RV_05.027.06.1  indrÃgnÅ ÓatadÃvny aÓvamedhe suvÅryam
+RV_05.027.06.2  k«atraæ dhÃrayatam b­had divi sÆryam ivÃjaram 
+
+RV_05.028.01.1  samiddho agnir divi Óocir aÓret pratyaÇÇ u«asam urviyÃ vi bhÃti
+RV_05.028.01.2  eti prÃcÅ viÓvavÃrÃ namobhir devÃæ ÅÊÃnÃ havi«Ã gh­tÃcÅ
+RV_05.028.02.1  samidhyamÃno am­tasya rÃjasi havi« k­ïvantaæ sacase svastaye
+RV_05.028.02.2  viÓvaæ sa dhatte draviïaæ yam invasy Ãtithyam agne ni ca dhatta it pura÷
+RV_05.028.03.1  agne Óardha mahate saubhagÃya tava dyumnÃny uttamÃni santu
+RV_05.028.03.2  saæ jÃspatyaæ suyamam Ã k­ïu«va ÓatrÆyatÃm abhi ti«ÂhÃ mahÃæsi
+RV_05.028.04.1  samiddhasya pramahaso 'gne vande tava Óriyam
+RV_05.028.04.2  v­«abho dyumnavÃæ asi sam adhvare«v idhyase
+RV_05.028.05.1  samiddho agna Ãhuta devÃn yak«i svadhvara
+RV_05.028.05.2  tvaæ hi havyavÃÊ asi
+RV_05.028.06.1  Ã juhotÃ duvasyatÃgnim prayaty adhvare
+RV_05.028.06.2  v­ïÅdhvaæ havyavÃhanam 
+
+RV_05.029.01.1  try aryamÃ manu«o devatÃtÃ trÅ rocanÃ divyÃ dhÃrayanta
+RV_05.029.01.2  arcanti tvÃ maruta÷ pÆtadak«Ãs tvam e«Ãm ­«ir indrÃsi dhÅra÷
+RV_05.029.02.1  anu yad Åm maruto mandasÃnam Ãrcann indram papivÃæsaæ sutasya
+RV_05.029.02.2  Ãdatta vajram abhi yad ahiæ hann apo yahvÅr as­jat sartavÃ u
+RV_05.029.03.1  uta brahmÃïo maruto me asyendra÷ somasya su«utasya peyÃ÷
+RV_05.029.03.2  tad dhi havyam manu«e gÃ avindad ahann ahim papivÃæ indro asya
+RV_05.029.04.1  Ãd rodasÅ vitaraæ vi «kabhÃyat saævivyÃnaÓ cid bhiyase m­gaæ ka÷
+RV_05.029.04.2  jigartim indro apajargurÃïa÷ prati Óvasantam ava dÃnavaæ han
+RV_05.029.05.1  adha kratvÃ maghavan tubhyaæ devÃ anu viÓve adadu÷ somapeyam
+RV_05.029.05.2  yat sÆryasya harita÷ patantÅ÷ pura÷ satÅr uparÃ etaÓe ka÷
+RV_05.029.06.1  nava yad asya navatiæ ca bhogÃn sÃkaæ vajreïa maghavÃ viv­Ócat
+RV_05.029.06.2  arcantÅndram maruta÷ sadhasthe trai«Âubhena vacasÃ bÃdhata dyÃm
+RV_05.029.07.1  sakhÃ sakhye apacat tÆyam agnir asya kratvÃ mahi«Ã trÅ ÓatÃni
+RV_05.029.07.2  trÅ sÃkam indro manu«a÷ sarÃæsi sutam pibad v­trahatyÃya somam
+RV_05.029.08.1  trÅ yac chatÃ mahi«ÃïÃm agho mÃs trÅ sarÃæsi maghavÃ somyÃpÃ÷
+RV_05.029.08.2  kÃraæ na viÓve ahvanta devÃ bharam indrÃya yad ahiæ jaghÃna
+RV_05.029.09.1  uÓanÃ yat sahasyair ayÃtaæ g­ham indra jÆjuvÃnebhir aÓvai÷
+RV_05.029.09.2  vanvÃno atra sarathaæ yayÃtha kutsena devair avanor ha Óu«ïam
+RV_05.029.10.1  prÃnyac cakram av­ha÷ sÆryasya kutsÃyÃnyad varivo yÃtave 'ka÷
+RV_05.029.10.2  anÃso dasyÆær am­ïo vadhena ni duryoïa Ãv­ïaÇ m­dhravÃca÷
+RV_05.029.11.1  stomÃsas tvÃ gaurivÅter avardhann arandhayo vaidathinÃya piprum
+RV_05.029.11.2  Ã tvÃm ­jiÓvÃ sakhyÃya cakre pacan paktÅr apiba÷ somam asya
+RV_05.029.12.1  navagvÃsa÷ sutasomÃsa indraæ daÓagvÃso abhy arcanty arkai÷
+RV_05.029.12.2  gavyaæ cid Ærvam apidhÃnavantaæ taæ cin nara÷ ÓaÓamÃnÃ apa vran
+RV_05.029.13.1  katho nu te pari carÃïi vidvÃn vÅry­ maghavan yÃ cakartha
+RV_05.029.13.2  yÃ co nu navyÃ k­ïava÷ Óavi«Âha pred u tÃ te vidathe«u bravÃma
+RV_05.029.14.1  etÃ viÓvÃ cak­vÃæ indra bhÆry aparÅto janu«Ã vÅryeïa
+RV_05.029.14.2  yÃ cin nu vajrin k­ïavo dadh­«vÃn na te vartÃ tavi«yÃ asti tasyÃ÷
+RV_05.029.15.1  indra brahma kriyamÃïÃ ju«asva yÃ te Óavi«Âha navyÃ akarma
+RV_05.029.15.2  vastreva bhadrÃ suk­tÃ vasÆyÆ rathaæ na dhÅra÷ svapÃ atak«am 
+
+RV_05.030.01.1  kva sya vÅra÷ ko apaÓyad indraæ sukharatham ÅyamÃnaæ haribhyÃm
+RV_05.030.01.2  yo rÃyÃ vajrÅ sutasomam ichan tad oko gantÃ puruhÆta ÆtÅ
+RV_05.030.02.1  avÃcacak«am padam asya sasvar ugraæ nidhÃtur anv Ãyam ichan
+RV_05.030.02.2  ap­cham anyÃæ uta te ma Ãhur indraæ naro bubudhÃnÃ aÓema
+RV_05.030.03.1  pra nu vayaæ sute yÃ te k­tÃnÅndra bravÃma yÃni no jujo«a÷
+RV_05.030.03.2  vedad avidvÃ¤ ch­ïavac ca vidvÃn vahate 'yam maghavÃ sarvasena÷
+RV_05.030.04.1  sthiram manaÓ cak­«e jÃta indra ve«Åd eko yudhaye bhÆyasaÓ cit
+RV_05.030.04.2  aÓmÃnaæ cic chavasÃ didyuto vi vido gavÃm Ærvam usriyÃïÃm
+RV_05.030.05.1  paro yat tvam parama Ãjani«ÂhÃ÷ parÃvati Órutyaæ nÃma bibhrat
+RV_05.030.05.2  ataÓ cid indrÃd abhayanta devÃ viÓvÃ apo ajayad dÃsapatnÅ÷
+RV_05.030.06.1  tubhyed ete maruta÷ suÓevÃ arcanty arkaæ sunvanty andha÷
+RV_05.030.06.2  ahim ohÃnam apa ÃÓayÃnam pra mÃyÃbhir mÃyinaæ sak«ad indra÷
+RV_05.030.07.1  vi «Æ m­dho janu«Ã dÃnam invann ahan gavÃ maghavan saæcakÃna÷
+RV_05.030.07.2  atrÃ dÃsasya namuce÷ Óiro yad avartayo manave gÃtum ichan
+RV_05.030.08.1  yujaæ hi mÃm ak­thÃ Ãd id indra Óiro dÃsasya namucer mathÃyan
+RV_05.030.08.2  aÓmÃnaæ cit svaryaæ vartamÃnam pra cakriyeva rodasÅ marudbhya÷
+RV_05.030.09.1  striyo hi dÃsa ÃyudhÃni cakre kim mÃ karann abalÃ asya senÃ÷
+RV_05.030.09.2  antar hy akhyad ubhe asya dhene athopa praid yudhaye dasyum indra÷
+RV_05.030.10.1  sam atra gÃvo 'bhito 'navanteheha vatsair viyutÃ yad Ãsan
+RV_05.030.10.2  saæ tÃ indro as­jad asya ÓÃkair yad Åæ somÃsa÷ su«utÃ amandan
+RV_05.030.11.1  yad Åæ somÃ babhrudhÆtÃ amandann aroravÅd v­«abha÷ sÃdane«u
+RV_05.030.11.2  puraædara÷ papivÃæ indro asya punar gavÃm adadÃd usriyÃïÃm
+RV_05.030.12.1  bhadram idaæ ruÓamÃ agne akran gavÃæ catvÃri dadata÷ sahasrÃ
+RV_05.030.12.2  ­ïaæcayasya prayatÃ maghÃni praty agrabhÅ«ma n­tamasya n­ïÃm
+RV_05.030.13.1  supeÓasam mÃva s­janty astaæ gavÃæ sahasrai ruÓamÃso agne
+RV_05.030.13.2  tÅvrÃ indram amamandu÷ sutÃso 'ktor vyu«Âau paritakmyÃyÃ÷
+RV_05.030.14.1  auchat sÃ rÃtrÅ paritakmyÃ yÃm ­ïaæcaye rÃjani ruÓamÃnÃm
+RV_05.030.14.2  atyo na vÃjÅ raghur ajyamÃno babhruÓ catvÃry asanat sahasrÃ
+RV_05.030.15.1  catu÷sahasraæ gavyasya paÓva÷ praty agrabhÅ«ma ruÓame«v agne
+RV_05.030.15.2  gharmaÓ cit tapta÷ prav­je ya ÃsÅd ayasmayas taæ v ÃdÃma viprÃ÷ 
+
+RV_05.031.01.1  indro rathÃya pravataæ k­ïoti yam adhyasthÃn maghavÃ vÃjayantam
+RV_05.031.01.2  yÆtheva paÓvo vy unoti gopÃ a­i«Âo yÃti prathama÷ si«Ãsan
+RV_05.031.02.1  Ã pra drava harivo mÃ vi vena÷ piÓaÇgarÃte abhi na÷ sacasva
+RV_05.031.02.2  nahi tvad indra vasyo anyad asty amenÃæÓ cij janivataÓ cakartha
+RV_05.031.03.1  ud yat saha÷ sahasa Ãjani«Âa dedi«Âa indra indriyÃïi viÓvÃ
+RV_05.031.03.2  prÃcodayat sudughÃ vavre antar vi jyoti«Ã saævav­tvat tamo 'va÷
+RV_05.031.04.1  anavas te ratham aÓvÃya tak«an tva«ÂÃ vajram puruhÆta dyumantam
+RV_05.031.04.2  brahmÃïa indram mahayanto arkair avardhayann ahaye hantavÃ u
+RV_05.031.05.1  v­«ïe yat te v­«aïo arkam arcÃn indra grÃvÃïo aditi÷ sajo«Ã÷
+RV_05.031.05.2  anaÓvÃso ye pavayo 'rathÃ indre«itÃ abhy avartanta dasyÆn
+RV_05.031.06.1  pra te pÆrvÃïi karaïÃni vocam pra nÆtanÃ maghavan yÃ cakartha
+RV_05.031.06.2  ÓaktÅvo yad vibharÃ rodasÅ ubhe jayann apo manave dÃnucitrÃ÷
+RV_05.031.07.1  tad in nu te karaïaæ dasma viprÃhiæ yad ghnann ojo atrÃmimÅthÃ÷
+RV_05.031.07.2  Óu«ïasya cit pari mÃyÃ ag­bhïÃ÷ prapitvaæ yann apa dasyÆær asedha÷
+RV_05.031.08.1  tvam apo yadave turvaÓÃyÃramaya÷ sudughÃ÷ pÃra indra
+RV_05.031.08.2  ugram ayÃtam avaho ha kutsaæ saæ ha yad vÃm uÓanÃranta devÃ÷
+RV_05.031.09.1  indrÃkutsÃ vahamÃnÃ rathenÃ vÃm atyÃ api karïe vahantu
+RV_05.031.09.2  ni÷ «Åm adbhyo dhamatho ni÷ «adhasthÃn maghono h­do varathas tamÃæsi
+RV_05.031.10.1  vÃtasya yuktÃn suyujaÓ cid aÓvÃn kaviÓ cid e«o ajagann avasyu÷
+RV_05.031.10.2  viÓve te atra maruta÷ sakhÃya indra brahmÃïi tavi«Åm avardhan
+RV_05.031.11.1  sÆraÓ cid ratham paritakmyÃyÃm pÆrvaæ karad uparaæ jÆjuvÃæsam
+RV_05.031.11.2  bharac cakram etaÓa÷ saæ riïÃti puro dadhat sani«yati kratuæ na÷
+RV_05.031.12.1  Ãyaæ janÃ abhicak«e jagÃmendra÷ sakhÃyaæ sutasomam ichan
+RV_05.031.12.2  vadan grÃvÃva vedim bhriyÃte yasya jÅram adhvaryavaÓ caranti
+RV_05.031.13.1  ye cÃkananta cÃkananta nÆ te martÃ am­ta mo te aæha Ãran
+RV_05.031.13.2  vÃvandhi yajyÆær uta te«u dhehy ojo jane«u ye«u te syÃma 
+
+RV_05.032.01.1  adardar utsam as­jo vi khÃni tvam arïavÃn badbadhÃnÃæ aramïÃ÷
+RV_05.032.01.2  mahÃntam indra parvataæ vi yad va÷ s­jo vi dhÃrÃ ava dÃnavaæ han
+RV_05.032.02.1  tvam utsÃm ­tubhir badbadhÃnÃæ araæha Ædha÷ parvatasya vajrin
+RV_05.032.02.2  ahiæ cid ugra prayutaæ ÓayÃnaæ jaghanvÃæ indra tavi«Åm adhatthÃ÷
+RV_05.032.03.1  tyasya cin mahato nir m­gasya vadhar jaghÃna tavi«Åbhir indra÷
+RV_05.032.03.2  ya eka id apratir manyamÃna Ãd asmÃd anyo ajani«Âa tavyÃn
+RV_05.032.04.1  tyaæ cid e«Ãæ svadhayÃ madantam miho napÃtaæ suv­dhaæ tamogÃm
+RV_05.032.04.2  v­«aprabharmÃ dÃnavasya bhÃmaæ vajreïa vajrÅ ni jaghÃna Óu«ïam
+RV_05.032.05.1  tyaæ cid asya kratubhir ni«attam amarmaïo vidad id asya marma
+RV_05.032.05.2  yad Åæ suk«atra prabh­tÃ madasya yuyutsantaæ tamasi harmye dhÃ÷
+RV_05.032.06.1  tyaæ cid itthÃ katpayaæ ÓayÃnam asÆrye tamasi vÃv­dhÃnam
+RV_05.032.06.2  taæ cin mandÃno v­«abha÷ sutasyoccair indro apagÆryÃ jaghÃna
+RV_05.032.07.1  ud yad indro mahate dÃnavÃya vadhar yami«Âa saho apratÅtam
+RV_05.032.07.2  yad Åæ vajrasya prabh­tau dadÃbha viÓvasya jantor adhamaæ cakÃra
+RV_05.032.08.1  tyaæ cid arïam madhupaæ ÓayÃnam asinvaæ vavram mahy Ãdad ugra÷
+RV_05.032.08.2  apÃdam atram mahatÃ vadhena ni duryoïa Ãv­ïaÇ m­dhravÃcam
+RV_05.032.09.1  ko asya Óu«maæ tavi«Åæ varÃta eko dhanÃ bharate apratÅta÷
+RV_05.032.09.2  ime cid asya jrayaso nu devÅ indrasyaujaso bhiyasÃ jihÃte
+RV_05.032.10.1  ny asmai devÅ svadhitir jihÅta indrÃya gÃtur uÓatÅva yeme
+RV_05.032.10.2  saæ yad ojo yuvate viÓvam Ãbhir anu svadhÃvne k«itayo namanta
+RV_05.032.11.1  ekaæ nu tvÃ satpatim pÃ¤cajanyaæ jÃtaæ Ó­ïomi yaÓasaæ jane«u
+RV_05.032.11.2  tam me jag­bhra ÃÓaso navi«Âhaæ do«Ã vastor havamÃnÃsa indram
+RV_05.032.12.1  evÃ hi tvÃm ­tuthÃ yÃtayantam maghÃ viprebhyo dadataæ Ó­ïomi
+RV_05.032.12.2  kiæ te brahmÃïo g­hate sakhÃyo ye tvÃyÃ nidadhu÷ kÃmam indra 
+
+RV_05.033.01.1  mahi mahe tavase dÅdhye nÌn indrÃyetthÃ tavase atavyÃn
+RV_05.033.01.2  yo asmai sumatiæ vÃjasÃtau stuto jane samaryaÓ ciketa
+RV_05.033.02.1  sa tvaæ na indra dhiyasÃno arkair harÅïÃæ v­«an yoktram aÓre÷
+RV_05.033.02.2  yÃ itthÃ maghavann anu jo«aæ vak«o abhi prÃrya÷ sak«i janÃn
+RV_05.033.03.1  na te ta indrÃbhy asmad ­«vÃyuktÃso abrahmatÃ yad asan
+RV_05.033.03.2  ti«ÂhÃ ratham adhi taæ vajrahastÃ raÓmiæ deva yamase svaÓva÷
+RV_05.033.04.1  purÆ yat ta indra santy ukthÃ gave cakarthorvarÃsu yudhyan
+RV_05.033.04.2  tatak«e sÆryÃya cid okasi sve v­«Ã samatsu dÃsasya nÃma cit
+RV_05.033.05.1  vayaæ te ta indra ye ca nara÷ Óardho jaj¤ÃnÃ yÃtÃÓ ca rathÃ÷
+RV_05.033.05.2  ÃsmÃ¤ jagamyÃd ahiÓu«ma satvÃ bhago na havya÷ prabh­the«u cÃru÷
+RV_05.033.06.1  pap­k«eïyam indra tve hy ojo n­mïÃni ca n­tamÃno amarta÷
+RV_05.033.06.2  sa na enÅæ vasavÃno rayiæ dÃ÷ prÃrya stu«e tuvimaghasya dÃnam
+RV_05.033.07.1  evÃ na indrotibhir ava pÃhi g­ïata÷ ÓÆra kÃrÆn
+RV_05.033.07.2  uta tvacaæ dadato vÃjasÃtau piprÅhi madhva÷ su«utasya cÃro÷
+RV_05.033.08.1  uta tye mÃ paurukutsyasya sÆres trasadasyor hiraïino rarÃïÃ÷
+RV_05.033.08.2  vahantu mÃ daÓa ÓyetÃso asya gairik«itasya kratubhir nu saÓce
+RV_05.033.09.1  uta tye mÃ mÃrutÃÓvasya ÓoïÃ÷ kratvÃmaghÃso vidathasya rÃtau
+RV_05.033.09.2  sahasrÃ me cyavatÃno dadÃna ÃnÆkam aryo vapu«e nÃrcat
+RV_05.033.10.1  uta tye mÃ dhvanyasya ju«ÂÃ lak«maïyasya suruco yatÃnÃ÷
+RV_05.033.10.2  mahnÃ rÃya÷ saævaraïasya ­«er vrajaæ na gÃva÷ prayatÃ api gman 
+
+RV_05.034.01.1  ajÃtaÓatrum ajarÃ svarvaty anu svadhÃmitÃ dasmam Åyate
+RV_05.034.01.2  sunotana pacata brahmavÃhase puru«ÂutÃya prataraæ dadhÃtana
+RV_05.034.02.1  Ã ya÷ somena jaÂharam apipratÃmandata maghavÃ madhvo andhasa÷
+RV_05.034.02.2  yad Åm m­gÃya hantave mahÃvadha÷ sahasrabh­«Âim uÓanÃ vadhaæ yamat
+RV_05.034.03.1  yo asmai ghraæsa uta vÃ ya Ædhani somaæ sunoti bhavati dyumÃæ aha
+RV_05.034.03.2  apÃpa Óakras tatanu«Âim Æhati tanÆÓubhram maghavÃ ya÷ kavÃsakha÷
+RV_05.034.04.1  yasyÃvadhÅt pitaraæ yasya mÃtaraæ yasya Óakro bhrÃtaraæ nÃta Å«ate
+RV_05.034.04.2  vetÅd v asya prayatÃ yataækaro na kilbi«Ãd Å«ate vasva Ãkara÷
+RV_05.034.05.1  na pa¤cabhir daÓabhir va«Ây Ãrabhaæ nÃsunvatÃ sacate pu«yatÃ cana
+RV_05.034.05.2  jinÃti ved amuyÃ hanti vÃ dhunir Ã devayum bhajati gomati vraje
+RV_05.034.06.1  vitvak«aïa÷ sam­tau cakramÃsajo 'sunvato vi«uïa÷ sunvato v­dha÷
+RV_05.034.06.2  indro viÓvasya damitÃ vibhÅ«aïo yathÃvaÓaæ nayati dÃsam Ãrya÷
+RV_05.034.07.1  sam Åm païer ajati bhojanam mu«e vi dÃÓu«e bhajati sÆnaraæ vasu
+RV_05.034.07.2  durge cana dhriyate viÓva Ã puru jano yo asya tavi«Åm acukrudhat
+RV_05.034.08.1  saæ yaj janau sudhanau viÓvaÓardhasÃv aved indro maghavÃ go«u Óubhri«u
+RV_05.034.08.2  yujaæ hy anyam ak­ta pravepany ud Åæ gavyaæ s­jate satvabhir dhuni÷
+RV_05.034.09.1  sahasrasÃm ÃgniveÓiæ g­ïÅ«e Óatrim agna upamÃæ ketum arya÷
+RV_05.034.09.2  tasmÃ Ãpa÷ saæyata÷ pÅpayanta tasmin k«atram amavat tve«am astu 
+
+RV_05.035.00.11  yas te sÃdhi«Âho 'vasa indra kratu« Âam Ã bhara
+RV_05.035.00.12  asmabhyaæ car«aïÅsahaæ sasniæ vÃje«u du«Âaram
+RV_05.035.00.21  yad indra te catasro yac chÆra santi tisra÷
+RV_05.035.00.22  yad vÃ pa¤ca k«itÅnÃm avas tat su na Ã bhara
+RV_05.035.00.31  Ã te 'vo vareïyaæ v­«antamasya hÆmahe
+RV_05.035.00.32  v­«ajÆtir hi jaj¤i«a ÃbhÆbhir indra turvaïi÷
+RV_05.035.00.41  v­«Ã hy asi rÃdhase jaj¤i«e v­«ïi te Óava÷
+RV_05.035.00.42  svak«atraæ te dh­«an mana÷ satrÃham indra pauæsyam
+RV_05.035.00.51  tvaæ tam indra martyam amitrayantam adriva÷
+RV_05.035.00.52  sarvarathÃ Óatakrato ni yÃhi Óavasas pate
+RV_05.035.00.61  tvÃm id v­trahantama janÃso v­ktabarhi«a÷
+RV_05.035.00.62  ugram pÆrvÅ«u pÆrvyaæ havante vÃjasÃtaye
+RV_05.035.00.71  asmÃkam indra du«Âaram puroyÃvÃnam Ãji«u
+RV_05.035.00.72  sayÃvÃnaæ dhane-dhane vÃjayantam avÃ ratham
+RV_05.035.00.81  asmÃkam indrehi no ratham avÃ puraædhyÃ
+RV_05.035.00.82  vayaæ Óavi«Âha vÃryaæ divi Óravo dadhÅmahi divi stomam manÃmahe 
+
+RV_05.036.01.1  sa Ã gamad indro yo vasÆnÃæ ciketad dÃtuæ dÃmano rayÅïÃm
+RV_05.036.01.2  dhanvacaro na vaæsagas t­«ÃïaÓ cakamÃna÷ pibatu dugdham aæÓum
+RV_05.036.02.1  Ã te hanÆ hariva÷ ÓÆra Óipre ruhat somo na parvatasya p­«Âhe
+RV_05.036.02.2  anu tvÃ rÃjann arvato na hinvan gÅrbhir madema puruhÆta viÓve
+RV_05.036.03.1  cakraæ na v­ttam puruhÆta vepate mano bhiyÃ me amater id adriva÷
+RV_05.036.03.2  rathÃd adhi tvÃ jaritÃ sadÃv­dha kuvin nu sto«an maghavan purÆvasu÷
+RV_05.036.04.1  e«a grÃveva jaritÃ ta indreyarti vÃcam b­had ÃÓu«Ãïa÷
+RV_05.036.04.2  pra savyena maghavan yaæsi rÃya÷ pra dak«iïid dharivo mÃ vi vena÷
+RV_05.036.05.1  v­«Ã tvÃ v­«aïaæ vardhatu dyaur v­«Ã v­«abhyÃæ vahase haribhyÃm
+RV_05.036.05.2  sa no v­«Ã v­«aratha÷ suÓipra v­«akrato v­«Ã vajrin bhare dhÃ÷
+RV_05.036.06.1  yo rohitau vÃjinau vÃjinÅvÃn tribhi÷ Óatai÷ sacamÃnÃv adi«Âa
+RV_05.036.06.2  yÆne sam asmai k«itayo namantÃæ ÓrutarathÃya maruto duvoyÃ 
+
+RV_05.037.01.1  sam bhÃnunÃ yatate sÆryasyÃjuhvÃno gh­tap­«Âha÷ sva¤cÃ÷
+RV_05.037.01.2  tasmÃ am­dhrÃ u«aso vy uchÃn ya indrÃya sunavÃmety Ãha
+RV_05.037.02.1  samiddhÃgnir vanavat stÅrïabarhir yuktagrÃvÃ sutasomo jarÃte
+RV_05.037.02.2  grÃvÃïo yasye«iraæ vadanty ayad adhvaryur havi«Ãva sindhum
+RV_05.037.03.1  vadhÆr iyam patim ichanty eti ya Åæ vahÃte mahi«Åm i«irÃm
+RV_05.037.03.2  Ãsya ÓravasyÃd ratha Ã ca gho«Ãt purÆ sahasrÃ pari vartayÃte
+RV_05.037.04.1  na sa rÃjÃ vyathate yasminn indras tÅvraæ somam pibati gosakhÃyam
+RV_05.037.04.2  Ã satvanair ajati hanti v­traæ k«eti k«itÅ÷ subhago nÃma pu«yan
+RV_05.037.05.1  pu«yÃt k«eme abhi yoge bhavÃty ubhe v­tau saæyatÅ saæ jayÃti
+RV_05.037.05.2  priya÷ sÆrye priyo agnÃ bhavÃti ya indrÃya sutasomo dadÃÓat 
+
+RV_05.038.01.1  uro« Âa indra rÃdhaso vibhvÅ rÃti÷ Óatakrato
+RV_05.038.01.2  adhÃ no viÓvacar«aïe dyumnÃ suk«atra maæhaya
+RV_05.038.02.1  yad Åm indra ÓravÃyyam i«aæ Óavi«Âha dadhi«e
+RV_05.038.02.2  paprathe dÅrghaÓruttamaæ hiraïyavarïa du«Âaram
+RV_05.038.03.1  Óu«mÃso ye te adrivo mehanÃ ketasÃpa÷
+RV_05.038.03.2  ubhÃ devÃv abhi«Âaye divaÓ ca gmaÓ ca rÃjatha÷
+RV_05.038.04.1  uto no asya kasya cid dak«asya tava v­trahan
+RV_05.038.04.2  asmabhyaæ n­mïam Ã bharÃsmabhyaæ n­maïasyase
+RV_05.038.05.1  nÆ ta Ãbhir abhi«Âibhis tava Óarma¤ chatakrato
+RV_05.038.05.2  indra syÃma sugopÃ÷ ÓÆra syÃma sugopÃ÷ 
+
+RV_05.039.01.1  yad indra citra mehanÃsti tvÃdÃtam adriva÷
+RV_05.039.01.2  rÃdhas tan no vidadvasa ubhayÃhasty Ã bhara
+RV_05.039.02.1  yan manyase vareïyam indra dyuk«aæ tad Ã bhara
+RV_05.039.02.2  vidyÃma tasya te vayam akÆpÃrasya dÃvane
+RV_05.039.03.1  yat te ditsu prarÃdhyam mano asti Órutam b­hat
+RV_05.039.03.2  tena d­ÊhÃ cid adriva Ã vÃjaæ dar«i sÃtaye
+RV_05.039.04.1  maæhi«Âhaæ vo maghonÃæ rÃjÃnaæ car«aïÅnÃm
+RV_05.039.04.2  indram upa praÓastaye pÆrvÅbhir juju«e gira÷
+RV_05.039.05.1  asmÃ it kÃvyaæ vaca uktham indrÃya Óaæsyam
+RV_05.039.05.2  tasmÃ u brahmavÃhase giro vardhanty atrayo gira÷ Óumbhanty atraya÷ 
+
+RV_05.040.01.1  Ã yÃhy adribhi÷ sutaæ somaæ somapate piba
+RV_05.040.01.2  v­«ann indra v­«abhir v­trahantama
+RV_05.040.02.1  v­«Ã grÃvÃ v­«Ã mado v­«Ã somo ayaæ suta÷
+RV_05.040.02.2  v­«ann indra v­«abhir v­trahantama
+RV_05.040.03.1  v­«Ã tvÃ v­«aïaæ huve vajri¤ citrÃbhir Ætibhi÷
+RV_05.040.03.2  v­«ann indra v­«abhir v­trahantama
+RV_05.040.04.1  ­jÅ«Å vajrÅ v­«abhas turÃ«ÃÂ chu«mÅ rÃjÃ v­trahÃ somapÃvÃ
+RV_05.040.04.2  yuktvÃ haribhyÃm upa yÃsad arvÃÇ mÃdhyaædine savane matsad indra÷
+RV_05.040.05.1  yat tvÃ sÆrya svarbhÃnus tamasÃvidhyad Ãsura÷
+RV_05.040.05.2  ak«etravid yathÃ mugdho bhuvanÃny adÅdhayu÷
+RV_05.040.06.1  svarbhÃnor adha yad indra mÃyÃ avo divo vartamÃnÃ avÃhan
+RV_05.040.06.2  gÆÊhaæ sÆryaæ tamasÃpavratena turÅyeïa brahmaïÃvindad atri÷
+RV_05.040.07.1  mÃ mÃm imaæ tava santam atra irasyÃ drugdho bhiyasÃ ni gÃrÅt
+RV_05.040.07.2  tvam mitro asi satyarÃdhÃs tau mehÃvataæ varuïaÓ ca rÃjÃ
+RV_05.040.08.1  grÃvïo brahmÃ yuyujÃna÷ saparyan kÅriïÃ devÃn namasopaÓik«an
+RV_05.040.08.2  atri÷ sÆryasya divi cak«ur ÃdhÃt svarbhÃnor apa mÃyÃ aghuk«at
+RV_05.040.09.1  yaæ vai sÆryaæ svarbhÃnus tamasÃvidhyad Ãsura÷
+RV_05.040.09.2  atrayas tam anv avindan nahy anye aÓaknuvan 
+
+RV_05.041.01.1  ko nu vÃm mitrÃvaruïÃv ­tÃyan divo vÃ maha÷ pÃrthivasya vÃ de
+RV_05.041.01.2  ­tasya vÃ sadasi trÃsÅthÃæ no yaj¤Ãyate vÃ paÓu«o na vÃjÃn
+RV_05.041.02.1  te no mitro varuïo aryamÃyur indra ­bhuk«Ã maruto ju«anta
+RV_05.041.02.2  namobhir vÃ ye dadhate suv­ktiæ stomaæ rudrÃya mÅÊhu«e sajo«Ã÷
+RV_05.041.03.1  Ã vÃæ ye«ÂhÃÓvinÃ huvadhyai vÃtasya patman rathyasya pu«Âau
+RV_05.041.03.2  uta vÃ divo asurÃya manma prÃndhÃæsÅva yajyave bharadhvam
+RV_05.041.04.1  pra sak«aïo divya÷ kaïvahotÃ trito diva÷ sajo«Ã vÃto agni÷
+RV_05.041.04.2  pÆ«Ã bhaga÷ prabh­the viÓvabhojÃ Ãjiæ na jagmur ÃÓvaÓvatamÃ÷
+RV_05.041.05.1  pra vo rayiæ yuktÃÓvam bharadhvaæ rÃya e«e 'vase dadhÅta dhÅ÷
+RV_05.041.05.2  suÓeva evair auÓijasya hotÃ ye va evÃ marutas turÃïÃm
+RV_05.041.06.1  pra vo vÃyuæ rathayujaæ k­ïudhvam pra devaæ vipram panitÃram arkai÷
+RV_05.041.06.2  i«udhyava ­tasÃpa÷ puraædhÅr vasvÅr no atra patnÅr Ã dhiye dhu÷
+RV_05.041.07.1  upa va e«e vandyebhi÷ ÓÆ«ai÷ pra yahvÅ divaÓ citayadbhir arkai÷
+RV_05.041.07.2  u«ÃsÃnaktÃ vidu«Åva viÓvam Ã hÃ vahato martyÃya yaj¤am
+RV_05.041.08.1  abhi vo arce po«yÃvato nÌn vÃsto« patiæ tva«ÂÃraæ rarÃïa÷
+RV_05.041.08.2  dhanyÃ sajo«Ã dhi«aïÃ namobhir vanaspatÅær o«adhÅ rÃya e«e
+RV_05.041.09.1  tuje nas tane parvatÃ÷ santu svaitavo ye vasavo na vÅrÃ÷
+RV_05.041.09.2  panita Ãptyo yajata÷ sadÃ no vardhÃn na÷ Óaæsaæ naryo abhi«Âau
+RV_05.041.10.1  v­«ïo asto«i bhÆmyasya garbhaæ trito napÃtam apÃæ suv­kti
+RV_05.041.10.2  g­ïÅte agnir etarÅ na ÓÆ«ai÷ Óoci«keÓo ni riïÃti vanÃ
+RV_05.041.11.1  kathÃ mahe rudriyÃya bravÃma kad rÃye cikitu«e bhagÃya
+RV_05.041.11.2  Ãpa o«adhÅr uta no 'vantu dyaur vanÃ girayo v­k«akeÓÃ÷
+RV_05.041.12.1  Ó­ïotu na ÆrjÃm patir gira÷ sa nabhas tarÅyÃæ i«ira÷ parijmÃ
+RV_05.041.12.2  Ó­ïvantv Ãpa÷ puro na ÓubhrÃ÷ pari sruco bab­hÃïasyÃdre÷
+RV_05.041.13.1  vidÃ cin nu mahÃnto ye va evÃ bravÃma dasmÃ vÃryaæ dadhÃnÃ÷
+RV_05.041.13.2  vayaÓ cana subhva Ãva yanti k«ubhÃ martam anuyataæ vadhasnai÷
+RV_05.041.14.1  Ã daivyÃni pÃrthivÃni janmÃpaÓ cÃchÃ sumakhÃya vocam
+RV_05.041.14.2  vardhantÃæ dyÃvo giraÓ candrÃgrÃ udÃ vardhantÃm abhi«ÃtÃ arïÃ÷
+RV_05.041.15.1  pade-pade me jarimÃ ni dhÃyi varÆtrÅ vÃ ÓakrÃ yÃ pÃyubhiÓ ca
+RV_05.041.15.2  si«aktu mÃtÃ mahÅ rasÃ na÷ smat sÆribhir ­juhasta ­juvani÷
+RV_05.041.16.1  kathÃ dÃÓema namasÃ sudÃnÆn evayÃ maruto achoktau praÓravaso maruto achoktau
+RV_05.041.16.2  mÃ no 'hir budhnyo ri«e dhÃd asmÃkam bhÆd upamÃtivani÷
+RV_05.041.17.1  iti cin nu prajÃyai paÓumatyai devÃso vanate martyo va Ã devÃso vanate martyo va÷
+RV_05.041.17.2  atrÃ ÓivÃæ tanvo dhÃsim asyÃ jarÃæ cin me nir­tir jagrasÅta
+RV_05.041.18.1  tÃæ vo devÃ÷ sumatim ÆrjayantÅm i«am aÓyÃma vasava÷ ÓasÃ go÷
+RV_05.041.18.2  sÃ na÷ sudÃnur m­ÊayantÅ devÅ prati dravantÅ suvitÃya gamyÃ÷
+RV_05.041.19.1  abhi na iÊÃ yÆthasya mÃtÃ sman nadÅbhir urvaÓÅ vÃ g­ïÃtu
+RV_05.041.19.2  urvaÓÅ vÃ b­haddivÃ g­ïÃnÃbhyÆrïvÃnÃ prabh­thasyÃyo÷
+RV_05.041.20.1  si«aktu na Ærjavyasya pu«Âe÷ |
+RV_05.042.01.1  pra ÓaætamÃ varuïaæ dÅdhitÅ gÅr mitram bhagam aditiæ nÆnam aÓyÃ÷
+RV_05.042.01.2  p­«adyoni÷ pa¤cahotÃ Ó­ïotv atÆrtapanthÃ asuro mayobhu÷
+RV_05.042.02.1  prati me stomam aditir jag­bhyÃt sÆnuæ na mÃtÃ h­dyaæ suÓevam
+RV_05.042.02.2  brahma priyaæ devahitaæ yad asty aham mitre varuïe yan mayobhu
+RV_05.042.03.1  ud Åraya kavitamaæ kavÅnÃm unattainam abhi madhvÃ gh­tena
+RV_05.042.03.2  sa no vasÆni prayatÃ hitÃni candrÃïi deva÷ savitÃ suvÃti
+RV_05.042.04.1  sam indra ïo manasÃ ne«i gobhi÷ saæ sÆribhir hariva÷ saæ svasti
+RV_05.042.04.2  sam brahmaïÃ devahitaæ yad asti saæ devÃnÃæ sumatyÃ yaj¤iyÃnÃm
+RV_05.042.05.1  devo bhaga÷ savitÃ rÃyo aæÓa indro v­trasya saæjito dhanÃnÃm
+RV_05.042.05.2  ­bhuk«Ã vÃja uta vÃ puraædhir avantu no am­tÃsas turÃsa÷
+RV_05.042.06.1  marutvato apratÅtasya ji«ïor ajÆryata÷ pra bravÃmÃ k­tÃni
+RV_05.042.06.2  na te pÆrve maghavan nÃparÃso na vÅryaæ nÆtana÷ kaÓ canÃpa
+RV_05.042.07.1  upa stuhi prathamaæ ratnadheyam b­haspatiæ sanitÃraæ dhanÃnÃm
+RV_05.042.07.2  ya÷ Óaæsate stuvate Óambhavi«Âha÷ purÆvasur Ãgamaj johuvÃnam
+RV_05.042.08.1  tavotibhi÷ sacamÃnÃ ari«ÂÃ b­haspate maghavÃna÷ suvÅrÃ÷
+RV_05.042.08.2  ye aÓvadÃ uta vÃ santi godÃ ye vastradÃ÷ subhagÃs te«u rÃya÷
+RV_05.042.09.1  visarmÃïaæ k­ïuhi vittam e«Ãæ ye bhu¤jate ap­ïanto na ukthai÷
+RV_05.042.09.2  apavratÃn prasave vÃv­dhÃnÃn brahmadvi«a÷ sÆryÃd yÃvayasva
+RV_05.042.10.1  ya ohate rak«aso devavÅtÃv acakrebhis tam maruto ni yÃta
+RV_05.042.10.2  yo va÷ ÓamÅæ ÓaÓamÃnasya nindÃt tuchyÃn kÃmÃn karate si«vidÃna÷
+RV_05.042.11.1  tam u «Âuhi ya÷ svi«u÷ sudhanvÃ yo viÓvasya k«ayati bhe«ajasya
+RV_05.042.11.2  yak«vÃ mahe saumanasÃya rudraæ namobhir devam asuraæ duvasya
+RV_05.042.12.1  damÆnaso apaso ye suhastÃ v­«ïa÷ patnÅr nadyo vibhvata«ÂÃ÷
+RV_05.042.12.2  sarasvatÅ b­haddivota rÃkÃ daÓasyantÅr varivasyantu ÓubhrÃ÷
+RV_05.042.13.1  pra sÆ mahe suÓaraïÃya medhÃæ giram bhare navyasÅæ jÃyamÃnÃm
+RV_05.042.13.2  ya ÃhanÃ duhitur vak«aïÃsu rÆpÃ minÃno ak­ïod idaæ na÷
+RV_05.042.14.1  pra su«Âuti stanayantaæ ruvantam iÊas patiæ jaritar nÆnam aÓyÃ÷
+RV_05.042.14.2  yo abdimÃæ udanimÃæ iyarti pra vidyutÃ rodasÅ uk«amÃïa÷
+RV_05.042.15.1  e«a stomo mÃrutaæ Óardho achÃ rudrasya sÆnÆær yuvanyÆær ud aÓyÃ÷
+RV_05.042.15.2  kÃmo rÃye havate mÃ svasty upa stuhi p­«adaÓvÃæ ayÃsa÷
+RV_05.042.16.1  prai«a stoma÷ p­thivÅm antarik«aæ vanaspatÅær o«adhÅ rÃye aÓyÃ÷
+RV_05.042.16.2  devo-deva÷ suhavo bhÆtu mahyam mÃ no mÃtÃ p­thivÅ durmatau dhÃt
+RV_05.042.17.1  urau devÃ anibÃdhe syÃma
+RV_05.042.18.1  sam aÓvinor avasÃ nÆtanena mayobhuvÃ supraïÅtÅ gamema
+RV_05.042.18.2  Ã no rayiæ vahatam ota vÅrÃn Ã viÓvÃny am­tÃ saubhagÃni 
+
+RV_05.043.01.1  Ã dhenava÷ payasÃ tÆrïyarthÃ amardhantÅr upa no yantu madhvÃ
+RV_05.043.01.2  maho rÃye b­hatÅ÷ sapta vipro mayobhuvo jaritÃ johavÅti
+RV_05.043.02.1  Ã su«ÂutÅ namasÃ vartayadhyai dyÃvÃ vÃjÃya p­thivÅ am­dhre
+RV_05.043.02.2  pitÃ mÃtÃ madhuvacÃ÷ suhastÃ bhare-bhare no yaÓasÃv avi«ÂÃm
+RV_05.043.03.1  adhvaryavaÓ cak­vÃæso madhÆni pra vÃyave bharata cÃru Óukram
+RV_05.043.03.2  hoteva na÷ prathama÷ pÃhy asya deva madhvo rarimÃ te madÃya
+RV_05.043.04.1  daÓa k«ipo yu¤jate bÃhÆ adriæ somasya yÃ ÓamitÃrÃ suhastÃ
+RV_05.043.04.2  madhvo rasaæ sugabhastir giri«ÂhÃæ caniÓcadad duduhe Óukram aæÓu÷
+RV_05.043.05.1  asÃvi te juju«ÃïÃya soma÷ kratve dak«Ãya b­hate madÃya
+RV_05.043.05.2  harÅ rathe sudhurÃ yoge arvÃg indra priyÃ k­ïuhi hÆyamÃna÷
+RV_05.043.06.1  Ã no mahÅm aramatiæ sajo«Ã gnÃæ devÅæ namasÃ rÃtahavyÃm
+RV_05.043.06.2  madhor madÃya b­hatÅm ­taj¤Ãm Ãgne vaha pathibhir devayÃnai÷
+RV_05.043.07.1  a¤janti yam prathayanto na viprÃ vapÃvantaæ nÃgninÃ tapanta÷
+RV_05.043.07.2  pitur na putra upasi pre«Âha Ã gharmo agnim ­tayann asÃdi
+RV_05.043.08.1  achÃ mahÅ b­hatÅ ÓaætamÃ gÅr dÆto na gantv aÓvinÃ huvadhyai
+RV_05.043.08.2  mayobhuvÃ sarathÃ yÃtam arvÃg gantaæ nidhiæ dhuram Ãïir na nÃbhim
+RV_05.043.09.1  pra tavyaso namaktiæ turasyÃham pÆ«ïa uta vÃyor adik«i
+RV_05.043.09.2  yÃ rÃdhasÃ coditÃrÃ matÅnÃæ yÃ vÃjasya draviïodÃ uta tman
+RV_05.043.10.1  Ã nÃmabhir maruto vak«i viÓvÃn Ã rÆpebhir jÃtavedo huvÃna÷
+RV_05.043.10.2  yaj¤aæ giro jaritu÷ su«Âutiæ ca viÓve ganta maruto viÓva ÆtÅ
+RV_05.043.11.1  Ã no divo b­hata÷ parvatÃd Ã sarasvatÅ yajatÃ gantu yaj¤am
+RV_05.043.11.2  havaæ devÅ juju«ÃïÃ gh­tÃcÅ ÓagmÃæ no vÃcam uÓatÅ Ó­ïotu
+RV_05.043.12.1  Ã vedhasaæ nÅlap­«Âham b­hantam b­haspatiæ sadane sÃdayadhvam
+RV_05.043.12.2  sÃdadyoniæ dama Ã dÅdivÃæsaæ hiraïyavarïam aru«aæ sapema
+RV_05.043.13.1  Ã dharïasir b­haddivo rarÃïo viÓvebhir gantv omabhir huvÃna÷
+RV_05.043.13.2  gnÃ vasÃna o«adhÅr am­dhras tridhÃtuÓ­Çgo v­«abho vayodhÃ÷
+RV_05.043.14.1  mÃtu« pade parame Óukra Ãyor vipanyavo rÃspirÃso agman
+RV_05.043.14.2  suÓevyaæ namasÃ rÃtahavyÃ÷ ÓiÓum m­janty Ãyavo na vÃse
+RV_05.043.15.1  b­had vayo b­hate tubhyam agne dhiyÃjuro mithunÃsa÷ sacanta
+RV_05.043.15.2  devo-deva÷ suhavo bhÆtu mahyam mÃ no mÃtÃ p­thivÅ durmatau dhÃt
+RV_05.043.16.1  urau devÃ anibÃdhe syÃma
+RV_05.043.17.1  sam aÓvinor avasÃ nÆtanena mayobhuvÃ supraïÅtÅ gamema
+RV_05.043.17.2  Ã no rayiæ vahatam ota vÅrÃn Ã viÓvÃny am­tÃ saubhagÃni 
+
+RV_05.044.01.1  tam pratnathÃ pÆrvathÃ viÓvathemathÃ jye«ÂhatÃtim barhi«adaæ svarvidam
+RV_05.044.01.2  pratÅcÅnaæ v­janaæ dohase girÃÓuæ jayantam anu yÃsu vardhase
+RV_05.044.02.1  Óriye sud­ÓÅr uparasya yÃ÷ svar virocamÃna÷ kakubhÃm acodate
+RV_05.044.02.2  sugopÃ asi na dabhÃya sukrato paro mÃyÃbhir ­ta Ãsa nÃma te
+RV_05.044.03.1  atyaæ havi÷ sacate sac ca dhÃtu cÃri«ÂagÃtu÷ sa hotÃ sahobhari÷
+RV_05.044.03.2  prasarsrÃïo anu barhir v­«Ã ÓiÓur madhye yuvÃjaro visruhÃ hita÷
+RV_05.044.04.1  pra va ete suyujo yÃmann i«Âaye nÅcÅr amu«mai yamya ­tÃv­dha÷
+RV_05.044.04.2  suyantubhi÷ sarvaÓÃsair abhÅÓubhi÷ krivir nÃmÃni pravaïe mu«Ãyati
+RV_05.044.05.1  saæjarbhurÃïas tarubhi÷ suteg­bhaæ vayÃkinaæ cittagarbhÃsu susvaru÷
+RV_05.044.05.2  dhÃravÃke«v ­jugÃtha Óobhase vardhasva patnÅr abhi jÅvo adhvare
+RV_05.044.06.1  yÃd­g eva dad­Óe tÃd­g ucyate saæ chÃyayÃ dadhire sidhrayÃpsv Ã
+RV_05.044.06.2  mahÅm asmabhyam uru«Ãm uru jrayo b­hat suvÅram anapacyutaæ saha÷
+RV_05.044.07.1  vety agrur janivÃn vÃ ati sp­dha÷ samaryatÃ manasÃ sÆrya÷ kavi÷
+RV_05.044.07.2  ghraæsaæ rak«antam pari viÓvato gayam asmÃkaæ Óarma vanavat svÃvasu÷
+RV_05.044.08.1  jyÃyÃæsam asya yatunasya ketuna ­«isvaraæ carati yÃsu nÃma te
+RV_05.044.08.2  yÃd­Ómin dhÃyi tam apasyayÃ vidad ya u svayaæ vahate so araæ karat
+RV_05.044.09.1  samudram ÃsÃm ava tasthe agrimÃ na ri«yati savanaæ yasminn ÃyatÃ
+RV_05.044.09.2  atrÃ na hÃrdi kravaïasya rejate yatrÃ matir vidyate pÆtabandhanÅ
+RV_05.044.10.1  sa hi k«atrasya manasasya cittibhir evÃvadasya yajatasya sadhre÷
+RV_05.044.10.2  avatsÃrasya sp­ïavÃma raïvabhi÷ Óavi«Âhaæ vÃjaæ vidu«Ã cid ardhyam
+RV_05.044.11.1  Óyena ÃsÃm aditi÷ kak«yo mado viÓvavÃrasya yajatasya mÃyina÷
+RV_05.044.11.2  sam anyam-anyam arthayanty etave vidur vi«Ãïam paripÃnam anti te
+RV_05.044.12.1  sadÃp­ïo yajato vi dvi«o vadhÅd bÃhuv­kta÷ Órutavit taryo va÷ sacÃ
+RV_05.044.12.2  ubhÃ sa varÃ praty eti bhÃti ca yad Åæ gaïam bhajate suprayÃvabhi÷
+RV_05.044.13.1  sutambharo yajamÃnasya satpatir viÓvÃsÃm Ædha÷ sa dhiyÃm uda¤cana÷
+RV_05.044.13.2  bharad dhenÆ rasavac chiÓriye payo 'nubruvÃïo adhy eti na svapan
+RV_05.044.14.1  yo jÃgÃra tam ­ca÷ kÃmayante yo jÃgÃra tam u sÃmÃni yanti
+RV_05.044.14.2  yo jÃgÃra tam ayaæ soma Ãha tavÃham asmi sakhye nyokÃ÷
+RV_05.044.15.1  agnir jÃgÃra tam ­ca÷ kÃmayante 'gnir jÃgÃra tam u sÃmÃni yanti
+RV_05.044.15.2  agnir jÃgÃra tam ayaæ soma Ãha tavÃham asmi sakhye nyokÃ÷ 
+
+RV_05.045.00.11  vidÃ divo vi«yann adrim ukthair ÃyatyÃ u«aso arcino gu÷
+RV_05.045.00.12  apÃv­ta vrajinÅr ut svar gÃd vi duro mÃnu«År deva Ãva÷
+RV_05.045.00.21  vi sÆryo amatiæ na Óriyaæ sÃd orvÃd gavÃm mÃtÃ jÃnatÅ gÃt
+RV_05.045.00.22  dhanvarïaso nadya÷ khÃdoarïÃ sthÆïeva sumitÃ d­æhata dyau÷
+RV_05.045.00.31  asmÃ ukthÃya parvatasya garbho mahÅnÃæ janu«e pÆrvyÃya
+RV_05.045.00.32  vi parvato jihÅta sÃdhata dyaur ÃvivÃsanto dasayanta bhÆma
+RV_05.045.00.41  sÆktebhir vo vacobhir devaju«Âair indrÃ nv agnÅ avase huvadhyai
+RV_05.045.00.42  ukthebhir hi «mÃ kavaya÷ suyaj¤Ã ÃvivÃsanto maruto yajanti
+RV_05.045.00.51  eto nv adya sudhyo bhavÃma pra duchunÃ minavÃmÃ varÅya÷
+RV_05.045.00.52  Ãre dve«Ãæsi sanutar dadhÃmÃyÃma prÃ¤co yajamÃnam acha
+RV_05.045.00.61  etÃ dhiyaæ k­ïavÃmÃ sakhÃyo 'pa yÃ mÃtÃm ­ïuta vrajaæ go÷
+RV_05.045.00.62  yayÃ manur viÓiÓipraæ jigÃya yayÃ vaïig vaÇkur ÃpÃ purÅ«am
+RV_05.045.00.71  anÆnod atra hastayato adrir Ãrcan yena daÓa mÃso navagvÃ÷
+RV_05.045.00.72  ­taæ yatÅ saramÃ gÃ avindad viÓvÃni satyÃÇgirÃÓ cakÃra
+RV_05.045.00.81  viÓve asyÃ vyu«i mÃhinÃyÃ÷ saæ yad gobhir aÇgiraso navanta
+RV_05.045.00.82  utsa ÃsÃm parame sadhastha ­tasya pathÃ saramÃ vidad gÃ÷
+RV_05.045.00.91  Ã sÆryo yÃtu saptÃÓva÷ k«etraæ yad asyorviyÃ dÅrghayÃthe
+RV_05.045.00.92  raghu÷ Óyena÷ patayad andho achÃ yuvÃ kavir dÅdayad go«u gachan
+RV_05.045.01.01  Ã sÆryo aruhac chukram arïo 'yukta yad dharito vÅtap­«ÂhÃ÷
+RV_05.045.01.02  udnÃ na nÃvam anayanta dhÅrÃ ÃÓ­ïvatÅr Ãpo arvÃg ati«Âhan
+RV_05.045.01.11  dhiyaæ vo apsu dadhi«e svar«Ãæ yayÃtaran daÓa mÃso navagvÃ÷
+RV_05.045.01.12  ayÃ dhiyÃ syÃma devagopÃ ayÃ dhiyÃ tuturyÃmÃty aæha÷ 
+RV_05.046.01.1  hayo na vidvÃæ ayuji svayaæ dhuri tÃæ vahÃmi prataraïÅm avasyuvam
+RV_05.046.01.2  nÃsyÃ vaÓmi vimucaæ nÃv­tam punar vidvÃn patha÷ puraeta ­ju ne«ati
+RV_05.046.02.1  agna indra varuïa mitra devÃ÷ Óardha÷ pra yanta mÃrutota vi«ïo
+RV_05.046.02.2  ubhÃ nÃsatyÃ rudro adha gnÃ÷ pÆ«Ã bhaga÷ sarasvatÅ ju«anta
+RV_05.046.03.1  indrÃgnÅ mitrÃvaruïÃditiæ sva÷ p­thivÅæ dyÃm maruta÷ parvatÃæ apa÷
+RV_05.046.03.2  huve vi«ïum pÆ«aïam brahmaïas patim bhagaæ nu Óaæsaæ savitÃram Ætaye
+RV_05.046.04.1  uta no vi«ïur uta vÃto asridho draviïodÃ uta somo mayas karat
+RV_05.046.04.2  uta ­bhava uta rÃye no aÓvinota tva«Âota vibhvÃnu maæsate
+RV_05.046.05.1  uta tyan no mÃrutaæ Óardha Ã gamad divik«ayaæ yajatam barhir Ãsade
+RV_05.046.05.2  b­haspati÷ Óarma pÆ«ota no yamad varÆthyaæ varuïo mitro aryamÃ
+RV_05.046.06.1  uta tye na÷ parvatÃsa÷ suÓastaya÷ sudÅtayo nadyas trÃmaïe bhuvan
+RV_05.046.06.2  bhago vibhaktÃ ÓavasÃvasÃ gamad uruvyacÃ aditi÷ Órotu me havam
+RV_05.046.07.1  devÃnÃm patnÅr uÓatÅr avantu na÷ prÃvantu nas tujaye vÃjasÃtaye
+RV_05.046.07.2  yÃ÷ pÃrthivÃso yÃ apÃm api vrate tÃ no devÅ÷ suhavÃ÷ Óarma yachata
+RV_05.046.08.1  uta gnÃ vyantu devapatnÅr indrÃïy agnÃyy aÓvinÅ rÃÂ
+RV_05.046.08.2  Ã rodasÅ varuïÃnÅ Ó­ïotu vyantu devÅr ya ­tur janÅnÃm 
+
+RV_05.047.01.1  prayu¤jatÅ diva eti bruvÃïÃ mahÅ mÃtÃ duhitur bodhayantÅ
+RV_05.047.01.2  ÃvivÃsantÅ yuvatir manÅ«Ã pit­bhya Ã sadane johuvÃnÃ
+RV_05.047.02.1  ajirÃsas tadapa ÅyamÃnÃ ÃtasthivÃæso am­tasya nÃbhim
+RV_05.047.02.2  anantÃsa uravo viÓvata÷ sÅm pari dyÃvÃp­thivÅ yanti panthÃ÷
+RV_05.047.03.1  uk«Ã samudro aru«a÷ suparïa÷ pÆrvasya yonim pitur Ã viveÓa
+RV_05.047.03.2  madhye divo nihita÷ p­Ónir aÓmÃ vi cakrame rajasas pÃty antau
+RV_05.047.04.1  catvÃra Åm bibhrati k«emayanto daÓa garbhaæ carase dhÃpayante
+RV_05.047.04.2  tridhÃtava÷ paramÃ asya gÃvo divaÓ caranti pari sadyo antÃn
+RV_05.047.05.1  idaæ vapur nivacanaæ janÃsaÓ caranti yan nadyas tasthur Ãpa÷
+RV_05.047.05.2  dve yad Åm bibh­to mÃtur anye iheha jÃte yamy­ sabandhÆ
+RV_05.047.06.1  vi tanvate dhiyo asmÃ apÃæsi vastrÃ putrÃya mÃtaro vayanti
+RV_05.047.06.2  upaprak«e v­«aïo modamÃnÃ divas pathÃ vadhvo yanty acha
+RV_05.047.07.1  tad astu mitrÃvaruïÃ tad agne Óaæ yor asmabhyam idam astu Óastam
+RV_05.047.07.2  aÓÅmahi gÃdham uta prati«ÂhÃæ namo dive b­hate sÃdanÃya 
+
+RV_05.048.01.1  kad u priyÃya dhÃmne manÃmahe svak«atrÃya svayaÓase mahe vayam
+RV_05.048.01.2  Ãmenyasya rajaso yad abhra Ãæ apo v­ïÃnÃ vitanoti mÃyinÅ
+RV_05.048.02.1  tÃ atnata vayunaæ vÅravak«aïaæ samÃnyÃ v­tayÃ viÓvam Ã raja÷
+RV_05.048.02.2  apo apÃcÅr aparÃ apejate pra pÆrvÃbhis tirate devayur jana÷
+RV_05.048.03.1  Ã grÃvabhir ahanyebhir aktubhir vari«Âhaæ vajram Ã jigharti mÃyini
+RV_05.048.03.2  Óataæ vÃ yasya pracaran sve dame saævartayanto vi ca vartayann ahÃ
+RV_05.048.04.1  tÃm asya rÅtim paraÓor iva praty anÅkam akhyam bhuje asya varpasa÷
+RV_05.048.04.2  sacÃ yadi pitumantam iva k«ayaæ ratnaæ dadhÃti bharahÆtaye viÓe
+RV_05.048.05.1  sa jihvayÃ caturanÅka ­¤jate cÃru vasÃno varuïo yatann arim
+RV_05.048.05.2  na tasya vidma puru«atvatÃ vayaæ yato bhaga÷ savitÃ dÃti vÃryam 
+
+RV_05.049.01.1  devaæ vo adya savitÃram e«e bhagaæ ca ratnaæ vibhajantam Ãyo÷
+RV_05.049.01.2  Ã vÃæ narÃ purubhujÃ vav­tyÃæ dive-dive cid aÓvinÃ sakhÅyan
+RV_05.049.02.1  prati prayÃïam asurasya vidvÃn sÆktair devaæ savitÃraæ duvasya
+RV_05.049.02.2  upa bruvÅta namasÃ vijÃna¤ jye«Âhaæ ca ratnaæ vibhajantam Ãyo÷
+RV_05.049.03.1  adatrayÃ dayate vÃryÃïi pÆ«Ã bhago aditir vasta usra÷
+RV_05.049.03.2  indro vi«ïur varuïo mitro agnir ahÃni bhadrÃ janayanta dasmÃ÷
+RV_05.049.04.1  tan no anarvÃ savitÃ varÆthaæ tat sindhava i«ayanto anu gman
+RV_05.049.04.2  upa yad voce adhvarasya hotÃ rÃya÷ syÃma patayo vÃjaratnÃ÷
+RV_05.049.05.1  pra ye vasubhya Åvad Ã namo dur ye mitre varuïe sÆktavÃca÷
+RV_05.049.05.2  avaitv abhvaæ k­ïutÃ varÅyo divasp­thivyor avasÃ madema 
+
+RV_05.050.01.1  viÓvo devasya netur marto vurÅta sakhyam
+RV_05.050.01.2  viÓvo rÃya i«udhyati dyumnaæ v­ïÅta pu«yase
+RV_05.050.02.1  te te deva netar ye cemÃæ anuÓase
+RV_05.050.02.2  te rÃyÃ te hy ­p­ce sacemahi sacathya÷
+RV_05.050.03.1  ato na Ã n¤n atithÅn ata÷ patnÅr daÓasyata
+RV_05.050.03.2  Ãre viÓvam pathe«ÂhÃæ dvi«o yuyotu yÆyuvi÷
+RV_05.050.04.1  yatra vahnir abhihito dudravad droïya÷ paÓu÷
+RV_05.050.04.2  n­maïÃ vÅrapastyo 'rïÃ dhÅreva sanitÃ
+RV_05.050.05.1  e«a te deva netÃ rathaspati÷ Óaæ rayi÷
+RV_05.050.05.2  Óaæ rÃye Óaæ svastaya i«astuto manÃmahe devastuto manÃmahe 
+
+RV_05.051.01.1  agne sutasya pÅtaye viÓvair Æmebhir Ã gahi
+RV_05.051.01.2  devebhir havyadÃtaye
+RV_05.051.02.1  ­tadhÅtaya Ã gata satyadharmÃïo adhvaram
+RV_05.051.02.2  agne÷ pibata jihvayÃ
+RV_05.051.03.1  viprebhir vipra santya prÃtaryÃvabhir Ã gahi
+RV_05.051.03.2  devebhi÷ somapÅtaye
+RV_05.051.04.1  ayaæ somaÓ camÆ suto 'matre pari «icyate
+RV_05.051.04.2  priya indrÃya vÃyave
+RV_05.051.05.1  vÃyav Ã yÃhi vÅtaye ju«Ãïo havyadÃtaye
+RV_05.051.05.2  pibÃ sutasyÃndhaso abhi praya÷
+RV_05.051.06.1  indraÓ ca vÃyav e«Ãæ sutÃnÃm pÅtim arhatha÷
+RV_05.051.06.2  tÃ¤ ju«ethÃm arepasÃv abhi praya÷
+RV_05.051.07.1  sutÃ indrÃya vÃyave somÃso dadhyÃÓira÷
+RV_05.051.07.2  nimnaæ na yanti sindhavo 'bhi praya÷
+RV_05.051.08.1  sajÆr viÓvebhir devebhir aÓvibhyÃm u«asÃ sajÆ÷
+RV_05.051.08.2  Ã yÃhy agne atrivat sute raïa
+RV_05.051.09.1  sajÆr mitrÃvaruïÃbhyÃæ sajÆ÷ somena vi«ïunÃ
+RV_05.051.09.2  Ã yÃhy agne atrivat sute raïa
+RV_05.051.10.1  sajÆr Ãdityair vasubhi÷ sajÆr indreïa vÃyunÃ
+RV_05.051.10.2  Ã yÃhy agne atrivat sute raïa
+RV_05.051.11.1  svasti no mimÅtÃm aÓvinÃ bhaga÷ svasti devy aditir anarvaïa÷
+RV_05.051.11.2  svasti pÆ«Ã asuro dadhÃtu na÷ svasti dyÃvÃp­thivÅ sucetunÃ
+RV_05.051.12.1  svastaye vÃyum upa bravÃmahai somaæ svasti bhuvanasya yas pati÷
+RV_05.051.12.2  b­haspatiæ sarvagaïaæ svastaye svastaya ÃdityÃso bhavantu na÷
+RV_05.051.13.1  viÓve devÃ no adyÃ svastaye vaiÓvÃnaro vasur agni÷ svastaye
+RV_05.051.13.2  devÃ avantv ­bhava÷ svastaye svasti no rudra÷ pÃtv aæhasa÷
+RV_05.051.14.1  svasti mitrÃvaruïÃ svasti pathye revati
+RV_05.051.14.2  svasti na indraÓ cÃgniÓ ca svasti no adite k­dhi
+RV_05.051.15.1  svasti panthÃm anu carema sÆryÃcandramasÃv iva
+RV_05.051.15.2  punar dadatÃghnatÃ jÃnatÃ saæ gamemahi 
+
+RV_05.052.01.1  pra ÓyÃvÃÓva dh­«ïuyÃrcÃ marudbhir ­kvabhi÷
+RV_05.052.01.2  ye adrogham anu«vadhaæ Óravo madanti yaj¤iyÃ÷
+RV_05.052.02.1  te hi sthirasya Óavasa÷ sakhÃya÷ santi dh­«ïuyÃ
+RV_05.052.02.2  te yÃmann Ã dh­«advinas tmanÃ pÃnti ÓaÓvata÷
+RV_05.052.03.1  te syandrÃso nok«aïo 'ti «kandanti ÓarvarÅ÷
+RV_05.052.03.2  marutÃm adhÃ maho divi k«amÃ ca manmahe
+RV_05.052.04.1  marutsu vo dadhÅmahi stomaæ yaj¤aæ ca dh­«ïuyÃ
+RV_05.052.04.2  viÓve ye mÃnu«Ã yugÃ pÃnti martyaæ ri«a÷
+RV_05.052.05.1  arhanto ye sudÃnavo naro asÃmiÓavasa÷
+RV_05.052.05.2  pra yaj¤aæ yaj¤iyebhyo divo arcÃ marudbhya÷
+RV_05.052.06.1  Ã rukmair Ã yudhÃ nara ­«vÃ ­«ÂÅr as­k«ata
+RV_05.052.06.2  anv enÃæ aha vidyuto maruto jajjhatÅr iva bhÃnur arta tmanÃ diva÷
+RV_05.052.07.1  ye vÃv­dhanta pÃrthivÃ ya urÃv antarik«a Ã
+RV_05.052.07.2  v­jane vÃ nadÅnÃæ sadhasthe vÃ maho diva÷
+RV_05.052.08.1  Óardho mÃrutam uc chaæsa satyaÓavasam ­bhvasam
+RV_05.052.08.2  uta sma te Óubhe nara÷ pra syandrÃ yujata tmanÃ
+RV_05.052.09.1  uta sma te paru«ïyÃm ÆrïÃ vasata Óundhyava÷
+RV_05.052.09.2  uta pavyÃ rathÃnÃm adrim bhindanty ojasÃ
+RV_05.052.10.1  Ãpathayo vipathayo 'ntaspathÃ anupathÃ÷
+RV_05.052.10.2  etebhir mahyaæ nÃmabhir yaj¤aæ vi«ÂÃra ohate
+RV_05.052.11.1  adhÃ naro ny ohate 'dhÃ niyuta ohate
+RV_05.052.11.2  adhÃ pÃrÃvatÃ iti citrÃ rÆpÃïi darÓyÃ
+RV_05.052.12.1  chandastubha÷ kubhanyava utsam Ã kÅriïo n­tu÷
+RV_05.052.12.2  te me ke cin na tÃyava ÆmÃ Ãsan d­Ói tvi«e
+RV_05.052.13.1  ya ­«vÃ ­«Âividyuta÷ kavaya÷ santi vedhasa÷
+RV_05.052.13.2  tam ­«e mÃrutaæ gaïaæ namasyÃ ramayÃ girÃ
+RV_05.052.14.1  acha ­«e mÃrutaæ gaïaæ dÃnÃ mitraæ na yo«aïÃ
+RV_05.052.14.2  divo vÃ dh­«ïava ojasÃ stutÃ dhÅbhir i«aïyata
+RV_05.052.15.1  nÆ manvÃna e«Ãæ devÃæ achÃ na vak«aïÃ
+RV_05.052.15.2  dÃnÃ saceta sÆribhir yÃmaÓrutebhir a¤jibhi÷
+RV_05.052.16.1  pra ye me bandhve«e gÃæ vocanta sÆraya÷ p­Óniæ vocanta mÃtaram
+RV_05.052.16.2  adhÃ pitaram i«miïaæ rudraæ vocanta Óikvasa÷
+RV_05.052.17.1  sapta me sapta ÓÃkina ekam-ekÃ ÓatÃ dadu÷
+RV_05.052.17.2  yamunÃyÃm adhi Órutam ud rÃdho gavyam m­je ni rÃdho aÓvyam m­je 
+
+RV_05.053.01.1  ko veda jÃnam e«Ãæ ko vÃ purÃ sumne«v Ãsa marutÃm
+RV_05.053.01.2  yad yuyujre kilÃsya÷
+RV_05.053.02.1  aitÃn rathe«u tasthu«a÷ ka÷ ÓuÓrÃva kathÃ yayu÷
+RV_05.053.02.2  kasmai sasru÷ sudÃse anv Ãpaya iÊÃbhir v­«Âaya÷ saha
+RV_05.053.03.1  te ma Ãhur ya Ãyayur upa dyubhir vibhir made
+RV_05.053.03.2  naro maryÃ arepasa imÃn paÓyann iti «Âuhi
+RV_05.053.04.1  ye a¤ji«u ye vÃÓÅ«u svabhÃnava÷ srak«u rukme«u khÃdi«u
+RV_05.053.04.2  ÓrÃyÃ rathe«u dhanvasu
+RV_05.053.05.1  yu«mÃkaæ smÃ rathÃæ anu mude dadhe maruto jÅradÃnava÷
+RV_05.053.05.2  v­«ÂÅ dyÃvo yatÅr iva
+RV_05.053.06.1  Ã yaæ nara÷ sudÃnavo dadÃÓu«e diva÷ koÓam acucyavu÷
+RV_05.053.06.2  vi parjanyaæ s­janti rodasÅ anu dhanvanÃ yanti v­«Âaya÷
+RV_05.053.07.1  tat­dÃnÃ÷ sindhava÷ k«odasÃ raja÷ pra sasrur dhenavo yathÃ
+RV_05.053.07.2  syannÃ aÓvÃ ivÃdhvano vimocane vi yad vartanta enya÷
+RV_05.053.08.1  Ã yÃta maruto diva Ãntarik«Ãd amÃd uta
+RV_05.053.08.2  mÃva sthÃta parÃvata÷
+RV_05.053.09.1  mÃ vo rasÃnitabhÃ kubhÃ krumur mÃ va÷ sindhur ni rÅramat
+RV_05.053.09.2  mÃ va÷ pari «ÂhÃt sarayu÷ purÅ«iïy asme Åt sumnam astu va÷
+RV_05.053.10.1  taæ va÷ Óardhaæ rathÃnÃæ tve«aæ gaïam mÃrutaæ navyasÅnÃm
+RV_05.053.10.2  anu pra yanti v­«Âaya÷
+RV_05.053.11.1  Óardhaæ-Óardhaæ va e«Ãæ vrÃtaæ-vrÃtaæ gaïaæ-gaïaæ suÓastibhi÷
+RV_05.053.11.2  anu krÃmema dhÅtibhi÷ 
+RV_05.053.12.1  kasmÃ adya sujÃtÃya rÃtahavyÃya pra yayu÷
+RV_05.053.12.2  enÃ yÃmena maruta÷
+RV_05.053.13.1  yena tokÃya tanayÃya dhÃnyam bÅjaæ vahadhve ak«itam
+RV_05.053.13.2  asmabhyaæ tad dhattana yad va Åmahe rÃdho viÓvÃyu saubhagam
+RV_05.053.14.1  atÅyÃma nidas tira÷ svastibhir hitvÃvadyam arÃtÅ÷
+RV_05.053.14.2  v­«ÂvÅ Óaæ yor Ãpa usri bhe«ajaæ syÃma maruta÷ saha
+RV_05.053.15.1  sudeva÷ samahÃsati suvÅro naro maruta÷ sa martya÷
+RV_05.053.15.2  yaæ trÃyadhve syÃma te
+RV_05.053.16.1  stuhi bhojÃn stuvato asya yÃmani raïan gÃvo na yavase
+RV_05.053.16.2  yata÷ pÆrvÃæ iva sakhÅær anu hvaya girÃ g­ïÅhi kÃmina÷ 
+
+RV_05.054.01.1  pra ÓardhÃya mÃrutÃya svabhÃnava imÃæ vÃcam anajÃ parvatacyute
+RV_05.054.01.2  gharmastubhe diva Ã p­«Âhayajvane dyumnaÓravase mahi n­mïam arcata
+RV_05.054.02.1  pra vo marutas tavi«Ã udanyavo vayov­dho aÓvayuja÷ parijraya÷
+RV_05.054.02.2  saæ vidyutÃ dadhati vÃÓati trita÷ svaranty Ãpo 'vanÃ parijraya÷
+RV_05.054.03.1  vidyunmahaso naro aÓmadidyavo vÃtatvi«o maruta÷ parvatacyuta÷
+RV_05.054.03.2  abdayÃ cin muhur Ã hrÃdunÅv­ta stanayadamÃ rabhasÃ udojasa÷
+RV_05.054.04.1  vy aktÆn rudrÃ vy ahÃni Óikvaso vy antarik«aæ vi rajÃæsi dhÆtaya÷
+RV_05.054.04.2  vi yad ajrÃæ ajatha nÃva Åæ yathÃ vi durgÃïi maruto nÃha ri«yatha
+RV_05.054.05.1  tad vÅryaæ vo maruto mahitvanaæ dÅrghaæ tatÃna sÆryo na yojanam
+RV_05.054.05.2  etÃ na yÃme ag­bhÅtaÓoci«o 'naÓvadÃæ yan ny ayÃtanÃ girim
+RV_05.054.06.1  abhrÃji Óardho maruto yad arïasam mo«athÃ v­k«aæ kapaneva vedhasa÷
+RV_05.054.06.2  adha smÃ no aramatiæ sajo«asaÓ cak«ur iva yantam anu ne«athÃ sugam
+RV_05.054.07.1  na sa jÅyate maruto na hanyate na sredhati na vyathate na ri«yati
+RV_05.054.07.2  nÃsya rÃya upa dasyanti notaya ­«iæ vÃ yaæ rÃjÃnaæ vÃ su«Ædatha
+RV_05.054.08.1  niyutvanto grÃmajito yathÃ naro 'ryamaïo na maruta÷ kabandhina÷
+RV_05.054.08.2  pinvanty utsaæ yad inÃso asvaran vy undanti p­thivÅm madhvo andhasÃ
+RV_05.054.09.1  pravatvatÅyam p­thivÅ marudbhya÷ pravatvatÅ dyaur bhavati prayadbhya÷
+RV_05.054.09.2  pravatvatÅ÷ pathy­ antarik«yÃ÷ pravatvanta÷ parvatÃ jÅradÃnava÷
+RV_05.054.10.1  yan maruta÷ sabharasa÷ svarïara÷ sÆrya udite madathÃ divo nara÷
+RV_05.054.10.2  na vo 'ÓvÃ÷ ÓrathayantÃha sisrata÷ sadyo asyÃdhvana÷ pÃram aÓnutha
+RV_05.054.11.1  aæse«u va ­«Âaya÷ patsu khÃdayo vak«assu rukmÃ maruto rathe Óubha÷
+RV_05.054.11.2  agnibhrÃjaso vidyuto gabhastyo÷ ÓiprÃ÷ ÓÅr«asu vitatÃ hiraïyayÅ÷
+RV_05.054.12.1  taæ nÃkam aryo ag­bhÅtaÓoci«aæ ruÓat pippalam maruto vi dhÆnutha
+RV_05.054.12.2  sam acyanta v­janÃtitvi«anta yat svaranti gho«aæ vitatam ­tÃyava÷
+RV_05.054.13.1  yu«mÃdattasya maruto vicetaso rÃya÷ syÃma rathyo vayasvata÷
+RV_05.054.13.2  na yo yuchati ti«yo yathÃ divo 'sme rÃranta maruta÷ sahasriïam
+RV_05.054.14.1  yÆyaæ rayim maruta spÃrhavÅraæ yÆyam ­«im avatha sÃmavipram
+RV_05.054.14.2  yÆyam arvantam bharatÃya vÃjaæ yÆyaæ dhattha rÃjÃnaæ Óru«Âimantam
+RV_05.054.15.1  tad vo yÃmi draviïaæ sadyaÆtayo yenÃ svar ïa tatanÃma nÌær abhi
+RV_05.054.15.2  idaæ su me maruto haryatÃ vaco yasya tarema tarasÃ Óataæ himÃ÷ 
+
+RV_05.055.00.11  prayajyavo maruto bhrÃjad­«Âayo b­had vayo dadhire rukmavak«asa÷
+RV_05.055.00.12  Åyante aÓvai÷ suyamebhir ÃÓubhi÷ Óubhaæ yÃtÃm anu rathÃ av­tsata
+RV_05.055.00.21  svayaæ dadhidhve tavi«Åæ yathÃ vida b­han mahÃnta urviyÃ vi rÃjatha
+RV_05.055.00.22  utÃntarik«am mamire vy ojasÃ Óubhaæ yÃtÃm anu rathÃ av­tsata
+RV_05.055.00.31  sÃkaæ jÃtÃ÷ subhva÷ sÃkam uk«itÃ÷ Óriye cid Ã prataraæ vÃv­dhur nara÷
+RV_05.055.00.32  virokiïa÷ sÆryasyeva raÓmaya÷ Óubhaæ yÃtÃm anu rathÃ av­tsata
+RV_05.055.00.41  ÃbhÆ«eïyaæ vo maruto mahitvanaæ did­k«eïyaæ sÆryasyeva cak«aïam
+RV_05.055.00.42  uto asmÃæ am­tatve dadhÃtana Óubhaæ yÃtÃm anu rathÃ av­tsata
+RV_05.055.00.51  ud ÅrayathÃ maruta÷ samudrato yÆyaæ v­«Âiæ var«ayathÃ purÅ«iïa÷
+RV_05.055.00.52  na vo dasrÃ upa dasyanti dhenava÷ Óubhaæ yÃtÃm anu rathÃ av­tsata
+RV_05.055.00.61  yad aÓvÃn dhÆr«u p­«atÅr ayugdhvaæ hiraïyayÃn praty atkÃæ amugdhvam
+RV_05.055.00.62  viÓvÃ it sp­dho maruto vy asyatha Óubhaæ yÃtÃm anu rathÃ av­tsata
+RV_05.055.00.71  na parvatÃ na nadyo varanta vo yatrÃcidhvam maruto gachathed u tat
+RV_05.055.00.72  uta dyÃvÃp­thivÅ yÃthanÃ pari Óubhaæ yÃtÃm anu rathÃ av­tsata
+RV_05.055.00.81  yat pÆrvyam maruto yac ca nÆtanaæ yad udyate vasavo yac ca Óasyate
+RV_05.055.00.82  viÓvasya tasya bhavathÃ navedasa÷ Óubhaæ yÃtÃm anu rathÃ av­tsata
+RV_05.055.00.91  m­Êata no maruto mÃ vadhi«ÂanÃsmabhyaæ Óarma bahulaæ vi yantana
+RV_05.055.00.92  adhi stotrasya sakhyasya gÃtana Óubhaæ yÃtÃm anu rathÃ av­tsata
+RV_05.055.01.01  yÆyam asmÃn nayata vasyo achÃ nir aæhatibhyo maruto g­ïÃnÃ÷
+RV_05.055.01.02  ju«adhvaæ no havyadÃtiæ yajatrÃ vayaæ syÃma patayo rayÅïÃm 
+
+RV_05.056.01.1  agne Óardhantam Ã gaïam pi«Âaæ rukmebhir a¤jibhi÷
+RV_05.056.01.2  viÓo adya marutÃm ava hvaye divaÓ cid rocanÃd adhi
+RV_05.056.02.1  yathÃ cin manyase h­dÃ tad in me jagmur ÃÓasa÷
+RV_05.056.02.2  ye te nedi«Âhaæ havanÃny Ãgaman tÃn vardha bhÅmasaæd­Óa÷
+RV_05.056.03.1  mÅÊhu«matÅva p­thivÅ parÃhatÃ madanty ety asmad Ã
+RV_05.056.03.2  ­k«o na vo maruta÷ ÓimÅvÃæ amo dudhro gaur iva bhÅmayu÷
+RV_05.056.04.1  ni ye riïanty ojasÃ v­thÃ gÃvo na durdhura÷
+RV_05.056.04.2  aÓmÃnaæ cit svaryam parvataæ girim pra cyÃvayanti yÃmabhi÷
+RV_05.056.05.1  ut ti«Âha nÆnam e«Ãæ stomai÷ samuk«itÃnÃm
+RV_05.056.05.2  marutÃm purutamam apÆrvyaæ gavÃæ sargam iva hvaye
+RV_05.056.06.1  yuÇgdhvaæ hy aru«Å rathe yuÇgdhvaæ rathe«u rohita÷
+RV_05.056.06.2  yuÇgdhvaæ harÅ ajirÃ dhuri voÊhave vahi«ÂhÃ dhuri voÊhave
+RV_05.056.07.1  uta sya vÃjy aru«as tuvi«vaïir iha sma dhÃyi darÓata÷
+RV_05.056.07.2  mÃ vo yÃme«u marutaÓ ciraæ karat pra taæ rathe«u codata
+RV_05.056.08.1  rathaæ nu mÃrutaæ vayaæ Óravasyum Ã huvÃmahe
+RV_05.056.08.2  Ã yasmin tasthau suraïÃni bibhratÅ sacÃ marutsu rodasÅ
+RV_05.056.09.1  taæ va÷ Óardhaæ ratheÓubhaæ tve«am panasyum Ã huve
+RV_05.056.09.2  yasmin sujÃtÃ subhagÃ mahÅyate sacÃ marutsu mÅÊhu«Å 
+
+RV_05.057.01.1  Ã rudrÃsa indravanta÷ sajo«aso hiraïyarathÃ÷ suvitÃya gantana
+RV_05.057.01.2  iyaæ vo asmat prati haryate matis t­«ïaje na diva utsÃ udanyave
+RV_05.057.02.1  vÃÓÅmanta ­«Âimanto manÅ«iïa÷ sudhanvÃna i«umanto ni«aÇgiïa÷
+RV_05.057.02.2  svaÓvÃ stha surathÃ÷ p­ÓnimÃtara÷ svÃyudhÃ maruto yÃthanÃ Óubham
+RV_05.057.03.1  dhÆnutha dyÃm parvatÃn dÃÓu«e vasu ni vo vanÃ jihate yÃmano bhiyÃ
+RV_05.057.03.2  kopayatha p­thivÅm p­ÓnimÃtara÷ Óubhe yad ugrÃ÷ p­«atÅr ayugdhvam
+RV_05.057.04.1  vÃtatvi«o maruto var«anirïijo yamÃ iva susad­Óa÷ supeÓasa÷
+RV_05.057.04.2  piÓaÇgÃÓvÃ aruïÃÓvÃ arepasa÷ pratvak«aso mahinÃ dyaur ivorava÷
+RV_05.057.05.1  purudrapsÃ a¤jimanta÷ sudÃnavas tve«asaæd­Óo anavabhrarÃdhasa÷
+RV_05.057.05.2  sujÃtÃso janu«Ã rukmavak«aso divo arkÃ am­taæ nÃma bhejire
+RV_05.057.06.1  ­«Âayo vo maruto aæsayor adhi saha ojo bÃhvor vo balaæ hitam
+RV_05.057.06.2  n­mïÃ ÓÅr«asv ÃyudhÃ rathe«u vo viÓvÃ va÷ ÓrÅr adhi tanÆ«u pipiÓe
+RV_05.057.07.1  gomad aÓvÃvad rathavat suvÅraæ candravad rÃdho maruto dadÃ na÷
+RV_05.057.07.2  praÓastiæ na÷ k­ïuta rudriyÃso bhak«Åya vo 'vaso daivyasya
+RV_05.057.08.1  haye naro maruto m­ÊatÃ nas tuvÅmaghÃso am­tÃ ­taj¤Ã÷
+RV_05.057.08.2  satyaÓruta÷ kavayo yuvÃno b­hadgirayo b­had uk«amÃïÃ÷ 
+
+RV_05.058.01.1  tam u nÆnaæ tavi«Åmantam e«Ãæ stu«e gaïam mÃrutaæ navyasÅnÃm
+RV_05.058.01.2  ya ÃÓvaÓvÃ amavad vahanta uteÓire am­tasya svarÃja÷
+RV_05.058.02.1  tve«aæ gaïaæ tavasaæ khÃdihastaæ dhunivratam mÃyinaæ dÃtivÃram
+RV_05.058.02.2  mayobhuvo ye amitÃ mahitvÃ vandasva vipra tuvirÃdhaso nÌn
+RV_05.058.03.1  Ã vo yantÆdavÃhÃso adya v­«Âiæ ye viÓve maruto junanti
+RV_05.058.03.2  ayaæ yo agnir maruta÷ samiddha etaæ ju«adhvaæ kavayo yuvÃna÷
+RV_05.058.04.1  yÆyaæ rÃjÃnam iryaæ janÃya vibhvata«Âaæ janayathÃ yajatrÃ÷
+RV_05.058.04.2  yu«mad eti mu«ÂihÃ bÃhujÆto yu«mad sadaÓvo maruta÷ suvÅra÷
+RV_05.058.05.1  arÃ ived acaramÃ aheva pra-pra jÃyante akavÃ mahobhi÷
+RV_05.058.05.2  p­Óne÷ putrÃ upamÃso rabhi«ÂhÃ÷ svayÃ matyÃ maruta÷ sam mimik«u÷
+RV_05.058.06.1  yat prÃyÃsi«Âa p­«atÅbhir aÓvair vÅÊupavibhir maruto rathebhi÷
+RV_05.058.06.2  k«odanta Ãpo riïate vanÃny avosriyo v­«abha÷ krandatu dyau÷
+RV_05.058.07.1  prathi«Âa yÃman p­thivÅ cid e«Ãm bharteva garbhaæ svam ic chavo dhu÷
+RV_05.058.07.2  vÃtÃn hy aÓvÃn dhury ­yuyujre var«aæ svedaæ cakrire rudriyÃsa÷
+RV_05.058.08.1  haye naro maruto m­ÊatÃ nas tuvÅmaghÃso am­tÃ ­taj¤Ã÷
+RV_05.058.08.2  satyaÓruta÷ kavayo yuvÃno b­hadgirayo b­had uk«amÃïÃ÷ 
+
+RV_05.059.01.1  pra va spaÊ akran suvitÃya dÃvane 'rcÃ dive pra p­thivyÃ ­tam bhare
+RV_05.059.01.2  uk«ante aÓvÃn taru«anta Ã rajo 'nu svam bhÃnuæ Órathayante arïavai÷
+RV_05.059.02.1  amÃd e«Ãm bhiyasÃ bhÆmir ejati naur na pÆrïÃ k«arati vyathir yatÅ
+RV_05.059.02.2  dÆred­Óo ye citayanta emabhir antar mahe vidathe yetire nara÷
+RV_05.059.03.1  gavÃm iva Óriyase Ó­Çgam uttamaæ sÆryo na cak«Æ rajaso visarjane
+RV_05.059.03.2  atyÃ iva subhvaÓ cÃrava sthana maryÃ iva Óriyase cetathÃ nara÷
+RV_05.059.04.1  ko vo mahÃnti mahatÃm ud aÓnavat kas kÃvyÃ maruta÷ ko ha pauæsyÃ
+RV_05.059.04.2  yÆyaæ ha bhÆmiæ kiraïaæ na rejatha pra yad bharadhve suvitÃya dÃvane
+RV_05.059.05.1  aÓvÃ ived aru«Ãsa÷ sabandhava÷ ÓÆrÃ iva prayudha÷ prota yuyudhu÷
+RV_05.059.05.2  maryÃ iva suv­dho vÃv­dhur nara÷ sÆryasya cak«u÷ pra minanti v­«Âibhi÷
+RV_05.059.06.1  te ajye«ÂhÃ akani«ÂhÃsa udbhido 'madhyamÃso mahasÃ vi vÃv­dhu÷
+RV_05.059.06.2  sujÃtÃso janu«Ã p­ÓnimÃtaro divo maryÃ Ã no achÃ jigÃtana
+RV_05.059.07.1  vayo na ye ÓreïÅ÷ paptur ojasÃntÃn divo b­hata÷ sÃnunas pari
+RV_05.059.07.2  aÓvÃsa e«Ãm ubhaye yathÃ vidu÷ pra parvatasya nabhanÆær acucyavu÷
+RV_05.059.08.1  mimÃtu dyaur aditir vÅtaye na÷ saæ dÃnucitrÃ u«aso yatantÃm
+RV_05.059.08.2  Ãcucyavur divyaæ koÓam eta ­«e rudrasya maruto g­ïÃnÃ÷ 
+
+RV_05.060.01.1  ÅÊe agniæ svavasaæ namobhir iha prasatto vi cayat k­taæ na÷
+RV_05.060.01.2  rathair iva pra bhare vÃjayadbhi÷ pradak«iïin marutÃæ stomam ­dhyÃm
+RV_05.060.02.1  Ã ye tasthu÷ p­«atÅ«u ÓrutÃsu sukhe«u rudrÃ maruto rathe«u
+RV_05.060.02.2  vanÃ cid ugrÃ jihate ni vo bhiyÃ p­thivÅ cid rejate parvataÓ cit
+RV_05.060.03.1  parvataÓ cin mahi v­ddho bibhÃya divaÓ cit sÃnu rejata svane va÷
+RV_05.060.03.2  yat krÅÊatha maruta ­«Âimanta Ãpa iva sadhrya¤co dhavadhve
+RV_05.060.04.1  varÃ ived raivatÃso hiraïyair abhi svadhÃbhis tanva÷ pipiÓre
+RV_05.060.04.2  Óriye ÓreyÃæsas tavaso rathe«u satrÃ mahÃæsi cakrire tanÆ«u
+RV_05.060.05.1  ajye«ÂhÃso akani«ÂhÃsa ete sam bhrÃtaro vÃv­dhu÷ saubhagÃya
+RV_05.060.05.2  yuvÃ pitÃ svapÃ rudra e«Ãæ sudughÃ p­Óni÷ sudinÃ marudbhya÷
+RV_05.060.06.1  yad uttame maruto madhyame vÃ yad vÃvame subhagÃso divi «Âha
+RV_05.060.06.2  ato no rudrÃ uta vÃ nv asyÃgne vittÃd dhavi«o yad yajÃma
+RV_05.060.07.1  agniÓ ca yan maruto viÓvavedaso divo vahadhva uttarÃd adhi «ïubhi÷
+RV_05.060.07.2  te mandasÃnÃ dhunayo riÓÃdaso vÃmaæ dhatta yajamÃnÃya sunvate
+RV_05.060.08.1  agne marudbhi÷ Óubhayadbhir ­kvabhi÷ somam piba mandasÃno gaïaÓribhi÷
+RV_05.060.08.2  pÃvakebhir viÓvaminvebhir Ãyubhir vaiÓvÃnara pradivÃ ketunÃ sajÆ÷ 
+
+RV_05.061.01.1  ke «ÂhÃ nara÷ Óre«ÂhatamÃ ya eka-eka Ãyaya
+RV_05.061.01.2  paramasyÃ÷ parÃvata÷
+RV_05.061.02.1  kva vo 'ÓvÃ÷ kv­bhÅÓava÷ kathaæ Óeka kathÃ yaya
+RV_05.061.02.2  p­«Âhe sado nasor yama÷
+RV_05.061.03.1  jaghane coda e«Ãæ vi sakthÃni naro yamu÷
+RV_05.061.03.2  putrak­the na janaya÷
+RV_05.061.04.1  parÃ vÅrÃsa etana maryÃso bhadrajÃnaya÷
+RV_05.061.04.2  agnitapo yathÃsatha
+RV_05.061.05.1  sanat sÃÓvyam paÓum uta gavyaæ ÓatÃvayam
+RV_05.061.05.2  ÓyÃvÃÓvastutÃya yÃ dor vÅrÃyopabarb­hat
+RV_05.061.06.1  uta tvÃ strÅ ÓaÓÅyasÅ puæso bhavati vasyasÅ
+RV_05.061.06.2  adevatrÃd arÃdhasa÷
+RV_05.061.07.1  vi yÃ jÃnÃti jasuriæ vi t­«yantaæ vi kÃminam
+RV_05.061.07.2  devatrÃ k­ïute mana÷
+RV_05.061.08.1  uta ghÃ nemo astuta÷ pumÃæ iti bruve païi÷
+RV_05.061.08.2  sa vairadeya it sama÷
+RV_05.061.09.1  uta me 'rapad yuvatir mamandu«Å prati ÓyÃvÃya vartanim
+RV_05.061.09.2  vi rohitÃ purumÅÊhÃya yematur viprÃya dÅrghayaÓase
+RV_05.061.10.1  yo me dhenÆnÃæ Óataæ vaidadaÓvir yathÃ dadat
+RV_05.061.10.2  taranta iva maæhanÃ
+RV_05.061.11.1  ya Åæ vahanta ÃÓubhi÷ pibanto madiram madhu
+RV_05.061.11.2  atra ÓravÃæsi dadhire
+RV_05.061.12.1  ye«Ãæ ÓriyÃdhi rodasÅ vibhrÃjante rathe«v Ã
+RV_05.061.12.2  divi rukma ivopari
+RV_05.061.13.1  yuvÃ sa mÃruto gaïas tve«aratho anedya÷
+RV_05.061.13.2  ÓubhaæyÃvÃprati«kuta÷
+RV_05.061.14.1  ko veda nÆnam e«Ãæ yatrÃ madanti dhÆtaya÷
+RV_05.061.14.2  ­tajÃtÃ arepasa÷
+RV_05.061.15.1  yÆyam martaæ vipanyava÷ praïetÃra itthÃ dhiyÃ
+RV_05.061.15.2  ÓrotÃro yÃmahÆti«u
+RV_05.061.16.1  te no vasÆni kÃmyÃ puruÓcandrÃ riÓÃdasa÷
+RV_05.061.16.2  Ã yaj¤iyÃso vav­ttana
+RV_05.061.17.1  etam me stomam Ærmye dÃrbhyÃya parÃ vaha
+RV_05.061.17.2  giro devi rathÅr iva
+RV_05.061.18.1  uta me vocatÃd iti sutasome rathavÅtau
+RV_05.061.18.2  na kÃmo apa veti me
+RV_05.061.19.1  e«a k«eti rathavÅtir maghavÃ gomatÅr anu
+RV_05.061.19.2  parvate«v apaÓrita÷ 
+
+RV_05.062.01.1  ­tena ­tam apihitaæ dhruvaæ vÃæ sÆryasya yatra vimucanty aÓvÃn
+RV_05.062.01.2  daÓa ÓatÃ saha tasthus tad ekaæ devÃnÃæ Óre«Âhaæ vapu«Ãm apaÓyam
+RV_05.062.02.1  tat su vÃm mitrÃvaruïÃ mahitvam ÅrmÃ tasthu«År ahabhir duduhre
+RV_05.062.02.2  viÓvÃ÷ pinvatha÷ svasarasya dhenÃ anu vÃm eka÷ pavir Ã vavarta
+RV_05.062.03.1  adhÃrayatam p­thivÅm uta dyÃm mitrarÃjÃnÃ varuïÃ mahobhi÷
+RV_05.062.03.2  vardhayatam o«adhÅ÷ pinvataæ gÃ ava v­«Âiæ s­jataæ jÅradÃnÆ
+RV_05.062.04.1  Ã vÃm aÓvÃsa÷ suyujo vahantu yataraÓmaya upa yantv arvÃk
+RV_05.062.04.2  gh­tasya nirïig anu vartate vÃm upa sindhava÷ pradivi k«aranti
+RV_05.062.05.1  anu ÓrutÃm amatiæ vardhad urvÅm barhir iva yaju«Ã rak«amÃïÃ
+RV_05.062.05.2  namasvantÃ dh­tadak«Ãdhi garte mitrÃsÃthe varuïeÊÃsv anta÷
+RV_05.062.06.1  akravihastÃ suk­te paraspÃ yaæ trÃsÃthe varuïeÊÃsv anta÷
+RV_05.062.06.2  rÃjÃnÃ k«atram ah­ïÅyamÃnÃ sahasrasthÆïam bibh­tha÷ saha dvau
+RV_05.062.07.1  hiraïyanirïig ayo asya sthÆïÃ vi bhrÃjate divy aÓvÃjanÅva
+RV_05.062.07.2  bhadre k«etre nimitÃ tilvile vÃ sanema madhvo adhigartyasya
+RV_05.062.08.1  hiraïyarÆpam u«aso vyu«ÂÃv ayasthÆïam uditÃ sÆryasya
+RV_05.062.08.2  Ã rohatho varuïa mitra gartam ataÓ cak«Ãthe aditiæ ditiæ ca
+RV_05.062.09.1  yad baæhi«Âhaæ nÃtividhe sudÃnÆ achidraæ Óarma bhuvanasya gopÃ
+RV_05.062.09.2  tena no mitrÃvaruïÃv avi«Âaæ si«Ãsanto jigÅvÃæsa÷ syÃma 
+
+RV_05.063.01.1  ­tasya gopÃv adhi ti«Âhatho rathaæ satyadharmÃïÃ parame vyomani
+RV_05.063.01.2  yam atra mitrÃvaruïÃvatho yuvaæ tasmai v­«Âir madhumat pinvate diva÷
+RV_05.063.02.1  samrÃjÃv asya bhuvanasya rÃjatho mitrÃvaruïÃ vidathe svard­ÓÃ
+RV_05.063.02.2  v­«Âiæ vÃæ rÃdho am­tatvam Åmahe dyÃvÃp­thivÅ vi caranti tanyava÷
+RV_05.063.03.1  samrÃjÃ ugrÃ v­«abhÃ divas patÅ p­thivyÃ mitrÃvaruïÃ vicar«aïÅ
+RV_05.063.03.2  citrebhir abhrair upa ti«Âhatho ravaæ dyÃæ var«ayatho asurasya mÃyayÃ
+RV_05.063.04.1  mÃyÃ vÃm mitrÃvaruïÃ divi ÓritÃ sÆryo jyotiÓ carati citram Ãyudham
+RV_05.063.04.2  tam abhreïa v­«ÂyÃ gÆhatho divi parjanya drapsÃ madhumanta Årate
+RV_05.063.05.1  rathaæ yu¤jate maruta÷ Óubhe sukhaæ ÓÆro na mitrÃvaruïÃ gavi«Âi«u
+RV_05.063.05.2  rajÃæsi citrÃ vi caranti tanyavo diva÷ samrÃjÃ payasÃ na uk«atam
+RV_05.063.06.1  vÃcaæ su mitrÃvaruïÃv irÃvatÅm parjanyaÓ citrÃæ vadati tvi«ÅmatÅm
+RV_05.063.06.2  abhrÃ vasata maruta÷ su mÃyayÃ dyÃæ var«ayatam aruïÃm arepasam
+RV_05.063.07.1  dharmaïÃ mitrÃvaruïÃ vipaÓcitÃ vratÃ rak«ethe asurasya mÃyayÃ
+RV_05.063.07.2  ­tena viÓvam bhuvanaæ vi rÃjatha÷ sÆryam Ã dhattho divi citryaæ ratham 
+
+RV_05.064.01.1  varuïaæ vo riÓÃdasam ­cÃ mitraæ havÃmahe
+RV_05.064.01.2  pari vrajeva bÃhvor jaganvÃæsÃ svarïaram
+RV_05.064.02.1  tÃ bÃhavÃ sucetunÃ pra yantam asmÃ arcate
+RV_05.064.02.2  Óevaæ hi jÃryaæ vÃæ viÓvÃsu k«Ãsu joguve
+RV_05.064.03.1  yan nÆnam aÓyÃæ gatim mitrasya yÃyÃm pathÃ
+RV_05.064.03.2  asya priyasya Óarmaïy ahiæsÃnasya saÓcire
+RV_05.064.04.1  yuvÃbhyÃm mitrÃvaruïopamaæ dheyÃm ­cÃ
+RV_05.064.04.2  yad dha k«aye maghonÃæ stotïÃæ ca spÆrdhase
+RV_05.064.05.1  Ã no mitra sudÅtibhir varuïaÓ ca sadhastha Ã
+RV_05.064.05.2  sve k«aye maghonÃæ sakhÅnÃæ ca v­dhase
+RV_05.064.06.1  yuvaæ no ye«u varuïa k«atram b­hac ca bibh­tha÷
+RV_05.064.06.2  uru ïo vÃjasÃtaye k­taæ rÃye svastaye
+RV_05.064.07.1  uchantyÃm me yajatÃ devak«atre ruÓadgavi
+RV_05.064.07.2  sutaæ somaæ na hastibhir Ã pa¬bhir dhÃvataæ narÃ bibhratÃv arcanÃnasam 
+RV_05.065.00.11  yaÓ ciketa sa sukratur devatrÃ sa bravÅtu na÷
+RV_05.065.00.12  varuïo yasya darÓato mitro vÃ vanate gira÷
+RV_05.065.00.21  tÃ hi Óre«ÂhavarcasÃ rÃjÃnÃ dÅrghaÓruttamÃ
+RV_05.065.00.22  tÃ satpatÅ ­tÃv­dha ­tÃvÃnÃ jane-jane
+RV_05.065.00.31  tÃ vÃm iyÃno 'vase pÆrvÃ upa bruve sacÃ
+RV_05.065.00.32  svaÓvÃsa÷ su cetunÃ vÃjÃæ abhi pra dÃvane
+RV_05.065.00.41  mitro aæhoÓ cid Ãd uru k«ayÃya gÃtuæ vanate
+RV_05.065.00.42  mitrasya hi pratÆrvata÷ sumatir asti vidhata÷
+RV_05.065.00.51  vayam mitrasyÃvasi syÃma saprathastame
+RV_05.065.00.52  anehasas tvotaya÷ satrÃ varuïaÓe«asa÷
+RV_05.065.00.61  yuvam mitremaæ janaæ yatatha÷ saæ ca nayatha÷
+RV_05.065.00.62  mÃ maghona÷ pari khyatam mo asmÃkam ­«ÅïÃæ gopÅthe na uru«yatam 
+
+RV_05.066.01.1  Ã cikitÃna sukratÆ devau marta riÓÃdasÃ
+RV_05.066.01.2  varuïÃya ­tapeÓase dadhÅta prayase mahe
+RV_05.066.02.1  tÃ hi k«atram avihrutaæ samyag asuryam ÃÓÃte
+RV_05.066.02.2  adha vrateva mÃnu«aæ svar ïa dhÃyi darÓatam
+RV_05.066.03.1  tÃ vÃm e«e rathÃnÃm urvÅæ gavyÆtim e«Ãm
+RV_05.066.03.2  rÃtahavyasya su«Âutiæ dadh­k stomair manÃmahe
+RV_05.066.04.1  adhÃ hi kÃvyÃ yuvaæ dak«asya pÆrbhir adbhutÃ
+RV_05.066.04.2  ni ketunÃ janÃnÃæ cikethe pÆtadak«asÃ
+RV_05.066.05.1  tad ­tam p­thivi b­hac chravae«a ­«ÅïÃm
+RV_05.066.05.2  jrayasÃnÃv aram p­thv ati k«aranti yÃmabhi÷
+RV_05.066.06.1  Ã yad vÃm Åyacak«asÃ mitra vayaæ ca sÆraya÷
+RV_05.066.06.2  vyaci«Âhe bahupÃyye yatemahi svarÃjye 
+
+RV_05.067.01.1  baÊ itthÃ deva ni«k­tam ÃdityÃ yajatam b­hat
+RV_05.067.01.2  varuïa mitrÃryaman var«i«Âhaæ k«atram ÃÓÃthe
+RV_05.067.02.1  Ã yad yoniæ hiraïyayaæ varuïa mitra sadatha÷
+RV_05.067.02.2  dhartÃrÃ car«aïÅnÃæ yantaæ sumnaæ riÓÃdasÃ
+RV_05.067.03.1  viÓve hi viÓvavedaso varuïo mitro aryamÃ
+RV_05.067.03.2  vratÃ padeva saÓcire pÃnti martyaæ ri«a÷
+RV_05.067.04.1  te hi satyÃ ­tasp­Óa ­tÃvÃno jane-jane
+RV_05.067.04.2  sunÅthÃsa÷ sudÃnavo 'æhoÓ cid urucakraya÷
+RV_05.067.05.1  ko nu vÃm mitrÃstuto varuïo vÃ tanÆnÃm
+RV_05.067.05.2  tat su vÃm e«ate matir atribhya e«ate mati÷ 
+
+RV_05.068.01.1  pra vo mitrÃya gÃyata varuïÃya vipÃ girÃ
+RV_05.068.01.2  mahik«atrÃv ­tam b­hat
+RV_05.068.02.1  samrÃjÃ yÃ gh­tayonÅ mitraÓ cobhÃ varuïaÓ ca
+RV_05.068.02.2  devÃ deve«u praÓastÃ
+RV_05.068.03.1  tÃ na÷ Óaktam pÃrthivasya maho rÃyo divyasya
+RV_05.068.03.2  mahi vÃæ k«atraæ deve«u
+RV_05.068.04.1  ­tam ­tena sapante«iraæ dak«am ÃÓÃte
+RV_05.068.04.2  adruhÃ devau vardhete
+RV_05.068.05.1  v­«ÂidyÃvÃ rÅty­pe«as patÅ dÃnumatyÃ÷
+RV_05.068.05.2  b­hantaæ gartam ÃÓÃte 
+
+RV_05.069.01.1  trÅ rocanÃ varuïa trÅær uta dyÆn trÅïi mitra dhÃrayatho rajÃæsi
+RV_05.069.01.2  vÃv­dhÃnÃv amatiæ k«atriyasyÃnu vrataæ rak«amÃïÃv ajuryam
+RV_05.069.02.1  irÃvatÅr varuïa dhenavo vÃm madhumad vÃæ sindhavo mitra duhre
+RV_05.069.02.2  trayas tasthur v­«abhÃsas tis­ïÃæ dhi«aïÃnÃæ retodhÃ vi dyumanta÷
+RV_05.069.03.1  prÃtar devÅm aditiæ johavÅmi madhyaædina uditÃ sÆryasya
+RV_05.069.03.2  rÃye mitrÃvaruïÃ sarvatÃteÊe tokÃya tanayÃya Óaæ yo÷
+RV_05.069.04.1  yÃ dhartÃrÃ rajaso rocanasyotÃdityÃ divyÃ pÃrthivasya
+RV_05.069.04.2  na vÃæ devÃ am­tÃ Ã minanti vratÃni mitrÃvaruïÃ dhruvÃïi 
+
+RV_05.070.01.1  purÆruïÃ cid dhy asty avo nÆnaæ vÃæ varuïa
+RV_05.070.01.2  mitra vaæsi vÃæ sumatim
+RV_05.070.02.1  tÃ vÃæ samyag adruhvÃïe«am aÓyÃma dhÃyase
+RV_05.070.02.2  vayaæ te rudrÃ syÃma
+RV_05.070.03.1  pÃtaæ no rudrÃ pÃyubhir uta trÃyethÃæ sutrÃtrÃ
+RV_05.070.03.2  turyÃma dasyÆn tanÆbhi÷
+RV_05.070.04.1  mÃ kasyÃdbhutakratÆ yak«am bhujemÃ tanÆbhi÷
+RV_05.070.04.2  mÃ Óe«asÃ mÃ tanasÃ 
+
+RV_05.071.01.1  Ã no gantaæ riÓÃdasÃ varuïa mitra barhaïÃ
+RV_05.071.01.2  upemaæ cÃrum adhvaram
+RV_05.071.02.1  viÓvasya hi pracetasÃ varuïa mitra rÃjatha÷
+RV_05.071.02.2  ÅÓÃnÃ pipyataæ dhiya÷
+RV_05.071.03.1  upa na÷ sutam Ã gataæ varuïa mitra dÃÓu«a÷
+RV_05.071.03.2  asya somasya pÅtaye 
+
+RV_05.072.01.1  Ã mitre varuïe vayaæ gÅrbhir juhumo atrivat
+RV_05.072.01.2  ni barhi«i sadataæ somapÅtaye
+RV_05.072.02.1  vratena stho dhruvak«emÃ dharmaïÃ yÃtayajjanÃ
+RV_05.072.02.2  ni barhi«i sadataæ somapÅtaye
+RV_05.072.03.1  mitraÓ ca no varuïaÓ ca ju«etÃæ yaj¤am i«Âaye
+RV_05.072.03.2  ni barhi«i sadatÃæ somapÅtaye 
+
+RV_05.073.01.1  yad adya stha÷ parÃvati yad arvÃvaty aÓvinÃ
+RV_05.073.01.2  yad vÃ purÆ purubhujÃ yad antarik«a Ã gatam
+RV_05.073.02.1  iha tyÃ purubhÆtamÃ purÆ daæsÃæsi bibhratÃ
+RV_05.073.02.2  varasyÃ yÃmy adhrigÆ huve tuvi«ÂamÃ bhuje
+RV_05.073.03.1  ÅrmÃnyad vapu«e vapuÓ cakraæ rathasya yemathu÷
+RV_05.073.03.2  pary anyÃ nÃhu«Ã yugÃ mahnÃ rajÃæsi dÅyatha÷
+RV_05.073.04.1  tad Æ «u vÃm enÃ k­taæ viÓvÃ yad vÃm anu «Âave
+RV_05.073.04.2  nÃnÃ jÃtÃv arepasÃ sam asme bandhum eyathu÷
+RV_05.073.05.1  Ã yad vÃæ sÆryÃ rathaæ ti«Âhad raghu«yadaæ sadÃ
+RV_05.073.05.2  pari vÃm aru«Ã vayo gh­ïÃ varanta Ãtapa÷
+RV_05.073.06.1  yuvor atriÓ ciketati narÃ sumnena cetasÃ
+RV_05.073.06.2  gharmaæ yad vÃm arepasaæ nÃsatyÃsnÃ bhuraïyati
+RV_05.073.07.1  ugro vÃæ kakuho yayi÷ Ó­ïve yÃme«u saætani÷
+RV_05.073.07.2  yad vÃæ daæsobhir aÓvinÃtrir narÃvavartati
+RV_05.073.08.1  madhva Æ «u madhÆyuvÃ rudrÃ si«akti pipyu«Å
+RV_05.073.08.2  yat samudrÃti par«atha÷ pakvÃ÷ p­k«o bharanta vÃm
+RV_05.073.09.1  satyam id vÃ u aÓvinÃ yuvÃm Ãhur mayobhuvÃ
+RV_05.073.09.2  tÃ yÃman yÃmahÆtamÃ yÃmann Ã m­ÊayattamÃ
+RV_05.073.10.1  imÃ brahmÃïi vardhanÃÓvibhyÃæ santu ÓaætamÃ
+RV_05.073.10.2  yÃ tak«Ãma rathÃæ ivÃvocÃma b­han nama÷ 
+
+RV_05.074.01.1  kÆ«Âho devÃv aÓvinÃdyÃ divo manÃvasÆ
+RV_05.074.01.2  tac chravatho v­«aïvasÆ atrir vÃm Ã vivÃsati
+RV_05.074.02.1  kuha tyÃ kuha nu ÓrutÃ divi devÃ nÃsatyÃ
+RV_05.074.02.2  kasminn Ã yatatho jane ko vÃæ nadÅnÃæ sacÃ
+RV_05.074.03.1  kaæ yÃtha÷ kaæ ha gachatha÷ kam achÃ yu¤jÃthe ratham
+RV_05.074.03.2  kasya brahmÃïi raïyatho vayaæ vÃm uÓmasÅ«Âaye
+RV_05.074.04.1  pauraæ cid dhy udaprutam paura paurÃya jinvatha÷
+RV_05.074.04.2  yad Åæ g­bhÅtatÃtaye siæham iva druhas pade
+RV_05.074.05.1  pra cyavÃnÃj jujuru«o vavrim atkaæ na mu¤catha÷
+RV_05.074.05.2  yuvÃ yadÅ k­tha÷ punar Ã kÃmam ­ïve vadhva÷
+RV_05.074.06.1  asti hi vÃm iha stotÃ smasi vÃæ saæd­Ói Óriye
+RV_05.074.06.2  nÆ Órutam ma Ã gatam avobhir vÃjinÅvasÆ
+RV_05.074.07.1  ko vÃm adya purÆïÃm Ã vavne martyÃnÃm
+RV_05.074.07.2  ko vipro vipravÃhasÃ ko yaj¤air vÃjinÅvasÆ
+RV_05.074.08.1  Ã vÃæ ratho rathÃnÃæ ye«Âho yÃtv aÓvinÃ
+RV_05.074.08.2  purÆ cid asmayus tira ÃÇgÆ«o martye«v Ã
+RV_05.074.09.1  Óam Æ «u vÃm madhÆyuvÃsmÃkam astu cark­ti÷
+RV_05.074.09.2  arvÃcÅnÃ vicetasÃ vibhi÷ Óyeneva dÅyatam
+RV_05.074.10.1  aÓvinÃ yad dha karhi cic chuÓrÆyÃtam imaæ havam
+RV_05.074.10.2  vasvÅr Æ «u vÃm bhuja÷ p­¤canti su vÃm p­ca÷ 
+
+RV_05.075.00.11  prati priyatamaæ rathaæ v­«aïaæ vasuvÃhanam
+RV_05.075.00.12  stotÃ vÃm aÓvinÃv ­«i stomena prati bhÆ«ati mÃdhvÅ mama Órutaæ havam
+RV_05.075.00.21  atyÃyÃtam aÓvinÃ tiro viÓvÃ ahaæ sanÃ
+RV_05.075.00.22  dasrÃ hiraïyavartanÅ su«umnÃ sindhuvÃhasÃ mÃdhvÅ mama Órutaæ havam
+RV_05.075.00.31  Ã no ratnÃni bibhratÃv aÓvinÃ gachataæ yuvam
+RV_05.075.00.32  rudrÃ hiraïyavartanÅ ju«ÃïÃ vÃjinÅvasÆ mÃdhvÅ mama Órutaæ havam
+RV_05.075.00.41  su«Âubho vÃæ v­«aïvasÆ rathe vÃïÅcy ÃhitÃ
+RV_05.075.00.42  uta vÃæ kakuho m­ga÷ p­k«a÷ k­ïoti vÃpu«o mÃdhvÅ mama Órutaæ havam
+RV_05.075.00.51  bodhinmanasÃ rathye«irÃ havanaÓrutÃ
+RV_05.075.00.52  vibhiÓ cyavÃnam aÓvinÃ ni yÃtho advayÃvinam mÃdhvÅ mama Órutaæ havam
+RV_05.075.00.61  Ã vÃæ narÃ manoyujo 'ÓvÃsa÷ pru«itapsava÷
+RV_05.075.00.62  vayo vahantu pÅtaye saha sumnebhir aÓvinÃ mÃdhvÅ mama Órutaæ havam
+RV_05.075.00.71  aÓvinÃv eha gachataæ nÃsatyÃ mÃ vi venatam
+RV_05.075.00.72  tiraÓ cid aryayÃ pari vartir yÃtam adÃbhyÃ mÃdhvÅ mama Órutaæ havam
+RV_05.075.00.81  asmin yaj¤e adÃbhyÃ jaritÃraæ Óubhas patÅ
+RV_05.075.00.82  avasyum aÓvinÃ yuvaæ g­ïantam upa bhÆ«atho mÃdhvÅ mama Órutaæ havam
+RV_05.075.00.91  abhÆd u«Ã ruÓatpaÓur Ãgnir adhÃyy ­tviya÷
+RV_05.075.00.92  ayoji vÃæ v­«aïvasÆ ratho dasrÃv amartyo mÃdhvÅ mama Órutaæ havam 
+
+RV_05.076.01.1  Ã bhÃty agnir u«asÃm anÅkam ud viprÃïÃæ devayÃ vÃco asthu÷
+RV_05.076.01.2  arvÃ¤cÃ nÆnaæ rathyeha yÃtam pÅpivÃæsam aÓvinÃ gharmam acha
+RV_05.076.02.1  na saæsk­tam pra mimÅto gami«ÂhÃnti nÆnam aÓvinopastuteha
+RV_05.076.02.2  divÃbhipitve 'vasÃgami«ÂhÃ praty avartiæ dÃÓu«e Óambhavi«ÂhÃ
+RV_05.076.03.1  utÃ yÃtaæ saægave prÃtar ahno madhyaædina uditÃ sÆryasya
+RV_05.076.03.2  divÃ naktam avasÃ Óaætamena nedÃnÅm pÅtir aÓvinÃ tatÃna
+RV_05.076.04.1  idaæ hi vÃm pradivi sthÃnam oka ime g­hÃ aÓvinedaæ duroïam
+RV_05.076.04.2  Ã no divo b­hata÷ parvatÃd Ãdbhyo yÃtam i«am Ærjaæ vahantÃ
+RV_05.076.05.1  sam aÓvinor avasÃ nÆtanena mayobhuvÃ supraïÅtÅ gamema
+RV_05.076.05.2  Ã no rayiæ vahatam ota vÅrÃn Ã viÓvÃny am­tÃ saubhagÃni 
+
+RV_05.077.01.1  prÃtaryÃvÃïÃ prathamÃ yajadhvam purÃ g­dhrÃd araru«a÷ pibÃta÷
+RV_05.077.01.2  prÃtar hi yaj¤am aÓvinÃ dadhÃte pra Óaæsanti kavaya÷ pÆrvabhÃja÷
+RV_05.077.02.1  prÃtar yajadhvam aÓvinÃ hinota na sÃyam asti devayÃ aju«Âam
+RV_05.077.02.2  utÃnyo asmad yajate vi cÃva÷ pÆrva÷-pÆrvo yajamÃno vanÅyÃn
+RV_05.077.03.1  hiraïyatvaÇ madhuvarïo gh­tasnu÷ p­k«o vahann Ã ratho vartate vÃm
+RV_05.077.03.2  manojavÃ aÓvinÃ vÃtaraæhÃ yenÃtiyÃtho duritÃni viÓvÃ
+RV_05.077.04.1  yo bhÆyi«Âhaæ nÃsatyÃbhyÃæ vive«a cani«Âham pitvo rarate vibhÃge
+RV_05.077.04.2  sa tokam asya pÅparac chamÅbhir anÆrdhvabhÃsa÷ sadam it tuturyÃt
+RV_05.077.05.1  sam aÓvinor avasÃ nÆtanena mayobhuvÃ supraïÅtÅ gamema
+RV_05.077.05.2  Ã no rayiæ vahatam ota vÅrÃn Ã viÓvÃny am­tÃ saubhagÃni 
+
+RV_05.078.01.1  aÓvinÃv eha gachataæ nÃsatyÃ mÃ vi venatam
+RV_05.078.01.2  haæsÃv iva patatam Ã sutÃæ upa
+RV_05.078.02.1  aÓvinÃ hariïÃv iva gaurÃv ivÃnu yavasam
+RV_05.078.02.2  haæsÃv iva patatam Ã sutÃæ upa
+RV_05.078.03.1  aÓvinÃ vÃjinÅvasÆ ju«ethÃæ yaj¤am i«Âaye
+RV_05.078.03.2  haæsÃv iva patatam Ã sutÃæ upa
+RV_05.078.04.1  atrir yad vÃm avarohann ­bÅsam ajohavÅn nÃdhamÃneva yo«Ã
+RV_05.078.04.2  Óyenasya cij javasÃ nÆtanenÃgachatam aÓvinÃ Óaætamena
+RV_05.078.05.1  vi jihÅ«va vanaspate yoni÷ sÆ«yantyÃ iva
+RV_05.078.05.2  Órutam me aÓvinÃ havaæ saptavadhriæ ca mu¤catam
+RV_05.078.06.1  bhÅtÃya nÃdhamÃnÃya ­«aye saptavadhraye
+RV_05.078.06.2  mÃyÃbhir aÓvinÃ yuvaæ v­k«aæ saæ ca vi cÃcatha÷
+RV_05.078.07.1  yathÃ vÃta÷ pu«kariïÅæ samiÇgayati sarvata÷
+RV_05.078.07.2  evÃ te garbha ejatu niraitu daÓamÃsya÷
+RV_05.078.08.1  yathÃ vÃto yathÃ vanaæ yathÃ samudra ejati
+RV_05.078.08.2  evÃ tvaæ daÓamÃsya sahÃvehi jarÃyuïÃ
+RV_05.078.09.1  daÓa mÃsÃ¤ chaÓayÃna÷ kumÃro adhi mÃtari
+RV_05.078.09.2  niraitu jÅvo ak«ato jÅvo jÅvantyÃ adhi 
+RV_05.079.01.1  mahe no adya bodhayo«o rÃye divitmatÅ
+RV_05.079.01.2  yathÃ cin no abodhaya÷ satyaÓravasi vÃyye sujÃte aÓvasÆn­te
+RV_05.079.02.1  yÃ sunÅthe Óaucadrathe vy aucho duhitar diva÷
+RV_05.079.02.2  sÃ vy ucha sahÅyasi satyaÓravasi vÃyye sujÃte aÓvasÆn­te
+RV_05.079.03.1  sÃ no adyÃbharadvasur vy uchÃ duhitar diva÷
+RV_05.079.03.2  yo vy aucha÷ sahÅyasi satyaÓravasi vÃyye sujÃte aÓvasÆn­te
+RV_05.079.04.1  abhi ye tvÃ vibhÃvari stomair g­ïanti vahnaya÷
+RV_05.079.04.2  maghair maghoni suÓriyo dÃmanvanta÷ surÃtaya÷ sujÃte aÓvasÆn­te
+RV_05.079.05.1  yac cid dhi te gaïÃ ime chadayanti maghattaye
+RV_05.079.05.2  pari cid va«Âayo dadhur dadato rÃdho ahrayaæ sujÃte aÓvasÆn­te
+RV_05.079.06.1  ai«u dhÃ vÅravad yaÓa u«o maghoni sÆri«u
+RV_05.079.06.2  ye no rÃdhÃæsy ahrayÃ maghavÃno arÃsata sujÃte aÓvasÆn­te
+RV_05.079.07.1  tebhyo dyumnam b­had yaÓa u«o maghony Ã vaha
+RV_05.079.07.2  ye no rÃdhÃæsy aÓvyÃ gavyÃ bhajanta sÆraya÷ sujÃte aÓvasÆn­te
+RV_05.079.08.1  uta no gomatÅr i«a Ã vahÃ duhitar diva÷
+RV_05.079.08.2  sÃkaæ sÆryasya raÓmibhi÷ Óukrai÷ Óocadbhir arcibhi÷ sujÃte aÓvasÆn­te
+RV_05.079.09.1  vy uchÃ duhitar divo mÃ ciraæ tanuthÃ apa÷
+RV_05.079.09.2  net tvÃ stenaæ yathÃ ripuæ tapÃti sÆro arci«Ã sujÃte aÓvasÆn­te
+RV_05.079.10.1  etÃvad ved u«as tvam bhÆyo vÃ dÃtum arhasi
+RV_05.079.10.2  yÃ stot­bhyo vibhÃvary uchantÅ na pramÅyase sujÃte aÓvasÆn­te 
+
+RV_05.080.01.1  dyutadyÃmÃnam b­hatÅm ­tena ­tÃvarÅm aruïapsuæ vibhÃtÅm
+RV_05.080.01.2  devÅm u«asaæ svar ÃvahantÅm prati viprÃso matibhir jarante
+RV_05.080.02.1  e«Ã janaæ darÓatÃ bodhayantÅ sugÃn patha÷ k­ïvatÅ yÃty agre
+RV_05.080.02.2  b­hadrathÃ b­hatÅ viÓvaminvo«Ã jyotir yachaty agre ahnÃm
+RV_05.080.03.1  e«Ã gobhir aruïebhir yujÃnÃsredhantÅ rayim aprÃyu cakre
+RV_05.080.03.2  patho radantÅ suvitÃya devÅ puru«ÂutÃ viÓvavÃrÃ vi bhÃti
+RV_05.080.04.1  e«Ã vyenÅ bhavati dvibarhÃ Ãvi«k­ïvÃnÃ tanvam purastÃt
+RV_05.080.04.2  ­tasya panthÃm anv eti sÃdhu prajÃnatÅva na diÓo minÃti
+RV_05.080.05.1  e«Ã ÓubhrÃ na tanvo vidÃnordhveva snÃtÅ d­Óaye no asthÃt
+RV_05.080.05.2  apa dve«o bÃdhamÃnÃ tamÃæsy u«Ã divo duhitÃ jyoti«ÃgÃt
+RV_05.080.06.1  e«Ã pratÅcÅ duhitÃ divo nÌn yo«eva bhadrÃ ni riïÅte apsa÷
+RV_05.080.06.2  vyÆrïvatÅ dÃÓu«e vÃryÃïi punar jyotir yuvati÷ pÆrvathÃka÷ 
+
+RV_05.081.01.1  yu¤jate mana uta yu¤jate dhiyo viprÃ viprasya b­hato vipaÓcita÷
+RV_05.081.01.2  vi hotrÃ dadhe vayunÃvid eka in mahÅ devasya savitu÷ pari«Âuti÷
+RV_05.081.02.1  viÓvÃ rÆpÃïi prati mu¤cate kavi÷ prÃsÃvÅd bhadraæ dvipade catu«pade
+RV_05.081.02.2  vi nÃkam akhyat savitÃ vareïyo 'nu prayÃïam u«aso vi rÃjati
+RV_05.081.03.1  yasya prayÃïam anv anya id yayur devÃ devasya mahimÃnam ojasÃ
+RV_05.081.03.2  ya÷ pÃrthivÃni vimame sa etaÓo rajÃæsi deva÷ savitÃ mahitvanÃ
+RV_05.081.04.1  uta yÃsi savitas trÅïi rocanota sÆryasya raÓmibhi÷ sam ucyasi
+RV_05.081.04.2  uta rÃtrÅm ubhayata÷ parÅyasa uta mitro bhavasi deva dharmabhi÷
+RV_05.081.04.1  uteÓi«e prasavasya tvam eka id uta pÆ«Ã bhavasi deva yÃmabhi÷
+RV_05.081.04.2  utedaæ viÓvam bhuvanaæ vi rÃjasi ÓyÃvÃÓvas te savita stomam ÃnaÓe 
+
+RV_05.082.01.1  tat savitur v­ïÅmahe vayaæ devasya bhojanam
+RV_05.082.01.2  Óre«Âhaæ sarvadhÃtamaæ turam bhagasya dhÅmahi
+RV_05.082.02.1  asya hi svayaÓastaraæ savitu÷ kac cana priyam
+RV_05.082.02.2  na minanti svarÃjyam
+RV_05.082.03.1  sa hi ratnÃni dÃÓu«e suvÃti savitÃ bhaga÷
+RV_05.082.03.2  tam bhÃgaæ citram Åmahe
+RV_05.082.04.1  adyÃ no deva savita÷ prajÃvat sÃvÅ÷ saubhagam
+RV_05.082.04.2  parÃ du«vapnyaæ suva
+RV_05.082.05.1  viÓvÃni deva savitar duritÃni parÃ suva
+RV_05.082.05.2  yad bhadraæ tan na Ã suva
+RV_05.082.06.1  anÃgaso aditaye devasya savitu÷ save
+RV_05.082.06.2  viÓvÃ vÃmÃni dhÅmahi
+RV_05.082.07.1  Ã viÓvadevaæ satpatiæ sÆktair adyÃ v­ïÅmahe
+RV_05.082.07.2  satyasavaæ savitÃram
+RV_05.082.08.1  ya ime ubhe ahanÅ pura ety aprayuchan
+RV_05.082.08.2  svÃdhÅr deva÷ savitÃ
+RV_05.082.09.1  ya imÃ viÓvÃ jÃtÃny ÃÓrÃvayati Ólokena
+RV_05.082.09.2  pra ca suvÃti savitÃ 
+
+RV_05.083.01.1  achÃ vada tavasaæ gÅrbhir Ãbhi stuhi parjanyaæ namasÃ vivÃsa
+RV_05.083.01.2  kanikradad v­«abho jÅradÃnÆ reto dadhÃty o«adhÅ«u garbham
+RV_05.083.02.1  vi v­k«Ãn hanty uta hanti rak«aso viÓvam bibhÃya bhuvanam mahÃvadhÃt
+RV_05.083.02.2  utÃnÃgÃ Å«ate v­«ïyÃvato yat parjanya stanayan hanti du«k­ta÷
+RV_05.083.03.1  rathÅva kaÓayÃÓvÃæ abhik«ipann Ãvir dÆtÃn k­ïute var«y­æ aha
+RV_05.083.03.2  dÆrÃt siæhasya stanathÃ ud Årate yat parjanya÷ k­ïute var«yaæ nabha÷
+RV_05.083.04.1  pra vÃtÃ vÃnti patayanti vidyuta ud o«adhÅr jihate pinvate sva÷
+RV_05.083.04.2  irÃ viÓvasmai bhuvanÃya jÃyate yat parjanya÷ p­thivÅæ retasÃvati
+RV_05.083.05.1  yasya vrate p­thivÅ nannamÅti yasya vrate Óaphavaj jarbhurÅti
+RV_05.083.05.2  yasya vrata o«adhÅr viÓvarÆpÃ÷ sa na÷ parjanya mahi Óarma yacha
+RV_05.083.06.1  divo no v­«Âim maruto rarÅdhvam pra pinvata v­«ïo aÓvasya dhÃrÃ÷
+RV_05.083.06.2  arvÃÇ etena stanayitnunehy apo ni«i¤cann asura÷ pitÃ na÷
+RV_05.083.07.1  abhi kranda stanaya garbham Ã dhÃ udanvatÃ pari dÅyÃ rathena
+RV_05.083.07.2  d­tiæ su kar«a vi«itaæ nya¤caæ samÃ bhavantÆdvato nipÃdÃ÷
+RV_05.083.08.1  mahÃntaæ koÓam ud acÃ ni «i¤ca syandantÃæ kulyÃ vi«itÃ÷ purastÃt
+RV_05.083.08.2  gh­tena dyÃvÃp­thivÅ vy undhi suprapÃïam bhavatv aghnyÃbhya÷
+RV_05.083.09.1  yat parjanya kanikradat stanayan haæsi du«k­ta÷
+RV_05.083.09.2  pratÅdaæ viÓvam modate yat kiæ ca p­thivyÃm adhi
+RV_05.083.10.1  avar«År var«am ud u «Æ g­bhÃyÃkar dhanvÃny atyetavÃ u
+RV_05.083.10.2  ajÅjana o«adhÅr bhojanÃya kam uta prajÃbhyo 'vido manÅ«Ãm 
+
+RV_05.084.01.1  baÊ itthÃ parvatÃnÃæ khidram bibhar«i p­thivi
+RV_05.084.01.2  pra yÃ bhÆmim pravatvati mahnÃ jino«i mahini
+RV_05.084.02.1  stomÃsas tvÃ vicÃriïi prati «Âobhanty aktubhi÷
+RV_05.084.02.2  pra yÃ vÃjaæ na he«antam perum asyasy arjuni
+RV_05.084.03.1  d­ÊhÃ cid yÃ vanaspatÅn k«mayÃ dardhar«y ojasÃ
+RV_05.084.03.2  yat te abhrasya vidyuto divo var«anti v­«Âaya÷ 
+
+RV_05.085.00.11  pra samrÃje b­had arcÃ gabhÅram brahma priyaæ varuïÃya ÓrutÃya
+RV_05.085.00.12  vi yo jaghÃna Óamiteva carmopastire p­thivÅæ sÆryÃya
+RV_05.085.00.21  vane«u vy antarik«aæ tatÃna vÃjam arvatsu paya usriyÃsu
+RV_05.085.00.22  h­tsu kratuæ varuïo apsv agniæ divi sÆryam adadhÃt somam adrau
+RV_05.085.00.31  nÅcÅnabÃraæ varuïa÷ kavandham pra sasarja rodasÅ antarik«am
+RV_05.085.00.32  tena viÓvasya bhuvanasya rÃjÃ yavaæ na v­«Âir vy unatti bhÆma
+RV_05.085.00.41  unatti bhÆmim p­thivÅm uta dyÃæ yadÃ dugdhaæ varuïo va«Ây Ãd it
+RV_05.085.00.42  sam abhreïa vasata parvatÃsas tavi«Åyanta÷ Órathayanta vÅrÃ÷
+RV_05.085.00.51  imÃm Æ «v ­surasya Órutasya mahÅm mÃyÃæ varuïasya pra vocam
+RV_05.085.00.52  mÃneneva tasthivÃæ antarik«e vi yo mame p­thivÅæ sÆryeïa
+RV_05.085.00.61  imÃm Æ nu kavitamasya mÃyÃm mahÅæ devasya nakir Ã dadhar«a
+RV_05.085.00.62  ekaæ yad udnÃ na p­ïanty enÅr Ãsi¤cantÅr avanaya÷ samudram
+RV_05.085.00.71  aryamyaæ varuïa mitryaæ vÃ sakhÃyaæ vÃ sadam id bhrÃtaraæ vÃ
+RV_05.085.00.72  veÓaæ vÃ nityaæ varuïÃraïaæ vÃ yat sÅm ÃgaÓ cak­mÃ ÓiÓrathas tat
+RV_05.085.00.81  kitavÃso yad riripur na dÅvi yad vÃ ghÃ satyam uta yan na vidma
+RV_05.085.00.82  sarvÃ tÃ vi «ya Óithireva devÃdhÃ te syÃma varuïa priyÃsa÷ 
+
+RV_05.086.01.1  indrÃgnÅ yam avatha ubhÃ vÃje«u martyam
+RV_05.086.01.2  d­ÊhÃ cit sa pra bhedati dyumnÃ vÃïÅr iva trita÷
+RV_05.086.02.1  yÃ p­tanÃsu du«ÂarÃ yÃ vÃje«u ÓravÃyyÃ
+RV_05.086.02.2  yÃ pa¤ca car«aïÅr abhÌndrÃgnÅ tÃ havÃmahe
+RV_05.086.03.1  tayor id amavac chavas tigmÃ didyun maghono÷
+RV_05.086.03.2  prati druïÃ gabhastyor gavÃæ v­traghna e«ate
+RV_05.086.04.1  tÃ vÃm e«e rathÃnÃm indrÃgnÅ havÃmahe
+RV_05.086.04.2  patÅ turasya rÃdhaso vidvÃæsÃ girvaïastamÃ
+RV_05.086.05.1  tÃ v­dhantÃv anu dyÆn martÃya devÃv adabhÃ
+RV_05.086.05.2  arhantÃ cit puro dadhe 'æÓeva devÃv arvate
+RV_05.086.06.1  evendrÃgnibhyÃm ahÃvi havyaæ ÓÆ«yaæ gh­taæ na pÆtam adribhi÷
+RV_05.086.06.2  tÃ sÆri«u Óravo b­had rayiæ g­ïatsu didh­tam i«aæ g­ïatsu didh­tam 
+
+RV_05.087.01.1  pra vo mahe matayo yantu vi«ïave marutvate girijÃ evayÃmarut
+RV_05.087.01.2  pra ÓardhÃya prayajyave sukhÃdaye tavase bhandadi«Âaye dhunivratÃya Óavase
+RV_05.087.02.1  pra ye jÃtÃ mahinÃ ye ca nu svayam pra vidmanÃ bruvata evayÃmarut
+RV_05.087.02.2  kratvÃ tad vo maruto nÃdh­«e Óavo dÃnÃ mahnÃ tad e«Ãm adh­«ÂÃso nÃdraya÷
+RV_05.087.03.1  pra ye divo b­hata÷ Ó­ïvire girÃ suÓukvÃna÷ subhva evayÃmarut
+RV_05.087.03.2  na ye«Ãm irÅ sadhastha Å«Âa Ãæ agnayo na svavidyuta÷ pra syandrÃso dhunÅnÃm
+RV_05.087.04.1  sa cakrame mahato nir urukrama÷ samÃnasmÃt sadasa evayÃmarut
+RV_05.087.04.2  yadÃyukta tmanÃ svÃd adhi «ïubhir vi«pardhaso vimahaso jigÃti Óev­dho n­bhi÷
+RV_05.087.05.1  svano na vo 'mavÃn rejayad v­«Ã tve«o yayis tavi«a evayÃmarut
+RV_05.087.05.2  yenÃ sahanta ­¤jata svaroci«a sthÃraÓmÃno hiraïyayÃ÷ svÃyudhÃsa i«miïa÷
+RV_05.087.06.1  apÃro vo mahimÃ v­ddhaÓavasas tve«aæ Óavo 'vatv evayÃmarut
+RV_05.087.06.2  sthÃtÃro hi prasitau saæd­Ói sthana te na uru«yatÃ nida÷ ÓuÓukvÃæso nÃgnaya÷
+RV_05.087.07.1  te rudrÃsa÷ sumakhÃ agnayo yathÃ tuvidyumnÃ avantv evayÃmarut
+RV_05.087.07.2  dÅrgham p­thu paprathe sadma pÃrthivaæ ye«Ãm ajme«v Ã maha÷ ÓardhÃæsy adbhutainasÃm
+RV_05.087.08.1  adve«o no maruto gÃtum etana ÓrotÃ havaæ jaritur evayÃmarut
+RV_05.087.08.2  vi«ïor maha÷ samanyavo yuyotana smad rathyo na daæsanÃpa dve«Ãæsi sanuta÷
+RV_05.087.09.1  gantÃ no yaj¤aæ yaj¤iyÃ÷ suÓami ÓrotÃ havam arak«a evayÃmarut
+RV_05.087.09.2  jye«ÂhÃso na parvatÃso vyomani yÆyaæ tasya pracetasa÷ syÃta durdhartavo nida÷ 
+

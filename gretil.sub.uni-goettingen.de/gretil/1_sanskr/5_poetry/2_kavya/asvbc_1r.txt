@@ -1,0 +1,2256 @@
+ASVAGHOSA: BUDDHACARITA (input Peter Schreiner)
+
+Plain text version (without analysis of compounds, sandhis etc.)
+  
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ THIS TEXT FILE IS FOR REFERENCE PURPOSES ONLY!	³
+³ COPYRIGHT AND TERMS OF USAGE AS FOR SOURCE FILE.	³
+³							³
+³ Text converted to Ronald E. Emmerick's encoding for   ³
+³ WordPerfect 5.1 DOS and related utility programmes 	³
+³ BHELA, CARAKA etc. (DOS versions): 			³
+³ 							³
+³ description             character  =	ASCII		³
+³  							³
+³ long a                  Ã             195		³
+³ long A                  ù             249		³
+³ long i                  Å             197		³
+³ long I                  ı             253		³
+³ long u                  Æ             198		³
+³ long U                  ô             244		³
+³ vocalic r               ­             173		³
+³ vocalic R               ã             227		³
+³ long vocalic r          Ì             204		³
+³ vocalic l               Ê             202		³
+³ long vocalic l          Ë             203		³
+³ velar n                 Ç             199		³
+³ velar N                 §             167		³
+³ palatal n               ¤             164		³
+³ palatal N               ¥             165		³
+³ retroflex t             Â             194		³
+³ retroflex T             è             232		³
+³ retroflex d             ¬             172		³
+³ retroflex D             Ö             214		³
+³ retroflex n             ï             239		³
+³ retroflex N             ×             215		³
+³ palatal s               Ó             211		³
+³ palatal S               Á             193		³
+³ retroflex s             «             171		³
+³ retroflex S             å             229		³
+³ anusvara                æ             230		³
+³ capital anusvara        õ             245		³
+³ visarga                 ÷             247		³
+³ capital visarga         ê             234		³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+The four padas are marked:
+1:  $ 
+2:  &
+3:  % 
+4:  // n.n //
+
+**************************************************************************
+
+
+<author> [A/svagho.sa]
+<editor> Johnston, E. H.
+<title> The Buddhacarita: Or, Acts of the Buddha. Part I -- Sanskrit Text
+<imprint>
+   <publ.city> Calcutta
+   <publisher> Baptist Mission Press
+   <publ.date> 1935
+   <citn.detail> 21, 165 pp.
+   <series> Panjab University Oriental Publications No. 31
+<\imprint>
+        <\source.description>
+ 
+        <source.description>
+<author> [A/svagho.sa]
+<editor> Cowell, Edward B.
+<title> The Buddha--Karita or Live of Buddha by Asvaghosha,
+Indian poet of the early second century after Christ. Sanskrit
+text, edited from a Devanagari and two Nepalese manuscripts with
+variant readings, a preface, notes and in index of names.
+<imprint>
+   <publ.city> Amsterdam (orig. Oxford)
+   <publisher> Oriental Press NV (orig. Oxford University Press)
+   <publ.date> 1970 (orig. 1893)
+   <citn.detail> 16, 175 pp.
+   <series> Anecdota Oxoniensia, Aryan Series,Part VII
+
+
+<editorial.notes>
+Annotations, remarks etc. by the editor of the transliteration
+are enclosed in square brackets.
+
+Annotations by the editor(s) of the edition which served as
+source of the transliteration (e..g. conjectures, markers for
+lacunae etc.) which are part of the printed edition are enclosed
+in pointed parentheses.
+<\editorial.notes>
+ 
+<colophons>
+Colophons which are part of the printed edition are enclosed by
+double square brackets.
+<\colophons>
+ 
+<variae.lectiones>
+<variants>
+The beginning of the passage for which a variant exists is marked
+by opening parenthesis. In deciding about the extension of the
+text thus marked, the changes generated for the text format had
+to be taken into consideration. This meant that occasionally
+words which are identical in the base text and in the variant are
+included in the parentheses, since in the text format (sa.mhita)
+the beginning of a variant could not be printed if that word is
+joined to the preceding word in vowel sandhi. Thus we write "...
+(mah-a+-atm-a Xmah-a+puru.sa.h) ...", even though the "mah-a+" is
+identical in both versions.
+ 
+The beginning of the variant is marked by a siglum, viz. by a
+single capital letter (capital letters are used exclusively for
+that purpose in the transliteration). Several sigla are separated
+by a comma (no blank) -- which does not occur in this file of
+course. There is no blank between the siglum and the variant.
+ 
+If there are several variants for the same passage of the base
+text, they are listed sequentially. The variant (or the last
+variant if there is more than one) is closed by the closing
+parenthesis. The blank before the next word is considered to
+belong to the variant and is put inside the parentheses. The
+continuation of the base text follows without intermediate blank.
+ 
+Schematic pattern:
+(... A... )...
+(... A,B... )...
+(... A... B... )...
+<\variants>
+ 
+<interpolations>
+Interpolations are treated as "variants without base text", i..e.
+siglum follows immediately upon the opening parenthesis. The
+siglum is repeated before the closing parenthesis which marks the
+end of the interpolation. This allows for the input of variants
+within interpolations which are attested in more than one source.
+ 
+Long interpolations may be entered as a sequence of separate
+interpolations (e..g. verse by verse). Interpolated lines are
+(may be) marked by "X" at the beginning of the line (which is
+meant to mark "star"--passages as e..g. in the criticial edition
+of the MBh).
+<\interpolations>
+ 
+<omissions>
+Passages from the base text which are omitted in any of the
+variant texts are marked by double parentheses plus siglum
+enclosing the omitted passage (which may also be individual
+words).
+ 
+Schematic patterns:
+((S... S))
+... ((S... S))...
+<\omissions>
+<\variae.lectiones>
+<\analysis>
+ 
+<reference.system>
+The full reference (chapter and verse) is given at the end of the
+verse to which it refers. (While transliterating the full
+reference needs to be typed only for the first verse of each
+chapter.) The reference consists of two figures separated by a
+(single) dot. The first number refers to the chapter, the second
+number refers to the verse--number within the chapter.
+ 
+The beginning of references is marked by double exclamation mark
+(i..e. da.n.da) and the end is marked by a single exclamation
+mark. Always after a reference a new line begins.
+ 
+ 
+   <revision.history>
+<who> Peter Schreiner
+<\who>
+<date> October 1989 to February 1990
+<\date>
+<what> transliteration, entry of variants; cursory proof--reading
+<\what>
+   <\revision.history>
+ 
+ 
+<\TEI.header>
+ 
+<text>
+<\text>
+ 
+<\TEI.1>
+
+
+*****************************************************************
+
+
+X(C Óriyaæ parÃrdhyÃæ vidadhad vidhÃt­jit  $ tamo nirasyann abhibhÆtabhÃnubh­t  &
+Xnudan nidÃghaæ jitacÃrucandramÃ÷  % sa vandyate 'rhann iha yasya nopamÃ C)  // 1.1 //
+X(CÃsÅd viÓÃlonnatasÃnulak«myÃ  $ payodapaÇktyeva parÅtapÃrÓvaæ  &
+Xudagradhi«ïyÃæ gagane 'vagÃ¬haæ  % puraæ mahar«e÷ kapilasya vastu C)  // 1.2 //
+X(Csitonnateneva nayena h­tvÃ  $ kailÃsaÓailasya yad abhraÓobhÃm  &
+XbhramÃd upetÃn vahadambuvÃhÃn  % saæbhÃvanÃæ vÃ saphalÅcakÃra C)  // 1.3 //
+X(CratnaprabhodbhÃsini yatra lebhe  $ tamo na dÃridryam ivÃvakÃÓam  &
+XparÃrdhyapaurai÷ sahavÃsato«Ãt  % k­tasmitevÃtirarÃja lak«mÅ÷ C)  // 1.4 //
+tasmin vane ÓrÅmati rÃjapatnÅ  $ prasÆtikÃlaæ samavek«amÃïÃ  &
+ÓayyÃæ vitÃnopahitÃæ prapede  % nÃrÅsahasrair abhinandyamÃnÃ  // 1.8 //
+tata÷ prasannaÓ ca babhÆva pu«yas  $ tasyÃÓ ca devyÃ vratasaæsk­tÃyÃ÷  &
+pÃrÓvÃt suto lokahitÃya jaj¤e  % nirvedanaæ caiva nirÃmayaæ ca  // 1.9 //
+X[Verse 1.9 corresponds to 1.25 in ed. Cowell.]
+Æror yathaurvasya p­thoÓ ca hastÃn  $ mÃndhÃtur indrapratimasya mÆrdhna÷  &
+kak«ÅvataÓ caiva bhujÃæsadeÓÃt  % tathÃvidhaæ tasya babhÆva janma  // 1.10 //
+X(CprÃta÷ payodÃd iva tigmabhÃnu÷  $ samudbhavan so 'pi ca ma-t­kuk«e÷  &
+Xsphuran mayÆkhair vihatÃndhakÃraiÓ  % cakÃra lokaæ kanakÃvadÃtam C)  // 1.26 //
+X(Ctaæ jÃtamÃtram atha kÃ¤canayÆpagauraæ  $ prÅta÷ sahasranayaïa÷ Óanakair g­hïÃt  &
+XmandÃrapu«panikarai÷ saha tasya mÆrdhni  % khÃn nirmale ca vinipetatur ambudhÃre C)  // 1.27 //
+X(CsurapradhÃnai÷ paridhÃryamÃïo  $ dehÃæÓujÃlair anura¤jayaæs tÃn  &
+XsaædhyÃbhrajÃloparisaænivi«Âaæ  % navo¬urÃjaæ vijigÃya lak«myÃ C)  // 1.28 //
+krameïa garbhÃd abhini÷s­ta÷ san  $ babhau (cyuta÷ Cgata÷ )khÃd iva yonyajÃta÷  &
+kalpe«v an(eke«u ca Ceke«v iva )bhÃvitÃtmÃ  % ya÷ saæprajÃnan su«uve na mÆ¬ha÷  // 1.11 //
+dÅptyÃ ca dhairyeïa (ca yo CÓriyÃ )rarÃja  $ bÃlo ravir bhÆmim ivÃvatÅrïa÷  &
+tathÃtidÅpto 'pi nirÅk«yamÃïo  % jahÃra cak«Ææ«i yathÃ ÓaÓÃÇka÷  // 1.12 //
+sa hi svagÃtraprabhayojjvalantyÃ  $ dÅpaprabhÃæ bhÃskaravan mumo«a  &
+mahÃrhajÃmbÆnadacÃruvarïo  % vidyotayÃm Ãsa diÓaÓ ca sarvÃ÷  // 1.13 //
+(anÃkulÃnyubjaCanÃkulÃny abja)samudgatÃni  $ (ni«pe«avadvyÃyataCni«pe«avanty Ãyata)vikramÃïi  &
+tathaiva dhÅrÃïi padÃni sapta  % saptar«itÃrÃsad­Óo jagÃma  // 1.14 //
+bodhÃya jÃto 'smi jagaddhitÃrtham  $ antyÃ (bhavotpattir Ctathotpattir )iyaæ mameti  &
+caturdiÓaæ siæhagatir vilokya  % vÃïÅæ ca bhavyÃrthakarÅm uvÃca  // 1.15 //
+khÃt prasrute candramarÅciÓubhre  $ dve vÃridhÃre ÓiÓiro«ïavÅrye  &
+(ÓarÅrasaæsparÓasukhÃntarÃya CÓarÅrasaukhyÃrtham anuttarasya   % nipetatur mÆrdhani tasya saumye  // 1.16 //
+ÓrÅmadvitÃne kanakojjvalÃÇge  $ vai¬ÆryapÃde Óayane ÓayÃnam  &
+yadgauravÃt kÃ¤canapadmahastÃ  % yak«ÃdhipÃ÷ saæparivÃrya tasthu÷  // 1.17 //
+(<xxxxxÓ> ca CmÃyÃtanÆjasya )divaukasa÷ khe  $ yasya prabhÃvÃt praïatai÷ Óirobhi÷  &
+ÃdhÃrayan pÃïdaram Ãtapatraæ  % bodhÃya jepu÷ paramÃÓi«aÓ ca  // 1.18 //
+mahoragÃ dharmaviÓe«atar«Ãd  $ buddhe«v atÅte«u k­tÃdhikÃrÃ÷  &
+yam avyajan bhaktiviÓi«ÂanetrÃ  % mandÃrapu«pai÷ samavÃkiraæÓ ca  // 1.19 //
+tathÃgatotpÃdaguïena tu«ÂÃ÷  $ ÓuddhÃdhivÃsÃÓ ca viÓuddhasattvÃ÷  &
+devÃ nanandur vigate 'pi rÃge  % magnasya du÷khe jagato hitÃya  // 1.20 //
+(yasya prasÆtau Cyasmin prasÆte )girirÃjakÅlÃ  $ vÃtÃhatÃ naur iva bhÆÓ cacÃla  &
+sacandanÃ cotpalapadmagarbhÃ  % papÃta v­«Âir (gaganÃd CgagaïÃd )anabhrÃt  // 1.21 //
+vÃtÃ vavu÷ sparÓasukhÃ manoj¤Ã  $ divyÃni vÃsÃæsy avapÃtayanta÷  &
+sÆrya÷ sa evÃbhyadhikaæ cakÃÓe  % jajvÃla saumyÃrcir anÅrito 'gni÷  // 1.22 //
+prÃguttare cÃvasathapradeÓe  $ kÆpa÷ svayaæ prÃdur abhÆt sitÃmbu÷  &
+anta÷purÃïy ÃgatavismayÃni  % yasmin kriyÃs tÅrthae iva pracakru÷  // 1.23 //
+dharmÃrthibhir bhÆtagaïaiÓ ca divyais  $ taddarÓanÃrthaæ (vanam ÃpupÆre Cbalam Ãpa pÆra÷ )  &
+kautÆhalenaiva ca pÃda(pebhya÷ CpaiÓ ca )  % (pu«pÃïy akÃle 'pi <xxxxx> CprapÆjayÃm Ãsa sagandhapu«.pai÷ )  // 1.24 //
+<xxxx>  &
+nidarÓanÃny atra ca no nibodha  // 1.40 //
+yad rÃjaÓÃstraæ bh­gur aÇgirÃ vÃ  $ na cakratur vaæÓakarÃv ­«Å tau  &
+tayo÷ sutau saumya sasarjatus tat  % kÃlena ÓukraÓ ca b­haspatiÓ ca  // 1.41 //
+sÃrasvataÓ cÃpi jagÃda na«Âaæ  $ vedaæ punar yaæ dad­Óur na pÆrve  &
+vyÃsas tathainaæ bahudhÃ cakÃra  % na yaæ vasi«Âha÷ k­tavÃn aÓakti÷  // 1.42 //
+vÃlmÅkir Ãdau ca sasarja padyaæ  $ jagrantha yan na cyavano mahar«i÷  &
+cikitsitaæ yac ca cakÃra nÃtri÷  % paÓcÃt tad Ãtreya ­«ir jagÃda  // 1.43 //
+yac ca dvijatvaæ kuÓiko na lebhe  $ tad gÃdhina÷ sÆnur avÃpa rÃjan  &
+velÃæ samudre sagaraÓ ca dadhre  % nek«vÃkavo yÃæ prathamaæ babandhu÷  // 1.44 //
+ÃcÃryakaæ yogavidhau dvijÃnÃm  $ aprÃptam anyair janako jagÃma  &
+khyÃtÃni karmÃïi ca yÃni Óaure÷  % ÓÆrÃdayas te«v abalÃ babhÆvu÷  // 1.45 //
+tasmÃt pramÃïaæ na vayo na (vaæÓa÷ CkÃla÷   $ kaÓcit kvacic chrai«Âhyam upaiti loke  &
+rÃj¤Ãm ­«ÅïÃæ ca (hi tÃni ChitÃni )tÃni  % k­tÃni putrair ak­tÃni pÆrvai÷  // 1.46 //
+evaæ n­pa÷ pratyayitair dvijais tair  $ ÃÓvÃsitaÓ cÃpy abhinanditaÓ ca  &
+ÓaÇkÃm ani«ÂÃæ vijahau manasta÷  % prahar«am evÃdhikam Ãruroha  // 1.47 //
+prÅtaÓ ca tebhyo dvijasattamebhya÷  $ satkÃrapÆrvaæ pradadau dhanÃni  &
+bhÆyÃd ayaæ bhÆmipatir yathokto  % yÃyÃj jarÃm etya vanÃni ceti  // 1.48 //
+atho nimittaiÓ ca tapobalÃc ca  $ taj janma janmÃntakarasya buddhvÃ  &
+ÓÃkyeÓvarasyÃlayam ÃjagÃma  % saddharmatar«Ãd asito mahar«i÷  // 1.49 //
+taæ brahmavidbrahma(vidaæ CvidÃæ )jvalantaæ  $ brÃhmyÃ ÓriyÃ caiva tapa÷ÓriyÃ ca  &
+rÃj¤o gurur gauravasatkriyÃbhyÃæ  % praveÓayÃm Ãsa narendrasadma  // 1.50 //
+sa pÃrthivÃnta÷purasaænikar«aæ  $ kumÃrajanmÃgatahar«a(vega÷ Cvegaæ ) //
+viveÓa dhÅro (vanasaæj¤ayeva Cbalasaæj¤ayaiva   % tapa÷prakar«Ãc ca jarÃÓrayÃc ca  // 1.51 //
+tato n­pas taæ munim Ãsanasthaæ  $ pÃdyÃrghyapÆrvaæ pratipÆjya samyak  &
+nimantrayÃm Ãsa yathopacÃraæ  % purÃ vasi«Âhaæ sa ivÃntideva÷  // 1.52 //
+dhanyo 'smy anugrÃhyam idaæ kulaæ me  $ yan mÃæ did­k«ur bhagavÃn upeta÷  &
+Ãj¤ÃpyatÃæ kiæ karavÃïi saumya  % Ói«yo 'smi viÓrambhitum arhasÅti  // 1.53 //
+evaæ n­peïopamantrita÷ san  $ sarveïa bhÃvena munir yathÃvat  &
+(sa vismayotphullaCsavismayotphulla)viÓÃlad­«Âir  % gambhÅradhÅrÃïi vacÃæsy uvÃca  // 1.54 //
+mahÃtmani tvayy upapannam etat  $ priyÃtithau tyÃgini dharmakÃme  &
+sattvÃnvayaj¤ÃnavayoanurÆpÃ  % snigdhÃ yad evaæ mayi te mati÷ syÃt  // 1.55 //
+etac ca tad yena n­par«ayas te  $ dharmeïa (sÆk«meïa dhanÃny avÃpya CsÆk«mÃïi dhanÃny apÃsya ) //
+nityaæ tyajanto vidhivad babhÆvus  % tapobhir Ã¬hyÃ vibhavair daridrÃ÷  // 1.56 //
+prayojanaæ yat tu mamopayÃne  $ tan me Ó­ïu prÅtim upehi ca tvam  &
+divyÃ (mayÃdityaCmayÃdivya)pathe ÓrutÃ vÃg  % bodhÃya jÃtas tanayas taveti  // 1.57 //
+ÓrutvÃ vacas tac ca manaÓ ca yuktvÃ  $ j¤ÃtvÃ nimittaiÓ ca tato 'smy upeta÷  &
+did­k«ayÃ ÓÃkyakuladhvajasya  % Óakradhvajasyeva samucchritasya  // 1.58 //
+ity etad evaæ vacanaæ niÓamya  $ prahar«asaæbhrÃntagatir narendra÷  &
+ÃdÃya dhÃtry-aÇkagataæ kumÃraæ  % saædarÓayÃm Ãsa tapodhanÃya  // 1.59 //
+cakrÃÇkapÃdaæ sa (tato CtathÃ )mahar«ir  $ jÃlÃvanaddhÃÇgulipÃïipÃdam  &
+sorïabhruvaæ vÃraïavastikoÓaæ  % savismayaæ rÃjasutaæ dadarÓa  // 1.60 //
+dhÃtry-aÇkasaævi«Âam avek«ya cainaæ  $ devy-aÇkasaævi«Âam ivÃgnisÆnum  &
+babhÆva (pak«mÃntavica¤citÃÓrur Cpak«mÃntar iva a¤citÃÓrur   % niÓvasya caiva tridivonmukho 'bhÆt  // 1.61 //
+d­«ÂvÃsitaæ tv aÓrupariplutÃk«aæ  $ snehÃt (tanÆjasya Ctu putrasya )n­paÓ cakampe  &
+sagadgadaæ bÃ«paka«ÃyakaïÂha÷  % papraccha (sa Cca )prÃ¤jalir ÃnatÃÇga÷  // 1.62 //
+alpÃntaraæ yasya vapu÷ (surebhyo Cmune÷ syÃd   $ bahvadbhutaæ yasya ca janma dÅptam  &
+yasyottamaæ bhÃvinam Ãttha cÃrthaæ  % taæ prek«ya kasmÃt tava dhÅra bÃ«pa÷  // 1.63 //
+api sthirÃyur bhagavan kumÃra÷  $ kaccin na ÓokÃya mama prasÆta÷  &
+(labdhÃ Clabdha÷ )kathaæcit salilÃ¤jalir me  % na khalv imaæ pÃtum upaiti kÃla÷  // 1.64 //
+apy ak«ayaæ me yaÓaso nidhÃnaæ  $ kaccid dhruvo me kulahastasÃra÷  &
+api prayÃsyÃmi sukhaæ paratra  % (supto 'pi Csupte 'pi )putre 'nimi«aikacak«u÷  // 1.65 //
+kaccin na me jÃtam aphullam eva  $ kula(pravÃlaæ CprabÃlaæ )pariÓo«abhÃgi  &
+k«ipraæ vibho brÆhi na me 'sti ÓÃnti÷  % snehaæ sute vetsi hi bÃndhavÃnÃm  // 1.66 //
+ity ÃgatÃvegam ani«ÂabuddhyÃ  $ buddhvÃ narendraæ sa munir babhÃ«e  &
+mÃ bhÆn matis te n­pa kÃcid  % anyÃ ni÷saæÓayaæ tad yad avocam asmi  // 1.67 //
+nÃsyÃnyathÃtvaæ prati vikriyÃ me  $ svÃæ va¤canÃæ tu prati viklavo 'smi  &
+kÃlo hi me yÃtum ayaæ ca jÃto  % jÃtik«ayasyÃsulabhasya boddhÃ  // 1.68 //
+vihÃya rÃjyaæ vi«aye«v anÃsthas  $ tÅvrai÷ prayatnair adhigamya tattvam  &
+jagaty ayaæ mohatamo nihantuæ  % jvali«yati j¤Ãnamayo hi sÆrya÷  // 1.69 //
+du÷khÃrïavÃd vyÃdhivikÅrïaphenÃj  $ jarÃtaraÇgÃn maraïogravegÃt  &
+uttÃrayi«yaty ayam uhyamÃnam  % (Ãrtaæ CÃrttaæ )jagaj j¤ÃnamahÃplavena  // 1.70 //
+praj¤ÃmbuvegÃæ sthiraÓÅlavaprÃæ  $ samÃdhiÓÅtÃæ vratacakravÃkÃm  &
+asyottamÃæ dharmanadÅæ prav­ttÃæ  % t­«ïÃrdita÷ pÃsyati jÅvaloka÷  // 1.71 //
+du÷khÃrditebhyo vi«ayÃv­tebhya÷  $ saæsÃrakÃntÃrapathasthitebhya÷  &
+ÃkhyÃsyati hy e«a vimok«amÃrgaæ  % mÃrgaprana«Âebhya ivÃdhvagebhya÷  // 1.72 //
+vidahyamÃnÃya janÃya loke  $ rÃgÃgninÃyaæ vi«ayendhanena  &
+prahlÃdam ÃdhÃsyati dharmav­«ÂyÃ  % v­«ÂyÃ mahÃmegha ivÃtapÃnte  // 1.73 //
+t­«ïÃrgalaæ mohatama÷kapÃÂaæ  $ dvÃraæ prajÃnÃm apayÃnaheto÷  &
+vipÃÂayi«yaty ayam uttamena  % saddharmatÃ¬ena durÃsadena  // 1.74 //
+svair mohapÃÓai÷ parive«Âitasya  $ du÷khÃbhibhÆtasya nirÃÓrayasya  &
+lokasya saæbudhya ca dharmarÃja÷  % kari«yate bandhanamok«am e«a÷  // 1.75 //
+tan mÃ k­thÃ÷ Óokam imaæ prati tvam  $ (asmin sa Óocyo 'sti Ctat saumya Óocye hi )manu«yaloke  &
+mohena vÃ kÃmasukhair madÃd vÃ  % yo nai«Âhikaæ Óro«yati nÃsya dharmam  // 1.76 //
+bhra«Âasya tasmÃc ca guïÃd ato me  $ dhyÃnÃni labdhvÃpy ak­tÃrthataiva  &
+dharmasya tasyÃ ÓravaïÃd ahaæ hi  % manye vipattiæ tridive 'pi vÃsam  // 1.77 //
+iti ÓrutÃrtha÷ sasuh­t sadÃras  $ tyaktvÃ vi«Ãdaæ mumude narendra÷  &
+evaævidho 'yaæ tanayo mameti  % mene sa hi svÃm api (sÃravattÃm CsÃramattÃm )  // 1.78 //
+(Ãr«eïa CÃryeïa )mÃrgeïa tu yÃsyatÅti  $ cintÃvidheyaæ h­dayaæ cakÃra  &
+na khalv asau na priyadharmapak«a÷  % saætÃnanÃÓÃt tu bhayaæ dadarÓa  // 1.79 //
+atha munir asito nivedya tattvaæ  $ sutaniyataæ sutaviklavÃya rÃj¤e  &
+sabahumatam udÅk«yamÃïarÆpa÷  % pavanapathena yathÃgataæ jagÃma  // 1.80 //
+k­ta(mitir Cmatir )anujÃsutaæ ca d­«ÂvÃ  $ munivacanaÓravaïe ca tanmatau ca  &
+bahuvidham anukampayÃ sa sÃdhu÷  % priyasutavad viniyojayÃæ cakÃra  // 1.81 //
+narapatir api putrajanmatu«Âo  $ vi«aya(gatÃni CmatÃni )vimucya bandhanÃni  &
+kulasad­Óam acÅkarad yathÃvat  % priya(tanayas Ctanayaæ )tanayasya jÃtakarma  // 1.82 //
+daÓasu pariïate«v aha÷su (caiva Ccaivaæ   $ prayatamanÃ÷ parayÃ mudÃ parÅta÷  &
+akuruta japahomamaÇgalÃdyÃ÷  % (paramabhavÃya CparamatamÃ÷ sa )sutasya devatejyÃ÷  // 1.83 //
+api ca ÓatasahasrapÆ­nasaækhyÃ÷  $ sthirabalavattanayÃ÷ sahemaÓ­ÇgÅ÷  &
+anupagatajarÃ÷ payasvinÅr gÃ÷  % svayam adadÃt sutav­ddhaye dvijebhya÷  // 1.84 //
+bahuvidhavi«ayÃs tato yatÃtmÃ  $ svah­dayato«akarÅ÷ kriyÃ vidhÃya  &
+guïavati (niyate Cdivase )Óive muhÆrte  % matim akaron mudita÷ purapraveÓe  // 1.85 //
+dviradaradamayÅm atho mahÃrhÃæ  $ sitasitapu«pabh­tÃæ maïipradÅpÃm  &
+abhajata ÓivikÃæ ÓivÃya devÅ  % tanayavatÅ praïipatya devatÃbhya÷  // 1.86 //
+puram atha purata÷ praveÓya patnÅæ  $ sthavirajanÃnugatÃm apatyanÃthÃm  &
+n­patir api jagÃma paurasaæghair  % divam amarair maghavÃn ivÃrcyamÃna÷  // 1.87 //
+bhavanam atha vigÃhya ÓÃkyarÃjo  $ bhava iva «aïmukhajanmanÃ pratÅta÷  &
+idam idam iti har«apÆrïavaktro  % bahuvidhapu«ÂiyaÓaskaraæ vyadhatta  // 1.88 //
+iti narapatiputrajanmav­ddhyÃ  $ sajanapadaæ kapilÃhvayaæ puraæ tat  &
+dhanadapuram ivÃpsaraso 'vakÅrïaæ  % muditam abhÆn nala(kÆbaraCkÆvara)prasÆtau  // 1.89 //
+[[iti (CÓrÅC)buddhacarite mahÃkÃvye bhagavatprasÆtir nÃma prathama÷ sarga÷  -- 1 --]]
+
+Ã janmano janma(jarÃntagasya CjarÃntakasya   $ tasyÃtmajasyÃtmajita÷ sa rÃjÃ  &
+ahany ahany arthagajÃÓvamitrair  % v­ddhiæ yayau sindhur ivÃmbuvegai÷  // 2.1 //
+dhanasya ratnasya ca tasya tasya  $ k­tÃk­tasyaiva ca kÃ¤canasya  &
+tadÃ hi (naikÃn sa nidhÅn avÃpa CnaikÃtmanidhÅn avÃpi   % manorathasyÃpy atibhÃrabhÆtÃn  // 2.2 //
+ye padmakalpair api ca dvipendrair  $ na maï¬alaæ Óakyam ihÃbhinetum  &
+madotkaÂÃ haimavatÃ gajÃs te  % vinÃpi yatnÃd upatasthur enam  // 2.3 //
+nÃnÃÇkacihnair navahemabhÃï¬air  $ (vibhÆ«itair CabhÆ«itair )lambasaÂais tathÃnyai÷  &
+saæcuk«ubhe cÃsya puraæ turaægair  % balena maitryÃ ca dhanena cÃptai÷  // 2.4 //
+pu«ÂÃÓ ca tu«ÂÃÓ ca (tathÃsya CtadÃsya )rÃjye  $ sÃdhvyo 'rajaskÃ guïavatpayaskÃ÷  &
+udagravatsai÷ sahitÃ babhÆvur  % bahvyo bahuk«ÅraduhaÓ ca gÃva÷  // 2.5 //
+madhyasthatÃæ tasya ripur jagÃma  $ madhya(sthaCsva)bhÃva÷ prayayau suh­ttvam  &
+viÓe«ato dÃr¬hyam iyÃya mitraæ  % dvÃv asya pak«Ãv aparas tu (nÃsa CnÃÓam )  // 2.6 //
+tathÃsya mandÃnilameghaÓabda÷  $ saudÃminÅkuï¬ala(maï¬itÃbhra÷ Cmaï¬itÃÇga÷ ) //
+vinÃÓmavar«ÃÓanipÃtado«ai÷  % kÃle ca deÓe pravavar«a deva÷  // 2.7 //
+ruroha (sasyaæ Csaæyak )phalavad yathartu  $ tadÃk­tenÃpi k­«iÓrameïa  &
+tÃ eva (cÃsyau«adhayo Ccaivau«adhayo )rasena  % sÃreïa caivÃbhyadhikÃ babhÆvu÷  // 2.8 //
+ÓarÅrasaædehakare 'pi kÃle  $ saægrÃmasaæmardae iva prav­tte  &
+svasthÃ÷ sukhaæ caiva nirÃmayaæ ca  % prajaj¤ire (kÃlavaÓena CgarbhadharÃÓ ca )nÃrya÷  // 2.9 //
+(p­thag vratibhyo Cyac ca pratibhvo )vibhave 'pi (garhye CÓakye   $ na prÃrthayanti sma narÃ÷ parebhya÷  &
+abhyarthita÷ sÆk«madhano 'pi (cÃryas CcÃyaæ   % tadÃ na kaÓcid vimukho babhÆva  // 2.10 //
+(nÃgauravo CnÃÓa vadho )bandhu«u nÃpy adÃtÃ  $ naivÃvrato nÃn­tiko na hiæsra÷  &
+ÃsÅt tadÃ kaÓcana tasya rÃjye  % rÃj¤o yayÃter iva nÃhus.asya  // 2.11 //
+udyÃnadevÃyatanÃÓramÃïÃæ  $ kÆpaprapÃpu«kariïÅvanÃnÃm  &
+cakru÷ kriyÃs tatra ca dharmakÃmÃ÷  % pratyak«ata÷ svargam ivopalabhya  // 2.12 //
+muktaÓ ca durbhik«abhayÃmayebhyo  $ h­«Âo jana÷ (svargae Csvargam )ivÃbhireme  &
+patnÅæ patir vÃ mahi«Å patiæ vÃ  % parasparaæ na vyabhiceratuÓ ca  // 2.13 //
+kaÓcit si«eve rataye na kÃmaæ  $ kÃmÃrtham arthaæ na jugopa kaÓcit  &
+kaÓcid dhanÃrthaæ na cacÃra dharmaæ  % dharmÃya kaÓcin na cakÃra hiæsÃm  // 2.14 //
+steyÃdibhiÓ cÃpy (aribhiÓ CabhitaÓ )ca na«Âaæ  $ svasthaæ svacakraæ paracakramuktam  &
+k«emaæ subhik«aæ ca babhÆva tasya  % (purÃnaraïyasya CpurÃïy araïyÃni )yathaiva rÃ«Âre  // 2.15 //
+tadÃ hi tajjanmani tasya rÃj¤o  $ manor ivÃdityasutasya rÃjye  &
+cacÃra har«a÷ praïanÃÓa pÃpmÃ  % jajvÃla dharma÷ kalu«a÷ ÓaÓÃma  // 2.16 //
+evaævidhÃ rÃja(kulasya saæpat Csutasya tasya   $ sarvÃrthasiddhiÓ ca yato babhÆva  &
+tato n­pas tasya sutasya nÃma  % sarvÃrthasiddho 'yam iti pracakre  // 2.17 //
+devÅ tu mÃyÃ vibudhar«ikalpaæ  $ d­«ÂvÃ viÓÃlaæ tanayaprabhÃvam  &
+jÃtaæ prahar«aæ na ÓaÓÃka so¬huæ  % tato (nivÃsÃya CavinÃÓÃya )divaæ jagÃma  // 2.18 //
+tata÷ kumÃraæ suragarbhakalpaæ  $ snehena bhÃvena ca nirviÓe«am  &
+mÃt­«vasÃ mÃt­samaprabhÃvÃ  % saævardhayÃm Ãtmajavad babhÆva  // 2.19 //
+tata÷ sa bÃlÃrka ivodayastha÷  $ samÅrito vahnir ivÃnilena  &
+krameïa samyag vav­dhe kumÃras  % tÃrÃdhipa÷ pak«ae ivÃtamaske  // 2.20 //
+tato mahÃrhÃïi ca candanÃni  $ ratnÃvalÅÓ cau«adhibhi÷ sagarbhÃ÷  &
+m­gaprayuktÃn rathakÃæÓ ca haimÃn  % Ãcakrire 'smai suh­dÃlayebhya÷  // 2.21 //
+vayoanurÆpÃïi ca bhÆ«aïÃni  $ (hiraïmayÃn ChiraïmayÃ )hasti(m­gÃÓvakÃæÓ Cm­gÃÓvakÃÓ )ca  &
+(rathÃæÓ CrathÃÓ )ca (goputrakasaæprayuktÃn CgÃvo vasanaprayuktÃ   % (putrÅÓ CgantrÅÓ )ca cÃmÅkararÆpyacitrÃ÷  // 2.22 //
+evaæ sa tais tair vi«ayopacÃrair  $ vayoanurÆpair upacaryamÃïa÷  &
+bÃlo 'py abÃlapratimo babhÆva  % dh­tyÃ ca Óaucena dhiyÃ ÓriyÃ ca  // 2.23 //
+vayaÓ ca kaumÃram atÅtya (samyak Cmadhyaæ   $ saæprÃpya (kÃle pratipattikarma CbÃla÷ sa hi rÃjasÆnu÷ ) //
+alpair ahobhir bahuvar«agamyÃ  % jagrÃha vidyÃ÷ svakulÃnurÆpÃ÷  // 2.24 //
+nai÷Óreyasaæ tasya tu bhavyam arthaæ  $ ÓrutvÃ purastÃd asitÃn mahar«e÷  &
+kÃme«u saÇgaæ janayÃæ babhÆva  % (vanÃni yÃyÃd iti ÓÃkyarÃja÷ Cv­ddhir bhavacchÃkyakulasya rÃj¤a÷ )  // 2.25 //
+kulÃt tato 'smai sthiraÓÅla(yuktÃt CsaæyutÃt   $ sÃdhvÅæ vapurhrÅvinayopapannÃm  &
+yaÓodharÃæ nÃma yaÓoviÓÃlÃæ  % (vÃmÃbhidhÃnaæ CtulyÃbhidhÃnaæ )Óriyam ÃjuhÃva  // 2.26 //
+(vidyotamÃno vapu«Ã pareïa CathÃparaæ bhÆmipate÷ priyo 'yaæ   $ sanatkumÃrapratima÷ kumÃra÷  &
+sÃrdhaæ tayÃ ÓÃkyanarendravadhvÃ  % ÓacyÃ sahasrÃk«a ivÃbhireme  // 2.27 //
+kiæcin mana÷k«obhakaraæ pratÅpaæ  $ (kathaæ na Ckathaæca )paÓyed iti so 'nucintya  &
+vÃsaæ n­po (vyÃdiÓati Chy ÃdiÓati )sma tasmai  % harmyodare«v eva na bhÆpracÃram  // 2.28 //
+tata÷ ÓarattoyadapÃï¬are«u  $ bhÆmau vimÃne«v iva rÃ¤jite«u  &
+harmye«u sarvartusukhÃÓraye«u  % strÅïÃm udÃrair vijahÃra tÆryai÷  // 2.29 //
+kalair hi cÃmÅkarabaddhakak«air  $ nÃrÅkarÃgrÃbhihatair m­daÇgai÷  &
+varÃpsaron­tyasamaiÓ ca n­tyai÷  % kailÃsavat tad bhavanaæ rarÃja  // 2.30 //
+vÃgbhi÷ kalÃbhir lalitaiÓ ca (hÃvair ChÃrair   $ madai÷ sakhelair madhuraiÓ ca hÃsai÷  &
+taæ tatra nÃryo ramayÃæ babhÆvur  % bhrÆva¤citair ardhanirÅk«itaiÓ ca  // 2.31 //
+(tata÷ sa CtataÓ ca )kÃmÃÓrayapaï¬itÃbhi÷  $ strÅbhir g­hÅto ratikarkaÓÃbhi÷  &
+vimÃnap­«ÂhÃn na mahÅæ jagÃma  % vimÃnap­«thÃd iva puïyakarmÃ  // 2.32 //
+n­pas tu tasyaiva viv­ddhihetos  $ tadbhÃvinÃrthena ca codyamÃna÷  &
+Óame 'bhireme virarÃma pÃpÃd  % bheje damaæ saævibabhÃja sÃdhÆn  // 2.33 //
+nÃdhÅravat kÃmasukhe sasa¤je  $ na saærara¤je vi«amaæ jananyÃm  &
+dh­tyendriyÃÓvÃæÓ capalÃn vijigye  % bandhÆæÓ ca paurÃæÓ ca guïair jigÃya  // 2.34 //
+nÃdhyai«Âa du÷khÃya parasya vidyÃæ  $ j¤Ãnaæ Óivaæ yat tu tad adhyagÅ«Âa  &
+svÃbhya÷ prajÃbhyo hi yathÃ tathaiva  % sarvaprajÃbhya÷ Óivam ÃÓaÓaæse  // 2.35 //
+(bhaæ Ctaæ )bhÃsuraæ cÃÇgirasÃdhidevaæ  $ yathÃvad Ãnarca tadÃyu«e sa÷  &
+juhÃva havyÃny ak­Óe k­ÓÃnau  % dadau dvijebhya÷ k­Óanaæ ca gÃÓ ca  // 2.36 //
+sasnau ÓarÅraæ pavituæ manaÓ ca  $ tÅrthÃmbubhiÓ caiva guïÃmbubhiÓ ca  &
+vedopadi«Âaæ samam Ãtmajaæ ca  % somaæ papau ÓÃntisukhaæ ca hÃrdam  // 2.37 //
+sÃntvaæ babhÃ«e na ca nÃrthavad yaj  $ jajalpa tattvaæ na ca vipriyaæ yat  &
+sÃntvaæ hy atattvaæ paru«aæ ca tattvaæ  % hriyÃÓakan nÃtmana eva vaktum  // 2.38 //
+i«Âe«v ani«Âe«u ca kÃryavatsu  $ na rÃgado«ÃÓrayatÃæ prapede  &
+Óivaæ si«eve (vyavahÃraÓuddhaæ CavyavahÃralabdhaæ   % yaj¤aæ hi mene na tathÃ (yathÃ tat CyathÃvat )  // 2.39 //
+ÃÓÃvate cÃbhigatÃya sadyo  $ deyÃmbubhis tar«am (acechidi«Âa Cacecchidi«Âa ) //
+yuddhÃd ­te v­ttaparaÓvadhena  % dvi¬darpam udv­ttam abebhidi«Âa  // 2.40 //
+ekaæ vininye sa jugopa sapta  $ saptaiva tatyÃja rarak«a pa¤ca  &
+prÃpa trivargaæ bubudhe trivargaæ  % jaj¤e dvivargaæ prajahau dvivargam  // 2.41 //
+k­tÃgaso 'pi pratipÃdya vadhyÃn  $ nÃjÅghanan nÃpi ru«Ã dadarÓa  &
+babandha sÃntvena phalena caitÃæs  % tyÃgo 'pi te«Ãæ hy (anayÃya d­«Âa÷ CanapÃyad­«Âa÷ )  // 2.42 //
+Ãr«Ãïy acÃrÅt paramavratÃni  $ vairÃïy ahÃsÅc cirasaæbh­tÃni  &
+yaÓÃæsi cÃpadguïagandhavanti  % rajÃæsy (ahÃr«Ån CahÃsÅn )malinÅkarÃïi  // 2.43 //
+na cÃjihÅr«Åd balim aprav­ttaæ  $ na cÃcikÅr«Åt paravastvabhidhyÃm  &
+na cÃvivak«Åd dvi«atÃm adharmaæ  % na (cÃvivak«Åd CcÃdidhak«Åd )dh­dayena manyum  // 2.44 //
+tasmiæs tathÃ bhÆmipatau prav­tte  $ bh­tyÃÓ ca paurÃÓ ca tathaiva ceru÷  &
+ÓamÃtmake cetasi viprasanne  % prayuktayogasya yathendriyÃïi  // 2.45 //
+kÃle tataÓ cÃrupayodharÃyÃæ  $ yaÓodharÃyÃæ (svaCsu)yaÓodharÃyÃm  &
+Óauddhodane rÃhusapatnavaktro  % jaj¤e suto rÃhula eva nÃmnÃ  // 2.46 //
+athe«Âaputra÷ paramapratÅta÷  $ kulasya v­ddhiæ prati bhÆmipÃla÷  &
+yathaiva putraprasave nananda  % tathaiva pautraprasave nananda  // 2.47 //
+(putrasya Cpautrasya )me putragato (mameva Cmamaiva   $ sneha÷ kathaæ syÃd iti jÃtahar«a÷  &
+kÃle sa taæ taæ vidhim Ãlalambe  % putrapriya÷ svargam ivÃruruk«an  // 2.48 //
+sthitvÃ pathi prÃthamakalpikÃnÃæ  $ rÃjar«abhÃïÃæ yaÓasÃnvitÃnÃm  &
+ÓuklÃny amuktvÃpi tapÃæsy atapta  % (yaj¤aiÓ Cyaj¤e )ca hiæsÃrahitair aya«Âa  // 2.49 //
+ajÃjvali«ÂÃtha sa puïyakarmÃ  $ n­paÓriyÃ caiva tapa÷ÓriyÃ ca  &
+kulena v­ttena dhiyÃ ca dÅptas  % teja÷ sahasrÃæÓur ivotsis­k«u÷  // 2.50 //
+svÃyaæbhuvaæ cÃrcikam arcayitvÃ  $ jajÃpa putrasthitaye sthitaÓrÅ÷  &
+cakÃra karmÃïi ca du«karÃïi  % prajÃ÷ sis­k«u÷ ka ivÃdikÃle  // 2.51 //
+tatjyÃja Óastraæ vimamarÓa ÓÃstraæ  $ Óamaæ si«eve niyamaæ vi«ehe  &
+vaÓÅva kaæcid vi«ayaæ na bheje  % piteva sarvÃn vi«ayÃn dadarÓa  // 2.52 //
+babhÃra rÃjyaæ sa hi putraheto÷  $ putraæ kulÃrthaæ yaÓase kulaæ tu  &
+svargÃya Óabdaæ divam Ãtmahetor  % dharmÃrtham Ãtmasthitim ÃcakÃÇk«a  // 2.53 //
+evaæ sa dharmaæ vividhaæ cakÃra  $ sadbhir nipÃtaæ ÓrutitaÓ ca siddham  &
+d­«ÂvÃ kathaæ putramukhaæ suto me  % vanaæ na yÃyÃd iti nÃthamÃna÷  // 2.54 //
+rirak«i«anta÷ Óriyam Ãtma(saæsthÃæ CsaæsthÃ   $ rak«anti putrÃn bhuvi bhÆmipÃlÃ÷  &
+putraæ narendra÷ sa tu dharmakÃmo  % rarak«a dharmÃd (vi«aye«u mu¤can Cvi«aye«v amu¤cat )  // 2.55 //
+vanam anupamasattvÃ bodhisattvÃs tu sarve  $ vi«ayasukharasaj¤Ã jagmur utpannaputrÃ÷  &
+ata upacitakarmÃ rÆ¬hamÆle 'pi hetau  % sa ratim upasi«eve bodhim (Ãpan na yÃvat CÃpannayÃvat )  // 2.56 //
+[[iti (CÓrÅC)buddhacarite mahÃkÃvye 'nta÷puravihÃro nÃma dvitÅya÷ sarga÷ -- 2 --]]
+
+tata÷ kadÃcin m­duÓÃdvalÃni  $ puæskokilonnÃditapÃdapÃni  &
+ÓuÓrÃva padmÃkaramaï¬itÃni  % (gÅtair CÓÅte )nibaddhÃni sa kÃnanÃni  // 3.1 //
+ÓrutvÃ tata÷ strÅjanavallabhÃnÃæ  $ manoj¤abhÃvaæ purakÃnanÃnÃm  &
+bahi÷prayÃïÃya cakÃra buddhim  % antarg­he nÃga ivÃvaruddha÷  // 3.2 //
+tato n­pas tasya niÓamya bhÃvaæ  $ putrÃbhidhÃnasya manorathasya  &
+snehasya lak«myÃ vayasaÓ ca yogyÃm  % Ãj¤ÃpayÃm Ãsa vihÃrayÃtrÃm  // 3.3 //
+nivartayÃm Ãsa ca rÃjamÃrge  $ saæpÃtam Ãrtasya p­thagjanasya  &
+mÃ bhÆt kumÃra÷ sukumÃracitta÷  % saævignacetÃ (iti Civa )manyamÃna÷  // 3.4 //
+pratyaÇgahÅnÃn vikalendriyÃæÓ ca  $ jÅrïÃturÃdÅn k­païÃæÓ ca (dik«u Cbhik«Æn ) //
+tata÷ samutsÃrya pareïa sÃmnÃ  % ÓobhÃæ (parÃæ CparÃ )rÃjapathasya cakru÷  // 3.5 //
+tata÷ k­te ÓrÅmati rÃjamÃrge  $ ÓrÅmÃn vinÅtÃnucara÷ kumÃra÷  &
+prÃsÃdap­«ÂhÃd avatÅrya kÃle  % k­tÃbhyanuj¤o n­pam abhyagacchat  // 3.6 //
+atho narendra÷ sutam ÃgatÃÓru÷  $ Óirasy upÃghrÃya ciraæ nirÅk«ya  &
+gaccheti cÃj¤Ãpayati sma vÃcÃ  % snehÃn na cainaæ manasÃ mumoca  // 3.7 //
+tata÷ sa jÃmbÆnadabhÃï¬abh­dbhir  $ yuktaæ caturbhir nibh­tais turaægai÷  &
+aklÅba(vidvacCvidyuc)chuciraÓmidhÃraæ  % hiraïmayaæ syandanam Ãruroha  // 3.8 //
+tata÷ prakÅrïojjvalapu«pajÃlaæ  $ vi«aktamÃlyaæ pracalatpatÃkam  &
+mÃrgaæ prapede sad­ÓÃnuyÃtraÓ  % candra÷ sanak«atra ivÃntarÅk«am  // 3.9 //
+kautÆhalÃt sphÅtataraiÓ ca netrair  $ (nÅlotpalÃrdhair CnÅlotpalÃbhair )iva (kÅryamÃïam CkÅryamÃïa÷ ) //
+Óanai÷ Óanai rÃjapathaæ jagÃhe  % paurai÷ samantÃd abhivÅk«yamÃïa÷  // 3.10 //
+taæ tu«Âuvu÷ saumyaguïena kecid  $ vavandire dÅptatayÃ tathÃnye  &
+saumukhyatas tu Óriyam asya kecid  % vaipulyam ÃÓaæsi«ur Ãyu«aÓ ca  // 3.11 //
+ni÷s­tya kubjÃÓ ca mahÃkulebhyo  $ vyÆhÃÓ ca kairÃtakavÃmanÃnÃm  &
+nÃrya÷ k­ÓebhyaÓ ca niveÓanebhyo  % devÃnuyÃnadhvajavat praïemu÷  // 3.12 //
+tata÷ kumÃra÷ khalu gacchatÅti  $ ÓrutvÃ striya÷ pre«yajanÃt prav­ttim  &
+did­k«ayÃ harmyatalÃni jagmur  % janena mÃnyena k­tÃbhyanuj¤Ã÷  // 3.13 //
+tÃ÷ srastakÃ¤cÅguïavighnitÃÓ ca  $ suptaprabuddhÃkulalocanÃÓ ca  &
+v­ttÃntavinyastavibhÆ«aïÃÓ ca  % (kautÆhalenÃnibh­tÃ÷ CkautÆhalenÃpi bh­tÃ÷ )parÅyu÷  // 3.14 //
+prÃsÃdasopÃnatalapraïÃdai÷  $ kÃ¤cÅravair nÆpuranisvanaiÓ ca  &
+(vitrÃsayantyo CvibhrÃmayantyo )g­hapak«isaæghÃn  % anyoanyavegÃæÓ ca samÃk«ipantya÷  // 3.15 //
+kÃsÃæcid ÃsÃæ tu varÃÇganÃnÃæ  $ jÃtatvarÃïÃm api sotsukÃnÃm  &
+gatiæ gurutvÃj jag­hur viÓÃlÃ÷  % ÓroïÅrathÃ÷ pÅnapayodharÃÓ ca  // 3.16 //
+ÓÅghraæ samarthÃpi tu gantum anyÃ  $ gatiæ nijagrÃha yayau na tÆrïam  &
+(hriyÃpragalbhÃ vinigÆhamÃnÃ ChriyÃ pragalbhÃni nigÆhamÃnÃ   % (raha÷prayuktÃni Craha÷ prayuktÃni )vibhÆ«aïÃni  // 3.17 //
+parasparotpÅ¬anapiï¬itÃnÃæ  $ saæmarda(saæk«obhitaCsaæÓobhita)kuï¬alÃnÃm  &
+tÃsÃæ tadÃ sasvanabhÆ«aïÃnÃæ  % vÃtÃyane«v apraÓamo babhÆva  // 3.18 //
+vÃtÃyanebhyas tu vini÷s­tÃni  $ paras(parÃyÃsitaCparopÃsita)kuï¬alÃni  &
+strÅïÃæ virejur mukhapaÇkajÃni  % saktÃni harmye«v iva paÇkajÃni  // 3.19 //
+tato vimÃnair yuvatÅ(karÃlai÷ CkalÃpai÷   $ kautÆhalodghÃÂitavÃtayÃnai÷  &
+ÓrÅmat samantÃn nagaraæ babhÃse  % viyadvimÃnair iva sÃpsarobhi÷  // 3.20 //
+vÃtÃyanÃnÃm aviÓÃlabhÃvÃd  $ anyoanyagaï¬Ãrpitakuï¬alÃnÃm  &
+mukhÃni reju÷ pramadottamÃnÃæ  % baddhÃ÷ kalÃpÃ iva paÇkajÃnÃm  // 3.21 //
+(taæ tÃ÷ Ctasmin )kumÃraæ pathi vÅk«amÃïÃ÷  $ striyo babhur gÃm iva gantukÃmÃ÷  &
+ÆrdhvonmukhÃÓ cainam udÅk«amÃïÃ  % narÃ babhur dyÃm iva gantukÃmÃ÷  // 3.22 //
+d­«ÂvÃ ca taæ rÃjasutaæ striyas tÃ  $ jÃjvalyamÃnaæ vapu«Ã ÓriyÃ ca  &
+dhanyÃsya bhÃryeti Óanair avoca¤  % Óuddhair manobhi÷ khalu nÃnyabhÃvÃt  // 3.23 //
+ayaæ kila vyÃyatapÅnabÃhÆ  $ rÆpeïa sÃk«Ãd iva pu«paketu÷  &
+tyaktvÃ Óriyaæ dharmam upai«yatÅti  % tasmin (hi tÃ ChitÃ )gauravam eva cakru÷  // 3.24 //
+kÅrïaæ tathÃ rÃjapathaæ kumÃra÷  $ paurair vinÅtai÷ ÓucidhÅrave«ai÷  &
+tat pÆrvam Ãlokya jahar«a kiæcin  % mene punarbhÃvam ivÃtmanaÓ ca  // 3.25 //
+puraæ tu tat svargam iva prah­«Âaæ  $ ÓuddhÃdhivÃsÃ÷ samavek«ya devÃ÷  &
+jÅrïaæ naraæ nirmamire prayÃtuæ  % saæcodanÃrthaæ k«itipÃtmajasya  // 3.26 //
+tata÷ kumÃro jarayÃbhibhÆtaæ  $ d­«ÂvÃ narebhya÷ p­thagÃk­tiæ tam  &
+uvÃca saægrÃhakam ÃgatÃsthas  % tatraiva ni«kampanivi«Âad­«Âi÷  // 3.27 //
+ka e«a bho÷ sÆta naro 'bhyupeta÷  $ keÓai÷ sitair ya«Âivi«aktahasta÷  &
+bhrÆsaæv­tÃk«a÷ ÓithilÃnatÃÇga÷  % kiæ vikriyai«Ã prak­tir yad­cchÃ  // 3.28 //
+ity evam ukta÷ sa rathapraïetÃ  $ nivedayÃm Ãsa n­pÃtmajÃya  &
+saærak«yam apy artham ado«adarÓÅ  % tair eva devai÷ k­tabuddhimoha÷  // 3.29 //
+rÆpasya (hantrÅ ChartrÅ )vyasanaæ balasya  $ Óokasya yonir nidhanaæ ratÅnÃm  &
+nÃÓa÷ sm­tÅnÃæ ripur indriyÃïÃm  % e«Ã jarÃ nÃma yayai«a bhagna÷  // 3.30 //
+pÅtaæ hy anenÃpi paya÷ ÓiÓutve  $ kÃlena bhÆya÷ (paris­ptam Cparim­«Âam )urvyÃm  &
+krameïa bhÆtvÃ ca yuvÃ vapu«mÃn  % krameïa tenaiva jarÃm upeta÷  // 3.31 //
+ity evam ukte calita÷ sa kiæcid  $ rÃjÃtmaja÷ sÆtam idaæ babhÃ«e  &
+kim e«a do«o bhavitÃ mamÃpÅty  % asmai tata÷ sÃrathir abhyuvÃca  // 3.32 //
+Ãyu«mato 'py e«a vaya÷(prakar«o Cprakar«Ãn   $ ni÷saæÓayaæ kÃlavaÓena bhÃvÅ  &
+evaæ jarÃæ rÆpavinÃÓayitrÅæ  % jÃnÃti caivecchati (caiva Ccai«a )loka÷  // 3.33 //
+tata÷ sa pÆrvÃÓayaÓuddhabuddhir  $ vistÅrïakalpÃcitapuïyakarmÃ  &
+ÓrutvÃ jarÃæ saævivije mahÃtmÃ  % mahÃÓaner gho«am ivÃntike gau÷  // 3.34 //
+ni÷Óvasya dÅrghaæ (svaÓira÷ Csa Óira÷ )prakampya  $ tamiæÓ ca jÅrïe viniveÓya cak«u÷  &
+tÃæ caiva d­«ÂvÃ janatÃæ sahar«Ãæ  % vÃkyaæ sa (saævigna Csaævignam )idaæ jagÃda  // 3.35 //
+evaæ jarÃ hanti ca nirviÓe«aæ  $ sm­tiæ ca rÆpaæ ca parÃkramaæ ca  &
+na caiva saævegam upaiti loka÷  % pratyak«ato 'pÅd­Óam Åk«amÃïa÷  // 3.36 //
+evaæ gate sÆta nivartayÃÓvÃn  $ ÓÅghraæ g­hÃïy eva bhavÃn prayÃtu  &
+udyÃnabhÆmau hi kuto ratir me  % jarÃ(bhaye Cbhave )cetasi vartamÃne  // 3.37 //
+athÃj¤ayÃ bhart­sutasya tasya  $ nivartayÃm Ãsa rathaæ niyantÃ  &
+tata÷ kumÃro bhavanaæ tad eva  % cintÃvaÓa÷ ÓÆnyam iva prapede  // 3.38 //
+yadÃ tu tatraiva na Óarma lebhe  $ jarÃ jareti praparÅk«amÃïa÷  &
+tato narendrÃnumata÷ sa bhÆya÷  % krameïa tenaiva bahir jagÃma  // 3.39 //
+athÃparaæ vyÃdhiparÅtadehaæ  $ tae eva devÃ÷ sas­jur manu«yam  &
+d­«ÂvÃ ca taæ sÃrathim ÃbabhÃ«e  % Óauddhodanis tadgatad­«Âir eva  // 3.40 //
+sthÆlodara÷ ÓvÃsacalaccharÅra÷  $ srastÃæsabÃhu÷ k­ÓapÃïdugÃtra÷  &
+ambeti vÃcaæ karuïaæ bruvÃïa÷  % paraæ (samÃÓritya CsamÃÓli«ya )nara÷ ka e«a÷  // 3.41 //
+tato 'bravÅt sÃrathir asya saumya  $ dhÃtuprakopaprabhava÷ prav­ddha÷  &
+rogÃbhidhÃna÷ sumahÃn anartha÷  % (Óakto CÓakro )api yenai«a k­to 'svatantra÷  // 3.42 //
+ity ÆcivÃn rÃjasuta÷ sa bhÆyas  $ taæ sÃnukampo naram Åk«amÃïa÷  &
+asyaiva (jÃto CjÃta÷ [sic; wrong sandhi in EHJ])p­thag e«a do«a÷  % sÃmÃnyato rogabhayaæ prajÃnÃm  // 3.43 //
+tato babhÃ«e sa rathapraïetÃ  $ kumÃra sÃdhÃraïa e«a do«a÷  &
+evaæ hi rogaih paripÅ¬yamÃno  % rujÃturo har«am upaiti loka÷  // 3.44 //
+iti ÓrutÃrtha÷ sa vi«aïïacetÃ÷  $ prÃvepatÃmbÆrmigata÷ ÓaÓÅva  &
+idaæ ca vÃkyaæ karuïÃyamÃna÷  % provÃca kiæcinm­dunÃ svareïa  // 3.45 //
+idaæ ca rogavyasanaæ prajÃnÃæ  $ paÓyaæÓ ca viÓrambham upaiti loka÷  &
+(vistÅrïam aj¤Ãnam CvistÅrïavij¤Ãnam )aho narÃïÃæ  % hasanti ye rogabhayair amuktÃ÷  // 3.46 //
+nivartyatÃæ sÆta (bahi÷Cvahi÷)prayÃïÃn  $ narendrasadmaiva ratha÷ prayÃtu  &
+ÓrutvÃ ca me rogabhayaæ ratibhya÷  % pratyÃhataæ saækucatÅva ceta÷  // 3.47 //
+tato niv­tta÷ sa niv­ttahar«a÷  $ pradhyÃnayukta÷ praviveÓa (veÓma Csadma ) //
+taæ dvis tathÃ prek«ya ca saæniv­ttaæ  % (parye«aïaæ Cpury Ãgamaæ )bhÆmipatiÓ cakÃra  // 3.48 //
+ÓrutvÃ nimittaæ tu nivartanasya  $ saætyaktam ÃtmÃnam anena mene  &
+mÃrgasya ÓaucÃdhik­tÃya caiva  % cukroÓa ru«Âo 'pi ca nogradaï¬a÷  // 3.49 //
+bhÆyaÓ ca tasmai vidadhe sutÃya  $ viÓe«ayuktaæ vi«aya(pracÃram CprakÃram ) //
+calendriyatvÃd api (nÃma sakto CnÃpi Óakto   % nÃsmÃn vijahyÃd iti nÃthamÃna÷  // 3.50 //
+yadÃ ca ÓabdÃdibhir indriyÃrthair  $ anta÷pure naiva suto 'sya reme  &
+tato (bahir Cvahir )vyÃdiÓati sma yÃtrÃæ  % rasÃntaraæ syÃd iti manyamÃna÷  // 3.51 //
+snehÃc ca bhÃvaæ tanayasya buddhvÃ  $ (sa rÃgaCsaævega)do«Ãn avicintya kÃæÓcit  &
+yogyÃ÷ samÃj¤Ãpayati sma tatra  % kalÃsv abhij¤Ã iti vÃramukhyÃ÷  // 3.52 //
+tato viÓe«eïa narendramÃrge  $ svalaæk­te caiva parÅk«ite ca  &
+(vyatyasya CvyatyÃsya )sÆtaæ ca rathaæ ca rÃjÃ  % prasthÃpayÃm Ãsa bahi÷ kumÃram  // 3.53 //
+tatas tathÃ gacchati rÃjaputre  $ tair eva devair vihito gatÃsu÷  &
+taæ caiva mÃrge m­tam uhyamÃnaæ  % sÆta÷ kumÃraÓ ca dadarÓa nÃnya÷  // 3.54 //
+athÃbravÅd rÃjasuta÷ sa sÆtaæ  $ naraiÓ caturbhir hriyate ka e«a÷  &
+dÅnair manu«yair anugamyamÃno  % (<x> bhÆ«itaÓ cÃpy Cyo bhÆ«ito 'ÓvÃsy- )avarudyate ca  // 3.55 //
+tata÷ sa ÓuddhÃtmabhir eva devai÷  $ ÓuddhÃdhivÃsair abhibhÆtacetÃ÷  &
+avÃcyam apy artham imaæ niyantÃ  % (pravyÃjahÃrÃrthavadÅÓvarÃya CpravyÃjahÃrÃrthavid ÅÓvarÃya )  // 3.56 //
+buddhÅndriyaprÃïaguïair viyukta÷  $ supto visaæj¤as t­ïakÃ«ÂhabhÆta÷  &
+(saævardhya Csaæbadhya )saærak«ya ca yatnavadbhi÷  % (priyapriyais CpriyÃpriyais )tyajyatae e«a ko 'pi  // 3.57 //
+iti praïetu÷ sa niÓamya vÃkyaæ  $ saæcuk«ubhe kiæcid uvÃca cainam  &
+kiæ (kevalo 'syaiva Ckevalasyaiva )janasya dharma÷  % sarvaprajÃnÃm ayam Åd­Óo 'nta÷  // 3.58 //
+tata÷ praïetÃ vadati sma tasmai  $ sarvaprajÃnÃm (idam Cayam )anta(karma CkarmÃ ) //
+hÅnasya madhyasya mahÃtmano vÃ  % sarvasya loke niyato vinÃÓa÷  // 3.59 //
+tata÷ sa dhÅro 'pi narendrasÆnu÷  $ Órutvaiva m­tyuæ vi«asÃda sadya÷  &
+aæsena saæÓli«ya ca kÆbarÃgraæ  % provÃca nihrÃdavatÃ svareïa  // 3.60 //
+iyaæ ca ni«ÂhÃ (niyatÃ Cniyataæ )prajÃnÃæ  $ pramÃdyati tyaktabhayaÓ ca loka÷  &
+manÃæsi ÓaÇke kaÂhinÃni nÌïÃæ  % svasthÃs tathÃ hy adhvani vartamÃnÃ÷  // 3.61 //
+tasmÃd (ratha÷ Crathaæ )sÆta nivartyatÃæ no  $ vihÃra(bhÆmer CbhÆmau )na hi deÓakÃla÷  &
+jÃnan vinÃÓaæ katham (ÃrtiCÃrtti)kÃle  % sacetana÷ syÃd iha hi pramatta÷  // 3.62 //
+iti bruvÃïe 'pi narÃdhipÃtmaje  $ nivartayÃm Ãsa sa naiva taæ ratham  &
+viÓe«ayuktaæ tu narendraÓÃsanÃt  % sa padma«aï¬aæ vanam eva niryayau  // 3.63 //
+tata÷ Óivaæ kusumitabÃlapÃdapaæ  $ paribhramatpramuditamattakokilam  &
+vimÃnavat (sa kamalaCsakamala)cÃrudÅrghikaæ  % dadarÓa tad vanam iva nandanaæ vanam  // 3.64 //
+varÃÇganÃgaïakalilaæ n­pÃtmajas  $ tato balÃd vanam (atinÅyate CabhinÅyate )sma tat  &
+varÃpsaro(v­tam Cn­tyam )alakÃdhipÃlayaæ  % navavrato munir iva vighnakÃtara÷  // 3.65 //
+[[iti (CÓrÅC)buddhacarite mahÃkÃvye saævegotpattir nÃma t­tÅya÷ sarga÷ -- 3 --]]
+
+tatas tasmÃt purodyÃnÃt  $ kautÆhalacalek«aïÃ÷  $ 
+pratyujjagmur n­pasutaæ  % prÃptaæ varam iva striya÷  // 4.1 //
+abhigamya ca tÃs tasmai  $ vismayotphullalocanÃ÷  &
+cakrire samudÃcÃraæ  % padmakoÓanibhai÷ karai÷  // 4.2 //
+tasthuÓ ca parivÃryainaæ  $ manmathÃk«iptacetasa÷  &
+niÓcalai÷ pritivikacai÷  % pibantya iva locanai÷  // 4.3 //
+taæ hi tÃ menire nÃrya÷  $ kÃmo vigrahavÃn iti  &
+Óobhitaæ lak«aïair dÅptai÷  % sahajair bhÆ«aïair iva  // 4.4 //
+saumyatvÃc caiva dhairyÃc ca  $ kÃÓcid enaæ prajaj¤ire  &
+avatÅrïo mahÅæ sÃk«Ãd  % (gÆ¬hÃæÓuÓ CsudhÃæÓuÓ )candramÃ (iti Civa )  // 4.5 //
+tasya tÃ vapu«Ãk«iptÃ  $ (nig­hÅtaæ CnirgrahÅtuæ )jaj­mbhire  &
+anyoanyaæ d­«Âibhir (hatvÃ CgatvÃ   % ÓanaiÓ ca viniÓaÓvasu÷  // 4.6 //
+evaæ tÃ d­«ÂimÃtreïa  $ nÃryo dad­Óur eva tam  &
+na vyÃjahrur na jahasu÷  % prabhÃveïÃsya yantritÃ÷  // 4.7 //
+tÃs tathÃ tu nirÃrambhÃ  $ d­«ÂvÃ praïayaviklavÃ÷  &
+purohitasuto dhÅmÃn  % udÃyÅ vÃkyam abravÅt  // 4.8 //
+sarvÃ÷ sarvakalÃj¤Ã÷ stha  $ bhÃvagrahaïapaï¬itÃ÷  &
+rÆpacÃturyasaæpannÃ÷  % svaguïair mukhyatÃæ gatÃ÷  // 4.9 //
+(Óobhayeta CÓobhayeta )guïair ebhir  $ api tÃn uttarÃn kurÆn  &
+kuverasyÃpi (cÃkrÅ¬aæ Cca krÅ¬aæ   % prÃg eva vasudhÃm imÃm  // 4.10 //
+ÓaktÃÓ cÃlayituæ yÆyaæ  $ vÅtarÃgÃn ­«Ån api  &
+apsarobhiÓ ca kalitÃn  % grahÅtuæ vibudhÃn api  // 4.11 //
+bhÃvaj¤Ãnena hÃvena  $ (rÆpacÃturyaCcÃturyÃ rÆpa)saæpadÃ  &
+strÅïÃm eva ca ÓaktÃ÷ stha  % saærÃge kiæ punar n­ïÃm  // 4.12 //
+tÃsÃm evaævidhÃnÃæ vo  $ (viyuktÃnÃæ CniyuktÃnÃæ )svagocare  &
+iyam evaævidhÃ ce«ÂÃ  % na tu«Âo 'smy Ãrjavena va÷  // 4.13 //
+idaæ navavadhÆnÃæ vo  $ hrÅniku¤citacak«u«Ãm  &
+sad­Óaæ ce«Âitaæ hi syÃd  % api vÃ gopayo«itÃm  // 4.14 //
+(yad Cyady )api syÃd ayaæ (dhÅra÷ CvÅra÷   $ ÓrÅprabhÃvÃn mahÃn iti  &
+strÅïÃm api mahat teja  % ita÷ kÃryo 'tra niÓcaya÷  // 4.15 //
+purÃ hi kÃÓisundaryÃ  $ veÓavadhvÃ mahÃn ­«i÷  &
+tÃ¬ito 'bhÆt (padÃ vyÃso CpadanyÃsÃd   % durdhar«o (devatair Cdaivatair )api  // 4.16 //
+manthÃlagautamo bhik«ur  $ jaÇghayÃ (vÃraCbÃla)mukhyayÃ  &
+piprÅ«uÓ ca tadarthÃrthaæ  % vyasÆn niraharat purÃ  // 4.17 //
+gautamaæ dÅrghatapasaæ  $ mahar«iæ dÅrghajÅvinam  &
+yo«it saæto«ayÃm Ãsa  % varïasthÃnÃvarÃ satÅ  // 4.18 //
+­«yaÓ­Çgaæ munisutaæ  $ tathaiva strÅ«v apaï¬itam  &
+upÃyair vividhai÷ ÓÃntÃ  % jagrÃha ca jahÃra ca  // 4.19 //
+viÓvÃmitro mahar«iÓ ca  $ vigÃ¬ho 'pi (mahat tapa÷ CmahattapÃ÷ ) //
+(daÓa var«Ãïy ahar mene CdaÓavar«Ãïy araïyastho   % gh­tÃcyÃpsarasÃ h­ta÷  // 4.20 //
+evamÃdÅn ­«Åæs tÃæs tÃn  $ anayan vikriyÃæ striya÷  &
+lalitaæ pÆrvavayasaæ  % kiæ punar n­pate÷ sutam  // 4.21 //
+tad evaæ sati viÓrabdhaæ  $ prayatadhvaæ tathÃ yathÃ  &
+iyaæ n­pasya vaæÓaÓrÅr  % ito na syÃt parÃÇmukhÅ  // 4.22 //
+yÃ hi kÃÓcid yuvatayo  $ haranti sad­Óaæ janam  &
+nik­«Âotk­«Âayor bhÃvaæ  % yÃ g­hïanti (tÃ tu [Wrong sandhi in EHJ??] Ctu tÃ÷ )striya÷  // 4.23 //
+ity udÃyivaca÷ ÓrutvÃ  $ tÃ viddhÃ iva yo«ita÷  &
+samÃruruhur ÃtmÃnaæ  % kumÃragrahaïaæ prati  // 4.24 //
+tÃ bhrÆbhi÷ prek«itair (hÃvair CbhÃvair   $ hasitair (la¬itair Clalitair )gatai÷  &
+cakrur Ãk«epikÃÓ ce«ÂÃ  % bhÅtabhÅtÃ ivÃÇganÃ÷  // 4.25 //
+rÃj¤as tu viniyogena  $ kumÃrasya ca mÃrdavÃt  &
+(jahu÷ Cjahru÷ )k«ipram aviÓrambhaæ  % madena madanena ca  // 4.26 //
+atha nÃrÅjanav­ta÷  $ kumÃro vyacarad vanam  &
+vÃsitÃyÆthasahitah  % karÅva himavad vanam  // 4.27 //
+sa tasmin kÃnane ramye  $ jajvÃla strÅpura÷sara÷  &
+ÃkrÅ¬ae iva (vibhrÃje CbabhrÃje   % vivasvÃn apsarov­ta÷  // 4.28 //
+madenÃvarjitÃ nÃma  $ taæ kÃÓcit tatra yo«ita÷  &
+kaÂhinai÷ pasp­Óu÷ pÅnai÷  % (saæhatair CsaæghaÂÂair )valgubhi÷ stanai÷  // 4.29 //
+srastÃæsakomalÃlamba  $ m­dubÃhulatÃbalÃ  &
+an­taæ skhalitaæ kÃcit  % k­tvainaæ sasvaje balÃt  // 4.30 //
+kÃcit tÃmrÃdharau«Âhena  $ mukhenÃsavagandhinÃ  &
+viniÓaÓvÃsa karïe 'sya  % rahasyaæ ÓrÆyatÃm iti  // 4.31 //
+kÃcid Ãj¤ÃpayantÅva  $ provÃcÃrdrÃnulepanÃ  &
+iha bhaktiæ kuru«veti  % (hastasaæÓle«alipsayÃ Chastaæ saæÓli«ya lipsayÃ )  // 4.32 //
+muhur muhur madavyÃja  $ srastanÅlÃæÓukÃparÃ  &
+Ãlak«yaraÓanÃ reje  % sphuradvidyud iva k«apÃ  // 4.33 //
+kÃÓcit kanakakÃ¤cÅbhir  $ mukharÃbhir itas tata÷  &
+babhramur darÓayantyo 'sya  % ÓroïÅs tanvaæÓukÃv­tÃ÷  // 4.34 //
+cÆtaÓÃkhÃæ kusumitÃæ  $ prag­hyÃnyÃ lalambire  &
+suvarïakalaÓaprakhyÃn  % darÓayantya÷ payodharÃn  // 4.35 //
+kÃcit padmavanÃd etya  $ sapadmÃ padmalocanÃ  &
+padmavaktrasya pÃrÓve 'sya  % padmaÓrÅr iva tasthu«Å  // 4.36 //
+madhuraæ gÅtam anvarthaæ  $ kÃcit sÃbhinayaæ jagau  &
+taæ svasthaæ codayantÅva  % va¤cito 'sÅty avek«itai÷  // 4.37 //
+Óubhena vadanenÃnyÃ  $ bhrÆkÃrmukavikar«iïÃ  &
+prÃv­tyÃnucakÃrÃsya  % ce«Âitaæ (dhÅraCvÅra)lÅlayÃ  // 4.38 //
+pÅnavalgustanÅ kÃcid  $ (dhÃsÃghÆrïitaCvÃtÃghÆrïita)kuï¬alÃ  &
+uccair avajahÃsainaæ  % samÃpnotu bhavÃn iti  // 4.39 //
+apayÃntaæ tathaivÃnyÃ  $ babandhur mÃlyadÃmabhi÷  &
+kÃÓcit sÃk«epamadhurair  % jag­hur vacanÃÇkuÓai÷  // 4.40 //
+pratiyogÃrthinÅ kÃcid  $ g­hÅtvÃ cÆtavallarÅm  &
+idaæ pu«paæ tu kasyeti  % papraccha madaviklavÃ  // 4.41 //
+kÃcit puru«avat k­tvÃ  $ gatiæ saæsthÃnam eva ca  &
+uvÃcainaæ jita÷ strÅbhir  % jaya bho p­thivÅm imÃm  // 4.42 //
+atha loleksaïÃ kÃcij  $ jighrantÅ nÅlam utpalam  &
+kiæcinmadakalair vÃkyair  % n­pÃtmajam abhÃ«ata  // 4.43 //
+paÓya bhartaÓ citaæ cÆtaæ  $ kusumair madhugandhibhi÷  &
+hemapa¤jararuddho vÃ  % kokilo yatra kÆjati  // 4.44 //
+aÓoko d­ÓyatÃm e«a  $ kÃmiÓokavivardhana÷  &
+ruvanti bhramarÃ yatra  % dahyamÃnÃ ivÃgninÃ  // 4.45 //
+cÆtaya«ÂyÃ samÃÓli«Âo  $ d­ÓyatÃæ tilakadruma÷  &
+ÓuklavÃsÃ iva nara÷  % striyÃ pÅtÃÇgarÃgayÃ  // 4.46 //
+phullaæ (kurubakaæ Ckuruvakaæ )paÓya  $ (nirbhuktÃlaktakaCnirmuktÃlaktaka)prabham  &
+yo nakhaprabhayÃ strÅïÃæ  % nirbhartsita ivÃnata÷  // 4.47 //
+bÃlÃÓokaÓ ca nicito  $ d­ÓyatÃm e«a pallavai÷  &
+yo 'smÃkaæ hastaÓobhÃbhir  % lajjamÃna iva sthita÷  // 4.48 //
+dÅrghikÃæ prÃv­tÃæ paÓya  $ tÅrajai÷ sinduvÃrakai÷  &
+pÃï¬urÃæÓukasaævÅtÃæ  % ÓayÃnÃæ pramadÃm iva  // 4.49 //
+d­ÓyatÃæ strÅ«u mÃhÃtmyaæ  $ cakravÃko hy asau jale  &
+p­«Âhata÷ pre«yavad bhÃryÃm  % anuvarty- anugacchati  // 4.50 //
+mattasya parapu«Âasya  $ ruvata÷ ÓrÆyatÃæ dhvani÷  &
+apara÷ kokilo (anvak«aæ  % pratiÓrutkeva Canutka÷ pratiÓrutyeva )kÆjati  // 4.51 //
+api nÃma vihaægÃnÃæ  $ (vasantenÃh­to CvasantenÃhito )mada÷  &
+na tu (cintayato 'cintyaæ CcintayataÓ cittaæ   % janasya prÃj¤amÃnina÷  // 4.52 //
+ity evaæ tÃ yuvatayo  $ manmathoddÃmacetasa÷  &
+kumÃraæ vividhais tais tair  % upacakramire nayai÷  // 4.53 //
+evam Ãk«ipyamÃïo 'pi  $ sa tu dhairyÃv­tendriya÷  &
+martavyam iti sodvego  % na jahar«a na (vivyathe Csismiye )  // 4.54 //
+tÃsÃæ (tattve 'navasthÃnaæ Ctattvena vasthÃnaæ   $ d­«ÂvÃ sa puru«ottama÷  &
+(samaæ vignena Csasaævignena )dhÅreïa  % cintayÃm Ãsa cetasÃ  // 4.55 //
+kiæ (v imÃ CvinÃ )nÃvagacchanti  % capalaæ yauvanaæ striya÷  &
+yato rÆpeïa (saæmattaæ  $ jarÃ yan Csaæpannaæ  % jareyaæ )nÃÓayi«yati  // 4.56 //
+nÆnam etÃ na paÓyanti  $ kasyacid rogasaæplavam  &
+tathÃ h­«ÂÃ bhayaæ tyaktvÃ  % jagati vyÃdhidharmiïi  // 4.57 //
+anabhij¤ÃÓ ca suvyaktaæ  $ m­tyo÷ sarvÃpahÃriïa÷  &
+(tata÷ CtathÃ )svasthÃ nir(udvignÃ÷ CudvegÃ÷   % krÅ¬anti ca hasanti ca  // 4.58 //
+jarÃæ (vyÃdhiæ ca m­tyuæ Cm­tyuæ ca vyÃdhiæ )ca  $ ko hi jÃnan sacetana÷  &
+svasthas ti«Âhen ni«Åded vÃ  % (Óayed Csuped )vÃ kiæ punar haset  // 4.59 //
+yas tu d­«ÂvÃ paraæ jÅrïaæ  $ vyÃdhitaæ m­tam eva ca  &
+svastho bhavati nodvigno  % yathÃcetÃs tathaiva sa÷  // 4.60 //
+viyujyamÃne (hi Capi )tarau  $ pu«pair api phalair api  &
+patati cchidyamÃne vÃ  % tarur anyo na Óocate  // 4.61 //
+iti dhyÃnaparaæ d­«ÂvÃ  $ vi«ayebhyo gatasp­ham  &
+udÃyÅ nÅtiÓÃstraj¤as  % tam uvÃca suh­ttayÃ  // 4.62 //
+ahaæ n­patinÃ datta÷  $ sakhÃ tubhyaæ k«ama÷ kila  &
+yasmÃt tvayi vivak«Ã me  % tayÃ praïayavattayÃ  // 4.63 //
+ahitÃt prati«edhaÓ ca  $ hite cÃnupravartanam  &
+vyasane cÃparityÃgas  % trividhaæ mitralak«aïam  // 4.64 //
+so 'haæ maitrÅæ pratij¤Ãya  $ puru«ÃrthÃt parÃÇ(mukha÷ Cmukham ) //
+yadi (tvÃ samupek«eya CtvÃæ samupek«eyaæ   % na bhaven mitratÃ mayi  // 4.65 //
+tad bravÅmi suh­d bhÆtvÃ  $ taruïasya vapu«mata÷  &
+idaæ na pratirÆpaæ te  % strÅ«v adÃk«iïyam Åd­Óam  // 4.66 //
+an­tenÃpi nÃrÅïÃæ  $ yuktaæ samanuvartanam  &
+tadvrÅ¬ÃparihÃrÃrtham  % Ãtmaratyartham eva ca  // 4.67 //
+saænatis cÃnuv­ttiÓ ca  $ strÅïÃæ h­dayabandhanam  &
+snehasya hi guïÃ yonir  % mÃnakÃmÃÓ ca yo«ita÷  // 4.68 //
+tad arhasi viÓÃlÃk«a  $ h­daye 'pi parÃÇmukhe  &
+rÆpasyÃsyÃnurÆpeïa  % dÃk«iïyenÃnuvartitum  // 4.69 //
+dÃk«iïyam au«adhaæ strÅïÃæ  $ dÃk«iïyaæ bhÆ«aïaæ param  &
+dÃk«iïyarahitaæ rÆpaæ  % ni«pu«pam iva kÃnanam  // 4.70 //
+kiæ vÃ dÃk«iïyamÃtreïa  $ bhÃvenÃstu parigraha÷  &
+vi«ayÃn durlabhÃæl labdhvÃ  % na hy avaj¤Ãtum arhasi  // 4.71 //
+kÃmaæ param iti j¤ÃtvÃ  $ devo 'pi hi puraædara÷  &
+gautamasya mune÷ patnÅm  % ahalyÃæ cakame purÃ  // 4.72 //
+agastya÷ prÃrthayÃm Ãsa  $ somabhÃryÃæ ca rohiïÅm  &
+tasmÃt tatsa(d­ÓÅæ Cd­Óaæ )lebhe  % lopÃmudrÃm iti Óruti÷  // 4.73 //
+(utathyasya Cautathyasya )ca bhÃryÃyÃæ  $ mamatÃyÃæ mahÃ(tapa÷ CtapÃ÷ ) //
+mÃrutyÃæ janayÃm Ãsa  % bharadvÃjaæ (b­hasCv­has)pati÷  // 4.74 //
+(b­hasCv­has)pater mahi«yÃæ ca  $ juhvatyÃæ juhvatÃæ vara÷  &
+budhaæ vibudha(karmÃïaæ CdharmÃïaæ   % janayÃm Ãsa candramÃ÷  // 4.75 //
+kÃlÅm caiva purÃ kanyÃæ  $ jalaprabhavasaæbhavÃm  &
+jagÃma yamunÃtÅre  % jÃtarÃga÷ parÃÓara÷  // 4.76 //
+mÃtaÇgyÃm ak«amÃlÃyÃæ  $ garhitÃyÃæ riraæsayÃ  &
+kapi¤jalÃdaæ tanay.am  % vasi«Âho 'janayan muni÷  // 4.77 //
+yayÃtiÓ caiva rÃjar«ir  $ vayasy api vinirgate  &
+viÓvÃcyÃpsarasÃ sÃrdhaæ  % reme caitrarathe vane  // 4.78 //
+strÅsaæsargaæ vinÃÓÃntaæ  $ pÃï¬ur j¤ÃtvÃpi kaurava÷  &
+mÃdrÅrÆpaguïÃk«ipta÷  % si«eve kÃmajam sukham  // 4.79 //
+karÃlajanakaÓ caiva  $ h­tvÃ brÃhmaïakanyakÃm  &
+avÃpa bhraæÓam apy (evaæ Ceva   % na tu (seje na Ctyajec ca )manmatham  // 4.80 //
+evamÃdyÃ mahÃtmÃno  $ vi«ayÃn garhitÃn api  &
+ratihetor bubhujire  % prÃg eva guïasaæhitÃn  // 4.81 //
+tvaæ punar nyÃyata÷ prÃptÃn  $ balavÃn rÆpavÃn yuvÃ  &
+vi«ayÃn avajÃnÃsi  % yatra saktam idaæ jagat  // 4.82 //
+iti ÓrutvÃ vacas tasya  $ Ólak«ïam Ãgamasaæhitam   &
+meghastanitanirgho«a÷  % kumÃra÷ pratyabhÃ«ata  // 4.83 //
+upapannam idaæ vÃkyaæ  $ sauhÃrdavya¤jakaæ tvayi  &
+atra ca tvÃnune«yÃmi  % yatra mÃ du«Âhu manyase  // 4.84 //
+nÃvajÃnÃmi (vi«ayÃn Cvi«ayÃ¤   $ jÃne lokaæ tadÃtmakam  &
+anityaæ tu jagan matvÃ  % nÃtra me ramate mana÷  // 4.85 //
+jarÃ vyÃdhiÓ ca m­tyuÓ ca  $ yadi na syÃd idaæ trayam  &
+mamÃpi hi manoj¤e«u  % vi«aye«u ratir bhavet  // 4.86 //
+nityaæ yady api hi strÅïÃm  $ etad eva vapur bhavet  &
+(do«avatsv api Csasaævitkasya )kÃme«u  % (kÃmaæ rajyeta me mana÷ CtathÃpi na rati÷ k«amÃ )  // 4.87 //
+yadÃ tu (jarayÃpÅtaæ CjarayÃ pÅtaæ   $ rÆpam ÃsÃæ bhavi«yati  &
+Ãtmano 'py anabhipretaæ  % mohÃt tatra ratir bhavet  // 4.88 //
+m­tyuvyÃdhijarÃ(dharmÃ Cdharmo   $ m­tyuvyÃdhijarÃtmabhi÷  &
+ramamÃïo (hy Capy )asaævigna÷  % samÃno m­gapak«ibhi÷  // 4.89 //
+yad apy Ãttha mahÃtmÃnas  $ te 'pi kÃmÃtmakÃ iti  &
+saævego (atraiva Catra na )kartavyo  % yadÃ te«Ãm api k«aya÷  // 4.90 //
+mÃhÃtmyaæ na ca tan manye  $ yatra sÃmÃnyata÷ k«aya÷  &
+vi«aye«u prasaktir vÃ  % yuktir vÃ nÃtmavattayÃ  // 4.91 //
+yad apy ÃtthÃn­tenÃpi  $ strÅjane vartyatÃm iti  &
+an­taæ nÃvagacchÃmi  % dÃk«iïyenÃpi kiæcana  // 4.92 //
+na cÃnuvartanaæ tan me  $ rucitaæ yatra nÃrjavam  &
+sarvabhÃvena saæparko  % yadi nÃsti dhig astu tat  // 4.93 //
+(adhrÂe÷ Can­te )ÓraddadhÃnasya  $ saktasyÃdo«adarÓina÷  &
+kiæ hi va¤cayitavyaæ syÃj  % jÃtarÃgasya cetasa÷  // 4.94 //
+va¤cayanti ca yady (evaæ Ceva   $ jÃtarÃgÃ÷ parasparam  &
+nanu naiva k«amaæ dra«Âuæ  % narÃ÷ strÅïÃæ n­ïÃm striya÷  // 4.95 //
+tad evaæ sati du÷khÃrtaæ  $ jarÃmaraïa(bhÃginam Cbhoginam ) //
+na mÃæ kÃme«v anÃrye«u  % pratÃrayitum arhasi  // 4.96 //
+aho 'tidhÅraæ balavac ca te manaÓ  $ cale«u kÃme«u ca sÃradarÓina÷  &
+bhaye (atitÅvre Capi tÅvre )vi«aye«u sajjase  % nirÅk«amÃïo maraïÃdhvani prajÃ÷  // 4.97 //
+ahaæ punar bhÅrur atÅvaviklavo  $ jarÃvipadvyÃdhibhayaæ vicintayan  &
+labhe na ÓÃntiæ na dh­tiæ kuto ratiæ  % niÓÃmayan dÅptam ivÃgninÃ jagat  // 4.98 //
+asaæÓayaæ m­tyur iti prajÃnato  $ narasya rÃgo h­di yasya jÃyate  &
+ayomayÅæ tasya paraimi cetanÃæ  % mahÃbhaye (rajyati Crak«ati )yo na roditi  // 4.99 //
+atho kumÃraÓ ca viniÓcayÃtmikÃæ  $ cakÃra kÃmÃÓrayaghÃtinÅæ kathÃm  &
+janasya cak«urgamanÅyamaï¬alo  % mahÅdharaæ cÃstam iyÃya bhÃskara÷  // 4.100 //
+tato v­thÃdhÃritabhÆ«aïasraja÷  $ kalÃguïaiÓ ca praïayaiÓ ca ni«phalai÷  &
+svae eva bhÃve vinig­hya manmathaæ  % puraæ yayur bhagnamanorathÃ÷ striya÷  // 4.101 //
+tata÷ purodyÃnagatÃæ janaÓriyaæ  $ nirÅk«ya sÃyaæ pratisaæh­tÃæ puna÷  &
+anityatÃæ sarvagatÃæ vicintayan  % viveÓa dhi«ïyaæ k«itipÃlakÃtmaja÷  // 4.102 //
+tata÷ ÓrutvÃ rÃjÃ vi«ayavimukhaæ tasya tu mano  $ na ÓiÓye tÃæ rÃtriæ h­dayagataÓalyo gaja iva  &
+atha ÓrÃnto mantre bahuvividhamÃrge sasacivo  % na so 'nyat kÃmebhyo niyamanam apaÓyat sutamate÷  // 4.103 //
+[[iti (CÓrÅC)buddhacarite mahÃkÃvye strÅvighÃtano nÃma caturtha÷ sarga÷ -- 4 --]]
+
+sa tathÃ vi«ayair vilobhyamÃna÷  $ (paramÃrhair Cparamohair )api ÓÃkyarÃjasÆnu÷  &
+na jagÃma (dh­tiæ Cratiæ )na Óarma lebhe  % h­daye siæha ivÃtidigdhaviddha÷  // 5.1 //
+atha mantrisutai÷ k«amai÷ kadÃcit  $ sakhibhiÓ citrakathai÷ k­tÃnuyÃtra÷  &
+vanabhÆmidid­k«ayÃ Óamepsur  % naradevÃnumato (bahi÷ Cvahi÷ )pratasthe  // 5.2 //
+navarukmakhalÅnakiÇkiïÅkaæ  $ pracalaccÃmaracÃruhemabhÃï¬am  &
+abhiruhya sa (kanthakaæ CkaïÂhakaæ )sadaÓvaæ  % prayayau ketum iva drumÃbjaketu÷  // 5.3 //
+sa (vik­«ÂatarÃæ Cnik­«ÂatarÃæ )vanÃntabhÆmiæ  $ vanalobhÃc ca yayau mahÅ(guïÃc ca Cguïecchu÷ ) //
+salilourmivikÃrasÅramÃrgÃæ  % vasudhÃæ caiva dadarÓa k­«yamÃïÃm  // 5.4 //
+halabhinnavikÅrïaÓa«padarbhÃæ  $ hatasÆk«makrimi(kÅÂaCkÃï¬a)jantukÅrïÃm  &
+samavek«ya rasÃæ tathÃvidhÃæ tÃæ  % svajanasyeva (vadhe Cbadhe )bh­Óaæ ÓuÓoca  // 5.5 //
+k­«ata÷ puru«ÃæÓ ca vÅk«amÃïa÷  $ pavanÃrkÃæÓurajovibhinnavarïÃn  &
+vahanaklamaviklavÃæÓ ca dhuryÃn  % paramÃrya÷ paramÃæ k­pÃæ cakÃra  // 5.6 //
+avatÅrya tatas turaægap­«ÂhÃc  $ chanakair gÃæ (vyacarac chucÃ Cvyacarat ÓucÃ )parÅta÷  &
+jagato jananavyayaæ vicinvan  % k­païaæ khalv idam ity uvÃca (cÃrta÷ CcÃrtta÷ )  // 5.7 //
+manasÃ ca viviktatÃm abhÅpsu÷  $ suh­das tÃn anuyÃyino nivÃrya  &
+(abhitaÓ calaCabhitÃrala)cÃruparïavatyÃ  % vijane mÆlam upeyivÃn sa jambvÃ÷  // 5.8 //
+ni«asÃda (sa yatra ÓaucavatyÃæ Cca patrakhoravatyÃæ   $ bhuvi (vai¬ÆryaCvaidÆrya)nikÃÓaÓÃdvalÃyÃm  &
+jagata÷ prabhavavyayau (vicinvan Cvicintya   % manasaÓ ca sthitimÃrgam Ãlalambe  // 5.9 //
+samavÃptamana÷sthitiÓ ca sadyo  $ vi«ayecchÃdibhir ÃdhibhiÓ ca mukta÷  &
+savitarkavicÃram Ãpa ÓÃntaæ  % prathamaæ dhyÃnam an(ÃsravaCÃÓrava)prakÃram  // 5.10 //
+adhigamya tato vivekajaæ tu  $ paramaprÅtisukhaæ ((Cmana÷C))samÃdhim  &
+idam eva tata÷ paraæ pradadhyau  % manasÃ lokagatiæ (niÓÃmya CniÓamya )samyak  // 5.11 //
+k­païaæ (bata Cvata )yaj jana÷ svayaæ sann  $ a(vaÓo Craso )vyÃdhijarÃvinÃÓa(dharmÃ Cdharma÷ ) //
+jarayÃrditam Ãturaæ m­taæ vÃ  % param aj¤o vijugupsate madÃndha÷  // 5.12 //
+iha ced aham Åd­Óa÷ svayaæ san  $ vijugupseya paraæ tathÃsvabhÃvam  &
+na bhavet sad­Óaæ hi tat k«amaæ vÃ  % paramaæ dharmam imaæ vijÃnato me  // 5.13 //
+iti tasya vipaÓyato yathÃvaj  $ jagato vyÃdhijarÃvipattido«Ãn  &
+balayauvanajÅvita(prav­tto Cprav­ttau   % vijagÃmÃtmagato mada÷ k«aïena  // 5.14 //
+na jahar«a na cÃpi cÃnutepe  $ vicikitsÃæ na yayau na tandrinidre  &
+na ca kÃmaguïe«u saærara¤je  % na (vididve«a Cca didve«a )paraæ na cÃvamene  // 5.15 //
+iti buddhir iyaæ ca nÅrajaskÃ  $ vav­dhe tasya mahÃtmano viÓuddhÃ  &
+puru«air aparair ad­ÓyamÃna÷  % puru«aÓ copasasarpa bhik«u(ve«a÷ CveÓa÷ )  // 5.16 //
+naradevasutas tam abhyap­cchad  $ vada ko 'sÅti ÓaÓaæsa so 'tha tasmai  &
+(narapuæCsa ca puæ)gava janmam­tyubhÅta÷  % Óramaïa÷ pravrajito 'smi mok«aheto÷  // 5.17 //
+jagati k«ayadharmake mumuk«ur  $ m­gaye 'haæ Óivam ak«ayaæ padaæ tat  &
+sva(jane 'nyajane ca tulyaCjano 'nyajanair atulya)buddhir  % vi«ayebhyo vini.vrttarÃgado«a÷  // 5.18 //
+nivasan kvacid eva v­k«amÆle  $ vijane vÃyatane girau vane vÃ  &
+vicarÃmy aparigraho nirÃÓa÷  % paramÃrthÃya yathopapanna(bhaik«a÷ Cbhik«u÷ )  // 5.19 //
+iti paÓyata eva rÃjasÆnor  $ idam uktvÃ sa nabha÷ samutpapÃta  &
+sa hi tadvapur anya(buddhaCbuddhi)darÓÅ  % sm­taye tasya sameyivÃn divaukÃ÷  // 5.20 //
+gaganaæ khagavad gate ca tasmin  $ n­vara÷ saæjah­«e visismiye ca  &
+upalabhya tataÓ ca dharmasaæj¤Ãm  % abhiniryÃïavidhau matiæ cakÃra  // 5.21 //
+tata indrasamo (jitendriyÃÓva÷ CjitendriyaÓ ca  $ pravivik«u÷ (puram aÓvam CparamÃÓvam )Ãruroha  &
+(parivÃrajanaæ Cparivartya janaæ )tv avek«amÃïas  % tata evÃbhimataæ vanaæ na bheje  // 5.22 //
+sa jarÃmaraïak«ayaæ cikÅr«ur  $ vanavÃsÃya matiæ sm­tau nidhÃya  &
+praviveÓa puna÷ puraæ na kÃmÃd  % vanabhÆmer iva maï¬alaæ dvipendra÷  // 5.23 //
+sukhitÃ (bata Cvata )nirv­tÃ ca sÃ strÅ  $ patir Å(d­k«a ihÃyatÃk«a Cd­k tvam ivÃyatÃk«a )yasyÃ÷  &
+iti taæ samudÅk«ya rÃjakanyÃ  % praviÓantaæ pathi sÃ¤jalir jagÃda  // 5.24 //
+atha gho«am imaæ mahÃbhragho«a÷  $ pariÓuÓrÃva Óamaæ paraæ ca lebhe  &
+(ÓrutavÃn sa CÓrutavÃæÓ ca )hi nirv­teti Óabdaæ  % parinirvÃïavidhau matiæ cakÃra  // 5.25 //
+atha kÃ¤canaÓailaÓ­Çgavar«mÃ  $ gajameghar«abhabÃhunisvanÃk«a÷  &
+k«ayam ak«ayadharmajÃtarÃga÷  % ÓaÓisiæhÃnanavikrama÷ prapede  // 5.26 //
+m­garÃjagatis tato 'bhyagacchan  $ n­patiæ mantrigaïair upÃsyamÃnam  &
+samitau marutÃm iva jvalantaæ  % maghavantaæ tridive sanatkumÃra÷  // 5.27 //
+praïipatya ca sÃ¤jalir babhÃ«e  $ diÓa mahyaæ naradeva sÃdhv anuj¤Ãm  &
+parivivraji«Ãmi mok«ahetor  % niyato hy asya janasya viprayoga÷  // 5.28 //
+iti tasya vaco niÓamya rÃjÃ  $ kariïevÃbhihato drumaÓ cacÃla  &
+kamalapratime '¤jalau g­hÅtvÃ  % vacanaæ cedam uvÃca (bÃ«paCvÃ«pa)kaïÂha÷  // 5.29 //
+pratisaæhara tÃta buddhim etÃæ  $ na hi kÃlas tava dharmasaæÓrayasya  &
+vayasi prathame matau calÃyÃæ  % bahudo«Ãæ hi vadanti dharmacaryÃm  // 5.30 //
+vi«aye«u kutÆhalendriyasya  $ vratakhede«v asamarthaniÓcayasya  &
+taruïasya manaÓ calaty araïyÃd  % anabhij¤asya viÓe«ato (viveke Cavivekam )  // 5.31 //
+mama tu priyadharma dharmakÃlas  $ tvayi lak«mÅm avas­jya (lak«maClak«ya)bhÆte  &
+sthiravikrama vikrameïa dharmas  % tava hitvÃ tu guruæ bhaved adharma÷  // 5.32 //
+tad imaæ vyavasÃyam uts­ja  $ tvaæ bhava tÃvan nirato g­hasthadharme  &
+puru«asya vaya÷sukhÃni bhuktvÃ  % ramaïÅyo hi tapovanapraveÓa÷  // 5.33 //
+iti vÃkyam idaæ niÓamya rÃj¤a÷  $ kalaviÇkasvara uttaraæ babhÃ«e  &
+yadi me pratibhÆÓ catur«u rÃjan  % bhavasi tvaæ na tapovanaæ Órayi«ye  // 5.34 //
+na bhaven maraïÃya jÅvitaæ me  $ viharet svÃsthyam idam ca me na roga÷  &
+na ca yauvanam Ãk«ipej jarÃ me  % na ca saæpattim (imÃæ hared CapÃhared )vipatti÷  // 5.35 //
+iti durlabham artham ÆcivÃæsaæ  $ tanay.am vÃkyam uvÃca ÓÃkyarÃja÷  &
+tyaja buddhim (imÃm atiCimÃæ gati)prav­ttÃm  % avahÃsyo 'timano(ratho 'Cratha)kramaÓ ca  // 5.36 //
+atha merugurur guruæ babhÃ«e  $ yadi nÃsti krama e«a (nÃsmi CnÃsti )vÃrya÷  &
+ÓaraïÃj jvalanena dahyamÃnÃn  % na hi (niÓcikrami«u÷ CniÓcikrami«uæ )k«amaæ grahÅtum  // 5.37 //
+jagataÓ ca (yadÃ CyathÃ )dhruvo viyogo  $ (nanu Cna tu )dharmÃya varaæ (svayaæviyoga÷ Ctv ayaæ viyoga÷ ) //
+avaÓaæ nanu viprayojayen mÃm  % ak­tasvÃrtham at­ptam eva m­tyu÷  // 5.38 //
+iti bhÆmipatir niÓamya tasya  $ vyavasÃyaæ tanayasya nirmumuk«o÷  &
+abhidhÃya na yÃsyatÅti bhÆyo  % vidadhe rak«aïam uttamÃæÓ ca kÃmÃn  // 5.39 //
+sacivais tu nidarÓito yathÃvad  $ bahumÃnÃt praïayÃc ca ÓÃstrapÆrvam  &
+guruïÃ ca nivÃrito 'ÓrupÃtai÷  % praviveÓÃvasathaæ tata÷ sa Óocan  // 5.40 //
+calakuïdalacumbitÃnanÃbhir  $ ghananiÓvÃsavikampitastanÅbhi÷  &
+vanitÃbhir adhÅralocanÃbhir  % m­gaÓÃvÃbhir ivÃbhyudÅk«yamÃïa÷  // 5.41 //
+sa hi kÃ¤canaparvatÃvadÃto  $ h­dayonmÃdakaro varÃÇganÃnÃm  &
+ÓravanÃÇgavilocanÃtmabhÃvÃn  % vacanasparÓavapurguïair jahÃra  // 5.42 //
+vigate divase tato vimÃnaæ  $ vapu«Ã sÆrya iva pradÅpyamÃna÷  &
+timiraæ vijighÃæsur ÃtmabhÃsÃ  % ravir udyann iva merum Ãruroha  // 5.43 //
+kanakojjvaladÅptadÅpav­k«aæ  $ varakÃlÃgurudhÆpapÆrïagarbham  &
+adhiruhya sa vajrabhakticitraæ  % pravaraæ kÃ¤canam Ãsanaæ si«eve  // 5.44 //
+tata uttamam (uttamÃÇganÃs taæ CuttamÃÓ ca nÃryo   $ niÓi tÆryair upatasthur indrakalpam  &
+himavacchirasÅva candragaure  % draviïendrÃtmajam apsarogaïaughÃ÷  // 5.45 //
+paramair api divyatÆryakalpai÷  $ sa tu tair naiva ratiæ yayau na har«am  &
+paramÃrthasukhÃya tasya sÃdhor  % abhiniÓcikrami«Ã yato na reme  // 5.46 //
+atha tatra surais tapovari«Âhair  $ akani«Âhair vyavasÃyam asya buddhvÃ  &
+yugapat pramadÃjanasya nidrÃ  % vihitÃsÅd vik­tÃÓ ca gÃtrace«ÂÃ÷  // 5.47 //
+abhavac chayitÃ hi tatra kÃcid  $ viniveÓya pracale kare kapolam  &
+dayitÃm api rukmapattracitrÃæ  % kupitevÃÇkagatÃæ vihÃya vÅïÃm  // 5.48 //
+vibabhau karalagnaveïur anyÃ  $ stanavisrastasitÃæÓukÃ ÓayÃnÃ  &
+­ju«aÂpadapaÇktiju«ÂapadmÃ  % jalaphenaprahasattaÂÃ nadÅva  // 5.49 //
+navapu«karagarbhakomalÃbhyÃæ  $ tapanÅyojjvalasaægatÃÇgadÃbhyÃm  &
+svapiti sma (tathÃparÃ CtathÃ purÃ )bhujÃbhyÃæ  % parirabhya priyavan m­daÇgam eva  // 5.50 //
+navahÃÂakabhÆ«aïÃs tathÃnyÃ  $ vasanaæ pÅtam anuttamaæ vasÃnÃ÷  &
+avaÓÃ (ghananidrayÃ Cvata nidrayÃ )nipetur  % gajabhagnÃ iva karïikÃraÓÃkhÃ÷  // 5.51 //
+avalambya gavÃk«apÃrÓvam anyÃ  $ ÓayitÃ cÃpavibhugnagÃtraya«Âi÷  &
+virarÃja vilambicÃruhÃrÃ  % racitÃ toraïaÓÃlabha¤jikeva  // 5.52 //
+maïikuï¬alada«Âapattralekhaæ  $ mukhapadmaæ vinataæ tathÃparasyÃ÷  &
+Óatapattram ivÃrdha(vakraCcakra)nÃ¬aæ  % sthitakÃraï¬avaghaÂÂitaæ cakÃÓe  // 5.53 //
+aparÃ÷ ÓayitÃ yathopavi«ÂÃ÷  $ stanabhÃrair avanamyamÃnagÃtrÃ÷  &
+upaguhya parasparaæ virejur  % bhujapÃÓais tapanÅyapÃrihÃryai÷  // 5.54 //
+mahatÅæ parivÃdinÅæ ca kÃcid  $ vanitÃliÇgya sakhÅm iva prasuptÃ  &
+vijughÆrïa calatsuvarïa(sÆtrÃ CsÆtrÃæ   % vadanenÃkula(yoktrakeïa Ckarïikojjvalena )  // 5.55 //
+païavaæ yuvatir bhujÃæsadeÓÃd  $ avavisraæsitacÃrupÃÓam anyÃ  &
+savilÃsaratÃntatÃntam Ærvor  % vivare kÃntam ivÃbhinÅya ÓiÓye  // 5.56 //
+aparÃ babhur nimÅlitÃk«yo  $ vipulÃk«yo 'pi Óubhabhruvo 'pi satya÷  &
+pratisaækucitÃravindakoÓÃ÷  % savitary astam ite yathÃ nalinya÷  // 5.57 //
+ÓithilÃkulamÆrdhajÃ tathÃnyÃ  $ jaghanasrastavibhÆ«aïÃæÓukÃntÃ  &
+aÓayi«Âa vikÅrïakaïÂhasÆtrÃ  % gajabhagnÃ (pratiyÃtanÃÇganeva CpratipÃtitÃÇganeva )  // 5.58 //
+aparÃs tv avaÓÃ hriyÃ viyuktÃ  $ dh­timatyo 'pi vapurguïair upetÃ÷  &
+viniÓaÓvasur (ulbaïaæ Culvaïaæ )ÓayÃnÃ  % (vik­tÃ÷ k«iptaCvik­tÃk«ipta)bhujÃ jaj­mbhire ca  // 5.59 //
+vyapaviddhavibhÆ«aïasrajo 'nyÃ  $ (vis­tÃgranthanaCvis­tÃgranthana)vÃsaso visaæj¤Ã÷  &
+animÅlitaÓuklaniÓcalÃk«yo  % na vireju÷ ÓayitÃ gatÃsukalpÃ÷  // 5.60 //
+viv­tÃsyapuÂÃ viv­ddha(gÃtrÅ CgÃtrÃ   $ prapatadvaktrajalÃ prakÃÓaguhyÃ  &
+aparÃ madaghÆrïiteva ÓiÓye  % na (babhÃse CbabhÃ«e )vik­taæ vapu÷ pupo«a  // 5.61 //
+iti sattva(kulÃnvayÃnurÆpaæ CkulÃnurÆparÆpaæ   $ vividhaæ sa pramadÃjana÷ ÓayÃna÷  &
+sarasa÷ sad­Óaæ babhÃra rÆpaæ  % pavanÃvarjita(rugnaCrugïa)pu«karasya  // 5.62 //
+samavek«ya (tathÃ tathÃ CtataÓ ca tÃ÷ )ÓayÃnÃ  $ vik­tÃs tÃ yuvatÅr adhÅrace«ÂÃ÷  &
+guïavadvapu«o 'pi valgu(bhÃ«Ã CbhÃso   % n­pasÆnu÷ sa vigarhayÃæ babhÆva  // 5.63 //
+aÓucir vik­taÓ ca jÅvaloke  $ vanitÃnÃm ayam Åd­Óa÷ svabhÃva÷  &
+vasanÃbharaïais tu va¤cyamÃna÷  % puru«a÷ strÅvi«aye«u rÃgam eti  // 5.64 //
+vim­Óed yadi yo«itÃæ manu«ya÷  $ prak­tiæ svapnavikÃram Åd­Óaæ ca  &
+dhruvam atra na vardhayet pramÃdaæ  % guïasaækalpahatas tu rÃgam eti  // 5.65 //
+iti tasya tadantaraæ viditvÃ  $ niÓi niÓcikrami«Ã samudbabhÆva  &
+avagamya manas tato 'sya devair  % bhavanadvÃram apÃv­taæ babhÆva  // 5.66 //
+atha so 'vatatÃra harmyap­«ÂhÃd  $ yuvatÅs tÃ÷ ÓayitÃ vigarhamÃïa÷  &
+avatÅrya tataÓ ca nirviÓaÇko  % g­hakak«yÃæ (prathamÃæ Cprathamaæ )vinirjagÃma  // 5.67 //
+turagÃvacaraæ sa bodhayitvÃ  $ javinaæ chandakam ittham ity uvÃca  &
+hayam Ãnaya kanthakaæ tvarÃvÃn  % am­taæ prÃptum ito 'dya ma yiyÃsÃ  // 5.68 //
+h­di yÃ mama tu«Âir adya jÃtÃ  $ vyavasÃyaÓ ca yathÃ (matau Cdh­tau )nivi«Âa÷  &
+vijane 'pi ca nÃthavÃn ivÃsmi  % dhruvam artho 'bhimukha÷ (sameta Csa me ya )i«Âa÷  // 5.69 //
+hriyam eva ca saænatiæ ca hitvÃ  $ ÓayitÃ matpramukhe yathÃ yuvatya÷  &
+viv­te ca yathÃ svayaæ kapÃÂe  % niyataæ yÃtum (ato mamÃdya CanÃmayÃya )kÃla÷  // 5.70 //
+pratig­hya tata÷ sa bhartur Ãj¤Ãæ  $ viditÃrtho 'pi narendraÓÃsanasya  &
+manasÅva pareïa codyamÃnas  % turagasyÃnayane matiæ cakÃra  // 5.71 //
+atha hemakhalÅnapÆrïavaktraæ  $ laghuÓayyÃstaraïopagÆ¬hap­«Âham  &
+balasattva(javÃnvayopapannaæ Cjavatvaropapannaæ   % sa varÃÓvaæ tam upÃninÃya bhartre  // 5.72 //
+pratatatrikapucchamÆlapÃr«ïiæ  $ (nibh­tahrasvaCnibh­taæ hrasva)tanÆja(pucchaCp­«Âha)karïam  &
+vinatonnatap­«Âhakuk«ipÃrÓvaæ  % vipulaprothalalÃÂakaÂhyuraskam  // 5.73 //
+upaguhya sa taæ viÓÃlavak«Ã÷  $ kamalÃbhena ca sÃntvayan kareïa  &
+madhurÃk«arayÃ girÃ ÓaÓÃsa  % dhvajinÅmadhyam iva prave«ÂukÃma÷  // 5.74 //
+bahuÓa÷ (kila Óatravo CkaliÓatravo )nirastÃ÷  $ samare tvÃm adhiruhya pÃrthivena  &
+aham apy am­taæ (padaæ Cparaæ )yathÃvat  % turagaÓre«Âha labheya tat kuru«va  // 5.75 //
+sulabhÃ÷ khalu saæyuge sahÃyÃ  $ vi«ayÃvÃptasukhe dhanÃrjane vÃ  &
+puru«asya tu durlabhÃ÷ sahÃyÃ÷  % patitasyÃpadi dharmasaæÓraye vÃ  // 5.76 //
+iha caiva bhavanti ye sahÃyÃ÷  $ kalu«e (karmaïi Cdharmaïi )dharmasaæÓraye vÃ  &
+avagacchati me yathÃntarÃtmÃ  % niyataæ te 'pi janÃs tadaæÓabhÃja÷  // 5.77 //
+tad idaæ parigamya dharmayuktaæ  $ mama niryÃïam (ito Cato )jagaddhitÃya  &
+turagottama vegavikramÃbhyÃæ  % prayatasvÃtmahite jagaddhite ca  // 5.78 //
+iti suh­dam ivÃnuÓi«ya k­tye  $ turagavaraæ n­varo vanaæ yiyÃsu÷  &
+sitam asitagatidyutir vapu«mÃn  % ravir iva ÓÃradam abhram Ãruroha  // 5.79 //
+atha sa pariharan niÓÅthacaï¬aæ  $ parijanabodhakaraæ dhvaniæ sadaÓva÷  &
+vigatahanurava÷ praÓÃntahe«aÓ  % cakitavimuktapada(kramo CkramÃ )jagÃma  // 5.80 //
+kanakavalayabhÆ«itaprako«Âhai÷  $ kamalanibhai÷ (kamalÃn iva CkamalÃni ca )pravidhya  &
+avanatatanavas tato 'sya yak«ÃÓ  % cakita(gatair Cgater )dadhire khurÃn karÃgrai÷  // 5.81 //
+guruparighakapÃÂasaæv­tÃ yÃ  $ na sukham api dviradair apÃvriyante  &
+vrajati n­pasute gatasvanÃs tÃ÷  % svayam abhavan viv­tÃ÷ pura÷ pratolya÷  // 5.82 //
+pitaram abhimukhaæ sutaæ ca bÃlaæ  $ janam anuraktam anuttamÃæ ca lak«mÅm  &
+k­tamatir apahÃya nirvyapek«a÷  % pit­nagarÃt sa tato vinirjagÃma  // 5.83 //
+atha sa (vimalaCvikaca)paÇkajÃyatÃk«a÷  $ puram avalokya nanÃda siæhanÃdam  &
+jananamaraïayor ad­«ÂapÃro  % na (puram Cpunar )ahaæ kapilÃhvayaæ (prave«ÂÃ Cpravi«ÂÃ )  // 5.84 //
+iti vacanam idaæ niÓamya tasya  $ draviïapate÷ pari«adgaïÃ nanandu÷  &
+pramuditamanasaÓ ca devasaÇghÃ  % vyavasitapÃraïam ÃÓaÓaæsire 'smai  // 5.85 //
+hutavahavapu«o divaukaso 'nye  $ vyavasitam asya (sudu«Cca du«)karaæ viditvÃ  &
+(ak­«ata Cakuruta )tuhine pathi prakÃÓaæ  % ghanavivarapra«rtÃ ivendupÃdÃ÷  // 5.86 //
+aruïaparu«a(tÃram antarik«aæ CbhÃram antarÅk«aæ  $ (sa ca subahÆni CsarasabahÆni )jagÃma yojanÃni  // 5.87 //
+[[iti (CÓrÅC)buddhacarite mahÃkÃvye 'bhini«kramaïo nÃma pa¤cama÷ sarga÷ -- 5 --]]
+
+tato (muhÆrtÃbhyudite CmuhÆrte 'bhyudite   $ jagaccak«u«i bhÃskare  &
+bhÃrgavasyÃÓramapadaæ  % sa dadarÓa n­ïÃæ vara÷  // 6.1 //
+suptaviÓvastahariïaæ  $ svasthasthitavihaægamam  &
+viÓrÃnta iva yad (d­«ÂvÃ Cd­«ÂÃ [sic]   % k­tÃrtha iva cÃbhavat  // 6.2 //
+sa vismayaniv­ttyarthaæ  $ tapa÷pÆjÃrtham eva ca  &
+svÃæ cÃnuvartitÃæ rak«aïn  % aÓvap­«ÂhÃd avÃtarat  // 6.3 //
+avatÅrya ca pasparÓa  $ nistÅrïam iti vÃjinam  &
+chandakaæ cÃbravÅt prÅta÷  % snÃpayann iva cak«u«Ã  // 6.4 //
+imaæ tÃrk«yopamajavaæ  $ turaægam anugacchatÃ  &
+darÓitÃ saumya madbhaktir  % vikramaÓ cÃyam Ãtmana÷  // 6.5 //
+sarvathÃsmy anyakÃryo 'pi  $ g­hÅto bhavatÃ h­di  &
+bhart­snehaÓ ca yasyÃyam  % Åd­Óa÷ (Óaktir CÓakta )eva ca  // 6.6 //
+asnigdho 'pi samartho 'sti  $ ni÷sÃmarthyo 'pi bhaktimÃn  &
+bhaktimÃæs caiva ÓaktaÓ ca  % durlabhas tvadvidho bhuvi  // 6.7 //
+tat prÅto 'smi tavÃnena  $ mahÃbhÃgena karmaïÃ  &
+(yasya te Cd­Óyate )mayi bhÃvo 'yaæ  % phalebhyo 'pi parÃÇ(mukha÷ Cmukhe )  // 6.8 //
+ko janasya phalasthasya  $ na syÃd abhimukho jana÷  &
+janÅbhavati bhÆyi«Âhaæ  % svajano 'pi viparyaye  // 6.9 //
+kulÃrthaæ dhÃryate putra÷  $ po«Ãrthaæ sevyate pitÃ  &
+(ÃÓayÃc chli«yati CÃÓayÃÓli«yati )jagan  % nÃsti ni«(kÃraïÃ svatÃ CkÃraïÃsvatÃ )  // 6.10 //
+kim uktvÃ bahu saæk«epÃt  $ k­taæ me sumahat priyam  &
+nivartasvÃÓvam ÃdÃya  % saæprÃpto 'smÅpsitaæ (padam Cvanam )  // 6.11 //
+ity uktvÃ sa mahÃbÃhur  $ anuÓaæsacikÅr«ayÃ  &
+bhÆ«aïÃny avamucyÃsmai  % saætaptamanase dadau  // 6.12 //
+(mukuÂÃd dÅpaCmukuÂoddÅpta)karmÃïaæ  $ maïim ÃdÃya bhÃsvaram  &
+bruvan vÃkyam idaæ tasthau  % sÃditya iva mandara÷  // 6.13 //
+anena maïinÃ chanda  $ praïamya bahuÓo n­pa÷  &
+vij¤Ãpyo 'muktaviÓrambhaæ  % saætÃpaviniv­ttaye  // 6.14 //
+(janmaCjarÃ)maraïanÃÓÃrthaæ  $ pravi«Âo 'smi tapovanam  &
+na khalu svargatar«eïa  % nÃsnehena na manyunÃ  // 6.15 //
+tad evam abhini«krÃntaæ  $ na mÃæ Óocitum arhasi  &
+bhÆtvÃpi hi ciraæ Óle«a÷  % kÃlena na bhavi«yati  // 6.16 //
+dhruvo yasmÃc ca viÓle«as  $ tasmÃn mok«Ãya me mati÷  &
+viprayoga÷ kathaæ na syÃd  % bhÆyo 'pi sva(janÃd iti CjanÃdibhi÷ )  // 6.17 //
+ÓokatyÃgÃya ni«krÃntaæ  $ na mÃæ Óocitum arhasi  &
+Óokahetu«u kÃme«u  % saktÃ÷ ÓocyÃs tu rÃgiïa÷  // 6.18 //
+ayaæ ca kila pÆrve«Ãm  $ asmÃkaæ niÓcaya÷ sthira÷  &
+iti (dÃyÃdyaCdÃyÃda)bhÆtena  % na Óocyo 'smi pathÃ vrajan  // 6.19 //
+bhavanti hy arthadÃyÃdÃ÷  $ puru«asya viparyaye  &
+p­thivyÃæ dharmadÃyÃdÃ÷  % durlabhÃs tu na santi vÃ  // 6.20 //
+yad api syÃd asamaye  $ yÃto vanam asÃv iti  &
+akÃlo nÃsti dharmasya  % jÅvite ca¤cale sati  // 6.21 //
+tasmÃd adyaiva me ÓreyaÓ  $ cetavyam iti niÓcaya÷  &
+jÅvite ko hi viÓrambho  % m­tyau pratyarthini sthite  // 6.22 //
+evamÃdi tvayÃ saumya  $ vij¤Ãpyo vasudhÃdhipa÷  &
+prayatethÃs tathÃ caiva  % yathÃ mÃæ na smared api  // 6.23 //
+api nairguïyam asmÃkaæ  $ vÃcyaæ narapatau tvayÃ  &
+nairguïyÃt tyajyate sneha÷  % snehatyÃgÃn na Óocyate  // 6.24 //
+iti vÃkyam idaæ ÓrutvÃ  $ chanda÷ saætÃpaviklava÷  &
+(bÃ«paCvÃ«pa)grathitayÃ vÃcÃ  % pratyuvÃca k­tÃ¤jali÷  // 6.25 //
+anena tava bhÃvena  $ bÃndhavÃyÃsadÃyinÃ  &
+bharta÷ sÅdati me ceto  % nadÅpaÇkae iva dvipa÷  // 6.26 //
+kasya notpÃdayed (bÃ«paæ CvÃ«paæ   $ niÓcayas te 'yam Åd­Óa÷  &
+ayomaye 'pi h­daye  % kiæ puna÷ snehaviklave  // 6.27 //
+vimÃnaÓayanÃrhaæ hi  $ saukumÃryam idaæ kva ca  &
+kharadarbhÃÇkuravatÅ  % tapovanamahÅ kva ca  // 6.28 //
+ÓrutvÃ tu vyavasÃyaæ te  $ yad aÓvo 'yaæ (mayÃh­ta÷ CmayÃ h­ta÷ ) //
+balÃtkÃreïa tan nÃtha  % daivenaivÃsmi kÃrita÷  // 6.29 //
+kathaæ hy ÃtmavaÓo jÃnan  $ vyavasÃyam imaæ tava  &
+upÃnayeyaæ turagaæ  % Óokaæ kapila(vÃstuna÷ Cvastuna÷ )  // 6.30 //
+tan nÃrhasi mahÃbÃho  $ vihÃtuæ putralÃlasam  &
+snigdhaæ v­ddhaæ ca rÃjÃnaæ  % saddharmam iva nÃstika÷  // 6.31 //
+saævardhanapariÓrÃntÃæ  $ dvitÅyÃæ tÃæ ca mÃtaram  &
+(devÅæ Cdeva )nÃrhasi vismartuæ  % k­taghna iva satkriyÃm  // 6.32 //
+bÃlaputrÃæ guïavatÅæ  $ kulaÓlÃghyÃæ pativratÃm  &
+devÅm arhasi na tyaktuæ  % (klÅba÷ CklÅva÷ )prÃptÃm iva Óriyam  // 6.33 //
+putraæ yÃÓodharaæ ÓlÃghyaæ  $ yaÓodharmabh­tÃæ (varam Cvara÷ ) //
+bÃlam arhasi na tyaktuæ  % vyasanÅvottamaæ yaÓa÷  // 6.34 //
+atha bandhuæ ca rÃjyaæ ca  $ tyaktum eva k­tÃ mati÷  &
+mÃæ nÃrhasi vibho tyaktuæ  % tvatpÃdau hi gatir mama  // 6.35 //
+nÃsmi yÃtuæ puraæ Óakto  $ dahyamÃnena cetasÃ  &
+tvÃm araïye parityajya  % su(mantra Cmitra )iva rÃghavam  // 6.36 //
+kiæ hi vak«yati (mÃæ rÃjÃ CrÃjÃ mÃæ   $ tvad­te nagaraæ gatam  &
+vak«yÃmy ucitadarÓitvÃt  % kiæ tavÃnta÷purÃïi vÃ  // 6.37 //
+yad apy ÃtthÃpi nairguïyaæ  $ vÃcyaæ narapatÃv iti  &
+kiæ tad vak«yÃmy abhÆtaæ te  % nirdo«asya muner iva  // 6.38 //
+h­dayena salajjena  $ jihvayÃ sajjamÃnayÃ  &
+ahaæ yadyapi vÃ brÆyÃæ  % kas tac chraddhÃtum arhati  // 6.39 //
+yo hi candramasas (taik«ïyaæ Ctaik«ïya [sic]   $ kathayec chraddadhÅta vÃ  &
+sa do«Ãæs tava do«aj¤a  % kathayec chraddadhÅta vÃ  // 6.40 //
+sÃnukroÓasya satataæ  $ nityaæ karuïavedina÷  &
+snigdhatyÃgo na sad­Óo  % nivartasva prasÅda me  // 6.41 //
+iti ÓokÃbhibhÆtasya  $ ÓrutvÃ chandasya bhÃ«itam  &
+svastha÷ paramayÃ dh­tyÃ  % jagÃda vadatÃæ vara÷  // 6.42 //
+madviyogaæ prati cchanda  $ saætÃpas tyajyatÃm ayam  &
+nÃnÃbhÃvo hi niyataæ  % p­thagjÃti«u dehi«u  // 6.43 //
+svajanaæ yadyapi snehÃn  $ na (tyajeyam ahaæ svayam Ctyajeyaæ mumuk«ayÃ ) //
+m­tyur anyoanyam avaÓÃn  % asmÃn saætyÃjayi«yati  // 6.44 //
+mahatyÃ t­«ïayÃ du÷khair  $ garbheïÃsmi yayÃ dh­ta÷  &
+tasyÃ ni«phalayatnÃyÃ÷  % kvÃhaæ mÃtu÷ kva sÃ mama  // 6.45 //
+vÃsav­k«e samÃgamya  $ vigacchanti yathÃï¬ajÃ÷  &
+niyataæ viprayogÃntas  % tathÃ bhÆtasamÃgama÷  // 6.46 //
+sametya ca yathÃ bhÆyo  $ vyapayÃnti (balÃhakÃ÷ CvalÃhakÃ÷ ) //
+saæyogo viprayogaÓ ca  % tathÃ me prÃïinÃæ mata÷  // 6.47 //
+yasmÃd yÃti ca loko 'yaæ  $ vipralabhya paraæparam  &
+mamatvaæ na k«amaæ tasmÃt  % svapnabhÆte samÃgame  // 6.48 //
+sahajena viyujyante  $ parïarÃgeïa pÃdapÃ÷  &
+anyenÃnyasya viÓle«a÷  % kiæ punar na bhavi«yati  // 6.49 //
+tad evaæ sati saætÃpaæ  $ mÃ kÃr«Å÷ saumya gamyatÃm  &
+lambate yadi tu sneho  % gatvÃpi punar Ãvraja  // 6.50 //
+brÆyÃÓ (cÃsmatk­tÃpek«aæ CcÃsmÃsv anÃk«epaæ   $ janaæ kapila(vÃstuni Cvastuni ) //
+tyajyatÃæ tadgata÷ sneha÷  % ÓrÆyatÃæ cÃsya niÓcaya÷  // 6.51 //
+k«ipram e«yati vÃ k­tvÃ  $ janmam­tyuk«ayaæ kila  &
+ak­tÃrtho nir(Ãrambho CÃlambo   % nidhanaæ yÃsyatÅti vÃ  // 6.52 //
+iti tasya vaca÷ ÓrutvÃ  $ kanthakas turagottama÷  &
+jihvayÃ lilihe pÃdau  % (bÃ«pam CvÃ«pam )u«ïaæ mumoca ca  // 6.53 //
+jÃlinÃ svastikÃÇkena  $ (cakraCvakra)madhyena pÃïinÃ  &
+ÃmamarÓa kumÃras taæ  % babhÃ«e ca vayasyavat  // 6.54 //
+mu¤ca kanthaka mÃ (bÃ«paæ CvÃ«paæ   $ darÓiteyaæ sadaÓvatÃ  &
+m­«yatÃæ saphala÷ ÓÅghraæ  % Óramas te 'yaæ bhavi«yati  // 6.55 //
+maïitsaruæ chandakahastasaæsthaæ  $ tata÷ sa dhÅro niÓitaæ g­hÅtvÃ  &
+koÓÃd asiæ kÃ¤canabhakticitraæ  % (bilÃd CvilÃd )ivÃÓÅvi«am udbabarha  // 6.56 //
+ni«kÃsya taæ cadutpalapattranÅlaæ  $ ciccheda citraæ mukuÂaæ sakeÓam  &
+vikÅryamÃïÃæÓukam antarÅk«e  % cik«epa cainaæ sarasÅva haæsam  // 6.57 //
+pÆjÃbhilÃ«eïa ca bÃhumÃnyÃd  $ divaukasas taæ jag­hu÷ praviddham  &
+yathÃvad enaæ divi devasaÇghÃ  % divyair viÓe«air mahayÃæ ca cakru÷  // 6.58 //
+muktvÃ tv alaækÃrakalatravattÃæ  $ ÓrÅvipravÃsaæ ÓirasaÓ ca k­tvÃ  &
+d­«ÂvÃæÓukaæ kÃ¤canahaæsa(cihnaæ Ccitram   % vanyaæ sa dhÅro 'bhicakÃÇk«a vÃsa÷  // 6.59 //
+tato m­gavyÃdhavapur divaukÃ  $ bhÃvaæ viditvÃsya viÓuddhabhÃva÷  &
+kÃ«Ãyavastro 'bhiyayau samÅpaæ  % taæ ÓÃkyarÃjaprabhavo 'bhyuvÃca  // 6.60 //
+Óivaæ ca kÃ«Ãyam ­«idhvajas te  $ na yujyate hiæsram idaæ dhanuÓ ca  &
+tat saumya yady asti na saktir atra  % mahyaæ prayacchedam idaæ g­hÃïa  // 6.61 //
+vyÃdho 'bravÅt kÃmada kÃmam ÃrÃd  $ anena viÓvÃsya m­gÃn (nihanmi Cnihatya ) //
+arthas tu Óakropama yady anena hanta  % pratÅcchÃnaya Óuklam etat  // 6.62 //
+pareïa har«eïa tata÷ sa vanyaæ  $ jagrÃha vÃso 'æÓukam utsasarja  &
+vyÃdhas tu divyaæ vapur eva bibhrat  % tac chuklam ÃdÃya divaæ jagÃma  // 6.63 //
+tata÷ kumÃraÓ ca sa cÃÓvagopas  $ tasmiæs tathÃ yÃti visismiyÃte  &
+Ãraïyake vÃsasi caiva bhÆyas  % tasminn akÃr«ÂÃæ bahumÃnam ÃÓu  // 6.64 //
+chandaæ tata÷ sÃÓrumukhaæ vis­jya  $ kÃ«Ãya(saæbh­d dh­tiCsaævid v­ta)kÅrtibh­t sa÷  &
+yenÃÓramas tena yayau mahÃtmÃ  % saædhyÃbhrasaævÅta (ivo¬uCivÃdri)rÃja÷  // 6.65 //
+tatas tathÃ bhartari rÃjyani÷sp­he  $ tapovanaæ yÃti vivarïavÃsasi  &
+bhujau samutk«ipya tata÷ sa vÃjibh­d  % bh­Óaæ vicukroÓa papÃta ca k«itau  // 6.66 //
+vilokya bhÆyaÓ ca ruroda sasvaraæ  $ hayaæ bhujÃbhyÃm upaguhya kanthakam  &
+tato nirÃÓo vilapan muhur muhur  % yayau ÓarÅreïa puraæ na cetasÃ  // 6.67 //
+kvacit pradadhyau vilalÃpa ca kvacit  $ kvacit pracaskhÃla papÃta ca kvacit  &
+ato vrajan bhaktivaÓena du÷khitaÓ  % cacÃra bahvÅr (avasa÷ CavaÓa÷ )pathi kriyÃ÷  // 6.68 //
+[[iti (CÓrÅC)buddhacarite mahÃkÃvye chandaka(nivartano Cnivartanaæ )nÃma «a«Âha÷ sarga÷ -- 6 --]]
+
+tato vis­jyÃÓrumukhaæ rudantaæ  $ chandaæ vanacchandatayÃ nirÃstha÷  &
+sarvÃrthasiddho vapu«ÃbhibhÆya  % tam ÃÓramaæ (siddha Csiddham )iva prapede  // 7.1 //
+sa rÃjasÆnur m­garÃjagÃmÅ  $ m­gÃjiraæ tan m­gavat pravi«Âa÷  &
+lak«mÅviyukto 'pi ÓarÅralak«myÃ  % cak«Ææ«i sarvÃÓramiïÃæ jahÃra  // 7.2 //
+sthitÃ hi hastasthayugÃs tathaiva  $ kautÆhalÃc cakradharÃ÷ sadÃrÃ÷  &
+tam indrakalpaæ dad­Óur na jagmur  % dhuryÃ ivÃrdhÃvanatai÷ Óirobhi÷  // 7.3 //
+viprÃÓ ca gatvÃ bahir idhmaheto÷  $ prÃptÃ÷ samitpu«papavitrahastÃ÷  &
+tapa÷pradhÃnÃ÷ k­tabuddhayo 'pi  % taæ dra«Âum Åyur na maÂhÃn abhÅyu÷  // 7.4 //
+h­«ÂÃÓ ca kekÃ mumucur mayÆrÃ  $ d­«ÂvÃmbudaæ nÅlam (ivonnamanta÷ Civonnamantaæ ) //
+Óa«pÃïi hitvÃbhimukhÃÓ ca tasthur  % m­gÃÓ calÃk«Ã m­gacÃriïaÓ ca  // 7.5 //
+d­«ÂvÃ tam ik«vÃkukulapradÅpaæ  $ jvalantam udyantam ivÃæÓumantam  &
+k­te 'pi dohe janitapramodÃ÷  % prasusruvur homaduhaÓ ca gÃva÷  // 7.6 //
+kaÓcid vasÆnÃm ayam a«Âama÷ syÃt  $ syÃd aÓvinor anyataraÓ cyuto (vÃ Catra ) //
+uccerur uccair iti tatra vÃcas  % taddarÓanÃd vismayajÃ munÅnÃm  // 7.7 //
+lekhar«abhasyeva vapur dvitÅyaæ  $ dhÃmeva lokasya carÃcarasya  &
+sa dyotayÃm Ãsa vanaæ hi k­tsnaæ  % yad­cchayÃ sÆrya ivÃvatÅrïa÷  // 7.8 //
+tata÷ sa tair ÃÓramibhir yathÃvad  $ abhyarcitaÓ copanimantritaÓ ca  &
+pratyarcayÃæ dharmabh­to babhÆva  % svareïa (sÃmbhoambuCbhÃdrÃmbu)dharopamena  // 7.9 //
+kÅrïaæ (tathÃ Ctata÷ )puïyak­tÃ janena  $ svargÃbhikÃmena vimok«akÃma÷  &
+tam ÃÓramaæ so 'nucacÃra dhÅras  % tapÃæsi citrÃïi nirÅk«amÃïa÷  // 7.10 //
+tapovikÃrÃæÓ ca nirÅk«ya saumyas  $ tapovane tatra tapodhanÃnÃm  &
+tapasvinaæ kaæcid anuvrajantaæ  % tattvaæ vijij¤Ãsur idaæ babhÃ«e  // 7.11 //
+tatpÆrvam adyÃÓramadarÓanaæ me  $ yasmÃd imaæ dharmavidhiæ na jÃne  &
+tasmÃd bhavÃn arhati bhÃ«ituæ me  % yo niÓcayo (yat Cyaæ )prati va÷ prav­tta÷  // 7.12 //
+tato dvijÃti÷ sa tapovihÃra÷  $ ÓÃkyar«abhÃyar«abhavikramÃya  &
+kram.ena tasmai kathayÃæ cakÃra  % tapo(viÓe«Ãæs CviÓe«aæ )tapasa÷ phalaæ ca  // 7.13 //
+agrÃmyam annaæ salile prarÆ¬haæ  $ parïÃni toyaæ phalamÆlam eva  &
+yathÃgamaæ v­ttir iyaæ munÅnÃæ  % bhinnÃs tu te te tapasÃæ vikalpÃ÷  // 7.14 //
+u¤chena jÅvanti khagÃ ivÃnye  $ t­ïÃni kecin m­gavac caranti  &
+kecid bhujaægai÷ saha vartayanti  % valmÅkabhÆtÃ (vanamÃrutena Civa mÃrutena )  // 7.15 //
+aÓmaprayatnÃrjitav­ttayo 'nye  $ kecit svadantÃpahatÃnnabhak«Ã÷  &
+k­tvÃ parÃrthaæ Órapaïaæ tathÃnye  % kurvanti kÃryaæ yadi Óe«am asti  // 7.16 //
+kecij jalaklinnajaÂÃkalÃpÃ  $ dvi÷ pÃvakaæ juhvati mantrapÆrvam  &
+mÅnai÷ samaæ kecid apo vigÃhya  % vasanti kÆrmollikhitai÷ ÓarÅrai÷  // 7.17 //
+evaævidhai÷ kÃlacitais tapobhi÷  $ parair divaæ yÃnty aparair n­lokam  &
+du÷khena mÃrgeïa sukhaæ (hy upaiti Ck«iyanti   % (sukhaæ Cdu÷khaæ )hi dharmasya vadanti mÆlam  // 7.18 //
+ity evamÃdi dvipendravatsa÷  $ ÓrutvÃ vacas tasya tapodhanasya  &
+ad­«Âatattvo 'pi na saætuto«a  % Óanair idaæ cÃtmagataæ (babhÃ«e CjagÃda )  // 7.19 //
+du÷khÃtmakaæ naikavidhaæ tapaÓ ca  $ svargapradhÃnaæ tapasa÷ phalaæ ca  &
+lokÃÓ ca sarve pariïÃmavanta÷  % svalpe Órama÷ khalv ayam ÃÓramÃïÃm  // 7.20 //
+(priyÃæÓ CÓriyaæ )ca bandhÆn vi«ayÃæÓ ca hitvÃ  $ ye svarga(hetor Chetau )niyamaæ caranti  &
+te viprayuktÃ÷ khalu gantukÃmÃ  % mahattaraæ (bandhanam Csvaæ vanam )eva bhÆya÷  // 7.21 //
+kÃyaklamair yaÓ ca tapoabhidhÃnai÷  $ prav­ttim ÃkÃÇk«ati kÃmaheto÷  &
+saæsÃrado«Ãn aparÅk«amÃïo  % du÷khena so 'nvicchati du÷kham eva  // 7.22 //
+trÃsaÓ ca nityaæ maraïÃt prajÃnÃæ  $ yatnena cecchanti (puna÷prasÆtim Cpuna÷ prasÆtim ) //
+satyÃæ prav­ttau niyataÓ ca m­tyus  % tatraiva (magnÃ Cmagno )yata eva (bhÅtÃ÷ CbhÅta÷ )  // 7.23 //
+ihÃrtham eke praviÓanti khedaæ  $ svargÃrtham anye Óramam Ãpnuvanti  &
+sukhÃrtham ÃÓÃk­païo 'k­tÃrtha÷  % pataty anarthe khalu jÅvaloka÷  // 7.24 //
+na khalv ayaæ garhita eva yatno  $ yo hÅnam uts­jya viÓe«agÃmÅ  &
+prÃj¤ai÷ samÃnena pariÓrameïa  % kÃryaæ tu tad yatra punar na kÃryam  // 7.25 //
+ÓarÅrapÅ¬Ã tu yadÅha dharma÷  $ sukhaæ ÓarÅrasya bhavaty adharma÷  &
+dharmeïa cÃpnoti sukhaæ paratra  % tasmÃd adharmaæ phalatÅha dharma÷  // 7.26 //
+yata÷ ÓarÅraæ manaso vaÓena  $ pravartate (cÃpi CvÃpi )nivartate (ca CvÃ ) //
+yukto damaÓ cetasa eva tasmÃc  % cittÃd ­te kÃ«Âhasamaæ ÓarÅram  // 7.27 //
+ÃhÃraÓuddhyÃ yadi puïyam i«Âaæ  $ tasmÃn m­gÃïÃm api puïyam asti  &
+ye cÃpi bÃhyÃ÷ puru«Ã÷ phalebhyo  % bhÃgyÃparÃdhena parÃÇ(mukhÃrthÃ÷ CmukhatvÃt )  // 7.28 //
+du÷khe 'bhisaædhis tv atha puïyahetu÷  $ sukhe 'pi kÃryo nanu so 'bhisaædhi÷  &
+atha pramÃïaæ na sukhe 'bhisaædhir  % du÷khe pramÃïaæ nanu nÃbhisaædhi÷  // 7.29 //
+tathaiva ye karmaviÓuddhiheto÷  $ sp­Óanty apas tÅrtham iti prav­ttÃ÷  &
+tatrÃpi to«o h­di kevalo 'yaæ  % na pÃvayis.yanti hi pÃpam Ãpa÷  // 7.30 //
+sp­«Âaæ hi yad yad guïavadbhir ambhas  $ tat tat p­thivyÃæ yadi tÅrtham i«Âam  &
+tasmÃd guïÃn eva paraimi tÅrtham  % Ãpas tu ni÷saæÓayam Ãpa eva  // 7.31 //
+iti sma tat tad bahuyuktiyuktaæ  $ jagÃda cÃstaæ ca yayau vivasvÃn  &
+tato havirdhÆmavivarïav­k«aæ  % tapa÷praÓÃntaæ sa vanaæ viveÓa  // 7.32 //
+abhyuddh­taprajvalitÃgnihotraæ  $ k­tÃbhi«ekar«ijanÃvakÅrïam  &
+jÃpyasvanÃkÆjitadevako«Âhaæ  % dharmasya karmÃntam iva prav­ttam  // 7.33 //
+kÃÓcin niÓÃs tatra niÓÃkarÃbha÷  $ parÅk«amÃïaÓ ca tapÃæsy uvÃsa  &
+sarvaæ parik«epya tapaÓ ca matvÃ  % tasmÃt tapa÷k«etratalÃj jagÃma  // 7.34 //
+anvavrajann ÃÓramiïas tatas taæ  $ tadrÆpamÃhÃtmyagatair manobhi÷  &
+deÓÃd anÃryair abhibhÆyamÃnÃn  % mahar«ayo dharmam ivÃpayÃntam  // 7.35 //
+tato jaÂÃvalkalacÅrakhelÃæs  $ tapodhanÃæÓ caiva sa tÃn dadarÓa  &
+tapÃæsi cai«Ãm (anurudhyamÃnas CanubudhyamÃnas   % tasthau Óive ÓrÅmati (v­k«amÆle CmÃrgav­k«e )  // 7.36 //
+athopas­tyÃÓramavÃsinas taæ  $ manu«yavaryaæ parivÃrya tasthu÷  &
+v­ddhaÓ ca te«Ãæ bahumÃnapÆrvaæ  % kalena sÃmnÃ giram ity uvÃca  // 7.37 //
+tvayy Ãgate pÆrïa ivÃÓramo 'bhÆt  $ saæpadyate ÓÆnya iva prayÃte  &
+tasmÃd imaæ nÃrhasi tÃta hÃtuæ  % jijÅvi«or deham ive«Âam Ãyu÷  // 7.38 //
+brahmar«irÃjar«isurar«iju«Âa÷  $ puïya÷ samÅpe himavÃn hi Óaila÷  &
+tapÃæsi tÃny eva tapodhanÃnÃæ  % yatsaænikar«Ãd bahulÅbhavanti  // 7.39 //
+tÅrthÃni puïyÃny abhitas tathaiva  $ sopÃnabhÆtÃni nabhastalasya  &
+ju«ÂÃni dharmÃtmabhir Ãtmavadbhir  % devar«ibhiÓ caiva mahar«ibhiÓ ca  // 7.40 //
+itaÓ ca bhÆya÷ k«amam uttaraiva  $ dik sevituæ dharmaviÓe«aheto÷  &
+na (tu Chi )k«amaæ dak«iïato budhena  % padaæ bhaved ekam api prayÃtum  // 7.41 //
+tapovane 'sminn atha ni«kriyo vÃ  $ saækÅrïa(dharmÃpatito CdharmÃ patito )aÓucir vÃ  &
+d­«Âas tvayÃ yena na te vivatsÃ  % tad brÆhi yÃvad rucito 'stu vÃsa÷  // 7.42 //
+ime hi vÃ¤chanti tapa÷sahÃyaæ  $ taponidhÃnapratimaæ bhavantam  &
+vÃsas tvayÃ hÅndrasamena sÃrdhaæ  % b­haspater abhyudayÃvaha÷ syÃt  // 7.43 //
+ity evam ukte sa tapasvimadhye  $ tapasvimukhyena manÅ«imukhya÷  &
+bhavapraïÃÓÃya k­tapratij¤a÷  % svaæ bhÃvam antargatam Ãcacak«e  // 7.44 //
+­jvÃtmanÃæ dharmabh­tÃæ munÅnÃm  $ i«ÂÃtithitvÃt svajanopamÃnÃm  &
+evaævidhair mÃæ prati bhÃvajÃtai÷  % prÅti÷ (parÃ me CparÃtmÃ )janitaÓ ca (mÃna÷ CmÃrga÷ )  // 7.45 //
+snigdhÃbhir Ãbhir h­dayaægamÃbhi÷  $ samÃsata÷ snÃta ivÃsmi vÃgbhi÷  &
+ratiÓ ca me dharmanavagrahasya  % vispanditÃ saæprati bhÆya eva  // 7.46 //
+evaæ prav­ttÃn bhavata÷ ÓaraïyÃn  $ atÅva saædarÓitapak«apÃtÃn  &
+yÃsyÃmi hitveti mamÃpi du÷khaæ  % yathaiva bandhÆæs tyajatas tathaiva  // 7.47 //
+svargÃya yu«mÃkam ayaæ tu dharmo  $ mamÃbhilÃ«as tv apunarbhavÃya  &
+asmin vane yena na me vivatsÃ  % bhinna÷ prav­ttyÃ hi niv­ttidharma÷  // 7.48 //
+tan nÃratir me na parÃpacÃro  $ vanÃd ito yena parivrajÃmi  &
+dharme sthitÃ÷ pÆrvayugÃnurÆpe  % sarve bhavanto hi mahar«ikalpÃ÷  // 7.49 //
+tato vaca÷ sÆn­tam arthavac ca  $ suÓlak«ïam ojasvi ca garvitaæ ca  &
+ÓrutvÃ kumÃrasya tapasvinas te  % viÓe«ayuktaæ bahumÃnam Åyu÷  // 7.50 //
+kaÓcid dvijas tatra tu bhasmaÓÃyÅ  $ prÃæÓu÷ ÓikhÅ dÃravacÅravÃsÃ÷  &
+ÃpiÇgalÃk«as tanudÅrghaghoïa÷  % (kuï¬aikaCkuï¬oda)hasto giram ity uvÃca  // 7.51 //
+dhÅmann udÃra÷ khalu niÓcayas te  $ yas tvaæ yuvÃ janmani d­«Âado«a÷  &
+svargÃpavargau hi vicÃrya samyag  % yasyÃpavarge matir asti so 'sti  // 7.52 //
+yaj¤ais tapobhir niyamaiÓ ca tais tai÷  $ svargaæ yiyÃsanti hi rÃgavanta÷  &
+rÃgeïa sÃrdhaæ ripuïeva yuddhvÃ  % mok«aæ parÅpsanti tu sattvavanta÷  // 7.53 //
+tadbuddhir e«Ã yadi niÓcitÃ te  $ tÆrïaæ bhavÃn gacchatu vindhyÃko«Âham  &
+asau munis tatra vasaty arÃ¬o  % yo nai«Âhike Óreyasi labdhacak«u÷  // 7.54 //
+tasmÃd bhavÃ¤ chro«yati tattvamÃrgaæ  $ satyÃæ rucau saæpratipatsyate ca  &
+yathÃ tu paÓyÃmi matis (tathai«Ã Ctavai«Ã   % tasyÃpi yÃsyaty avadhÆya buddhim  // 7.55 //
+(spa«ÂoccaCpu«ÂÃÓva)ghoïaæ vipulÃyatÃk«aæ  $ tÃmrÃdharau«Âhaæ sitatÅk«ïadaæ«Âram  &
+idaæ hi vaktraæ tanuraktajihvaæ  % j¤eyÃrïavaæ pÃsyati k­tsnam eva  // 7.56 //
+gambhÅratÃ yÃ bhavatas tv agÃdhÃ  $ yÃ dÅptatÃ yÃni ca lak«aïÃni  &
+ÃcÃryakaæ prÃpsyasi tat prÂhivyÃæ  % yan nar«ibhi÷ pÆrvayuge 'py avÃptam  // 7.57 //
+paramam iti tato n­pÃtmajas  $ tam ­«ijanaæ pratinandya niryayau  &
+vidhivad anuvidhÃya te 'pi taæ  % praviviÓur ÃÓramiïas tapovanam  // 7.58 //
+[[iti (CÓrÅC)buddhacarite mahÃkÃvye tapovanapraveÓo nÃma saptama÷ sarga÷ -- 7 --]]
+
+tatas turaægÃvacara÷ sa durmanÃs  $ tathÃ vanaæ bhartari nirmame gate  &
+cakÃra yatnaæ pathi Óoka(nigrahe Cvigrahe   % tathÃpi caivÃÓru na tasya (cik«iye Ccik«ipe )  // 8.1 //
+yam ekarÃtreïa tu bhartur Ãj¤ayÃ  $ jagÃma mÃrgaæ saha tena vÃjinÃ  &
+iyÃya bhartur virahaæ vicintayaæs  % tam eva panthÃnam ahobhir a«Âabhi÷  // 8.2 //
+hayaÓ ca (saujÃ vicacÃra Csaujasvi cacÃra )kanthakas  $ tatÃma bhÃvena babhÆva nirmada÷  &
+alaæk­taÓ cÃpi tathaiva bhÆ«aïair  % abhÆd gataÓrÅr iva tena varjita÷  // 8.3 //
+niv­tya caivÃbhimukhas tapovanaæ  $ bh­Óaæ jihe«e karuïaæ muhur muhu÷  &
+k«udhÃnvito 'py adhvani Óa«pam ambu vÃ  % yathÃ purÃ nÃbhinananda nÃdade  // 8.4 //
+tato vihÅnaæ kapilÃhvayaæ puraæ  $ mahÃtmanÃ tena jagaddhitÃtmanÃ  &
+krameïa tau ÓÆnyam ivopajagmatur  % divÃkareïeva vinÃk­taæ nabha÷  // 8.5 //
+sapuï¬arÅkair api Óobhitaæ  $ jalair alaæk­taæ pu«padharair nagair api  &
+tad eva tasyopavanaæ vanopamaæ  % gataprahar«air na rarÃja nÃgarai÷  // 8.6 //
+tato bhramadbhir diÓi dÅnamÃnasair  $ anujjvalair (bÃ«paCvÃ«pa)hatek«aïair narai÷  &
+nivÃryamÃïÃv iva tÃv ubhau puraæ  % (Óanair apasnÃtam CÓanai raja÷snÃtam )ivÃbhijagmatu÷  // 8.7 //
+(niÓÃmya CniÓamya )ca srastaÓarÅragÃminau  $ vinÃgatau ÓÃkyakular«abheïa tau  &
+mumoca (bÃ«paæ CvÃ«paæ )pathi nÃgaro jana÷  % purÃ rathe dÃÓarather ivÃgate  // 8.8 //
+atha bruvanta÷ samupetamanyavo  $ janÃ÷ pathi cchandakam ÃgatÃÓrava÷  &
+kva rÃjaputra÷ (puraCkula)rÃ«Âra(nandano Cvardhano )  % h­tas tvayÃsÃv iti p­«Âhato 'nvayu÷  // 8.9 //
+tata÷ sa tÃn bhaktimato 'bravÅj janÃn  $ narendraputraæ na parityajÃmy aham  &
+rudann ahaæ tena tu nirjane vane  % g­hasthaveÓaÓ ca visarjitÃv iti  // 8.10 //
+idaæ vacas tasya niÓamya te janÃ÷  $ sudu«karaæ khalv iti niÓcayaæ yayu÷  &
+patad (dhi jahru÷ Cvijahru÷ )salilaæ na netrajaæ  % mano nininduÓ ca (phalottham CphalÃrtham )Ãtmana÷  // 8.11 //
+athocur adyaiva viÓÃma tad vanaæ  $ gata÷ sa yatra dviparÃjavikrama÷  &
+jijÅvi«Ã nÃsti hi tena no vinÃ  % yathendriyÃïÃæ vigame ÓarÅriïÃm  // 8.12 //
+idaæ puraæ tena vivarjitaæ vanaæ  $ vanaæ ca tat tena samanvitaæ puram  &
+na Óobhate tena hi no vinÃ puraæ  % marutvatÃ v­travadhe yathÃ divam  // 8.13 //
+puna÷ kumÃro viniv­tta ity atho  $ gavÃk«amÃlÃ÷ pratipedire 'ÇganÃ÷  &
+viviktap­«Âhaæ ca (niÓÃmya CniÓamya )vÃjinaæ  % punar gavÃk«Ãïi pidhÃya cukruÓu÷  // 8.14 //
+pravi«ÂadÅk«as tu sutopalabdhaye  $ vratena Óokena ca khinnamÃnasa÷  &
+jajÃpa devÃyatane narÃdhipaÓ  % cakÃra tÃs tÃÓ ca (yathÃÓayÃ÷ CyathÃÓrayÃ÷ )kriyÃ÷  // 8.15 //
+tata÷ sa (bÃ«paCvÃ«pa)pratipÆrïalocanas  $ turaægam ÃdÃya turaæ(gamÃnuga÷ CgamÃnasa÷ ) //
+viveÓa ÓokÃbhihato n­(pak«ayaæ CpÃlayaæ   % (yudhÃpinÅte Ck«ayaæ vinÅte )ripuïeva bhartari  // 8.16 //
+vigÃhamÃnaÓ ca narendramandiraæ  $ vilokayann aÓruvahena cak«u«Ã  &
+svareïa pu«Âena rurÃva kanthako  % janÃya du÷khaæ prativedayann iva  // 8.17 //
+tata÷ khagÃÓ ca k«ayamadhyagocarÃ÷  $ samÅpabaddhÃs turagÃÓ ca satk­tÃ÷  &
+hayasya tasya pratisasvanu÷ svanaæ  % narendrasÆnor upayÃna(ÓaÇkina÷ CÓaÇkitÃ÷ )  // 8.18 //
+janÃÓ ca har«ÃtiÓayena va¤citÃ  $ janÃdhipÃnta÷purasaænikar«agÃ÷  &
+yathÃ haya÷ kanthaka e«a he«ate  % dhruvaæ kumÃro viÓatÅti menire  // 8.19 //
+atiprahar«Ãd atha ÓokamÆrchitÃ÷  $ kumÃrasaædarÓanalolalocanÃ÷  &
+g­hÃd viniÓcakramur ÃÓayÃ striya÷  % ÓaratpayodÃd iva vidyutaÓ calÃ÷  // 8.20 //
+vilamba(keÓyo CveÓyo )malinÃæÓukÃmbarÃ  $ nira¤janair (bÃ«paCvÃ«pa)hatek«aïair mukhai÷  &
+(striyo na rejur m­jayÃ Ck­«ïÃ vivarïÃa¤janayÃ )vinÃk­tÃ  % divÅva tÃrÃ rajanÅk«ayÃruïÃ÷  // 8.21 //
+araktatÃmraiÓ caraïair anÆpurair  $ akuï¬alair Ãrjava(kandharair Ckarïikair )mukhai÷  &
+svabhÃvapÅnair jaghanair amekhalair  % ahÃrayoktrair mu«itair iva stanai÷  // 8.22 //
+(nirÅk«ya tÃ bÃ«paCnirÅk«itÃ vÃ«pa)parÅta(locanÃ Clocanaæ   $ nirÃÓrayaæ chandakam aÓvam eva ca  &
+(vi«aïïaCvivarïa)vaktrÃ rurudur varÃÇganÃ  % vanÃntare gÃva ivar«abhojjhitÃ÷  // 8.23 //
+tata÷ sa(bÃ«pÃ CvÃ«pÃ )mahi«Å mahÅpate÷  $ prana«ÂavatsÃ mahi«Åva vatsalÃ  &
+prag­hya bÃhÆ nipapÃta gautamÅ  % vilolaparïÃ kadalÅva kÃ¤canÅ  // 8.24 //
+hatatvi«o 'nyÃ (ÓithilÃæsaCÓithilÃtma)bÃhava÷  $ striyo vi«Ãdena vicetanÃ iva  &
+na cukruÓur nÃÓru jahur na ÓaÓvasur  % na (celur Ãsur likhitÃ CcetanÃ ullikhitÃ )iva sthitÃ÷  // 8.25 //
+adhÅram anyÃ÷ patiÓokamÆrchitÃ  $ vilocanaprasravaïair mukhai÷ striya÷  &
+si«i¤cire pro«itacandanÃn stanÃn  % dharÃdhara÷ prasravaïair ivopalÃn  // 8.26 //
+mukhaiÓ ca tÃsÃæ nayanÃmbu(tÃ¬itai CtÃ¬itai÷   $ rarÃja tad rÃjaniveÓanaæ tadÃ  &
+navÃmbukÃle 'mbudav­«ÂitÃ¬itai÷  % sravajjalais tÃmarasair yathÃ sara÷  // 8.27 //
+suv­ttapÅnÃÇgulibhir nirantarair  $ abhÆ«aïair gÆ¬hasirair varÃÇganÃ÷  &
+urÃæsi jaghnu÷ kamalopamai÷ karai÷  % svapallavair vÃtacalÃ latÃ iva  // 8.28 //
+karaprahÃrapracalaiÓ ca tÃ (babhus Cbabhur   $ (tathÃpi CyathÃpi )nÃrya÷ sahitonnatai÷ stanai÷  &
+vanÃnilÃghÆrïitapadmakampitai  % rathÃÇganÃmnÃæ mithunair ivÃpagÃ÷  // 8.29 //
+yathÃ ca vak«Ãæsi karair apÅ¬ayaæs  $ tathaiva vak«obhir apÅ¬ayan karÃn  &
+akÃrayaæs tatra parasparaæ vyathÃ÷  % karÃgravak«Ãæsy abalÃ dayÃlasÃ÷  // 8.30 //
+tatas tu ro«apraviraktalocanÃ  $ vi«Ãda(saæbandhiCsaæbandha)ka«Ãyagadgadam  &
+uvÃca (niÓvÃsaCni÷ÓvÃsa)calatpayodharÃ  % vigÃ¬haÓokÃÓrudharÃ yaÓodharÃ  // 8.31 //
+niÓi prasuptÃm avaÓÃæ vihÃya mÃæ  $ gata÷ kva sa cchandaka manmanoratha÷  &
+upÃgate ca tvayi kanthake ca me  % samaæ gate«u tri«u kampate mana÷  // 8.32 //
+anÃryam asnidgham amitrakarma me  $ n­Óaæsa k­tvÃ kim ihÃdya rodi«i  &
+niyaccha (bÃ«paæ CvÃ«paæ )bhava tu«ÂamÃnaso  % na saævadaty aÓru ca tac ca karma te  // 8.33 //
+priyeïa vaÓyena hitena sÃdhunÃ  $ tvayÃ sahÃyena yathÃrthakÃriïÃ  &
+gato 'ryaputro hy apunarniv­ttaye  % ramasva di«ÂyÃ saphala÷ Óramas tava  // 8.34 //
+varaæ manu«yasya vicak«aïo ripur  $ na mitram aprÃj¤am ayogapeÓalam  &
+suh­dbruveïa hy avipaÓcitÃ tvayÃ  % k­ta÷ kulasyÃsya mahÃn upaplava÷  // 8.35 //
+imÃ hi ÓocyÃ vyavamuktabhÆ«aïÃ÷  $ prasakta(bÃ«pÃvilaCvÃ«pÃvila)raktalocanÃ÷  &
+sthite 'pi patyau himavanmahÅsame  % prana«ÂaÓobhÃ vidhavÃ iva striya÷  // 8.36 //
+imÃÓ ca vik«iptaviÂaÇkabÃhava÷  $ prasaktapÃrÃvatadÅrghanisvanÃ÷  &
+vinÃk­tÃs tena (sahÃvarodhanair Csahaiva rodhanair   % bh­Óaæ rudantÅva vimÃnapaÇktaya÷  // 8.37 //
+anarthakÃmo 'sya janasya sarvathÃ  $ turaægamo 'pi dhruvam e«a kanthaka÷  &
+jahÃra sarvasvam itas tathÃ hi me  % jane prasupte niÓi ratnacauravat  // 8.38 //
+yadÃ samartha÷ khalu so¬hum ÃgatÃn  $ i«uprahÃrÃn api kiæ puna÷ kaÓÃ÷  &
+gata÷ kaÓÃpÃtabhayÃt kathaæ (nv Ctv )ayaæ  % Óriyaæ g­hÅtvÃ h­dayaæ ca me samam  // 8.39 //
+anÃryakarmÃ bh­Óam adya he«ate  $ narendradhi«ïyaæ pratipÆrayann iva  &
+yadÃ tu nirvÃhayati sma me priyaæ  % tadÃ hi mÆkas turagÃdhamo 'bhavat  // 8.40 //
+yadi hy ahe«i«yata (bodhayan Cbodhaya¤ )janaæ  $ khurai÷ k«itau vÃpy akari«yata dhvanim  &
+hanusvanaæ vÃjani«yad uttamaæ  % na cÃbhavi«yan mama du÷kham Åd­Óam  // 8.41 //
+itÅha devyÃ÷ paridevitÃÓrayaæ  $ niÓamya (bÃ«paCvÃ«pa)grathitÃk«araæ vaca÷  &
+adhomukha÷ sÃÓrukala÷ k­tÃ¤jali÷  % Óanair idaæ chandaka uttaraæ jagau  // 8.42 //
+vigarhituæ nÃrhasi devi kanthakaæ  $ na cÃpi ro«aæ mayi kartum arhasi  &
+anÃgasau sva÷ samavehi sarvaÓo  % gato n­deva÷ sa hi devi devavat  // 8.43 //
+ahaæ hi jÃnann api rÃjaÓÃsanaæ  $ balÃt k­ta÷ kair api daivatair iva  &
+upÃnayaæ tÆrïam imaæ turaægamaæ  % tathÃnvagacchaæ vigataÓramo 'dhvani  // 8.44 //
+vrajann ayaæ vÃjivaro 'pi nÃsp­Óan  $ mahÅæ khurÃgrair vidh­tair ivÃntarÃ  &
+tathaiva daivÃd iva saæyatÃnano  % hanusvanaæ nÃk­ta nÃpy ahe«ata  // 8.45 //
+(yato bahir CyadÃ vahir )gacchati pÃrthivÃtma(je Cjas   $ tadÃbhavad dvÃram apÃv­taæ svayam  &
+tamaÓ ca naiÓaæ raviïeva pÃÂitaæ  % tato 'pi daivo vidhir e«a g­hyatÃm  // 8.46 //
+(yad aCyadÃ)pramatto 'pi narendraÓÃsanÃd  $ g­he pure caiva sahasraÓo jana÷  &
+tadÃ sa nÃbudhyata nidrayÃ h­tas  % tato 'pi daivo vidhir e«a g­hyatÃm  // 8.47 //
+yataÓ ca vÃso vanavÃsasaæmataæ  $ (nis­«Âam Cvis­«Âam )asmai samaye divaukasÃ  &
+divi praviddhaæ mukuÂaæ ca tad dh­taæ  % tato 'pi daivo vidhir e«a g­hyatÃm  // 8.48 //
+tad evam ÃvÃæ naradevi do«ato  $ na tat prayÃtaæ (prati gantum Cpratigantum )arhasi  &
+na kÃmakÃro mama nÃsya vÃjina÷  % k­tÃnuyÃtra÷ sa hi daivatair gata÷  // 8.49 //
+iti prayÃïaæ (bahudevam Cbahudhaivam )adbhutaæ  $ niÓamya tÃs tasya mahÃtmana÷ striya÷  &
+prana«ÂaÓokÃ iva vismayaæ yayur  % manojvaraæ pravrajanÃt tu lebhire  // 8.50 //
+vi«ÃdapÃriplavalocanÃ tata÷  $ prana«ÂapotÃ kurarÅva du÷khitÃ  &
+vihÃya dhairyaæ virurÃva gautamÅ  % tatÃma caivÃÓrumukhÅ jagÃda ca  // 8.51 //
+mahormimanto m­davo 'sitÃ÷ ÓubhÃ÷  $ p­thak(p­thaÇCp­thag)mÆlaruhÃ÷ samudgatÃ÷  &
+(praveritÃs CpraceritÃs )te bhuvi tasya mÆrdhajÃ  % narendramaulÅparive«Âanak«amÃ÷  // 8.52 //
+pralambabÃhur m­garÃjavikramo  $ mahar«abhÃk«a÷ kanakojjvaladyuti÷  &
+viÓÃlavak«Ã ghanadundubhisvanas  % tathÃvidho 'py ÃÓramavÃsam arhati  // 8.53 //
+abhÃginÅ nÆnam iyaæ vasuædharÃ  $ tam ÃryakarmÃïam anuttamaæ (patim Cprati ) //
+gatas tato 'sau guïavÃn hi tÃd­Óo  % n­pa÷ prajÃbhÃgyaguïai÷ prasÆyate  // 8.54 //
+sujÃtajÃlÃvatatÃÇgulÅ m­dÆ  $ nigÆ¬hagulphau (bisaCvi«a)pu«pakomalau  &
+vanÃntabhÆmiæ kaÂhinÃæ kathaæ nu tau  % sacakramadhyau caraïau gami«yata÷  // 8.55 //
+vimÃnap­«Âhe ÓayanÃsanocitaæ  $ mahÃrhavastrÃgurucandanÃrcitam  &
+kathaæ nu ÓÅto«ïajalÃgame«u tac  % charÅram ojasvi vane bhavi«yati  // 8.56 //
+kulena sattvena balena varcasÃ  $ Órutena lak«myÃ vayasÃ ca garvita÷  &
+pradÃtum (evÃbhyucito CevÃbhyudito )na yÃcituæ  % kathaæ sa bhik«Ãæ parataÓ cari«yati  // 8.57 //
+Óucau ÓayitvÃ Óayane hiraïmaye  $ prabodhyamÃno niÓi tÆryanisvanai÷  &
+kathaæ (bata Cvata )svapsyati so 'dya me vratÅ  % paÂaikadeÓÃntarite mahÅtale  // 8.58 //
+imaæ (pralÃpaæ CvilÃpaæ )karuïaæ niÓamya tÃ  $ bhujai÷ pari«vajya parasparaæ striya÷  &
+vilocanebhya÷ salilÃni tatyajur  % madhÆni pu«pebhya iveritÃ latÃ÷  // 8.59 //
+tato dharÃyÃm apatad yaÓodharÃ  $ vicakravÃkeva rathÃÇgasÃhvayÃ  &
+ÓanaiÓ ca tat tad vilalÃpa viklavÃ  % muhur muhur gadgadaruddhayÃ girÃ  // 8.60 //
+sa mÃm anÃthÃæ sahadharmacÃriïÅm  $ apÃsya dharmaæ yadi kartum icchati  &
+kuto 'sya dharma÷ sahadharmacÃriïÅæ  % vinÃ tapo ya÷ paribhoktum icchati  // 8.61 //
+Ó­ïoti nÆnaæ sa na pÆrvapÃrthivÃn  $ mahÃsudarÓaprabh­tÅn pitÃmahÃn  &
+vanÃni patnÅsahitÃn upeyu«as  % tathÃ (hi Csa )dharmaæ mad­te cikÅr«ati  // 8.62 //
+makhe«u vÃ vedavidhÃnasatk­tau  $ na daæpatÅ paÓyati dÅk«itÃv ubhau  &
+samaæ bubhuk«Æ parato 'pi tatphalaæ  % tato 'sya jÃto mayi dharmamatsara÷  // 8.63 //
+dhruvaæ sa jÃnan mama dharmavallabho  $ mana÷ (priyer«yÃkalahaæ Cpriye 'py Ãkalahaæ )muhur mitha÷  &
+sukhaæ vibhÅr mÃm apahÃya rosaïÃæ  % mahendraloke 'psaraso jigh­k«ati  // 8.64 //
+iyaæ tu cintÃ mama kÅd­Óaæ nu tÃ  $ vapurguïaæ bibhrati tatra yo«ita÷  &
+vane yadarthaæ sa tapÃæsi tapyate  % Óriyaæ ca hitvÃ mama bhaktim eva ca  // 8.65 //
+na khalv iyaæ svargasukhÃya me sp­hÃ  $ na taj janasyÃtmavato 'pi durlabham  &
+sa tu priyo mÃm iha vÃ paratra vÃ  % kathaæ na jahyÃd iti me manoratha÷  // 8.66 //
+abhÃginÅ yady aham Ãyatek«aïaæ  $ Óucismitaæ bhartur udÅk«ituæ mukham  &
+na mandabhÃgyo 'rhati rÃhulo 'py ayaæ  % kadÃcid aÇke parivartituæ pitu÷  // 8.67 //
+aho n­Óaæsaæ sukumÃravarcasa÷  $ sudÃruïaæ tasya manasvino mana÷  &
+kalapralÃpaæ dvi«ato 'pi har«aïaæ  % ÓiÓuæ sutaæ yas tyajatÅd­Óaæ (bata Csvata÷ )  // 8.68 //
+mamÃpi kÃmaæ h­dayaæ sudÃruïaæ  $ ÓilÃmayaæ vÃpy (ayaso 'pi CayasÃpi )vÃ k­tam  &
+anÃthavac chrÅrahite sukhocite  % vanaæ gate bhartari yan na dÅryate  // 8.69 //
+itÅha devÅ patiÓokamÆrchitÃ  $ ruroda dadhyau vilalÃpa cÃsak­t  &
+svabhÃvadhÅrÃpi hi sÃ satÅ ÓucÃ  % dh­tiæ na sasmÃra cakÃra no hriyam  // 8.70 //
+tatas tathÃ ÓokavilÃpaviklavÃæ  $ yaÓodharÃæ prek«ya vasuædharÃgatÃm  &
+mahÃravindair iva v­«ÂitÃ¬itair  % mukhai÷ sa(bÃ«pair CvÃ«pair )vanitÃ vicukruÓu÷  // 8.71 //
+samÃptajÃpya÷ k­tahomamaÇgalo  $ n­pas tu devÃyatanÃd viniryayau  &
+janasya tenÃrtaraveïa cÃhataÓ  % cacÃla vajradhvanineva vÃraïa÷  // 8.72 //
+niÓÃmya ca cchandakakanthakÃv ubhau  $ sutasya saæÓrutya ca niÓcayaæ sthiram  &
+papÃta ÓokÃbhihato mahÅpati÷  % ÓacÅpater v­tta ivotsave dhvaja÷  // 8.73 //
+tato muhÆrtaæ sutaÓokamohito  $ janena tulyÃbhijanena dhÃrita÷  &
+nirÅk«ya d­«ÂyÃ jalapÆrïayÃ hayaæ  % mahÅtalastho vilalÃpa pÃrthiva÷  // 8.74 //
+bahÆni k­tvÃ samare priyÃïi me  $ mahat tvayÃ kanthaka vipriyaæ k­tam  &
+guïapriyo yena vane sa me priya÷  % priyo 'pi sann apriyavat (praverita÷ Cpracerita÷ )  // 8.75 //
+tad adya mÃæ vÃ naya tatra yatra sa  $ vraja drutaæ vÃ punar enam Ãnaya  &
+­te hi tasmÃn mama nÃsti jÅvitaæ  % vigÃ¬harogasya sadau«adhÃd iva  // 8.76 //
+suvarïani«ÂhÅvini m­tyunÃ h­te  $ sudu«karaæ yan na mamÃra (saæjaya÷ Cs­¤jaya÷ ) //
+ahaæ punar dharmaratau sute gate  % (mumuk«ur Camumuk«ur )ÃtmÃnam anÃtmavÃn iva  // 8.77 //
+vibhor daÓak«atrak­ta÷ prajÃpate÷  $ parÃparaj¤asya vivasvadÃtmana÷  &
+priyeïa putreïa satÃ vinÃk­taæ  % kathaæ na muhyed dhi mano manor api  // 8.78 //
+ajasya rÃj¤as tanayÃya dhÅmate  $ narÃdhipÃyendrasakhÃya me sp­hÃ  &
+gate vanaæ yas tanaye divaæ gato  % na mogha(bÃ«pa÷ CvÃ«pa÷ )k­païaæ jijÅva ha  // 8.79 //
+pracak«va me bhadra tadÃÓramÃjiraæ  $ h­tas tvayÃ yatra sa me jalÃ¤jali÷  &
+ime parÅpsanti hi (taæ Cte )pipÃsavo  % mamÃsava÷ pretagatiæ yiyÃsava÷  // 8.80 //
+iti tanayaviyogajÃta(du÷kha÷ Cdu÷khaæ   $ k«itisad­Óaæ sahajaæ vihÃya dhairyam  &
+daÓaratha iva rÃmaÓokavaÓyo  % bahu vilalÃpa n­po visaæj¤akalpa÷  // 8.81 //
+ÓrutavinayaguïÃnvitas tatas taæ  $ matisaciva÷ pravayÃ÷ purohitaÓ ca  &
+(samadh­tam Cavadh­tam )idam Æcatur yathÃvan  % na ca paritaptamukhau na cÃpy aÓokau  // 8.82 //
+tyaja naravara Óokam ehi dhairyaæ  $ kudh­tir ivÃrhasi dhÅra nÃÓru moktum  &
+srajam iva m­ditÃm apÃsya lak«mÅæ  % bhuvi bahavo (ChiC) n­pÃ vanÃny atÅyu÷  // 8.83 //
+api ca niyata e«a tasya bhÃva÷  $ smara vacanaæ tad ­«e÷ purÃsitasya  &
+na hi sa divi na cakravartirÃjye  % k«aïam api vÃsayituæ sukhena Óakya÷  // 8.84 //
+yadi tu n­vara kÃrya eva yatnas  $ tvaritam udÃhara yÃvad atra yÃva÷  &
+bahuvidham iha yuddham astu tÃvat  % tava tanayasya vidheÓ ca tasya tasya  // 8.85 //
+narapatir atha tau ÓaÓÃsa tasmÃd  $ drutam ita eva yuvÃm abhiprayÃtam  &
+na hi mama h­dayaæ prayÃti ÓÃntiæ  % vanaÓakuner iva putralÃlasasya  // 8.86 //
+paramam iti narendraÓÃsanÃt tau  $ yayatur amÃtyapurohitau vanaæ tat  &
+k­tam iti savadhÆjana÷ sadÃro  % n­patir api pracakÃra Óe«akÃryam  // 8.87 //
+[[iti (CÓrÅC)buddhacarite mahÃkÃvye 'nta÷puravilÃpo nÃmÃ«Âama÷ sarga÷ -- 8 --]]
+
+tatas tadÃ mantripurohitau tau  $ (bÃ«papratodÃbhihitau CvÃ«papratodÃbhihatau )n­peïa  &
+viddhau sadaÓvÃv iva sarvayatnÃt  % sauhÃrdaÓÅghraæ yayatur vanaæ tat  // 9.1 //
+tam ÃÓramam jÃtapariÓramau tÃv  $ upetya kÃle sad­ÓÃnuyÃtrau  &
+rÃjarddhim uts­jya vinÅtace«ÂÃv  % upeyatur bhÃrgavadhi«ïyam eva  // 9.2 //
+tau nyÃyatas taæ pratipÆjya vipraæ  $ tenÃrcitau tÃv api cÃnurÆpam  &
+k­tÃsanau bhÃrgavam Ãsanasthaæ  % chittvÃ kathÃm Æcatur Ãtmak­tyam  // 9.3 //
+Óuddhaujasa÷ ÓuddhaviÓÃlakÅrter  $ ik«vÃkuvaæÓaprabhavasya rÃj¤a÷  &
+imaæ janaæ vettu bhavÃn (adhÅtaæ CadhÅraæ   % Órutagrahe mantraparigrahe ca  // 9.4 //
+tasyendrakalpasya jayantakalpa÷  $ putro jarÃm­tyubhayaæ titÅr«u÷  &
+ihÃbhyupeta÷ kila tasya hetor  % ÃvÃm upetau bhagavÃn avaitu  // 9.5 //
+tau so 'bravÅd asti sa dÅrghabÃhu÷  $ prÃpta÷ kumÃro na tu nÃvabuddha÷  &
+dharmo 'yam Ãvartaka ity avetya  % yÃtas tv arÃ¬Ãbhimukho mumuk«u÷  // 9.6 //
+tasmÃt tatas tÃv upalabhya tattvaæ  $ taæ vipram (Ãmantrya CÃmanttya )tadaiva sadya÷  &
+khinnÃv akhinnÃv iva rÃja(bhaktyÃ Cputra÷   % prasasratus tena yata÷ sa yÃta÷  // 9.7 //
+yÃntau tatas tau (m­jayÃ Cs­jayÃ )vihÅnam  $ apaÓyatÃæ taæ (vapu«ojjvalantam Cvapu«Ã jvalantam ) //
+(upopavi«Âaæ Cn­popavi«Âaæ )pathi v­k«amÆle  % sÆryaæ ghanÃbhogam iva pravi«Âam  // 9.8 //
+yÃnaæ vihÃyopayayau tatas taæ  $ purohito mantradhareïa sÃrdham  &
+yathÃ vanasthaæ sahavÃmadevo  % rÃmaæ did­k«ur munir aurvaÓeya÷  // 9.9 //
+tÃv arcayÃm Ãsatur arhatas taæ  $ divÅva ÓukrÃÇgirasau mahendram  &
+pratyarcayÃm Ãsa sa cÃrhatas tau  % divÅva ÓukrÃÇgirasau mahendra÷  // 9.10 //
+k­tÃbhyanuj¤Ãv abhitas tatas tau  $ (ni«edatu÷ Cni«Ådatu÷ )ÓÃkyakuladhvajasya  &
+virejatus tasya ca saænikar«e  % punarvasÆ yogagatÃv ivendo÷  // 9.11 //
+taæ v­k«amÆlastham abhijvalantaæ  $ purohito rÃjasutaæ babhÃ«e  &
+yathopavi«Âaæ divi pÃrijÃte  % b­haspati÷ Óakrasutaæ jayantam  // 9.12 //
+tvacchokaÓalye h­dayÃvagÃ¬he  $ mohaæ gato bhÆmitale muhÆrtam  &
+kumÃra rÃjÃ nayanÃmbuvar«o  % yat tvÃm avocat tad idaæ nibodha  // 9.13 //
+jÃnÃmi dharmaæ prati niÓcayaæ te  $ paraimi te (bhÃvinam CacyÃvinam )etam artham  &
+ahaæ tv akÃle vanasaæÓrayÃt te  % ÓokÃgninÃgnipratimena dahye  // 9.14 //
+tad ehi dharmapriya matpriyÃrthaæ  $ dharmÃrtham eva tyaja buddhim etÃm  &
+ayaæ hi mÃ Óokaraya÷ prav­ddho  % nadÅraya÷ kÆlam ivÃbhihanti  // 9.15 //
+meghÃmbukak«Ãdri«u yÃ hi v­tti÷  $ samÅraïÃrkÃgnimahÃÓanÅnÃm  &
+tÃæ v­ttim asmÃsu karoti Óoko  % vikar«aïoccho«aïadÃhabhedai÷  // 9.16 //
+tad bhuÇk«va tÃvad vasudhÃdhipatyaæ  $ kÃle vanaæ yÃsyasi ÓÃstrad­«Âe  &
+ani«Âabandhau kuru (mayy apek«Ãæ CmÃpy upek«Ãæ   % sarve«u bhÆte«u dayÃ hi dharma÷  // 9.17 //
+na cai«a dharmo vanae eva siddha÷  $ pure 'pi siddhir niyatÃ yatÅnÃm  &
+buddhiÓ ca yatnaÓ ca nimittam atra  % vanaæ ca liÇgaæ ca hi bhÅrucihnam  // 9.18 //
+maulÅdharair aæsavi«aktahÃrai÷  $ keyÆravi«Âabdha(bhujair Csrajair )narendrai÷  &
+lak«my-aÇkamadhye parivartamÃnai÷  % prÃpto g­hasthair api mok«adharma÷  // 9.19 //
+dhruvÃnujau yau balivajrabÃhÆ  $ vaibhrÃjam Ã«Ã¬ham athÃntidevam  &
+videharÃjaæ janakaæ tathaiva  % (<xx> drumaæ CpÃkadrumaæ )senajitaÓ ca rÃj¤a÷  // 9.20 //
+etÃn g­hasthÃn n­patÅn avehi  $ nai÷Óreyase dharmavidhau vinÅtÃn  &
+(ubhau Cubhe )api tasmÃd yugapad bhajasva  % (vittÃdhipatyaæ CcittÃdhipatyaæ )ca n­paÓriyaæ ca  // 9.21 //
+icchÃmi hi tvÃm upaguhya gÃ¬haæ  $ k­tÃbhi«ekaæ salilÃrdram eva  &
+(dh­tÃtapattraæ Cdh­tÃtapatraæ. )samudÅk«amÃïas  % tenaiva har«eïa vanaæ prave«Âum  // 9.22 //
+ity abravÅd bhÆmipatir bhavantaæ  $ vÃkyena (bÃ«paCvÃ«pa)grathitÃk«areïa  &
+ÓrutvÃ bhavÃn arhati tatpriyÃrthaæ  % snehena tatsneham anuprayÃtum  // 9.23 //
+ÓokÃmbhasi tvatprabhave hy agÃdhe  $ du÷khÃrïave majjati ÓÃkyarÃja÷  &
+tasmÃt tam uttÃraya nÃthahÅnaæ  % nirÃÓrayaæ magnam ivÃrïave (nau÷ CgÃm )  // 9.24 //
+bhÅ«meïa gaÇgodarasaæbhavena  $ rÃmeïa rÃmeïa ca bhÃrgaveïa  &
+ÓrutvÃ k­taæ karma pitu÷ priyÃrthaæ  % pitus tvam apy arhasi kartum i«Âam  // 9.25 //
+saævardhayitrÅæ (samavehi Cca samehi )devÅm  $ agastyaju«ÂÃæ diÓam aprayÃtÃm  &
+prana«ÂavatsÃm iva vatsalÃæ gÃm  % ajasram ÃrtÃæ karuïaæ rudantÅm  // 9.26 //
+haæsena haæsÅm iva viprayuktÃæ  $ tyaktÃæ gajeneva vane kareïum  &
+(ÃrtÃæ CÃrttÃæ )sanÃthÃm api nÃthahÅnÃæ  % trÃtuæ vadhÆm arhasi darÓanena  // 9.27 //
+ekaæ sutaæ bÃlam anarhadu÷khaæ  $ (saætÃpam antargatam udvahantam CsaætÃpasaætapta <x x>) //
+taæ rÃhulaæ mok«aya bandhuÓokÃd  % rÃhÆpasargÃd iva pÆrïacandram  // 9.28 //
+ÓokÃgninÃ tvadvirahendhanena  $ ni÷ÓvÃsadhÆmena tama÷Óikhena  &
+tvad(darÓanÃmbv icchati dahyamÃnam CdarÓanÃyarchati dahyamÃna÷   % (anta÷Cso 'nta÷)puraæ caiva puraæ ca k­tsnam  // 9.29 //
+sa bodhisattva÷ paripÆrïasattva÷  $ ÓrutvÃ vacas tasya purohitasya  &
+dhyÃtvÃ muhÆrtaæ guïavad guïaj¤a÷  % pratyuttaraæ praÓritam ity uvÃca  // 9.30 //
+avaimi bhÃvaæ (tanaye pitÌïÃæ Ctanayaprasaktaæ   $ viÓe«ato yo mayi bhÆmipasya  &
+jÃnann api vyÃdhijarÃvipadbhyo  % bhÅtas tv agatyÃ svajanaæ tyajÃmi  // 9.31 //
+dra«Âuæ priyaæ ka÷ svajanaæ hi necchen  $ (nÃnte CnÃsau )yadi syÃt priyaviprayoga÷  &
+yadÃ tu bhÆtvÃpi (ciraæ Cbhaved )viyogas  % tato guruæ snigdham api tyajÃmi  // 9.32 //
+maddhetukaæ yat tu narÃdhipasya  $ Óokaæ bhavÃn (Ãha na tat Carhati na )priyaæ me  &
+yat svapnabhÆte«u samÃgame«u  % saætapyate bhÃvini (viprayoge Cviprayogai÷ )  // 9.33 //
+evaæ ca te niÓcayam etu buddhir  $ d­«ÂvÃ vicitraæ (jagata÷ pracÃram CvividhapracÃram ) //
+saætÃpahetur na suto na bandhur  % aj¤Ãnanaimittika e«a tÃpa÷  // 9.34 //
+(yathÃdhvaCyadÃdhva)gÃnÃm (iha Civa )saægatÃnÃæ  $ kÃle viyogo niyata÷ prajÃnÃm  &
+prÃj¤o jana÷ ko nu bhajeta Óokaæ  % bandhu(pratij¤Ãtajanair vihÅna÷ Cpriya÷ sann api bandhuhÅna÷ )  // 9.35 //
+ihaiti hitvÃ svajanaæ paratra  $ pralabhya cehÃpi puna÷ prayÃti  &
+gatvÃpi tatrÃpy aparatra gacchaty  % evaæ (jane tyÃgini Cjano yogini )ko 'nurodha÷  // 9.36 //
+yadÃ ca garbhÃt prabh­ti (prav­tta÷ CprajÃnÃæ   $ (sarvÃsv avasthÃsu vadhÃya C<xx> nubadhÃya )m­tyu÷  &
+kasmÃd akÃle vanasaæÓrayaæ me  % putrapriyas (tatrabhavÃn Ctatra bhavÃn )avocat  // 9.37 //
+bhavaty akÃlo vi«ayÃbhipattau  $ kÃlas (tathaivÃrthavidhau CtathaivÃbhividhau )pradi«Âa÷  &
+kÃlo jagat kar«ati sarvakÃlÃn  % (nirvÃhake CarcÃrhake )Óreyasi (nÃsti kÃla÷ CsarvakÃla÷ )  // 9.38 //
+rÃjyaæ mumuk«ur mayi yac ca rÃjÃ  $ tad apy udÃraæ sad­Óaæ pituÓ ca  &
+pratigrahÅtuæ mama na k«amaæ tu  % lobhÃd apathyÃnnam ivÃturasya  // 9.39 //
+kathaæ nu mohÃyatanaæ n­patvaæ  $ k«amaæ prapattuæ vidu«Ã nareïa  &
+sodvegatÃ yatra mada÷ ÓramaÓ ca  % (parÃpacÃreïa CparopacÃreïa )ca dharmapÅ¬Ã  // 9.40 //
+jÃmbÆnadaæ harmyam iva pradÅptaæ  $ vi«eïa saæyuktam ivottamÃnnam  &
+grÃhÃkulaæ (cÃmbv iva sÃravindaæ Cca sthitaæ <xx>   % ((CrÃjyaæ hi ramyaæ vyasanÃÓrayaæ ca C))  // 9.41 //
+((Citthaæ ca rÃjyaæ na sukhaæ na dharma÷ C)  $ ((CpÆrve yathÃ jÃtagh­ïÃ narendrÃ÷  &
+((Cvaya÷prakar«e 'parihÃryadu÷khe C)  % ((CrÃjyÃni muktvÃ vanam eva jagmu÷ C))  // 9.42 //
+((Cvaraæ hi bhuktÃni t­ïÃny araïye C)  $ ((Cto«aæ paraæ ratnam ivopaguhya C)) //
+((Csaho«itaæ ÓrÅsulabhair na caiva C)  % ((Cdo«air ad­Óyair iva k­«ïasarpai÷ C))  // 9.43 //
+((CÓlÃghyaæ hi rÃjyÃni vihÃya rÃj¤Ãæ C)  $ ((CdharmÃbhilÃ«eïa vanaæ prave«Âum C)) //
+((Cbhagnapratij¤asya na tÆpapannaæ C)  % ((Cvanaæ parityajya g­haæ prave«Âum C))  // 9.44 //
+((CjÃta÷ kule ko hi nara÷ sasattvo C)  $ ((CdharmÃbhilÃ«eïa vanaæ pravi«Âa÷ C)) //
+((CkÃ«Ãyam uts­jya vimuktalajja÷ C)  % ((CpuraædarasyÃpi puraæ Órayeta C))  // 9.45 //
+((ClobhÃd dhi mohÃd athavÃ bhayena C)  $ ((Cyo vÃntam annaæ punar ÃdadÅta C)) //
+((ClobhÃt sa mohÃd athavÃ bhayena C)  % ((Csaætyajya kÃmÃn punar ÃdadÅta C))  // 9.46 //
+((CyaÓ ca pradÅptÃc charaïÃt kathaæcin C)  $ ((Cni«kramya bhÆya÷ praviÓet tad eva C)) //
+((CgÃrhasthyam uts­jya sa d­«Âado«o C)  % ((Cmohena bhÆyo 'bhila«ed grahÅtum C))  // 9.47 //
+((CyÃ ca Órutir mok«am avÃptavanto C)  $ ((Cn­pÃ g­hasthÃ iti naitad asti C)) //
+((CÓamapradhÃna÷ kva ca mok«adharmo C)  % ((Cdaï¬apradhÃna÷ kva ca rÃjadharma÷ C))  // 9.48 //
+((CÓame ratiÓ cec chithilaæ ca rÃjyaæ C)  $ ((CrÃjye matiÓ cec chamaviplavaÓ ca C)) //
+((CÓamaÓ ca taik«ïyaæ ca hi nopapannaæ C)  % ((CÓÅto«ïayor aikyam ivodakÃgnyo÷ C))  // 9.49 //
+((Ctan niÓcayÃd vÃ vasudhÃdhipÃs te C)  $ ((CrÃjyÃni muktvÃ Óamam Ãptavanta÷ C)) //
+((CrÃjyÃÇgitÃ vÃ nibh­tendriyatvÃd C)  % ((Canai«Âhike mok«ak­tÃbhimÃnÃ÷ C))  // 9.50 //
+((Cte«Ãæ ca rÃjye 'stu Óamo yathÃvat C)  $ ((CprÃpto vanaæ nÃham aniÓcayena C)) //
+((CchittvÃ hi pÃÓaæ g­habandhusaæj¤aæ C)  % ((Cmukta÷ punar na pravivik«ur asmi C))  // 9.51 //
+ity Ãtmavij¤ÃnaguïÃnurÆpaæ  $ muktasp­haæ hetumad Ærjitaæ ca  &
+ÓrutvÃ narendrÃtmajam uktavantaæ  % pratyuttaraæ mantradharo 'py uvÃca  // 9.52 //
+yo niÓcayo (dharmavidhau Cmantravaras )tavÃyam  $ nÃyaæ na yukto na tu kÃlayukta÷  &
+ÓokÃya (dattvÃ ChitvÃ )pitaraæ vaya÷sthaæ  % syÃd dharmakÃmasya hi te na dharma÷  // 9.53 //
+nÆnaæ ca buddhis tava nÃtisÆk«mÃ  $ dharmÃrthakÃme«v avicak«aïÃ vÃ  &
+hetor ad­«Âasya phalasya yas tvaæ  % pratyak«am arthaæ paribhÆya yÃsi  // 9.54 //
+punarbhavo 'stÅti ca kecid Ãhur  $ nÃstÅti kecin niyatapratij¤Ã÷  &
+evaæ yadÃ saæÓayito 'yam arthas  % tasmÃt k«amaæ bhoktum upasthitÃ ÓrÅ÷  // 9.55 //
+bhÆya÷ prav­ttir yadi kÃcid asti  $ raæsyÃmahe tatra yathopapattau  &
+atha prav­tti÷ parato na kÃcit  % siddho 'prayatnÃj jagato 'sya mok«a÷  // 9.56 //
+astÅti kecit paralokam Ãhur  $ mok«asya yogaæ na tu varïayanti  &
+agner yathÃ hy (au«ïyam Cu«ïam )apÃæ dravatvaæ  % tadvat prav­ttau prak­tiæ vadanti  // 9.57 //
+kecit svabhÃvÃd iti varïayanti  $ ÓubhÃÓubhaæ caiva bhavÃbhavau ca  &
+svÃbhÃvikaæ sarvam idaæ ca yasmÃd  % ato 'pi mogho bhavati prayatna÷  // 9.58 //
+yad indriyÃïÃæ niyata÷ pracÃra÷  $ priyÃpriyatvaæ vi«aye«u caiva  &
+saæyujyate yaj (jarayÃrtibhiÓ CjarayÃrttibhiÓ )ca  % kas tatra yatno nanu sa svabhÃva÷  // 9.59 //
+adbhir hutÃÓa÷ Óamam abhyupaiti  $ tejÃæsi cÃpo gamayanti Óo«am  &
+bhinnÃni bhÆtÃni ÓarÅrasaæsthÃny  % aikyaæ ca (gatvÃ CdattvÃ )jagad udvahanti  // 9.60 //
+yat pÃïipÃdodarap­«Âha(mÆrdhnÃæ CmÆrdhnÃ   $ nirvartate garbhagatasya bhÃva÷  &
+yad Ãtmanas tasya ca tena yoga÷  % svÃbhÃvikaæ tat kathayanti tajj¤Ã÷  // 9.61 //
+ka÷ kaïÂakasya prakaroti taik«ïyaæ  $ vicitrabhÃvaæ m­gapak«iïÃæ vÃ  &
+svabhÃvata÷ sarvam idaæ prav­ttaæ  % na kÃmakÃro 'sti kuta÷ prayatna÷  // 9.62 //
+sargaæ vadantÅÓvaratas tathÃnye  $ tatra prayatne puru«a«ya ko 'rtha÷  &
+ya eva hetur jagata÷ prav­ttau  % hetur niv­ttau niyata÷ sa eva  // 9.63 //
+kecid vadanty Ãtmanimittam eva  $ prÃdurbhavaæ caiva bhavak«ayaæ ca  &
+prÃdurbhavaæ tu pravadanty ayatnÃd  % yatnena mok«Ãdhigamaæ bruvanti  // 9.64 //
+nara÷ pitÌïÃm an­ïa÷ prajÃbhir  $ vedair ­«ÅïÃæ kratubhi÷ surÃïÃm  &
+utpadyate sÃrdham ­ïais tribhis tair  % yasyÃsti mok«a÷ kila tasya mok«a÷  // 9.65 //
+ity evam etena vidhikrameïa mok«aæ  $ sayatnasya vadanti tajj¤Ã÷  &
+prayatnavanto 'pi hi vikrameïa  % mumuk«ava÷ khedam avÃpnuvanti  // 9.66 //
+tat saumya mok«e yadi bhaktir asti  $ nyÃyena sevasva vidhiæ yathoktam  &
+evaæ bhavi«yaty upapattir asya  % saætÃpanÃÓaÓ ca narÃdhipasya  // 9.67 //
+yÃ ca prav­ttÃ (tava do«aCbhavado«a)buddhis  $ tapovanebhyo bhavanaæ prave«Âum  &
+tatrÃpi cintÃ tava tÃta mÃ bhÆt  % pÆrve 'pi jagmu÷ sva(g­hÃn Cg­haæ )vanebhya÷  // 9.68 //
+tapovanastho 'pi v­ta÷ prajÃbhir  $ jagÃma rÃjÃ puram ambarÅ«a÷  &
+tathÃ mahÅæ viprak­tÃm anÃryais  % tapovanÃd etya rarak«a rÃma÷  // 9.69 //
+tathaiva ÓÃlvÃdhipatir (drumÃkhyo CdrumÃk«o   $ vanÃt sasÆnur (nagaraæ viveÓa Csvapuraæ praviÓya ) //
+brahmar«ibhÆtaÓ ca muner (vasi«ÂhÃd CvaÓi«ÂhÃd   % dadhre Óriyaæ sÃæk­tir antideva÷  // 9.70 //
+evaævidhÃ dharmayaÓa÷pradÅptÃ  $ vanÃni hitvÃ bhavanÃny (atÅyu÷ CabhÅyu÷ ) //
+tasmÃn na do«o 'sti g­haæ (prayÃtuæ Cprave«Âuæ   % tapovanÃd dharmanimittam eva  // 9.71 //
+tato vacas tasya niÓamya mantriïa÷  $ priyaæ hitaæ caiva n­pasya cak«u«a÷  &
+anÆnam avyastam asaktam adrutaæ  % dh­tau sthito rÃjasuto 'bravÅd vaca÷  // 9.72 //
+ihÃsti nÃstÅti ya e«a saæÓaya÷  $ parasya vÃkyair na mamÃtra niÓcaya÷  &
+avetya tattvaæ tapasÃ Óamena (ca CvÃ   % svayaæ grahÅ«yÃmi yad atra niÓcitam  // 9.73 //
+na me k«amaæ (saæÓayajaæ CsaÇgaÓataæ )hi darÓanaæ  $ grahÅtum avyakta(parasparÃhatam Cparaæ parÃhatam ) //
+(budha÷ Cbuddha÷ )parapratyayato hi ko vrajej  % jano 'ndhakÃre 'ndha ivÃndha(deÓika÷ CdeÓita÷ )  // 9.74 //
+ad­«Âatattvasya sato 'pi kiæ tu me  $ ÓubhÃÓubhe saæÓayite Óubhe mati÷  &
+v­thÃpi khedo (hi Capi )varaæ ÓubhÃtmana÷  % sukhaæ na tattve 'pi vigarhitÃtmana÷  // 9.75 //
+imaæ tu d­«ÂvÃgamam avyavasthitaæ  $ yad uktam Ãptais tad avehi sÃdhv iti  &
+prahÅïado«atvam avehi cÃptatÃæ  % prahÅïado«o hy an­taæ na vak«yati  // 9.76 //
+g­hapraveÓaæ prati yac ca me bhavÃn  $ uvÃca rÃmaprabh­tÅn nidarÓanam  &
+na te pramÃïaæ na hi dharmaniÓcaye«v  % alaæ pramÃïÃya parik«atavratÃ÷  // 9.77 //
+tad evam apy eva ravir mahÅæ pated  $ api sthiratvaæ himavÃn giris tyajet  &
+ad­«Âatattvo vi«ayonmukhendriya÷  % Órayeya na tv eva g­hÃn p­thagjana÷  // 9.78 //
+ahaæ viÓeyaæ jvalitaæ hutÃÓanaæ  $ na cÃk­tÃrtha÷ praviÓeyam Ãlayam  &
+iti pratij¤Ãæ sa cakÃra garvito  % yathe«Âam utthÃya ca nirmamo yayau  // 9.79 //
+tata÷ sa(bÃ«pau CvÃ«pau )sacivadvijÃv ubhau  $ niÓamya tasya sthiram eva niÓcayam  &
+vi«aïïavaktrÃv anugamya du÷khitau  % Óanair agatyÃ puram eva jagmatu÷  // 9.80 //
+tatsnehÃd atha n­pateÓ ca bhaktitas tau  $ sÃpek«aæ pratiyayatuÓ ca tasthatuÓ ca  &
+durdhar«aæ ravim iva dÅptam ÃtmabhÃsÃ  % taæ dra«Âuæ na hi pathi Óekatur na moktum  // 9.81 //
+tau j¤Ãtuæ paramagater gatiæ tu tasya  $ pracchannÃæÓ carapuru«Ã¤ chucÅn vidhÃya  &
+rÃjÃnaæ priyasutalÃlasaæ nu gatvÃ  % drak«yÃva÷ katham iti jagmatu÷ kathaæcit  // 9.82 //
+[[iti (CÓrÅC)buddhacarite mahÃkÃvye kumÃrÃnve«aïo nÃma navama÷ sarga÷ -- 9 --]]
+
+sa rÃjavatsa÷ p­thupÅnavak«Ãs  $ tau havyamantrÃdhik­tau vihÃya  &
+uttÅrya gaÇgÃæ pracalattaraægÃæ  % ÓrÅmadg­haæ rÃjag­haæ jagÃma  // 10.1 //
+Óailai÷ suguptaæ ca vibhÆ«itaæ ca  $ dh­taæ ca pÆtaæ ca Óivais tapodai÷  &
+pa¤cÃcalÃÇkaæ nagaraæ prapede  % ÓÃnta÷ svayaæbhÆr iva nÃkap­«Âham  // 10.2 //
+gÃmbhÅryam ojaÓ ca niÓÃmya tasya  $ vapuÓ ca dÅptaæ puru«Ãn atÅtya  &
+visismiye tatra janas tadÃnÅæ  % sthÃnuvratasyeva v­«adhvajasya  // 10.3 //
+taæ prek«ya yo 'nyena yayau sa tasthau  $ (yas tatra CyaÓ cÃtra )tasthau pathi so 'nvagacchat  &
+drutaæ yayau (ya÷ sa jagÃma dhÅraæ Csadayaæ sadhÅraæ   % ya÷ kaÓcid Ãste sma sa cotpapÃta  // 10.4 //
+kaÓcit tam Ãnarca jana÷ karÃbhyÃæ  $ satk­tya kaÓcic chirasÃ vavande  &
+snigdhena kaÓcid vacasÃbhyanandan  % (nainaæ Cnaivaæ )jagÃmÃpratipÆjya kaÓcit  // 10.5 //
+taæ jihriyu÷ prek«ya vicitrave«Ã÷  $ prakÅrïavÃca÷ pathi maunam Åyu÷  &
+dharmasya sÃk«Ãd iva (saænikar«e Csaænikar«Ãn   % na kaÓcid anyÃyamatir babhÆva  // 10.6 //
+anyakriyÃïÃm api rÃjamÃrge  $ strÅïÃæ n­ïÃæ vÃ bahumÃnapÆrvam  &
+(taæ devakalpaæ Ctad eva kalpaæ )naradeva(sÆnuæ CsÆtraæ   % nirÅk«amÃïÃ na (tatarpa Ctu tasya )d­«Âi÷  // 10.7 //
+bhruvau lalÃÂaæ mukham (Åk«aïe CÅk«aïaæ )vÃ  $ vapu÷ karau vÃ caraïau gatiæ vÃ  &
+yad eva yas tasya dadarÓa tatra  % tad eva (tasyÃtha babandha CtasyÃnubabandha )cak«u÷  // 10.8 //
+d­«ÂvÃ (ca sorïaCÓubhorïa)bhruvam ÃyatÃk«aæ  $ jvalaccharÅraæ ÓubhajÃlahastam  &
+taæ bhik«u(ve«aæ CveÓaæ )k«itipÃlanÃrhaæ  % saæcuk«ubhe rÃjag­hasya lak«mÅ÷  // 10.9 //
+Óreïyo 'tha bhartÃ magadhÃjirasya  $ (bÃhyÃd CvÃhyÃd )vimÃnÃd vipulaæ janaugham  &
+dadarÓa papraccha ca tasya hetuæ  % tatas tam asmai puru«a÷ ÓaÓaæsa  // 10.10 //
+j¤Ãnaæ paraæ vÃ p­thivÅÓriyaæ vÃ  $ viprair ya ukto 'dhigami«yatÅti  &
+sa (e«a Ceva )ÓÃkyÃdhipates tanÆjo  % nirÅk«yate pravrajito janena  // 10.11 //
+tata÷ ÓrutÃrtho (manasÃgatÃstho CmanasÃ gatÃrtho   $ rÃjÃ babhÃ«e puru«aæ tam eva  &
+vij¤ÃyatÃæ kva pratigacchatÅti  % tathety athainaæ puru«o 'nvagacchat  // 10.12 //
+alolacak«ur yugamÃtradarÓÅ  $ niv­ttavÃg yantritamandagÃmÅ  &
+cacÃra bhik«Ãæ sa tu bhik«uvaryo  % nidhÃya gÃtrÃïi calaæ ca ceta÷  // 10.13 //
+ÃdÃya bhaik«aæ ca yathopapannaæ  $ yayau gire÷ prasravaïaæ viviktam  &
+nyÃyena tatrÃbhyavah­tya cainan  % mahÅdharaæ pÃï¬avam Ãruroha  // 10.14 //
+tasmin navau lodhravanopagÆ¬he  $ mayÆranÃdapratipÆrïaku¤je  &
+kÃ«ÃyavÃsÃ÷ sa babhau n­sÆryo  % yathodayasyopari bÃlasÆrya÷  // 10.15 //
+(tatrainam Ctatraivam )Ãlokya sa rÃjabh­tya÷  $ ÓreïyÃya rÃj¤e kathayÃæ cakÃra  &
+saæÓrutya rÃjÃ sa ca bÃhumÃnyÃt  % tatra pratasthe nibh­tÃnuyÃtra÷  // 10.16 //
+sa pÃï¬avaæ pÃï¬avatulyavÅrya÷  $ Óailottamaæ ÓailasamÃnavar«mÃ  &
+maulÅdhara÷ siæhagatir n­siæhaÓ  % calatsaÂa÷ siæha ivÃruroha  // 10.17 //
+(tata÷ sma Ccalasya )tasyopari Ó­ÇgabhÆtaæ  $ ÓÃntendriyaæ paÓyati bodhisattvam  &
+paryaÇkam ÃsthÃya virocamÃnaæ  % ÓaÓÃÇkam udyantam ivÃbhra(ku¤jÃt CkÆÂÃt )  // 10.18 //
+taæ rÆpalak«myÃ ca Óamena caiva  $ dharmasya nirmÃïam ivopavi«Âam  &
+savismaya÷ praÓrayavÃn narendra÷  % svayaæbhuvaæ Óakra ivopatasthe  // 10.19 //
+taæ nyÃyato (nyÃyavidÃæ vari«Âhaæ CnyÃyavatÃæ vari«Âha÷   $ sametya papraccha ca dhÃtusÃmyam  &
+sa cÃpy avocat sad­Óena sÃmnÃ  % n­paæ mana÷svÃsthyam anÃmayaæ ca  // 10.20 //
+tata÷ Óucau vÃraïakarïanÅle  $ ÓilÃtale (saæni«asÃda Casau ni«asÃda )rÃjÃ  &
+(upopaviÓyÃnumataÓ Cn­popaviÓyÃnumataÓ )ca tasya  % bhÃvaæ vijij¤Ãsur idaæ babhÃ«e  // 10.21 //
+prÅti÷ parÃ me bhavata÷ kulena  $ kramÃgatÃ caiva parÅk«itÃ ca  &
+jÃtÃ vivak«Ã (svavayo Csuta yÃ )yato me  % tasmÃd idaæ snehavaco nibodha  // 10.22 //
+ÃdityapÆrvaæ vipulaæ kulaæ te  $ navaæ vayo dÅptam idaæ vapuÓ ca  &
+kasmÃd iyaæ te matir akrameïa  % bhaik«Ãkae evÃbhiratÃ na rÃjye  // 10.23 //
+gÃtraæ hi te lohitacandanÃrhaæ  $ kÃ«ÃyasaæÓle«am anarham etat  &
+hasta÷ prajÃpÃlanayogya e«a  % bhoktuæ na cÃrha÷ paradattam annam  // 10.24 //
+tat saumya rÃjyaæ yadi pait­kaæ tvaæ  $ snehÃt pitur necchasi vikrameïa  &
+na ca (kramaæ Ck«amaæ )mar«ayituæ matis te  % (bhuÇk«vÃrdham CbhuktvÃrdham )asmadvi«ayasya ÓÅghram  // 10.25 //
+evaæ hi na syÃt svajanÃvamarda÷  $ kÃlakrameïÃpi ÓamaÓrayÃ ÓrÅ÷  &
+tasmÃt kuru«va praïayaæ mayi tvaæ  % sadbhi÷ sahÅyÃ hi satÃæ sam­ddhi÷  // 10.26 //
+atha tv idÃnÅæ kulagarvitatvÃd  $ asmÃsu viÓrambhaguïo na te 'sti  &
+(vyÆ¬hÃny anÅkÃni CvyÆhÃny anekÃni )vigÃhya (bÃïair CvÃïair   % mayÃ sahÃyena (parÃn CparÃ¤ )jigÅ«a  // 10.27 //
+tad buddhim atrÃnyatarÃæ v­ïÅ«va  $ dharmÃrthakÃmÃn vidhivad bhajasva  &
+vyatyasya (rÃgÃd iha CrÃgÃdi ha )hi trivargaæ  % pretyeha ca (bhraæÓam CvibhraæÓam )avÃpnuvanti  // 10.28 //
+yo hy arthadharmau paripÅ¬ya kÃma÷  $ syÃd dharma(kÃmau CkÃmye )paribhÆya cÃrtha÷  &
+kÃmÃrthayoÓ coparameïa dharmas  % tyÃjya÷ sa k­tsno yadi (kÃÇk«ito 'rtha÷ CkÃÇk«itÃrtha÷ )  // 10.29 //
+tasmÃt trivargasya ni«evaïena  $ tvaæ rÆpam etat saphalaæ kuru«va  &
+dharmÃrthakÃmÃdhigamaæ hy anÆnaæ  % n­ïÃm anÆnaæ puru«Ãrtham Ãhu÷  // 10.30 //
+tan ni«phalau nÃrhasi kartum etau  $ pÅnau bhujau cÃpavikar«aïÃrhau  &
+mÃndhÃt­vaj jetum imau hi yogyau  % (lokÃn api trÅn iha ClokÃni hi trÅïi hi )kiæ punar gÃm  // 10.31 //
+snehena khalv etad ahaæ bravÅmi  $ naiÓvaryarÃgeïa na vismayena  &
+imaæ hi d­«ÂvÃ tava bhik«u(ve«aæ CveÓaæ   % jÃtÃnukampo 'smy api cÃgatÃÓru÷  // 10.32 //
+yÃvat svavaæÓaprati(rÆpa rÆpaæ CrÆparÆpaæ   $ na te jarÃbhyety abhibhÆya bhÆya÷  &
+tad bhuÇk«va bhik«ÃÓramakÃma kÃmÃn  % kÃle 'si kartÃ priyadharma dharmam [PÃdas ab and cd are exchanged in C.]  // 10.33 //
+Óaknoti jÅrïa÷ khalu dharmam Ãptuæ  $ kÃmopabhoge«v agatir jarÃyÃ÷  &
+ataÓ ca yÆna÷ kathayanti kÃmÃn  % madhyasya vittaæ sthavirasya dharmam  // 10.34 //
+dharmasya cÃrthasya ca jÅvaloke  $ pratyarthibhÆtÃni hi yauvanÃni  &
+saærak«yamÃnÃny api durgrahÃïi  % kÃmÃ yatas tena (pathÃ CyathÃ )haranti  // 10.35 //
+vayÃæsi jÅrïÃni (vimarÓavanti CvimarÓayanti   $ dhÅrÃïy avasthÃnaparÃyaïÃni  &
+alpena yatnena ÓamÃtmakÃni  % bhavanty a(gatyaiva Cgatyeva )ca lajjayÃ ca  // 10.36 //
+ataÓ ca lolaæ vi«ayapradhÃnaæ  $ pramattam ak«Ãntam adÅrghadarÓi  &
+bahucchalaæ yauvanam abhyatÅtya  % nistÅrya kÃntÃram ivÃÓvasanti  // 10.37 //
+tasmÃd adhÅraæ capalapramÃdi  $ navaæ vayas tÃvad idaæ vyapaitu  &
+kÃmasya pÆrvaæ hi vaya÷ Óaravyaæ  % na Óakyate rak«itum indriyebhya÷  // 10.38 //
+atho cikÅr«Ã tava dharma eva  $ yajasva yaj¤aæ kuladharma e«a÷  &
+yaj¤air adhi«ÂhÃya hi nÃkap­«Âhaæ  % yayau marutvÃn api nÃkap­«Âham  // 10.39 //
+suvarïakeyÆravida«ÂabÃhavo  $ maïipradÅpojjvalacitramaulaya÷  &
+n­par«ayas tÃæ hi gatiæ gatÃ makhai÷  % Órameïa yÃm eva mahar«ayo yayu÷  // 10.40 //
+ity evaæ magadhapatir ((Cvaco C))babhÃ«e  $ ya÷ samyag valabhid iva (bruvan babhÃse Cdhruvaæ babhÃ«e ) //
+tac chrutvÃ na sa (vicacÃla CvicacÃra )rÃjasÆnu÷  % kailÃso girir iva naikacitrasÃnu÷  // 10.41 //
+[[iti (CÓrÅC)buddhacarite mahÃkÃvye 'Óvagho«ak­te ÓreïyÃbhigamano nÃma daÓama÷ sarga÷ -- 10 --]]
+
+athaivam ukto magadhÃdhipena  $ suh­nmukhena pratikÆlam artham  &
+svastho 'vikÃra÷ kulaÓaucaÓuddha÷  % Óauddhodanir vÃkyam idaæ jagÃda  // 11.1 //
+nÃÓcaryam etad bhavato (vidhÃnaæ CabhidhÃtuæ   $ jÃtasya haryaÇkakule viÓÃle  &
+yan mitrapak«e tava mitrakÃma  % syÃd v­ttir e«Ã pariÓuddhav­tte÷  // 11.2 //
+asatsu maitrÅ sva(kulÃnuv­ttÃ CkulÃnurÆpÃ   $ na ti«Âhati Órir iva viklave«u  &
+pÆrvai÷ k­tÃæ prÅtiparaæparÃbhis  % tÃm eva santas tu vivardhayanti  // 11.3 //
+ye cÃrthak­cchre«u bhavanti loke  $ samÃnakÃryÃ÷ suh­dÃæ manu«yÃ÷  &
+mitrÃïi tÃnÅti paraimi buddhyÃ  % svasthasya v­ddhi«v iha ko hi na syÃt  // 11.4 //
+evaæ ca ye dravyam avÃpya loke  $ mitre«u dharme ca niyojayanti  &
+avÃptasÃrÃïi dhanÃni te«Ãæ  % bhra«ÂÃni nÃnte janayanti tÃpam  // 11.5 //
+suh­ttayÃ cÃryatayÃ ca rÃjan  $ (khalv e«a yo mÃæ prati niÓcayas CvibhÃvya mÃm eva viniÓcayas )te  &
+atrÃnune«yÃmi suh­ttayaiva  % brÆyÃm ahaæ nottaram anyad atra  // 11.6 //
+ahaæ jarÃm­tyubhayaæ viditvÃ  $ mumuk«ayÃ dharmam imaæ prapanna÷  &
+bandhÆn priyÃn aÓrumukhÃn vihÃya  % prÃg eva kÃmÃn aÓubhasya hetÆn  // 11.7 //
+nÃÓÅvi«ebhyo (hi Capi )tathÃ bibhemi  $ naivÃÓanibhyo gaganÃc cyutebhya÷  &
+na pÃvakebhyo 'nilasaæhitebhyo  % yathÃ bhayaæ me vi«ayebhya (eva Cebhya÷ )  // 11.8 //
+kÃmÃ hy anityÃ÷ kuÓalÃrthacaurÃ  $ riktÃÓ ca mÃyÃsad­ÓÃÓ ca loke  &
+ÃÓÃsyamÃnÃ api mohayanti  % cittaæ n­ïÃæ kiæ punar ÃtmasaæsthÃ÷  // 11.9 //
+kÃmÃbhibhÆtÃ hi na yÃnti Óarma  $ tripi«Âape kiæ (bata Cvata )martyaloke  &
+kÃmai÷ sat­«ïasya hi nÃsti t­ptir  % yathendhanair vÃtasakhasya vahne÷  // 11.10 //
+jagaty anartho na samo 'sti kÃmair  $ mohÃc ca te«v eva jana÷ prasakta÷  &
+tattvaæ viditvaivam anarthabhÅru÷  % prÃj¤a÷ svayaæ ko 'bhila«ed anartham  // 11.11 //
+samudravastrÃm api gÃm avÃpya  $ pÃraæ jigÅ«anti mahÃrïavasya  &
+lokasya kÃmair na vit­ptir asti  % patadbhir ambhobhir ivÃrïavasya  // 11.12 //
+devena v­«Âe 'pi hiraïyavar«e  $ dvÅpÃn (samagrÃæÓ CsamudrÃæÓ )caturo 'pi jitvÃ  &
+Óakrasya cÃrdhÃsanam apy avÃpya  % mÃndhÃtur ÃsÅd vi«aye«v at­pti÷  // 11.13 //
+bhuktvÃpi rÃjyaæ divi devatÃnÃæ  $ Óatakratau v­trabhayÃt prana«Âe  &
+darpÃn mahar«Ån api vÃhayitvÃ  % kÃme«v at­pto nahu«a÷ papÃta  // 11.14 //
+ai¬aÓ ca rÃjÃ tridivaæ vigÃhya  $ nÅtvÃpi devÅæ vaÓam urvaÓÅæ tÃm  &
+lobhÃd ­«ibhya÷ kanakaæ jihÅr«ur  % jagÃma nÃÓaæ vi«aye«v at­pta÷  // 11.15 //
+baler mahendraæ nahu«aæ mahendrÃd  $ indraæ punar ye nahu«Ãd upeyu÷  &
+svarge k«itau vÃ vi«aye«u te«u  % ko viÓvased bhÃgyakulÃkule«u  // 11.16 //
+cÅrÃmbarÃ mÆlaphalÃmbubhak«Ã  $ jaÂÃ vahanto 'pi bhujaægadÅrghÃ÷   &
+yair (nÃnyaCanya)kÃryÃ munayo 'pi bhagnÃ÷  % ka÷ kÃmasaæj¤Ãn m­gayeta ÓatrÆn  // 11.17 //
+ugrÃyudhaÓ cogradh­tÃyudho 'pi  $ ye«Ãæ k­te m­tyum avÃpa bhÅ«mÃt  &
+cintÃpi te«Ãm aÓivÃ vadhÃya  % (sadCtad)v­ttinÃæ kiæ punar avratÃnÃm  // 11.18 //
+ÃsvÃdam alpaæ vi«aye«u matvÃ  $ saæyojanotkar«am at­ptim eva  &
+sadbhyaÓ ca garhÃæ niyataæ ca pÃpaæ  % ka÷ kÃmasaæj¤aæ vi«am (ÃdadÅta CÃsasÃda )  // 11.19 //
+k­«yÃdibhi÷ (karmabhir arditÃnÃæ Cdharmabhir anvitÃnÃæ   $ kÃmÃtmakÃnÃæ ca niÓamya du÷kham  &
+svÃsthyaæ ca kÃme«v akutÆhalÃnÃæ  % kÃmÃn vihÃtuæ k«amam Ãtmavadbhi÷  // 11.20 //
+j¤eyÃ vipatkÃmini kÃmasaæpat  $ siddhe«u kÃme«u madaæ hy upaiti  &
+madÃd akÃryaæ kurute na kÃryaæ  % yena k«ato durgatim abhyupaiti  // 11.21 //
+yatnena labdhÃ÷ parirak«itÃÓ ca  $ ye vipralabhya pratiyÃnti bhÆya÷  &
+te«v ÃtmavÃn yÃcitakopam e«u  % kÃme«u vidvÃn iha ko rameta  // 11.22 //
+anvi«ya cÃdÃya ca jÃtatar«Ã  $ yÃn atyajanta÷ pariyÃnti du÷kham  &
+loke t­ïolkÃsad­Óe«u te«u  % kÃme«u kasyÃtmavato rati÷ syÃt  // 11.23 //
+anÃtmavanto h­di yair vida«ÂÃ  $ vinÃÓam archanti na yÃnti Óarma  &
+kruddhograsarpapratime«u te«u  % kÃme«u kasyÃtmavato rati÷ syÃt  // 11.24 //
+asthi (k«udhÃrtÃ Ck«udhÃrttÃ )iva sÃrameyÃ  $ bhuktvÃpi yÃn naiva bhavanti t­ptÃ÷  &
+jÅrïÃsthikaÇkÃlasame«u te«u  % kÃme«u kasyÃtmavato rati÷ syÃt  // 11.25 //
+ye rÃjacaurodakapÃvakebhya÷  $ sÃdhÃraïatvÃj janayanti du÷kham  &
+te«u praviddhÃmi«asaænibhe«u  % kÃme«u kasyÃtmavato rati÷ syÃt  // 11.26 //
+yatra sthitÃnÃm abhito vipatti÷  $ Óatro÷ sakÃÓÃd api bÃndhavebhya÷  &
+hiæsre«u te«v Ãyatanopame«u  % kÃme«u kasyÃtmavato rati÷ syÃt  // 11.27 //
+girau vane cÃpsu ca sÃgare ca  $ (yÃn Cyad )bhraæÓam (archanti vilaÇghamÃnÃ÷ Carchanty abhilaÇghamÃnÃ÷ ) //
+te«u drumaprÃgraphalopame«u  % kÃme«u kasyÃtmavato rati÷ syÃt  // 11.28 //
+(tÅvrai÷ CtÅrthai÷ )prayatnair vividhair avÃptÃ÷  $ k«aïena ye nÃÓam iha prayÃnti  &
+svapnopabhogapratime«u te«u  % kÃme«u kasyÃtmavato rati÷ syÃt [Verses 11.29 and 11.30 are exchanged in ed. C.]  // 11.29 //
+yÃn arcayitvÃpi na yÃnti Óarma  $ vivardhayitvÃ paripÃlayitvÃ  &
+aÇgÃra(kar«ÆCkar«a)pratime«u te«u  % kÃme«u kasyÃtmavato rati÷ syÃt  // 11.30 //
+vinÃÓam Åyu÷ kuravo yadarthaæ  $ v­«ïyandhakÃ (mekhalaCmaithila)daï¬akÃÓ ca  &
+(sÆnÃsiCÓÆlÃsi)kÃ«Âhapratime«u te«u  % kÃme«u kasyÃtmavato rati÷ syÃt  // 11.31 //
+sundopasundÃv asurau yadartham  $ anyoanyavairapras­tau vina«Âau  &
+sauhÃrdaviÓle«akare«u te«u  % kÃme«u kasyÃtmavato rati÷ syÃt  // 11.32 //
+(ye«Ãæ k­te vÃriïi pÃvake CkÃmÃndhasaæj¤Ã÷ k­payÃ va ke [sic] )ca  $ kravyÃtsu (cÃtmÃnam CnÃtmÃnam )ihots­janti  &
+sapatnabhÆte«v aÓive«u te«u  % kÃme«u kasyÃtmavato rati÷ syÃt  // 11.33 //
+(kÃmÃrtham aj¤a÷ CkÃmÃndhasaæj¤a÷ )k­païaæ karoti  $ prÃpnoti du÷khaæ vadhabandhanÃdi  &
+kÃmÃrtham ÃÓÃk­païas tapasvÅ  % (m­tyuæ Óramaæ cÃrchati Cm­tyuÓramaæ cÃrhati )jÅva(loka÷ Cloke )  // 11.34 //
+gÅtair hriyante hi m­gÃ vadhÃya  $ rÆpÃrtham agnau ÓalabhÃ÷ patanti  &
+matsyo giraty Ãyasam Ãmi«ÃrthÅ  % tasmÃd anarthaæ vi«ayÃ÷ phalanti  // 11.35 //
+kÃmÃs tu bhogÃ iti (yan mati÷ Cyan mataæ )syÃd  $ (bhogÃ CbhogyÃ )na kecit parigaïyamÃnÃ÷  &
+vastrÃdayo dravyaguïÃ hi loke  % du÷khapratÅkÃra iti pradhÃryÃ÷  // 11.36 //
+i«Âaæ hi tar«apraÓamÃya toyaæ  $ k«unnÃÓahetor aÓanaæ tathaiva  &
+vÃtÃtapÃmbvÃvaraïÃya veÓma  % kaupÅnaÓÅtÃvaraïÃya vÃsa÷  // 11.37 //
+nidrÃvighÃtÃya tathaiva ÓayyÃ  $ yÃnaæ tathÃdhvaÓramanÃÓanÃya  &
+tathÃsanaæ sthÃnavinodanÃya  % snÃnaæ m­jÃrogyabalÃÓrayÃya  // 11.38 //
+du÷khapratÅkÃranimittabhÆtÃs  $ tasmÃt prajÃnÃæ vi«ayÃ na (bhogÃ÷ CbhogyÃ÷ ) //
+aÓnÃmi bhogÃn iti ko 'bhyupeyÃt  % prÃj¤a÷ pratÅkÃravidhau (prav­tta÷ Cprav­ttÃn )  // 11.39 //
+ya÷ pittadÃhena vidahyamÃna÷  $ ÓÅtakriyÃæ bhoga iti vyavasyet  &
+du÷khapratÅkÃravidhau prav­tta÷  % kÃme«u kuryÃt sa hi bhogasaæj¤Ãm  // 11.40 //
+kÃme«v anaikÃntikatÃ ca yasmÃd  $ ato 'pi me te«u na bhogasaæj¤Ã  &
+yae eva bhÃvÃ hi sukhaæ diÓanti  % tae eva du÷khaæ punar Ãvahanti  // 11.41 //
+gurÆïi vÃsÃæsy agurÆïi caiva  $ sukhÃya (ÓÅte CgÅte )hy asukhÃya (gharme Cdharme ) //
+candrÃæÓavaÓ candanam eva co«ïe  % sukhÃya dukhÃya bhavanti ÓÅte  // 11.42 //
+dvaædvÃni sarvasya yata÷ prasaktÃny  $ alÃbhalÃbhaprabh­tÅni loke  &
+ato 'pi naikÃntasukho 'sti kaÓcin  % naikÃntadu÷kha÷ puru«a÷ prÂhivyÃm  // 11.43 //
+d­«ÂvÃ (vimiÓrÃæ C ca miÓrÃæ )sukhadu÷katÃæ me  $ rÃjyaæ ca dÃsyaæ ca mataæ samÃnam  &
+nityaæ hasaty eva hi naiva rÃjÃ  % na cÃpi saætapyatae eva dÃsa÷  // 11.44 //
+Ãj¤Ã n­patve 'bhyadhiketi (yat syÃn CyasmÃt   $ mahÃnti du÷khÃny ata eva rÃj¤a÷  &
+ÃsaÇgakÃ«Âhapratimo hi rÃjÃ  % lokasya heto÷ parikhedam eti  // 11.45 //
+rÃjye n­pas tyÃgini (bahvaCvaÇka)mitre  $ viÓvÃsam Ãgacchati ced vipanna÷  &
+athÃpi viÓrambham upaiti neha  % kiæ nÃma saukhyaæ cakitasya rÃj¤a÷  // 11.46 //
+yadÃ ca jitvÃpi mahÅæ samagrÃæ  $ vÃsÃya d­«Âaæ puram ekam eva  &
+tatrÃpi caikaæ bhavanaæ ni«evyaæ  % Órama÷ parÃrthe nanu rÃjabhÃva÷  // 11.47 //
+rÃj¤o 'pi (vÃsoyugam CvÃse yugam )ekam eva  $ k«utsaænirodhÃya tathÃnnamÃtrÃ  &
+ÓayyÃ tathaikÃsanam ekam eva  % Óe«Ã viÓe«Ã n­pater madÃya  // 11.48 //
+tu«Âyartham etac ca phalaæ yadÅ«Âam  $ ­te 'pi rÃjyÃn mama tu«Âir asti  &
+tu«Âau ca satyÃæ puru«asya loke  % sarve viÓe«Ã nanu nirviÓe«Ã÷  // 11.49 //
+tan nÃsmi kÃmÃn prati saæpratÃrya÷  $ (k«emaæ Ck«eme )Óivaæ mÃrgam anuprapanna÷  &
+sm­tvÃ suh­ttvaæ tu puna÷ punar mÃæ  % brÆhi pratij¤Ãæ khalu (pÃlayeti CpÃlayanti )  // 11.50 //
+na hy asmy amar«eïa vanaæ pravi«Âo  $ na ÓatrubÃïair avadhÆtamauli÷  &
+k­tasp­ho nÃpi phalÃdhikebhyo  % g­hïÃmi naitad vacanaæ yatas te  // 11.51 //
+yo dandaÓÆkaæ kupitaæ bhujaægaæ  $ muktvÃ vyavasyed dhi punar grahÅtum  &
+dÃhÃtmikÃæ vÃ jvalitÃæ t­ïolkÃæ  % saætyajya kÃmÃn sa punar bhajeta  // 11.52 //
+andhÃya yaÓ ca sp­hayed anandho  $ baddhÃya mukto vidhanÃya (cÃ¬hya÷ CvÃ¬hya÷ ) //
+unmattacittÃya ca kalyacitta÷  % sp­hÃæ sa kuryÃd vi«ayÃtmakÃya  // 11.53 //
+(bhaik«opabhogÅti ca Cbhik«opabhogÅ vara )nÃnukampya÷  $ k­tÅ jarÃm­tyubhayaæ titÅr«u÷  &
+ihottamaæ ÓÃntisukhaæ ca yasya  % paratra du÷khÃni ca saæv­tÃni  // 11.54 //
+lak«myÃæ mahatyÃm api vartamÃnas  $ t­«ïÃbhibhÆtas tv anukampitavya÷  &
+prÃpnoti ya÷ ÓÃntisukhaæ na ceha  % paratra (du÷khai÷ Cdu÷khaæ )pratig­hyate ca  // 11.55 //
+evaæ tu vaktuæ bhavato 'nurÆpaæ  $ sattvasya v­ttasya kulasya caiva  &
+mamÃpi vo¬huæ sad­Óaæ pratij¤Ãæ  % sattvasya v­ttasya kulasya caiva  // 11.56 //
+ahaæ hi saæsÃra(Óareïa Crasena )viddho  $ vini÷s­ta÷ (ÓÃntim CÓÃntam )avÃptukÃma÷  &
+neccheyam Ãptuæ tridive 'pi rÃjyaæ  % nirÃmayaæ kiæ (bata Cvata )mÃnu«e«u  // 11.57 //
+trivargasevÃæ n­pa yat tu k­tsnata÷  $ paro manu«yÃrtha iti tvam Ãttha mÃm  &
+anartha ity (eva mamÃtra darÓanaæ CÃttha mamÃrthadarÓanaæ   % k«ayÅ trivargo hi na cÃpi tarpaka÷  // 11.58 //
+pade tu yasmin na jarÃ na (bhÅr na ruÇ CbhÅrutÃ   $ na janma naivoparamo na (cÃdhaya÷ CvÃdhaya÷ ) //
+tam eva manye puru«Ãrtham uttamaæ  % na vidyate yatra puna÷ puna÷ kriyÃ  // 11.59 //
+yad apy avoca÷ paripÃlyatÃæ jarÃ  $ navaæ vayo gacchati vikriyÃm iti  &
+aniÓcayo 'yaæ capalaæ hi d­Óyate  % jarÃpy adhÅrÃ dh­timac ca yauvanam  // 11.60 //
+svakarmadak«aÓ ca (yadÃntako CyadÃ tu ko )jagad  $ vaya÷su (sarve«v avaÓaæ vikar«ati Csarve«u ca saævikar«ati ) //
+vinÃÓakÃle katham avyavasthite  % jarÃ pratÅk«yÃ vidu«Ã ÓamepsunÃ  // 11.61 //
+jarÃyudho vyÃdhivikÅrïasÃyako  $ yadÃntako vyÃdha (ivÃÓiva÷ CivÃÓrita÷ )sthita÷  &
+prajÃm­gÃn bhÃgyavanÃÓritÃæs tudan  % vaya÷prakar«aæ prati ko manoratha÷  // 11.62 //
+(ato Csuto )yuvÃ vÃ sthaviro 'thavÃ ÓiÓus  $ tathÃ tvarÃvÃn iha kartum arhati  &
+yathÃ bhaved dharmavata÷ (k­tÃtmana÷ Ck­pÃtmana÷   % prav­ttir i«ÂÃ viniv­ttir eva vÃ  // 11.63 //
+yad Ãttha (cÃpÅ«ÂaCvÃ dÅpta)phalÃæ kulocitÃæ  $ kuru«va dharmÃya makhakriyÃm iti  &
+namo makhebhyo na hi kÃmaye sukhaæ  % parasya du÷kha(kriyayÃ yad i«yate CkriyayÃpadiÓyate )  // 11.64 //
+paraæ hi hantuæ vivaÓaæ phalepsayÃ  $ na yuktarÆpaæ karuïÃtmana÷ sata÷  &
+krato÷ phalaæ yady api ÓÃÓvataæ bhavet  % tathÃpi k­tvÃ kim (u yat k«ayÃtmakam Cupak«ayÃtmakam )  // 11.65 //
+bhavec ca dharmo yadi nÃparo vidhir  $ vratena ÓÅlena mana÷Óamena vÃ  &
+tathÃpi naivÃrhati sevituæ kratuæ  % viÓasya yasmin param ucyate phalam  // 11.66 //
+ihÃpi tÃvat puru«asya ti«Âhata÷  $ pravartate yat parahiæsayÃ sukham  &
+tad apy ani«Âaæ sagh­ïasya dhÅmato  % bhavÃntare kiæ (bata Cvata )yan na d­Óyate  // 11.67 //
+na ca pratÃryo 'smi phalaprav­ttaye  $ bhave«u rÃjan ramate na me mana÷  &
+latÃ ivÃmbhodharav­«ÂitÃ¬itÃ÷  % prav­ttaya÷ sarvagatÃ hi ca¤calÃ÷  // 11.68 //
+ihÃgataÓ cÃham ito did­k«ayÃ  $ muner arÃ¬asya vimok«avÃdina÷  &
+prayÃmi cÃdyaiva n­pÃstu te Óivaæ  % vaca÷ (k«amethÃ mama tattvaCk«amethÃ÷ Óamatattva)ni«Âhuram  // 11.69 //
+(avendravad Cathendravad )divy ava ÓaÓvad arkavad  $ guïair ava Óreya ihÃva gÃm ava  &
+avÃyur Ãryair ava satsutÃn ava  % ÓriyaÓ ca rÃjann ava dharmam Ãtmana÷  // 11.70 //
+himÃriketÆdbhava(saæbhavÃntare CsaæplavÃntare   $ yathÃ dvijo yÃti vimok«ayaæs tanum  &
+himÃri(Óatruk«ayaCÓatruæ k«aya)Óatru(ghÃtane CghÃtinas   % tathÃntare yÃhi (vimok«ayan Cvimocayan )mana÷  // 11.71 //
+n­po 'bravÅt sÃ¤jalir Ãgatasp­ho  $ yathe«Âam (Ãpnotu CÃpnoti )bhavÃn avighnata÷  &
+avÃpya kÃle k­tak­tyatÃm imÃæ  % mamÃpi kÃryo bhavatÃ tv anugraha÷  // 11.72 //
+sthiraæ pratij¤Ãya tatheti pÃrthive  $ tata÷ sa vaiÓvaætaram ÃÓramaæ yayau  &
+parivrajantaæ (tam udÅk«ya CsamudÅk«ya )vismito  % n­po 'pi (vavrÃja puriæ girivrajam Cca prÃpur imaæ giriæ vrajan )  // 11.73 //
+[[iti (CÓrÅC)buddhacarite mahÃkÃvye (CaÓvagho«ak­te C)kÃmavigarhaïo nÃmaikÃdaÓa÷ sarga÷ -- 11 --]]
+
+tata÷ ÓamavihÃrasya  $ muner ik«vÃkucandramÃ÷  &
+arÃ¬asyÃÓramaæ bheje  % vapu«Ã pÆrayann iva  // 12.1 //
+sa kÃlÃmasagotreïa  $ tenÃlokyaiva dÆrata÷  &
+uccai÷ svÃgatam ity ukta÷  % samÅpam upajagmivÃn  // 12.2 //
+tÃv ubhau nyÃyata÷ p­«ÂvÃ  $ dhÃtusÃmyaæ parasparam  &
+dÃravyor medhyayor v­«yo÷  % Óucau deÓe (ni«edatu÷ Cni«Ådatu÷ )  // 12.3 //
+tam ÃsÅnaæ n­pasutaæ  $ so 'bravÅn munisattama÷  &
+bahumÃnaviÓÃlÃbhyÃæ  % darÓanÃbhyÃæ pibann iva  // 12.4 //
+viditaæ me yathÃ saumya  $ ni«krÃnto bhavanÃd asi  &
+chittvÃ snehamayaæ pÃÓaæ  % pÃÓaæ d­pta iva dvipa÷  // 12.5 //
+sarvathÃ dh­timac caiva  $ prÃj¤aæ caiva manas tava  &
+yas tvaæ prÃpta÷ Óriyaæ tyaktvÃ  % latÃæ vi«aphalÃm iva  // 12.6 //
+nÃÓcaryaæ jÅrïavayaso  $ yaj jagmu÷ pÃrthivÃ vanam  &
+apatyebhya÷ Óriyaæ dattvÃ  % bhuktocchi«ÂÃm iva srajam  // 12.7 //
+idaæ me matam ÃÓcaryaæ  $ nave vayasi yad bhavÃn  &
+abhuktvaiva Óriyaæ prÃpta÷  % sthito vi«ayagocare  // 12.8 //
+tad vij¤Ãtum imaæ dharmaæ  $ paramaæ bhÃjanaæ bhavÃn  &
+j¤Ãna(plavam CpÆrvam )adhi«ÂhÃya  % ÓÅghraæ du÷khÃrïavaæ tara  // 12.9 //
+Ói«ye yady api vij¤Ãte  $ ÓÃstraæ kÃlena (varïyate Cvartate ) //
+gÃmbhÅryÃd vyavasÃyÃc ca  % (na parÅk«yo CsuparÅk«yo )bhavÃn mama  // 12.10 //
+iti vÃkyam arÃ¬asya  $ vij¤Ãya sa (narar«abha÷ CnarÃdhipa÷ ) //
+babhÆva paramaprÅta÷  % provÃcottaram eva ca  // 12.11 //
+viraktasyÃpi yad idaæ  $ saumukhyaæ bhavata÷ param  &
+ak­tÃrtho 'py anenÃsmi  % k­tÃrtha iva saæprati  // 12.12 //
+did­k«ur iva hi jyotir  $ yiyÃsur iva daiÓikam  &
+tvad(darÓanam CdarÓanÃd )ahaæ manye  % titÅr«ur iva ca plavam  // 12.13 //
+tasmÃd arhasi tad vaktuæ  $ vaktavyaæ yadi manyase  &
+jarÃmaraïarogebhyo  % yathÃyaæ parimucyate  // 12.14 //
+ity arÃ¬a÷ kumÃrasya  $ mÃhÃtmyÃd eva codita÷  &
+saæk«iptaæ kathayÃæ cakre  % svasya ÓÃstrasya niÓcayam  // 12.15 //
+ÓrÆyatÃm ayam asmÃkaæ  $ siddhÃnta÷ Ó­ïvatÃæ vara  &
+yathÃ bhavati saæsÃro  % yathÃ (caiva nivartate Cvai parivartate )  // 12.16 //
+prak­tiÓ ca vikÃraÓ ca  $ janma m­tyur jaraiva ca  &
+tat tÃvat sattvam ity uktaæ  % sthirasattva parehi (tat Cna÷ )  // 12.17 //
+tatra tu (prak­tiæ Cprak­tir )nÃma  $ viddhi prak­tikovida  &
+pa¤ca bhÆtÃny ahaækÃraæ  % buddhim avyaktam eva ca  // 12.18 //
+vikÃra iti (budhyasva Cbuddhiæ tu   $ vi«ayÃn indriyÃïi ca  &
+pÃïipÃdaæ ca vÃdaæ ca  % pÃyÆpasthaæ tathÃ mana÷  // 12.19 //
+asya k«etrasya vij¤ÃnÃt  $ k«etraj¤a iti saæj¤i ca  &
+k«etraj¤a iti cÃtmÃnaæ  % kathayanty ÃtmacintakÃ÷  // 12.20 //
+saÓi«ya÷ kapilaÓ ceha  $ (pratibuddhir Cpratibuddha )iti sm­ti÷  &
+sa(putro 'pratibuddhas tu Cputra÷ pratibuddhaÓ ca   % prajÃpatir ihocyate  // 12.21 //
+jÃyate jÅryate caiva  $ (bÃdhyate Cbudhyate )mriyate ca yat  &
+tad vyaktam iti vij¤eyam  % avyaktaæ tu viparyayÃt  // 12.22 //
+aj¤Ãnaæ karma t­«ïÃ ca  $ j¤eyÃ÷ saæsÃrahetava÷  &
+sthito 'smiæs tritaye (jantus Cyas tu   % tat sattvaæ (nÃtivartate CnÃbhivartate )  // 12.23 //
+vipratyayÃd ahaækÃrÃt  $ saædehÃd abhisaæplavÃt  &
+aviÓe«ÃnupÃyÃbhyÃæ  % saÇgÃd abhyavapÃtata÷  // 12.24 //
+tatra vipratyayo nÃma  $ viparÅtaæ pravartate  &
+anyathÃ kurute kÃryaæ  % mantavyaæ manyate 'nyathÃ  // 12.25 //
+bravÅmy aham ahaæ vedmi  $ gacchÃmy aham ahaæ sthita÷  &
+itÅhaivam ahaækÃras tv  % anahaækÃra vartate  // 12.26 //
+yas tu (bhÃvÃn asaædigdhÃn CbhÃvena saædigdhÃn   $ ekÅbhÃvena paÓyati  &
+m­tpiï¬avad asaædeha  % saædeha÷ sa ihocyate  // 12.27 //
+ya evÃhaæ sa evedaæ  $ mano buddhiÓ ca karma ca  &
+yaÓ (caivai«a Ccaivaæ sa )gaïa÷ so 'ham  % iti ya÷ so 'bhisaæplava÷  // 12.28 //
+aviÓe«aæ viÓe«aj¤a  $ pratibuddhÃprabuddhayo÷  &
+prak­tÅnÃæ ca yo veda  % so 'viÓe«a iti sm­ta÷  // 12.29 //
+namaskÃrava«aÂkÃrau  $ prok«aïÃbhyuk«aïÃdaya÷  &
+anupÃya iti prÃj¤air  % upÃyaj¤a pravedita÷  // 12.30 //
+sajjate yena durmedhÃ  $ mano(vÃgbuddhikarmabhi÷ CvÃkkarmabuddhibhi÷ ) //
+vi«aye«v anabhi«vaÇga  % so 'bhi«vaÇga iti sm­ta÷  // 12.31 //
+mamedam aham asyeti  $ yad du÷kham abhimanyate  &
+vij¤eyo 'bhyavapÃta÷ sa  % saæsÃre yena pÃtyate  // 12.32 //
+ity a(vidyÃæ CvidyÃ )hi (vidvÃn sa CvidvÃæsa÷ [??]   $ pa¤ca(parvÃæ CparvÃ )samÅhate  &
+tamo mohaæ mahÃmohaæ  % tÃmisradvayam eva ca  // 12.33 //
+tatrÃlasyaæ tamo viddhi  $ mohaæ m­tyuæ ca janma ca  &
+mahÃmohas tv asaæmoha  % kÃma ity (eva gamyatÃm CavagamyatÃm )  // 12.34 //
+yasmÃd atra ca bhÆtÃni  $ pramuhyanti mahÃnty api  &
+tasmÃd e«a mahÃbÃho  % mahÃmoha iti sm­ta÷  // 12.35 //
+tÃmisram iti cÃkrodha  $ krodham evÃdhikurvate  &
+vi«Ãdaæ cÃndhatÃmisram  % avi«Ãda pracak«ate  // 12.36 //
+anayÃvidyayÃ bÃla÷  $ saæyukta÷ pa¤caparvayÃ  &
+saæsÃre du÷khabhÆyi«Âhe  % janmasv abhini«icyate  // 12.37 //
+dra«ÂÃ ÓrotÃ ca mantÃ ca  $ (kÃryakaraïam CkÃryaæ karaïam )eva ca  &
+aham ity evam Ãgamya  % saæsÃre parivartate  // 12.38 //
+(ihaibhir City ebhir )hetubhir dhÅman  $ (janmaCtama÷)srota÷ pravartate  &
+hetva(bhÃvÃt CbhÃve )phalÃbhÃva  % iti vij¤Ãtum arhasi  // 12.39 //
+tatra (samyaÇCsamyag)matir vidyÃn  $ mok«akÃma catu«Âayam  &
+pratibuddhÃprabuddhau ca  % vyaktam avyaktam eva ca  // 12.40 //
+yathÃvad etad vij¤Ãya  $ k«etraj¤o hi catu«Âayam  &
+(ÃjavaæjavatÃæ CÃrjavaæ javatÃæ )hitvÃ  % prÃpnoti padam ak«aram  // 12.41 //
+ityarthaæ brÃhmaïÃ loke  $ paramabrahmavÃdina÷  &
+brahmacaryaæ carantÅha  % brÃhmaïÃn vÃsayanti ca  // 12.42 //
+iti vÃkyam idaæ ÓrutvÃ  $ munes tasya n­pÃtmaja÷  &
+abhyupÃyaæ ca papraccha  % padam eva ca nai«Âhikam  // 12.43 //
+brahmacaryam idaæ caryaæ  $ yathÃ yÃvac ca yatra ca  &
+dharmasyÃsya ca paryantaæ  % bhavÃn vyÃkhyÃtum arhati  // 12.44 //
+ity arÃ¬o yathÃÓÃstraæ  $ vispa«ÂÃrthaæ samÃsata÷  &
+tam evÃnyena kalpena  % dharmam asmai vyabhÃ«ata  // 12.45 //
+ayam Ãdau g­hÃn muktvÃ  $ bhaik«Ãkaæ liÇgam ÃÓrita÷  &
+samudÃcÃravistÅrïaæ  % ÓÅlam ÃdÃya vartate  // 12.46 //
+saæto«aæ param ÃsthÃya  $ yena tena yatas tata÷  &
+viviktaæ sevate vÃsaæ  % nirdvaædva÷ ÓÃstravitk­tÅ  // 12.47 //
+tato rÃgÃd bhayaæ d­«ÂvÃ  $ vairÃgyÃc ca paraæ Óivam  &
+nig­hïann indriyagrÃmaæ  % yatate manasa÷ (Óame CÓrame )  // 12.48 //
+atho viviktaæ kÃmebhyo  $ vyÃpÃdÃdibhya eva ca  &
+vivekajam avÃpnoti  % pÆrvadhyÃnaæ vitarkavat  // 12.49 //
+tac ca (dhyÃnasukhaæ CdhyÃnaæ sukhaæ )prÃpya  $ tat tad eva vitarkayan  &
+apÆrvasukhalÃbhena  % hriyate bÃliÓo jana÷  // 12.50 //
+ÓamenaivaævidhenÃyaæ  $ kÃmadve«avigarhiïÃ  &
+brahmalokam avÃpnoti  % parito«eïa va¤cita÷  // 12.51 //
+j¤ÃtvÃ vidvÃn vitarkÃæs tu  $ mana÷saæk«obhakÃrakÃn  &
+tadviyuktam avÃpnoti  % dhyÃnaæ prÅtisukhÃnvitam  // 12.52 //
+hriyamÃïas tayÃ prÅtyÃ  $ yo viÓe«aæ na paÓyati  &
+sthÃnaæ bhÃsvaram Ãpnoti  % deve«v (ÃbhÃsvare«u sa÷ CÃbhÃsure«v api )  // 12.53 //
+yas tu prÅtisukhÃt tasmÃd  $ vivecayati mÃnasam  &
+t­tÅyaæ labhate dhyÃnaæ  % sukhaæ prÅtivivarjitam [Ed. C reads 12.57 after 12.54.]  // 12.54 //
+yas tu tasmin sukhe magno  $ na viÓe«Ãya yatnavÃn  &
+Óubhak­tsnai÷ sa sÃmÃnyaæ  % sukhaæ prÃpnoti daivatai÷  // 12.55 //
+tÃd­Óaæ sukham ÃsÃdya  $ yo na (rajyaty upek«aka÷ Crajyann upek«ate ) //
+caturthaæ dhyÃnam Ãpnoti  % sukhadu÷khavivarjitam  // 12.56 //
+tatra kecid vyavasyanti  $ mok«a ity (abhimÃnina÷ Capi mÃnina÷ ) //
+sukhadu÷khaparityÃgÃd  % avyÃpÃrÃc ca cetasa÷  // 12.57 //
+asya dhyÃnasya tu phalaæ  $ samaæ devair b­hatphalai÷  &
+kathayanti (b­hatkÃlaæ  $ b­hatCv­hatphalaæ  % v­hat)praj¤ÃparÅk«akÃ÷  // 12.58 //
+samÃdher vyutthitas tasmÃd  $ d­«ÂvÃ do«ÃæÓ charÅriïÃm  &
+j¤Ãnam Ãrohati prÃj¤a÷  % ÓarÅraviniv­ttaye  // 12.59 //
+tatas tad dhyÃnam uts­jya  $ viÓe«e k­taniÓcaya÷  &
+kÃmebhya iva (sa prÃj¤o CsatprÃj¤o   % rÆpÃd api virajyate  // 12.60 //
+ÓarÅre khÃni yÃny asmin  $ tÃny Ãdau parikalpayan  &
+ghane«v api tato dravye«v  % ÃkÃÓam adhimucyate  // 12.61 //
+ÃkÃÓa(gatam Csamam )ÃtmÃnaæ  $ saæk«ipya tv aparo budha÷  &
+(tad evÃnCtadaivÃn)antata÷ paÓyan  % viÓe«am adhigacchati  // 12.62 //
+adhyÃtma(kuÓalas tv CkuÓale«v )anyo  $ nivartyÃtmÃnam ÃtmanÃ  &
+kiæcin nÃstÅti saæpaÓyann  % Ãkiæcanya iti sm­ta÷  // 12.63 //
+tato mu¤jÃd i«Åkeva  $ Óakuni÷ pa¤jarÃd iva  &
+k«etraj¤o ni÷s­to dehÃn  % mukta ity abhidhÅyate  // 12.64 //
+etat tat paramaæ brahma  $ nirliÇgaæ dhruvam ak«aram  &
+yan mok«a iti tattvaj¤Ã÷  % kathayanti manÅ«iïa÷  // 12.65 //
+ity upÃyaÓ ca mok«aÓ ca  $ mayÃ saædarÓitas tava  &
+yadi j¤Ãtaæ yadi (rucir Cruci   % yathÃvat pratipadyatÃm  // 12.66 //
+jaigÅ«avyo 'tha janako  $ v­ddhaÓ caiva parÃÓara÷  &
+imaæ panthÃnam ÃsÃdya  % muktÃ hy anye ca mok«iïa÷  // 12.67 //
+iti tasya sa tad vÃkyaæ  $ g­hÅtvÃ (tu Cna )vicÃrya ca  &
+pÆrvahetubalaprÃpta÷  % pratyuttaram uvÃca (ha Csa÷ )  // 12.68 //
+Órutaæ j¤Ãnam idaæ sÆk«maæ  $ parata÷ parata÷ Óivam  &
+(k«etraj¤asyÃCk«etre«v asyÃ)parityÃgÃd  % avaimy etad anai«Âhikam  // 12.69 //
+vikÃraprak­tibhyo hi  $ k«etraj¤aæ muktam apy aham  &
+manye prasavadharmÃïaæ  % (bÅjaCvÅja)dharmÃïam eva ca  // 12.70 //
+viÓuddho yady api hy ÃtmÃ  $ nirmukta iti kalpyate  &
+((CbhÆya÷ pratyayasadbhÃvÃd  % amukta÷ sa bhavi«yati C))  // 12.71 //
+((C­tubhÆmyambuvirahÃd  $ yathÃ bÅjaæ na rohatiC))  &
+((Crohati pratyayais tais tais  % tadvat so 'pi mato mama C))  // 12.72 //
+((Cyat karmÃj¤Ãnat­«ïÃnÃæ  $ tyÃgÃn mok«aÓ ca kalpyateC))  &
+atyantas tatparityÃga÷  % saty Ãtmani na vidyate  // 12.73 //
+hitvÃ hitvÃ trayam idaæ  $ viÓe«as tÆpalabhyate  &
+Ãtmanas tu sthitir yatra  % tatra sÆk«mam idaæ trayam  // 12.74 //
+sÆk«matvÃc caiva do«ÃïÃm  $ avyÃpÃrÃc ca cetasa÷  &
+dÅrghatvÃd Ãyu«aÓ caiva  % mok«as tu parikalpyate  // 12.75 //
+ahaækÃraparityÃgo  $ yaÓ cai«a parikalpyate  &
+saty Ãtmani parityÃgo  % nÃhaækÃrasya vidyate  // 12.76 //
+saækhyÃdibhir amuktaÓ ca  $ nirguïo na bhavaty ayam  &
+tasmÃd asati nairguïye  % nÃsya mok«o 'bhidhÅyate  // 12.77 //
+guïino hi guïÃnÃæ ca  $ vyatireko na vidyate  &
+rÆpo«ïÃbhyÃæ virahito  % na hy agnir upalabhyate  // 12.78 //
+prÃg dehÃn na bhaved dehÅ  $ prÃg guïebhyas tathÃ guïÅ  &
+(tasmÃd CkasmÃd )Ãdau vimukta÷ (san Csa¤   % ÓarÅrÅ badhyate puna÷  // 12.79 //
+k«etraj¤o viÓarÅraÓ ca  $ j¤o vÃ syÃd aj¤a eva vÃ  &
+yadi j¤o j¤eyam asyÃsti  % j¤eye sati na mucyate  // 12.80 //
+athÃj¤a iti siddho va÷  $ kalpitena kim ÃtmanÃ  &
+vinÃpi hy ÃtmanÃj¤Ãnaæ  % prasiddhaæ kÃ«Âhaku¬yavat  // 12.81 //
+parata÷ paratas tyÃgo  $ yasmÃt tu guïavÃn sm­ta÷  &
+tasmÃt sarvaparityÃgÃn  % manye k­tsnÃæ k­tÃrthatÃm  // 12.82 //
+iti dharmam arÃ¬asya  $ viditvÃ na tuto«a sa÷  &
+ak­tsnam iti vij¤Ãya  % tata÷ pratijagÃma ha  // 12.83 //
+viÓe«am atha ÓuÓrÆ«ur  $ udrakasyÃÓramaæ yayau  &
+ÃtmagrÃhÃc ca tasyÃpi  % jag­he na sa darÓanam  // 12.84 //
+saæj¤Ãsaæj¤itvayor do«aæ  $ j¤ÃtvÃ hi munir udraka÷  &
+ÃkiæcinyÃt paraæ lebhe  % (asaæj¤Ãsaæj¤ÃtmikÃæ Csaæj¤Ãsaæj¤ÃtmikÃæ )gatim  // 12.85 //
+yasmÃc cÃlambane sÆk«me  $ saæj¤Ãsaæj¤e tata÷ param  &
+nÃsaæj¤Å naiva saæj¤Åti  % tasmÃt (tatragataCtatra gata)sp­ha÷  // 12.86 //
+yataÓ ca buddhis tatraiva  $ sthitÃnyatrÃpracÃriïÅ  &
+(sÆk«mÃpaÂvÅ CsÆk«mÃpÃdi )tatas tatra  % nÃsaæj¤itvaæ na saæj¤itÃ  // 12.87 //
+yasmÃc ca (tad Ctam )api prÃpya  $ punar Ãvartate jagat  &
+bodhisattva÷ paraæ prepsus  % tasmÃd udrakam atyajat  // 12.88 //
+tato hitvÃÓramaæ tasya  $ ÓreyoarthÅ k­taniÓcaya÷  &
+bheje gayasya rÃjar«er  % nagarÅsaæj¤am ÃÓramam  // 12.89 //
+atha naira¤janÃtÅre  $ Óucau ÓuciparÃkrama÷  &
+cakÃra vÃsam ekÃnta  % (vihÃrÃbhiratir C(vihÃrÃbhivratÅ )muni÷  // 12.90 //
+((C<xxx> tatpÆrvaæ  $ pa¤cendriyavaÓoddhatÃnC))  &
+((Ctapa÷ <xx> vratino bhik«Æn ... pa¤ca niraik«ata C))  // 12.91 //
+(te copatasthur Cpa¤copatasthur )d­«ÂvÃtra  $ bhik«avas taæ mumuk«ava÷  &
+puïyÃrjitadhanÃrogyam  % indriyÃrthÃ iveÓvaram  // 12.92 //
+saæpÆjyamÃnas tai÷ prahvair  $ (vinayÃd anuvartibhi÷ CvinayÃnatamÆrtibhi÷ ) //
+tadvaÓasthÃyibhi÷ Ói«yair  % lolair mana ivendriyai÷  // 12.93 //
+m­tyujanmÃntakaraïe  $ syÃd upÃyo 'yam ity atha  &
+du«karÃïi samÃrebhe  % tapÃæsy anaÓanena sa÷  // 12.94 //
+upavÃsavidhÅn naikÃn  $ kurvan naradurÃcarÃn  &
+var«Ãïi «aÂ (ÓamaCkarma)prepsur  % akarot kÃrÓyam Ãtmana÷  // 12.95 //
+annakÃle«u caikaikai÷  $ (sa kolaCsakola)tilataï¬ulai÷  &
+apÃrapÃrasaæsÃra  % pÃraæ prepsur apÃrayat  // 12.96 //
+dehÃd apacayas tena  $ tapasÃ tasya ya÷ k­ta÷  &
+sa evopacayo bhÆyas  % tejasÃsya k­to 'bhavat  // 12.97 //
+k­Óo 'py ak­ÓakÅrtiÓrÅr  $ hlÃdaæ cakre 'nya(cak«u«Ãm Ccak«u«am ) //
+kumudÃnÃm iva Óarac  % chuklapak«ÃdicandramÃ÷  // 12.98 //
+tvagasthiÓe«o ni÷Óe«air  $ meda÷piÓitaÓoïitai÷  &
+k«Åïo 'py ak«ÅïagÃmbhÅrya÷  % samudra iva sa vyabhÃt  // 12.99 //
+atha ka«Âatapa÷spa«Âa  $ vyarthakli«Âatanur muni÷  &
+bhavabhÅrur imÃæ cakre  % buddhim buddhatvakÃÇk«ayÃ  // 12.100 //
+nÃyaæ dharmo virÃgÃya  $ na bodhÃya na muktaye  &
+jambumÆle mayÃ prÃpto  % yas tadÃ sa vidhir dhruva÷  // 12.101 //
+na cÃsau durbalenÃptuæ  $ Óakyam ity ÃgatÃdara÷  &
+ÓarÅrabalav­ddhyartham  % idaæ bhÆyo 'nvacintayat  // 12.102 //
+k«utpipÃsÃÓramaklÃnta÷  $ ÓramÃd asvasthamÃnasa÷  &
+prÃpnuyÃn manasÃvÃpyaæ  % phalaæ katham anirv­ta÷  // 12.103 //
+nirv­ti÷ prÃpyate samyak  $ satatendriyatarpaïÃt  &
+saætarpitendriyatayÃ  % mana÷svÃsthyam avÃpyate  // 12.104 //
+svasthaprasannamanasa÷  $ samÃdhir upapadyate  &
+samÃdhiyuktacittasya  % dhyÃnayoga÷ pravartate  // 12.105 //
+dhyÃnapravartanÃd dharmÃ÷  $ prÃpyante yair avÃpyate  &
+durlabhaæ ÓÃntam ajaraæ  % paraæ tad am­taæ padam  // 12.106 //
+tasmÃd ÃhÃramÆlo 'yam  $ upÃya itiniÓcaya÷  &
+(ÃhÃraCasÆri)karaïe dhÅra÷  % k­tvÃmitamatir matim  // 12.107 //
+snÃto naira¤janÃtÅrÃd  $ uttatÃra Óanai÷ k­Óa÷  &
+bhaktyÃvanataÓÃkhÃgrair  % dattahastas taÂadrumai÷  // 12.108 //
+atha gopÃdhipasutÃ  $ daivatair abhicoditÃ  &
+udbhÆtah­dayÃnandÃ  % tatra nandabalÃgamat  // 12.109 //
+sitaÓaÇkhojjvalabhujÃ  $ nÅlakambalavÃsinÅ  &
+saphenamÃlÃnÅlÃmbur  % yamuneva saridvarÃ  // 12.110 //
+sÃ (ÓrÃddhÃvardhitaCÓraddhÃvardhita)prÅtir  $ vikasallocanotpalÃ  &
+ÓirasÃ praïipatyainaæ  % grÃhayÃm Ãsa pÃyasam  // 12.111 //
+k­tvÃ tadupabhogena  $ prÃptajanmaphalÃæ sa tÃm  &
+bodhiprÃptau samartho 'bhÆt  % saætarpita«a¬indriya÷  // 12.112 //
+paryÃptÃpyÃna(mÆrtiÓ CmÆrtaÓ )ca  $ (sÃrthaæ svaCsÃrdhaæ su)yaÓasÃ muni÷  &
+kÃnti(dhairye babhÃraika÷  $ ÓaÓÃÇkÃrïavayor dvayo÷ CdhairyaikabhÃraika÷  % ÓaÓÃÇkÃrïavaval babhau )  // 12.113 //
+Ãv­tta iti vij¤Ãya  $ taæ jahu÷ (pa¤ca bhik«ava÷ Cpa¤cabhik«ava÷ ) //
+manÅ«iïam ivÃtmÃnaæ  % nirmuktaæ (pa¤ca dhÃtava÷ Cpa¤cadhÃtava÷ )  // 12.114 //
+vyavasÃyadvitÅyo 'tha  $ ÓÃdvalÃs tÅrïabhÆtalam  &
+so 'ÓvatthamÆlaæ prayayau  % bodhÃya k­taniÓcaya÷  // 12.115 //
+tatas tadÃnÅæ gajarÃjavikrama÷  $ padasvanenÃnupamena bodhita÷  &
+mahÃmuner ÃgatabodhiniÓcayo  % jagÃda kÃlo bhujagottama÷ stutim  // 12.116 //
+yathÃ mune tvaccaraïÃvapÅ¬itÃ  $ muhur muhur ni«ÂanatÅva medinÅ  &
+yathÃ ca te rÃjati sÆryavat prabhÃ  % dhruvaæ tvam i«Âaæ phalam adya bhok«yase  // 12.117 //
+yathÃ bhramantyo divi (cÃ«aCvÃya)paÇktaya÷  $ pradak«iïaæ tvÃæ kamalÃk«a kurvate  &
+yathÃ ca saumyÃ divi vÃnti vÃyavas  % tvam adya buddho niyataæ bhavi«yasi  // 12.118 //
+tato bhujaægapravareïa saæstutas  $ t­ïÃny upÃdÃya ÓucÅni lÃvakÃt  &
+k­tapratij¤o ni«asÃda bodhaye  % mahÃtaror mÆlam upÃÓrita÷ Óuce÷  // 12.119 //
+tata÷ sa paryaÇkam akampyam uttamaæ  $ babandha suptoragabhogapiï¬itam  &
+bhinadmi tÃvad bhuvi naitad Ãsanaæ  % na yÃmi yÃvat k­tak­tyatÃm iti  // 12.120 //
+tato yayur mudam atulÃæ divaukaso  $ (vavÃÓire CvavÃsire )na m­ga(gaïÃ÷ CgaïÃ [Wrong sandhi in ed. EJH.])na pak«iïa÷  &
+na sasvanur vanataravo 'nilÃhatÃ÷  % k­tÃsane bhagavati (niÓcitÃtmani CniÓcalÃtmani )  // 12.121 //
+[[iti (CÓrÅC)buddhacarite mahÃkÃvye (CaÓvagho«ak­te C)arÃ¬adarÓano nÃma dvÃdaÓa÷ sarga÷ -- 12 --]]
+
+tasmin vimok«Ãya k­tapratij¤e  $ rÃjar«ivaæÓaprabhave mahar«au  &
+tatropavi«Âe prajahar«a lokas  % tatrÃsa saddharmaripus tu mÃra÷  // 13.1 //
+yaæ kÃmadevaæ pravadanti loke  $ citrÃyudhaæ pu«paÓaraæ tathaiva  &
+kÃmapracÃrÃdhipatiæ tam eva  % mok«advi«aæ mÃram udÃharanti  // 13.2 //
+tasyÃtmajÃ vibhramahar«adarpÃs  $ tisro (aratiCrati)prÅtit­«aÓ ca kanyÃ÷  &
+papracchur enaæ manaso vikÃraæ  % sa tÃæÓ ca tÃÓ caiva vaco (abhyuvÃca CbabhÃ«e )  // 13.3 //
+asau munir niÓcayavarma bibhrat  $ sattvÃyudhaæ buddhiÓaraæ vik­«ya  &
+jigÅ«ur Ãste vi«ayÃn madÅyÃn  % tasmÃd ayaæ me manaso vi«Ãda÷  // 13.4 //
+yadi hy asau mÃm abhibhÆya yÃti  $ lokÃya cÃkhyÃty apavargamÃrgam  &
+ÓÆnyas tato 'yaæ vi«ayo mamÃdya  % v­ttÃc cyutasyeva videhabhartu÷  // 13.5 //
+tad yÃvad evai«a na labdhacak«ur  $ madgocare ti«Âhati yÃvad eva  &
+yÃsyÃmi tÃvad vratam asya bhettuæ  % setuæ nadÅvega (ivÃtiv­ddha÷ CivÃbhiv­ddha÷ )  // 13.6 //
+tato dhanu÷ pu«pamayaæ g­hÅtvÃ  $ (ÓarÃn jaganmohaCÓarÃæs tathÃ moha)karÃæÓ ca pa¤ca  &
+so 'ÓvatthamÆlaæ sasuto 'bhyagacchad  % asvÃsthyakÃrÅ manasa÷ prajÃnÃm  // 13.7 //
+atha praÓÃntaæ munim Ãsanasthaæ  $ pÃraæ titÅr«uæ bhavasÃgarasya  &
+vi«ajya savyaæ karam ÃyudhÃgre  % (krÅ¬an CkrÅ¬a¤ )Óareïedam uvÃca mÃra÷  // 13.8 //
+utti«Âha bho÷ k«atriya m­tyubhÅta  $ (cara svadharmaæ Cvarasva dharmaæ )tyaja mok«adharmam  &
+(bÃïaiÓ CvÃïaiÓ )ca (yaj¤aiÓ ca C<xxx> )vinÅya (lokaæ ClokÃn   % (lokÃt padaæ ClokÃn parÃn )prÃpnuhi vÃsavasya  // 13.9 //
+panthÃ hi niryÃtum ayaæ yaÓasyo  $ yo vÃhita÷ pÆrvatamair narendrai÷  &
+jÃtasya rÃjar«ikule viÓÃle  % bhaik«Ãkam aÓlÃghyam idaæ prapattum  // 13.10 //
+athÃdya notti«Âhasi (niÓcitÃtman CniÓcitÃtmÃ   $ bhava sthiro mÃ vimuca÷ pratij¤Ãm  &
+mayodyato hy e«a Óara÷ sa eva  % ya÷ (ÓÆrpake CsÆryake )mÅnaripau vimukta÷  // 13.11 //
+(sp­«Âa÷ Cp­«Âa÷ )sa cÃnena kathaæcid ai¬a÷  $ somasya naptÃpy abhavad vicitta÷  &
+sa cÃbhavac (chaætanur CchÃætanur )asvatantra÷  % k«Åïe yuge kiæ (bata Cvata )durbalo 'nya÷  // 13.12 //
+tat k«ipram utti«Âha labhasva saæj¤Ãæ  $ (bÃïo CvÃïo )hy ayaæ ti«Âhati lelihÃna÷  &
+priyÃvidheye«u ratipriye«u  % yaæ cakravÃke«v (iva Capi )nots­jÃmi  // 13.13 //
+ity evam ukto 'pi yadÃ nirÃstho  $ naivÃsanaæ ÓÃkyamunir bibheda  &
+Óaraæ tato 'smai visasarja mÃra÷  % kanyÃÓ ca k­tvÃ purata÷ sutÃæÓ ca  // 13.14 //
+tasmiæs tu (bÃïe CvÃïe )api sa vipramukte  $ cakÃra nÃsthÃæ na dh­teÓ cacÃla  &
+d­«ÂvÃ tathainaæ vi«asÃda mÃraÓ  % cintÃparÅtaÓ ca Óanair jagÃda  // 13.15 //
+ÓailendraputrÅæ prati yena viddho  $ devo 'pi ÓaæbhuÓ calito babhÆva  &
+na cintayaty e«a tam eva (bÃïaæ CvÃïaæ   % kiæ syÃd acitto na Óara÷ sa e«a÷  // 13.16 //
+tasmÃd ayaæ nÃrhati pu«pa(bÃïaæ CvÃïaæ   $ na har«aïaæ nÃpi rater niyogam  &
+arhaty ayaæ bhÆtagaïair a(saumyai÷ CÓe«ai÷   % saætrÃsanÃtarjanatÃ¬anÃni  // 13.17 //
+sasmÃra mÃraÓ ca tata÷ svasainyaæ  $ (vighnaæ Óame Cvidhvaæsanaæ )ÓÃkyamuneÓ cikÅr«an  &
+nÃnÃÓrayÃÓ cÃnucarÃ÷ parÅyu÷  % (ÓalaCÓara)drumaprÃsagadÃsihastÃ÷  // 13.18 //
+varÃhamÅnÃÓvakharo«ÂravaktrÃ  $ vyÃghrark«asiæhadviradÃnanÃÓ ca  &
+ekek«aïÃ naikamukhÃs triÓÅr«Ã  % lambodarÃÓ caiva p­«odarÃÓ ca  // 13.19 //
+(ajÃnusakthÃ CajÃsu saktÃ )ghaÂajÃnavaÓ ca  $ daæ«ÂrÃyudhÃÓ caiva nakhÃyudhÃÓ ca  &
+(karaÇkavaktrÃ CkabandhuhastÃ )bahumÆrtayaÓ ca  % bhagnÃrdhavaktrÃÓ ca mahÃmukhÃÓ ca  // 13.20 //
+(bhasmÃruïÃ CtÃmrÃruïÃ )lohita(binduCvindu)citrÃ÷  $ khaÂvÃÇgahastÃ haridhÆmrakeÓÃ÷  &
+lambasrajo vÃraïalambakarïÃÓ  % carmÃmbarÃÓ caiva nirambarÃÓ ca  // 13.21 //
+ÓvetÃrdhavaktrÃ haritÃrdhakÃyÃs  $ tÃmrÃÓ ca dhÆmrÃ harayo 'sitÃÓ ca  &
+(vyÃlottarÃsaÇgaCvyÃ¬ottarÃsaÇga)bhujÃs tathaiva  % praghu«ÂaghaïÂÃkulamekhalÃÓ ca  // 13.22 //
+tÃlapramÃïÃÓ ca g­hÅtaÓÆlÃ  $ daæ«ÂrÃkarÃlÃÓ ca ÓiÓupramÃïÃ÷  &
+urabhravaktrÃÓ ca vihaæ(gamÃk«Ã CgamÃÓ ca   % mÃrjÃravaktrÃÓ ca manu«yakÃyÃ÷  // 13.23 //
+prakÅrïakeÓÃ÷ Óikhino 'rdhamuï¬Ã  $ (raktÃmbarÃ CrajjvambarÃ )vyÃkulave«ÂanÃÓ ca  &
+prah­«ÂavaktrÃ bh­kuÂÅmukhÃÓ ca  % tejoharÃÓ caiva manoharÃÓ ca  // 13.24 //
+kecid vrajanto bh­Óam Ãvavalgur  $ anyoanyam Ãpupluvire tathÃnye  &
+cikrÅ¬ur ÃkÃÓagatÃÓ ca kecit  % kecic ca cerus tarumastake«u  // 13.25 //
+nanarta kaÓcid bhramayaæs triÓÆlaæ  $ kaÓ(cid vipusphÆrja Ccid dha pusphÆrja )gadÃæ vikar«an  &
+har«eïa kaÓcid v­«avan (nanarda Cnanarta   % kaÓcit prajajvÃla tanÆruhebhya÷  // 13.26 //
+evaævidhÃ bhÆtagaïÃ÷ samantÃt  $ tad bodhimÆlaæ parivÃrya tasthu÷  &
+jigh­k«avaÓ caiva jighÃæsavaÓ ca  % bhartur niyogaæ paripÃlayanta÷  // 13.27 //
+taæ prek«ya mÃrasya ca pÆrvarÃtre  $ ÓÃkyar«abhasyaiva ca yuddhakÃlam  &
+na dyauÓ cakÃÓe p­thivÅ cakampe  % prajajvaluÓ caiva diÓa÷ saÓabdÃ÷  // 13.28 //
+(vi«vag CviÓvag )vavau vÃyur udÅrïavegas  $ tÃrÃ na rejur na babhau ÓaÓÃÇka÷  &
+tamaÓ ca bhÆyo (vitatÃna rÃtri÷ CvitatÃra rÃtre÷   % sarve ca saæcuk«ubhire samudrÃ÷  // 13.29 //
+mahÅbh­to dharmaparÃÓ ca nÃgÃ  $ mahÃmuner vighnam am­«yamÃïÃ÷  &
+mÃraæ prati krodhaviv­ttanetrÃ  % ni÷ÓaÓvasuÓ caiva jaj­mbhire ca  // 13.30 //
+ÓuddhÃdhivÃsÃ vibudhar«ayas tu  $ saddharmasiddhyartham (abhiprav­ttÃ÷ Civa prav­ttÃ÷ ) //
+mÃre 'nukampÃæ manasÃ pracakrur  % virÃgabhÃvÃt tu na ro«am Åyu÷  // 13.31 //
+tad bodhimÆlaæ samavek«ya kÅrïaæ  $ hiæsÃtmanÃ mÃrabalena tena  &
+dharmÃtmabhir lokavimok«akÃmair  % babhÆva hÃhÃk­tam (antarÅk«e CantarÅk«am )  // 13.32 //
+(upaplavaæ Cupaplutaæ )dharma(vidhes Cvidas )tu tasya  $ d­«ÂvÃ sthitaæ mÃrabalaæ mahar«i÷  &
+na cuk«ubhe nÃpi yayau vikÃraæ  % madhye gavÃæ siæha ivopavi«Âa÷  // 13.33 //
+mÃras tato bhÆtacamÆm udÅrïÃm  $ Ãj¤ÃpayÃm Ãsa bhayÃya tasya  &
+svai÷ svai÷ prabhÃvair atha sÃsya senÃ  % taddhairyabhedÃya matiæ cakÃra  // 13.34 //
+kecic calan naikavilambijihvÃs  $ (tÅk«ïÃgraCtÅk«ïogra)daæ«ÂrÃ harimaï¬alÃk«Ã÷  &
+vidÃritÃsyÃ÷ sthiraÓaÇkukarïÃ÷  % saætrÃsayanta÷ kila nÃma tasthu÷  // 13.35 //
+tebhya÷ sthitebhya÷ sa tathÃvidhebhya÷  $ rÆpeïa bhÃvena ca dÃruïebhya÷  &
+na vivyathe nodvivije mahar«i÷  % (krÅ¬atsuCkrÅ¬an su)bÃlebhya ivoddhatebhya÷  // 13.36 //
+kaÓcit tato (ro«aCraudra)viv­ttad­«Âis  $ tasmai gadÃm udyamayÃæ cakÃra  &
+tastambha bÃhu÷ sagadas tato 'sya  % puraædarasyeva purÃ savajra÷  // 13.37 //
+kecit samudyamya ÓilÃs tarÆæÓ ca  $ vi«ehire naiva munau vimoktum  &
+petu÷ sav­k«Ã÷ saÓilÃs tathaiva  % vajrÃvabhagnÃ iva vindhyapÃdÃ÷  // 13.38 //
+kaiÓcit samutpatya nabho vimuktÃ÷  $ ÓilÃÓ ca v­k«ÃÓ ca paraÓvadhÃÓ ca  &
+tasthur nabhasy eva na cÃvapetu÷  % saædhyÃbhrapÃdÃ iva naikavarïÃ÷  // 13.39 //
+cik«epa tasyopari dÅptam anya÷  $ ka¬aÇgaraæ parvataÓ­ÇgamÃtram  &
+yan muktamÃtraæ gaganastham eva  % tasyÃnubhÃvÃc chatadhÃ (paphÃla CbabhÆva )  // 13.40 //
+kaÓcij jalann arka ivodita÷ khÃd  $ aÇgÃravar«aæ mahad utsasarja  &
+cÆ­nÃni cÃmÅkarakandarÃïÃæ  % kalpÃtyaye merur iva pradÅpta÷  // 13.41 //
+tad bodhimÆle pravikÅryamÃïam  $ aÇgÃravar«aæ tu savisphuliÇgam  &
+maitrÅvihÃrÃd ­«isattamasya  % babhÆva raktotpala(pattraCpatra)var«a÷  // 13.42 //
+ÓarÅracittavyasanÃtapais tair  $ evaævidhais taiÓ ca nipÃtyamÃnai÷  &
+naivÃsanÃc chaÃkyamuniÓ cacÃla  % (svaniÓcayaæ Csvaæ niÓcayaæ )bandhum ivopaguhya  // 13.43 //
+athÃpare (nirjigilur Cnirjagalur )mukhebhya÷  $ sarpÃn vijÅrïebhya iva drumebhya÷  &
+te mantrabaddhÃ iva tatsamÅpe  % na ÓaÓvasur (notsas­pur Cnalutsas­jur )na celu÷  // 13.44 //
+bhÆtvÃpare vÃridharÃ (b­hanta÷ Cv­hanta÷   $ savidyuta÷ sÃÓanicaï¬agho«Ã÷  &
+tasmin drume tatyajur aÓmavar«aæ  % tat pu«.pavar«aæ ruciraæ babhÆva  // 13.45 //
+cÃpe 'tha (bÃïo CvÃïo )nihito 'pareïa  $ jajvÃla tatraiva na ni«papÃta  &
+anÅÓvarasyÃtmani (dhÆyamÃno CdhÆryamÃïo   % durmar«aïasyeva narasya manyu÷  // 13.46 //
+pa¤ce«avo 'nyena tu vipramuktÃs  $ tasthur (nabhasy Cnayaty )eva munau na petu÷  &
+saæsÃrabhÅror vi«ayaprav­ttau  % pa¤cendriyÃïÅva parÅk«akasya  // 13.47 //
+jighÃæsayÃnya÷ prasasÃra ru«Âo  $ gadÃæ g­hÅtvÃbhimukho mahar«e÷  &
+so 'prÃpta(kÃmo CkÃlo )vivaÓa÷ papÃta  % do«e«v ivÃnarthakare«u loka÷  // 13.48 //
+strÅ meghakÃlÅ tu kapÃlahastÃ  $ kartuæ mahar«e÷ kila (cittamoham Cmohacittam ) //
+babhrÃma tatrÃniyataæ na tasthau  % calÃtmano buddhir ivÃgame«u  // 13.49 //
+kaÓcit pradÅptaæ praïidhÃya cak«ur  $ netrÃgninÃÓÅvi«avad didhak«u÷  &
+tatraiva (nÃsÅnam CnÃsÅt taæ )­«iæ dadarÓa  % kÃmÃtmaka÷ Óreya ivopadi«Âam  // 13.50 //
+gurvÅæ ÓilÃm udyamayaæs tathÃnya÷  $ ÓaÓrÃma moghaæ vihataprayatna÷  &
+ni÷Óreyasaæ j¤ÃnasamÃdhigamyaæ  % kÃyaklamair dharmam ivÃptukÃma÷  // 13.51 //
+tarak«usiæhÃk­tayas tathÃnye  $ praïedur uccair mahata÷ praïÃdÃn  &
+sattvÃni yai÷ saæcukucu÷ samantÃd  % vajrÃhatÃ dyau÷ phalatÅti matvÃ  // 13.52 //
+m­gÃ gajÃÓ (cÃrtaCcÃrtta)ravÃn s­janto  $ vidudruvuÓ caiva nililyire ca  &
+rÃtrau ca tasyÃm ahanÅva digbhya÷  % khagÃ ruvanta÷ paripetur (ÃrtÃ÷ CÃrttÃ÷ )  // 13.53 //
+te«Ãæ praïÃdais tu tathÃvidhais tai÷  $ sarve«u bhÆte«v api kampite«u  &
+munir na tatrÃsa na saæcukoca  % ravair garutmÃn iva vÃyasÃnÃm  // 13.54 //
+bhayÃvahebhya÷ pari«adgaïebhyo  $ yathÃ yathÃ naiva munir bibhÃya  &
+tathÃ tathÃ dharmabh­tÃæ sapatna÷  % ÓokÃc ca ro«Ãc ca (sasÃda CsasÃra )mÃra÷  // 13.55 //
+bhÆtaæ tata÷ kiæcid ad­ÓyarÆpaæ  $ viÓi«Âa(bhÆtaæ CrÆpaæ )gaganastham eva  &
+d­«Âvar«aye drugdham avairaru«Âaæ  % mÃraæ babhÃ«e mahatÃ svareïa  // 13.56 //
+moghaæ Óramaæ nÃrhasi mÃra kartuæ  $ hiæsrÃtmatÃm uts­ja gaccha Óarma  &
+nai«a tvayÃ kampayituæ hi Óakyo  % mahÃgirir merur ivÃnilena  // 13.57 //
+apy u«ïabhÃvaæ jvalana÷ prajahyÃd  $ Ãpo dravatvaæ p­thivÅ sthiratvam  &
+anekakalpÃcitapuïyakarmÃ  % na tv eva jahyÃd vyavasÃyam e«a÷  // 13.58 //
+yo niÓcayo hy asya parÃkramaÓ ca  $ tejaÓ ca yad yÃ ca dayÃ prajÃsu  &
+aprÃpya notthÃsyati tattvam e«a  % tamÃæsy ahatveva sahasraraÓmi÷  // 13.59 //
+kÃ«Âhaæ hi mathnan labhate hutÃÓaæ  $ bhÆmiæ khanan vindati cÃpi toyam  &
+nirbandhina÷ kiæ(cana nÃsty asÃdhyaæ Cca na nÃsya sÃdhyaæ   % nyÃyena yuktaæ ca k­taæ ca sarvam  // 13.60 //
+tal lokam (Ãrtaæ CÃrttaæ )karuïÃyamÃno  $ roge«u rÃgÃdi«u vartamÃnam  &
+mahÃ(bhi«aÇ Cbhi«ag )nÃrhati vighnam e«a  % j¤Ãnau«adhÃrthaæ parikhidyamÃna÷  // 13.61 //
+h­te ca loke bahubhi÷ kumÃrgai÷  $ sanmÃrgam anvicchati ya÷ Órameïa  &
+sa daiÓika÷ k«obhayituæ na yuktaæ  % sudeÓika÷ sÃrthae iva prana«Âe  // 13.62 //
+sattve«u na«Âe«u mahÃndha(kÃre CkÃrair   $ j¤ÃnapradÅpa÷ kriyamÃïa e«a÷  &
+Ãryasya nirvÃpayituæ na sÃdhu  % prajvÃlyamÃnas tamasÅva dÅpa÷  // 13.63 //
+d­«ÂvÃ ca saæsÃramaye mahaughe  $ magnaæ jagat pÃram avindamÃnam  &
+yaÓ cedam uttÃrayituæ prav­tta÷  % (kaÓ cintayet CkaÓcin nayet )tasya tu pÃpam Ãrya÷  // 13.64 //
+k«amÃÓipho dhairyavigÃ¬hamÆlaÓ  $ cÃritrapu«pa÷ sm­tibuddhiÓÃkha÷  &
+j¤Ãnadrumo dharmaphalapradÃtÃ  % notpÃÂanaæ hy arhati vardhamÃna÷  // 13.65 //
+baddhÃæ d­¬haiÓ cetasi mohapÃÓair  $ yasya prajÃæ mok«ayituæ manÅ«Ã  &
+tasmin jighÃæsÃ tava nopapannÃ  % ÓrÃnte jagadbandhanamok«aheto÷  // 13.66 //
+bodhÃya karmÃïi hi yÃny anena  $ k­tÃni te«Ãæ niyato 'dya kÃla÷  &
+sthÃne tathÃsminn upavi«Âa e«a  % yathaiva pÆrve munayas tathaiva  // 13.67 //
+e«Ã hi nÃbhir vasudhÃtalasya  $ k­tsnena yuktÃ parameïa dhÃmnÃ  &
+bhÆmer ato 'nyo 'sti hi na pradeÓo  % (vegaæ CveÓaæ )samÃdher (vi«aheta yo 'sya Cvi«ayo hitasya )  // 13.68 //
+tan mÃ k­thÃ÷ Óokam upehi ÓÃntiæ  $ mÃ bhÆn mahimnÃ tava mÃra mÃna÷  &
+viÓrambhituæ na k«amam adhruvÃ ÓrÅÓ  % cale pade (vismayam Ckiæ padam )abhyupai«i  // 13.69 //
+tata÷ sa saæÓrutya ca tasya tad vaco  $ mahÃmune÷ prek«ya ca ni«prakampatÃm  &
+jagÃma mÃro vi(mano CmanÃ )hatodyama÷  % Óarair jagaccetasi yair (vihanyate Cvihanyase )  // 13.70 //
+gataprahar«Ã viphalÅk­taÓramÃ  $ praviddhapÃ«Ãïaka¬aÇgaradrumÃ  &
+diÓa÷ pradudrÃva tato 'sya sÃ camÆr  % hatÃÓrayeva dvi«atÃ dvi«accamÆ÷  // 13.71 //
+dravati sa(paripak«e Cparapak«e )nirjite pu«paketau  $ jayati jitatamaske nÅrajaske mahar«au  &
+yuvatir iva sahÃsÃ dyauÓ cakÃÓe sacandrÃ  % surabhi ca jalagarbhaæ pu«pavar«aæ papÃta  // 13.72 //
+X(CtathÃpi pÃpÅyasi nirjite gate  $ diÓa÷ prasedu÷ prababhau niÓÃkara÷  &
+Xdivo nipetur bhuvi pu«pav­«Âayo  % rarÃja yo«eva vikalma«Ã niÓÃC)  // 13.73 //
+[[iti (CÓrÅC)buddhacarite mahÃkÃvye 'Óvagho«ak­te mÃravijayo nÃma trayodaÓa÷ sarga÷ -- 13 --]]
+
+tato mÃrabalaæ jitvÃ  $ dhairyeïa ca Óamena ca  &
+paramÃrthaæ vijij¤Ãsu÷  % sa dadhyau dhyÃnakovida÷  // 14.1 //
+sarve«u dhyÃnavidhi«u  $ prÃpya caiÓvaryam uttamam  &
+sasmÃra prathame yÃme  % pÆrvajanmaparaæparÃm  // 14.2 //
+amutrÃham ayaæ nÃma  $ cyutas tasmÃd ihÃgata÷  &
+iti janmasahasrÃïi  % sasmÃrÃnubhavann iva  // 14.3 //
+sm­tvÃ janma ca m­tyuæ ca  $ tÃsu tÃsÆpapatti«u  &
+tata÷ sattve«u kÃruïyaæ  % cakÃra karuïÃtmaka÷  // 14.4 //
+k­tveha svajanotsargaæ  $ punar anyatra ca kriyÃ÷  &
+atrÃïa÷ khalu loko 'yaæ  % paribhramati cakravat  // 14.5 //
+ity evaæ smaratas tasya  $ babhÆva niyatÃtmana÷  &
+kadalÅgarbhani÷sÃra÷  % saæsÃra iti niÓcaya÷  // 14.6 //
+dvitÅye tv Ãgate yÃme  $ so 'dvitÅyaparÃkrama÷  &
+divyaæ (lebhe Ccak«u÷ )paraæ (cak«u÷ Clebhe   % sarvacak«u«matÃæ vara÷  // 14.7 //
+tatas tena sa divyena  $ pariÓuddhena cak«u«Ã  &
+dadarÓa nikhilaæ lokam  % ÃdarÓae iva nirmale  // 14.8 //
+sattvÃnÃæ paÓyatas tasya  $ nik­«Âotk­«ÂakarmaïÃm  &
+pracyutiæ copapattiæ ca  % vav­dhe karuïÃtmatÃ  // 14.9 //
+ime du«k­takarmÃïa÷  $ prÃïino yÃnti durgatim  &
+ime 'nye ÓubhakarmÃïa÷  % prati«Âhante tripi«Âape  // 14.10 //
+upapannÃ÷ pratibhaye  $ narake bh­ÓadÃruïe  &
+amÅ du÷khair bahuvidhai÷  % pÅ¬yante k­païaæ (bata Cvata )  // 14.11 //
+pÃyyante kvathitaæ kecid  $ agnivarïam ayorasam  &
+Ãropyante ruvanto 'nye  % ni«Âaptastambham Ãyasam  // 14.12 //
+pacyante pi«Âavat kecid  $ ayaskumbhÅ«v avÃÇmukhÃ÷  &
+dahyante karuïaæ kecid  % dÅpte«v aÇgÃrarÃÓi«u  // 14.13 //
+kecit tÅk«ïair ayodaæ«Ârair  $ bhak«yante dÃruïai÷ Óvabhi÷  &
+kecid dh­«Âair ayastuï¬air  % vÃyasair Ãyasair iva  // 14.14 //
+kecid dÃhapariÓrÃntÃ÷  $ ÓÅtacchÃyÃbhikÃÇk«iïa÷  &
+asi(pattravanaæ Cpatraæ vanaæ )nÅlaæ  % baddhÃ iva viÓanty amÅ  // 14.15 //
+pÃÂyante dÃruvat kecit  $ kuÂhÃrair (baddhaCbahu)bÃhava÷  &
+du÷khe 'pi na (vipacyante Cvipadyante   % karmabhir dhÃritÃsava÷  // 14.16 //
+sukhaæ syÃd iti yat karma  $ k­taæ du÷khaniv­ttaye  &
+phalaæ tasyedam avaÓair  % du÷kham evopabhujyate  // 14.17 //
+sukhÃrtham aÓubhaæ k­tvÃ  $ yae ete bh­Óadu÷khitÃ÷  &
+ÃsvÃda÷ sa kim ete«Ãæ  % karoti sukham aïv api  // 14.18 //
+hasadbhir yat k­taæ karma  $ kalu«aæ kalu«Ãtmabhi÷  &
+etat pariïate kÃle  % kroÓadbhir anubhÆyate  // 14.19 //
+yady (evaæ Ceva )pÃpakarmÃïa÷  $ paÓyeyu÷ karmaïÃæ phalam  &
+vameyur (u«ïaæ rudhiraæ Cu«ïarudhiraæ   % marmasv abhihatÃ iva  // 14.20 //
+X(CÓÃrÅrebhyo 'pi du÷khebhyo  $ nÃrakebhyo manasvina÷  &
+XanÃryai÷ saha saævÃso  % mama k­cchramatamo mata÷  // [Printed as spurious verse in a footnote in ed. EHJ.]C) //
+ime 'nye karmabhiÓ citraiÓ  $ cittavispandasaæbhavai÷  &
+tiryagyonau vicitrÃyÃm  % upapannÃs tapasvina÷  // 14.21 //
+mÃæsatvagbÃladantÃrthaæ  $ vairÃd api madÃd api  &
+hanyante (k­païaæ Ck­païÃ )yatra  % bandhÆnÃæ paÓyatÃm api  // 14.22 //
+aÓaknuvanto 'py avaÓÃ÷  $ k«uttar«aÓramapÅ¬itÃ÷  &
+goaÓvabhÆtÃÓ ca vÃhyante  % pratodak«atamÆrtaya÷  // 14.23 //
+vÃhyante gajabhÆtÃÓ ca  $ balÅyÃæso 'pi durbalai÷  &
+aÇkuÓakli«ÂamÆrdhÃnas  % tÃ¬itÃ÷ pÃdapÃr«ïibhi÷  // 14.24 //
+satsv apy anye«u du÷khe«u  $ du÷khaæ yatra viÓe«ata÷  &
+parasparavirodhÃc ca  % parÃdhÅnatayaiva ca  // 14.25 //
+khasthÃ÷ khasthair hi bÃdhyante  $ jalasthÃ jalacÃribhi÷  &
+sthalasthÃ÷ sthalasaæsthaiÓ (ca  $ prÃpya caivetaretarai÷ Ctu  % prÃpyante cetaretarai÷ )  // 14.26 //
+upapannÃs tathÃ ceme  $ mÃtsaryÃkrÃntacetasa÷  &
+pit­loke nirÃloke  % k­païaæ bhu¤jate phalam  // 14.27 //
+sÆcÅchidropamamukhÃ÷  $ parvatopamakuk«aya÷  &
+k«uttar«ajanitair du÷khai÷  % pÅ¬yante du÷khabhÃgina÷  // 14.28 //
+ÃÓayÃ (samatikrÃntÃ CsamabhikrÃntÃ   $ dhÃryamÃïÃ÷ svakarmabhi÷  &
+labhante na hy amÅ bhoktuæ  % praviddhÃny aÓucÅny api [This verse is placed after 14.30 in ed. C.]  // 14.29 //
+puru«o yadi jÃnÅta  $ mÃtsaryasyed­Óaæ phalam  &
+sarvathÃ (Óibivad CÓivivad )dadyÃc  % charÅrÃvayavÃn api  // 14.30 //
+ime 'nye (narakaprakhye Cnarakaæ prÃpya   $ garbhasaæj¤e 'Óucihrade  &
+upapannÃ manu«ye«u  % du÷kham archanti jantava÷  // 14.31 //
+<xxxxxx> [Ed. C continues with chapter 14 till 14.91, and chapters 15--17.]

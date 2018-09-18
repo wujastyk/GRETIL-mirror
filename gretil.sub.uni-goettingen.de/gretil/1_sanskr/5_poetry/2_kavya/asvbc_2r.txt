@@ -1,0 +1,3897 @@
+ASVAGHOSA: BUDDHACARITA (input by Peter Schreiner)
+
+  
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ THIS TEXT FILE IS FOR REFERENCE PURPOSES ONLY!	³
+³ COPYRIGHT AND TERMS OF USAGE AS FOR SOURCE FILE.	³
+³							³
+³ Text converted to Ronald E. Emmerick's encoding for   ³
+³ WordPerfect 5.1 DOS and related utility programmes 	³
+³ BHELA, CARAKA etc. (DOS versions): 			³
+³ 							³
+³ description             character  =	ASCII		³
+³  							³
+³ long a                  Ã             195		³
+³ long A                  ù             249		³
+³ long i                  Å             197		³
+³ long I                  ı             253		³
+³ long u                  Æ             198		³
+³ long U                  ô             244		³
+³ vocalic r               ­             173		³
+³ vocalic R               ã             227		³
+³ long vocalic r          Ì             204		³
+³ vocalic l               Ê             202		³
+³ long vocalic l          Ë             203		³
+³ velar n                 Ç             199		³
+³ velar N                 §             167		³
+³ palatal n               ¤             164		³
+³ palatal N               ¥             165		³
+³ retroflex t             Â             194		³
+³ retroflex T             è             232		³
+³ retroflex d             ¬             172		³
+³ retroflex D             Ö             214		³
+³ retroflex n             ï             239		³
+³ retroflex N             ×             215		³
+³ palatal s               Ó             211		³
+³ palatal S               Á             193		³
+³ retroflex s             «             171		³
+³ retroflex S             å             229		³
+³ anusvara                æ             230		³
+³ capital anusvara        õ             245		³
+³ visarga                 ÷             247		³
+³ capital visarga         ê             234		³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+
+
+<TEI.1>
+<TEI.header>
+   <file.description>
+      <title.statement>
+        <title> A/svagho.sa's Buddhacarita: A machine readable transliteration
+        <\title>
+        <statement.of.responsibility>
+           <role> edited by
+           <\role>
+           <name> Peter Schreiner
+           <\name>
+        <\statement.of.responsibility>
+      <\title.statement>
+ 
+        <edition.statement>
+           Version <date> February 1990 <\date>
+        <\edition.statement>
+ 
+        <extent.statement>
+        <\extent.statement>
+ 
+        <publication.statement>
+        <release> <\release>
+        <\publication.statement>
+ 
+        <source.description>
+<author> [A/svagho.sa]
+<editor> Johnston, E. H.
+<title> The Buddhacarita: Or, Acts of the Buddha. Part I -- Sanskrit Text
+<imprint>
+   <publ.city> Calcutta
+   <publisher> Baptist Mission Press
+   <publ.date> 1935
+   <citn.detail> 21, 165 pp.
+   <series> Panjab University Oriental Publications No. 31
+<\imprint>
+        <\source.description>
+ 
+        <source.description>
+<author> [A/svagho.sa]
+<editor> Cowell, Edward B.
+<title> The Buddha--Karita or Live of Buddha by Asvaghosha,
+Indian poet of the early second century after Christ. Sanskrit
+text, edited from a Devanagari and two Nepalese manuscripts with
+variant readings, a preface, notes and in index of names.
+<imprint>
+   <publ.city> Amsterdam (orig. Oxford)
+   <publisher> Oriental Press NV (orig. Oxford University Press)
+   <publ.date> 1970 (orig. 1893)
+   <citn.detail> 16, 175 pp.
+   <series> Anecdota Oxoniensia, Aryan Series,Part VII
+<\imprint>
+        <\source.description>
+ 
+      <\title.statement>
+   <\file.description>
+ 
+   <encoding.declaration>
+ 
+<composition.history>
+The text of the Johnston edition was transliterated on the basis
+of a cursory reading; the typed input was compared with the
+edition by Cowell, partly as a routine of proof--reading, partly
+in order to be able to add variant readings from the older
+edition. (The conventions for inputting variants are described
+below.) Proof--reading and insertion of variants was done
+"manually" and I do not guarantee completeness. The additional
+passages in Cowell at the beginning of the poem were not
+transliterated completely, and the additional chapters at the end
+were not transliterated at all.
+<\composition.history>
+ 
+ 
+<diacritical.marks>:
+Punctuation marks are used to code diacritics. All diacritics are
+typed in front of the letter to which they belong. This imitates
+the traditional "layout" of typewriters where accents etc. are
+placed on dead keys and need to be typed before the character is
+typed.
+
+. = subscript dot (e..g. k.rta.h)
+; = superscript dot (e..g. a;nga)
+? = tilda (superscript) (e..g. praj?n-a)
+- = superscript hyphen (macron) (e..g. -atm-a)
+/ or ' = aigu (superscript) (e..g. /s-astra, 's-astra)
+! = da.n.da (or vertical bar)
+ 
+This might be formalized according to the TEI guidelines (I am
+not sure!!) as:
+<grapheme code="-"diacritic="DL">
+<grapheme code="."diacritic="DL"> etc.
+In the TEI-Guidelines "&amacr;" (which makes current text
+illegible) is used for my "-a".
+
+Where, as in this introductory document or in comments to variant
+readings within the text, the use of punctuation marks in their
+proper function has to alternate with their function as
+diacritical marks, their use as punctuation marks is
+distinguished by a following blank (or numerals or other signs of
+punctuation including parentheses, quotation marks etc.) or by
+doubling where a blank is not possible (in abbreviations,
+"e..g."). Thus, the dots in ".r.s.i" are diacritics, but the dot
+after ".r.si. " is a full stop because of the following blank.
+Similarly, since no blank can be inserted after a hyphen, the
+actual hyphen is written by doubling it %("p-ada--index").
+Exclamation mark is used for the da.n.da which serves as
+punctuation mark in Devan-agar-i texts.
+<\diacritical.marks>
+ 
+<editorial.notes>
+Annotations, remarks etc. by the editor of the transliteration
+are enclosed in square brackets.
+
+Annotations by the editor(s) of the edition which served as
+source of the transliteration (e..g. conjectures, markers for
+lacunae etc.) which are part of the printed edition are enclosed
+in pointed parentheses.
+<\editorial.notes>
+ 
+<colophons>
+Colophons which are part of the printed edition are enclosed by
+double square brackets.
+<\colophons>
+ 
+<analysis>
+<sandhi>
+The "principle of transliteration" has been that the input format
+should reproduce the letters of the printed text as closely as
+possible, i..e. that one types what one sees. However, markers
+are added (in the transliteration) to what is printed (in
+Devan-agar-i) to indicate that fact that a printed (and
+consequently typed) letter has undergone some sandhi change.
+
+   A sandhi change is defined with regard to the "pausa form" of
+a word, i..e. the form a word would take at the end of a line or
+out of context (vigraha). Note that this pausa form need not be
+identical with the stem which would be entered in a dictionary.
+
+   Thus, (final and initial) consonants which have undergone a
+sandhi change in the text are marked by "*". Similarly, final
+vowels which have changed due to sandhi are marked by "*" (e..g.
+"-as-id* r-aj-a nalo* n-ama").
+
+   In case of vowel sandhi the sandhi is dissolved and marked
+(e..g. na*asti, ca*eva). Similarly, avagraha is reconstituted,
+the originally omitted initial "a" being marked as sandhi vowel
+(e..g. devo* *api).
+
+   In some special cases the marking of sandhi has to be extended
+to include some disambiguating information:
+
+-- to half--vowels which substitute for a long vowel the
+diacritic for "long vowel" (-) is added (e..g. devy-* api);
+
+-- if final --a in sandhi does not stand for --a.h (with
+visarga), then the original vowel which has been substituted by
+the --a is added (e..g. lokae* eva, where "loka eva" is printed,
+which is the sandhi form for "loke eva").
+ 
+In case of "double sandhi" the sandhi is marked by double "**",
+e..g. sa**eva in case of "saiva" instead of "sa* eva").
+ 
+Blank is inserted between words wherever this is possible in
+transliteration (though not necessarily in Devan-agar-i), e..g.
+"hy* api", "nalo* *api".
+<\sandhi>
+ 
+<compounds>
+Another feature which exceeds what might be expected from a
+straightforward transliteration is the separation of nominal
+compounds. Separation of compounds is marked by inserting +
+between the members of a compound (e..g. brahma+pur-a.na,
+buddha+carita). In case of sandhi, the + functions also as
+sa.mdhi--marker, i..e. no additional sandhi--marker is added
+(e..g. tapo+vane, mah-a+-atmana.h).
+ 
+Separation of compounds is restricted to nominal compounds
+(including upap-ada--compounds like ura+ga, go+p-i) and does not
+include grammatical analysis. For details, special cases etc. see
+the introduction to Sanskrit Indices and Text of the
+Brahmapur-a.na, Wiesbaden 1987, p. xvi--xvii, by P. Schreiner and
+R. S%hnen.
+<\compounds>
+ 
+<variae.lectiones>
+<variants>
+The beginning of the passage for which a variant exists is marked
+by opening parenthesis. In deciding about the extension of the
+text thus marked, the changes generated for the text format had
+to be taken into consideration. This meant that occasionally
+words which are identical in the base text and in the variant are
+included in the parentheses, since in the text format (sa.mhita)
+the beginning of a variant could not be printed if that word is
+joined to the preceding word in vowel sandhi. Thus we write "...
+(mah-a+-atm-a Xmah-a+puru.sa.h) ...", even though the "mah-a+" is
+identical in both versions.
+ 
+The beginning of the variant is marked by a siglum, viz. by a
+single capital letter (capital letters are used exclusively for
+that purpose in the transliteration). Several sigla are separated
+by a comma (no blank) -- which does not occur in this file of
+course. There is no blank between the siglum and the variant.
+ 
+If there are several variants for the same passage of the base
+text, they are listed sequentially. The variant (or the last
+variant if there is more than one) is closed by the closing
+parenthesis. The blank before the next word is considered to
+belong to the variant and is put inside the parentheses. The
+continuation of the base text follows without intermediate blank.
+ 
+Schematic pattern:
+(... A... )...
+(... A,B... )...
+(... A... B... )...
+<\variants>
+ 
+<interpolations>
+Interpolations are treated as "variants without base text", i..e.
+siglum follows immediately upon the opening parenthesis. The
+siglum is repeated before the closing parenthesis which marks the
+end of the interpolation. This allows for the input of variants
+within interpolations which are attested in more than one source.
+ 
+Long interpolations may be entered as a sequence of separate
+interpolations (e..g. verse by verse). Interpolated lines are
+(may be) marked by "X" at the beginning of the line (which is
+meant to mark "star"--passages as e..g. in the criticial edition
+of the MBh).
+<\interpolations>
+ 
+<omissions>
+Passages from the base text which are omitted in any of the
+variant texts are marked by double parentheses plus siglum
+enclosing the omitted passage (which may also be individual
+words).
+ 
+Schematic patterns:
+((S... S))
+... ((S... S))...
+<\omissions>
+<\variae.lectiones>
+<\analysis>
+ 
+<reference.system>
+The full reference (chapter and verse) is given at the end of the
+verse to which it refers. (While transliterating the full
+reference needs to be typed only for the first verse of each
+chapter.) The reference consists of two figures separated by a
+(single) dot. The first number refers to the chapter, the second
+number refers to the verse--number within the chapter.
+ 
+The beginning of references is marked by double exclamation mark
+(i..e. da.n.da) and the end is marked by a single exclamation
+mark. Always after a reference a new line begins.
+ 
+<other.information>
+The input and processing of the transliterated text has been done
+with TUSTEP, the Tuebingen System of Text--Processing Programs.
+
+   The TUSTEP format includes a reference number in front of
+every record; this machine reference has been calculated in such
+a way that it agrees with the textual reference. In the
+ASCII--format of the input file this machine reference is lost.
+
+    Some of the tools for textual analysis which can be produced
+from the input format have been published for the Brahmapur-a.na:
+Peter Schreiner, Renate Soehnen: Sanskrit Indices and Text of the
+Brahmapur-a.na. Wiesbaden: Otto Harrassowitz, 1987.
+ 
+   The following list gives a survey of programs (German names in
+parentheses) developed for the processing of our input:
+ 
+   Any of the transliterated versions (i..e. ed. Johnston or ed.
+Cowell) can be extracted (GRUNDTEXTKOP, VARTEXTKOP)
+ 
+   The machine references in TUSTEP are calculated from the
+references in the text (REFRECHNEN).
+ 
+   The text format (i..e. the conventionally transliterated text
+without markers; with compounds and sandhis reconstituted) can be
+generated (TEXTFORM). This version can be processed for output in
+Devan-agar-i with programs which work on the basis of
+transliterated input (e..g. TeX).
+ 
+   The pausa format of the text is generated by changing all the
+characters marked by * or + according to the sandhi rules of
+Sanskrit grammar. Each word appears in the phonetic form which it
+would assume at the end of a line (e..g. -adibhir*, -adibhi.s*,
+-adibhi's*, -adhibhis* all become -adibhi.h). Members of
+compounds are separated. (PAUSAFORM)
+ 
+Indexes:
+-- KWIC--index (from modified input format)
+-- P-ada--index (from modified text format)
+-- wordforms (from pausa format)
+-- reverse index of wordforms (from pausa format)
+
+   All indexes are sorted according to the Devan-agar-i alphabet
+and may include frequencies (absolute and relative) and
+formatting commands for the output.
+ 
+   Those interested in any version or output other than the
+transliterated input format with variants may contact:
+
+    Peter Schreiner, Indologisches Seminar, Universit%t Z%rich,
+    R%mistr. 68, CH--8001 Z%rich, Switzerland.
+ 
+I would appreciate if those who in using this electronic text
+change it or add to it would inform me about their views and
+intentions and methods and results; those who use this text for
+their research while preparing a publication should feel morally
+obliged to send me an offprint. (I hope I am not asking too
+much!)
+<\other.information>
+<\encoding.declaration>
+ 
+   <revision.history>
+<who> Peter Schreiner
+<\who>
+<date> October 1989 to February 1990
+<\date>
+<what> transliteration, entry of variants; cursory proof--reading
+<\what>
+   <\revision.history>
+ 
+ 
+<\TEI.header>
+ 
+<text>
+<\text>
+ 
+<\TEI.1>
+
+=======  draft of TEI-header for Buddhacarita:
+
+
+
+
+X[The Buddhacarita: Or, acts of the Buddha; part I: Sanskrit text.
+Xedited by E. H. Johnston. Calcutta: Baptist Mission Press, 1935.
+XPanjab University Oriental Publications No. 31. ]
+X
+X[Variants according to: Cowell, Edward B.: The Buddha--karita or
+Xlive of Buddha by Asvaghosha, Indian poet of the early second
+Xcentury after Christ. Sanskrit text, edited from a Devanagari and
+Xtwo Nepalese manuscripts, with variant readings, a preface, notes
+Xand an index of names. Amsterdam: Oriental Press,  1970, repr.
+Xof: Oxford 1893. Lacunae in ch. 1 have not yet been completely
+Xcopied from ed. C; the rest of ch. 14, and chs 15-17 are also
+Xmissing!!]
+X
+
+
+
+
+X(C Óriyaæ* para+ardhyÃæ* vidadhad* vidhÃt­+jit |
+Xtamo* nirasyann* abhibhÆta+bhÃnu+bh­t |
+Xnudan nidÃghaæ* jita+cÃru+candra+mÃ÷ |
+Xsa* vandyate *arhann* iha yasya na*upamÃ |1.1| C)
+X(CÃsÅd* viÓÃla+unnata+sÃnu+lak«myÃ |
+Xpayo+da+paÇktyÃ*iva parÅta+pÃrÓvaæ* |
+Xud+agra+dhi«ïyÃæ* gagane *avagÃ¬haæ* |
+Xpuraæ* mahÃ+­«e÷ kapilasya vastu |1.2| C)
+X(Csita+unnatena*iva nayena h­tvÃ |kailÃsa+Óailasya yad* abhra+ÓobhÃm |
+XbhramÃd upetÃn vahad+ambu+vÃhÃn |saæbhÃvanÃæ* vÃ sa+phalÅ+cakÃra |1.3| C)
+X(Cratna+prabhÃ+udbhÃsini yatra lebhe |
+Xtamo* na dÃridryam iva*avakÃÓam |
+Xpara+ardhya+paurai÷ saha+vÃsa+to«Ãt |
+Xk­ta+smitÃ*iva*atirarÃja lak«mÅ÷ |1.4| C)
+tasmin vane ÓrÅmati rÃja+patnÅ |
+prasÆti+kÃlaæ* samavek«amÃïÃ | 
+ÓayyÃæ* vitÃna+upahitÃæ* prapede |
+nÃrÅ+sahasrair* abhinandyamÃnÃ ||1.8|
+tata÷ prasannaÓ* ca babhÆva pu«yas* |
+tasyÃÓ* ca devyÃ* vrata+saæsk­tÃyÃ÷ |
+pÃrÓvÃt suto* loka+hitÃya jaj¤e | 
+nir+vedanaæ* ca*eva nir+Ãmayaæ* ca ||1.9|
+X[Verse 1.9 corresponds to 1.25 in ed. Cowell.]
+Æror* yathÃ*aurvasya p­thoÓ* ca hastÃn* | 
+mÃndhÃtur* indra+pratimasya mÆrdhna÷ | 
+kak«ÅvataÓ* ca*eva bhuja+aæsa+deÓÃt | 
+tathÃ+vidhaæ* tasya babhÆva janma ||1.10|
+X(CprÃta÷ payo+dÃd* iva tigma+bhÃnu÷ |
+Xsamudbhavan so* *api ca ma-t­+kuk«e÷ |
+Xsphuran mayÆkhair* vihata+andha+kÃraiÓ* |
+XcakÃra lokaæ* kanaka+avadÃtam |1.26| C)
+X(Ctaæ* jÃta+mÃtram atha kÃ¤cana+yÆpa+gauraæ* |
+XprÅta÷ sahasra+nayaïa÷ Óanakair* g­hïÃt |
+XmandÃra+pu«pa+nikarai÷ saha tasya mÆrdhni |
+XkhÃn* nir+male ca vinipetatur* ambu+dhÃre |1.27| C)
+X(Csura+pradhÃnai÷ paridhÃryamÃïo |
+Xdeha+aæÓu+jÃlair* anura¤jayaæs* tÃn |
+XsaædhyÃ+abhra+jÃla+upari+saænivi«Âaæ* |
+Xnava+u¬u+rÃjaæ* vijigÃya lak«myÃ |1.28| C)
+krameïa garbhÃd* abhini÷s­ta÷ san | 
+babhau (cyuta÷ Cgata÷ )khÃd* iva yony+a+jÃta÷ |
+kalpe«v* an+(eke«u ca Ceke«v* iva )bhÃvita+ÃtmÃ |
+ya÷ saæprajÃnan su«uve na mÆ¬ha÷ ||1.11|
+dÅptyÃ ca dhairyeïa (ca yo* CÓriyÃ )rarÃja |
+bÃlo* ravir* bhÆmim iva*avatÅrïa÷ | 
+tathÃ*ati+dÅpto* *api nirÅk«yamÃïo* | 
+jahÃra cak«Ææ«i yathÃ ÓaÓa+aÇka÷ ||1.12|
+sa* hi sva+gÃtra+prabhayÃ*ujjvalantyÃ* |
+dÅpa+prabhÃæ* bhÃs+karavan* mumo«a |
+mahÃ+arha+jÃmbÆnada+cÃru+varïo* |
+vidyotayÃm Ãsa diÓaÓ* ca sarvÃ÷ ||1.13|
+(an+Ãkula+a+nyubja+Can+ÃkulÃny* ab+ja+)samudgatÃni | 
+(ni«pe«avad+vyÃyata+Cni«pe«avanty* Ãyata+)vikramÃïi |
+tathÃ*eva dhÅrÃïi padÃni sapta | 
+sapta+­«i+tÃrÃ+sa+d­Óo* jagÃma ||1.14|
+bodhÃya jÃto* *asmi jagad+dhita+artham | 
+antyÃ (bhava+utpattir* CtathÃ*utpattir* )iyaæ* mama*iti |
+catur+diÓaæ* siæha+gatir* vilokya | 
+vÃïÅæ* ca bhavya+artha+karÅm uvÃca ||1.15|
+khÃt prasrute candra+marÅci+Óubhre |
+dve vÃri+dhÃre ÓiÓira+u«ïa+vÅrye |
+(ÓarÅra+saæsparÓa+sukha+antarÃya CÓarÅra+saukhya+artham an+uttarasya )|
+nipetatur* mÆrdhani tasya saumye ||1.16|
+ÓrÅmad+vitÃne kanaka+ujjvala+aÇge | 
+vai¬Ærya+pÃde Óayane ÓayÃnam | 
+yad+gauravÃt kÃ¤cana+padma+hastÃ* |
+yak«a+adhipÃ÷ saæparivÃrya tasthu÷ ||1.17|
+(<xxxxxÓ*> ca CmÃyÃ+tanÆ+jasya )diva+okasa÷ khe |
+yasya prabhÃvÃt praïatai÷ Óirobhi÷ | 
+ÃdhÃrayan pÃïdaram Ãtapa+traæ* |
+bodhÃya jepu÷ parama+ÃÓi«aÓ* ca ||1.18|
+mahÃ+ura+gÃ* dharma+viÓe«a+tar«Ãd* |
+buddhe«v* atÅte«u k­ta+adhikÃrÃ÷ | 
+yam avyajan bhakti+viÓi«Âa+netrÃ* |
+mandÃra+pu«pai÷ samavÃkiraæÓ* ca ||1.19|
+tathÃ+gata+utpÃda+guïena tu«ÂÃ÷ | 
+Óuddha+adhivÃsÃÓ* ca viÓuddha+sattvÃ÷ |
+devÃ* nanandur* vigate *api rÃge | 
+magnasya du÷khe jagato* hitÃya ||1.20|
+(yasya prasÆtau Cyasmin prasÆte )giri+rÃja+kÅlÃ |
+vÃta+ÃhatÃ naur* iva bhÆÓ* cacÃla | 
+sa+candanÃ ca*utpala+padma+garbhÃ | 
+papÃta v­«Âir* (gaganÃd* CgagaïÃd* )an+abhrÃt ||1.21|
+vÃtÃ* vavu÷ sparÓa+sukhÃ* mano+j¤Ã* | 
+divyÃni vÃsÃæsy* avapÃtayanta÷ | 
+sÆrya÷ sa* eva*abhy+adhikaæ* cakÃÓe | 
+jajvÃla saumya+arcir* an+Årito* *agni÷ ||1.22|
+prÃg+uttare ca*avasatha+pradeÓe |
+kÆpa÷ svayaæ* prÃdur* abhÆt sita+ambu÷ | 
+anta÷+purÃïy* Ãgata+vismayÃni | 
+yasmin kriyÃs* tÅrthae* iva pracakru÷ ||1.23|
+dharma+arthibhir* bhÆta+gaïaiÓ* ca divyais* | 
+tad+darÓana+arthaæ* (vanam ÃpupÆre Cbalam Ãpa pÆra÷ )|
+kautÆhalena*eva ca pÃda+(pebhya÷ CpaiÓ* ca )|
+(pu«pÃïy* a+kÃle *api <xxxxx> CprapÆjayÃm Ãsa sa+gandha+pu«.pai÷ )||1.24|
+<xxxx> |
+nidarÓanÃny* atra ca no* nibodha ||1.40|
+yad* rÃja+ÓÃstraæ* bh­gur* aÇgirÃ* vÃ |
+na cakratur* vaæÓa+karÃv* ­«Å tau | 
+tayo÷ sutau saumya sasarjatus* tat | 
+kÃlena ÓukraÓ* ca b­has+patiÓ* ca ||1.41|
+sÃrasvataÓ* ca*api jagÃda na«Âaæ* | 
+vedaæ* punar* yaæ* dad­Óur* na pÆrve | 
+vyÃsas* tathÃ*enaæ* bahudhÃ cakÃra | 
+na yaæ* vasi«Âha÷ k­tavÃn a+Óakti÷ ||1.42|
+vÃlmÅkir* Ãdau ca sasarja padyaæ* | 
+jagrantha yan* na cyavano* mahÃ+­«i÷ | 
+cikitsitaæ* yac* ca cakÃra na*atri÷ | 
+paÓcÃt tad* Ãtreya* ­«ir* jagÃda ||1.43|
+yac* ca dvi+jatvaæ* kuÓiko* na lebhe | 
+tad* gÃdhina÷ sÆnur* avÃpa rÃjan | 
+velÃæ* samudre sagaraÓ* ca dadhre | 
+na*ik«vÃkavo* yÃæ* prathamaæ* babandhu÷ ||1.44|
+ÃcÃryakaæ* yoga+vidhau dvi+jÃnÃm | 
+a+prÃptam anyair* janako* jagÃma |
+khyÃtÃni karmÃïi ca yÃni Óaure÷ | 
+ÓÆra+Ãdayas* te«v* a+balÃ* babhÆvu÷ ||1.45|
+tasmÃt pramÃïaæ* na vayo* na (vaæÓa÷ CkÃla÷ )|
+kaÓ+cit kva+cic* *chrai«Âhyam upaiti loke | 
+rÃj¤Ãm ­«ÅïÃæ* ca (hi tÃni ChitÃni )tÃni |
+k­tÃni putrair* a+k­tÃni pÆrvai÷ ||1.46|
+evaæ* n­+pa÷ pratyayitair* dvi+jais* tair* |
+ÃÓvÃsitaÓ* ca*apy* abhinanditaÓ* ca | 
+ÓaÇkÃm an+i«ÂÃæ* vijahau manasta÷ | 
+prahar«am eva*adhikam Ãruroha ||1.47|
+prÅtaÓ* ca tebhyo* dvi+ja+sattamebhya÷ | 
+sat+kÃra+pÆrvaæ* pradadau dhanÃni | 
+bhÆyÃd* ayaæ* bhÆmi+patir* yathÃ+ukto* | 
+yÃyÃj* jarÃm etya vanÃni ca*iti ||1.48|
+atha*u nimittaiÓ* ca tapo+balÃc* ca | 
+taj* janma janma+anta+karasya buddhvÃ | 
+ÓÃkya+ÅÓvarasya*Ãlayam ÃjagÃma | 
+sad+dharma+tar«Ãd* asito* mahÃ+­«i÷ ||1.49|
+taæ* brahma+vid+brahma+(vidaæ* CvidÃæ* )jvalantaæ* |
+brÃhmyÃ ÓriyÃ ca*eva tapa÷+ÓriyÃ ca | 
+rÃj¤o* gurur* gaurava+sat+kriyÃbhyÃæ* | 
+praveÓayÃm Ãsa nara+indra+sadma ||1.50|
+sa* pÃrthiva+anta÷+pura+saænikar«aæ* | 
+kumÃra+janma+Ãgata+har«a+(vega÷ Cvegaæ* )|
+viveÓa dhÅro* (vana+saæj¤ayÃ*iva Cbala+saæj¤ayÃ*eva )|
+tapa÷+prakar«Ãc* ca jarÃ+ÃÓrayÃc* ca ||1.51|
+tato* n­+pas* taæ* munim Ãsana+sthaæ* | 
+pÃdya+arghya+pÆrvaæ* pratipÆjya samyak | 
+nimantrayÃm Ãsa yathÃ+upacÃraæ* | 
+purÃ vasi«Âhaæ* sa* iva*anti+deva÷ ||1.52|
+dhanyo* *asmy* anugrÃhyam idaæ* kulaæ* me | 
+yan* mÃæ* did­k«ur* bhagavÃn upeta÷ | 
+Ãj¤ÃpyatÃæ* kiæ* karavÃïi saumya | 
+Ói«yo* *asmi viÓrambhitum arhasi*iti ||1.53|
+evaæ* n­+peïa*upamantrita÷ san | 
+sarveïa bhÃvena munir* yathÃvat | 
+(sa* vismaya+utphulla+Csa+vismaya+utphulla+)viÓÃla+d­«Âir* |
+gambhÅra+dhÅrÃïi vacÃæsy* uvÃca ||1.54|
+mahÃ+Ãtmani tvayy* upapannam etat |
+priya+atithau tyÃgini dharma+kÃme | 
+sattva+anvaya+j¤Ãna+vayo+anu+rÆpÃ |
+snigdhÃ yad* evaæ* mayi te mati÷ syÃt ||1.55|
+etac* ca tad* yena n­+pa+­«ayas* te | 
+dharmeïa (sÆk«meïa dhanÃny* avÃpya CsÆk«mÃïi dhanÃny* apÃsya )|
+nityaæ* tyajanto* vidhivad* babhÆvus* | 
+tapobhir* Ã¬hyÃ* vibhavair* daridrÃ÷ ||1.56|
+prayojanaæ* yat tu mama*upayÃne | 
+tan* me Ó­ïu prÅtim upehi ca tvam | 
+divyÃ (mayÃ*Ãditya+CmayÃ*divya+)pathe ÓrutÃ vÃg* |
+bodhÃya jÃtas* tanayas* tava*iti ||1.57|
+ÓrutvÃ vacas* tac* ca manaÓ* ca yuktvÃ | 
+j¤ÃtvÃ nimittaiÓ* ca tato* *asmy* upeta÷ | 
+did­k«ayÃ ÓÃkya+kula+dhvajasya | 
+Óakra+dhvajasya*iva samucchritasya ||1.58|
+ity* etad* evaæ* vacanaæ* niÓamya |
+prahar«a+saæbhrÃnta+gatir* nara+indra÷ |
+ÃdÃya dhÃtry-+aÇka+gataæ* kumÃraæ* |
+saædarÓayÃm Ãsa tapo+dhanÃya ||1.59|
+cakra+aÇka+pÃdaæ* sa* (tato* CtathÃ )mahÃ+­«ir* |
+jÃla+avanaddha+aÇguli+pÃïi+pÃdam | 
+sa+Ærïa+bhruvaæ* vÃraïa+vasti+koÓaæ* | 
+sa+vismayaæ* rÃja+sutaæ* dadarÓa ||1.60|
+dhÃtry-+aÇka+saævi«Âam avek«ya ca*enaæ* | 
+devy-+aÇka+saævi«Âam iva*agni+sÆnum | 
+babhÆva (pak«ma+anta+vica¤cita+aÓrur* Cpak«ma+antar* iva a¤cita+aÓrur* )|
+niÓvasya ca*eva tri+diva+un+mukho* *abhÆt ||1.61|
+d­«ÂvÃ*asitaæ* tv* aÓru+paripluta+ak«aæ* | 
+snehÃt (tanÆ+jasya Ctu putrasya )n­+paÓ* cakampe |
+sa+gadgadaæ* bÃ«pa+ka«Ãya+kaïÂha÷ | 
+papraccha (sa* Cca )pra+a¤jalir* Ãnata+aÇga÷ ||1.62|
+alpa+antaraæ* yasya vapu÷ (surebhyo* Cmune÷ syÃd* )|
+bahv+adbhutaæ* yasya ca janma dÅptam | 
+yasya*uttamaæ* bhÃvinam Ãttha ca*arthaæ* | 
+taæ* prek«ya kasmÃt tava dhÅra bÃ«pa÷ ||1.63|
+api sthira+Ãyur* bhagavan kumÃra÷ | 
+kac+cin* na ÓokÃya mama prasÆta÷ | 
+(labdhÃ Clabdha÷ )kathaæ+cit salila+a¤jalir* me |
+na khalv* imaæ* pÃtum upaiti kÃla÷ ||1.64|
+apy* a+k«ayaæ* me yaÓaso* nidhÃnaæ* | 
+kac+cid* dhruvo* me kula+hasta+sÃra÷ | 
+api prayÃsyÃmi sukhaæ* paratra |
+(supto* *api Csupte *api )putre *a+nimi«a+eka+cak«u÷ ||1.65|
+kac+cin* na me jÃtam a+phullam eva | 
+kula+(pravÃlaæ* CprabÃlaæ* )pariÓo«a+bhÃgi |
+k«ipraæ* vibho brÆhi na me *asti ÓÃnti÷ | 
+snehaæ* sute vetsi hi bÃndhavÃnÃm ||1.66|
+ity* Ãgata+Ãvegam an+i«Âa+buddhyÃ | 
+buddhvÃ nara+indraæ* sa* munir* babhÃ«e | 
+mÃ bhÆn* matis* te n­+pa kÃ+cid* | 
+anyÃ ni÷+saæÓayaæ* tad* yad* avocam asmi ||1.67|
+na*asya*anyathÃtvaæ* prati vikriyÃ me | 
+svÃæ* va¤canÃæ* tu prati viklavo* *asmi | 
+kÃlo* hi me yÃtum ayaæ* ca jÃto* | 
+jÃti+k«ayasya*a+su+labhasya boddhÃ ||1.68|
+vihÃya rÃjyaæ* vi«aye«v* an+Ãsthas* | 
+tÅvrai÷ prayatnair* adhigamya tattvam | 
+jagaty* ayaæ* moha+tamo* nihantuæ* | 
+jvali«yati j¤Ãnamayo* hi sÆrya÷ ||1.69|
+du÷kha+arïavÃd* vyÃdhi+vikÅrïa+phenÃj* | 
+jarÃ+taraÇgÃn* maraïa+ugra+vegÃt | 
+uttÃrayi«yaty* ayam uhyamÃnam | 
+(Ãrtaæ* CÃrttaæ* )jagaj* j¤Ãna+mahÃ+plavena ||1.70|
+praj¤Ã+ambu+vegÃæ* sthira+ÓÅla+vaprÃæ* | 
+samÃdhi+ÓÅtÃæ* vrata+cakra+vÃkÃm | 
+asya*uttamÃæ* dharma+nadÅæ prav­ttÃæ | 
+t­«ïÃ+Ãrdita÷ pÃsyati jÅva+loka÷ ||1.71|
+du÷kha+Ãrditebhyo* vi«aya+Ãv­tebhya÷ | 
+saæsÃra+kÃntÃra+patha+sthitebhya÷ | 
+ÃkhyÃsyati hy* e«a* vimok«a+mÃrgaæ* | 
+mÃrga+prana«Âebhya* iva*adhva+gebhya÷ ||1.72|
+vidahyamÃnÃya janÃya loke | 
+rÃga+agninÃ*ayaæ* vi«aya+indhanena | 
+prahlÃdam ÃdhÃsyati dharma+v­«ÂyÃ | 
+v­«ÂyÃ mahÃ+megha* iva*Ãtapa+ante ||1.73|
+t­«ïÃ+argalaæ* moha+tama÷+kapÃÂaæ* | 
+dvÃraæ+ prajÃnÃm apayÃna+heto÷ | 
+vipÃÂayi«yaty* ayam uttamena | 
+sad+dharma+tÃ¬ena dur+Ãsadena ||1.74|
+svair* moha+pÃÓai÷ parive«Âitasya | 
+du÷kha+abhibhÆtasya nir+ÃÓrayasya | 
+lokasya saæbudhya ca dharma+rÃja÷ | 
+kari«yate bandhana+mok«am e«a÷ ||1.75|
+tan* mÃ k­thÃ÷ Óokam imaæ* prati tvam |
+(asmin sa* Óocyo* *asti Ctat saumya Óocye hi )manu«ya+loke | 
+mohena vÃ kÃma+sukhair* madÃd* vÃ |
+yo* nai«Âhikaæ* Óro«yati na*asya dharmam ||1.76|
+bhra«Âasya tasmÃc* ca guïÃd* ato* me | 
+dhyÃnÃni labdhvÃ*apy* a+k­ta+arthatÃ*eva | 
+dharmasya tasya*Ã ÓravaïÃd* ahaæ* hi | 
+manye vipattiæ* tri+dive *api vÃsam ||1.77|
+iti Óruta+artha÷ sa+su+h­t sa+dÃras* | 
+tyaktvÃ vi«Ãdaæ* mumude nara+indra÷ | 
+evaæ+vidho* *ayaæ* tanayo* mama*iti | 
+mene sa* hi svÃm api (sÃravattÃm CsÃramattÃm )||1.78|
+(Ãr«eïa CÃryeïa )mÃrgeïa tu yÃsyati*iti |
+cintÃ+vidheyaæ* h­dayaæ* cakÃra | 
+na khalv* asau na priya+dharma+pak«a÷ | 
+saætÃna+nÃÓÃt tu bhayaæ* dadarÓa ||1.79|
+atha munir* asito* nivedya tattvaæ* | 
+suta+niyataæ* suta+viklavÃya rÃj¤e | 
+sa+bahu+matam udÅk«yamÃïa+rÆpa÷ | 
+pavana+pathena yathÃ+Ãgataæ jagÃma ||1.80|
+k­ta+(mitir* Cmatir* )anujÃ+sutaæ* ca d­«ÂvÃ |
+muni+vacana+Óravaïe ca tan+matau ca | 
+bahu+vidham anukampayÃ sa* sÃdhu÷ | 
+priya+sutavad* viniyojayÃæ* cakÃra ||1.81|
+nara+patir* api putra+janma+tu«Âo* | 
+vi«aya+(gatÃni CmatÃni )vimucya bandhanÃni |
+kula+sa+d­Óam acÅkarad* yathÃvat | 
+priya+(tanayas* Ctanayaæ* )tanayasya jÃta+karma ||1.82|
+daÓasu pariïate«v* aha÷su (ca*eva Cca*evaæ* )|
+prayata+manÃ÷ parayÃ mudÃ parÅta÷ | 
+akuruta japa+homa+maÇgala+ÃdyÃ÷ | 
+(parama+bhavÃya CparamatamÃ÷ sa* )sutasya devatÃ+ijyÃ÷ ||1.83|
+api ca Óata+sahasra+pÆ­na+saækhyÃ÷ | 
+sthira+balavat+tanayÃ÷ sa+hema+Ó­ÇgÅ÷ |
+an+upagata+jarÃ÷ payasvinÅr* gÃ÷ |
+svayam adadÃt suta+v­ddhaye dvi+jebhya÷ ||1.84|
+bahu+vidha+vi«ayÃs* tato* yata+ÃtmÃ | 
+sva+h­daya+to«a+karÅ÷ kriyÃ vidhÃya | 
+guïavati (niyate Cdivase )Óive muhÆrte |
+matim akaron* mudita÷ pura+praveÓe ||1.85|
+dvi+rada+radamayÅm atha*u mahÃ+arhÃæ* | 
+sita+sita+pu«pa+bh­tÃæ* maïi+pradÅpÃm |
+abhajata ÓivikÃæ* ÓivÃya devÅ | 
+tanayavatÅ praïipatya devatÃbhya÷ ||1.86|
+puram atha purata÷ praveÓya patnÅæ* | 
+sthavira+jana+anugatÃm apatya+nÃthÃm | 
+n­+patir* api jagÃma paura+saæghair* | 
+divam a+marair* maghavÃn iva*arcyamÃna÷ ||1.87|
+bhavanam atha vigÃhya ÓÃkya+rÃjo* | 
+bhava* iva «aï+mukha+janmanÃ pratÅta÷ | 
+idam idam iti har«a+pÆrïa+vaktro* | 
+bahu+vidha+pu«Âi+yaÓas+karaæ* vyadhatta ||1.88|
+iti nara+pati+putra+janma+v­ddhyÃ | 
+sa+jana+padaæ* kapila+Ãhvayaæ* puraæ* tat | 
+dhana+da+puram iva*apsaraso* *avakÅrïaæ* | 
+muditam abhÆn* nala+(kÆbara+CkÆvara+)prasÆtau ||1.89|
+[[iti (CÓrÅ+C)buddha+carite mahÃ+kÃvye bhagavat+prasÆtir* nÃma prathama÷ sarga÷ |1|]]
+Ã janmano* janma+(jarÃ+anta+gasya CjarÃ+antakasya )|
+tasya*atma+jasya*Ãtma+jita÷ sa* rÃjÃ | 
+ahany* ahany* artha+gaja+aÓva+mitrair* | 
+v­ddhiæ* yayau sindhur* iva*ambu+vegai÷ ||2.1|
+dhanasya ratnasya ca tasya tasya | 
+k­ta+a+k­tasya*eva ca kÃ¤canasya | 
+tadÃ hi (na*ekÃn sa* nidhÅn avÃpa Cna*eka+Ãtma+nidhÅn avÃpi )|
+mano+rathasya*apy* ati+bhÃra+bhÆtÃn ||2.2|
+ye padma+kalpair* api ca dvi+pa+indrair* | 
+na maï¬alaæ* Óakyam iha*abhinetum | 
+mada+utkaÂÃ* haimavatÃ* gajÃs* te | 
+vinÃ*api yatnÃd* upatasthur* enam ||2.3|
+nÃnÃ+aÇka+cihnair* nava+hema+bhÃï¬air* | 
+(vibhÆ«itair* Ca+bhÆ«itair* )lamba+saÂais* tathÃ*anyai÷ | 
+saæcuk«ubhe ca*asya puraæ* turaæ+gair* | 
+balena maitryÃ ca dhanena ca*Ãptai÷ ||2.4|
+pu«ÂÃÓ* ca tu«ÂÃÓ* ca (tathÃ*asya CtadÃ*asya )rÃjye | 
+sÃdhvyo* *a+rajaskÃ* guïavat+payaskÃ÷ | 
+ud+agra+vatsai÷ sahitÃ* babhÆvur* | 
+bahvyo* bahu+k«Åra+duhaÓ* ca gÃva÷ ||2.5|
+madhya+sthatÃæ* tasya ripur* jagÃma | 
+madhya+(stha+Csva+)bhÃva÷ prayayau su+h­ttvam |
+viÓe«ato dÃr¬hyam iyÃya mitraæ* | 
+dvÃv* asya pak«Ãv* a+paras tu (na*Ãsa CnÃÓam )||2.6|
+tathÃ*asya manda+anila+megha+Óabda÷ | 
+saudÃminÅ+kuï¬ala+(maï¬ita+abhra÷ Cmaï¬ita+aÇga÷ )|
+vinÃ*aÓma+var«a+aÓani+pÃta+do«ai÷ | 
+kÃle ca deÓe pravavar«a deva÷ ||2.7|
+ruroha (sasyaæ* Csaæyak )phalavad* yathÃ+­tu |
+tadÃ*a+k­tena*api k­«i+Órameïa | 
+tÃ* eva (ca*asya*o«adhayo* Cca*eva*o«adhayo* )rasena |
+sÃreïa ca*eva*abhy+adhikÃ* babhÆvu÷ ||2.8|
+ÓarÅra+saædeha+kare *api kÃle | 
+saægrÃma+saæmardae* iva prav­tte | 
+sva+sthÃ÷ sukhaæ* ca*eva nir+Ãmayaæ* ca | 
+prajaj¤ire (kÃla+vaÓena Cgarbha+dharÃÓ* ca )nÃrya÷ ||2.9|
+(p­thag* vratibhyo* Cyac* ca pratibhvo* )vibhave *api (garhye CÓakye )|
+na prÃrthayanti sma narÃ÷ parebhya÷ | 
+abhyarthita÷ sÆk«ma+dhano* *api (ca*Ãryas* Cca*ayaæ* )|
+tadÃ na kaÓ+cid* vi+mukho* babhÆva ||2.10|
+(na*a+gauravo* CnÃÓa* vadho* )bandhu«u na*apy* a+dÃtÃ |
+na*eva*a+vrato* na*an+­tiko* na hiæsra÷ | 
+ÃsÅt tadÃ kaÓ+cana tasya rÃjye | 
+rÃj¤o* yayÃter* iva nÃhus.asya ||2.11|
+udyÃna+deva+Ãyatana+ÃÓramÃïÃæ* | 
+kÆpa+prapÃ+pu«kariïÅ+vanÃnÃm | 
+cakru÷ kriyÃs* tatra ca dharma+kÃmÃ÷ | 
+praty+ak«ata÷ svargam iva*upalabhya ||2.12|
+muktaÓ* ca dur+bhik«a+bhaya+Ãmayebhyo* | 
+h­«Âo* jana÷ (svargae* Csvargam )iva*abhireme |
+patnÅæ* patir* vÃ mahi«Å patiæ* vÃ | 
+paras+paraæ* na vyabhiceratuÓ* ca ||2.13|
+kaÓ+cit si«eve rataye na kÃmaæ* | 
+kÃma+artham arthaæ* na jugopa kaÓ+cit | 
+kaÓ+cid* dhana+arthaæ na cacÃra dharmaæ* | 
+dharmÃya kaÓ+cin* na cakÃra hiæsÃm ||2.14|
+steya+ÃdibhiÓ* ca*apy* (aribhiÓ* CabhitaÓ* )ca na«Âaæ* |
+sva+sthaæ* sva+cakraæ* para+cakra+muktam |
+k«emaæ* su+bhik«aæ* ca babhÆva tasya | 
+(purÃ*an+araïyasya CpurÃïy* araïyÃni )yathÃ*eva rÃ«Âre ||2.15|
+tadÃ hi taj+janmani tasya rÃj¤o* | 
+manor* iva*Ãditya+sutasya rÃjye | 
+cacÃra har«a÷ praïanÃÓa pÃpmÃ | 
+jajvÃla dharma÷ kalu«a÷ ÓaÓÃma ||2.16|
+evaæ+vidhÃ rÃja+(kulasya saæpat Csutasya tasya )|
+sarva+artha+siddhiÓ* ca yato* babhÆva | 
+tato* n­+pas* tasya sutasya nÃma | 
+sarva+artha+siddho* *ayam iti pracakre ||2.17|
+devÅ tu mÃyÃ vibudha+­«i+kalpaæ* | 
+d­«ÂvÃ viÓÃlaæ* tanaya+prabhÃvam | 
+jÃtaæ* prahar«aæ* na ÓaÓÃka so¬huæ* | 
+tato* (nivÃsÃya C*a+vinÃÓÃya )divaæ* jagÃma ||2.18|
+tata÷ kumÃraæ* sura+garbha+kalpaæ* |
+snehena bhÃvena ca nir+viÓe«am | 
+mÃt­+«vasÃ mÃt­+sama+prabhÃvÃ | 
+saævardhayÃm Ãtma+javad* babhÆva ||2.19|
+tata÷ sa* bÃla+arka* iva*udaya+stha÷ | 
+samÅrito* vahnir* iva*anilena | 
+krameïa samyag* vav­dhe kumÃras* | 
+tÃra+adhipa÷ pak«ae* iva*a+tamaske ||2.20|
+tato* mahÃ+arhÃïi ca candanÃni | 
+ratna+ÃvalÅÓ* ca*o«adhibhi÷ sa+garbhÃ÷ | 
+m­ga+prayuktÃn rathakÃæÓ* ca haimÃn |
+Ãcakrire *asmai su+h­d+Ãlayebhya÷ ||2.21|
+vayo+anu+rÆpÃïi ca bhÆ«aïÃni |
+(hiraïmayÃn ChiraïmayÃ* )hasti+(m­ga+aÓvakÃæÓ* Cm­ga+aÓvakÃÓ* )ca |
+(rathÃæÓ* CrathÃÓ* )ca (go+putraka+saæprayuktÃn CgÃvo* vasana+prayuktÃ* )|
+(putrÅÓ* CgantrÅÓ* )ca cÃmÅkara+rÆpya+citrÃ÷ ||2.22|
+evaæ* sa* tais* tair* vi«aya+upacÃrair* | 
+vayo+anu+rÆpair* upacaryamÃïa÷ |
+bÃlo* *apy* a+bÃla+pratimo* babhÆva | 
+dh­tyÃ ca Óaucena dhiyÃ ÓriyÃ ca ||2.23|
+vayaÓ* ca kaumÃram atÅtya (samyak Cmadhyaæ* )|
+saæprÃpya (kÃle pratipatti+karma CbÃla÷ sa* hi rÃja+sÆnu÷ )|
+alpair* ahobhir* bahu+var«a+gamyÃ* | 
+jagrÃha vidyÃ÷ sva+kula+anu+rÆpÃ÷ ||2.24|
+nai÷Óreyasaæ* tasya tu bhavyam arthaæ* | 
+ÓrutvÃ purastÃd* asitÃn* mahÃ+­«e÷ | 
+kÃme«u saÇgaæ* janayÃæ* babhÆva | 
+(vanÃni yÃyÃd* iti ÓÃkya+rÃja÷ Cv­ddhir* bhavac+chÃkya+kulasya rÃj¤a÷ )||2.25|
+kulÃt tato* *asmai sthira+ÓÅla+(yuktÃt CsaæyutÃt )|
+sÃdhvÅæ* vapur+hrÅ+vinaya+upapannÃm | 
+yaÓo+dharÃæ* nÃma yaÓo+viÓÃlÃæ* | 
+(vÃma+abhidhÃnaæ* Ctulya+abhidhÃnaæ* )Óriyam ÃjuhÃva ||2.26|
+(vidyotamÃno* vapu«Ã pareïa Catha*a+paraæ* bhÆmi+pate÷ priyo* *ayaæ* )|
+sanat+kumÃra+pratima÷ kumÃra÷ | 
+sa+ardhaæ* tayÃ ÓÃkya+nara+indra+vadhvÃ | 
+ÓacyÃ sahasra+ak«a* iva*abhireme ||2.27|
+kiæ+cin* mana÷+k«obha+karaæ* pratÅpaæ* | 
+(kathaæ* na Ckathaæ+ca )paÓyed* iti so* *anucintya |
+vÃsaæ* n­+po* (vyÃdiÓati Chy* ÃdiÓati )sma tasmai |
+harmya+udare«v* eva na bhÆ+pracÃram ||2.28|
+tata÷ Óarat+toya+da+pÃï¬are«u | 
+bhÆmau vimÃne«v* iva rÃ¤jite«u | 
+harmye«u sarva+­tu+sukha+ÃÓraye«u | 
+strÅïÃm udÃrair* vijahÃra tÆryai÷ ||2.29|
+kalair* hi cÃmÅkara+baddha+kak«air* | 
+nÃrÅ+kara+agra+abhihatair* m­d+aÇgai÷ | 
+vara+apsaro+n­tya+samaiÓ* ca n­tyai÷ | 
+kailÃsavat tad* bhavanaæ* rarÃja ||2.30|
+vÃgbhi÷ kalÃbhir* lalitaiÓ* ca (hÃvair* ChÃrair* )|
+madai÷ sa+khelair* madhuraiÓ* ca hÃsai÷ | 
+taæ* tatra nÃryo* ramayÃæ* babhÆvur* | 
+bhrÆ+va¤citair* ardha+nirÅk«itaiÓ* ca ||2.31|
+(tata÷ sa* CtataÓ* ca )kÃma+ÃÓraya+paï¬itÃbhi÷ |
+strÅbhir* g­hÅto* rati+karkaÓÃbhi÷ | 
+vimÃna+p­«ÂhÃn* na mahÅæ* jagÃma | 
+vimÃna+p­«thÃd* iva puïya+karmÃ ||2.32|
+n­+pas* tu tasya*eva viv­ddhi+hetos* | 
+tad+bhÃvinÃ*arthena ca codyamÃna÷ | 
+Óame *abhireme virarÃma pÃpÃd* | 
+bheje damaæ* saævibabhÃja sÃdhÆn ||2.33|
+na*a+dhÅravat kÃma+sukhe sasa¤je | 
+na saærara¤je vi+«amaæ* jananyÃm | 
+dh­tyÃ*indriya+aÓvÃæÓ* capalÃn vijigye | 
+bandhÆæÓ* ca paurÃæÓ* ca guïair* jigÃya ||2.34|
+na*adhyai«Âa du÷khÃya parasya vidyÃæ* | 
+j¤Ãnaæ* Óivaæ* yat tu tad* adhyagÅ«Âa | 
+svÃbhya÷ prajÃbhyo* hi yathÃ tathÃ*eva | 
+sarva+prajÃbhya÷ Óivam ÃÓaÓaæse ||2.35|
+(bhaæ* Ctaæ* )bhÃsuraæ* ca*aÇgirasa+adhi+devaæ* |
+yathÃvad* Ãnarca tad+Ãyu«e sa÷ | 
+juhÃva havyÃny* a+k­Óe k­ÓÃnau | 
+dadau dvi+jebhya÷ k­Óanaæ* ca gÃÓ* ca ||2.36|
+sasnau ÓarÅraæ* pavituæ* manaÓ* ca | 
+tÅrtha+ambubhiÓ* ca*eva guïa+ambubhiÓ* ca | 
+veda+upadi«Âaæ* samam Ãtma+jaæ* ca | 
+somaæ* papau ÓÃnti+sukhaæ* ca hÃrdam ||2.37|
+sÃntvaæ* babhÃ«e na ca na*arthavad* yaj* | 
+jajalpa tattvaæ* na ca vi+priyaæ* yat | 
+sÃntvaæ* hy* a+tattvaæ* paru«aæ* ca tattvaæ* | 
+hriyÃ*aÓakan* na*Ãtmana* eva vaktum ||2.38|
+i«Âe«v* an+i«Âe«u ca kÃryavatsu | 
+na rÃga+do«a+ÃÓrayatÃæ* prapede | 
+Óivaæ* si«eve (vyavahÃra+Óuddhaæ* C*a+vyavahÃra+labdhaæ* )|
+yaj¤aæ* hi mene na tathÃ (yathÃ tat CyathÃvat )||2.39|
+ÃÓÃvate ca*abhigatÃya sadyo* | 
+deya+ambubhis* tar«am (acechidi«Âa Cacecchidi«Âa )|
+yuddhÃd* ­te v­tta+paraÓvadhena | 
+dvi¬+darpam udv­ttam abebhidi«Âa ||2.40|
+ekaæ* vininye sa* jugopa sapta | 
+sapta*eva tatyÃja rarak«a pa¤ca | 
+prÃpa tri+vargaæ* bubudhe tri+vargaæ* | 
+jaj¤e dvi+vargaæ* prajahau dvi+vargam ||2.41|
+k­ta+agaso* *api pratipÃdya vadhyÃn | 
+na*ajÅghanan* na*api ru«Ã dadarÓa | 
+babandha sÃntvena phalena ca*etÃæs* | 
+tyÃgo* *api te«Ãæ* hy* (a+nayÃya d­«Âa÷ Can+apÃya+d­«Âa÷ )||2.42|
+Ãr«Ãïy* acÃrÅt parama+vratÃni | 
+vairÃïy* ahÃsÅc* cira+saæbh­tÃni | 
+yaÓÃæsi ca*Ãpad+guïa+gandhavanti | 
+rajÃæsy* (ahÃr«Ån* CahÃsÅn* )malinÅ+karÃïi ||2.43|
+na ca*ajihÅr«Åd* balim a+prav­ttaæ* | 
+na ca*acikÅr«Åt para+vastv+abhidhyÃm | 
+na ca*avivak«Åd* dvi«atÃm a+dharmaæ* | 
+na (ca*avivak«Åd* Cca*adidhak«Åd* )*dh­dayena manyum ||2.44|
+tasmiæs* tathÃ bhÆmi+patau prav­tte | 
+bh­tyÃÓ* ca paurÃÓ* ca tathÃ*eva ceru÷ | 
+Óama+Ãtmake cetasi viprasanne | 
+prayukta+yogasya yathÃ+indriyÃïi ||2.45|
+kÃle tataÓ* cÃru+payo+dharÃyÃæ* | 
+yaÓo+dharÃyÃæ* (sva+Csu+)yaÓo+dharÃyÃm |
+Óauddhodane rÃhu+sapatna+vaktro* | 
+jaj¤e suto* rÃhula* eva nÃmnÃ ||2.46|
+atha*i«Âa+putra÷ parama+pratÅta÷ | 
+kulasya v­ddhiæ* prati bhÆmi+pÃla÷ | 
+yathÃ*eva putra+prasave nananda | 
+tathÃ*eva pautra+prasave nananda ||2.47|
+(putrasya Cpautrasya )me putra+gato* (mama*iva Cmama*eva )|
+sneha÷ kathaæ* syÃd* iti jÃta+har«a÷ | 
+kÃle sa* taæ* taæ* vidhim Ãlalambe | 
+putra+priya÷ svargam iva*Ãruruk«an ||2.48|
+sthitvÃ pathi prÃthamakalpikÃnÃæ* | 
+rÃja+­«abhÃïÃæ* yaÓasÃ*anvitÃnÃm | 
+ÓuklÃny* a+muktvÃ*api tapÃæsy* atapta |
+(yaj¤aiÓ* Cyaj¤e )ca hiæsÃ+rahitair* aya«Âa ||2.49|
+ajÃjvali«Âa*atha sa* puïya+karmÃ | 
+n­+pa+ÓriyÃ ca*eva tapa÷+ÓriyÃ ca | 
+kulena v­ttena dhiyÃ ca dÅptas* | 
+teja÷ sahasra+aæÓur* iva*utsis­k«u÷ ||2.50|
+svÃyaæbhuvaæ* ca*Ãrcikam arcayitvÃ | 
+jajÃpa putra+sthitaye sthita+ÓrÅ÷ | 
+cakÃra karmÃïi ca du«+karÃïi | 
+prajÃ÷ sis­k«u÷ ka* iva*Ãdi+kÃle ||2.51|
+tatjyÃja Óastraæ* vimamarÓa ÓÃstraæ* | 
+Óamaæ* si«eve niyamaæ* vi«ehe |
+vaÓÅ*iva kaæ+cid* vi«ayaæ* na bheje | 
+pitÃ*iva sarvÃn vi«ayÃn dadarÓa ||2.52|
+babhÃra rÃjyaæ* sa* hi putra+heto÷ | 
+putraæ* kula+arthaæ* yaÓase kulaæ* tu | 
+svargÃya Óabdaæ* divam Ãtma+hetor* | 
+dharma+artham Ãtma+sthitim ÃcakÃÇk«a ||2.53|
+evaæ* sa* dharmaæ* vi+vidhaæ* cakÃra | 
+sadbhir* nipÃtaæ* ÓrutitaÓ* ca siddham |
+d­«ÂvÃ kathaæ* putra+mukhaæ* suto* me |
+vanaæ* na yÃyÃd* iti nÃthamÃna÷ ||2.54|
+rirak«i«anta÷ Óriyam Ãtma+(saæsthÃæ* CsaæsthÃ )|
+rak«anti putrÃn bhuvi bhÆmi+pÃlÃ÷ | 
+putraæ* nara+indra÷ sa* tu dharma+kÃmo* | 
+rarak«a dharmÃd* (vi«aye«u mu¤can Cvi«aye«v* amu¤cat )||2.55|
+vanam an+upama+sattvÃ* bodhi+sattvÃs* tu sarve | 
+vi«aya+sukha+rasa+j¤Ã* jagmur* utpanna+putrÃ÷ | 
+ata* upacita+karmÃ rÆ¬ha+mÆle *api hetau | 
+sa* ratim upasi«eve bodhim (Ãpan* na yÃvat CÃpanna+yÃvat )||2.56|
+[[iti (CÓrÅ+C)buddha+carite mahÃ+kÃvye *anta÷+pura+vihÃro* nÃma dvitÅya÷ sarga÷ |2|]]
+tata÷ kadÃ+cin* m­du+ÓÃdvalÃni | 
+puæs+kokila+unnÃdita+pÃda+pÃni | 
+ÓuÓrÃva padma+Ãkara+maï¬itÃni | 
+(gÅtair* CÓÅte )nibaddhÃni sa* kÃnanÃni ||3.1|
+ÓrutvÃ tata÷ strÅ+jana+vallabhÃnÃæ* | 
+mano+j¤a+bhÃvaæ* pura+kÃnanÃnÃm | 
+bahi÷+prayÃïÃya cakÃra buddhim | 
+antar+g­he nÃga* iva*avaruddha÷ ||3.2|
+tato* n­+pas* tasya niÓamya bhÃvaæ* | 
+putra+abhidhÃnasya mano+rathasya | 
+snehasya lak«myÃ vayasaÓ* ca yogyÃm | 
+Ãj¤ÃpayÃm Ãsa vihÃra+yÃtrÃm ||3.3|
+nivartayÃm Ãsa ca rÃja+mÃrge | 
+saæpÃtam Ãrtasya p­thag+janasya | 
+mÃ bhÆt kumÃra÷ su+kumÃra+citta÷ | 
+saævigna+cetÃ* (iti Civa )manyamÃna÷ ||3.4|
+praty+aÇga+hÅnÃn vikala+indriyÃæÓ* ca | 
+jÅrïa+Ãtura+ÃdÅn k­païÃæÓ* ca (dik«u Cbhik«Æn )|
+tata÷ samutsÃrya pareïa sÃmnÃ | 
+ÓobhÃæ* (parÃæ* CparÃ* )rÃja+pathasya cakru÷ ||3.5|
+tata÷ k­te ÓrÅmati rÃja+mÃrge | 
+ÓrÅmÃn vinÅta+anucara÷ kumÃra÷ | 
+prÃsÃda+p­«ÂhÃd* avatÅrya kÃle | 
+k­ta+abhyanuj¤o* n­+pam abhyagacchat ||3.6|
+atha*u nara+indra÷ sutam Ãgata+aÓru÷ | 
+Óirasy* upÃghrÃya ciraæ* nirÅk«ya | 
+gaccha*iti ca*Ãj¤Ãpayati sma vÃcÃ | 
+snehÃn* na ca*enaæ* manasÃ mumoca ||3.7|
+tata÷ sa* jÃmbÆnada+bhÃï¬a+bh­dbhir* |
+yuktaæ* caturbhir* nibh­tais* turaæ+gai÷ | 
+a+klÅba+(vidvac+Cvidyuc+)chuci+raÓmi+dhÃraæ* |
+hiraïmayaæ* syandanam Ãruroha ||3.8|
+tata÷ prakÅrïa+ujjvala+pu«pa+jÃlaæ* | 
+vi«akta+mÃlyaæ* pracalat+patÃkam |
+mÃrgaæ* prapede sa+d­Óa+anuyÃtraÓ* |
+candra÷ sa+nak«atra* iva*antarÅk«am ||3.9|
+kautÆhalÃt sphÅtataraiÓ* ca netrair* |
+(nÅla+utpala+ardhair* CnÅla+utpala+Ãbhair* )iva (kÅryamÃïam CkÅryamÃïa÷ )|
+Óanai÷ Óanai* rÃja+pathaæ* jagÃhe | 
+paurai÷ sam+antÃd* abhivÅk«yamÃïa÷ ||3.10|
+taæ* tu«Âuvu÷ saumya+guïena ke+cid* | 
+vavandire dÅptatayÃ tathÃ*anye | 
+saumukhyatas* tu Óriyam asya ke+cid* | 
+vaipulyam ÃÓaæsi«ur Ãyu«aÓ* ca ||3.11|
+ni÷s­tya kubjÃÓ* ca mahÃ+kulebhyo* |
+vyÆhÃÓ* ca kairÃtaka+vÃmanÃnÃm | 
+nÃrya÷ k­ÓebhyaÓ* ca niveÓanebhyo* | 
+deva+anuyÃna+dhvajavat praïemu÷ ||3.12|
+tata÷ kumÃra÷ khalu gacchati*iti | 
+ÓrutvÃ striya÷ pre«ya+janÃt prav­ttim | 
+did­k«ayÃ harmya+talÃni jagmur* | 
+janena mÃnyena k­ta+abhyanuj¤Ã÷ ||3.13|
+tÃ÷ srasta+kÃ¤cÅ+guïa+vighnitÃÓ* ca |
+supta+prabuddha+Ãkula+locanÃÓ* ca | 
+v­tta+anta+vinyasta+vibhÆ«aïÃÓ* ca | 
+(kautÆhalena*a+nibh­tÃ÷ CkautÆhalena*api bh­tÃ÷ )parÅyu÷ ||3.14|
+prÃsÃda+sopÃna+tala+praïÃdai÷ | 
+kÃ¤cÅ+ravair* nÆpura+nisvanaiÓ* ca | 
+(vitrÃsayantyo* CvibhrÃmayantyo* )g­ha+pak«i+saæghÃn |
+anyo+anya+vegÃæÓ* ca samÃk«ipantya÷ ||3.15|
+kÃsÃæ+cid* ÃsÃæ* tu vara+aÇganÃnÃæ* | 
+jÃta+tvarÃïÃm api sa+utsukÃnÃm | 
+gatiæ* gurutvÃj jag­hur* viÓÃlÃ÷ | 
+ÓroïÅ+rathÃ÷ pÅna+payo+dharÃÓ* ca ||3.16|
+ÓÅghraæ* sam+arthÃ*api tu gantum anyÃ | 
+gatiæ* nijagrÃha yayau na tÆrïam | 
+(hriyÃ*a+pragalbhÃ vinigÆhamÃnÃ ChriyÃ pragalbhÃni nigÆhamÃnÃ )|
+(raha÷+prayuktÃni Craha÷ prayuktÃni )vibhÆ«aïÃni ||3.17|
+paras+para+utpÅ¬ana+piï¬itÃnÃæ* | 
+saæmarda+(saæk«obhita+CsaæÓobhita+)kuï¬alÃnÃm |
+tÃsÃæ tadÃ sa+svana+bhÆ«aïÃnÃæ* |
+vÃta+ayane«v* a+praÓamo* babhÆva ||3.18|
+vÃta+ayanebhyas* tu vini÷s­tÃni | 
+paras+(para+ÃyÃsita+Cpara+upÃsita+)kuï¬alÃni |
+strÅïÃæ* virejur* mukha+paÇka+jÃni |
+saktÃni harmye«v* iva paÇka+jÃni ||3.19|
+tato* vimÃnair* yuvatÅ+(karÃlai÷ CkalÃpai÷ )|
+kautÆhala+udghÃÂita+vÃta+yÃnai÷ | 
+ÓrÅmat sam+antÃn* nagaraæ* babhÃse |
+viyad+vimÃnair* iva sa+apsarobhi÷ ||3.20|
+vÃta+ayanÃnÃm a+viÓÃla+bhÃvÃd* | 
+anyo+anya+gaï¬a+arpita+kuï¬alÃnÃm | 
+mukhÃni reju÷ pramada+uttamÃnÃæ* | 
+baddhÃ÷ kalÃpÃ* iva paÇka+jÃnÃm ||3.21|
+(taæ* tÃ÷ Ctasmin )kumÃraæ* pathi vÅk«amÃïÃ÷ |
+striyo* babhur* gÃm iva gantu+kÃmÃ÷ | 
+Ærdhva+un+mukhÃÓ* ca*enam udÅk«amÃïÃ* | 
+narÃ* babhur* dyÃm iva gantu+kÃmÃ÷ ||3.22|
+d­«ÂvÃ ca taæ* rÃja+sutaæ* striyas* tÃ* | 
+jÃjvalyamÃnaæ* vapu«Ã ÓriyÃ ca | 
+dhanyÃ*asya bhÃryÃ*iti Óanair* avoca¤* | 
+Óuddhair* manobhi÷ khalu na*anya+bhÃvÃt ||3.23|
+ayaæ* kila vyÃyata+pÅna+bÃhÆ* | 
+rÆpeïa sa+ak«Ãd* iva pu«pa+ketu÷ | 
+tyaktvÃ Óriyaæ* dharmam upai«yati*iti | 
+tasmin (hi tÃ* ChitÃ* )gauravam eva cakru÷ ||3.24|
+kÅrïaæ* tathÃ rÃja+pathaæ* kumÃra÷ | 
+paurair* vinÅtai÷ Óuci+dhÅra+ve«ai÷ | 
+tat pÆrvam Ãlokya jahar«a kiæ+cin* | 
+mene punar+bhÃvam iva*ÃtmanaÓ* ca ||3.25|
+puraæ* tu tat svargam iva prah­«Âaæ* | 
+Óuddha+adhivÃsÃ÷ samavek«ya devÃ÷ | 
+jÅrïaæ* naraæ* nirmamire prayÃtuæ* | 
+saæcodana+arthaæ* k«iti+pa+Ãtma+jasya ||3.26|
+tata÷ kumÃro* jarayÃ*abhibhÆtaæ* | 
+d­«ÂvÃ narebhya÷ p­thag+Ãk­tiæ* tam | 
+uvÃca saægrÃhakam Ãgata+Ãsthas* | 
+tatra*eva ni«kampa+nivi«Âa+d­«Âi÷ ||3.27|
+ka* e«a* bho÷ sÆta naro* *abhyupeta÷ | 
+keÓai÷ sitair* ya«Âi+vi«akta+hasta÷ | 
+bhrÆ+saæv­ta+ak«a÷ Óithila+Ãnata+aÇga÷ | 
+kiæ* vikriyÃ*e«Ã prak­tir* yad+­cchÃ ||3.28|
+ity* evam ukta÷ sa* ratha+praïetÃ | 
+nivedayÃm Ãsa n­+pa+Ãtma+jÃya | 
+saærak«yam apy* artham a+do«a+darÓÅ | 
+tair* eva devai÷ k­ta+buddhi+moha÷ ||3.29|
+rÆpasya (hantrÅ ChartrÅ )vyasanaæ* balasya |
+Óokasya yonir* nidhanaæ* ratÅnÃm | 
+nÃÓa÷ sm­tÅnÃæ* ripur* indriyÃïÃm | 
+e«Ã jarÃ nÃma yayÃ*e«a bhagna÷ ||3.30|
+pÅtaæ* hy* anena*api paya÷ ÓiÓutve | 
+kÃlena bhÆya÷ (paris­ptam Cparim­«Âam )urvyÃm |
+krameïa bhÆtvÃ ca yuvÃ vapu«mÃn | 
+krameïa tena*eva jarÃm upeta÷ ||3.31|
+ity* evam ukte calita÷ sa* kiæ+cid* |
+rÃja+Ãtma+ja÷ sÆtam idaæ* babhÃ«e | 
+kim e«a* do«o* bhavitÃ mama*api*ity* | 
+asmai tata÷ sÃrathir* abhyuvÃca ||3.32|
+Ãyu«mato* *apy* e«a* vaya÷+(prakar«o* Cprakar«Ãn* )|
+ni÷+saæÓayaæ* kÃla+vaÓena bhÃvÅ | 
+evaæ* jarÃæ* rÆpa+vinÃÓayitrÅæ* | 
+jÃnÃti ca*eva*icchati (ca*eva Cca*e«a* )loka÷ ||3.33|
+tata÷ sa* pÆrva+ÃÓaya+Óuddha+buddhir | 
+vistÅrïa+kalpa+Ãcita+puïya+karmÃ | 
+ÓrutvÃ jarÃæ* saævivije mahÃ+ÃtmÃ | 
+mahÃ+aÓaner* gho«am iva*antike gau÷ ||3.34|
+ni÷Óvasya dÅrghaæ* (sva+Óira÷ Csa* Óira÷ )prakampya |
+tamiæÓ* ca jÅrïe viniveÓya cak«u÷ | 
+tÃæ* ca*eva d­«ÂvÃ janatÃæ* sa+har«Ãæ* | 
+vÃkyaæ* sa* (saævigna* Csaævignam )idaæ* jagÃda ||3.35|
+evaæ* jarÃ hanti ca nir+viÓe«aæ* | 
+sm­tiæ* ca rÆpaæ* ca parÃkramaæ* ca | 
+na ca*eva saævegam upaiti loka÷ | 
+praty+ak«ato* *api*Å+d­Óam Åk«amÃïa÷ ||3.36|
+evaæ* gate sÆta nivartaya*aÓvÃn | 
+ÓÅghraæ* g­hÃïy* eva bhavÃn prayÃtu |
+udyÃna+bhÆmau hi kuto* ratir* me | 
+jarÃ+(bhaye Cbhave )cetasi vartamÃne ||3.37|
+atha*Ãj¤ayÃ bhart­+sutasya tasya | 
+nivartayÃm Ãsa rathaæ* niyantÃ | 
+tata÷ kumÃro* bhavanaæ* tad* eva | 
+cintÃ+vaÓa÷ ÓÆnyam iva prapede ||3.38|
+yadÃ tu tatra*eva na Óarma lebhe | 
+jarÃ jarÃ*iti praparÅk«amÃïa÷ | 
+tato* nara+indra+anumata÷ sa* bhÆya÷ | 
+krameïa tena*eva bahir* jagÃma ||3.39|
+atha*a+paraæ* vyÃdhi+parÅta+dehaæ* | 
+tae* eva devÃ÷ sas­jur* manu«yam | 
+d­«ÂvÃ ca taæ* sÃrathim ÃbabhÃ«e | 
+Óauddhodanis* tad+gata+d­«Âir* eva ||3.40|
+sthÆla+udara÷ ÓvÃsa+calac+charÅra÷ | 
+srasta+aæsa+bÃhu÷ k­Óa+pÃïdu+gÃtra÷ | 
+ambÃ*iti vÃcaæ* karuïaæ* bruvÃïa÷ | 
+paraæ* (samÃÓritya CsamÃÓli«ya )nara÷ ka* e«a÷ ||3.41|
+tato* *abravÅt sÃrathir* asya saumya |
+dhÃtu+prakopa+prabhava÷ prav­ddha÷ | 
+roga+abhidhÃna÷ su+mahÃn an+artha÷ | 
+(Óakto* CÓakro* )*api yena*e«a* k­to* *a+sva+tantra÷ ||3.42|
+ity* ÆcivÃn rÃja+suta÷ sa* bhÆyas* | 
+taæ* sa+anukampo* naram Åk«amÃïa÷ | 
+asya*eva (jÃto* CjÃta÷ [sic; wrong sandhi in EHJ])p­thag* e«a* do«a÷ |
+sÃmÃnyato* roga+bhayaæ* prajÃnÃm ||3.43|
+tato* babhÃ«e sa* ratha+praïetÃ | 
+kumÃra sÃdhÃraïa* e«a* do«a÷ | 
+evaæ* hi rogaih paripÅ¬yamÃno* | 
+rujÃ+Ãturo* har«am upaiti loka÷ ||3.44|
+iti Óruta+artha÷ sa* vi«aïïa+cetÃ÷ | 
+prÃvepata+ambu+Ærmi+gata÷ ÓaÓÅ*iva |
+idaæ* ca vÃkyaæ* karuïÃyamÃna÷ | 
+provÃca kiæ+cin+m­dunÃ svareïa ||3.45|
+idaæ* ca roga+vyasanaæ* prajÃnÃæ* | 
+paÓyaæÓ* ca viÓrambham upaiti loka÷ | 
+(vistÅrïam a+j¤Ãnam CvistÅrïa+vij¤Ãnam )aho narÃïÃæ* |
+hasanti ye roga+bhayair* a+muktÃ÷ ||3.46|
+nivartyatÃæ* sÆta (bahi÷+Cvahi÷+)prayÃïÃn* |
+nara+indra+sadma*eva ratha÷ prayÃtu | 
+ÓrutvÃ ca me roga+bhayaæ* ratibhya÷ | 
+pratyÃhataæ* saækucati*iva ceta÷ ||3.47|
+tato* niv­tta÷ sa* niv­tta+har«a÷ | 
+pradhyÃna+yukta÷ praviveÓa (veÓma Csadma )|
+taæ* dvis* tathÃ prek«ya ca saæniv­ttaæ* | 
+(parye«aïaæ* Cpury* Ãgamaæ* )bhÆmi+patiÓ* cakÃra ||3.48|
+ÓrutvÃ nimittaæ* tu nivartanasya | 
+saætyaktam ÃtmÃnam anena mene | 
+mÃrgasya Óauca+adhik­tÃya ca*eva | 
+cukroÓa ru«Âo* *api ca na*ugra+daï¬a÷ ||3.49|
+bhÆyaÓ* ca tasmai vidadhe sutÃya | 
+viÓe«a+yuktaæ* vi«aya+(pracÃram CprakÃram )|
+cala+indriyatvÃd* api (nÃma sakto* Cna*api Óakto* )|
+na*asmÃn vijahyÃd* iti nÃthamÃna÷ ||3.50|
+yadÃ ca Óabda+Ãdibhir* indriya+arthair* | 
+anta÷+pure na*eva suto* *asya reme | 
+tato* (bahir* Cvahir* )vyÃdiÓati sma yÃtrÃæ* |
+rasa+antaraæ* syÃd* iti manyamÃna÷ ||3.51|
+snehÃc* ca bhÃvaæ* tanayasya buddhvÃ | 
+(sa* rÃga+Csaævega+)do«Ãn a+vicintya kÃæÓ+cit |
+yogyÃ÷ samÃj¤Ãpayati sma tatra | 
+kalÃsv* abhij¤Ã* iti vÃra+mukhyÃ÷ ||3.52|
+tato* viÓe«eïa nara+indra+mÃrge | 
+sv+alaæk­te ca*eva parÅk«ite ca | 
+(vyatyasya CvyatyÃsya )sÆtaæ* ca rathaæ* ca rÃjÃ |
+prasthÃpayÃm Ãsa bahi÷ kumÃram ||3.53|
+tatas* tathÃ gacchati rÃja+putre | 
+tair* eva devair* vihito* gata+asu÷ |
+taæ* ca*eva mÃrge m­tam uhyamÃnaæ* | 
+sÆta÷ kumÃraÓ* ca dadarÓa na*anya÷ ||3.54|
+atha*abravÅd* rÃja+suta÷ sa sÆtaæ* |
+naraiÓ* caturbhir* hriyate ka* e«a÷ | 
+dÅnair* manu«yair anugamyamÃno* | 
+(<x> bhÆ«itaÓ* ca*apy* Cyo* bhÆ«ito* *a+ÓvÃsy-* )avarudyate ca ||3.55|
+tata÷ sa* Óuddha+Ãtmabhir* eva devai÷ | 
+Óuddha+adhivÃsair* abhibhÆta+cetÃ÷ | 
+a+vÃcyam apy* artham imaæ* niyantÃ | 
+(pravyÃjahÃra*arthavad+ÅÓvarÃya CpravyÃjahÃra*artha+vid* ÅÓvarÃya )||3.56|
+buddhi+indriya+prÃïa+guïair* viyukta÷ | 
+supto* vi+saæj¤as* t­ïa+kÃ«Âha+bhÆta÷ |
+(saævardhya Csaæbadhya )saærak«ya ca yatnavadbhi÷ |
+(priya+priyais* Cpriya+a+priyais* )tyajyatae* e«a* ko* *api ||3.57|
+iti praïetu÷ sa* niÓamya vÃkyaæ* | 
+saæcuk«ubhe kiæ+cid* uvÃca ca*enam | 
+kiæ* (kevalo* *asya*eva Ckevalasya*eva )janasya dharma÷ |
+sarva+prajÃnÃm ayam Å+d­Óo* *anta÷ ||3.58|
+tata÷ praïetÃ vadati sma tasmai | 
+sarva+prajÃnÃm (idam Cayam )anta+(karma CkarmÃ )|
+hÅnasya madhyasya mahÃ+Ãtmano* vÃ | 
+sarvasya loke niyato* vinÃÓa÷ ||3.59|
+tata÷ sa* dhÅro* *api nara+indra+sÆnu÷ | 
+ÓrutvÃ*eva m­tyuæ* vi«asÃda sadya÷ | 
+aæsena saæÓli«ya ca kÆbara+agraæ* | 
+provÃca nihrÃdavatÃ svareïa ||3.60|
+iyaæ* ca ni«ÂhÃ (niyatÃ Cniyataæ* )prajÃnÃæ* |
+pramÃdyati tyakta+bhayaÓ* ca loka÷ | 
+manÃæsi ÓaÇke kaÂhinÃni nÌïÃæ* | 
+sva+sthÃs* tathÃ hy* adhvani vartamÃnÃ÷ ||3.61|
+tasmÃd* (ratha÷ Crathaæ* )sÆta nivartyatÃæ* no* |
+vihÃra+(bhÆmer* CbhÆmau )na hi deÓa+kÃla÷ |
+jÃnan vinÃÓaæ* katham (Ãrti+CÃrtti+)kÃle |
+sa+cetana÷ syÃd* iha hi pramatta÷ ||3.62|
+iti bruvÃïe *api nara+adhipa+Ãtma+je | 
+nivartayÃm Ãsa sa* na*eva taæ* ratham | 
+viÓe«a+yuktaæ* tu nara+indra+ÓÃsanÃt |
+sa* padma+«aï¬aæ* vanam eva niryayau ||3.63|
+tata÷ Óivaæ* kusumita+bÃla+pÃda+paæ* | 
+paribhramat+pramudita+matta+kokilam | 
+vimÃnavat (sa* kamala+Csa+kamala+)cÃru+dÅrghikaæ* |
+dadarÓa tad* vanam iva nandanaæ* vanam ||3.64|
+vara+aÇganÃ+gaïa+kalilaæ* n­+pa+Ãtma+jas* |
+tato* balÃd* vanam (atinÅyate CabhinÅyate )sma tat |
+vara+apsaro+(v­tam Cn­tyam )alakÃ+adhipa+Ãlayaæ* |
+nava+vrato* munir* iva vighna+kÃtara÷ ||3.65|
+[[iti (CÓrÅ+C)buddha+carite mahÃ+kÃvye saævega+utpattir* nÃma t­tÅya÷ sarga÷ |3|]]
+tatas* tasmÃt pura+udyÃnÃt |kautÆhala+cala+Åk«aïÃ÷ | 
+pratyujjagmur* n­+pa+sutaæ* |prÃptaæ* varam iva striya÷ ||4.1|
+abhigamya ca tÃs* tasmai |vismaya+utphulla+locanÃ÷ | 
+cakrire samudÃcÃraæ* |padma+koÓa+nibhai÷ karai÷ ||4.2|
+tasthuÓ* ca parivÃrya*enaæ* |manmatha+Ãk«ipta+cetasa÷ | 
+niÓ+calai÷ priti+vikacai÷ |pibantya* iva locanai÷ ||4.3|
+taæ* hi tÃ* menire nÃrya÷ |kÃmo* vigrahavÃn iti | 
+Óobhitaæ* lak«aïair* dÅptai÷ |saha+jair* bhÆ«aïair* iva ||4.4|
+saumyatvÃc* ca*eva dhairyÃc* ca |kÃÓ+cid* enaæ* prajaj¤ire |
+avatÅrïo* mahÅæ* sa+ak«Ãd* |(gÆ¬ha+aæÓuÓ* CsudhÃ+aæÓuÓ* )candra+mÃ* (iti Civa )||4.5|
+tasya tÃ* vapu«Ã*Ãk«iptÃ* |(nig­hÅtaæ* CnirgrahÅtuæ* )jaj­mbhire |
+anyo+anyaæ* d­«Âibhir* (hatvÃ CgatvÃ )|ÓanaiÓ* ca viniÓaÓvasu÷ ||4.6|
+evaæ* tÃ* d­«Âi+mÃtreïa |nÃryo* dad­Óur* eva tam | 
+na vyÃjahrur* na jahasu÷ |prabhÃveïa*asya yantritÃ÷ ||4.7|
+tÃs* tathÃ tu nir+ÃrambhÃ* |d­«ÂvÃ praïaya+viklavÃ÷ |
+puro+hita+suto* dhÅmÃn |udÃyÅ vÃkyam abravÅt ||4.8|
+sarvÃ÷ sarva+kalÃ+j¤Ã÷ stha |bhÃva+grahaïa+paï¬itÃ÷ | 
+rÆpa+cÃturya+saæpannÃ÷ |sva+guïair* mukhyatÃæ* gatÃ÷ ||4.9|
+(Óobhayeta CÓobhayeta )guïair* ebhir* |api tÃn uttarÃn kurÆn |
+kuverasya*api (ca*ÃkrÅ¬aæ* Cca krÅ¬aæ* )|prÃg* eva vasu+dhÃm imÃm ||4.10|
+ÓaktÃÓ* cÃlayituæ* yÆyaæ* |vÅta+rÃgÃn ­«Ån api | 
+apsarobhiÓ* ca kalitÃn |grahÅtuæ* vibudhÃn api ||4.11|
+bhÃva+j¤Ãnena hÃvena |(rÆpa+cÃturya+CcÃturyÃ* rÆpa+)saæpadÃ |
+strÅïÃm eva ca ÓaktÃ÷ stha |saærÃge kiæ* punar* n­ïÃm ||4.12|
+tÃsÃm evaæ+vidhÃnÃæ* vo* |(viyuktÃnÃæ* CniyuktÃnÃæ* )sva+go+care |
+iyam evaæ+vidhÃ ce«ÂÃ |na tu«Âo* *asmy* Ãrjavena va÷ ||4.13|
+idaæ* nava+vadhÆnÃæ* vo* |hrÅ+niku¤cita+cak«u«Ãm | 
+sa+d­Óaæ ce«Âitaæ* hi syÃd* |api vÃ go+pa+yo«itÃm ||4.14|
+(yad* Cyady* )api syÃd* ayaæ* (dhÅra÷ CvÅra÷ )|ÓrÅ+prabhÃvÃn* mahÃn iti |
+strÅïÃm api mahat teja* |ita÷ kÃryo* *atra niÓcaya÷ ||4.15|
+purÃ hi kÃÓi+sundaryÃ* |veÓa+vadhvÃ* mahÃn ­«i÷ | 
+tÃ¬ito* *abhÆt (padÃ vyÃso* Cpada+nyÃsÃd* )|dur+dhar«o* (devatair* Cdaivatair* )api ||4.16|
+manthÃla+gautamo* bhik«ur* |jaÇghayÃ (vÃra+CbÃla+)mukhyayÃ |
+piprÅ«uÓ* ca tad+artha+arthaæ* |vy+asÆn niraharat purÃ ||4.17|
+gautamaæ* dÅrgha+tapasaæ |mahÃ+­«iæ* dÅrgha+jÅvinam | 
+yo«it saæto«ayÃm Ãsa |varïa+sthÃna+avarÃ satÅ ||4.18|
+­«yaÓ­Çgaæ* muni+sutaæ* |tathÃ*eva strÅ«v* a+paï¬itam |
+upÃyair* vi+vidhai÷ ÓÃntÃ |jagrÃha ca jahÃra ca ||4.19|
+viÓvÃ+mitro* mahÃ+­«iÓ* ca |vigÃ¬ho* *api (mahat tapa÷ Cmahat+tapÃ÷ )|
+(daÓa var«Ãïy* ahar* mene CdaÓa+var«Ãïy* araïya+stho* )|gh­tÃcyÃ*apsarasÃ h­ta÷ ||4.20|
+evam+ÃdÅn ­«Åæs* tÃæs* tÃn |anayan vikriyÃæ* striya÷ | 
+lalitaæ* pÆrva+vayasaæ* |kiæ punar* n­+pate÷ sutam ||4.21|
+tad* evaæ* sati viÓrabdhaæ* |prayatadhvaæ* tathÃ yathÃ | 
+iyaæ* n­+pasya vaæÓa+ÓrÅr* |ito* na syÃt parÃÇ+mukhÅ ||4.22|
+yÃ* hi kÃÓ+cid* yuvatayo* |haranti sa+d­Óaæ* janam | 
+nik­«Âa+utk­«Âayor* bhÃvaæ* |yÃ* g­hïanti (tÃ* tu [Wrong sandhi in EHJ??] Ctu tÃ÷ )striya÷ ||4.23|
+ity* udÃyi+vaca÷ ÓrutvÃ |tÃ* viddhÃ* iva yo«ita÷ | 
+samÃruruhur* ÃtmÃnaæ* |kumÃra+grahaïaæ* prati ||4.24|
+tÃ* bhrÆbhi÷ prek«itair* (hÃvair* CbhÃvair* )|hasitair* (la¬itair* Clalitair* )gatai÷ |
+cakrur* Ãk«epikÃÓ* ce«ÂÃ* |bhÅta+bhÅtÃ* iva*aÇganÃ÷ ||4.25|
+rÃj¤as* tu viniyogena |kumÃrasya ca mÃrdavÃt | 
+(jahu÷ Cjahru÷ )k«ipram a+viÓrambhaæ* |madena madanena ca ||4.26|
+atha nÃrÅ+jana+v­ta÷ |kumÃro* vyacarad* vanam | 
+vÃsitÃ+yÆtha+sahitah |karÅ*iva himavad* vanam ||4.27|
+sa* tasmin kÃnane ramye |jajvÃla strÅ+pura÷+sara÷ | 
+ÃkrÅ¬ae* iva (vibhrÃje CbabhrÃje )|vivasvÃn apsaro+v­ta÷ ||4.28|
+madena*a+varjitÃ* nÃma |taæ* kÃÓ+cit tatra yo«ita÷ |
+kaÂhinai÷ pasp­Óu÷ pÅnai÷ |(saæhatair* CsaæghaÂÂair* )valgubhi÷ stanai÷ ||4.29|
+srasta+aæsa+komala+Ãlamba+ |m­du+bÃhu+latÃ*a+balÃ |
+an+­taæ* skhalitaæ* kÃ+cit |k­tvÃ*enaæ* sasvaje balÃt ||4.30|
+kÃ+cit tÃmra+adhara+o«Âhena |mukhena*Ãsava+gandhinÃ | 
+viniÓaÓvÃsa karïe *asya |rahasyaæ* ÓrÆyatÃm iti ||4.31|
+kÃ+cid* Ãj¤ÃpayantÅ*iva |provÃca*Ãrdra+anulepanÃ | 
+iha bhaktiæ* kuru«va*iti |(hasta+saæÓle«a+lipsayÃ Chastaæ* saæÓli«ya lipsayÃ )||4.32|
+muhur* muhur* mada+vyÃja+ |srasta+nÅla+aæÓukÃ*a+parÃ | 
+Ãlak«ya+raÓanÃ reje |sphurad+vidyud* iva k«apÃ ||4.33|
+kÃÓ+cit kanaka+kÃ¤cÅbhir* |mukharÃbhir* itas* tata÷ |
+babhramur* darÓayantyo* *asya |ÓroïÅs* tanv+aæÓuka+Ãv­tÃ÷ ||4.34|
+cÆta+ÓÃkhÃæ* kusumitÃæ* |prag­hya*anyÃ* lalambire | 
+su+varïa+kalaÓa+prakhyÃn |darÓayantya÷ payo+dharÃn ||4.35|
+kÃ+cit padma+vanÃd* etya |sa+padmÃ padma+locanÃ | 
+padma+vaktrasya pÃrÓve *asya |padma+ÓrÅr* iva tasthu«Å ||4.36|
+madhuraæ* gÅtam anv+arthaæ* |kÃ+cit sa+abhinayaæ* jagau | 
+taæ* sva+sthaæ* codayantÅ*iva |va¤cito* *asi*ity* avek«itai÷ ||4.37|
+Óubhena vadanena*anyÃ |bhrÆ+kÃrmuka+vikar«iïÃ | 
+prÃv­tya*anucakÃra*asya |ce«Âitaæ* (dhÅra+CvÅra+)lÅlayÃ ||4.38|
+pÅna+valgu+stanÅ kÃ+cid* |(*dhÃsa+ÃghÆrïita+CvÃta+ÃghÆrïita+)kuï¬alÃ |
+uccair* avajahÃsa*enaæ* |samÃpnotu bhavÃn iti ||4.39|
+apayÃntaæ* tathÃ*eva*anyÃ* |babandhur* mÃlya+dÃmabhi÷ |
+kÃÓ+cit sa+Ãk«epa+madhurair* |jag­hur* vacana+aÇkuÓai÷ ||4.40|
+pratiyoga+arthinÅ kÃ+cid* |g­hÅtvÃ cÆta+vallarÅm | 
+idaæ* pu«paæ* tu kasya*iti |papraccha mada+viklavÃ ||4.41|
+kÃ+cit puru«avat k­tvÃ |gatiæ* saæsthÃnam eva ca | 
+uvÃca*enaæ* jita÷ strÅbhir* |jaya bho* p­thivÅm imÃm ||4.42|
+atha lola+ÅksaïÃ kÃ+cij* |jighrantÅ nÅlam utpalam |
+kiæ+cin+mada+kalair* vÃkyair* |n­+pa+Ãtma+jam abhÃ«ata ||4.43|
+paÓya bhartaÓ* citaæ* cÆtaæ* |kusumair* madhu+gandhibhi÷ | 
+hema+pa¤jara+ruddho* vÃ |kokilo* yatra kÆjati ||4.44|
+a+Óoko* d­ÓyatÃm e«a* |kÃmi+Óoka+vivardhana÷ | 
+ruvanti bhramarÃ* yatra |dahyamÃnÃ* iva*agninÃ ||4.45|
+cÆta+ya«ÂyÃ samÃÓli«Âo* |d­ÓyatÃæ* tilaka+druma÷ | 
+Óukla+vÃsÃ* iva nara÷ |striyÃ pÅta+aÇga+rÃgayÃ ||4.46|
+phullaæ* (kurubakaæ* Ckuruvakaæ* )paÓya |(nirbhukta+alaktaka+Cnirmukta+alaktaka+)prabham |
+yo* nakha+prabhayÃ strÅïÃæ* |nirbhartsita* iva*Ãnata÷ ||4.47|
+bÃla+a+ÓokaÓ* ca nicito* |d­ÓyatÃm e«a* pallavai÷ | 
+yo* *asmÃkaæ* hasta+ÓobhÃbhir* |lajjamÃna* iva sthita÷ ||4.48|
+dÅrghikÃæ* prÃv­tÃæ* paÓya |tÅra+jai÷ sindu+vÃrakai÷ | 
+pÃï¬ura+aæÓuka+saævÅtÃæ* |ÓayÃnÃæ* pramadÃm iva ||4.49|
+d­ÓyatÃæ* strÅ«u mÃhÃtmyaæ* |cakravÃko* hy* asau jale | 
+p­«Âhata÷ pre«yavad* bhÃryÃm |anuvarty-* anugacchati ||4.50|
+mattasya para+pu«Âasya |ruvata÷ ÓrÆyatÃæ* dhvani÷ | 
+a+para÷ kokilo* (*anv+ak«aæ* |pratiÓrutkÃ*iva C*an+utka÷ |pratiÓrutya*iva )kÆjati ||4.51|
+api nÃma vihaæ+gÃnÃæ* |(vasantena*Ãh­to* Cvasantena*Ãhito* )mada÷ |
+na tu (cintayato* *a+cintyaæ* CcintayataÓ* cittaæ* )|janasya prÃj¤a+mÃnina÷ ||4.52|
+ity* evaæ* tÃ* yuvatayo* |manmatha+uddÃma+cetasa÷ | 
+kumÃraæ* vi+vidhais* tais* tair* |upacakramire nayai÷ ||4.53|
+evam Ãk«ipyamÃïo* *api |sa* tu dhairya+Ãv­ta+indriya÷ | 
+martavyam iti sa+udvego* |na jahar«a na (vivyathe Csismiye )||4.54|
+tÃsÃæ* (tattve *an+avasthÃnaæ* Ctattvena vasthÃnaæ* )|d­«ÂvÃ sa* puru«a+uttama÷ |
+(samaæ* vignena Csa+saævignena )dhÅreïa |cintayÃm Ãsa cetasÃ ||4.55|
+kiæ* (v* imÃ CvinÃ )na*avagacchanti |capalaæ* yauvanaæ* striya÷ |
+yato* rÆpeïa (saæmattaæ* |jarÃ yan* Csaæpannaæ* |jarÃ*iyaæ* )nÃÓayi«yati ||4.56|
+nÆnam etÃ* na paÓyanti |kasya+cid* roga+saæplavam | 
+tathÃ h­«ÂÃ* bhayaæ* tyaktvÃ |jagati vyÃdhi+dharmiïi ||4.57|
+an+abhij¤ÃÓ* ca su+vyaktaæ* |m­tyo÷ sarva+apahÃriïa÷ | 
+(tata÷ CtathÃ )sva+sthÃ* nir+(udvignÃ÷ CudvegÃ÷ )|krÅ¬anti ca hasanti ca ||4.58|
+jarÃæ* (vyÃdhiæ* ca m­tyuæ* Cm­tyuæ* ca vyÃdhiæ* )ca |ko* hi jÃnan sa+cetana÷ |
+sva+sthas* ti«Âhen* ni«Åded* vÃ |(Óayed* Csuped* )vÃ kiæ* punar* haset ||4.59|
+yas* tu d­«ÂvÃ paraæ* jÅrïaæ* |vyÃdhitaæ* m­tam eva ca | 
+sva+stho* bhavati na*udvigno* |yathÃ*a+cetÃs* tathÃ*eva sa÷ ||4.60|
+viyujyamÃne (hi C*api )tarau |pu«pair* api phalair* api |
+patati *cchidyamÃne vÃ |tarur* anyo* na Óocate ||4.61|
+iti dhyÃna+paraæ* d­«ÂvÃ |vi«ayebhyo* gata+sp­ham | 
+udÃyÅ nÅti+ÓÃstra+j¤as* |tam uvÃca su+h­ttayÃ ||4.62|
+ahaæ* n­+patinÃ datta÷ |sakhÃ tubhyaæ* k«ama÷ kila | 
+yasmÃt tvayi vivak«Ã me |tayÃ praïayavattayÃ ||4.63|
+a+hitÃt prati«edhaÓ* ca |hite ca*anupravartanam | 
+vyasane ca*a+parityÃgas* |tri+vidhaæ* mitra+lak«aïam ||4.64|
+so* *ahaæ* maitrÅæ* pratij¤Ãya |puru«a+arthÃt parÃÇ+(mukha÷ Cmukham )|
+yadi (tvÃ samupek«eya CtvÃæ* samupek«eyaæ* )|na bhaven* mitratÃ mayi ||4.65|
+tad* bravÅmi su+h­d* bhÆtvÃ |taruïasya vapu«mata÷ | 
+idaæ* na prati+rÆpaæ* te |strÅ«v* a+dÃk«iïyam Å+d­Óam ||4.66|
+an+­tena*api nÃrÅïÃæ* |yuktaæ* samanuvartanam | 
+tad+vrÅ¬Ã+parihÃra+artham |Ãtma+raty+artham eva ca ||4.67|
+saænatis* ca*anuv­ttiÓ* ca |strÅïÃæ* h­daya+bandhanam | 
+snehasya hi guïÃ* yonir* |mÃna+kÃmÃÓ* ca yo«ita÷ ||4.68|
+tad* arhasi viÓÃla+ak«a |h­daye* *api parÃÇ+mukhe | 
+rÆpasya*asya*anu+rÆpeïa |dÃk«iïyena*anuvartitum ||4.69|
+dÃk«iïyam au«adhaæ* strÅïÃæ* |dÃk«iïyaæ* bhÆ«aïaæ* param | 
+dÃk«iïya+rahitaæ* rÆpaæ* |ni«+pu«pam iva kÃnanam ||4.70|
+kiæ vÃ dÃk«iïya+mÃtreïa |bhÃvena*astu parigraha÷ | 
+vi«ayÃn dur+labhÃæl* labdhvÃ |na hy* avaj¤Ãtum arhasi ||4.71|
+kÃmaæ* param iti j¤ÃtvÃ |devo* *api hi puraæ+dara÷ | 
+gautamasya mune÷ patnÅm |ahalyÃæ* cakame purÃ ||4.72|
+agastya÷ prÃrthayÃm Ãsa |soma+bhÃryÃæ* ca rohiïÅm | 
+tasmÃt tat+sa+(d­ÓÅæ* Cd­Óaæ* )lebhe |lopÃ+mudrÃm iti Óruti÷ ||4.73|
+(utathyasya Cautathyasya )ca bhÃryÃyÃæ* |mamatÃyÃæ* mahÃ+(tapa÷ CtapÃ÷ )|
+mÃrutyÃæ* janayÃm Ãsa |bharad+vÃjaæ* (b­has+Cv­has+)pati÷ ||4.74|
+(b­has+Cv­has+)pater* mahi«yÃæ* ca |juhvatyÃæ* juhvatÃæ* vara÷ |
+budhaæ* vibudha+(karmÃïaæ* CdharmÃïaæ* )|janayÃm Ãsa candra+mÃ÷ ||4.75|
+kÃlÅm* ca*eva purÃ kanyÃæ* |jala+prabhava+saæbhavÃm | 
+jagÃma yamunÃ+tÅre |jÃta+rÃga÷ parÃÓara÷ ||4.76|
+mÃtaÇgyÃm ak«a+mÃlÃyÃæ* |garhitÃyÃæ* riraæsayÃ | 
+kapi¤jala+adaæ* tanay.am* |vasi«Âho* *ajanayan* muni÷ ||4.77|
+yayÃtiÓ* ca*eva rÃja+­«ir* |vayasy* api vinirgate | 
+viÓvÃcyÃ*apsarasÃ sa+ardhaæ* |reme caitrarathe vane ||4.78|
+strÅ+saæsargaæ* vinÃÓa+antaæ* |pÃï¬ur* j¤ÃtvÃ*api kaurava÷ | 
+mÃdrÅ+rÆpa+guïa+Ãk«ipta÷ |si«eve kÃma+jam sukham ||4.79|
+karÃla+janakaÓ* ca*eva |h­tvÃ brÃhmaïa+kanyakÃm |
+avÃpa bhraæÓam apy* (evaæ* Ceva )|na tu (seje na Ctyajec* ca )manmatham ||4.80|
+evam+ÃdyÃ* mahÃ+ÃtmÃno* |vi«ayÃn garhitÃn api | 
+rati+hetor* bubhujire |prÃg* eva guïa+saæhitÃn ||4.81|
+tvaæ* punar* nyÃyata÷ prÃptÃn |balavÃn rÆpavÃn yuvÃ | 
+vi«ayÃn avajÃnÃsi |yatra saktam idaæ* jagat ||4.82|
+iti ÓrutvÃ vacas* tasya |Ólak«ïam Ãgama+saæhitam  |
+megha+stanita+nirgho«a÷ |kumÃra÷ pratyabhÃ«ata ||4.83|
+upapannam idaæ* vÃkyaæ* |sauhÃrda+vya¤jakaæ* tvayi | 
+atra ca tvÃ*anune«yÃmi |yatra mÃ du«Âhu manyase ||4.84|
+na*avajÃnÃmi (vi«ayÃn Cvi«ayÃ¤* )|jÃne lokaæ* tad+Ãtmakam |
+a+nityaæ* tu jagan* matvÃ |na*atra me ramate mana÷ ||4.85|
+jarÃ vyÃdhiÓ* ca m­tyuÓ* ca |yadi na syÃd* idaæ* trayam | 
+mama*api hi mano+j¤e«u |vi«aye«u ratir* bhavet ||4.86|
+nityaæ* yady* api hi strÅïÃm |etad* eva vapur* bhavet | 
+(do«avatsv* api Csa+saævitkasya )kÃme«u |(kÃmaæ* rajyeta me mana÷ CtathÃ*api na rati÷ k«amÃ )||4.87|
+yadÃ tu (jarayÃ*ÃpÅtaæ* CjarayÃ pÅtaæ* )|rÆpam ÃsÃæ* bhavi«yati |
+Ãtmano* *apy* an+abhipretaæ* |mohÃt tatra ratir* bhavet ||4.88|
+m­tyu+vyÃdhi+jarÃ+(dharmÃ* Cdharmo* )|m­tyu+vyÃdhi+jarÃ+Ãtmabhi÷ |
+ramamÃïo* (hy* C*apy* )a+saævigna÷ |samÃno* m­ga+pak«ibhi÷ ||4.89|
+yad* apy* Ãttha mahÃ+ÃtmÃnas* |te* *api kÃma+ÃtmakÃ* iti | 
+saævego* (*atra*eva C*atra na )kartavyo* |yadÃ te«Ãm api k«aya÷ ||4.90|
+mÃhÃtmyaæ* na ca tan* manye |yatra sÃmÃnyata÷ k«aya÷ | 
+vi«aye«u prasaktir* vÃ |yuktir* vÃ na*ÃtmavattayÃ ||4.91|
+yad* apy* Ãttha*an+­tena*api |strÅ+jane vartyatÃm iti | 
+an+­taæ* na*avagacchÃmi |dÃk«iïyena*api kiæ+cana ||4.92|
+na ca*anuvartanaæ* tan* me |rucitaæ* yatra na*Ãrjavam |
+sarva+bhÃvena saæparko* |yadi na*asti dhig* astu tat ||4.93|
+(a+dhrÂe÷ Can+­te )ÓraddadhÃnasya |saktasya*a+do«a+darÓina÷ |
+kiæ* hi va¤cayitavyaæ* syÃj* |jÃta+rÃgasya cetasa÷ ||4.94|
+va¤cayanti ca yady* (evaæ* Ceva )|jÃta+rÃgÃ÷ paras+param | 
+nanu na*eva k«amaæ* dra«Âuæ* |narÃ÷ strÅïÃæ* n­ïÃm* striya÷ ||4.95|
+tad* evaæ* sati du÷kha+Ãrtaæ* |jarÃ+maraïa+(bhÃginam Cbhoginam )|
+na mÃæ* kÃme«v* an+Ãrye«u |pratÃrayitum arhasi ||4.96|
+aho *ati+dhÅraæ* balavac* ca te manaÓ* | 
+cale«u kÃme«u ca sÃra+darÓina÷ | 
+bhaye (*ati+tÅvre C*api tÅvre )vi«aye«u sajjase |
+nirÅk«amÃïo* maraïa+adhvani prajÃ÷ ||4.97|
+ahaæ* punar* bhÅrur* ati+iva+viklavo* | 
+jarÃ+vipad+vyÃdhi+bhayaæ* vicintayan | 
+labhe na ÓÃntiæ* na dh­tiæ* kuto* ratiæ* | 
+niÓÃmayan dÅptam iva*agninÃ jagat ||4.98|
+a+saæÓayaæ* m­tyur* iti prajÃnato* |
+narasya rÃgo* h­di yasya jÃyate | 
+ayomayÅæ* tasya paraimi cetanÃæ* | 
+mahÃ+bhaye (rajyati Crak«ati )yo* na roditi ||4.99|
+atha*u kumÃraÓ* ca viniÓcaya+ÃtmikÃæ* |
+cakÃra kÃma+ÃÓraya+ghÃtinÅæ* kathÃm | 
+janasya cak«ur+gamanÅya+maï¬alo* |
+mahÅ+dharaæ* ca*astam iyÃya bhÃs+kara÷ ||4.100|
+tato* v­thÃ+dhÃrita+bhÆ«aïa+sraja÷ | 
+kalÃ+guïaiÓ* ca praïayaiÓ* ca ni«+phalai÷ | 
+svae* eva bhÃve vinig­hya manmathaæ* | 
+puraæ* yayur* bhagna+mano+rathÃ÷ striya÷ ||4.101|
+tata÷ pura+udyÃna+gatÃæ* jana+Óriyaæ* | 
+nirÅk«ya sÃyaæ* pratisaæh­tÃæ* puna÷ | 
+a+nityatÃæ* sarva+gatÃæ* vicintayan | 
+viveÓa dhi«ïyaæ* k«iti+pÃlaka+Ãtma+ja÷ ||4.102|
+tata÷ ÓrutvÃ rÃjÃ vi«aya+vi+mukhaæ* tasya tu mano* | 
+na ÓiÓye tÃæ* rÃtriæ* h­daya+gata+Óalyo* gaja* iva | 
+atha ÓrÃnto* mantre bahu+vi+vidha+mÃrge sa+sacivo* | 
+na so* *anyat kÃmebhyo* niyamanam apaÓyat suta+mate÷ ||4.103|
+[[iti (CÓrÅ+C)buddha+carite mahÃ+kÃvye strÅ+vighÃtano* nÃma caturtha÷ sarga÷ |4|]]
+sa* tathÃ vi«ayair* vilobhyamÃna÷ | 
+(parama+arhair* Cpara+mohair* )api ÓÃkya+rÃja+sÆnu÷ |
+na jagÃma (dh­tiæ* Cratiæ* )na Óarma lebhe |
+h­daye siæha* iva*ati+digdha+viddha÷ ||5.1|
+atha mantri+sutai÷ k«amai÷ kadÃ+cit | 
+sakhibhiÓ* citra+kathai÷ k­ta+anuyÃtra÷ | 
+vana+bhÆmi+did­k«ayÃ Óama+Åpsur* | 
+nara+deva+anumato* (bahi÷ Cvahi÷ )pratasthe ||5.2|
+nava+rukma+khalÅna+kiÇkiïÅkaæ* | 
+pracalac+cÃmara+cÃru+hema+bhÃï¬am | 
+abhiruhya sa* (kanthakaæ* CkaïÂhakaæ* )sad+aÓvaæ* |
+prayayau ketum iva druma+ab+ja+ketu÷ ||5.3|
+sa* (vik­«ÂatarÃæ* Cnik­«ÂatarÃæ* )vana+anta+bhÆmiæ* |
+vana+lobhÃc* ca yayau mahÅ+(guïÃc* ca Cguïa+icchu÷ )|
+salilo+urmi+vikÃra+sÅra+mÃrgÃæ* |
+vasu+dhÃæ* ca*eva dadarÓa k­«yamÃïÃm ||5.4|
+hala+bhinna+vikÅrïa+Óa«pa+darbhÃæ* | 
+hata+sÆk«ma+krimi+(kÅÂa+CkÃï¬a+)jantu+kÅrïÃm |
+samavek«ya rasÃæ* tathÃ+vidhÃæ* tÃæ* | 
+sva+janasya*iva (vadhe Cbadhe )bh­Óaæ* ÓuÓoca ||5.5|
+k­«ata÷ puru«ÃæÓ* ca vÅk«amÃïa÷ | 
+pavana+arka+aæÓu+rajo+vibhinna+varïÃn | 
+vahana+klama+viklavÃæÓ* ca dhuryÃn | 
+parama+Ãrya÷ paramÃæ* k­pÃæ* cakÃra ||5.6|
+avatÅrya tatas* turaæ+ga+p­«ÂhÃc* | 
+*chanakair* gÃæ* (vyacarac* *chucÃ Cvyacarat ÓucÃ )parÅta÷ |
+jagato* janana+vyayaæ* vicinvan | 
+k­païaæ* khalv* idam ity* uvÃca (ca*Ãrta÷ Cca*Ãrtta÷ )||5.7|
+manasÃ ca viviktatÃm abhÅpsu÷ | 
+su+h­das* tÃn anuyÃyino* nivÃrya | 
+(abhitaÓ* cala+CabhitÃrala+)cÃru+parïavatyÃ* |
+vi+jane mÆlam upeyivÃn sa* jambvÃ÷ ||5.8|
+ni«asÃda (sa* yatra ÓaucavatyÃæ* Cca patra+khoravatyÃæ* )|
+bhuvi (vai¬Ærya+CvaidÆrya+)nikÃÓa+ÓÃdvalÃyÃm |
+jagata÷ prabhava+vyayau (vicinvan Cvicintya )|
+manasaÓ* ca sthiti+mÃrgam Ãlalambe ||5.9|
+samavÃpta+mana÷+sthitiÓ* ca sadyo* |
+vi«aya+icchÃ+Ãdibhir* ÃdhibhiÓ* ca mukta÷ | 
+sa+vitarka+vicÃram Ãpa ÓÃntaæ* | 
+prathamaæ* dhyÃnam an+(Ãsrava+CÃÓrava+)prakÃram ||5.10|
+adhigamya tato* viveka+jaæ* tu | 
+parama+prÅti+sukhaæ* ((Cmana÷+C))samÃdhim |
+idam eva tata÷ paraæ* pradadhyau | 
+manasÃ loka+gatiæ* (niÓÃmya CniÓamya )samyak ||5.11|
+k­païaæ* (bata Cvata )yaj* jana÷ svayaæ* sann* |
+a+(vaÓo* Craso* )vyÃdhi+jarÃ+vinÃÓa+(dharmÃ Cdharma÷ )|
+jarayÃ*Ãrditam Ãturaæ* m­taæ* vÃ | 
+param a+j¤o* vijugupsate mada+andha÷ ||5.12|
+iha ced* aham Å+d­Óa÷ svayaæ san* | 
+vijugupseya paraæ* tathÃ+sva+bhÃvam | 
+na bhavet sa+d­Óaæ* hi tat k«amaæ* vÃ | 
+paramaæ* dharmam imaæ* vijÃnato* me ||5.13|
+iti tasya vipaÓyato* yathÃvaj* | 
+jagato* vyÃdhi+jarÃ+vipatti+do«Ãn | 
+bala+yauvana+jÅvita+(prav­tto* Cprav­ttau )|
+vijagÃma*Ãtma+gato* mada÷ k«aïena ||5.14|
+na jahar«a na ca*api ca*anutepe | 
+vicikitsÃæ* na yayau na tandri+nidre | 
+na ca kÃma+guïe«u saærara¤je | 
+na (vididve«a Cca didve«a )paraæ* na ca*avamene ||5.15|
+iti buddhir* iyaæ* ca nÅrajaskÃ |
+vav­dhe tasya mahÃ+Ãtmano* viÓuddhÃ | 
+puru«air* a+parair* a+d­ÓyamÃna÷ | 
+puru«aÓ* ca*upasasarpa bhik«u+(ve«a÷ CveÓa÷ )||5.16|
+nara+deva+sutas* tam abhyap­cchad* | 
+vada ko* *asi*iti ÓaÓaæsa so* *atha tasmai | 
+(nara+puæ+Csa* ca puæ+)gava janma+m­tyu+bhÅta÷ |
+Óramaïa÷ pravrajito* *asmi mok«a+heto÷ ||5.17|
+jagati k«aya+dharmake mumuk«ur* | 
+m­gaye *ahaæ* Óivam a+k«ayaæ* padaæ* tat | 
+sva+(jane *anya+jane ca tulya+Cjano* *anya+janair* a+tulya+)buddhir* |
+vi«ayebhyo* vini.vrtta+rÃga+do«a÷ ||5.18|
+nivasan kva+cid* eva v­k«a+mÆle | 
+vi+jane vÃ*Ãyatane girau vane vÃ | 
+vicarÃmy* a+parigraho* nir+ÃÓa÷ | 
+parama+arthÃya yathÃ+upapanna+(bhaik«a÷ Cbhik«u÷ )||5.19|
+iti paÓyata* eva rÃja+sÆnor* | 
+idam uktvÃ sa* nabha÷ samutpapÃta | 
+sa* hi tad+vapur* anya+(buddha+Cbuddhi+)darÓÅ |
+sm­taye tasya sameyivÃn diva+okÃ÷ ||5.20|
+gaganaæ* kha+gavad* gate ca tasmin |
+n­+vara÷ saæjah­«e visismiye ca | 
+upalabhya tataÓ* ca dharma+saæj¤Ãm | 
+abhiniryÃïa+vidhau matiæ* cakÃra ||5.21|
+tata* indra+samo* (jita+indriya+aÓva÷ Cjita+indriyaÓ* ca)|
+pravivik«u÷ (puram aÓvam Cparama+aÓvam )Ãruroha |
+(parivÃra+janaæ* Cparivartya janaæ* )tv* avek«amÃïas* |
+tata* eva*abhimataæ* vanaæ* na bheje ||5.22|
+sa* jarÃ+maraïa+k«ayaæ* cikÅr«ur* | 
+vana+vÃsÃya matiæ* sm­tau nidhÃya | 
+praviveÓa puna÷ puraæ* na kÃmÃd* | 
+vana+bhÆmer* iva maï¬alaæ* dvi+pa+indra÷ ||5.23|
+sukhitÃ (bata Cvata )nirv­tÃ ca sÃ strÅ |
+patir* Å+(d­k«a* iha*Ãyata+ak«a Cd­k tvam iva*Ãyata+ak«a )yasyÃ÷ |
+iti taæ* samudÅk«ya rÃja+kanyÃ | 
+praviÓantaæ* pathi sa+a¤jalir* jagÃda ||5.24|
+atha gho«am imaæ* mahÃ+abhra+gho«a÷ | 
+pariÓuÓrÃva Óamaæ* paraæ* ca lebhe | 
+(ÓrutavÃn sa* CÓrutavÃæÓ* ca )hi nirv­tÃ*iti Óabdaæ* | 
+parinirvÃïa+vidhau matiæ* cakÃra ||5.25|
+atha kÃ¤cana+Óaila+Ó­Çga+var«mÃ | 
+gaja+megha+­«abha+bÃhu+nisvana+ak«a÷ |
+k«ayam a+k«aya+dharma+jÃta+rÃga÷ | 
+ÓaÓi+siæha+Ãnana+vikrama÷ prapede ||5.26|
+m­ga+rÃja+gatis* tato* *abhyagacchan* | 
+n­+patiæ* mantri+gaïair* upÃsyamÃnam | 
+samitau marutÃm iva jvalantaæ* | 
+maghavantaæ* tri+dive sanat+kumÃra÷ ||5.27|
+praïipatya ca sa+a¤jalir* babhÃ«e | 
+diÓa mahyaæ* nara+deva sÃdhv* anuj¤Ãm | 
+parivivraji«Ãmi mok«a+hetor* | 
+niyato* hy* asya janasya viprayoga÷ ||5.28|
+iti tasya vaco* niÓamya rÃjÃ | 
+kariïÃ*iva*abhihato* drumaÓ* cacÃla | 
+kamala+pratime *a¤jalau g­hÅtvÃ | 
+vacanaæ* ca*idam uvÃca (bÃ«pa+CvÃ«pa+)kaïÂha÷ ||5.29|
+pratisaæhara tÃta buddhim etÃæ* | 
+na hi kÃlas* tava dharma+saæÓrayasya | 
+vayasi prathame matau calÃyÃæ* | 
+bahu+do«Ãæ* hi vadanti dharma+caryÃm ||5.30|
+vi«aye«u kutÆhala+indriyasya | 
+vrata+khede«v* a+sam+artha+niÓcayasya | 
+taruïasya manaÓ* calaty* araïyÃd* | 
+an+abhij¤asya viÓe«ato* (viveke C*a+vivekam )||5.31|
+mama tu priya+dharma dharma+kÃlas* | 
+tvayi lak«mÅm avas­jya (lak«ma+Clak«ya+)bhÆte |
+sthira+vikrama vikrameïa dharmas* | 
+tava hitvÃ tu guruæ* bhaved* a+dharma÷ ||5.32|
+tad* imaæ* vyavasÃyam uts­ja | 
+tvaæ* bhava tÃvan* nirato* g­ha+stha+dharme | 
+puru«asya vaya÷+sukhÃni bhuktvÃ | 
+ramaïÅyo* hi tapo+vana+praveÓa÷ ||5.33|
+iti vÃkyam idaæ* niÓamya rÃj¤a÷ | 
+kalaviÇka+svara* uttaraæ* babhÃ«e | 
+yadi me pratibhÆÓ* catur«u rÃjan | 
+bhavasi tvaæ* na tapo+vanaæ* Órayi«ye ||5.34|
+na bhaven* maraïÃya jÅvitaæ me | 
+viharet svÃsthyam idam ca me na roga÷ | 
+na ca yauvanam Ãk«ipej* jarÃ me | 
+na ca saæpattim (imÃæ* hared* CapÃhared* )vipatti÷ ||5.35|
+iti dur+labham artham ÆcivÃæsaæ* | 
+tanay.am* vÃkyam uvÃca ÓÃkya+rÃja÷ | 
+tyaja buddhim (imÃm ati+CimÃæ* gati+)prav­ttÃm |
+avahÃsyo* *ati+mano+(ratho* *a+Cratha+)kramaÓ* ca ||5.36|
+atha meru+gurur* guruæ* babhÃ«e |
+yadi na*asti krama* e«a* (na*asmi Cna*asti )vÃrya÷ |
+ÓaraïÃj* jvalanena dahyamÃnÃn* | 
+na hi (niÓcikrami«u÷ CniÓcikrami«uæ* )k«amaæ* grahÅtum ||5.37|
+jagataÓ* ca (yadÃ CyathÃ )dhruvo* viyogo* |
+(nanu Cna tu )dharmÃya varaæ* (svayaæ+viyoga÷ Ctv* ayaæ* viyoga÷ )|
+a+vaÓaæ* nanu viprayojayen* mÃm | 
+a+k­ta+sva+artham a+t­ptam eva m­tyu÷ ||5.38|
+iti bhÆmi+patir* niÓamya tasya | 
+vyavasÃyaæ* tanayasya nirmumuk«o÷ | 
+abhidhÃya na yÃsyati*iti bhÆyo* | 
+vidadhe rak«aïam uttamÃæÓ* ca kÃmÃn ||5.39|
+sacivais* tu nidarÓito* yathÃvad* | 
+bahu+mÃnÃt praïayÃc* ca ÓÃstra+pÆrvam | 
+guruïÃ ca nivÃrito* *aÓru+pÃtai÷ | 
+praviveÓa*avasathaæ* tata÷ sa* Óocan ||5.40|
+cala+kuïdala+cumbita+ÃnanÃbhir* | 
+ghana+niÓvÃsa+vikampita+stanÅbhi÷ | 
+vanitÃbhir* a+dhÅra+locanÃbhir* | 
+m­ga+ÓÃvÃbhir* iva*abhyudÅk«yamÃïa÷ ||5.41|
+sa* hi kÃ¤cana+parvata+avadÃto* | 
+h­daya+unmÃda+karo* vara+aÇganÃnÃm |
+Óravana+aÇga+vilocana+Ãtma+bhÃvÃn | 
+vacana+sparÓa+vapur+guïair* jahÃra ||5.42|
+vigate divase tato* vimÃnaæ* | 
+vapu«Ã sÆrya* iva pradÅpyamÃna÷ | 
+timiraæ* vijighÃæsur* Ãtma+bhÃsÃ | 
+ravir* udyann* iva merum Ãruroha ||5.43|
+kanaka+ujjvala+dÅpta+dÅpa+v­k«aæ* | 
+vara+kÃla+aguru+dhÆpa+pÆrïa+garbham | 
+adhiruhya sa* vajra+bhakti+citraæ* | 
+pravaraæ* kÃ¤canam Ãsanaæ* si«eve ||5.44|
+tata* uttamam (uttama+aÇganÃs* taæ* CuttamÃÓ* ca nÃryo* )| 
+niÓi tÆryair* upatasthur* indra+kalpam | 
+himavac+chirasi*iva candra+gaure | 
+draviïa+indra+Ãtma+jam apsaro+gaïa+oghÃ÷ ||5.45|
+paramair* api divya+tÆrya+kalpai÷ | 
+sa* tu tair* na*eva ratiæ* yayau na har«am | 
+parama+artha+sukhÃya tasya sÃdhor* | 
+abhiniÓcikrami«Ã yato* na reme ||5.46|
+atha tatra surais* tapo+vari«Âhair* | 
+a+kani«Âhair* vyavasÃyam asya buddhvÃ | 
+yugapat pramadÃ+janasya nidrÃ | 
+vihitÃ*ÃsÅd* vik­tÃÓ* ca gÃtra+ce«ÂÃ÷ ||5.47|
+abhavac* *chayitÃ hi tatra kÃ+cid* | 
+viniveÓya pracale kare kapolam | 
+dayitÃm api rukma+pattra+citrÃæ* | 
+kupitÃ*iva*aÇka+gatÃæ* vihÃya vÅïÃm ||5.48|
+vibabhau kara+lagna+veïur* anyÃ | 
+stana+visrasta+sita+aæÓukÃ ÓayÃnÃ | 
+­ju+«aÂ+pada+paÇkti+ju«Âa+padmÃ |
+jala+phena+prahasat+taÂÃ nadÅ*iva ||5.49|
+nava+pu«kara+garbha+komalÃbhyÃæ* | 
+tapanÅya+ujjvala+saægata+aÇga+dÃbhyÃm | 
+svapiti sma (tathÃ*a+parÃ CtathÃ purÃ )bhujÃbhyÃæ* |
+parirabhya priyavan* m­d+aÇgam eva ||5.50|
+nava+hÃÂaka+bhÆ«aïÃs* tathÃ*anyÃ* |
+vasanaæ* pÅtam an+uttamaæ* vasÃnÃ÷ | 
+a+vaÓÃ (ghana+nidrayÃ Cvata nidrayÃ )nipetur* |
+gaja+bhagnÃ* iva karïikÃra+ÓÃkhÃ÷ ||5.51|
+avalambya gava+ak«a+pÃrÓvam anyÃ | 
+ÓayitÃ cÃpa+vibhugna+gÃtra+ya«Âi÷ | 
+virarÃja vilambi+cÃru+hÃrÃ | 
+racitÃ toraïa+ÓÃla+bha¤jikÃ*iva ||5.52|
+maïi+kuï¬ala+da«Âa+pattra+lekhaæ* | 
+mukha+padmaæ* vinataæ* tathÃ*a+parasyÃ÷ | 
+Óata+pattram iva*ardha+(vakra+Ccakra+)nÃ¬aæ* |
+sthita+kÃraï¬ava+ghaÂÂitaæ* cakÃÓe ||5.53|
+a+parÃ÷ ÓayitÃ* yathÃ+upavi«ÂÃ÷ | 
+stana+bhÃrair* avanamyamÃna+gÃtrÃ÷ | 
+upaguhya paras+paraæ* virejur* | 
+bhuja+pÃÓais* tapanÅya+pÃrihÃryai÷ ||5.54|
+mahatÅæ* parivÃdinÅæ* ca kÃ+cid* | 
+vanitÃ*ÃliÇgya sakhÅm iva prasuptÃ | 
+vijughÆrïa calat+su+varïa+(sÆtrÃ CsÆtrÃæ* )|
+vadanena*Ãkula+(yoktrakeïa Ckarïika+ujjvalena )||5.55|
+païavaæ* yuvatir* bhuja+aæsa+deÓÃd* | 
+avavisraæsita+cÃru+pÃÓam anyÃ | 
+sa+vilÃsa+rata+anta+tÃntam Ærvor* | 
+vivare kÃntam iva*abhinÅya ÓiÓye ||5.56|
+a+parÃ* babhur* nimÅlita+ak«yo* |
+vipula+ak«yo* *api Óubha+bhruvo* *api satya÷ | 
+pratisaækucita+aravinda+koÓÃ÷ | 
+savitary* astam ite yathÃ nalinya÷ ||5.57|
+Óithila+Ãkula+mÆrdha+jÃ tathÃ*anyÃ | 
+jaghana+srasta+vibhÆ«aïa+aæÓuka+antÃ |
+aÓayi«Âa vikÅrïa+kaïÂha+sÆtrÃ | 
+gaja+bhagnÃ (pratiyÃtana+aÇganÃ*iva CpratipÃtita+aÇganÃ*iva )||5.58|
+a+parÃs* tv* a+vaÓÃ* hriyÃ viyuktÃ* | 
+dh­timatyo* *api vapur+guïair* upetÃ÷ | 
+viniÓaÓvasur* (ulbaïaæ* Culvaïaæ* )ÓayÃnÃ* |
+(vik­tÃ÷ k«ipta+Cvik­ta+Ãk«ipta+)bhujÃ* jaj­mbhire ca ||5.59|
+vyapaviddha+vibhÆ«aïa+srajo* *anyÃ* | 
+(vis­ta+Ãgranthana+Cvis­ta+a+granthana+)vÃsaso* vi+saæj¤Ã÷ |
+a+nimÅlita+Óukla+niÓ+cala+ak«yo* | 
+na vireju÷ ÓayitÃ* gata+asu+kalpÃ÷ ||5.60|
+viv­ta+Ãsya+puÂÃ viv­ddha+(gÃtrÅ CgÃtrÃ )|
+prapatad+vaktra+jalÃ prakÃÓa+guhyÃ | 
+a+parÃ mada+ghÆrïitÃ*iva ÓiÓye | 
+na (babhÃse CbabhÃ«e )vik­taæ* vapu÷ pupo«a ||5.61|
+iti sattva+(kula+anvaya+anu+rÆpaæ* Ckula+anu+rÆpa+rÆpaæ* )|
+vi+vidhaæ* sa* pramadÃ+jana÷ ÓayÃna÷ | 
+sarasa÷ sa+d­Óaæ* babhÃra rÆpaæ* | 
+pavana+Ãvarjita+(rugna+Crugïa+)pu«karasya ||5.62|
+samavek«ya (tathÃ tathÃ CtataÓ* ca tÃ÷ )ÓayÃnÃ* |
+vik­tÃs* tÃ* yuvatÅr* a+dhÅra+ce«ÂÃ÷ | 
+guïavad+vapu«o* *api valgu+(bhÃ«Ã* CbhÃso* )|
+n­+pa+sÆnu÷ sa* vigarhayÃæ* babhÆva ||5.63|
+a+Óucir* vik­taÓ* ca jÅva+loke | 
+vanitÃnÃm ayam Å+d­Óa÷ sva+bhÃva÷ | 
+vasana+Ãbharaïais* tu va¤cyamÃna÷ | 
+puru«a÷ strÅ+vi«aye«u rÃgam eti ||5.64|
+vim­Óed* yadi yo«itÃæ* manu«ya÷ | 
+prak­tiæ* svapna+vikÃram Å+d­Óaæ* ca | 
+dhruvam atra na vardhayet pramÃdaæ* | 
+guïa+saækalpa+hatas* tu rÃgam eti ||5.65|
+iti tasya tad+antaraæ* viditvÃ | 
+niÓi niÓcikrami«Ã samudbabhÆva | 
+avagamya manas* tato* *asya devair* | 
+bhavana+dvÃram apÃv­taæ* babhÆva ||5.66|
+atha so* *avatatÃra harmya+p­«ÂhÃd* | 
+yuvatÅs* tÃ÷ ÓayitÃ* vigarhamÃïa÷ | 
+avatÅrya tataÓ* ca nir+viÓaÇko* | 
+g­ha+kak«yÃæ* (prathamÃæ* Cprathamaæ* )vinirjagÃma ||5.67|
+tura+ga+avacaraæ* sa* bodhayitvÃ | 
+javinaæ* chandakam ittham ity* uvÃca | 
+hayam Ãnaya kanthakaæ* tvarÃvÃn | 
+a+m­taæ+ prÃptum ito* *adya ma yiyÃsÃ ||5.68|
+h­di yÃ mama tu«Âir* adya jÃtÃ | 
+vyavasÃyaÓ* ca yathÃ (matau Cdh­tau )nivi«Âa÷ |
+vi+jane *api ca nÃthavÃn iva*asmi | 
+dhruvam artho* *abhi+mukha÷ (sameta* Csa* me ya* )i«Âa÷ ||5.69|
+hriyam eva ca saænatiæ* ca hitvÃ | 
+ÓayitÃ* mat+pra+mukhe yathÃ yuvatya÷ | 
+viv­te ca yathÃ svayaæ* kapÃÂe | 
+niyataæ* yÃtum (ato* mama*adya Can+ÃmayÃya )kÃla÷ ||5.70|
+pratig­hya tata÷ sa* bhartur* Ãj¤Ãæ* | 
+vidita+artho* *api nara+indra+ÓÃsanasya | 
+manasi*iva pareïa codyamÃnas* | 
+tura+gasya*Ãnayane matiæ* cakÃra ||5.71|
+atha hema+khalÅna+pÆrïa+vaktraæ* | 
+laghu+Óayya+Ãstaraïa+upagÆ¬ha+p­«Âham | 
+bala+sattva+(java+anvaya+upapannaæ* Cjava+tvarÃ+upapannaæ* )|
+sa* vara+aÓvaæ* tam upÃninÃya bhartre ||5.72|
+pratata+trika+puccha+mÆla+pÃr«ïiæ* | 
+(nibh­ta+hrasva+Cnibh­taæ* hrasva+)tanÆ+ja+(puccha+Cp­«Âha+)karïam |
+vinata+unnata+p­«Âha+kuk«i+pÃrÓvaæ* | 
+vipula+protha+lalÃÂa+kaÂhy+uraskam ||5.73|
+upaguhya sa* taæ* viÓÃla+vak«Ã÷ | 
+kamala+Ãbhena ca sÃntvayan kareïa | 
+madhura+a+k«arayÃ girÃ ÓaÓÃsa | 
+dhvajinÅ+madhyam iva prave«Âu+kÃma÷ ||5.74|
+bahuÓa÷ (kila Óatravo* Ckali+Óatravo* )nirastÃ÷ |
+samare tvÃm adhiruhya pÃrthivena | 
+aham apy* a+m­taæ* (padaæ* Cparaæ* )yathÃvat |
+tura+ga+Óre«Âha labheya tat kuru«va ||5.75|
+su+labhÃ÷ khalu saæ+yuge sahÃyÃ* | 
+vi«aya+avÃpta+sukhe dhana+arjane vÃ | 
+puru«asya tu dur+labhÃ÷ sahÃyÃ÷ | 
+patitasya*Ãpadi dharma+saæÓraye vÃ ||5.76|
+iha ca*eva bhavanti ye sahÃyÃ÷ | 
+kalu«e (karmaïi Cdharmaïi )dharma+saæÓraye vÃ |
+avagacchati me yathÃ*antar+ÃtmÃ | 
+niyataæ* te *api janÃs* tad+aæÓa+bhÃja÷ ||5.77|
+tad* idaæ* parigamya dharma+yuktaæ* | 
+mama niryÃïam (ito* Cato* )jagad+dhitÃya |
+tura+ga+uttama vega+vikramÃbhyÃæ* | 
+prayatasva*Ãtma+hite jagad+dhite ca ||5.78|
+iti su+h­dam iva*anuÓi«ya k­tye | 
+tura+ga+varaæ* n­+varo* vanaæ* yiyÃsu÷ | 
+sitam asita+gati+dyutir* vapu«mÃn | 
+ravir* iva ÓÃradam abhram Ãruroha ||5.79|
+atha sa* pariharan niÓÅtha+caï¬aæ* | 
+parijana+bodha+karaæ* dhvaniæ* sad+aÓva÷ | 
+vigata+hanu+rava÷ praÓÃnta+he«aÓ* | 
+cakita+vimukta+pada+(kramo* CkramÃ )jagÃma ||5.80|
+kanaka+valaya+bhÆ«ita+prako«Âhai÷ |
+kamala+nibhai÷ (kamalÃn iva CkamalÃni ca )pravidhya |
+avanata+tanavas* tato* *asya yak«ÃÓ* | 
+cakita+(gatair* Cgater* )dadhire khurÃn kara+agrai÷ ||5.81|
+guru+parigha+kapÃÂa+saæv­tÃ* yÃ* | 
+na sukham api dvi+radair* apÃvriyante | 
+vrajati n­+pa+sute gata+svanÃs* tÃ÷ | 
+svayam abhavan viv­tÃ÷ pura÷ pratolya÷ ||5.82|
+pitaram abhi+mukhaæ* sutaæ* ca bÃlaæ* | 
+janam anuraktam an+uttamÃæ* ca lak«mÅm | 
+k­ta+matir* apahÃya nir+vyapek«a÷ | 
+pit­+nagarÃt sa* tato* vinirjagÃma ||5.83|
+atha sa* (vi+mala+Cvikaca+)paÇka+ja+Ãyata+ak«a÷ |
+puram avalokya nanÃda siæha+nÃdam | 
+janana+maraïayor* a+d­«Âa+pÃro* |
+na (puram Cpunar* )ahaæ* kapila+Ãhvayaæ* (prave«ÂÃ Cpravi«ÂÃ )||5.84|
+iti vacanam idaæ* niÓamya tasya | 
+draviïa+pate÷ pari«ad+gaïÃ* nanandu÷ | 
+pramudita+manasaÓ* ca deva+saÇghÃ* | 
+vyavasita+pÃraïam ÃÓaÓaæsire *asmai ||5.85|
+huta+vaha+vapu«o* diva+okaso* *anye | 
+vyavasitam asya (su+du«+Cca du«+)karaæ* viditvÃ |
+(ak­«ata Cakuruta )tuhine pathi prakÃÓaæ* |
+ghana+vivara+pra«rtÃ* iva*indu+pÃdÃ÷ ||5.86|
+hari+tura+ga+turaæ+gavat turaæ+ga÷ | 
+sa* tu vicaran* manasi*iva codyamÃna÷ | 
+aruïa+paru«a+(tÃram antarik«aæ* CbhÃram antarÅk«aæ* )| 
+(sa* ca su+bahÆni Csarasa+bahÆni )jagÃma yojanÃni ||5.87|
+[[iti (CÓrÅ+C)buddha+carite mahÃ+kÃvye *abhini«kramaïo* nÃma pa¤cama÷ sarga÷ |5|]]
+tato* (muhÆrta+abhyudite CmuhÆrte *abhyudite )|jagac+cak«u«i bhÃs+kare |
+bhÃrgavasya*ÃÓrama+padaæ* |sa* dadarÓa n­ïÃæ* vara÷ ||6.1|
+supta+viÓvasta+hariïaæ* |sva+stha+sthita+vihaæ+gamam | 
+viÓrÃnta* iva yad* (d­«ÂvÃ Cd­«ÂÃ [sic] )|k­ta+artha* iva ca*abhavat ||6.2|
+sa* vismaya+niv­tty+arthaæ* |tapa÷+pÆjÃ+artham eva ca | 
+svÃæ* ca*anuvartitÃæ* rak«aïn* |aÓva+p­«ÂhÃd* avÃtarat ||6.3|
+avatÅrya ca pasparÓa |nistÅrïam iti vÃjinam |
+chandakaæ* ca*abravÅt prÅta÷ |snÃpayann* iva cak«u«Ã ||6.4|
+imaæ* tÃrk«ya+upama+javaæ* |turaæ+gam anugacchatÃ | 
+darÓitÃ saumya mad+bhaktir* |vikramaÓ* ca*ayam Ãtmana÷ ||6.5|
+sarvathÃ*asmy* anya+kÃryo* *api |g­hÅto* bhavatÃ h­di | 
+bhart­+snehaÓ* ca yasya*ayam |Å+d­Óa÷ (Óaktir* CÓakta* )eva ca ||6.6|
+a+snigdho* *api sam+artho* *asti |ni÷+sÃmarthyo* *api bhaktimÃn | 
+bhaktimÃæs* ca*eva ÓaktaÓ* ca |dur+labhas* tvad+vidho* bhuvi ||6.7|
+tat prÅto* *asmi tava*anena |mahÃ+bhÃgena karmaïÃ | 
+(yasya te Cd­Óyate )mayi bhÃvo* *ayaæ* |phalebhyo* *api parÃÇ+(mukha÷ Cmukhe )||6.8|
+ko* janasya phala+sthasya |na syÃd* abhi+mukho* jana÷ | 
+janÅ+bhavati bhÆyi«Âhaæ* |sva+jano* *api viparyaye ||6.9|
+kula+arthaæ* dhÃryate putra÷ |po«a+arthaæ* sevyate pitÃ | 
+(ÃÓayÃc* *chli«yati CÃÓayÃ*ÃÓli«yati )jagan* |na*asti ni«+(kÃraïÃ svatÃ CkÃraïa+a+svatÃ )||6.10|
+kim uktvÃ bahu saæk«epÃt |k­taæ* me su+mahat priyam |
+nivartasva*aÓvam ÃdÃya |saæprÃpto* *asmi*Åpsitaæ* (padam Cvanam )||6.11|
+ity* uktvÃ sa* mahÃ+bÃhur* |anuÓaæsa+cikÅr«ayÃ | 
+bhÆ«aïÃny* avamucya*asmai |saætapta+manase dadau ||6.12|
+(mukuÂÃd* dÅpa+CmukuÂa+uddÅpta+)karmÃïaæ* |maïim ÃdÃya bhÃsvaram |
+bruvan vÃkyam idaæ* tasthau |sa+Ãditya* iva mandara÷ ||6.13|
+anena maïinÃ chanda |praïamya bahuÓo* n­+pa÷ | 
+vij¤Ãpyo* *a+mukta+viÓrambhaæ* |saætÃpa+viniv­ttaye ||6.14|
+(janma+CjarÃ+)maraïa+nÃÓa+arthaæ* |pravi«Âo* *asmi tapo+vanam |
+na khalu svarga+tar«eïa |na*a+snehena na manyunÃ ||6.15|
+tad* evam abhini«krÃntaæ* |na mÃæ* Óocitum arhasi | 
+bhÆtvÃ*api hi ciraæ* Óle«a÷ |kÃlena na bhavi«yati ||6.16|
+dhruvo* yasmÃc* ca viÓle«as* |tasmÃn* mok«Ãya me mati÷ | 
+viprayoga÷ kathaæ* na syÃd* |bhÆyo* *api sva+(janÃd* iti Cjana+Ãdibhi÷ )||6.17|
+Óoka+tyÃgÃya ni«krÃntaæ* |na mÃæ* Óocitum arhasi | 
+Óoka+hetu«u kÃme«u |saktÃ÷ ÓocyÃs* tu rÃgiïa÷ ||6.18|
+ayaæ* ca kila pÆrve«Ãm |asmÃkaæ* niÓcaya÷ sthira÷ | 
+iti (dÃyÃdya+CdÃya+Ãda+)bhÆtena |na Óocyo* *asmi pathÃ vrajan ||6.19|
+bhavanti hy* artha+dÃya+ÃdÃ÷ |puru«asya viparyaye | 
+p­thivyÃæ* dharma+dÃya+ÃdÃ÷ |dur+labhÃs* tu na santi vÃ ||6.20|
+yad* api syÃd* a+samaye |yÃto* vanam asÃv* iti |
+a+kÃlo* na*asti dharmasya |jÅvite ca¤cale sati ||6.21|
+tasmÃd* adya*eva me ÓreyaÓ* |cetavyam iti niÓcaya÷ | 
+jÅvite ko* hi viÓrambho* |m­tyau praty+arthini sthite ||6.22|
+evam+Ãdi tvayÃ saumya |vij¤Ãpyo* vasu+dhÃ+adhipa÷ | 
+prayatethÃs* tathÃ ca*eva |yathÃ mÃæ* na smared* api ||6.23|
+api nairguïyam asmÃkaæ* |vÃcyaæ* nara+patau tvayÃ | 
+nairguïyÃt tyajyate sneha÷ |sneha+tyÃgÃn* na Óocyate ||6.24|
+iti vÃkyam idaæ* ÓrutvÃ |chanda÷ saætÃpa+viklava÷ |
+(bÃ«pa+CvÃ«pa+)grathitayÃ vÃcÃ |pratyuvÃca k­ta+a¤jali÷ ||6.25|
+anena tava bhÃvena |bÃndhava+ÃyÃsa+dÃyinÃ | 
+bharta÷ sÅdati me ceto* |nadÅ+paÇkae* iva dvi+pa÷ ||6.26|
+kasya na*utpÃdayed* (bÃ«paæ* CvÃ«paæ* )|niÓcayas* te *ayam Å+d­Óa÷ |
+ayomaye *api h­daye |kiæ* puna÷ sneha+viklave ||6.27|
+vimÃna+Óayana+arhaæ* hi |saukumÃryam idaæ* kva ca | 
+khara+darbha+aÇkuravatÅ |tapo+vana+mahÅ kva ca ||6.28|
+ÓrutvÃ tu vyavasÃyaæ* te |yad* aÓvo* *ayaæ* (mayÃ*Ãh­ta÷ CmayÃ h­ta÷ )|
+balÃt+kÃreïa tan* nÃtha |daivena*eva*asmi kÃrita÷ ||6.29|
+kathaæ* hy* Ãtma+vaÓo* jÃnan |vyavasÃyam imaæ* tava | 
+upÃnayeyaæ* tura+gaæ* |Óokaæ* kapila+(vÃstuna÷ Cvastuna÷ )||6.30|
+tan* na*arhasi mahÃ+bÃho |vihÃtuæ* putra+lÃlasam | 
+snigdhaæ* v­ddhaæ* ca rÃjÃnaæ* |sad+dharmam iva nÃstika÷ ||6.31|
+saævardhana+pariÓrÃntÃæ* |dvitÅyÃæ* tÃæ* ca mÃtaram | 
+(devÅæ* Cdeva )na*arhasi vismartuæ* |k­ta+ghna* iva sat+kriyÃm ||6.32|
+bÃla+putrÃæ* guïavatÅæ* |kula+ÓlÃghyÃæ* pati+vratÃm | 
+devÅm arhasi na tyaktuæ* |(klÅba÷ CklÅva÷ )prÃptÃm iva Óriyam ||6.33|
+putraæ* yÃÓodharaæ* ÓlÃghyaæ* |yaÓo+dharma+bh­tÃæ* (varam Cvara÷ )|
+bÃlam arhasi na tyaktuæ* |vyasanÅ*iva*uttamaæ* yaÓa÷ ||6.34|
+atha bandhuæ* ca rÃjyaæ* ca |tyaktum eva k­tÃ mati÷ | 
+mÃæ* na*arhasi vibho tyaktuæ* |tvat+pÃdau hi gatir* mama ||6.35|
+na*asmi yÃtuæ* puraæ* Óakto* |dahyamÃnena cetasÃ | 
+tvÃm araïye parityajya |su+(mantra* Cmitra* )iva rÃghavam ||6.36|
+kiæ* hi vak«yati (mÃæ* rÃjÃ CrÃjÃ mÃæ* )|tvad+­te nagaraæ* gatam |
+vak«yÃmy* ucita+darÓitvÃt |kiæ* tava*anta÷+purÃïi vÃ ||6.37|
+yad* apy* Ãttha*api nairguïyaæ* |vÃcyaæ* nara+patÃv* iti |
+kiæ* tad* vak«yÃmy* a+bhÆtaæ* te |nir+do«asya muner* iva ||6.38|
+h­dayena sa+lajjena |jihvayÃ sajjamÃnayÃ | 
+ahaæ* yady+api vÃ brÆyÃæ* |kas* tac* *chraddhÃtum arhati ||6.39|
+yo* hi candra+masas* (taik«ïyaæ* Ctaik«ïya [sic] )|kathayec* *chraddadhÅta vÃ |
+sa* do«Ãæs* tava do«a+j¤a |kathayec* *chraddadhÅta vÃ ||6.40|
+sa+anukroÓasya satataæ* |nityaæ* karuïa+vedina÷ | 
+snigdha+tyÃgo* na sa+d­Óo* |nivartasva prasÅda me ||6.41|
+iti Óoka+abhibhÆtasya |ÓrutvÃ chandasya bhÃ«itam | 
+sva+stha÷ paramayÃ dh­tyÃ |jagÃda vadatÃæ* vara÷ ||6.42|
+mad+viyogaæ* prati *cchanda |saætÃpas* tyajyatÃm ayam | 
+nÃnÃ+bhÃvo* hi niyataæ* |p­thag+jÃti«u dehi«u ||6.43|
+sva+janaæ* yady+api snehÃn* |na (tyajeyam ahaæ* svayam Ctyajeyaæ* mumuk«ayÃ )|
+m­tyur* anyo+anyam a+vaÓÃn |asmÃn saætyÃjayi«yati ||6.44|
+mahatyÃ t­«ïayÃ du÷khair* |garbheïa*asmi yayÃ dh­ta÷ | 
+tasyÃ* ni«+phala+yatnÃyÃ÷ |kva*ahaæ* mÃtu÷ kva sÃ mama ||6.45|
+vÃsa+v­k«e samÃgamya |vigacchanti yathÃ*aï¬a+jÃ÷ | 
+niyataæ* viprayoga+antas* |tathÃ bhÆta+samÃgama÷ ||6.46|
+sametya ca yathÃ bhÆyo* |vyapayÃnti (balÃhakÃ÷ CvalÃhakÃ÷ )|
+saæyogo* viprayogaÓ* ca |tathÃ me prÃïinÃæ* mata÷ ||6.47|
+yasmÃd* yÃti ca loko* *ayaæ* |vipralabhya paraæ+param | 
+mamatvaæ* na k«amaæ* tasmÃt |svapna+bhÆte samÃgame ||6.48|
+saha+jena viyujyante |parïa+rÃgeïa pÃda+pÃ÷ | 
+anyena*anyasya viÓle«a÷ |kiæ* punar* na bhavi«yati ||6.49|
+tad* evaæ* sati saætÃpaæ* |mÃ kÃr«Å÷ saumya gamyatÃm | 
+lambate yadi tu sneho* |gatvÃ*api punar* Ãvraja ||6.50|
+brÆyÃÓ* (ca*asmat+k­ta+apek«aæ* Cca*asmÃsv* an+Ãk«epaæ* )|janaæ* kapila+(vÃstuni Cvastuni )|
+tyajyatÃæ* tad+gata÷ sneha÷ |ÓrÆyatÃæ* ca*asya niÓcaya÷ ||6.51|
+k«ipram e«yati vÃ k­tvÃ |janma+m­tyu+k«ayaæ* kila | 
+a+k­ta+artho* nir+(Ãrambho* CÃlambo* )|nidhanaæ* yÃsyati*iti vÃ ||6.52|
+iti tasya vaca÷ ÓrutvÃ |kanthakas* tura+ga+uttama÷ | 
+jihvayÃ lilihe pÃdau |(bÃ«pam CvÃ«pam )u«ïaæ* mumoca ca ||6.53|
+jÃlinÃ svastika+aÇkena |(cakra+Cvakra+)madhyena pÃïinÃ |
+ÃmamarÓa kumÃras* taæ* |babhÃ«e ca vayasyavat ||6.54|
+mu¤ca kanthaka mÃ (bÃ«paæ* CvÃ«paæ* )|darÓitÃ*iyaæ* sad+aÓvatÃ |
+m­«yatÃæ* sa+phala÷ ÓÅghraæ* |Óramas* te* *ayaæ* bhavi«yati ||6.55|
+maïit+saruæ* chandaka+hasta+saæsthaæ* | 
+tata÷ sa* dhÅro* niÓitaæ* g­hÅtvÃ | 
+koÓÃd* asiæ* kÃ¤cana+bhakti+citraæ* | 
+(bilÃd* CvilÃd* )iva*ÃÓÅ+vi«am udbabarha ||6.56|
+ni«kÃsya taæ* cad*utpala+pattra+nÅlaæ* |
+ciccheda citraæ* mukuÂaæ* sa+keÓam | 
+vikÅryamÃïa+aæÓukam antarÅk«e | 
+cik«epa ca*enaæ* sarasi*iva haæsam ||6.57|
+pÆjÃ+abhilÃ«eïa ca bÃhumÃnyÃd* | 
+diva+okasas* taæ* jag­hu÷ praviddham | 
+yathÃvad* enaæ* divi deva+saÇghÃ* | 
+divyair* viÓe«air* mahayÃæ* ca cakru÷ ||6.58|
+muktvÃ tv* alaækÃra+kalatravattÃæ* | 
+ÓrÅ+vipravÃsaæ* ÓirasaÓ* ca k­tvÃ | 
+d­«ÂvÃ*aæÓukaæ* kÃ¤cana+haæsa+(cihnaæ* Ccitram )|
+vanyaæ* sa* dhÅro* *abhicakÃÇk«a vÃsa÷ ||6.59|
+tato* m­ga+vyÃdha+vapur* diva+okÃ* | 
+bhÃvaæ* viditvÃ*asya viÓuddha+bhÃva÷ | 
+kÃ«Ãya+vastro* *abhiyayau samÅpaæ* | 
+taæ* ÓÃkya+rÃja+prabhavo* *abhyuvÃca ||6.60|
+Óivaæ* ca kÃ«Ãyam ­«i+dhvajas* te | 
+na yujyate hiæsram idaæ* dhanuÓ* ca | 
+tat saumya yady* asti na saktir* atra | 
+mahyaæ* prayaccha*idam idaæ* g­hÃïa ||6.61|
+vyÃdho* *abravÅt kÃma+da kÃmam ÃrÃd* |
+anena viÓvÃsya m­gÃn (nihanmi Cnihatya )|
+arthas* tu Óakra+upama yady* anena hanta | 
+pratÅccha*Ãnaya Óuklam etat ||6.62|
+pareïa har«eïa tata÷ sa* vanyaæ* | 
+jagrÃha vÃso* *aæÓukam utsasarja |
+vyÃdhas* tu divyaæ* vapur* eva bibhrat |
+tac* *chuklam ÃdÃya divaæ* jagÃma ||6.63|
+tata÷ kumÃraÓ* ca sa* ca*aÓva+go+pas* | 
+tasmiæs* tathÃ yÃti visismiyÃte | 
+Ãraïyake vÃsasi ca*eva bhÆyas* | 
+tasminn* akÃr«ÂÃæ* bahu+mÃnam ÃÓu ||6.64|
+chandaæ* tata÷ sa+aÓru+mukhaæ* vis­jya |
+kÃ«Ãya+(saæbh­d* dh­ti+Csaævid* v­ta+)kÅrti+bh­t sa÷ |
+yena*ÃÓramas* tena yayau mahÃ+ÃtmÃ | 
+saædhyÃ+abhra+saævÅta* (iva*u¬u+Civa*adri+)rÃja÷ ||6.65|
+tatas* tathÃ bhartari rÃjya+ni÷+sp­he | 
+tapo+vanaæ* yÃti vi+varïa+vÃsasi | 
+bhujau samutk«ipya tata÷ sa* vÃji+bh­d* | 
+bh­Óaæ* vicukroÓa papÃta ca k«itau ||6.66|
+vilokya bhÆyaÓ* ca ruroda sa+svaraæ* | 
+hayaæ* bhujÃbhyÃm upaguhya kanthakam | 
+tato* nir+ÃÓo* vilapan muhur* muhur* | 
+yayau ÓarÅreïa puraæ* na cetasÃ ||6.67|
+kva+cit pradadhyau vilalÃpa ca kva+cit | 
+kva+cit pracaskhÃla papÃta ca kva+cit | 
+ato* vrajan bhakti+vaÓena du÷khitaÓ* |
+cacÃra bahvÅr* (avasa÷ Ca+vaÓa÷ )pathi kriyÃ÷ ||6.68|
+[[iti (CÓrÅ+C)buddha+carite mahÃ+kÃvye chandaka+(nivartano* Cnivartanaæ* )nÃma «a«Âha÷ sarga÷ |6|]]
+tato* vis­jya*aÓru+mukhaæ* rudantaæ* | 
+chandaæ* vana+cchandatayÃ nir+Ãstha÷ | 
+sarva+artha+siddho* vapu«Ã*abhibhÆya | 
+tam ÃÓramaæ* (siddha* Csiddham )iva prapede ||7.1|
+sa* rÃja+sÆnur* m­ga+rÃja+gÃmÅ | 
+m­ga+ajiraæ* tan* m­gavat pravi«Âa÷ | 
+lak«mÅ+viyukto* *api ÓarÅra+lak«myÃ | 
+cak«Ææ«i sarva+ÃÓramiïÃæ* jahÃra ||7.2|
+sthitÃ* hi hasta+stha+yugÃs* tathÃ*eva | 
+kautÆhalÃc* cakra+dharÃ÷ sa+dÃrÃ÷ | 
+tam indra+kalpaæ* dad­Óur* na jagmur* | 
+dhuryÃ* iva*ardha+avanatai÷ Óirobhi÷ ||7.3|
+viprÃÓ* ca gatvÃ bahir* idhma+heto÷ | 
+prÃptÃ÷ samit+pu«pa+pavitra+hastÃ÷ | 
+tapa÷+pradhÃnÃ÷ k­ta+buddhayo* *api | 
+taæ* dra«Âum Åyur* na maÂhÃn abhÅyu÷ ||7.4|
+h­«ÂÃÓ* ca kekÃ* mumucur* mayÆrÃ* |
+d­«ÂvÃ*ambu+daæ* nÅlam (iva*unnamanta÷ Civa*unnamantaæ* )|
+Óa«pÃïi hitvÃ*abhi+mukhÃÓ* ca tasthur* | 
+m­gÃÓ* cala+ak«Ã* m­ga+cÃriïaÓ* ca ||7.5|
+d­«ÂvÃ tam ik«vÃku+kula+pradÅpaæ* | 
+jvalantam udyantam iva*aæÓumantam | 
+k­te *api dohe janita+pramodÃ÷ | 
+prasusruvur* homa+duhaÓ* ca gÃva÷ ||7.6|
+kaÓ+cid* vasÆnÃm ayam a«Âama÷ syÃt | 
+syÃd* aÓvinor* anyataraÓ* cyuto* (vÃ C*atra )|
+uccerur* uccair* iti tatra vÃcas* | 
+tad+darÓanÃd* vismaya+jÃ* munÅnÃm ||7.7|
+lekha+­«abhasya*iva vapur* dvitÅyaæ* | 
+dhÃmÃ*iva lokasya cara+a+carasya | 
+sa* dyotayÃm Ãsa vanaæ* hi k­tsnaæ* | 
+yad+­cchayÃ sÆrya* iva*avatÅrïa÷ ||7.8|
+tata÷ sa* tair* ÃÓramibhir* yathÃvad* | 
+abhyarcitaÓ* ca*upanimantritaÓ* ca | 
+pratyarcayÃæ* dharma+bh­to* babhÆva | 
+svareïa (sa+ambho+ambu+CbhÃdra+ambu+)dhara+upamena ||7.9|
+kÅrïaæ* (tathÃ Ctata÷ )puïya+k­tÃ janena |
+svarga+abhikÃmena vimok«a+kÃma÷ | 
+tam ÃÓramaæ* so* *anucacÃra dhÅras* | 
+tapÃæsi citrÃïi nirÅk«amÃïa÷ ||7.10|
+tapo+vikÃrÃæÓ* ca nirÅk«ya saumyas* | 
+tapo+vane tatra tapo+dhanÃnÃm | 
+tapasvinaæ* kaæ+cid* anuvrajantaæ* | 
+tattvaæ* vijij¤Ãsur* idaæ* babhÃ«e ||7.11|
+tat+pÆrvam adya*ÃÓrama+darÓanaæ* me |
+yasmÃd* imaæ* dharma+vidhiæ* na jÃne | 
+tasmÃd* bhavÃn arhati bhÃ«ituæ* me | 
+yo* niÓcayo* (yat Cyaæ* )prati va÷ prav­tta÷ ||7.12|
+tato* dvi+jÃti÷ sa* tapo+vihÃra÷ | 
+ÓÃkya+­«abhÃya*­«abha+vikramÃya | 
+kram.ena tasmai kathayÃæ* cakÃra |
+tapo+(viÓe«Ãæs* CviÓe«aæ* )tapasa÷ phalaæ* ca ||7.13|
+a+grÃmyam annaæ* salile prarÆ¬haæ* | 
+parïÃni toyaæ* phala+mÆlam eva | 
+yathÃ+Ãgamaæ* v­ttir* iyaæ* munÅnÃæ* | 
+bhinnÃs* tu te te tapasÃæ* vikalpÃ÷ ||7.14|
+u¤chena jÅvanti kha+gÃ* iva*anye | 
+t­ïÃni ke+cin* m­gavac* caranti | 
+ke+cid* bhujaæ+gai÷ saha vartayanti | 
+valmÅka+bhÆtÃ* (vana+mÃrutena Civa mÃrutena )||7.15|
+aÓma+prayatna+arjita+v­ttayo* *anye | 
+ke+cit sva+danta+apahata+anna+bhak«Ã÷ | 
+k­tvÃ para+arthaæ* Órapaïaæ* tathÃ*anye | 
+kurvanti kÃryaæ* yadi Óe«am asti ||7.16|
+ke+cij* jala+klinna+jaÂÃ+kalÃpÃ* | 
+dvi÷ pÃvakaæ* juhvati mantra+pÆrvam | 
+mÅnai÷ samaæ* ke+cid* apo* vigÃhya | 
+vasanti kÆrma+ullikhitai÷ ÓarÅrai÷ ||7.17|
+evaæ+vidhai÷ kÃla+citais* tapobhi÷ | 
+parair* divaæ* yÃnty* a+parair* n­+lokam | 
+du÷khena mÃrgeïa sukhaæ* (hy* upaiti Ck«iyanti )|
+(sukhaæ* Cdu÷khaæ* )hi dharmasya vadanti mÆlam ||7.18|
+ity* evam+Ãdi dvi+pa+indra+vatsa÷ |
+ÓrutvÃ vacas* tasya tapo+dhanasya | 
+a+d­«Âa+tattvo* *api na saætuto«a | 
+Óanair* idaæ* ca*Ãtma+gataæ* (babhÃ«e CjagÃda )||7.19|
+du÷kha+Ãtmakaæ* na*eka+vidhaæ* tapaÓ* ca | 
+svarga+pradhÃnaæ* tapasa÷ phalaæ* ca | 
+lokÃÓ* ca sarve pariïÃmavanta÷ | 
+sv+alpe Órama÷ khalv* ayam ÃÓramÃïÃm ||7.20|
+(priyÃæÓ* CÓriyaæ* )ca bandhÆn vi«ayÃæÓ* ca hitvÃ |
+ye svarga+(hetor* Chetau )niyamaæ* caranti |
+te viprayuktÃ÷ khalu gantu+kÃmÃ* | 
+mahattaraæ* (bandhanam Csvaæ* vanam )eva bhÆya÷ ||7.21|
+kÃya+klamair* yaÓ* ca tapo+abhidhÃnai÷ | 
+prav­ttim ÃkÃÇk«ati kÃma+heto÷ | 
+saæsÃra+do«Ãn a+parÅk«amÃïo* | 
+du÷khena so* *anvicchati du÷kham eva ||7.22|
+trÃsaÓ* ca nityaæ* maraïÃt prajÃnÃæ* | 
+yatnena ca*icchanti (puna÷+prasÆtim Cpuna÷ prasÆtim )|
+satyÃæ* prav­ttau niyataÓ* ca m­tyus* | 
+tatra*eva (magnÃ* Cmagno* )yata* eva (bhÅtÃ÷ CbhÅta÷ )||7.23|
+iha*artham eke praviÓanti khedaæ* | 
+svarga+artham anye Óramam Ãpnuvanti | 
+sukha+artham ÃÓÃ+k­païo* *a+k­ta+artha÷ | 
+pataty* an+arthe khalu jÅva+loka÷ ||7.24|
+na khalv* ayaæ* garhita* eva yatno* | 
+yo* hÅnam uts­jya viÓe«a+gÃmÅ | 
+prÃj¤ai÷ samÃnena pariÓrameïa | 
+kÃryaæ* tu tad* yatra punar* na kÃryam ||7.25|
+ÓarÅra+pÅ¬Ã tu yadi*iha dharma÷ | 
+sukhaæ* ÓarÅrasya bhavaty* a+dharma÷ | 
+dharmeïa ca*Ãpnoti sukhaæ* paratra | 
+tasmÃd* a+dharmaæ* phalati*iha dharma÷ ||7.26|
+yata÷ ÓarÅraæ* manaso* vaÓena | 
+pravartate (ca*api CvÃ*api )nivartate (ca CvÃ )|
+yukto* damaÓ* cetasa* eva tasmÃc* | 
+cittÃd* ­te kÃ«Âha+samaæ* ÓarÅram ||7.27|
+ÃhÃra+ÓuddhyÃ yadi puïyam i«Âaæ* | 
+tasmÃn* m­gÃïÃm api puïyam asti | 
+ye ca*api bÃhyÃ÷ puru«Ã÷ phalebhyo* | 
+bhÃgya+aparÃdhena parÃÇ+(mukha+arthÃ÷ CmukhatvÃt )||7.28|
+du÷khe *abhisaædhis* tv* atha puïya+hetu÷ | 
+sukhe *api kÃryo* nanu so* *abhisaædhi÷ | 
+atha pramÃïaæ* na sukhe *abhisaædhir* | 
+du÷khe pramÃïaæ* nanu na*abhisaædhi÷ ||7.29|
+tathÃ*eva ye karma+viÓuddhi+heto÷ | 
+sp­Óanty* apas* tÅrtham iti prav­ttÃ÷ | 
+tatra*api to«o* h­di kevalo* *ayaæ* | 
+na pÃvayis.yanti hi pÃpam Ãpa÷ ||7.30|
+sp­«Âaæ* hi yad* yad* guïavadbhir* ambhas* | 
+tat tat p­thivyÃæ* yadi tÅrtham i«Âam | 
+tasmÃd* guïÃn eva paraimi tÅrtham | 
+Ãpas* tu ni÷+saæÓayam Ãpa* eva ||7.31|
+iti sma tat tad* bahu+yukti+yuktaæ* | 
+jagÃda ca*astaæ* ca yayau vivasvÃn | 
+tato* havir+dhÆma+vi+varïa+v­k«aæ* |
+tapa÷+praÓÃntaæ* sa* vanaæ* viveÓa ||7.32|
+abhyuddh­ta+prajvalita+agni+hotraæ* | 
+k­ta+abhi«eka+­«i+jana+avakÅrïam | 
+jÃpya+svana+ÃkÆjita+deva+ko«Âhaæ* | 
+dharmasya karma+antam iva prav­ttam ||7.33|
+kÃÓ+cin* niÓÃs* tatra niÓÃ+kara+Ãbha÷ | 
+parÅk«amÃïaÓ* ca tapÃæsy* uvÃsa | 
+sarvaæ* parik«epya tapaÓ* ca matvÃ | 
+tasmÃt tapa÷+k«etra+talÃj* jagÃma ||7.34|
+anvavrajann* ÃÓramiïas* tatas* taæ* | 
+tad+rÆpa+mÃhÃtmya+gatair* manobhi÷ | 
+deÓÃd* an+Ãryair* abhibhÆyamÃnÃn* | 
+mahÃ+­«ayo* dharmam iva*apayÃntam ||7.35|
+tato* jaÂÃ+valkala+cÅra+khelÃæs* | 
+tapo+dhanÃæÓ* ca*eva sa* tÃn dadarÓa | 
+tapÃæsi ca*e«Ãm (anurudhyamÃnas* CanubudhyamÃnas* )|
+tasthau Óive ÓrÅmati (v­k«a+mÆle CmÃrga+v­k«e )||7.36|
+atha*upas­tya*ÃÓrama+vÃsinas* taæ* | 
+manu«ya+varyaæ* parivÃrya tasthu÷ | 
+v­ddhaÓ* ca te«Ãæ* bahu+mÃna+pÆrvaæ* | 
+kalena sÃmnÃ giram ity* uvÃca ||7.37|
+tvayy* Ãgate pÆrïa* iva*ÃÓramo* *abhÆt | 
+saæpadyate ÓÆnya* iva prayÃte | 
+tasmÃd* imaæ* na*arhasi tÃta hÃtuæ* | 
+jijÅvi«or* deham iva*i«Âam Ãyu÷ ||7.38|
+brahma+­«i+rÃja+­«i+sura+­«i+ju«Âa÷ | 
+puïya÷ samÅpe himavÃn hi Óaila÷ | 
+tapÃæsi tÃny* eva tapo+dhanÃnÃæ* | 
+yat+saænikar«Ãd* bahulÅ+bhavanti ||7.39|
+tÅrthÃni puïyÃny* abhitas* tathÃ*eva | 
+sopÃna+bhÆtÃni nabhas+talasya | 
+ju«ÂÃni dharma+Ãtmabhir* Ãtmavadbhir* | 
+deva+­«ibhiÓ* ca*eva mahÃ+­«ibhiÓ* ca ||7.40|
+itaÓ* ca bhÆya÷ k«amam uttarÃ*eva | 
+dik sevituæ* dharma+viÓe«a+heto÷ | 
+na (tu Chi )k«amaæ* dak«iïato* budhena |
+padaæ* bhaved* ekam api prayÃtum ||7.41|
+tapo+vane *asminn* atha ni«+kriyo* vÃ |
+saækÅrïa+(dharma+Ãpatito* CdharmÃ patito* )*a+Óucir* vÃ | 
+d­«Âas* tvayÃ yena na te vivatsÃ | 
+tad* brÆhi yÃvad* rucito* *astu vÃsa÷ ||7.42|
+ime hi vÃ¤chanti tapa÷+sahÃyaæ* | 
+tapo+nidhÃna+pratimaæ* bhavantam | 
+vÃsas* tvayÃ hi*indra+samena sa+ardhaæ* |
+b­has+pater* abhyudaya+Ãvaha÷ syÃt ||7.43|
+ity* evam ukte sa* tapasvi+madhye | 
+tapasvi+mukhyena manÅ«i+mukhya÷ | 
+bhava+praïÃÓÃya k­ta+pratij¤a÷ |
+svaæ* bhÃvam antar+gatam Ãcacak«e ||7.44|
+­jv+ÃtmanÃæ* dharma+bh­tÃæ* munÅnÃm | 
+i«Âa+atithitvÃt sva+jana+upamÃnÃm | 
+evaæ+vidhair* mÃæ* prati bhÃva+jÃtai÷ | 
+prÅti÷ (parÃ me Cpara+ÃtmÃ )janitaÓ* ca (mÃna÷ CmÃrga÷ )||7.45|
+snigdhÃbhir* Ãbhir* h­dayaæ+gamÃbhi÷ | 
+samÃsata÷ snÃta* iva*asmi vÃgbhi÷ | 
+ratiÓ* ca me dharma+nava+grahasya | 
+vispanditÃ saæ+prati bhÆya* eva ||7.46|
+evaæ* prav­ttÃn bhavata÷ ÓaraïyÃn | 
+ati+iva saædarÓita+pak«a+pÃtÃn | 
+yÃsyÃmi hitvÃ*iti mama*api du÷khaæ* | 
+yathÃ*eva bandhÆæs* tyajatas* tathÃ*eva ||7.47|
+svargÃya yu«mÃkam ayaæ* tu dharmo* | 
+mama*abhilÃ«as* tv* a+punar+bhavÃya | 
+asmin vane yena na me vivatsÃ | 
+bhinna÷ prav­ttyÃ* hi niv­tti+dharma÷ ||7.48|
+tan* na*a+ratir* me na para+apacÃro* | 
+vanÃd* ito* yena parivrajÃmi | 
+dharme sthitÃ÷ pÆrva+yuga+anu+rÆpe | 
+sarve bhavanto* hi mahÃ+­«i+kalpÃ÷ ||7.49|
+tato* vaca÷ sÆn­tam arthavac* ca | 
+su+Ólak«ïam ojasvi ca garvitaæ* ca | 
+ÓrutvÃ kumÃrasya tapasvinas* te | 
+viÓe«a+yuktaæ* bahu+mÃnam Åyu÷ ||7.50|
+kaÓ+cid* dvi+jas* tatra tu bhasma+ÓÃyÅ | 
+pra+aæÓu÷ ÓikhÅ dÃrava+cÅra+vÃsÃ÷ | 
+Ã+piÇgala+ak«as* tanu+dÅrgha+ghoïa÷ | 
+(kuï¬a+eka+Ckuï¬a+uda+)hasto* giram ity* uvÃca ||7.51|
+dhÅmann* udÃra÷ khalu niÓcayas* te | 
+yas* tvaæ* yuvÃ janmani d­«Âa+do«a÷ | 
+svarga+apavargau hi vicÃrya samyag* | 
+yasya*apavarge matir* asti so* *asti ||7.52|
+yaj¤ais* tapobhir* niyamaiÓ* ca tais* tai÷ | 
+svargaæ* yiyÃsanti hi rÃgavanta÷ |
+rÃgeïa sa+ardhaæ* ripuïÃ*iva yuddhvÃ | 
+mok«aæ* parÅpsanti tu sattvavanta÷ ||7.53|
+tad+buddhir* e«Ã yadi niÓcitÃ te | 
+tÆrïaæ* bhavÃn gacchatu vindhyÃ+ko«Âham | 
+asau munis* tatra vasaty* arÃ¬o* | 
+yo* nai«Âhike Óreyasi labdha+cak«u÷ ||7.54|
+tasmÃd* bhavÃ¤* *chro«yati tattva+mÃrgaæ* | 
+satyÃæ* rucau saæpratipatsyate ca |
+yathÃ tu paÓyÃmi matis* (tathÃ*e«Ã Ctava*e«Ã )|
+tasya*api yÃsyaty* avadhÆya buddhim ||7.55|
+(spa«Âa+ucca+Cpu«Âa+aÓva+)ghoïaæ* vipula+Ãyata+ak«aæ* |
+tÃmra+adhara+o«Âhaæ* sita+tÅk«ïa+daæ«Âram |
+idaæ* hi vaktraæ* tanu+rakta+jihvaæ* | 
+j¤eya+arïavaæ* pÃsyati k­tsnam eva ||7.56|
+gambhÅratÃ yÃ bhavatas* tv* a+gÃdhÃ | 
+yÃ dÅptatÃ yÃni ca lak«aïÃni | 
+ÃcÃryakaæ* prÃpsyasi tat prÂhivyÃæ* | 
+yan* na*­«ibhi÷ pÆrva+yuge *apy* avÃptam ||7.57|
+paramam iti tato* n­+pa+Ãtma+jas* | 
+tam ­«i+janaæ* pratinandya niryayau | 
+vidhivad* anuvidhÃya te *api taæ* | 
+praviviÓur* ÃÓramiïas* tapo+vanam ||7.58|
+[[iti (CÓrÅ+C)buddha+carite mahÃ+kÃvye tapo+vana+praveÓo* nÃma saptama÷ sarga÷ |7|]]
+tatas* turaæ+ga+avacara÷ sa* dur+manÃs* | 
+tathÃ vanaæ* bhartari nir+mame gate | 
+cakÃra yatnaæ* pathi Óoka+(nigrahe Cvigrahe )|
+tathÃ*api ca*eva*aÓru na tasya (cik«iye Ccik«ipe )||8.1|
+yam eka+rÃtreïa tu bhartur* Ãj¤ayÃ |
+jagÃma mÃrgaæ* saha tena vÃjinÃ | 
+iyÃya bhartur* virahaæ* vicintayaæs* | 
+tam eva panthÃnam ahobhir* a«Âabhi÷ ||8.2|
+hayaÓ* ca (sa+ojÃ* vicacÃra Csa+ojasvi cacÃra )kanthakas* | 
+tatÃma bhÃvena babhÆva nir+mada÷ | 
+alaæk­taÓ* ca*api tathÃ*eva bhÆ«aïair* | 
+abhÆd* gata+ÓrÅr* iva tena varjita÷ ||8.3|
+niv­tya ca*eva*abhi+mukhas* tapo+vanaæ* | 
+bh­Óaæ* jihe«e karuïaæ* muhur* muhu÷ | 
+k«udhÃ+anvito* *apy* adhvani Óa«pam ambu vÃ | 
+yathÃ purÃ na*abhinananda na*Ãdade ||8.4|
+tato* vihÅnaæ* kapila+Ãhvayaæ* puraæ* | 
+mahÃ+ÃtmanÃ tena jagad+dhita+ÃtmanÃ | 
+krameïa tau ÓÆnyam iva*upajagmatur* | 
+divÃ+kareïa*iva vinÃ+k­taæ* nabha÷ ||8.5|
+sa+puï¬arÅkair* api Óobhitaæ* | 
+jalair* alaæk­taæ* pu«pa+dharair* nagair* api | 
+tad* eva tasya*upa+vanaæ* vana+upamaæ* | 
+gata+prahar«air* na rarÃja nÃgarai÷ ||8.6|
+tato* bhramadbhir* diÓi dÅna+mÃnasair* | 
+an+ujjvalair* (bÃ«pa+CvÃ«pa+)hata+Åk«aïair* narai÷ |
+nivÃryamÃïÃv* iva tÃv* ubhau puraæ* | 
+(Óanair* apasnÃtam CÓanai* raja÷+snÃtam )iva*abhijagmatu÷ ||8.7|
+(niÓÃmya CniÓamya )ca srasta+ÓarÅra+gÃminau |
+vinÃ*Ãgatau ÓÃkya+kula+­«abheïa tau | 
+mumoca (bÃ«paæ* CvÃ«paæ* )pathi nÃgaro* jana÷ |
+purÃ rathe dÃÓarather* iva*Ãgate ||8.8|
+atha bruvanta÷ samupeta+manyavo* | 
+janÃ÷ pathi *cchandakam Ãgata+aÓrava÷ | 
+kva rÃja+putra÷ (pura+Ckula+)rÃ«Âra+(nandano* Cvardhano* ) |
+h­tas* tvayÃ*asÃv* iti p­«Âhato* *anvayu÷ ||8.9|
+tata÷ sa* tÃn bhaktimato* *abravÅj* janÃn | 
+nara+indra+putraæ* na parityajÃmy* aham | 
+rudann* ahaæ* tena tu nir+jane vane | 
+g­ha+stha+veÓaÓ* ca visarjitÃv* iti ||8.10|
+idaæ* vacas* tasya niÓamya te janÃ÷ | 
+su+du«+karaæ* khalv* iti niÓcayaæ* yayu÷ | 
+patad* (*dhi jahru÷ Cvijahru÷ )salilaæ* na netra+jaæ* |
+mano* nininduÓ* ca (phala+uttham Cphala+artham )Ãtmana÷ ||8.11|
+atha*Æcur* adya*eva viÓÃma tad* vanaæ* | 
+gata÷ sa* yatra dvi+pa+rÃja+vikrama÷ | 
+jijÅvi«Ã na*asti hi tena no* vinÃ | 
+yathÃ*indriyÃïÃæ* vigame ÓarÅriïÃm ||8.12|
+idaæ* puraæ* tena vivarjitaæ* vanaæ* | 
+vanaæ* ca tat tena samanvitaæ* puram | 
+na Óobhate tena hi no* vinÃ puraæ* | 
+marutvatÃ v­tra+vadhe yathÃ divam ||8.13|
+puna÷ kumÃro* viniv­tta* ity* atha*u | 
+gava+ak«a+mÃlÃ÷ pratipedire *aÇganÃ÷ | 
+vivikta+p­«Âhaæ* ca (niÓÃmya CniÓamya )vÃjinaæ* |
+punar* gava+ak«Ãïi pidhÃya cukruÓu÷ ||8.14|
+pravi«Âa+dÅk«as* tu suta+upalabdhaye | 
+vratena Óokena ca khinna+mÃnasa÷ | 
+jajÃpa deva+Ãyatane nara+adhipaÓ* |
+cakÃra tÃs* tÃÓ* ca (yathÃ+ÃÓayÃ÷ CyathÃ+ÃÓrayÃ÷ )kriyÃ÷ ||8.15|
+tata÷ sa* (bÃ«pa+CvÃ«pa+)pratipÆrïa+locanas* |
+turaæ+gam ÃdÃya turaæ+(gama+anuga÷ Cga+mÃnasa÷ )|
+viveÓa Óoka+abhihato* n­+(pa+k«ayaæ* Cpa+Ãlayaæ* )|
+(yudhÃ*apinÅte Ck«ayaæ* vinÅte )ripuïÃ*iva bhartari ||8.16|
+vigÃhamÃnaÓ* ca nara+indra+mandiraæ* | 
+vilokayann* aÓru+vahena cak«u«Ã | 
+svareïa pu«Âena rurÃva kanthako* | 
+janÃya du÷khaæ* prativedayann* iva ||8.17|
+tata÷ kha+gÃÓ* ca k«aya+madhya+go+carÃ÷ |
+samÅpa+baddhÃs* tura+gÃÓ* ca sat+k­tÃ÷ | 
+hayasya tasya pratisasvanu÷ svanaæ* | 
+nara+indra+sÆnor* upayÃna+(ÓaÇkina÷ CÓaÇkitÃ÷ )||8.18|
+janÃÓ* ca har«a+atiÓayena va¤citÃ* | 
+jana+adhipa+anta÷+pura+saænikar«a+gÃ÷ | 
+yathÃ haya÷ kanthaka* e«a* he«ate | 
+dhruvaæ* kumÃro* viÓati*iti menire ||8.19|
+ati+prahar«Ãd* atha Óoka+mÆrchitÃ÷ | 
+kumÃra+saædarÓana+lola+locanÃ÷ | 
+g­hÃd* viniÓcakramur* ÃÓayÃ striya÷ |
+Óarat+payo+dÃd* iva vidyutaÓ* calÃ÷ ||8.20|
+vilamba+(keÓyo* CveÓyo* )malina+aæÓuka+ambarÃ* |
+nir+a¤janair* (bÃ«pa+CvÃ«pa+)hata+Åk«aïair* mukhai÷ |
+(striyo* na rejur* m­jayÃ Ck­«ïÃ* vi+varïÃ**a¤janayÃ )vinÃ+k­tÃ* |
+divi*iva tÃrÃ* rajanÅ+k«aya+aruïÃ÷ ||8.21|
+a+rakta+tÃmraiÓ* caraïair* a+nÆpurair* | 
+a+kuï¬alair* Ãrjava+(kandharair* Ckarïikair* )mukhai÷ |
+sva+bhÃva+pÅnair* jaghanair* a+mekhalair* | 
+a+hÃra+yoktrair* mu«itair* iva stanai÷ ||8.22|
+(nirÅk«ya tÃ* bÃ«pa+CnirÅk«itÃ* vÃ«pa+)parÅta+(locanÃ* Clocanaæ* )|
+nir+ÃÓrayaæ* chandakam aÓvam eva ca | 
+(vi«aïïa+Cvi+varïa+)vaktrÃ* rurudur* vara+aÇganÃ* |
+vana+antare gÃva* iva*­«abha+ujjhitÃ÷ ||8.23|
+tata÷ sa+(bÃ«pÃ CvÃ«pÃ )mahi«Å mahÅ+pate÷ |
+prana«Âa+vatsÃ mahi«Å*iva vatsalÃ | 
+prag­hya bÃhÆ nipapÃta gautamÅ | 
+vilola+parïÃ kadalÅ*iva kÃ¤canÅ ||8.24|
+hata+tvi«o* *anyÃ* (Óithila+aæsa+CÓithila+Ãtma+)bÃhava÷ |
+striyo* vi«Ãdena vi+cetanÃ* iva |
+na cukruÓur* na*aÓru jahur* na ÓaÓvasur* | 
+na (celur* Ãsur* likhitÃ* CcetanÃ* ullikhitÃ* )iva sthitÃ÷ ||8.25|
+a+dhÅram anyÃ÷ pati+Óoka+mÆrchitÃ* | 
+vilocana+prasravaïair* mukhai÷ striya÷ | 
+si«i¤cire pro«ita+candanÃn stanÃn |
+dharÃ+dhara÷ prasravaïair* iva*upalÃn ||8.26|
+mukhaiÓ* ca tÃsÃæ* nayana+ambu+(tÃ¬itai* CtÃ¬itai÷ )|
+rarÃja tad* rÃja+niveÓanaæ* tadÃ | 
+nava+ambu+kÃle *ambu+da+v­«Âi+tÃ¬itai÷ |
+sravaj+jalais* tÃmarasair* yathÃ sara÷ ||8.27|
+su+v­tta+pÅna+aÇgulibhir* nir+antarair* |
+a+bhÆ«aïair* gÆ¬ha+sirair* vara+aÇganÃ÷ | 
+urÃæsi jaghnu÷ kamala+upamai÷ karai÷ | 
+sva+pallavair* vÃta+calÃ* latÃ* iva ||8.28|
+kara+prahÃra+pracalaiÓ* ca tÃ* (babhus* Cbabhur* )|
+(tathÃ*api CyathÃ*api )nÃrya÷ sahita+unnatai÷ stanai÷ |
+vana+anila+ÃghÆrïita+padma+kampitai* | 
+ratha+aÇga+nÃmnÃæ* mithunair* iva*ÃpagÃ÷ ||8.29|
+yathÃ ca vak«Ãæsi karair* apÅ¬ayaæs* | 
+tathÃ*eva vak«obhir* apÅ¬ayan karÃn | 
+akÃrayaæs* tatra paras+paraæ* vyathÃ÷ | 
+kara+agra+vak«Ãæsy* a+balÃ* dayÃ+a+lasÃ÷ ||8.30|
+tatas* tu ro«a+pravirakta+locanÃ | 
+vi«Ãda+(saæbandhi+Csaæbandha+)ka«Ãya+gadgadam |
+uvÃca (niÓvÃsa+Cni÷ÓvÃsa+)calat+payo+dharÃ* |
+vigÃ¬ha+Óoka+aÓru+dharÃ yaÓo+dharÃ ||8.31|
+niÓi prasuptÃm a+vaÓÃæ vihÃya mÃæ* | 
+gata÷ kva sa* *cchandaka man+mano+ratha÷ | 
+upÃgate ca tvayi kanthake ca me | 
+samaæ* gate«u tri«u kampate mana÷ ||8.32|
+an+Ãryam a+snidgham a+mitra+karma me | 
+n­+Óaæsa k­tvÃ kim iha*adya rodi«i | 
+niyaccha (bÃ«paæ* CvÃ«paæ* )bhava tu«Âa+mÃnaso* |
+na saævadaty* aÓru ca tac* ca karma te ||8.33|
+priyeïa vaÓyena hitena sÃdhunÃ | 
+tvayÃ sahÃyena yathÃ+artha+kÃriïÃ | 
+gato* *arya+putro* hy* a+punar+niv­ttaye | 
+ramasva di«ÂyÃ sa+phala÷ Óramas* tava ||8.34|
+varaæ* manu«yasya vicak«aïo* ripur* |
+na mitram a+prÃj¤am a+yoga+peÓalam | 
+su+h­d+bruveïa hy* a+vipaÓcitÃ tvayÃ |
+k­ta÷ kulasya*asya mahÃn upaplava÷ ||8.35|
+imÃ* hi ÓocyÃ* vyavamukta+bhÆ«aïÃ÷ | 
+prasakta+(bÃ«pa+Ãvila+CvÃ«pa+Ãvila+)rakta+locanÃ÷ |
+sthite *api patyau himavan+mahÅ+same |
+prana«Âa+ÓobhÃ* vidhavÃ* iva striya÷ ||8.36|
+imÃÓ* ca vik«ipta+viÂaÇka+bÃhava÷ | 
+prasakta+pÃrÃvata+dÅrgha+nisvanÃ÷ | 
+vinÃ+k­tÃs* tena (saha*avarodhanair* Csaha*eva rodhanair* )| 
+bh­Óaæ* rudanti*iva vimÃna+paÇktaya÷ ||8.37|
+an+artha+kÃmo* *asya janasya sarvathÃ | 
+turaæ+gamo* *api dhruvam e«a* kanthaka÷ | 
+jahÃra sarva+svam itas* tathÃ hi me | 
+jane prasupte niÓi ratna+cauravat ||8.38|
+yadÃ sam+artha÷ khalu so¬hum ÃgatÃn | 
+i«u+prahÃrÃn api kiæ* puna÷ kaÓÃ÷ | 
+gata÷ kaÓÃ+pÃta+bhayÃt kathaæ* (nv* Ctv* )ayaæ* |
+Óriyaæ* g­hÅtvÃ h­dayaæ* ca me samam ||8.39|
+an+Ãrya+karmÃ bh­Óam adya he«ate | 
+nara+indra+dhi«ïyaæ* pratipÆrayann* iva | 
+yadÃ tu nirvÃhayati sma me priyaæ* | 
+tadÃ hi mÆkas* tura+ga+adhamo* *abhavat ||8.40|
+yadi hy* ahe«i«yata (bodhayan Cbodhaya¤* )janaæ* |
+khurai÷ k«itau vÃ*apy* akari«yata dhvanim | 
+hanu+svanaæ* vÃ*ajani«yad* uttamaæ* |
+na ca*abhavi«yan* mama du÷kham Å+d­Óam ||8.41|
+iti*iha devyÃ÷ paridevita+ÃÓrayaæ* |
+niÓamya (bÃ«pa+CvÃ«pa+)grathita+a+k«araæ* vaca÷ |
+adho+mukha÷ sa+aÓru+kala÷ k­ta+a¤jali÷ | 
+Óanair* idaæ* chandaka* uttaraæ* jagau ||8.42|
+vigarhituæ* na*arhasi devi kanthakaæ* |
+na ca*api ro«aæ* mayi kartum arhasi | 
+an+Ãgasau sva÷ samavehi sarvaÓo* | 
+gato* n­+deva÷ sa* hi devi devavat ||8.43|
+ahaæ* hi jÃnann* api rÃja+ÓÃsanaæ* | 
+balÃt k­ta÷ kair* api daivatair* iva | 
+upÃnayaæ* tÆrïam imaæ* turaæ+gamaæ* | 
+tathÃ*anvagacchaæ* vigata+Óramo* *adhvani ||8.44|
+vrajann* ayaæ* vÃji+varo* *api na*asp­Óan* | 
+mahÅæ* khura+agrair* vidh­tair* iva*antarÃ | 
+tathÃ*eva daivÃd* iva saæyata+Ãnano* | 
+hanu+svanaæ* na*ak­ta na*apy* ahe«ata ||8.45|
+(yato* bahir* CyadÃ vahir* )gacchati pÃrthiva+Ãtma+(je Cjas* )|
+tadÃ*abhavad* dvÃram apÃv­taæ* svayam | 
+tamaÓ* ca* naiÓaæ* raviïÃ*iva pÃÂitaæ* | 
+tato* *api daivo* vidhir* e«a* g­hyatÃm ||8.46|
+(yad* a+CyadÃ*a+)pramatto* *api nara+indra+ÓÃsanÃd* |
+g­he pure ca*eva sahasraÓo* jana÷ | 
+tadÃ sa* na*abudhyata nidrayÃ h­tas* | 
+tato* *api daivo* vidhir* e«a g­hyatÃm ||8.47|
+yataÓ* ca vÃso* vana+vÃsa+saæmataæ* | 
+(nis­«Âam Cvis­«Âam )asmai samaye diva+okasÃ |
+divi praviddhaæ* mukuÂaæ* ca tad* *dh­taæ* | 
+tato* *api daivo* vidhir* e«a* g­hyatÃm ||8.48|
+tad* evam ÃvÃæ* nara+devi do«ato* | 
+na tat prayÃtaæ* (prati gantum Cpratigantum )arhasi |
+na kÃma+kÃro* mama na*asya vÃjina÷ | 
+k­ta+anuyÃtra÷ sa* hi daivatair* gata÷ ||8.49|
+iti prayÃïaæ* (bahu+devam CbahudhÃ*evam )adbhutaæ* |
+niÓamya tÃs* tasya mahÃ+Ãtmana÷ striya÷ | 
+prana«Âa+ÓokÃ* iva vismayaæ* yayur* | 
+mano+jvaraæ* pravrajanÃt tu lebhire ||8.50|
+vi«Ãda+pÃriplava+locanÃ tata÷ | 
+prana«Âa+potÃ kurarÅ*iva du÷khitÃ |
+vihÃya dhairyaæ* virurÃva gautamÅ | 
+tatÃma ca*eva*aÓru+mukhÅ jagÃda ca ||8.51|
+mahÃ+urmimanto* m­davo* *asitÃ÷ ÓubhÃ÷ |
+p­thak+(p­thaÇ+Cp­thag+)mÆla+ruhÃ÷ samudgatÃ÷ |
+(praveritÃs* CpraceritÃs* )te bhuvi tasya mÆrdha+jÃ* |
+nara+indra+maulÅ+parive«Âana+k«amÃ÷ ||8.52|
+pralamba+bÃhur* m­ga+rÃja+vikramo* | 
+mahÃ+­«abha+ak«a÷ kanaka+ujjvala+dyuti÷ | 
+viÓÃla+vak«Ã* ghana+dundubhi+svanas* | 
+tathÃ+vidho* *apy* ÃÓrama+vÃsam arhati ||8.53|
+a+bhÃginÅ nÆnam iyaæ* vasuæ+dharÃ | 
+tam Ãrya+karmÃïam an+uttamaæ* (patim Cprati )|
+gatas* tato* *asau guïavÃn hi tÃ+d­Óo* | 
+n­+pa÷ prajÃ+bhÃgya+guïai÷ prasÆyate ||8.54|
+su+jÃta+jÃla+avatata+aÇgulÅ m­dÆ | 
+nigÆ¬ha+gulphau (bisa+Cvi«a+)pu«pa+komalau |
+vana+anta+bhÆmiæ* kaÂhinÃæ* kathaæ* nu tau | 
+sa+cakra+madhyau caraïau gami«yata÷ ||8.55|
+vimÃna+p­«Âhe Óayana+Ãsana+ucitaæ* | 
+mahÃ+arha+vastra+aguru+candana+arcitam | 
+kathaæ* nu ÓÅta+u«ïa+jala+Ãgame«u tac* | 
+*charÅram ojasvi vane bhavi«yati ||8.56|
+kulena sattvena balena varcasÃ | 
+Órutena lak«myÃ vayasÃ ca garvita÷ | 
+pradÃtum (eva*abhyucito* Ceva*abhyudito* )na yÃcituæ* |
+kathaæ* sa* bhik«Ãæ* parataÓ* cari«yati ||8.57|
+Óucau ÓayitvÃ Óayane hiraïmaye | 
+prabodhyamÃno* niÓi tÆrya+nisvanai÷ | 
+kathaæ* (bata Cvata )svapsyati so* *adya me vratÅ |
+paÂa+eka+deÓa+antarite mahÅ+tale ||8.58|
+imaæ* (pralÃpaæ* CvilÃpaæ* )karuïaæ niÓamya tÃ* |
+bhujai÷ pari«vajya paras+paraæ* striya÷ | 
+vilocanebhya÷ salilÃni tatyajur* |
+madhÆni pu«pebhya* iva*ÅritÃ* latÃ÷ ||8.59|
+tato* dharÃyÃm apatad* yaÓo+dharÃ | 
+vi+cakra+vÃkÃ*iva ratha+aÇga+sa+ÃhvayÃ | 
+ÓanaiÓ* ca tat tad* vilalÃpa viklavÃ | 
+muhur* muhur* gadgada+ruddhayÃ girÃ ||8.60|
+sa* mÃm a+nÃthÃæ* saha+dharma+cÃriïÅm | 
+apÃsya dharmaæ* yadi kartum icchati | 
+kuto* *asya dharma÷ saha+dharma+cÃriïÅæ* | 
+vinÃ tapo* ya÷ paribhoktum icchati ||8.61|
+Ó­ïoti nÆnaæ* sa* na pÆrva+pÃrthivÃn* | 
+mahÃ+su+darÓa+prabh­tÅn pitÃ+mahÃn | 
+vanÃni patnÅ+sahitÃn upeyu«as* | 
+tathÃ (hi Csa* )dharmaæ* mad+­te cikÅr«ati ||8.62|
+makhe«u vÃ veda+vidhÃna+sat+k­tau | 
+na daæ+patÅ paÓyati dÅk«itÃv* ubhau | 
+samaæ* bubhuk«Æ parato* *api tat+phalaæ* | 
+tato* *asya jÃto* mayi dharma+matsara÷ ||8.63|
+dhruvaæ* sa* jÃnan mama dharma+vallabho* | 
+mana÷ (priya+År«yÃ+kalahaæ* Cpriye *apy* Ã+kalahaæ* )muhur* mitha÷ |
+sukhaæ* vi+bhÅr* mÃm apahÃya rosaïÃæ* | 
+mahÃ+indra+loke *apsaraso* jigh­k«ati ||8.64|
+iyaæ* tu cintÃ mama kÅ+d­Óaæ* nu tÃ* |
+vapur+guïaæ* bibhrati tatra yo«ita÷ | 
+vane yad+arthaæ* sa* tapÃæsi tapyate | 
+Óriyaæ* ca hitvÃ mama bhaktim eva ca ||8.65|
+na khalv* iyaæ* svarga+sukhÃya me sp­hÃ | 
+na taj* janasya*Ãtmavato* *api dur+labham | 
+sa* tu priyo* mÃm iha vÃ paratra vÃ | 
+kathaæ* na jahyÃd* iti me mano+ratha÷ ||8.66|
+a+bhÃginÅ yady* aham Ãyata+Åk«aïaæ* | 
+Óuci+smitaæ* bhartur* udÅk«ituæ* mukham | 
+na manda+bhÃgyo* *arhati rÃhulo* *apy* ayaæ* | 
+kadÃ+cid* aÇke parivartituæ* pitu÷ ||8.67|
+aho n­+Óaæsaæ* su+kumÃra+varcasa÷ | 
+su+dÃruïaæ* tasya manasvino* mana÷ |
+kala+pralÃpaæ* dvi«ato* *api har«aïaæ* | 
+ÓiÓuæ* sutaæ* yas* tyajati*Å+d­Óaæ* (bata Csvata÷ )||8.68|
+mama*api kÃmaæ* h­dayaæ* su+dÃruïaæ* | 
+ÓilÃmayaæ* vÃ*apy* (ayaso* *api CayasÃ*api )vÃ k­tam |
+a+nÃthavac* *chrÅ+rahite sukha+ucite | 
+vanaæ* gate bhartari yan* na dÅryate ||8.69|
+iti*iha devÅ pati+Óoka+mÆrchitÃ | 
+ruroda dadhyau vilalÃpa ca*a+sak­t |
+sva+bhÃva+dhÅrÃ*api hi sÃ satÅ ÓucÃ | 
+dh­tiæ* na sasmÃra cakÃra na*u hriyam ||8.70|
+tatas* tathÃ Óoka+vilÃpa+viklavÃæ* | 
+yaÓo+dharÃæ* prek«ya vasuæ+dharÃ+gatÃm | 
+mahÃ+aravindair* iva v­«Âi+tÃ¬itair* |
+mukhai÷ sa+(bÃ«pair* CvÃ«pair* )vanitÃ* vicukruÓu÷ ||8.71|
+samÃpta+jÃpya÷ k­ta+homa+maÇgalo* | 
+n­+pas* tu deva+ÃyatanÃd* viniryayau | 
+janasya tena*Ãrta+raveïa ca*ÃhataÓ* | 
+cacÃla vajra+dhvaninÃ*iva vÃraïa÷ ||8.72|
+niÓÃmya ca *cchandaka+kanthakÃv* ubhau | 
+sutasya saæÓrutya ca niÓcayaæ* sthiram | 
+papÃta Óoka+abhihato* mahÅ+pati÷ | 
+ÓacÅ+pater* v­tta* iva*utsave dhvaja÷ ||8.73|
+tato* muhÆrtaæ* suta+Óoka+mohito* | 
+janena tulya+abhijanena dhÃrita÷ | 
+nirÅk«ya d­«ÂyÃ jala+pÆrïayÃ hayaæ* | 
+mahÅ+tala+stho* vilalÃpa pÃrthiva÷ ||8.74|
+bahÆni k­tvÃ samare priyÃïi me | 
+mahat tvayÃ kanthaka vi+priyaæ* k­tam | 
+guïa+priyo* yena vane sa* me priya÷ | 
+priyo* *api sann* a+priyavat (praverita÷ Cpracerita÷ )||8.75|
+tad* adya mÃæ* vÃ naya tatra yatra sa* | 
+vraja drutaæ* vÃ punar* enam Ãnaya | 
+­te hi tasmÃn* mama na*asti jÅvitaæ* | 
+vigÃ¬ha+rogasya sad+au«adhÃd* iva ||8.76|
+su+varïa+ni«ÂhÅvini m­tyunÃ h­te | 
+su+du«+karaæ* yan* na mamÃra (saæjaya÷ Cs­¤jaya÷ )|
+ahaæ* punar* dharma+ratau sute gate | 
+(mumuk«ur* C*a+mumuk«ur* )ÃtmÃnam an+ÃtmavÃn iva ||8.77|
+vibhor* daÓa+k«atra+k­ta÷ prajÃ+pate÷ | 
+para+a+para+j¤asya vivasvad+Ãtmana÷ | 
+priyeïa putreïa satÃ vinÃ+k­taæ* | 
+kathaæ* na muhyed* *dhi mano* manor* api ||8.78|
+a+jasya rÃj¤as* tanayÃya dhÅmate | 
+nara+adhipÃya*indra+sakhÃya me sp­hÃ | 
+gate vanaæ* yas* tanaye divaæ* gato* | 
+na mogha+(bÃ«pa÷ CvÃ«pa÷ )k­païaæ* jijÅva ha ||8.79|
+pracak«va me bhadra tad+ÃÓrama+ajiraæ* | 
+h­tas* tvayÃ yatra sa* me jala+a¤jali÷ | 
+ime parÅpsanti hi (taæ* Cte )pipÃsavo* |
+mama*Ãsava÷ preta+gatiæ* yiyÃsava÷ ||8.80|
+iti tanaya+viyoga+jÃta+(du÷kha÷ Cdu÷khaæ* )|
+k«iti+sa+d­Óaæ* saha+jaæ* vihÃya dhairyam | 
+daÓa+ratha* iva rÃma+Óoka+vaÓyo* | 
+bahu vilalÃpa n­+po* visaæj¤a+kalpa÷ ||8.81|
+Óruta+vinaya+guïa+anvitas* tatas* taæ* | 
+mati+saciva÷ pra+vayÃ÷ puro+hitaÓ* ca | 
+(sama+dh­tam Cavadh­tam )idam Æcatur* yathÃvan* |
+na ca paritapta+mukhau na ca*apy* a+Óokau ||8.82|
+tyaja nara+vara Óokam ehi dhairyaæ* |
+ku+dh­tir* iva*arhasi dhÅra na*aÓru moktum | 
+srajam iva m­ditÃm apÃsya lak«mÅæ* |
+bhuvi bahavo* (ChiC) n­+pÃ* vanÃny* atÅyu÷ ||8.83|
+api ca niyata* e«a* tasya bhÃva÷ | 
+smara vacanaæ* tad* ­«e÷ purÃ*asitasya | 
+na hi sa* divi na cakra+varti+rÃjye | 
+k«aïam api vÃsayituæ* sukhena Óakya÷ ||8.84|
+yadi tu n­+vara kÃrya* eva yatnas* | 
+tvaritam udÃhara yÃvad* atra yÃva÷ | 
+bahu+vidham iha yuddham astu tÃvat | 
+tava tanayasya vidheÓ* ca tasya tasya ||8.85|
+nara+patir* atha tau ÓaÓÃsa tasmÃd* |
+drutam ita* eva yuvÃm abhiprayÃtam | 
+na hi mama h­dayaæ* prayÃti ÓÃntiæ* | 
+vana+Óakuner* iva putra+lÃlasasya ||8.86|
+paramam iti nara+indra+ÓÃsanÃt tau | 
+yayatur* amÃtya+puro+hitau vanaæ* tat | 
+k­tam iti sa+vadhÆ+jana÷ sa+dÃro* | 
+n­+patir* api pracakÃra Óe«a+kÃryam ||8.87|
+[[iti (CÓrÅ+C)buddha+carite mahÃ+kÃvye *anta÷+pura+vilÃpo* nÃma*a«Âama÷ sarga÷ |8|]]
+tatas* tadÃ mantri+puro+hitau tau | 
+(bÃ«pa+pratoda+abhihitau CvÃ«pa+pratoda+abhihatau )n­+peïa |
+viddhau sad+aÓvÃv* iva sarva+yatnÃt | 
+sauhÃrda+ÓÅghraæ* yayatur* vanaæ* tat ||9.1|
+tam ÃÓramam* jÃta+pariÓramau tÃv* | 
+upetya kÃle sa+d­Óa+anu+yÃtrau | 
+rÃja+­ddhim uts­jya vinÅta+ce«ÂÃv* | 
+upeyatur* bhÃrgava+dhi«ïyam eva ||9.2|
+tau nyÃyatas* taæ* pratipÆjya vipraæ* | 
+tena+arcitau tÃv* api ca*anu+rÆpam | 
+k­ta+Ãsanau bhÃrgavam Ãsana+sthaæ* | 
+chittvÃ kathÃm Æcatur* Ãtma+k­tyam ||9.3|
+Óuddha+ojasa÷ Óuddha+viÓÃla+kÅrter* |
+ik«vÃku+vaæÓa+prabhavasya rÃj¤a÷ | 
+imaæ* janaæ* vettu bhavÃn (adhÅtaæ* Ca+dhÅraæ* )|
+Óruta+grahe mantra+parigrahe ca ||9.4|
+tasya*indra+kalpasya jayanta+kalpa÷ | 
+putro* jarÃ+m­tyu+bhayaæ* titÅr«u÷ | 
+iha*abhyupeta÷ kila tasya hetor* |
+ÃvÃm upetau bhagavÃn avaitu ||9.5|
+tau so* *abravÅd* asti sa* dÅrgha+bÃhu÷ | 
+prÃpta÷ kumÃro* na tu na+avabuddha÷ | 
+dharmo* *ayam Ãvartaka* ity* avetya |
+yÃtas* tv* arÃ¬a+abhi+mukho* mumuk«u÷ ||9.6|
+tasmÃt tatas* tÃv* upalabhya tattvaæ* | 
+taæ* vipram (Ãmantrya CÃmanttya )tadÃ*eva sadya÷ |
+khinnÃv* a+khinnÃv* iva rÃja+(bhaktyÃ Cputra÷ )|
+prasasratus* tena yata÷ sa* yÃta÷ ||9.7|
+yÃntau tatas* tau (m­jayÃ Cs­jayÃ )vihÅnam |
+apaÓyatÃæ* taæ* (vapu«Ã*ujjvalantam Cvapu«Ã jvalantam )| 
+(upopavi«Âaæ* Cn­+pa+upavi«Âaæ* )pathi v­k«a+mÆle |
+sÆryaæ* ghana+Ãbhogam iva pravi«Âam ||9.8|
+yÃnaæ* vihÃya*upayayau tatas* taæ* | 
+puro+hito* mantra+dhareïa sa+ardham | 
+yathÃ vana+sthaæ* saha+vÃma+devo* | 
+rÃmaæ* did­k«ur* munir* aurvaÓeya÷ ||9.9|
+tÃv* arcayÃm Ãsatur* arhatas* taæ* |
+divi*iva Óukra+ÃÇgirasau mahÃ+indram |
+pratyarcayÃm Ãsa sa* ca*arhatas* tau | 
+divi*iva Óukra+ÃÇgirasau mahÃ+indra÷ ||9.10|
+k­ta+abhyanuj¤Ãv* abhitas* tatas* tau | 
+(ni«edatu÷ Cni«Ådatu÷ )ÓÃkya+kula+dhvajasya |
+virejatus* tasya ca saænikar«e | 
+punar+vasÆ yoga+gatÃv* iva*indo÷ ||9.11|
+taæ* v­k«a+mÆla+stham abhijvalantaæ* | 
+puro+hito* rÃja+sutaæ* babhÃ«e | 
+yathÃ+upavi«Âaæ* divi pÃrijÃte | 
+b­has+pati÷ Óakra+sutaæ* jayantam ||9.12|
+tvac+choka+Óalye h­daya+avagÃ¬he | 
+mohaæ* gato* bhÆmi+tale muhÆrtam | 
+kumÃra rÃjÃ nayana+ambu+var«o* | 
+yat tvÃm avocat tad* idaæ* nibodha ||9.13|
+jÃnÃmi dharmaæ* prati niÓcayaæ* te | 
+paraimi te (bhÃvinam C*a+cyÃvinam )etam artham |
+ahaæ* tv* a+kÃle vana+saæÓrayÃt te | 
+Óoka+agninÃ*agni+pratimena dahye ||9.14|
+tad* ehi dharma+priya mat+priya+arthaæ* | 
+dharma+artham eva tyaja buddhim etÃm | 
+ayaæ* hi mÃ Óoka+raya÷ prav­ddho* | 
+nadÅ+raya÷ kÆlam iva*abhihanti ||9.15|
+megha+ambu+kak«a+adri«u yÃ hi v­tti÷ | 
+samÅraïa+arka+agni+mahÃ+aÓanÅnÃm |
+tÃæ* v­ttim asmÃsu karoti Óoko* | 
+vikar«aïa+uccho«aïa+dÃha+bhedai÷ ||9.16|
+tad* bhuÇk«va tÃvad* vasu+dhÃ+Ãdhipatyaæ* | 
+kÃle vanaæ* yÃsyasi ÓÃstra+d­«Âe | 
+an+i«Âa+bandhau kuru (mayy* apek«Ãæ* CmÃ*apy* upek«Ãæ* )|
+sarve«u bhÆte«u dayÃ hi dharma÷ ||9.17|
+na ca*e«a* dharmo* vanae* eva siddha÷ | 
+pure *api siddhir* niyatÃ yatÅnÃm | 
+buddhiÓ* ca yatnaÓ* ca nimittam atra | 
+vanaæ* ca liÇgaæ* ca hi bhÅru+cihnam ||9.18|
+maulÅ+dharair* aæsa+vi«akta+hÃrai÷ | 
+keyÆra+vi«Âabdha+(bhujair* Csrajair* )nara+indrai÷ |
+lak«my-+aÇka+madhye parivartamÃnai÷ | 
+prÃpto* g­ha+sthair* api mok«a+dharma÷ ||9.19|
+dhruva+anujau yau bali+vajra+bÃhÆ | 
+vaibhrÃjam Ã«Ã¬ham atha*anti+devam |
+videha+rÃjaæ* janakaæ* tathÃ*eva | 
+(<xx> drumaæ* CpÃka+drumaæ* )sena+jitaÓ* ca rÃj¤a÷ ||9.20|
+etÃn g­ha+sthÃn n­+patÅn avehi | 
+nai÷Óreyase dharma+vidhau vinÅtÃn | 
+(ubhau Cubhe )*api tasmÃd* yuga+pad* bhajasva |
+(vitta+Ãdhipatyaæ* Ccitta+Ãdhipatyaæ* )ca n­+pa+Óriyaæ* ca ||9.21|
+icchÃmi hi tvÃm upaguhya gÃ¬haæ* | 
+k­ta+abhi«ekaæ* salila+Ãrdram eva |
+(dh­ta+Ãtapattraæ* Cdh­ta+Ãtapatraæ.* )samudÅk«amÃïas* |
+tena*eva har«eïa vanaæ* prave«Âum ||9.22|
+ity* abravÅd* bhÆmi+patir* bhavantaæ* | 
+vÃkyena (bÃ«pa+CvÃ«pa+)grathita+a+k«areïa |
+ÓrutvÃ bhavÃn arhati tat+priya+arthaæ* | 
+snehena tat+sneham anuprayÃtum ||9.23|
+Óoka+ambhasi tvat+prabhave hy a+gÃdhe | 
+du÷kha+arïave majjati ÓÃkya+rÃja÷ |
+tasmÃt tam uttÃraya nÃtha+hÅnaæ* | 
+nir+ÃÓrayaæ* magnam iva*arïave (nau÷ CgÃm )||9.24|
+bhÅ«meïa gaÇgÃ+udara+saæbhavena | 
+rÃmeïa rÃmeïa ca bhÃrgaveïa | 
+ÓrutvÃ k­taæ* karma pitu÷ priya+arthaæ* | 
+pitus* tvam apy* arhasi kartum i«Âam ||9.25|
+saævardhayitrÅæ* (samavehi Cca samehi )devÅm |
+agastya+ju«ÂÃæ* diÓam a+prayÃtÃm | 
+prana«Âa+vatsÃm iva vatsalÃæ* gÃm | 
+ajasram ÃrtÃæ* karuïaæ* rudantÅm ||9.26|
+haæsena haæsÅm iva viprayuktÃæ* | 
+tyaktÃæ* gajena*iva vane kareïum | 
+(ÃrtÃæ* CÃrttÃæ* )sa+nÃthÃm api nÃtha+hÅnÃæ* |
+trÃtuæ* vadhÆm arhasi darÓanena ||9.27|
+ekaæ* sutaæ* bÃlam an+arha+du÷khaæ* | 
+(saætÃpam antar+gatam udvahantam CsaætÃpa+saætapta <x x>)| 
+taæ* rÃhulaæ* mok«aya bandhu+ÓokÃd* | 
+rÃhu+upasargÃd* iva pÆrïa+candram ||9.28|
+Óoka+agninÃ tvad+viraha+indhanena | 
+ni÷ÓvÃsa+dhÆmena tama÷+Óikhena | 
+tvad+(darÓana+ambv* icchati dahyamÃnam CdarÓanÃya*­chati dahyamÃna÷ )|
+(anta÷+Cso* *anta÷)+puraæ* ca*eva puraæ* ca k­tsnam ||9.29|
+sa* bodhi+sattva÷ paripÆrïa+sattva÷ | 
+ÓrutvÃ vacas* tasya puro+hitasya | 
+dhyÃtvÃ muhÆrtaæ* guïavad* guïa+j¤a÷ | 
+praty+uttaraæ* praÓritam ity* uvÃca ||9.30|
+avaimi bhÃvaæ* (tanaye pitÌïÃæ* Ctanaya+prasaktaæ* )|
+viÓe«ato* yo* mayi bhÆmi+pasya | 
+jÃnann* api vyÃdhi+jarÃ+vipadbhyo* | 
+bhÅtas* tv* a+gatyÃ sva+janaæ* tyajÃmi ||9.31|
+dra«Âuæ* priyaæ* ka÷ sva+janaæ* hi na*icchen* | 
+(na*ante Cna*asau )yadi syÃt priya+viprayoga÷ |
+yadÃ tu bhÆtvÃ*api (ciraæ* Cbhaved* )viyogas* |
+tato* guruæ* snigdham api tyajÃmi ||9.32|
+mad+dhetukaæ* yat tu nara+adhipasya | 
+Óokaæ* bhavÃn (Ãha na tat Carhati na )priyaæ* me |
+yat svapna+bhÆte«u samÃgame«u | 
+saætapyate bhÃvini (viprayoge Cviprayogai÷ )||9.33|
+evaæ* ca te niÓcayam etu buddhir* | 
+d­«ÂvÃ vicitraæ* (jagata÷ pracÃram Cvi+vidha+pracÃram )|
+saætÃpa+hetur* na suto* na bandhur* | 
+a+j¤Ãna+naimittika* e«a* tÃpa÷ ||9.34|
+(yathÃ*adhva+CyadÃ*adhva+)gÃnÃm (iha Civa )saægatÃnÃæ* | 
+kÃle viyogo* niyata÷ prajÃnÃm | 
+prÃj¤o* jana÷ ko* nu bhajeta Óokaæ* | 
+bandhu+(pratij¤Ãta+janair* vihÅna÷ Cpriya÷ sann* api bandhu+hÅna÷ )||9.35|
+iha*eti hitvÃ sva+janaæ* paratra | 
+pralabhya ca*iha*api puna÷ prayÃti | 
+gatvÃ*api tatra*apy* a+paratra gacchaty* | 
+evaæ* (jane tyÃgini Cjano* yogini )ko* *anurodha÷ ||9.36|
+yadÃ ca garbhÃt prabh­ti (prav­tta÷ CprajÃnÃæ* )|
+(sarvÃsv* avasthÃsu vadhÃya C<xx> nubadhÃya )m­tyu÷ |
+kasmÃd* a+kÃle vana+saæÓrayaæ* me | 
+putra+priyas* (tatra+bhavÃn Ctatra bhavÃn )avocat ||9.37|
+bhavaty* a+kÃlo* vi«aya+abhipattau | 
+kÃlas* (tathÃ*eva*artha+vidhau CtathÃ*eva*abhividhau )pradi«Âa÷ |
+kÃlo* jagat kar«ati sarva+kÃlÃn* | 
+(nirvÃhake Carca+arhake )Óreyasi (na*asti kÃla÷ Csarva+kÃla÷ )||9.38|
+rÃjyaæ* mumuk«ur* mayi yac* ca rÃjÃ | 
+tad* apy* udÃraæ* sa+d­Óaæ* pituÓ* ca | 
+pratigrahÅtuæ* mama na k«amaæ* tu | 
+lobhÃd* a+pathya+annam iva*Ãturasya ||9.39|
+kathaæ* nu moha+Ãyatanaæ* n­+patvaæ* | 
+k«amaæ* prapattuæ* vidu«Ã nareïa | 
+sa+udvegatÃ yatra mada÷ ÓramaÓ* ca | 
+(para+apacÃreïa Cpara+upacÃreïa )ca dharma+pÅ¬Ã ||9.40|
+jÃmbÆnadaæ* harmyam iva pradÅptaæ* |
+vi«eïa saæyuktam iva*uttama+annam | 
+grÃha+Ãkulaæ* (ca*ambv* iva sÃra+vindaæ* Cca sthitaæ* <xx> )|
+((CrÃjyaæ* hi ramyaæ* vyasana+ÃÓrayaæ* ca C))||9.41|
+((Citthaæ* ca rÃjyaæ* na sukhaæ* na dharma÷ C))|
+((CpÆrve yathÃ jÃta+gh­ïÃ* nara+indrÃ÷ |
+((Cvaya÷+prakar«e *a+parihÃrya+du÷khe C))| 
+((CrÃjyÃni muktvÃ vanam eva jagmu÷ C))||9.42|
+((Cvaraæ* hi bhuktÃni t­ïÃny* araïye C))| 
+((Cto«aæ* paraæ* ratnam iva*upaguhya C))| 
+((Csaha+u«itaæ* ÓrÅ+su+labhair* na ca*eva C))| 
+((Cdo«air* a+d­Óyair* iva k­«ïa+sarpai÷ C))||9.43|
+((CÓlÃghyaæ* hi rÃjyÃni vihÃya rÃj¤Ãæ* C))| 
+((Cdharma+abhilÃ«eïa vanaæ* prave«Âum C))| 
+((Cbhagna+pratij¤asya na tu*upapannaæ* C))| 
+((Cvanaæ* parityajya g­haæ* prave«Âum C))||9.44|
+((CjÃta÷ kule ko* hi nara÷ sa+sattvo* C))| 
+((Cdharma+abhilÃ«eïa vanaæ* pravi«Âa÷ C))| 
+((CkÃ«Ãyam uts­jya vimukta+lajja÷ C))| 
+((Cpuraæ+darasya*api puraæ* Órayeta C))||9.45|
+((ClobhÃd* *dhi mohÃd* atha+vÃ bhayena C))| 
+((Cyo* vÃntam annaæ* punar* ÃdadÅta C))| 
+((ClobhÃt sa* mohÃd* atha+vÃ bhayena C))| 
+((Csaætyajya kÃmÃn punar* ÃdadÅta C))||9.46|
+((CyaÓ* ca pradÅptÃc* *charaïÃt kathaæ+cin* C))| 
+((Cni«kramya bhÆya÷ praviÓet tad* eva C))| 
+((CgÃrhasthyam uts­jya sa* d­«Âa+do«o* C))|
+((Cmohena bhÆyo* *abhila«ed* grahÅtum C))||9.47|
+((CyÃ ca Órutir* mok«am avÃptavanto* C))| 
+((Cn­+pÃ* g­ha+sthÃ* iti na*etad* asti C))| 
+((CÓama+pradhÃna÷ kva ca mok«a+dharmo* C))| 
+((Cdaï¬a+pradhÃna÷ kva ca rÃja+dharma÷ C))||9.48|
+((CÓame ratiÓ* cec* *chithilaæ* ca rÃjyaæ* C))| 
+((CrÃjye matiÓ* cec* *chama+viplavaÓ* ca C))| 
+((CÓamaÓ* ca taik«ïyaæ* ca hi na*upapannaæ* C))| 
+((CÓÅta+u«ïayor* aikyam iva*udaka+agnyo÷ C))||9.49|
+((Ctan* niÓcayÃd* vÃ vasu+dhÃ+adhipÃs* te C))| 
+((CrÃjyÃni muktvÃ Óamam Ãptavanta÷ C))| 
+((CrÃjya+aÇgitÃ* vÃ nibh­ta+indriyatvÃd* C))|
+((Ca+nai«Âhike mok«a+k­ta+abhimÃnÃ÷ C))||9.50|
+((Cte«Ãæ* ca rÃjye *astu Óamo* yathÃvat C))| 
+((CprÃpto* vanaæ* na*aham a+niÓcayena C))| 
+((CchittvÃ hi pÃÓaæ* g­ha+bandhu+saæj¤aæ* C))| 
+((Cmukta÷ punar* na pravivik«ur* asmi C))||9.51|
+ity* Ãtma+vij¤Ãna+guïa+anu+rÆpaæ* | 
+mukta+sp­haæ* hetumad* Ærjitaæ* ca | 
+ÓrutvÃ nara+indra+Ãtma+jam uktavantaæ* | 
+praty+uttaraæ* mantra+dharo* *apy* uvÃca ||9.52|
+yo* niÓcayo* (dharma+vidhau Cmantra+varas* )tava*ayam* |
+na*ayaæ* na yukto* na tu kÃla+yukta÷ | 
+ÓokÃya (dattvÃ ChitvÃ )pitaraæ* vaya÷+sthaæ* |
+syÃd* dharma+kÃmasya hi te na dharma÷ ||9.53|
+nÆnaæ* ca buddhis* tava na*ati+sÆk«mÃ | 
+dharma+artha+kÃme«v* a+vicak«aïÃ vÃ | 
+hetor* a+d­«Âasya phalasya yas* tvaæ* | 
+praty+ak«am arthaæ* paribhÆya yÃsi ||9.54|
+punar+bhavo* *asti*iti ca ke+cid* Ãhur* | 
+na*asti*iti ke+cin* niyata+pratij¤Ã÷ | 
+evaæ* yadÃ saæÓayito* *ayam arthas* | 
+tasmÃt k«amaæ* bhoktum upasthitÃ ÓrÅ÷ ||9.55|
+bhÆya÷ prav­ttir* yadi kÃ+cid* asti | 
+raæsyÃmahe tatra yathÃ*upapattau | 
+atha prav­tti÷ parato* na kÃ+cit | 
+siddho* *a+prayatnÃj* jagato* *asya mok«a÷ ||9.56|
+asti*iti ke+cit para+lokam Ãhur* | 
+mok«asya yogaæ* na tu varïayanti | 
+agner* yathÃ hy* (au«ïyam Cu«ïam )apÃæ* dravatvaæ* |
+tadvat prav­ttau prak­tiæ* vadanti ||9.57|
+ke+cit sva+bhÃvÃd* iti varïayanti | 
+Óubha+a+Óubhaæ* ca*eva bhava+a+bhavau ca | 
+svÃbhÃvikaæ* sarvam idaæ* ca yasmÃd* | 
+ato* *api mogho* bhavati prayatna÷ ||9.58|
+yad* indriyÃïÃæ* niyata÷ pracÃra÷ | 
+priya+a+priyatvaæ* vi«aye«u ca*eva | 
+saæyujyate yaj* (jarayÃ*ÃrtibhiÓ* CjarayÃ*ÃrttibhiÓ* )ca |
+kas* tatra yatno* nanu sa* sva+bhÃva÷ ||9.59|
+adbhir* huta+ÃÓa÷ Óamam abhyupaiti | 
+tejÃæsi ca*Ãpo* gamayanti Óo«am | 
+bhinnÃni bhÆtÃni ÓarÅra+saæsthÃny* | 
+aikyaæ* ca (gatvÃ CdattvÃ )jagad* udvahanti ||9.60|
+yat pÃïi+pÃda+udara+p­«Âha+(mÆrdhnÃæ* CmÆrdhnÃ )|
+nirvartate garbha+gatasya bhÃva÷ | 
+yad* Ãtmanas* tasya ca tena yoga÷ | 
+svÃbhÃvikaæ* tat kathayanti taj+j¤Ã÷ ||9.61|
+ka÷ kaïÂakasya prakaroti taik«ïyaæ* | 
+vicitra+bhÃvaæ* m­ga+pak«iïÃæ* vÃ | 
+sva+bhÃvata÷ sarvam idaæ* prav­ttaæ* |
+na kÃma+kÃro* *asti kuta÷ prayatna÷ ||9.62|
+sargaæ* vadanti*ÅÓvaratas* tathÃ*anye | 
+tatra prayatne puru«a«ya ko* *artha÷ | 
+ya* eva hetur* jagata÷ prav­ttau | 
+hetur* niv­ttau niyata÷ sa* eva ||9.63|
+ke+cid* vadanty* Ãtma+nimittam eva | 
+prÃdur+bhavaæ* ca*eva bhava+k«ayaæ* ca | 
+prÃdur+bhavaæ* tu pravadanty* a+yatnÃd* | 
+yatnena mok«a+adhigamaæ* bruvanti ||9.64|
+nara÷ pitÌïÃm an+­ïa÷ prajÃbhir* | 
+vedair* ­«ÅïÃæ* kratubhi÷ surÃïÃm | 
+utpadyate sa+ardham ­ïais* tribhis* tair* | 
+yasya*asti mok«a÷ kila tasya mok«a÷ ||9.65|
+ity* evam etena vidhi+krameïa mok«aæ* | 
+sa+yatnasya vadanti taj+j¤Ã÷ | 
+prayatnavanto* *api hi vi+krameïa |
+mumuk«ava÷ khedam avÃpnuvanti ||9.66|
+tat saumya mok«e yadi bhaktir* asti | 
+nyÃyena sevasva vidhiæ* yathÃ+uktam | 
+evaæ* bhavi«yaty* upapattir* asya | 
+saætÃpa+nÃÓaÓ* ca nara+adhipasya ||9.67|
+yÃ ca prav­ttÃ (tava do«a+Cbhava+do«a+)buddhis* |
+tapo+vanebhyo* bhavanaæ* prave«Âum | 
+tatra*api cintÃ tava tÃta mÃ bhÆt | 
+pÆrve *api jagmu÷ sva+(g­hÃn Cg­haæ* )vanebhya÷ ||9.68|
+tapo+vana+stho* *api v­ta÷ prajÃbhir* | 
+jagÃma rÃjÃ puram ambarÅ«a÷ | 
+tathÃ mahÅæ* viprak­tÃm an+Ãryais* | 
+tapo+vanÃd* etya rarak«a rÃma÷ ||9.69|
+tathÃ*eva ÓÃlva+adhi+patir* (druma+Ãkhyo* Cdruma+ak«o* )|
+vanÃt sa+sÆnur* (nagaraæ* viveÓa Csva+puraæ* praviÓya )|
+brahma+­«i+bhÆtaÓ* ca muner* (vasi«ÂhÃd* CvaÓi«ÂhÃd* )|
+dadhre Óriyaæ* sÃæk­tir* anti+deva÷ ||9.70|
+evaæ+vidhÃ* dharma+yaÓa÷+pradÅptÃ* | 
+vanÃni hitvÃ bhavanÃny* (atÅyu÷ CabhÅyu÷ )|
+tasmÃn* na do«o* *asti g­haæ* (prayÃtuæ* Cprave«Âuæ* )|
+tapo+vanÃd* dharma+nimittam eva ||9.71|
+tato* vacas* tasya niÓamya mantriïa÷ | 
+priyaæ* hitaæ* ca*eva n­+pasya cak«u«a÷ | 
+an+Ænam a+vyastam a+saktam a+drutaæ* | 
+dh­tau sthito* rÃja+suto* *abravÅd* vaca÷ ||9.72|
+iha*asti na*asti*iti ya* e«a* saæÓaya÷ | 
+parasya vÃkyair* na mama*atra niÓcaya÷ | 
+avetya tattvaæ* tapasÃ Óamena (ca CvÃ )|
+svayaæ* grahÅ«yÃmi yad* atra niÓcitam ||9.73|
+na me k«amaæ* (saæÓaya+jaæ* CsaÇga+Óataæ* )hi darÓanaæ* |
+grahÅtum a+vyakta+(paras+para+Ãhatam Cparaæ* para+Ãhatam )| 
+(budha÷ Cbuddha÷ )para+pratyayato* hi ko* vrajej* |
+jano* *andha+kÃre *andha* iva*andha+(deÓika÷ CdeÓita÷ )||9.74|
+a+d­«Âa+tattvasya sato* *api kiæ* tu me | 
+Óubha+a+Óubhe saæÓayite Óubhe mati÷ | 
+v­thÃ*api khedo* (hi C*api )varaæ* Óubha+Ãtmana÷ |
+sukhaæ* na tattve *api vigarhita+Ãtmana÷ ||9.75|
+imaæ* tu d­«ÂvÃ*Ãgamam a+vyavasthitaæ* | 
+yad* uktam Ãptais* tad* avehi sÃdhv* iti | 
+prahÅïa+do«atvam avehi ca*ÃptatÃæ* | 
+prahÅïa+do«o* hy* an+­taæ* na vak«yati ||9.76|
+g­ha+praveÓaæ* prati yac* ca me bhavÃn | 
+uvÃca rÃma+prabh­tÅn nidarÓanam | 
+na te pramÃïaæ* na hi dharma+niÓcaye«v* | 
+alaæ* pramÃïÃya parik«ata+vratÃ÷ ||9.77|
+tad* evam apy* eva ravir* mahÅæ* pated* | 
+api sthiratvaæ* himavÃn giris* tyajet | 
+a+d­«Âa+tattvo* vi«aya+un+mukha+indriya÷ | 
+Órayeya na tv* eva g­hÃn p­thag+jana÷ ||9.78|
+ahaæ* viÓeyaæ* jvalitaæ* huta+aÓanaæ* | 
+na ca*a+k­ta+artha÷ praviÓeyam Ãlayam | 
+iti pratij¤Ãæ* sa* cakÃra garvito* | 
+yathÃ+i«Âam utthÃya ca nir+mamo* yayau ||9.79|
+tata÷ sa+(bÃ«pau CvÃ«pau )saciva+dvi+jÃv* ubhau |
+niÓamya tasya sthiram eva niÓcayam | 
+vi«aïïa+vaktrÃv* anugamya du÷khitau | 
+Óanair* a+gatyÃ puram eva jagmatu÷ ||9.80|
+tat+snehÃd* atha n­+pateÓ* ca bhaktitas* tau | 
+sa+apek«aæ* pratiyayatuÓ* ca tasthatuÓ* ca | 
+dur+dhar«aæ* ravim iva dÅptam Ãtma+bhÃsÃ | 
+taæ* dra«Âuæ* na hi pathi Óekatur* na moktum ||9.81|
+tau j¤Ãtuæ* parama+gater* gatiæ* tu tasya | 
+pracchannÃæÓ* cara+puru«Ã¤* *chucÅn vidhÃya | 
+rÃjÃnaæ* priya+suta+lÃlasaæ* nu gatvÃ |
+drak«yÃva÷ katham iti jagmatu÷ kathaæ+cit ||9.82|
+[[iti (CÓrÅ+C)buddha+carite mahÃ+kÃvye kumÃra+anve«aïo* nÃma navama÷ sarga÷ |9|]]
+sa* rÃja+vatsa÷ p­thu+pÅna+vak«Ãs* | 
+tau havya+mantra+adhik­tau vihÃya | 
+uttÅrya gaÇgÃæ* pracalat+taraæ+gÃæ* | 
+ÓrÅmad+g­haæ* rÃja+g­haæ* jagÃma ||10.1|
+Óailai÷ su+guptaæ* ca vibhÆ«itaæ* ca | 
+dh­taæ* ca pÆtaæ* ca Óivais* tapo+dai÷ | 
+pa¤ca+a+cala+aÇkaæ* nagaraæ* prapede | 
+ÓÃnta÷ svayaæ+bhÆr* iva nÃka+p­«Âham ||10.2|
+gÃmbhÅryam ojaÓ* ca niÓÃmya tasya | 
+vapuÓ* ca dÅptaæ* puru«Ãn atÅtya | 
+visismiye tatra janas* tadÃnÅæ* | 
+sthÃnu+vratasya*iva v­«a+dhvajasya ||10.3|
+taæ* prek«ya yo* *anyena yayau sa* tasthau | 
+(yas* tatra CyaÓ* ca*atra )tasthau pathi so* *anvagacchat |
+drutaæ* yayau (ya÷ sa* jagÃma dhÅraæ* Csa+dayaæ* sa+dhÅraæ* )|
+ya÷ kaÓ+cid* Ãste sma sa* ca*utpapÃta ||10.4|
+kaÓ+cit tam Ãnarca jana÷ karÃbhyÃæ* | 
+sat+k­tya kaÓ+cic* *chirasÃ vavande | 
+snigdhena kaÓ+cid* vacasÃ*abhyanandan* | 
+(na*enaæ* Cna*evaæ* )jagÃma*a+pratipÆjya kaÓ+cit ||10.5|
+taæ* jihriyu÷ prek«ya vicitra+ve«Ã÷ | 
+prakÅrïa+vÃca÷ pathi maunam Åyu÷ | 
+dharmasya sa+ak«Ãd* iva (saænikar«e Csaænikar«Ãn* )|
+na kaÓ+cid* a+nyÃya+matir* babhÆva ||10.6|
+anya+kriyÃïÃm api rÃja+mÃrge | 
+strÅïÃæ* n­ïÃæ* vÃ bahu+mÃna+pÆrvam | 
+(taæ* deva+kalpaæ* Ctad* eva kalpaæ* )nara+deva+(sÆnuæ* CsÆtraæ* )|
+nirÅk«amÃïÃ na (tatarpa Ctu tasya )d­«Âi÷ ||10.7|
+bhruvau lalÃÂaæ* mukham (Åk«aïe CÅk«aïaæ* )vÃ |
+vapu÷ karau vÃ caraïau gatiæ* vÃ | 
+yad* eva yas* tasya dadarÓa tatra | 
+tad* eva (tasya*atha babandha Ctasya*anubabandha )cak«u÷ ||10.8|
+d­«ÂvÃ (ca sa+Ærïa+CÓubha+Ærïa+)bhruvam Ãyata+ak«aæ* |
+jvalac+charÅraæ* Óubha+jÃla+hastam | 
+taæ* bhik«u+(ve«aæ* CveÓaæ* )k«iti+pÃlana+arhaæ* |
+saæcuk«ubhe rÃja+g­hasya lak«mÅ÷ ||10.9|
+Óreïyo* *atha bhartÃ magadha+ajirasya | 
+(bÃhyÃd* CvÃhyÃd* )vimÃnÃd* vipulaæ* jana+ogham |
+dadarÓa papraccha ca tasya hetuæ* | 
+tatas* tam asmai puru«a÷ ÓaÓaæsa ||10.10|
+j¤Ãnaæ* paraæ* vÃ p­thivÅ+Óriyaæ* vÃ | 
+viprair* ya* ukto* *adhigami«yati*iti | 
+sa* (e«a* Ceva )ÓÃkya+adhi+pates* tanÆ+jo* |
+nirÅk«yate pravrajito* janena ||10.11|
+tata÷ Óruta+artho* (manasÃ*a+gata+Ãstho* CmanasÃ gata+artho* )|
+rÃjÃ babhÃ«e puru«aæ* tam eva | 
+vij¤ÃyatÃæ* kva pratigacchati*iti | 
+tathÃ*ity* atha*enaæ* puru«o* *anvagacchat ||10.12|
+a+lola+cak«ur* yuga+mÃtra+darÓÅ | 
+niv­tta+vÃg* yantrita+manda+gÃmÅ | 
+cacÃra bhik«Ãæ* sa* tu bhik«u+varyo* | 
+nidhÃya gÃtrÃïi calaæ* ca ceta÷ ||10.13|
+ÃdÃya bhaik«aæ* ca yathÃ+upapannaæ* | 
+yayau gire÷ prasravaïaæ* viviktam | 
+nyÃyena tatra*abhyavah­tya ca*enan* | 
+mahÅ+dharaæ* pÃï¬avam Ãruroha ||10.14|
+tasmin navau lodhra+vana+upagÆ¬he | 
+mayÆra+nÃda+pratipÆrïa+ku¤je | 
+kÃ«Ãya+vÃsÃ÷ sa* babhau n­+sÆryo* | 
+yathÃ+udayasya*upari bÃla+sÆrya÷ ||10.15|
+(tatra*enam Ctatra*evam )Ãlokya sa* rÃja+bh­tya÷ |
+ÓreïyÃya rÃj¤e kathayÃæ* cakÃra | 
+saæÓrutya rÃjÃ sa* ca bÃhumÃnyÃt |
+tatra pratasthe nibh­ta+anu+yÃtra÷ ||10.16|
+sa* pÃï¬avaæ* pÃï¬ava+tulya+vÅrya÷ |
+Óaila+uttamaæ* Óaila+samÃna+var«mÃ | 
+maulÅ+dhara÷ siæha+gatir* n­+siæhaÓ* | 
+calat+saÂa÷ siæha* iva*Ãruroha ||10.17|
+(tata÷ sma Ccalasya )tasya*upari Ó­Çga+bhÆtaæ* |
+ÓÃnta+indriyaæ* paÓyati bodhi+sattvam | 
+pary+aÇkam ÃsthÃya virocamÃnaæ* | 
+ÓaÓa+aÇkam udyantam iva*abhra+(ku¤jÃt CkÆÂÃt )||10.18|
+taæ* rÆpa+lak«myÃ ca Óamena ca*eva | 
+dharmasya nirmÃïam iva*upavi«Âam | 
+sa+vismaya÷ praÓrayavÃn nara+indra÷ | 
+svayaæ+bhuvaæ* Óakra* iva*upatasthe ||10.19|
+taæ* nyÃyato* (nyÃya+vidÃæ* vari«Âhaæ* CnyÃyavatÃæ* vari«Âha÷* )|
+sametya papraccha ca dhÃtu+sÃmyam | 
+sa* ca*apy* avocat sa+d­Óena sÃmnÃ | 
+n­+paæ* mana÷+svÃsthyam an+Ãmayaæ* ca ||10.20|
+tata÷ Óucau vÃraïa+karïa+nÅle | 
+ÓilÃ+tale (saæni«asÃda C*asau ni«asÃda )rÃjÃ |
+(upopaviÓya*anumataÓ* Cn­+pa+upaviÓya*anumataÓ* )ca tasya |
+bhÃvaæ* vijij¤Ãsur* idaæ* babhÃ«e ||10.21|
+prÅti÷ parÃ me bhavata÷ kulena | 
+krama+ÃgatÃ ca*eva parÅk«itÃ ca | 
+jÃtÃ vivak«Ã (sva+vayo* Csuta yÃ )yato* me |
+tasmÃd* idaæ* sneha+vaco* nibodha ||10.22|
+Ãditya+pÆrvaæ* vipulaæ* kulaæ* te |
+navaæ* vayo* dÅptam idaæ* vapuÓ* ca | 
+kasmÃd* iyaæ* te matir* a+krameïa |
+bhaik«Ãkae* eva*abhiratÃ na rÃjye ||10.23|
+gÃtraæ* hi te lohita+candana+arhaæ* | 
+kÃ«Ãya+saæÓle«am an+arham etat | 
+hasta÷ prajÃ+pÃlana+yogya* e«a* | 
+bhoktuæ* na ca*arha÷ para+dattam annam ||10.24|
+tat saumya rÃjyaæ* yadi pait­kaæ* tvaæ* | 
+snehÃt pitur* na*icchasi vikrameïa | 
+na ca (kramaæ* Ck«amaæ* )mar«ayituæ* matis* te |
+(bhuÇk«va*ardham CbhuktvÃ*ardham )asmad+vi«ayasya ÓÅghram ||10.25|
+evaæ* hi na syÃt sva+jana+avamarda÷ | 
+kÃla+krameïa*api Óama+ÓrayÃ ÓrÅ÷ | 
+tasmÃt kuru«va praïayaæ* mayi tvaæ* | 
+sadbhi÷ sahÅyÃ hi satÃæ* sam­ddhi÷ ||10.26|
+atha tv* idÃnÅæ* kula+garvitatvÃd* | 
+asmÃsu viÓrambha+guïo* na te *asti | 
+(vyÆ¬hÃny* anÅkÃni CvyÆhÃny* an+ekÃni )vigÃhya (bÃïair* CvÃïair* )|
+mayÃ sahÃyena (parÃn CparÃ¤* )jigÅ«a ||10.27|
+tad* buddhim atra*anyatarÃæ* v­ïÅ«va | 
+dharma+artha+kÃmÃn vidhivad* bhajasva | 
+vyatyasya (rÃgÃd* iha CrÃga+Ãdi ha )hi tri+vargaæ* |
+pretya*iha ca (bhraæÓam CvibhraæÓam )avÃpnuvanti ||10.28|
+yo* hy* artha+dharmau paripÅ¬ya kÃma÷ |
+syÃd* dharma+(kÃmau CkÃmye )paribhÆya ca*artha÷ |
+kÃma+arthayoÓ* ca*uparameïa dharmas* | 
+tyÃjya÷ sa* k­tsno* yadi (kÃÇk«ito* *artha÷ CkÃÇk«ita+artha÷ )||10.29|
+tasmÃt tri+vargasya ni«evaïena | 
+tvaæ* rÆpam etat sa+phalaæ* kuru«va | 
+dharma+artha+kÃma+adhigamaæ* hy* an+Ænaæ* | 
+n­ïÃm an+Ænaæ* puru«a+artham Ãhu÷ ||10.30|
+tan* ni«+phalau na*arhasi kartum etau | 
+pÅnau bhujau cÃpa+vikar«aïa+arhau |
+mÃndhÃt­vaj* jetum imau hi yogyau | 
+(lokÃn api trÅn iha ClokÃni hi trÅïi hi )kiæ* punar* gÃm ||10.31|
+snehena khalv* etad* ahaæ* bravÅmi | 
+na*aiÓvarya+rÃgeïa na vismayena | 
+imaæ* hi d­«ÂvÃ tava bhik«u+(ve«aæ* CveÓaæ* )|
+jÃta+anukampo* *asmy* api ca*Ãgata+aÓru÷ ||10.32|
+yÃvat sva+vaæÓa+prati+(rÆpa rÆpaæ* CrÆpa+rÆpaæ* )|
+na te jarÃ*abhyety* abhibhÆya bhÆya÷ |
+tad* bhuÇk«va bhik«Ã+ÃÓrama+kÃma kÃmÃn | 
+kÃle *asi kartÃ priya+dharma dharmam [PÃdas ab and cd are exchanged in C.] ||10.33|
+Óaknoti jÅrïa÷ khalu dharmam Ãptuæ* | 
+kÃma+upabhoge«v* a+gatir* jarÃyÃ÷ | 
+ataÓ* ca yÆna÷ kathayanti kÃmÃn | 
+madhyasya vittaæ* sthavirasya dharmam ||10.34|
+dharmasya ca*arthasya ca jÅva+loke | 
+praty+arthi+bhÆtÃni hi yauvanÃni | 
+saærak«yamÃnÃny* api dur+grahÃïi |
+kÃmÃ* yatas* tena (pathÃ CyathÃ )haranti ||10.35|
+vayÃæsi jÅrïÃni (vimarÓavanti CvimarÓayanti )|
+dhÅrÃïy* avasthÃna+para+ayaïÃni | 
+alpena yatnena Óama+ÃtmakÃni | 
+bhavanty* a+(gatyÃ*eva CgatyÃ*iva )ca lajjayÃ ca ||10.36|
+ataÓ* ca lolaæ* vi«aya+pradhÃnaæ* | 
+pramattam a+k«Ãntam a+dÅrgha+darÓi |
+bahu+cchalaæ* yauvanam abhyatÅtya | 
+nistÅrya kÃntÃram iva*ÃÓvasanti ||10.37|
+tasmÃd* a+dhÅraæ* capala+pramÃdi | 
+navaæ* vayas* tÃvad* idaæ* vyapaitu | 
+kÃmasya pÆrvaæ* hi vaya÷ Óaravyaæ* | 
+na Óakyate rak«itum indriyebhya÷ ||10.38|
+atha*u cikÅr«Ã tava dharma* eva | 
+yajasva yaj¤aæ* kula+dharma* e«a÷ | 
+yaj¤air* adhi«ÂhÃya hi nÃka+p­«Âhaæ* | 
+yayau marutvÃn api nÃka+p­«Âham ||10.39|
+su+varïa+keyÆra+vida«Âa+bÃhavo* | 
+maïi+pradÅpa+ujjvala+citra+maulaya÷ | 
+n­+pa+­«ayas* tÃæ* hi gatiæ* gatÃ* makhai÷ |
+Órameïa yÃm eva mahÃ+­«ayo* yayu÷ ||10.40|
+ity* evaæ* magadha+patir* ((Cvaco* C))babhÃ«e |
+ya÷ samyag* vala+bhid* iva (bruvan babhÃse Cdhruvaæ* babhÃ«e )|
+tac* *chrutvÃ na sa* (vicacÃla CvicacÃra )rÃja+sÆnu÷ |
+kailÃso* girir* iva na+eka+citra+sÃnu÷ ||10.41|
+[[iti (CÓrÅ+C)buddha+carite mahÃ+kÃvye *aÓva+gho«a+k­te Óreïya+abhigamano* nÃma daÓama÷ sarga÷ |10|]]
+atha*evam ukto* magadha+adhipena | 
+su+h­n+mukhena prati+kÆlam artham | 
+sva+stho* *a+vikÃra÷ kula+Óauca+Óuddha÷ | 
+Óauddhodanir* vÃkyam idaæ* jagÃda ||11.1|
+na*ÃÓcaryam etad* bhavato* (vidhÃnaæ* C*abhidhÃtuæ* )|
+jÃtasya hary+aÇka+kule viÓÃle | 
+yan* mitra+pak«e tava mitra+kÃma | 
+syÃd* v­ttir* e«Ã pariÓuddha+v­tte÷ ||11.2|
+a+satsu maitrÅ sva+(kula+anuv­ttÃ Ckula+anu+rÆpÃ )|
+na ti«Âhati Órir* iva viklave«u | 
+pÆrvai÷ k­tÃæ* prÅti+paraæ+parÃbhis* |
+tÃm eva santas* tu vivardhayanti ||11.3|
+ye ca*artha+k­cchre«u bhavanti loke | 
+samÃna+kÃryÃ÷ su+h­dÃæ* manu«yÃ÷ | 
+mitrÃïi tÃni*iti paraimi buddhyÃ | 
+sva+sthasya v­ddhi«v* iha ko* hi na syÃt ||11.4|
+evaæ* ca ye dravyam avÃpya loke | 
+mitre«u dharme ca niyojayanti | 
+avÃpta+sÃrÃïi dhanÃni te«Ãæ* | 
+bhra«ÂÃni na*ante janayanti tÃpam ||11.5|
+su+h­ttayÃ ca*ÃryatayÃ ca rÃjan | 
+(khalv* e«a* yo* mÃæ* prati niÓcayas* CvibhÃvya mÃm eva viniÓcayas* )te |
+atra*anune«yÃmi su+h­ttayÃ*eva | 
+brÆyÃm ahaæ* na*uttaram anyad* atra ||11.6|
+ahaæ* jarÃ+m­tyu+bhayaæ* viditvÃ | 
+mumuk«ayÃ dharmam imaæ* prapanna÷ | 
+bandhÆn priyÃn aÓru+mukhÃn vihÃya | 
+prÃg* eva kÃmÃn a+Óubhasya hetÆn ||11.7|
+na*ÃÓÅ+vi«ebhyo* (hi C*api )tathÃ bibhemi |
+na*eva*aÓanibhyo* gaganÃc* cyutebhya÷ | 
+na pÃvakebhyo* *anila+saæhitebhyo* | 
+yathÃ bhayaæ* me vi«ayebhya* (eva Cebhya÷ )||11.8|
+kÃmÃ* hy* a+nityÃ÷ kuÓala+artha+caurÃ* | 
+riktÃÓ* ca mÃyÃ+sa+d­ÓÃÓ* ca loke | 
+ÃÓÃsyamÃnÃ* api mohayanti | 
+cittaæ* n­ïÃæ* kiæ* punar* Ãtma+saæsthÃ÷ ||11.9|
+kÃma+abhibhÆtÃ* hi na yÃnti Óarma | 
+tri+pi«Âape kiæ* (bata Cvata )martya+loke |
+kÃmai÷ sa+t­«ïasya hi na*asti t­ptir* | 
+yathÃ*indhanair* vÃta+sakhasya vahne÷ ||11.10|
+jagaty* an+artho* na samo* *asti kÃmair* | 
+mohÃc* ca te«v* eva jana÷ prasakta÷ | 
+tattvaæ* viditvÃ*evam an+artha+bhÅru÷ | 
+prÃj¤a÷ svayaæ* ko* *abhila«ed* an+artham ||11.11|
+samudra+vastrÃm api gÃm avÃpya | 
+pÃraæ* jigÅ«anti mahÃ+arïavasya | 
+lokasya kÃmair* na vit­ptir* asti | 
+patadbhir* ambhobhir* iva*arïavasya ||11.12|
+devena v­«Âe *api hiraïya+var«e | 
+dvÅpÃn (sam+agrÃæÓ* CsamudrÃæÓ* )caturo* *api jitvÃ |
+Óakrasya ca*ardha+Ãsanam apy* avÃpya |
+mÃndhÃtur* ÃsÅd* vi«aye«v* a+t­pti÷ ||11.13|
+bhuktvÃ*api rÃjyaæ* divi devatÃnÃæ* | 
+Óata+kratau v­tra+bhayÃt prana«Âe | 
+darpÃn* mahÃ+­«Ån api vÃhayitvÃ | 
+kÃme«v* a+t­pto* nahu«a÷ papÃta ||11.14|
+ai¬aÓ* ca rÃjÃ tri+divaæ* vigÃhya | 
+nÅtvÃ*api devÅæ* vaÓam urvaÓÅæ* tÃm | 
+lobhÃd* ­«ibhya÷ kanakaæ* jihÅr«ur* | 
+jagÃma nÃÓaæ* vi«aye«v* a+t­pta÷ ||11.15|
+baler* mahÃ+indraæ* nahu«aæ* mahÃ+indrÃd* | 
+indraæ* punar* ye nahu«Ãd* upeyu÷ | 
+svarge k«itau vÃ vi«aye«u te«u | 
+ko* viÓvased* bhÃgya+kula+Ãkule«u ||11.16|
+cÅra+ambarÃ* mÆla+phala+ambu+bhak«Ã* | 
+jaÂÃ* vahanto* *api bhujaæ+ga+dÅrghÃ÷  | 
+yair* (na*anya+Canya+)kÃryÃ* munayo* *api bhagnÃ÷ |
+ka÷ kÃma+saæj¤Ãn m­gayeta ÓatrÆn ||11.17|
+ugra+ÃyudhaÓ* ca*ugra+dh­ta+Ãyudho* *api | 
+ye«Ãæ* k­te m­tyum avÃpa bhÅ«mÃt | 
+cintÃ*api te«Ãm a+ÓivÃ vadhÃya | 
+(sad+Ctad+)v­ttinÃæ* kiæ* punar* a+vratÃnÃm ||11.18|
+ÃsvÃdam alpaæ* vi«aye«u matvÃ | 
+saæyojana+utkar«am a+t­ptim eva | 
+sadbhyaÓ* ca garhÃæ* niyataæ* ca pÃpaæ* | 
+ka÷ kÃma+saæj¤aæ* vi«am (ÃdadÅta CÃsasÃda )||11.19|
+k­«ya+Ãdibhi÷ (karmabhir* arditÃnÃæ* Cdharmabhir* anvitÃnÃæ* )|
+kÃma+ÃtmakÃnÃæ* ca niÓamya du÷kham | 
+svÃsthyaæ* ca kÃme«v* a+kutÆhalÃnÃæ* |
+kÃmÃn vihÃtuæ* k«amam Ãtmavadbhi÷ ||11.20|
+j¤eyÃ vipat+kÃmini kÃma+saæpat* | 
+siddhe«u kÃme«u madaæ* hy* upaiti | 
+madÃd* a+kÃryaæ* kurute na kÃryaæ* | 
+yena k«ato* dur+gatim abhyupaiti ||11.21|
+yatnena labdhÃ÷ parirak«itÃÓ* ca | 
+ye vipralabhya pratiyÃnti bhÆya÷ | 
+te«v* ÃtmavÃn yÃcita+kopam e«u | 
+kÃme«u vidvÃn iha ko* rameta ||11.22|
+anvi«ya ca*ÃdÃya ca jÃta+tar«Ã* | 
+yÃn a+tyajanta÷ pariyÃnti du÷kham | 
+loke t­ïa+ulkÃ+sa+d­Óe«u te«u | 
+kÃme«u kasya*Ãtmavato* rati÷ syÃt ||11.23|
+an+Ãtmavanto* h­di yair* vida«ÂÃ* | 
+vinÃÓam archanti na yÃnti Óarma | 
+kruddha+ugra+sarpa+pratime«u te«u | 
+kÃme«u kasya*Ãtmavato* rati÷ syÃt ||11.24|
+asthi (k«udhÃ+ÃrtÃ* Ck«udhÃ+ÃrttÃ* )iva sÃrameyÃ* |
+bhuktvÃ*api yÃn na*eva bhavanti t­ptÃ÷ | 
+jÅrïa+asthi+kaÇkÃla+same«u te«u | 
+kÃme«u kasya*Ãtmavato* rati÷ syÃt ||11.25|
+ye rÃja+caura+udaka+pÃvakebhya÷ | 
+sÃdhÃraïatvÃj* janayanti du÷kham | 
+te«u praviddha+ami«a+saænibhe«u | 
+kÃme«u kasya*Ãtmavato* rati÷ syÃt ||11.26|
+yatra sthitÃnÃm abhito* vipatti÷ | 
+Óatro÷ sakÃÓÃd* api bÃndhavebhya÷ | 
+hiæsre«u te«v* Ãyatana+upame«u | 
+kÃme«u kasya*Ãtmavato* rati÷ syÃt ||11.27|
+girau vane ca*apsu ca sÃgare ca | 
+(yÃn Cyad* )bhraæÓam (archanti vilaÇghamÃnÃ÷ Carchanty* abhilaÇghamÃnÃ÷ )|
+te«u druma+pra+agra+phala+upame«u | 
+kÃme«u kasya*Ãtmavato* rati÷ syÃt ||11.28|
+(tÅvrai÷ CtÅrthai÷ )prayatnair* vi+vidhair* avÃptÃ÷ |
+k«aïena ye nÃÓam iha prayÃnti | 
+svapna+upabhoga+pratime«u te«u | 
+kÃme«u kasya*Ãtmavato* rati÷ syÃt [Verses 11.29 and 11.30 are exchanged in ed. C.] ||11.29|
+yÃn arcayitvÃ*api na yÃnti Óarma | 
+vivardhayitvÃ paripÃlayitvÃ | 
+aÇgÃra+(kar«Æ+Ckar«a+)pratime«u te«u |
+kÃme«u kasya*Ãtmavato* rati÷ syÃt ||11.30|
+vinÃÓam Åyu÷ kuravo* yad+arthaæ* | 
+v­«ïy+andhakÃ* (mekhala+Cmaithila+)daï¬akÃÓ* ca |
+(sÆnÃ+asi+CÓÆla+asi+)kÃ«Âha+pratime«u te«u |
+kÃme«u kasya*Ãtmavato* rati÷ syÃt ||11.31|
+sunda+upasundÃv* asurau yad+artham | 
+anyo+anya+vaira+pras­tau vina«Âau | 
+sauhÃrda+viÓle«a+kare«u te«u | 
+kÃme«u kasya*Ãtmavato* rati÷ syÃt ||11.32|
+(ye«Ãæ* k­te vÃriïi pÃvake CkÃma+andha+saæj¤Ã÷ k­payÃ va ke [sic] )ca |
+kravya+atsu (ca*ÃtmÃnam Cna*ÃtmÃnam )iha*uts­janti |
+sa+patna+bhÆte«v* a+Óive«u te«u | 
+kÃme«u kasya*Ãtmavato* rati÷ syÃt ||11.33|
+(kÃma+artham a+j¤a÷ CkÃma+andha+saæj¤a÷ )k­païaæ* karoti |
+prÃpnoti du÷khaæ vadha+bandhana+Ãdi | 
+kÃma+artham ÃÓÃ+k­païas* tapasvÅ | 
+(m­tyuæ* Óramaæ* ca*archati Cm­tyu+Óramaæ* ca*arhati )jÅva+(loka÷ Cloke )||11.34|
+gÅtair* hriyante hi m­gÃ* vadhÃya | 
+rÆpa+artham agnau ÓalabhÃ÷ patanti | 
+matsyo* giraty* Ãyasam Ãmi«a+arthÅ | 
+tasmÃd* an+arthaæ* vi«ayÃ÷ phalanti ||11.35|
+kÃmÃs* tu bhogÃ* iti (yan* mati÷ Cyan* mataæ* )syÃd* |
+(bhogÃ* CbhogyÃ* )na ke+cit parigaïyamÃnÃ÷ |
+vastra+Ãdayo* dravya+guïÃ* hi loke | 
+du÷kha+pratÅkÃra* iti pradhÃryÃ÷ ||11.36|
+i«Âaæ* hi tar«a+praÓamÃya toyaæ* | 
+k«un+nÃÓa+hetor* aÓanaæ* tathÃ*eva | 
+vÃta+Ãtapa+ambv+ÃvaraïÃya veÓma | 
+kaupÅna+ÓÅta+ÃvaraïÃya vÃsa÷ ||11.37|
+nidrÃ+vighÃtÃya tathÃ*eva ÓayyÃ | 
+yÃnaæ* tathÃ*adhva+Órama+nÃÓanÃya | 
+tathÃ*Ãsanaæ* sthÃna+vinodanÃya | 
+snÃnaæ* m­jÃ+Ãrogya+bala+ÃÓrayÃya ||11.38|
+du÷kha+pratÅkÃra+nimitta+bhÆtÃs* | 
+tasmÃt prajÃnÃæ* vi«ayÃ* na (bhogÃ÷ CbhogyÃ÷ )|
+aÓnÃmi bhogÃn iti ko* *abhyupeyÃt |
+prÃj¤a÷ pratÅkÃra+vidhau (prav­tta÷ Cprav­ttÃn )||11.39|
+ya÷ pitta+dÃhena vidahyamÃna÷ | 
+ÓÅta+kriyÃæ* bhoga* iti vyavasyet | 
+du÷kha+pratÅkÃra+vidhau prav­tta÷ | 
+kÃme«u kuryÃt sa* hi bhoga+saæj¤Ãm ||11.40|
+kÃme«v* an+aikÃntikatÃ ca yasmÃd* | 
+ato* *api me te«u na bhoga+saæj¤Ã | 
+yae* eva bhÃvÃ* hi sukhaæ* diÓanti | 
+tae* eva du÷khaæ* punar* Ãvahanti ||11.41|
+gurÆïi vÃsÃæsy* agurÆïi ca*eva |
+sukhÃya (ÓÅte CgÅte )hy* a+sukhÃya (gharme Cdharme )|
+candra+aæÓavaÓ* candanam eva ca*u«ïe | 
+sukhÃya dukhÃya bhavanti ÓÅte ||11.42|
+dvaædvÃni sarvasya yata÷ prasaktÃny* |
+a+lÃbha+lÃbha+prabh­tÅni loke | 
+ato* *api na*eka+anta+sukho* *asti kaÓ+cin* | 
+na*eka+anta+du÷kha÷ puru«a÷ prÂhivyÃm ||11.43|
+d­«ÂvÃ (vimiÓrÃæ* C ca miÓrÃæ* )sukha+du÷katÃæ* me |
+rÃjyaæ* ca dÃsyaæ* ca mataæ* samÃnam | 
+nityaæ* hasaty* eva hi na*eva rÃjÃ | 
+na ca*api saætapyatae* eva dÃsa÷ ||11.44|
+Ãj¤Ã n­+patve *abhy+adhikÃ*iti (yat syÃn* CyasmÃt )|
+mahÃnti du÷khÃny* ata* eva rÃj¤a÷ | 
+ÃsaÇga+kÃ«Âha+pratimo* hi rÃjÃ | 
+lokasya heto÷ parikhedam eti ||11.45|
+rÃjye n­+pas* tyÃgini (bahv+a+CvaÇka+)mitre |
+viÓvÃsam Ãgacchati ced* vipanna÷ | 
+atha*api viÓrambham upaiti na*iha | 
+kiæ* nÃma saukhyaæ* cakitasya rÃj¤a÷ ||11.46|
+yadÃ ca jitvÃ*api mahÅæ* sam+agrÃæ* | 
+vÃsÃya d­«Âaæ* puram ekam eva | 
+tatra*api ca*ekaæ* bhavanaæ* ni«evyaæ* | 
+Órama÷ para+arthe nanu rÃja+bhÃva÷ ||11.47|
+rÃj¤o* *api (vÃso+yugam CvÃse yugam )ekam eva |
+k«ut+saænirodhÃya tathÃ*anna+mÃtrÃ | 
+ÓayyÃ tathÃ*ekÃ*Ãsanam ekam eva | 
+Óe«Ã* viÓe«Ã* n­+pater* madÃya ||11.48|
+tu«Ây+artham etac* ca phalaæ* yadi*i«Âam | 
+­te *api rÃjyÃn* mama tu«Âir* asti | 
+tu«Âau ca satyÃæ* puru«asya loke | 
+sarve viÓe«Ã* nanu nir+viÓe«Ã÷ ||11.49|
+tan* na*asmi kÃmÃn prati saæpratÃrya÷ | 
+(k«emaæ* Ck«eme )Óivaæ* mÃrgam anuprapanna÷ |
+sm­tvÃ su+h­ttvaæ* tu puna÷ punar* mÃæ* | 
+brÆhi pratij¤Ãæ* khalu (pÃlaya*iti CpÃlayanti )||11.50|
+na* hy* asmy* amar«eïa vanaæ* pravi«Âo* | 
+na Óatru+bÃïair* avadhÆta+mauli÷ | 
+k­ta+sp­ho* na*api phala+adhikebhyo* | 
+g­hïÃmi na*etad* vacanaæ* yatas* te ||11.51|
+yo* danda+ÓÆkaæ* kupitaæ* bhujaæ+gaæ* | 
+muktvÃ vyavasyed* *dhi punar* grahÅtum | 
+dÃha+ÃtmikÃæ* vÃ jvalitÃæ* t­ïa+ulkÃæ* | 
+saætyajya kÃmÃn sa* punar* bhajeta ||11.52|
+andhÃya yaÓ* ca sp­hayed* an+andho* | 
+baddhÃya mukto* vidhanÃya (ca*Ã¬hya÷ CvÃ*Ã¬hya÷ )|
+unmatta+cittÃya ca kalya+citta÷ | 
+sp­hÃæ* sa* kuryÃd* vi«aya+ÃtmakÃya ||11.53|
+(bhaik«a+upabhogÅ*iti ca Cbhik«Ã+upabhogÅ vara* )na*anukampya÷ |
+k­tÅ jarÃ+m­tyu+bhayaæ* titÅr«u÷ | 
+iha*uttamaæ* ÓÃnti+sukhaæ* ca yasya | 
+paratra du÷khÃni ca saæv­tÃni ||11.54|
+lak«myÃæ* mahatyÃm api vartamÃnas* | 
+t­«ïÃ+abhibhÆtas* tv* anukampitavya÷ |
+prÃpnoti ya÷ ÓÃnti+sukhaæ* na ca*iha | 
+paratra (du÷khai÷ Cdu÷khaæ* )pratig­hyate ca ||11.55|
+evaæ* tu vaktuæ* bhavato* *anu+rÆpaæ* | 
+sattvasya v­ttasya kulasya ca*eva | 
+mama*api vo¬huæ* sa+d­Óaæ* pratij¤Ãæ* | 
+sattvasya v­ttasya kulasya ca*eva ||11.56|
+ahaæ* hi saæsÃra+(Óareïa Crasena )viddho* |
+vini÷s­ta÷ (ÓÃntim CÓÃntam )avÃptu+kÃma÷ |
+na*iccheyam Ãptuæ* tri+dive *api rÃjyaæ* | 
+nir+Ãmayaæ* kiæ* (bata Cvata )mÃnu«e«u ||11.57|
+tri+varga+sevÃæ* n­pa yat tu k­tsnata÷ | 
+paro* manu«ya+artha* iti tvam Ãttha mÃm |
+an+artha* ity* (eva mama*atra darÓanaæ* CÃttha mama*artha+darÓanaæ* )|
+k«ayÅ tri+vargo* hi na ca*api tarpaka÷ ||11.58|
+pade tu yasmin na jarÃ na (bhÅr* na ruÇ* CbhÅrutÃ )|
+na janma na*eva*uparamo* na (ca*Ãdhaya÷ CvÃ*Ãdhaya÷ )|
+tam eva manye puru«a+artham uttamaæ* |
+na vidyate yatra puna÷ puna÷ kriyÃ ||11.59|
+yad* apy* avoca÷ paripÃlyatÃæ* jarÃ | 
+navaæ* vayo* gacchati vikriyÃm iti | 
+a+niÓcayo* *ayaæ* capalaæ* hi d­Óyate | 
+jarÃ*apy* a+dhÅrÃ dh­timac* ca yauvanam ||11.60|
+sva+karma+dak«aÓ* ca (yadÃ*antako* CyadÃ tu ko* )jagad* |
+vaya÷su (sarve«v* a+vaÓaæ* vikar«ati Csarve«u ca saævikar«ati )|
+vinÃÓa+kÃle katham a+vyavasthite | 
+jarÃ pratÅk«yÃ vidu«Ã Óama+ÅpsunÃ ||11.61|
+jarÃ+Ãyudho* vyÃdhi+vikÅrïa+sÃyako* | 
+yadÃ*antako* vyÃdha* (iva*a+Óiva÷ Civa*ÃÓrita÷ )sthita÷ |
+prajÃ+m­gÃn bhÃgya+vana+ÃÓritÃæs* tudan | 
+vaya÷+prakar«aæ* prati ko* mano+ratha÷ ||11.62|
+(ato* Csuto* )yuvÃ vÃ sthaviro* *atha+vÃ ÓiÓus* |
+tathÃ tvarÃvÃn iha kartum arhati | 
+yathÃ bhaved* dharmavata÷ (k­ta+Ãtmana÷ Ck­pÃ+Ãtmana÷ )|
+prav­ttir* i«ÂÃ viniv­ttir* eva vÃ ||11.63|
+yad* Ãttha (ca*api*i«Âa+CvÃ dÅpta+)phalÃæ* kula+ucitÃæ* |
+kuru«va dharmÃya makha+kriyÃm iti | 
+namo* makhebhyo* na hi kÃmaye sukhaæ* | 
+parasya du÷kha+(kriyayÃ yad* i«yate CkriyayÃ*ÃpadiÓyate )||11.64|
+paraæ* hi hantuæ* vi+vaÓaæ* phala+ÅpsayÃ | 
+na yukta+rÆpaæ* karuïÃ+Ãtmana÷ sata÷ | 
+krato÷ phalaæ* yady* api ÓÃÓvataæ* bhavet | 
+tathÃ*api k­tvÃ kim (u yat k«aya+Ãtmakam Cupak«aya+Ãtmakam )||11.65|
+bhavec* ca dharmo* yadi na*a+paro* vidhir* | 
+vratena ÓÅlena mana÷+Óamena vÃ | 
+tathÃ*api na*eva*arhati sevituæ* kratuæ* | 
+viÓasya yasmin param ucyate phalam ||11.66|
+iha*api tÃvat puru«asya ti«Âhata÷ | 
+pravartate yat para+hiæsayÃ sukham | 
+tad* apy* an+i«Âaæ* sa+gh­ïasya dhÅmato* | 
+bhava+antare kiæ* (bata Cvata )yan* na d­Óyate ||11.67|
+na ca pratÃryo* *asmi phala+prav­ttaye | 
+bhave«u rÃjan ramate na me mana÷ | 
+latÃ* iva*ambho+dhara+v­«Âi+tÃ¬itÃ÷ | 
+prav­ttaya÷ sarva+gatÃ* hi ca¤calÃ÷ ||11.68|
+iha*ÃgataÓ* ca*aham ito* did­k«ayÃ | 
+muner* arÃ¬asya vimok«a+vÃdina÷ | 
+prayÃmi ca*adya*eva n­+pa*astu te Óivaæ* | 
+vaca÷ (k«amethÃ* mama tattva+Ck«amethÃ÷ Óama+tattva+)ni«Âhuram ||11.69|
+(ava*indravad* Catha*indravad* )divy* ava ÓaÓvad* arkavad* | 
+guïair* ava Óreya* iha*ava gÃm ava | 
+ava*Ãyur* Ãryair* ava sat+sutÃn ava | 
+ÓriyaÓ* ca rÃjann* ava dharmam Ãtmana÷ ||11.70|
+hima+ari+ketu+udbhava+(saæbhava+antare Csaæplava*antare )|
+yathÃ dvi+jo* yÃti vimok«ayaæs* tanum | 
+hima+ari+(Óatru+k«aya+CÓatruæ* k«aya+)Óatru+(ghÃtane CghÃtinas* )|
+tathÃ*antare yÃhi (vimok«ayan Cvimocayan )mana÷ ||11.71|
+n­+po* *abravÅt sa+a¤jalir* Ãgata+sp­ho* | 
+yathÃ+i«Âam (Ãpnotu CÃpnoti )bhavÃn a+vighnata÷ |
+avÃpya kÃle k­ta+k­tyatÃm imÃæ* | 
+mama*api kÃryo* bhavatÃ tv* anugraha÷ ||11.72|
+sthiraæ* pratij¤Ãya tathÃ*iti pÃrthive | 
+tata÷ sa* vaiÓvaætaram ÃÓramaæ* yayau | 
+parivrajantaæ* (tam udÅk«ya CsamudÅk«ya )vismito* |
+n­+po* *api (vavrÃja puriæ* giri+vrajam Cca prÃpur* imaæ* giriæ* vrajan )||11.73|
+[[iti (CÓrÅ+C)buddha+carite mahÃ+kÃvye (C*aÓva+gho«a+k­te C)kÃma+vigarhaïo* nÃma*ekÃ+daÓa÷ sarga÷ |11|]]
+tata÷ Óama+vihÃrasya |muner* ik«vÃku+candra+mÃ÷ |
+arÃ¬asya*ÃÓramaæ* bheje |vapu«Ã pÆrayann* iva ||12.1|
+sa* kÃlÃma+sa+gotreïa |tena*Ãlokya*eva dÆrata÷ |
+uccai÷ sv+Ãgatam ity* ukta÷ |samÅpam upajagmivÃn ||12.2|
+tÃv* ubhau nyÃyata÷ p­«ÂvÃ |dhÃtu+sÃmyaæ* paras+param |
+dÃravyor* medhyayor* v­«yo÷ |Óucau deÓe (ni«edatu÷ Cni«Ådatu÷ )||12.3|
+tam ÃsÅnaæ* n­+pa+sutaæ* |so* *abravÅn* muni+sattama÷ | 
+bahu+mÃna+viÓÃlÃbhyÃæ* |darÓanÃbhyÃæ* pibann* iva ||12.4|
+viditaæ* me yathÃ saumya |ni«krÃnto* bhavanÃd* asi | 
+chittvÃ snehamayaæ* pÃÓaæ* |pÃÓaæ* d­pta* iva dvi+pa÷ ||12.5|
+sarvathÃ dh­timac* ca*eva |prÃj¤aæ* ca*eva manas* tava | 
+yas* tvaæ* prÃpta÷ Óriyaæ* tyaktvÃ |latÃæ* vi«a+phalÃm iva ||12.6|
+na*ÃÓcaryaæ* jÅrïa+vayaso* |yaj* jagmu÷ pÃrthivÃ* vanam | 
+apatyebhya÷ Óriyaæ* dattvÃ |bhukta+ucchi«ÂÃm iva srajam ||12.7|
+idaæ* me matam ÃÓcaryaæ* |nave vayasi yad* bhavÃn | 
+a+bhuktvÃ*eva Óriyaæ* prÃpta÷ |sthito* vi«aya+go+care ||12.8|
+tad* vij¤Ãtum imaæ* dharmaæ* |paramaæ* bhÃjanaæ* bhavÃn | 
+j¤Ãna+(plavam CpÆrvam )adhi«ÂhÃya |ÓÅghraæ* du÷kha+arïavaæ* tara ||12.9|
+Ói«ye yady* api vij¤Ãte |ÓÃstraæ* kÃlena (varïyate Cvartate )|
+gÃmbhÅryÃd* vyavasÃyÃc* ca |(na parÅk«yo* Csu+parÅk«yo* )bhavÃn mama ||12.10|
+iti vÃkyam arÃ¬asya |vij¤Ãya sa* (nara+­«abha÷ Cnara+adhipa÷ )|
+babhÆva parama+prÅta÷ |provÃca*uttaram eva ca ||12.11|
+viraktasya*api yad* idaæ* |saumukhyaæ* bhavata÷ param | 
+a+k­ta+artho* *apy* anena*asmi |k­ta+artha* iva saæ+prati ||12.12|
+did­k«ur* iva hi jyotir* |yiyÃsur* iva daiÓikam | 
+tvad+(darÓanam CdarÓanÃd* )ahaæ* manye |titÅr«ur* iva ca plavam ||12.13|
+tasmÃd* arhasi tad* vaktuæ* |vaktavyaæ* yadi manyase | 
+jarÃ+maraïa+rogebhyo* |yathÃ*ayaæ* parimucyate ||12.14|
+ity* arÃ¬a÷ kumÃrasya |mÃhÃtmyÃd* eva codita÷ | 
+saæk«iptaæ* kathayÃæ* cakre |svasya ÓÃstrasya niÓcayam ||12.15|
+ÓrÆyatÃm ayam asmÃkaæ* |siddha+anta÷ Ó­ïvatÃæ* vara | 
+yathÃ bhavati saæsÃro* |yathÃ (ca*eva nivartate Cvai parivartate )||12.16|
+prak­tiÓ* ca vikÃraÓ* ca |janma m­tyur* jarÃ*eva ca | 
+tat tÃvat sattvam ity* uktaæ* |sthira+sattva parehi (tat Cna÷ )||12.17|
+tatra tu (prak­tiæ* Cprak­tir* )nÃma |viddhi prak­ti+kovida |
+pa¤ca bhÆtÃny* ahaæ+kÃraæ* |buddhim a+vyaktam eva ca ||12.18|
+vikÃra* iti (budhyasva Cbuddhiæ* tu )|vi«ayÃn indriyÃïi ca |
+pÃïi+pÃdaæ* ca vÃdaæ* ca |pÃyu+upasthaæ* tathÃ mana÷ ||12.19|
+asya k«etrasya vij¤ÃnÃt |k«etra+j¤a* iti saæj¤i ca | 
+k«etra+j¤a* iti ca*ÃtmÃnaæ* |kathayanty* Ãtma+cintakÃ÷ ||12.20|
+sa+Ói«ya÷ kapilaÓ* ca*iha |(pratibuddhir* Cpratibuddha* )iti sm­ti÷ |
+sa+(putro* *a+pratibuddhas* tu Cputra÷ pratibuddhaÓ* ca )|prajÃ+patir* iha*ucyate ||12.21|
+jÃyate jÅryate ca*eva |(bÃdhyate Cbudhyate )mriyate ca yat | 
+tad* vyaktam iti vij¤eyam |a+vyaktaæ* tu viparyayÃt ||12.22|
+a+j¤Ãnaæ* karma t­«ïÃ ca |j¤eyÃ÷ saæsÃra+hetava÷ | 
+sthito* *asmiæs* tritaye (jantus* Cyas* tu )|tat sattvaæ* (na*ativartate Cna*abhivartate )||12.23|
+vi+pratyayÃd* ahaæ+kÃrÃt |saædehÃd* abhisaæplavÃt |
+a+viÓe«a+an+upÃyÃbhyÃæ* |saÇgÃd* abhyavapÃtata÷ ||12.24|
+tatra vi+pratyayo* nÃma |viparÅtaæ* pravartate |
+anyathÃ kurute kÃryaæ* |mantavyaæ* manyate *anyathÃ ||12.25|
+bravÅmy* aham ahaæ* vedmi |gacchÃmy* aham ahaæ* sthita÷ | 
+iti*iha*evam ahaæ+kÃras* tv* |an+ahaæ+kÃra vartate ||12.26|
+yas* tu (bhÃvÃn a+saædigdhÃn CbhÃvena saædigdhÃn )|ekÅ+bhÃvena paÓyati |
+m­t+piï¬a+vad* a+saædeha |saædeha÷ sa* iha*ucyate ||12.27|
+ya* eva*ahaæ* sa* eva*idaæ* |mano* buddhiÓ* ca karma ca | 
+yaÓ* (ca*eva*e«a* Cca*evaæ* sa* )gaïa÷ so* *aham |iti ya÷ so* *abhisaæplava÷ ||12.28|
+a+viÓe«aæ* viÓe«a+j¤a |pratibuddha+a+prabuddhayo÷ | 
+prak­tÅnÃæ* ca yo* veda |so* *a+viÓe«a* iti sm­ta÷ ||12.29|
+namas+kÃra+va«aÂ+kÃrau |prok«aïa+abhyuk«aïa+Ãdaya÷ | 
+an+upÃya* iti prÃj¤air* |upÃya+j¤a pravedita÷ ||12.30|
+sajjate yena dur+medhÃ* |mano+(vÃg+buddhi+karmabhi÷ CvÃk+karma+buddhibhi÷ )|
+vi«aye«v* an+abhi«vaÇga |so* *abhi«vaÇga* iti sm­ta÷ ||12.31|
+mama*idam aham asya*iti |yad* du÷kham abhimanyate | 
+vij¤eyo* *abhyavapÃta÷ sa* |saæsÃre yena pÃtyate ||12.32|
+ity* a+(vidyÃæ* CvidyÃ )hi (vidvÃn sa* CvidvÃæsa÷ [??] )|pa¤ca+(parvÃæ* CparvÃ )samÅhate |
+tamo* mohaæ* mahÃ+mohaæ* |tÃmisra+dvayam eva ca ||12.33|
+tatra*Ãlasyaæ* tamo* viddhi |mohaæ* m­tyuæ* ca janma ca | 
+mahÃ+mohas* tv* a+saæmoha |kÃma ity* (eva gamyatÃm CavagamyatÃm )||12.34|
+yasmÃd* atra ca bhÆtÃni |pramuhyanti mahÃnty* api | 
+tasmÃd* e«a* mahÃ+bÃho |mahÃ+moha* iti sm­ta÷ ||12.35|
+tÃmisram iti ca*a+krodha |krodham eva*adhikurvate | 
+vi«Ãdaæ* ca*andha+tÃmisram |a+vi«Ãda pracak«ate ||12.36|
+anayÃ*a+vidyayÃ bÃla÷ |saæyukta÷ pa¤ca+parvayÃ | 
+saæsÃre du÷kha+bhÆyi«Âhe |janmasv* abhini«icyate ||12.37|
+dra«ÂÃ ÓrotÃ ca mantÃ ca |(kÃrya+karaïam CkÃryaæ* karaïam )eva ca |
+aham ity* evam Ãgamya |saæsÃre parivartate ||12.38|
+(iha*ebhir* City* ebhir* )hetubhir* dhÅman |(janma+Ctama÷+)srota÷ pravartate |
+hetv+a+(bhÃvÃt CbhÃve )phala+a+bhÃva* |iti vij¤Ãtum arhasi ||12.39|
+tatra (samyaÇ+Csamyag+)matir* vidyÃn* |mok«a+kÃma catu«Âayam |
+pratibuddha+a+prabuddhau ca |vyaktam a+vyaktam eva ca ||12.40|
+yathÃvad* etad* vij¤Ãya |k«etra+j¤o* hi catu«Âayam | 
+(ÃjavaæjavatÃæ* CÃrjavaæ* javatÃæ* )hitvÃ |prÃpnoti padam a+k«aram ||12.41|
+ity+arthaæ* brÃhmaïÃ* loke |parama+brahma+vÃdina÷ | 
+brahma+caryaæ* caranti*iha |brÃhmaïÃn vÃsayanti ca ||12.42|
+iti vÃkyam idaæ* ÓrutvÃ |munes* tasya n­+pa+Ãtma+ja÷ | 
+abhyupÃyaæ* ca papraccha |padam eva ca nai«Âhikam ||12.43|
+brahma+caryam idaæ* caryaæ* |yathÃ yÃvac* ca yatra ca | 
+dharmasya*asya ca pary+antaæ* |bhavÃn vyÃkhyÃtum arhati ||12.44|
+ity* arÃ¬o* yathÃ+ÓÃstraæ* |vispa«Âa+arthaæ* samÃsata÷ | 
+tam eva*anyena kalpena |dharmam asmai vyabhÃ«ata ||12.45|
+ayam Ãdau g­hÃn* muktvÃ |bhaik«Ãkaæ* liÇgam ÃÓrita÷ | 
+samudÃcÃra+vistÅrïaæ* |ÓÅlam ÃdÃya vartate ||12.46|
+saæto«aæ* param ÃsthÃya |yena tena yatas* tata÷ | 
+viviktaæ* sevate vÃsaæ* |nir+dvaædva÷ ÓÃstra+vit+k­tÅ ||12.47|
+tato* rÃgÃd* bhayaæ* d­«ÂvÃ |vairÃgyÃc* ca paraæ* Óivam | 
+nig­hïann* indriya+grÃmaæ* |yatate manasa÷ (Óame CÓrame )||12.48|
+atha*u viviktaæ* kÃmebhyo* |vyÃpÃda+Ãdibhya* eva ca | 
+viveka+jam avÃpnoti |pÆrva+dhyÃnaæ* vitarkavat ||12.49|
+tac* ca (dhyÃna+sukhaæ* CdhyÃnaæ* sukhaæ* )prÃpya |tat tad* eva vitarkayan |
+a+pÆrva+sukha+lÃbhena |hriyate bÃliÓo* jana÷ ||12.50|
+Óamena*evaæ+vidhena*ayaæ* |kÃma+dve«a+vigarhiïÃ | 
+brahma+lokam avÃpnoti |parito«eïa va¤cita÷ ||12.51|
+j¤ÃtvÃ vidvÃn vitarkÃæs* tu |mana÷+saæk«obha+kÃrakÃn | 
+tad+viyuktam avÃpnoti |dhyÃnaæ* prÅti+sukha+anvitam ||12.52|
+hriyamÃïas* tayÃ prÅtyÃ |yo* viÓe«aæ* na paÓyati | 
+sthÃnaæ* bhÃsvaram Ãpnoti |deve«v* (ÃbhÃsvare«u sa÷ CÃbhÃ+sure«v* api )||12.53|
+yas* tu prÅti+sukhÃt tasmÃd |vivecayati mÃnasam | 
+t­tÅyaæ* labhate dhyÃnaæ* |sukhaæ* prÅti+vivarjitam [Ed. C reads 12.57 after 12.54.] ||12.54|
+yas* tu tasmin sukhe magno* |na viÓe«Ãya yatnavÃn | 
+Óubha+k­tsnai÷ sa* sÃmÃnyaæ* |sukhaæ* prÃpnoti daivatai÷ ||12.55|
+tÃ+d­Óaæ* sukham ÃsÃdya |yo* na (rajyaty* upek«aka÷ Crajyann* upek«ate )|
+caturthaæ* dhyÃnam Ãpnoti |sukha+du÷kha+vivarjitam ||12.56|
+tatra ke+cid* vyavasyanti |mok«a* ity* (abhimÃnina÷ Capi mÃnina÷ )|
+sukha+du÷kha+parityÃgÃd* |a+vyÃpÃrÃc* ca cetasa÷ ||12.57|
+asya dhyÃnasya tu phalaæ* |samaæ* devair* b­hat+phalai÷ | 
+kathayanti (b­hat+kÃlaæ* |b­hat+Cv­hat+phalaæ* |v­hat+)praj¤Ã+parÅk«akÃ÷ ||12.58|
+samÃdher* vyutthitas* tasmÃd* |d­«ÂvÃ do«ÃæÓ* *charÅriïÃm | 
+j¤Ãnam Ãrohati prÃj¤a÷ |ÓarÅra+viniv­ttaye ||12.59|
+tatas* tad* dhyÃnam uts­jya |viÓe«e k­ta+niÓcaya÷ | 
+kÃmebhya* iva (sa* prÃj¤o* Csat+prÃj¤o* )|rÆpÃd* api virajyate ||12.60|
+ÓarÅre khÃni yÃny* asmin |tÃny* Ãdau parikalpayan | 
+ghane«v* api tato* dravye«v* |ÃkÃÓam adhimucyate ||12.61|
+ÃkÃÓa+(gatam Csamam )ÃtmÃnaæ* |saæk«ipya tv* a+paro* budha÷ |
+(tad* eva*an+CtadÃ*eva*an+)antata÷ paÓyan |viÓe«am adhigacchati ||12.62|
+adhy+Ãtma+(kuÓalas* tv* CkuÓale«v* )anyo* |nivartya*ÃtmÃnam ÃtmanÃ |
+kiæ+cin* na*asti*iti saæpaÓyann* |Ãkiæcanya* iti sm­ta÷ ||12.63|
+tato* mu¤jÃd* i«ÅkÃ*iva |Óakuni÷ pa¤jarÃd* iva | 
+k«etra+j¤o* ni÷s­to* dehÃn* |mukta* ity* abhidhÅyate ||12.64|
+etat tat paramaæ* brahma |nir+liÇgaæ* dhruvam a+k«aram | 
+yan* mok«a* iti tattva+j¤Ã÷ |kathayanti manÅ«iïa÷ ||12.65|
+ity* upÃyaÓ* ca mok«aÓ* ca |mayÃ saædarÓitas* tava | 
+yadi j¤Ãtaæ* yadi (rucir* Cruci )|yathÃvat pratipadyatÃm ||12.66|
+jaigÅ«avyo* *atha janako* |v­ddhaÓ* ca*eva parÃÓara÷ | 
+imaæ* panthÃnam ÃsÃdya |muktÃ* hy* anye ca mok«iïa÷ ||12.67|
+iti tasya sa* tad* vÃkyaæ* |g­hÅtvÃ (tu Cna )vicÃrya ca | 
+pÆrva+hetu+bala+prÃpta÷ |praty+uttaram uvÃca (ha Csa÷ )||12.68|
+Órutaæ* j¤Ãnam idaæ* sÆk«maæ* |parata÷ parata÷ Óivam | 
+(k«etra+j¤asya*a+Ck«etre«v* asya*a+)parityÃgÃd* |avaimy* etad* a+nai«Âhikam ||12.69|
+vikÃra+prak­tibhyo* hi |k«etra+j¤aæ* muktam apy* aham | 
+manye prasava+dharmÃïaæ* |(bÅja+CvÅja+)dharmÃïam eva ca ||12.70|
+viÓuddho* yady* api hy* ÃtmÃ |nirmukta* iti kalpyate | 
+((CbhÆya÷ pratyaya+sad+bhÃvÃd* |a+mukta÷ sa* bhavi«yati C)) ||12.71|
+((C­tu+bhÆmy+ambu+virahÃd* |yathÃ bÅjaæ* na rohati | C))
+((Crohati pratyayais* tais* tais* |tadvat so* *api mato* mama C))||12.72|
+((Cyat karma+a+j¤Ãna+t­«ïÃnÃæ* |tyÃgÃn* mok«aÓ* ca kalpyate | C))
+aty+antas* tat+parityÃga÷ |saty* Ãtmani na vidyate ||12.73|
+hitvÃ hitvÃ trayam idaæ* |viÓe«as* tu*upalabhyate | 
+Ãtmanas* tu sthitir* yatra |tatra sÆk«mam idaæ* trayam ||12.74|
+sÆk«matvÃc* ca*eva do«ÃïÃm |a+vyÃpÃrÃc* ca cetasa÷ | 
+dÅrghatvÃd* Ãyu«aÓ* ca*eva |mok«as* tu parikalpyate ||12.75|
+ahaæ+kÃra+parityÃgo* |yaÓ* ca*e«a* parikalpyate | 
+saty* Ãtmani parityÃgo* |na*ahaæ+kÃrasya vidyate ||12.76|
+saækhyÃ+Ãdibhir* a+muktaÓ* ca |nir+guïo* na bhavaty* ayam | 
+tasmÃd* a+sati nairguïye |na*asya mok«o* *abhidhÅyate ||12.77|
+guïino* hi guïÃnÃæ* ca |vyatireko* na vidyate | 
+rÆpa+u«ïÃbhyÃæ* virahito* |na hy* agnir* upalabhyate ||12.78|
+prÃg* dehÃn* na bhaved* dehÅ |prÃg* guïebhyas* tathÃ guïÅ | 
+(tasmÃd* CkasmÃd* )Ãdau vimukta÷ (san Csa¤* )|ÓarÅrÅ badhyate puna÷ ||12.79|
+k«etra+j¤o* vi+ÓarÅraÓ* ca |j¤o* vÃ syÃd* a+j¤a* eva vÃ | 
+yadi j¤o* j¤eyam asya*asti |j¤eye sati na mucyate ||12.80|
+atha*a+j¤a* iti siddho* va÷ |kalpitena kim ÃtmanÃ | 
+vinÃ*api hy* ÃtmanÃ*a+j¤Ãnaæ* |prasiddhaæ* kÃ«Âha+ku¬yavat ||12.81|
+parata÷ paratas* tyÃgo* |yasmÃt tu guïavÃn sm­ta÷ | 
+tasmÃt sarva+parityÃgÃn* |manye k­tsnÃæ* k­ta+arthatÃm ||12.82|
+iti dharmam arÃ¬asya |viditvÃ na tuto«a sa÷ | 
+a+k­tsnam iti vij¤Ãya |tata÷ pratijagÃma ha ||12.83|
+viÓe«am atha ÓuÓrÆ«ur* |udrakasya*ÃÓramaæ* yayau |
+Ãtma+grÃhÃc* ca tasya*api |jag­he na sa* darÓanam ||12.84|
+saæj¤Ã+saæj¤itvayor* do«aæ* |j¤ÃtvÃ hi munir* udraka÷ | 
+ÃkiæcinyÃt paraæ* lebhe |(*a+saæj¤Ã+a+saæj¤Ã+ÃtmikÃæ* Csaæj¤Ã+a+saæj¤Ã+ÃtmikÃæ* )gatim ||12.85|
+yasmÃc* ca*Ãlambane sÆk«me |saæj¤Ã+a+saæj¤e tata÷ param | 
+na+a+saæj¤Å na*eva saæj¤Å*iti |tasmÃt (tatra+gata+Ctatra gata+)sp­ha÷ ||12.86|
+yataÓ* ca buddhis* tatra*eva |sthitÃ*anyatra*a+pracÃriïÅ | 
+(sÆk«mÃ*a+paÂvÅ CsÆk«mÃ*apÃdi )tatas* tatra |na*a+saæj¤itvaæ* na saæj¤itÃ ||12.87|
+yasmÃc* ca (tad* Ctam )api prÃpya |punar* Ãvartate jagat |
+bodhi+sattva÷ paraæ* prepsus* |tasmÃd* udrakam atyajat ||12.88|
+tato* hitvÃ*ÃÓramaæ* tasya |Óreyo+arthÅ k­ta+niÓcaya÷ | 
+bheje gayasya rÃja+­«er* |nagarÅ+saæj¤am ÃÓramam ||12.89|
+atha naira¤janÃ+tÅre |Óucau Óuci+parÃkrama÷ | 
+cakÃra vÃsam eka+anta+ |(vihÃra+abhiratir* C(vihÃra+abhivratÅ )muni÷ ||12.90|
+((C<xxx> tat+pÆrvaæ* |pa¤ca+indriya+vaÓa+uddhatÃn | C))
+((Ctapa÷ <xx> vratino* bhik«Æn pa¤ca niraik«ata C))||12.91|
+(te ca*upatasthur* Cpa¤ca*upatasthur* )d­«ÂvÃ*atra |bhik«avas* taæ* mumuk«ava÷ |
+puïya+arjita+dhana+Ãrogyam |indriya+arthÃ* iva*ÅÓvaram ||12.92|
+saæpÆjyamÃnas* tai÷ prahvair* |(vinayÃd* anuvartibhi÷ Cvinaya+Ãnata+mÆrtibhi÷ )|
+tad+vaÓa+sthÃyibhi÷ Ói«yair* |lolair* mana* iva*indriyai÷ ||12.93|
+m­tyu+janma+anta+karaïe |syÃd* upÃyo* *ayam ity* atha | 
+du«+karÃïi samÃrebhe |tapÃæsy* an+aÓanena sa÷ ||12.94|
+upavÃsa+vidhÅn na+ekÃn |kurvan nara+dur+ÃcarÃn | 
+var«Ãïi «aÂ (Óama+Ckarma+)prepsur* |akarot kÃrÓyam Ãtmana÷ ||12.95|
+anna+kÃle«u ca*eka+ekai÷ |(sa* kola+Csa+kola+)tila+taï¬ulai÷ |
+a+pÃra+pÃra+saæsÃra+ |pÃraæ* prepsur* apÃrayat ||12.96|
+dehÃd* apacayas* tena |tapasÃ tasya ya÷ k­ta÷ | 
+sa* eva*upacayo* bhÆyas* |tejasÃ*asya k­to* *abhavat ||12.97|
+k­Óo* *apy* a+k­Óa+kÅrti+ÓrÅr* |hlÃdaæ* cakre *anya+(cak«u«Ãm Ccak«u«am )|
+kumudÃnÃm iva Óarac+ |chukla+pak«a+Ãdi+candra+mÃ÷ ||12.98|
+tvag+asthi+Óe«o* ni÷+Óe«air* |meda÷+piÓita+Óoïitai÷ | 
+k«Åïo* *apy* a+k«Åïa+gÃmbhÅrya÷ |samudra* iva sa* vyabhÃt ||12.99|
+atha ka«Âa+tapa÷+spa«Âa+ |vy+artha+kli«Âa+tanur* muni÷ | 
+bhava+bhÅrur* imÃæ* cakre |buddhim buddhatva+kÃÇk«ayÃ ||12.100|
+na*ayaæ* dharmo* virÃgÃya |na bodhÃya na muktaye | 
+jambu+mÆle mayÃ prÃpto* |yas* tadÃ sa* vidhir* dhruva÷ ||12.101|
+na ca*asau dur+balena*Ãptuæ* |Óakyam ity* Ãgata+Ãdara÷ | 
+ÓarÅra+bala+v­ddhy+artham |idaæ* bhÆyo* *anvacintayat ||12.102|
+k«ut+pipÃsÃ+Órama+klÃnta÷ |ÓramÃd* a+sva+stha+mÃnasa÷ | 
+prÃpnuyÃn* manasÃ*avÃpyaæ* |phalaæ* katham a+nirv­ta÷ ||12.103|
+nirv­ti÷ prÃpyate samyak |satata+indriya+tarpaïÃt | 
+saætarpita+indriyatayÃ |mana÷+svÃsthyam avÃpyate ||12.104|
+sva+stha+prasanna+manasa÷ |samÃdhir* upapadyate | 
+samÃdhi+yukta+cittasya |dhyÃna+yoga÷ pravartate ||12.105|
+dhyÃna+pravartanÃd* dharmÃ÷ |prÃpyante yair* avÃpyate | 
+dur+labhaæ* ÓÃntam a+jaraæ* |paraæ* tad* a+m­taæ* padam ||12.106|
+tasmÃd* ÃhÃra+mÆlo* *ayam |upÃya* iti+niÓcaya÷ | 
+(ÃhÃra+CasÆri+)karaïe dhÅra÷ |k­tvÃ*a+mita+matir* matim ||12.107|
+snÃto* naira¤janÃ+tÅrÃd* |uttatÃra Óanai÷ k­Óa÷ | 
+bhaktyÃ*avanata+ÓÃkha+agrair* |datta+hastas* taÂa+drumai÷ ||12.108|
+atha go+pa+adhipa+sutÃ |daivatair* abhicoditÃ | 
+udbhÆta+h­daya+ÃnandÃ |tatra nanda+balÃ*Ãgamat ||12.109|
+sita+ÓaÇkha+ujjvala+bhujÃ |nÅla+kambala+vÃsinÅ | 
+sa+phena+mÃlÃ+nÅla+ambur* |yamunÃ*iva sarid+varÃ ||12.110|
+sÃ (ÓrÃddha+Ãvardhita+CÓraddhÃ+vardhita+)prÅtir* |vikasal+locana+utpalÃ |
+ÓirasÃ praïipatya*enaæ* |grÃhayÃm Ãsa pÃyasam ||12.111|
+k­tvÃ tad+upabhogena |prÃpta+janma+phalÃæ* sa* tÃm | 
+bodhi+prÃptau sam+artho* *abhÆt |saætarpita+«a¬+indriya÷ ||12.112|
+paryÃpta+ÃpyÃna+(mÆrtiÓ* CmÆrtaÓ* )ca |(sa+arthaæ* sva+Csa+ardhaæ* su+)yaÓasÃ muni÷ |
+kÃnti+(dhairye babhÃra*eka÷ |ÓaÓa+aÇka+arïavayor* dvayo÷ Cdhairya+eka+bhÃra+eka÷ |ÓaÓa+aÇka+arïavaval* babhau )||12.113|
+Ãv­tta* iti vij¤Ãya |taæ* jahu÷ (pa¤ca bhik«ava÷ Cpa¤ca+bhik«ava÷ )|
+manÅ«iïam iva*ÃtmÃnaæ* |nirmuktaæ* (pa¤ca dhÃtava÷ Cpa¤ca+dhÃtava÷ )||12.114|
+vyavasÃya+dvitÅyo* *atha |ÓÃdvalÃs* tÅrïa+bhÆ+talam | 
+so* *aÓvattha+mÆlaæ* prayayau |bodhÃya k­ta+niÓcaya÷ ||12.115|
+tatas* tadÃnÅæ* gaja+rÃja+vikrama÷ | 
+pada+svanena*an+upamena bodhita÷ | 
+mahÃ+muner* Ãgata+bodhi+niÓcayo* | 
+jagÃda kÃlo* bhuja+ga+uttama÷ stutim ||12.116|
+yathÃ mune tvac+caraïa+avapÅ¬itÃ | 
+muhur* muhur* ni«Âanati*iva medinÅ | 
+yathÃ ca te rÃjati sÆryavat prabhÃ | 
+dhruvaæ* tvam i«Âaæ* phalam adya bhok«yase ||12.117|
+yathÃ bhramantyo* divi (cÃ«a+CvÃya+)paÇktaya÷ |
+pra+dak«iïaæ* tvÃæ* kamala+ak«a kurvate |
+yathÃ ca saumyÃ* divi vÃnti vÃyavas* | 
+tvam adya buddho* niyataæ* bhavi«yasi ||12.118|
+tato* bhujaæ+ga+pravareïa saæstutas* | 
+t­ïÃny* upÃdÃya ÓucÅni lÃvakÃt | 
+k­ta+pratij¤o* ni«asÃda bodhaye |
+mahÃ+taror* mÆlam upÃÓrita÷ Óuce÷ ||12.119|
+tata÷ sa* pary+aÇkam a+kampyam uttamaæ* | 
+babandha supta+ura+ga+bhoga+piï¬itam | 
+bhinadmi tÃvad* bhuvi na*etad* Ãsanaæ* | 
+na yÃmi yÃvat k­ta+k­tyatÃm iti ||12.120|
+tato* yayur* mudam a+tulÃæ* diva+okaso* | 
+(vavÃÓire CvavÃsire )na m­ga+(gaïÃ÷ CgaïÃ* [Wrong sandhi in ed. EJH.])na pak«iïa÷ |
+na sasvanur* vana+taravo* *anila+ÃhatÃ÷ | 
+k­ta+Ãsane bhagavati (niÓcita+Ãtmani CniÓ+cala+Ãtmani )||12.121|
+[[iti (CÓrÅ+C)buddha+carite mahÃ+kÃvye (C*aÓva+gho«a+k­te C)*arÃ¬a+darÓano* nÃma dvÃ+daÓa÷ sarga÷ |12|]]
+tasmin vimok«Ãya k­ta+pratij¤e | 
+rÃja+­«i+vaæÓa+prabhave mahÃ+­«au | 
+tatra*upavi«Âe prajahar«a lokas* | 
+tatrÃsa sad+dharma+ripus* tu mÃra÷ ||13.1|
+yaæ* kÃma+devaæ* pravadanti loke | 
+citra+Ãyudhaæ* pu«pa+Óaraæ* tathÃ*eva | 
+kÃma+pracÃra+adhi+patiæ* tam eva | 
+mok«a+dvi«aæ* mÃram udÃharanti ||13.2|
+tasya+Ãtma+jÃ* vibhrama+har«a+darpÃs* | 
+tisro* (*a+rati+Crati+)prÅti+t­«aÓ* ca kanyÃ÷ |
+papracchur* enaæ* manaso* vikÃraæ* | 
+sa* tÃæÓ* ca tÃÓ* ca*eva vaco* (*abhyuvÃca CbabhÃ«e )||13.3|
+asau munir* niÓcaya+varma bibhrat | 
+sattva+Ãyudhaæ* buddhi+Óaraæ* vik­«ya | 
+jigÅ«ur* Ãste vi«ayÃn madÅyÃn | 
+tasmÃd* ayaæ* me manaso* vi«Ãda÷ ||13.4|
+yadi hy* asau mÃm abhibhÆya yÃti | 
+lokÃya ca*ÃkhyÃty* apavarga+mÃrgam | 
+ÓÆnyas* tato* *ayaæ* vi«ayo* mama*adya | 
+v­ttÃc* cyutasya*iva videha+bhartu÷ ||13.5|
+tad* yÃvad* eva*e«a* na labdha+cak«ur* | 
+mad+go+care ti«Âhati yÃvad* eva |
+yÃsyÃmi tÃvad* vratam asya bhettuæ* | 
+setuæ* nadÅ+vega* (iva*ati+v­ddha÷ Civa*abhiv­ddha÷ )||13.6|
+tato* dhanu÷ pu«pamayaæ* g­hÅtvÃ | 
+(ÓarÃn jagan+moha+CÓarÃæs* tathÃ moha+)karÃæÓ* ca pa¤ca |
+so* *aÓva+ttha+mÆlaæ* sa+suto* *abhyagacchad* |
+a+svÃsthya+kÃrÅ manasa÷ prajÃnÃm ||13.7|
+atha praÓÃntaæ* munim Ãsana+sthaæ* | 
+pÃraæ* titÅr«uæ* bhava+sÃgarasya | 
+vi«ajya savyaæ* karam Ãyudha+agre | 
+(krÅ¬an CkrÅ¬a¤* )Óareïa*idam uvÃca mÃra÷ ||13.8|
+utti«Âha bho÷ k«atriya m­tyu+bhÅta | 
+(cara sva+dharmaæ* Cvarasva dharmaæ* )tyaja mok«a+dharmam |
+(bÃïaiÓ* CvÃïaiÓ* )ca (yaj¤aiÓ* ca C<xxx> )vinÅya (lokaæ* ClokÃn )|
+(lokÃt padaæ* ClokÃn parÃn )prÃpnuhi vÃsavasya ||13.9|
+panthÃ hi niryÃtum ayaæ* yaÓasyo* | 
+yo* vÃhita÷ pÆrvatamair* nara+indrai÷ | 
+jÃtasya rÃja+­«i+kule viÓÃle | 
+bhaik«Ãkam a+ÓlÃghyam idaæ* prapattum ||13.10|
+atha*adya na*utti«Âhasi (niÓcita+Ãtman CniÓcita+ÃtmÃ )|
+bhava sthiro* mÃ vimuca÷ pratij¤Ãm | 
+mayÃ*udyato* hy* e«a* Óara÷ sa* eva | 
+ya÷ (ÓÆrpake CsÆryake )mÅna+ripau vimukta÷ ||13.11|
+(sp­«Âa÷ Cp­«Âa÷ )sa* ca*anena kathaæ+cid* ai¬a÷ |
+somasya naptÃ*apy* abhavad* vi+citta÷ | 
+sa* ca*abhavac* (*chaæ+tanur* C*chÃætanur* )a+sva+tantra÷ | 
+k«Åïe yuge kiæ* (bata Cvata )dur+balo* *anya÷ ||13.12|
+tat k«ipram utti«Âha labhasva saæj¤Ãæ* | 
+(bÃïo* CvÃïo* )hy* ayaæ* ti«Âhati lelihÃna÷ |
+priyÃ+vidheye«u rati+priye«u | 
+yaæ* cakra+vÃke«v* (iva Capi )na*uts­jÃmi ||13.13|
+ity* evam ukto* *api yadÃ nir+Ãstho* | 
+na*eva*Ãsanaæ* ÓÃkya+munir* bibheda | 
+Óaraæ* tato* *asmai visasarja mÃra÷ | 
+kanyÃÓ* ca k­tvÃ purata÷ sutÃæÓ* ca ||13.14|
+tasmiæs* tu (bÃïe CvÃïe )*api sa* vipramukte |
+cakÃra na*ÃsthÃæ* na dh­teÓ* cacÃla | 
+d­«ÂvÃ tathÃ*enaæ* vi«asÃda mÃraÓ* | 
+cintÃ+parÅtaÓ* ca Óanair* jagÃda ||13.15|
+Óaila+indra+putrÅæ* prati yena viddho* | 
+devo* *api Óaæ+bhuÓ* calito* babhÆva | 
+na cintayaty* e«a* tam eva (bÃïaæ* CvÃïaæ* )|
+kiæ* syÃd* a+citto* na Óara÷ sa* e«a÷ ||13.16|
+tasmÃd* ayaæ* na*arhati pu«pa+(bÃïaæ* CvÃïaæ* )|
+na har«aïaæ* na*api rater* niyogam | 
+arhaty* ayaæ* bhÆta+gaïair* a+(saumyai÷ CÓe«ai÷ )|
+saætrÃsana+Ãtarjana+tÃ¬anÃni ||13.17|
+sasmÃra mÃraÓ* ca tata÷ sva+sainyaæ* | 
+(vighnaæ* Óame Cvidhvaæsanaæ* )ÓÃkya+muneÓ* cikÅr«an | 
+nÃnÃ+ÃÓrayÃÓ* ca*anucarÃ÷ parÅyu÷ | 
+(Óala+CÓara+)druma+prÃsa+gadÃ+asi+hastÃ÷ ||13.18|
+varÃha+mÅna+aÓva+khara+u«Âra+vaktrÃ* | 
+vyÃghra+­k«a+siæha+dvi+rada+ÃnanÃÓ* ca | 
+eka+Åk«aïÃ* na+eka+mukhÃs* tri+ÓÅr«Ã* | 
+lamba+udarÃÓ* ca*eva p­«a+udarÃÓ* ca ||13.19|
+(a+jÃnu+sakthÃ* CajÃsu saktÃ* )ghaÂa+jÃnavaÓ* ca |
+daæ«Âra+ÃyudhÃÓ* ca*eva nakha+ÃyudhÃÓ* ca | 
+(karaÇka+vaktrÃ* Ckabandhu+hastÃ* )bahu+mÆrtayaÓ* ca |
+bhagna+ardha+vaktrÃÓ* ca mahÃ+mukhÃÓ* ca ||13.20|
+(bhasma+aruïÃ* CtÃmra+aruïÃ* )lohita+(bindu+Cvindu+)citrÃ÷ |
+khaÂvÃ+aÇga+hastÃ* hari+dhÆmra+keÓÃ÷ |
+lamba+srajo* vÃraïa+lamba+karïÃÓ* | 
+carma+ambarÃÓ* ca*eva nir+ambarÃÓ* ca ||13.21|
+Óveta+ardha+vaktrÃ* harita+ardha+kÃyÃs* | 
+tÃmrÃÓ* ca dhÆmrÃ* harayo* *asitÃÓ* ca | 
+(vyÃla+uttara+ÃsaÇga+CvyÃ¬a+uttara+ÃsaÇga+)bhujÃs* tathÃ*eva |
+praghu«Âa+ghaïÂa+Ãkula+mekhalÃÓ* ca ||13.22|
+tÃla+pramÃïÃÓ* ca g­hÅta+ÓÆlÃ* | 
+daæ«Âra+ÃkarÃlÃÓ* ca ÓiÓu+pramÃïÃ÷ | 
+urabhra+vaktrÃÓ* ca vihaæ+(gama+Ãk«Ã* CgamÃÓ* ca )|
+mÃrjÃra+vaktrÃÓ* ca manu«ya+kÃyÃ÷ ||13.23|
+prakÅrïa+keÓÃ÷ Óikhino* *ardha+muï¬Ã* | 
+(rakta+ambarÃ* Crajjv+ambarÃ* )vyÃkula+ve«ÂanÃÓ* ca |
+prah­«Âa+vaktrÃ* bh­+kuÂÅ+mukhÃÓ* ca | 
+tejo+harÃÓ* ca*eva mano+harÃÓ* ca ||13.24|
+ke+cid* vrajanto* bh­Óam Ãvavalgur* | 
+anyo+anyam Ãpupluvire tathÃ*anye | 
+cikrÅ¬ur* ÃkÃÓa+gatÃÓ* ca ke+cit | 
+ke+cic* ca cerus* taru+mastake«u ||13.25|
+nanarta kaÓ+cid* bhramayaæs* tri+ÓÆlaæ* |
+kaÓ+(cid* vipusphÆrja Ccid* *dha pusphÆrja )gadÃæ* vikar«an |
+har«eïa kaÓ+cid* v­«avan* (nanarda Cnanarta )|
+kaÓ+cit prajajvÃla tanÆ+ruhebhya÷ ||13.26|
+evaæ+vidhÃ* bhÆta+gaïÃ÷ sam+antÃt | 
+tad* bodhi+mÆlaæ* parivÃrya tasthu÷ | 
+jigh­k«avaÓ* ca*eva jighÃæsavaÓ* ca | 
+bhartur* niyogaæ* paripÃlayanta÷ ||13.27|
+taæ* prek«ya mÃrasya ca pÆrva+rÃtre | 
+ÓÃkya+­«abhasya*eva ca yuddha+kÃlam | 
+na dyauÓ* cakÃÓe p­thivÅ cakampe | 
+prajajvaluÓ* ca*eva diÓa÷ sa+ÓabdÃ÷ ||13.28|
+(vi«vag* CviÓvag* )vavau vÃyur* udÅrïa+vegas* |
+tÃrÃ* na rejur* na babhau ÓaÓa+aÇka÷ | 
+tamaÓ* ca bhÆyo* (vitatÃna rÃtri÷ CvitatÃra rÃtre÷ )|
+sarve ca saæcuk«ubhire samudrÃ÷ ||13.29|
+mahÅ+bh­to* dharma+parÃÓ* ca nÃgÃ* | 
+mahÃ+muner* vighnam a+m­«yamÃïÃ÷ | 
+mÃraæ* prati krodha+viv­tta+netrÃ* | 
+ni÷ÓaÓvasuÓ* ca*eva jaj­mbhire ca ||13.30|
+Óuddha+adhivÃsÃ* vibudha+­«ayas* tu | 
+sad+dharma+siddhy+artham (abhiprav­ttÃ÷ Civa prav­ttÃ÷ )|
+mÃre *anukampÃæ* manasÃ pracakrur* | 
+vi+rÃga+bhÃvÃt tu na ro«am Åyu÷ ||13.31|
+tad* bodhi+mÆlaæ* samavek«ya kÅrïaæ* | 
+hiæsÃ+ÃtmanÃ mÃra+balena tena | 
+dharma+Ãtmabhir* loka+vimok«a+kÃmair* | 
+babhÆva hÃhÃ+k­tam (antarÅk«e CantarÅk«am )||13.32|
+(upaplavaæ* Cupaplutaæ* )dharma+(vidhes* Cvidas* )tu tasya |
+d­«ÂvÃ sthitaæ* mÃra+balaæ* mahÃ+­«i÷ | 
+na cuk«ubhe na*api yayau vikÃraæ* | 
+madhye gavÃæ* siæha* iva*upavi«Âa÷ ||13.33|
+mÃras* tato* bhÆta+camÆm udÅrïÃm | 
+Ãj¤ÃpayÃm Ãsa bhayÃya tasya | 
+svai÷ svai÷ prabhÃvair* atha sÃ*asya senÃ | 
+tad+dhairya+bhedÃya matiæ* cakÃra ||13.34|
+ke+cic* calan na+eka+vilambi+jihvÃs* | 
+(tÅk«ïa+agra+CtÅk«ïa+ugra+)daæ«ÂrÃ* hari+maï¬ala+ak«Ã÷ |
+vidÃrita+ÃsyÃ÷ sthira+ÓaÇku+karïÃ÷ | 
+saætrÃsayanta÷ kila nÃma tasthu÷ ||13.35|
+tebhya÷ sthitebhya÷ sa* tathÃ+vidhebhya÷ |
+rÆpeïa bhÃvena ca dÃruïebhya÷ | 
+na vivyathe na*udvivije mahÃ+­«i÷ | 
+(krÅ¬at+su+CkrÅ¬an su+)bÃlebhya* iva*uddhatebhya÷ ||13.36|
+kaÓ+cit tato* (ro«a+Craudra+)viv­tta+d­«Âis* |
+tasmai gadÃm udyamayÃæ* cakÃra | 
+tastambha bÃhu÷ sa+gadas* tato* *asya | 
+puraæ+darasya*iva purÃ sa+vajra÷ ||13.37|
+ke+cit samudyamya ÓilÃs* tarÆæÓ* ca | 
+vi«ehire na*eva munau vimoktum | 
+petu÷ sa+v­k«Ã÷ sa+ÓilÃs* tathÃ*eva | 
+vajra+avabhagnÃ* iva vindhya+pÃdÃ÷ ||13.38|
+kaiÓ+cit samutpatya nabho* vimuktÃ÷ | 
+ÓilÃÓ* ca v­k«ÃÓ* ca paraÓvadhÃÓ* ca |
+tasthur* nabhasy* eva na ca*avapetu÷ |
+saædhyÃ+abhra+pÃdÃ* iva na+eka+varïÃ÷ ||13.39|
+cik«epa tasya*upari dÅptam anya÷ | 
+ka¬aÇgaraæ* parvata+Ó­Çga+mÃtram | 
+yan* mukta+mÃtraæ* gagana+stham eva | 
+tasya*anubhÃvÃc* *chatadhÃ (paphÃla CbabhÆva )||13.40|
+kaÓ+cij* jalann* arka* iva*udita÷ khÃd* | 
+aÇgÃra+var«aæ* mahad* utsasarja | 
+cÆ­nÃni cÃmÅkara+kandarÃïÃæ* |
+kalpa+atyaye merur* iva pradÅpta÷ ||13.41|
+tad* bodhi+mÆle pravikÅryamÃïam | 
+aÇgÃra+var«aæ* tu sa+visphuliÇgam | 
+maitrÅ+vihÃrÃd* ­«i+sattamasya | 
+babhÆva rakta+utpala+(pattra+Cpatra+)var«a÷ ||13.42|
+ÓarÅra+citta+vyasana+Ãtapais* tair* | 
+evaæ+vidhais* taiÓ* ca nipÃtyamÃnai÷ | 
+na*eva*ÃsanÃc* *chaÃkya+muniÓ* cacÃla | 
+(sva+niÓcayaæ* Csvaæ* niÓcayaæ* )bandhum iva*upaguhya ||13.43|
+atha*a+pare (nirjigilur* Cnirjagalur* )mukhebhya÷ |
+sarpÃn vijÅrïebhya* iva drumebhya÷ | 
+te mantra+baddhÃ* iva tat+samÅpe | 
+na ÓaÓvasur* (na*utsas­pur* Cnal*utsas­jur* )na celu÷ ||13.44|
+bhÆtvÃ*a+pare vÃri+dharÃ* (b­hanta÷ Cv­hanta÷ )|
+sa+vidyuta÷ sa+aÓani+caï¬a+gho«Ã÷ | 
+tasmin drume tatyajur* aÓma+var«aæ* | 
+tat pu«.pa+var«aæ* ruciraæ* babhÆva ||13.45|
+cÃpe *atha (bÃïo* CvÃïo* )nihito* *a+pareïa |
+jajvÃla tatra*eva na ni«papÃta | 
+an+ÅÓvarasya*Ãtmani (dhÆyamÃno* CdhÆryamÃïo* )|
+dur+mar«aïasya*iva narasya manyu÷ ||13.46|
+pa¤ca*i«avo* *anyena tu vipramuktÃs* | 
+tasthur* (nabhasy* Cnayaty* )eva munau na petu÷ |
+saæsÃra+bhÅror* vi«aya+prav­ttau | 
+pa¤ca*indriyÃïi*iva parÅk«akasya ||13.47|
+jighÃæsayÃ*anya÷ prasasÃra ru«Âo* | 
+gadÃæ* g­hÅtvÃ*abhi+mukho* mahÃ+­«e÷ | 
+so* *a+prÃpta+(kÃmo* CkÃlo* )vi+vaÓa÷ papÃta |
+do«e«v* iva*an+artha+kare«u loka÷ ||13.48|
+strÅ megha+kÃlÅ tu kapÃla+hastÃ | 
+kartuæ* mahÃ+­«e÷ kila (citta+moham Cmoha+cittam )|
+babhrÃma tatra*a+niyataæ* na tasthau | 
+cala+Ãtmano* buddhir* iva*Ãgame«u ||13.49|
+kaÓ+cit pradÅptaæ* praïidhÃya cak«ur* | 
+netra+agninÃ*ÃÓÅ+vi«avad* didhak«u÷ |
+tatra*eva (na*ÃsÅnam Cna*asÅt taæ* )­«iæ* dadarÓa |
+kÃma+Ãtmaka÷ Óreya* iva*upadi«Âam ||13.50|
+gurvÅæ* ÓilÃm udyamayaæs* tathÃ*anya÷ | 
+ÓaÓrÃma moghaæ* vihata+prayatna÷ | 
+ni÷+Óreyasaæ* j¤Ãna+samÃdhi+gamyaæ* | 
+kÃya+klamair* dharmam iva*Ãptu+kÃma÷ ||13.51|
+tarak«u+siæha+Ãk­tayas* tathÃ*anye |
+praïedur* uccair* mahata÷ praïÃdÃn | 
+sattvÃni yai÷ saæcukucu÷ sam+antÃd* | 
+vajra+ÃhatÃ* dyau÷ phalati*iti matvÃ ||13.52|
+m­gÃ* gajÃÓ* (ca*Ãrta+Cca*Ãrtta+)ravÃn s­janto* |
+vidudruvuÓ* ca*eva nililyire ca | 
+rÃtrau ca tasyÃm ahani*iva digbhya÷ | 
+kha+gÃ* ruvanta÷ paripetur* (ÃrtÃ÷ CÃrttÃ÷ )||13.53|
+te«Ãæ* praïÃdais* tu tathÃ+vidhais* tai÷ | 
+sarve«u bhÆte«v* api kampite«u | 
+munir* na tatrÃsa na saæcukoca | 
+ravair* garutmÃn iva vÃyasÃnÃm ||13.54|
+bhaya+Ãvahebhya÷ pari«ad+gaïebhyo* | 
+yathÃ yathÃ na*eva munir* bibhÃya | 
+tathÃ tathÃ dharma+bh­tÃæ* sa+patna÷ | 
+ÓokÃc* ca ro«Ãc* ca (sasÃda CsasÃra )mÃra÷ ||13.55|
+bhÆtaæ* tata÷ kiæ+cid* a+d­Óya+rÆpaæ* | 
+viÓi«Âa+(bhÆtaæ* CrÆpaæ* )gagana+stham eva |
+d­«ÂvÃ*­«aye drugdham a+vaira+ru«Âaæ* | 
+mÃraæ* babhÃ«e mahatÃ svareïa ||13.56|
+moghaæ* Óramaæ* na*arhasi mÃra kartuæ* |
+hiæsrÃ+ÃtmatÃm uts­ja gaccha Óarma | 
+na*e«a* tvayÃ kampayituæ* hi Óakyo* | 
+mahÃ+girir* merur* iva*anilena ||13.57|
+apy* u«ïa+bhÃvaæ* jvalana÷ prajahyÃd* | 
+Ãpo* dravatvaæ* p­thivÅ sthiratvam | 
+an+eka+kalpa+Ãcita+puïya+karmÃ | 
+na tv* eva jahyÃd* vyavasÃyam e«a÷ ||13.58|
+yo* niÓcayo* hy* asya parÃkramaÓ* ca | 
+tejaÓ* ca yad* yÃ ca dayÃ prajÃsu | 
+a+prÃpya na*utthÃsyati tattvam e«a* | 
+tamÃæsy* a+hatvÃ*iva sahasra+raÓmi÷ ||13.59|
+kÃ«Âhaæ* hi mathnan labhate huta+ÃÓaæ* |
+bhÆmiæ* khanan vindati ca*api toyam | 
+nirbandhina÷ kiæ+(cana na*asty* a+sÃdhyaæ* Cca na na*asya sÃdhyaæ* )|
+nyÃyena yuktaæ* ca k­taæ* ca sarvam ||13.60|
+tal* lokam (Ãrtaæ* CÃrttaæ* )karuïÃyamÃno* |
+roge«u rÃga+Ãdi«u vartamÃnam | 
+mahÃ+(bhi«aÇ* Cbhi«ag* )na*arhati vighnam e«a* |
+j¤Ãna+au«adha+arthaæ* parikhidyamÃna÷ ||13.61|
+h­te ca loke bahubhi÷ ku+mÃrgai÷ | 
+san+mÃrgam anvicchati ya÷ Órameïa | 
+sa* daiÓika÷ k«obhayituæ* na yuktaæ* | 
+su+deÓika÷ sÃrthae* iva prana«Âe ||13.62|
+sattve«u na«Âe«u mahÃ+andha+(kÃre CkÃrair* )|
+j¤Ãna+pradÅpa÷ kriyamÃïa* e«a÷ | 
+Ãryasya nirvÃpayituæ* na sÃdhu | 
+prajvÃlyamÃnas* tamasi*iva dÅpa÷ ||13.63|
+d­«ÂvÃ ca saæsÃramaye mahÃ+oghe | 
+magnaæ* jagat pÃram a+vindamÃnam | 
+yaÓ* ca*idam uttÃrayituæ* prav­tta÷ | 
+(kaÓ* cintayet CkaÓ+cin* nayet )tasya tu pÃpam Ãrya÷ ||13.64|
+k«amÃ+Óipho* dhairya+vigÃ¬ha+mÆlaÓ* |
+cÃritra+pu«pa÷ sm­ti+buddhi+ÓÃkha÷ | 
+j¤Ãna+drumo* dharma+phala+pradÃtÃ | 
+na*utpÃÂanaæ* hy* arhati vardhamÃna÷ ||13.65|
+baddhÃæ* d­¬haiÓ* cetasi moha+pÃÓair* | 
+yasya prajÃæ* mok«ayituæ* manÅ«Ã | 
+tasmin jighÃæsÃ tava na*upapannÃ | 
+ÓrÃnte jagad+bandhana+mok«a+heto÷ ||13.66|
+bodhÃya karmÃïi hi yÃny* anena | 
+k­tÃni te«Ãæ* niyato* *adya kÃla÷ | 
+sthÃne tathÃ*asminn* upavi«Âa* e«a* |
+yathÃ*eva pÆrve munayas* tathÃ*eva ||13.67|
+e«Ã hi nÃbhir* vasu+dhÃ+talasya | 
+k­tsnena yuktÃ parameïa dhÃmnÃ | 
+bhÆmer* ato* *anyo* *asti hi na pradeÓo* | 
+(vegaæ* CveÓaæ* )samÃdher* (vi«aheta yo* *asya Cvi«ayo* hitasya )||13.68|
+tan* mÃ k­thÃ÷ Óokam upehi ÓÃntiæ* | 
+mÃ bhÆn* mahimnÃ tava mÃra mÃna÷ | 
+viÓrambhituæ* na k«amam a+dhruvÃ ÓrÅÓ* |
+cale pade (vismayam Ckiæ* padam )abhyupai«i ||13.69|
+tata÷ sa* saæÓrutya ca tasya tad* vaco* | 
+mahÃ+mune÷ prek«ya ca ni«+prakampatÃm |
+jagÃma mÃro* vi+(mano* CmanÃ* )hata+udyama÷ |
+Óarair* jagac+cetasi yair* (vihanyate Cvihanyase )||13.70|
+gata+prahar«Ã vi+phalÅ+k­ta+ÓramÃ | 
+praviddha+pÃ«Ãïa+ka¬aÇgara+drumÃ | 
+diÓa÷ pradudrÃva tato* *asya sÃ camÆr* | 
+hata+ÃÓrayÃ*iva dvi«atÃ dvi«ac+camÆ÷ ||13.71|
+dravati sa+(paripak«e Cpara+pak«e )nirjite pu«pa+ketau |
+jayati jita+tamaske nÅrajaske mahÃ+­«au | 
+yuvatir* iva sa+hÃsÃ dyauÓ* cakÃÓe sa+candrÃ | 
+su+rabhi ca jala+garbhaæ* pu«pa+var«aæ* papÃta ||13.72|
+X(CtathÃ*api pÃpÅyasi nirjite gate |
+XdiÓa÷ prasedu÷ prababhau niÓÃ+kara÷ |
+Xdivo* nipetur* bhuvi pu«pa+v­«Âayo* |
+XrarÃja yo«Ã*iva vi+kalma«Ã niÓÃ | C)
+[[iti (CÓrÅ+C)buddha+carite mahÃ+kÃvye *aÓva+gho«a+k­te mÃra+vijayo* nÃma trayo+daÓa÷ sarga÷ |13|]]
+tato* mÃra+balaæ* jitvÃ |dhairyeïa ca Óamena ca | 
+parama+arthaæ* vijij¤Ãsu÷ |sa* dadhyau dhyÃna+kovida÷ ||14.1|
+sarve«u dhyÃna+vidhi«u |prÃpya ca*aiÓvaryam uttamam |
+sasmÃra prathame yÃme |pÆrva+janma+paraæparÃm ||14.2|
+amutra*aham ayaæ* nÃma |cyutas* tasmÃd* iha*Ãgata÷ | 
+iti janma+sahasrÃïi |sasmÃra*anubhavann* iva ||14.3|
+sm­tvÃ janma ca m­tyuæ* ca |tÃsu tÃsu*upapatti«u | 
+tata÷ sattve«u kÃruïyaæ* |cakÃra karuïa+Ãtmaka÷ ||14.4|
+k­tvÃ*iha sva+jana+utsargaæ* |punar* anyatra ca kriyÃ÷ | 
+a+trÃïa÷ khalu loko* *ayaæ* |paribhramati cakravat ||14.5|
+ity* evaæ* smaratas* tasya |babhÆva niyata+Ãtmana÷ | 
+kadalÅ+garbha+ni÷+sÃra÷ |saæsÃra* iti niÓcaya÷ ||14.6|
+dvitÅye tv* Ãgate yÃme |so* *a+dvitÅya+parÃkrama÷ | 
+divyaæ* (lebhe Ccak«u÷ )paraæ* (cak«u÷ Clebhe )|sarva+cak«u«matÃæ* vara÷ ||14.7|
+tatas* tena sa* divyena |pariÓuddhena cak«u«Ã | 
+dadarÓa nikhilaæ* lokam |ÃdarÓae* iva nir+male ||14.8|
+sattvÃnÃæ* paÓyatas* tasya |nik­«Âa+utk­«Âa+karmaïÃm | 
+pracyutiæ* ca*upapattiæ* ca |vav­dhe karuïa+ÃtmatÃ ||14.9|
+ime du«+k­ta+karmÃïa÷ |prÃïino* yÃnti dur+gatim | 
+ime *anye Óubha+karmÃïa÷ |prati«Âhante tri+pi«Âape ||14.10|
+upapannÃ÷ pratibhaye |narake bh­Óa+dÃruïe | 
+amÅ du÷khair* bahu+vidhai÷ |pÅ¬yante k­païaæ* (bata Cvata )||14.11|
+pÃyyante kvathitaæ* ke+cid* |agni+varïam ayo+rasam | 
+Ãropyante ruvanto* *anye |ni«Âapta+stambham Ãyasam ||14.12|
+pacyante pi«Âavat ke+cid* |ayas+kumbhÅ«v* avÃÇ+mukhÃ÷ | 
+dahyante karuïaæ* ke+cid* |dÅpte«v* aÇgÃra+rÃÓi«u ||14.13|
+ke+cit tÅk«ïair* ayo+daæ«Ârair* |bhak«yante dÃruïai÷ Óvabhi÷ | 
+ke+cid* dh­«Âair* ayas+tuï¬air* |vÃyasair* Ãyasair* iva ||14.14|
+ke+cid* dÃha+pariÓrÃntÃ÷ |ÓÅta+cchÃyÃ+abhikÃÇk«iïa÷ | 
+asi+(pattra+vanaæ* Cpatraæ* vanaæ* )nÅlaæ* |baddhÃ* iva viÓanty* amÅ ||14.15|
+pÃÂyante dÃruvat ke+cit |kuÂhÃrair* (baddha+Cbahu+)bÃhava÷ |
+du÷khe *api na (vipacyante Cvipadyante )|karmabhir* dhÃrita+asava÷ ||14.16|
+sukhaæ* syÃd* iti yat karma |k­taæ* du÷kha+niv­ttaye | 
+phalaæ* tasya*idam a+vaÓair* |du÷kham eva*upabhujyate ||14.17|
+sukha+artham a+Óubhaæ* k­tvÃ |yae* ete bh­Óa+du÷khitÃ÷ | 
+ÃsvÃda÷ sa* kim ete«Ãæ* |karoti sukham aïv* api ||14.18|
+hasadbhir* yat k­taæ* karma |kalu«aæ* kalu«a+Ãtmabhi÷ | 
+etat pariïate kÃle |kroÓadbhir* anubhÆyate ||14.19|
+yady* (evaæ* Ceva )pÃpa+karmÃïa÷ |paÓyeyu÷ karmaïÃæ* phalam |
+vameyur* (u«ïaæ* rudhiraæ* Cu«ïa+rudhiraæ* )|marmasv* abhihatÃ* iva ||14.20|
+X(CÓÃrÅrebhyo* *api du÷khebhyo* |nÃrakebhyo* manasvina÷ |
+Xan+Ãryai÷ saha saævÃso* |mama k­cchramatamo* mata÷ [Printed as spurious verse in a footnote in ed. EHJ.] | C)
+ime *anye karmabhiÓ* citraiÓ* |citta+vispanda+saæbhavai÷ | 
+tiryag+yonau vicitrÃyÃm |upapannÃs* tapasvina÷ ||14.21|
+mÃæsa+tvag+bÃla+danta+arthaæ* |vairÃd* api madÃd* api | 
+hanyante (k­païaæ* Ck­païÃ* )yatra |bandhÆnÃæ* paÓyatÃm api ||14.22|
+a+Óaknuvanto* *apy* a+vaÓÃ÷ |k«ut+tar«a+Órama+pÅ¬itÃ÷ | 
+go+aÓva+bhÆtÃÓ* ca vÃhyante |pratoda+k«ata+mÆrtaya÷ ||14.23|
+vÃhyante gaja+bhÆtÃÓ* ca |balÅyÃæso* *api dur+balai÷ | 
+aÇkuÓa+kli«Âa+mÆrdhÃnas* |tÃ¬itÃ÷ pÃda+pÃr«ïibhi÷ ||14.24|
+satsv* apy* anye«u du÷khe«u |du÷khaæ* yatra viÓe«ata÷ | 
+paras+para+virodhÃc* ca |parÃdhÅnatayÃ*eva ca ||14.25|
+kha+sthÃ÷ kha+sthair* hi bÃdhyante |jala+sthÃ* jala+cÃribhi÷ | 
+sthala+sthÃ÷ sthala+saæsthaiÓ* (ca |prÃpya ca*eva*itara+itarai÷ Ctu |prÃpyante ca*itara+itarai÷ )||14.26|
+upapannÃs* tathÃ ca*ime |mÃtsarya+ÃkrÃnta+cetasa÷ | 
+pit­+loke nir+Ãloke |k­païaæ* bhu¤jate phalam ||14.27|
+sÆcÅ+chidra+upama+mukhÃ÷ |parvata+upama+kuk«aya÷ |
+k«ut+tar«a+janitair* du÷khai÷ |pÅ¬yante du÷kha+bhÃgina÷ ||14.28|
+ÃÓayÃ (samatikrÃntÃ* CsamabhikrÃntÃ* )|dhÃryamÃïÃ÷ sva+karmabhi÷ |
+labhante na hy* amÅ bhoktuæ* |praviddhÃny* a+ÓucÅny* api [This verse is placed after 14.30 in ed. C.] ||14.29|
+puru«o* yadi jÃnÅta |mÃtsaryasya*Å+d­Óaæ* phalam | 
+sarvathÃ (Óibivad* CÓivivad* )dadyÃc* |*charÅra+avayavÃn api ||14.30|
+ime *anye (naraka+prakhye Cnarakaæ* prÃpya )|garbha+saæj¤e *a+Óuci+hrade |
+upapannÃ* manu«ye«u |du÷kham archanti jantava÷ ||14.31|
+<xxxxxx> [Ed. C continues with chapter 14 till 14.91, and chapters 15--17.]
