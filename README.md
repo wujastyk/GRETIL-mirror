@@ -4,4 +4,5 @@ A snapshot of [GRETIL](http://gretil.sub.uni-goettingen.de/), the Göttingen Reg
 
 Placed here in Github for stability, traceability and archival security.
 
-GRETIL's zip files have been excluded from this mirror.
+GRETIL's zip files have been excluded from this mirror.  
+GRETIL's CSX- and REE- encoded files have been excluded from this mirror.  All files here are Unicode.
