@@ -6,3 +6,10 @@ Placed here in Github for stability, traceability and archival security.
 
 GRETIL's zip files have been excluded from this mirror.  
 GRETIL's CSX- and REE- encoded files have been excluded from this mirror.  All files here are Unicode.
+
+
+
+The bash script used to gather the files for this Github archive is:
+`#!/bin/bash -x`
+`#re-fetch all the Unicode files`
+`wget -r -A "*u.htm" http://gretil.sub.uni-goettingen.de/`
