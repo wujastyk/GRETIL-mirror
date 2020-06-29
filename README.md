@@ -13,5 +13,5 @@ The bash script used to gather the files for this Github archive is:
 ```
 #!/bin/bash -x
 # re-fetch all the Unicode files
-wget -np -r  -A "*htm, *xml" http://gretil.sub.uni-goettingen.de/
+wget -np -r  ‐‐continue ‐‐timestamping -l7 -A "*xml","*htm","*xdxf" http://gretil.sub.uni-goettingen.de/
 ```
