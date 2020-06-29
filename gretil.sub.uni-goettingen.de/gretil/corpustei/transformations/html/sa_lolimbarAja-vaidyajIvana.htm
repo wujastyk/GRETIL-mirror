@@ -1,0 +1,1233 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Lolimbarāja: Vaidyajīvana (GRETIL)
+	</title><style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style></head>
+   <body>
+      <h1>Lolimbarāja: Vaidyajīvana</h1>
+      <div id="toc_container">
+         <p class="toc_title">Contents of
+            VaiJiv
+         </p>
+         <ul class="toc_list">
+            <li><a href="#d1e738">vilāsa 1</a></li>
+            <li><a href="#d1e1698">vilāsa 2</a></li>
+            <li><a href="#d1e2080">vilāsa 3</a></li>
+            <li><a href="#d1e2613">vilāsa 4</a></li>
+            <li><a href="#d1e3221">vilāsa 5</a></li>
+         </ul>
+      </div>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_lolimbarAja-vaidyajIvana.xml">sa_lolimbarAja-vaidyajIvana.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         
+      </p>
+      <p class="noindent"><b>Data entry: </b>Jürgen Hanneder and Thomas Schäfer
+      </p>
+      <p class="noindent"><b>Contribution: </b>Jürgen Hanneder
+      </p>
+      <p class="noindent"><b>Date of this version: </b>2019-05-23
+      </p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	
+      </h4>
+      <ul class="dash">
+         <li id="Hanneder2018">Jürgen Hanneder and Thomas Schäfer (eds.): Āyurveda und Poesie. Lolimbarājas Lehrgedicht »Leben des Arztes«. Marburg 2018.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen
+      </p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	  If anyone wishes to assert copyright over this file, please contact the GRETIL
+         management at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	  The file will be immediately removed pending resolution of the claim.
+      </p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none
+      </p>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         <div id="d1e738">
+            	
+            <h3>prathamo vilāsaḥ</h3>
+            	
+            <p id="VaiJiv_1.1">
+               	  prakṛtisubhagagātraṃ prītipātraṃ ramāyā <br />diśatu kim api dhāma śyāmalaṃ maṅgalaṃ vaḥ /<br />
+               	  aruṇakamalalīlāṃ yasya pādau dadhāte <br />praṇataharajaṭālīgāṅgariṅgattaraṅge //
+               	 <span class="ref">VaiJiv_1.1</span></p>
+            	
+            <p id="VaiJiv_1.2">
+               	  ratnaṃ vāmadṛśāṃ dṛśāṃ sukhakaraṃ śrīsaptaśṛṅgāspadaṃ <br />spaṣṭāṣṭādaśabāhu tad bhagavato bhargasya bhājyaṃ bhaje /<br />
+               	  yadbhaktena mayā ghaṭastani ghaṭīmadhye samutpādyate <br />padyānāṃ śatam aṅganādharasudhāspardhāvidhānoddhuram //
+               	 <span class="ref">VaiJiv_1.2</span></p>
+            	
+            <p id="VaiJiv_1.3">
+               	  divākaraprasādena rogyārogyasamīhayā /<br />
+               	  samāsena vayaṃ kurmaḥ kāvyaṃ sad vaidyajīvanam //
+               	 <span class="ref">VaiJiv_1.3</span></p>
+            	
+            <p id="VaiJiv_1.4">
+               	  tathāpi kriyate granthaḥ santi yady api durjanāḥ /<br />
+               	  na hi dasyubhayāl loko dainyavān iva vartate //
+               	 <span class="ref">VaiJiv_1.4</span></p>
+            	
+            <p id="VaiJiv_1.5">
+               	  yeṣāṃ na ceto lalanāsu lagnaṃ <br />magnaṃ na sāhityasudhāsamudre /<br />
+               	  jñāsyanti te kiṃ mama ha prayāsān <br />andhā yathā vāravadhūvilāsān //
+               	 <span class="ref">VaiJiv_1.5</span></p>
+            	
+            <p id="VaiJiv_1.6">
+               	  gadagañjanāya caturaiś carakādyair <br />munibhir nṛṇāṃ karuṇayā kathitaṃ yat /<br />
+               	  akhilaṃ likhāmi khalu tasya rahasyaṃ <br />svakapolakalpitam ihāsti na kiñcit //
+               	 <span class="ref">VaiJiv_1.6</span></p>
+            	
+            <p id="VaiJiv_1.7">
+               	  guror adhītākhilavaidyavidyaḥ <br />pīyūṣapāṇiḥ kuśalaḥ kriyāsu /<br />
+               	  gataspṛho dhairyadharaḥ kṛpāluḥ <br />śuddho 'dhikārī bhiṣag īdṛśaḥ syāt //
+               	 <span class="ref">VaiJiv_1.7</span></p>
+            	
+            <p id="VaiJiv_1.8">
+               	  ādau nidānavidhinā vidadhyād vyādhiniścayam /<br />
+               	  tataḥ sādhyaṃ samīkṣeta paścād bhiṣag upācaret //
+               	 <span class="ref">VaiJiv_1.8</span></p>
+            	
+            <p id="VaiJiv_1.9">
+               	  auṣadhaṃ mūḍhavaidyānāṃ tyajantu jvarapīḍitāḥ /<br />
+               	  parasaṃsargasaṃsaktakalatram iva sādhavaḥ //
+               	 <span class="ref">VaiJiv_1.9</span></p>
+            	
+            <p id="VaiJiv_1.10">
+               	  pathye sati gadārtasya kim auṣadhaniṣevaṇam /<br />
+               	  pathye 'sati gadārtasya kim auṣadhaniṣevaṇam //
+               	 <span class="ref">VaiJiv_1.10</span></p>
+            	
+            <p id="VaiJiv_1.11">
+               	  mahīndramahilātrapāpradapadāravinde tathā <br />payonidhipayastatī jaladharair upāttā yathā /<br />
+               	  api prakṛtinīrasā nṛpabhiṣagbhir aṅgīkṛtā <br />bhaviṣyati sarasvatī rasavatī murāsāpateḥ //
+               	 <span class="ref">VaiJiv_1.11</span></p>
+            	
+            <p id="VaiJiv_1.12">
+               	  iha gamiṣyati vaidyamatiḥ śramaṃ <br />prathamam eva punas tu mahāsukham /<br />
+               	  priyatamasya mṛgākṣi samāgame <br />navakaragrahaṇā gṛhiṇī yathā //
+               	 <span class="ref">VaiJiv_1.12</span></p>
+            	
+            <p id="VaiJiv_1.13">
+               	  yataḥ sarveṣu rogeṣu prāyaśo balavān jvaraḥ /<br />
+               	  atas tasya pratīkāraṃ prathamaṃ kurmahe vayam //
+               	 <span class="ref">VaiJiv_1.13</span></p>
+            	
+            <p id="VaiJiv_1.14">
+               	  devadārudhanāviśvabṛhatīdvayapācanam /<br />
+               	  jvare pūrvaṃ pibec cāru payodharadharādhare //
+               	 <span class="ref">VaiJiv_1.14</span></p>
+            	
+            <p id="VaiJiv_1.15">
+               	  chinnauṣadhāmbhodharadhanvayāsaiḥ <br />kirātatiktāmbudareṇuyāsaiḥ /<br />
+               	  viśvāvṛṣāmbhodharadhanvayāsaiḥ <br />kvātho marutpittakaphajvareṣu //
+               	 <span class="ref">VaiJiv_1.15</span></p>
+            	
+            <p id="VaiJiv_1.16">
+               	  uśīrakalaśīmahauṣadhakirātakāmbhodhara-<br />sthirābṛhatikādvayāmṛtalatātrikaṇṭaiḥ kṛtam /<br />
+               	  kaṣāyakam amuṃ pibet pavanajajvaravyākulaḥ <br />pumān daśaśatacchadacchadamadagrasallocane //
+               	 <span class="ref">VaiJiv_1.16</span></p>
+            	
+            <p id="VaiJiv_1.17">
+               	  pīyūṣalokapāñcālīcaraṇānāṃ kaṣāyakam /<br />
+               	  pīyamānaḥ priye hanti hanumajjanakajvaram //
+               	 <span class="ref">VaiJiv_1.17</span></p>
+            	
+            <p id="VaiJiv_1.18">
+               	  chinnodbhavāparpaṭavārivāha-<br />bhūnimbaśuṇṭhījanitaḥ kaṣāyaḥ /<br />
+               	  samīrapittajvarajarjarāṇāṃ <br />karoti bhadraṃ khalu pañcabhadraḥ //
+               	 <span class="ref">VaiJiv_1.18</span></p>
+            	
+            <p id="VaiJiv_1.19">
+               	  eka eva khalu pittakajvaraṃ <br />hanti parpaṭakṛtaḥ kaṣāyakaḥ /<br />
+               	  candanodakamahauṣadhānvitaś <br />cet tadā kim u punar vicāraṇā //
+               	 <span class="ref">VaiJiv_1.19</span></p>
+            	
+            <p id="VaiJiv_1.20">
+               	  drākṣāparpaṭarājavṛkṣakaṭukāmustābhayānāṃ jalaṃ <br />mūrcchāśoṣanidāghatṛṭpralapanabhrāntyādipittajvare /<br />
+               	  duḥsparśapramadākirātakaṭukāsiṃhāsyareṇūdbhavaḥ <br />kvāthaḥ śarkarayānvito harati tṛḍdāhāsrapittajvarān //
+               	 <span class="ref">VaiJiv_1.20</span></p>
+            	
+            <p id="VaiJiv_1.21">
+               	  aho kimarthaṃ bahavaḥ kaṣāyāḥ <br />parāśarādyair munibhir pradiṣṭāḥ /<br />
+               	  chinnāśivāparpaṭatoyapānāt <br />pittajvaraḥ kiṃ na sarīsarīti //
+               	 <span class="ref">VaiJiv_1.21</span></p>
+            	
+            <p id="VaiJiv_1.22">
+               	  jalajalajapayodareṇuviśvau-<br />ṣadhaśiśiraiḥ sahitaṃ ṣaḍaṅgam etat /<br />
+               	  sapadi sukhakaraṃ sadā sadāha-<br />jvaratṛṣi yojyam idaṃ navajvare 'pi //
+               	 <span class="ref">VaiJiv_1.22</span></p>
+            	
+            <p id="VaiJiv_1.23">
+               	  lohitacandanapadmakadhānya-<br />chinnaruhāpicumandakaṣāyaḥ /<br />
+               	  pittakaphajvaradāhapipāsā-<br />vāntivināśahutāśaharaḥ syāt //
+               	 <span class="ref">VaiJiv_1.23</span></p>
+            	
+            <p id="VaiJiv_1.24">
+               	  sahasradhautena ghṛtena kartur <br />abhyaṅgam oṣaḥ kṛśatāṃ bibharti /<br />
+               	  anyāṅganāsaṃgamalālasasya <br />svīyeṣu dāreṣu yathābhilāṣaḥ //
+               	 <span class="ref">VaiJiv_1.24</span></p>
+            	
+            <p id="VaiJiv_1.25">
+               	  tṛḍdāhamohāḥ praśamaṃ prayānti <br />nimbapravālotthitaphenalepāt /<br />
+               	  yathā narāṇāṃ dhanināṃ dhanāni <br />samāgamād vāravilāsinīnām //
+               	 <span class="ref">VaiJiv_1.25</span></p>
+            	
+            <p id="VaiJiv_1.26">
+               	  amalaiḥ kamalair athānilair <br />alasaiḥ puṣparasaiḥ samanvitaiḥ /<br />
+               	  jalakelikathākutūhalair <br />api pittajvarajā rujo jayet //
+               	 <span class="ref">VaiJiv_1.26</span></p>
+            	
+            <p id="VaiJiv_1.27">
+               	  śrīkhaṇḍamaṇḍitakalevaravallarīṇāṃ <br />muktāphalākulaviśālakucasthalīnām /<br />
+               	  vaidagdhyamugdhavacasāṃ suvilāsinīnām <br />āliṅganaṃ sakaladāham apākaroti //
+               	 <span class="ref">VaiJiv_1.27</span></p>
+            	
+            <p id="VaiJiv_1.28">
+               	  śayyā pallavapadmapattraracitā vāso vayasyaiḥ samaṃ <br />kāntāre kusumasphurattaruvare gānaṃ vipañcīyutam /<br />
+               	  ālāpāś ca śukālikokilakṛtāḥ kāntāś ca kāntāḥ kathāḥ <br />vātāś cāmalavālakavyajanajā dāhaṃ nirākurvate //
+               	 <span class="ref">VaiJiv_1.28</span></p>
+            	
+            <p id="VaiJiv_1.29">
+               	  ayi nitambini gāyanalālase <br />madhuravāṇi nikāmamadālase /<br />
+               	  vapuṣi dāhayute vihitaṃ himaṃ <br />himahimāṃśujalair anulepanam //
+               	 <span class="ref">VaiJiv_1.29</span></p>
+            	
+            <p id="VaiJiv_1.30">
+               	  śubhrābhravibhramadhare śaśāṅkakarasundare /<br />
+               	  candanaiś carcite harmye svāpas tāpam apohati //
+               	 <span class="ref">VaiJiv_1.30</span></p>
+            	
+            <p id="VaiJiv_1.31">
+               	  prāṇapreyasi mā pibantu puruṣāḥ pittajvaravyākulāḥ <br />nānāvallijalaṃ vilambitaphalaṃ pāne viṣādapradam /<br />
+               	  tat taiḥ kiṃ kriyatāṃ cikitsakapate mugdhe sukhaṃ sevyatāṃ <br />sadyas tāpaharaḥ sudhādhikataraḥ kāntādharaḥ kevalam //
+               	 <span class="ref">VaiJiv_1.31</span></p>
+            	
+            <p id="VaiJiv_1.32">
+               	  kāntākaṭākṣadagdhānāṃ vada vaidya kim auṣadham /<br />
+               	  dṛḍham āliṅganaṃ pathyaṃ kvathaś cādharacumbanam //
+               	 <span class="ref">VaiJiv_1.32</span></p>
+            	
+            <p id="VaiJiv_1.33">
+               	  pittajvare kiṃ rasaphāṇṭalepaiḥ <br />kiṃ vā kaṣāyair amṛtena vā kim /<br />
+               	  peyaṃ priyāyā mukham ekam eva <br />lolimbarājena sadānubhūtam //
+               	 <span class="ref">VaiJiv_1.33</span></p>
+            	
+            <p id="VaiJiv_1.34">
+               	  prātaḥ paryuṣitaṃ dhānyasalilaṃ sitayā yutam /<br />
+               	  antardāhaṃ haret pītaṃ duḥkhaṃ durgārcanaṃ yathā //
+               	 <span class="ref">VaiJiv_1.34</span></p>
+            	
+            <p id="VaiJiv_1.35">
+               	  pañcamūlyamṛtāmustāviśvabhūnimbasādhitaḥ /<br />
+               	  kaṣāyaḥ śamayaty āśu vāyumāyubhavaṃ jvaram //
+               	 <span class="ref">VaiJiv_1.35</span></p>
+            	
+            <p id="VaiJiv_1.36">
+               	  śṛṅgīkaṇākaṭphalapuṣkarāṇāṃ <br />kṣaudrānvitānāṃ vihito 'valehaḥ /<br />
+               	  śvāsena kāsena yutaṃ balāsa-<br />jvaraṃ jayed atra na kāpi śaṅkā //
+               	 <span class="ref">VaiJiv_1.36</span></p>
+            	
+            <p id="VaiJiv_1.37">
+               	  bhārṅgīguḍūcīghanadārusiṃhī-<br />śuṇṭhīkaṇāpuṣkarajaḥ kaṣāyaḥ /<br />
+               	  jvaraṃ nihanti śvasanaṃ kṣiṇoti <br />kṣudhāṃ karoti praruciṃ tanoti //
+               	 <span class="ref">VaiJiv_1.37</span></p>
+            	
+            <p id="VaiJiv_1.38">
+               	  mama dvayaṃ vismayam ātanoti <br />tiktākaṣāyo mukhatiktatāghnaḥ /<br />
+               	  nipīḍitorojasarojakośā <br />yoṣā pramodaṃ pracuraṃ prayāti //
+               	 <span class="ref">VaiJiv_1.38</span></p>
+            	
+            <p id="VaiJiv_1.39">
+               	  kvāthaḥ kaṭphalakaṭtṛṇābdadhanikāśṛṅgyugragandhābhayā-<br />bhārṅgīparpaṭaviśvadevatarujo bāhlīkamadhvanvitaḥ /<br />
+               	  kāsaśvāsamukhāmayajvarabalaśleṣmaprakopāpahaḥ <br />tadvat komalakaṇṭhi kaṇṭhajanitāṃ pīḍāṃ ca jahrīyate //
+               	 <span class="ref">VaiJiv_1.39</span></p>
+            	
+            <p id="VaiJiv_1.40">
+               	  aruciṃ dyati luṅgakesaraṃ <br />saghṛtaṃ saindhavacūrṇacarcitam /<br />
+               	  rucim amburuhasya tanvi te <br />nayanaṃ khañjanagañjanaṃ yathā //
+               	 <span class="ref">VaiJiv_1.40</span></p>
+            	
+            <p id="VaiJiv_1.41">
+               	  granthīndrajāmarapurākṛmiśatrubhārṅgī-<br />bhṛṅgītrikaṭvanalakaṭphalapauṣkarāṇām /<br />
+               	  rāsnābhayābṛhatikādvayadīpyabhūta-<br />keśīkirātakavacācavikāvṛkīnām //
+               	 <span class="ref">VaiJiv_1.41</span></p>
+            	
+            <p id="VaiJiv_1.42">
+               	  kvātho hanyāt saṃnipātān samagrān <br />buddhibhraṃśaṃ svedaśaityapralāpān /<br />
+               	  śūlādhmānān vidradhiśleṣmavātān <br />vātavyādhīn sūtikānāṃ ca tadvat //
+               	 <span class="ref">VaiJiv_1.42</span></p>
+            	
+            <p id="VaiJiv_1.43">
+               	  saṃnipātasya kālasya kaścid bhedo na vidyate /<br />
+               	  cikitsako jayed yas tu tasmāt ko 'sti pratāpavān //
+               	 <span class="ref">VaiJiv_1.43</span></p>
+            	
+            <p id="VaiJiv_1.44">
+               	  saṃnipātodadhau magnān uddhared yaḥ kṛpākaraḥ /<br />
+               	  tasmai kiṃ kiṃ na deyaṃ syād vada kovidanandini //
+               	 <span class="ref">VaiJiv_1.44</span></p>
+            	
+            <p id="VaiJiv_1.45">
+               	  tridoṣājagaragrastaṃ mocayed yaḥ sa vaidyarāṭ /<br />
+               	  ātmāpi tasmai dātavyaḥ kiṃ punaḥ kanakādikam //
+               	 <span class="ref">VaiJiv_1.45</span></p>
+            	
+            <p id="VaiJiv_1.46">
+               	  yaḥ śophaḥ śrutimūlajaḥ sa kaṭhinaḥ śānte tridoṣajvare <br />raktaṃ tatra jalaukayā pariharet sarpiḥ pibec cāturaḥ /<br />
+               	  rāsnānāgaraluṅgamūlahutabhugdārvyagnimanthaiḥ samair <br />lepaḥ syād aravindavandyanayane śophavyathādhvaṃsanaḥ //
+               	 <span class="ref">VaiJiv_1.46</span></p>
+            	
+            <p id="VaiJiv_1.47">
+               	  arkānantākirātāmaratarurasanāsindhuvārogragandhā-<br />tarkārīśigrupañcoṣaṇaghuṇadayitāmārkavāṇāṃ kaṣāyaḥ /<br />
+               	  sadyas tīvrān tridoṣān apaharati dhanurmārutaṃ dantabandhaṃ <br />śaityaṃ gātreṣu gāḍhaṃ śvasanakasanakaṃ sūtikāvātarogān //
+               	 <span class="ref">VaiJiv_1.47</span></p>
+            	
+            <p id="VaiJiv_1.48">
+               	  tiktātiktakaparpaṭāmṛtaśaṭīrāsnākaṇāpauṣkara-<br />trāyantībṛhatīsurauṣadhiśivāduḥsparśabhārṅgīkṛtaḥ /<br />
+               	  kvātho nāśayati tridoṣanikaraṃ svāpaṃ divā jāgaraṃ <br />naktaṃ tṛṇmukhaśoṣadāhakasanaśvāsān aśeṣān api //
+               	 <span class="ref">VaiJiv_1.48</span></p>
+            	
+            <p id="VaiJiv_1.49">
+               	  śūlāt pārśvaśiraḥsthitāt kasanataḥ śvāsāc ca jīrṇajvarān <br />muktaḥ syāt puruṣaḥ payaḥ paripiban pañcāṅghriṇā pācitam /<br />
+               	  ekāsau guḍapippalī vijayate jīrṇajvarājīrṇaruk-<br />kṣunmāndyārucipāṇḍujantukasanaśvāsān kim anyauṣadhaiḥ //
+               	 <span class="ref">VaiJiv_1.49</span></p>
+            	
+            <p id="VaiJiv_1.50">
+               	  jīrṇajvaraṃ kaphayutaṃ kaṇayā sametaś <br />chinnodbhavodbhavakaṣāyaka eva hanti /<br />
+               	  rāmo daśāsyam iva rāma iva pralambaṃ <br />rāmo yathā samaramūrdhani kārtavīryam //
+               	 <span class="ref">VaiJiv_1.50</span></p>
+            	
+            <p id="VaiJiv_1.51">
+               	  pañcamūlīkaṣāyasya sakṛṣṇasya niṣevaṇāt /<br />
+               	  jīrṇajvaro kaphodbhūto vidadhāti palāyanam //
+               	 <span class="ref">VaiJiv_1.51</span></p>
+            	
+            <p id="VaiJiv_1.52">
+               	  śaṭī śuṇṭhī reṇuḥ suratarur anantā bṛhatikā <br />ghanas tiktā tiktaṃ khalu navabhir ebhir viracitaḥ /<br />
+               	  kaṣāyaḥ pīto 'yaṃ madhukaṇavimiśraḥ śamayati <br />tridoṣaṃ niḥśeṣaṃ viṣamam api jīrṇajvaram api //
+               	 <span class="ref">VaiJiv_1.52</span></p>
+            	
+            <p id="VaiJiv_1.53">
+               	  vāsāpaṭolatriphalādrākṣāśamyākanimbajaḥ /<br />
+               	  samadhuḥ sasitaḥ kvātho hanyād ekāhikajvaram //
+               	 <span class="ref">VaiJiv_1.53</span></p>
+            	
+            <p id="VaiJiv_1.54">
+               	  tanvaṅgi gaṅgottaratīrabhūmau <br />mamāra hā ko 'py asutas tapasvī /<br />
+               	  jalāñjaliṃ tasya kṛte dadātu <br />saikāhikaḥ syād yadi te 'nujanmā //
+               	 <span class="ref">VaiJiv_1.54</span></p>
+            	
+            <p id="VaiJiv_1.55">
+               	  saśiśiraḥ sadhanaḥ samahauṣadhaḥ <br />sanaladaḥ sakaṇaḥ sapayodharaḥ /<br />
+               	  samadhuśarkara eṣa kaṣāyako <br />jayati bālamṛgākṣi tṛtīyakam //
+               	 <span class="ref">VaiJiv_1.55</span></p>
+            	
+            <p id="VaiJiv_1.56">
+               	  cāturthiko gacchati rāmaṭhasya <br />ghṛtena jīrṇena yutasya nasyāt /<br />
+               	  līlāvatīnāṃ navayauvanānāṃ <br />mukhāvalokād iva sādhubhāvaḥ //
+               	 <span class="ref">VaiJiv_1.56</span></p>
+            	
+            <p id="VaiJiv_1.57">
+               	  akhaṇḍitaśaratkālakalānidhisamānane /<br />
+               	  cāturthikaharaṃ nasyaṃ munidrumadalāmbunā //
+               	 <span class="ref">VaiJiv_1.57</span></p>
+            	
+            <p id="VaiJiv_1.58">
+               	  suradāruśivāśivāsthirā-<br />vṛṣaviśvaiḥ kvathitaḥ kaṣāyakaḥ /<br />
+               	  madhunā sitayā ca saṃyutaḥ <br />paripītaḥ śamayec caturthikam //
+               	 <span class="ref">VaiJiv_1.58</span></p>
+            	
+            <p id="VaiJiv_1.59">
+               	  takraṃ tryūṣaṇacūrṇayuktam atha vā madyaṃ hasantīṃ satīṃ <br />tadvat kambalarallakān atha kuthāṃ śītāturaḥ śīlayet /<br />
+               	  āliṅgeyur amuṃ himāvadhi dṛḍhaṃ tāruṇyadarpālasāḥ <br />kāśmīrāgaruliptapīvarakucāḥ kāmaṃ kuraṅgīdṛśāḥ //
+               	 <span class="ref">VaiJiv_1.59</span></p>
+            	
+            <p id="VaiJiv_1.60">
+               	  śakrāhvadadrughnavṛṣāmṛtānāṃ <br />nirguṇḍikābhṛṅgamahauṣadhānām /<br />
+               	  kṣudrāyavānīsahitaḥ kaṣāyaḥ <br />śītajvarāraṇyahiraṇyaretāḥ //
+               	 <span class="ref">VaiJiv_1.60</span></p>
+            	
+            <p id="VaiJiv_1.61">
+               	  vāṅmādhuryajitāmṛte 'mṛtalatā lakṣmīśivābhe śivā <br />viśvaṃ viśvavare ghano ghanakuce siṃhī ca siṃhodari /<br />
+               	  ebhiḥ pañcabhir oṣadhair madhukaṇāyuktaḥ kaṣāyaḥ kṛtaḥ <br />pītaś ced viṣamajvaraḥ kim u tadā tanvaṅgi na kṣīyate //
+               	 <span class="ref">VaiJiv_1.61</span></p>
+            	
+            <p id="VaiJiv_1.62">
+               	  sanāgarāyāḥ sapayodharāyāḥ <br />sasiṃhikāyāḥ saguḍūcikāyāḥ /<br />
+               	  dhātryāḥ kaṣāyo madhunā vimiśraḥ <br />kaṇāvimiśro viṣamajvaraghnaḥ //
+               	 <span class="ref">VaiJiv_1.62</span></p>
+            	
+            <p id="VaiJiv_1.63">
+               	  nānyāni mānyāni kim auṣadhāni <br />paraṃ tu kānte na rasonakalkāt /<br />
+               	  tailena yuktād aparaḥ prayogo <br />mahāsamīre viṣamajvare 'pi //
+               	 <span class="ref">VaiJiv_1.63</span></p>
+            	
+            <p id="VaiJiv_1.64">
+               	  bhavati viṣamahantrī cetakī kṣaudrayuktā <br />bhavati viṣamahantrī pippalī vardhamānā /<br />
+               	  viṣamarujam ajājī hanti yuktā guḍena <br />praśamayati tathogrā sevyamānā guḍena //
+               	 <span class="ref">VaiJiv_1.64</span></p>
+            	
+            <p id="VaiJiv_1.65">
+               	  kim u bhramayasi priye kuvalayaṃ karābhyām idaṃ <br />madīyavacanaṃ sudhārasasamaṃ samākarṇaya /<br />
+               	  purāṇaviṣamajvare kulakanimbasiṃhīndrajā-<br />mṛtāghanakaṣāyako madhuyuto varīvartate //
+               	 <span class="ref">VaiJiv_1.65</span></p>
+            	
+            <p id="VaiJiv_1.66">
+               	  svakāntijitarocane capalalocane mālatī-<br />prasūnanikarasphuratkabari pañcavaktrodari /<br />
+               	  paṭolakaṭurohiṇīmadhukacetakīmustaka-<br />prakalpitakaṣāyako viṣamam āśu jejīyate //
+               	 <span class="ref">VaiJiv_1.66</span></p>
+            	
+            <p id="VaiJiv_1.67">
+               	  yo bhajet samadhuśyāmāṃ he hemakalaśastani /<br />
+               	  viṣameṣu vyathās tasya na bhavanti kadācana //
+               	 <span class="ref">VaiJiv_1.67</span></p>
+            	
+            <p id="VaiJiv_1.68">
+               	  kṣaṇam api calatāṃ jahīhi mugdhe <br />śṛṇu vacanaṃ mama tanvi sāvadhānā /<br />
+               	  vasati śirasi meghanādamūle <br />vrajatitarāṃ viṣamo viśāladṛṣṭe //
+               	 <span class="ref">VaiJiv_1.68</span></p>
+            	
+            <p id="VaiJiv_1.69">
+               	  viṣamam apaharaty asau kaṣāyo <br />madhumadhuro 'madhurāmṛtāśivānām /<br />
+               	  aham iva tava mānini prakopaṃ <br />caraṇasaroruhayor luṭhan haṭhena //
+               	 <span class="ref">VaiJiv_1.69</span></p>
+            	
+            <p id="VaiJiv_1.70">
+               	  abale kamalātanuratnakale <br />caladṛkkamale dhṛtakāmakale /<br />
+               	  amṛtābdaśivaṃ madhumad viṣame <br />viṣame viṣameṣuvilāsarate //
+               	 <span class="ref">VaiJiv_1.70</span></p>
+            	
+            <p id="VaiJiv_1.71">
+               	  ayi kuśāgrasamānamate mate <br />matimatām atimanmathamanthare /<br />
+               	  jvaraharaṃ rugariṣṭaśivāvacā-<br />yavahavirjatusarṣapadhūpanam //
+               	 <span class="ref">VaiJiv_1.71</span></p>
+            	
+            <p id="VaiJiv_1.72">
+               	  tiktośīrabalādhānyaparpaṭāmbhodharaiḥ kṛtaḥ /<br />
+               	  kvāthaḥ punaḥ samāyātaṃ jvaraṃ śīghraṃ nivārayet //
+               	 <span class="ref">VaiJiv_1.72</span></p>
+            	
+            <p id="VaiJiv_1.73">
+               	  gopīdvyāmalakīsthirāmagadhajātiktāpayaḥpālinī-<br />drākṣāśrīphaladhāvanīhimaviṣāmustendrajaiḥ sādhitam /<br />
+               	  syād ājyaṃ viṣamajvarakṣayaśiraḥpārśvavyathārocaka-<br />chardiḥśoṣahalīmakapraśamanaṃ līlālatāmañjari //
+               	 <span class="ref">VaiJiv_1.73</span></p>
+            	
+            <p id="VaiJiv_1.74">
+               	  caladalatarusevā homamantras trinetra-<br />dvijajanagurupūjā viṣṇunāmnāṃ sahasram /<br />
+               	  maṇidhṛtir api dānāny āśiṣas tāpasānāṃ <br />sakalam idam ariṣṭaṃ spaṣṭam aṣṭajvarāṇām //
+               	 <span class="ref">VaiJiv_1.74</span></p>
+            	
+            <p id="VaiJiv_1.75">
+               	  ayi ratnakale kalānidhe <br />kuśale kokilakomalasvare /<br />
+               	  jvaravān jvaravarjito 'tha vā <br />laghu kuryād aśanaṃ dinātyaye //
+               	 <span class="ref">VaiJiv_1.75</span></p>
+            	
+            <p>iti śrīdivākarasūnulolimbarājaviracite vaidyajīvane jvarapratīkāro nāma prathamo vilāsaḥ</p>
+            
+         </div>
+         
+         <div id="d1e1698">
+            	
+            <h3>dvitīyo vilāsaḥ</h3>
+            	
+            <p id="VaiJiv_2.1">
+               	  amṛtātiviṣāsurarājayava-<br />stanayitnukirātakaviśvapayaḥ /<br />
+               	  atisāraharaṃ jvaranāśakaraṃ <br />śṛṇu nirjitakuñjarakumbhakuce //
+               	 <span class="ref">VaiJiv_2.1</span></p>
+            	
+            <p id="VaiJiv_2.2">
+               	  śītośīrakayugmavatsakavṛkīpadmāhvadhānyāmṛtā-<br />bhūnimbāmbudabālabilvakaviṣāviśvauṣadhaiḥ sādhitaḥ /<br />
+               	  kvātho mākṣikasādhito vijayate hṛllāsatṛṣṇāvamī-<br />dāhārocakasaṅgabhaṅgacaturaḥ sarvātisārajvarān //
+               	 <span class="ref">VaiJiv_2.2</span></p>
+            	
+            <p id="VaiJiv_2.3">
+               	  pañcāṅghrivṛkyabdabalendrabīja-<br />tvaksevyatiktāmṛtaviśvabilvaiḥ /<br />
+               	  jvarātisārān savamīn sakāsān <br />saśvāsaśūlāñ chamayet kaṣāyaḥ //
+               	 <span class="ref">VaiJiv_2.3</span></p>
+            	
+            <p id="VaiJiv_2.4">
+               	  kaphādhike vā pavanādhike vā <br />dvayādhike vā gurupañcamūlam /<br />
+               	  pittādhike syāl laghupañcamūlaṃ <br />punaḥ punaḥ pṛcchasi kiṃ mṛgākṣi //
+               	 <span class="ref">VaiJiv_2.4</span></p>
+            	
+            <p id="VaiJiv_2.5">
+               	  sadevadāruḥ saviṣaḥ sapāṭhaḥ <br />sajantuśatruḥ saghanaḥ satīkṣṇaḥ /<br />
+               	  savatsakaḥ kvātha udāhṛto 'yaṃ <br />śophātisārāmbudhikumbhajanmā //
+               	 <span class="ref">VaiJiv_2.5</span></p>
+            	
+            <p id="VaiJiv_2.6">
+               	  ayi priye prītibhṛtāṃ murārau <br />kiṃ bālakaśrīghanadhānyaviśvaiḥ /<br />
+               	  yasyāpy atīsārarujo na tasya <br />kiṃ bālakaśrīghanadhānyaviśvaiḥ //
+               	 <span class="ref">VaiJiv_2.6</span></p>
+            	
+            <p id="VaiJiv_2.7">
+               	  pittātisāro dhānyāmbubilvābdānāṃ nirudhyate /<br />
+               	  kenātra jñāyate kartā paṇḍitena tvayā vinā //
+               	 <span class="ref">VaiJiv_2.7</span></p>
+            	
+            <p id="VaiJiv_2.8">
+               	  indrajameghamadākusumaśrī-<br />lodhramahauṣadhamocarasānām /<br />
+               	  cūrṇam idaṃ guḍatakrasametaṃ <br />hanty acirād atisāram udāram //
+               	 <span class="ref">VaiJiv_2.8</span></p>
+            	
+            <p id="VaiJiv_2.9">
+               	  kalyāṇi kāñcanalatālalitāṅgayaṣṭe <br />tāmbūlaśālivadane lalane śṛṇu tvam /<br />
+               	  śuṇṭhīmadākusumamocarasājamodās <br />takrānvitāḥ praśamayanty atisāram ugram //
+               	 <span class="ref">VaiJiv_2.9</span></p>
+            	
+            <p id="VaiJiv_2.10">
+               	  atisārapraśamanī citrapatrakaśobhitā /<br />
+               	  vṛddhidā tanuvahneś ca śyāmā śyāmeva rājate //
+               	 <span class="ref">VaiJiv_2.10</span></p>
+            	
+            <p id="VaiJiv_2.11">
+               	  bāle bālalatāpravālalatikākārāṅghrihastādhare <br />mallīmālyalasatkucakṣitidhare ratnajvalanmekhale /<br />
+               	  cañcatkuṇḍalamaṇḍale vijayate raktāmaśūlānvitā-<br />tīsāraṃ kuṭajābdabilvakaviṣādīpyaiḥ kaṣāyaḥ kṛtaḥ //
+               	 <span class="ref">VaiJiv_2.11</span></p>
+            	
+            <p id="VaiJiv_2.12">
+               	  dhātakyāmalakīpayodharavṛkīkaṭvaṅgayaṣṭīmadhu-<br />śrījambvāmraphalāsthināgaraviṣāhrīberalodhrendrajaiḥ /<br />
+               	  tulyāṃśaṃ vihitaṃ sataṇḍulajalaṃ gaṅgādharākhyaṃ mahā-<br />cūrṇaṃ tūrṇam apākaroti sakalaṃ jīrṇātisāraṃ param //
+               	 <span class="ref">VaiJiv_2.12</span></p>
+            	
+            <p id="VaiJiv_2.13">
+               	  ayi kandukanindakastani <br />pramadārūpamadāpahāriṇi /<br />
+               	  rudhirātisṛtau kaṣāyakaḥ <br />samadhur dāḍimavatsakatvacaḥ //
+               	 <span class="ref">VaiJiv_2.13</span></p>
+            	
+            <p id="VaiJiv_2.14">
+               	  candanaṃ vimalataṇḍulāmbunā <br />saṃyutaṃ madhuyutaṃ sitāyutam /<br />
+               	  tṛḍvikhaṇḍanam asṛgvikhaṇḍanaṃ <br />khaṇḍanaṃ pracuradāhamehayoḥ //
+               	 <span class="ref">VaiJiv_2.14</span></p>
+            	
+            <p id="VaiJiv_2.15">
+               	  kukṣiśūlāmaśūlaghnaṃ vividhāsrātisārajit /<br />
+               	  seveta saguḍaṃ bilvaṃ bilvatulyapayodhare //
+               	 <span class="ref">VaiJiv_2.15</span></p>
+            	
+            <p id="VaiJiv_2.16">
+               	  tṛṭśvāsakāsajvaraśophamūrchā-<br />hikkānnavidveṣaṇavāntiśūlaiḥ /<br />
+               	  yukto 'tisārī smaratu prasahya <br />govinda gopāla gadādhareti //
+               	 <span class="ref">VaiJiv_2.16</span></p>
+            	
+            <p id="VaiJiv_2.17">
+               	  jātīphalaṃ nāgarasarpaphenau <br />kharjūphalaṃ bhinnam idaṃ ca nityaṃ /<br />
+               	  yojyaṃ dviniṣkaṃ ca karīṣajātād <br />araṇyajād bhasmasamaṃ ca sarvam //
+               	 <span class="ref">VaiJiv_2.17</span></p>
+            	
+            <p id="VaiJiv_2.18">
+               	  niṣkārdhamātraṃ bhiṣajā prayojyaṃ <br />dvivāram etac chubhataṇḍulodaiḥ /<br />
+               	  jīrṇātisāre rudhirāmayukte <br />hitaṃ saśūle bahuvegayukte //
+               	 <span class="ref">VaiJiv_2.18</span></p>
+            	
+            <p id="VaiJiv_2.19">
+               	  yavānī nāgarośīradhanikātiviṣāghanaiḥ /<br />
+               	  bālabilvadviparṇībhir dīpanaṃ pācanaṃ bhavet //
+               	 <span class="ref">VaiJiv_2.19</span></p>
+            	
+            <p id="VaiJiv_2.20">
+               	  punarnavāvallijabāṇapuṅkha-<br />viśvāgnipathyācirabilvabilvaiḥ /<br />
+               	  kṛtaḥ kaṣāyaḥ śamayed aśeṣān <br />durnāmagulmagrahaṇīvikārān //
+               	 <span class="ref">VaiJiv_2.20</span></p>
+            	
+            <p id="VaiJiv_2.21">
+               	  śuṇṭhīchinnaruhāviṣājaladharais tulyaiḥ kaṣāyaḥ kṛto <br />mandāgnau grahaṇīgade 'pi satataṃ sāmānubandhe hitaḥ /<br />
+               	  śuṇṭhīkalkaśṛtaṃ ghṛtaṃ prapibataḥ pāṇḍvāmakāsāpahaṃ <br />syād vāyor anulomanaṃ grahaṇikā vegena jaṅgamyate //
+               	 <span class="ref">VaiJiv_2.21</span></p>
+            	
+            <p id="VaiJiv_2.22">
+               	  pāṭhāviṣākuṭajavṛkṣaphalatvagabda-<br />tiktāmadārasajanāgarabilvacūrṇam /<br />
+               	  sakṣaudrataṇḍulajalaṃ grahaṇīpravāha-<br />raktapravāhagudaruggudajeṣu dadyāt //
+               	 <span class="ref">VaiJiv_2.22</span></p>
+            	
+            <p id="VaiJiv_2.23">
+               	  tulyāṃśaṃ sakalaṃ kirātakaṭukāmustendrajatryūṣaṇaṃ <br />bhāgaś candrakalāmitaḥ kuṭajato bhāgadvayaṃ citrakāt /<br />
+               	  cūrṇaṃ ratnakalābhidhaṃ guḍapayoyuktaṃ ca pāṇḍujvarā-<br />tīsārārucikāmilāgrahaṇikāgulmapramehāpaham //
+               	 <span class="ref">VaiJiv_2.23</span></p>
+            	
+            <p id="VaiJiv_2.24">
+               	  kṣāradvandvapaṭutrikatrikaṭukaiś cavyājamodānalaiḥ <br />kṛṣṇāmūlakahiṅgujīramiśibhis tulyair vidheyaṃ rajaḥ /<br />
+               	  pītaṃ koṣṇajalena kolapayasā takreṇa vānyauṣadhād <br />dhṛtkṣudgulmagudāṅkuragrahaṇiṣu prāyaḥ priyaṃ preyasi //
+               	 <span class="ref">VaiJiv_2.24</span></p>
+            	
+            <p id="VaiJiv_2.25">
+               	  dvikṣāraṣaṭkaṭupaṭuvrajahiṅgudīpyaiḥ <br />syāt sāraluṅgabadaraikarasena yuktaḥ /<br />
+               	  śleṣmānilagrahaṇikāsu guḍaḥ praśastaḥ <br />nakṣatramukhyamukhi dīpanapācane 'lam //
+               	 <span class="ref">VaiJiv_2.25</span></p>
+            	
+            <p id="VaiJiv_2.26">
+               	  cūrṇaṃ cavyakacitraśrīviśvabheṣajanirmitam /<br />
+               	  takreṇa sahitaṃ hanti grahaṇīṃ duḥkhakāriṇīm //
+               	 <span class="ref">VaiJiv_2.26</span></p>
+            	
+            <p id="VaiJiv_2.27">
+               	  rucakāgnimarīcānāṃ cūrṇaṃ takreṇa sevitam /<br />
+               	  grahaṇyudaragulmārśaḥkṣunmāndyaplīhanāśanam //
+               	 <span class="ref">VaiJiv_2.27</span></p>
+            	
+            <p id="VaiJiv_2.28">
+               	  ājyaṃ payodharajalendrajabālabilva-<br />hrīberamocarasakalkayutaṃ supakvam /<br />
+               	  āmānubandhasahitaṃ rudhirānvitaṃ ca <br />sadyo nihanti gṛhiṇi grahaṇīvikāram //
+               	 <span class="ref">VaiJiv_2.28</span></p>
+            	
+            <p>iti śrīdivākarasūnulolimbarājaviracite vaidyajīvane grahaṇīpratīkāro nāma dvitīyo
+               vilāsaḥ
+            </p>
+            
+         </div>
+         
+         <div id="d1e2080">
+            	
+            <h3>tṛtīyo vilāsaḥ</h3>
+            	
+            <p id="VaiJiv_3.1">
+               	  ataḥ paraṃ komalavāṇi kāsa-<br />śvāsapratīkāram udīrayāmaḥ /<br />
+               	  nihanti kāsaṃ gurupañcamūlī-<br />kṛtaḥ kaṣāyaś capalāsahāyaḥ //
+               	 <span class="ref">VaiJiv_3.1</span></p>
+            	
+            <p id="VaiJiv_3.2">
+               	  ghanaviśvaśivāguḍajā guṭikā <br />tridinaṃ vadanāmbujamadhyadhṛtā /<br />
+               	  harati śvasanaṃ kasanaṃ lalane <br />lalaneva himaṃ hṛdaye nihitā //
+               	 <span class="ref">VaiJiv_3.2</span></p>
+            	
+            <p id="VaiJiv_3.3">
+               	  ajasya mūtrasya śataṃ palānāṃ <br />śataṃ palānāṃ ca kalidrumasya /<br />
+               	  pakvaṃ samadhv āśu nihanti kāsaṃ <br />śvāsaṃ ca tadvat sabalaṃ balāsam //
+               	 <span class="ref">VaiJiv_3.3</span></p>
+            	
+            <p id="VaiJiv_3.4">
+               	  ārdrād ardhatulā guḍād api tathārdhāṃśaṃ ca kustumbarī-<br />dīpyāyojaraṇatrijātajaladād etat paced yuktitaḥ /<br />
+               	  leho ratnakale tavaiva kathitaḥ prāṇapriyāyā mayā <br />kāsārśojvarapīnasaśvayathurukgulmakṣayadhvaṃsanaḥ //
+               	 <span class="ref">VaiJiv_3.4</span></p>
+            	
+            <p id="VaiJiv_3.5">
+               	  rāsnābalāpadmakadevadāru-<br />phalatrikatryūṣaṇavellacūrṇam /<br />
+               	  cintāmaṇi kṣaudraghṛtopapannaṃ <br />śvāsāṃś ca kāsāṃś ca nirākaroti //
+               	 <span class="ref">VaiJiv_3.5</span></p>
+            	
+            <p id="VaiJiv_3.6">
+               	  vāsāharidrādhanikāguḍūcī-<br />bhārṅgīkaṇānāgaradhāvanīnām /<br />
+               	  kvāthena mārīcarajonvitena <br />śvāsāḥ kṣayaṃ yānti na kasya puṃsaḥ //
+               	 <span class="ref">VaiJiv_3.6</span></p>
+            	
+            <p id="VaiJiv_3.7">
+               	  tulyā lavaṅgamaricākṣaphalatvacaḥ syuḥ <br />sarvaiḥ samo nigaditaḥ khadirasya sāraḥ /<br />
+               	  babbūlavṛkṣajakaṣāyayutaṃ ca cūrṇaṃ <br />kāsān nihanti vaṭikā ghaṭikāṣṭakānte //
+               	 <span class="ref">VaiJiv_3.7</span></p>
+            	
+            <p id="VaiJiv_3.8">
+               	  vātaṃ nirdalayan kaphaṃ kavalayann unmūlayan pīnasaṃ <br />dṛṣṭiṃ nirmalayan prabhāṃ prabalayan hṛdrogam utsārayan /<br />
+               	  niḥśeṣaṃ jaṭharāmayaṃ praśamayann uddīpayan pāvakaṃ <br />kāsaśvāsanirāsasādhanam asau viśvākaṣāyaḥ smṛtaḥ //
+               	 <span class="ref">VaiJiv_3.8</span></p>
+            	
+            <p id="VaiJiv_3.9">
+               	  rūpaṃ kīdṛk kamalavadane nuḥ pare sau gireḥ syāt <br />saṃbuddhiḥ kā madhuravacane kāgnibījasya ṣaṣṭhiḥ /<br />
+               	  kasya kvāthaḥ śvasanaśamano vallabheneti pṛṣṭā <br />vidvadvandyā drutam idam adāt sottaraṃ nāgarasya //
+               	 <span class="ref">VaiJiv_3.9</span></p>
+            	
+            <p id="VaiJiv_3.10">
+               	  kaṭutailena saṃyukto guḍo yāvan na sevitaḥ /<br />
+               	  tāvan naśyati kiṃ śvāsaḥ pīyūṣamadhurādhare //
+               	 <span class="ref">VaiJiv_3.10</span></p>
+            	
+            <p id="VaiJiv_3.11">
+               	  sevitaṃ madhukhaṇḍābhyāṃ cūrṇaṃ marīcajaṃ yadi /<br />
+               	  kimarthaṃ kriyate cintā kāsaśvāsau parājitau //
+               	 <span class="ref">VaiJiv_3.11</span></p>
+            	
+            <p id="VaiJiv_3.12">
+               	  ayi ratnakale nīlanalinacchadanekṣaṇe /<br />
+               	  siṃhīkaṣāyaḥ sakaṇaḥ kāsagrāsakaraḥ kṣaṇāt //
+               	 <span class="ref">VaiJiv_3.12</span></p>
+            	
+            <p id="VaiJiv_3.13">
+               	  pippalīpippalīmūlavibhītakamahauṣadhaiḥ /<br />
+               	  madhunā sevitaiḥ kāsaḥ praśāmyati kutūhalāt //
+               	 <span class="ref">VaiJiv_3.13</span></p>
+            	
+            <p id="VaiJiv_3.14">
+               	  rāvaṇasya suto hanyān mukhavārijadhāritaḥ /<br />
+               	  śvasanaṃ kasanaṃ vāpi tam ivānilanandanaḥ //
+               	 <span class="ref">VaiJiv_3.14</span></p>
+            	
+            <p id="VaiJiv_3.15">
+               	  ayi prāṇapriye jātīphalalohitalocane /<br />
+               	  śuṇṭhībhārṅgīkṛtaḥ kvāthaḥ śvāsahrāsāya pāyayet //
+               	 <span class="ref">VaiJiv_3.15</span></p>
+            	
+            <p id="VaiJiv_3.16">
+               	  asti prāṇapate mama priyatamā kandarpalīlā sakhī <br />kāsakleśavaśād atīva kṛśatāṃ prāptāsti sā sāmprataṃ /<br />
+               	  tasyās tvaṃ kathayopacāram adhunā kṣaudrānvitaṃ dīyatāṃ <br />viśvagranthikaṇākalidrumabhavaṃ cūrṇaṃ cakorekṣaṇe //
+               	 <span class="ref">VaiJiv_3.16</span></p>
+            	
+            <p id="VaiJiv_3.17">
+               	  saṃyutaṃ guḍasarpibhyāṃ cūrṇaṃ trikaṭusaṃbhavam /<br />
+               	  nihanti tarasā kāsāṃs trāsān iva satāṃ hariḥ //
+               	 <span class="ref">VaiJiv_3.17</span></p>
+            	
+            <p id="VaiJiv_3.18">
+               	  śṛṅgiberaraso yena madhunā saha sevitaḥ /<br />
+               	  śvāsakāsabhayaṃ tasya na kadācid bhaviṣyati //
+               	 <span class="ref">VaiJiv_3.18</span></p>
+            	
+            <p id="VaiJiv_3.19">
+               	  pulomajāvallabhasūnupatnī-<br />tātātmabhūśekharavāhanasya /<br />
+               	  saundaryadūrīkṛtarāmarāme <br />kaṣāyakaḥ kāsasamīrasarpaḥ //
+               	 <span class="ref">VaiJiv_3.19</span></p>
+            	
+            <p id="VaiJiv_3.20">
+               	  phalatrayacchinnaruhāhutāśa-<br />rāsnākṛmidhvaṃsikaṭutrayāṇām /<br />
+               	  cūrṇaṃ samāṃśaṃ sitayā sametaṃ <br />kāsaṃ jayen nātra vicāraṇīyam //
+               	 <span class="ref">VaiJiv_3.20</span></p>
+            	
+            <p id="VaiJiv_3.21">
+               	  daśamūlakaṣāyamiśritaṃ vā lalane viśvakaṣāyamiśritaṃ vā /<br />
+               	  prapibet kaṭikukṣivastiśūle dhruvam eraṇḍajatailam ekam eva //
+               	 <span class="ref">VaiJiv_3.21</span></p>
+            	
+            <p id="VaiJiv_3.22">
+               	  rāsnāmṛtānāgaradevadāru-<br />pañcāṅghriyugmendrayavaiḥ kaṣāyaḥ /<br />
+               	  ruvūkatailena samanvito 'yaṃ <br />bhettā bhaved āmasamīraṇasya //
+               	 <span class="ref">VaiJiv_3.22</span></p>
+            	
+            <p id="VaiJiv_3.23">
+               	  vilāsinī vilāsena vilāsihṛdayaṃ yathā /<br />
+               	  tathā guḍūcī viśvena hared āmasamīraṇam //
+               	 <span class="ref">VaiJiv_3.23</span></p>
+            	
+            <p id="VaiJiv_3.24">
+               	  samyaksvinnāś chagalajarase kānanotthāḥ kulatthāś <br />caile baddhāḥ parihṛtatuṣāḥ prauḍhasīmantinībhiḥ /<br />
+               	  sūkṣmaṃ piṣṭāḥ paṭurasaniśācūrṇapūrṇāḥ kṣapāyāṃ <br />cakṣuḥkṣiptāḥ rudhiravikṛtiṃ saṃharanti tryaheṇa //
+               	 <span class="ref">VaiJiv_3.24</span></p>
+            	
+            <p id="VaiJiv_3.25">
+               	  lolimbarājakavinā vanitāvataṃse <br />śigror amuṣya kathito 'sti kim u prayogaḥ /<br />
+               	  etasya pallavarasāt samadhoḥ kim anyat <br />dṛgvyādhimātraharaṇe mahilāgragaṇye //
+               	 <span class="ref">VaiJiv_3.25</span></p>
+            	
+            <p id="VaiJiv_3.26">
+               	  kuvalayanayane 'rjunaṃ kapho 'bdheḥ <br />saha sitayāśu nirācarīkaroti /<br />
+               	  priyakaram iva kāminī navoḍhā <br />laghukucaśālini vakṣasi prayuktam //
+               	 <span class="ref">VaiJiv_3.26</span></p>
+            	
+            <p id="VaiJiv_3.27">
+               	  iti nigaditam āryaiḥ netrarogāturāṇāṃ <br />niśi samadhughṛtāgryā sevitavyā sukhāya /<br />
+               	  ayi navaśiśulīlāloladṛṣṭe tvam agryā <br />janayasi bata kasmād vaiparītyaṃ paraṃ tu //
+               	 <span class="ref">VaiJiv_3.27</span></p>
+            	
+            <p id="VaiJiv_3.28">
+               	  nirākaroti naktāndhyaṃ sagomayarasā kaṇā /<br />
+               	  yathā ratena ramaṇī ramaṇasya mahābalam //
+               	 <span class="ref">VaiJiv_3.28</span></p>
+            	
+            <p id="VaiJiv_3.29">
+               	  śyāme 'śyāme priyaśyāme śyāmabodhitamānase /<br />
+               	  śuklaṃ śamayati kṣipraṃ mākṣikaṃ mākṣikānvitam //
+               	 <span class="ref">VaiJiv_3.29</span></p>
+            	
+            <p id="VaiJiv_3.30">
+               	  triphalāvṛṣabhūnimbanimbatiktāmṛtākṛtaḥ /<br />
+               	  kvātho madhusitāyukto kāmalāpāṇḍurogajit //
+               	 <span class="ref">VaiJiv_3.30</span></p>
+            	
+            <p id="VaiJiv_3.31">
+               	  devadālīphalaraso nasyāto hanti kāmalām /<br />
+               	  saṃdeho nāsti samphullanīlotpalavilocane //
+               	 <span class="ref">VaiJiv_3.31</span></p>
+            	
+            <p id="VaiJiv_3.32">
+               	  girimṛddhātrirātrīṇām añjanaṃ kāmalāpaham /<br />
+               	  idaṃ na hi bhaven mithyā śapathas tu tavāṅgane //
+               	 <span class="ref">VaiJiv_3.32</span></p>
+            	
+            <p id="VaiJiv_3.33">
+               	  aye manojñakuṇḍale sphuranmukhendumaṇḍale /<br />
+               	  gavāṃ payaḥ sanāgaraṃ nihanti tanvi kāmalām //
+               	 <span class="ref">VaiJiv_3.33</span></p>
+            	
+            <p id="VaiJiv_3.34">
+               	  picumandarasena miśritaiḥ <br />picumandānilaśatrubījakaiḥ /<br />
+               	  ghaṭitāṃ vaṭikāṃ bhagāntare <br />bhagaśūlapraśamāya dhārayet //
+               	 <span class="ref">VaiJiv_3.34</span></p>
+            	
+            <p id="VaiJiv_3.35">
+               	  taruṇy uttaraṇīmūlaṃ chāgīsarpiḥsamanvitam /<br />
+               	  śivaśastrābhidhāṃ bādhāṃ yonisthāṃ hanti satvaram //
+               	 <span class="ref">VaiJiv_3.35</span></p>
+            	
+            <p id="VaiJiv_3.36">
+               	  gopīvṛkīdārukirātamūrvā-<br />tiktāmṛtāviśvaghanendrajānām /<br />
+               	  kvātho 'yam ukto mṛgalocanānāṃ <br />duṣṭasya dugdhasya viśodhanāya //
+               	 <span class="ref">VaiJiv_3.36</span></p>
+            	
+            <p id="VaiJiv_3.37">
+               	  kaṭaṅkaṭerīrasajābdavāsā-<br />bhūnimbabhallītilajaḥ kaṣāyaḥ /<br />
+               	  kṣaudrānvitaś cañcalalocanānāṃ <br />nānāvidhāni pradarāṇi hanyāt //
+               	 <span class="ref">VaiJiv_3.37</span></p>
+            	
+            <p id="VaiJiv_3.38">
+               	  kuvalayadalanetre taṇḍulīyasya mūlaṃ <br />rasajam api samāṃśaṃ bheṣajadvandvam etat /<br />
+               	  himakaramukhi yuktaṃ taṇḍulāmbhomadhubhyāṃ <br />pradaradaram udīrṇaṃ sundarīṇāṃ nihanti //
+               	 <span class="ref">VaiJiv_3.38</span></p>
+            	
+            <p id="VaiJiv_3.39">
+               	  mūlaṃ gavākṣyāḥ smaramandirasthaṃ <br />puṣpāvarodhasya vadhaṃ karoti /<br />
+               	  abhartṛkāṇāṃ vyabhicāriṇīnāṃ <br />yogo 'yam eva drutagarbhapāte //
+               	 <span class="ref">VaiJiv_3.39</span></p>
+            	
+            <p id="VaiJiv_3.40">
+               	  madhvājyayaṣṭīmadhuluṅgamūlaṃ <br />nipīya sūte sumukhī sukhena /<br />
+               	  sataṇḍulāmbhaḥsitadhānyakalka-<br />pānād vamir gacchati garbhiṇīnām //
+               	 <span class="ref">VaiJiv_3.40</span></p>
+            	
+            <p id="VaiJiv_3.41">
+               	  dhānyābdāmbudvayāralvamṛtaviṣabalāreṇuduḥsparśaśītaṃ <br />garbhiṇyāḥ sūtikāyā api rudhirarugāmātisārajvaraghnam /<br />
+               	  mustāśṛṅgīviṣāṇāṃ praśamayati rajaḥ sevitaṃ kṣaudrayuktaṃ <br />bālānāṃ vāntikāsajvaram ativiṣajaṃ kṣaudrayuktaṃ rajo vā //
+               	 <span class="ref">VaiJiv_3.41</span></p>
+            	
+            <p id="VaiJiv_3.42">
+               	  kumārātisāre kaṣāyaḥ samaṅgā-<br />madāśārivārodhrajaḥ kṣaudrayuktaḥ /<br />
+               	  madārodhrabilvābdamañjiṣṭhavālā-<br />kaṣāyo 'valeho 'tha vā kṣaudrayuktaḥ //
+               	 <span class="ref">VaiJiv_3.42</span></p>
+            	
+            <p id="VaiJiv_3.43">
+               	  kṛṣṇāruṇāmustakaśṛṅgikāṇāṃ <br />tulyena cūrṇena samākṣikena /<br />
+               	  jvarātisāraḥ praśamaṃ prayāti <br />saśvāsakāsaḥ savamiḥ śiśūnām //
+               	 <span class="ref">VaiJiv_3.43</span></p>
+            	
+            <p>iti śrīdivākarasūnulolimbarājaviracite vaidyajīvane vilāsinīrogapratīkāro nāma tṛtīyo
+               vilāsaḥ
+            </p>
+            
+         </div>
+         
+         <div id="d1e2613">
+            	
+            <h3>caturtho vilāsaḥ</h3>
+            	
+            <p id="VaiJiv_4.1">
+               	  vidvallalāmalolimbanṛpater vāgvilāsataḥ /<br />
+               	  tṛptir na jāyate svāmin punaḥ kiñcin nirūpaya //
+               	 <span class="ref">VaiJiv_4.1</span></p>
+            	
+            <p id="VaiJiv_4.2">
+               	  kṣayotpattivināśāya siṃhāsyaḥ sevyatāṃ sadā /<br />
+               	  bahūnām asya viśvāso jātaḥ kamalalocane //
+               	 <span class="ref">VaiJiv_4.2</span></p>
+            	
+            <p id="VaiJiv_4.3">
+               	  ayi sundari sundarānane <br />rucirāpāṅgataraṅgalocane /<br />
+               	  navanītamadhūpalāśanād <br />uḍurājasya bhavet kṣayakṣayaḥ //
+               	 <span class="ref">VaiJiv_4.3</span></p>
+            	
+            <p id="VaiJiv_4.4">
+               	  ayi komalakuntalāvalī-<br />vilasanmālatikāmanohare /<br />
+               	  triphalājanitaḥ kaṣāyakaḥ <br />sahito guggulunā vraṇaṃ jayet //
+               	 <span class="ref">VaiJiv_4.4</span></p>
+            	
+            <p id="VaiJiv_4.5">
+               	  madanajvarakārināmadheye <br />rasike ratnakale prabhātakāle /<br />
+               	  śiśirāmbu piban madhuprayuktaṃ <br />gaṇanātho 'pi bhavet kilāsthiśeṣaḥ //
+               	 <span class="ref">VaiJiv_4.5</span></p>
+            	
+            <p id="VaiJiv_4.6">
+               	  trikaṭutriphalākaliṅganimba-<br />trivṛdugrākhadirodbhavaḥ kaṣāyaḥ /<br />
+               	  paśumūtrasamanvito nipītaḥ <br />kṛmikoṭīr api hanti hanta vegāt //
+               	 <span class="ref">VaiJiv_4.6</span></p>
+            	
+            <p id="VaiJiv_4.7">
+               	  jātīpravālatriphalāyavāsa-<br />dārvītriyāmāmṛtagostanīnām /<br />
+               	  kaṣāyakaḥ kṣaudrayuto nihanti <br />mukhasya pākaṃ mukhapaṅkajasthaḥ //
+               	 <span class="ref">VaiJiv_4.7</span></p>
+            	
+            <p id="VaiJiv_4.8">
+               	  sphuratsundarodāramandāradāma-<br />prakāmābhirāmastanadvandvamadhye /<br />
+               	  haridrārajomākṣikābhyāṃ vimiśraḥ <br />śivāyāḥ kaṣāyaḥ pramehāpahārī //
+               	 <span class="ref">VaiJiv_4.8</span></p>
+            	
+            <p id="VaiJiv_4.9">
+               	  chinnāraso 'pi madhunā nānāmehanivāraṇaḥ /<br />
+               	  vadanti bhiṣajaḥ sarve śaradindunibhānane //
+               	 <span class="ref">VaiJiv_4.9</span></p>
+            	
+            <p id="VaiJiv_4.10">
+               	  ratikelikalākuśale vilasad-<br />valaye malayena samānakuce /<br />
+               	  amṛtāvratatī ruvutailayutā <br />dalayed anilāsram udārataram //
+               	 <span class="ref">VaiJiv_4.10</span></p>
+            	
+            <p id="VaiJiv_4.11">
+               	  madhūtthāruṇāgopikādevadhūpaiḥ <br />śṛtaṃ vātaraktāpahaṃ piṇḍatailam /<br />
+               	  kaṣāyaḥ sahairaṇḍatailena pītas <br />tathairaṇḍasiṃhāsyavatsādanīnām //
+               	 <span class="ref">VaiJiv_4.11</span></p>
+            	
+            <p id="VaiJiv_4.12">
+               	  laśunajīrakagandhakasaindhava-<br />trikaṭurāmaṭhacūrṇam idaṃ samam /<br />
+               	  sapadi nimburasena viṣūcikāṃ <br />harati bho ratibhogavicakṣaṇe //
+               	 <span class="ref">VaiJiv_4.12</span></p>
+            	
+            <p id="VaiJiv_4.13">
+               	  ruglājābdavaṭaprarohamadhukair madhvanvitaiḥ kalpitā-<br />py ugrām āśu tṛṣaṃ bhṛśaṃ praśamayed āsyāntarasthā vaṭī /<br />
+               	  elālājalavaṅganāgacapalāśrīkolamajjāmbuda-<br />śrīkhaṇḍaṃ madhukhaṇḍayuk praśamayed vāntiṃ tridoṣodbhavām //
+               	 <span class="ref">VaiJiv_4.13</span></p>
+            	
+            <p id="VaiJiv_4.14">
+               	  ramāramyākāre caturavacane cārucikure <br />vimūlyālaṃkāre karatalalasannīlanaline /<br />
+               	  nidāghaḥ saṃjātas tava kim u sarojanmakadalī-<br />dalaiḥ kḷpte talpe svapihi laghu sāhityanipuṇe //
+               	 <span class="ref">VaiJiv_4.14</span></p>
+            	
+            <p id="VaiJiv_4.15">
+               	  rasadvijīradviniśāmarīca-<br />sindūradaityendramanaḥśilānām /<br />
+               	  cūrṇīkṛtānāṃ ghṛtamiśritānāṃ <br />tribhiḥ pralepair apayāti pāmā //
+               	 <span class="ref">VaiJiv_4.15</span></p>
+            	
+            <p id="VaiJiv_4.16">
+               	  pathyātilāruṣkarakaiḥ samāṃśair <br />guḍena yuktaiḥ saha modakaḥ syāt /<br />
+               	  durnāmapāṇḍujvarakuṣṭhakāsa-<br />śvāsaṃ jayet plīharujaṃ ca tadvat //
+               	 <span class="ref">VaiJiv_4.16</span></p>
+            	
+            <p id="VaiJiv_4.17">
+               	  madanasaindhavaguggulugairikā-<br />jyamadhuvālakapaṅkavilepanāt /<br />
+               	  sphuṭitam apy akhilaṃ caraṇadvayaṃ <br />vikacatāmarasapratimaṃ bhavet //
+               	 <span class="ref">VaiJiv_4.17</span></p>
+            	
+            <p id="VaiJiv_4.18">
+               	  bhallātakāsīsahutāśadanti-<br />mūlair guḍasnugravidugdhadigdhaiḥ /<br />
+               	  lepocitair gacchati gaṇḍamālā <br />samīravegād iva meghamālā //
+               	 <span class="ref">VaiJiv_4.18</span></p>
+            	
+            <p id="VaiJiv_4.19">
+               	  bhūnimbanimbatriphalāpaṭola-<br />vāsāmṛtāparpaṭabhṛṅgarājaiḥ /<br />
+               	  kvātho haret kṣaudrayuto 'mlapittaṃ <br />cittaṃ yathā vāravadhūkaṭākṣaḥ //
+               	 <span class="ref">VaiJiv_4.19</span></p>
+            	
+            <p id="VaiJiv_4.20">
+               	  hiṅgukṣāradvayasaindhavasauvarcalaviḍapippalīgranthika-<br />citrakacavyamarīcakarcūrakustumbarībarbarītittiḍīka-<br />ṣaḍgranthājamodāmlavetasapuṣkaramūlanāgarakarañja-<br />jīrakaharītakīvṛkīhapuṣābhiḥ viracitaṃ cūrṇam idam /<br />
+               	  aśmarīhṛdayagalarogavibandhādhmānahikkāvardhma-<br />gudajagulmasakalaśūlaplīhapāṇḍuśvasanakasanadahana-<br />sadanavadanavirasatāvirataye samarthataram //
+               	 <span class="ref">VaiJiv_4.20</span></p>
+            	
+            <p id="VaiJiv_4.21">
+               	  gomūtreṇa kṛtaḥ kaliṅgakaṭukāpāṭhāvṛṣābdāmara-<br />kvāthaḥ kṣaudrayuto nihanti sakalān kaṇṭhāmayān utkaṭān /<br />
+               	  pāṭhātejavatīrasāñjanayavakṣāropakulyāniśā-<br />devānāṃ madhunā kṛtā mukhadhṛtā tadvad vaṭī vartate //
+               	 <span class="ref">VaiJiv_4.21</span></p>
+            	
+            <p id="VaiJiv_4.22">
+               	  prāṇeśvara priyatame vada kiṃ vadāmi <br />tat kānta yat kim u mṛgākṣi yad agnikāri /<br />
+               	  samyak śṛṇu praṇayini praṇayiñ śṛṇomi <br />khādet sa nimburasasaindhavaśṛṅgiberam //
+               	 <span class="ref">VaiJiv_4.22</span></p>
+            	
+            <p id="VaiJiv_4.23">
+               	  hiṅguvyoṣājamodādvijaraṇalavaṇaṃ prāg bhajet sājyabhuktaṃ <br />kuryāj jājvalyamānaṃ jvalanam anilajaṃ gulmam etan nihanti /<br />
+               	  vṛkṣāmlāmlāgnipathyātrikaṭupaṭuviḍaṃ jantujij jīrayugmaṃ <br />dīpyau sauvarcalaṃ cācalam api sakalaṃ bhasmasāccarkarīti //
+               	 <span class="ref">VaiJiv_4.23</span></p>
+            	
+            <p id="VaiJiv_4.24">
+               	  śuṇṭhī bāṇamitā kaṇārṇavamitā dīpyād yavānyāḥ kramād <br />bhāgānāṃ tritayaṃ dvayaṃ ca lavaṇād bhāgaḥ śivaitatsamā /<br />
+               	  koṣṭhāṭoparugāmagulmamalahṛl lolimbarājoditaś <br />cūrṇo 'drīn api bhasmasāt prakurute kiṃ bhojanaṃ bho janāḥ //
+               	 <span class="ref">VaiJiv_4.24</span></p>
+            	
+            <p id="VaiJiv_4.25">
+               	  śigrudīpyavaruṇādviyāminī-<br />kuñjarāśanakṛtaḥ kaṣāyakaḥ /<br />
+               	  bolacūrṇasahito 'ntar utthitaṃ <br />vidradhiṃ vidalayed asaṃśayam //
+               	 <span class="ref">VaiJiv_4.25</span></p>
+            	
+            <p id="VaiJiv_4.26">
+               	  kamalakuḍmalakalpapayodhara-<br />dvayasamāhitahāramanohare /<br />
+               	  hṛdayarukṣu hitaṃ ghṛtam arjuna-<br />svarasakalkasusādhitam aṅgane //
+               	 <span class="ref">VaiJiv_4.26</span></p>
+            	
+            <p id="VaiJiv_4.27">
+               	  so 'yaṃ sugandhimukulo bakulo vibhāti <br />vṛkṣāgraṇīḥ priyatame madanaikabandhuḥ /<br />
+               	  yasya tvacaiva ciracarvitayā nitāntaṃ <br />dantā bhavanti capalā api vajratulyāḥ //
+               	 <span class="ref">VaiJiv_4.27</span></p>
+            	
+            <p id="VaiJiv_4.28">
+               	  bhindanti ke kuñjarakumbhapāliṃ <br />kim avyayaṃ vakti rate navoḍhā /<br />
+               	  sambodhanaṃ nuḥ kim u raktapittaṃ <br />nihanti vāmoru vada tvam eva //
+               	 <span class="ref">VaiJiv_4.28</span></p>
+            	
+            <p id="VaiJiv_4.29">
+               	  viśvāśivākaṇācūrṇaḥ sasitaḥ samadhuḥ smṛtaḥ /<br />
+               	  nasyavad viśvaguḍayor hikkādhikkārakārakaḥ //
+               	 <span class="ref">VaiJiv_4.29</span></p>
+            	
+            <p id="VaiJiv_4.30">
+               	  durālabhākaṣāyasya ghṛtayuktasya sevanāt /<br />
+               	  bhramaḥ śāmyati govindasmaraṇād iva pātakam //
+               	 <span class="ref">VaiJiv_4.30</span></p>
+            	
+            <p id="VaiJiv_4.31">
+               	  ayi ratnakale kuru mā kalahaṃ <br />kalahaṃsakalatrasamānagate /<br />
+               	  śṛṇu madvacanaṃ vada vaidyamaṇe <br />madirā madirākṣi śucaṃ śamayet //
+               	 <span class="ref">VaiJiv_4.31</span></p>
+            	
+            <p id="VaiJiv_4.32">
+               	  punarnavānāgaradārupathyā-<br />bhallātakacchinnaruhākaṣāyaḥ /<br />
+               	  daśāṅghriyuktaḥ paripeya ūru-<br />stambhe 'tha vā mūtrapuraprayogaḥ //
+               	 <span class="ref">VaiJiv_4.32</span></p>
+            	
+            <p id="VaiJiv_4.33">
+               	  sakṣaudraṃ kuśakāśagokṣuraśivāśamyākapāṣāṇabhid-<br />duḥsparśaṃ parisevitaṃ pariharet sadyo 'śmarīṃ dustarām /<br />
+               	  elāparvatabhicchilājatukaṇācūrṇaṃ guḍenānvitaṃ <br />pītaṃ taṇḍuladhāvanodakayutaṃ syān mūtrakṛcchrāpaham //
+               	 <span class="ref">VaiJiv_4.33</span></p>
+            	
+            <p id="VaiJiv_4.34">
+               	  vāsailāmadhukāśmabhedacapalākauntīkṣurairaṇḍajaḥ <br />kvāthaḥ sāśmajatur jayaty atitarāṃ kṛcchrāśmarīṃ śarkarām /<br />
+               	  kṛcchre dāharujāṃ vibandhasahite kvātho 'śmabhidgokṣurā-<br />nantāragvadhacetakīviracito madhvanvitaḥ śasyate //
+               	 <span class="ref">VaiJiv_4.34</span></p>
+            	
+            <p id="VaiJiv_4.35">
+               	  nyagrodhāṅkurakuṣṭhalodhravikasāśyāmāmasūrāruṇā-<br />śrīkhaṇḍaiḥ payasānvitair viracitaṃ vyaṅgaghnam udvartanam /<br />
+               	  liptaṃ saptadinaṃ masūrarajasā sarpiḥpayaḥśālinā <br />vaktraṃ śāradacandrasundarataraṃ vyaṅgasya bhaṅgād bhavet //
+               	 <span class="ref">VaiJiv_4.35</span></p>
+            	
+            <p id="VaiJiv_4.36">
+               	  iṅgudyāḥ phalamajjako jalayuto lepān mukhe kāntido <br />rodhrogrādhanikā nihanti piṭakāṃs tāruṇyajāṃl lepanāt /<br />
+               	  hāryaṃ raktam aruṃṣikāruji hito mūtreṇa lepo 'tha vā <br />piṇyākasya purātanasya śakṛtaḥ pādāyudhasya dhruvam //
+               	 <span class="ref">VaiJiv_4.36</span></p>
+            	
+            <p id="VaiJiv_4.37">
+               	  tailaṃ śopham apāram apy apahared vṛścīrarāsnāmahā-<br />bhaiṣajyāmaraśuṣkamūlakayutaṃ bimbīrase sādhitam /<br />
+               	  tadvad viśvakirātatiktam atha vā pāṭhāniśādhāvanī-<br />mustājīrakapañcakolakarajaḥ saṃmiśram uṣṇāmbunā //
+               	 <span class="ref">VaiJiv_4.37</span></p>
+            	
+            <p id="VaiJiv_4.38">
+               	  ugrāpāṭhāpaṭolauṣadharuvukajaṭāśigrudadrughnakuṣṭhair <br />dhānyāmlena prapiṣṭaiḥ praśamayati mahāmūrdharogān aśeṣān /<br />
+               	  patraṃ pakvaṃ ghṛtāktaṃ ravibhavam anale tāpitaṃ pīḍayet tat <br />toyaṃ karṇe niṣiktaṃ dalayati sakalaṃ karṇaśūlaṃ samūlam //
+               	 <span class="ref">VaiJiv_4.38</span></p>
+            	
+            <p id="VaiJiv_4.39">
+               	  ghṛtatīkṣṇayutaḥ surasāsvaraso <br />laghurājamṛgāṅka iti prathitaḥ /<br />
+               	  apahanty anilān sabalān bahulān <br />nijabhaktaripūn iva cakradharaḥ //
+               	 <span class="ref">VaiJiv_4.39</span></p>
+            	
+            <p id="VaiJiv_4.40">
+               	  cūrṇāḥ kaṣāyā guṭikā ghṛtāni <br />tailāni bhāgena ca yojitāni /<br />
+               	  vilāsināṃ vātavināśanāya <br />vilāsinīnāṃ parirambhaṇāni //
+               	 <span class="ref">VaiJiv_4.40</span></p>
+            	
+            <p id="VaiJiv_4.41">
+               	  amṛtam amṛtajaṃ sitāsametaṃ <br />guṇavati pittam apākaroti sadyaḥ /<br />
+               	  taruṇa iva nitambinīnitambā-<br />mbaram atanujvarajarjarīkṛtāṅgaḥ //
+               	 <span class="ref">VaiJiv_4.41</span></p>
+            	
+            <p id="VaiJiv_4.42">
+               	  kaphād bhavati bho bhīru chinnākvātho madhūdaraḥ /<br />
+               	  asyārtho labhyate naiva tanvaṅgi tava madhyavat //
+               	 <span class="ref">VaiJiv_4.42</span></p>
+            	
+            <p>iti lolimbarājaviracite vaidyajīvane rājayakṣmādirogapratīkāro nāma caturtho vilāsaḥ</p>
+            
+         </div>
+         
+         <div id="d1e3221">
+            	
+            <h3>pañcamo vilāsaḥ</h3>
+            	
+            <p id="VaiJiv_5.1">
+               	  tāmbūlaṃ madhu kusumasrajo vicitrāḥ <br />kāntāraṃ sutaruvanaṃ vilāsavatyaḥ /<br />
+               	  gītāni śravaṇaharāṇi miṣṭam annaṃ <br />klībānām api janayanti pañcabāṇam //
+               	 <span class="ref">VaiJiv_5.1</span></p>
+            	
+            <p id="VaiJiv_5.2">
+               	  sahitaṃ ghṛtena madhunā madhukaṃ <br />pariṣecitaṃ pibati yo 'nu payaḥ /<br />
+               	  navasubhruvāṃ sukhakaraḥ sa pumān <br />bahuvīryapūraparipūrṇatanuḥ //
+               	 <span class="ref">VaiJiv_5.2</span></p>
+            	
+            <p id="VaiJiv_5.3">
+               	  amṛtāmalakatrikaṇṭakānāṃ <br />haviṣā śarkarayā niṣevaṇena /<br />
+               	  ajarā amarā apāravīryā <br />alakeśā aditeḥ sutā abhūvan //
+               	 <span class="ref">VaiJiv_5.3</span></p>
+            	
+            <p id="VaiJiv_5.4">
+               	  uccaṭāmarkaṭīgokṣuraiś cūrṇitaiḥ <br />śarkarādugdhasaṃmiśritaiḥ pācitaiḥ /<br />
+               	  sevitair vārddhake mānavo māninī-<br />mānam ucchedayet kiṃ punar yauvane //
+               	 <span class="ref">VaiJiv_5.4</span></p>
+            	
+            <p id="VaiJiv_5.5">
+               	  bhuktvoccaṭāṃ kṣīrayutāṃ vilāsī <br />bhuṅkte śataṃ sundari sundarīṇām /<br />
+               	  tvaṃ tāvad ekāsi mayā tu sādya <br />bhuktā ratau paśya kutūhalaṃ me //
+               	 <span class="ref">VaiJiv_5.5</span></p>
+            	
+            <p id="VaiJiv_5.6">
+               	  cūrṇaṃ ghṛtakṣaudrayutaṃ rasaiḥ svair <br />vibhāvitāyā bahudhā vidāryāḥ /<br />
+               	  niṣevyamāno 'nudinaṃ vilāsī <br />daśāṅganābhiḥ saha raṃramīti //
+               	 <span class="ref">VaiJiv_5.6</span></p>
+            	
+            <p id="VaiJiv_5.7">
+               	  sahitaṃ ghṛtadugdhābhyāṃ vidāriprabhavaṃ rajaḥ /<br />
+               	  udumbaramitaṃ bhuktvā vṛddho 'pi taruṇāyate //
+               	 <span class="ref">VaiJiv_5.7</span></p>
+            	
+            <p id="VaiJiv_5.8">
+               	  saubhāgyapuṣṭibalaśukravivardhanāni <br />kiṃ santi no bhuvi bahūni rasāyanāni /<br />
+               	  kandarpavardhini paraṃ tu sitājyayuktād <br />dugdhād ṛte mama na ko 'pi mataḥ prayogaḥ //
+               	 <span class="ref">VaiJiv_5.8</span></p>
+            	
+            <p id="VaiJiv_5.9">
+               	  adhunā brūmahe sadyaś camatkārakarān rasān /<br />
+               	  yato na nīrasā bhāti kavitākulakāminī //
+               	 <span class="ref">VaiJiv_5.9</span></p>
+            	
+            <p id="VaiJiv_5.10">
+               	  pathyākaṇārkaviṣatindukadantibīja-<br />tiktātrivṛdrasabalīn sadṛśān vimardya /<br />
+               	  dhūrtāmbunā sakalavāsaram eṣa sūtaḥ <br />syād viśvatāpaharaṇo 'bhinavajvaraghnaḥ //
+               	 <span class="ref">VaiJiv_5.10</span></p>
+            	
+            <p id="VaiJiv_5.11">
+               	  śulbaṃ gandhakaṭaṅkaṇau ca garalaṃ tutthaṃ rasaṃ kharparaṃ <br />tālaṃ tulyam idaṃ vimardya ghaṭikāmātraṃ suṣevyārasaiḥ /<br />
+               	  sūtaḥ syāt tripurāriṇā viracitaḥ śītārir itthaṃ smṛto <br />guñjājājisitāyutaḥ praśamayed ekāhikādīn jvarān //
+               	 <span class="ref">VaiJiv_5.11</span></p>
+            	
+            <p id="VaiJiv_5.12">
+               	  marīcabalihiṅgulair garalapippalīṭaṅkaṇaiḥ <br />suvarṇabhavabījakaiḥ samalavair dinārdhāvadhi /<br />
+               	  jayāsvarasamarditaiḥ kanakasundaraḥ sundari <br />smṛto grahaṇikājvarātisṛtivahnimāndyāpahaḥ //
+               	 <span class="ref">VaiJiv_5.12</span></p>
+            	
+            <p id="VaiJiv_5.13">
+               	  lohābhrārkarasaṃ samaṃ dviguṇitaṃ gandhaṃ pacet kolikā-<br />kāṣṭhāgnau mṛdule nidhāya sakalaṃ lohasya pātre bhiṣak /<br />
+               	  sarvaṃ gomayamaṇḍale vinihitaṃ rambhādale vinyaset <br />tasyordhvaṃ kadalīdalaṃ drutataraṃ vaidyeśvaro nikṣipet //
+               	 <span class="ref">VaiJiv_5.13</span></p>
+            	
+            <p id="VaiJiv_5.14">
+               	  syāt pañcāmṛtaparpaṭī grahaṇikāyakṣmātisārajvara-<br />strīrukpāṇḍugarāmlapittagudajakṣunmāndyavidhvaṃsinī /<br />
+               	  grahaṇyām anupānaṃ ca hiṅgusaindhavajīrakam <br />jīrakaṃ pāṇḍugarayor itareṣu svayuktitaḥ //
+               	 <span class="ref">VaiJiv_5.14</span></p>
+            	
+            <p id="VaiJiv_5.15">
+               	  vacāviśvājīroṣaṇagaralabāhlīkadahana-<br />tvacāṃ kāryā vaṭyaś caṇakatulitā mārkavarasaiḥ /<br />
+               	  yathā bhānor bhāsas timiranikaraṃ bhāmini tathā <br />haranty etāḥ śūlāny anilam analaglānim api ca //
+               	 <span class="ref">VaiJiv_5.15</span></p>
+            	
+            <p id="VaiJiv_5.16">
+               	  sāmānabhāge baliśūlibīje <br />tayoḥ samānaṃ kanakasya bījaṃ /<br />
+               	  dhattūratailena vimardya samyag <br />vilāsinīvallabhanāmadheyaḥ //
+               	 <span class="ref">VaiJiv_5.16</span></p>
+            	
+            <p id="VaiJiv_5.17">
+               	  sūto bhaved vallayugapramāṇaḥ <br />sitāyuto mehasamūhahārī /<br />
+               	  vīryasya bandhaṃ kurute narāṇāṃ <br />nihanti darpaṃ ca sulocanānām //
+               	 <span class="ref">VaiJiv_5.17</span></p>
+            	
+            <p id="VaiJiv_5.18">
+               	  śūle hiṅgu ghṛtānvitaṃ madhuyutā kṛṣṇā purāṇajvare <br />vāte sājyarasonakaḥ śvasanake kṣaudrānvitaṃ tryūṣaṇam /<br />
+               	  śīte vyālalatādalaṃ samaricaṃ mehe varā sopalā <br />doṣāṇāṃ tritaye 'nupānam ucitaṃ sakṣaudram ārdrodakam //
+               	 <span class="ref">VaiJiv_5.18</span></p>
+            	
+            <p id="VaiJiv_5.19">
+               	  ghanaparpaṭakaṃ jvare grahaṇyāṃ <br />mathitaṃ hema gare vamīṣu lājāḥ /<br />
+               	  kuṭajo 'tisṛtau vṛṣo 'srapitte <br />gudakīleṣv analaḥ kṛmau kṛmighnaḥ //
+               	 <span class="ref">VaiJiv_5.19</span></p>
+            	
+            <p id="VaiJiv_5.20">
+               	  nārāyaṇaṃ bhajata re jaṭhareṇa yuktā <br />nārāyaṇaṃ bhajata re pavanena yuktāḥ /<br />
+               	  nārāyaṇaṃ bhajata re bhavabhītiyuktā <br />nārāyaṇāt parataraṃ na hi kiñcid asti //
+               	 <span class="ref">VaiJiv_5.20</span></p>
+            	
+            <p id="VaiJiv_5.21">
+               	  āyurvedavidāṃ vicārasamaye dhanvantariḥ kevalaṃ <br />sīmā gānavidāṃ divākarasudhāmbhodhitriyāmāpatiḥ /<br />
+               	  uttaṃsaḥ kavitākṛtāṃ matimatāṃ bhūbhṛtsabhābhūṣaṇaṃ <br />kāntoktyākṛta vaidyajīvanam idaṃ lolimbarājaḥ kaviḥ //
+               	 <span class="ref">VaiJiv_5.21</span></p>
+            	
+            <p>iti divākarasūnulolimbarājaviracite vaidyajīvane sakalarogapratīkāro nāma pañcamo
+               vilāsaḥ
+            </p>
+            
+         </div>
+         
+      </div>
+   </body>
+</html>

@@ -1,0 +1,127 @@
+@font-face {
+    font-family: LinuxBiolinumORegular, sans-serif;
+    src: url(fonts/LinBiolinum_R.woff);
+    src: url(fonts/LinBiolinum_RB.woff);
+    src: url(fonts/LinBiolinum_RI.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #f1f1f1; font-family: LinuxBiolinumORegular, Arial, Helvetica, sans-serif;}
+ul {list-style: square;}
+.org-ul { padding-left: 4em; margin-bottom: 10pt; }
+.org-ol { padding-left: 4em; list-style-type: none; }
+h1     { font-weight: bold; font-size: 24px; }
+h2     { font-weight: bold; font-size: 18px; padding-top: 15px; }
+h3     { text-indent: 0em; font-size: 16px; font-weight: bold; }
+h4     { text-indent: 2em; font-size: 13px; font-weight: bold; }
+h5     { text-indent: 4em; font-size: 13px; font-weight: bold;}
+a:link { color: #003967; }
+a:visited { color: #003967; }
+a:hover { color: #003967; }
+a:active { color: #003967; }
+
+
+@media only screen and (max-width: 1500px) {
+    div.introduction {width: auto;}
+}
+
+@media only screen and (max-width: 800px) {
+    div.sidenav {width: 200px}
+    div.header {margin-left: 190px;}
+    div.main {margin-left: 200px; padding-left: 10px; padding-right: 20px; }
+    div.sidenav a, button.dropdown-btn, p.sidenavsubbigger {font-size: 90%; }
+    h4  { text-indent: 0em; }
+    h5  { text-indent: 0em; }
+    .org-ul { padding-left: 2em;}
+    .org-ol { padding-left: .5em;}
+}
+
+@media only screen and (max-height: 700px) {
+    div.sidenav {padding-top: 20px; }
+    div.sidenav a, button.dropdown-btn, p.sidenavsubbigger {font-size: 90%; }
+}
+
+.header {
+    background-color: #003967;
+    padding: 20px 20px 20px 20px;
+    margin-left: 240px;
+    margin-top: -10px;
+    color: #ffffff;
+    width: auto;
+    overflow-x: hidden;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #003967;
+    overflow-x: hidden;
+    padding-top: 131px;
+    line-height: .95;
+}
+
+.sidenav a, .dropdown-btn {
+    padding: 3px 4px 3px 8px;
+    text-decoration: none;
+    color:  #aeb7c6;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-size: 110%;
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+    background-color: #aeb7c6;
+    color: #003967;
+}
+.sidenavsub {
+    margin-left:1em;
+}
+.sidenavsubbigger {
+    font-size: 110%;
+}
+
+.main {
+    margin-left: 250px;
+    font-size: 90%; 
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+.active {
+    background-color: #aeb7c6;
+    color: #003967;
+}
+
+.dropdown-container {
+    display: none;
+    background-color: #aeb7c6;
+    color: #003967;
+    padding-left: 8px;
+    font-size: 100%;
+}
+.dropdown-container a {
+    color: #003967;
+    font-size: 100%;
+}
+.dropdown-container a:hover {
+    text-decoration: underline;
+}
+.downtriangle {
+    float: right;
+    padding-right: 4px;
+    font-size: 60%;
+}
+
+.introduction {
+    width: 1200px;
+}

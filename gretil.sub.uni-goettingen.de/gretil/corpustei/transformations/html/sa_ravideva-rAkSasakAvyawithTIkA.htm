@@ -1,0 +1,814 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Ravideva: Rākṣasakāvya with Ṭīkā (GRETIL)
+	</title><style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style></head>
+   <body>
+      <h1>Ravideva: Rākṣasakāvya with Ṭīkā</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_ravideva-rAkSasakAvyawithTIkA.xml">sa_ravideva-rAkSasakAvyawithTIkA.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         
+      </p>
+      <p class="noindent"><b>Data entry: </b>Christophe Vielle
+      </p>
+      <p class="noindent"><b>Contribution: </b>Christophe Vielle
+      </p>
+      <p class="noindent"><b>Date of this version: </b>2019-06-14
+      </p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id="wit"></if>
+         	  Sources:
+         	
+      </h4>
+      <ul class="dash">
+         <li id="H"><b>H: </b>
+            	    <span class="it">Kāvyarākṣasaṃ saṭīkam</span>, ed. Karl Gustav Hoefer, <span class="it">Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen</span>, Berlin: Besser, 1849, pp. 86-93.
+            	  
+         </li>
+         <li id="C"><b>C: </b>
+            	    <span class="it">Rākṣasakāvyam</span>, ed. Johannes Häberlin, <span class="it">Kāvyasaṃgrahaḥ</span>, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., <span class="it">Kávya-sangraha</span>, Calcutta: W. Thacker, 1847).
+            	  
+         </li>
+         <li id="K"><b>K: </b>
+            	    <span class="it">Vidvadvinodakāvyam</span>, ed. Haridas Hirachand, <span class="it">Kavya Kalapa, Number First</span>, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.
+            	  
+         </li>
+         <li id="J"><b>J: </b>
+            	    <span class="it">Rākṣasakāvyam</span>, ed. Pandit Jibananda Vidyasagara, <span class="it">Kavyasangraha</span>, Calcutta: New Indian Press, 1872, pp. 572-576 (based on <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a>; <span class="b">Jc</span> = new ed. [‘3rd’] by the same together with his own <span class="it">vyākhyā, Kāvyasaṃgrahaḥ</span>, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).
+            	  
+         </li>
+         <li id="P"><b>P: </b>
+            	    <span class="it">Rākṣasakāvyam</span>, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’;
+            1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed.
+            by the same with the title <span class="it">saṭīkaṃ niśacarakāvyam</span> was already issued in śake 1806 = AD 1885).
+            	  
+         </li>
+         <li id="M"><b>M: </b>
+            	    <span class="it">Buddhivinodakāvyam [saṭīkam]</span>, ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, <span class="it">Indian Historical Quarterly</span> 12, 1936, pp. 692-700.
+            	  
+         </li>
+         <li id="D"><b>D: </b>[<span class="it">Rākṣasakāvyam</span>], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, <span class="it">IHQ</span> 13, 1937, pp. 172-176.
+            	  
+         </li>
+         <li id="T"><b>T: </b>
+            	    <span class="it">Rākṣasakāvyam [saṭīkam]</span>, ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library
+            Series no. 377, 1997.
+            	  
+         </li>
+         <li id="U"><b>U: </b>
+            	    <span class="it">Kāvyarākṣasam [saṭīkam]</span>, University of Pennsylvania Ms. Col. 390, item 1505, online: <a href="http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">http://hdl.library.upenn.edu/1017/d/medren/9967589903503681</a>
+            	  .
+         </li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen
+      </p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	  If anyone wishes to assert copyright over this file, please contact the GRETIL
+         management at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	  The file will be immediately removed pending resolution of the claim.
+      </p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><b>quotes from base text</b></li>
+         <li><span class="analysis">analysis</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         	  
+         <p xmlns="http://www.w3.org/1999/xhtml">The text of the poem (‘RaKa’) has been established on the basis of Hoefer’s text compared
+            with the text of several other available editions or manuscripts (see <a href="#wit" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93. Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847). Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139. Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907). Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885). Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700. [Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176. Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997. Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">list</a>). Each stanza is followed by a paragraph providing the word-by-word and variant readings.
+            The text of the <span class="it">ṭīkā</span> (‘RaKaT’) (whose ascription to the poet himself remains doubtful in its present state*)
+            relies on Hoefer’s edition only, slightly corrected when needed, and with a few additions
+            in brackets (‘[ … ]’).
+         </p>
+         	  
+         <p xmlns="http://www.w3.org/1999/xhtml">The following editions have not been collated:
+            	  
+            <ul class="dash">
+               	    
+               <li>lith. ed. with an anonymous gloss, 10 ff, Benares, VS 1931 = AD 1874, and VS 1942
+                  = AD 1885;
+               </li>
+               	    
+               <li>Bombay ed. with Sanskrit commentary and Hindi transl., 31 pp., <span class="it">śake</span> 1816 = AD 1895 (Cat. Barnett BM 1892-1906, p. 284), apparently the same as the one
+                  thereafter issued at the Lakṣmīveṅkaṭeśvara Press, VS 1959 = AD 1902, and the Śrīveṅkaṭeśvara
+                  Press, VS 1972 = AD 1915;
+               </li>
+               	    
+               <li>ed. with Hindi transl. and com., Narsinghpur: Sarasvati Vilasa Press, 1908 (Cat. IO
+                  1951, p. 1310);
+               </li>
+               	    
+               <li>ed. with an Hindi word-by-word interpretation and translation and an English translation
+                  by Raja Pṛthvīpāla Siṃha of Surajpur, and a Sanskrit commentary by Sītārāma Śāstrī,
+                  Allahabad: Indian Press, VS 1966 = AD 1909 (Cat. Barnett BM 1906-28, pp. 840-1, IO
+                  1951, p. 1310);
+               </li>
+               	    
+               <li>ed. in Telugu script, with a Telugu commentary, Madras: Vavilla Press, 1926 (Cat.
+                  IO 1951, p. 1310);
+               </li>
+               	    
+               <li>ed. with commentary by Yaska Śrīnavakiśorakara Śāstrī, Benares: Chowkhamba Sanskrit
+                  Series Office, Haridas Sanskrit Series no. 73, 1938 (VS 1995), 2nd ed. 1965.
+               </li>
+               	  
+            </ul>
+            	  
+         </p>
+         	
+         	
+         	  
+         <p xmlns="http://www.w3.org/1999/xhtml">(*) Both the text and the <span class="it">ṭīkā</span> are ascribed to Ravideva in the colophons of the Mss. of Berlin (Cat. Weber 1853,
+            p. 170 no. 580, cf. ed. Hoefer), Jammu (Cat. Stein p. 72 no. 1116 = S.RanbirS.R.I.
+            Descr. Cat. II, 1973, pp. 318-9 no. 139 — the text itself of the colophon of “Jammu
+            MS. no. 1118 [sic]” is to be found in Keith Cat. IO 1935 II, p. 1116 fn. 1, therefrom
+            reproduced by Gode <span class="it">JIH</span> 19, 1940, p. 317 fn. 1 = <span class="it">St. Ind. Lit. Hist.</span> I 1953, p. 200 fn. 1), Poona (B.O.R.I. Descr. Cat. 13/2, 1942, p. 275 no. 610 = Peterson’s
+            Report VI 1895-98, p. 87 no. 328), and also, following the NCC (23, 2011, p. 194)
+            where Ravideva’s commentary is entitled <span class="it">Sajjanānandadāyinī</span>, Ahmedabad (L.D.I. Cat. II 1965, pp. 642-3 no. 5011), Baroda (Alph. Ind. II 1950,
+            pp. 1032-3 no. 638), Hoshiarpur (V.V.R.I. Cat. I 1959, p. 225 no.? 5 mss.; now in
+            Lalchand Research Library, DAV College, Chandigarh?), Jaipur (R.O.R.I. Cat. XI 1984,
+            p.? no. 3635), Lahore (PUL Cat. II 1941, p. 265 no. 4560-61) and Ujjain (Cat. II 1941,
+            p. 32 no.?).
+            	  
+         </p>
+         	
+         
+      </notesStmt>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         	
+         <p>atha rākṣasakāvyaṃ saṭīkam ||</p>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_1">
+                     	  kaś cid vanaṃ bahuvanaṃ vicaran vayaḥstho <br />vaśyāṃ vanātmavadanāṃ vanitāṃ vanārdrām |<br />
+                     	  tarvaryaripradam udīkṣya samutthitaṃ khe <br />nā gām imāṃ madakalaḥ sakalāṃ babhāṣe ||
+                     	 <span class="ref">RaKa_1</span></p>
+                  <div class="app">— vayaḥstho <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> (com.) : vayastho <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> (<a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a>) <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">1. kaś cit | vanam | bahu-vanam | vicaran | vayaḥ-sthaḥ | vaśyām | vana+ātma-vadanām
+                  | vanitām | vana+ārdrām | tarv-ary-ari-pradam | udīkṣya samutthitam | khe | nā | gām
+                  imām | mada-kalaḥ | sa-kalām | babhāṣe ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e911">
+            	  
+            <p id="RaKaT_1">śrīgaṇeśāya nāmaḥ | kaś cid iti | <b>kaś cid</b> anirdiṣṭanāmā puruṣaḥ | <b>vanaṃ</b> kānanam | bahutaraṃ vanam udakaṃ yatra tad <b>bahuvanam</b> | <b>vicaran</b> bhraman | <b>vayaḥstho</b> vayasi sthito yuvā | <b>vaśyāṃ</b> bhāryām | kiṃviśiṣṭām | <b>vanātmavadanām</b> | vanaṃ pānīyam | tad ātmā yasya sa candramāḥ | [kṣīrodamathanotpatteḥ |] tena tulyaṃ vadanaṃ yasyāḥ sā vanātmavadanā | tāṃ candravadanām ity arthaḥ | <b>vanitāṃ</b> striyam | <b>vanārdrāṃ</b> pānīyenārdrām ukṣitām | <b>tarvaryaripradaṃ</b> megham | taravo vṛkṣāḥ | teṣām arir agnis tarvaryariḥ | tasyāpy arir udakam | tat
+               pradadātīti tarvaryariprado meghaḥ | tam <b>udīkṣya</b> dṛṣṭvā | <b>samutthitaṃ</b> samutpannam | <b>khe</b> – ākāśe | <b>nā</b> puruṣaḥ | <b>madakalo</b> harṣavibhramaḥ | <b>gāṃ</b> vācam [<b>imāṃ sakalāṃ</b>] samastāṃ <b>babhāṣe</b> – uktavān || <span class="ref">(RaKaT_1)</span></p>
+            	
+         </div>
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_2">
+                     	  paśyābjadṛg giritaṭeṣu kumātṛsāhvān <br />bhūdevarājaripuśatrusamāvadhūtān |<br />
+                     	  vaiśvānarārijaripughnaśarābhibhūtair <br />dṛkśrotraśatrubhir upāsitapuṣpaśobhān ||
+                     	 <span class="ref">RaKa_2</span></p>
+                  <div class="app">— +abja- : +ambu- <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> | upāsita : upāśrita <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">2. paśya | abja-dṛk | giri-taṭeṣu | kumātṛ-sa+āhvān | bhūdeva-rāja-ripu-śatru-sama+avadhūtān
+                  | vaiśvānara+ari-ja-ripu-ghna-śara+abhibhūtaiḥ | dṛk-śrotra-śatrubhiḥ | upāsita-puṣpa-śobhān
+                  ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e1014">
+            	  
+            <p id="RaKaT_2">paśyābjadṛg iti | he <b>abjadṛk</b> padmalocane | <b>giritaṭeṣu</b> parvatānteṣu | [<b>kumātā</b>] kutsitāmbā | tat<b>sa</b>mānā – <b>āhvā</b> yeṣāṃ tān kadambān ity arthaḥ | <b>bhūdevā</b> brāhmaṇāḥ | teṣāṃ <b>rājā</b> somaḥ | tasya <b>ripu</b>r meghaḥ | [ācchādakatvāt |] tasya <b>śatru</b>r vātaḥ | [viksepaṇatvāt |] ten<b>āvadhūtān</b> [<b>sama</b>ṃ samyak] kampitān ity arthaḥ | <b>vaiśvānaro</b> 'gniḥ | tasy<b>āri</b>r udakam | tatra <b>jā</b>to matsyaḥ | tad<b>ripu</b>ḥ kaivartaḥ [jhaṣāśanaḥ śambarāsuraḥ] | tasya <b>gha</b>takaḥ kāmaḥ [jhaṣadhvajaḥ pradyumnaḥ] | tasya <b>śara</b>ir <b>abhibhūtair</b> <b>dṛkśrotraśatrubhiḥ</b> [cakṣuḥśravobhujair] mayūraiḥ | [taiḥ] sevita<b>puṣpaśobhān</b> [| <b>upāsitā</b> kusumaśrī yeṣāṃ tān kadambān <b>paśya</b>] || <span class="ref">(RaKaT_2)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_3">
+                     	  paśyādrisārasadṛśībhir amūbhir adbhir <br />āplāvayaty amaragub dharaṇīm ahighnaḥ |<br />
+                     	  abdaḥ sitābhir asitaḥ śabalaḥ khagābhir <br />vārjaiḥ sitair iva vibhāti vanaṃ prabuddhaiḥ ||
+                     	 <span class="ref">RaKa_3</span></p>
+                  <div class="app">— adri- : abdhi- <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | -dṛśī° : -dṛśā° <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | dharaṇīm ahighnaḥ : dharaṇīṃ mahimnas <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> | śabalaḥ : °laṃ <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> | -gābhiḥ : -gībhiḥ <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> | vanaṃ : vana- <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">3. paśya | adri-sāra-sadṛśībhiḥ | amūbhiḥ | adbhiḥ | āplāvayati | amara-gup | dharaṇīm
+                  | ahi-ghnaḥ | abdaḥ | sitābhiḥ | asitaḥ śabalaḥ kha-gābhiḥ | vār-jaiḥ sitaiḥ | iva
+                  vibhāti vanam | prabuddhaiḥ ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e1192">
+            	  
+            <p id="RaKaT_3">paśyādrīti | [he bāle <b>paśya</b> | <b>adrisārasadṛśībhiḥ</b>] parvatasāratulyābhiḥ | <b>amūbhiḥ</b> pratyakṣābhiḥ | <b>adbhis</b> toyaiḥ | <b>āplāvayati dharaṇīm</b> | <b>amaragup</b> śakraḥ [devapatiḥ] | ahiṃ vṛtraṃ hatavān <b>ahighnaḥ</b> | <b>abdo</b> meghaḥ | <b>sitābhiḥ</b> śuklābhiḥ [<b>khagābhir</b>] ākāśagābhir balākābhiḥ | <b>asitaḥ</b> kṛṣṇaḥ <b>śabalaś</b> citraḥ | <b>vārjaiḥ</b> [abjaiḥ] kumudaiḥ <b>sitair</b> <b>vanaṃ</b> pānīyaṃ yathā <b>vibhāti</b> [<b>prabuddhair</b>] vikasitaiḥ, tathāyaṃ [megho] vibhāti || <span class="ref">(RaKaT_3)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_4">
+                     	  goṣṭhaṃ ghṛtaṃ sughṛtavāḍbhir amūbhir agryaṃ <br />gobhiḥ samuddharati yad bahudhā himaghnaḥ |<br />
+                     	  tad gavyam ambaragataṃ śikhijātmasaṃsthaṃ <br />viṣyandamānam abhivardhayatīha gojān ||
+                     	 <span class="ref">RaKa_4</span></p>
+                  <div class="app">— -vāḍbhiḥ <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : -vadbhiḥ <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | amūbhir <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : amībhir <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | agryaṃ : agnyaṃ <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> | viṣyanda° <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> : visyanda° <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a>, nisyanda° <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a>, vispanda° <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">4. go-ṣṭham | ghṛtam | su-ghṛta-vāḍbhiḥ | amūbhiḥ | agryam | gobhiḥ | samuddharati
+                  yad bahudhā hima-ghnaḥ | tad gavyam ambara-gatam | śikhija+ātma-saṃstham | viṣyandamānam
+                  abhivardhayati | iha gojān ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e1394">
+            	  
+            <p id="RaKaT_4">goṣṭhaṃ ghṛtam iti | gavi tiṣṭhatīti <b>goṣṭham</b> | <b>ghṛtaṃ</b> pānīyam | suṣṭhu ghṛtaṃ vahantīti <b>sughṛtavāh</b>ā raśmayaḥ | [<b>amūbhis</b>] tābhiḥ | agrebhavam <b>agryam</b> | <b>gobhiḥ</b> – raśmibhiḥ | [<b>yad</b>] <b>samuddharati</b> – ākarṣati | <b>bahudhā</b> bahuprakāram | <b>himaghno</b> raviḥ | goṣu raṣmiṣu bhavaṃ <b>gavyaṃ</b> nīram | <b>ambaragatam</b> ākāśagatam | śikhī vahniḥ | tajjo dhūmaḥ | sa ātmā yasya sa meghaḥ | tatrasthaṃ <b>śikhijātmasaṃstham | tad</b> ghṛtaṃ <b>viṣyandamānam</b> <b>iha</b> bhūtale | <b>gojān</b> [gavi bhūmau jātāṃs] tṛṇādīn <b>abhivardhayatī</b>ti paśya || <span class="ref">(RaKaT_4)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_5">
+                     	  abruṭpalāśanibhadṛg ghanajātmavaktrā <br />vārcasvarebhanibhagā gajadoḥsamoruḥ |<br />
+                     	  sīridhvajaprasavatulyaviṣāhvadāsau <br />nrā saṃgatā pramuditā prasamīkṣya vārdam ||
+                     	 <span class="ref">RaKa_5</span></p>
+                  <div class="app">— abruṭ- <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : abrū- <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> | vārca- <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : cārva- <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a>, vārva- <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> | -ūruḥ <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">Jc</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : -ūrūḥ <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a>, -ūrū <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> | sīri- : sīra- <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> | -dā+ : -dhā+ <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> | nrā saṃgatā : nāśaṃ gatā- <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">Jc</a> ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">5. ab-ruṭ-palāśa-nibha-dṛk | ghanaja+ātma-vaktrā | vārca-svarā | ibha-nibha-gā gaja-doḥ-sama+ūruḥ
+                  | sīri-dhvaja-prasava-tulya-viṣa+āhva-dā | asau | nrā saṃgatā pramuditā prasamīkṣya
+                  vārdam ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e1590">
+            	  
+            <p id="RaKaT_5">abruṭpalāśeti | <b>abruṭpalāśanibhadṛk</b> | apsu rohatīty abruṭ kamalam | [tasya palāśaṃ tannibhe dṛśau yasyāḥ sā |] <b>ghanajātma</b>vadanā | ghane [jīmūte] jātam udakaṃ ghanajam | [tad atmā yasya sa candraḥ | tena tulyaṃ <b>vaktraṃ</b> yasyāḥ sā |] <b>vārcasvarā</b> haṃsasvarā | [vāri caratīti vārcaḥ |] ibhena nibhaṃ gamanaṃ yasyāḥ sā – <b>ibhanibhagā</b> | <b>gajadoḥsamoruḥ</b> – ibhakarasamānāv ūrū [yasyāḥ sā] | <b>sīridhvajaprasavatulyaviṣāhvadā</b> – <b>asau</b> | sīrī balabhadraḥ | tasya dhvajas tālaḥ | tatprasavāni phalāni | tattulyau viṣāhvadau
+               kṣīradau stanau yasyāḥ sā | [viṣaṃ pānīyam āhvā nāma yasya tat viṣāhvaṃ kṣīram |] <b>nrā saṃgatā</b> puruṣeṇa sahitā | <b>pramuditā</b> prahṛṣṭā | <b>prasamīkṣya</b> dṛṣṭvā | <b>vārdaṃ</b> [jaladaṃ] megham || <span class="ref">(RaKaT_5)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_6">
+                     	  sūryāṃśunāmapatir unnatadṛkpragāmī <br />vāṅnāmabhiḥ parivṛto viṣanāmadābhiḥ |<br />
+                     	  ukṣā varaḥ pramuditaḥ pratinānadīti <br />garjantam īkṣaṇahitoccayatulyarūpam ||
+                     	 <span class="ref">RaKa_6</span></p>
+                  <div class="app">— -dṛk-pra- <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> : -dṛpta- <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> | -gāmī : mānī <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> | vāṅ- : vāg- <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> | ukṣā <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> : ukṣṇāṃ <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a>, usrā- <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | varaḥ : -caraḥ <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> |
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">6. sūrya+aṃśu-nāma-patiḥ | unnata-dṛk-pragāmī | vāṅ-nāmabhiḥ parivṛtaḥ | viṣa-nāma-dābhiḥ
+                  | ukṣā varaḥ pramuditaḥ pratinānadīti | garjantam īkṣaṇa-hita+uccaya-tulya-rūpam ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e1777">
+            	  
+            <p id="RaKaT_6">sūryāṃśur iti | sūryāṃśavo raśmayaḥ | tan nāma vidyate yāsāṃ tāḥ <b>sūryāṃśunāmā</b>naḥ | tāsāṃ <b>patir</b> vṛṣabhaḥ | <b>unnatadṛkpragāmī</b> – adhodṛśaṃ [meghaṃ prati] gacchatīti | [<b>vāṅnāmabhir</b>] vāco nāma vidyate yāsāṃ tābhir gobhiḥ <b>parivṛto viṣanāmadābhiḥ</b> kṣīradābhiḥ | viṣaṃ pānīyaṃ tasya nāma vidyate yasya tat kṣīram | <b>ukṣā varo</b> vṛṣabhaḥ | <b>pramuditaḥ</b> prahṛṣṭaḥ | <b>pratinānadīti</b> pratispardhayā nadati | <b>garjantaṃ</b> megham | <b>īkṣaṇahitoccayatulyarūpam</b> | īkṣaṇāni netrāni | tebhyo hitam añjanam, tena – uccayo yasya sa – añjanaparvataḥ, tattulyaṃ rūpaṃ yasya tam | paśyeti saṃbandhaḥ || <span class="ref">(RaKaT_6)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_7">
+                     	  enaṃ payodapatir unnamitaṃ payodaṃ <br />khasthaṃ mahītalagataḥ pratigarjatīva |<br />
+                     	  bhittvāvaniṃ vanaruhākṣi śiroruhābhyāṃ <br />saṃprasthito 'mṛtadharair abhiṣicyamānaḥ ||
+                     	 <span class="ref">RaKa_7</span></p>
+                  <div class="app">— -patir <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : -patim <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> | -namitam : °taḥ <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> | avaniṃ <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> : °nīṃ <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> | - dharair <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : -carair <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">7. enam | payo-da-patiḥ | unnamitam | payo-dam | kha-stham | mahī-tala-gataḥ pratigarjati
+                  + iva | bhittvā + avanim | vana-ruha+akṣi | śiro-ruhābhyām | saṃprasthitaḥ | amṛta-dharaiḥ
+                  | abhiṣicyamānaḥ ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e1947">
+            	  
+            <p id="RaKaT_7">enam iti | he <b>vanaruhākṣi</b> kamalalocane paśyeti saṃbandhaḥ | <b>enaṃ payodam</b> udakadaṃ megham <b>unnamitam</b> avalambamānaṃ <b>khastham</b> ākāśasthaṃ <b>prati garjatīva payodapatiḥ</b> | payodāḥ kṣīradāḥ gāvaḥ | tāsāṃ patir vṛṣabhaḥ | kiṃviśiṣṭaḥ | <b>mahītalagataḥ</b> – bhūsthaḥ | kiṃ kṛtvā | <b>bhittvā</b> vidārya | <b>avaniṃ</b> pṛthvīṃ | kābhyām | <b>śiroruhābhyāṃ</b> śṛṅgābhyām | [<b>saṃprasthitaḥ</b>] sa pathi sthitaḥ pravṛttaḥ | <b>abhiṣicyamānaḥ</b> [abhivṛṣyamāṇaḥ] kaiḥ | <b>amṛtadharair</b> meghaiḥ | amṛtam udakaṃ [dharantīti] || <span class="ref">(RaKaT_7)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_8">
+                     	  srotojavikṣatajabhūdharadhāturūpāḥ <br />khasthāḥ payojadaladṛk śuciśukramāse |<br />
+                     	  māsor nabhasyanabhasor atisaṃpatantas <br />tīvraṃ viṣaṃ viṣadharāḥ parinirvapanti ||
+                     	 <span class="ref">RaKa_8</span></p>
+                  <div class="app">— sroto- <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : reto- <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> | payojadala- <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> : payodajala- <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> : payojalasa- <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> | māsor : māse <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> | -saṃpatantaḥ <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> : -sampadantāḥ <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a>, -saṃkṣarantaḥ <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a>, saṃtapantaḥ <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> | pari- <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : prati- <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> || [<a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> changes the whole word-order]
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">8. sroto-ja-vikṣata-ja-bhū-dhara-dhātu-rūpāḥ | kha-sthāḥ payo-ja-dala-dṛk | śuci-śukra-māse
+                  | māsoḥ | nabhasya-nabhasoḥ | atisaṃpatantaḥ | tīvram | viṣam | viṣa-dharāḥ parinirvapanti
+                  ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e2147">
+            	  
+            <p id="RaKaT_8">srotojavikṣateti | he <b>payojadaladṛk</b> kamala[pattra]locane [paśya] | srotasi jātaṃ srotojaṃ suvarṇam | vikṣatāj jātaṃ vikṣatajaṃ rudhiram <b>| bhūdharāḥ</b> parvatāḥ | teṣāṃ dhātavo bhūdharadhātavaḥ suvarṇaraupyādayaḥ | tais tulyaṃ rūpaṃ
+               yeṣāṃ te <b>srotojavikṣatajabhūdharadhāturūpāḥ</b> | [<b>khasthā</b> ākāśe stithāḥ |] <b>śuciśukramāse</b> jyeṣṭhāṣāḍhamāse | [<b>māsor</b>] <b>nabhasyanabhasor</b> bhādrapadaśrāvaṇayoḥ | <b>atisaṃpatantaḥ</b> saṃpattimantaḥ | <b>tīvram</b> asaham | <b>viṣam</b> udakam | <b>viṣadharā</b> meghāḥ | <b>parinirvapanti</b> parikṣipantīty arthaḥ || <span class="ref">(RaKaT_8)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_9">
+                     	  svayonibhakṣadhvajasaṃbhavānāṃ <br />śrutvā ninādaṃ girigahvarasthaḥ |<br />
+                     	  tamo'ribimbapratibimbadhārī <br />virauti kānte pavanāśanāśaḥ ||
+                     	 <span class="ref">RaKa_9</span></p>
+                  <div class="app">— virauti <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : ārauti <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">9. sva-yoni-bhakṣa-dhvaja-saṃbhavānām | śrutvā ninādam | giri-gahvara-sthaḥ | tamo'ri-bimba-pratibimba-dhārī
+                  | virauti kānte | pavana+aśana+āśaḥ ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e2261">
+            	  
+            <p id="RaKaT_9">svayonibhakṣeti | <b>svayonibhakṣo</b> vahniḥ | [svajanma – adharāraṇyām, tāṃ bhakṣayati dahatīti saḥ |] tasya <b>dhvajo</b> dhūmaḥ | tad<b>bhāvā</b> meghāḥ | teṣāṃ <b>ninādaṃ śrutvā</b> [śabdam] ākarṇya | [<b>giri</b>]guhāsu <b>stithaḥ</b> san | <b>tamaso 'ri</b>ś candramāḥ | [tasya maṇḍalam indu<b>bimba</b>m |] tadrūpa<b>pratibimbadhārī</b> [candrakavān] | [<b>virauty</b>] atinadati <b>pavanāśanāśo</b> [vāyubhakṣabhug] mayūraḥ | he <b>kānte</b> paśyeti saṃbandhaḥ || <span class="ref">(RaKaT_9)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_10">
+                     	  goṣṭhaś ca kuṅkumavapuḥ pratirājate 'sau <br />saptādridaityabhujagottamaśatrugopaḥ |<br />
+                     	  urvīdharābham acirotthitam abdharaṃ khe <br />dṛṣṭvāhihā pramudito himahāhvayānaḥ ||
+                     	 <span class="ref">RaKa_10</span></p>
+                  <div class="app">— pratirājate : pravi° <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> | sapta- : sapty- <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | abdharaṃ <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">Jc</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> : adhvaraṃ <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a>, ambaraṃ <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | -āhvayānaḥ : -āhvayo 'bhūt <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">10. go-ṣṭhaḥ | ca kuṅkuma-vapuḥ pratirājate | asau | sapta+adri-daitya-bhujaga+uttama-śatru-gopaḥ
+                  | urvī-dhara+ābham acira+utthitam ab-dharam | khe | dṛṣṭvā | ahi-hā pramuditaḥ | hima-ha+āhva-yānaḥ
+                  ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e2411">
+            	  
+            <p id="RaKaT_10">goṣṭhaś ceti | gavi bhūmau tiṣṭhatīti <b>goṣṭhaḥ</b> | kuṅkumena [vahniśikhena] sadṛśaṃ vapur yasya sa <b>kuṅkumavapuḥ</b> | [raktavarṇa ity arthaḥ |] ko 'sau <b>pratirājate</b> śobhate | <b>asāv</b> iti pratyakṣaḥ | <b>saptādridaityabhujagottamaśatrugopaḥ</b> | adrayaḥ parvatāḥ | daityā asurāḥ | bhujagottamāḥ sarpaśreṣṭhāḥ | teṣāṃ śatrur indraḥ
+               | [tena rakṣitāḥ prāvṛṭkālajā atiraktavarṇāḥ kīṭāḥ śakragopakā indravadhva iti loke |
+               saptā bhuktā indragopā yena sa mayūraḥ |] urvīdharaḥ parvataḥ | tadvad ābhā yasya sa <b>urvīdharābha</b>ḥ | tam <b>acirotthitam</b> idānīm evotthitam | apo dharatīty <b>abdharo</b> meghaḥ | taṃ <b>khe</b> – ākāśe <b>dṛṣṭvā</b> | ahiḥ sarpaḥ, taṃ hantīty <b>ahihā</b> mayūraḥ | [<b>pramuditaḥ</b> prahṛṣṭaḥ |] <b>himahāhvayānaḥ</b> | [himahā himāpaho 'gniḥ | agnir āhvā yasya sa skando 'gnijaḥ | taṃ vahatīty āgneyayānaḥ] śikhī [| he bāle paśyeti saṃbandhaḥ] || <span class="ref">(RaKaT_10)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_11">
+                     	  kṛṣṇo 'bdharaḥ kṣarati toyam asāv ajasram <br />anyāv imau raṇagatāv iva cebharājau |<br />
+                     	  anye tv amī dviradavṛndanibhāḥ kṣarantaḥ <br />pracchādayanty amarasiddhavimānamārgam ||
+                     	 <span class="ref">RaKa_11</span></p>
+                  <div class="app">— kṛṣṇo 'bdharaḥ <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> : kṛṣṇābdharaḥ <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a>, kṛṣṇo 'mbaraḥ <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a>, kṛṣṇāmbaraḥ <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | anyau : alpau <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> | iva ca : iva vā <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | tv amī : tu te <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> | -siddha- : -vṛnda- <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">11. kṛṣṇaḥ | abdharaḥ kṣarati toyam asau | ajasram | anyau | imau | raṇa-gatau | iva
+                  ca | ibha-rājau | anye tu | amī dvirada-vṛnda-nibhāḥ kṣarantaḥ | pracchādayanti |
+                  amara-siddha-vimāna-mārgam ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e2567">
+            	  
+            <p id="RaKaT_11">kṛṣṇo 'bdhara iti | <b>kṛṣṇo</b> nīlaḥ | <b>abdharo</b> meghaḥ [<b>asau</b>] | <b>kṣarati</b> varṣati | <b>toyaṃ</b> pānīyam | <b>ajasraṃ</b> prabhūtam | <b>anyāv imau</b> – aparāv etau [meghau <b>ca</b>] | <b>ibhā</b> hastinaḥ | teṣāṃ <b>rājānau</b> | [<b>raṇe</b> saṃgrāme <b>gatāv iva</b> |] anyo'nyaṃ spardhamānāv ity arthaḥ | <b>anye</b> apare [<b>tv amī</b>] | <b>dviradā</b> hastinaḥ | teṣāṃ <b>vṛnda</b>ṃ [kulam] | tena <b>nibhāḥ</b> sadṛśāḥ | <b>kṣaranto</b> varṣantaḥ | <b>pracchādayanti</b> kam | <b>amarasiddhavimānamārgam</b> ākāśam ity arthaḥ [| he bāle paśyeti saṃbandhaḥ] || <span class="ref">(RaKaT_11)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_12">
+                     	  vārdāḥ khagāḥ kṣitidharāgamanaprakāśā <br />nemībharāsabhaturaṃgamatulyaghoṣāḥ |<br />
+                     	  vāyvīritāḥ kham avatatya vanaṃ kṣaranto <br />vārbhiḥ kṣitiṃ ghṛtadharāḥ pariṇirvapanti ||
+                     	 <span class="ref">RaKa_12</span></p>
+                  <div class="app">— avatatya vanaṃ : avataptavanaṃ <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">12. vār-dāḥ khagāḥ kṣiti-dhara+āgamana-prakāśāḥ | nemī+ibha-rāsabha-turaṃgama-tulya-ghoṣāḥ
+                  | vāyv-īritāḥ kham avatatya vanam | kṣarantaḥ | vārbhiḥ kṣitim | ghṛta-dharāḥ pariṇirvapanti
+                  ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e2696">
+            	  
+            <p id="RaKaT_12">vārdā iti | vār dadatīti <b>vārdā</b> meghāḥ | khe gacchantīti <b>khagāḥ</b> | yeṣām āgamane kṣitidharāṇāṃ [parvatānāṃ] prakāśāḥ [samānās] te <b>kṣitidharāgamanaprakāśāḥ</b> | nemī rathacakradhārā | ibho hastī | rāsabho gardabhaḥ | turaṃgamo 'śvaḥ | teṣāṃ
+               tulyo ghoṣo dhvanir yeṣāṃ te <b>nemībharāsabhaturaṃgamatulyaghoṣāḥ</b> | <b>vāyvīritā</b> vāyunā kṣiptāḥ | <b>kham</b> ākāśam | <b>avatatya</b> vyāpya | <b>vanam</b> udakam | <b>kṣaranto</b> varṣantaḥ | <b>vārbhiḥ</b> pānīyaiḥ | <b>kṣitiṃ</b> pṛthvīm | ghṛtaṃ pānīyam | tad dhārayantīti <b>ghṛtadharāḥ</b> | <b>pariṇirvapanti</b> nayantīty arthaḥ [| he bāle paśyeti saṃbandhaḥ] || <span class="ref">(RaKaT_12)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_13">
+                     	  eṣo 'ṅghripāśanaripughnasutārisāhvam <br />āruhya tiṣṭhati sugātri bhujaṃgamāriḥ |<br />
+                     	  yasya svanaiḥ pramuditasya mamādya bāle <br />tāladhvajāvarajasūnuśarāḥ patanti ||
+                     	 <span class="ref">RaKa_13</span></p>
+                  <div class="app">— 'ṅghri- <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> : 'ṃhri- <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> | svanaiḥ : svaraiḥ <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">13. eṣaḥ | aṅghripa+aśana-ripu-ghna-suta+ari-sa+āhvam | āruhya tiṣṭhati sugātri bhujaṃgama+ariḥ
+                  | yasya svanaiḥ pramuditasya mama | adya bāle | tāladhvaja+avaraja-sūnu-śarāḥ patanti
+                  ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e2812">
+            	  
+            <p id="RaKaT_13">eṣo 'ṅghripeti | <b>eṣa</b> ityādi pratyakṣanirdeśaḥ | aṅghripā vṛkṣāḥ, tān aśnātīty aṅghripāśano 'gniḥ | tasya
+               ripuḥ pānīyam | <b>aṅghripāśanaripu</b>ḥ | taṃ hantīti <b>ghna</b> ādityaḥ | tasya <b>suta</b>ḥ karṇaḥ | tasy<b>āri</b>r arjunaḥ | tena <b>sa</b>mānā – <b>āhvā</b> yasya so 'rjunavṛkṣaḥ | tam <b>āruhya tiṣṭhati</b> | [he <b>sugātri</b> |] śobhanaṃ gātraṃ yasyāḥ sā sugātrī | tasyāmantraṇaṃ sugātri | <b>bhujaṃgamāḥ</b> sarpāḥ | teṣām <b>ari</b>r mayūraḥ | kathaṃbhūtaḥ | <b>yasya svanaiḥ</b> śabdaiḥ [<b>pramuditasya</b>] prahṛṣṭasya <b>mama</b> | <b>adya</b> – asminn ahani | [he] <b>bāle</b> priye [paśya] | <b>tāladhvajo</b> balabhadraḥ | tasy<b>āvarajo</b> 'nujaḥ kṛṣṇaḥ | tat<b>sūnu</b>ḥ [pradyumno] madanaḥ | tasya <b>śarāḥ patanti</b> vyathayantīty arthaḥ || <span class="ref">(RaKaT_13)</span></p>
+            	
+         </div>
+         
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_14">
+                     	  usrāviṣaṃ sthalagato 'tti tathaiva vārjo <br />vārbhyo dvijo haridṛg eṣa daśārdhagūḍhaḥ |<br />
+                     	  vātāśanaḥ khaśayanaḥ smarati sthalasya <br />cakṣuḥśravā vanabhayāt suraśatrunāmā ||
+                     	 <span class="ref">RaKa_14</span></p>
+                  <div class="app">— usrā- : usro <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">Jc</a>, uṣṭrā- <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a>, jasrā- <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> | tathaiva : visṛṣṭa- <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> | (vārjo om.) vārbhyo <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> : vārbhyo vārjo <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> | haridṛg (harita <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">Jc</a>) eṣa daśārdhagūḍhaḥ <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : svapitṛbhīruviṣaprahīṇaḥ <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | khaśayanaḥ <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">Hc</a> <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : °naṃ <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">Jc</a> | -bhayāt : -bhavaḥ <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a>, -bhavā- <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">14. usrā-viṣam | sthala-gataḥ | atti | tathā + eva | vār-jaḥ | vārbhyaḥ | dvi-jaḥ
+                  | hari-dṛk | eṣaḥ | daśa+ardha-gūḍhaḥ | vāta+aśanaḥ kha-śayanaḥ smarati sthalasya
+                  | cakṣuḥ-śravāḥ | vana-bhayāt sura-śatru-nāmā ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e3053">
+            	  
+            <p id="RaKaT_14"><b>usrāviṣam</b> iti | <b>usrā</b> gāvaḥ, tāsāṃ <b>viṣaṃ</b> gomayaṃ [kṣīraṃ vā] | yathā <b>sthalagataḥ</b> [bhūmiśayaḥ kṣitijaḥ] kīṭaḥ [iva gomayam] <b>atti</b> bhakṣayati, <b>tathaiva</b> [<b>vārjo</b> jalajaḥ kṣīrodadhāv] avatīrṇaḥ [kṣīraṃ] khādati | ko 'sau | <b>dvijaḥ</b> kacchapaḥ | harir vānaraḥ [viṣṇur vā] | tena tulyā dṛg yasya sa bhavati <b>haridṛk |</b> [haritavarṇaḥ kāśyapīgo harisvarūpo vā kūrmāvatāra iti śleṣaḥ |] <b>eṣa</b> iti pratyakṣanirdeśaḥ | <b>daśārdhagūḍhaḥ</b> | pañcabhiḥ [aṅgaiḥ] kacchapo nigūḍha ity arthaḥ | [kasmāt pañcāṅgaguptaḥ saḥ |] <b>vārbhyaḥ</b> [meghavisṛṣṭa]pānīyebhyaḥ [varṣebhyaḥ] | [ko 'nyaḥ |] <b>vātāśanaḥ</b> [pavanāśanaḥ] sarpaḥ | <b>khaśayanaḥ</b> – bilaśayaḥ | <b>cakṣuḥśravāḥ</b> [dṛkkarṇaḥ] | <b>suraśatrunāmā</b> [ahir ity āhvā devaripor vṛtrasya] | [ayaṃ <b>vanabhayāj</b> jalabhayahetoḥ <b>sthalasya</b>] <b>smarati</b> [sthalīyasthānaṃ] dhyāyati [| he bāle paśyeti saṃbandhaḥ] || <span class="ref">(RaKaT_14)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_15">
+                     	  pakṣy aśvamedhaturagapratimo 'ṣṭavarṇo <br />vārdaṃ na bahv iti samāhvayate hy ahighnaḥ |<br />
+                     	  bhekas tathaiva khaśayāśayavedyavāṇiḥ <br />śabdaṃ karoty atibhṛśaṃ viṣarāśimagnaḥ ||
+                     	 <span class="ref">RaKa_15</span></p>
+                  <div class="app">—pratimo 'ṣṭa- <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : °bho 'ṣṭa- <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a>, °moṣṭha- <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> | na bahv iti <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : na varṣati <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a>, navaṃ tv iti <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> (vanaṃ <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">Tc</a>) | khaśayāśayavedya- <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : śvasanāśanavedya- <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a>, pavanāśanavedya- <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> (°vandya- <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">Jc</a>) | śabdaṃ : śakṣaṃ <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> | ati- : api <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> || [<a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> omits the stanza]
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">15. pakṣī | aśvamedha-turaga-pratimaḥ | aṣṭa-varṇaḥ | vār-dam | na bahu | iti samāhvayate
+                  hi | ahighnaḥ | bhekaḥ | tathā + eva | kha-śaya+āśaya-vedya-vāṇiḥ | śabdam | karoti
+                  | atibhṛśam | viṣa-rāśi-magnaḥ ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         
+         	
+         <div class="comm" id="d1e3361">
+            	  
+            <p id="RaKaT_15">[pakṣīti | <b>pakṣī</b> mayūraḥ | <b>aśvamedhaturagapratimaḥ</b> | aśvamedho yajñaviśeṣaḥ, tatra turaṃgo vicitraḥ sarvarūpo 'ṣṭamaṅgalaḥ, tena tulyā
+               pratimā yasya so <b>'ṣṭavarṇaḥ</b> | <b>vārdaṃ</b> megham | <b>na bahv</b> analaṃ megho varṣat<b>īti</b> <b>he</b>tos taṃ <b>samāhvayata</b> ākārayaty <b>ahighnaḥ</b> sarpāśana ity arthaḥ | <b>bhekas</b> tu maṇḍūkaḥ | yathā mayūras <b>tathaiva</b> sa <b>śabdaṃ karoty atibhṛśam</b> | <b>khaśayāśayavedyavāṇiḥ</b> | khaśayo bilavāsī bhekabhuk sarpaḥ, tasyāśayo bilam, tasmād vedyā – upalabdhā vāṇir vāg yasya saḥ | <b>viṣarāśimagnaḥ</b> | viṣaṃ pānīyam, tasya rāśir nicayaḥ, tatra magno nimajjatīty arthaḥ | he bāle paśyeti
+               saṃbandhaḥ] || <span class="ref">(RaKaT_15)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_16">
+                     	  nā viṣkirāvanam upetya kumātṛsāhvam <br />ākrīdate madhukalo 'ṅganayā sametaḥ |<br />
+                     	  anyas tv ayaṃ maṇivarābham upetya gojaṃ <br />nā rāmayā saha payaḥpatijāṃ vṛṇīte ||
+                     	 <span class="ref">RaKa_16</span></p>
+                  <div class="app">— viṣkirāvanam (°vaṇam <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a>) : viṣkiro va° <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">Jc</a> | tv ayaṃ <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : svayaṃ <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">16. nā viṣkira+avanam upetya kumātṛ-sa+āhvam ākrīdate madhu-kalaḥ | aṅganayā sametaḥ
+                  | anyaḥ | tu | ayam | maṇi-vara+ābham upetya go-jam | nā rāmayā saha payaḥ-pati-jāṃ
+                  vṛṇīte ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e3491">
+            	  
+            <p id="RaKaT_16">nā viṣkirāvanam iti | <b>nā</b> puruṣaḥ | <b>upetya</b> prāpya | viṣkirāḥ pakṣiṇaḥ, teṣām avanaṃ [tarpaṇe rakṣāyāṃ vā] <b>viṣkirāvanam</b> [kānanaṃ nīḍajasthānam] | kiṃsaṃjñākam | <b>kumātṛsāhvaṃ</b> kadambavanam ity arthaḥ | <b>ākrīdate</b> <b>madhukalaḥ</b> | [rati]madyena [kalo] virājamāna ity arthaḥ | [<b>aṅganayā sametaḥ</b> – bhāryayā yuktaḥ |] <b>anyo</b> 'paraḥ [<b>tv ayaṃ</b> puṃspakṣī | viṣkirā hi mānuṣamithunāgamena kadambavanād bahirgatāḥ] | maṇivaraḥ [haritopala] indranīlakaḥ, tena tulyā – ābhā yasya tan <b>maṇivarābham</b> | dūrvāśādvalam ity arthaḥ | <b>upetya</b> prāpya | <b>gojam</b> | gauḥ pṛthvī, tasyāṃ jātaṃ samudbhūtam [idaṃ dūrvāvanam] | <b>nā</b> [pumān] | <b>rāmā</b> strī | tayā [pakṣiṇyā] <b>saha</b> | <b>payaḥpati</b>ḥ samudraḥ, tasmiñ <b>jā</b>tā [lakṣmīḥ] | tāṃ [tṛṇabhūtāṃ śriyaṃ] <b>vṛṇīte</b> saṃbhunakti || <span class="ref">(RaKaT_16)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_17">
+                     	  syūtaṃ mahat kṣatajavarṇanibhaṃ naro 'sau <br />bibhrat tv amūni ca bhinatti saroruhāṇi |<br />
+                     	  tajjena cāpi rajasā vanitāṃ vayaḥstho <br />'py abhyuddharaty avakiraty abhiṣicyamānaḥ ||
+                     	 <span class="ref">RaKa_17</span></p>
+                  <div class="app">— syūtaṃ <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> : sūtaṃ <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a>, sthūlaṃ <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a>, sūtraṃ <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> | naro <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : varo <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | bibhrat tv <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : bibhraty <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a>, bibharty <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> (metr. incor.), barbharty <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | cāpi : vāpi <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | vayaḥstho <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> : vayastho <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> (°sthaḥ <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">Jc</a>) (<a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a>) <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> | 'py om. <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">17. syūtam | mahat kṣataja-varṇa-nibham | naraḥ | asau | bibhrat tu | amūni ca bhinatti
+                  saro-ruhāṇi | taj-jena ca + api rajasā vanitām | vayaḥ-sthaḥ | api | abhyuddharati
+                  | avakirati | abhiṣicyamānaḥ ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e3787">
+            	  
+            <p id="RaKaT_17">syūtam iti | <b>syūtaṃ</b> vastram | kiṃviśiṣṭam | <b>mahat </b>[<b>kṣatajavarṇanibhaṃ</b> ca |] kṣatajaṃ rudhiram, tasya varṇas tena tulyā nibhā – ābhā yasya tat tathā | <b>naro 'sau</b> <b>bibhrat</b> <b>tu </b>| [tad vastraṃ bibhrāṇaḥ san puruṣa ity arthaḥ |] <b>amūni</b> <b>ca bhinatti saroruhāṇi</b> | caśabdaḥ pādapūraṇe | amūni – etāni | bhinatti – uccinoti | [sarasīruṃhi] kamalāni | teṣu jātaṃ tajjam | <b>tajjena</b> [<b>cāpi</b>] <b>rajasā</b> padmareṇunā | <b>vanitāṃ</b> striyam | <b>vayaḥstho</b> [vayasi sthito] yuvā | kim [<b>api</b>] karotīty āha | <b>abhyuddharati</b>, [tām ardidhiṣus tena kausumena] mudrayatīty arthaḥ | [tathā] <b>avakirati</b>, [śukraṃ] vikṣipatīty arthaḥ | <b>abhiṣicyamānaḥ</b> kayā | vanitayā, krīḍārasena pānīyena | arthavaśād [iha] vibhaktipariṇāmaḥ [| abhivṛṣyamāṇo vā sa meghenety arthavaraḥ] || <span class="ref">(RaKaT_17)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_18">
+                     	  paṅke nimagnam ibhavṛndam adaḥ savāri <br />garjat timikṣayadavṛndam ivāvabhāti |<br />
+                     	  vāryātmanāmaśatacitratanuḥ suparṇo <br />yoṣidvṛtaḥ samadanaḥ pratiroravīti ||
+                     	 <span class="ref">RaKa_18</span></p>
+                  <div class="app">— garjat <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> (<a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a>?) <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : °jaṃs <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a>, °jan <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a>, °jaṃ <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> | +ātma-nāma-śata- : +ātmanām aśana- <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a>, +ātmanaḥ śata- <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | suparṇo <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> (<a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a>) <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> (°ṇaḥ) <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> : suparṇī <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> | -vṛtaḥ : -dhṛtaḥ <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> | pratiroravīti <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : pratirauravīti <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">18. paṅke nimagnam ibha-vṛndam adaḥ sa-vāri | garjat timi-kṣayada-vṛndam iva | avabhāti
+                  | vāry+ātma-nāma-śata-citra-tanuḥ suparṇaḥ | yoṣid-vṛtaḥ sa-madanaḥ pratiroravīti
+                  ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e4030">
+            	  
+            <p id="RaKaT_18">paṅke nimagnam iti | <b>paṅka</b>ḥ kardamaḥ | tasmin <b>nimagnam</b> | <b>ibhavṛndaṃ</b> hastiyūtham | <b>adaḥ</b> – etat | <b>savāri</b> sajalam | <b>garjad</b> bṛṃhat | <b>timikṣayadavṛndam</b> <b>ivāvabhāti</b> | timir matsyaḥ, tasya kṣayo vāsa udakam iti yāvat tad dadatīti timikṣayadā meghāḥ
+               | teṣāṃ vṛndaṃ samūham [iva] | avabhāti śobhate | kṛṣṇatādisādharmyāt | [ko 'nyaḥ |] <b>vāryātmanāmaśatacitratanuḥ</b> | vāryātmā candramāḥ | tasya nāma [yeṣāṃ te candrakāḥ, teṣāṃ] śatena citrā vicitritā tanur yasya saḥ | <b>suparṇaḥ</b> | śobhanāni parṇāni pattrāṇi yasya saḥ | mayūra ity arthaḥ | <b>yoṣidvṛtaḥ</b> – mayūrīsahitaḥ | <b>samadanaḥ</b> – madanena saha vartamānaḥ | kāmāviṣṭaḥ [<b>pratiroravīti</b>, yoṣitaṃ prati punaḥ śabdaṃ karoty atibhṛśam] ity arthaḥ [| he vanite paśyeti saṃbandhaḥ] || <span class="ref">(RaKaT_18)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_19">
+                     	  visphoṭitābdhararaveṇa riraṃsur eṣa <br />saṃtrāsito harir anokahaniṣkuṭasthaḥ |<br />
+                     	  saṃlīyate taḍitam apy abhivīkṣya vignaḥ <br />khāt khaṃ mahattaram asau samanupraviṣṭaḥ ||
+                     	 <span class="ref">RaKa_19</span></p>
+                  <div class="app">— visphoṭitābdhara- : visphoṭitāmbara- <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> (-sphoṭinā°) <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a>, visphāritāmbuja- <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a>, saṃtrāsitābdhara- <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> | riraṃsur eṣa : ciraṃ sureśa- <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> | eṣa <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> (<a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a>) : eva <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | saṃtrāsito : vi° <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">Jc</a> | -niṣkuṭasthaḥ <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> : niṣkuṭīṣu <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | taḍitam apy abhivīkṣya vignaḥ <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : taḍitam ābhimukhīṃ ca dṛṣṭvā <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a>, hy abhimukhīṃ taḍitaṃ ca dṛṣṭvā <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | khāt khaṃ <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> (<a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a>) : khāt saṃ- <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a>, khaṃ khān <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a>, śvāsaṃ <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> | °taram : °tamam <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> | samanu- : kham anu- <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> | praviṣṭaḥ : pratiṣṭhaḥ <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">19. visphoṭita+abdhara-raveṇa riraṃsuḥ | eṣaḥ | saṃtrāsitaḥ | hariḥ | anokaha-niṣkuṭa-sthaḥ
+                  | saṃlīyate taḍitam api | abhivīkṣya vignaḥ | khāt khaṃ mahattaram asau samanupraviṣṭaḥ
+                  ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <div class="comm" id="d1e4288">
+            	  
+            <p id="RaKaT_19">visphoṭiteti | <b>visphoṭitābdhararaveṇa</b> visarpitajaladanādena | <b>riraṃsur eṣo</b> 'nukāmaḥ | <b>saṃtrāsitaś</b> cālitaḥ | <b>harir</b> vānaraḥ | <b>anokahaniṣkuṭastho</b> [vṛkṣanikuñjeṣu] <b>saṃlīyate</b> | <b>taḍitaṃ</b> vidyutam [<b>apy</b>] <b>abhivīkṣya</b> dṛṣṭvā | <b>vignaḥ</b> [bhītaḥ] | <b>khāt khaṃ</b> bilād bilam | <b>mahattaram</b> atimahat | <b>asau</b> pratyakṣaḥ | <b>samanupraviṣṭaḥ</b> – dūraṃ praviṣṭa ity arthaḥ [| he vanite paśyeti saṃbandhaḥ] || <span class="ref">(RaKaT_19)</span></p>
+            	
+         </div>
+         
+         	
+         <div class="row">
+            <div class="column">
+               <div class="wapp">
+                  <p id="RaKa_20">
+                     	  etāvad uttamavacaḥ sumanāḥ sa uktvā <br />rantvā dinaṃ saha tayā priyayā hy adīnaḥ |<br />
+                     	  yuktaṃ caturbhir anaḍudbhir adīnavāḍbhir <br />āruhya yānam atha nā prayayau svageham ||
+                     	 <span class="ref">RaKa_20</span></p>
+                  <div class="app">— sa uktvā <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> : samuktvā <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> | priyayā hy : priyayāpy <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> | anaḍudbhir : anaḍuḍbhir <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">Hc</a> <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> | -vāḍbhir <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> : °vadbhir <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a> <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | nā prayayau <a href="#C" title="Rākṣasakāvyam, ed. Johannes Häberlin, Kāvyasaṃgrahaḥ, Calcutta, 1861 (VS 1918), pp. 586-589 (= 2nd augm. ed. of Id., Kávya-sangraha, Calcutta: W. Thacker, 1847).">C</a> <a href="#J" title="Rākṣasakāvyam, ed. Pandit Jibananda Vidyasagara, Kavyasangraha, Calcutta: New Indian Press, 1872, pp. 572-576 (based on C; Jc = new ed. [‘3rd’] by the same together with his own vyākhyā, Kāvyasaṃgrahaḥ, vol. 3, Calcutta: Sarasvati Press, 1888, pp. 343-353, repr. 1900 and 1907).">J</a> : saṃprayayau <a href="#H" title="Kāvyarākṣasaṃ saṭīkam, ed. Karl Gustav Hoefer, Sanskrit Lesebuch mit Benutzung handschriftlicher Quellen, Berlin: Besser, 1849, pp. 86-93.">H</a> <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> <a href="#M" title="Buddhivinodakāvyam [saṭīkam], ed. D.R. Mankad, “Buddhivinodakāvyam (A specimen of Paryāyakāvya)”, Indian Historical Quarterly 12, 1936, pp. 692-700.">M</a> <a href="#K" title="Vidvadvinodakāvyam, ed. Haridas Hirachand, Kavya Kalapa, Number First, Bombay: Ganpat Krishnaji’s Press, 1864, pp. 137-139.">K</a> <a href="#P" title="Rākṣasakāvyam, saṭīkam, ed. Kāśīnāth Pāṇḍuraṅg Parab, Bombay: Nirnaya Sagar Press, 1911 (‘3rd ed.’; 1st ed. in 1890, 2nd in 1900, 4th in 1917, 6th in 1935; apparently a very first ed. by the same with the title saṭīkaṃ niśacarakāvyam was already issued in śake 1806 = AD 1885).">P</a>, sa prayayau <a href="#T" title="Rākṣasakāvyam [saṭīkam], ed. Pandit Tediyūr S. Kṛṣṇamūrti Śāstrī, Thanjavur: Tanjore Sarasvati Mahal Library Series no. 377, 1997.">T</a> | yuktaṃ… nā : saṃprasthitaḥ svanagaraṃ prati cāruveśo devyā tayā rucirayā <a href="#U" title="Kāvyarākṣasam [saṭīkam], University of Pennsylvania Ms. Col. 390, item 1505, online: http://hdl.library.upenn.edu/1017/d/medren/9967589903503681">U</a> | svageham : kṣayaṃ svayaṃ <a href="#D" title="[Rākṣasakāvyam], Dacca Ms. collated by S.K. De, “On the Identity of the Buddhi-vinoda-kāvya”, IHQ 13, 1937, pp. 172-176.">D</a> (metr. incor.) ||
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <p class="analysis">20. etāvat | uttama-vacaḥ su-manāḥ saḥ | uktvā | rantvā dinam | saha tayā priyayā
+                  hi | adīnaḥ | yuktam | caturbhiḥ | anaḍudbhiḥ | adīna-vāḍbhiḥ | āruhya yānam atha
+                  nā prayayau sva-geham ||
+               </p>
+            </div>
+         </div>
+         	
+         	
+         	
+         <p>iti śrīmahākavinā malayadeśajanmanā ravidevena viracitaṃ rākṣasakāvyaṃ viṃśatihṛdyapadyasametaṃ
+            samāptam ||
+         </p>
+         	
+         <div class="comm" id="d1e4484">
+            	  
+            <p id="RaKaT_20">etāvad iti | <b>etāvad</b> yathoktam <b>uttamavacaḥ</b> prakṛṣṭaṃ vacanam | śobhanaṃ mano yasya bhavati <b>sumanāḥ</b> <b>saḥ</b> | <b>uktvā</b> – abhidhāya | <b>rantvā</b> krīḍitvā | <b>dinaṃ</b> divasam | kayā <b>saha</b> | [<b>tayā</b>] <b>priyayā</b> bhāryayā sārdham | <b>hi</b>[śabdaḥ] pādapūraṇe, avyayaśāstre | <b>adīnaḥ</b> – na dīnaḥ, prahṛṣṭaḥ | <b>yuktaṃ caturbhir anaḍudbhir</b> balīvardaiḥ | kathaṃbhūtaiḥ | adīnaṃ [śrīmantaṃ taṃ] vahantīty adīnavāhaḥ, tair <b>adīnavāḍbhiḥ</b> | [<b>yānaṃ</b> ratham <b>āruhya</b> |] <b>atha</b> – anantaram | [<b>nā</b>] puruṣaḥ | [<b>sva</b>]<b>gehaṃ</b> mandiraṃ <b>prayayau</b> prayāta ity arthaḥ || <span class="ref">(RaKaT_20)</span></p>
+            
+            	  
+            <p>iti śrīmahākavinā śrīravidevena racitā [kṛṣṇadhareṇa vyāḷinā prapañcitā] sajjanamanaānandadāyinī rākṣasakāvyaṭīkā samāptā ||</p>
+            	
+         </div>
+         
+         
+      </div>
+   </body>
+</html>
