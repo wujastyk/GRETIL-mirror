@@ -10,8 +10,9 @@ GRETIL's CSX- and REE- encoded files have been excluded from this mirror.  All f
 
 
 The bash script used to gather the files for this Github archive is:
-```
+```bash
 #!/bin/bash -x
 # re-fetch all the Unicode files
 wget -np -r  ‐‐continue ‐‐timestamping -l7 -A "*xml","*htm","*xdxf" http://gretil.sub.uni-goettingen.de/
 ```
+
