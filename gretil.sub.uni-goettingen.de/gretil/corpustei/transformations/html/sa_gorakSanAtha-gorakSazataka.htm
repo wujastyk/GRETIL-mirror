@@ -1,0 +1,765 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Gorakṣanātha (= Gorakhnāth): Gorakṣaśataka (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Gorakṣanātha (= Gorakhnāth): Gorakṣaśataka</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_gorakSanAtha-gorakSazataka.xml">sa_gorakSanAtha-gorakSazataka.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>n.n.</p>
+      <p class="noindent"><b>Contribution: </b>n.n.</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Swami Kuvalayananda and S. A. Shukla's critical edition (Lonavla: Kaivalya Dham, n.d.).</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="note">remarks</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/saiva/gorst1au.htm">gorst1au.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Goraksanatha (=Gorakhnath): Goraksasataka
+            <br />Based on the ed. by Swami Kuvalayananda
+            <br />and S. A. Shukla's critical edition (Lonavla: Kaivalya Dham, n.d.).
+            <br />Another edition of this text was published by George Weston Briggs
+            <br />in his Gorakhnath and the Kanphata Yogis (1939).
+            <br />Since this text contains significant differences, it is given
+            <br />separately as Gorakṣa-śatakam 2.
+            <br />
+            <br />Input by ... (?)
+            <br />
+            <br />TEXT WITH PADA MARKERS
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         <h3>Gorakṣa-śatakam</h3>
+         
+         
+         <p>oṃ parama-gurave gorakṣanāthāya namaḥ</p>
+         
+         
+         <p id="GorS_1">
+            oṃ gorakṣa-śatakaṃ vakṣye bhava-pāśa-vimuktaye <br />
+            ātma-bodha-karaṃ puṃsāṃ viveka-dvāra-kuñcikām //
+             <span class="ref">GorS_1</span></p>
+         
+         
+         <p id="GorS_2">
+            etad vimukti-sopānam etat kālasya vañcanam <br />
+            yad vyāvṛttaṃ mano mohād āsaktaṃ paramātmani //
+             <span class="ref">GorS_2</span></p>
+         
+         
+         <p id="GorS_3">
+            dvija-sevita-śākhasya śruti-kalpa-taroḥ phalam <br />
+            śamanaṃ bhava-tāpasya yogaṃ bhajati sajjanaḥ //
+             <span class="ref">GorS_3</span></p>
+         
+         
+         <p id="GorS_4">
+            āsanaṃ prāṇa-saṃyāmaḥ pratyāhāro'tha dhāraṇā <br />
+            dhyānaṃ samādhir etāni yogāṅgāni bhavanti ṣaṭ //
+             <span class="ref">GorS_4</span></p>
+         
+         
+         <p id="GorS_5">
+            āsanāni tu tāvanti yāvatyo jīva-jātayaḥ <br />
+            eteṣām akhilān bhedān vijānāti maheśvaraḥ //
+             <span class="ref">GorS_5</span></p>
+         
+         
+         <p id="GorS_6">
+            caturāśīti-lakṣāṇāṃ ekam ekam udāhṛtam <br />
+            tataḥ śivena pīṭhānāṃ ṣoḍeśānaṃ śataṃ kṛtam //
+             <span class="ref">GorS_6</span></p>
+         
+         
+         <p id="GorS_7">
+            āsanebhyaḥ samastebhyo dvayam eva viśiṣyate <br />
+            ekaṃ siddhāsanaṃ proktaṃ dvitīyaṃ kamalāsanam //
+             <span class="ref">GorS_7</span></p>
+         
+         
+         
+         <p id="GorS_8">
+            yoni-sthānakam aṅghri-mūla-ghaṭitaṃ kṛtvā dṛḍhaṃ vinyasen meḍhre pādam athaikam eva niyataṃ kṛtvā samaṃ vigraham <br />
+            sthāṇuḥ saṃyamitendriyo'cala-dṛśā paśyan bhruvor antaram etan mokṣa-kavāṭa-bheda-janakaṃ siddhāsanaṃ procyate //
+             <span class="ref">GorS_8</span></p>
+         
+         
+         
+         <p id="GorS_9">
+            vāmorūpari dakṣiṇaṃ hi caraṇaṃ saṃsthāpya vāmaṃ tathā dakṣorūpari paścimena vidhinā dhṛtvā karābhyāṃ dṛḍham <br />
+            aṅguṣṭhau hṛdaye nidhāya cibukaṃ nāsāgram ālokayed etad-vyādhi-vikāra-hāri yamināṃ padmāsanaṃ procyate //
+             <span class="ref">GorS_9</span></p>
+         
+         
+         
+         <p id="GorS_10">
+            ādhāraḥ prathamaṃ cakraṃ svādhiṣṭhānaṃ dvitīyakam <br />
+            yoni-sthānaṃ dvayor madhye kāma-rūpaṃ nigadyate //
+             <span class="ref">GorS_10</span></p>
+         
+         
+         <p id="GorS_11">
+            ādhārākhye guda-sthāne paṅkajaṃ yac caturdalam <br />
+            tan-madhye procyate yoniḥ kāmākhyā siddha-vanditā //
+             <span class="ref">GorS_11</span></p>
+         
+         
+         <p id="GorS_12">
+            yoni-madhye mahāliṅgaṃ paścimābhimukhaṃ sthitam <br />
+            mastake maṇivad bhinnaṃ yo jānāti sa yogavit //
+             <span class="ref">GorS_12</span></p>
+         
+         
+         <p id="GorS_13">
+            tapta-cāmīkarābhāsaṃ taḍil-lekheva visphurat <br />
+            caturasraṃ puraṃ vahner adho-meḍhram evābhidhīyate //
+             <span class="ref">GorS_13</span></p>
+         
+         
+         <p id="GorS_14">
+            sva-śabdena bhavet prāṇaḥ svādhiṣṭhānaṃ tad-āśrayaḥ <br />
+            svādhiṣṭhānākhyayā tasmān meḍhram evābhidhīyate //
+             <span class="ref">GorS_14</span></p>
+         
+         
+         <p id="GorS_15">
+            tantunā maṇivat proto yatra kandaḥ suṣumṇayā <br />
+            tan-nābhi-maṇḍalaṃ cakraṃ procyate maṇi-pūrakam //
+             <span class="ref">GorS_15</span></p>
+         
+         
+         <p id="GorS_16">
+            ūrdhvaṃ meḍhrād adho nābheḥ kanda-yoniḥ sva-gāṇḍavat <br />
+            tatra nāḍyaḥ samutpannāḥ sahasrāṇi dvisaptatiḥ //
+             <span class="ref">GorS_16</span></p>
+         
+         
+         <p id="GorS_17">
+            teṣu nāḍi-sahasreṣu dvisaptatir udāhṛtāḥ <br />
+            prādhānyāt prāṇa-vāhinyo bhūyas tatra daśa smṛtāḥ //
+             <span class="ref">GorS_17</span></p>
+         
+         
+         <p id="GorS_18">
+            iḍā ca piṅgalā caiva suṣumṇā ca tṛtīyakā <br />
+            gāndhārī hasti-jihvā ca pūṣā caiva yaśasvinī //
+             <span class="ref">GorS_18</span></p>
+         
+         
+         <p id="GorS_19">
+            alambuṣā kuhūś caiva śaṅkhinī daśamī smṛtā <br />
+            etan nāḍi-mayaṃ cakraṃ jñātavyaṃ yogibhiḥ sadā //
+             <span class="ref">GorS_19</span></p>
+         
+         
+         <p id="GorS_20">
+            iḍā vāme sthitā bhāge piṅgalā dakṣiṇe tathā <br />
+            suṣumṇā madhya-deśe tu gāndhārī vāma-cakṣuṣi //
+             <span class="ref">GorS_20</span></p>
+         
+         
+         <p id="GorS_21">
+            dakṣiṇe hasti-jihvā ca pūṣā karṇe ca dakṣiṇe <br />
+            yaśasvinī vāma-karṇe cāsane vāpy alambuṣā //
+             <span class="ref">GorS_21</span></p>
+         
+         
+         <p id="GorS_22">
+            kūhuś ca liṅga-deśe tu mūla-sthāne ca śaṅkhinī <br />
+            evaṃ dvāram upāśritya tiṣṭhanti daśa nāḍikāḥ //
+             <span class="ref">GorS_22</span></p>
+         
+         
+         <p id="GorS_23">
+            satataṃ prāṇa-vāhinyaḥ soma-sūryāgni-devatāḥ <br />
+            iḍā-piṅgalā-suṣumṇā ca tisro nāḍya udāhṛtāḥ //
+             <span class="ref">GorS_23</span></p>
+         
+         
+         <p id="GorS_24">
+            prāṇāpānau samānaś ca hy udāno vyāna eva ca <br />
+            nāgaḥ kūrmaś ca kṛkaro devadatto dhanañjayaḥ //
+             <span class="ref">GorS_24</span></p>
+         
+         
+         <p id="GorS_25">
+            nāgādyāḥ pañca vikhyātāḥ prāṇādyāḥ pañca vāyavaḥ <br />
+            ete nāḍi-sahasreṣu vartante jīva-rūpiṇaḥ //
+             <span class="ref">GorS_25</span></p>
+         
+         
+         <p id="GorS_26">
+            prāṇāpāna-vaśo jīvo hy adhaś cordhvaṃ ca dhāvati <br />
+            vāma-dakṣiṇa-mārgeṇa cañcalatvān na dṛśyate //
+             <span class="ref">GorS_26</span></p>
+         
+         
+         <p id="GorS_27">
+            ākṣipto bhuvi daṇḍena yathoccalati kandukaḥ <br />
+            prāṇāpāna-samākṣiptas tathā jīvo'nukṛṣyate //
+             <span class="ref">GorS_27</span></p>
+         
+         
+         <p id="GorS_28">
+            rajju-baddho yathā śyeno gato'py ākṛṣyate(?) <br />
+            guṇa-baddhas tathā jīvaḥ prāṇāpānena kṛṣyate //
+             <span class="ref">GorS_28</span></p>
+         
+         
+         <p id="GorS_29">
+            apānaḥ karṣati prāṇaḥ prāṇo'pānaṃ ca karṣati <br />
+            ūrdhvādhaḥ saṃsthitāv etau yo jānāti sa yogavit //
+             <span class="ref">GorS_29</span></p>
+         
+         
+         <p id="GorS_30">
+            kandordhve kuṇḍalī-śaktir aṣṭadhā kuṇḍalī-kṛtā <br />
+            brahma-dvāra-mukhaṃ nityaṃ mukhenāvṛtya tiṣṭhati //
+             <span class="ref">GorS_30</span></p>
+         
+         
+         <p id="GorS_31">
+            prabuddhā vahni-yogena manasā mārutā hatā <br />
+            prajīva-guṇam ādāya vrajaty ūrdhvaṃ suṣumṇayā //
+             <span class="ref">GorS_31</span></p>
+         
+         
+         <p id="GorS_32">
+            mahāmudrāṃ namo-mudrām uḍḍiyānaṃ jalandharam <br />
+            mūla-bandhaṃ ca yo vetti sa yogī siddhi-bhājanam //
+             <span class="ref">GorS_32</span></p>
+         
+         
+         
+         <p id="GorS_33">
+            vakṣo-nyasta-hanur nipīḍya suciraṃ yoniṃ ca vāmāṅghriṇā hastābhyām avadhāritaṃ prasaritaṃ pādaṃ tathā dakṣiṇam <br />
+            āpūrya śvasanena kukṣi-yugalaṃ baddhvā śanai recayed eṣā pātaka-nāśinī sumahatī mudrā nṝṇāṃ procyate //
+             <span class="ref">GorS_33</span></p>
+         
+         
+         
+         <p id="GorS_34">
+            kapāla-kuhare jihvā praviṣṭā viparītagā <br />
+            bhruvor antargatā dṛṣṭir mudrā bhavati khecarī //
+             <span class="ref">GorS_34</span></p>
+         
+         
+         <p id="GorS_35">
+            ūrdhvaṃ meḍhrād adho nābher uḍḍiyānaṃ pracakṣate <br />
+            uḍḍiyāna-jayo bandho mṛtyu-mātaṅga-kesarī //
+             <span class="ref">GorS_35</span></p>
+         
+         
+         <p id="GorS_36">
+            jālandhare kṛte bandhe kaṇṭha-saṅkoca-lakṣaṇe <br />
+            na pīyūṣaṃ pataty agnau na ca vāyuḥ prakupyati //
+             <span class="ref">GorS_36</span></p>
+         
+         
+         <p id="GorS_37">
+            pārṣṇi-bhāgena sampīḍya yonim ākuñcayed gudam <br />
+            apānam ūrdhvam ākṛṣya mūla-bandho nigadyate //
+             <span class="ref">GorS_37</span></p>
+         
+         
+         <p id="GorS_38">
+            yataḥ kāla-bhayāt brahmā prāṇāyāma-parāyaṇaḥ <br />
+            yogino munayaś caiva tataḥ prāṇaṃ nibandhayet //
+             <span class="ref">GorS_38</span></p>
+         
+         
+         <p id="GorS_39">
+            cale vāte calaṃ sarvaṃ niścale niścalaṃ bhavet <br />
+            yogī sthāṇutvam āpnoti tato vāyuṃ nibandhayet //
+             <span class="ref">GorS_39</span></p>
+         
+         
+         <p id="GorS_40">
+            ṣaṭ-triṃśad-aṅgulaṃ haṃsaḥ prayāṇaṃ kurute bahiḥ <br />
+            vāma-dakṣiṇa-mārgeṇa tataḥ prāṇo'bhidhīyate //
+             <span class="ref">GorS_40</span></p>
+         
+         
+         <p id="GorS_41">
+            baddha-padmāsano yogī namaskṛtya guruṃ śivam <br />
+            nāsāgra-dṛṣṭir ekākī prāṇāyāmaṃ samabhyaset //
+             <span class="ref">GorS_41</span></p>
+         
+         
+         <p id="GorS_42">
+            prāṇo deha-sthito vāyur āyāmas tan-nibandhanam <br />
+            eka-śvāsa-mayī mātrā tad yogī gaganāyate //
+             <span class="ref">GorS_42</span></p>
+         
+         
+         <p id="GorS_43">
+            baddha-padmāsano yogī prāṇaṃ candreṇa pūrayet <br />
+            dhārayitvā yathā-śakti bhūyaḥ sūryeṇa recayet //
+             <span class="ref">GorS_43</span></p>
+         
+         
+         <p id="GorS_44">
+            amṛtodadhi-saṅkāśaṃ kṣīroda-dhavala-prabham <br />
+            dhyātvā candramayaṃ bimbaṃ prāṇāyāme sukhī bhavet //
+             <span class="ref">GorS_44</span></p>
+         
+         
+         <p id="GorS_45">
+            prāṇaṃ sūryeṇa cākṛṣya pūrayed udaraṃ śanaiḥ <br />
+            kumbhayitvā vidhānena bhūyaś candreṇa recayet //
+             <span class="ref">GorS_45</span></p>
+         
+         
+         <p id="GorS_46">
+            prajvalaj-jvalana-jvālāpuñjam āditya-maṇḍalam <br />
+            dhyātvā nābhi-sthitaṃ yogī prāṇāyāme sukhī bhavet //
+             <span class="ref">GorS_46</span></p>
+         
+         
+         <p id="GorS_47">
+            recakaḥ pūrakaś caiva kumbhakaḥ praṇavātmakaḥ <br />
+            prāṇāyāmo bhavet tredhā mātrā dvādaśa-saṃyutaḥ //
+             <span class="ref">GorS_47</span></p>
+         
+         
+         <p id="GorS_48">
+            dvādaśādhamake mātrā madhyame dviguṇās tataḥ <br />
+            uttame triguṇā mātrāḥ prāṇāyāmasya nirṇayaḥ //
+             <span class="ref">GorS_48</span></p>
+         
+         
+         <p id="GorS_49">
+            adhame ca ghano gharmaḥ kampo bhavati madhyame <br />
+            uttiṣṭhaty uttame yogī baddha-padmāsano muhuḥ //
+             <span class="ref">GorS_49</span></p>
+         
+         
+         <p id="GorS_50">
+            aṅgānāṃ mardanaṃ śastaṃ śrama-saṃjāta-vāriṇā <br />
+            kaṭv-amla-lavaṇa-tyāgī kṣīra-bhojanam ācaret //
+             <span class="ref">GorS_50</span></p>
+         
+         
+         <p id="GorS_51">
+            mandaṃ mandaṃ pibed vāyuṃ mandaṃ mandaṃ viyojayet <br />
+            nādhikaṃ stambhayed vāyuṃ na ca śīghraṃ vimocayet //
+             <span class="ref">GorS_51</span></p>
+         
+         
+         <p id="GorS_52">
+            ūrdhvam ākṛṣya cāpānaṃ vātaṃ prāṇe niyojayet <br />
+            mūrdhānaṃ nīyate śaktyā sarva-pāpaiḥ pramucyate //
+             <span class="ref">GorS_52</span></p>
+         
+         
+         <p id="GorS_53">
+            prāṇāyāmo bhavaty evaṃ pātakendhana-pātakaḥ <br />
+            enombudhi-mahā-setuḥ procyate yogibhiḥ sadā //
+             <span class="ref">GorS_53</span></p>
+         
+         
+         <p id="GorS_54">
+            āsanena rujo hanti prāṇāyāmena pātakam <br />
+            vikāraṃ mānasaṃ yogī pratyāhāreṇa sarvadā //
+             <span class="ref">GorS_54</span></p>
+         
+         
+         <p id="GorS_55">
+            candrāmṛta-mayīṃ dhārāṃ pratyāhārati bhāskaraḥ <br />
+            tat-pratyāharaṇaṃ tasya pratyāhāraḥ sa ucyate //
+             <span class="ref">GorS_55</span></p>
+         
+         
+         <p id="GorS_56">
+            ekā strī bhujyate dvābhyām āgatā soma-maṇḍalāt <br />
+            tṛtīyo yo bhavet tābhyāṃ sa bhavaty ajarāmaraḥ //
+             <span class="ref">GorS_56</span></p>
+         
+         
+         <p id="GorS_57">
+            nābhideśe bhavaty eko bhāskaro dahanātmakaḥ <br />
+            amṛtātmā sthito nityaṃ tālumūle ca candramāḥ //
+             <span class="ref">GorS_57</span></p>
+         
+         
+         <p id="GorS_58">
+            varṣaty adhomukhaś candro grasaty ūrdhva-mukho raviḥ <br />
+            jñātavyaṃ karaṇaṃ tatra yena pīyūṣam āpyate //
+             <span class="ref">GorS_58</span></p>
+         
+         
+         <p id="GorS_59">
+            ūrdhva-nābhir adhas tālu ūrdhva-bhānur adhaḥ śaśī <br />
+            karaṇaṃ viparītākhyaṃ guru-vaktreṇa labhyate //
+             <span class="ref">GorS_59</span></p>
+         
+         
+         <p id="GorS_60">
+            tridhā baddho vṛṣo yatra rauravīti mahāsvanam <br />
+            anāhataṃ ca tac cakraṃ hṛdaye yogino viduḥ //
+             <span class="ref">GorS_60</span></p>
+         
+         
+         <p id="GorS_61">
+            anāhatam atikramya cākramya maṇipūrakam <br />
+            prāpte prāṇaṃ mahāpadmaṃ yogitvam amṛtāyate //
+             <span class="ref">GorS_61</span></p>
+         
+         
+         <p id="GorS_62">
+            viśabdaḥ saṃsmṛto haṃso nirmalaḥ śuddha ucyate <br />
+            ataḥ kaṇṭhe viśuddhākhye cakraṃ cakra-vido viduḥ //
+             <span class="ref">GorS_62</span></p>
+         
+         
+         <p id="GorS_63">
+            viśuddhe parame cakre dhṛtvā soma-kalā-jalam <br />
+            māsena na kṣayaṃ yāti vañcayitvā mukhaṃ raveḥ //
+             <span class="ref">GorS_63</span></p>
+         
+         
+         <p id="GorS_64">
+            sampīḍya rasanāgreṇa rāja-danta-bilaṃ mahat <br />
+            dhyātvāmṛtamayīṃ devīṃ ṣaṇ-māsena kavir bhavet //
+             <span class="ref">GorS_64</span></p>
+         
+         
+         <p id="GorS_65">
+            amṛtāpūrṇa-dehasya yogino dvi-tri-vatsarāt <br />
+            ūrdhvaṃ pravartate reto'py aṇimādi-guṇodayaḥ //
+             <span class="ref">GorS_65</span></p>
+         
+         
+         <p id="GorS_66">
+            indhanāni yathā vahnis taila-varti ca dīpakaḥ <br />
+            tathā somakalā-pūrṇaṃ dehī dehaṃ na muñcati //
+             <span class="ref">GorS_66</span></p>
+         
+         
+         <p id="GorS_67">
+            āsanena samāyuktaḥ prāṇāyāmena saṃyutaḥ <br />
+            pratyāhāreṇa saṃyukto dhāraṇāṃ ca samabhyaset //
+             <span class="ref">GorS_67</span></p>
+         
+         
+         <p id="GorS_68">
+            hṛdaye pañca-bhūtānāṃ dhāraṇāṃ ca pṛthak pṛthak <br />
+            manaso niścalatvena dhāraṇā ca vidhīyate //
+             <span class="ref">GorS_68</span></p>
+         
+         
+         
+         <p id="GorS_69">
+            yā pṛthvī hari-tāla-deśa-rucirā pītā lakārānvitā saṃyuktā kamalāsanena hi catuṣkoṇā hṛdi sthāyinī <br />
+            prāṇaṃ tatra vinīya pañca-ghaṭikāś cittānvitaṃ dhārayed eṣā stambhakarī sadā kṣitijayaṃ kuryād bhuvo dhāraṇā //
+             <span class="ref">GorS_69</span></p>
+         
+         
+         
+         <p id="GorS_70">
+            ardhendu-pratimaṃ ca kunda-dhavalaṃ kaṇṭhe'mbu-tattavṃ sthitaṃ yat pīyūṣa-va-kāra-bīja-sahitaṃ yuktaṃ sadā viṣṇunā <br />
+            prāṇaṃ tatra vinīya pañca-ghaṭikāś cittānvitaṃ dhārayed eṣā durvaha-kāla-kūṭa-jaraṇā syād vāriṇī dhāraṇā //
+             <span class="ref">GorS_70</span></p>
+         
+         
+         <p id="GorS_71">
+            yat tāla-sthitam indra-gopa-sadṛśaṃ tattvaṃ trikoṇojjvalaṃ tejo-repha-mayaṃ pravāla-ruciraṃ rudreṇa yat saṅgatam <br />
+            prāṇaṃ tatra vinīya pañca-ghaṭikāś cittānvitaṃ dhārayed eṣā vahni-jayaṃ sadā vidadhate vaiśvānarī dhāraṇā //
+             <span class="ref">GorS_71</span></p>
+         
+         
+         
+         <p id="GorS_72">
+            yad bhinnāñjana-puñja-sānnibham idaṃ tattvaṃ bhruvor antare vṛttaṃ vāyumayaṃ ya-kāra-sahitaṃ yatreśvaro devatā <br />
+            prāṇaṃ tatra vinīya pañca-ghaṭikāś cittānvitaṃ dhārayed eṣā khe gamanaṃ karoti yamināṃ syād vāyavī dhāraṇā //
+             <span class="ref">GorS_72</span></p>
+         
+         
+         
+         <p id="GorS_73">
+            ākāśaṃ suviśuddha-vāri-sadṛśaṃ yad brahma-randhre sthitaṃ tatrādyena sadā-śivena sahitaṃ śāntaṃ ha-kārākṣaram <br />
+            prāṇaṃ tatra vinīya pañca-ghaṭikāś cittānvitaṃ dhārayed eṣā mokṣa-kavāṭa-pāṭana-paṭuḥ proktā nabho-dhāraṇā //
+             <span class="ref">GorS_73</span></p>
+         
+         
+         
+         <p id="GorS_74">
+            stambhanī drāvaṇī caiva dahanī bhrāmaṇī tathā <br />
+            śoṣaṇī ca bhavanty evaṃ bhūtānāṃ pañca dhāraṇāḥ //
+             <span class="ref">GorS_74</span></p>
+         
+         
+         <p id="GorS_75">
+            karmaṇā manasā vācā dhāraṇāḥ pañca durlabhāḥ <br />
+            vidhāya satataṃ yogī sarva-pāpaiḥ pramucyate //
+             <span class="ref">GorS_75</span></p>
+         
+         
+         <p id="GorS_76">
+            sarvaṃ cintā-samāvarti yogino hṛdi vartate <br />
+            yat tattve niścitaṃ cetas tat tu dhyānaṃ pracakṣate //
+             <span class="ref">GorS_76</span></p>
+         
+         
+         <p id="GorS_77">
+            dvidhā bhavati tad dhyānaṃ sa-guṇaṃ nirguṇaṃ tathā <br />
+            saguṇaṃ varṇa-bhedena nirguṇaṃ kevalaṃ viduḥ //
+             <span class="ref">GorS_77</span></p>
+         
+         
+         <p id="GorS_78">
+            ādhāraṃ prathamaṃ cakraṃ tapta-kāñcana-sannibham <br />
+            nāsāgre dṛṣṭim ādāya dhyātvā muñcati kilbiṣam //
+             <span class="ref">GorS_78</span></p>
+         
+         
+         <p id="GorS_79">
+            svādhiṣṭhānaṃ dvitīyaṃ tu san-māṇikya-suśobhanam <br />
+            nāsāgre dṛṣṭim ādāya dhyātvā muñcati pātakam //
+             <span class="ref">GorS_79</span></p>
+         
+         
+         <p id="GorS_80">
+            taruṇāditya-saṃkāśaṃ cakraṃ ca maṇipūrakam <br />
+            nāsāgre dṛṣṭim ādāya dhyātvā saṃkṣobhayej jagat //
+             <span class="ref">GorS_80</span></p>
+         
+         <span class="note">verse missing</span>
+         
+         <p id="GorS_82">
+            vidyut-prabhāvaṃ hṛt-padme prāṇāyāma-vibhedanaiḥ <br />
+            nāsāgre dṛṣṭim ādāya dhyātvā brahma-mayo bhavet //
+             <span class="ref">GorS_82</span></p>
+         
+         
+         <p id="GorS_83">
+            santataṃ ghaṇṭikā-madhye viśuddhaṃ cāmṛtodbhavam <br />
+            nāsāgre dṛṣṭim ādāya dhyātvā brahma-mayo bhavet //
+             <span class="ref">GorS_83</span></p>
+         
+         
+         <p id="GorS_84">
+            bhruvor madhye sthitaṃ devaṃ snigdha-mauktika-sannibham <br />
+            nāsāgre dṛṣṭim ādāya dhyātvā'nandamayo bhavet //
+             <span class="ref">GorS_84</span></p>
+         
+         
+         <p id="GorS_85">
+            nirguṇaṃ ca śivaṃ śāntaṃ gagane viśvatomukham <br />
+            nāsāgre dṛṣṭim ādāya dhyātvā duḥkhād vimucyate //
+             <span class="ref">GorS_85</span></p>
+         
+         
+         <p id="GorS_86">
+            gudaṃ meḍhraṃ ca nābhiṃ ca hṛt-padme ca tad-ūrdhvataḥ <br />
+            ghaṇṭikāṃ lampikā-sthānaṃ bhrū-madhye parameśvaram //
+             <span class="ref">GorS_86</span></p>
+         
+         
+         <p id="GorS_87">
+            nirmalaṃ gaganākāraṃ marīci-jala-sannibham <br />
+            ātmānaṃ sarvagaṃ dhyātvā yogī yogam avāpnuyāt //
+             <span class="ref">GorS_87</span></p>
+         
+         
+         <p id="GorS_88">
+            kathitāni yathaitāni dhyāna-sthānāni yoginām <br />
+            upādhi-tattva-yuktāni kurvanty aṣṭa-guṇodayam //
+             <span class="ref">GorS_88</span></p>
+         
+         
+         <p id="GorS_89">
+            upādhiś ca tathā tattvaṃ dvayam evam udāhṛtam <br />
+            upādhiḥ procyate varṇas tattvam ātmābhidhīyate //
+             <span class="ref">GorS_89</span></p>
+         
+         
+         <p id="GorS_90">
+            upādhir anyathā-jñānaṃ tattvaṃ saṃsthitam anyathā <br />
+            samastopādhi-vidhvaṃsi sadābhyāsena yoginām //
+             <span class="ref">GorS_90</span></p>
+         
+         
+         <p id="GorS_91">
+            ātma-varṇena bhedena dṛśyate sphāṭiko maṇiḥ <br />
+            mukto yaḥ śakti-bhedena so'yam ātmā praśasyate //
+             <span class="ref">GorS_91</span></p>
+         
+         
+         <p id="GorS_92">
+            nirātaṅkaṃ nirālambaṃ niṣprapañcaṃ nirāśrayam <br />
+            nirāmayaṃ nirākāraṃ tattvaṃ tattvavido viduḥ //
+             <span class="ref">GorS_92</span></p>
+         
+         
+         <p id="GorS_93">
+            śabdādyāḥ pañca yā mātrā yāvat karṇādiṣu smṛtāḥ <br />
+            tāvad eva smṛtaṃ dhyānaṃ tat-samādhir ataḥ param //
+             <span class="ref">GorS_93</span></p>
+         
+         
+         <p id="GorS_94">
+            yadā saṃkṣīyate prāṇo mānasaṃ ca vilīyate <br />
+            tadā sama-rasaikatvaṃ samādhir abhidhīyate //
+             <span class="ref">GorS_94</span></p>
+         
+         <span class="note">verse missing</span>
+         
+         <p id="GorS_96">
+            dhāraṇāḥ pañca-nāḍyas tu dhyānaṃ ca ṣaṣṭhi-nāḍikāḥ <br />
+            dina-dvādaśakenaiva samādhiḥ prāṇa-saṃyamaḥ //
+             <span class="ref">GorS_96</span></p>
+         
+         
+         <p id="GorS_97">
+            na gandhaṃ na rasaṃ rūpaṃ na sparśaṃ na ca niḥsvanam <br />
+            ātmānaṃ na paraṃ vetti yogī yuktaḥ samādhinā //
+             <span class="ref">GorS_97</span></p>
+         
+         
+         <p id="GorS_98">
+            khādyate na ca kālena bādhyate na ca karmaṇā <br />
+            sādhyate na ca kenāpi yogī yuktaḥ samādhinā //
+             <span class="ref">GorS_98</span></p>
+         
+         
+         <p id="GorS_99">
+            nirmalaṃ niścalaṃ nityaṃ niṣkriyaṃ nirguṇaṃ mahat <br />
+            vyoma-vijñānam ānandaṃ brahma brahma-vido viduḥ //
+             <span class="ref">GorS_99</span></p>
+         
+         
+         <p id="GorS_100">
+            dugdhe kṣīraṃ dhṛte sarpir agnau vahnir ivārpitaḥ <br />
+            advayatvaṃ vrajen nityaṃ yogavit parame pade //
+             <span class="ref">GorS_100</span></p>
+         
+         
+         <p id="GorS_101">
+            bhava-bhaya-vane vahnir mukti-sopāna-mārgataḥ <br />
+            advayatvaṃ vrajen nityaṃ yogavit parame pade //
+             <span class="ref">GorS_101</span></p>
+         
+         
+         <p>gorakṣa-śatakaṃ samāptam</p>
+         </div>
+   </body>
+</html>

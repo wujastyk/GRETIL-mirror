@@ -1,0 +1,876 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Jagannātha: Prāṇābharaṇa with autoentary (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Jagannātha: Prāṇābharaṇa with autoentary</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_jagannAtha-prANAbharaNa-comm.xml">sa_jagannAtha-prANAbharaNa-comm.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Dhaval Patel</p>
+      <p class="noindent"><b>Contribution: </b>Dhaval Patel</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Pdt. Durgaprasad and Kasinath Pandurang Parab, Kavyamala [old, cumulative series],
+            vol. 1, 1886 (3rd ed., 1929), pp. 79-90.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/5_poetry/2_kavya/jagpranu.htm">jagpranu.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Jagannatha: Pranabharana, with auto-commentary
+            <br />Based on the ed. by Pdt. Durgaprasad and Kasinath Pandurang Parab,
+            <br />Kavyamala [old, cumulative series], vol. 1, 1886 (3rd ed., 1929), pp. 79-90.
+            <br />
+            <br />Input by Dhaval Patel
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>paṇḍitarājaśrījagannāthaviracitaṃ prāṇābharaṇam /
+            tatkṛtayaiva ṭippaṇyā sametam /</p>
+         
+         
+         <p>
+              vidvāṃso vasudhātale paravacaḥślāghāsu vācaṃyamā bhūpālāḥ kamalāvilāsamadironmīlanmadāghūrṇitāḥ
+            /<br />
+              āsye ghāsyati kasya lāsyamadhunā dhanyasya kāmālasasvarvāmādharamādhurīmadharayanvācāṃ
+            vilāso mama // JPran_1 //
+            </p>
+         
+         
+         <p>vidvāṃsa ityādi prāyadarśanābhiprāyametat /
+            tena sahṛdayairna manāgapi vimanāyitavyam /
+            
+            <p>
+               bhāvadhvaniścāyam /<br />
+               uttarārdhapratipādyārthālambanāyā etatpadyaprayogānubhāvāyāḥ kavigatacintāyāḥ prādhānyenābhivyakteḥ
+               /<br />
+               anupāttobhayanimittako vyatirekaḥ sphuṭo 'laṃkāraḥ /<br />
+               kāmālasatvaṃ vāmāviśeṣamadharamādhurīprakarṣakam //
+               </p>
+         </p>
+         
+         
+         <p>
+              vidrāṇaiva guṇajñatā samudito bhūyānasūyābharaḥ kālo 'yaṃ kalirājagāma jagatīlāvaṇyakukṣiṃbhariḥ
+            /<br />
+              evaṃ bhāvanayā madīyakavite maunaṃ kimālambase jāgartu kṣitimaṇḍale ciramiha śrīkāmarūpeśvaraḥ
+            // JPran_2 //
+            </p>
+         
+         
+         <p>kavigatarājaviṣayakaratibhāvadhvaniścāyam /
+            
+            <p>
+               ita ūrdhvamayameva ā caramapadyamanuvartayiṣyate /<br />
+               asya cātra maunānubhāvito varṇanīyālambano nirvedo guṇa iti preyolaṃkārāspadam /<br />
+               atra cācetanāyāṃ kavitāyāṃ cetanatvādhyavasāyamūlāsaṃbandhe saṃbandhātmikātiśayoktirvivakṣitā
+               /<br />
+               tena bhāvanāmaunanirvedānāṃ saṃbodhanasya ca nānupapattiḥ //
+               </p>
+         </p>
+         
+         
+         <p>
+              pārīndrāṇāṃ ghurīṇairavanitalaguhāgarbhataḥ saṃpatadbhiḥ svāpabhraṃśāparādhapracalitanayanaprāntamākarṇyamānaḥ
+            /<br />
+              tvatprasthānāntarudyatpralayajaladharadhvānadhikkāradhīro ghṛṣṭakṣīrodatīro jagati
+            vijayate dundubhidvandvanādaḥ // JPran_3 //
+            </p>
+         
+         
+         <p>atra rājālambanasya tādṛśanādaśravaṇoddīpitasya nayanapracalanānubhāvitasya giriguhāgarbhotpatanābhivyaktenāmarṣeṇa
+            saṃcāriṇā paripoṣitasya pārīndragatotsāhasya sthāyino rājaviṣayakaratibhāvāṅgatvādrasālaṃkāratvam
+            /
+            
+            <p>
+               yadāhuḥ -<br />
+               'pradhāne 'nyatra vākyārthe yatrāṅgaṃ tu rasādayaḥ /<br />
+               kāvye tasminnalaṃkāro rasādiriti me matiḥ'; //
+               </p>
+         </p>
+         
+         
+         <p>iti /
+            tṛtīyacaturthacaraṇayostu sphuṭāveva vyatirekātiśayau /
+            
+            <p>
+               ghṛṣṭāśabdena tādṛśanādo velācalapratibaddhatvādagre na gataḥ /<br />
+               anyathā lokālokācalamapi spṛśediti gamyate /<br />
+               eva mṛṣṭeti noktam /<br />
+               tathā sati śaithilyapratyayāpatteḥ //
+               </p>
+         </p>
+         
+         
+         <p>
+              kiṃ brūmastava vīratāṃ vayamamī yasmindharākhaṇḍala krīḍākuṇḍalitabhru śoṇanayanaṃ
+            dormaṇḍalaṃ paśyati /<br />
+              māṇikyāvalikāntidanturatarairbhūṣāsahasrotkarairvindhyāraṇyaguhāgṛhāvaniruhāstatkālamullāsitāḥ
+            // JPran_4 //
+            </p>
+         
+         
+         <p>
+            atra vindhyāraṇyagatānāṃ guhāgṛhāṇāmavaniruhāṃ ca vindhyagatānāṃ guhāgṛhāṇāmaraṇyagatānāmavaniruhāṇāṃ
+            vā bhūṣaṇena kāryeṇāprastutena tvadarinārīṇāṃ svanagarāṇi parityajya niśi guhāgṛheṣu
+            tarutaleṣu ca vinyasya sakalābharaṇāni kṛtaśayanānāṃ prātastvadāgamanasaṃbhrameṇa
+            tatkarmakaṃ vismaraṇaṃ bhāravaśātparityāgo vā prastuto gamyata ityaprastutapraśaṃsā
+            /<br />
+            kāryasya yathākathaṃcitprastutatve tu paryāyoktamalaṃkāraḥ //
+            </p>
+         
+         
+         <p>
+              māhātmyasya paro 'vadhirnijagṛhaṃ gambhīratāyāḥ pitā ratnānāmahameka eva bhuvane
+            ko vāparo mādṛśaḥ /<br />
+              ityevaṃ paricintya mā sma sahasā garvāndhakāraṃ gamo dugdhābdhe bhavatā samo vijayate
+            śrīprāṇanārāyaṇaḥ // JPran_5 //
+            </p>
+         
+         
+         <p>
+            atropamānasya guṇaviśeṣaprayuktasādṛśyābhāvanibandhanamutkarṣaṃ parihartuṃ varṇyamānasādṛśyātmakaḥ
+            pratīpālaṃkārabhedaḥ /<br />
+            sa copamāviśeṣa ityeke /<br />
+            vicchittivailakṣaṇyādatirikta evetyapare //
+            </p>
+         
+         
+         <p>
+              tattvo janma sitāṃśuśekharatanujyotsnānimagnātmano dugdhāmbhonidhimugdhavīcivalayaiḥ
+            sākaṃ parikrīḍanam /<br />
+              saṃvāsaḥ suralokasindhupuline vādaḥ sudhāṃśoḥ karaiḥ kasmānnojjvalimānamañcatutamāṃ
+            deva tvadīyaṃ yaśaḥ // JPran_6 //
+            </p>
+         
+         
+         <p>
+            atra yaśasi dhavalatātiśayastaddharmisaṃbandhaprayuktatvena kathita iti samasya viṣayaḥ
+            /<br />
+            aṃśukṛtaścandre tatkṛtaśca bhagavati bhagavatkṛtaśca rājanītyevamuttarottaramupacīyamāno
+            rājagata utkarṣaḥ pratīyata iti sāraviṣayaḥ //
+            </p>
+         
+         
+         <p>
+              ābadhnāsyalakānnirasyasitamāṃ colaṃ rasākāṅkṣayā laṅkāyāvaśatāṃ tanoṣi kuruṣe jaṅghālalāṭakṣatam
+            /<br />
+              pratyaṅgaṃ parimardanirdayamaho cetaḥ samālambase vāmānāṃ viṣaye nṛpendra bhavataḥ
+            prāgalbhyamadbhutam // JPran_7 //
+            </p>
+         
+         
+         <p>
+            atra prakṛtidharmigatayoḥ prakṛtāprakṛtayoḥ prakṛtayoreva vā vṛttāntayoḥ śleṣaḥ /<br />
+            sa ca ṣaṭsu sthaleṣu śabdanānātvanibandhano dvayoścārthanānātvanibandhanaḥ /<br />
+            dvāvapyetau śabdālaṃkārāviti prāñcaḥ /<br />
+            ādyo jatukāṣṭhanyāyena śabdaśleṣaṇācchabdālaṃkāraḥ, dvitīyastvekavṛntagataphaladvayanyāyenārthaśleṣaṇādarthālaṃkāra
+            iti navyāḥ //
+            </p>
+         
+         
+         <p>
+              deva tvāṃ paritaḥ stavantu kavayo lobhena kiṃ tāvatā stavyastvaṃ bhavitāsi yasya
+            taruṇaścāpapratāpo 'niśam /<br />
+              kroḍāntaḥ kurutetarāṃ vasumatīmāśāḥ samāliṅgati dyāṃ cumbatyamarāvatī ca sahasā
+            gacchatyagamyāmapi // JPran_8 //
+            </p>
+         
+         
+         <p>
+            atra pratāpagataḥ pṛthivyādisaṃbandho liṅgaviśeṣāvacchinnatattatsādhāraṇaviśeṣaṇābhivyaktakāmukavṛttāntābhinnatayā
+            sthita iti samāsoktiḥ kāryarūpadharmaprayuktaśuddhasādhāraṇyena viśeṣaṇasāmyamālambya
+            pravṛttā /<br />
+            sā ca nindotthāpakatvādadvyājastutau guṇaḥ //
+            </p>
+         
+         
+         <p>
+              lokānāṃ vipadaṃ dhunoṣi kuruṣe saṃpattimatyutkaṭāmityalpetarajalpitairjaḍadhiyāṃ
+            bhūpāla mā gā madam /<br />
+              yatkīrtistava vallabhā laghutarabrahmāṇḍabhāṇḍodare piṇḍīkṛtya mahonnatāmapi tanuṃ
+            kaṣṭena hā vartate // JPran_9 //
+            </p>
+         
+         
+         <p>
+            atrāpi prāgvat /<br />
+            paraṃ tvādhārādheyānyataravistṛtatvasiddhiphalakānyataranyūnatvakalpanātsādhikālaṃkāro
+            'pi tasyāṃ guṇaḥ //
+            </p>
+         
+         
+         <p>
+              kṣoṇīṃ śāsati mayyupadravalavaḥ kasyāpi na syāditi prauḍhaṃ vyāharato vacastava
+            kathaṃ deva pratīmo vayam /<br />
+              pratyakṣaṃ bhavato vipakṣanivahairdyāmutpatadbhiḥ krudhā yadyuṣmatkulakoṭimūlapuruṣo
+            nirbhidyate bhāskaraḥ // JPran_10 //
+            </p>
+         
+         
+         <p>iha tvadhikasamāsoktibhyāmanāliṅgitaiva sā [vyājastutiḥ] //</p>
+         
+         
+         <p>
+              āsvādena raso rasena kavitā kāvyena vaṇī tayā lokāntaḥkaraṇānurāgarasikaḥ sabhyaḥ
+            sabhā cāmunā /<br />
+              dāridryānaladahyamānajagatīpīyūṣadhārādhara kṣoṇīnātha tathā bhavāṃśca bhavatā bhūmaṇḍalaṃ
+            bhāsate // JPran_11 //
+            </p>
+         
+         
+         <p>
+            mālādīpakametaditi prāñcaḥ /<br />
+            dīpakasya sādṛśyamūlakatāniyamānna mālādīpakamapi tvekāvalībheda iti tu vayam //
+            </p>
+         
+         
+         <p>
+              amlāyanyadarātikairavakulānyamlāsiṣuḥ satvaraṃ dainyadhvāntakadambakāni parito neśustamāṃ
+            tāmasāḥ /<br />
+              sanmārgāḥ prasaranti sādhunalinānyullāsamātanvate tanmanye bhavataḥ pratāpatapano
+            deva prabhātonmukhaḥ // JPran_12 //
+            </p>
+         
+         
+         <p>iha rūpakaniṣpāditaliṅgakamanumānaṃ nimittavirahādutprekṣāyā ayogādvācakamanumitiparam
+            //</p>
+         
+         
+         <p>
+              utkṣiptāḥ kabarībharaṃ vivalitāḥ pārśvadvayaṃ nyakkṛtāḥ pādāmbhojayugaṃ ruṣā parihṛtā
+            dūreṇa celāñcalam /<br />
+              gṛhṇanti tvarayā bhavatpratibhaṭakṣmāpālavāmabhruvāṃ yāntīnāṃ gahaneṣu kaṇṭakacitāḥ
+            ke ke na bhūmīrūhāḥ // JPran_13 //
+            </p>
+         
+         
+         <p>atra kaṇṭakacitatvena kabarīgrahaṇādeḥ saṃkīrṇatvātkāryadharmāntarā saṃkīrṇaśuddhasādhāraṇyena
+            viśeṣaṇasāmyamālambya pravṛttā samāsoktiḥ //</p>
+         
+         
+         <p>
+              dṛṣṭiḥ saṃbhṛtamaṅgalā budhamayī deva tvadīyā sabhā kāvyasyāśrayabhūtamāsyamaruṇādhāro
+            'dharaḥ sundaraḥ /<br />
+              krodhaste 'śanimūrudāradhiṣaṇa svāntaṃ tu somāspadaṃ rājannūnamanūnavikrama bhavānsarvagrahālambanam
+            // JPran_14 //
+            </p>
+         
+         
+         <p>atrotprekṣyamānasarvagrahālambanatvasya samānādhikaraṇeṣu dharmeṣu tattadgrahāśritāṅgakatveṣu
+            viśeṣaṇībhūtaistattadgrahaiḥ saha viṣayasya rājño kalyāṇāśrayatvādiṣu viśeṣaṇānāṃ
+            kalyāṇādīnāṃ śleṣeṇābhedasaṃpādanadvārā tādṛśadharmasādhāraṇatāsaṃpattau tannimittakotprekṣāsiddhiḥ
+            //</p>
+         
+         
+         <p>
+              sṛṣṭiḥ sṛṣṭibhuvā purā kila paritrātuṃ jaganmaṇḍalaṃ tvaṃ caṇḍātapanirdayaṃ tapasi
+            yajjvālājaṭālaiḥ karaiḥ /<br />
+              saṃrambhāruṇalocano raṇabhuvi prasthātukāmo 'dhunā jānīmo bhavatā na hanta viditaḥ
+            śrīkāmarūpeśvaraḥ // JPran_15 //
+            </p>
+         
+         
+         <p>atra rājavarṇanāṅgatvena raverbhayotpādane varṇyatvena prastute sākṣāttadananuguṇatvenāprastutena
+            prasthānena sākṣāttadanuguṇaṃ ripukartṛkaṃ sūryamaṇḍalabhedanaṃ kāryaṃ gamyate //</p>
+         
+         
+         <p>
+              āyātā kamalāsanasya bhavanāddraṣṭuṃ trilokītalaṃ gīrvāṇeṣu dināni kānicidaho nītvā
+            punaḥ kautukāt /<br />
+              bhrāntvā bhūvalaye mahākavikulopāsyā tavāsyāmbuje rājansaṃprati satyadhāmani girāṃ
+            devī sukhaṃ vartate // JPran_16 //
+            </p>
+         
+         
+         <p>
+            atraikasyādheyasyānekādhārasaṃbandhātparyāyaḥ /<br />
+            tatra prathamacaraṇagatamadhikaraṇamārthaviśleṣāvadhikapañcamyā viśleṣasyopaśleṣāpekṣatvenaupaśleṣikādhikaraṇasyākṣepagamyatvāt
+            /<br />
+            satyadhāmanīti śleṣabhittikābhedādhyavasānena mukhasya satyalokatāsiddhau sukhavartanasiddhiḥ
+            //
+            </p>
+         
+         
+         <p>
+              vidvaddainyatamastrimūrtirathavā vairīndravaṃśāṭavīdāvāgniḥ kimaho mahojjvalayaśaḥśītāṃśudugdhāmbudhiḥ
+            /<br />
+              kiṃ vānaṅgabhujaṃgadaṣṭavanitājīvāturevaṃ nṛṇāṃ keṣāmeṣa narādhipo na janayatyalpetarāḥ
+            kalpanāḥ // JPran_17 //
+            </p>
+         
+         
+         <p>
+            atra koṭīnāmāropāntaramūlakatvātparamparitasaṃśayaḥ sa cāhāryaḥ, mūlāropasya tathātvāt
+            /<br />
+            kavāviva kavinibaddhapramātrantare 'pyāhāryabuddheravirodhāt //
+            </p>
+         
+         
+         <p>
+              nadanti madadantinaḥ parilasanti vājivrajāḥ paṭhanti birudāvalīmahitamandire bandinaḥ
+            /<br />
+              idaṃ tadavadhi prabho yadavadhi pravṛddhā na te yugāntadahanopamā nayanakoṇaśoṇadyutiḥ
+            // JPran_18 //
+            </p>
+         
+         
+         <p>atra mukhyārthasya rājaviṣayāyāḥ kaviraterupakārakasya yadaiva tava kopodayastadaiva
+            tava ripūṇāṃ saṃpado bhasmasādbhaviṣyantīti vastuna upakārikā nayanakoṇaśoṇadyuteryugāntadahanopamā
+            //</p>
+         
+         
+         <p>
+              mayi tvadupamāvidhau vasumatīśa vācaṃyame na varṇayati māmayaṃ kaviriti krudhaṃ
+            mā kṛthāḥ /<br />
+              carācaramidaṃ jagajjanayato vidhermānase padaṃ na vidadhetarāṃ tava samo dvitīyo
+            naraḥ // JPran_19 //
+            </p>
+         
+         
+         <p>atra tvatsamo 'nyo nāstīti pratyayādupamānaluptopamā vyaṅgyeti prāñcaḥ /
+            
+            <p>
+               sarvathaiva sāmyasyāpratiṣṭhānānneyamupamā /<br />
+               anyathā vyatirekasyāpi tattvāpatteḥ /<br />
+               'ḍhuṃḍhollanto marisasi kaṃṭakakaliāiṃ keaivaṇāiṃ /<br />
+               mālaikusumasaricchaṃ bhamara bhamaṃto ṇa pāvesi //
+               </p>
+         </p>
+         
+         
+         <p>
+            '; ityatra tu na prāpsyasītyuktvā kvacittvadagocare sthale bhaviṣyatīti pratīteḥ sādṛśyapratiṣṭhānālluptopamāstu
+            /<br />
+            tasmādasamālaṃkāra evāyamiti tu navyāḥ //
+            </p>
+         
+         
+         <p>
+              bhujabhramitapaṭṭiśoddalitadṛptadantāvalaṃ bhavantamarimaṇḍalakrathana paśyataḥ
+            saṃgare /<br />
+              karālakuliśāhatisphuṭavibhinnavindhyācalo na kasya hṛdayaṃ jhaṭityadhiruroha jambhāhitaḥ
+            // JPran_20 //
+            </p>
+         
+         
+         <p>atra smaraṇālaṃkāraḥ paraṃtu lakṣyaḥ //</p>
+         
+         
+         <p>
+              yamaḥ pratimahībhṛtāṃ hutavaho 'si tannīvṛtāṃ satāṃ khalu yudhiṣṭhiro dhanapatirdhanākāṅkṣiṇām
+            /<br />
+              gṛhaṃ śaraṇamicchatāṃ kuliśakoṭibhirnirmitaṃ tvameka iha bhūtale bahuvidho vidhātrā
+            kṛtaḥ // JPran_21 //
+            </p>
+         
+         
+         <p>atra kavinā yamatvādinā rūpeṇa rājño rūpavataḥ karaṇādrūpakeṇa vipakṣabhūpālādīnāmetasminnāgate
+            yamatvādinā bhrānterapi saṃbhavādbhrāntimatā tairevānekairgrahītṛbhiranekairdharmairullekhanādullekhaviśeṣeṇa
+            ca saha saṃkīrṇo 'pi saṃbandhiṣaṣṭhyantabhedaprayuktavarṇyānekavidhatvaka ullekhaḥ
+            //</p>
+         
+         
+         <p>
+              dvinetra iva vāsavo mitakaro vivasvāniva dvitīya iva candramāḥ śritavapurmanobhūriva
+            /<br />
+              narākṛtirivāmbudhirgururiva kṣamāmāgato nuto nikhilabhūsurairjayati kāmarūpeśvaraḥ
+            // JPran_22 //
+            </p>
+         
+         
+         <p>atra rājagatānāṃ dvinetratvādīnāṃ vāsavāditādātmyavirodhināṃ virodhanivartanāya viṣayiṣu
+            vāsavādiṣvāropeṇa sādhāraṇīkaraṇāttannimittakotprekṣā /
+            sā ceha mālārūpā /
+            na cātropamā śakyarūpaṇā /
+            
+            <p>
+               dvinetratvādyukterniṣprayojanakatvāpatteḥ /<br />
+               na copamāniṣpādakaṃ teṣāṃ sādhāraṇyaṃ tadabhāve 'pi paramaiśvaryādibhiḥ pratīyamānaistasyā
+               niṣpatteḥ /<br />
+               asundaratvenopamāniṣpādakatayā kaveranabhipretatvācca /<br />
+               evaṃ dvitīyādīnāṃ candrādiṣvāropo 'pyupamāyāṃ satyāmanarthaka eva syāt //
+               </p>
+         </p>
+         
+         
+         <p>
+              dīnavrāte dayārdrā nikhilaripukule nirdayā kiṃ ca mṛdvī kāvyālāpeṣu tarkaprativacanavidhau
+            karkaśatvaṃ dadhānā /<br />
+              lubdhā dharmeṣvalubdhā vasuni paravipaddarśane kāṃdiśīkā rājannājanmaramya sphurati
+            bahuvidhā tāvakī cittavṛttiḥ // JPran_23 //
+            </p>
+         
+         
+         <p>
+            atra viṣayānekatvaprayuktacittavṛtteranekavidhatvamityullekhaḥ /<br />
+            tatra ca tadīyacittavṛttitvenaikatvādhyavasānaṃ tantram //
+            </p>
+         
+         
+         <p>
+              devāḥ ke pūrvadevāḥ samiti mama naraḥ santi ke vā purastādeva jalpanti tāvatpratibhaṭapṛtanāvartinaḥ
+            kṣatravīrāḥ /<br />
+              yāvannāyāti rājannayanaviṣayatāmantakatrāsimūrtermugdhāriprāṇadugdhāśanamasṛṇarucistvatkṛpāṇo
+            bhujaṃgaḥ // JPran_24 //
+            </p>
+         
+         
+         <p>atra śuddhaparamparitarūpakam //</p>
+         
+         
+         <p>
+              prācīsaṃdhyāsamudyanmahimadinamaṇermānamāṇikyakāntirjvālāmālā karālā kavalitajagataḥ
+            krodhakālānalasya /<br />
+              āśākāntāpadāmbhoruhatalavigalanmañjulākṣārasābhā sā bhāti kṣoṇiśobhākaraṇa tava
+            dṛśoḥ saṃgare śoṇimaśrīḥ // JPran_25 //
+            </p>
+         
+         
+         <p>atrāpi tadeva paraṃtu mālātmakam //</p>
+         
+         
+         <p>
+              tvāṃ sundarīnivahaniṣṭhuradhairyagarvanirvāsanaikarasikaṃ samare nirīkṣya /<br />
+              kā vā ripukṣitibhṛtāṃ bata rājalakṣmīḥ svāmivratatvamapariskhalitaṃ babhāra // JPran_26
+            //
+            </p>
+         
+         
+         <p>
+            atra śatrūṇāṃ rājyalakṣmīstvāṃ prāpteti vivakṣito 'rthaḥ pātivratyaskhalitarūpeṇābhihita
+            iti paryāyoktam /<br />
+            tacca rājyalakṣmyā nāyikātvasiddhyarthaṃ samāsoktimapekṣata iti sā tatra guṇaḥ //
+            </p>
+         
+         
+         <p>
+              nāsatyayogo vacaneṣu kīrtau tathārjunaḥ karmaṇi cāpi dharmaḥ /<br />
+              citte jagatprāṇabhavo yadāste vaśaṃvadāste kimu pānḍuputrāḥ // JPran_27 //
+            </p>
+         
+         
+         <p>atra pāṇḍuputreṣu viṣayeṣu rājavaśaṃvadatādātmyotprekṣāyāṃ rājāśritatvarūpo viṣayidharmaḥ
+            śleṣeṇa viṣayāṇāṃ tadāśritānāṃ cāsatyābhāvaśuklagunapuṇyaparameśvarāṇāmabhedasaṃpādanadvārā
+            viṣayasādhāraṇīkṛtaḥ //</p>
+         
+         
+         <p>
+              manthācalabhramaṇaveghavaśaṃvadā ye dugdhāmbudherudapatannaṇavaḥ sudhāyāḥ /<br />
+              tairekatāmupagatairvividhauṣadhībhirdhātā sasarja tava deva dayādṛgantān // JPran_28
+            //
+            </p>
+         
+         
+         <p>atra dṛganteṣu na kevalaṃ saṃjīvakatvādayo 'mṛtamātraguṇa eva kaverbubodhayiṣitā api
+            tu nikhilajanavaśīkāratvādayo 'nye 'pīti sudhākaṇeṣvoṣadhīsaṃsargo 'tiśayārthamupāttaḥ
+            //</p>
+         
+         
+         <p>
+              keśairvadhūnāmatha sarvakoṣaiḥ prāṇaiśca sākaṃ pratibhūpatīnām /<br />
+              tvayā raṇe niṣkaruṇena gāḍhaṃ cāpasya jīvā cakṛṣe javena // JPran_29 //
+            </p>
+         
+         
+         <p>atra cāpakarṣaṇakāryāṇānāṃ keśākarṣaṇādīnāṃ paurvāparyaviparyayātmanātiśayenānuprāṇitā
+            sahoktiḥ //</p>
+         
+         
+         <p>
+              mahendratulyaṃ kavayo bhavantaṃ vadantu kiṃ tāniha vārayāmaḥ /<br />
+              bhavānsahasraiḥ samupāsyamānaḥ kathaṃ samānastridaśādhipena // JPran_30 //
+            </p>
+         
+         
+         <p>atra śleṣotthāpitatridaśatvasaṃkhyāmādāya vyatireka upāttobhayanimittakaḥ //</p>
+         
+         
+         <p>
+              sa tu varṣatu vāri vāridastvamudārāśaya ratnavarṣaṇaḥ /<br />
+              sa kuhūrajanīmalīmasastvamihāntarbahireva nirmalaḥ // JPran_31 //
+            </p>
+         
+         
+         <p>atrāpi sa eva paraṃ tu śleṣo 'trānutthāpako niṣidhyamānaṃ sāmyaṃ ca na śābdamiti viśeṣaḥ
+            //</p>
+         
+         
+         <p>
+              katipayairniraṇāyi janādhipastadaparairudaṭaṅki dhanādhipaḥ /<br />
+              ajani kevalameṣa girāṃ patirbhuvi madekamate kamateśvaraḥ // JPran_32 //
+            </p>
+         
+         
+         <p>
+            atra nāyaṃ rājā kiṃ tu girāṃ patirityākārāpahnutiḥ /<br />
+            tatra niṣedhabhāgaḥ paramatattvoktyā pūrvārdhena gamyate /<br />
+            āropāṃśastūttarārdhena //
+            </p>
+         
+         
+         <p>
+              makarapratimairmahābhaṭaiḥ kavibhī ratnanibhaiḥ samanvitaḥ /<br />
+              kavitāmṛtakīrticandrayostvamihorvīramaṇāsi bhājanam // JPran_33 //
+            </p>
+         
+         
+         <p>
+            atra rājño jaladhyupamāyāḥ śabdenābhidhāne 'pyaṅgopamābhirākṣepādekadeśavivartinyupamā
+            tenottarārdha upamitasamāsa eva /<br />
+            viśeṣaṇasamāsavedyasya tādātmyasya prakṛte 'nupayogāt //
+            </p>
+         
+         
+         <p>
+              puraḥ purastādaribhūpatīnāṃ bhavanti bhūvallabha bhasmaśeṣāḥ /<br />
+              anantaraṃ te bhrukuṭīviṭaṅkātpatanti roṣānalavisphuliṅgāḥ // JPran_34 //
+            </p>
+         
+         
+         <p>
+            atra prayojakātiśayakṛtaḥ prayojyaśaighryātiśayo gamyaḥ /<br />
+            kāryakāraṇapaurvāparyaviparyayarūpā ceyamatiśayoktiḥ //
+            </p>
+         
+         
+         <p>
+              bhuvanatritaye 'pi mānavaiḥ paripūrṇe vibudhaiśca dānavaiḥ /<br />
+              na bhaviṣyati nāsti nābhavannṛpa yaste bhajate tulāspadam // JPran_35 //
+            </p>
+         
+         
+         <p>
+            atropamānaluptopameti prāñcaḥ /<br />
+            asamākhyamalaṃkārāntaramiti tu vayam //
+            </p>
+         
+         
+         <p>
+              pīyūṣayūṣakalpāmalpāmapi te giraṃ nipītavatām /<br />
+              toṣāya kalpate no yoṣādharabimbamadhurimodrekaḥ // JPran_36 //
+            </p>
+         
+         
+         <p>
+            atra saṃbandhe 'pyasaṃbandha ityatiśayoktibhedaḥ /<br />
+            upameyopamānaviśeṣaṇābhyāmalpatvodriktatvābhyāmalpayāpi saha bhūyānapi madhurimā sāmyaṃ
+            kartuṃ yatrānīśastatra kiṃ vācyaṃ bhūyasyeti vailakṣaṇyātmā vyatirekaśca //
+            </p>
+         
+         
+         <p>
+              bhāsayati vyomasthā jagadakhilaṃ kumudinīrvikāsayati /<br />
+              kīrtistava dharaṇigatā sagarasutāyāsamaphalatāṃ nayate // JPran_37 //
+            </p>
+         
+         
+         <p>atra vyajamānacandrikārūpakasaṃkīrṇa ullekhadhvaniḥ //</p>
+         
+         
+         <p>
+              bhāgyena saha ripūṇāmuttiṣṭhasi viṣṭarātkṛdhāviṣṭaḥ /<br />
+              sahasaiva patasi teṣu kṣitiśāsana mṛtyunā sākam // JPran_38 //
+            </p>
+         
+         
+         <p>
+            'keśairvadhūnām'; ityatra karmaṇaḥ sahoktiḥ /<br />
+            iha tu karturiti viśeṣaḥ //
+            </p>
+         
+         
+         <p>
+              tvayi pākaśāsanasame śāsati sakalaṃ vasuṃdharāvalayam /<br />
+              vipine vairivadhūnāṃ varṣanti vilocanāni ca dināni // JPran_39 //
+            </p>
+         
+         
+         <p>
+            atra varṣavadācarantītyācārakvibantena śleṣācchleṣamūlikā tulyayogitā /<br />
+            ripukāminīvarṇanaviṣayatvenopamānopameyayordvayorapi prakṛtatvāt //
+            </p>
+         
+         
+         <p>
+              ahitāpakaraṇabheṣaja naranātha bhavānkarasthito yasya /<br />
+              tasya kuto 'hibhayaṃ syādakhilāmapi medinīṃ carataḥ // JPran_40 //
+            </p>
+         
+         
+         <p>atra śleṣaniveditasya sarpabhayābhāvasyopapādakatayopāttasya rājani bheṣajatādātmyāropasyāpyupapādakatayā
+            sthitaṃ rājasaṃbandhini dviṣadapakaraṇarūpe dharme śleṣaniveditasarpatāpakaraṇatādātmyamiti
+            prathamacaraṇe śliṣṭaparamparitarūpakaṃ tṛtīye tu śleṣa eva /</p>
+         
+         
+         <p>
+              kuvalayalakṣmīṃ harate tava kīrtistatra kiṃ citram /<br />
+              yasmānnidānamasyā lokanamasyāṅghripaṅkajo hi bhavān // JPran_41 //
+            </p>
+         
+         
+         <p>
+            atrotpādakasamānaguṇatvādutpādyasyotpādakasaṃsargānurūpaḥ samālaṃkāraviśeṣaḥ /<br />
+            śleṣaścāsminguṇaḥ //
+            </p>
+         
+         
+         <p>
+              dṛṣṭaḥ sadasi cedugrāścandracandanacandrikāḥ /<br />
+              atha tvaṃ saṃgare saumyāḥ śeṣakālānalāsayaḥ // JPran_42 //
+            </p>
+         
+         
+         <p>
+            atra dṛṣṭaḥ sadasīti vākye tvamityasyāpakarṣaṇāt, atha tvaṃ saṃgara ityatra ca tvamityasyānuvartanādvākyayoḥ
+            padavinimayātmālaṃkāraḥ pūrvārdhe /<br />
+            uttarārdhe prakṛtānekadharmasaṃbandhāttulyayogitā /<br />
+            upameyasyotkṛṣṭaguṇatvasiddhaya upamānasya tadviruddhaguṇakalpanātmakenālaṃkārāntareṇa
+            śabalitā //
+            </p>
+         
+         
+         <p>
+              apāre khalu saṃsāre vidhinaiko 'rjunaḥ kṛtaḥ /<br />
+              kīrtyā nirmalayā bhūpa tvayā sarve 'rjunāḥ kṛtāḥ // JPran_43 //
+            </p>
+         
+         
+         <p>iha śleṣamūlo vyatirekaḥ //</p>
+         
+         
+         <p>
+              dadhīcibalikarṇeṣu himahemācalābdhiṣu /<br />
+              adātṛtvamadhairyaṃ ca dṛṣṭe bhavati bhāsate // JPran_44 //
+            </p>
+         
+         
+         <p>
+            atrāpi saiva tathāvidhā /<br />
+            yathāsaṃkhyasaṃkarastu viśeṣaḥ //
+            </p>
+         
+         
+         <p>
+              śāsati tvayi he rājannakhaṇḍāvanimaṇḍalam /<br />
+              na manāgapi niścinte maṇḍale śatrumittrayoḥ // JPran_45 //
+            </p>
+         
+         
+         <p>ihāpi tulyayogitā mittraśabdaśleṣotthāpitā vyājastutiśca //</p>
+         
+         
+         <p>
+              bhānuragniryamo vāyaṃ baliḥ karṇo 'thavā śibiḥ /<br />
+              pratyarthino 'rthinaścetthaṃ tvayi yānti vikalpanām // JPran_46 //
+            </p>
+         
+         
+         <p>iha tu saṃśaya ullekhāliṅgitaḥ //</p>
+         
+         
+         <p>
+              kamalāvāsakāsāraḥ kṣamādhṛtiphaṇīśvaraḥ /<br />
+              bhavānkuvalayasyendurānandayati mānavān // JPran_47 //
+            </p>
+         
+         
+         <p>iha śliṣṭaparamparitaṃ rūpakaṃ mālārūpam //</p>
+         
+         
+         <p>
+              gagane candrikāyante himāyante himācale /<br />
+              pṛthivyāṃ sāgarāyante bhūpāla tava kīrtayaḥ // JPran_48 //
+            </p>
+         
+         
+         <p>iha mālopamāliṅgita ullekhaḥ //</p>
+         
+         
+         <p>
+              mṛgatāṃ harayanmadhye vṛkṣatāṃ ca paṭīrayan /<br />
+              nakṣatratāṃ mahīpānāṃ tvamindavasi bhūpate // JPran_49 //
+            </p>
+         
+         
+         <p>
+            iha śuddhaparamparitā mālārūpopamā /<br />
+            ācārakvibantācchatari rūpāṇi /<br />
+            tiṅi caikam [indavasi] //
+            </p>
+         
+         
+         <p>
+              madhye sudhāsamdurasya sitāmayagṛhodare /<br />
+              pūrṇenduviṣṭare deva sthātuṃ yogyāstavoktayaḥ // JPran_50 //
+            </p>
+         
+         
+         <p>atra trayāṇāṃ sudhāsamudrādīnāṃ viśeṣaṇaviśeṣyabhāvena madhurimaṇi parāṃ kāṣṭhāmadhirūḍhe
+            tvadīyoktipadasaṃbandho yukto na tu viśakalita ityatiśāyakāsadviśeṣaṇanibandhanaḥ
+            prauḍhoktiḥ //</p>
+         
+         
+         <p>
+              amṛtalaharīcandrajyotsnāramāvadanāmbujānyadharitavato nirmaryādaprasādamahāmbudheḥ
+            /<br />
+              ubhayavadayaṃ deva tvattaḥ kathaṃ paramolbaṇaḥ pralayadahanajvālājālākulo mahasāṃ
+            gaṇaḥ // JPran_51 //
+            </p>
+         
+         
+         <p>
+            atra kāraṇaguṇaviruddhasvaguṇasya kāryasyotpatterviṣamālaṃkāraḥ /<br />
+            amṛtalaharyādīnāṃ trayāṇāmadharīkaraṇātmanā vyatirekeṇa saṃjīvakatvaparamaśītalatvaviśuddhatvasaundaryāṇāmatiśayo
+            gamyate /<br />
+            evameṣu padyeṣu saṃbhavanto 'pyanye 'laṃkārāḥ sphuṭatvānna vivecitāḥ /<br />
+            sahṛdayānāṃ prītyāvaśyakaṃ kiṃcidvyākhyātamanyattu tairevollāsanīyamityalaṃ pallavitena
+            //
+            </p>
+         
+         
+         <p>
+              tailaṅgānvayamaṅgalālayamahālakṣmīdayālalitaḥ śrīmatperamabhaṭṭasūnuraniśaṃ vidvallalāṭaṃtapaḥ
+            /<br />
+              saṃtuṣṭaḥ kamatādhipasya kavitāmākarṇya tadvarṇanaṃ śrīmatpaṇḍitarājapaṇḍitajagannātho
+            vyadhāsīdidam // JPran_52 //
+            </p>
+         
+         
+         <p>
+              dordaṇḍadvayakuṇḍalīkṛtalasatkodaṇḍācaṇḍāśugadhvastoddaṇḍavipakṣamaṇḍalamiha tvāṃ
+            vīkṣya madhyeraṇam /<br />
+              valgadgāṇḍivamuktakāṇḍavalayajvālāvalītāṇḍavabhraśyatkhāṇḍavaruṣṭapāṇḍavamaho ko
+            na kṣitīśaḥ smaret // JPran_53 //
+            </p>
+         
+         
+         <p>
+            atra smaraṇālaṃkāraḥ /<br />
+            bhāva iti tu na bhrāmitavyam /<br />
+            sādṛśyamūlakatvātanmūlakatvābhyāṃ bhāvatvālaṃkāratvayoriha vyavasthiteḥ śabdavedyatvācca
+            //
+            </p>
+         
+         
+         <p>iti paṇḍitarājaśrījagannāthaviracitaṃ prāṇābharaṇaṃ tatkṛtayaiva ṭippaṇyā sametaṃ
+            samāptam /</p>
+         
+         </div>
+   </body>
+</html>

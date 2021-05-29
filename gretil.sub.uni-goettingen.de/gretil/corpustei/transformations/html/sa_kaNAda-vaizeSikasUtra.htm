@@ -1,0 +1,890 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Kaṇāda: Vaiśeṣikasūtra (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Kaṇāda: Vaiśeṣikasūtra</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_kaNAda-vaizeSikasUtra.xml">sa_kaNAda-vaizeSikasUtra.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Nozawa Masanobu</p>
+      <p class="noindent"><b>Contribution: </b>Nozawa Masanobu</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/vaisesik/vaissu1u.htm">vaissu1u.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Kanada: Vaisesikasutra
+            <br />
+            <br />Input by Nozawa Masanobu
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>vaiśeṣikasūtram</p>
+         
+         
+         <p>athāto dharmaṃ vyākhyāsyāmaḥ | KVs_1,1.1 |</p>
+         
+         <p>yato 'bhyudayaniḥśreyasasiddhiḥ sa dharmaḥ | KVs_1,1.2 |</p>
+         
+         <p>tadvacanād āmnāyaprāmāṇyam (U,V,BhV āmnāyasya prāmāṇyam) | KVs_1,1.3 |</p>
+         
+         <p>pṛthivy āpas tejo vāyur ākāśaṃ kālo dig ātmā mana iti dravyāṇi | KVs_1,1.4 |</p>
+         
+         <p>rūparasagandhasparśāḥ saṃkhyāḥ parimāṇāni pṛthaktvaṃ saṃyogavibhāgau paratvāparatve
+            buddhayaḥ sukhaduḥkhe icchādveṣau prayatnaś ca guṇāḥ | KVs_1,1.5 |</p>
+         
+         <p>utkṣepaṇam avakṣepaṇam ākuñcanaṃ prasāraṇaṃ gamanam iti karmāṇi | KVs_1,1.6 |</p>
+         
+         <p>sad anityaṃ dravyavat kāryaṃ kāraṇaṃ sāmānyaviśeṣavad iti dravyaguṇakarmaṇām aviśeṣaḥ
+            | KVs_1,1.7 |</p>
+         
+         <p>dravyāṇi dravyāntaram ārabhante | KVs_1,1.8 |</p>
+         
+         <p>guṇāś ca guṇāntaram | KVs_1,1.9 |</p>
+         
+         <p>karma karmasādhyaṃ na vidyate | KVs_1,1.10 |</p>
+         
+         <p>kāryāvirodhi dravyaṃ kāraṇāvirodhi ca | KVs_1,1.11 |</p>
+         
+         <p>ubhaytathā guṇaḥ | KVs_1,1.12 |</p>
+         
+         <p>kāryavirodhi karma | KVs_1,1.13 |</p>
+         
+         <p>kriyāvad guṇavat samavāyikāraṇam iti dravyalakṣaṇam | KVs_1,1.14 |</p>
+         
+         <p>dravyāśrayy aguṇavān saṃyogavibhāgeṣv akāraṇam anapekṣa iti guṇalakṣaṇam | KVs_1,1.15
+            |</p>
+         
+         <p>ekadravyam aguṇaṃ saṃyogavibhāgeṣv anapekṣaṃ kāraṇam iti karmalakṣaṇam | KVs_1,1.16
+            |</p>
+         
+         <p>dravyaguṇakarmaṇāṃ dravyaṃ kāraṇaṃ sāmānyam | KVs_1,1.17 |</p>
+         
+         <p>tathā guṇaḥ | KVs_1,1.18 |</p>
+         
+         <p>saṃyogavibhāgānāṃ karma | KVs_1,1.19 |</p>
+         
+         <p>na dravyāṇāṃ vyatirekāt | KVs_1,1.20 |</p>
+         
+         <p>guṇavaidharmyān na karmaṇāṃ | KVs_1,1.21 |</p>
+         
+         <p>dravyāṇāṃ dravyaṃ kāryaṃ sāmānyam | KVs_1,1.22 |</p>
+         
+         <p>dvitvaprabhṛtayaś ca saṃkhyāḥ pṛthaktvaṃ saṃyogavibhāgāś ca | KVs_1,1.23 |</p>
+         
+         <p>asamavāyāt sāmānyaṃ karma kāryaṃ na vidyate | KVs_1,1.24 |</p>
+         
+         <p>saṃyogānāṃ dravyam | KVs_1,1.25 |</p>
+         
+         <p>rūpānāṃ rūpam | KVs_1,1.26 |</p>
+         
+         <p>gurutvaprayatnasaṃyogānām utkṣepaṇam | KVs_1,1.27 |</p>
+         
+         <p>saṃyogavibhāgāḥ karmaṇām | KVs_1,1.28 |</p>
+         
+         <p>kāraṇasāmānye dravyakarmaṇāṃ karmākāraṇam uktam | KVs_1,1.29 |</p>
+         
+         <p>kāraṇābhāvāt kāryābhāvaḥ | KVs_1,2.1 |</p>
+         
+         <p>na tu kāryābhavāt kāraṇābhāvaḥ | KVs_1,2.2 |</p>
+         
+         <p>sāmānyaṃ viśeṣa iti buddhyapekṣam | KVs_1,2.3 |</p>
+         
+         <p>bhāvaḥ sāmānyam eva | KVs_1,2.4 |</p>
+         
+         <p>dravyatvaṃ guṇatvaṃ karmatvaṃ ca sāmānyāni viśeṣāś ca | KVs_1,2.5 |</p>
+         
+         <p>anyatrāntyebhyo viśeṣebhyaḥ | KVs_1,2.6 |</p>
+         
+         <p>sad iti yato dravyaguṇakarmasu | KVs_1,2.7 |</p>
+         
+         <p>dravyaguṇakarmabhyo 'rthāntaraṃ sattā | KVs_1,2.8 |</p>
+         
+         <p>ekadravyavattvān na dravyam | KVs_1,2.9 |</p>
+         
+         <p>guṇakarmasu ca bhāvān na karma na guṇaḥ | KVs_1,2.10 |</p>
+         
+         <p>sāmānyaviśeṣābhāvāc ca | KVs_1,2.11 |</p>
+         
+         <p>ekadravyavattvena dravyatvam uktam | KVs_1,2.12 |</p>
+         
+         <p>sāmānyaviśeṣābhāvena ca | KVs_1,2.13 |</p>
+         
+         <p>guṇe bhāvād guṇatvam uktam | KVs_1,2.14 |</p>
+         
+         <p>sāmānyaviśeṣābhāvāc ca | KVs_1,2.15 |</p>
+         
+         <p>karmaṇi bhāvāt karmatvam uktam | KVs_1,2.16 |</p>
+         
+         <p>sāmānyaviśeṣābhāvāc ca | KVs_1,2.17 |</p>
+         
+         <p>salliṅgāviśeṣād viśeṣaliṅgābhāvāc caiko bhāvaḥ | KVs_1,2.18 |</p>
+         
+         
+         <p>rūparasagandhasparśavatī pṛthivī | KVs_2,1.1 |</p>
+         
+         <p>rūparasasparśavatya āpo dravāḥ snigdhāś ca | KVs_2,1.2 |</p>
+         
+         <p>tejo rūpasparśavat | KVs_2,1.3 |</p>
+         
+         <p>vāyuḥ sparśavān | KVs_2,1.4 |</p>
+         
+         <p>ta ākāśe na vidyante | KVs_2,1.5 |</p>
+         
+         <p>sarpirjatumadhūcchiṣṭānāṃ pārthivānām agnisaṃyogād dravatādbhiḥ sāmānyam | KVs_2,1.6
+            |</p>
+         
+         <p>trapusīsaloharajatasuvarṇānāṃ taijasānām agnisaṃyogād dravatādbhiḥ sāmānyam | KVs_2,1.7
+            |</p>
+         
+         <p>viṣāṇī kakudmān prāntevāladhiḥ sāsnāvān iti gotve dṛṣṭaṃ liṅgam | KVs_2,1.8 |</p>
+         
+         <p>sparśaś ca | KVs_2,1.9 |</p>
+         
+         <p>na ca dṛṣṭānāṃ sparśa ity adṛṣṭaliṅgo vāyuḥ | KVs_2,1.10 |</p>
+         
+         <p>adravyavattvād dravyam (C,V,BhV U adravyavattvena) | KVs_2,1.11 |</p>
+         
+         <p>kriyāvattvād guṇavattvāc ca (V omits) | KVs_2,1.12 |</p>
+         
+         <p>adravyavattvena nityatvam uktam (C,BhV) (V adravyatvenānityam, U adravyatvena) | KVs_2,1.13
+            |</p>
+         
+         <p>vāyor vāyusaṃmūrcchanaṃ nānātve liṅgam | KVs_2,1.14 |</p>
+         
+         <p>vāyor iti sati snnikarṣe pratyakṣābhāvād dṛṣṭaṃ liṅgaṃ na vidyate | KVs_2,1.15 |</p>
+         
+         <p>sāmānyatodṛṣṭāc cāviśeṣaḥ | KVs_2,1.16 |</p>
+         
+         <p>tasmād āgamikam | KVs_2,1.17 |</p>
+         
+         <p>saṃjñākarma tv asmadviśiṣtānāṃ liṅgam | KVs_2,1.18 |</p>
+         
+         <p>pratyakṣapūrvakatvāt saṃjñākarmaṇaḥ | KVs_2,1.19 |</p>
+         
+         <p>niṣkramaṇaṃ praveśanam ity ākāśasya liṅgam | KVs_2,1.20 |</p>
+         
+         <p>tad aliṅgam ekadravyavattvāt karmaṇaḥ | KVs_2,1.21 |</p>
+         
+         <p>kāraṇāntarānukṜptivaidharmyāc ca | KVs_2,1.22 |</p>
+         
+         <p>saṃyogād abhāvaḥ karmaṇaḥ | KVs_2,1.23 |</p>
+         
+         <p>kāraṇaguṇapūrvaḥ kārye guṇo dṛṣṭaḥ kāryāntarāprādurbhāvāc ca śabdaḥ sparśavatām aguṇaḥ
+            | KVs_2,1.24 |</p>
+         
+         <p>paratra samavāyāt pratyakṣatvāc ca nātmaguṇo na manoguṇaḥ | KVs_2,1.25 |</p>
+         
+         <p>liṅgam ākāśasya | KVs_2,1.26 |</p>
+         
+         <p>dravyatvanityatve vāyunā vyākhyāte | KVs_2,1.27 |</p>
+         
+         <p>28 tattvaṃ bhāvena | KVs_2,1 |
+            puṣpavastrayoḥ sati sannikarṣe gandhāntarāprādurbhāvo vastre gandhābhāvaliṅgam | KVs_2,2.1
+            |<br />
+            etenāpsūṣṇatā vyākhyātā | KVs_2,2.2 |<br />
+            vyavasthitaḥ pṛthivyāṃ gandhaḥ | KVs_2,2.3 |<br />
+            tejasy uṣṇatā | KVs_2,2.4 |<br />
+            apsu śītatā | KVs_2,2.5 |<br />
+            aparasmin paraṃ yugapad ayugapac ciraṃ kṣipram iti kālaliṅgāni | KVs_2,2.6 |<br />
+            dravyatvanityatve vāyunā vyākhyāte | KVs_2,2.7 |<br />
+            tattvaṃ bhāvena | KVs_2,2.8 |<br />
+            kāryaviśeṣeṇa nānātvam | KVs_2,2.9 |<br />
+            nityeṣv abhāvād anityeṣu bhāvāt | KVs_2,2.10 |<br />
+            kāraṇe kālākhyā | KVs_2,2.11 |<br />
+            ita idam iti yatas tad diśo liṅgam | KVs_2,2.12 |<br />
+            dravyatvanityatve vāyunā vyākhyāte | KVs_2,2.13 |<br />
+            tattvaṃ bhāvena | KVs_2,2.14 |<br />
+            kāryaviśeṣeṇa nānātvam | KVs_2,2.15 |<br />
+            ādityasaṃyogād bhūtapūrvād bhaviṣyato bhūtāc ca prācī | KVs_2,2.16 |<br />
+            tathā dakṣiṇā pratīcy udīci ca | KVs_2,2.17 |<br />
+            etena digantarāṇi vyākhyātāni | KVs_2,2.18 |<br />
+            sāmānyapratyakṣād viśeṣāpratyakṣād viśeṣasmṛteś ca saṃśayaḥ | KVs_2,2.19 |<br />
+            dṛṣṭam adṛṣṭām | KVs_2,2.20 |<br />
+            dṛṣṭaṃ ca dṛṣṭāvat | KVs_2,2.21 |<br />
+            dṛṣṭaṃ yathādṛṣṭām ayathādṛṣṭām ubhayathādṛṣṭatvāt | KVs_2,2.22 |<br />
+            vidyāvidyātaś ca saṃśayaḥ | KVs_2,2.23 |<br />
+            śrotragrahaṇo yo 'rthaḥ sa śabdaḥ | KVs_2,2.24 |<br />
+            tasmin dravyaṃ karma guṇa iti saṃśayaḥ | KVs_2,2.25 |<br />
+            tulyajātīyeṣv arthāntarabhūteṣu ca viśeṣasyobhayathā dṛṣṭatvāt | KVs_2,2.26 |<br />
+            ekadravyavattvān na dravyam | KVs_2,2.27 |<br />
+            acākṣuṣatvān na karma | KVs_2,2.28 |<br />
+            guṇasya sato 'pavargaḥ karmabhiḥ sādharmyam | KVs_2,2.29 |<br />
+            sato liṅgābhāvāt | KVs_2,2.30 |<br />
+            nityavaidharmyāt | KVs_2,2.31 |<br />
+            kāryatvāt | KVs_2,2.32 |<br />
+            abhāvāt | KVs_2,2.33 |<br />
+            kāraṇo vikārāt | KVs_2,2.34 |<br />
+            doṣāt | KVs_2,2.35 |<br />
+            saṃyogād vibhāgāc chabdāc ca śabdaniṣpatteḥ | KVs_2,2.36 |<br />
+            liṅgāc cānityaḥ | KVs_2,2.37 |<br />
+            dvayos tu pravṛttyor abhāvāt | KVs_2,2.38 |<br />
+            saṃkhyābhāvāt | KVs_2,2.39 |<br />
+            prathamāśabdāt | KVs_2,2.40 |<br />
+            sampratipattibhāvāc ca | KVs_2,2.41 |<br />
+            sandigdhāḥ satibahutve | KVs_2,2.42 |<br />
+            saṃkhyābhāvaḥ sāmānyataḥ | KVs_2,2.43 |</p>
+         
+         
+         <p>prasiddhā indriyārthāḥ | KVs_3,1.1 |</p>
+         
+         <p>indriyārthaprasiddhir indriyārthebhyo 'rthāntaratve hetuḥ | KVs_3,1.2 |</p>
+         
+         <p>so 'napadeśaḥ | KVs_3,1.3 |</p>
+         
+         <p>kāraṇājñānāt | KVs_3,1.4 |</p>
+         
+         <p>kāryājñānāt | KVs_3,1.5 |</p>
+         
+         <p>ajñānāc ca | KVs_3,1.6 |</p>
+         
+         <p>anya eva hetur ity anapadeśaḥ | KVs_3,1.7 |</p>
+         
+         <p>saṃyogi samavāyy ekārthasamavāyi virodhi ca, kāryaṃ kāryāntarasya, kāraṇaṃ kāraṇāntarasya,
+            virodhy abhūtaṃ bhūtasya, bhūtam abhūtasya, abhūtam abhūtasya, bhūtaṃ bhūtasya | KVs_3,1.8
+            |</p>
+         
+         <p>prasiddhapūrvakatvād apadeśasya | KVs_3,1.9 |</p>
+         
+         <p>aprasiddho 'napadeśaḥ | KVs_3,1.10 |</p>
+         
+         <p>asan sandigdhaś cānapadeśaḥ | KVs_3,1.11 |</p>
+         
+         <p>viṣāṇī tasmād aśvo viṣāṇī tasmād gaur iti ca | KVs_3,1.12 |</p>
+         
+         <p>ātmendriyamano'rthasannikarṣād yan niṣpadyate tad anyat | KVs_3,1.13 |</p>
+         
+         <p>pravṛttinivṛttī ca pratyagātmani dṛṣṭe paratra liṅgam | KVs_3,1.14 |</p>
+         
+         <p>ātmendriyārthasannikarṣe jñānasyābhāvo bhāvaś ca manaso liṅgam | KVs_3,2.1 |</p>
+         
+         <p>dravyatvanityatve vāyunā vyākhyāte | KVs_3,2.2 |</p>
+         
+         <p>prayatnāyaugapadyāj jñānāyaugapadyāc caikaṃ manaḥ | KVs_3,2.3 |</p>
+         
+         <p>prāṇāpānanimeṣonmeṣajīvanamanogatīndriyāntaravikārāḥ sukhaduḥkhe icchādveṣau prayatnaś
+            cety ātmaliṅgāni | KVs_3,2.4 |</p>
+         
+         <p>dravyatvanityatve vāyunā vyākhyāte | KVs_3,2.5 |</p>
+         
+         <p>yajñadatta iti sati sannikarṣe pratyakṣābhāvād dṛṣṭaṃ liṅgaṃ na vidyate | KVs_3,2.6
+            |</p>
+         
+         <p>sāmānyatodṛṣṭāc cāviśeṣaḥ | KVs_3,2.7 |</p>
+         
+         <p>tasmād āgamikam | KVs_3,2.8 |</p>
+         
+         <p>aham iti śabdavyatirekān nāgamikam | KVs_3,2.9 |</p>
+         
+         <p>yadi ca dṛṣṭapratyakṣo 'haṃ devadatto 'haṃ yajñadatta iti | KVs_3,2.10 |</p>
+         
+         <p>devadatto gacchati viṣṇumitro gacchatīti copacārāc charīrapratyakṣaḥ | KVs_3,2.11
+            |</p>
+         
+         <p>sandigdhas tūpacāraḥ | KVs_3,2.12 |</p>
+         
+         <p>aham iti pratyagātmani bhāvāt paratrābhāvād arthāntarapratyakṣaḥ | KVs_3,2.13 |</p>
+         
+         <p>na tu śarīraviśeṣād yajñadattaviṣṇumitrayor jñānaviśeṣaḥ | KVs_3,2.14 |</p>
+         
+         <p>sukhaduḥkhajñānaniṣpattyaviśeṣād aikātmyam | KVs_3,2.15 |</p>
+         
+         <p>nānā vyavasthātaḥ | KVs_3,2.16 |</p>
+         
+         <p>śāstrasāmarthyāc ca | KVs_3,2.17 |</p>
+         
+         
+         <p>sad akāraṇavat tan nityam | KVs_4,1.1 |</p>
+         
+         <p>tasya kāryaṃ liṅgam | KVs_4,1.2 |</p>
+         
+         <p>kāraṇabhāvād dhi kāryabhāvaḥ | KVs_4,1.3 |</p>
+         
+         <p>anityam iti ca viśeṣapratiṣedhabhāvaḥ | KVs_4,1.4 |</p>
+         
+         <p>avidyā ca | KVs_4,1.5 |</p>
+         
+         <p>mahaty anekadravyavattvād rūpāc copalabdhiḥ | KVs_4,1.6 |</p>
+         
+         <p>adravyavattvāt paramāṇāv anupalabdhiḥ | KVs_4,1.7 |</p>
+         
+         <p>rūpasaṃskārābhāvād vāyāv anupalabdhiḥ | KVs_4,1.8 |</p>
+         
+         <p>anekadravyeṇa dravyeṇa samavāyād rūpaviśeṣāc copalabdhiḥ | KVs_4,1.9 |</p>
+         
+         <p>etena rasagandhasparśeṣu jñānaṃ vyākhyātam | KVs_4,1.10 |</p>
+         
+         <p>tadabhāvād avyabhicāraḥ | KVs_4,1.11 |</p>
+         
+         <p>saṃkhyāḥ parimāṇāni pṛthaktvaṃ saṃyogavibhāgau paratvāparatve karma ca rūpidravyasamavāyāc
+            cākṣuṣāṇi | KVs_4,1.12 |</p>
+         
+         <p>arūpiṣv acākṣuṣatvāt | KVs_4,1.13 |</p>
+         
+         <p>etena guṇatve bhāve ca sarvendriyajñānaṃ vyākhyātam | KVs_4,1.14 |</p>
+         
+         <p>pratyakṣāpratyakṣāṇām apratyakṣatvāt saṃyogasya pañcātmakaṃ na vidyate | KVs_4,2.1
+            |</p>
+         
+         <p>guṇāntarāprādurbhāvāc ca tryātmakam api na | KVs_4,2.2 |</p>
+         
+         <p>ātmasaṃyogas tv avipratiṣiddho mithaḥ pañcānām | KVs_4,2.3 |</p>
+         
+         <p>anekadeśapūrvakatvāt | KVs_4,2.4 |</p>
+         
+         <p>dharmaviśeṣāt | KVs_4,2.5 |</p>
+         
+         <p>kāryaviśeṣāt | KVs_4,2.6 |</p>
+         
+         <p>samākhyābhāvāt | KVs_4,2.7 |</p>
+         
+         <p>saṃjñādimattvāt | KVs_4,2.8 |</p>
+         
+         <p>santy ayonijā vedaliṅgāc ca | KVs_4,2.9 |</p>
+         
+         
+         <p>ātmasaṃyogaprayatnābhyāṃ haste karma | KVs_5,1.1 |</p>
+         
+         <p>tathā musalakarma hastasaṃyogāc ca | KVs_5,1.2 |</p>
+         
+         <p>abhighātaje musalakarmaṇi vyatirekād akāraṇaṃ hastasaṃyogaḥ | KVs_5,1.3 |</p>
+         
+         <p>tathātmasaṃyogo hastamusalakarmaṇi | KVs_5,1.4 |</p>
+         
+         <p>musalābhighātāt tu musalasaṃyogād dhaste karma | KVs_5,1.5 |</p>
+         
+         <p>tathātmakarma hastasaṃyogāc ca | KVs_5,1.6 |</p>
+         
+         <p>saṃyogābhāve gurutvāt patanam | KVs_5,1.7 |</p>
+         
+         <p>nodanaviśeṣābhāvād nordhvaṃ na tiryag gamanam | KVs_5,1.8 |</p>
+         
+         <p>prayatnaviśeṣān nodanaviśeṣaḥ | KVs_5,1.9 |</p>
+         
+         <p>nodanaviśeṣād udasanaviśeṣaḥ | KVs_5,1.10 |</p>
+         
+         <p>hastakarmaṇā dārakakarma vyākhyātam | KVs_5,1.11 |</p>
+         
+         <p>tathā dagdhasya visphoṭanam | KVs_5,1.12 |</p>
+         
+         <p>prayatnābhāve gurutvāt suptasya patanam | KVs_5,1.13 |</p>
+         
+         <p>tṛṇakarma vāyusaṃyogāt | KVs_5,1.14 |</p>
+         
+         <p>maṇigamanaṃ sūcyabhisarpaṇam ity adṛṣṭakāritāni | KVs_5,1.15 |</p>
+         
+         <p>iṣāv ayugapat saṃyogaviśeṣāḥ karmānyatve hetuḥ | KVs_5,1.16 |</p>
+         
+         <p>nodanād ādyam iṣoḥ karma karmakāritāc ca saṃskārād uttaraṃ tathottaram uttaraṃ ca
+            | KVs_5,1.17 |</p>
+         
+         <p>saṃskārābhāve gurutvāt patanam | KVs_5,1.18 |</p>
+         
+         <p>nodanād abhighātāt saṃyuktasaṃyogāc ca pṛthivyāṃ karma | KVs_5,2.1 |</p>
+         
+         <p>tad viśeṣeṇādṛṣṭakāritam | KVs_5,2.2 |</p>
+         
+         <p>apāṃ saṃyogābhāve gurutvāt patanam | KVs_5,2.3 |</p>
+         
+         <p>tad viśeṣeṇādṛṣṭakāritam | KVs_5,2.4 |</p>
+         
+         <p>dravatvāt syandanam | KVs_5,2.5 |</p>
+         
+         <p>nāḍyā vāyusaṃyogād ārohaṇam | KVs_5,2.6 |</p>
+         
+         <p>nodanāt pīḍanāt saṃyuktasaṃyogāc ca | KVs_5,2.7 |</p>
+         
+         <p>vṛkṣābhisarpaṇam ity adṛṣṭakāritam | KVs_5,2.8 |</p>
+         
+         <p>apāṃ saṅghāto vilayanaṃ ca tejasaḥ saṃyogāt | KVs_5,2.9 |</p>
+         
+         <p>tatrāvasphūrjathur liṅgam | KVs_5,2.10 |</p>
+         
+         <p>vaidikaṃ ca | KVs_5,2.11 |</p>
+         
+         <p>apāṃ saṃyogād vibhāgāc ca stanayitnuḥ | KVs_5,2.12 |</p>
+         
+         <p>pṛthivīkarmaṇā tejaḥkarma vāyukarma ca vyākhyātam | KVs_5,2.13 |</p>
+         
+         <p>agner ūrdhvajvalanaṃ vāyoś ca tiryagpavanam aṇumanasoś cādyaṃ karmety adṛṣṭakāritāni
+            | KVs_5,2.14 |</p>
+         
+         <p>hastakarmaṇā manasaḥ karma vyākhyātam | KVs_5,2.15 |</p>
+         
+         <p>ātmendriyamano'rthasannikarṣāt sukhaduḥkhe tadanārambhaḥ | KVs_5,2.16 |</p>
+         
+         <p>ātmasthe manasi saśarīrasya sukhaduḥkhābhāvaḥ sa yogaḥ | KVs_5,2.17 |</p>
+         
+         <p>kāyakarmaṇātmakarma vyākhyātam | KVs_5,2.18 |</p>
+         
+         <p>apasarpaṇam upasarpaṇam aśitapītasaṃyogaḥ kāryāntarasaṃyogāś cety adṛṣṭakāritāni |
+            KVs_5,2.19 |</p>
+         
+         <p>tadabhāve saṃyogābhāvo 'prādurbhāvaḥ sa mokṣaḥ | KVs_5,2.20 |</p>
+         
+         <p>dravyaguṇakarmavaidharmyād bhāvābhāvamātraṃ tamaḥ | KVs_5,2.21 |</p>
+         
+         <p>tejaso dravyāntareṇāvaraṇāc ca | KVs_5,2.22 |</p>
+         
+         <p>dikkālāv ākāśaṃ ca kriyāvadbhyo vaidharmyān niṣkriyāṇi | KVs_5,2.23 |</p>
+         
+         <p>etena karmāṇi guṇāś ca vyākhyātāḥ | KVs_5,2.24 |</p>
+         
+         <p>niṣkriyāṇāṃ samavāyaḥ karmabhyaḥ pratiṣiddhaḥ | KVs_5,2.25 |</p>
+         
+         <p>kāraṇaṃ tv asamavāyino guṇāḥ | KVs_5,2.26 |</p>
+         
+         <p>guṇair dig vyākhyātā | KVs_5,2.27 |</p>
+         
+         <p>kāraṇena kālaḥ | KVs_5,2.28 |</p>
+         
+         
+         <p>buddhipūrvā vākyakṛtir vede | KVs_6,1.1 |</p>
+         
+         <p>na cāsmadbuddhibhyo liṅgam ṛṣeḥ | KVs_6,1.2 |</p>
+         
+         <p>tathā brāhmaṇe saṃjñākarmasiddhir liṅgam | KVs_6,1.3 |</p>
+         
+         <p>buddhipūrvo dadātiḥ | KVs_6,1.4 |</p>
+         
+         <p>tathā pratigrahaḥ | KVs_6,1.5 |</p>
+         
+         <p>tayoḥ kramo yathānitaretarāṅgabhūtānām | KVs_6,1.6 |</p>
+         
+         <p>ātmaguṇeṣv ātmāntaraguṇānām akāraṇatvāt | KVs_6,1.7 |</p>
+         
+         <p>aduṣṭabhojanāt samabhivyāhārato 'bhyudayaḥ | KVs_6,1.8 |</p>
+         
+         <p>tad duṣṭabhojane na vidyate | KVs_6,1.9 |</p>
+         
+         <p>duṣṭaṃ hiṃsāyām | KVs_6,1.10 |</p>
+         
+         <p>samabhivyāhārato doṣaḥ | KVs_6,1.11 |</p>
+         
+         <p>tad aduṣṭe na vidyate | KVs_6,1.12 |</p>
+         
+         <p>viśiṣṭe pravṛttiḥ | KVs_6,1.13 |</p>
+         
+         <p>same hīne cāpravṛttiḥ | KVs_6,1.14 |</p>
+         
+         <p>etena hīnasamaviśiṣtadhārmikebhyaḥ parādānaṃ vyākhyātam | KVs_6,1.15 |</p>
+         
+         <p>tathā viruddhānāṃ tyāgaḥ | KVs_6,1.16 |</p>
+         
+         <p>sama ātmatyāgaḥ paratyāgo vā | KVs_6,1.17 |</p>
+         
+         <p>viśiṣṭe ātmatyāgaḥ | KVs_6,1.18 |</p>
+         
+         <p>dṛṣṭānāṃ dṛṣṭaprayojanānāṃ dṛṣṭābhāve prayogo 'bhyudayāya.(C,V) (U dṛṣṭādṛṣṭaprayojanānāṃ
+            dṛṣṭābhāve prayojanam abhyudayāya.) | KVs_6,2.1 |</p>
+         
+         <p>abhiṣecanopavāsabrahmacaryagurukulavāsavānaprasthyayajñadānaprokṣaṇadiṅnakṣatramantrakālaniyamāś
+            cādṛṣṭāya | KVs_6,2.2 |</p>
+         
+         <p>cāturāśramyam upadhāc cānupadhāc ca/ | KVs_6,2.3 |
+            bhāvadoṣa upadhā | KVs_6,2.4 |<br />
+            adoṣo 'nupadhā | KVs_6,2.5 |<br />
+            iṣṭarūparasagandhasparśaṃ prokṣitam abhyukṣitaṃ ca tac chuci | KVs_6,2.6 |<br />
+            aśucīti śucipratiṣedhaḥ | KVs_6,2.7 |<br />
+            arthāntaraṃ ca | KVs_6,2.8 |<br />
+            ayatasya śucibhojanād abhyudayo na vidyate yamābhāvāt | KVs_6,2.9 |<br />
+            vidyate cānarthāntaratvād yamasya | KVs_6,2.10 |<br />
+            asati cābhāvāt | KVs_6,2.11 |<br />
+            sukhād rāgaḥ | KVs_6,2.12 |<br />
+            tanmayatvāt | KVs_6,2.13 |<br />
+            tṛpteḥ | KVs_6,2.14 |<br />
+            adṛṣṭāt | KVs_6,2.15 |<br />
+            jātiviśeṣāc ca rāgaviśeṣaḥ | KVs_6,2.16 |<br />
+            icchādveṣapūrvikā dharmādharmayoḥ pravṛttiḥ | KVs_6,2.17 |<br />
+            tataḥ saṃyogo vibhāgaś ca | KVs_6,2.18 |<br />
+            ātmakarmasu mokṣo vyākhyātaḥ | KVs_6,2.19 |</p>
+         
+         
+         <p>uktā guṇāḥ | KVs_7,1.1 |</p>
+         
+         <p>guṇalakṣaṇaṃ coktam | KVs_7,1.2 |</p>
+         
+         <p>idam evaṃguṇam idam evaṃguṇam iti coktam | KVs_7,1.3 |</p>
+         
+         <p>pṛthivyāṃ rūparasagandhasparśā dravyānityatvād anityāḥ | KVs_7,1.4 |</p>
+         
+         <p>agnisaṃyogāc ca | KVs_7,1.5 |</p>
+         
+         <p>guṇāntaraprādurbhāvāt | KVs_7,1.6 |</p>
+         
+         <p>etena nityeṣv anityatvam uktam | KVs_7,1.7 |</p>
+         
+         <p>apsu tejasi vāyau ca nityā dravyanityatvāt | KVs_7,1.8 |</p>
+         
+         <p>anityeṣv anityā dravyānityatvāt | KVs_7,1.9 |</p>
+         
+         <p>kāraṇaguṇapūrvāḥ pṛthivyāṃ pākajāś ca | KVs_7,1.10 |</p>
+         
+         <p>apsu tejasi vāyau ca kāraṇaguṇapūrvāḥ pākajā na vidyante | KVs_7,1.11 |</p>
+         
+         <p>aguṇavato dravyasya guṇārambhāt karmaguṇā aguṇāḥ | KVs_7,1.12 |</p>
+         
+         <p>etena pākajā vyākhyātāḥ | KVs_7,1.13 |</p>
+         
+         <p>ekadravyavattvāt | KVs_7,1.14 |</p>
+         
+         <p>aṇor mahataś copalabdhyanupalabdhī nitye vyākhyāte | KVs_7,1.15 |</p>
+         
+         <p>kāraṇabahutvāt kāraṇamahattvāt pracayaviśeṣāc ca mahat | KVs_7,1.16 |</p>
+         
+         <p>tadviparītam aṇu | KVs_7,1.17 |</p>
+         
+         <p>aṇu mahad iti tasmin viśeṣabhāvād viśeṣābhāvāc ca | KVs_7,1.18 |</p>
+         
+         <p>ekakālatvāt | KVs_7,1.19 |</p>
+         
+         <p>aṇutvamahattvayor aṇutvamahattvābhāvaḥ karmaguṇair vyākhyātaḥ | KVs_7,1.21 |</p>
+         
+         <p>aṇutvamahattvābhyāṃ karmaguṇā aguṇāḥ | KVs_7,1.22 |</p>
+         
+         <p>etena dīrghatvahrasvatve vyākhyāte | KVs_7,1.23 |</p>
+         
+         <p>karmabhiḥ karmāṇi guṇair guṇāḥ | KVs_7,1.24 |</p>
+         
+         <p>tad anitye | KVs_7,1.25 |</p>
+         
+         <p>nityaṃ parimaṇḍalam | KVs_7,1.26 |</p>
+         
+         <p>avidyā vidyāliṅgam | KVs_7,1.27 |</p>
+         
+         <p>vibhavān mahān ākāśaḥ | KVs_7,1.28 |</p>
+         
+         <p>tathā cātmā | KVs_7,1.29 |</p>
+         
+         <p>tadabhāvād aṇu manaḥ | KVs_7,1.30 |</p>
+         
+         <p>guṇair dig vyākhyātā | KVs_7,1.31 |</p>
+         
+         <p>kāraṇena kālaḥ | KVs_7,1.32 |</p>
+         
+         <p>rūparasagandhasparśavyatirekād arthāntaram ekatvaṃ tathā pṛthaktvam | KVs_7,2.1 |</p>
+         
+         <p>tayor nityatvānityatve tejaso rūpasparśābhyāṃ vyākhyāte | KVs_7,2.2 |</p>
+         
+         <p>niṣpattiś ca | KVs_7,2.3 |</p>
+         
+         <p>ekatvapṛthaktvayor ekatvapṛthaktvābhāvo | KVs_7,2.4 |</p>
+         
+         <p>karmabhiḥ karmāṇi guṇair guṇāḥ | KVs_7,2.5 |</p>
+         
+         <p>niḥsaṃkhyatvāt karmaguṇānāṃ sarvaikatvaṃ na vidyate | KVs_7,2.6 |</p>
+         
+         <p>ekatvasyābhāvād bhāktaṃ na vidyate | KVs_7,2.7 |</p>
+         
+         <p>kāryakāraṇaikatvapṛthaktvābhāvād ekatvapṛthaktve na vidyete | KVs_7,2.8 |</p>
+         
+         <p>etad anityanitayor vyākhyātam | KVs_7,2.9 |</p>
+         
+         <p>anyatarakarmaja ubhayakarmajaḥ saṃyogajaś ca saṃyogaḥ | KVs_7,2.10 |</p>
+         
+         <p>etena vibhāgo vyākhyātaḥ | KVs_7,2.11 |</p>
+         
+         <p>saṃyogavibhāgayoḥ saṃyogavibhāgābhāvo 'ṇutvamahattvābhyāṃ vyākhyātaḥ | KVs_7,2.12
+            |</p>
+         
+         <p>karmabhiḥ karmāṇi guṇair guṇāḥ | KVs_7,2.13 |</p>
+         
+         <p>yutasiddhyabhāvāt kāryakāraṇayoḥ saṃyogavibhāgau na vidyete | KVs_7,2.14 |</p>
+         
+         <p>guṇatvāt | KVs_7,2.15 |</p>
+         
+         <p>guṇe ca bhāṣyate | KVs_7,2.16 |</p>
+         
+         <p>niṣkriyatvāt | KVs_7,2.17 |</p>
+         
+         <p>asati nāstīti ca prayogāt | KVs_7,2.18 |</p>
+         
+         <p>śabdārthāv asaṃbaddhau | KVs_7,2.19 |</p>
+         
+         <p>saṃyogino daṇḍāt samavāyino viṣāṇāc ca | KVs_7,2.20 |</p>
+         
+         <p>dṛṣṭatvād ahetuḥ pratyayaḥ | KVs_7,2.21 |</p>
+         
+         <p>tathā pratyayābhāvaḥ | KVs_7,2.22 |</p>
+         
+         <p>saṃbaddhasaṃbandhād iti cet sandehaḥ | KVs_7,2.23 |</p>
+         
+         <p>sāmayikaḥ śabdād arthapratyayaḥ | KVs_7,2.24 |</p>
+         
+         <p>ekadikkālābhyāṃ sannikṛṣṭaviprakṛṣṭābhyāṃ param aparam | KVs_7,2.25 |</p>
+         
+         <p>kāraṇaparatvāt kāraṇāparatvāc ca | KVs_7,2.26 |</p>
+         
+         <p>paratvāparatvayoḥ paratvāparatvābhāvo 'ṇutvamahattvābhyāṃ vyākhyātaḥ | KVs_7,2.27
+            |</p>
+         
+         <p>karmabhiḥ karmāṇi guṇair guṇāḥ | KVs_7,2.28 |</p>
+         
+         <p>iheti yataḥ kāryakāraṇayoḥ sa samavāyaḥ | KVs_7,2.29 |</p>
+         
+         <p>dravyatvaguṇatvakarmatvapratiṣedho bhāvena vyākhyātaḥ | KVs_7,2.30 |</p>
+         
+         <p>tattvaṃ ca | KVs_7,2.31 |</p>
+         
+         
+         <p>dravyeṣu jñānaṃ vyākhyātam | KVs_8.1 |</p>
+         
+         <p>mana ātmā ca | KVs_8.2 |</p>
+         
+         <p>jñānanirdeśe jñānaniṣpattir uktā | KVs_8.3 |</p>
+         
+         <p>guṇakarmasv asannikṛṣṭeṣu jñānaniṣpatter dravyaṃ kāraṇaṃ kāraṇakāraṇaṃ ca | KVs_8.4
+            |</p>
+         
+         <p>sāmānyaviśeṣeṣu sāmānyaviśeṣābhāvāt tata eva jñānam | KVs_8.5 |</p>
+         
+         <p>sāmānyaviśeṣāpekṣaṃ dravyaguṇakarmasu | KVs_8.6 |</p>
+         
+         <p>dravye dravyaguṇakarmāpekṣam | KVs_8.7 |</p>
+         
+         <p>guṇakarmasu guṇakarmābhāvad guṇakarmāpekṣaṃ na vidyate | KVs_8.8 |</p>
+         
+         <p>samavāyinaḥ śvaityāc chvaityabuddheḥ śvete buddhis te kāryakāraṇabhūte | KVs_8.9 |</p>
+         
+         <p>dravyeṣv anitaretarakāraṇāt kāraṇāyaugapadyāt | KVs_8.10 |</p>
+         
+         <p>tathā dravyaguṇakarmasu kāraṇāviśeṣāt | KVs_8.11 |</p>
+         
+         <p>ayam eṣa kṛtaṃ tvayā bhojayāinam iti buddhyapekṣaṃ | KVs_8.12 |</p>
+         
+         <p>dṛṣṭeṣu bhāvād adṛṣṭeṣv abhāvāt | KVs_8.13 |</p>
+         
+         <p>artha iti dravyaguṇakarmasu | KVs_8.14 |</p>
+         
+         <p>dravyeṣu pañcātmakaṃ pratyuktam | KVs_8.15 |</p>
+         
+         <p>bhūyastvād gandhavattvāc ca pṛthivī gandhajñāne | KVs_8.16 |</p>
+         
+         <p>tathāpas tejo vāyuś ca rasarūpasparśajñāneṣu rasarūpasparśaviśeṣāt | KVs_8.17 |</p>
+         
+         
+         <p>kriyāguṇavyapadeśābhāvād asat | KVs_9.1 |</p>
+         
+         <p>sad asat | KVs_9.2 |</p>
+         
+         <p>asataḥ sat kriyāguṇavyapadeśābhāvād arthāntaram (&#x7f;śabhāvād ?) | KVs_9.3 |</p>
+         
+         <p>sac cāsat | KVs_9.4 |</p>
+         
+         <p>yac cānyat satas tad apy asat | KVs_9.5 |</p>
+         
+         <p>asad iti bhūtapratyakṣābhāvād bhūtasmṛter virodhipratyakṣatvāc ca jñānam | KVs_9.6
+            |</p>
+         
+         <p>tathābāve bhāvapratyakṣatvāc ca | KVs_9.7 |</p>
+         
+         <p>etenāghaṭo 'gaur adharmaś ca vyākhyātaḥ | KVs_9.8 |</p>
+         
+         <p>abhūtaṃ nāstīty anarthāntaram | KVs_9.9 |</p>
+         
+         <p>nāsti ghaṭo geha iti sato ghaṭasya gehasaṃyogapratiṣedhaḥ | KVs_9.10 |</p>
+         
+         <p>nāsty anyaś candramā iti sāmānyāc candramasaḥ pratiṣedhaḥ | KVs_9.11 |</p>
+         
+         <p>sad asator vaidharmyāt kārye sad asattā na | KVs_9.12 |</p>
+         
+         <p>ātmany ātmamanasoḥ saṃyogaviśeṣād ātmapratyakṣam | KVs_9.13 |</p>
+         
+         <p>tathā dravyāntareṣu | KVs_9.14 |</p>
+         
+         <p>ātmendriyamano'rthasannikarṣāc ca | KVs_9.15 |</p>
+         
+         <p>tatsamavāyāt karmaguṇeṣu | KVs_9.16 |</p>
+         
+         <p>ātmasamavāyād ātmaguṇeṣu | KVs_9.17 |</p>
+         
+         <p>asyedaṃ kāryaṃ kāraṇaṃ saṃbandhy ekārhtasamavāyi virodhi ceti laiṅgikam | KVs_9.18
+            |</p>
+         
+         <p>etena śābdaṃ vyākhyātam | KVs_9.19 |</p>
+         
+         <p>hetur apadeśo liṅgaṃ nimittaṃ pramāṇaṃ kāraṇam ity anarthāntaram | KVs_9.20 |</p>
+         
+         <p>asyedam iti buddhyapekṣatvāt | KVs_9.21 |</p>
+         
+         <p>ātmamanasoḥ saṃyogaviśeṣāt saṃskārāc ca smṛtiḥ | KVs_9.22 |</p>
+         
+         <p>tathā svapnaḥ svapnāntikaṃ ca | KVs_9.23 |</p>
+         
+         <p>dharmāc ca | KVs_9.24 |</p>
+         
+         <p>indriyadoṣāt saṃskārāc cāvidyā | KVs_9.25 |</p>
+         
+         <p>tad duṣṭaṃ jñānam | KVs_9.26 |</p>
+         
+         <p>aduṣṭaṃ vidyā | KVs_9.27 |</p>
+         
+         <p>ārṣaṃ siddhadarśanaṃ ca dharmebhyaḥ | KVs_9.28 |</p>
+         
+         
+         <p>ātmasamavāyaḥ sukhaduḥkhayoḥ pañcabhyo 'rthāntaratve hetus tadāśrayibhyaś ca guṇebhyaḥ
+            | KVs_10.1 |</p>
+         
+         <p>iṣṭāniṣṭakāraṇaviśeṣād virodhāc ca mithaḥ sukhaduḥkhayor arthāntarabhāvaḥ | KVs_10.2
+            |</p>
+         
+         <p>saṃśayanirṇayayor arthāntarabhāvaś ca jñānāntaratve hetuḥ | KVs_10.3 |</p>
+         
+         <p>tayor niṣpattiḥ pratyakṣalaiṅgikābhyāṃ jñānāntaratve hetuḥ | KVs_10.4 |</p>
+         
+         <p>bhūtam iti pratyakṣaṃ vyākhyātam | KVs_10.5 |</p>
+         
+         <p>bhaviṣyatīti kāryāntare dṛṣṭatvāt | KVs_10.6 |</p>
+         
+         <p>tathā bhavatīti sāpekṣebhyo 'napekṣebhyaś ca | KVs_10.7 |</p>
+         
+         <p>abhūd ity abhūtāt | KVs_10.8 |</p>
+         
+         <p>sati ca kāryāsamavāyāt | KVs_10.9 |</p>
+         
+         <p>ekārthasamavāyiṣu kāraṇāntareṣu darśanād ekadeśa ity ekasmin | KVs_10.10 |</p>
+         
+         <p>śiraḥ pṛṣṭham udaraṃ pāṇir iti tadviśeṣebhyaḥ | KVs_10.11 |</p>
+         
+         <p>kāraṇam iti dravye kāryasamavāyāt | KVs_10.12 |</p>
+         
+         <p>saṃyogāt vā | KVs_10.13 |</p>
+         
+         <p>kāraṇasamavāyāt karmaṇi | KVs_10.14 |</p>
+         
+         <p>tathā rūpe kāraṇakāraṇasamavāyāc ca | KVs_10.15 |</p>
+         
+         <p>kāraṇasamavāyāt saṃyoge | KVs_10.16 |</p>
+         
+         <p>tathā kāraṇākāraṇasamavāyāc ca | KVs_10.17 |</p>
+         
+         <p>saṃyuktasamavāyād agner vaiśeṣikam | KVs_10.18 |</p>
+         
+         <p>laiṅgikaṃ pramāṇaṃ vyākhyātam | KVs_10.19 |</p>
+         
+         <p>dṛṣṭānāṃ dṛṣṭaprayojanānāṃ dṛṣṭābhāve prayogo 'bhyudayāya (S omits dṛṣṭaprayojanānāṃ)
+            | KVs_10.20 |</p>
+         
+         <p>tadvacanād āmnāyaprāmāṇyam iti (U,S āmnāyasya prāmāṇyam) | KVs_10.21 |</p>
+         
+         </div>
+   </body>
+</html>

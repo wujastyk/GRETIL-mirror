@@ -1,0 +1,643 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Jitāri: Hetutattvopadeśa (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Jitāri: Hetutattvopadeśa</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_jitAri-hetutattvopadeza-alt.xml">sa_jitAri-hetutattvopadeza-alt.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>members of the Digital Sanskrit Buddhist Canon Input Project</p>
+      <p class="noindent"><b>Contribution: </b>members of the Digital Sanskrit Buddhist Canon Input Project</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Durgacharan Chattopadhyaya: Hetutattvopadeśa by Jitāri : reconstructed Sanskrit text
+            with the Tibetan version. Calcutta : University of Calcutta 1939 .</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="hi">highlighted text</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/buddh/jithetuu.htm">jithetuu.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Jitari: Hetutattvopadesa
+            <br />Based on the edition by Durgacharan Chattopadhyaya: Hetutattvopadeśa by Jitāri : reconstructed
+            Sanskrit text with the Tibetan version.
+            <br />Calcutta : University of Calcutta 1939
+            <br />
+            <br />Input by members of the Sanskrit Buddhist Input Project.
+            <br />With kind permission of the Digital Sanskrit Buddhist Canon Project
+            <br />of Nagarjuna Institute, Nepal
+            <br />and University of the West, Rosemead, California, USA
+            <br />(www.uwest.edu/sanskritcanon)
+            <br />Sastra section
+            <br />
+            <br />The transliteration emulates the conventions of Nagari script.
+            <br />Therefore, many word boundaries are not marked by blanks.
+            <br />
+            <br />ITALICS for emendations
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>Hetutattvopadeśaḥ</p>
+         
+         
+         <p>mañjuśrīkumārabhūtāya namaḥ</p>
+         
+         
+         <p>
+            1. sādhanaṃ dūṣaṇaṃ caiva sābhāsaṃ parasaṃvide /<br />
+            pratyakṣamanumānaṃ ca sābhāsaṃ tvātmasaṃvide //
+            </p>
+         
+         
+         <p>ayaṃ śāstrārtharāṃgrahaḥ //</p>
+         
+         
+         <p>2. vādinā svayaṃ sādhayitumiṣṭo 'rthaḥ sādhyaḥ / yena sādhyate tatsādhanam //</p>
+         
+         
+         <p>3. hetostrairūpyamucyate / kiṃ punastattrairūpyam / pakṣe sattvameva prathamaṃ rūpam
+            / sapakṣa eva sattvamiti dvitīyaṃ rūpam / vipakṣe <span class="it">ca</span> asattvameva niścitamiti tṛtīyaṃ rūpam //</p>
+         
+         
+         <p>4. tatra pakṣaḥ prasiddho dharmī prasiddhaviśeṣaṇena viśiṣṭaḥ svayaṃ sādhayitumiṣṭaḥ
+            pratyakṣādyaviruddhaḥ / yathā dharmī śabdo 'nitya iti viśeṣaṇena viśiṣṭaḥ sādhyaḥ
+            / kṛtakatvāditi heturbhavatīti //</p>
+         
+         
+         <p>5. kaḥ punaḥ sapakṣaḥ / sādhyadharmasāmānyena samānaḥ sapakṣaḥ / yathā ghaṭādiriti
+            //</p>
+         
+         
+         <p>6. ko hetorvipakṣaḥ / yatra sādhyābhāvāddhetvabhāvo niścayena pradarśyate / yathākāśādiḥ
+            //</p>
+         
+         
+         <p>7. trirūpahetupradarśanena parāvagamanimittaṃ kṛtaḥ prayogaḥ parārthānumānabhityucyate
+            / yathā śabdo 'nitya iti pakṣavacanam / kṛtakatvāditi hetuvacanam / ghaṭādivaditi
+            sapakṣavacanam / ākāśādivaditi vipakṣavacanam //</p>
+         
+         
+         <p>8. sa punardvividho dṛśyate / sādharmyeṇa vaidharmyeṇa ca //</p>
+         
+         
+         <p>9. tatra sādharmyeṇa tāvat / yatkṛtakaṃ tatsarvamanityaṃ dṛṣṭam / yatha ghaṭādiḥ /
+            śabdo 'pi kṛtaka iti //</p>
+         
+         
+         <p>10. vaidharmyeṇāpyanityatvābhāve kṛtakatvābhāvaḥ / yathākāśādiḥ / śabdastu kṛtaka
+            iti //</p>
+         
+         
+         <p>11. kaḥ punaḥ pakṣābhāsaḥ / pakṣābhāso vastuto na pakṣaḥ / pratyakṣādivirodhādayaṃ
+            pakṣābhāsaḥ //</p>
+         
+         
+         <p>12. yathā dhūmādirdharmī buddhimaddhetūtpannaḥ sādhya iti pratyakṣaviruddhaḥ pakṣābhāsaḥ
+            / pratyakṣato vahnerdhūmotpattidarśanāt //</p>
+         
+         
+         <p>13. anumānaviruddho yathā / vedavacanaṃ dharmyapauruṣeyamiti sādhye śabdaḥ prayatnānantarīyaka
+            iti pauruṣeyatvasya siddheḥ //</p>
+         
+         
+         <p>14. svavacanaviruddho yathā / anumānaṃ na pramāṇamiti / parāvagamāya vākyaprayogaḥ
+            parārthānumānamiti nirdeśāt //</p>
+         
+         
+         <p>15. lokaviruddho yathā / śuci naraśiraḥ kapālaṃ prāṇyaṅgatvāc chaṅkhaśuktivaditi //</p>
+         
+         
+         <p>16. pratītiviruddho yathā / yad yāvatkālasthāyi <span class="it">tat</span> anityam / yadyāvatkālasthāyi <span class="it">tat</span> sarvaṃ nityamiti laukikapratīteḥ //</p>
+         
+         
+         <p>17. aprasiddhaviśeṣaṇo yathā / vaiśeṣikasya sāṃkhyaṃ prati śabdo vināśīti //</p>
+         
+         
+         <p>18. aprasiddhaviśeṣyo yathā / sāṃkhyasya bauddhaṃ pratyātmā cetana iti sādhyam //</p>
+         
+         
+         <p>19. aprasiddhobhayo yathā / vaiśeṣikasya bauddhaṃ prati samavāyikāraṇamātmeti kāyaḥ
+            sthirasvabhāva iti vā //</p>
+         
+         
+         <p>20. pakṣābhāsā uktāḥ //</p>
+         
+         
+         <p>21. kīdṛśo hetvābhāsaḥ / yo heturivābhāsate na tu hetutvena sidhyati //</p>
+         
+         
+         <p>22. hetvābhāsastrividhaḥ / asiddho viruddho 'naikāntikaśca //</p>
+         
+         
+         <p>23. tatra pakṣāsiddherasiddha iti hetvābhāsaḥ //</p>
+         
+         
+         <p>24. pakṣe sapakṣe cāsan vipakṣe ca san <span class="it">yaḥ</span> sa viruddha iti hetvābhāsaḥ sādhyaviparītasiddheḥ //</p>
+         
+         
+         <p>25. sapakṣavipakṣayorubhayorbhāve 'bhāve vā saṃśaye vāsiddhapratibandho yo hetuḥ so
+            'naikāntiko hetvābhāsaḥ / vādiprativādibhyāṃ sādhayitumiṣṭasyaikāntenāsiddheḥ //</p>
+         
+         
+         <p>26. ubhayāsiddho yathā / śabdasyānityatve sādhye hetuścākṣuṣatvaṃ vādiprativādinorasiddha
+            iti //</p>
+         
+         
+         <p>27. cetanastaruriti sādhye sarvatvagapaharaṇe maraṇāditi hetuḥ prativādinaṃ bauddhaṃ
+            pratyasiddha iti prativādyasiddhaścittādinirodhasya bauddhasyeṣṭatvāt //</p>
+         
+         
+         <p>28. acetanāḥ sukhādaya iti sādhye utpattimattvāditi hetuḥ sāṃkhyasya svayaṃ vādino
+            'siddha iti vādyasiddhaḥ //</p>
+         
+         
+         <p>29. vaiśeṣikeṇa prativādinaṃ bauddhaṃ prati pṛthivyādirdharmī kārya iti sādhya ekaikakṣaṇavadanyānyotpādāditi
+            vādinaḥ svayamasiddhaḥ / siddhe 'pyutpāda ekaikakṣaṇavadanyānyotpādāsiddheḥ //</p>
+         
+         
+         <p>30. pakṣaikadeśāsiddho yathā / cetanāstaravaḥ svāpāditi hetuścandane vādinaḥ svayaṃ
+            pakṣaikadeśe 'siddhaḥ / na hi sarve vṛkṣā rātrau patrasaṃkocabhājaḥ //</p>
+         
+         
+         <p>31. evameva kṣityādirgharmī buddhimajjāta iti sādhye kāryamiti heturbauddhaṃ pratyasiddhaḥ
+            pratyakṣānupalambhābhyāṃ kāryakāraṇasambandhasiddhasvarūpeṇa kṣityādīnāṃ siddheḥ /
+            vāsabhojanādisiddhiriti cettadā pakṣaikadeśāsiddhiḥ //</p>
+         
+         
+         <p>32. saṃdigdhāsiddho yathā / yadīha dhūmaḥ syādatra vahniḥ syāditi sādhye hetvaniścayāt
+            //</p>
+         
+         
+         <p>33. saṃdigdhadharmyasiddho yathā / eṣvanekeṣu nikuñjeṣu kasmiṃścin nikuñje mayūra
+            iti sādhye kekāyitāditi heturiti //</p>
+         
+         
+         <p>34. dharmyasiddhāvapyasiddho yathā / dharmyātmā sarvavyāpīti sādhye sarvatropalabhyamānaguṇatvāditi
+            heturiti //</p>
+         
+         
+         <p>35. navaite 'siddhā hetvābhāsāḥ //</p>
+         
+         
+         <p>36. kīdṛśaḥ punaranaikāntiko hetvābhāsaḥ / ucyate /</p>
+         
+         
+         <p>37. yathā śabdasya nityatvādike dharme sādhye prameyatvāditi hetuḥ sapakṣavipakṣayoḥ
+            sarvatra varttamānaḥ sādhāraṇo 'naikāntika iti //</p>
+         
+         
+         <p>38. evaṃ śabdo nitya iti sādhye śrāvaṇatvāditi hetuḥ sapakṣe vipakṣe cāvṛtterasādhāraṇo
+            'naikāntikaḥ //</p>
+         
+         
+         <p>39. evaṃ śabdasyāprayatnānantarīyakatve sādhye 'nityatvāditi hetuḥ sapakṣaikadeśavṛtti
+            rvipakṣavyāpyanaikāntikaḥ / aprayatnānantarīyakasya śabdasya sapakṣaḥ vidyudākāśādiḥ
+            / tatra sapakṣaikadeśe vidyudādāvanityatvaṃ varttate / nākāśādau / vipakṣāḥ prayatnānantarīyakādayaḥ
+            sarve / teṣu sarveṣvasti //</p>
+         
+         
+         <p>40. evaṃ śabdasya prayatnānantīyakatve sādhye 'nityatvāditi hetu rghaṭādau sarvatra
+            <span class="it">vidyate</span> / aprayatnānantarīyako vipakṣaḥ puna rvidyudākāśādiḥ / tatraikadeśe vidyudādau varttate
+            nākāśādau / tasmādayaṃ vipakṣaikadeśavṛttiḥ sapakṣavyāpyanaikāntiko hetuḥ //</p>
+         
+         
+         <p>41. ubhayapakṣaikadeśavṛttiranaikāntiko yathā / dharmī śabdo nitya iti sādhye 'mūrttatvāditi
+            hetuḥ / paramāṇvākāśādiḥ sapakṣaḥ / tatra sapakṣaikadeśa ākāśe 'mūrttatvaṃ vidyate
+            na paramāṇau paramāṇūnāṃ mūrttatvāt / ghaṭasukhādiranityo vipakṣaḥ / tadekadeśe sukhādau
+            vidyate na ghaṭādāviti //</p>
+         
+         
+         <p>42. evaṃ saṃdigdhavipakṣavyāvṛttiḥ sapakṣavyāpyanaikāntiko heturyathā / kapilādi rdharmyasarvajña
+            iti sādhye vaktṛtvāditi hetū rathyāpuruṣādau sapakṣe vidyate vipakṣe sarvajñe saṃdigdhaḥ
+            / sarvajñasyātīndriyatvādvaktṛtvamasti na veti saṃdehaḥ //</p>
+         
+         
+         <p>43. evaṃ saṃdigdhasapakṣavṛttirvipakṣavyāpyanaikāntiko heturyathā / ṛṣabhavardhamānādi
+            rdharmī sarvajña iti sādhye kevalaśāstrakarttṛtvāditi hetuḥ sapakṣe sarvajñe saṃdigdhaḥ
+            / sarvajñasyātīndriyatvāt kevalaśāstrakarttari saṃdehaḥ / vipakṣe...........ādāvasarvajñe
+            'stīti //</p>
+         
+         
+         <p>44. anvayavyatirekayoḥ saṃdehe 'naikāntiko heturyathā / jīvaccharīraṃ sātmakaṃ prāṇādimatvāditi
+            hetuḥ / jīvaccharīrasambandhī prāṇādiḥ sātmake nirātmake vā varttamāno vyāvṛtto vetyaniścayaḥ
+            //</p>
+         
+         
+         <p>45. tataḥ kevalānvayī heturdṛṣṭāntābhāvāt //</p>
+         
+         
+         <p>46. evaṃ dvitīyo 'pi kevalavyatirekī / jīvaccharīramidaṃ na nirātmakaṃ prāṇādyabhāvaprasaṅgāditi
+            / dṛṣṭāntābhāvādanvayasyāniścayo vyatirekasya ca niścaya ityayaṃ saṃdigdho hetuḥ //</p>
+         
+         
+         <p>47. ete daśānaikāntikahetvābhāsā udāhṛtāḥ //</p>
+         
+         
+         <p>48. viruddhā hetvābhāsāḥ kīdṛśāḥ //</p>
+         
+         
+         <p>49. yathā dharmī śabdo nitya iti sādhyadharmaḥ / kṛtakatvādākāśādivadityayaṃ heturghaṭādau
+            vipakṣa eva vidyate na sapakṣe //</p>
+         
+         
+         <p>50. evaṃ dharmī śabdo nitya iti sādhye prayatnānantarīyakatvāditi hetuḥ sapakṣa ākāśādau
+            nāsti ghaṭādāvekadeśe 'sti vidyudādau nāstīti / imau dvau hetū dharmasvarūpaviparītasādhanau
+            //</p>
+         
+         
+         <p>51. dharmisvarūpaviparītasādhano dvividho yathā / ete cakṣurādayaḥ parārthā iti sādhyadharmaḥ
+            saṃghātatvāditi hetuḥ śayanāsanādivaditi sapakṣanirdeśaḥ / ayaṃ heturyathā cakṣurādeḥ
+            pārārthyaṃ sādhayati tathā saṃhatatvamapi parasya sādhayati / śayanāsanādeḥ saṃhatadevadattādiparārthatvadarśanāt
+            //</p>
+         
+         
+         <p>52. dharmisvarūpaviparītasādhano yathā / dharmyādirbuddhimataḥ kāraṇādutpadyata iti
+            sādhye sāśratvāditi hetuḥ / ghaṭādivaditi sapakṣanirdeśaḥ / yathānena hetunā buddhimaddhetuto
+            jātatvaṃ sādhyate tathā buddhimatkarttuḥ sāśrayatvamapi sādhyate //</p>
+         
+         
+         <p>53. dharmiviśeṣaviparītasādhano yathā / vaiśeṣikeṇa yogācāraṃ prati dharmyātmā cetanā
+            iti sādhye vijñānādhiṣṭhānāditi hetu ryathācetanamātmānaṃ cetanaṃ sādhayati tathāyaṃ
+            heturanityamapi sādhayati vijñānasyānityatvāt //</p>
+         
+         
+         <p>54. pañcabhiretairviruddhā hetvābhāsāḥ pradarśitāḥ //</p>
+         
+         
+         <p>55. viruddhāvyabhicārī kutrāpi hetudoṣo na bhavatīti tasyodāharaṇopanyāso na yuktaḥ
+            / udāharaṇamucyate cet / yatsarvadeśāvasthitaiḥ svasambandhibhiryugapadabhisambadhyate
+            tatsarvagatam / yathākāśam / sarvadeśāvasthitaiḥ svasambandhibhiryugapat sāmānyamabhisambaddhamiti
+            pailukasya svabhāvahetuprayogaḥ / dvitīyo 'pi prayogaḥ paiṭharasya / yadupalabdhilakṣaṇaprāptaṃ
+            sadyatra nopalabhyate na tat <span class="it">tatra</span> asti / tadyathā kasmiṃściddeśe 'vidyamāno ghaṭaḥ / nopalabhyate <span class="it">ca</span> upalabdhilakṣaṇaprāptaṃ sāmānyaṃ vyaktyantarāleṣviti / ayamanupalambhahetuḥ pūrvoktaśca
+            svabhāvahetuḥ / anayoḥ parasparavirodhena saṃśayajanakatvāt / sapakṣādanyo dṛṣṭānto
+            na kaścidastīti sapakṣa evāyaṃ sādharmyeṇa dṛṣṭānto bhavati /</p>
+         
+         
+         <p>56. tatra kīdṛśā dṛṣṭāntābhāsāḥ //</p>
+         
+         
+         <p>57. sādharmyeṇa tāvat //</p>
+         
+         
+         <p>58. nityaḥ śabdo 'mūrttatvātkarmavaditi sādhyavikalaḥ karmaṇo 'nityatvāt //</p>
+         
+         
+         <p>59. nityaḥ śabdo 'mūrttatvātparamāṇuvaditi sādhanavikalaḥ paramāṇormūrttatvāt //</p>
+         
+         
+         <p>60. nityaḥ śabdo 'mūrttatvāddhaṭavaditi sādhya<span class="it">sādhana</span>vikalaḥ //</p>
+         
+         
+         <p>61. evaṃ saṃdigdhasādhyadharmo dṛṣṭāntābhāso yathā / dharmī puruṣaḥ kaścidrāgādimān
+            vacanādrathyāpuruṣavaditi / rathyāpuruṣadṛṣṭānte rāgādimattvaṃ saṃdigdham / paracittānumānasya
+            duṣkaratvāt //</p>
+         
+         
+         <p>62. saṃdigdhasādhanadharmo yathā / maraṇadharmā puruṣa iti sādhye rāgādimattvāditi
+            hetū rathyāpuruṣadṛṣṭānte saṃdigdhaḥ / vītarāgasyāpi sarāgavaccalatvāt //</p>
+         
+         
+         <p>63. saṃdigdhobhayadharmo dṛṣṭāntābhāso yathā / dharmī kaścit puruṣaḥ <span class="it">a</span>sarvajña iti sādhye rāgādimattvāditi hetuḥ / rathyāpuruṣadṛṣṭānte sādhyaṃ sādhanaṃ
+            ca saṃdigdham //</p>
+         
+         
+         <p>64. ananvayo 'pradarśitānvayo viparītānvayaśca dṛṣṭāntābhāsāḥ //</p>
+         
+         
+         <p>65. tatrānanvayo yathā / yo vaktā sa rāgādimān rathyāpuruṣavat / vaktṛtvarāgādimattvayoḥ
+            kāryakāraṇabhāvapratiṣedhāt //</p>
+         
+         
+         <p>66. apradarśitānvayo yathā / anityaḥ śabdaḥ kṛtakatvāditi / atrānvayavyāptirapradarśitā
+            / vaktṛdoṣādayaṃ dṛṣṭāntābhāsaḥ //</p>
+         
+         
+         <p>67. viparītānvayo yathā / yadanityaṃ tatkṛtakamiti / ghaṭādivaditi / atrānityatvaṃ
+            sādhyam / sādhyena sādhanasya vyāptirdarśanīyā sādhanena tu sādhyasya vyāptirdarśitā
+            / tato viparītānvayo dṛṣṭāntābhāsaḥ //</p>
+         
+         
+         <p>68. sādharmyeṇaite nava dṛṣṭāntābhāsā uktāḥ //</p>
+         
+         
+         <p>69. vaidharmyeṇa dṛṣṭāntābhāsā ucyante //</p>
+         
+         
+         <p>70. sādhyāvyāvṛtto dṛṣṭāntābhāso yathā / nityaḥ śabdo 'mūrttatvātparamāṇuvaditi /
+            iha paramāṇurvaidharmyadṛṣṭānta iti sādhanadharmo 'mūrttatvaṃ vyāvṛttaṃ mūrttatvātparamāṇunām
+            / sādhyadharmo nityatvaṃ na vyāvṛttaṃ nityatvātparamāṇunāmiti //</p>
+         
+         
+         <p>71. sādhanāvyāvṛtto yathā / nityaḥ śabdo 'mūrttatvāt karmavaditi / iha sādhyadharmo
+            nityatvaṃ vyāvṛttaṃ karmaṇo 'nityatvāt sādhanadharmo na vyāvṛtto 'mūrttatvātkarmaṇaḥ
+            //</p>
+         
+         
+         <p>72. ubhayāvyāvṛtto yathā / nityaḥ śabdo 'mūrttatvādākāśādivaditi / atrākāśādervaidharmyadṛṣṭāntāt
+            sādhyaṃ sādhanaṃ ca na vyāvṛttam //</p>
+         
+         
+         <p>73. tathā saṃdigdhasādhyavyatirekaḥ saṃdigdhasādhanavyatirekaḥ saṃdigdhobhayavyatirekaśca
+            //</p>
+         
+         
+         <p>74. saṃdigdhasādhyavyatireko dṛṣṭāntābhāso yathā / asarvajñāḥ kapilādayo 'vidyamānasarvajñatāliṅgabhūtakevalaśāstrakarttṛtvāditi
+            / atra vaidharmyeṇodāharaṇamucyate / yaḥ sarvajñaḥ sa jyotirjñānādikamupadiṣṭavān
+            / tadyathā ṛṣabhavarddhamānādiriti / iha vaidharmyodāharaṇa ukta ṛṣabhavardhamānāderasarvajñatvaṃ
+            vyāvṛttamavyāvṛttaṃ veti saṃdehaḥ //</p>
+         
+         
+         <p>75. saṃdigdhasādhanavyatireko yathā / iha trayīvidā brāhmaṇena kapilakaṇādādiḥ puruṣo
+            na grāhyavacano rāgādimattvāditi / atra vaidharmyodāharaṇamucyate yo grāhyavacano
+            na sa rāgādimān yathā gotamādayaḥ dharmaśāstrāṇāṃ praṇetāra iti / gotamādibhyo rāgādimatvasya
+            <span class="it">sādhana</span>dharmasya vyāvṛttiḥ saṃdigdhā //</p>
+         
+         
+         <p>76. saṃdigdhobhayavyatireko yathā / avītarāgāḥ kapilādayaḥ parigrahāgrahayogāditi
+            / atra vaidharmyeṇodāharaṇamucyate / yo vītarāgaḥ sa na parigrahāgrahavān yathā ṛṣabhavarddhemānādiriti
+            / ṛṣabhādeḥ <span class="it">vai</span>dharmyadṛṣṭāntād vītarāgatvaparigrahāgrahayoḥ sādhyasādhanadharmayorvyatireko 'vyatireko
+            veti saṃdehaḥ / prāgalabdhasya vastuno lābhaḥ parigrahaḥ labdhasyāparivarjanamāgrahaḥ
+            / ubhayorapi tayo rṛṣabhe sambhavaḥ / chatracāmaramahādundubhīnāṃ parigrahāgrahaśravaṇāt
+            /</p>
+         
+         
+         <p>77. avyatireko vaidharmyadṛṣṭāntābhāso 'pradarśitavyatireko viparītavyatirekaśceti
+            //</p>
+         
+         
+         <p>78. avyatireko yathā / kapilādiravītarāgo vaktṛtvāt / yatrāvītarāgatvaṃ nāsti na sa
+            vaktā yathopalakhaṇḍa iti / yadyapīdamupalakhaṇḍādvyāvṛttaṃ tathāpi sarvasmādvītarāgādvaktṛtvaṃ
+            na vyāvṛttaṃ sandehāt //</p>
+         
+         
+         <p>79. apradarśitavyatireko yathā / anityaḥ śabdaḥ kṛtakatvādākāśādivaditi / paramārthataḥ
+            samyagudāhṛto 'pi vakturaparādhāddṛṣṭāntābhāsaḥ / parārthānumāne vakturguṇadoṣayordvayo
+            rvicāraṇīyatvāt / evaṃ yannityaṃ tatsarvaṃ niyatamakṛtakaṃ dṛśyate yathākāśādiriti
+            vāgvibhāgo vaktrā karttavyaḥ / pūrvavarttino vyatirekasyāpradarśanādapradarśitavyatirekaḥ
+            //</p>
+         
+         
+         <p>80. viparītavyatireko yathā / yadakṛtakaṃ tannityaṃ dṛṣṭamiti / iha tu sādhyaviparīte
+            vyāptirdarśanīyā / tena yadyatsādhyaviparītaṃ tattanniyataṃ sādhanaviparītaṃ bhavet
+            //</p>
+         
+         
+         <p>81. aṣṭādaśa dṛṣṭāntābhāsā uktāḥ //</p>
+         
+         
+         <p>82. ebhireva pakṣahetudṛṣṭāntābhāsairvādinā sādhanasyāvyutpatteḥ <span class="it">prati</span>vādī dūṣaṇamupanyasyati / tasya dūṣaṇasya pūrvapakṣavādino 'bhīṣṭārthasiddhau pratibandhakatvātsādhananyūnatodbhāvanameva
+            dūṣaṇamucyate / tasmātsādhanavaddūṣaṇalakṣaṇavibhagāḥ pṛthag noktaḥ //</p>
+         
+         
+         <p>83. dūṣaṇābhāso dūṣaṇameveti sa prativādinocyate / yadā pūrvapakṣavādino 'bhūtaṃ doṣamudbhāvayati
+            <span class="it">tadā</span> sa dūṣaṇābhāso jātiriti / abhūtadoṣodbhāvanaṃ viparītottaraṃ jātirityucyate / yathā
+            pakṣadoṣābhāve pakṣadoṣodbhāvanaṃ hetudoṣābhāve hetudoṣodbhāvanaṃ dṛṣṭāntadoṣābhāve
+            ca dṛṣṭāntadoṣodbhāvanaṃ dūṣaṇābhāsa iti //</p>
+         
+         
+         <p>84. tatrāhuranye / pratijñā hetuḥ <span class="it">udāharaṇam</span> upanayaḥ nigamanaṃ ceti pañcāvayavaṃ sādhanamiti / yathānityaḥ śabdaḥ iti pratijñā
+            / kṛtakatvāditi hetuḥ / yatkṛtakaṃ sarvaṃ tadanityaṃ dṛṣṭaṃ yathā ghaṭādirityudāharaṇam
+            / tathā śabdo 'pi kṛtaka iti upanayaḥ / tasmādanitya iti nigamanam / dṛṣṭāntapratītasāmarthyasya
+            hetordharmiṇyupasaṃhāra upanaya iti / pratijñāyā punaḥ śravaṇaṃ nigamanamityucyate
+            / maivamanvayo vyatirekaḥ pakṣadharmaśceti trayeṇaiva sādhyārthasiddheḥ //</p>
+         
+         
+         <p>85. evaṃ vādakāle vyāptipūrvaka eva prayogaḥ / yatkṛtakaṃ sarvaṃ tadanityaṃ dṛṣṭaṃ
+            yathā ghaṭādiriti dṛṣṭānte sādhyasādhanayorvyāptipratipādanamanvaya ityucyate //</p>
+         
+         
+         <p>86. vipakṣe punaḥ sādhyavyāvṛttyā sādhanavyāvṛttirvyatireka ityucyate / yathānityatvābhāve
+            kṛtakatvābhāvaḥ syādyathākāśādiḥ //</p>
+         
+         
+         <p>87. śabdo 'pi kṛtaka iti pakṣadharma ucyate / pratijñā nigamanaṃ ca sarvathā na vaktavye
+            //</p>
+         
+         
+         <p>88. tathā sādharmyaprayoge 'nvayavacanasāmarthyādvyatirekāvagamādayaṃ pṛthag nocyate
+            / yathā yatkṛtakaṃ sarvaṃ tadanityaṃ dṛṣṭaṃ yathā ghaṭādiḥ śabdo 'pi kṛtaka iti sādharmyaprayogaḥ
+            / vaidharmyaprayoge vyatirekavacanasāmarthyādanvayapratītiḥ / atra punaranvayo na
+            vācyaḥ / yannityaṃ tadakṛtakaṃ dṛṣṭaṃ yathākāśādiḥ śabdastu kṛtaka iti vaidharmyaprayogaḥ
+            //</p>
+         
+         
+         <p>89. sādhanābhāso dūṣaṇābhāsaścoktaḥ //</p>
+         
+         
+         <p>90. kiṃ nāma pratyakṣamiti / pratyakṣaṃ kalpanāpoḍhamabhrāntam / akṣaṃ pratigatamāśritaṃ
+            yadvijñānaṃ tatpratyakṣam / pañcendriyāśritaṃ jñānamityarthaḥ / atyādayaḥ krāntādyarthe
+            dvitīyayeti samāsenābhidheyaliṅgaḥ pratyakṣaśabdaḥ siddhaḥ / pratyakṣo 'vabodhaḥ pratyakṣā
+            buddhiḥ pratyakṣaṃ jñānaṃ ceti yuktaṃ bhavati //</p>
+         
+         
+         <p>91. cakṣuḥ śrotraṃ nāsikā jihvā kāyaśceti pañcendriyāṇi / tadāśritasya jñānasya pañca
+            grāhyaviṣayā rūpaṃ śabdo gandho rasaḥ spraṣṭavyañceti pañcaiva prameyāṇi //</p>
+         
+         
+         <p>92. tacca pratyakṣaṃ nāmajātyādikalpanāpoḍhaṃ nirvikalpaṃ vā yadi punarabhrāntaṃ pramāṇamucyate
+            pradarśitārthe 'visaṃvādāt /</p>
+         
+         
+         <p>93. tatra nāmavikalpaḥ devadatto 'yamiti jñānam / jātivikalpo 'yaṃ gauriti jñānam
+            / viśeṣyaviśeṣaṇavikalpo nīlamutpalamiti / anyo 'pi savikalpaḥ pratyakṣābhāsaḥ / vidyamāne
+            'rthe vibhramastaimirikasya dvicandrajñānam / śuktau rajatajñānam / ayaṃ sthāṇurvā
+            puruṣo veti jñānaṃ ca / jñānāntaramapi pratyakṣābhāsaḥ pradarśitārthāprāpakatvāt //</p>
+         
+         
+         <p>94. tatra pratyakṣaṃ trividham / vyāvahārikamindriyajñānaṃ sarvacittacaittānāmātmasaṃvedanaṃ
+            svasaṃvedanaṃ bhūtārthabhāvanāsphuṭaprakarṣaparyantajaṃ yogijñānaṃ ceti //</p>
+         
+         
+         <p>95. tasya viṣayaḥ svalakṣaṇam / arthakriyāsamarthaṃ svalakṣaṇam / na sāmānyamarthakriyāsamartham
+            /</p>
+         
+         
+         <p>96. tadeva ca pratyakṣaṃ pramāṇamarthapratītirūpatvāt phalamapi / tathātvena ca pramāṇaphalayorna
+            manāgapi bhedaḥ //</p>
+         
+         
+         <p>97. dvividhamanumānaṃ svārthaṃ parārthaṃ ca //</p>
+         
+         
+         <p>98. tatra svārthaṃ tāvat pakṣadharmagrahaṇāt sādhyasādhanasambandhasmṛteḥ paścāt pratipatturarthasya
+            yathāvadyā pratītistadeva svārthānumānam //</p>
+         
+         
+         <p>99. pakṣadharmastriprakāra eva kāryaṃ svabhāvo 'nupalabdhiśca //</p>
+         
+         
+         <p>100. kāryakāraṇasiddhau kāryaṃ heturiti / yathā yatna dhūmaḥ <span class="it">tatra</span> agniryathā mahānasādau / atrapi dhūmasadbhāvāditi / agnyabhāve dhūmābhāvo yathā sajale
+            deśa iti atra tu dhūmāditi //</p>
+         
+         
+         <p>101. svabhāvo hetuḥ / vṛkṣo 'yaṃ śiṃśapātvāt pūrvavyavahārāpannaśiṃśapāvat / vṛkṣābhāve
+            śiṃśapābhāvo yathā vṛkṣarahite pradeśe / iha punastena vyāpakena rūpeṇa vyāpyo hetuḥ
+            //</p>
+         
+         
+         <p>102. anupalabdhihetuḥ / atra ghaṭo nāstupalabdhilakṣaṇaprāptasyānupalabdheḥ śaśaviṣāṇādivat
+            / atrāpi yadopalabdhiyogyānupalabdhāvupalabdhiyogyābhāvavyāptirniścīyate tadāyaṃ hetustatpratipādako
+            bhavati //</p>
+         
+         
+         <p>103. kīdṛśā anumānābhāsāḥ / pūrvavaccheṣavatsāmānyatodṛṣṭañca parakalpitāni sarvāṇi
+            anumānānyanumānābhāsāḥ / teṣāṃ tādātmyadutpattilakṣaṇena pratibandhābhāvāt / hetuphalasambandhe
+            vyāpyavyāpakasambandhe ca siddhe sādhyasādhanasambandho bhavati nānyathā visaṃvādakatvāt
+            //</p>
+         
+         
+         <p>104. yathā megho 'yaṃ vṛṣṭimān dṛśyate / gambhīranirghoṣavattvādityatra gambhīraghoṣavato
+            meghādvṛṣṭyanudbhavasambhavāt /</p>
+         
+         
+         <p>105. yathopariṣṭādvṛṣṭaṃ nadīvṛddhidarśanāditi / nadīnirodhādapi nadīvṛddhidarśanāt
+            //</p>
+         
+         
+         <p>106. evamime taṇḍulāḥ siddhā ekapātramadhyavartitvād dṛṣṭataṇḍulavat //</p>
+         
+         
+         <p>107. imāni phalāni pakvānyekaśākhāto jātatvādbhuktaphalavadityatra prāyeṇaivaṃ dṛṣṭe
+            'pi sādhyasādhanayorvisaṃvāda eva //</p>
+         
+         
+         <p>108. yatpārthivaṃ tatsarvaṃ lohalekhyaṃ dṛśyate yathā vṛkṣādaya iti / atra vajro 'pi
+            pārthivaḥ //</p>
+         
+         
+         <p>109. ye prāṇinaste sarve sakandharā yathoṣṭrādaya iti / atra kulīro 'pi prāṇī //</p>
+         
+         
+         <p>110. yaddravadravyaṃ tadārdraṃ dṛśyate yathā jalamiti / atra raso 'pi dravadravyam
+            //</p>
+         
+         
+         <p>111. evamanye 'pyanumānābhāsā dṛśyante //</p>
+         
+         
+         <p><span class="it">iti</span> paṇḍitapravarajitāripādakṛto hetutattvopadeśaḥ sampūrṇaḥ /</p>
+         
+         
+         <p>bhāratīyopādhyāyena paṇḍitena kumārakalasena bhāṣāntarakārakeṇa bhikṣuṇā śākyaprabheṇa
+            ca bhoṭabhāṣāyāṃ vipariṇamayya saṃśodhya ca vinyastaḥ //</p>
+         
+         </div>
+   </body>
+</html>

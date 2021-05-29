@@ -1,0 +1,893 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Pāṇḍulohitakavastu (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Pāṇḍulohitakavastu</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_pANDulohitakavastu.xml">sa_pANDulohitakavastu.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Klaus Wille</p>
+      <p class="noindent"><b>Contribution: </b>Klaus Wille</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Nobuyuki Yamagiwa: Das Pāṇḍulohitakavastu, Über die verschiedenen Verfahrensweisen
+            der Bestrafung in der buddhistischen Gemeinde, Neuausgabe der Sanskrit-Handschrift
+            aus Gilgit, tibetischer Text und deutsche Übersetzung, Marburg 2001 (Indica et Tibetica,
+            41). Cf. Gilgit Manuscript, ed. N. Dutt, vol. III: Mūlasarvāstivādavinayavastu, part
+            III (Srinagar 1943), pp. 5-58: Pāṇḍulohitakavastu; dto.: second edition, Delhi 1984.
+            GBM = Gilgit Buddhist Manuscripts (Facsimile Edition), ed. by Raghu Vira and Lokesh
+            Chandra, 10 pts., New Delhi 1959Ō1974 (Śata-Piṭaka Series 10). (The Vinayavastu manuscript
+            is reproduced in vol. 6) repr. in 3 parts Delhi 1995. (The Vinayavastu manuscript
+            is reproduced in vol. 2).</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="hi">highlighted text</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/vinv11_u.htm">vinv11_u.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Pandulohitakavastu (Vastu 11 of Vinayavastu)
+            <br />Based on the edition by Nobuyuki Yamagiwa: Das Pāṇḍulohitakavastu, Über die verschiedenen
+            Verfahrensweisen der Bestrafung in der buddhistischen Gemeinde, Neuausgabe der Sanskrit-Handschrift
+            aus Gilgit, tibetischer Text und deutsche Übersetzung,
+            <br />Marburg 2001 (Indica et Tibetica, 41).
+            <br />
+            <br />Cf. Gilgit Manuscript, ed. N. Dutt, vol. III: Mūlasarvāstivādavinayavastu, part III
+            (Srinagar 1943), pp. 5-58: Pāṇḍulohitakavastu
+            <br />
+            <br />dto.: second edition, Delhi 1984.
+            <br />
+            <br />GBM = Gilgit Buddhist Manuscripts (Facsimile Edition), ed. by Raghu Vira and Lokesh
+            Chandra, 10 pts., New Delhi 1959Ō1974 (Śata-Piṭaka Series 10). (The Vinayavastu manuscript
+            is reproduced in vol. 6)
+            <br /> repr. in 3 parts Delhi 1995. (The Vinayavastu manuscript is reproduced in vol. 2)
+            <br />
+            <br />Input by Klaus Wille (Göttingen, Germany)
+            <br />
+            <br />NOTE:
+            <br />The sole purpose of this file is to find parallels. The proper reading should always
+            be checked with the ed. of Dutt resp. Yamagiwa and the manuscript itself (see GBM).
+            The reference for the beginning of a new page in the ed. of Dutt resp. in the manuscript
+            is given for the first new word (avoiding to have the reference in a word, so that
+            the finding of this word is impossible by computer). The reference for the Pāṇḍulohitakavastu
+            is according the paragraphing in the ed. of Yamagiwa.
+            <br />
+            <br />BOLD for references
+            <br />ITALICS for added/restored parts
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>Pāṇḍulohitakavastu</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 0.1</span> (<span class="bold">288v1 = GBM 889</span>) // vastūddānam* //</p>
+         
+         
+         <p>
+            pāṇḍulohitakānāṃ vastū pudgalānāṃ tathaiva ca Ś<br />
+            atha pārivāsikānāṃ poṣadhasthāpanena ca Ś<br />
+            śayanāsanam adhikaraṇaṃ saṃghabhedaś ca paścimam* //
+            </p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 0.2</span> // paṇḍulohita<span class="it">ka</span>vastūddānam* //</p>
+         
+         
+         <p>pāṇḍulohitānāṃ tarjanīyaṃ śreyakasya ca nigarhaṇīyam* <span class="it">/</span>
+            aśvakapunarvasukānāṃ pravāsam uttaraḥ pratisaṃhare //</p>
+         
+         
+         <p>adarśanāya<span class="it">ṃ</span> chandas<span class="it">as</span> tathaivāpratikaraṇā /
+            ariṣṭapāpīkādṛṣṭi<span class="it">r</span> udāyipaṃcakarmaka<span class="it">ḥ</span> // //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.1</span> buddho bhagavāṃ śrāvastyāṃ viharati jetavane anāthapiṇḍadasyārāme <span class="it">/</span> tena khalu samayena śrāvastyāṃ pāṇḍulohitakā bhikṣavaḥ prativasanti kalahakārakā
+            bhaṇḍanakārakā vigrahakārakā vivādakārakā ādhikaraṇikā<span class="it">ḥ /</span> te saṃghe 'bhīkṣṇam adhikaraṇāny utpādayanti yena saṃghaḥ kalahajāto viharati bhaṇḍanajāto
+            vigṛhīto vivādam āpannaḥ <span class="it">/</span> etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / kuruta yūyaṃ bhikṣavaḥ
+            pāṇḍulohitakānāṃ bhikṣūṇāṃ kalahakārakāṇāṃ bhaṇḍanakārakāṇāṃ vigṛhītānāṃ vivādam āpannānām
+            ādhikaraṇikānāṃ tarjanīyaṃ karma iti / yo vā punar anyo 'py evaṃjātīyaḥ /</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.2a</span> paṃcabhiḥ kāraṇāis tarjanīyaṃ karma kṛtam adharmakarma ca tad avinayakarma ca saṃghaś
+            ca tena sātisāraḥ / katamaiḥ paṃcabhiḥ <span class="it">/</span> acodayitvā kurvanty asmārayitvā avastukam apratijñayā asaṃmukhībhūtasya kurvanti
+            /</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.2b</span> paṃcabhis tu kāraṇais tarjanīyaṃ karma kṛtaṃ dharmakarma ca tad vinayakarma ca saṃghaś
+            ca tena na sātisāraḥ <span class="it">/</span> katamaiḥ paṃcabhiḥ <span class="it">/</span> codayitvā kurvanti smārayitvā savastukaṃ pratijñayā saṃmukhī<span class="it">bhūtasya</span> kurvanti <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.3</span> evaṃ ca punaḥ kartavyaṃ <span class="it">/</span> śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn samanuyujya sarvasaṃghe
+            saṃniṣaṇṇe saṃnipatite ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyam* <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.4</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> ime pāṇḍulohitakā bhikṣavaḥ kalahakārakā bhaṇḍanakārakā vigrahakārakā vivādakārakā
+            ādhikaraṇikāḥ <span class="it">/</span> ta ete abhīkṣṇaṃ saṃghe adhikaraṇāny utpādayanti yena saṃghaḥ kalahajāto viharati
+            bhaṇḍanajāto vigṛhīto vivādam āpannaḥ <span class="it">/</span> sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃghaḥ pāṇḍulohitakānāṃ
+            bhikṣūṇāṃ kalahakārakāṇāṃ bhaṇḍanakārakāṇāṃ vigrahakārakāṇāṃ vivādakārakāṇām ādhikaraṇikānāṃ
+            tarjanīyaṃ karma kuryād ity eṣā jñaptiḥ //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.5</span> tataḥ karma kartavyaṃ <span class="it">/</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> ime pāṇḍulohitakā bhikṣavaḥ kalahakārakā bhaṇḍanakārakā vigrahakārakā vivādakārakā
+            ādhikaraṇikāḥ <span class="it">/</span> ta ete abhīkṣṇaṃ saṃghe adhikaraṇāny utpādayanti yena saṃghaḥ kalahajāto viharati
+            bhaṇḍanajāto viharati vigṛhīto vivādam āpannaḥ <span class="it">/</span> tat saṃgha<span class="it">ḥ</span> pāṇḍulohitakānāṃ bhikṣūṇāṃ kalahakārakāṇāṃ bhaṇḍanakārakāṇāṃ vigrahakārakāṇāṃ vivādakārakāṇām
+            ādhikaraṇikānāṃ tarjanīyakarma karoti <span class="it">/</span> yeṣām (<span class="bold">289r1 = GBM 890</span>) āyuṣmatāṃ kṣamate pāṇḍulohitakānāṃ bhikṣūṇāṃ pūrvavad yāvat tarjanīyaṃ karma kartuṃ
+            te tūṣṇīṃ na kṣamate bhāṣantām <span class="it">/</span> iyaṃ prathamā karmavācanā <span class="it">/</span> evaṃ dvitīyā tṛtīyā karmavācanā kartavyā // kṛtaṃ saṃghena pāṇḍulohitakānāṃ bhikṣūṇāṃ
+            pūrvavad yāvat tarjanīyaṃ karma <span class="it">/</span> kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam etad dhārayāmi /</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.6</span> tarjanīyakarmakṛtasyāhaṃ bhikṣor āsamudācārikān dharmān prajñapayāmi Ś tarjanīyakarmakṛtena
+            bhikṣuṇā na pravrājayitavyaṃ <span class="it">/</span> nopasaṃpādayitavyaṃ Ś na niśrayo deyaḥ <span class="it">/</span> na śramaṇoddeśa upasthāpayitavyaḥ <span class="it">/</span> na bhikṣuṇy avavād<span class="it">ay</span>itavyā <span class="it">/</span> na bhikṣuṇyavavādakaḥ saṃmantavyo <span class="it">/</span> nāpi pūrvasaṃmatena bhikṣuṇy avavād<span class="it">ay</span>itavyā <span class="it">/</span> na bhikṣuś codayitavyaḥ smārayitavyaḥ śīlavipattyā dṛṣṭivipattyā ācāravipattyā ājīvavipattyā
+            sthāpayitavyo <span class="it">/</span> na poṣadho na pravāraṇā na jñaptikarma na jñapticaturthaṃ karma <span class="it">/</span> tarjanīya<span class="it">karma</span>kṛto bhikṣur yathā prajñaptān āsamudācārikān dharmān na samādāya vartate sātisāro
+            bhavati /</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.7</span> <span class="it">ta</span> evaṃ tarjanīyakarmakṛtā utkacaprakacāḥ saṃghe roma pātayanti niḥsaraṇaṃ pravartayanti
+            sāmīcīm upadarśayanty antaḥsīmāyāṃ sthitvā osāraṇāṃ yācante kalahakārakatvāc ca prativiramāma
+            iti kathayanti <span class="it">/</span> etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti Ś bhagavān āha / osārayata yūyaṃ bhikṣavaḥ
+            pāṇḍulohitakān bhikṣūn kalahakārakāṃs tarjanīyakarmakṛtān iti Ś yo vā punar anyo 'py
+            evaṃjātīyaḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.8a</span> paṃcabhir dharmaiḥ samanvāgatas tarjanīyakarmakṛto nosārayitavyaḥ <span class="it">/</span> katamaiḥ paṃcabhiḥ <span class="it">/</span> notkacaprakaca<span class="it">ḥ</span> saṃghe roma pātayati Ś na niḥsaraṇaṃ pravartayati na sāmīcīm upadarśayati nāntaḥsīmāyāṃ
+            sthitvā osāraṇāṃ yācate Ś tasmāc ca kalahakārakatvāc ca na prativiramā<span class="it">mīti vada</span>ty <span class="it">/</span> ebhiḥ paṃcabhir dharmaiḥ samanvāgataḥ pūrvavat* /</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.8b </span>aparair api paṃcabhir dharmaiḥ samanvāgatas tarjanīyakarmakṛto nosārayitavyaḥ <span class="it">/</span> katamaiḥ paṃcabhiḥ <span class="it">/</span> rājakulapratisaraṇo bhavati yuktakulapratisaraṇas tīrthikapratisaraṇaḥ pudgalapratisaraṇo
+            na saṃghapratisaraṇaḥ <span class="it">/</span> ebhiḥ paṃcabhir dharmaiḥ samanvāgataḥ pūrvavat* /</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.8c</span> aparair api paṃcabhir dharmaiḥ samanvāgatas tarjanīyakarmakṛto nosārayitavyaḥ <span class="it">/</span> katamaiḥ paṃcabhiḥ <span class="it">/</span> āgārikadhvajaṃ dhārayati tīrthikadhvajaṃ dhārayati tīrthyā<span class="it">n</span> sevate <span class="it">bhajate</span> paryupāste anadhyācāram ācarati bhikṣuśikṣāyāṃ <span class="it">na</span> śikṣate <span class="it">/</span> ebhiḥ paṃcabhir dharmaiḥ samanvāgataḥ pūrvavat* <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.8d</span> aparair api paṃcabhir dharmaiḥ samanvāgatas tarjanīyakarmakṛto nosārayitavyaḥ <span class="it">/</span> katamaiḥ paṃcabhiḥ <span class="it">/</span> bhikṣūn ākrośati roṣayati paribhāṣate Ś saṃghasya ca alābhāya avasādāya cetayati
+            <span class="it">/</span> ebhiḥ paṃcabhir dharmaiḥ pūrvavat* <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.9a</span> paṃcabhis tu dharmaiḥ samanvāgatas tarjanīyakarmakṛta osārayitavyaḥ <span class="it">/</span> katamaiḥ paṃcabhir dharmaiḥ <span class="it">/</span> utkacaprakacaḥ saṃghe roma pātayati niḥsaraṇaṃ pravartayati sāmīcīm upadarśayaty
+            antaḥsīmāyā<span class="it">ṃ</span> sthitvā osāraṇā<span class="it">ṃ</span> yācate / kalahakārakatvāc ca prativiramāmīti Ś vadati Ś ebhiḥ paṃcabhir dharmaiḥ
+            samanvāgatas (<span class="bold">289v1 = GBM 891</span>) tarjanīyakarmakṛta osārayitavyaḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.9b</span> <span class="it">aparair api paṃcabhir dharmaiḥ samanvāgatas tarjanīyakarmakṛta osārayitavyaḥ /</span> katamaiḥ paṃcabhiḥ <span class="it">/</span> na rājakulapratisaraṇo bhavati na yuktakulapratisaraṇo na tīrthikapratisaraṇaḥ saṃghapratisaraṇo
+            na pudgalapratisaraṇaḥ <span class="it">/</span> ebhiḥ paṃcabhir dharmaiḥ samanvāgataḥ pūrvavat* //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.9c</span> aparair api paṃcabhir dharmaiḥ samanvāgatas tarjanīyakarmakṛta osārayitavyaḥ <span class="it">/</span> katamaiḥ paṃcabhiḥ <span class="it">/</span> nāgārikadhvajaṃ dhārayati na tīrthikadhvajaṃ dhārayati na tīrthyāṃ sevate na bhajate
+            na paryupāste adhyācāram ācarati bhikṣuśikṣāyāṃ śikṣate Ś ebhiḥ paṃcabhir dharmaiḥ
+            pūrvavat* <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.9d</span> aparair api paṃcabhir dharmaiḥ samanvāgatas tarjanīyakarmakṛta osārayitavyaḥ <span class="it">/</span> katamaiḥ paṃcabhiḥ <span class="it">/</span> na bhikṣūn ākrośati na roṣayati na paribhāṣate saṃghasya lābhāya <span class="it">anavasādāya</span> cetayate <span class="it">/ ebhiḥ</span> paṃcabhir dharmaiḥ pūrvavat* <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.10</span> evaṃ ca punar osārayitavyaḥ <span class="it">/</span> śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn samanuyujya sarvasaṃghe
+            saṃniṣaṇṇe saṃnipatite pāṇḍulohitakair bhikṣubhir yathāvṛddhikayā sāmīcīṃ kṛtvā vṛddhānte
+            utkuṭukena sthitvā añjaliṃ pragṛhya idaṃ syād vacanīyaṃ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.11</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> vayaṃ pāṇḍulohitakā bhikṣavaḥ kalahakārakā bhaṇḍanakārakā vigrahakārakā vivādakārakā
+            ādhikaraṇikāḥ <span class="it">/</span> te vayam abhīkṣṇaṃ saṃghe adhikaraṇāny utpādayāmo yena saṃghaḥ kalahajāto viharati
+            bhaṇḍanajāto vigṛhīto vivādam āpannaḥ <span class="it">/</span> teṣām asmākaṃ pāṇḍulohitakānāṃ bhikṣūṇāṃ kalahakārakāṇāṃ bhaṇḍanakārakāṇāṃ vigrahakārakāṇāṃ
+            vivādakārakāṇām ādhikaraṇikānāṃ saṃghena tarjanīyaṃ karma kṛtaṃ <span class="it">/</span> te vayaṃ tarjanīyakarmakṛtā utkacaprakacā<span class="it">ḥ</span> saṃghe roma pātayāmo niḥsaraṇaṃ pravartayāmaḥ sāmīcīm upadarśayāmaḥ antaḥsīmāyā<span class="it">ṃ</span> sthitvā osāraṇāṃ yācāmahe Ś kalahakārakatvāc ca prativiramāmaḥ osārayatv asmākaṃ
+            bhadantāḥ saṃgha<span class="it">ḥ</span> pāṇḍulohitakān bhikṣūn kalahakārakān vivādakārakān ādhikaraṇikāṃs tarjanīyakarmakṛtān
+            anukaṃpa<span class="it">ka</span>ḥ anukaṃpām upādāya <span class="it">/</span> evaṃ dvir api trir api /</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.12</span> tataḥ paścād ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ <span class="it">/</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> ime pāṇḍulohitakā bhikṣavaḥ kalahakārakā yāvad ādhikaraṇikā<span class="it">ḥ /</span> ta ete abhīkṣṇaṃ saṃghe adhikaraṇāny utpādayanti Ś yena saṃghaḥ kalahajāto viharati
+            bhaṇḍanajāto vigṛhīto vivādam āpannaḥ <span class="it">/</span> tad eṣāṃ saṃghe<span class="it">na</span> kalahakāraka iti tarjanīyakarma kṛtaṃ <span class="it">/</span> ta ete tarjanīyakarmakṛtā utkacaprakacāḥ saṃghe roma pātayanti Ś niḥsaraṇaṃ pravartayanti
+            sāmīcīm upadarśayanty antaḥsīmāyāṃ sthitvā osāraṇāṃ yācante / kalahakārakatvāc ca
+            prativiramāma iti vadanti Ś sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat
+            saṃghaḥ pāṇḍulohitakān bhikṣūn osārayati niḥsaraṇaṃ pravartayati <span class="it">/</span> eṣā jñapti<span class="it">ḥ /</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 1.13</span> tataḥ karma kartavyam* <span class="it">/</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> ime pāṇḍulohitakā bhikṣavaḥ kalahakārakā yāvad (<span class="bold">290r1 = GBM 892</span>) ādhikaraṇikāḥ <span class="it">/</span> ta ete abhīkṣṇaṃ saṃghe adhikaraṇāny utpādayanti yena saṃghaḥ kalahajāto viharati
+            bhaṇḍanajāto vigṛhīto vivādam āpannaḥ <span class="it">/</span> tad eṣāṃ saṃghena kalahakārakā iti tarjanīyakarma kṛtaṃ <span class="it">/</span> ta ete tarjanīyakarmakṛtā utkacaprakacā<span class="it">ḥ</span> saṃghe roma pātayanti niḥsaraṇaṃ pravartayanti sāmīcīm upadarśayanti antaḥsīmāyāṃ
+            sthitvā osāraṇāṃ yācante / kalahakārakatvāc ca prativiramāma iti vada<span class="it">n</span>ti <span class="it">/</span> tat saṃghaḥ pāṇḍulohitakān bhikṣūn kalahakārakāṃs tarjanīyakarmakṛtān osārayati <span class="it">/</span> yeṣām āyuṣmatāṃ kṣamate pāṇḍulohitakān bhikṣūn kalahakārakāṃs tarjanīyakarmakṛtān
+            osārayituṃ te tūṣṇī<span class="it">ṃ</span> na kṣamante bhāṣantāṃ <span class="it">/</span> osāritā<span class="it">ḥ</span> saṃghena pāṇḍulohitakā bhikṣavaḥ kalahakārakās tarjanīyakarmakṛtāḥ <span class="it">/</span> kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam etad dhārayāmi // //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 2.1</span> buddho bhagavāṃ śrāvastyāṃ viharati jetavane 'nāthapiṇḍadasyārāme Ś tena khalu samayena
+            śreyako bhikṣur abhīkṣṇāpattiko 'bhīkṣṇaṃ saṃghāvaśeṣām āpattim āpadyate Ś tasya bhikṣavaḥ
+            parivāsaṃ dadanto mūlaparivāsaṃ mānāpyam āvarhantaś ca bahukṛtyā <span class="it">bhavanti</span> bahukaraṇīyā riṃcanty uddeśaṃ pāṭhaṃ svādhyāyaṃ yogaṃ manasikāram adhyātmaṃ cetaḥśamatham*
+            <span class="it">/</span> etat prakaraṇa<span class="it">ṃ</span> bhikṣavo bhagavata ārocayanti <span class="it">/</span> bhagavān āha <span class="it">/</span> kuruta yūyaṃ bhikṣavaḥ śreyakasya bhikṣor abhīkṣṇāpattikasya <span class="it">ni</span>garhaṇīyaṃ karma iti <span class="it">/</span> yo vā punar anyo 'py evaṃjātīyaḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 2.2a</span> paṃcabhiḥ kāraṇair nigarhaṇīyaṃ karma kṛtam adharmadharma <span class="it">ca</span> tad avinayakarma ca saṃghaś ca tena sātisāraḥ <span class="it">/</span> katamaiḥ paṃcabhiḥ <span class="it">/</span> acodayitvā kurvanti asmārayitvā avastuka<span class="it">m</span> apratijñayā asaṃmukhībhūtasya kurvanti Ś</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 2.2b</span> paṃcabhis tu kāraṇair nigarhaṇīyaṃ karma kṛtaṃ dharmakarma ca tad vinayakarma ca
+            saṃghaś ca tena na sāti<span class="it">sā</span>raḥ <span class="it">/</span> katamaiḥ paṃcabhiḥ <span class="it">/</span> codayitvā smārayitvā kurvanti savastukaṃ pratijñayā saṃmukhībhūtasya <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 2.3</span> evaṃ ca punaḥ kartavyam* <span class="it">/</span> śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn samanuyujya sarvasaṃghe
+            saṃniṣaṇṇe saṃnipatite ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 2.4</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> ayaṃ śreyako bhikṣur abhīkṣṇāpattikaḥ abhīkṣṇaṃ saṃghāvaśeṣām āpattim āpadyate <span class="it">/</span> tad asya bhikṣavaḥ parivāsaṃ dadanto mūlaparivāsaṃ mānāpyam āvarhantaś ca bahukṛtyā
+            bhavanti bahukaraṇīyā riṃcanty uddeśaṃ pāṭhaṃ svādhyāyaṃ yogaṃ manasikāram adhyātmaṃ
+            cetaḥśamathaṃ <span class="it">/</span> sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat sa<span class="it">ṃ</span>ghaḥ śreyakasya bhikṣor abhīkṣṇāpattikasya nigarhaṇīyaṃ karma kuryād ity eṣā jñaptiḥ
+            <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 2.5</span> evaṃ ca karma kartavyam* / śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> ayaṃ śreyako bhikṣur abhīkṣṇāpattikaḥ abhīkṣṇaṃ saṃghāvaśeṣām āpattim āpadyate <span class="it">/</span> tad asya bhikṣavaḥ parivāsaṃ dadanto mūlaparivāsaṃ mānāpyam āvarhantaś ca bahukṛtyā
+            bhavanti bahukaraṇīyā riṃcanty uddeśaṃ pāṭhaṃ svādhyāyaṃ yogaṃ manasikāram adhyātmaṃ
+            cetaḥśamathaṃ <span class="it">/</span> tat saṃghaḥ śreyakasya bhikṣor abhīkṣṇāpattikasya nigarhaṇīyaṃ karma karoti <span class="it">/</span> yeṣām āyuṣmatāṃ kṣamate śreyakasya (<span class="bold">290v1 = GBM 893</span>) bhikṣor abhīkṣṇāpattikasya nigarhaṇīyaṃ karma kartuṃ te tūṣṇīṃ na kṣamate bhāṣantām*
+            <span class="it">/</span> iyaṃ prathamā karmavācanā / evaṃ dvitīyā tṛtīyā karmavācanā kartavyā <span class="it">/</span> kṛtaṃ saṃghena śreyakasya bhikṣor abhīkṣṇāpattikasya nigarhaṇīyaṃ karma <span class="it">/</span> kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam etad dhārayāmi //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 2.6</span> nigarhaṇīyakarmakṛtasyāhaṃ bhikṣor āsamudācārikān dharmān prajñapayāmi <span class="it">/</span> nigarhaṇīyakarmakṛtena bhikṣuṇā na pravrājayitavyaṃ <span class="it">/</span> nopasaṃpādayitavyaṃ <span class="it">/</span> na niśrayo deyo <span class="it">/ na</span> śramaṇoddeśa upasthāpayitavyaḥ pūrvavad yāvat tarjanīyakarmakṛtasya vaktavyaṃ <span class="it">/</span> nigarhaṇīyakarmakṛto bhikṣur yathā prajñaptān āsamudācārikān dharmān na samādāya
+            vartate sātisāro bhavati //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 2.7</span> sa evaṃ nigarhaṇīyakarmakṛta utkacaprakaca<span class="it">ḥ</span> saṃghe roma pātayati pūrvavad yāvat* <span class="it">antaḥ</span>sīmāyāṃ sthitvā osāraṇāṃ yācate <span class="it">/</span> abhīkṣṇāpattikatvāc ca prativiramāmīti vadati <span class="it">/</span> etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti <span class="it">/</span> bhagavān āha / osārayata yūyaṃ bhikṣavaḥ śreyakasya bhikṣo<span class="it">r</span> nigarhaṇīyakarmakṛta<span class="it">sya</span> iti yo vā punar anyo 'py evaṃjātīyaḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 2.8</span> paṃcabhir dharmaiḥ samanvāgato nigarhaṇīyakarma kṛtaḥ osārayitavyaḥ <span class="it">/</span> katamaiḥ paṃcabhiḥ <span class="it">/</span> utkacaprakaca<span class="it">ḥ</span> saṃghe roma pātayati Ś niḥsaraṇaṃ pravartayati sāmīcī<span class="it">m</span> upadarśayati antaḥsīmāyāṃ sthitvā osāraṇāṃ yācate Ś abhīkṣṇāpattikatvāc ca prativiramāmīti
+            Ś vadati Ś</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 2.9</span> evaṃ ca punar osārayitavyaḥ <span class="it">/</span> śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn samanuyujya sarvasaṃghe
+            saṃniṣaṇṇe saṃnipatite śreyakena bhikṣuṇā vṛddhānte utkuṭukena sthitvā aṃjaliṃ pragṛhya
+            idaṃ syād vacanīyaṃ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 2.10</span> śṛṇotu bhadantāḥ saṃghaḥ <span class="it">/</span> ahaṃ śreyako bhikṣur abhīkṣṇāpattikaḥ abhīkṣṇaṃ saṃghāvaśeṣām āpattim āpadye <span class="it">/</span> tan me bhikṣavaḥ parivāsaṃ dadanto mūlaparivāsaṃ mānāpyāvarhaṇaś ceti / bahukṛtyā
+            bhavanti bahukaraṇīyā riṃcanty uddeśaṃ pāṭhaṃ svādhyāyaṃ yogaṃ manasikāram adhyātmaṃ
+            cetaḥśamathaṃ <span class="it">/</span> mama saṃghena nigarhaṇīyaṃ karma kṛtaṃ <span class="it">/</span> so 'haṃ nigarhaṇīyakarmakṛta utkacaprakaca<span class="it">ḥ</span> saṃghe roma pātayāmi <span class="it">/</span> niḥsaraṇaṃ pravartayāmi <span class="it">/</span> sāmīcīm upadarśayāmi Ś antaḥsīmāyāṃ sthitvā osāraṇāṃ yāce <span class="it">/</span> abhīkṣnāpattikatvā<span class="it">c</span> ca prativiramāmi <span class="it">/</span> osārayatu māṃ bhadantāḥ saṃghaḥ śreyakaṃ bhikṣum abhikṣṇāpattikaṃ nigarhaṇīyakarmakṛtam
+            anukaṃpako 'nukaṃpām upādāya <span class="it">/</span> evaṃ dvir api trir api <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 2.11</span> tataḥ paścād ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyam* <span class="it">/</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> ayaṃ śreyako bhikṣur abhīkṣṇāpattikaḥ pūrvavad yāvad adhyātmaṃ cetaḥśamathaṃ <span class="it">/</span> tasya saṃghenābhīkṣṇāpattika iti nigarhaṇīyaṃ karma kṛtam osārayed ity eṣā jñaptiḥ
+            / evaṃ ca karma kartavyam* <span class="it">/</span> nigarhaṇīyakarmakṛta utkacaprakaca<span class="it">ḥ</span> saṃghe roma pātayati pūrvavad yāvad abhīkṣṇāpattikatvāc ca prativiramāmīti vadati
+            Ś sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃghaḥ śreyakaṃ bhikṣum
+            abhīkṣṇāpattikaṃ nigarhaṇīyakarmakṛtam osārayed ity eṣā jñapti<span class="it">ḥ /</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 2.12</span> evaṃ ca karma kartavyaṃ <span class="it">/</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ</span> / ayaṃ (<span class="bold">291r1 = GBM 889</span>) bhadanta śreyako bhikṣur abhīkṣṇāpattikaḥ abhīkṣṇaṃ saṃghāvaśeṣām āpattim āpadyate
+            <span class="it">/</span> dadatāsya bhikṣavaḥ parivāsaṃ bhadanta pūrvavad yāvad adhyātmaṃ cetaḥśamathaṃ <span class="it">/</span> tad asya saṃghenābhīkṣṇāpattika iti nigarhaṇīyaṃ karma kṛtaṃ so 'yaṃ śreyako bhikṣur
+            abhīkṣṇāpattiko nigarhaṇīyakarmakṛta utkacaprakaca<span class="it">ḥ</span> saṃghe roma pātayati niḥsaraṇaṃ pravartayati Ś sāmīcīm upadarśayati antaḥsīmāyā<span class="it">ṃ</span> sthitvā osāraṇā<span class="it">ṃ</span> yācate abhīkṣṇāpattikatvā<span class="it">c</span> ca prativiramāmīti vadati <span class="it">/</span> tat saṃghaḥ śreyakaṃ bhikṣum abhīkṣṇāpattikaṃ nigarhaṇīyakarmakṛta<span class="it">m</span> osārayati Ś yeṣām āyuṣmatāṃ kṣamate śreyakaṃ bhikṣum abhīkṣṇāpattikaṃ nigarhaṇīyakarmakṛtam
+            osārayituṃ te tūṣṇīṃ na kṣamate bhāṣantāṃ <span class="it">/</span> iyaṃ prathamā karmavācanā evaṃ dvitīyā tṛtīyā karmavācanā kartavyā // osāritaḥ saṃghena
+            śreyako bhikṣur abhīkṣṇāpattiko nigarhaṇīyakarmakṛtaḥ <span class="it">/</span> kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam etad dhārayāmi // //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 3.1</span> buddho bhagavāṃ śrāvastyāṃ viharati jetavane 'nāthapiṇḍadasyārāme Ś tena khalu samayena
+            kiṭāgirīyakāv aśvakapunarvasukau bhikṣū prativasataḥ kuladūṣakau pāpadharmasamudācārau
+            <span class="it">/</span> tāv imāny evaṃrūpāṇy aśrāmaṇakāni karmāṇi kuruta<span class="it">ḥ</span> kārayata<span class="it">ḥ /</span> tadyathā mātṛgrāmeṇa sārdhaṃ saṃcagghata<span class="it">ḥ</span> saṃkrīḍata<span class="it">ḥ</span> saṃkilikilāyete Ś auddhatyaṃ dravaṃ kāyatāntyaṃ kurutaḥ apīdānīm ekāsane niṣīdataḥ
+            <span class="it">/</span> ekapaṃktyāṃ bhuṃjāte <span class="it">/</span> ekaśirāvake vividhāni madyapānāni pibataḥ <span class="it">/</span> puṣpāṇy uccinutaḥ uccāyataḥ <span class="it">/</span> mālā grathnītaḥ grathnāpayataḥ <span class="it">/</span> avataṃsakān badhnīta<span class="it">ḥ</span> badhnayataḥ <span class="it">/</span> nṛtyata<span class="it">ḥ</span> nartayataḥ <span class="it">/</span> gāyata<span class="it">ḥ</span> gāyā<span class="it">pa</span>yataḥ <span class="it">/</span> vādata<span class="it">ḥ</span> vādāpayataḥ / sunṛtyeṣu sugīteṣu suvāditeṣu lālāṭikām anuprayacchata<span class="it">ḥ /</span> cīvarakāni saṃhṛtya dhāvataḥ dravataḥ pradravataḥ <span class="it">/</span> ūruparivartam api kurutaḥ bāhuparivartam api / rohitāvartam api <span class="it">/</span> jalaśikyakayāpi vidhyataḥ <span class="it">/</span> jalayantrakaṃ jalabherikām api vādayataḥ <span class="it">/</span> hastikrauñcam api krūñcataḥ aśvaheṣitam api heṣata<span class="it">ḥ /</span> ṛṣabhagarjitam api garjataḥ <span class="it">/</span> mukhadundubhikām api vādayataḥ <span class="it">/</span> mukhaśaṅkhaṃ mukhabherī<span class="it">ṃ</span> mayūravirutam api kekāyete <span class="it">/</span> kokilavirutam api bikūjataḥ <span class="it">/</span> hastiyuddham api kurutaḥ <span class="it">/</span> aśvayuddham ṛṣabhayuddhaṃ mahiṣayuddham ajayuddhaṃ piṇḍakayuddhaṃ strīyuddhaṃ puruṣayuddhaṃ
+            kumārakayuddhaṃ kumārikāyuddhaṃ kukkuṭayuddhaṃ vartakayuddhaṃ lāvakayuddhaṃ kurutaḥ
+            kārayata<span class="it">ḥ /</span> imāni cānyāni cāśrāmaṇakāni karmāṇi kuruta<span class="it">ḥ</span> kārayataḥ <span class="it">/</span> tayos tayā īryayā caryayā pratipattyā kiṭāgirim anāgatāś ca bhikṣavo nāgaccganty
+            <span class="it">/</span> āgatāś ca nābhiramante tyajanti kiṭāgirau vāsaṃ <span class="it">/</span> kiṭāgirinivāsinaś ca brāhmaṇagṛhapatayo nāttamanaso nābhirāddhā<span class="it">ḥ /</span> naivāsikānām api cirānugatānāṃ kṛcchreṇa piṇḍakaṃ dātavyaṃ kartavyaṃ many<span class="it">ant</span>e / kaḥ punar vāda āgantukānāṃ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 3.2</span> yāvad apareṇa samayenāyuṣmān ānandaḥ kāśīṣu janapadeṣu cārikāṃ caraṃ kiṭāgirim anuprāptaḥ
+            <span class="it">/</span> kiṭāgirau viharati (<span class="bold">291v1 = GBM 895</span>) kiṭāgirīyake dāve <span class="it">/</span> athāyuṣmān ānandaḥ pūrvāhṇe nivāsya pātracīvaram ādāya kiṭāgiriṃ piṇḍāya praviṣṭa<span class="it">ḥ</span> Ś sa yathā dhautena pātreṇa kiṭāgiriṃ piṇḍāya praviṣṭas tathā dhautenaiva pātreṇa
+            pratiniṣkrānto 'labdhvā dānam alabdh<span class="it">v</span>āpratyākhyānam* antata ekabhikṣām api <span class="it">/</span> athāyuṣmata ānandasyaitad abhavat* <span class="it">/</span> pūrve cāyaṃ kiṭāgiri ṛddhaś cābhūt<span class="it">*</span> sphītaś ca kṣemaś ca subhikṣaś cākīrṇabahujanamanuṣyaś ca sulabhaś cārupiṇḍako yācanakena
+            <span class="it">/</span> etarhy apy ayaṃ kiṭāgiri ṛddhaś ca sphītaś ca kṣema<span class="it">ś ca</span> subhikṣaś cākīrṇabahujanamanuṣyaś ca <span class="it">/</span> atha ca punar aha<span class="it">ṃ</span> yathā dhautenaiva pātreṇa praviṣṭas tathā dhautena pātreṇa pratiniṣkrānto 'labdhvā
+            dānam alabdhvā pratyākhyānaṃ antata ekabhikṣām api <span class="it">/</span> mā haivātra kenacid bhagavataḥ śrāvakena mūḍhenāvyaktenākuśalena kleśavaśāt kulastrī
+            vā kulakumārī vā ābhāṣitā vā bhaviṣyaty āmṛṣṭā vā paribhāṣitā <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 3.3</span> tena khalu samayena kiṭāgirīyakānāṃ brāhmaṇagṛhapatīnāṃ saṃsthāgāre paṃcamātrāṇi
+            brāhmaṇagṛhapatiśatāni saṃniṣaṇṇāni saṃnipatitāni kenacid eva karaṇīyena <span class="it">/</span> athāyuṣmān ānando yena kiṭāgirīyakānāṃ brāhmaṇagṛhapatīnāṃ saṃsthāgāras tenopasaṃkrāntaḥ
+            <span class="it">/</span> upasaṃkramya kiṭāgirīyakā<span class="it">n</span> brāhmaṇagṛhapatīn idam avocat* <span class="it">/</span> pūrve cāyaṃ bhavanta kiṭāgiri<span class="it">ḥ</span> pūrvavad yāvad alabdhvā ekabhikṣām api <span class="it">/</span> evam uktāḥ kiṭāgirīyakā brāhmaṇagṛhapataya indriyāṇy utkṣipyāvasthitā<span class="it">ḥ</span> Ś</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 3.4</span> tena khalu samayenodakaplotika upāsakas tasyām eva pariṣadi saṃniṣaṇṇo 'bhūt saṃnipatitaḥ
+            <span class="it">/</span> athodakaplotika upāsika āyuṣmantam ānanda<span class="it">ṃ</span> bāhuṃ gṛhītvā ekānte prakramyāyuṣmantam ānandam idam avocat* <span class="it">/</span> yat khalu bhadantānanda jānīyā asmin kiṭāgirāv aśvakapunarvasukau bhikṣū prativasataḥ
+            kuladūṣakau pāpadharmasamudācārau tau mātṛgrāmeṇa sārdhaṃ saṃcagghata<span class="it">ḥ</span> pūrvavad yāvad <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 3.5</span> āyuṣmann ānanda pūrvavad yāvad yathā saṃghāvaśeṣe kuladūṣakaśikṣāpade aśvakapunarvasukayor
+            bhikṣvoḥ pravāsanīyaṃ karma kuru <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 3.6</span> evaṃ ca punaḥ kartavyaṃ <span class="it">/</span> antarmārge sthitvā codako bhikṣuḥ saṃmantavyaḥ <span class="it">/</span> paṃcabhir dharmaiḥ samanvāgataś codako bhikṣuḥ pūrvavad yāvat karma kurvanti <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 3.7</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> imāv aśvakapunarvasukau bhikṣū kuladūṣakau pāpadharmasamudācārau <span class="it">/</span> ābhyāṃ kulāni dūṣitāni dṛśyante 'pi śrūyante 'pi praj<span class="it">ñ</span>āyante 'pi <span class="it">/</span> pāpakāś cānayoḥ samudācārā dṛśyante 'pi śrūyante 'pi prajñāyante 'pi <span class="it">/</span> sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃghaḥ aśvakapunarvasukayo<span class="it">r</span> bhikṣvoḥ kuladūṣakayo<span class="it">ḥ</span> pāpadharmasamudācāriṇoḥ pravāsanīyaṃ karma kuryād ity eṣā jñaptiḥ // evaṃ ca karma
+            kartavyaṃ pūrvavad yāvad evaṃ dvitīyā tṛtīyā karmavācanā kartavyā Ś // //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 4.1</span> buddho bhagavāṃ śrāvastyāṃ viharati jetavane 'nāthapiṇḍadasyārame Ś tena khalu samayena
+            śrāvastyām anyatama śreṣṭhī prativasati āḍhyo mahādhano mahābhogaḥ <span class="it">/</span> (<span class="bold">292r1 = GBM 896</span>) tena sadṛśāt kulāt kalatram ānītaṃ <span class="it">/</span> sa tayā sārdhaṃ krīḍati ramate paricārayati <span class="it">/</span> tasya krīḍato r<span class="it">amamāṇa</span>sya paricārayataḥ patnī āpannasatvā saṃvṛttā <span class="it">/</span> sā aṣṭānāṃ vā navānāṃ vā māsānām atyayād uttare nakṣatre prasūtā <span class="it">/</span> dārako jātaḥ <span class="it">/</span> tasya jñātayaḥ saṃgamya samāgamya trīṇi saptakāny ekaviṃśatidivasāṃ jātasya jātimahaṃ
+            kṛtvā nāmadheyaṃ vyavasthāpayanti <span class="it">/</span> kiṃ bhavatu dārakasya nāmeti <span class="it">/</span> teṣām etad abhavat* <span class="it">/</span> yasmād ayaṃ daraka uttare nakṣatre jāta<span class="it">s</span> tasmād bhavatu dārakasya uttara iti nāmeti Ś tasya uttara iti nāmadheyaṃ vyvasthāpitaṃ
+            <span class="it">/</span> sa unnīyate vardhate kṣīreṇa dadhnā navanītena sarpiṣā sarpirmaṇḍenānyaiś cottaptottaptair
+            upakaraṇaviśeṣair āśur vardhyate hradastham iva paṃkajaṃ <span class="it">/</span> sa yadā mahān saṃvṛttas tadā lipyām upanyastaḥ saṃkhyāyāṃ gaṇanāyāṃ mudrāyāṃ uddhāre
+            nyāse ni<span class="it">ḥ</span>kṣepe lipyāḥ pāraṃ gataḥ <span class="it">/</span> ugdhāṭako vācakaḥ paṇḍitaḥ paṭupracāro 'ṣṭāsu parīkṣāsu kṛtāvī saṃvṛttaḥ <span class="it">/</span> tadyathā ratnaparīkṣāyāṃ vastraparīkṣāyāṃ vastraparīkṣāyāṃ dāruparīkṣāyāṃ hastiparīkṣāyām
+            aśvaparīkṣāyāṃ strīparīkṣāyāṃ puruṣaparīkṣāyāṃ ca kṛtāvī saṃvṛttaḥ <span class="it">/</span> yāvad asya pitā kālagataḥ <span class="it">/</span> uttaro gṛhasvāmī saṃvṛttaḥ <span class="it">/</span> tenāpaṇaḥ prasāritaḥ krīṇāti vikrīṇīte <span class="it">/</span> krayavikrayeṇa jīvikāṃ kalpayati <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 4.2</span> so 'pareṇa samayena bhagavataḥ sakāśam upasaṃkrānta<span class="it">ḥ /</span> tasya bhagavaddarśanāt saddharmaśravaṇāc ca bhagavacchāsane prasādo jātaḥ <span class="it">/</span> prasādajātaś ca pravrajyābhilāṣī saṃvṛttaḥ <span class="it">/</span> sa mātuḥ sakāśam upasaṃkramya kathayaty aṃbānujānīhi svākhyāte dharmavinaye pravrajāmīti
+            <span class="it">/</span> sā kathayati tvaṃ mamaikaputro yāvad ahaṃ jīvāmi tāvan na pravrajitavyaṃ <span class="it">/</span> mṛtāyāṃ mayi yatheṣṭaṃ kariṣyasīti Ś sa kathayaty aṃba samayenāhaṃ na pravrajāmi
+            yadi tvaṃ divase divase saṃghoddiṣṭakān bhikṣūn bhājayasīti / sā kathayati putra evaṃ
+            karomīti Ś sa cottaro yat kiṃcid upārjayati tat sarvaṃ mātre 'nuprayacchati Ś ambānena
+            śramaṇabrāhmaṇān pratipādayeti Ś sāsya mātā matsarī kuṭukuṃcikā āgṛhītapariṣkārā kākāyāpi
+            baliṃ na pradātuṃ vyavasyati prāg eva śramaṇabrāhmaṇān pratipādayiṣyati Ś ye tu śramaṇabrāhmaṇāḥ
+            piṇḍārthinas taṃ gṛhaṃ praviśanti tān paribhāṣate tarjayati ca <span class="it">/</span> pretopannā iva yūyaṃ nityaṃ paragṛhebhyo bhikṣām aṭateti / taṃ ca putraṃ vipralaṃbhayati
+            adya mayā iyanto bhikṣavo bhojitā iyatān śramaṇabrāhmaṇā<span class="it">nā</span>ṃ bhikṣā datteti Ś sā tena mātsaryeṇāsevitena bhāvitena bahulīkṛtena kālaṃ kṛtvā preteṣūpa<span class="it">pa</span>nnā <span class="it">/</span> uttaro 'pi mātṛviyogā<span class="it">d</span> dānāni datvā puṇyāni kṛtvā svākhyāte dharmavinaye pravrajitaḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 4.3</span> so 'pareṇa samayena mrakṣaṣaṇḍāyāṃ vyavasthitaḥ <span class="it">/</span> tam āgamya mrakṣaṣaṇḍānivāsī citro gṛhapati<span class="it">r</span> bhagavacchāsane prasannaḥ <span class="it">/</span> so 'tīva buddhadharmasaṃgheṣu kārān karoti <span class="it">/</span> mrakṣaṣaṇḍā nānā<span class="it">deś</span>ābhyāgatānāṃ bhikṣūṇāṃ pratisaraṇaṃ saṃvṛttaḥ <span class="it">/</span> yāvad apareṇa samayenāyuṣmata (<span class="bold">292v1 = GBM 897</span>) uttarasyānyatamasmin karvaṭake kiṃcit karaṇīyam utpannaṃ <span class="it">/</span> sa tatra gataḥ <span class="it">/</span> āyuṣmāṃś copaseno valgantīputro paṃcaśataparivāro janapadacārikāṃ caraṃ mrakṣaṣaṇḍām
+            anuprāptaḥ <span class="it">/</span> aśrauṣīc citro gṛhapatir yathā upaseno valgantīputraḥ paṃcaśataparivāro janapadacārikāṃ
+            carann ihānuprāpta iti <span class="it">/</span> śrutvā ca punar yenāyuṣmān upasenas tenopasaṃkrāntaḥ <span class="it">/</span> upasaṃkramyāyuṣmata upasenasya pādau śirasā vanditvaikānte niṣaṇṇaḥ <span class="it">/</span> ekāntaniṣaṇṇaṃ citraṃ gṛhapatim āyuṣmān upaseno dharmyayā kathayā saṃdarśayati samādāpayati
+            samuttejayati saṃpraharṣayaty <span class="it">/</span> anekaparyāyeṇa dharmyayā kathayā saṃdarśya samādāpya samuttejya saṃpraharṣya tūṣṇīm
+            <span class="it">/</span> atha citro gṛhapatir utthāyāsanād ekāṃsam uttarāsaṃgaṃ kṛtvā yenāyuṣmān upasenas
+            tenāṃjaliṃ praṇamayyāyuṣmantam upasenam idam avocat* <span class="it">/</span> adhivāsayatu me ārya upasenaś cāntargṛhe bhaktena sārdhaṃ bhikṣusaṃghenety <span class="it">/</span> adhivāsayati āyuṣmān upasenaś citrasya gṛhapates tūṣṇīṃbhāvena <span class="it">/</span> atha citro gṛhapatir āyuṣmata upasenasya tūṣṇīṃbhāvenādhivāsanāṃ viditvā śucipraṇītaṃ
+            khādanīyabhojanīyaṃ samudānīya kālyam evotthāyāsanakāni prajñapayaty <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 4.4</span> āyuṣmāṃś cottaras tasmāt karvaṭakād āgataḥ <span class="it">/</span> yāvat paśyati na śayanāsanaprajñaptiṃ nāpy āhāram upānvāhṛtaṃ <span class="it">/</span> sa ārāmikān āmantrayate <span class="it">/</span> bhavanta kim alpotsukās tiṣṭhatha nāsanaprajñaptiḥ kriyate nāpy āhāra upānvāhriyate
+            <span class="it">/</span> kiṃ bhikṣusaṃghena bhaktacchedaḥ karaṇīya iti <span class="it">/</span> te kathayanti citreṇa gṛhapatinā bhikṣusaṃgho 'ntargṛhe bhaktenopanimantritaḥ <span class="it">/</span> kiṃ mamāgamya <span class="it">/</span> na tvām āgamya 'pi tu āryam upasenaṃ valgantīputraṃ <span class="it">/</span> paṃcasataparivāro janapadacārikāṃ carann ihānuprāptaḥ <span class="it">/</span> sa śrutvā saṃjātāmarṣaḥ kathayati <span class="it">/</span> ahaṃ tasya sarvatra pūrvaṃgama<span class="it">ḥ</span> Ś katham asau māṃ pratyākhyāyāyuṣmantam upasenaṃ valgantīputraṃ bhikṣusaṃgham upanimantrayati
+            Ś gacchāmi tāvat paśyāmīti / sa yena citro gṛhapatis tenopasaṃkrānto yāvat paśyati
+            citraṃ gṛhapatim āsanaprajñaptiṃ kriyamāṇaṃ <span class="it">/</span> sa bhūyasyā mātrayā paryavasthitaḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 4.5</span> citreṇa gṛhapatinābhihitaḥ <span class="it">/</span> ārya śobhanā āsanaprajñapti<span class="it">ḥ</span> śobhanaś cāhāra iti / citro gṛhapatis tilapūpalikāvaṇig āsīd <span class="it">/</span> uttaraḥ kathayati gṛhapate śobhanā āsanaprajñaptiḥ śobhanaś cāhāra <span class="it">/</span> kiṃ tu tilapūpalikā nāsti <span class="it">/</span> sa kathayati <span class="it">/</span> bhadantottara vijñātaṃ <span class="it">/</span> tena hy upamāṃ tāvac chṛṇu : upamayā ca punar ihaike vijñapuruṣā bhāṣitasyārtham
+            ājānanti Ś bhūtapūrvaṃ bhadantottara saṃbahulā jāṃbūdvīpakā vaṇijaḥ sāmudraṃ yānapātraṃ
+            pratipādya kākaṃ kukkuṭīṃ cādāya mahāsamudram avatīrṇā dhanahārakāḥ <span class="it">/</span> yāvad asau kukkuṭī kukkuṭam alabhamānā kākena sārdhaṃ saṃvāsaṃ gatā : tayoḥ saṃvāsāc
+            chāvako jātaḥ <span class="it">/</span> sa kākakukkuṭīkaṃ vāśyate na kāko na kukkuṭaḥ <span class="it">/</span> evam eva tvaṃ mokṣārthī pravrajito mokṣamārgam alabhamāno yad vā tad vā (<span class="bold">293r1 = GBM 898</span>) pralapasīti / evam ukte āyuṣmān uttaras tāḍakakuṃcikāṃ ca tasya purastād utsṛjya
+            saṃprasthitaḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 4.6</span> tenokta<span class="it">ḥ /</span> bhadanta uttara kutra gacchasi <span class="it">/</span> śrāvastīṃ <span class="it">/</span> svacittaṃ pratilabhasva ihaiva tiṣṭha mā gaccha <span class="it">/</span> sthānam etad vidyate yat tvayā punar āgatyāham eva kṣamayitavya iti / tasya vacanam
+            avacanīkṛtya samādāya pātracīvaraṃ yena śrāvastī tena cārikāṃ prakrānto 'nupūrveṇa
+            cārikāṃ caraṃ śrāvastīm anuprāptaḥ <span class="it">/</span> sa bhikṣubhir dṛṣṭaḥ uktaś ca <span class="it">/</span> svāgataṃ svāgatam āyuṣmann uttara prītā vayaṃ tvaddar<span class="it">ś</span>anena no tv āgamanena <span class="it">/</span> kiṃ karaṇam* Ś tvam āgamya citro gṛhapatir mrakṣaṣaṇḍāyāṃ buddhadharmasaṃgheṣu kārān
+            karoti <span class="it">/</span> āgantukānāṃ ca gāmikānāṃ ca mrakṣaṣaṇḍā pratisaraṇa<span class="it">m* /</span> asty etad evaṃ <span class="it">/</span> mayā citro gṛhapatir avasphaṇḍitaḥ <span class="it">/</span> yathā kathaṃ tena yathāvṛttam ārocitaṃ <span class="it">/</span> etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti Ś bhagavān āha Ś kuruta yūyaṃ bhikṣavaḥ
+            uttarasya bhikṣor gṛhapati-r-avasphaṇḍakasya pratisaṃharaṇīyaṃ karma iti <span class="it">/</span> yo vā punar anyo 'pi evaṃjātīyaḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 4.7</span> paṃcabhiḥ kāraṇaiḥ pratisaṃharaṇīyakarmakṛtam adharmakarma ca <span class="it">tad avinayakarma ca</span> bhavati pūrvavad yāvad asaṃmukhībhūtasya kurvanti <span class="it">/</span> evaṃ ca punaḥ kartavyam* <span class="it">/</span> śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn samanuyujya sarvasaṃghe
+            saṃniṣaṇṇe saṃnipatite ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 4.8</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> anenottareṇa bhikṣuṇā citro gṛhapatir avasphaṇḍitaḥ <span class="it">/</span> sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃgha uttarasya bhikṣor
+            gṛhapati-r-avasphaṇḍakasya pratisaṃharaṇīyaṃ karma kuryād ity eṣā jñapti<span class="it">ḥ</span> Ś</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 4.9</span> tataḥ karma kartavyaṃ <span class="it">/</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> anenottareṇa bhikṣuṇā mrakṣaṣaṇḍāyāṃ citro gṛhapatir avasphaṇḍitaḥ <span class="it">/</span> tat saṃgha uttarasya bhikṣor gṛhapati-r-avasphaṇḍakasya pratisaṃharaṇīyaṃ karma karoti
+            <span class="it">/</span> yeṣām āyuṣmatāṃ kṣamate uttarasya bhikṣor gṛhapati-r-avasphaṇḍakasya pratisaṃharaṇīyaṃ
+            karma kartuṃ te tūṣṇīṃ <span class="it">/</span> na kṣamate bhāṣantāṃ <span class="it">/</span> iyaṃ prathamā karmavācanā <span class="it">/</span> evaṃ dvitīyā tṛtīyā karmavācanā kartavyā <span class="it">/</span> kṛtaṃ saṃghena uttarasya bhikṣor gṛhapati-r-avasphaṇḍakasya pratisaṃharaṇīyaṃ karma
+            <span class="it">/</span> kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam etad dhārayāmi //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 4.10</span> pratisaṃharaṇīyakarmakṛtasyāhaṃ bhikṣor āsamudācārikān dharmān prajñapayāmi <span class="it">/</span> pratisaṃharaṇīyakarmakṛtena bhikṣuṇā <span class="it">na</span> pravrājayitavyaṃ pūrvavad yāvat* <span class="it">/</span> sa evaṃ pratisaṃharaṇīyakarmakṛta utkacaprakaca<span class="it">ḥ</span> saṃghe roma pātayati <span class="it">/</span> niḥsaraṇaṃ pravartayati <span class="it">/</span> sāmīcīm upadarśayati <span class="it">/</span> antaḥsīmāyāṃ ca sthitvā osāraṇāṃ yācate <span class="it">/</span> gṛhapati-r-avasphaṇḍakatvāc ca prativiramāmīti vadati <span class="it">/</span> etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha Ś osārayata yūyaṃ bhikṣava
+            uttaraṃ bhikṣuṃ pratisaṃharaṇīyakarmakṛta<span class="it">m</span> iti <span class="it">/</span> yo vā punar <span class="it">anyo</span> 'pi evaṃjātīyaḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 4.11</span> paṃcabhir dharmaiḥ pratisaṃharaṇīyakarmakṛta osārayitavyaḥ <span class="it">/</span> katamaiḥ paṃcabhiḥ <span class="it">/</span> utkacaprakaca<span class="it">ḥ</span> pūrvavad yāvad gṛhapatyavasphaṇḍakatvāc ca prativiramāmīti vadati / (<span class="bold">293v1 = GBM 899</span>) evaṃ ca punar osārayitavyaḥ <span class="it">/</span> śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn samanuyujya sarvasaṃghe
+            saṃniṣaṇṇe saṃnipatite ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ Ś</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 4.12</span> śṛṇotu bhadantāḥ saṃghaḥ <span class="it">/</span> anenottareṇa bhikṣuṇā mrakṣaṣaṇḍāyāṃ citro gṛhapatir avasphaṇḍitaḥ <span class="it">/</span> tad asya saṃghena gṛhapatir avasphaṇḍaka iti kṛtvā pratisaṃharaṇīyakarma kṛtaṃ <span class="it">/</span> so 'yam uttaro bhikṣuḥ pratisaṃharaṇīyakarmakṛta utkacaprakaca<span class="it">ḥ</span> pūrvavad yāvad gṛhapatyavasphaṇḍakatvāc ca prativiramāmīti vadati <span class="it">/</span> sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃghaḥ uttaraṃ bhikṣuṃ pratisaṃharaṇīyakarmakṛtam
+            osārayed ity eṣā jñaptiḥ // tato vaktavyo gaccha taṃ gṛhapatiṃ kṣamaya osārito bhaviṣyasīti
+            Ś</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 4.13</span> sa bhikṣubhir evam abhihito yena mrakṣaṣaṇḍā tena cārikāṃ prakrānto 'nupūrveṇa cārikāṃ
+            caraṃ mrakṣaṣaṇḍām anuprāptaḥ <span class="it">/</span> tato mārgaśramaṃ prativinodya yena citro gṛhapatis tenopasaṃkrānta<span class="it">ḥ</span> Ś upasaṃkramya dakṣiṇaṃ bāhum abhiprasārya kathayati Ś kṣamasva mama gṛhapate Ś kṣāntaṃ
+            bhadantottara Ś yady evam ihaiva prativasa <span class="it">/</span> gacchāmi tāvad yena mamāparādhhaṃ tasya nigrahaṃ karomi <span class="it">/</span> kiṃ mayāparādhhaṃ <span class="it">/</span> na tava yena mamāparāddhaṃ Ś</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 4.14</span> athāyuṣmān uttaro gaṃgātīraṃ gatvā tribhis tālavṛndaiḥ kuṭikāṃ kṛtvā varṣā upagataḥ
+            <span class="it">/</span> tena śavaśīrṣopamaṃ pātraṃ dhāritaṃ <span class="it">/</span> tasya nātidūre mārgas tena satataṃ gopāṅganā gacchati Ś sa tāsāṃ pātraṃ prasārayati
+            Ś tasmin dadhiṃ vā kṣīraṃ vā udaśviṃ vānuprayacchanti Ś tat paribhujya dhyānasamādhisamāpattisukhāni
+            abhināmayati Ś</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 4.15</span> yāvad apareṇa samayena dve gopāṅgane gacchato mātā duhitā ca Ś duhitā mātuḥ kathayaty
+            amba eṣa āryo mūka iti Ś sā kathayati putri naiṣa mūkaḥ nūnam anena kasyacid vācā
+            aparāddham* tasyā eṣa nigrahaṃ karotīti Ś amba kim etad evaṃ bhaviṣyati Ś putri svo
+            'haṃ tava pratyakṣīkariṣyāmīti Ś yāvad aparasmin divase mathitaghaṭaṃ gṛhītvā duhitṛsametā
+            taṃ pradeśam āgatā / āyuṣmatā uttareṇa pātraṃ prasāritam* <span class="it">/</span> sā tasya pātraṃ mathitasya pūrayitum ārabdhā Ś āyuṣmān uttaraḥ pātraṃ cālayati <span class="it">/</span> sā dadāty eva na saṃtiṣṭhate <span class="it">/</span> āyuṣmān uttaraḥ kathayati alaṃ bhagini Ś kim anena nirarthakena choritena Ś santy
+            anye 'smadvidhāḥ pratigrāhakā iti Ś sā kathayati Ś putri na tvaṃ mayā pūrvam uktā
+            nāyaṃ mūko nūnam anena kasyacid vācā aparāddham* tasyā eva nigrahaṃ karotīti Ś / (<span class="bold">294r1 = GBM 900</span>) avocas tvam aṃba iti <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 4.16</span> tatrāyuṣmatā uttareṇa dvābhyām antarvarṣābhyām ekā vāg bhāṣitā <span class="it">/</span> tṛtīye 'ntarvarṣe idam eva pañcagaṇḍakaṃ saṃsāracakraṃ calācalaṃ viditvā sarvasaṃskāragatīḥ
+            śatanapatanavikiraṇavidhvaṃsanadharmatayā parāhanya tama<span class="it">ḥ</span>skandhaḥ pradālitaḥ a<span class="it">r</span>haṃ saṃvṛttaḥ pūrvavad yāvat pūjyo mānyo 'bhivādyaś ca saṃvṛttaḥ <span class="it">/</span> āyuṣmān uttaro 'rhatvaprāpto vimuktiprītisukhasaṃvedī tasyāṃ velāyāṃ gāthāṃ bhāṣate
+            //</p>
+         
+         
+         <p>tribhir mayā tālavṛndair gaṅgātīre kuṭī kṛtā /
+            śavaśīrṣopamaṃ pātraṃ pāṃsukūlaṃ ca cīvaram* <span class="it">//</span>
+            dvābhyām antarvarṣābhyām ekā vāg bhāṣitā mayā /
+            tṛtīye 'ntarvarṣe tu tama<span class="it">ḥ</span>skandhaḥ pradālitaḥ <span class="it">//</span>
+            gaṅgātīranivāsī 'tra uttaraḥ sthaviro vaśī <span class="it">/</span>
+            vimuktacitto hi arhan<span class="it">n</span> imā gāthā abhāṣata // //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 5.1</span> buddho bhagavāṃ kauśāmbyāṃ viharati ghoṣilārāme <span class="it">/</span> tena khalu samayenāyuṣmāṃ chanda āpattim āpanno na paśyati <span class="it">/</span> etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti <span class="it">/</span> bhagavān āha / kuruta yūyaṃ bhikṣavaḥ chandasya bhikṣor āpatter adarśanāyotkṣepaṇīyaṃ
+            karma iti yo vā punar anyo 'py evaṃjātīyaḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 5.2</span> paṃcabhiḥ kāraṇair āpatter adarśanād utkṣepaṇīyaṃ karma kṛtam adharmakarma ca tad
+            a<span class="it">vinaya</span>karma ca saṃghaś ca tena sātisāraḥ / katamaiḥ paṃcabhiḥ <span class="it">/</span> acodayitvā kurvanti pūrvavad yāvad ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 5.3</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> ayaṃ chando bhikṣur āpattim āpanno yathādharmaṃ na pratikaroti <span class="it">/</span> sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃgha<span class="it">ś</span> chandasya bhikṣor āpatter adarśanāyotkṣepaṇīyaṃ karma kuryād ity eṣā jñaptiḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 5.4</span> karma kartavyaṃ <span class="it">/</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> ayaṃ chando bhikṣur āpattim āpanno yathādharmaṃ na pratikaroti <span class="it">/</span> tat saṃgha<span class="it">ś</span> chandasya bhikṣor āpatter adarśanāyotkṣepaṇīyaṃ karma karoti <span class="it">/</span> yeṣām āyuṣmatāṃ <span class="it">kṣamate</span> chandasya bhikṣor āpatter <span class="it">a</span>darśanāya utkṣepaṇīyaṃ karma kartuṃ te tūṣṇī<span class="it">ṃ</span> na kṣamate bhāṣantām* <span class="it">/</span> iyaṃ prathamā karmavācanā pūrvavad yāvad yathā pāṇḍulohitakānāṃ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 5.5</span> etad eva nidānam* <span class="it">/</span> āyuṣmāṃ chando āpattim āpanno yathādharmaṃ na pratikaroti <span class="it">/</span> sa sabrahmacāribhir arthakāmaiḥ pūrvavad yathā vibhaṃge <span class="it">/</span> etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti <span class="it">/</span> bhagavān āha / kuruta yūyaṃ bhikṣavaḥ chandasya bhikṣor āpatter apratikarmāyotkṣepaṇīyaṃ
+            karma iti yo vā punar anyo 'py evaṃjātīyaḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 5.6</span> paṃcabhiḥ kāraṇair āpatter apratikarmāyotkṣepaṇīyaṃ karma kṛtam adharmakarma ca tad
+            avinayakarma <span class="it">ca</span> saṃghaś ca tena sātisāraḥ <span class="it">/</span> katamaiḥ paṃcabhiḥ <span class="it">/</span> acodayitvā kurvanti pūrvavad yāvad ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyam*
+            <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 5.7</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> ayaṃ chando bhikṣur āpattim āpanno (<span class="bold">294v1 = GBM 901</span>) yathādharmaṃ na pratikaroti <span class="it">/</span> sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho ya<span class="it">t</span> saṃgha<span class="it">ś</span> chandasya bhikṣor āpatter apratikarmāyotkṣepaṇīyaṃ karma kuryād ity eṣā jñaptiḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 5.8</span> karma kartavyaṃ <span class="it">/</span> śṛṇotu bhadantā<span class="it">ḥ</span> saṃgha<span class="it">ḥ /</span> ayaṃ chando bhikṣur āpattim āpanno yathādharmaṃ na pratikaroti <span class="it">/</span> tat saṃgha<span class="it">ś</span> chandasya bhikṣor āpatter apratikarmāyotkṣepaṇīyaṃ karma karoti <span class="it">/</span> yeṣām āyuṣmatāṃ kṣamate chandasya bhikṣor āpatter apratikarmāyotkṣepaṇīyaṃ karma
+            kartuṃ te tūṣṇī<span class="it">ṃ</span> na kṣamate bhāṣa<span class="it">n</span>tām* <span class="it">/</span> iyaṃ prathamā karmavācanā pūrvavad yāvat pāṇḍulohitakānām* // //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 6.1</span> buddho bhagavāṃ cchrāvastyāṃ viharati jetavane 'nāthapiṇḍadasyārāme <span class="it">/</span> tena khalu samayena ariṣṭasya bhikṣor idam evaṃrūpaṃ pāpakaṃ dṛṣṭigatam utpannaṃ
+            <span class="it">/</span> tathāhaṃ bhagavato dharmaṃ deśitam ājānāmi yathā ye 'ntarāyikā dharmā uktā bhagavatā
+            te ca pratisevyamānā nālam antarāyāyeti / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti
+            / bhagavān āha / kuruta yūyaṃ bhikṣava ariṣṭasya bhikṣor apratini<span class="it">ḥ</span>sṛṣṭe pāpake dṛṣṭigate utkṣepaṇīyaṃ karma iti yo vā punar anyo 'py evaṃjātīyaḥ /</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 6.2</span> paṃcabhiḥ kāraṇair apratini<span class="it">ḥ</span>sṛṣṭe pāpake dṛṣṭigate utkṣepaṇīyaṃ karma kṛtam adharmakarma ca tad avinayakarma ca
+            saṃghaś ca tena sātisā<span class="it">ra</span>ḥ <span class="it">/</span> katamaiḥ paṃcabhiḥ <span class="it">/</span> acodayitvā kurvanti / pūrvavad yāvad ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ
+            <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 6.3</span> śṛṇotu bhadantāḥ saṃghaḥ <span class="it">/</span> asyāriṣṭasya bhikṣor idam evaṃrūpaṃ pāpakaṃ dṛṣṭigatam utpannaṃ <span class="it">/</span> tathāhaṃ bhagavato dharmaṃ deśitam ājānāmi yathā ye 'ntarāyikā dharmā uktā bhagavatā
+            pūrvavad yāvat saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃghaḥ ariṣṭasya
+            bhikṣor apratini<span class="it">ḥ</span>sṛṣṭe pāpake dṛṣṭigate utkṣepaṇīyaṃ karma kuryād ity eṣā jñaptiḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 6.4</span> karma kartavyaṃ <span class="it">/</span> śṛṇotu bhadantā<span class="it">ḥ</span> saṃgha<span class="it">ḥ /</span> asyāriṣṭasya bhikṣor idam evaṃrūpaṃ pāpakaṃ dṛṣṭigatam utpannaṃ <span class="it">/</span> tathāhaṃ bhagavato dharmaṃ deśitam ājānāmi pūrvavad yāvat saṃgha ariṣṭasya bhikṣor
+            apratiniḥsṛṣṭe pāpake dṛṣṭigate utkṣepaṇīyaṃ karma karoti <span class="it">/</span> yeṣām āyuṣmatāṃ kṣamate ariṣṭasya bhikṣor apratini<span class="it">ḥ</span>sṛṣṭe pāpake dṛṣṭigate utkṣepaṇīyaṃ karma kartuṃ te tūṣṇī<span class="it">ṃ</span> na kṣamate bhāṣantām* <span class="it">/</span> iyaṃ prathamā karmavācanā pūrvavad yāvat pāṇḍulohitakānāṃ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 6.5</span> sa eṣaḥ apratini<span class="it">ḥ</span>sṛṣṭe pāpake dṛṣṭigate utkṣepaṇīyakarmakṛtam utkacaprakacaḥ saṃghe roma pātayati pūrvavad
+            yāvat* dṛṣṭigataṃ pratini<span class="it">ḥ</span>sṛjāmīti vadati <span class="it">/</span> etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti <span class="it">/</span> bhagavān āha / (<span class="bold">295r1 = GBM 902</span>) osārayata yūyaṃ bhikṣavaḥ ariṣṭaṃ bhikṣum apratini<span class="it">ḥ</span>sṛṣṭe pāpake dṛṣṭigate utkṣepaṇīyakarmakṛtam iti yo vā punar anyo 'py evaṃjātīyaḥ
+            <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 6.6</span> paṃcabhir karaṇair apratini<span class="it">ḥ</span>sṛṣṭe pāpake dṛṣṭigate utkṣepaṇīyakarmakṛta osārayitavyaḥ <span class="it">/</span> katamaiḥ paṃcabhiḥ <span class="it">/</span> utkacaprakaca<span class="it">ḥ</span> saṃghe roma pātayati pūrvavad yāvad ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ
+            /</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 6.7</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> asyāriṣṭasya bhikṣor idam evaṃrūpaṃ pāpakaṃ dṛṣṭigatam utpannaṃ <span class="it">/</span> tathāhaṃ bhagavato dharmaṃ deśitam ājānāmi yathā ye 'ntarāyikā dharmā uktā bhagavatā
+            te pratisevyamānā nālam antarāyāyeti <span class="it">/</span> tad asya saṃghena <span class="it">a</span>pratini<span class="it">ḥ</span>sṛṣṭe pāpake dṛṣṭigate utkṣepaṇīyaṃ karma kṛtaṃ <span class="it">/</span> so 'yam ariṣṭo bhikṣur apratini<span class="it">ḥ</span>sṛṣṭe pāpake dṛṣṭigate utkṣepaṇīyakarmakṛta utkacaprakaca<span class="it">ḥ</span> pūrvavad yāva<span class="it">d</span> dṛṣṭigataṃ pratini<span class="it">ḥ</span>sṛjāmīti vadati <span class="it">/</span> sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃgha ariṣṭaṃ bhikṣum apratini<span class="it">ḥ</span>sṛṣṭe pāpake dṛṣṭigate utkṣepaṇīyakarmakṛtam osārayed ity eṣā jñaptiḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 6.8</span> evaṃ ca karma kartavyaṃ <span class="it">/</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> asyāriṣṭasya bhikṣor idam evaṃrūpaṃ pāpakaṃ dṛṣṭigatam utpannaṃ pūrvavad yāvat tat
+            saṃgha ariṣṭaṃ bhikṣum apratini<span class="it">ḥ</span>sṛṣṭe pāpake dṛṣṭigate utkṣepaṇīyakarmakṛtam osārayati <span class="it">/</span> yeṣām āyuṣmatāṃ kṣamate ariṣṭam apratini<span class="it">ḥ</span>sṛṣṭe pāpake dṛṣṭigate utkṣepaṇīyakarmakṛtam osārayituṃ te tūṣṇī<span class="it">ṃ</span> na kṣamate bhāṣa<span class="it">n</span>tām* <span class="it">/</span> iyaṃ prathamā karmavācanā evaṃ dvitīyā tṛtīyā karmavācanā pūrvavad yāvat tūṣṇīm evam
+            etad dhārayāmi // //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.1.1</span> buddho bhagavāṃ cchrāvastyāṃ viharati jetavane anāthapiṇḍadasyārāme <span class="it">/</span> tena khalu samayenāyuṣmān udāyī saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitām
+            ardhamāsapraticchannāṃ <span class="it">/</span> sa etat prakaraṇaṃ bhikṣūṇām ārocayaty <span class="it">/</span> aham āyuṣmanta<span class="it">ḥ</span> saṃghāvaśeṣām āpattim āpanna<span class="it">ḥ</span> saṃcintyaśukravisṛṣṭisamutthitāṃ ardhamāsapraticchannāṃ <span class="it">/</span> kiṃ mayā karaṇīyam ity <span class="it">/</span> etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / dadata yūyaṃ bhikṣava
+            udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyā
+            ardhamāsaṃ parivāsam iti <span class="it">/</span> yo vā punar anyo 'py evaṃjātīya<span class="it">ḥ /</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.1.2</span> evaṃ ca punar dātavyā<span class="it">ḥ /</span> udāyinā bhikṣuṇā śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn samanuyujya
+            sarvasaṃghe saṃniṣaṇṇe saṃnipatite udāyinā bhikṣuṇā vṛddhānte utkuṭukena sthitvā aṃjaliṃ
+            pragṛhya parivāsaṃ yācitavyam* <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.1.3</span> evaṃ ca punar yācitavyaṃ <span class="it">/</span> śṛṇotu bhadantaḥ (<span class="bold">295v1 = GBM 903</span>) saṃgha<span class="it">ḥ /</span> aham udāyī bhikṣuḥ saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitā<span class="it">m</span> ardhamāsapraticchannā<span class="it">ṃ /</span> so 'ham udāyī bhikṣu<span class="it">r</span> asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyā<span class="it">ḥ</span> saṃghād ardhamāsaṃ parivāsaṃ yāce <span class="it">/</span> dadātu me bhadantāḥ saṃghaḥ mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā ardhamāsaṃ parivāsam anukaṃpako 'nukaṃpām upādāya <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.1.4</span> tataḥ paścād ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ <span class="it">/</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> ayam udāyī bhikṣuḥ saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitām
+            ardhamāsapraticchannāṃ <span class="it">/</span> so 'yam udāyī bhikṣur asyāḥ
+            saṃghāvaśeṣāyā āpatte<span class="it">ḥ</span> saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyā<span class="it">ḥ</span> saṃghād ardhamāsaṃ parivāsaṃ yācate <span class="it">/</span> sacet saṃghasya prāptakālaṃ kṣametānujānīyā<span class="it">t</span> saṃgho yat saṃgha udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā ardhamāsaṃ parivāsaṃ dadyād ity eṣā jñaptiḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.1.5</span> evaṃ ca karma kartavyaṃ / śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> ayam udāyī bhikṣuḥ saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitām
+            ardhamāsapraticchannāṃ <span class="it">/</span> so 'yam udāyī bhikṣu<span class="it">r asyāḥ</span> saṃghāvaśeṣāyā āpatte<span class="it">ḥ</span> saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyā<span class="it">ḥ</span> saṃghād ardhamāsaṃ parivāsaṃ yācate <span class="it">/</span> tat saṃgha udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannā<span class="it">yā</span> ardhamāsaṃ parivāsam dadāti / yeṣām āyuṣmatāṃ kṣamate udāyino bhikṣor asyāḥ saṃghāvaśeṣā<span class="it">yā</span> āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyā ardhamāsaṃ parivāsam
+            dātuṃ te tūṣṇīṃ na kṣamate bhāṣantām* <span class="it">/</span> iyaṃ prathamā karmavācanā <span class="it">/</span> evaṃ dvitīyā tṛtīyā karmavācanā kartavyā <span class="it">/</span> dattaḥ saṃghe<span class="it">na</span> udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyā
+            ardhamāsaṃ parivāsaḥ <span class="it">/</span> kṣāntam anujñātaṃ saṃghena <span class="it">yasmāt</span> tūṣṇīm evam etad dhārayāmi //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.2.1</span> sa pārivāsika eva san* saṃghāvaśeṣām āpattim āpanno 'ntarāpattiṃ pūrvāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> sa etat prakaraṇaṃ bhikṣūṇām ārocayati / āyuṣmanta udāyī bhikṣu<span class="it">ḥ</span> saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitām ardhamāsapraticchannāṃ
+            <span class="it">/</span> tena mayā udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            (<span class="bold">296r1 = GBM 904</span>) ardhamāsapraticchannāyāḥ saṃghād ardhamāsaṃ parivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā ardhamāsaṃ <span class="it">parivāsaḥ /</span> so 'haṃ pārivāsika eva saṃghāvaśeṣām āpattim ā<span class="it">pa</span>nno 'ntarāpattiṃ pūrvāpattipratirūpāṃ praticchannāṃ <span class="it">/</span> ki<span class="it">ṃ</span> mayā karaṇīyam ity <span class="it">/</span> etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti <span class="it">/</span> bhagavān āha / dadata yūyaṃ bhikṣava udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatte<span class="it">r</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsam iti / yo vā punar
+            anyo 'py evaṃjātīyaḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.2.2</span> evaṃ ca punar dātavyaḥ <span class="it">/</span> śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn samanuyujya sarvasaṃghe
+            saṃniṣaṇṇe saṃnipatite udāyinā bhikṣuṇā vṛddhānte utkuṭukena sthitvā aṃjaliṃ pragṛhya
+            idaṃ syād vacanīyam* <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.2.3</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> aham udāyī bhikṣuḥ saṃghāvaśeṣām āpattim āpanna<span class="it">ḥ</span> saṃcintyaśukravisṛṣṭisamutthitā<span class="it">m</span> ardhamāsapraticchannā<span class="it">ṃ / tena mayā</span> udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyāḥ
+            saṃghād ardhamāsaṃ parivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā ardhamāsaṃ parivāsaḥ <span class="it">/</span> so 'haṃ pārivāsika eva saṃghāvaśeṣām āpattim āpanno 'ntarāpattiṃ pūrvāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> so 'ham udāyī bhikṣur asyāḥ saṃghāvaśeṣāyā āpatte<span class="it">r</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyāḥ saṃghā<span class="it">n</span> mūlaparivāsaṃ yāce <span class="it">/</span> dadātu me bhadantāḥ saṃghaḥ mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatter antarāpatteḥ
+            pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsam anukaṃpako 'nukaṃpām upādāya <span class="it">/</span> evaṃ dvir api trir api //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.2.4</span> tataḥ paścād ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ <span class="it">/</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> ayam udāyī bhikṣuḥ saṃghāvaśeṣām āpattim āpanna<span class="it">ḥ</span> saṃcintyaśukravisṛṣṭisamutthitām ardhamāsapraticchannāṃ <span class="it">/</span> tenānena udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣā<span class="it">yā</span> āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyā<span class="it">ḥ</span> saṃghād ardhamāsaṃ parivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghena asyodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā ardhamāsaṃ parivāsaḥ <span class="it">/</span> so 'yaṃ pārivāsika eva saṃghāvaśeṣām āpattim āpanno 'ntarāpattiṃ pūrvāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> so 'yam udāyī bhikṣur asyāḥ saṃghāvaśeṣāyā (<span class="bold">296v1 = GBM 905</span>) <span class="it">āpatter</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyāḥ saṃghān mūlaparivāsaṃ yācate
+            <span class="it">/</span> sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃgha udāyino bhikṣor asyāḥ
+            saṃghāvaśeṣāyā āpatter antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsam
+            dadyād ity eṣā jñaptiḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.2.5</span> karma kartavyaṃ <span class="it">/</span> śṛṇotu bhadantaḥ saṃghaḥ <span class="it">/</span> ayam udāyī bhikṣuḥ saṃghāvaśeṣām āpattim <span class="it">āpannaḥ</span> saṃcintyaśukravisṛṣṭisamutthitām ardhamāsapraticchannāṃ <span class="it">/</span> tenānena udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā<span class="it">ḥ</span> saṃghād ardhamāsaṃ parivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghenāsya udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            <span class="it">ardhamāsapraticchannāyā</span> ardhamāsaṃ parivāsaḥ <span class="it">/</span> so 'yaṃ pārivāsika eva saṃghāvaśeṣām āpattim āpanno 'ntarāpattiṃ pūrvāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> so 'yam udāyī bhikṣur asyāḥ saṃghāvaśeṣāyā <span class="it">āpatteḥ</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyāḥ saṃghān mūlaparivāsaṃ yācate
+            <span class="it">/</span> tat saṃgha udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ <span class="it">antarāpatteḥ</span> pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsam dadāti / yeṣām āyuṣmatāṃ kṣamate
+            udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā <span class="it">āpatteḥ</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsam dātuṃ te tūṣṇīṃ
+            na kṣamate bhāṣantām* <span class="it">/</span> iyaṃ prathamā karmavācanā evaṃ dvitīyā tṛtīyā karmavācanā vaktavyā // datta<span class="it">ḥ</span> saṃghena udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ antarāpatteḥ pūrvāpattipratirūpāyāḥ
+            praticchannāyā mūlaparivāsaḥ <span class="it">/</span> kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam etad dhārayāmi // //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.3.1</span> sa mūlapārivāsika eva saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> sa etat prakaraṇaṃ bhikṣūṇām ārocayati <span class="it">/</span> aham asmy āyuṣmanta udāyī bhikṣuḥ saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitām
+            ardhamāsapraticchannāṃ <span class="it">/</span> tena mayā udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā<span class="it">ḥ</span> saṃghād ardhamāsaṃ parivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghena mamo<span class="it">dā</span>y<span class="it">i</span>no bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyāḥ <span class="it">ardhamāsapraticchannāyā</span> ardhamāsaṃ parivāsaḥ <span class="it">/</span> so 'haṃ pārivāsika eva saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> tena mayā (<span class="bold">297r1 = GBM 906</span>) udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā <span class="it">āpatteḥ</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyāḥ saṃghān mūlaparivāso yācitaḥ
+            <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā <span class="it">āpatteḥ</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaḥ <span class="it">/</span> so 'haṃ mūlapārivāsika eva saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattiṃ antarāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> kiṃ mayā karaṇīyam ity <span class="it">/</span> etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / dadata yūyaṃ bhikṣava
+            udāyino bhikṣor asyāḥ saṃghāvaśeṣāyāḥ pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā
+            mūlāpakarṣam iti / yo vā punar anyo 'py evaṃjātīyaḥ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.3.2</span> evaṃ ca punar dātavyaḥ <span class="it">/</span> śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn samanuyujya sarvasaṃghe
+            saṃniṣaṇṇe saṃnipatite udāyinā bhikṣuṇā vṛddhānte utkuṭukena sthitvā aṃjaliṃ pragṛhya
+            idaṃ syād vacanīyam* <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.3.3</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> aham udāyī bhikṣuḥ saṃghāvaśeṣām āpattim āpanna<span class="it">ḥ</span> saṃcintyaśukravisṛṣṭisamutthitām ardhamāsapraticchannāṃ <span class="it">/</span> tena mayā udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā<span class="it">ḥ</span> saṃghād ardhamāsaṃ parivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā ardhamāsaṃ parivāsaḥ <span class="it">/</span> so 'haṃ pārivāsika eva saṃghāvaśeṣām āpattim āpanno 'ntarāpattiṃ pūrvāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> tena mayā udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ <span class="it">antarāpatteḥ</span> pūrvāpattipratirūpāyāḥ praticchannāyā<span class="it">ḥ</span> saṃghān mūlaparivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā <span class="it">āpatter</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaḥ <span class="it">/</span> so 'haṃ mūlapārivāsika eva saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> so 'ham asyāḥ saṃghāvaśeṣāyā pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyāḥ
+            saṃghān mūlāpakarṣaṃ yāce <span class="it">/</span> dadātu bhadantāḥ saṃgho mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyāḥ pratyantarāpatter
+            antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣam anukaṃpaka anukampām upādāya <span class="it">/</span> evaṃ dvir api trir api <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.3.4</span> tataḥ paścād ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ <span class="it">/</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> ayam udāyī (<span class="bold">297v1 = GBM 907</span>) bhikṣuḥ saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitām ardhamāsapraticchannāṃ
+            <span class="it">/</span> tenānena udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyāḥ saṃghād ardhamāsaṃ parivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghenāsyodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatte<span class="it">ḥ</span> saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyā ardhamāsaṃ parivāsaḥ <span class="it">/</span> so 'yaṃ pārivāsika eva saṃghāvaśeṣām āpattim āpanno 'ntarāpattiṃ pūrvāpatti<span class="it">pratirūpāṃ</span> praticchannāṃ <span class="it">/</span> tenānena udāyinā bhikṣuṇā <span class="it">asyāḥ</span> saṃghāvaśeṣāyā <span class="it">āpatter</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyāḥ saṃghān mūlaparivāso yācitaḥ
+            <span class="it">/</span> datto 'sya saṃghena udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā <span class="it">āpatter</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaḥ <span class="it">/</span> so 'yaṃ mūlapārivāsika eva san* saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> so 'yam asyāḥ saṃghāvaśeṣāyāḥ pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyāḥ
+            saṃghān mūlāpakarṣaṃ yācate <span class="it">/</span> sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃgha udāyino bhikṣor asyāḥ
+            saṃghāvaśeṣāyāḥ pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣaṃ
+            dadyād ity eṣā jñaptiḥ //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.3.5</span> karma kartavyaṃ <span class="it">/</span> śṛṇotu bhadantāḥ saṃghaḥ <span class="it">/</span> ayam udāyī bhikṣuḥ saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitām
+            ardhamāsapraticchannāṃ <span class="it">/</span> tenānena udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā<span class="it">ḥ</span> saṃghād ardhamāsaṃ parivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghenāsya udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā ardhamāsaṃ parivāsaḥ <span class="it">/</span> so 'yaṃ pārivāsika eva saṃghāvaśeṣām āpattim āpanno 'ntarāpattiṃ pūrvāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> tenānenodāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatter antarāpatteḥ pūrvāpattipratirūpāyāḥ
+            praticchannāyāḥ saṃghān mūlaparivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghenāsya udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā <span class="it">āpatter</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannā<span class="it">yā</span> mūlaparivāsaḥ <span class="it">/</span> so 'yaṃ mūlapārivāsika eva saṃ saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpatti<span class="it">m anta</span>rāpattipratirūpāṃ praticchannāṃ <span class="it">/</span> so 'yam asyāḥ saṃghāvaśeṣāyāḥ pratyantarāpatter (<span class="bold">298r1 = GBM 908</span>) antarāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā<span class="it">ḥ</span> saṃghān mūlāpakarṣaṃ yācate <span class="it">/</span> tat saṃgha udāyin<span class="it">o</span> bhikṣor asyāḥ saṃghāvaśeṣāyāḥ pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā
+            mūlāpakarṣam dadāti <span class="it">/</span> yeṣām āyuṣmatāṃ kṣamate udāyino bhikṣor asyā<span class="it">ḥ</span> saṃghāvaśeṣāyāḥ pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣam
+            dātuṃ te tūṣṇīṃ na kṣamate bhāṣantāṃ <span class="it">/</span> iyaṃ prathamā karmavācanā <span class="it">/</span> evaṃ dvitīyā tṛtīyā karmavācanā kartavyā Ś dattaḥ saṃghena udāyino bhikṣor asyāḥ
+            saṃghāvaśeṣāyāḥ pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣa<span class="it">ḥ /</span> kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam etad dhārayāmi // //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.4.1</span> so 'pareṇa samayena saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyāḥ
+            paryuṣitaparivāsa antarāpatteḥ <span class="it">pūrvāpattipratirūpāyāḥ praticchannāyā</span> mūlaparivāsaparyuṣitaḥ pratyantarāpatter <span class="it">antarāpattipratirūpāyāḥ praticchannāyā</span> mūlāpakarṣaparyuṣito bhikṣūṇām ārocayati <span class="it">/</span> aham asmy āyuṣmanta udāyī bhikṣu<span class="it">ḥ</span> saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitā<span class="it">m</span> ardhamāsapraticchannāṃ <span class="it">/</span> tena mayā udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyāḥ saṃghād ardhamāsaṃ parivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyāḥ
+            ardhamāsapraticchannāyā ardhamāsaṃ parivāsaḥ <span class="it">/</span> so 'haṃ pārivāsika eva saṃghāvaśeṣām āpattim āpanno 'ntarāpattiṃ pūrvāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> tena mayā udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā <span class="it">āpatter</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyāḥ saṃghān mūlaparivāso yācitaḥ
+            <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā <span class="it">āpatter</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaḥ <span class="it">/</span> so 'haṃ mūla<span class="it">pāri</span>vāsika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> tena mayā udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyāḥ pratyantarāpatter antarāpattipratirūpāyāḥ
+            praticchannāyā<span class="it">ḥ</span> saṃghān mūlaparivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyāḥ pratyantarāpatter antarāpattipratirūpāyāḥ
+            praticchannāyā mūlāpakarṣaḥ <span class="it">/</span> so 'ham asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyāḥ
+            paryuṣitaparivāsaḥ antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaparyuṣitaḥ
+            pratyantarāpatter antarāpattipratirūpāyā <span class="it">praticchannāyā</span> mūlāpakarṣaparyuṣitaḥ <span class="it">/</span> kiṃ mayā karaṇīyam <span class="it">iti</span> Ś etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti Ś bhagavān āha Ś dadata yūyaṃ bhikṣava
+            udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā (<span class="bold">298v1 = GBM 6.909</span>) ardhamāsapraticchannāyāḥ paryuṣitaparivāsasya antarāpatteḥ <span class="it">pūrvāpattipratirūpāyāḥ praticchannāyā</span> mūlaparivāsaparyuṣitasya pratyantarāpatter <span class="it">antarāpattipratirūpāyāḥ praticchannāyā</span> mūlāpaka<span class="it">rṣa</span>paryuṣitasya ṣaḍrātraṃ mānāpyam iti <span class="it">/</span> yo vā punar anyo 'py evaṃjātīya<span class="it">ḥ /</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.4.2</span> evaṃ ca punar dātavya<span class="it">ḥ /</span> śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn samanuyujya sarvasaṃghe
+            saṃniṣaṇṇe saṃnipatite udāyinā bhikṣuṇā vṛddhānte utkuṭuke<span class="it">na</span> sthitvā aṃjaliṃ pragṛhya idaṃ syād vacanīyaṃ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.4.3</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> aham udāyī bhikṣuḥ saṃghāvaśeṣām āpattim āpanna<span class="it">ḥ</span> saṃcintyaśukravisṛṣṭisamutthitām ardhamāsapraticchannāṃ <span class="it">/</span> tena mayā udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā<span class="it">ḥ</span> saṃghād ardhamāsaṃ parivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā ardhamāsaṃ parivāsaḥ <span class="it">/</span> so 'haṃ pārivāsika eva san* saṃghāvaśeṣām āpattim āpanno 'ntarāpattiṃ pūrvāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> tena mayā udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā <span class="it">āpatter</span> antarāpatteḥ pūrvāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā<span class="it">ḥ</span> saṃghān mūlaparivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā <span class="it">āpatter</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaḥ <span class="it">/</span> so 'haṃ mūlapārivāsika eva san* saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ
+            praticchannām* <span class="it">/</span> tena mayā bhikṣuṇā asyāḥ saṃghāvaśeṣā<span class="it">yāḥ</span> pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyāḥ saṃghān mūlāpakarṣo yācitaḥ
+            <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyāḥ pratyantarāpatteḥ antarāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlāpakarṣaḥ <span class="it">/</span> so 'ham udāyī bhikṣur asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyāḥ paryuṣitaparivāsaḥ antarāpatter <span class="it">pūrvāpattipratirūpāyāḥ praticchannāyā</span> mūlaparivāsaparyuṣitaḥ pratyantarāpatter <span class="it">antarāpattipratirūpāyāḥ praticchannāyā</span> mūlāpakarṣaparyuṣitaḥ saṃghāt ṣaḍrātraṃ mānāpyaṃ yāce <span class="it">/</span> dadātu bhadantāḥ saṃgho mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyāḥ paryuṣitaparivāsasya antarāpatteḥ <span class="it">pūrvāpattipratirūpāyāḥ praticchannāyā</span> mūlaparivāsaparyuṣitasya pratyantarāpatter <span class="it">antarāpattipratirūpāyāḥ praticchannāyā</span> mūlāpakarṣaparyuṣitasya ṣaḍrātraṃ mānāpyam anukaṃpaka anukaṃpām upādāya <span class="it">/</span> evaṃ dvir api trir api <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.4.4</span> tataḥ paścād ekena bhikṣuṇā jñapti<span class="it">ṃ</span> kṛtvā karma kartavyam* <span class="it">/</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> ayam udāyī bhikṣu<span class="it">ḥ</span> saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitā<span class="it">m</span> ardhamāsapraticchannāṃ <span class="it">/</span> tenānena udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyāḥ saṃghād ardhamāsaṃ parivāso yācitaḥ <span class="it">/</span> datto 'sya saṃghena (<span class="bold">299r1 = GBM 910</span>) udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyā
+            ardhamāsaṃ parivāsaḥ <span class="it">/</span> so 'yaṃ pārivāsika eva san* saṃghāvaśeṣām āpattim āpanno 'ntarāpatti<span class="it">ṃ</span> pūrvāpattipratirūpāṃ praticchannāṃ <span class="it">/</span> tenānena udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā <span class="it">āpatter</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghenāsyodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā <span class="it">āpatter</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā <span class="it">mūlaparivāsaḥ / so 'yaṃ</span> mūlapārivāsaḥ eva san* saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpatti<span class="it">m antarāpatti</span>pratirūpāṃ praticchannāṃ <span class="it">/</span> tenānena udāyino bhikṣuṇā asyāḥ saṃghāvaśeṣāyā <span class="it">āpatteḥ</span> pratyantarāpatter antarāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyāḥ saṃghān mūlāpakarṣo yācitaḥ / dattaḥ saṃgh<span class="it">e</span>nāsyodāyino bhikṣor asyāḥ saṃghāvaśeṣāyāḥ pratyantarāpatter antarāpattipratirūpāyāḥ
+            praticchannāyā mūlāpakarṣaḥ <span class="it">/</span> so 'yam udāyī bhikṣur asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyāḥ paryuṣitaparivāsa antarāpatteḥ pūrvāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlaparivāsaparyuṣitaḥ pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā
+            mūlāpakarṣaparyuṣitaḥ ṣaḍrātraṃ mānāpyaṃ yācate <span class="it">/</span> sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃgha udāyino bhikṣor asyāḥ
+            saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyāḥ
+            paryuṣitaparivāsasya antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaparyuṣitasya
+            pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣaparyuṣita<span class="it">sya</span> ṣaḍrātraṃ mānāpyaṃ dadyād ity eṣā jñapti<span class="it">ḥ /</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.4.5</span> evaṃ ca karma kartavyam* <span class="it">/</span> śṛṇotu bhadantāḥ saṃghaḥ <span class="it">/</span> ayam udāyī bhikṣuḥ saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitām
+            ardhamāsapra<span class="it">ti</span>cchannāṃ <span class="it">/</span> tenānena udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyāḥ saṃghād ardhamāsaṃ parivāso yācitaḥ <span class="it">/</span> datto 'sya saṃghena udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā ardhamāsaṃ parivāsaḥ <span class="it">/</span> so 'yaṃ pārivāsika eva san* saṃghāvaśeṣām <span class="it">āpattim</span> āpanno 'ntarāpattiṃ pūrvāpatti<span class="it">pratirūpā</span>ṃ praticchannāṃ <span class="it">/</span> tenānenodāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā <span class="it">āpatter</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ <span class="it">praticchannāyāḥ</span> saṃghān mūlaparivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghenāsyodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā <span class="it">āpatter</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaḥ <span class="it">/</span> so 'yaṃ mūlapārivāsika eva san* saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> tenānena udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ praty<span class="it">antarāpatter</span> antarāpattipratirūpāyāḥ praticchannāyāḥ saṃghān mūlāpakarṣo (<span class="bold">299v1 = GBM 911</span>) yācitaḥ <span class="it">/</span> dattaḥ saṃghenāsyodāyino bhikṣor asyāḥ saṃghāvaśeṣāyāḥ <span class="it">praty</span>antarāpatter antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣaḥ <span class="it">/</span> so 'yam udāyī bhikṣur asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā<span class="it">ḥ</span> paryuṣitaparivāsa antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaparyuṣitaḥ
+            pratyantarāpatte<span class="it">r</span> antarāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlāpakarṣaparyuṣitaḥ ṣaḍrātraṃ mānāpyaṃ yācate <span class="it">/</span> tat saṃgha udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatte<span class="it">ḥ</span> saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyā<span class="it">ḥ</span> paryuṣitaparivāsasya antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaparyuṣitasya
+            pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣaparyuṣitasya ṣaḍrātraṃ
+            mānāpyam dadāti <span class="it">/</span> yeṣām āyuṣmatāṃ kṣamante udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyāḥ paryuṣitaparivāsasya antarāpatteḥ pūrvāpattipratirūpāyāḥ
+            praticchannāyā mūlaparivāsaparyuṣitasya pratyantarāpatter antarāpatti<span class="it">prati</span>rūpāyāḥ praticchannāyā mūlāpakarṣaparyuṣitasya ṣaḍrātraṃ mānāpyam dātuṃ te tūṣṇīṃ
+            na kṣamate bhāṣantāṃ <span class="it">/</span> iyaṃ prathamā karmavācanā <span class="it">/</span> evaṃ dvitīyā tṛtīyā karmavācanā vaktavyā // dattaḥ saṃghenodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā
+            āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyāḥ paryuṣitaparivāsasya
+            antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaparyuṣitasya pratyantarāpatter
+            antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣaparyuṣitasya ṣaḍrātraṃ mānāpyaṃ
+            <span class="it">/</span> kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam etad dhārayāmi Ś // //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v &amp;#167; 7.5.1</span> so 'pareṇa samayena saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyāḥ
+            paryuṣitaparivāsaḥ antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaparyuṣitaḥ
+            pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣaparyuṣitaḥ ṣaḍrātraṃ
+            cīrṇamānāpyo bhikṣūṇām ārocayaty <span class="it">/</span> aham as<span class="it">m</span>y āyuṣmann udāyī bhikṣuḥ saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitām
+            ardhamāsapraticchannāṃ <span class="it">/</span> tena mayā udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            <span class="it">ardhamāsapraticchannāyāḥ saṃghād</span> ardhamāsaparivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā ardhamāsaparivāsaḥ <span class="it">/</span> so 'haṃ pārivāsika eva san* saṃghāvaśeṣām āpattim āpanno antarāpattiṃ pūrvāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> tena mayā udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatter antarāpatteḥ pūrvāpattipratirūpāyāḥ
+            (<span class="bold">300r1 = GBM 912</span>) praticchannāyāḥ saṃghān mūlaparivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā <span class="it">āpatter</span> antarāpatteḥ pūrvāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlaparivāsaḥ <span class="it">/</span> so 'haṃ mūlapārivāsika eva san* saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpatti<span class="it">m antarāpatti</span>pratirūpāṃ praticchannāṃ <span class="it">/</span> tena mayā udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyāḥ <span class="it">āpatter</span> pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyāḥ saṃghān mūlāpakarṣo yācitaḥ
+            <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyāḥ pratyantarāpatter antarāpattipratirūpāyāḥ
+            praticchannāyā mūlāpakarṣaḥ <span class="it">/</span> tena mayā udāyinā bhikṣuṇā saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāpraticchannāyāḥ paryuṣitaparivāsena antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā
+            mūlaparivāsaparyuṣitena pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣaparyuṣitena
+            saṃghāt ṣaḍrātraṃ mānāpyaṃ yācitaṃ <span class="it">/</span> dattaṃ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyāḥ paryuṣitaparivāsasya antarāpatteḥ pūrvāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlaparivāsaparyuṣitasya pratyantarāpatter antarāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlāpakarṣaparyuṣitasya ṣaḍrātraṃ mānāpyaṃ <span class="it">/</span> so 'ham udāyī bhikṣur asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyāḥ paryuṣitaparivāsaḥ antarāpatteḥ pūrvāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlaparivāsaparyuṣitaḥ pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā
+            mūlāpakarṣaparyuṣitaḥ ṣaḍrātraṃ caritamānāpayaṃ <span class="it">/</span> kiṃ mayā karaṇīyaṃ <span class="it">ity /</span> etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti <span class="it">/</span> bhagavān āha / āvarhata yūyaṃ bhikṣava udāyinaṃ bhikṣum asyāḥ saṃghāvaśeṣāyā āpatteḥ
+            saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyāḥ paryuṣitaparivāsam āntarāpatteḥ
+            pūrvāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlaparivāsaparyuṣitaṃ pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā
+            mūlāpakarṣaparyuṣitaṃ ṣaḍrātraṃ caritamānāpyam iti <span class="it">/</span> yo vā punar anyo 'py evaṃjātīya<span class="it">ḥ /</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v 7.5.2</span> evaṃ ca punar avahitavyaḥ <span class="it">/</span> śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn samanuyujya sarvasaṃghe
+            saṃniṣaṇṇe saṃnipatite udāyinā bhikṣuṇā vṛddhānte utkuṭukena sthitvā añjaliṃ pragṛhya
+            idaṃ syād vacanīya<span class="it">m Ś</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v 7.5.3</span> śṛṇotu bhadantaḥ saṃgha<span class="it">ḥ /</span> aham udāyī bhikṣuḥ saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitām
+            ardhamāsapraticchannāṃ <span class="it">/</span> tena mayā udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā<span class="it">ḥ</span> saṃghād ardhamāsaṃ parivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ (<span class="bold">300v1 = GBM 913</span>) saṃghāvaśeṣāyā āpatteḥ saṃcintyaśu<span class="it">kra</span>visṛṣṭisamutthitāyā ardhamāsapraticchannāyāḥ ardhamāsaṃ parivāsaḥ <span class="it">/</span> so 'haṃ pārivāsika eva san* saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> tena mayā udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ <span class="it">antarāpatteḥ</span> pūrvāpattipratirūpāyāḥ praticchannāyāḥ saṃghān mūlaparivāso yācitaḥ <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā <span class="it">āpatter antar</span>āpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaḥ <span class="it">/</span> so 'haṃ mūlapārivāsika eva san* saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> tena mayā udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyāḥ <span class="it">āpatteḥ</span> pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyāḥ saṃghān mūlāpakarṣo yācitaḥ
+            <span class="it">/</span> dattaḥ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyāḥ pratyantarāpatteḥ <span class="it">antarāpatti</span>pratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlāpakarṣa<span class="it">ḥ /</span> tena mayā udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyāḥ paryuṣitaparivāsena antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā
+            mūlaparivāsaparyuṣitena pratyantarāpatter antarāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlāpakarṣaparyuṣitena ṣaḍrātraṃ mānāpyaṃ yācitaṃ <span class="it">/</span> dattaṃ saṃghena mamodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā<span class="it">ḥ</span> paryuṣitaparivāsasya antarāpatteḥ pūrvāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlaparivāsaparyuṣitasya pratyantarāpatter antarāpattipratirūpāyāḥ
+            praticchannāyā mūlāpakarṣaparyuṣitasya ṣaḍrātramānāpyaṃ <span class="it">/</span> so 'ham udāyī bhikṣur asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyāḥ paryuṣitaparivāsaḥ antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā
+            mūlaparivāsaparyuṣita<span class="it">ḥ</span> pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣaparyuṣitaḥ ṣaḍrātra<span class="it">ṃ</span> cīrṇamānāpya<span class="it">ṃ</span> saṃghād āvarhaṇaṃ yāce / āvarhatu māṃ bhadantāḥ saṃghaḥ udāyinaṃ bhikṣum asyāḥ saṃghāvaśeṣāyā
+            āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyā<span class="it">ḥ</span> paryuṣitaparivāsam āntarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaparyuṣitaṃ
+            <span class="it">pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣaparyuṣitaṃ</span> ṣaḍrātraṃ cīrṇamānāpyam anukaṃpakaḥ anukaṃpām upādāyeti Ś evaṃ dvir api trir api
+            /</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v 7.5.4</span> tataḥ paścād ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ <span class="it">/</span> śṛṇotu bhadantāḥ saṃgha<span class="it">ḥ /</span> ayam udāyī bhikṣuḥ saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitām
+            ardhamāsapraticchannāṃ <span class="it">/</span> tenānena udāyinā bhikṣuṇā (<span class="bold">301r1 = GBM 914</span>) asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyā<span class="it">ḥ</span> saṃghād ardhamāsaparivāso yācitaḥ <span class="it">/</span> datto 'sya saṃghenodāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā ardhamāsaṃ parivāsaḥ <span class="it">/</span> so 'yaṃ pārivāsika eva san* saṃghāvaśeṣām āpattim āpannaḥ antarāpatti<span class="it">ṃ</span> pūrvāpattipratirūpāṃ praticchannāṃ <span class="it">/</span> tenānena udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā <span class="it">āpatter</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāso yācitaḥ <span class="it">/</span> datto 'sya saṃghena udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā <span class="it">āpatter</span> antarāpatteḥ pūrvāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlaparivāsaḥ <span class="it">/</span> so 'yaṃ mūlapārivāsika eva san* saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> tenānena udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyāḥ pratyantarāpatter antarāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā<span class="it">ḥ</span> saṃghān mūlāpakarṣo yācitaḥ <span class="it">/</span> datto 'sya saṃghena udāyino bhikṣor asyāḥ saṃghāvaśeṣāyāḥ pratyantarāpatter antarāpattipratirūpāyāḥ
+            praticchannāyā mūlāpakarṣaḥ <span class="it">/</span> tenānena udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā<span class="it">ḥ</span> paryuṣitaparivāsenāntarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaparyuṣitena
+            pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣaparyuṣitena saṃghāt*
+            ṣaḍrātramānāpyaṃ yācitaṃ <span class="it">/</span> dattam asya saṃghena udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā<span class="it">ḥ</span> paryuṣitaparivāsasyāntarāpatteḥ pūrvāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlaparivāsaparyuṣitasya pratyantarāpatter antarāpattipratirūpāyāḥ
+            <span class="it">praticchannāyā</span> mūlāpakarṣaparyuṣitasya ṣaḍrātraṃ cīrṇamānāpyaṃ <span class="it">/</span> so 'yam udāyī bhikṣur asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyāḥ paryuṣitaparivāsaḥ antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā
+            mūlaparivāsaparyuṣitaḥ pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣaparyuṣitaḥ
+            ṣaḍrātraṃ caritamānāpyaṃ saṃghād āvarhaṇaṃ yācate <span class="it">/</span> sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃghaḥ udāyinaṃ bhikṣum
+            asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyāḥ
+            paryuṣitaparivāsam antarāpatteḥ pūrvāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlaparivāsaparyuṣitaṃ pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā
+            mūlāpakarṣaparyuṣitaṃ ṣaḍrātraṃ caritamānāpyam āvarhed iti / eṣā jñaptiḥ //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v 7.5.5</span> tataḥ paścād avasādayitavyaḥ <span class="it">/</span> na (<span class="bold">301v1 = GBM 915</span>) sādhūdāyi<span class="it">n</span> kṛtaṃ na suṣṭhu kṛtaṃ <span class="it">/</span> katham idānīṃ tvaṃ tasya bhagavatas tathāgatasyārhataḥ samyaksaṃbuddhasyaivaṃ rāgavirāgāya
+            cetovimuktaprajñāvimukte dharme deśyamāne dveṣavirāgāya mohavirāgāya cetovimuktaprajñāvimukte
+            dharme deśyamāne idam evaṃrūpam aprāsādikaṃ kṛtam akārṣī<span class="it">ḥ /</span> varaṃ khalu te mohapuruṣa āśīviṣo ghoraviṣaḥ kṛṣṇasarpas tīkṣṇaviṣaḥ ubhābhyāṃ pāṇibhyāṃ
+            pratigṛhīto 'bhaviṣyat* na tv evam idam evaṃrūpam aprāsādikaṃ kṛtaṃ <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v 7.5.6</span> dvāv imau dharmolkā<span class="it">ṃ</span> nirvāpayataḥ dharmālokaṃ dharmābhāṃ dharmaprabhā<span class="it">ṃ dharmāvabhā</span>saṃ dharmapradīpaṃ dharmapradyotaṃ <span class="it">/</span> katamau dvau <span class="it">/</span> yaś cāpattim āpadyate yaś cāpattim āpanno yathādharmaṃ na pratikaroti // dvāv aghamūlaṃ
+            na khanataḥ pratisroto <span class="it">na</span> vyāyacchato na saritāṃ latāṃ śoṣayato na māraṃ yodhayato na māradhvajaṃ pātayato
+            na dharmadhvajam ucchrāpayato <span class="it">na pāpīyasaḥ śrotaś chedayato</span> na tathāgatasya dharmyaṃ dharmacakraṃ pravartitam anupravartayataḥ <span class="it">/</span> katamau dvau <span class="it">/</span> yaś cāpattim āpadyate yaś cāpattim āpanno yathādharmaṃ na pratikaroti /</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v 7.5.7</span> anayā tvam udayinn āpattyā adeśitayā apratideśitayā abhavyo 'nityasaṃjñāyā anitye
+            duḥkhasaṃjñāyā duḥkhe anātmasaṃjñāyā āhāre pratikūlasaṃjñāyā<span class="it">ḥ</span> sarvaloke anabhiratisaṃjñāyā ādīnavasaṃjñāyā<span class="it">ḥ</span> prahāṇasaṃjñāyā virāgasaṃjñāyā nirodhasaṃjñāyā maraṇasaṃjñāyā <span class="it">aśubhasaṃjñāyā</span> vinīlakasaṃjñāyā vipūyakasaṃjñāyā vyādhmātakasaṃjñāyā vipaḍumakasaṃjñāyā vikhāditakasaṃjñāyā
+            vilohitakasaṃjñāyā asthisaṃjñāyā vikṣiptakasaṃjñāyā<span class="it">ḥ</span> śūnyatāpratyavekṣaṇasaṃjñāyāḥ <span class="it">/</span> abhavya<span class="it">ḥ</span> prathamasya dhyānasya dvitīyasya tṛtīyasya dhyānasya caturthasya maitryāḥ karuṇāyā
+            muditāyā upekṣāyā ākāśānantyāyatanasya vijñānānantyāyatanasya ākiṃcanyāyatanasya naivasaṃjñānāsaṃjñāyatanasya
+            srotaāpattiphalasya sakṛdāgāmiphalasya anāgāmiphalasya ṛddhiviṣayasya divyasya śrotrasya
+            cetaḥparyāyasya pūrvanivāsasya cyutyupapādasyāsravakṣayasya /</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v 7.5.8</span> anayā te udāyinn āpattyā adeśitayā apratideśitayā dvayor gatyor anyatarānyatarā gatiḥ
+            pratikā<span class="it">ṃ</span>kṣitavyā narakā vā tiryaṃco vā // uktaṃ bhagavatā dve praticchannakarmāntasya gatī
+            narakā vā tiryaṃco vā <span class="it">/</span> ye me bhāṣitaṃ na śraddhāsyanti te praticchā<span class="it">dayi</span>tavyaṃ maṃsyante Ś</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v 7.5.9</span> śṛṇotu bhadantāḥ saṃghaḥ <span class="it">/</span> ayam udāyī bhikṣuḥ saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitā<span class="it">m</span> ardhamāsapraticchannāṃ <span class="it">/</span> tenānena udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā<span class="it">ḥ</span> saṃghād ardhamāsaṃ parivāso yācitaḥ <span class="it">/</span> datto 'sya saṃghena udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā ardhamāsaṃ parivāsa<span class="it">ḥ /</span> so 'yaṃ pārivāsika eva san* saṃghāvaśeṣām āpattim āpanno 'ntarāpattiṃ pūrvāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> tenānena udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā <span class="it">āpatteḥ</span> antarāpatteḥ (<span class="bold">302r1 = GBM 916</span>) pūrvāpattipratirūpāyāḥ praticchannāyā<span class="it">ḥ saṃghān</span> mūlaparivāso yācitaḥ <span class="it">/</span> datto 'sya saṃghena udāy<span class="it">i</span>no bhikṣor asyāḥ saṃghāvaśeṣāyā <span class="it">āpatteḥ</span> antarāpatteḥ pūrvāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlaparivāsaḥ <span class="it">/</span> so 'yaṃ mūlapārivāsika eva san* saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ
+            praticchannāṃ <span class="it">/</span> tenānena udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā <span class="it">āpatteḥ</span> pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyāḥ saṃghān mūlāpakarṣo yācitaḥ
+            <span class="it">/</span> datto 'sya saṃghena udāyino bhikṣor asyāḥ saṃghāvaśeṣāyāḥ pratyantarāpatter antarāpattipratirūpāyāḥ
+            praticchannāyā mūlāpakarṣa<span class="it">ḥ /</span> tenānena udāyinā bhikṣuṇā asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyāḥ paryuṣitaparivāsenāntarāpatteḥ pūrvāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlaparivāsaparyuṣitena pratyantarāpatteḥ antarāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlāpakarṣaparyuṣitena saṃghāt ṣaḍrātraṃ mānāpyaṃ yācitaṃ <span class="it">/</span> dattam asya saṃghena udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyāḥ paryuṣitaparivāsasyāntarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā
+            mūlaparivāsaparyuṣitasya pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā
+            mūlāpakarṣaparyuṣitasya ṣaḍrātraṃ mānāpyaṃ <span class="it">/</span> so 'yam udāyī bhikṣur asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannā<span class="it">yā</span>ḥ paryuṣitaparivāsaḥ antarāpatteḥ pūrvāpattipratirūpāyā<span class="it">ḥ</span> praticchannāyā mūlaparivāsaparyuṣita<span class="it">ḥ</span> pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣaparyuṣitaḥ ṣaḍrātraṃ
+            caritamānāpya<span class="it">ṃ</span> saṃghād āvarhaṇaṃ yācate <span class="it">/</span> tat saṃgha udāyinaṃ bhikṣum asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyā<span class="it">ḥ</span> paryuṣitaparivāsa<span class="it">m</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaparyuṣitaṃ pratyantarāpatter
+            antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣaparyuṣitaṃ ṣaḍrātraṃ caritamānāpyam
+            āvarhati <span class="it">/</span> yeṣām āyuṣmatāṃ kṣamate udāyinaṃ bhikṣum asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            ardhamāsapraticchannāyāḥ paryuṣitaparivāsam antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā
+            <span class="it">mūlaparivāsaparyuṣitaṃ pratyantarāpatter antarāpattipratirūpāyāḥ praticchannāyā</span> mūlāpakarṣaparyuṣitaṃ ṣaḍrātraṃ caritamānāpyam āvarhituṃ te tūṣṇīṃ na kṣamate bhāṣa<span class="it">n</span>tāṃ <span class="it">/</span> iyaṃ prathamā karmavācanā <span class="it">/ evaṃ</span> dvitīyā tṛtīyā karmavācanā kartavyā Ś āvarhita<span class="it">ḥ</span> saṃghena udāyī bhikṣur asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā
+            (<span class="bold">302v1 = GBM 917</span>) ardhamāsapraticchannāyā<span class="it">ḥ</span> paryuṣitaparivāsa<span class="it">ḥ</span> antarāpatteḥ pūrvāpattipratirūpāyāḥ praticchannāyā mūlaparivāsaparyuṣitaḥ pratyantarāpatter
+            antarāpattipratirūpāyāḥ praticchannāyā mūlāpakarṣaparyuṣitaḥ ṣaḍrātraṃ caritamānāpyaṃ
+            <span class="it">/</span> kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam etad dhārayāmi //</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v 7.5.10</span> tataḥ paścād utsāhayitavyaḥ <span class="it">/</span> sādhu udāyi<span class="it">n</span> kṛtaṃ suṣṭhu kṛtaṃ <span class="it">/</span> dvau paṇḍitau dvau vyaktau dvau satpuruṣau <span class="it">/</span> yaś cāpattiṃ nāpadyate yaś cāpattim āpanno yathādharmaṃ pratikaroti <span class="it">/</span> dvau dharmolkāṃ prajvālayato dharmālokaṃ dharmābhāṃ dharmaprabhāṃ dharmāvabhāsaṃ
+            dharmapradīpaṃ dharmapradyotaṃ <span class="it">/</span> katamau dvau <span class="it">/</span> yaś cāpattiṃ nāpadyate yaś cāpattim āpanno yathādharmaṃ pratikaroti // dvāv aghamūlaṃ
+            khanataḥ pratisroto vyāyacchataḥ saritāṃ latāṃ śoṣayato māraṃ yodhayato māradhvajaṃ
+            pātayato dharmadhvajam ucchrāpayataḥ pāpīyasaḥ srotaḥ <span class="it">chedayatas</span> tathāgatasya dharmyaṃ dharmacakraṃ pravartitam anupravartayataḥ <span class="it">/</span> katamau <span class="it">dvau /</span> yaś cāpattiṃ nāpadyate yaś cāpattim āpanno yathādharmaṃ pratikaroti <span class="it">/</span></p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v 7.5.11</span> anayā tvam udayinn āpattyā deśitayā pratideśatayā bhavyo 'nityasaṃjñāyā anitye duḥkhasaṃjñāyā
+            duḥkhe anātmasaṃjñāyā āhāre pratikūlasaṃjñāyā<span class="it">ḥ</span> sarvaloke anabhiratisaṃjñāyā ādīnavasaṃjñāyāḥ prahāṇasaṃjñāyā virāgasaṃjñāyā nirodhasaṃjñāyā
+            maraṇasaṃjñāyā aśubhasaṃjñāyā vinīlakasaṃjñāyā vipūyakasaṃjñāyā vipaḍumakasaṃjñāyā
+            vyādhmātakasaṃjñāyā vikhāditakasaṃjñāyā vilohitakasaṃjñāyā vikṣiptakasaṃjñāyā asthisaṃjñāyāḥ
+            śūnyatāpratyavekṣaṇasaṃjñāyā<span class="it">ḥ</span> Ś bhavya<span class="it">ḥ</span> prathamasya dhyānasya dvitīyasya tṛtīyasya <span class="it">dhyānasya</span> caturthasya maitryā<span class="it">ḥ</span> karuṇāyā muditāyā upekṣāyā ākāśānantyāyatanasya vijñānānantyāyatanasya ākiñcanyāyatanasya
+            naivasaṃjñānāsaṃjñāyatanasya srotaāpattiphalasya sakṛdāgāmiphalasya anāgāmiphalasya
+            riddhiviṣayasya divyasya śrotrasya cetaḥparyāyasya pūrvanivāsa<span class="it">sya</span> cyutyupapādasyāsravakṣayasya /</p>
+         
+         
+         <p><span class="bold">Pāṇḍ-v 7.5.12</span> anayā te udāyinn āpattyā deśitayā pratideśitayā dvayor gatyor anyatarānyatarā gatiḥ
+            pratikāṃkṣitavyā devā vā mauṣyā vā // uktaṃ bhagavatā dve apraticchannakarmāntasya
+            gatī devā <span class="it">vā</span> manuṣyā vā <span class="it">/</span> ye me bhāṣitaṃ abhiśraddhāsyanti na te pra<span class="it">ti</span>cchādayitavyaṃ manyanta iti <span class="it">/</span> punaś coktaṃ <span class="it">/</span></p>
+         
+         
+         <p>channam evābhivarṣati vivṛtaṃ nābhivarṣati Ś
+            tasmāc channaṃ vivṛṇuyād evaṃ taṃ nābhivarṣati //</p>
+         
+         
+         <p>āvarhitas tvam udāyi saṃghena <span class="it">/</span> apramādena saṃpādaya //</p>
+         
+         
+         <p>// pāṇḍulohitakavastu samāptaḥ //</p>
+         
+         </div>
+   </body>
+</html>

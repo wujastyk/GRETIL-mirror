@@ -1,0 +1,2348 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Pāśupatasūtra (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Pāśupatasūtra</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_pAzupatasUtra.xml">sa_pAzupatasUtra.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Reinhold Grünendahl</p>
+      <p class="noindent"><b>Contribution: </b>Reinhold Grünendahl</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Krishnanda Sagar, Varanasi 1987.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="analysis">analysis</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/saiva/pasupsau.htm">pasupsau.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Pasupatasutra
+            <br />text based on the edition by Krishnanda Sagar, Varanasi 1987
+            <br />(needs proof-reading!)
+            <br />
+            <br />Input by Reinhold Gruenendahl
+            <br />
+            <br />Analytic text version
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         <div id="d1e572">
+            
+            <h3>atha prathamo 'dhyāyaḥ</h3>
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.1">athātaḥ paśupateḥ pāśupataṃ yogavidhiṃ vyākhyāsyāmaḥ // <span class="ref">(PS_1.1)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     athātaḥ paśupateḥ pāśupataṃ yoga-vidhiṃ vyākhyāsyāmaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.2">bhasmanā triṣavaṇaṃ snāyīta // <span class="ref">(PS_1.2)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     bhasmanā triṣavaṇaṃ snāyīta //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.3">bhasmani śayīta // <span class="ref">(PS_1.3)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     bhasmani śayīta //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.4">anusnānaṃ // <span class="ref">(PS_1.4)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     anusnānaṃ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.5">nirmālyaṃ // <span class="ref">(PS_1.5)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     nirmālyaṃ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.6">liṅgadhārī // <span class="ref">(PS_1.6)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     liṅga-dhārī //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.7">āyatanavāsī // <span class="ref">(PS_1.7)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     āyatana-vāsī //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.8">hasitagītanṛttaduṃduṃkāranamaskārajapyopahāreṇopatiṣṭhet // <span class="ref">(PS_1.8)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     hasita-gīta-nṛtta-duṃduṃ-kāra-namaskāra-japya-upahāreṇa upatiṣṭhet //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.9">mahādevasya dakṣiṇāmūrteḥ // <span class="ref">(PS_1.9)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     mahā-devasya dakṣiṇā-mūrteḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.10">ekavāsāḥ // <span class="ref">(PS_1.10)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     eka-vāsāḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.11">avāsā vā // <span class="ref">(PS_1.11)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     avāsā vā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.12">mūtrapurīṣaṃ nāvekṣet // <span class="ref">(PS_1.12)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     mūtra-purīṣaṃ na avekṣet //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.13">strīśūdraṃ nābhibhāṣet // <span class="ref">(PS_1.13)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     strī-śūdraṃ na abhibhāṣet //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.14">yady avekṣed yady abhibhāṣet // <span class="ref">(PS_1.14)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     yady avekṣed yady abhibhāṣet //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.15">upaspṛśya // <span class="ref">(PS_1.15)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     upaspṛśya //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.16">prāṇāyāmaṃ kṛtvā // <span class="ref">(PS_1.16)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     prāṇa-āyāmaṃ kṛtvā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.17">raudrīṃ gāyatrīṃ bahurūpīṃ vā japet // <span class="ref">(PS_1.17)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     raudrīṃ gāyatrīṃ bahu-rūpīṃ vā japet //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.18">akaluṣamateḥ // <span class="ref">(PS_1.18)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     akaluṣa-mateḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.19">carataḥ // <span class="ref">(PS_1.19)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     carataḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.20">tato 'sya yogaḥ pravartate // <span class="ref">(PS_1.20)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     tato 'sya yogaḥ pravartate //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.21">dūradarśanaśravaṇamananavijñānāni cāsya pravartante // <span class="ref">(PS_1.21)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     dūra-darśana-śravaṇa-manana-vijñānāni ca asya pravartante //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.22">sarvajñātā // <span class="ref">(PS_1.22)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sarva-jñātā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.23">manojavitvam // <span class="ref">(PS_1.23)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     mano-javitvam //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.24">kāmarūpitvam // <span class="ref">(PS_1.24)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     kāma-rūpitvam //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.25">vikaraṇaḥ // <span class="ref">(PS_1.25)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     vikaraṇaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.26">dharmitvaṃ ca // <span class="ref">(PS_1.26)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     dharmitvaṃ ca //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.27">sarve cāsya vaśyā bhavanti // <span class="ref">(PS_1.27)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sarve ca asya vaśyā bhavanti //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.28">sarveṣāṃ cāvaśyo bhavati // <span class="ref">(PS_1.28)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sarveṣāṃ ca avaśyo bhavati //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.29">sarvāṃś cāviśati // <span class="ref">(PS_1.29)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sarvāṃś cā aviśati //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.30">sarveṣāṃ cānāveśyo bhavati // <span class="ref">(PS_1.30)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sarveṣāṃ ca anāveśyo bhavati //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.31">sarve cāsya vadhyā bhavanti // <span class="ref">(PS_1.31)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sarve ca asya vadhyā bhavanti //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.32">sarveṣāṃ cāvadhyo bhavati // <span class="ref">(PS_1.32)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sarveṣāṃ ca avadhyo bhavati //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.33">abhītaḥ // <span class="ref">(PS_1.33)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     abhītaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.34">akṣayaḥ // <span class="ref">(PS_1.34)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     akṣayaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.35">ajaraḥ // <span class="ref">(PS_1.35)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     ajaraḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.36">amaraḥ // <span class="ref">(PS_1.36)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     amaraḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.37">sarvatra cāpratihatagatir bhavati // <span class="ref">(PS_1.37)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sarvatra ca apratihata-gatir bhavati //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.38">ity etair guṇayukto [guṇair yukto] bhagavato mahādevasya mahāgaṇapatir bhavati // <span class="ref">(PS_1.38)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     ity etair guṇa-yukto [guṇair yukto] bhagavato mahā-devasya mahā-gaṇa-patir bhavati
+                     //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.39">atredaṃ brahma japet // <span class="ref">(PS_1.39)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     atra idaṃ brahma japet //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.40">sadyojātaṃ prapadyāmi // <span class="ref">(PS_1.40)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sadyo-jātaṃ prapadyāmi //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.41">sadyojātāya vai namaḥ // <span class="ref">(PS_1.41)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sadyo-jātāya vai namaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.42">bhave bhave nātibhave // <span class="ref">(PS_1.42)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     bhave bhave na atibhave //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.43">bhajasva mām // <span class="ref">(PS_1.43)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     bhajasva mām //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_1.44">bhavodbhavaḥ // <span class="ref">(PS_1.44)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     bhavodbhavaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            </div>
+         
+         <div id="d1e943">
+            
+            <h3>atha dvitīyo 'dhyāyaḥ</h3>
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.1">vāmaḥ // <span class="ref">(PS_2.1)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     vāmaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.2">devasya // <span class="ref">(PS_2.2)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     devasya //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.3">jyeṣṭhasya // <span class="ref">(PS_2.3)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     jyeṣṭhasya //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.4">rudrasya // <span class="ref">(PS_2.4)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     rudrasya //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.5">kalitāsanam // <span class="ref">(PS_2.5)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     kalita-āsanam //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.6">sārvakāmika ity ācakṣate // <span class="ref">(PS_2.6)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sārva-kāmika ity ācakṣate //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.7">amaṅgalaṃ cātra maṅgalaṃ bhavati // <span class="ref">(PS_2.7)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     amaṅgalaṃ ca atra maṅgalaṃ bhavati //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.8">apasavyaṃ ca pradakṣiṇam // <span class="ref">(PS_2.8)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     apasavyaṃ ca pradakṣiṇam //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.9">tasmād ubhayathā yaṣṭavyaḥ // <span class="ref">(PS_2.9)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     tasmād ubhayathā yaṣṭavyaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.10">devavat pitṛvac ca // <span class="ref">(PS_2.10)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     devavat pitṛvac ca //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.11">ubhayaṃ tu rudre devāḥ pitaraś ca // <span class="ref">(PS_2.11)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     ubhayaṃ tu rudre devāḥ pitaraś ca //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.12">harṣāpramādī // <span class="ref">(PS_2.12)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     harṣa-apramādī //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.13">caryāyāṃ caryāyām // <span class="ref">(PS_2.13)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     caryāyāṃ caryāyām //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.14">māhātmyam avāpnoti // <span class="ref">(PS_2.14)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     māhātmyam avāpnoti //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.15">atidattam atīṣṭam // <span class="ref">(PS_2.15)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     atidattam atīṣṭam //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.16">atitaptaṃ tapas tathā // <span class="ref">(PS_2.16)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     atitaptaṃ tapas tathā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.17">atyāgatiṃ gamayate // <span class="ref">(PS_2.17)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     atyāgatiṃ gamayate //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.18">tasmāt // <span class="ref">(PS_2.18)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     tasmāt //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.19">bhūyas tapaś caret // <span class="ref">(PS_2.19)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     bhūyas tapaś caret //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.20">nānyabhaktis tu śaṃkare // <span class="ref">(PS_2.20)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     na anya-bhaktis tu śaṃkare //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.21">atredaṃ brahma japet // <span class="ref">(PS_2.21)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     atra idaṃ brahma japet //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.22">vāmadevāya namo jyeṣṭhāya namo rudrāya namaḥ // <span class="ref">(PS_2.22)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     vāma-devāya namo jyeṣṭhāya namo rudrāya namaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.23">kālāya namaḥ // <span class="ref">(PS_2.23)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     kālāya namaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.24">kalavikaraṇāya namaḥ // <span class="ref">(PS_2.24)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     kala-vikaraṇāya namaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.25">balaprathamanāya namaḥ // <span class="ref">(PS_2.25)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     bala-prathamanāya namaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.26">sarvabhūtadamanāya namaḥ // <span class="ref">(PS_2.26)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sarva-bhūta-damanāya namaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_2.27">mano'manāya namaḥ // <span class="ref">(PS_2.27)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     mano-'manāya namaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            </div>
+         
+         <div id="d1e1173">
+            
+            <h3>atha tṛtīyo 'dhyāyaḥ</h3>
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.1">avyaktaliṅgī // <span class="ref">(PS_3.1)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     avyakta-liṅgī //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.2">vyaktācāraḥ // <span class="ref">(PS_3.2)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     vyakta-ācāraḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.3">avamataḥ // <span class="ref">(PS_3.3)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     avamataḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.4">sarvabhūteṣu // <span class="ref">(PS_3.4)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sarva-bhūteṣu //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.5">paribhūyamānaś caret // <span class="ref">(PS_3.5)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     paribhūyamānaś caret //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.6">apahatapāpmā // <span class="ref">(PS_3.6)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     apahata-pāpmā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.7">pareṣāṃ parivādāt // <span class="ref">(PS_3.7)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     pareṣāṃ parivādāt //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.8">pāpaṃ ca tebhyo dadāti // <span class="ref">(PS_3.8)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     pāpaṃ ca tebhyo dadāti //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.9">sukṛtaṃ ca teṣām ādatte // <span class="ref">(PS_3.9)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sukṛtaṃ ca teṣām ādatte //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.10">tasmāt // <span class="ref">(PS_3.10)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     tasmāt //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.11">pretavac caret // <span class="ref">(PS_3.11)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     pretavac caret //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.12">krātheta vā // <span class="ref">(PS_3.12)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     krātheta vā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.13">spandeta vā // <span class="ref">(PS_3.13)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     spandeta vā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.14">maṇṭeta vā // <span class="ref">(PS_3.14)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     maṇṭeta vā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.15">śṛṅgāreta vā // <span class="ref">(PS_3.15)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     śṛṅgāreta vā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.16">api tat kuryāt // <span class="ref">(PS_3.16)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     api tat kuryāt //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.17">api tad bhāṣet // <span class="ref">(PS_3.17)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     api tad bhāṣet //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.18">yena paribhavaṃ gacchet // <span class="ref">(PS_3.18)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     yena paribhavaṃ gacchet //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.19">paribhūyamāno hi vidvān kṛtsnatapā bhavati // <span class="ref">(PS_3.19)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     paribhūyamāno hi vidvān kṛtsna-tapā bhavati //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.20">atredaṃ brahma japet // <span class="ref">(PS_3.20)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     atra idaṃ brahma japet //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.21">aghorebhyaḥ // <span class="ref">(PS_3.21)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     aghorebhyaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.22">atha ghorebhyaḥ // <span class="ref">(PS_3.22)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     atha ghorebhyaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.23">ghoraghoratarebhyaś ca // <span class="ref">(PS_3.23)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     ghora-ghoratarebhyaś ca //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.24">sarvebhyaḥ // <span class="ref">(PS_3.24)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sarvebhyaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.25">śarvasarvebhyaḥ // <span class="ref">(PS_3.25)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     śarva-sarvebhyaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_3.26">namas te astu rudrarūpebhyaḥ // <span class="ref">(PS_3.26)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     namas te astu rudra-rūpebhyaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            </div>
+         
+         <div id="d1e1394">
+            
+            <h3>atha caturtho 'dhyāyaḥ</h3>
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.1">gūḍhavidyā tapa ānantyāya prakāśate // <span class="ref">(PS_4.1)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     gūḍha-vidyā tapa ānantyāya prakāśate //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.2">gūḍhavrataḥ // <span class="ref">(PS_4.2)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     gūḍha-vrataḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.3">gūḍhapavitravāṇiḥ // <span class="ref">(PS_4.3)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     gūḍha-pavitra-vāṇiḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.4">sarvāṇi dvārāṇi pidhāya // <span class="ref">(PS_4.4)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sarvāṇi dvārāṇi pidhāya //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.5">buddhyā // <span class="ref">(PS_4.5)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     buddhyā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.6">unmatavad eko vicareta loke // <span class="ref">(PS_4.6)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     unmatavad eko vicareta loke //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.7">kṛtānnam utsṛṣṭam upādadīta // <span class="ref">(PS_4.7)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     kṛta-annam utsṛṣṭam upādadīta //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.8">unmatto mūḍha ity evaṃ manyante itare janāḥ // <span class="ref">(PS_4.8)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     unmatto mūḍha ity evaṃ manyante itare janāḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.9">asanmāno hi yantrāṇāṃ sarveṣām uttamaḥ smṛtaḥ // <span class="ref">(PS_4.9)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     asan-māno hi yantrāṇāṃ sarveṣām uttamaḥ smṛtaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.10">indro vā agre asureṣu pāśupatam acarat // <span class="ref">(PS_4.10)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     indro vā agre asureṣu pāśupatam acarat //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.11">sa teṣām iṣṭāpūrtam ādatta // <span class="ref">(PS_4.11)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sa teṣām iṣṭa-āpūrtam ādatta //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.12">māyayā sukṛtayā samavindata // <span class="ref">(PS_4.12)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     māyayā sukṛtayā samavindata //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.13">nindā hy eṣānindā tasmāt // <span class="ref">(PS_4.13)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     nindā hy eṣa ānindā tasmāt //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.14">nindyamānaś caret // <span class="ref">(PS_4.14)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     nindyamānaś caret //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.15">aninditakarmā // <span class="ref">(PS_4.15)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     anindita-karmā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.16">sarvaviśiṣṭo 'yaṃ panthāḥ // <span class="ref">(PS_4.16)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sarva-viśiṣṭo 'yaṃ panthāḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.17">satpathaḥ // <span class="ref">(PS_4.17)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sat-pathaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.18">kupathās tv anye // <span class="ref">(PS_4.18)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     kupathās tv anye //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.19">anena vidhinā rudrasamīpaṃ gatvā // <span class="ref">(PS_4.19)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     anena vidhinā rudra-samīpaṃ gatvā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.20">na kaścid brāhmaṇaḥ punar āvartate // <span class="ref">(PS_4.20)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     na kaścid brāhmaṇaḥ punar āvartate //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.21">atredaṃ brahma japet // <span class="ref">(PS_4.21)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     atra idaṃ brahma japet //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.22">tatpuruṣāya vidmahe // <span class="ref">(PS_4.22)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     tat-puruṣāya vidmahe //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.23">mahādevāya dhīmahi // <span class="ref">(PS_4.23)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     mahā-devāya dhīmahi //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_4.24">tan no rudraḥ pracodayāt // <span class="ref">(PS_4.24)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     tan no rudraḥ pracodayāt //
+                     </p>
+               </div>
+            </div>
+            
+            
+            </div>
+         
+         <div id="d1e1599">
+            
+            <h3>atha pañcamo 'dhyāyaḥ</h3>
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.1">asaṅgaḥ // <span class="ref">(PS_5.1)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     asaṅgaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.2">yogī // <span class="ref">(PS_5.2)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     yogī //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.3">nityātmā // <span class="ref">(PS_5.3)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     nitya-ātmā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.4">ajaḥ // <span class="ref">(PS_5.4)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     ajaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.5">maitraḥ // <span class="ref">(PS_5.5)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     maitraḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.6">abhijāyate // <span class="ref">(PS_5.6)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     abhijāyate //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.7">indriyāṇām abhijayāt // <span class="ref">(PS_5.7)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     indriyāṇām abhijayāt //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.8">rudraḥ provāca tāvat // <span class="ref">(PS_5.8)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     rudraḥ provāca tāvat //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.9">śūnyāgāraguhāvāsī // <span class="ref">(PS_5.9)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     śūnya-āgāra-guhā-vāsī //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.10">devanityaḥ // <span class="ref">(PS_5.10)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     deva-nityaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.11">jitendriyaḥ // <span class="ref">(PS_5.11)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     jita-indriyaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.12">ṣaṇmāsān nityayuktasya // <span class="ref">(PS_5.12)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     ṣaṇ-māsān nitya-yuktasya //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.13">bhūyiṣṭhaṃ saṃpravartate // <span class="ref">(PS_5.13)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     bhūyiṣṭhaṃ saṃpravartate //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.14">bhaikṣyam // <span class="ref">(PS_5.14)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     bhaikṣyam //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.15">pātrāgatam // <span class="ref">(PS_5.15)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     pātra-āgatam //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.16">māṃsam aduṣyaṃ lavaṇena vā // <span class="ref">(PS_5.16)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     māṃsam aduṣyaṃ lavaṇena vā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.17">āpo vāpi yathākālam aśnīyād anupūrvaśaḥ // <span class="ref">(PS_5.17)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     āpo va āpi yathā-kālam aśnīyād anupūrvaśaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.18">godharmā mṛgadharmā vā // <span class="ref">(PS_5.18)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     go-dharmā mṛga-dharmā vā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.19">adbhir eva śucir bhavet // <span class="ref">(PS_5.19)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     adbhir eva śucir bhavet //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.20">siddhayogī na lipyate karmaṇā pātakena vā // <span class="ref">(PS_5.20)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     siddha-yogī na lipyate karmaṇā pātakena vā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.21">ṛcam iṣṭām adhīyīta gāyatrīm ātmayantritaḥ // <span class="ref">(PS_5.21)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     ṛcam iṣṭām adhīyīta gāyatrīm ātma-yantritaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.22">raudrīṃ vā bahurūpīṃ vā // <span class="ref">(PS_5.22)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     raudrīṃ vā bahu-rūpīṃ vā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.23">ato yoga pravartate // <span class="ref">(PS_5.23)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     ato yoga pravartate //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.24">oṃkāram abhidhyāyīta // <span class="ref">(PS_5.24)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     oṃ-kāram abhidhyāyīta //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.25">hṛdi kurvīta dhāraṇām // <span class="ref">(PS_5.25)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     hṛdi kurvīta dhāraṇām //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.26">ṛṣir vipro mahān eṣaḥ // <span class="ref">(PS_5.26)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     ṛṣir vipro mahān eṣaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.27">vāgviśuddhaḥ // <span class="ref">(PS_5.27)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     vāg-viśuddhaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.28">maheśvaraḥ // <span class="ref">(PS_5.28)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     maheśvaraḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.30">śmaśānavāsī // <span class="ref">(PS_5.30)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     śmaśāna-vāsī //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.31">dharmātmā // <span class="ref">(PS_5.31)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     dharma-ātmā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.32">yathālabdhopajīvakaḥ // <span class="ref">(PS_5.32)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     yathā-labdha-upajīvakaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.33">labhate rudrasāyujyam // <span class="ref">(PS_5.33)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     labhate rudra-sāyujyam //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.34">sadā rudram anusmaret // <span class="ref">(PS_5.34)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sadā rudram anusmaret //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.35">chittvā doṣāṇāṃ hetujālasya mūlam // <span class="ref">(PS_5.35)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     chittvā doṣāṇāṃ hetu-jālasya mūlam //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.36">buddhyā // <span class="ref">(PS_5.36)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     buddhyā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.37">saṃcittam // <span class="ref">(PS_5.37)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     saṃcittam //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.38">sthāpayitvā ca rudre // <span class="ref">(PS_5.38)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sthāpayitvā ca rudre //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.39">ekaḥ kṣemī san vītaśokaḥ // <span class="ref">(PS_5.39)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     ekaḥ kṣemī san vīta-śokaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.40">apramādī gacched duḥkhānām antam īśaprasādāt // <span class="ref">(PS_5.40)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     apramādī gacched duḥkhānām antam īśa-prasādāt //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.41">atredaṃ brahma japet // <span class="ref">(PS_5.41)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     atra idaṃ brahma japet //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.42">īśānaḥ sarvavidyānām // <span class="ref">(PS_5.42)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     īśānaḥ sarva-vidyānām //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.43">īśvaraḥ sarvabhūtānām // <span class="ref">(PS_5.43)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     īśvaraḥ sarva-bhūtānām //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.44">brahmaṇo 'dhipatir brahmā // <span class="ref">(PS_5.44)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     brahmaṇo 'dhipatir brahmā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.45">śivo me astu // <span class="ref">(PS_5.45)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     śivo me astu //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.46">sadā // <span class="ref">(PS_5.46)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     sadā //
+                     </p>
+               </div>
+            </div>
+            
+            
+            
+            <div class="row">
+               <div class="column">
+                  <p id="PS_5.47">śivaḥ // <span class="ref">(PS_5.47)</span></p>
+               </div>
+               <div class="column">
+                  <p class="analysis">
+                     śivaḥ //
+                     </p>
+               </div>
+            </div>
+            
+            </div>
+         </div>
+   </body>
+</html>

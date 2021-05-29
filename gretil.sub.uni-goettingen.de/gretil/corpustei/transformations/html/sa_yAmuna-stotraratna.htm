@@ -1,0 +1,1409 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Yāmuna: Stotraratna (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Yāmuna: Stotraratna</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_yAmuna-stotraratna.xml">sa_yAmuna-stotraratna.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Sadanori Ishitobi</p>
+      <p class="noindent"><b>Contribution: </b>Sadanori Ishitobi</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="analysis">analysis</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/vaisn/yamsr_au.htm">yamsr_au.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Yamuna: Stotraratna
+            <br />
+            <br />Input by Sadanori ISHITOBI
+            <br />
+            <br />ANALYTIC TEXT VERSION (BHELA conventions)
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_1">
+                  namo 'cintyādbhutākliṣṭajñānavairāgyarāśaye |<br />
+                  nāthāya munaye 'gādhabhagavadbhaktisindhave ||
+                   <span class="ref">YStr_1</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  namo 'cintya-adbhuta-akliṣṭa-jñāna-vairāgya-rāśaye |
+                  nāthāya munaye 'gādha-bhagavad-bhakti-sindhave ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_2">
+                  tasmai namo madhujidaṅghrisarojatattvajñānānurāgamahimātiśayāntasīmne |<br />
+                  nāthāya nāthamunaye 'tra paratra cāpi nityaṃ yadīyacaraṇau śaraṇaṃ madīyam ||
+                   <span class="ref">YStr_2</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tasmai namo madhujid-aṅghri-saroja-tattva-jñāna-anurāga-mahima-atiśaya-antasīmne |
+                  nāthāya nātha-munaye 'tra paratra ca api nityaṃ yadīya-caraṇau śaraṇaṃ madīyam ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_3">
+                  bhūyo namo 'parimitācyutabhaktitattvajñānāmṛtābdhiparivāhaśubhair vacobhiḥ |<br />
+                  loke 'vatīrṇaparamārthasamagrabhaktiyogāya nāthamunaye yamināṃ varāya ||
+                   <span class="ref">YStr_3</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  bhūyo namo 'parimita-acyuta-bhakti-tattva-jñāna-amṛta-abdhi-parivāha-śubhair vacobhiḥ
+                  |
+                  loke 'vatīrṇa-parama-artha-samagra-bhakti-yogāya nātha-munaye yamināṃ varāya ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_4">
+                  tattvena yaś cidacidīśvaratatsvabhāvabhogāpavargatadupāyagatīr udāraḥ |<br />
+                  saṃdarśayan niramimīta purāṇaratnaṃ tasmai namo munivirāya parāśarāya ||
+                   <span class="ref">YStr_4</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tattvena yaś cid-acid-īśvara-tat-svabhāva-bhoga-apavarga-tad-upāya-gatīr udāraḥ |
+                  saṃdarśayan niramimīta purāṇa-ratnaṃ tasmai namo muni-virāya parāśarāya ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_5">
+                  mātā pitā yuvatayas tanayā vibhūtiḥ sarvaṃ yad eva niyamena madanvayānām |<br />
+                  ādyasya naḥ kulapater vakulābhirāmaṃ śrīmat tadaṅghriyugalaṃ praṇamāmi mūrdhnā ||
+                   <span class="ref">YStr_5</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  mātā pitā yuvatayas tanayā vibhūtiḥ sarvaṃ yad eva niyamena mad-anvayānām |
+                  ādyasya naḥ kula-pater vakula-abhirāmaṃ śrīmat tad-aṅghri-yugalaṃ praṇamāmi mūrdhnā
+                  ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_6">
+                  yan mūrdhni me śrutiśirassu ca bhāti yasminn asmanmanorathapathaḥ sakalaḥ sameti |<br />
+                  stoṣyāmi naḥ kuladhanaṃ kuladaivataṃ tat pādāravindam aravindavilocanasya ||
+                   <span class="ref">YStr_6</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yan mūrdhni me śruti-śirassu ca bhāti yasminn asman-mano-ratha-pathaḥ sakalaḥ sameti
+                  |
+                  stoṣyāmi naḥ kula-dhanaṃ kula-daivataṃ tat pāda-āravindam aravinda-vilocanasya ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_7">
+                  tattvena yasya mahimārṇavaśīkarāṇuḥ śakyo na mātum api śarvapitāmahādyaiḥ |<br />
+                  kartuṃ tadīyamahimastutim udyatāya mahyaṃ namo 'stu kavaye nirapatrapāya ||
+                   <span class="ref">YStr_7</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tattvena yasya mahima-arṇava-śīkara-aṇuḥ śakyo na mātum api śarva-pitāmaha-adyaiḥ
+                  |
+                  kartuṃ tadīya-mahima-stutim udyatāya mahyaṃ namo 'stu kavaye nirapatrapāya ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_8">
+                  yad vā śramāvadhi yathāmati vāpy aśaktaḥ staumy evam eva khalu te 'pi sadā stuvantaḥ
+                  |<br />
+                  vedāś catur mukhamukhāś ca; mahārṇavāntaḥ ko majjator aṇukulācalayor viśeṣaḥ ? ||
+                   <span class="ref">YStr_8</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yad vā śrama-avadhi yathā-mati va āpy aśaktaḥ staumy evam eva khalu te 'pi sadā stuvantaḥ
+                  |
+                  vedāś catur mukha-mukhāś ca; mahā-arṇava-antaḥ ko majjator aṇu-kula-acalayor viśeṣaḥ
+                  ? ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_9">
+                  kiṃ caiṣa śaktyatiśayena na te 'nukampyaḥ stotāpi tu stutikṛtena pariśrameṇa |<br />
+                  tatra śramas tu sulabho mama mandabuddher ity udyamo 'yam ucito mama cābjanetra !
+                  ||
+                   <span class="ref">YStr_9</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kiṃ ca eṣa śakty-atiśayena na te 'nukampyaḥ stota āpi tu stuti-kṛtena pariśrameṇa
+                  |
+                  tatra śramas tu sulabho mama manda-buddher ity udyamo 'yam ucito mama ca abja-netra
+                  ! ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_10">
+                  nāvekṣase tyadi tato bhuvanāny amūni nālaṃ prabho bhavitum eva kutaḥ pravṛttiḥ ? |<br />
+                  evaṃ nisargasuhṛdi tvayi sarvajantâüḥ svāmin ! citram idam āśritavatsalatvam ||
+                   <span class="ref">YStr_10</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na avekṣase tyadi tato bhuvanāny amūni na alaṃ prabho bhavitum eva kutaḥ pravṛttiḥ
+                  ? |
+                  evaṃ nisarga-suhṛdi tvayi sarva-jantâüḥ svāmin ! citram idam āśrita-vatsalatvam ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_11">
+                  svābhāvikānavadhikātiśayeśitṛtvaṃ nārāyaṇa ! tvayi na mṛṣyati vaidikaḥ kaḥ ? |<br />
+                  brahmā śivaḥ śatamakhaḥ paramasvarāḍ ity ete 'pi yasya mahimārṇavavipraṣas te ||
+                   <span class="ref">YStr_11</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  svābhāvika-anavadhika-atiśaya-īśitṛtvaṃ nārāyaṇa ! tvayi na mṛṣyati vaidikaḥ kaḥ ?
+                  |
+                  brahmā śivaḥ śatamakhaḥ parama-sva-rāḍ ity ete 'pi yasya mahima-arṇava-vipraṣas te
+                  ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_12">
+                  kaś śrīḥ śriyaḥ ? paramasattvasamāśrayaḥ kaḥ ? kaḥ puṇḍarīkanayanaḥ ? puruṣottamaḥ
+                  kaḥ ? |<br />
+                  kasyāyutāyutaikakalāṃśakāṃśe viśvaṃ vicitracidacitpravibhāgavṛttam ||
+                   <span class="ref">YStr_12</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kaś śrīḥ śriyaḥ ? parama-sattva-samāśrayaḥ kaḥ ? kaḥ puṇḍarīka-nayanaḥ ? puruṣottamaḥ
+                  kaḥ ? |
+                  kasya ayuta-ayuta-eka-kalāṃśaka-aṃśe viśvaṃ vicitra-cidacit-pravibhāga-vṛttam ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_13">
+                  vedāpahāragurupātakadaityapīḍāpadvimocanamahiṣṭhaphalapradānaiḥ |<br />
+                  ko 'nyaḥ prajāpaśupatī paripāti ? kasya pādodakena sa śivaḥ svaśirodhṛtena ? ||
+                   <span class="ref">YStr_13</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  veda-apahāra-guru-pātaka-daitya-pīḍa-āpad-vimocana-mahiṣṭha-phala-pradānaiḥ |
+                  ko 'nyaḥ prajā-paśu-patī paripāti ? kasya pāda-udakena sa śivaḥ sva-śiro-dhṛtena ?
+                  ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_14">
+                  kasyodare haraviriñcamukhaḥ prapañcaḥ ? ko rakṣatīmam ? ajaniṣṭa ca kasya nābheḥ ?
+                  |<br />
+                  krāntvā nigīrya punar udgirati tvadanyaḥ kaḥ ? kena vaiṣa paravān iti śakyaśaṅkaḥ
+                  ? ||
+                   <span class="ref">YStr_14</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kasya udare hara-viriñca-mukhaḥ prapañcaḥ ? ko rakṣati imam ? aja-niṣṭa ca kasya nābheḥ
+                  ? |
+                  krāntvā nigīrya punar udgirati tvad-anyaḥ kaḥ ? kena va aiṣa paravān iti śakya-śaṅkaḥ
+                  ? ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_15">
+                  tvāṃ śīlarūpacaritaiḥ paramaprakṛṣṭasattvena sāttvikatayā prabalaiś ca śāstraiḥ |<br />
+                  prakhyātadaivaparamārthavidāṃ mataiś ca naivāsuraprakṛtayaḥ prabhavanti boddhum ||
+                   <span class="ref">YStr_15</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tvāṃ śīla-rūpa-caritaiḥ parama-prakṛṣṭa-sattvena sāttvikatayā prabalaiś ca śāstraiḥ
+                  |
+                  prakhyāta-daiva-parama-artha-vidāṃ mataiś ca na eva asura-prakṛtayaḥ prabhavanti boddhum
+                  ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_16">
+                  ullaṅghitatrividhasīmasamātiśāyisaṃbhāvanaṃ tava paribraḍhimasvabhāvam |<br />
+                  māyābalena bhavatāpi niguhyamānaṃ paśyanti kecid aniśaṃ tvadananyabhāvāḥ ||
+                   <span class="ref">YStr_16</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ullaṅghita-trividha-sīma-sama-atiśāyi-saṃbhāvanaṃ tava paribraḍhima-svabhāvam |
+                  māyā-balena bhavata āpi niguhyamānaṃ paśyanti kecid aniśaṃ tvad-ananya-bhāvāḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_17">
+                  yad aṇḍam aṇḍāntaragocaraṃ ca yaddaśottarāṇy āvaraṇāni yāni ca |<br />
+                  guṇāḥ pradhānaṃ puruṣaḥ paraṃ padaṃ parāt paraṃ brahma ca te vibhūtayaḥ ||
+                   <span class="ref">YStr_17</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yad aṇḍam aṇḍa-antara-gocaraṃ ca yad-daśa-uttarāṇy āvaraṇāni yāni ca |
+                  guṇāḥ pradhānaṃ puruṣaḥ paraṃ padaṃ parāt paraṃ brahma ca te vibhūtayaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_18">
+                  vaśī vadānyo guṇavān ṛjuḥ śucir mṛdur dayālur madhuraḥ sthiraḥ samaḥ |<br />
+                  kṛtī kṛtajñas tvam api svabhāvataḥ samastakalyāṇaguṇāmṛtodadhiḥ ||
+                   <span class="ref">YStr_18</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  vaśī vadānyo guṇavān ṛjuḥ śucir mṛdur dayālur madhuraḥ sthiraḥ samaḥ |
+                  kṛtī kṛta-jñas tvam api svabhāvataḥ samasta-kalyāṇa-guṇa-amṛta-udadhiḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_19">
+                  upary upary abjabhuvo 'pi pūruṣān prakalpya te ye śatam ity anukramāt |<br />
+                  giras tvad ekaikaguṇāvdhīpsayā sadā sthitā nodyamato 'tiśerate ||
+                   <span class="ref">YStr_19</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  upary upary abja-bhuvo 'pi pūruṣān prakalpya te ye śatam ity anukramāt |
+                  giras tvad eka-eka-guṇa-avdhīpsayā sadā sthitā na udyamato 'tiśerate ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_20">
+                  tvadāśritānāṃ jagadudbhavasthitapraṇāśasaṃsāravimocanādayaḥ |<br />
+                  bhavanti līlāvidhayaś ca vaidikās tvadīyagambhīramano'nusāriṇaḥ ||
+                   <span class="ref">YStr_20</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tvad-āśritānāṃ jagad-udbhava-sthita-praṇāśa-saṃsāra-vimocana-ādayaḥ |
+                  bhavanti līlā-vidhayaś ca vaidikās tvadīya-gambhīra-mano-'nusāriṇaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_21">
+                  namo namo vāṅmanasātibhūmaye namo namo vāṅmanasaikabhūmaye |<br />
+                  namo namo 'nantamahāvibhūtaye namo namo 'nantadayaikasandhive ||
+                   <span class="ref">YStr_21</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  namo namo vāṅ-manasā-atibhūmaye namo namo vāṅ-manasā-eka-bhūmaye |
+                  namo namo 'nanta-mahā-vibhūtaye namo namo 'nanta-dayā-eka-sandhive ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_22">
+                  na dharmaniṣṭho 'smi, na cātmavedī, na bhaktimāṃs tvaccaraṇāravinde |<br />
+                  akiñcano 'nanyagatiḥ śaraṇya ! tvatpādamūlaṃ śaraṇaṃ prapadye ||
+                   <span class="ref">YStr_22</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na dharma-niṣṭho 'smi, na cā atma-vedī, na bhaktimāṃs tvac-caraṇa-āravinde |
+                  akiñcano 'nanya-gatiḥ śaraṇya ! tvat-pāda-mūlaṃ śaraṇaṃ prapadye ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_23">
+                  na ninditaṃ karma tad asti loke sahasraśo yan na mayā vyadhāyi |<br />
+                  so 'haṃ vipākāvasare mukunda ! krandāmi sampraty agatis tavāgre ||
+                   <span class="ref">YStr_23</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na ninditaṃ karma tad asti loke sahasraśo yan na mayā vyadhāyi |
+                  so 'haṃ vipāka-avasare mukunda ! krandāmi sampraty agatis tava agre ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_24">
+                  nimajjato 'nanta ! bhavārṇavāntaś cirāya me kūlam ivāsi labdhaḥ |<br />
+                  tvayāpi labdhaṃ bhagavann idānīm anuttamaṃ pātram idaṃ dayāyāḥ ||
+                   <span class="ref">YStr_24</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nimajjato 'nanta ! bhava-arṇava-antaś cirāya me kūlam iva asi labdhaḥ |
+                  tvaya āpi labdhaṃ bhagavann idānīm anuttamaṃ pātram idaṃ dayāyāḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_25">
+                  abhūtapūrvaṃ mama bhāvi kiṃ vā sarvaṃ sahe me sahajaṃ hi duḥkham |<br />
+                  kiṃ tu tvadagre śaraṇāgatānāṃ parābhavo nātha ! na te 'nurūpaḥ ||
+                   <span class="ref">YStr_25</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  abhūta-pūrvaṃ mama bhāvi kiṃ vā sarvaṃ sahe me sahajaṃ hi duḥkham |
+                  kiṃ tu tvad-agre śaraṇāgatānāṃ parā-bhavo nātha ! na te 'nurūpaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_26">
+                  nirāsakasyāpi na tāvad utsahe maheśa ! hātuṃ tava pādapaṅkajam |<br />
+                  ruṣā nirasto 'pi śiśuḥ stanandhayo na jātu mātuś caraṇau jihāsati ||
+                   <span class="ref">YStr_26</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nirāsakasya api na tāvad utsahe maheśa ! hātuṃ tava pāda-paṅkajam |
+                  ruṣā nirasto 'pi śiśuḥ stanandhayo na jātu mātuś caraṇau jihāsati ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_27">
+                  tavāmṛtasyandini pādakaṅkaje niveśitātmā katham anyad icchati |<br />
+                  sthite 'ravinde makarandanirbhare madhuvrato nekṣurakaṃ hi vīkṣate ||
+                   <span class="ref">YStr_27</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tava-amṛta-syandini pāda-kaṅkaje niveśita-ātmā katham anyad icchati |
+                  sthite 'ravinde makaranda-nirbhare madhu-vrato na ikṣurakaṃ hi vīkṣate ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_28">
+                  tvadaṅghrim uddiśya kadāpi kenacid yathā tathā vāpi sakṛt kuto 'ñjaliḥ |<br />
+                  tadaiva muṣṇāty aśubhāby aśeṣataḥ śubhāni puṣṇāti na jātu hīyate ||
+                   <span class="ref">YStr_28</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tvad-aṅghrim uddiśya kada āpi kenacid yathā tathā va āpi sakṛt kuto 'ñjaliḥ |
+                  tada aiva muṣṇāty aśubhāby aśeṣataḥ śubhāni puṣṇāti na jātu hīyate ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_29">
+                  udīrṇasaṃsāradavāśuśukṣaṇiṃ kṣaṇena nirvāpya parāṃ ca nirvṛtim |<br />
+                  prayacchati tvaccaraṇāruṇāmbujadvayānurāgāmṛtasindhuśīkaraḥ ||
+                   <span class="ref">YStr_29</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  udīrṇa-saṃsāra-dava-aśuśukṣaṇiṃ kṣaṇena nirvāpya parāṃ ca nirvṛtim |
+                  prayacchati tvac-caraṇa-āruṇa-ambuja-dvaya-anurāga-amṛta-sindhu-śīkaraḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_30">
+                  vilāsavikrāntaparāvarālayaṃ namasyadārtikṣapaṇe kṛtakṣaṇam |<br />
+                  dhanaṃ madīyaṃ tava pādapaṅkajaṃ kadā nu sākṣātkaravāṇi cakṣuṣā ? ||
+                   <span class="ref">YStr_30</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  vilāsa-vikrānta-para-avara-ālayaṃ namasyad-ārti-kṣapaṇe kṛta-kṣaṇam |
+                  dhanaṃ madīyaṃ tava pāda-paṅkajaṃ kadā nu sākṣāt-karavāṇi cakṣuṣā ? ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_31">
+                  kadā punaḥ śaṅkharathāṅgakalpakadhvajāravindāṅkuśavajralāñchanam |<br />
+                  trivikrama ! tvaccaraṇāmbujadvayaṃ madīyamūrdhānam alaṅkariṣyati ||
+                   <span class="ref">YStr_31</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kadā punaḥ śaṅkha-rathāṅga-kalpaka-dhvaja-āravinda-aṅkuśa-vajra-lāñchanam |
+                  trivikrama ! tvac-caraṇa-ambuja-dvayaṃ madīya-mūrdhānam alaṅkariṣyati ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_32">
+                  virājamānojjvalapītavāsasaṃ smitātasīsūnasamāmalacchavim |<br />
+                  nimagnanābhiṃ tanumadhyamunnataṃ viśālavakṣassthalaśobhilakṣaṇam ||
+                   <span class="ref">YStr_32</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  virājamāna-ujjvala-pīta-vāsasaṃ smita-atasī-sūna-sama-amala-cchavim |
+                  nimagna-nābhiṃ tanu-madhya-munnataṃ viśāla-vakṣas-sthala-śobhi-lakṣaṇam ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_33">
+                  cakāsataṃ jyākiṇakarkaśaiḥ śubhaiś caturbhir ājānuvilambhir bhuhaiḥ |<br />
+                  priyāvataṃsotpalakarṇabhūṣaṇaślathālakābandhavimardaśaṃsibhiḥ ||
+                   <span class="ref">YStr_33</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  cakāsataṃ jyā-kiṇa-karkaśaiḥ śubhaiś caturbhir ājānu-vilambhir bhuhaiḥ |
+                  priya-avataṃsa-utpala-karṇa-bhūṣaṇa-ślatha-alakā-bandha-vimarda-śaṃsibhiḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_34">
+                  udagrapīnāṃsavilambikuṇḍalālakāvalībandhurakanbukandharam |<br />
+                  mukhaśriyā nyakkṛtapūrṇanirmalāmṛtāṃśubimbāmburuhojjvalaśriyam ||
+                   <span class="ref">YStr_34</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  udagra-pīna-aṃsa-vilambi-kuṇḍala-alaka-avalī-bandhura-kanbukandharam |
+                  mukha-śriyā nyakkṛta-pūrṇa-nirmala-amṛta-aṃśu-bimba-amburuha-ujjvala-śriyam ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_35">
+                  prabuddhamugdhāmbujacārulocanaṃ savibhramabhrūlatam ujjvalādharam |<br />
+                  śucismitaṃ komalagaṇḍam unnasaṃ lalāṭaparyantavilambitālakam ||
+                   <span class="ref">YStr_35</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  prabuddha-mugdha-ambuja-cāru-locanaṃ savibhrama-bhrūlatam ujjvala-adharam |
+                  śuci-smitaṃ komala-gaṇḍam unnasaṃ lalāṭa-paryanta-vilambita-alakam ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_36">
+                  sphuratkirīṭāṅgadahārakaṇḍhikāmaṇīndrakāñcīguṇanūpurādibhiḥ |<br />
+                  rathāṅgaśaṅkhāsigadādhanurvarair lasattulasyā vanamālayojjvalam ||
+                   <span class="ref">YStr_36</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sphurat-kirīṭa-aṅgada-hāra-kaṇḍhikā-maṇi-indra-kāñcīguṇa-nūpura-ādi-bhiḥ |
+                  ratha-aṅga-śaṅkha-asi-gadā-dhanur-varair lasat-tulasyā vanamālaya-ujjvalam ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_37">
+                  cakartha yasyā bhavanaṃ bhujāntaraṃ tava priyaṃ dhāma yadīyajanmabhūḥ |<br />
+                  jagatsamastaṃ yadapāṅgasaṃśrayaṃ yadartham ambhodhir amanthy abandhi ca ||
+                   <span class="ref">YStr_37</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  cakartha yasyā bhavanaṃ bhuja-antaraṃ tava priyaṃ dhāma yadīya-janma-bhūḥ |
+                  jagat-samastaṃ yad-apāṅga-saṃśrayaṃ yad-artham ambhodhir amanthy abandhi ca ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_38">
+                  svavaiśvarūpyeṇa sadānubhūtayāpy apūrvavadvismayamādadhānayā |<br />
+                  guṇena rūpeṇa vilāsaceṣṭitais sadā tavaivocitayā tava śriyā ||
+                   <span class="ref">YStr_38</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sva-vaiśvarūpyeṇa sadā-anubhūtaya āpy apūrvavad-vismaya-māda-dhānayā |
+                  guṇena rūpeṇa vilāsa-ceṣṭitais sadā tava eva ucitayā tava śriyā ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_39">
+                  tayā sahāsīnam anantabhogini prakṛṣṭavijñānabalaikadhāmani |<br />
+                  phaṇāmaṇivrātamayūkhamaṇḍalaprakāśamānodaradivyadhāmani ||
+                   <span class="ref">YStr_39</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tayā saha-asīnam ananta-bhogini prakṛṣṭa-vijñāna-bala-eka-dhāmani |
+                  phaṇā-maṇi-vrāta-mayūkha-maṇḍala-prakāśamāna-udara-divya-dhāmani ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_40">
+                  nivāsaśayyāsanapādukāṃśukopadhānavarṣātapavāraṇādibhiḥ |<br />
+                  śarīrabhedais tava śeṣatāṃ gatair yathocitaṃ śṣa itīrite janaiḥ ||
+                   <span class="ref">YStr_40</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nivāsa-śayyāsana-pāduka-aṃśuka-upadhāna-varṣa-ātapa-vāraṇa-ādibhiḥ |
+                  śarīra-bhedais tava śeṣatāṃ gatair yathā-ucitaṃ śṣa itī irite janaiḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_41">
+                  dāsas sakhā vāhanam āsanaṃ dhvajo yas te vitānaṃ vyajanaṃ trayīmayaḥ |<br />
+                  upasthitaṃ tena puro garutmatā tvadaṅghrisammardakiṇāṅkaśobhanā ||
+                   <span class="ref">YStr_41</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  dāsas sakhā vāhanam āsanaṃ dhvajo yas te vitānaṃ vyajanaṃ trayī-mayaḥ |
+                  upasthitaṃ tena puro garutmatā tvad-aṅghri-sammarda-kiṇa-aṅka-śobhanā ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_42">
+                  tvadīyabhuktojjihitaśeṣabhojinā tvayā nisṛṣṭātmabhareṇa yadyathā |<br />
+                  priyeṇa senāpatinā nyavedi tattathānujānantam udāravīkṣanaiḥ ||
+                   <span class="ref">YStr_42</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tvadīya-bhukta-ujjihita-śeṣa-bhojinā tvayā nisṛṣṭa-ātma-bhareṇa yad-yathā |
+                  priyeṇa senāpatinā nyavedi tat-tathā-anujānantam udāra-vīkṣanaiḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_43">
+                  hatākhilakleśamalaiḥ svabhāvatas tvadānukūlyaikarasais tavocitaiḥ |<br />
+                  gṛhītatattatparicārasādhanair niṣevyamāṇaṃ sacivair yathocitaṃ ||
+                   <span class="ref">YStr_43</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  hata-akhila-kleśa-malaiḥ svabhāvatas tvad-ānukūlya-eka-rasais tava-ucitaiḥ |
+                  gṛhīta-tat-tat-paricāra-sādhanair niṣevyamāṇaṃ sacivair yathā-ucitaṃ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_44">
+                  apūrvanānārasabhāvanirbhadraprabaddhayā mugdhavidaghalīlayā |<br />
+                  kṣaṇāṇuvat kṣiptaparādikālayā praharṣayantaṃ mahiṣīṃ mahābhujanam ||
+                   <span class="ref">YStr_44</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  apūrva-nānā-rasa-bhāva-nirbhadra-prabaddhayā mugdha-vidagha-līlayā |
+                  kṣaṇa-aṇuvat kṣipta-para-ādi-kālayā praharṣayantaṃ mahiṣīṃ mahābhujanam ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_45">
+                  acintyadivyādbhutanityayauvanasvabhāvalāvaṇyamayāmṛtodadhim |<br />
+                  śriyaḥ śriyaṃ bhaktajanaikajīvitaṃ samartham āpatsakham arthikalpakam ||
+                   <span class="ref">YStr_45</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  acintya-divya-adbhuta-nitya-yauvana-svabhāva-lāvaṇya-maya-amṛta-udadhim |
+                  śriyaḥ śriyaṃ bhakta-jana-eka-jīvitaṃ samartham āpat-sakham arthi-kalpakam ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_46">
+                  bhagavantam evānucaran nirantaraṃ praśāntaniśśeṣamanorathāntaraḥ |<br />
+                  kadāham aikāntikanityakiṅkaraḥ praharṣayiṣyāmi sanāthajīvitaḥ ||
+                   <span class="ref">YStr_46</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  bhagavantam eva anucaran nirantaraṃ praśānta-niśśeṣa-manoratha-antaraḥ |
+                  kada āham aikāntika-nitya-kiṅkaraḥ praharṣayiṣyāmi sanātha-jīvitaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_47">
+                  dhig aśucim avinītaṃ nirbhayaṃ mām alajjaṃ paramapuruṣa yo 'ham yogivaryāgragaṇyaiḥ
+                  |<br />
+                  vidhśivasanakādyair dhyātum atyantadūraṃ tava parijanabhāvaṃ kāmaye kāmavṛttaḥ ||
+                   <span class="ref">YStr_47</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  dhig aśucim avinītaṃ nirbhayaṃ mām alajjaṃ parama-puruṣa yo 'ham yogi-varya-agra-gaṇyaiḥ
+                  |
+                  vidh-śiva-sanaka-ādyair dhyātum atyanta-dūraṃ tava parijana-bhāvaṃ kāmaye kāma-vṛttaḥ
+                  ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_48">
+                  aparādhasahasrabhājanaṃ patitaṃ bhīmabhavārṇavodare |<br />
+                  atagiṃ śaraṇāgataṃ hare kṛpayā kevalam ātmasātkuru ||
+                   <span class="ref">YStr_48</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  aparādha-sahasra-bhājanaṃ patitaṃ bhīma-bhava-arṇava-udare |
+                  atagiṃ śaraṇāgataṃ hare kṛpayā kevalam ātma-sāt-kuru ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_49">
+                  avivekaghanāndhadiṅmukhe bahudhā santataduḥkhavarṣiṇi |<br />
+                  bhagavan bhavadurdine pathaḥ skhalitaṃ mām avalokayāciyuta ||
+                   <span class="ref">YStr_49</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  aviveka-ghana-andha-diṅmukhe bahudhā santata-duḥkha-varṣiṇi |
+                  bhagavan bhava-durdine pathaḥ skhalitaṃ mām avalokaya aciyuta ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_50">
+                  na mṛṣā paramārtham eva me śṛnu vijñāpanam ekam agrataḥ |<br />
+                  yadi me na dayiṣyase tato dayanīyas tava nātha durlabhaḥ ||
+                   <span class="ref">YStr_50</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na mṛṣā parama-artham eva me śṛnu vijñāpanam ekam agrataḥ |
+                  yadi me na dayiṣyase tato dayanīyas tava nātha durlabhaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_51">
+                  tad ahaṃ tvad ṛte na nāthavān mad ṛte tvaṃ dayanīyavān na ca |<br />
+                  vidhinirmitam etam anvayaṃ bhagavān palaya mā sma jīhapaḥ ||
+                   <span class="ref">YStr_51</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tad ahaṃ tvad ṛte na nāthavān mad ṛte tvaṃ dayanīyavān na ca |
+                  vidhi-nirmitam etam anvayaṃ bhagavān palaya mā sma jīhapaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_52">
+                  vapurādiṣu yo 'pi ko 'pi vā guṇato 'sāni yathātathāvidhaḥ |<br />
+                  tad ayaṃ tava pādapadmayor aham adyaiva mayā samarpitaḥ ||
+                   <span class="ref">YStr_52</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  vapur-ādiṣu yo 'pi ko 'pi vā guṇato 'sāni yathā-tathā-vidhaḥ |
+                  tad ayaṃ tava pāda-padmayor aham adya eva mayā samarpitaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_53">
+                  mama nātha yad asti yo 'smy ahaṃ sakalaṃ tad dhi tavaiva mādhava |<br />
+                  niyatasvam iti prabuddhadhīr atha vā kiṃ nu samarpayāmi te ||
+                   <span class="ref">YStr_53</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  mama nātha yad asti yo 'smy ahaṃ sakalaṃ tad dhi tava eva mādhava |
+                  niyata-svam iti prabuddha-dhīr atha vā kiṃ nu samarpayāmi te ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_54">
+                  avabodhitavān imāṃ yathā mayi nityāṃ bhavadīyatāṃ svayam |<br />
+                  kṛpayaivam ananyabhogyatāṃ bhagavan bhaktim api prayaccha me ||
+                   <span class="ref">YStr_54</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  avabodhitavān imāṃ yathā mayi nityāṃ bhavadīyatāṃ svayam |
+                  kṛpaya aivam ananya-bhogyatāṃ bhagavan bhaktim api prayaccha me ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_55">
+                  tava dāsyasukhaikasaṅghināṃ bhavaneṣu astv api kīṭajanma me |<br />
+                  itarāvasatheṣu mā sma bhūd api me janma caturmukhātmanā ||
+                   <span class="ref">YStr_55</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tava dāsya-sukha-eka-saṅghināṃ bhavaneṣu astv api kīṭa-janma me |
+                  itara-avasatheṣu mā sma bhūd api me janma catur-mukha-ātmanā ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_56">
+                  sakṛt tvadākāravilokanāśayā tṛṇīkṛtānuttamabhuktimuktibhiḥ |<br />
+                  mahātmabhir mām avalokyatāṃ naya kṣaṇe 'pi te yad viraho 'tidussahaḥ ||
+                   <span class="ref">YStr_56</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sakṛt tvad-ākāra-vilokana-āśayā tṛṇīkṛta-anuttama-bhukti-muktibhiḥ |
+                  mahā-ātmabhir mām avalokyatāṃ naya kṣaṇe 'pi te yad viraho 'tidussahaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_57">
+                  na dehaṃ na prāṇān na ca sukham aśeṣābhilaṣitaṃ na cātmānaṃ nānyat ki api tava śeṣatvavibhavāt <br />
+                  bahirbhūtaṃ nātha kṣaṇam api sahe yātu śatadhā vināśaṃ tat satyaṃ madhumathana vijñāpanam idam || 
+                   <span class="ref">YStr_57</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na dehaṃ na prāṇān na ca sukham aśeṣa-abhilaṣitaṃ na cā atmānaṃ na anyat ki api tava
+                  śeṣatva-vibhavāt 
+                  bahir-bhūtaṃ nātha kṣaṇam api sahe yātu śatadhā vināśaṃ tat satyaṃ madhumathana vijñāpanam
+                  idam || 
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_58">
+                  durantasyānāder apariharaṇīyasya mahato nihīnācāro 'haṃ nṛpaśur aśubhasyāspadam api <br />
+                  dayāsindho bandho niravadhikavātsalyajaladhe tava smāraṃ smāraṃ guṇagaṇam itīcchāmi gatabhīḥ || 
+                   <span class="ref">YStr_58</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  durantasya anāder apariharaṇīyasya mahato nihīna-ācāro 'haṃ nṛpaśur aśubhasyā aspadam
+                  api 
+                  dayā-sindho bandho niravadhika-vātsalya-jaladhe tava smāraṃ smāraṃ guṇa-gaṇam iti
+                  icchāmi gatabhīḥ || 
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_59">
+                  anicchann apy evaṃ yadi punar itīcchann iva rajastamaśchannac chadmastutivacanabhaṅgīṃ
+                  aracayam |<br />
+                  tathāpītthaṃrūpaṃ vacanam avalambyāpi kṛpayā tvam evaivambhūtaṃ dharaṇidhara me śikṣaya
+                  manaḥ ||
+                   <span class="ref">YStr_59</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  anicchann apy evaṃ yadi punar iti icchann iva rajas-tamaś-channac chadma-stuti-vacana-bhaṅgīṃ
+                  aracayam |
+                  tatha āpi itthaṃ-rūpaṃ vacanam avalambya api kṛpayā tvam eva evam-bhūtaṃ dharaṇi-dhara
+                  me śikṣaya manaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_60">
+                  pitā tvaṃ mātā tvaṃ dayitatanayas tvaṃ priyasuhṛt tvam eva tvaṃ mitram gurur asi gatiś
+                  cāsi jagatām |<br />
+                  tvadīyas tvadhbṛtyas tava parijanas tvadgatir ahaṃ prapannaś caivaṃ saty aham api
+                  tavaivāsmi hi bharaḥ ||
+                   <span class="ref">YStr_60</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  pitā tvaṃ mātā tvaṃ dayita-tanayas tvaṃ priya-suhṛt tvam eva tvaṃ mitram gurur asi
+                  gatiś ca asi jagatām |
+                  tvadīyas tvad-hbṛtyas tava parijanas tvad-gatir ahaṃ prapannaś ca evaṃ saty aham api
+                  tava eva asmi hi bharaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_61">
+                  janitvāhaṃ vaṃśe mahati jagati khyaatayaśasāṃ śucīnāṃ yuktānāṃ guṇapuruṣatattvasthitividām <br />
+                  nisargād eva tvaccaraṇakamalāikāntamanasām adho 'dhaḥ pāpātmā śaraṇada nimajjāmi tamasi || 
+                   <span class="ref">YStr_61</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  janitva āhaṃ vaṃśe mahati jagati khyaata-yaśasāṃ śucīnāṃ yuktānāṃ guṇa-puruṣa-tattva-sthiti-vidām
+                  
+                  nisargād eva tvac-caraṇa-kamala-aikānta-manasām adho 'dhaḥ pāpa-ātmā śaraṇa-da nimajjāmi
+                  tamasi || 
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_62">
+                  amaryādaḥ kṣudraś calamatir asūyaprasavabhūḥ kṛtaghno durmānī smaraparavaśo vañcanaparaḥ
+                  |<br />
+                  nṛśaṃsaḥ pāpiṣṭhaḥ katham aham ito duḥkhajaladher apārād uttīrṇas tava paricareyaṃ
+                  caraṇayoḥ ||
+                   <span class="ref">YStr_62</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  amaryādaḥ kṣudraś cala-matir asūya-prasava-bhūḥ kṛta-ghno durmānī smara-para-vaśo
+                  vañcana-paraḥ |
+                  nṛ-śaṃsaḥ pāpiṣṭhaḥ katham aham ito duḥkha-jala-dher apārād uttīrṇas tava paricareyaṃ
+                  caraṇayoḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_63">
+                  raghuvara yad abhūs tvaṃ tādṛśo vāyasasya praṇata iti dayālur yac ca caidyasya kṛṣṇa
+                  |<br />
+                  pratibhavam aparāddhur mugdha sāyujyado 'bhūr vada kim apadam āgas tasya te 'si kṣamāyāḥ
+                  ||
+                   <span class="ref">YStr_63</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  raghuvara yad abhūs tvaṃ tādṛśo vāyasasya praṇata iti dayālur yac ca caidyasya kṛṣṇa
+                  |
+                  pratibhavam aparāddhur mugdha sāyujyado 'bhūr vada kim apadam āgas tasya te 'si kṣamāyāḥ
+                  ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YStr_64">
+                  nanu prapannas sakṛd eva nātha tavāhaṃ asmīti ca yācamānaḥ |<br />
+                  tavānukampyas smartaḥ pratijñānāṃ madekavarjaṃ kim idaṃ vrataṃ te ||
+                   <span class="ref">YStr_64</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nanu prapannas sakṛd eva nātha tava ahaṃ asmi iti ca yācamānaḥ |
+                  tava anukampyas smartaḥ pratijñānāṃ mad-eka-varjaṃ kim idaṃ vrataṃ te ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         </div>
+   </body>
+</html>

@@ -1,0 +1,662 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Saptaśatikā prajñāpāramitā (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Saptaśatikā prajñāpāramitā</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_saptazatikA-prajJApAramitA.xml">sa_saptazatikA-prajJApAramitA.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>members of the Digital Sanskrit Buddhist Canon Input Project</p>
+      <p class="noindent"><b>Contribution: </b>members of the Digital Sanskrit Buddhist Canon Input Project</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>P.L. Vaidya in: Mahayana-sutra-samgrahah, Part 1. Darbhanga: The Mithila Institute
+            1961 (Buddhist Sanskrit Texts, 17).</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="hi">highlighted text</span></li>
+         <li><span class="note">remarks</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/bsu052_u.htm">bsu052_u.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Saptasatika prajnaparamita
+            <br />Based on the ed. by P.L. Vaidya in: Mahayana-sutra-samgrahah, Part 1.
+            <br />Darbhanga: The Mithila Institute 1961 (Buddhist Sanskrit Texts, 17)
+            <br />
+            <br />Input by members of the Sanskrit Buddhist Input Project.
+            <br />With kind permission of the Digital Sanskrit Buddhist Canon Project
+            <br />of Nagarjuna Institute, Nepal
+            <br />and University of the West, Rosemead, California, USA
+            <br />(www.uwest.edu/sanskritcanon)
+            <br />Sutra section, text no. 52.
+            <br />
+            <br />The transliteration emulates the conventions of Nagari script.
+            <br />Therefore, many word boundaries are not marked by blanks.
+            <br />
+            <br />REFERENCE SYSTEM:
+            <br />(Vaidya n) = pagination of P.L. Vaidya's edition (added by Klaus Wille)
+            <br />
+            <br />NOTE: Where a page break occurs within a word, the pagination mark has been
+            <br />shifted to the end of the word in order not to interfere with word search.
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         <span class="note"><span class="bold">Vaidya 340</span></span>
+         
+         <p>Mañjuśrīparivartāparaparyāyā<span class="bold"> Saptaśatikā prajñāpāramitā |</span></p>
+         
+         
+         <p>om namo bhagavatyai āryaprajñāpāramitāyai |</p>
+         
+         
+         <p>evaṃ mayā śrutam | ekasmin samaye bhagavān śrāvastyāṃ viharati sma jetavane 'nāthapiṇḍadasyārāme
+            mahatā bhikṣusaṃghena sārdhaṃ paripūrṇena arhadbhikṣusahasreṇa, bodhisattvānāṃ ca
+            mahāsattvānāṃ mahāsaṃnāhasaṃnaddhānāṃ paripūrṇairdaśabhirbodhisattvaśatasahasraiḥ
+            sārdhaṃ sarvairavinivartanīyairanuttarāyāḥ samyaksaṃbodheḥ | tadyathā - mañjuśriyā
+            ca kumārabhūtena, maitreyeṇa ca, asaṅgapratibhānena ca, anikṣiptadhureṇa ca, evaṃpramukhairdaśabhirbodhisattvaśatasahasraiḥ
+            ||</p>
+         
+         
+         <p>atha khalu mañjuśrīḥ kumārabhūto 'ruṇodgatakālasamaye svakādvihārānniṣkramya yena
+            tathāgatavihārastenopasaṃkrāmat | upasaṃkramya vihārasya bahirdvāre sthito 'bhūttathāgatasya
+            darśanāya vandanāya paryupāsanāya | athāyuṣmānapi śāradvatīputraḥ svakādvihārānniṣkramya
+            yena tathāgatavihārastenopasaṃkrāmadbhagavato darśanāya vandanāya paryupāsanāya |
+            athāyuṣmānapi pūrṇo maitrāyaṇīputraḥ, āyuṣmānapi mahāmaudgalyāyanaḥ, āyuṣmānapi mahākāśyapaḥ,
+            āyuṣmānapi mahākātyāyanaḥ, āyuṣmānapi mahākauṣṭhilaḥ, anye ca mahāśrāvakāḥ svakasvakebhyo
+            vihārebhyo niṣkramya yena bhagavato vihārastenopasaṃkrāntāḥ, upasaṃkramya ekānte tasthuḥ
+            ||</p>
+         
+         
+         <p>atha khalu bhagavānabhikrāntābhikrāntaṃ mahāśrāvakasaṃnipātaṃ viditvā svakādvihārānniṣkramya
+            bahirdvārasyaikānte prajñapta evāsane nyaṣīdat | niṣadya ca bhagavān jānanneva āyuṣmantaṃ
+            śāradvatīputramāmantrayate sma - kutastvaṃ śāradvatīputra kalyamevāgatya tathāgatavihāradvāre
+            sthitaḥ? evamukte āyuṣmān śāradvatīputro bhagavantametadavocat - sarvaprathamataraṃ
+            bhagavan mañjuśrīḥ kumārabhūtastathāgatavihāradvāre sthitaḥ, paścādvayaṃ bhagavantaṃ
+            draṣṭukāmāḥ ||</p>
+         
+         
+         <p>atha khalu bhagavān jānanneva mañjuśriyaṃ kumārabhūtamāmantrayate sma - satyaṃ kila
+            tvaṃ mañjuśrīḥ sarvaprathamataraṃ tathāgatavihāradvāre sthitastathāgatasya darśanāya
+            vandanāya paryupāsanāya ca? evamukte mañjuśrīḥ kumārabhūto bhagavantametadavocat -
+            evametat bhagavan, evametat sugata, prathamataramasmyāgataḥ svakādvihārānniṣkramya
+            yena tathāgatavihārastenopasaṃkrāntaḥ, upasaṃkramya ekānte sthito bhagavato darśanāya
+            vandanāya paryupāsanāya | tatkasya hetoḥ? tathā hi bhagavan atṛpto 'haṃ tathāgatasya
+            darśanena vandanena paryupāsanena ca | yadapyahaṃ bhagavan tathāgatamupasaṃkramāmi
+            darśanāya vandanāya paryupāsanāya, tatsarvasattvānāmarthāya | sacedbhagavan (<span class="bold">SaptaŚ, Vaidya 341</span>) tathāgato draṣṭavyo vanditavyaḥ paryupāsitavyaḥ, evaṃ draṣṭavyaḥ, evaṃ vanditavyaḥ,
+            evaṃ paryupāsitavyaḥ, yathāhaṃ paśyāmi yathāhaṃ vande yathāhaṃ paryupāse | evaṃ tathāgato
+            dṛṣṭo bhavati vanditaḥ paryupāsitaśca | ahaṃ ca bhagavan sarvasattvānāṃ kṛtaśastathāgataṃ
+            paśyāmi | bhagavānāha - kathaṃ mañjuśrīstathāgato draṣṭavyo yāvat paryupāsitavyaḥ?
+            mañjuśrīrāha - tathatākāreṇa tathāgataṃ paśyāmi avikalpākāreṇa anupalambhayogena,
+            evamanutpādākāreṇa tathāgataṃ paśyāmi, yāvad abhāvākāreṇa tathāgataṃ paśyāmi | na
+            ca tathatā samudāgacchati, evaṃ tathāgataṃ paśyāmi | na tathatā bhavati na vibhavati,
+            evaṃ tathāgataṃ paśyāmi | na tathatā deśasthā na pradeśasthā, evaṃ tathāgataṃ paśyāmi
+            | na tathatā atītā na anāgatā na pratyutpannā, evaṃ tathāgataṃ paśyāmi | na tathatā
+            dvayaprabhāvitā nādvayaprabhāvitā, evaṃ tathāgataṃ paśyāmi | na tathatā saṃkliśyate
+            na vyavadāyate, evaṃ tathāgataṃ paśyāmi | na tathatā utpadyate na nirudhyate, evaṃ
+            tathāgataṃ paśyāmi | evaṃ tathāgato dṛṣṭo bhavati vanditaḥ paryupāsitaśca | evamukte
+            bhagavān mañjuśriyaṃ kumārabhūtametadavocat - evaṃ paśyaṃstvaṃ mañjuśrīḥ kiṃ paśyasi?
+            mañjuśrīrāha - evaṃ paśyannahaṃ bhagavan na kiṃcitpaśyāmi | evamahaṃ paśyan na kasyaciddharmasyotpādaṃ
+            paśyāmi na nirodhaṃ paśyāmi ||</p>
+         
+         
+         <p>athāyuṣmān śāradvatīputro mañjuśriyaṃ kumārabhūtametadavocat - duṣkarakārakastvaṃ
+            mañjuśrīḥ, yastvaṃ tathāgatamevaṃ paśyasi evaṃ paryupāsse, yasya ca te sarvasattvānāmantike
+            mahāmaitrī pratyupasthitā | na ca te kācitsattvopalabdhiḥ sattvābhiniveśo vā | sarvasattvaparinirvāṇāya
+            cāsi pratipannaḥ | na ca te kaścitsattvābhiniveśaḥ pravartate | sarvasattvānāṃ ca
+            te kṛtaśaḥ saṃnāhaḥ saṃnaddhaḥ | sa cānupalambhayogena yāvadabhāvayogena | evamukte
+            mañjuśrīḥ kumārabhūtaḥ āyuṣmantaṃ śāradvatīputrametadavocat - evametad bhadanta śāradvatīputra
+            yathā kathayasi | sarvasattvaparinirvāṇāya saṃnāhaścaiṣa saṃnaddhaḥ | na ca me kācit
+            sattvopalabdhirvā sattvābhiniveśo vā | nāyaṃ bhadanta śāradvatīputra saṃnāha evaṃ
+            saṃnaddhaḥ - kathamahaṃ sattvadhātorūnatvaṃ vā kuryāṃ pūrṇatvaṃ vā? sacedbhadanta
+            śāradvatīputra parikalpamupādāya ekaikasmin buddhakṣetre gaṅgānadīvālukopamā buddhā
+            bhagavanto bhaveyuḥ, ekaikaśca tathāgato gaṅgānadīvālukopamān kalpāṃstiṣṭhet sarātriṃdivaṃ
+            ca dharmaṃ deśayamānaḥ, ekaikayā dharmadeśanayā yāvanto gaṅgānadīvālukāsamairbuddhairbhagavadbhiḥ
+            sattvā vinītāḥ, tāvataḥ sattvānekaikastathāgataḥ ekaikayā dharmadeśanayā vinayet,
+            evamapi kṛtvā naiva sattvadhātorūnatvaṃ vā pūrṇatvaṃ vā prajñāyate | tatkasmāddhetoḥ?
+            sattvaviviktatvāt sattvāsattvād bhadanta śāradvatīputra sattvadhātorna conatvaṃ vā
+            pūrṇatvaṃ vā prajñāyate ||</p>
+         
+         
+         <p>evamukte āyuṣmān śāradvatīputro mañjuśriyaṃ kumārabhūtametadavocat - yadi mañjuśrīḥ
+            sattvaviviktatvāt sattvāsattvāt sattvadhātornaivonatvaṃ na pūrṇatvaṃ vā prajñāyate,
+            tatkasyedānīṃ bodhimabhisaṃbudhya dharmaṃ deśayiṣyasi? evamukte mañjuśrīḥ kumārabhūta
+            āyuṣmantaṃ śāradvatīputrametadavocat - yadā tāvadbhadanta śāradvatīputra atyantatayā
+            sattvānupalabdhiḥ, tatko 'trābhi<span class="bold">saṃ</span>bhotsyate? (<span class="bold">SaptaŚ, Vaidya 342</span>) kasya vā dharmaṃ deśayiṣyate? tatkasmāddhetoḥ? tathā hi bhadanta śāradvatīputra
+            atyantatayā sarvadharmānupalabdhiḥ ||</p>
+         
+         
+         <p>atha khalu bhagavān mañjuśriyaṃ kumārabhūtametadavocat - yadā tāvanmañjuśrīḥ atyantatayā
+            sarvadharmānupalabdhiḥ, tatkimidānīṃ sattvamapi prajñāpayiṣyasi? api ca | sacenmañjuśrīḥ
+            kaścidevaṃ pṛcchet - kiyantaḥ sattvā iti, kiṃ tasya tvaṃ vadeḥ? mañjuśrīrāha - tasyāhaṃ
+            bhagavan evaṃ pṛṣṭa evaṃ vadeyam - yāvanta eva buddhadharmā iti | saced bhagavan punarapi
+            pṛcchet - kiyatpramāṇaḥ sattvadhāturiti, tasyāhaṃ bhagavan evaṃ pṛṣṭa evaṃ vadeyam
+            - yatpramāṇo buddhaviṣayaḥ [iti] ||</p>
+         
+         
+         <p>bhagavānāha - sacetpunarapi te mañjuśrīḥ kaścidevaṃ pṛcchet - kiṃparyāpannaḥ sattvadhāturiti,
+            kiṃ tasya tvaṃ vadeḥ? mañjuśrīrāha - tasyāhaṃ bhagavan evaṃ pṛṣṭa evaṃ vadeyam - yatparyāpannānutpādācintyatā
+            [iti] ||</p>
+         
+         
+         <p>bhagavānāha - sacetpunarapi te mañjuśrīḥ kaścidevaṃ pṛcchet - kiṃpratiṣṭhitaḥ sattvadhāturiti,
+            kiṃ tasya tvaṃ vadeḥ? mañjuśrīrāha - tasyāhaṃ bhagavan evaṃ pṛṣṭa evaṃ vadeyam - yatpratiṣṭhito
+            'nutpādadhātuḥ tatpratiṣṭhitaḥ sattvadhāturiti ||</p>
+         
+         
+         <p>bhagavānāha - yasmin samaye tvaṃ mañjuśrīḥ prajñāpāramitāṃ bhāvayasi, tadā kutra pratiṣṭhitāṃ
+            prajñāpāramitāṃ bhāvayasi? mañjuśrīrāha - yasminnahaṃ bhagavan samaye prajñāpāramitāṃ
+            bhāvayāmi, apratiṣṭhito 'haṃ tasmin samaye prajñāpāramitāṃ bhāvayāmi ||</p>
+         
+         
+         <p>bhagavānāha - apratiṣṭhitasya te mañjuśrīḥ kā prajñāpāramitābhāvanā? mañjuśrīrāha
+            - saiva bhagavan prajñāpāramitābhāvanā yanna kvacitpratiṣṭhānam ||</p>
+         
+         
+         <p>bhagavānāha - yasmin samaye tvaṃ mañjuśrīḥ prajñāpāramitāṃ bhāvayasi, kataratte kuśalamūlaṃ
+            tasmin samaye upacayaṃ gacchati apacayaṃ vā? mañjuśrīrāha - na me bhagavan tasmin
+            samaye kiṃcitkuśalamūlamupacayaṃ gacchati apacayaṃ vā | nāsau prajñāpāramitāṃ bhāvayati
+            yasya kasyaciddharmasya upacayo vā apacayo vā bhavati | na sā bhagavan prajñāpāramitābhāvanā
+            veditavyā, yā kasyaciddharmasya upacayāya vā apacayāya vā pratyupasthitā | sā bhagavan
+            prajñāpāramitābhāvanā yā naiva pṛthagjanadharmān jahāti, nāpi buddhadharmānupādatte
+            | tatkasmāddhetoḥ? tathā hi bhagavan prajñāpāramitābhāvanā na kasyaciddharmasyopalambhena
+            pratyupasthitā yaṃ dharmaṃ prajahyādupādadīta vā | sā bhagavan prajñāpāramitābhāvanā
+            yā naiva saṃsāradoṣānupayāti na nirvāṇaguṇān | tatkasmāddhetoḥ? tathā hi bhagavan
+            saṃsārameva tāvann samanupaśyāmi, kaḥ punarvādaḥ saṃsāradoṣān | nirvāṇameva tāvannopalabhe,
+            kaḥ punarvādo nirvāṇaguṇān drakṣyāmi | sā bhagavan prajñāpāramitābhāvanā yanna kasyaciddharmasyādānaṃ
+            vā grahaṇaṃ vā niḥsaraṇaṃ vā | sā bhagavan prajñāpāramitābhāvanā yā na kasyaciddharmasya
+            hānirvā vṛddhirvopalabhyate | tatkasmāddhetoḥ? na hi bhagavan anutpādo hīyate vā vardhate
+            vā | (<span class="bold">SaptaŚ, Vaidya 343</span>) yaivaṃ bhagavan bhāvanā, sā prajñāpāramitābhāvanā | sā prajñāpāramitābhāvanā yā
+            na kaṃciddharmamutpādayati vā nirodhayati vā | sā bhagavan prajñāpāramitābhāvanā yā
+            na kasyaciddharmasyonatvaṃ vā pūrṇatvaṃ vā karoti | yā bhagavan evaṃ bhāvanā, saiva
+            prajñāpāramitābhāvanā | punaraparaṃ bhagavan sā prajñāpāramitabhāvanā yā naivācintyān
+            dharmān prārthayate na prādeśikān | api tu khalu punarbhagavan tadapi na saṃvidyate
+            yatprārthayate, yena prārthayate, yatra prārthayate | evaṃ bhāvanā bhagavan prajñāpāramitābhāvanā
+            | evaṃ pratyupasthitā ime dharmā agrāḥ ime dharmā hīnā iti | nāpi tān dharmānupalabhate
+            yeṣāṃ dharmāṇāmagratā vā hīnatā vā syāt | evaṃ prajñāpāramitābhāvanāyogamanuyuktaḥ
+            kulaputraḥ sarvadharmān nopalabhate | na bhagavan prajñāpāramitābhāvanā kaṃciddharmamagraṃ
+            vā hīnaṃ vā kalpayati | tatkasmāddhetoḥ? na hi bhagavan anutpādasya kiṃcidagraṃ vā
+            hīnaṃ vā, nāpi tathatāyā
+            bhūtakoṭyāḥ, yāvat sarvadharmāṇāṃ kiṃcidagraṃ vā hīnaṃ vā | evaṃ bhāvanā bhagavan
+            prajñāpāramitābhāvanā ||</p>
+         
+         
+         <p>evamukte bhagavān mañjuśriyaṃ kumārabhūtamāmantrayate sma - na punarmañjuśrīḥ agrā
+            buddhadharmāḥ? mañjuśrīrāha - agrāhyatvādbhagavan agrā buddhadharmāḥ | tatkiṃ punarbhagavan
+            sarvadharmāḥ śūnyā iti tathāgatenābhisaṃbuddhāḥ? bhagavānāha - evametanmañjuśrīḥ śūnyāḥ
+            sarvadharmāstathāgatenābhisaṃbuddhāḥ | mañjuśrīrāha - tatkiṃ punarbhagavan śūnyatāyā
+            agratā vā hīnatā prajñāyate? bhagavānāha - sādhu sādhu mañjuśrīḥ, evametanmañjuśrīḥ
+            yathā kathayasi | na punarmañjuśrīḥ anuttarā buddhadharmāḥ? mañjuśrīrāha - evametadbhagavan
+            anuttarā buddhadharmāḥ | tatkasmāddhetoḥ? tathā hi bhagavan teṣvaṇurapi dharmo na
+            saṃvidyate nopalabhyate | na te anuttarā buddhadharmāḥ | punaraparaṃ bhagavan sā prajñāpāramitābhāvanā
+            yā na buddhadharmāṇāmārādhanāya saṃvartate na pṛgjanadharmāṇāṃ prahāṇāya saṃvartate
+            | na buddhadharmāṇāṃ vinayitrī, na saṃdhārayitrī | evaṃ bhāvanā bhagavan prajñāpāramitābhāvanā
+            ||</p>
+         
+         
+         <p>punaraparaṃ sā bhagavan prajñāpāramitābhāvanā draṣṭavyā yā na kaṃciddharmaṃ cintayati
+            na vijānīte | bhagavānāha - na tvaṃ mañjuśrīḥ buddhadharmāṃścintayasi? mañjuśrīrāha
+            - no bhagavan | cintayeyamahaṃ bhagavan buddhadharmān, sacedahaṃ buddhadharmāṇāṃ pariniṣpattiṃ
+            paśyeyam | na bhagavan prajñāpāramitābhāvanā kasyaciddharmasya vikalpena pratyupasthitā
+            - ime pṛthagjanadharmāḥ, ime śrāvaka dharmāḥ, ime pratyekabuddhadharmāḥ ime samyaksaṃbuddhadharmā
+            iti | tatkasmāddhetoḥ? tameva bhagavan dharmaṃ prajñāpāramitābhāvanāyogamanuyuktaḥ
+            kulaputro nopalabhate, yasyaitān dharmān pṛthagjanadharmān vā nirdiśet, śaikṣadharmān
+            vā nirdiśet, aśaikṣadharmān vā nirdiśet, samyaksaṃbuddhadharmān vā nirdiśet | tānatyantatayā
+            dharmān na samanupaśyāmi | evaṃ bhāvanā bhagavan prajñāpāramitābhāvanā | na bhagavan
+            prajñāpāramitābhāvanāyogamanuyuktasya kulaputrasyaivaṃ bhavati - ayaṃ kāmadhātuḥ,
+            ayaṃ rūpadhātuḥ, ayamārūpyadhātuḥ, yāvad ayaṃ nirodhadhāturiti | tatkasmāddhetoḥ?
+            tathā hi sa bhagavan na kaściddharmaḥ, yo nirodhadharmaṃ samanupaśyati | evaṃ bhāvanā
+            bhagavan prajñāpāramitābhāvanā veditavyā ||</p>
+         
+         
+         <p>(<span class="bold">SaptaŚ, Vaidya 344</span>) punaraparaṃ bhagavan eṣā sā prajñāpāramitābhāvanā yā na kasyaciddharmasyopakāraṃ
+            vā apakāraṃ vā karoti | na hi bhagavan prajñāpāramitābhāvanā buddhadharmāṇāṃ dhātrī,
+            na pṛthagjanadharmāṇāmācchetrī | eṣaiva sā bhagavan prajñāpāramitābhāvanā yā naiva
+            pṛthagjanadharmāṇāṃ nirodhaḥ, na buddhadharmāṇāṃ nirodhaḥ, na buddhadharmāṇāṃ pratilambhaḥ
+            ||</p>
+         
+         
+         <p>evamukte bhagavān mañjuśriyaṃ kumārabhūtametadavocat - sādhu sādhu mañjuśrīḥ yastvamimamevaṃrūpaṃ
+            gambhīraṃ dharmaṃ deśayasi | sthāpitā te mañjuśrīriyaṃ mudrā bodhisattvānāṃ mahāsattvānām,
+            ābhimānikānāṃ ca śrāvakāṇām, aupalambhikānāṃ ca bodhisattvayānikānāṃ ca yathābhūtaṃ
+            pratibodhāya | na te mañjuśrīḥ kulaputrā vā kuladuhitaro vā ekabuddhaparyupāsitā bhaviṣyanti
+            naikabuddhāvaropitakuśalamūlāḥ, ye imaṃ gambhīraṃ prajñāpāramitānirdeśaṃ śrutvā notrasiṣyanti
+            na saṃtrasiṣyanti na saṃtrāsamāpatsyante | api tu khalu punarmañjuśrīḥ atikramya te
+            buddhasahasrāvaropitakuśalamūlā bhaviṣyanti, ye imaṃ gambhīraṃ prajñāpāramitānirdeśaṃ
+            śrutvā adhimokṣyanti, notrasiṣyanti na saṃtrasiṣyanti na saṃtrāsamāpatsyante ||</p>
+         
+         
+         <p>evamukte mañjuśrīḥ kumārabhūto bhagavantametadavocat - pratibhāti me bhagavan bhūyasyā
+            mātrayā prajñāpāramitānirdeśaḥ | pratibhātu te mañjuśrīḥ, iti bhagavānasyāvocat |
+            mañjuśrīrāha - eṣā sā bhagavan prajñāpāramitābhāvanā yā na kasyaciddharmasya sthitimupalabhate
+            nāsthitim | tatkasmāddhetoḥ? asthitatvātsarvadharmāṇāṃ nopalabhate | eṣaiva sa bhagavan
+            prajñāpāramitābhāvanā veditavyā, yā na kasyaciddharmasyādhyālambanāya pratyupasthitā
+            | tatkasya hetoḥ? tathā hi bhagavan nirālambanāḥ sarvadharmāḥ | evaṃ bhāvanā bhagavan
+            prajñāpāramitābhāvanā ||</p>
+         
+         
+         <p>punaraparaṃ bhagavan sā prajñāpāramitābhāvanā draṣṭavyā yatra buddhadharmā api nābhimukhībhavanti
+            kutaḥ punaḥ pratyekabuddhadharmāḥ | nāpi śrāvakadharmā abhimukhībhavanti, kaḥ punarvādaḥ
+            pṛthagjanadharmāṇām ||</p>
+         
+         
+         <p>punaraparaṃ bhagavan sā prajñāpāramitābhāvanā yā(yāṃ?) bhāvanāmāgamya acintyānapi
+            buddhadharmānacintyā buddhadharmā iti na vikalpamāpadyate | seyaṃ bhagavan prajñāpāramitābhāvanā
+            bodhisattvānāṃ mahāsattvānāṃ sarvadharmāvikalpāya draṣṭavyā ||</p>
+         
+         
+         <p>punaraparaṃ bhagavan sā prajñāpāramitābhāvanā yā(yāṃ?) bhāvanāmāgamya sarvadharmān
+            buddhadharmān paśyati, sarvadharmānacintyadharmān paśyatyasamanupaśyanatayā | bahubuddhaśatasahasraparyupāsitāste
+            bhagavan kulaputrāḥ kuladuhitaraśca bhaviṣyanti ye imaṃ prajñāpāramitānirdeśaṃ śrutvā
+            adhimokṣyante nottrasiṣyanti na saṃtrasiṣyanti na saṃtrāsamāpātsyante ||</p>
+         
+         
+         <p>punaraparaṃ bhagavan sā prajñāpāramitābhāvanā yāṃ na kaściddharmaḥ saṃkliśyate vā
+            vyavadāyate vā samanupaśyati | evaṃ bhāvanā bhagavan prajñāpāramitābhāvanā | sā caiṣā
+            bhagavan prajñāpāramitābhāvanā yā naiva pṛthagjananānātvaṃ karoti, na śrāvakanānātvam,
+            na pratyekabuddhanānātvam, yāvat samyaksaṃbuddhanānātvaṃ ca karoti | eṣā sā bhagavan
+            prajñāpāramitābhāvanā ||</p>
+         
+         
+         <p>(<span class="bold">SaptaŚ, Vaidya 345</span>) atha khalu bhagavān mañjuśriyaṃ kumārabhūtamāmantrayate sma - kiyantastvayā mañjuśrīḥ
+            tathāgatāḥ paryupāsitāḥ? mañjuśrīrāha - yāvanto bhagavan māyāpuruṣasya cittacaitasikā
+            niruddhāḥ, iyanto mayā bhagavan tathāgatāḥ paryupāsitāḥ | bhagavānāha - na tvaṃ mañjuśrīḥ
+            buddhadharmasaṃsthitaḥ? mañjuśrīrāha - kaścitpunarbhagavan sa dharma upalabhyate yo
+            na buddhadharmasaṃsthitaḥ? bhagavānāha - kasya punarmañjuśrīḥ ete buddhadharmāḥ? mañjuśrīrāha
+            - bhagavan tava tāvadete buddhadharmā iti nāma na saṃvidyate nopalabhyate, kutaḥ punaranyeṣāṃ
+            bhaviṣyati?</p>
+         
+         
+         <p>bhagavānāha - prāptā te mañjuśrīrasaṅgatā? mañjuśrīrāha - tadyadā tāvadahaṃ bhagavan
+            na saṅgataiva, tatkiṃ bhūyo 'hamasaṅgatāmanuprāpsyāmi?</p>
+         
+         
+         <p>bhagavānāha - tatkiṃ niṣaṇṇo 'si mañjuśrīrbodhimaṇḍe? mañjuśrīrāha - bhagavāneva tāvadbodhimaṇḍe
+            na niṣaṇṇaḥ, kathaṃ punarahaṃ niṣatsyāmi bhūtakoṭiṃ pramāṇīkṛtya? bhagavānāha - bhūtakoṭiriti
+            mañjuśrīḥ kasyaitadadhivacanam? mañjuśrīrāha - bhūtakoṭiriti bhagavan satkāyasyaitadadhivacanam
+            | bhagavānāha - kiṃ saṃdhāya mañjuśrīrevaṃ vadasi? mañjuśrīrāha - asanneṣa bhagavan
+            kāyo na satkāyaḥ | naiṣa saṃkrāmati na viṣaṃkrāmati | tenaiṣa kāyo 'satkāya ||</p>
+         
+         
+         <p>atha khalvāyuṣmān śāradvatīputro bhagavantametadavocat - niyatāste bhagavan bodhisattvā
+            mahāsattvā bhaviṣyanti bodhaye, ye imaṃ prajñāpāramitānirdeśaṃ śrutvā adhimokṣyante
+            notrasiṣyanti na saṃtrasiṣyanti saṃtrāsamāpatsyante ||</p>
+         
+         
+         <p>atha khalu maitreyo bodhisattvo mahāsattvo bhagavantametadavocat - āsannībhūtāste
+            bhagavan bodhisattvā mahāsattvā bhaviṣyanti bodhaye, ye imaṃ prajñāpāramitānirdeśaṃ
+            śrutvā adhimokṣyante, notrasiṣyanti na saṃtrasiṣyanti na saṃtrāsamāpatsyante | tatkasmāddhetoḥ?
+            eṣaiva bhagavan paramā bodhiḥ, yaiṣāṃ dharmāṇāmanubodhanā ||</p>
+         
+         
+         <p>atha khalu mañjuśrīḥ kumārabhūto bhagavantametadavocat - buddhā eva te bhagavan bodhisattvā
+            mahāsattvā draṣṭavyāḥ, ye imaṃ prajñāpāramitānirdeśaṃ śrutvā adhimokṣyante, notrasiṣyanti
+            na saṃtrasiṣyanti na saṃtrāsamāpatsyante | tatkasmāddhetoḥ? buddha iti paramārthato
+            'nutpādasyaitadadhivacanam ||</p>
+         
+         
+         <p>atha khalu nirālambā bhaginī bhagavantametadavocat - na te bhagavan bodhisattvā mahāsattvāḥ
+            pṛthagjanadharmān śrāvakadharmān pratyekabuddhadharmān samyaksaṃbuddhadharmānadhyāmbiṣyante,
+            ye imaṃ prajñāpāramitānirdeśaṃ śrutvā adhimokṣyante, notrasiṣyanti na saṃtrasiṣyanti
+            na saṃtrāsamāpatsyante | tatkasmāddhetoḥ? tathā hi bhagavan nirālambāḥ sarvadharmā
+            asaṃvidyamānatvāt | tenaiṣāmālambanaṃ na saṃvidyate ||</p>
+         
+         
+         <p>atha khalu bhagavānāyuṣmantaṃ śāradvatīputramāmantrayate sma - evametacchāradvatīputra,
+            evametat | niyatāste kulaputrāḥ kuladuhitaraśca bhaviṣyanti bodhaye, ye imaṃ prajñāpāramitānirdeśaṃ
+            śrutvā adhimokṣyante, nottrasanti na saṃtrasanti na saṃtrāsamāpatsyante | avinivartanīyabhūmau
+            tvaṃ (<span class="bold">SaptaŚ, Vaidya 346</span>) śāradvatīputra pratiṣṭhitāṃstān kulaputrān kuladuhitaraśca jānīṣva, ye imaṃ prajñāpāramitānirdeśaṃ
+            śrutvā adhimokṣyante, nottrasiṣyanti na saṃtrasiṣyanti na saṃtrāsamāpatsyante, mūrdhnā
+            ca pratigrahīṣyanti | te te śāradvatīputra paramadānapatayo bhaviṣyanti mahādānapatayo
+            viśiṣṭadānapatayaḥ | te te śāradvatīputra śīlasaṃpannā bhaviṣyanti paramaśīlavantaḥ
+            paramaviśiṣṭaśīlaguṇapathaprāptāḥ, ye imaṃ prajñāpāramitānirdeśaṃ śrutvā adhimokṣyante,
+            nottrasiṣyanti na saṃtrasiṣyanti na saṃtrāsamāpatsyante | te te śāradvatīputra paramayā
+            kṣāntyā, parameṇa vīryeṇa, paramairdhyānaiḥ, paramayā apratisamayā prajñayā samanvāgatā
+            bhaviṣyanti | te te śāradvatīputra bodhisattvā mahāsattvā yāvat sarvakāravaropetena
+            sarvajñajñānena samanvāgatā bhaviṣyanti, ye imaṃ prajñāpāramitānirdeśaṃ śrutvā adhimokṣyante,
+            notrasiṣyanti na saṃtrasiṣyanti na saṃtrāsamāpatsyante ||</p>
+         
+         
+         <p>punaraparaṃ bhagavan mañjuśriyaṃ kumārabhūmetadavocat - kaṃ punastvaṃ mañjuśrīḥ arthavaśaṃ
+            saṃpaśyan icchasyanuttarāṃ samyaksaṃbodhimabhisaṃboddhum? mañjuśrīrāha - sacedahaṃ
+            bhagavan bodhaye saṃpratiṣṭheyam, evamahamiccheyamabhisaṃboddhum | nāhaṃ bhagavan
+            bodhiṃ prārthayāmi | tatkasmāddhetoḥ? bodhirevaiṣa yo 'yaṃ mañjuśrīḥ kumārabhūtaḥ
+            ||</p>
+         
+         
+         <p>evamukte bhagavān mañjuśriyaṃ kumārabhūtametadavocat - sādhu sādhu mañjuśrīḥ, yastvamimānyevaṃrūpāṇi
+            gambhīrāṇi gambhīrāṇi sthānāni nirdiśasi | yathāpi tvaṃ pūrvajinakṛtādhikāro 'nupalambhaciracaritabrahmacaryaḥ
+            | mañjuśrīrāha - labdha eva bhagavan dharmaḥ syāt, yadyahamanupalambhacārī syām ||</p>
+         
+         
+         <p>evamukte bhagavān mañjuśriyaṃ kumārabhūtametadavocat - paśyasi tvaṃ mañjuśrīrimāṃ
+            mama śrāvakasaṃpadam? mañjuśrīrāha paśyāmi bhagavan | bhagavānāha - kathaṃ paśyasi?
+            mañjuśrīrāha - tathāhaṃ bhagavan paśyāmi yathā naiva pṛthagjanāna paśyāmi, naiva śaikṣān
+            paśyāmi, naivāśaikṣān paśyāmi | nāpi paśyāmi, nāpi naiva paśyāmi, evaṃ paśyāmi | yannaiva
+            bahūn paśyāmi, nāpyalpakān paśyāmi | yannaiva vinītān paśyāmi, nāpyavinītān paśyāmi
+            ||</p>
+         
+         
+         <p>atha khalvāyuṣmān śāradvatīputro mañjuśriyaṃ kumārabhūtametadavocat - yastvaṃ mañjuśrīḥ
+            śrāvakayānikānevaṃ paśyasi, samyaksaṃbuddhayānikān punastvaṃ kathaṃ paśyasi? mañjuśrīrāha
+            - bodhisattva iti bhadanta śāradvatīputra nāma dharmaṃ na samanupaśyāmi, bodhāya saṃprasthita
+            iti nāma dharmaṃ na samanupaśyāmi | bodhāya caratīti nāma dharmaṃ na samanupaśyāmi
+            | abhisaṃbudhyata iti nāma dharmaṃ na samanupaśyāmi | evaṃ bhadanta śāradvatīputra
+            samyaksaṃbuddhayānikān paśyāmi | śāradvatīputra āha - tathāgataṃ punastvaṃ mañjuśrīḥ
+            kathaṃ paśyasi? mañjuśrīrāha - tiṣṭhatu bhadanta śāradvatīputra mahānāgaḥ | mā mahānāgaṃ
+            ghaṭṭaya ||</p>
+         
+         
+         <p>evamukte āyuṣmān śāradvatīputro mañjuśriyaṃ kumārabhūtametadavocat - buddha iti mañjuśrīḥ
+            kasyaitadadhivacanam? mañjuśrīrāha - yatpunarbhadanta śāradvatīputra ucyate ātmeti,
+            kasyaitadadhivacanam? śāradvatīputra āha - anutpādasyaitanmañjuśrīradhivacanaṃ yaduta
+            ātmeti | mañjuśrīrāha - (<span class="bold">SaptaŚ, Vaidya 347</span>) evametadbhadanta śāradvatīputra yasyaitadadhivacanamātmeti, tasyaitadadhivacanaṃ
+            buddha iti | api tu bhadanta śāradvatīputra apadādhivacanametad yadidamucyate buddha
+            iti | na hyetadbhadanta śāradvatīputra vācābhirvijñāpayituṃ buddha iti | vāgapi bhadanta
+            śāradvatīputra na sukarā nirūpayitum - iyaṃ vāgiti, kutaḥ punarbuddha iti | api tu
+            bhadanta śāradvatīputra yadevaṃ vadasi - kasyaitadadhivacanaṃ buddha iti, yo na samudāgato
+            notpanno na nirotsyate, yo na kenaciddharmeṇa samanvāgato nāpyatra kiṃcitpadamabhedam,
+            apadasyaitadbhadanta śāradvatīputra adhivacanaṃ yaduta buddha iti | tathāgataṃ bhadanta
+            śāradvatīputra paryeṣitukāmena ātmā paryeṣitavyaḥ | ātmeti bhadanta śāradvatīputra
+            buddhasyaitadadhivacanam | yathā ātmā atyantatayā na saṃvidyate nopalabhyate, tathā
+            buddho 'pyatyantatayā na saṃvidyate nopalabhyate | yathā ātmā na kenaciddharmeṇa vacanīyaḥ,
+            tathā buddho 'pi na kenaciddharmeṇa vacanīyaḥ | yatra na kācitsaṃkhyā, sa ucyate buddha
+            iti | na caitadbhadanta śāradvatīputra sukaramājñātumātmeti yadadhivacanam, evametadbhadanta
+            śāradvatīputra na sukaramājñātuṃ buddha iti yadadhivacanam ||</p>
+         
+         
+         <p>atha khalvāyuṣmān śāradvatīputro bhagavantametadavocat - nāyaṃ bhagavan mañjuśrīḥ
+            kumārabhūtastathā deśayati yathā ādikarmikā bodhisattvā ājānīyuḥ | evamukte mañjuśrīḥ
+            kumārabhūtaḥ āyuṣmantaṃ śāradvatīputrametadavocat - nāhaṃ bhadanta śāradvatīputra
+            tathā deśayāmi yathā kṛtāvino 'pyarhanta ājñāsyanti | nāpyahaṃ tathā deśayāmi yathā
+            kaścidvijñāsyati | tatkasmāddhetoḥ? na bodhiḥ kenacidvijñātā, nāpi saṃbuddhā, na dṛṣṭā,
+            na śrutā, na smṛtā, notpāditā, na nirodhitā, noddiṣṭā, nopadeśitā | etāvadeva bhadanta
+            śāradvatīputra yāvatā bodhiḥ | sā ca bodhirna bhāvo nāpyabhāvaḥ | tatkasmāddhetoḥ?
+            na bodhyā kiṃcidabhisaṃboddhavyam, nāpi bodhirbodhimabhisaṃbudhyate ||</p>
+         
+         
+         <p>śāradvatīputra āha - na mañjuśrīrbhagavatā dharmadhāturabhisaṃbuddhaḥ? mañjuśrīrāha
+            - na bhadanta śāradvatīputra bhagavatā dharmadhāturabhisaṃbuddhaḥ | tatkasmāddhetoḥ?
+            tathā hi bhadanta śāradvatīputra dharmadhātureva bhagavān | sacedbhadanta śāradvatīputra
+            bhagavatā dharmadhāturabhisaṃbuddhaḥ syāt, tadyo 'sāvanutpādadhātuḥ sa nirudhyo bhavet
+            | api tu bhadanta śāradvatīputra sa eva dharmadhāturbodhiḥ | tatkasmāddhetoḥ? niḥsattvo
+            hi dharmadhātuḥ | abhāvāḥ sarvadharmā iti bodheradhivacanametat, yo 'sau dharmadhāturiti
+            saṃkhyāṃ gacchati | tatkasmāddhetoḥ? sarvadharmā hyanānātvaṃ buddhaviṣayataḥ | anānātvamiti
+            bhadanta śāradvatīputra avijñaptikaṃ padametat | avijñaptikamiti bhadanta śāradvatīputra
+            naitacchakyaṃ vijñāpayituṃ saṃskṛtatvena vā yāvad asaṃskṛtatvena vā | na tatra kācidvijñaptiḥ,
+            tena tadavijñaptikam | sarvadharmā hi bhadanta śāradvatīputra avijñaptikāḥ | tatkasmāddhetoḥ?
+            tathā hi sarvadharmāṇāṃ prādurbhāvo nāsti yasmin sthitvā vijñapyeran | ye 'pyamī ānantaryaprasṛtā
+            acintyaprasṛtāḥ, te | ye ca acintyaprasṛtā bhūtaprasṛtāste | tatkasmāddhetoḥ? bhūtamiti
+            bhadanta śāradvatīputra abhedapadametat | ye 'pi acintyadharma<span class="bold">sa</span>manvāgatāḥ, (<span class="bold">SaptaŚ, Vaidya 348</span>) naiva te svargagāminaḥ, na apāyagāminaḥ, na parinirvāṇagāminaḥ | tatkasmāddhetoḥ?
+            na hi acintyaṃ gamanāgamanena pratyupasthitam, yāvat na parinirvāṇaṃ gamanāgamanena
+            pratyupasthitam | ye 'pi bhadanta śāradvatīputra catasṛṣu mūlāpattiṣvavasthitāḥ, amūle
+            te 'vasthitāḥ | tatkasmāddhetoḥ? na hi bhadanta śāradvatīputra anutpādasya mūlaṃ vā
+            agraṃ vā iṣyate | amūlo bhikṣuriti apratiṣṭhitasya bhikṣoretadadhivacanam | utpannamadhikaraṇamiti
+            adhikasamāropasyaitadadhivacanam | adhikasamārope bhadanta sāradvatīputra caran loke
+            dakṣiṇīyo bhavati | tatkasmāddhetoḥ? tathā hi samaḥ so 'dhikasamāropaḥ | śrāddho bhadanta
+            śāradvatīputra bhikṣurnārhati śraddhādeyaṃ paribhoktum | aśrāddho bhadanta śāradvatīputra
+            bhikṣurarhati śraddhādeyaṃ paribhoktum | kalpito bhadanta śāradvatīputra bhikṣurnārhati
+            śraddhādeyaṃ paribhoktum | akalpiko bhadanta śāradvatīputra bhikṣurarhati śraddhādeyaṃ
+            paribhoktum | asamupahatanetrīko bhikṣurarhan kṣīṇāsrava ityucyate ||</p>
+         
+         
+         <p>śāradvatīputra āha - kiṃ saṃdhāya mañjuśrīrevaṃ vadasi? mañjuśrīrāha - na samatā samupahatā,
+            yā samatā saiva sā netrī | idaṃ saṃdhāya bhadanta śāradvatīputra evaṃ vadāmi - asamupahatanetrīko
+            bhikṣurarhan kṣīṇāsrava ityucyate | anuttīrṇabhaya(bhava?)iti bhadanta śāradvatīputra
+            arhataḥ kṣīṇāsravasyaitadadhivacanam | śāradvatīputra āha - kiṃ saṃdhāya mañjuśrīrevaṃ
+            vadasi? mañjuśrīrāha - aṇūnyapi tasya bhayāni na saṃvidyante | tatkimuttariṣyati?
+            idaṃ saṃdhāya bhadanta śāradvatīputra evaṃ vadāmi - anuttīrṇabhaya iti arhataḥ kṣīṇāsravasyaitadadhivacanamiti
+            ||</p>
+         
+         
+         <p>śāradvatīputra āha - anutpannakṣāntika iti mañjuśrīḥ kasyaitadadhivacanam? mañjuśrīrāha
+            - yena bhadanta śāradvatīputra aṇurapi dharmo notpāditaḥ, sa ucyate 'nutpannakṣāntika
+            iti ||</p>
+         
+         
+         <p>śāradvatīputra āha - avinīto bhikṣuriti mañjuśrīḥ kasyaitadadhivacanam? mañjuśrīrāha
+            - avinīto bhikṣuriti bhadanta śāradvatīputra arhataḥ kṣīṇāsravasyaitadadhivacanam
+            | tatkasmāddhetoḥ? avinayo hi vinītaḥ, na vinayo vinītaḥ | idaṃ saṃdhāya bhadanta
+            śāradvatīputra evaṃ vadāmi - avinīto bhikṣuriti arhataḥ kṣīṇāsravasyaitadadhivacanam
+            ||</p>
+         
+         
+         <p>śāradvatīputra āha - adhicitte caratīti mañjuśrīḥ kasyaitadadhivacanam? mañjuśrīrāha
+            - adhicitte caratīti bhadanta śāradvatīputra pṛthagjanasyaitadadhivacanam | śāradvatīputra
+            āha - kiṃ saṃdhāya mañjuśrīrevaṃ vadasi? mañjuśrīrāha - tathā hi bhadanta śāradvatīputra
+            so 'dhikaroti ||</p>
+         
+         
+         <p>evamukte āyuṣmān śāradvatīputro mañjuśriyaṃ kumārabhūtametadavocat - sādhu sādhu mañjuśrīḥ,
+            yathā arhan kṣīṇāsravastathā kathayasi | mañjuśrīrāha - evametadbhadanta śāradvatīputra
+            yathā vadasi | kṣīṇāsravo 'smi, na cārhan | tatkasmāddhetoḥ? tathā hi bhadanta śāradvatīputra
+            kṣīṇā me āsravāḥ ḥrāvakabhūmau vā pratyekabuddhabhūmau vā | anena bhadanta ḥāradvatīputra
+            paryāyeṇa kṣīṇāsravo na cārhan ||</p>
+         
+         
+         <p>(<span class="bold">SaptaŚ, Vaidya 349</span>) atha khalu bhagavān mañjuśriyaṃ kumārabhūtametadavocat - syānmañjuśrīḥ paryāyo yadbodhisattvo
+            mahāsattvo bodhimaṇḍe niṣaṇṇo 'bhavyo 'nuttarāṃ samyaksaṃbodhimabhisaṃboddhum? mañjuśrīrāhasyādbhagavan
+            paryāyaḥ yabdodhisattvo mahāsattvo bodhimaṇḍe niṣaṇṇaḥ abhavyo 'nuttarāṃ samyaksaṃbodhimabhisaṃboddhum
+            | tatkasya hetoḥ? tathā hi bodhāvaṇurapi dharmo na saṃvidyate nopalabhyate | tenocyate
+            'nuttarā samyaksaṃbodhiriti | sā ca bodhiranutpannā | tatra na kaściddharmaḥ saṃvidyate
+            nopalabhyate, yo bodhimaṇḍe niṣīdet, yo vā bodhimabhisaṃbudhyet, yena vā bodhirabhisaṃbudhyeta,
+            yo vā bodhimaṇḍāduttiṣṭhediti | anena bhagavan paryāyeṇa abhavyo bodhisattvo mahāsattvo
+            bodhimaṇḍe niṣaṇṇo 'nuttarāṃ samyaksaṃbodhimabhisaṃboddhum ||</p>
+         
+         
+         <p>evamukte bhagavān mañjuśriyaṃ kumārabhūtametadavocat - bodhiriti mañjuśrīḥ kasyaitadadhivacanam?
+            mañjuśrīrāha - bodhiriti bhagavan pañcānāmānantaryāṇāmetadadhivacanam | tatkasmāddhetoḥ?
+            tathā hi bodhiprakṛtikānyeva tāni pañcānantaryāṇi abhāvatvāt | tenaiṣā bodhirānantaryaprakṛtikā,
+            anantaryāṇāmabhisaṃbudhyanā bodhiḥ, na ca pratyakṣībhāvanā sarvadharmeṣu bodhiḥ |
+            tatkasmāddhetoḥ? sarvadharmā hi atyantatayā apratyakṣāḥ | te na kenacidabhisaṃbuddhāḥ,
+            na dṛṣṭāḥ, na jñātāḥ, yāvat na viditāḥ | evameṣā bodhiḥ | api tu khalu punarbhagavan
+            abhimānikaiḥ sthāpitānyetāni abhisaṃbudhāni(ddhā? ), yāvat pratyakṣīkṛtāni ||</p>
+         
+         
+         <p>evamukte bhagavān mañjuśriyaṃ kumārabhūtametadavocat - kiṃ te mañjuśrīḥ mamāntike
+            evaṃ bhavati - tathāgato me tathāgata iti? mañjuśrīrāha - no hīdaṃ bhagavan | tatkasmāddhetoḥ?
+            na me bhagavan evaṃ bhavet - tathāgato me tathāgata iti | tatkasmāddhetoḥ? [tathā
+            caiva tathatā ca] yathā ca tathātā, tathā caiṣa tathāgataḥ | tathā hi bhagavan na
+            tathatā tathāgataṃ vijñapayati, nāpi tathāgatastathatāṃ vijñapayati | tatkasmāddhetoḥ?
+            tathā hi bhagavan paramārthato 'bhāvā tathatā | abhāvastathāgataḥ | tasmāttarhi bhagavan
+            na me evaṃ bhavati - tathāgato me tathāgata iti | api tu tathāgata iti bhagavan nāmadheyamātrametat
+            | tat kataro 'sau tathāgato yatra me evaṃ bhaviṣyati - tathāgato me tathāgata iti?
+            bhagavānāha - sa(tat?)saṃśayaste mañjuśrīstathāgate? mañjuśrīrāha - no hīdaṃ bhagavan
+            | syādatra me bhagavan saṃśayaḥ, sacet kācittathāgatapariniṣpattiḥ syat, tathāgatotpattirvā
+            tathāgataparinirvāṇaṃ vā ||</p>
+         
+         
+         <p>evamukte bhagavān mañjuśriyaṃ kumārabhūtametadavocat - na tava mañjuśrīrevaṃ bhavati
+            - utpannastathāgata iti? mañjuśrīrāha - syānme bhagavan utpannastathāgata iti, saceddharmadhātorutpattiḥ
+            syāt ||</p>
+         
+         
+         <p>bhagavānāha - nādhimucyase tvaṃ mañjuśrīḥ gaṅgānadīvālukopamā buddhā bhagavantaḥ parinirvṛtā
+            iti? mañjuśrīrāha - kaścit punarbhagavan ekaviṣayā buddha bhagavanto yadida<span class="bold">ma</span>cintyaviṣayāḥ? (<span class="bold">SaptaŚ, Vaidya 350</span>) bhagavānāha - evametanmañjuśrīḥ, ekaviṣayā buddhā bhagavanto yadidamacintyaviṣayāḥ
+            | mañjuśrīrāha - kaścitpunarbhagavan etarhi tiṣṭhati? bhagavānāha - evametanmañjuśrīḥ
+            | mañjuśrīrāha - tena hi bhagavan ete gaṅgānadīvālukopamā buddhā bhagavanto na parinirvṛtāḥ
+            | tatkasmāddhetoḥ? tathā hi bhagavan ekaviṣayā buddhā bhagavanto yadidamacintyaviṣayāḥ
+            | na ca acintyatā utpadyate nirudhyate vā | tasmādbhagavan bhagavato vā abhisaṃbuddhena
+            (ddhasya?) ye 'pi te anāgate 'dhvani tathagatā arhantaḥ samyaksaṃbuddhā bhaviṣyanti,
+            abhisaṃbuddhā eva te | tatkasmāddhetoḥ? na hi acintyatā atītā vā anāgatā vā pratyutpannā
+            vā | tasmādbhagavan vibhramasteṣāṃ lokasaṃniveśaḥ | prapañcayanti te bhagavan lokasaṃniveśaṃ
+            yeṣāmevaṃ bhavati - utpannastathāgato yāvat parinirvāsyati veti ||</p>
+         
+         
+         <p>evamukte bhagavān mañjuśriyaṃ kumārabhūtametadavocat - tena hi tvaṃ mañjuśrīḥ idaṃ
+            tathāgatācintyam, acintyaṃ niścintyaṃ tathāgatasya vā agrata udāhārairudāhareḥ, avaivartikasya
+            bodhisattvasya mahāsattvasya vā arhato vā kṣīṇāsravasya | tatkasmāddhetoḥ? tathā hi
+            te śrutvā naivānujñāsyanti, naiva pratikrokṣyanti | tatkasmāddhetoḥ? tathā hi taccintyamacintyaṃ
+            niścintyam | mañjuśrīrāha - acintyānāṃ niścintyānāṃ bhagavan sarvadharmāṇāṃ ko 'trānujñāsyati
+            vā pratikrokṣyati vā? bhagavānāha - yathaiva mañjuśrīḥ tathāgato niścintyaḥ, tathaiva
+            pṛthagjanā api niścintyāḥ | mañjuśrīrāha - pṛthagjanā api bhagavan tathaiva niścintyāḥ?
+            bhagavānāha - evametanmañjuśrīḥ | tatkasmāddhetoḥ? tathā hi sarvāṇyacintyāni niścintyāni
+            | mañjuśrīrāha - tatkasmādbhagavānevamāha - yathaiva tathāgato niścintyaḥ, evaṃ pṛthagjanā
+            api niścintyā iti? nanu bhagavan pṛthagjanatvamapi niścintyam | tatkasmāddhetoḥ? niścintyā
+            hi bhagavan sarvadharmāḥ | ye kecidbhagavan parinirvāṇāya prasthitāḥ, vihariṣyante
+            te bhagavan | tatkasmāddhetoḥ? yaiva niścintyatā tadeva parinirvāṇam | tasmāttarhi
+            bhagavan nāsti niścintyatāyāṃ nānātvam | ye 'pi bhagavan evamāhuḥ - ime pṛthagjanadharmāḥ,
+            ime āryadharmā iti, te idaṃ vacanīyāḥ - kalyāṇamitrāṇi tāvatparyupāsadhvam, tataḥ
+            paścājjñāsyatha - ime pṛthagjanadharmāḥ ime āryadharmā iti ||</p>
+         
+         
+         <p>evamukte bhagavān mañjuśriyaṃ kumārabhūtametadavocat - icchasi tvaṃ mañjuśrīḥ tathāgataṃ
+            sarvasattvānāmagryam? mañjuśrīrāha - iccheyamahaṃ bhagavan tathāgataṃ sarvasattvānāmagryam,
+            sacediha kācitsattvapariniṣpattiḥ syāt |</p>
+         
+         
+         <p>bhagavānāha - icchasi tvaṃ mañjuśrīḥ tathāgatamacintyadharmasamanvāgatam? mañjuśrīrāha
+            - iccheyamahaṃ bhagavan tathāgatamacintyadharmasamanvāgatam, sacetkaścidacintyadharmasamanvāgataḥ
+            syāt ||</p>
+         
+         
+         <p>bhagavānāha - icchasi punastvaṃ mañjuśrīrevam - ime śrāvakāstathāgatena vinītā iti?
+            mañjuśrīrāha - iccheyamahaṃ bhagavan evam - ime śrāvakāstathāgatena vinītā iti, sacet
+            kaści<span class="bold">da</span>cintyadhātuvinayaṃ (<span class="bold">SaptaŚ, Vaidya 351</span>) gacchet | na bhagavan buddhotpādaḥ kaśyacidupakāreṇa vā apakāreṇa vā pratyupasthitaḥ
+            | taktasmāddhetoḥ? tathā hi sthita eṣa dhātuḥ, asaṃkīrṇa eṣa dhātuḥ, yaduta acintyadhātuḥ
+            | tasmiśca dhātau na śrāvakanānātvam, yāvat na pṛthagjananānātvamupalabhyate ||</p>
+         
+         
+         <p>bhagavānāha - na tvaṃ mañjuśrīrevamicchasi - anuttaraṃ puṇyakṣetraṃ tathāgata iti?
+            mañjuśrīrāha - abhāvatvābhdagavan puṇyakṣetraṃ tathagataḥ, tenaitadanuttaraṃ puṇyakṣetram
+            | yenaitatpuṇyakṣetraṃ nāpuṇyakṣetram, tenaitadanuttaraṃ puṇyakṣetram | api tu khalu
+            punarbhagavan nātra kaściddharmaḥ samudāgacchati na kṣīyate | evaṃ tatpuṇyakṣetram
+            | tatra ca bījaṃ prakṣiptaṃ na vivardhate na parihīyate | bhagavānāha - kiṃ saṃdhāya
+            mañjuśrīrevaṃ vadasi - tatra kṣetre bījamavaropitaṃ na vivardhate na parihīyate iti?
+            mañjuśrīrāha - tathā hi bhagavan acintyaṃ tatkṣetram, evaṃ tatpuṇyakṣetram ||</p>
+         
+         
+         <p>atha khalu tasyāṃ velāyāṃ buddhānubhāvena ṣaḍvikāraṃ mahāpṛthivīcālo 'bhūt, ṣoḍaśānāṃ
+            ca bhikṣusahasrāṇāmanupādāyāsravebhyaścittāni vimuktāni, saptānāṃ bhikṣuṇīśatānāṃ
+            trayāṇāṃ copāsakaśatānāṃ catvāriṃśataścopāsikāsahasrāṇāṃ ṣaṣṭeśca kāmāvacarāṇāṃ devakoṭīniyutaśatānāṃ
+            virajo vigatamalaṃ dharmeṣu dharmacakṣurutpannam ||</p>
+         
+         
+         <p>atha khalvāyuṣmānānanda utthāyāsanādekāṃsacīvaraṃ prāvṛtya dakṣiṇaṃ jānumāṇḍalaṃ pṛthivyāṃ
+            pratiṣṭhāpya yena bhagavāṃstenāñjaliṃ praṇamya bhagavantametadavocat - ko bhagavan
+            hetuḥ, kaḥ pratyayo 'sya mahataḥ pṛthivīcālasya loke prādurbhāvāya? evamukte bhagavānāyuṣmāntamānandametadavocat
+            - ayamānanda puṇyakṣetranirdeśo nāma dharmaparyāyaḥ pūrvakairapi buddhairbhagavadbhirasminneva
+            pṛthivīpradeśe bhāṣitaḥ | ayamānanda hetuḥ, ayaṃ pratyayo 'sya mahataḥ pṛthivīcālasya
+            loke prādurbhāvāya ||</p>
+         
+         
+         <p>saptaśatikā prajñāpāramitā samāptā ||</p>
+         
+         </div>
+   </body>
+</html>

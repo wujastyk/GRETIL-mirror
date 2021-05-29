@@ -1,0 +1,655 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Nityakarmapūjāvidhi (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Nityakarmapūjāvidhi</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nityakarmapUjAvidhi.xml">sa_nityakarmapUjAvidhi.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>members of the Digital Sanskrit Buddhist Canon Input Project</p>
+      <p class="noindent"><b>Contribution: </b>members of the Digital Sanskrit Buddhist Canon Input Project</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Ngawang Samten &amp; J. Pandey: Nityakarmapūjāvidhiḥ. in: Dhīḥ Journal of rare Buddhist
+            Texts Research, Unit 33 (2002), p. 155-166.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="hi">highlighted text</span></li>
+         <li><span class="note">remarks</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/nitkarpu.htm">nitkarpu.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Nityakarmapujavidhi = Nkpv
+            <br />Based on the ed. by Ngawang Samten &amp; J. Pandey: Nityakarmapūjāvidhiḥ
+            <br />in: Dhīḥ Journal of rare Buddhist Texts Research,
+            <br />Unit 33 (2002), p. 155-166.
+            <br />
+            <br />Input by members of the Sanskrit Buddhist Input Project.
+            <br />With kind permission of the Digital Sanskrit Buddhist Canon Project
+            <br />of Nagarjuna Institute, Nepal
+            <br />and University of the West, Rosemead, California, USA
+            <br />(www.uwest.edu/sanskritcanon)
+            <br />
+            <br />The transliteration emulates the conventions of Nagari script.
+            <br />Therefore, many word boundaries are not marked by blanks.
+            <br />
+            <br />BOLD for pagination of Samten/Pandey's edition (added)
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         <span class="note"><span class="bold">Nkpv_157</span></span>
+         
+         <p>nityakarmapūjāvidhiḥ
+            oṃ namaḥ śrīvajrasattvāya |</p>
+         
+         
+         <p>atha nityakarmapūjāvidhiḥ prārabhyate | tatrādau oṃ hrīṃ svāhā 3 kāyaviśodhane svāhā
+            | iti mantreṇa tridhā ācamya pūjābhāṇḍasaṃkalpaṃ kuryāt | tadyathā - oṃ adya śrīmacchrītyādinā
+            saṃkalpoccāraṇānantaramidaṃ mantraṃ paṭhet | oṃ namo bhagavate puṣpaketurājāya tathāgatāyārhate
+            samyaksaṃbuddhāya | tadyathā - oṃ puṣpe 2 mahāpuṣpe supuṣpe puṣpodbhave puṣpasaṃbhave
+            puṣpāvakiraṇe svāhā | idaṃ sapuṣpadhūpadīpa gandharasanaivedyādiyuktaṃ suvarṇapuṣpabhājanaṃ
+            saṃkalpayāmyaham | tato prāṇāyāmādi nyāsayogādi kṛtvā guruṃ ca namaskṛtya śaṅkhaṃ
+            pūjayet || oṃ gurubhyo namaḥ 3 samasta guru ājñā | oṃ ā hūṃ vaṃ vajrodake hūṃ svāhā
+            || śirasi śaṅkhodakenābhiṣiñcet -</p>
+         
+         
+         <p>
+            yathā hi jātamātreṇa snāpitāḥ sarvatathāgatāḥ |<br />
+            tathāhaṃ snāpayiṣyāmi śuddhadivyena vāriṇā ||
+            </p>
+         
+         
+         <p>oṃ sarvatathāgatābhiṣekasamaśriye hūṃ | punaḥ | omhrī svāheti mantreṇācamya pūrvoktamantreṇa
+            pūjābhāṇḍamadhiṣṭhāya puṣpaikaṃ trikāyādhiṣṭhānaṃ kṛtvā bhūmau nyaset | oṃ āḥ huṃ
+            3 tiṣṭha vajrāsane huṃ | pārśvābhyāṃ kṣipet dvau puṣpau | oṃ sarvapāpānapanaya huṃ
+            | ekaṃ śirasi nyasedanena mantreṇa - oṃ maṇidhari vajriṇi mahāpratisare rakṣa 2 māṃ
+            sarvasattvānāṃ ca huṃ 2 phaṭ svāhā | maṇḍale tilakaṃ kṛtvātmānaṃ ca bhūṣayet | oṃ
+            vajratilakabhūṣaṇe svāhā | sajalapuṣpākṣatavāsamaṇḍale pātayedanena mantreṇa, oṃ vajrodake
+            hūṃ | oṃ vajragomaye huṃ | oṃ vajrabhūmau surekhe sarvatathāgatādhiṣṭhānādhitiṣṭhantu
+            svāhā | etacca paṭhet |</p>
+         
+         
+         <p>
+            dānaṃ gomayambunā ca sahitaṃ śīlaṃ ca sammārjanaṃ<br />
+            kṣāntiṃ kṣudrapipīlikāpanayanaṃ vīryaṃ kriyāsthāpanam |<br />
+            dhyānaṃ tatkṣaṇamekacittakaraṇaṃ prajñāsurekhojvalā<br />
+            etāḥ pāramitā ṣaḍeva labhate kṛtvā munermaṇḍalam ||
+            </p>
+         
+         <span class="note"><span class="bold">Nkpv_158</span></span>
+         
+         <p>
+            bhavati kanakavarṇaḥ sarvarogaurvimuktaḥ<br />
+            suramanujaviśiṣṭaścandravaddīptakāntiḥ |<br />
+            dhanakanakasamṛddhirjāyate rājavaṃśe<br />
+            sugatavaragṛhe 'smin kāyakarmāṇi kṛtvā ||
+            </p>
+         
+         
+         <p>oṃ sule(re)khe sarvatathāgatādhiṣṭhānādhitiṣṭhantu svāhā | puṣpaikaṃ hastasyopari
+            nyasya nyubjahastaṃ kṛtvā maṇḍale kṣipet | oṃ candrārkavimale svāhā | maṇḍalaṃ pradakṣiṇīkṛtya
+            puṣpaikaṃ balibhāṇḍe kṣipet | oṃ vajrasattva sarvavighnānutsādaya huṃ | pūrvādikrameṇa
+            dviparivartanaṃ kṛtvā ekaviṃśatipuṣpapātanaṃ kuryāt maṇḍale | oṃ haḥ mahāmadhye merave
+            namaḥ | oṃ hrīṃ madhye merave namaḥ | oṃ sūṃ sūkṣmamadhye merave namaḥ | iti madhye
+            | oṃ yaṃ pūrvavidehāya namaḥ | pū | oṃ raṃ jambūdvīpāya namaḥ | da | oṃ laṃ aparagodānīye
+            namaḥ | pa| oṃ vaṃ uttarakurave namaḥ | u | oṃ yā upadvīpāya namaḥ | a | oṃ rā upadvīpāya
+            namaḥ | nai | oṃ lā upadvīpāya namaḥ | vā | oṃ vā upadvīpāya namaḥ | ī | tathaiva
+            | īṃ yaḥ gajaratnāya namaḥ | īṃ raḥ aśvaratnāya namaḥ | oṃ laḥ puruṣaratnāya namaḥ
+            | oṃ vaḥ strīratnāya namaḥ | oṃ yā khaḍgaratnāya namaḥ | oṃ rā cakraratnāya namaḥ
+            | oṃ lā maṇiratnāya namaḥ | oṃ vā sarvanidhānebhyo namaḥ | ī | oṃ caṃ candrāya namaḥ
+            | da| oṃ sūṃ sūryāya namaḥ | u | oṃ āḥ huṃ śrīvajrasattvagurave namaḥ | madhye | pañcopacārapūjā
+            | oṃ vajragandhe svāhā | gandhaḥ | oṃ vajrapuṣpe svāhā | puṣpaṃ | oṃ vajradhūpe svāhā
+            | dhūpaṃ | oṃ vajranaivedye svāhā | naivedyaṃ | oṃ vajradīpe svāhā | dīpaṃ | oṃ vajralājāya
+            svāhā | lājāṃ | puṣpākṣatasahitajaladhārāṃ maṇḍale pātayet -</p>
+         
+         
+         <p>
+            oṃ catūratnamayaṃ merumaṣṭadvīpopaśobhitam |<br />
+            nānāratnasamākīrṇaṃ tadye 'nuttaradāyinaḥ ||
+            </p>
+         
+         
+         <p>
+            gurubhyo buddhadharmebhyaḥ saṃghebhyaśca tathaiva ca |<br />
+            niryātayāmi bhāvena sampūrṇaṃ ratnamaṇḍalam ||
+            </p>
+         
+         
+         <p>stutiḥ | oṃ āḥ huṃ (hūṃ) śrīmadvajrasattvasaguruvaracaraṇakamalāya samyagjñānāvabhāsanakarāya
+            namo 'haṃ namaste 'stu namo namaḥ bhaktyāhaṃ tvāṃ namasyāmi gurunātha prasīda me |
+            kṛtāñjalinā tiṣṭhet |</p>
+         
+         <span class="note"><span class="bold">Nkpv_159</span></span>
+         
+         <p>
+            yasya prasādakiraṇaiḥ sphuritātmatattva<br />
+            ratnaprabhāparikaraiḥ prahatāndhakārāḥ |<br />
+            paśyantyanāviladṛśaiḥ savilāsamuccai<br />
+            stasmai namaskṛtiriyaṃ gurubhāskarāya ||
+            </p>
+         
+         
+         <p>
+            namo buddhāya guruve namo dharmāya tāyine |<br />
+            namaḥ saṃghāya mahate tribhyo 'pi satataṃ namaḥ ||
+            </p>
+         
+         
+         <p>
+            sarvabuddhaṃ namasyāmi dharmaṃ ca jinabhāṣitam |<br />
+            saṃghaṃ ca śīlasampannaṃ ratnatraya namo 'stu te ||
+            </p>
+         
+         
+         <p>
+            ratnatraye me śaraṇaṃ sarvaṃ pratideśayāmyaham |<br />
+            anumode jagatpuṇyaiḥ buddhabodhau dadhe manaḥ ||
+            </p>
+         
+         
+         <p>
+            ābodhau śaraṇaṃ yāmi buddhadharmagaṇottame |<br />
+            bodhicittaṃ karomyeṣa svaparārthaprasiddhaye ||
+            </p>
+         
+         
+         <p>
+            utpādayāmi varabodhicittaṃ nimantrayāmyahaṃ sarvasattvān |<br />
+            iṣṭāṃ cariṣye varabodhicaryāṃ buddho bhaveyaṃ jagato hitāya ||
+            </p>
+         
+         
+         <p>
+            deśanāṃ sarvapāpānāṃ puṇyānāṃ cānumodanām |<br />
+            kṛtopavāsaṃ cariṣyāmi āryāṣṭāṅgamupoṣadham ||
+            </p>
+         
+         
+         <p>
+            mayā bālena mūḍhena yatkiñcitpāpamāgatam |<br />
+            prakṛtyāvadyasāvadyaprajñaptyāvadyameva ca ||
+            </p>
+         
+         
+         <p>
+            tadatyayaṃ deśayāmyeṣa nāthānāmagrataḥ sthitaḥ |<br />
+            kṛtāñjalirduḥkhabhītaḥ praṇipatya punaḥ punaḥ ||
+            </p>
+         
+         
+         <p>
+            atyayamatyayaṃ tena pratigṛhṇantu nāyakāḥ |<br />
+            na bhadrakamidaṃ cātha na kartavyaṃ punarmayā ||
+            </p>
+         
+         
+         <p>yathā te tathāgatā āryārhantaḥ samyaksaṃbuddhā buddhajñānena buddhacakṣuṣā jānanti
+            paśyanti yat kuśalamūlaṃ yajjātikaṃ yannikāyaṃ yādṛśaṃ yatsvabhāvaṃ yallakṣaṇaṃ (<span class="bold">Nkpv_160</span>) yathādharmatayā saṃvidyate | tatkuśalamūlaṃ nityamanuttarāyāṃ samyaksaṃbodhau pariṇāmitaṃ
+            tathāhaṃ pariṇāmayāmi |</p>
+         
+         
+         <p>
+            tathā mamānena samānakālaṃ lokasya duḥkhaṃ ca sukhodayaṃ ca |<br />
+            hartuṃ ca kartuṃ ca sadāstu śaktistamaḥprakāśaṃ ca yathaiva bhānoḥ ||
+            </p>
+         
+         
+         <p>
+            dṛṣṭaḥ śruto 'nusmṛtimāgato vā pṛthakkathāyogamupāgato vā |<br />
+            sarvaprakāraṃ jagato hitāya kuryāmajastraṃ sukhasaṃhitāya || iti ||
+            </p>
+         
+         
+         <p>atrāvasare jāpayogaṃ kuryāt | tadāvasāne 'mṛtakuṇḍalivalibhāṇḍe śaṅkhodakaculukaṃ
+            dadyādanena oṃ hrīṃ ācamanaṃ [prokṣaṇaṃ] praticcha svāhā | bhāvanā | tato yaṅkāreṇa
+            vāyumaṇḍalaṃ raṅkāreṇāgnimaṇḍalaṃ tadupari trimuṇḍakṛtacūḍikopari sitapadmabhājanaṃ
+            tatra bhaktādiparipūritaṃ tatropari bruṃ āṃ jiṃ khaṃ huṃ lāṃ māṃ pāṃ tāṃ vaṅkārajātaḥ
+            pañcāmṛtapañcapradīparupaṃ niṣpādya tato garuḍamudrāṃ darśayet | phreṃ 3 | punaḥ śaṅkhodakaculukaṃ
+            dadyādanena - oṃ indrādilokapālebhyaḥ pādyācamanaṃ [nārghaṃ] prokṣaṇaṃ praticcha svāhā
+            | jaḥ huṃ vaṃ horiti mudrāṃ pradarśya indrādidaśadikpālalokapālamudrāṃ ca pradarśya
+            pūrvādikrameṇa balibhāṇḍe puṣpaṃ pātayedebhirmantraiḥ | oṃ indrāya svāhā | oṃ varuṇāya
+            svāhā | oṃ kuverāya svāhā | oṃ agnaye svāhā | oṃ nairṛtye svāhā | oṃ vāyave svāhā
+            | oṃ īśānāya svāhā | oṃ ūrdhvaṃ brahmaṇe svāhā | oṃ adhaḥ pṛthivībhyaḥ svāhā | oṃ
+            sūryāya grahādhipataye svāhā | oṃ candrādi(ya)nakṣatrādhipataye svāhā | oṃ nāgebhyaḥ
+            svāhā | oṃ asurebhyaḥ svāhā | oṃ yakṣebhyaḥ svāhā | oṃ sarvadigvidiglokapālebhyaḥ
+            svāhā | pañcopacārapūjā pūrvavat stutiḥ |</p>
+         
+         
+         <p>
+            indrādayo mahāvīrā lokapālā maharddhikāḥ |<br />
+            kīlayantu daśakrodhā vighnahartā namo 'stu te ||
+            </p>
+         
+         
+         <p>tarpaṇam -</p>
+         
+         
+         <p>
+            bibhrāṇaṃ buddhabimbaṃ divasakaradhara rāśi yā bindulekham |<br />
+            maitrīyaṃ cārurūpaṃ śirasi varatanuṃ mañjughoṣaṃ ca gātram ||
+            </p>
+         
+         <span class="note"><span class="bold">Nkpv_161</span></span>
+         
+         <p>
+            padmasthaṃ daṇḍarūpaṃ kuliśavaratanuṃ vajriṇaṃ bhīmanādam |<br />
+            vijñānaṃ jñānarūpaṃ nihitabhavabhayaṃ pañcamūrti praṇamya ||
+            </p>
+         
+         
+         <p>sākṣatapuṣpajaladhārāṃ balibhāṇḍe pātayet |</p>
+         
+         
+         <p>
+            indrādivajrī saha devasaṃghairimaṃ ca gṛhṇantu baliṃ viśiṣṭam |<br />
+            agniryamo nairṛtibhūpatiśca apāṃpatirvāyudhanādhipaśca ||
+            </p>
+         
+         
+         <p>
+            īśānabhūtādhipatiśca devā ūrdhvaśca candrārkapitāmahaśca |<br />
+            devāḥ samastā bhuvi ye ca nāgāḥ dharādharā guhyagaṇaiḥ sametāḥ ||
+            </p>
+         
+         
+         <p>
+            pratipratitveka nivedayantu svakasvakāścaiva diśāsu bhūtāḥ |<br />
+            gṛhṇantu tuṣṭāḥ sagaṇaiḥ sametāḥ sa putradārāḥ saha bhṛtyasaṃghaiḥ ||
+            </p>
+         
+         
+         <p>
+            hṛṣṭāḥ prasannāḥ sraggandhāmālyaṃ puṣpaṃ balirdhūpavilepanaṃ ca |<br />
+            gṛhṇantu bhuñjantu pibantu cedaṃ idaṃ ca karmaṃ saphalaṃ bhavenme ||
+            </p>
+         
+         
+         <p>huṃ huṃ phaṭ phaṭ svāhā punastathaiva ca | oṃ namo ratnatrayāya oṃ caṇḍavajrapāṇaye
+            mahākrodhāya daṃṣṭrotkaṭabhairavāya asimuśalapāśagṛhītahastāya | oṃ amṛtakuṇḍali kha
+            kha khāhi 2 tiṣṭha 2 bandha 2 hana 2 daha 2 paca 2 garjaya 2 tarjaya 2 visphoṭaya
+            2 mahāgaṇapataye jīvitāntakarāya huṃ huṃ phaṭ 2 svāhā | tatra puṣpādi pūjā | tadvidhiṃ
+            devatāpūjāyāṃ darśaddīpānte lājābhiretadgāthayā pūjayet |</p>
+         
+         
+         <p>
+            ye dharmā hetuprabhavā hetusteṣāṃ tathāgato hyavadat |<br />
+            teṣāṃ ca yo nirodha evaṃvādī mahāśramaṇaṃ ||
+            </p>
+         
+         
+         <p>pūṣpākṣatajalaiḥ pūjayedanena | oṃ akāro mukhaḥ sarvadharmāṇāmādyanutpannatvāt | oṃ
+            āḥ huṃ (hūṃ) phaṭ svāhā | dakṣiṇā | oṃ mañjuśriye kumārabhūtāya bodhisattvāya mahāsattvāya
+            mahākāruṇikāya taṇḍuladakṣiṇā saṃpraḍho(to)ṣayāmyaham | sākṣatāñjalenā tiṣṭhet | oṃ
+            vajrasattvasamayamanupālaya vajrasattvattvenopatiṣṭha dṛḍho me bhava sutoṣyo me bhava
+            supoṣyo me bhava anurakto me bhava sarvasiddhiṃ me prayaccha sarvakarmasu ca me cittaśriyaṃ
+            kuru huṃ ha ha ha ha ho bhagavan sarvatathāgata vajraṃ mā me muñca vajrībhava mahāsamayasattva
+            āḥ | iti gurumaṇḍalakriyā |</p>
+         
+         <span class="note"><span class="bold">Nkpv_162</span></span>
+         
+         <p>tato devatāpūjārthaṃ devatāyā śiraḥpradeśe puṣpamāropya etadbhāvanāvākyaṃ paṭhet |
+            oṃ svabhāvaśuddhāḥ sarvadharmāḥ svabhāvaśuddho 'ham | oṃ śūnyatājñānavajrasvabhāvātmako
+            'ham | dhūpavākyam | oṃ bhagavan śrī amukavajravidyārāja namo 'stu te |</p>
+         
+         
+         <p>
+            kartumicchāmi te nātha maṇḍalaṃ karuṇātmaka |<br />
+            śiṣyāṇāmanukampāya yuṣmākaṃ pūjanāya ca ||
+            </p>
+         
+         
+         <p>
+            tanme bhaktasya bhagavan prasādaṃ kartumarhasi |<br />
+            samanvāharantu māṃ buddhā jagaccakrakriyārthadāḥ ||
+            </p>
+         
+         
+         <p>
+            phalasthā bodhisattvāśca yā cānyā mantradevatāḥ |<br />
+            devatā lokapālāśca bhūtāḥ saṃbodhisādhitāḥ ||
+            </p>
+         
+         
+         <p>
+            śāsanābhiratāḥ sattvā ye kecidvajracakṣuṣaḥ |<br />
+            anukampāmupādāya saśiṣyasya ca tanmama ||
+            </p>
+         
+         
+         <p>amukadevatānāmācāryam arcayiṣyāmi | tatra vajradhūpaṃ niryātayāmi tatra vajradhūpaṃ
+            praticcha svāhā | tataḥ sākṣāt puṣpāñjaliṃ dhṛtvaitadadhyeṣaṇāvākyaṃ paṭhet -</p>
+         
+         
+         <p>
+            adya me saphalaṃ janma saphalaṃ jīvitaṃ ca me |<br />
+            samayaṃ sarvadevānāṃ bhāvito 'haṃ na saṃśayaḥ ||
+            </p>
+         
+         
+         <p>
+            avaivartī bhaviṣyāmi bodhicittaikacetasā |<br />
+            tathāgatakulotpattirmamādya syānna saṃśayaḥ ||
+            </p>
+         
+         
+         <p>
+            agro me divaso hyadya yajño me 'dya hyanuttaraḥ |<br />
+            sannipāto bhavo hyadya sarvabuddhanimantraṇāt ||
+            </p>
+         
+         
+         <p>oṃ kusumāñjalinātha horiti mantraṃ paṭhan devatāsannidhau prakiret |</p>
+         
+         
+         <p>tadanu snānavidhiḥ || tatrādau suvarṇādibhājane śubhrasvacchasunirmalakāṃsyadarpaṇaṃ
+            dhṛtvā tatra praṇavamekaṃ suvarṇaśalākayā vilikhya tasminneva jaladhārāṃ pātayedanayā
+            gāthayā -</p>
+         
+         <span class="note"><span class="bold">Nkpv_163</span></span>
+         
+         <p>
+            oṃ yanmaṅgalaṃ sakalasattvahṛdi sthitasya<br />
+            sarvātmakasya varadharmakulādhipasya |<br />
+            niḥśeṣadoṣarahitasya mahāsukhasya<br />
+            tanmaṅgalaṃ bhavatu te paramābhiṣekaḥ ||
+            </p>
+         
+         
+         <p>punaḥ pañcāmṛtaiḥ snāpayet | oṃ sarvatathāgata bruṃ āṃ jiṃ huṃ | tataḥ pratibimbaṃ
+            darśayedanena |</p>
+         
+         
+         <p>
+            pratibimbasamā dharmā acchā śuddhā hyanāvilāḥ |<br />
+            agrāhyā anulipyāśca hetukarmasamudbhavāḥ ||
+            </p>
+         
+         
+         <p>snānodakamātmanaḥ śirapradeśe 'bhiṣecayet | oṃ sarvatathāgatābhiṣekaṃ samāśriye huṃ
+            | iti snānakarmānte jaladhārayā maṇḍaṃ kārayeddevatāsamīpe | oṃ vajrabhūmau surekhe
+            sarvatathāgatādhiṣṭhānādhitiṣṭhantu svāhā | oṃ vajrasuvarṇajaladhāre svāhā | sindūreṇābhūṣayet
+            |</p>
+         
+         
+         <p>idaṃ te paramaṃ gandhaṃ pavitraṃ ghrāṇatatparam |
+            dadāmi paramaṃ bhaktyā pratigṛhṇa yathāsukham |</p>
+         
+         
+         <p>oṃ vajragandhe svāhā | oṃ vajratilakabhūṣaṇe svāhā | yajñopavītam | oṃ vajravastrālaṅkārapūjāmeghasamudrasphuraṇayajñopavīta
+            vajrabodhyaṅga dṛḍhakavaca vajravastraṃ svāhā | tato devatāmūlamantreṇāṣṭottaraśatavāraṃ
+            puṣpamabhimantrya (devatāyā śirasi) tatpuṣpaṃ devatābhyaḥ samarpayet |</p>
+         
+         
+         <p>
+            svasti vaḥ kurutāṃ buddhāḥ svasti devāḥ saśatrukāḥ |<br />
+            svasti sarvāṇi bhūtāni sarvakālaṃ diśantu vaḥ ||
+            </p>
+         
+         
+         <p>
+            buddhapuṇyānubhāvena devatānāṃ matena ca |<br />
+            yo yo 'rthaḥ samabhipretaḥ sarvo 'rtho 'dya samṛddhayatām ||
+            </p>
+         
+         
+         <p>
+            svasti vo dvipade bhontu svasti vo 'stu catuṣpade |<br />
+            svasti vo vrajatāṃ mārge svasti pratyāgateṣu ca ||
+            </p>
+         
+         <span class="note"><span class="bold">Nkpv_164</span></span>
+         
+         <p>
+            svasti rātrau svasti divā svasti madhye dine sthite |<br />
+            sarvatra svasti vo bhontu mā caiṣāṃ pāpamāgamat ||
+            </p>
+         
+         
+         <p>
+            sarve sattvāḥ sarve prāṇāḥ sarvebhūtāśca kevalāḥ |<br />
+            sarve vai sikhinaḥ santu sarve santu nirāmayāḥ ||
+            </p>
+         
+         
+         <p>
+            sarve bhadrāṇi paśyantu mā kaścitpāpamāgamat |<br />
+            yānīha bhūtāni samāgatāni, sthitāni bhūmāvathavāntarikṣe |<br />
+            kurvantu maitrīṃ satataṃ prajāsu, divā ca rātrau ca carantu dharmam ||
+            </p>
+         
+         
+         <p>oṃ vajrapuṣpe svāhā | naivedyasamarpaṇam | oṃ vajranaivedya svāhā |</p>
+         
+         
+         <p>
+            oṃ vajrasamayācāraṃ khādyabhojyādikaṃ prabho |<br />
+            varṇagandharasopetaṃ pratigṛhṇa yathāsukham ||
+            </p>
+         
+         
+         <p>atha tarpaṇam -</p>
+         
+         
+         <p>oṃ namo bhagavate vīravīreśāya huṃ phaṭ |
+            oṃ namo mahākalpāgnisannibhāya huṃ phaṭ |
+            oṃ namo jaṭāmakuṭotkaṭāya huṃ huṃ phaṭ |
+            oṃ namo draṃṣṭākarālograbhīṣaṇamukhāya huṃ huṃ phaṭ |
+            oṃ namo sahasrabhujaprabhāsvarāya huṃ huṃ phaṭ |
+            oṃ namo paraśupāśatriśūlakhaṭvāṅgadhāriṇe huṃ huṃ phaṭ |
+            oṃ namo vyāghracarmāmbaradharāya huṃ huṃ phaṭ |
+            oṃ namo mahādhūmrāndhakāravapuṣe huṃ huṃ phaṭ svāhā |</p>
+         
+         
+         <p>godugdhasamarpaṇam |</p>
+         
+         
+         <p>oṃ sarvatathāgata cintāmṛtadhāre svāhā | dīpārpaṇam |</p>
+         
+         
+         <p>
+            netrābhirāmā bahuratnakoṣā narādhipairarcitapādapadmā |<br />
+            jñānapradīpāhatamohajālā ye dīpamālārccayanti tatra ||
+            </p>
+         
+         
+         <p>oṃ vajradīpe hrīṃ svāhā | tato mūlamantreṇāṣṭottaraśatavāramantritalājābhirye dharmeti
+            gāthāṃ paṭhitvā devatāṃ prakiret | akāramukhetyādinā baliṃ dattvā | mañjuśriyetyādinā
+            dakṣiṇāṃ ca samarpya sākṣatāñjalinā śatākṣaradhāraṇīṃ paṭhet | (<span class="bold">Nkpv_165</span>) tato 'kṣatārpaṇārthe jalena maṇḍalaṃ kṛtvā tatra daśapuṣpāṇi pātayedebhirmantraiḥ
+            | oṃ pīṭhāya svāhā | oṃ upapīṭhāya svāhā | oṃ kṣetrāya svāhā | oṃ upakṣetrāya svāhā
+            | oṃ chandāya svāhā | oṃ upachandāya svāhā | oṃ melāpakāya svāhā | oṃ upamelāpakāya
+            svāhā | oṃ śmaśānāya svāhā | oṃ upaśmaśānāya svāhā | tatra pañcopacārapūjāṃ kṛtvā
+            baliṃ dadyāt || oṃ pīṭhopapīṭhakṣetropakṣetrachandopachanda- melāpakopamelāpakaśmaśānopaśmaśānādhivāsino
+            vīravīreśvarīḥ sarvān bhaktitaḥ praṇamāmyaham | tato 'kṣatārpaṇasamaye vakṣyamāṇastotrāṇi
+            paṭhet | oṃ āḥ huṃ (hūṃ) śrīmadvajrasattvetyādinā |</p>
+         
+         
+         <p>
+            sarvajñajñānasaṃdohaṃ jagadarthaprasādhakam |<br />
+            cintāmaṇirivodbhūtaṃ śrīsaṃvara namo 'stu te ||
+            </p>
+         
+         
+         <p>
+            vyāptaṃ viśvamahājñānaṃ sarvātmani sadā sthitam |<br />
+            kṛpākrodhaṃ mahāraudraṃ śrīsaṃvara namo 'stu te ||
+            </p>
+         
+         
+         <p>ityādi paṭhitvā kṣamārpaṇaṃ kuryāditi | tatra kṣamāpanam | śatākṣaramantroccāraṇānantaraṃ
+            dānapatītyādinā manobhīpsitasaṃkalpavākyānantaramevaṃ kṣamārpaṇaṃ kuryāt |</p>
+         
+         
+         <p>
+            aprāptena ca prajñānamaśaktaṃ ca mayā vibho |<br />
+            yannyūnamadhikaṃ nātha tatsarvaṃ kṣantumarhasi ||
+            </p>
+         
+         
+         <p>
+            kṣantumarhantu saṃbuddhā devatā tad vratāśca ye |<br />
+            brahmādyā lokapālāśca yāśca bhūtavidhikriyāḥ ||
+            </p>
+         
+         
+         <p>
+            śāntiṃ svastiṃ ca puṣṭiṃ ca bhaktasyānugrahāya ca |<br />
+            yatkṛtaṃ duṣkṛtaṃ kiñcit mayā mūḍhadhiyā punaḥ ||
+            </p>
+         
+         
+         <p>
+            kṣantavyaṃ ca tvayā nātha yadi trātāsi dehinām |<br />
+            kuru dānapateḥ śāntiṃ svastiṃ puṣṭiṃ ca sarvadā ||
+            </p>
+         
+         
+         <p>
+            yatkṛtaṃ kāyajaṃ pāpaṃ vāgjaṃ pāpaṃ ca yatkṛtam |<br />
+            yatkṛtaṃ cittajaṃ pāpaṃ tatsarva deśayāmyaham ||
+            </p>
+         
+         <span class="note"><span class="bold">Nkpv_166</span></span>
+         
+         <p>
+            namo 'stu te buddha anantagocare namo 'stu te satyaprakāśaka mune |<br />
+            satyapratiṣṭhāya prajāya me ca sarve ca kāryāḥ saphalā bhavantu ||
+            </p>
+         
+         
+         <p>mantrahīnaṃ kriyāhīnaṃ bhāvanāvākyahīnakam | prasīda parameśvara parameśvari rakṣa
+            2 māṃ koṭi aparādhaṃ kṣamasva | iti kṣamāpya āvāhitadevān visarjayet |</p>
+         
+         
+         <p>
+            kṛto vaḥ sarvasattvārthasiddhiṃ dattvā yathānugāḥ |<br />
+            gacchadhvaṃ buddhaviṣaye punarāgamanāya ca ||
+            </p>
+         
+         
+         <p>svasvasthāne gacchadhvaṃ | oṃ āḥ huṃ (hūṃ) vajramaṇḍalaṃ mūriti visarjanā |</p>
+         
+         
+         <p>iti nityakarmapūjāvidhiḥ samāptaḥ |</p>
+         
+         
+         <p>sarvasattvārthasiddhirbhavantu ||</p>
+         
+         </div>
+   </body>
+</html>

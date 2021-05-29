@@ -1,0 +1,1363 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Kālidāsa: Meghadūta (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Kālidāsa: Meghadūta</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_kAlidAsa-meghadUta-edkale.xml">sa_kAlidAsa-meghadUta-edkale.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>n.n.</p>
+      <p class="noindent"><b>Contribution: </b>n.n.</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>M.R. Kale.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/5_poetry/2_kavya/meghdk_u.htm">meghdk_u.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Kalidasa: Meghaduta
+            <br />Based on the edition by M.R. Kale
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>kaścit kāntāvirahaguruṇā svādhikārāt pramattaḥ $
+            
+            <p>
+               śāpenāstaṃgamitamahimā varṣabhogyeṇa bhartuḥ &amp;<br />
+               yakṣaś cakre janakatanayāsnānapuṇyodakeṣu %<br />
+               snigdhacchāyātaruṣu vasatiṃ rāmagiryāśrameṣu // 1.1 //
+               </p>
+         </p>
+         
+         
+         <p>tasminn adrau katicid abalāviprayuktaḥ sa kāmī $
+            
+            <p>
+               nītvā māsān kanakavalayabhraṃśariktaprakoṣṭhaḥ &amp;<br />
+               āṣāḍhasya prathamadivase megham āśliṣṭasānuṃ %<br />
+               vaprakrīḍāpariṇatagajaprekṣaṇīyaṃ dadarśa // 1.2 //
+               </p>
+         </p>
+         
+         
+         <p>tasya sthitvā katham api puraḥ kautukādhānahetor $
+            
+            <p>
+               antarbāṣpaś ciram anucaro rājarājasya dadhyau &amp;<br />
+               meghāloke bhavati sukhino 'py anyathāvṛtti cetaḥ %<br />
+               kaṇṭhāśleṣapraṇayini jane kiṃ punar dūrasaṃsthe // 1.3 //
+               </p>
+         </p>
+         
+         
+         <p>pratyāsanne nabhasi dayitājīvitālambanārthī $
+            
+            <p>
+               jīmūtena svakuśalamayīṃ hārayiṣyan pravṛttim &amp;<br />
+               sa pratyagraiḥ kuṭajakusumaiḥ kalpitārghāya tasmai %<br />
+               prītaḥ prītipramukhavacanaṃ svāgataṃ vyājahāra // 1.4 //
+               </p>
+         </p>
+         
+         
+         <p>dhūmajyotiḥsalilamarutāṃ saṃnipātaḥ kva meghaḥ $
+            
+            <p>
+               sandeśārthāḥ kva paṭukaraṇaiḥ prāṇibhiḥ prāpaṇīyāḥ &amp;<br />
+               ity autsukyād aparigaṇayan guhyakas taṃ yayāce %<br />
+               kāmārtā hi prakṛtikṛpaṇāś cetanācetaeṣu // 1.5 //
+               </p>
+         </p>
+         
+         
+         <p>jātaṃ vaṃśe bhuvanavidite puṣkarāvartakānāṃ $
+            
+            <p>
+               jānāmi tvāṃ prakṛtipuruṣaṃ kāmarūpaṃ maghonaḥ &amp;<br />
+               tenārthitvaṃ tvayi vidhivaśād dūrabandhur gato 'haṃ %<br />
+               yācñā moghā varam adhiguṇe nādhame labdhakāmā // 1.6 //
+               </p>
+         </p>
+         
+         
+         <p>saṃtaptānāṃ tvamasi śaraṇaṃ tat payoda priyāyāḥ $
+            
+            <p>
+               saṃdeśaṃ me hara dhanapatikrodhaviśleṣitasya &amp;<br />
+               gantavyā te vasatir alakā nāma yakṣeśvarāṇāṃ %<br />
+               bāhyodyānasthitaharaśiraścandrikādhautaharmyā // 1.7 //
+               </p>
+         </p>
+         
+         
+         <p>tvām ārūḍhaṃ pavanapadavīm udgṛhītālakāntāḥ $
+            
+            <p>
+               prekṣiṣyante pathikavanitāḥ pratyayād āśvasantyaḥ &amp;<br />
+               kaḥ saṃnaddhe virahavidhurāṃ tvayy upekṣeta jāyāṃ %<br />
+               na syād anyo 'py aham iva jano yaḥ parādhīnavṛttiḥ // 1.8 //
+               </p>
+         </p>
+         
+         
+         <p>tvāṃ cāvaśyaṃ divasagaṇanātatparām ekapatnīm $
+            
+            <p>
+               avyāpannām avihatagatir drakṣyasi bhrātṛjāyām &amp;<br />
+               āśābandhaḥ kusumasadṛśaṃ prāyaśo hy aṅganānāṃ %<br />
+               sadyaḥ pāti praṇayi hṛdayaṃ viprayoge ruṇaddhi // 1.9 //
+               </p>
+         </p>
+         
+         
+         <p>mandaṃ mandaṃ nudati pavanaś cānukūlo yathā tvāṃ $
+            
+            <p>
+               vāmaś cāyaṃ nadati madhuraṃ cātakas te sagandhaḥ &amp;<br />
+               garbhādhānakṣaṇaparicayān nūnam ābaddhamālāḥ %<br />
+               seviṣyante nayanasubhagaṃ khe bhavantaṃ balākāḥ // 1.10 //
+               </p>
+         </p>
+         
+         
+         <p>kartuṃ yac ca prabhavati mahīm ucchilīndhrām avandhyāṃ $
+            
+            <p>
+               tac chrutvā te śravaṇasubhagaṃ garjitaṃ mānasotkāḥ &amp;<br />
+               ā kailāsād bisakisalayacchedapātheyavantaḥ %<br />
+               saṃpatsyante nabhasi bhavato rājahaṃsāḥ sahāyāḥ // 1.11 //
+               </p>
+         </p>
+         
+         
+         <p>āpṛcchasva priyasakham amuṃ tuṅgam āliṅgya śailaṃ $
+            
+            <p>
+               vandyaiḥ puṃsāṃ raghupatipadair aṅkitaṃ mekhalāsu &amp;<br />
+               kāle kāle bhavati bhavato yasya saṃyogam etya %<br />
+               snehavyaktiś ciravirahajaṃ muñcato bāṣpamuṣṇam // 1.12 //
+               </p>
+         </p>
+         
+         
+         <p>margaṃ tāvac chṛṇu kathayatas tvatprayāṇānurūpaṃ $
+            
+            <p>
+               saṃdeśaṃ me tadanu jalada śroṣyasi śrotrapeyam &amp;<br />
+               khinnaḥ khinnaḥ śihariṣu padaṃ nyasya gantāsi yatra %<br />
+               kṣīṇaḥ kṣīṇaḥ parilaghu payaḥ srotasāṃ copabhujya // 1.13 //
+               </p>
+         </p>
+         
+         
+         <p>adreḥ śṛṅgaṃ harati pavanaḥ kiṃ svid ity unmukhībhir $
+            
+            <p>
+               dṛṣṭotsāhaś cakitacakitaṃ mugdhasiddhāṅganābhiḥ &amp;<br />
+               sthānād asmāt sarasaniculād utpatodaṅmukhaḥ khaṃ %<br />
+               diṅnāgānāṃ pathi pariharan sthūlahastāvalepān // 1.14 //
+               </p>
+         </p>
+         
+         
+         <p>ratnacchāyāvyatikara iva prekṣyametatpurastād $
+            
+            <p>
+               valmīkāgrāt prabhavati dhanuḥkhaṇḍam ākhaṇḍalasya &amp;<br />
+               yena śyāmaṃ vapur atitarāṃ kāntim āpatsyate te %<br />
+               barheṇeva sphuritarucinā gopaveṣasya viṣṇoḥ // 1.15 //
+               </p>
+         </p>
+         
+         
+         <p>tvayy āyantaṃ kṛṣiphalam iti bhrūvikārān abhijñaiḥ $
+            
+            <p>
+               prītisnigdhairjanapadavadhūlocanaiḥ pīyamānaḥ &amp;<br />
+               sadyaḥsīrotkaṣaṇasurabhi kṣetram āruhya mālaṃ %<br />
+               kiṃcit paścād vraja laghugatir bhūya evottareṇa // 1.16 //
+               </p>
+         </p>
+         
+         
+         <p>tvām āsārapraśamitavanopaplavaṃ sādhu mūrdhnā $
+            
+            <p>
+               vakṣyaty adhvaśramaparigataṃ sānumān āmrakūṭaḥ &amp;<br />
+               na kṣudro 'pi prathamasukṛtāpekṣayā saṃśrayāya %<br />
+               prāpte mitre bhavati vimukhaḥ kiṃ punar yas tatthoccaiḥ // 1.17 //
+               </p>
+         </p>
+         
+         
+         <p>channopāntaḥ pariṇataphaladyotibhiḥ kānanāmrais $
+            
+            <p>
+               tvayy ārūḍhe śikharam acalaḥ snigdhaveṇīsavarṇe &amp;<br />
+               nūnaṃ yāsyaty amaramithunaprekṣaṇīyām avasthāṃ %<br />
+               madhye śyāmaḥ stana iva bhuvaḥ śeṣavistārapāṇḍuḥ // 1.18 //
+               </p>
+         </p>
+         
+         
+         <p>sthitvā tasmin vanacaravadhūbhuktakuñje muhūrtaṃ $
+            
+            <p>
+               toyotsargadrutataragatis tatparaṃ vartma tīrṇaḥ &amp;<br />
+               revāṃ drakṣyasy upalaviṣame vindhyapāde viśīrṇāṃ %<br />
+               bhakticchedair iva viracitāṃ bhūtim aṅge gajasya // 1.19 //
+               </p>
+         </p>
+         
+         
+         <p>{adhvaklāntaṃ pratimukhagataṃ sānumānāmrakūṭas $
+            
+            <p>
+               tuṅgena tvāṃ jalada śirasā vakṣyati ślāghamānaḥ &amp;<br />
+               āsāreṇa tvam api śamayes tasya naidāgham agniṃ %<br />
+               sadbhāvārdraḥ phalati na cireṇopakāro mahatsu // 1.19a} //
+               </p>
+         </p>
+         
+         
+         <p>tasyās tiktair vanagajamadair vāsitaṃ vāntavṛṣṭir $
+            
+            <p>
+               jambūkuñjapratihatarayaṃ toyam ādāya gaccheḥ &amp;<br />
+               antaḥsāraṃ ghana tulayituṃ nānilaḥ śakṣyati tvāṃ %<br />
+               riktaḥ sarvo bhavati hi laghuḥ pūrṇatā gauravāya // 1.20 //
+               </p>
+         </p>
+         
+         
+         <p>nīpaṃ dṛṣṭvā haritakapiśaṃ kesarair ardharūḍhair $
+            
+            <p>
+               āvirbhūtaprathamamukulāḥ kandalīś cānukaccham &amp;<br />
+               jagdhvāraṇyeṣv adhikasurabhiṃ gandham āghrāya corvyāḥ %<br />
+               sāraṅgās te jalalavamucaḥ sūcayiṣyanti mārgam // 1.21 //
+               </p>
+         </p>
+         
+         
+         <p>ambhobindugrahaṇacaturāṃś cātakān vīkṣamāṇāḥ $
+            
+            <p>
+               śreṇībhūtāḥ parigaṇanayā nirdiśanto balākāḥ &amp;<br />
+               tvām āsādya stanitasamaye mānayiṣyanti siddhāḥ %<br />
+               sotkampāni priyasahacarīsaṃbhramāliṅgitāni // 1.22 //
+               </p>
+         </p>
+         
+         
+         <p>utpaśyāmi drutamapi sakhe matpriyārthaṃ yiyāsoḥ $
+            
+            <p>
+               kālakṣepaṃ kakubhasurabhau parvate parvete te &amp;<br />
+               śuklāpāṅgaiḥ sajalanayanaiḥ svāgatīkṛtya kekāḥ %<br />
+               pratudyātaḥ katham api bhavān gantum āśu vyavasyet // 1.23 //
+               </p>
+         </p>
+         
+         
+         <p>pāṇḍucchāyopavanavṛtayaḥ ketakaiḥ sūcibhinnair $
+            
+            <p>
+               nīḍārambhair gṛhabalibhujām ākulagrāmacaityāḥ &amp;<br />
+               tvayy āsanne pariṇataphalaśyāmajambūvanāntāḥ %<br />
+               saṃpatsyante katipayadinasthāyihaṃsā daśārṇāḥ // 1.24 //
+               </p>
+         </p>
+         
+         
+         <p>teṣāṃ dikṣu prathitavidiśālakṣaṇāṃ rājadhānīṃ $
+            
+            <p>
+               gatvā sadyaḥ phalam avikalaṃ kāmukatvasya labdhā &amp;<br />
+               tīropāntastanitasubhagaṃ pāsyasi svādu yasmāt %<br />
+               sabhrūbhaṅgaṃ mukham iva payo vetravatyāś calormi // 1.25 //
+               </p>
+         </p>
+         
+         
+         <p>nīcairākhyaṃ girim adhivases tatra viśrāmahetos $
+            
+            <p>
+               tvatsamparkāt pulakitam iva prauḍhapuṣpaiḥ kadambaiḥ &amp;<br />
+               yaḥ puṇyastrīratiparimalodgāribhir nāgarāṇām %<br />
+               uddāmāni prathayati śilāveśmabhir yauvanāni // 1.26 //
+               </p>
+         </p>
+         
+         
+         <p>viśrāntaḥ san vraja vananadītīrajānāṃ niṣiñcann $
+            
+            <p>
+               udyānānāṃ navajalakaṇair yūthikājālkāni &amp;<br />
+               gaṇḍasvedāpanayanarujāklāntakarṇotpalānāṃ %<br />
+               chāyādānāt kṣaṇaparicitaḥ puṣpalāvīmukhānām // 1.27 //
+               </p>
+         </p>
+         
+         
+         <p>vakraḥ panthā yadapi bhavataḥ prasthitasyottarāśāṃ $
+            
+            <p>
+               saudhotsaṅgapraṇayavimukho mā sma bhūr ujjayinyāḥ &amp;<br />
+               vidyuddāmasphuritacakritais tatra paurāṅganānāṃ %<br />
+               lolāpāṅgair yadi na ramase locanair vañcito 'si // 1.28 //
+               </p>
+         </p>
+         
+         
+         <p>vīcikṣobhastanitavihagaśreṇikāñcīguṇāyāḥ $
+            
+            <p>
+               saṃsarpantyāḥ skhalitasubhagaṃ darśitāvartanābhaḥ &amp;<br />
+               nirvindhyāyāḥ pathi bhava rasābhyantaraḥ saṃnipatya %<br />
+               strīṇām ādyaṃ praṇayavacanaṃ vibhramo hi priyeṣu // 1.29 //
+               </p>
+         </p>
+         
+         
+         <p>veṇībhūtapratanusalilā tām atītasya sindhuḥ $
+            
+            <p>
+               pāṇḍucchāyā taṭaruhatarubhraṃśibhirjīrṇaparṇaiḥ &amp;<br />
+               saubhāgyaṃ te subhaga virahāvasthayā vyañjayantī %<br />
+               kārśyaṃ yena tyajati vidhinā sa tvayaivopapādyaḥ // 1.30 //
+               </p>
+         </p>
+         
+         
+         <p>prāpyāvantīn udayanakathākovidagrāmavṛddhān $
+            
+            <p>
+               pūrvoddiṣṭām upasara purīṃ śrīviśālāṃ viśālām &amp;<br />
+               svalpībhūte sucaritaphale svargiṇāṃ gāṃ gatānāṃ %<br />
+               śeṣaiḥ puṇyair hṛtam iva divaḥ kāntimat khaṇḍam ekam // 1.31 //
+               </p>
+         </p>
+         
+         
+         <p>dīrghīkurvan paṭu madakalaṃ kūjitaṃ sārasānāṃ $
+            
+            <p>
+               pratyūṣeṣu sphuṭitakamalāmodamaitrīkaṣāyaḥ &amp;<br />
+               yatra strīṇāṃ harati surataglānim aṅgānukūlaḥ %<br />
+               śiprāvātaḥ priyatama iva prārthanācāṭukāraḥ // 1.32 //
+               </p>
+         </p>
+         
+         
+         <p>hārāṃs tārāṃs taralaguṭikān koṭiśaḥ śaṅkaśuktīḥ $
+            
+            <p>
+               śaṣpaśyāmān marakatamaṇīn unmayūkhaprarohān &amp;<br />
+               dṛṣṭvā yasyāṃ vipaṇiracitān vidrumāṇāṃ ca bhaṅgān %<br />
+               saṃlakṣyante salilanidhayas toyamātrāvaśeṣāḥ // 1.33 //
+               </p>
+         </p>
+         
+         
+         <p>pradyotasya priyaduhitaraṃ vatsarājo 'tra jahre $
+            
+            <p>
+               haimaṃ tāladrumavanam abhūd atra tasyaiva rājñaḥ &amp;<br />
+               atrodbhrāntaḥ kila nalagiriḥ stambham utpāṭya darpād %<br />
+               ity āgantūn ramayati jano yatra bandhūn abhijñaḥ // 1.34 //
+               </p>
+         </p>
+         
+         
+         <p>jālodgīrṇair upacitavapuḥ keśasaṃskāradhūpair $
+            
+            <p>
+               bandhuprītyā bhavanaśikhjibhir dattanṛtyopahāraḥ &amp;<br />
+               harmyeṣv asyāḥ kusumasurabhiṣv adhavakhedaṃ nayethā %<br />
+               lakṣmīṃ paśyaṃl lalitavanitāpādarāgāṅkiteṣu // 1.35 //
+               </p>
+         </p>
+         
+         
+         <p>bhartuḥ kaṇṭhacchavir iti gaṇaiḥ sādaraṃ vīkṣyamāṇaḥ $
+            
+            <p>
+               puṇyaṃ yāyās tribhuvanaguror dhāma caṇḍīśvarasya &amp;<br />
+               dhūtodyānaṃ kuvalayarajogandhibhir gandhavatyās %<br />
+               toyakrīḍāniratayuvatisnānatiktair marudbhiḥ // 1.36 //
+               </p>
+         </p>
+         
+         
+         <p>apy anyasmiñ jaladhara mahākālam āsādya kāle $
+            
+            <p>
+               sthātavyaṃ te nayanaviṣayaṃ yāvad atyeti bhānuḥ &amp;<br />
+               kurvan sandhyāvalipaṭahatāṃ śūlinaḥ ślāghanīyām %<br />
+               āmandrāṇāṃ phalam avikalaṃ lapsyase garjitānām // 1.37 //
+               </p>
+         </p>
+         
+         
+         <p>pādanyāsaiḥ kvaṇitaraśanās tatra līlāvadhūtai $
+            
+            <p>
+               ratnacchāyākhacitavalibhiś cāmaraiḥ klāntahastāḥ &amp;<br />
+               veśyās tvatto nakhapadasukhān prāpya varṣāgrabindūn %<br />
+               āmokṣyante tvayi madhukaraśreṇidīrghān kaṭakṣān // 1.38 //
+               </p>
+         </p>
+         
+         
+         <p>paścād uccairbhujataruvanaṃ maṇḍalenābhlīnaḥ $
+            
+            <p>
+               sāṃdhyaṃ tejaḥ pratinavajapāpuṣparaktaṃ dadhānaḥ &amp;<br />
+               nṛttārambhe hara paśupater ārdranāgājinecchāṃ %<br />
+               śāntodvegastimitanayanaṃ dṛṣṭabhaktir bhavānyā // 1.39 //
+               </p>
+         </p>
+         
+         
+         <p>gacchantīnāṃ ramāṇavasatiṃ yoṣitāṃ tatra naktaṃ $
+            
+            <p>
+               ruddhāloke narapatipathe sūcibhedyais tamobhiḥ &amp;<br />
+               saudāmanyā kanakanikaṣasnigdhayā darśayorvīṃ %<br />
+               toyotsargastanitamuharo mā ca bhūrviklavāstāḥ // 1.40 //
+               </p>
+         </p>
+         
+         
+         <p>tāṃ kasyāṃcid bhavanavalabhau suptapārāvatāyāṃ $
+            
+            <p>
+               nītvā rātriṃ ciravilasanāt khinnavidyutkalatraḥ &amp;<br />
+               dṛṣṭe sūrye punarapi bhavān vāhayedadhvaśeṣaṃ %<br />
+               mandāyante na khalu suhṛdāmabhyupatārthakṛtyāḥ // 1.41 //
+               </p>
+         </p>
+         
+         
+         <p>tasmin kāle nayanasaliaṃ yoṣitāṃ khaṇḍitānāṃ $
+            
+            <p>
+               śāntiṃ neyaṃ praṇayibhir ato vartma bhānos tyajāśu &amp;<br />
+               prāleyāstraṃ kamalavadanāt so.api hartuṃ nalinyāḥ %<br />
+               pratyāvṛttastvayi kararudhi syādanalpabhyasūyaḥ // 1.42 //
+               </p>
+         </p>
+         
+         
+         <p>gambhīrāyāḥ payasi saritaś cetasīva prasanne $
+            
+            <p>
+               chāyātmāpi prakṛtisubhago lapsyate te praveśam &amp;<br />
+               tasmād asyāḥ kumudaviśadāny arhasi tvaṃ na dhairyān %<br />
+               moghīkartuṃ caṭulaśaphorodvartanaprekṣitāni // 1.43 //
+               </p>
+         </p>
+         
+         
+         <p>tasyāḥ kiṃcit karadhṛtam iva prāptvāīraśākhaṃ $
+            
+            <p>
+               hṛtvā nīlaṃ salilavasanaṃ muktarodhonitambam &amp;<br />
+               prasthānaṃ te katham api sakhe lambamānasya bhāvi %<br />
+               jñātāsvādo vivṛtajaghanāṃ ko vihātuṃ samarthā // 1.44 //
+               </p>
+         </p>
+         
+         
+         <p>tvanniṣyandocchvasitavasudhāgandhasamparkaramyaḥ $
+            
+            <p>
+               srotorandhradhvanitasubhagaṃ dantibhiḥ pīyamānaḥ &amp;<br />
+               nīcair vāsyaty upajigamiṣor devapūrvaṃ giriṃ te %<br />
+               śīto vāyuḥ pariṇamayitā kānanodumbarāṇām // 1.45 //
+               </p>
+         </p>
+         
+         
+         <p>tatra skandaṃ niyatavasatiṃ puṣpameghīkṛtātmā $
+            
+            <p>
+               puṣpāsāraiḥ snapayatu bhavān vyomagaṅgājalārdraiḥ &amp;<br />
+               rakṣāhetor navaśaśibhṛtā vāsavīnāṃ camūnām %<br />
+               atyādityaṃ hutavahamukhe saṃbhṛtaṃ tad dhi teyaḥ // 1.46 //
+               </p>
+         </p>
+         
+         
+         <p>jyotirlekhāvalayi galitaṃ yasya barhaṃ bhavānī $
+            
+            <p>
+               putrapremṇā kuvalayadalaprāpi karṇe karoti &amp;<br />
+               dhautāpāṅgaṃ haraśaśirucā pāvakes taṃ mayūraṃ %<br />
+               paścād adrigrahaṇagurubhir garjitair nartayethāḥ // 1.47 //
+               </p>
+         </p>
+         
+         
+         <p>ārādyainaṃ śaravaṇabhavaṃ devam ullaṅghitādhvā $
+            
+            <p>
+               siddhadvandvair jalakaṇabhayād vīṇibhir muktamārgaḥ &amp;<br />
+               vyālambethāḥ surabhitanayālambhajāṃ mānayiṣyan %<br />
+               srotomūrtyā bhuvi pariṇatāṃ rantidevasya kīrtim // 1.48 //
+               </p>
+         </p>
+         
+         
+         <p>tvayy ādātuṃ jalam avanate śārṅgiṇo varṇacaure $
+            
+            <p>
+               tasyāḥ sindhoḥ pṛthum api tanuṃ dūrabhāvāt pravāham &amp;<br />
+               prekṣiṣyante gaganagatayo nūnam āvarjya dṛṣṭir %<br />
+               ekaṃ bhuktāguṇam iva bhuvaḥ sthūlamadhyendranīlam // 1.49 //
+               </p>
+         </p>
+         
+         
+         <p>tām uttīrya vraja paricitabhrūlatāvibhramāṇāṃ $
+            
+            <p>
+               pakṣmotkṣepād uparivilasatkṛṣṇaśāraprabhāṇām &amp;<br />
+               kundakṣepānugamadhukaraśrīmuṣām ātmabimbaṃ %<br />
+               pātrīkurvan daśapuravadhūnetrakautūhalānām // 1.50 //
+               </p>
+         </p>
+         
+         
+         <p>brahmāvartaṃ janapadam atha cchāyayā gāhamānaḥ $
+            
+            <p>
+               kṣetraṃ kṣatrapradhanapiśunaṃ kauravaṃ tad bhajethāḥ &amp;<br />
+               rājanyānāṃ śitaśaraśatair yatra gāṇḍīvadhanvā %<br />
+               dhārāpātais tvam iva kamalāny abhyavarṣan mukhāni // 1.51 //
+               </p>
+         </p>
+         
+         
+         <p>hitvā hālām abhimatarasāṃ revatīlocanāṅkāṃ $
+            
+            <p>
+               bandhuprītyā samaravimukho lāṅgalī yāḥ siṣeve &amp;<br />
+               kṛtvā tāsām adhigamam apāṃ saumya sārasvatīnām %<br />
+               antaḥ śuddhas tvam api bhavitā varṇamātreṇa kṛṣṇaḥ // 1.52 //
+               </p>
+         </p>
+         
+         
+         <p>tasmād gaccher anukanakhalaṃ śailarājāvatīrṇāṃ $
+            
+            <p>
+               jāhnoḥ kanyāṃ sagaratanayasvargasopānapaṅktim &amp;<br />
+               gaurīvaktrabhrukuṭiracanāṃ yā vihasyeva phenaiḥ %<br />
+               śambhoḥ keśagrahaṇam akarod indulagnormihastā // 1.53 //
+               </p>
+         </p>
+         
+         
+         <p>tasyāḥ pātuṃ suragaja iva vyomni paścārdhalambī $
+            
+            <p>
+               tvaṃ ced acchasphaṭikaviśadaṃ tarkayes tiryag ambhaḥ &amp;<br />
+               saṃsarpantyā sapadi bhavataḥ srotasi cchāyayāsau %<br />
+               syād asthānopagatayamunāsaṃgamevābhirāmā // 1.54 //
+               </p>
+         </p>
+         
+         
+         <p>āsīnānāṃ surabhitaśilaṃ nābhigandhair mṛgāṇāṃ $
+            
+            <p>
+               tasyā eva prabhavam acalaṃ prāpya gauraṃ tuṣāraiḥ &amp;<br />
+               vakṣyasy adhvaśramavinayena tasya śṛṅge niṣaṇṇaḥ %<br />
+               śobhāṃ śubhrāṃ trinayanavṛṣotkhātapaṅkopameyam // 1.55 //
+               </p>
+         </p>
+         
+         
+         <p>taṃ ced vāyau sarati saralaskandhasaṃghaṭṭajanmā $
+            
+            <p>
+               bādhetolkākṣapitacamarībālabhāro davāgniḥ &amp;<br />
+               arhasy enaṃ śamayitum alaṃ vāridhārāsahasrair %<br />
+               āpannārtipraśamanaphalāḥ saṃpado hy uttamānām // 1.56 //
+               </p>
+         </p>
+         
+         
+         <p>ye saṃrambhotpatanarabhasāḥ svāṅgabhaṅgāya tasmin $
+            
+            <p>
+               muktādhvānaṃ sapadi śarabhā laṅghayeyur bhavantam &amp;<br />
+               tān kurvīthās tumulakarakāvṛṣṭipātāvakīrṇan %<br />
+               ke vā na syuḥ paribhavapadaṃ niṣphalārambhayatnāḥ // 1.57 //
+               </p>
+         </p>
+         
+         
+         <p>tatra vyaktaṃ dṛṣadi caraṇanyāsam ardhendumauleḥ $
+            
+            <p>
+               śaśvat siddhair upacitabaliṃ bhaktinamraḥ parīyāḥ &amp;<br />
+               yasmin dṛṣṭe karaṇavigamād ūrdhvam uddhūtapāpāḥ %<br />
+               kalpiṣyante sthiragaṇapadaprāptaye śraddadhānāḥ // 1.58 //
+               </p>
+         </p>
+         
+         
+         <p>śabdāyante madhuram anilaiḥ kīcakāḥ pūryamāṇāḥ $
+            
+            <p>
+               saṃraktābhis tripuravijayo gīyate kiṃnarābhiḥ &amp;<br />
+               nirhrādas te muraja iva cet kandareṣu dhvaniḥ syāt %<br />
+               saṃgītārtho nanu paśupates tatra bhāvī samagraḥ // 1.59 //
+               </p>
+         </p>
+         
+         
+         <p>prāleyādrer upataṭam atikramya tāṃs tān viśeṣān $
+            
+            <p>
+               haṃsadvāraṃ bhṛgupatiyaśovartma yat krauñcarandhram &amp;<br />
+               tenodīcīṃ diśam anusares tiryag āyāmaśobhī %<br />
+               śyāmaḥ pādo baliniyamanābhyudyatasyeva viṣṇoḥ // 1.60 //
+               </p>
+         </p>
+         
+         
+         <p>gatvā cordhvaṃ daśamukhabhujocchvāsitaprasthasaṃdheḥ $
+            
+            <p>
+               kailāsasya tridaśavanitādarpaṇasyātithiḥ syāḥ &amp;<br />
+               śṛṅgocchrāyaiḥ kumudaviśadair yo vitatya sthitaḥ khaṃ %<br />
+               rāśībhūtaḥ pratidinam iva tryambakasyaṭṭahāsaḥ // 1.61 //
+               </p>
+         </p>
+         
+         
+         <p>utpaśyāmi tvayi taṭagate snigdhabhinnāñjanābhe $
+            
+            <p>
+               sadyaḥ kṛttadviradadaśanacchedagaurasya tasya &amp;<br />
+               śobhām adreḥ stimitanayanaprekṣaṇīyāṃ bhavitrīm %<br />
+               aṃsanyaste sati halabhṛto mecake vāsasīva // 1.62 //
+               </p>
+         </p>
+         
+         
+         <p>hitvā tasmin bhujagavalayaṃ śambhunā dattahastā $
+            
+            <p>
+               krīḍāśaile yadi ca vicaret pādacāreṇa gaurī &amp;<br />
+               bhaṅgībhaktyā viracitavapuḥ stambhitāntarjalaughaḥ %<br />
+               sopānatvaṃ kuru maṇitaṭārohaṇāyāgrayāyī // 1.63 //
+               </p>
+         </p>
+         
+         
+         <p>tatrāvaśyaṃ valayakuliśoddhaṭṭanodgīrṇatoyaṃ $
+            
+            <p>
+               neṣyanti tvāṃ surayuvatayo yantradhārāgṛhatvam &amp;<br />
+               tābhyo mokṣas tava yadi sakhe gharmalabdhasya na syāt %<br />
+               krīḍālolāḥ śravaṇaparuṣair garjitair bhāyayes tāḥ // 1.64 //
+               </p>
+         </p>
+         
+         
+         <p>hemāmbhojaprasavi salilaṃ mānasasyādadānaḥ $
+            
+            <p>
+               kurvan kāmaṃ kṣaṇamukhapaṭaprītim airāvatasya &amp;<br />
+               dhunvan kalpadrumakisalayān yaṃśukānīva vātair %<br />
+               nānāceṣṭair jaladalalitair nirviśes taṃ nagendram // 1.65 //
+               </p>
+         </p>
+         
+         
+         <p>tasyotsaṅge praṇayina iva srastagaṅgādukūlāṃ $
+            
+            <p>
+               na tvaṃ dṛṣṭvā na punar alakāṃ jñāsyase kāmacārin &amp;<br />
+               yā vaḥ kāle vahati salilodgāram uccair vimānā %<br />
+               muktājālagrathitam alakaṃ kāminīvābhravṛndam // 1.66 //
+               </p>
+         </p>
+         
+         
+         <p>{ūttarameghaḥ}</p>
+         
+         
+         <p>vidhunvantaṃ lalitavanitāḥ sendracāpaṃ sacitrāḥ $
+            
+            <p>
+               saṃgītāya prahatamurajāḥ snigdhagambhīraghoṣam &amp;<br />
+               antastoyaṃ maṇimayabhuvas tuṅgam abhraṃlihāgrāḥ %<br />
+               prāsādās tvāṃ tulayitum alaṃ yatra tais tair viśeṣaiḥ // 2.1 //
+               </p>
+         </p>
+         
+         
+         <p>haste līlākamalam alake bālakundānuviddhaṃ $
+            
+            <p>
+               nītā lodhraprasavarajasā pāṇḍutām ānane śrīḥ &amp;<br />
+               cūḍāpāśe navakuravakaṃ cāru karṇe śirīṣaṃ %<br />
+               sīmante ca tvadupagamajaṃ yatra nīpaṃ vadhūnām // 2.2 //
+               </p>
+         </p>
+         
+         
+         <p>yatronmattabhramaramukharāḥ pādapā nityapuṣpā $
+            
+            <p>
+               haṃsaśreṇīracitaraśanā nityapadmā nalinyaḥ &amp;<br />
+               kekotkaṇṭhā bhuvanaśikhino nityabhāsvatkalāpā %<br />
+               nityajyotsnāḥ prahitatamovṛttiramyāḥ pradoṣāḥ // 2.3 //
+               </p>
+         </p>
+         
+         
+         <p>ānandotthaṃ nayanasalilamyatra nānyair nimittair $
+            
+            <p>
+               nānyas tāpaṃ kusumaśarajād iṣṭasaṃyogasādhyāt &amp;<br />
+               nāpy anyasmāt praṇayakalahād viprayogopapattir %<br />
+               vitteśānāṃ na ca khalu vayo yauvanād anyad asti // 2.4 //
+               </p>
+         </p>
+         
+         
+         <p>yasyāṃ yakṣāḥ sitamaṇimayāny etya harmyasthalāni $
+            
+            <p>
+               jyotiśchāyākusumaracitāny uttamastrīsahāyāḥ &amp;<br />
+               āsevante madhu ratiphalaṃ kalpavṛkṣaprasūtaṃ %<br />
+               tvadgambhīradhvaniṣu śanakaiḥ puṣkareṣv āhateṣu // 2.5 //
+               </p>
+         </p>
+         
+         
+         <p>mandākinyāḥ salilaśiśiraiḥ sevyamānā marudbhir $
+            
+            <p>
+               mandārāṇām anutaṭaruhāṃ chāyayā vāritoṣṇāḥ &amp;<br />
+               anveṣṭavyaiḥ kanakasikatāmuṣṭinikṣepagūḍhaiḥ %<br />
+               saṃkrīḍante maṇibhiramaraprārthitayā yatra kanyāḥ // 2.6 //
+               </p>
+         </p>
+         
+         
+         <p>nīvībandhocchvāsitaśithilaṃ yatra bimbādharāṇāṃ $
+            
+            <p>
+               kṣaumaṃ rāgādanibhṛtakareṣv ākṣipatsu priyeṣu &amp;<br />
+               arcistuṅgān abhimukham api prāpya ratnapradīpān %<br />
+               hrīmūḍhānāṃ bhavati viphalapreraṇā cūrṇamuṣṭiḥ // 2.7 //
+               </p>
+         </p>
+         
+         
+         <p>netrā nītāḥ satatagatinā yadvimānāgrabhūmīr $
+            
+            <p>
+               ālekhyānāṃ salilakaṇikādoṣam utpādya sadyaḥ &amp;<br />
+               śaṅkāspṛṣṭā iva jalamucas tvādṛśā jālamārgair %<br />
+               dhūmodgārānukṛtinipuṇā jarjarā niṣpatanti // 2.8 //
+               </p>
+         </p>
+         
+         
+         <p>yatra strīṇāṃ priyatamabhujocchvāsitāliṅgitānām $
+            
+            <p>
+               aṅgaglāniṃ suratajanitāṃ tantujālāvalambāḥ &amp;<br />
+               tvatsaṃrodhāpagamaviśadaś candrapādair niśīthe %<br />
+               vyālumpanti sphuṭajalalavasyandinaś candrakāntāḥ // 2.9 //
+               </p>
+         </p>
+         
+         
+         <p>akṣayyāntarbhavananidhayaḥ pratyahaṃ raktakaṇṭhair $
+            
+            <p>
+               udgāyadbhir dhanapatiyaśaḥ kiṃnarair yatra sārdham &amp;<br />
+               vaibhrājākhyaṃ vibudhavanitāvāramukhyasahāyā %<br />
+               baddhālāpā bahirupavanaṃ kāmino nirviśanti // 2.10 //
+               </p>
+         </p>
+         
+         
+         <p>gatyutkampād alakapatitair yatra mandārapuṣpaiḥ $
+            
+            <p>
+               putracchedaiḥ kanakakamalaiḥ karṇavisraṃśibhiś ca &amp;<br />
+               muktājālaiḥ stanaparisaracchinnasūtraiś ca hārair %<br />
+               naiśo mārgaḥ savitur udaye sūcyate kāminīnām // 2.11 //
+               </p>
+         </p>
+         
+         
+         <p>vāsaś citraṃ madhu nayanayor vibhramādeśadakṣaṃ $
+            
+            <p>
+               puṣpodbhedaṃ saha kisalayair bhūṣaṇānāṃ vikalpam &amp;<br />
+               lākṣārāgaṃ caraṇakamalanyāsayogyaṃ ca yasyām %<br />
+               ekaḥ sūte sakalam abalāmaṇḍanaṃ kalpavṛkṣaḥ // 2.12 //
+               </p>
+         </p>
+         
+         
+         <p>patraśyāmā dinakarahayaspardhino yatra vāhāḥ $
+            
+            <p>
+               śailodagrās tvam iva kariṇo vṛṣṭimantaḥ prabhedāt &amp;<br />
+               yodhāgraṇyaḥ pratidaśamukhaṃ saṃyuge tasthivāṃsaḥ %<br />
+               pratyādiṣṭābharaṇarucayaś candrahāsavraṇāṅkaiḥ // 2.13 //
+               </p>
+         </p>
+         
+         
+         <p>matvā devaṃ dhanapatisakhaṃ yatra sākṣād vasantaṃ $
+            
+            <p>
+               prāyaś cāpaṃ na vahati bhayān manmathaḥ ṣaṭpadajyam &amp;<br />
+               sabhrūbhaṅgaprahitanayanaiḥ kāmilakṣyeṣv amoghais %<br />
+               tasyārambhaś caturavanitāvibhramair eva siddhaḥ // 2.14 //
+               </p>
+         </p>
+         
+         
+         <p>tatrāgāraṃ dhanapatigṛhān uttareṇāsmadīyaṃ $
+            
+            <p>
+               dūrāl lakṣyaṃ surapatidhanuścāruṇā toraṇena &amp;<br />
+               yasyopānte kṛtakatanayaḥ kāntayā vardhito me %<br />
+               hastaprāpyastavakanamito bālamandāravṛkṣaḥ // 2.15 //
+               </p>
+         </p>
+         
+         
+         <p>vāpī cāsmin marakataśilābaddhasopānamārgā $
+            
+            <p>
+               haimaiśchannā vikacakamalaiḥ snigdhavaidūryanālaiḥ &amp;<br />
+               yasyās toye kṛtavasatayo mānasaṃ saṃnikṛṣṭaṃ %<br />
+               nādhyāsyanti vyapagataśucas tvām api prekṣya haṃsāḥ // 2.16 //
+               </p>
+         </p>
+         
+         
+         <p>tasyās tīre racitaśikharaḥ peśalair indranīlaiḥ $
+            
+            <p>
+               krīḍāśailaḥ kanakakadalīveṣṭanaprekṣaṇīyaḥ &amp;<br />
+               madgehinyāḥ priya iti sakhe cetasā kātareṇa %<br />
+               prekṣyopāntasphuritataḍitaṃ tvāṃ tam eva smarāmi // 2.17 //
+               </p>
+         </p>
+         
+         
+         <p>raktāśokaś calakisalayaḥ kesaraś cātra kāntaḥ $
+            
+            <p>
+               pratyāsannau kuruvakavṛter mādhavīmaṇḍapasya &amp;<br />
+               ekaḥ sakhyās tava saha mayā vāmapādābhilāṣī %<br />
+               kāṅkṣaty anyo vadanamadirāṃ dohadacchadmanāsyāḥ // 2.18 //
+               </p>
+         </p>
+         
+         
+         <p>tanmadhye ca sphaṭikaphalakā kāñcanī vāsayaṣṭir $
+            
+            <p>
+               mūle baddhā maṇibhir anatiprauḍhavaṃśaprakāśaiḥ &amp;<br />
+               tālaiḥ śiñjāvalayasubhagair nartitaḥ kāntayā me %<br />
+               yām adhyāste divasavigame nīlakaṇṭhaḥ suhṛd vaḥ // 2.19 //
+               </p>
+         </p>
+         
+         
+         <p>ebhiḥ sādho hṛdayanihitair lakṣaṇair lakṣayethā $
+            
+            <p>
+               dvāropānte likhitavapuṣau śaṅkhapadmau ca dṛṣṭvā &amp;<br />
+               kṣāmacchāyāṃ bhavanam adhunā madviyogena nūnaṃ %<br />
+               sūryāpāye na khalu kamalaṃ puṣyati svāmabhikhyām // 2.20 //
+               </p>
+         </p>
+         
+         
+         <p>gatvā sadyaḥ kalabhatanutāṃ śīghrasaṃpātahetoḥ $
+            
+            <p>
+               krīḍāśaile prathamakathite ramyasānau niṣaṇṇaḥ &amp;<br />
+               arhasy antarbhavanapatitāṃ kartum alpālpabhāsaṃ %<br />
+               khadyotālīvilasitanibhāṃ vidyudunmeṣadṛṣṭim // 2.21 //
+               </p>
+         </p>
+         
+         
+         <p>tanvī śyāmā śikharīdaśanā pakvabimbādharauṣṭhī $
+            
+            <p>
+               madhye kṣāmā cakitahariṇīprekṣaṇā nimnanābhiḥ &amp;<br />
+               śroṇībhārād alasagamanā stokanamrā stanābhyāṃ %<br />
+               yā tatra syād yuvatīviṣaye sṛṣṭir ādyaiva dhātuḥ // 2.22 //
+               </p>
+         </p>
+         
+         
+         <p>tāṃ jānīthāḥ parimitakathāṃ jīvitaṃ me dvitīyaṃ $
+            
+            <p>
+               dūrībhūte mayi sahacare cakravākīm ivaikām &amp;<br />
+               gāḍhotkaṇṭhāṃ guruṣu divaseṣv eṣu gacchatsu bālāṃ %<br />
+               jātāṃ manye śiśiramathitāṃ padminīṃ vānyarūpām // 2.23 //
+               </p>
+         </p>
+         
+         
+         <p>nūnaṃ tasyāḥ prabalaruditocchūnanetraṃ priyāyā $
+            
+            <p>
+               niḥśvāsānām aśiśiratayā bhinnavarṇādharoṣṭham &amp;<br />
+               hastanyastaṃ mukham asakalavyakti lambālakatvād %<br />
+               indor dainyaṃ tvadanusaraṇakliṣṭakānter bibharti // 2.24 //
+               </p>
+         </p>
+         
+         
+         <p>āloke te nipatati purā sā balivyākulā vā $
+            
+            <p>
+               matsādṛśyaṃ virahatanu vā bhāvagamyaṃ likhantī &amp;<br />
+               pṛcchantī vā madhuravacanāṃ sārikāṃ pañjarasthāṃ %<br />
+               kaccid bhartuḥ smarasi rasike tvaṃ hi tasya priyeti // 2.25 //
+               </p>
+         </p>
+         
+         
+         <p>utsaṅge vā malinavasane saumya nikṣipya vīṇāṃ $
+            
+            <p>
+               madgotrāṅkaṃ viracitapadaṃ geyam udgātukāmā &amp;<br />
+               tantrīm ārdrāṃ nayanasalilaiḥ sārayitvā kathaṃcid %<br />
+               bhūyo bhūyaḥ svayam api kṛtāṃ mūrcchanāṃ vismarantī // 2.26 //
+               </p>
+         </p>
+         
+         
+         <p>śeṣān māsān virahadivāsasthāpitasyāvadher vā $
+            
+            <p>
+               vinyasyantī bhuvi gaṇanayā dehalīdattapuṣpaiḥ &amp;<br />
+               sambhogaṃ vā hṛdayanihitārambham āsvādayantī %<br />
+               prāyeṇaite ramaṇaviraheṣv aṅganānāṃ vinodāḥ // 2.27 //
+               </p>
+         </p>
+         
+         
+         <p>savyāpāram ahani na tathā pīḍayed viprayogaḥ $
+            
+            <p>
+               śaṅke rātrau gurutaraśucaṃ nirvinodāṃ sakhīṃ te &amp;<br />
+               matsandeśaḥ sukhayitum alaṃ paśya sādhvīṃ niśīthe %<br />
+               tām unnidrām avaniśayanāṃ saudhavātāyanasthaḥ // 2.28 //
+               </p>
+         </p>
+         
+         
+         <p>ādhikṣāmāṃ virahaśayane saṃniṣaṇṇaikapārśvāṃ $
+            
+            <p>
+               prācīmūle tanum iva kalāmātraśeṣāṃ himāṃśoḥ &amp;<br />
+               nītā rātriḥ kṣaṇa iva mayā sārdham icchāratair yā %<br />
+               tām evoṣṇair virahamahatīm aśrubhir yāpayantīm // 2.29 //
+               </p>
+         </p>
+         
+         
+         <p>pādān indoramṛtaśiśirāñjalamārgapraviṣṭān $
+            
+            <p>
+               pūrvaprītyā gatamabhumukhaṃ saṃnivṛttaṃ tathaiva &amp;<br />
+               cakṣuḥ khedāt salilagurubhiḥ pakṣmabhiśchādayantīṃ %<br />
+               sābhre.ahnīva sthalakamalinī na prabhuddhāṃ na suptām // 2.30 //
+               </p>
+         </p>
+         
+         
+         <p>niḥśvāsenādharakisalayakleśinā vikṣipantīṃ $
+            
+            <p>
+               śuddhasnānāt paruṣamalakaṃ nūnamāgaṇṇdalambam &amp;<br />
+               matsaṃbhogaḥ kathamupanamet svapnajo.apīti nidrām %<br />
+               ākāṅkṣantīṃ nayanasalilotpīḍaruddhāvakāśam // 2.31 //
+               </p>
+         </p>
+         
+         
+         <p>ādye baddhā virahadivase yā śikhā dāma hitvā $
+            
+            <p>
+               śāpasyānte vigalitaśucā tāṃ mayodveṣṭanīyām &amp;<br />
+               sparśakliṣṭām ayamitanakhenāsakṛtsārayantīṃ %<br />
+               gaṇḍābhogāt kaṭhinaviṣamām ekaveṇīṃ kareṇa // 2.32 //
+               </p>
+         </p>
+         
+         
+         <p>sā saṃnyastābharaṇam abalā peśalaṃ dhārayantī $
+            
+            <p>
+               śayyotsaṅge nihitam asakṛd duḥkhaduḥkhena gātram &amp;<br />
+               tvām apy asraṃ navajalamayaṃ mocayiṣyaty avaśyaṃ %<br />
+               prāyaḥ sarvo bhavati karuṇāvṛttir ārdrāntarātmā // 2.33 //
+               </p>
+         </p>
+         
+         
+         <p>jāne sakhyās tava mayi manaḥ saṃbhṛtasnehamasmād $
+            
+            <p>
+               itthaṃbhūtāṃ prathamavirahe tām ahaṃ tarkayāmi &amp;<br />
+               vācālaṃ māṃ na khalu subhagaṃmanyabhāvaḥ karoti %<br />
+               pratyakṣaṃ te nikhilam acirād bhrātar uktaṃ mayā yat // 2.34 //
+               </p>
+         </p>
+         
+         
+         <p>ruddhāpāṅgaprasaram alakair añjanasnehaśūnyaṃ $
+            
+            <p>
+               pratyādeśād api ca madhuno vismṛtabhrūvilāsam &amp;<br />
+               tvayy āsanne nayanam uparispandi śaṅke mṛgākṣyā %<br />
+               mīnakṣobhāc calakuvalayaśrītulām eṣyatīti // 2.35 //
+               </p>
+         </p>
+         
+         
+         <p>vāmaś cāsyāḥ kararuhapadair mucyamāno madīyair $
+            
+            <p>
+               muktājālaṃ ciraparicitaṃ tyājito daivagatyā &amp;<br />
+               saṃbhogānte mama samucito hastasaṃvāhamānāṃ %<br />
+               yāsyaty ūruḥ sarasakadalīstambhagauraś calatvam // 2.36 //
+               </p>
+         </p>
+         
+         
+         <p>tasmin kāle jalada yadi sā labdhanidrāsukhā syād $
+            
+            <p>
+               anvāsyaināṃ stanitavimukho yāmamātraṃ sahasva &amp;<br />
+               mā bhūd asyāḥ praṇayini mayi svapnalabdhe kathaṃcit %<br />
+               sadyaḥ kaṇṭhacyutabhujalatāgranthi gāḍhopagūḍham // 2.37 //
+               </p>
+         </p>
+         
+         
+         <p>tām utthāpya svajalakaṇikāśītalenānilena $
+            
+            <p>
+               pratyāśvastāṃ samam abhinavair jālakair mālatīnām &amp;<br />
+               vidyudgarbhaḥ stimitanayanāṃ tvatsanāthe gavākṣe %<br />
+               vaktuṃ dhīraḥ stanitavacanair māninīṃ prakramethāḥ // 2.38 //
+               </p>
+         </p>
+         
+         
+         <p>bhartur mitraṃ priyam avidhave viddhi mām ambuvāhaṃ $
+            
+            <p>
+               tatsaṃdeśair hṛdayanihitair āgataṃ tvatsamīpam &amp;<br />
+               yo vṛndāni tvarayati pathi śramyatāṃ proṣitānāṃ %<br />
+               mandrasnigdhair dhvanibhir abalāveṇimokṣotsukāni // 2.39 //
+               </p>
+         </p>
+         
+         
+         <p>ity ākhyāte pavanatanayaṃ maithilīvonmukhī sā $
+            
+            <p>
+               tvām utkaṇṭhocchvasitahṛdayā vīkṣya sambhāvya caiva &amp;<br />
+               śroṣyaty asmāt param avahitā saumya sīmantinīnāṃ %<br />
+               kāntodantaḥ suhṛdupanataḥ saṃgamāt kiṃcid ūnaḥ // 2.40 //
+               </p>
+         </p>
+         
+         
+         <p>tām āyuṣman mama ca vacanād ātmanaś copakartuṃ $
+            
+            <p>
+               brūyā evaṃ tava sahacaro rāmagiryāśramasthaḥ &amp;<br />
+               avyāpannaḥ kuśalam abale pṛcchati tvāṃ viyuktaḥ %<br />
+               pūrvābhāṣyaṃ sulabhavipadāṃ prāṇinām etad eva // 2.41 //
+               </p>
+         </p>
+         
+         
+         <p>aṅgenāṅgaṃ pratanu tanunā gāḍhataptena taptaṃ $
+            
+            <p>
+               sāsreṇāśrudrutam aviratotkaṇṭham utkaṇṭhitena &amp;<br />
+               uṣṇocchvāsaṃ samadhikatarocchvāsinā dūravartī %<br />
+               saṃkalpais tair viśati vidhinā vairiṇā ruddhamārgaḥ // 2.42 //
+               </p>
+         </p>
+         
+         
+         <p>śabdākhyeyaṃ yadapi kila te yaḥ sakhīnāṃ purastāt $
+            
+            <p>
+               karṇe lolaḥ kathayitum abhūd ānanasparśalobhāt &amp;<br />
+               so 'tikrāntaḥ śravaṇaviṣayaṃ locanābhyām adṛṣṭas %<br />
+               tvām utkaṇṭhāviracitapadaṃ manmukhenedam āha // 2.43 //
+               </p>
+         </p>
+         
+         
+         <p>śyāmāsv aṅgaṃ cakitahariṇīprekṣaṇe dṛṣṭipātaṃ $
+            
+            <p>
+               vaktracchāyāṃ śaśini śikhināṃ barhabhāreṣu keśān &amp;<br />
+               utpaśyāmi pratanuṣu nadīvīciṣu bhrūvilāsān %<br />
+               hantaikasmin kvacid api na te caṇḍi sādṛśyam asti // 2.44 //
+               </p>
+         </p>
+         
+         
+         <p>tvām ālikhya praṇayakupitāṃ dhāturāgaiḥ śilāyām $
+            
+            <p>
+               ātmānaṃ te caraṇapatitaṃ yāvad icchāmi kartum &amp;<br />
+               asrais tāvan muhur upacitair dṛṣṭir ālupyate me %<br />
+               krūras tasminn api na sahate saṃgamaṃ nau kṛtāntaḥ // 2.45 //
+               </p>
+         </p>
+         
+         
+         <p>dhārāsiktasthalasurabhiṇas tvanmukhasyāsya bāle $
+            
+            <p>
+               dūrībhūtaṃ pratanum api māṃ pañcabāṇaḥ kṣiṇoti &amp;<br />
+               gharmānte 'smin vigaṇaya kathaṃ vāsarāṇi vrajeyur %<br />
+               diksaṃsaktapravitataghanavyastasūryātapāni // 2.45a //
+               </p>
+         </p>
+         
+         
+         <p>mām ākāśapraṇihitabhujaṃ nirdayāśleṣahetor $
+            
+            <p>
+               labdhāyās te katham api mayā svapnasandarśaneṣu &amp;<br />
+               paśyantīnāṃ na khalu bahuśo na sthalīdevatānāṃ %<br />
+               muktāsthūlās tarukisalayeṣv aśruleśāḥ patanti // 2.46 //
+               </p>
+         </p>
+         
+         
+         <p>bhittvā sadyaḥ kisalayapuṭān devadārudrumāṇāṃ $
+            
+            <p>
+               ye tatkṣīrasrutisurabhayo dakṣiṇena pravṛttāḥ &amp;<br />
+               āliṅgyante guṇavati mayā te tuṣārādrivātāḥ %<br />
+               pūrvaṃ spṛṣṭaṃ yadi kila bhaved aṅgam ebhis taveti // 2.47 //
+               </p>
+         </p>
+         
+         
+         <p>saṃkṣipyante kṣana iva kathaṃ dīrghayāmā triyāmā $
+            
+            <p>
+               sarvāvasthāsv ahar api kathaṃ mandamandātapaṃ syāt &amp;<br />
+               itthaṃ cetaś caṭulanayane durlabhaprārthanaṃ me %<br />
+               gāḍhoṣmābhiḥ kṛtam aśaraṇaṃ tvadviyogavyathābhiḥ // 2.48 //
+               </p>
+         </p>
+         
+         
+         <p>nanv ātmānaṃ bahu vigaṇayann ātmanaivāvalambe $
+            
+            <p>
+               tatkalyāṇi tvam api nitarāṃ mā gamaḥ kātaratvam &amp;<br />
+               kasyātyantaṃ sukham upanataṃ duḥkham ekāntato vā %<br />
+               nīcair gacchaty upari ca daśā cakranemikrameṇa // 2.49 //
+               </p>
+         </p>
+         
+         
+         <p>śāpānto me bhujagaśayanād utthite śārṅgapāṇau $
+            
+            <p>
+               śeṣān māsān gamaya caturo locane mīlayitvā &amp;<br />
+               paścād āvāṃ virahaguṇitaṃ taṃ tam ātmābhilāṣaṃ %<br />
+               nirvekṣyāvaḥ pariṇataśaraccandrikāsu kṣapāsu // 2.50 //
+               </p>
+         </p>
+         
+         
+         <p>bhūyaścāha tvam api śayane kaṇṭhalagnā purā me $
+            
+            <p>
+               nidrāṃ gatvā kim api rudatī sasvaraṃ viprabuddhā &amp;<br />
+               sāntarhāsaṃ kathitam asakṛt pṛcchataś ca tvayā me %<br />
+               dṛṣṭaḥ svapne kitava ramayan kām api tvaṃ mayeti // 2.51 //
+               </p>
+         </p>
+         
+         
+         <p>etasmān māṃ kuśalinam abhijñānadānād viditvā $
+            
+            <p>
+               mā kaulīnād asitanayane mayy aviśvāsinī bhūḥ &amp;<br />
+               snehān āhuḥ kim api virahe dhvaṃsinas te tv abhogād %<br />
+               iṣṭe vastuny upacitarasāḥ premarāśībhavanti // 2.52 //
+               </p>
+         </p>
+         
+         
+         <p>āśvāsyaivaṃ prathamavirahodagraśokāṃ sakhīṃ te $
+            
+            <p>
+               śailād āśu trinayanavṛṣotkhātakūṭān nivṛttaḥ &amp;<br />
+               sābhijñānaprahitakuśalais tadvacobhir mamāpi %<br />
+               prātaḥ kundaprasavaśithilaṃ jīvitaṃ dhārayethāḥ // 2.53 //
+               </p>
+         </p>
+         
+         
+         <p>kaccit saumya vyavasitam idaṃ bandhukṛtyaṃ tvayā me $
+            
+            <p>
+               pratyādeśān na khalu bhavato dhīratāṃ kalpayāmi &amp;<br />
+               niḥśabdo 'pi pradiśasi jalaṃ yācitaś cātakebhyaḥ %<br />
+               pratyuktaṃ hi praṇayiṣu satām īpsitārthakriyaiva // 2.54 //
+               </p>
+         </p>
+         
+         </div>
+   </body>
+</html>

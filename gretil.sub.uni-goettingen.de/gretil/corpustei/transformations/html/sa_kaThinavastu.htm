@@ -1,0 +1,675 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Kaṭhinavastu (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Kaṭhinavastu</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_kaThinavastu.xml">sa_kaThinavastu.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Klaus Wille</p>
+      <p class="noindent"><b>Contribution: </b>Klaus Wille</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>H. Matsumura: The Kaṭhinavastu from the Vinayavastu of the Mūlasarvāstivādins, Sanskrit-Texte
+            aus dem buddhistischen Kanon: Neuentdeckungen und Neueditionen III, Göttingen 1996
+            (Sanskrit-Wörterbuch der buddhistischen Texte aus den Turfan-Funden, Beiheft 6), pp.
+            145-239. = Kaṭhina-v.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="hi">highlighted text</span></li>
+         <li><span class="note">remarks</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/vinv08_u.htm">vinv08_u.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Kathinavastu of the Vinayavastvagama of the Mulasarvastivadin (= Vastu 8 of the
+            Vinayavastu)
+            <br />Based on the edition by H. Matsumura: The Kaṭhinavastu from the Vinayavastu of the
+            Mūlasarvāstivādins, Sanskrit-Texte aus dem buddhistischen Kanon: Neuentdeckungen und
+            Neueditionen III, Göttingen 1996 (Sanskrit-Wörterbuch der buddhistischen Texte aus
+            den Turfan-Funden, Beiheft 6), pp. 145-239. = Kaṭhina-v
+            <br />
+            <br />Input by Klaus Wille, Göttingen
+            <br />
+            <br />ABBREVIATION:
+            <br />GBM = Gilgit Buddhist Manuscripts (Facsimile Edition), ed. by Raghu Vira and Lokesh
+            Chandra,
+            <br />10 pts., New Delhi 1959-1974 (Śata-Piṭaka Series 10),
+            <br />revised and enlarged compact edition, 3 vols., Delhi 1995
+            <br />(Bibliotheca Indo-Buddhica Series, 150-152).
+            <br />
+            <br />To facilitate word search the edited text has been standardized:
+            <br />Gemination before and after r has been skipped: rtt - rt, ttr -ḥ tr etc.
+            <br />Sandhi: ss -ḥ ḥs, s s -ḥ ḥ s
+            <br />
+            <br />pṛṣṭhavācikayā -ḥ pṛṣṭavācikayā (see the discussion in Matsumura, Kaṭhinavastu, note
+            72, and Hu-von Hinüber, Poṣadhavastu, p. 212)
+            <br />
+            <br />BOLD for references
+            <br />ITALICS for restored text
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         <span class="note"><span class="bold">Matsumura 186</span></span>
+         
+         <p>uddānam* //</p>
+         
+         
+         <p>sāketena hi kasyacid vitaritaṃ marditaṃ (<span class="bold">276r1 = GBM 6.864</span>) ca kālena pudgalo mātṛkāpadāny akṛtena viṃśatiḥ karaṇīyena dvādaśikā</p>
+         
+         <span class="note"><span class="bold">Matsumura 187</span></span>
+         
+         <p>sāketena varṣopagatā śāstur darśanakāmyayā 
+            kardame uṣṇena klāntānāṃ cīvaraṃ tatra sammatam* // //</p>
+         
+         
+         <p>Kaṭhina-v 1. buddho bhagavāṃ śrāvastyāṃ varṣā upagato jetavane 'nāthapiṇḍadasyārāme
+            / tena khalu samayena saṃbahulā bhikṣavaḥ sākete varṣopagatās trayāṇāṃ vārṣikāṇāṃ
+            māsānām atyayāt kṛtacīvarā niṣṭhitacīvarāḥ samādāya pātracīvaraṃ bahutṛṇe bahukardame
+            uṣṇena klāmyantaḥ svedaparyākulīkṛtaśarīrā yena śrāvastīṃ tena cārikāṃ caranta<span class="it">ḥ</span> śrāvastīm anuprāptāḥ atha saṃbahulā bhikṣavaḥ pātracīvaraṃ pratiśamayya pādau prakṣālya
+            yena bhagavāṃs tenopasaṃkrāntā upasaṃkramya bhagavataḥ pādau śirasā vanditvā ekānte
+            niṣaṇṇāḥ</p>
+         
+         <span class="note"><span class="bold">Matsumura 188</span></span>
+         
+         <p>Kaṭhina-v 2. dharmatā khalu buddhā bhagavanta āgantukān bhikṣūn anayā pratisaṃmodanayā
+            pratisaṃmoda<span class="it">n</span>te / kuto yūyaṃ bhikṣava etarhy āgacchata : kutra vā stha varṣā uṣitā iti pratisaṃmodate
+            bhagavān āgantukān bhikṣūn anayā pratisaṃmodanayā sukhaṃ sparśaṃ varṣā nayā kuto yūyaṃ
+            bhikṣava etarhy āgacchatha kutra vā stha varṣā uṣitāḥ te kathayaṃti sāketād vayaṃ
+            bhadant'; etarhy āgacchāma sākete vā sma varṣā uṣitāḥ kaccid yūyaṃ bhikṣavaḥ sākete
+            sukhaṃ sparśaṃ varṣā uṣitā na vā stha klāntāḥ piṇḍakena tathyaṃ vayaṃ bhadanta (<span class="bold">Matsumura 189</span>) sāketa sukhaṃ sparśaṃ varṣā uṣitā na vā sma<span class="it">ḥ</span> klāntā<span class="it">ḥ</span> piṇḍakenāpi tu vayaṃ samādāya pātracīvaraṃ bahutṛṇe bahukardame uṣṇena klāmyanta<span class="it">ḥ</span> svedaparyākulīkṛtaśarīrā janapadacārikāṃ carantaḥ kṛcchreṇehānuprāptāḥ</p>
+         
+         
+         <p>Kaṭhina-v 3. bhagavān saṃlakṣayati / klāmyanti bata me śrāvakāḥ samādāya pātracīvaraṃ
+            bahutṛṇe bahukardame uṣṇena klāmyanti svedaparyākulīkṛtaśarīrā janapadacārikāṃ caranto
+            yanv ahaṃ bhikṣūṇāṃ sparśavihārārthaṃ dātrīṇāṃ ca deyadharmaparibhogārthaṃ bhikṣūṇāṃ
+            kaṭhinam anujānīyaṃ / yasmāt paṃcānuśaṃsā<span class="it">ḥ</span> kaṭhināstare na daśāhaparamaṃ na māsaparamaṃ na rātri<span class="it">vi</span>pravāsāḥ sāntarottareṇa cīvareṇa janapadacārikāṃ (<span class="bold">Matsumura 190</span>) prakramaṇaṃ yāvadap<span class="it">t</span>a<span class="it">ṃ</span> vikalpi<span class="it">ta</span>cīvaradhāraṇam iti / apare 'pi paṃcānuśaṃsā<span class="it">ḥ</span> / na gaṇabhojanaṃ na (<span class="bold">Matsumura 191</span>) paraṃparabhojanaṃ na kuleṣv ānimantritacārikā yāvadāptaṃ cīvaraparyeṣaṇaṃ (<span class="bold">Matsumura 192</span>) kārtikān māsād yāvat phālguno māso atrāntarāt sāstṛtakaṭhi<span class="it">nā</span>nāṃ lābha iti viditvā bhikṣūn āmantrayate sma / tasmāt tarhi bhikṣavo 'nujānāmi bhikṣūṇāṃ
+            sparśavihārārthaṃ dātrīṇāṃ ca deyadharmaparibhogārthaṃ varṣoṣitair bhikṣubhiḥ kaṭhinam
+            āstartavyaṃ yasmāt paṃcānuśaṃsā<span class="it">ḥ</span> kaṭhine na daśāhaparamaṃ pūrvavad yāvad āstṛtakaṭhinānāṃ lābha iti</p>
+         
+         
+         <p>Kaṭhina-v 4. uktaṃ bhagavatā kaṭhinam āstartavyam iti bhikṣavo na jānate katham (<span class="bold">Matsumura 193</span>) āstartavyam iti / bhagavān āha / yad varṣoṣitasya saṃghasya cīvaralābhaḥ saṃpadyate
+            tasmād āstartavyaṃ evaṃ ca punar āstartavyaṃ pūrvavat* sāmagryam ārocayitavyaṃ idaṃ
+            cīvaraṃ varṣoṣitasya saṃghasya cīvaralābhaḥ saṃpannaḥ yadi saṃghasyābhirucitam anena
+            cīvareṇa saṃghasya kaṭhinam (<span class="bold">276v1 = GBM 6.865</span>) āstariṣyati / tataḥ paścād aparasmin divase śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya
+            pṛṣtavācikayā bhikṣūṃ (<span class="bold">Matsumura 194</span>) samanuyujya sarvasaṃghe sanniṣaṇṇe sannipatite ekena bhikṣuṇā jñaptiṃ kṛtvā karma
+            kartavya<span class="it">m</span> </p>
+         
+         
+         <p>Kaṭhina-v 5. śṛṇotu bhadantāḥ saṃgha idaṃ cīvaraṃ varṣoṣitasya saṃghasya cīvaralābhaḥ
+            saṃpannaḥ saṃghasya kaṭhinam abhirucitaṃ anena cīvareṇa kaṭhinam āstarituṃ / yenāstīrṇakaṭhinād
+            āvāsāt prakrāmantaḥ (<span class="bold">Matsumura 195</span>) purāṇacīvarāṇāṃ apy avipravāso bhaviṣyati prāg eva navakānāṃ sacet saṃghasya prāptakālaṃ
+            kṣametānujānīyāt saṃgho yat saṃghaḥ idaṃ cīvaraṃ kaṭhinārthaṃ saṃmanyetānena cīvareṇa
+            saṃghasya kaṭhinam āstariṣyati yenāstīrṇakaṭhinād āvāsāt* prakrāmantaḥ purāṇacīvarāṇām
+            apy avipravāso bhaviṣyati prāg eva navakānām ity eṣā jñaptiḥ // evaṃ ca karma kartavyaṃ</p>
+         
+         
+         <p>Kaṭhina-v 6. śṛṇotu bhadantāḥ saṃgha idaṃ cīvaraṃ varṣoṣitasya saṃghasya cīvaralābhaḥ
+            saṃpannaḥ saṃghasya cābhirucitaṃ kaṭhinaṃ kartuṃ tat saṃgha idaṃ cīvaraṃ kaṭhinārthaṃ
+            saṃmanyate anena cīvareṇa saṃghasya kaṭhinam āstariṣyati yenāstīrṇakaṭhinād āvāsāt
+            prakrāmataḥ purāṇacīvarakāṇām apy avipravāso bhaviṣyati prāg eva navakānāṃ (<span class="bold">Matsumura 196</span>) yeṣām āyuṣmatāṃ kṣamate idaṃ cīvaraṃ kaṭhinārthaṃ saṃmantum anena cīvareṇa saṃghasya
+            kaṭhinam āstariṣyati yenāstīrṇakaṭhinād āvāsāt prakramata<span class="it">ḥ</span> purāṇacīvarakāṇām apy avipravāso bhaviṣyati prāg eva navakānāṃ sa tūṣṇīṃ na kṣamate
+            bhāṣantāṃ saṃmataḥ saṃghena idaṃ cīvaraṃ kaṭhinārtham anena cīvareṇa <span class="it">saṃghasya</span> kaṭhinam āstariṣyati yenāstīrṇakaṭhinād āvāsāt* prakrāmataḥ purāṇacīvarakāṇām apy
+            avipravāso bhaviṣyati prāg eva navakānāṃ kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīṃ
+            evam etad dhārayāmi</p>
+         
+         
+         <p>Kaṭhina-v 7. tataḥ paścāt kaṭhināstārako bhikṣuḥ saṃmantavyaḥ paṃcabhir dharmaiḥ samanvāgataḥ
+            kaṭhināstārako bhikṣur asaṃmato na saṃmantavyaḥ saṃmataś cāvakāśayitavyaḥ katamaiḥ
+            paṃcabhiḥ avarṣiko varṣachinnakaḥ (<span class="bold">Matsumura 197</span>) paścimakāṃ varṣām upagato anyatra varṣoṣitaḥ śikṣādattakaḥ apare api paṃca na saṃmantavyāḥ
+            pārivāsika mūlapārivāsika mānāpya mūlamānāpyacāra utkṣiptakaḥ apare paṃca na saṃmantavyā
+            cchandād gacchati dveṣāṃ mohād bhayād gacchati āstṛtaṃ cānāstṛtaṃ kaṭhinaṃ na jānāti
+            : paṃcabhis tu dharmaiḥ samanvāgataḥ kaṭhināstārako bhikṣur asaṃmataś ca saṃmantavya<span class="it">ḥ</span> saṃmataś c<span class="it">a n</span>āvakāśayitavyaḥ katamaiḥ paṃcabhiḥ na cchandād gacchati na dveṣān na mohān na bhayād
+            gacchati āstṛtānāstṛtaṃ ca kaṭhinaṃ jānāti</p>
+         
+         
+         <p>Kaṭhina-v 8. evaṃ ca punaḥ saṃmantavyaḥ śayanāsanaprajñaptiṃ kṛtvā pūrvavad (<span class="bold">Matsumura 198</span>) yāvad utsāhayitavyaḥ utsahase tvam evaṃnāmā saṃghasya kaṭhin<span class="it">am</span> āstartum iti saced utsahate <span class="it">te</span>na vaktavyaṃ utsahed iti / tataḥ paścād ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyam*</p>
+         
+         
+         <p>Kaṭhina-v 9a. śṛṇotu bhadantāḥ saṃgha ayam evaṃnāmā kaṭhināstārako bhikṣur utsahate
+            saṃghasya kaṭhinam āstartuṃ sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho (<span class="bold">277r1 = GBM 6.866</span>) yat saṃghaḥ evaṃnāmānaṃ kaṭhināstārakaṃ <span class="it">saṃmanyeta evaṃnāmā kaṭhināstarakaḥ</span> saṃghasya kaṭhinam āstariṣyat<span class="it">īti eṣā jñaptiḥ evaṃ ca karma kartavyaṃ</span></p>
+         
+         <span class="note"><span class="bold">Matsumura 199</span></span>
+         
+         <p>Kaṭhina-v 9b. <span class="it">śṛṇotu bhadantāḥ saṃghaḥ ayam evaṃnāmā kaṭhināstāraka utsahe saṃghasya kaṭhinam āstartuṃ
+               tat saṃgha evaṃnāmānaṃ kaṭhināstārakaṃ saṃmanyeta ayam evaṃnāmā kaṭhināstarakaḥ saṃghasya
+               kaṭhinam āstariṣyat</span>i yeṣām āyuṣmatāṃ kṣamate evaṃnāmānaṃ kaṭhināstārakaṃ saṃmantuṃ evaṃnāmā kaṭhināstārakaḥ
+            saṃghasya kaṭhinam āstariṣyati te tūṣṇī<span class="it">ṃ</span> na kṣamate bhāṣantāṃ saṃmataḥ saṃghena evaṃnāmā kaṭhināstārakaḥ saṃghasya kaṭhinam
+            āstariṣyati kṣāntam anujñātaṃ saṃghena yasmāt tuṣṇīm evam etad dhārayāmi</p>
+         
+         
+         <p>Kaṭhina-v 10. tataḥ kaṭhināstārakasya bhikṣo<span class="it">r</span> jñaptyā kaṭhinaṃ āstaritavyaṃ (<span class="bold">Matsumura 200</span>) śṛṇotu bhadantāḥ saṃgha idaṃ cīvaraṃ saṃghena kaṭhinārthaṃ saṃmatam ayaṃ caivaṃnāmā
+            kaṭhināstārako bhikṣuḥ saṃmataḥ sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho
+            yat saṃghaḥ idaṃ cīvaraṃ kaṭhinārtham evaṃnāmno bhikṣor anupradadyād ity eṣā jñaptiḥ</p>
+         
+         
+         <p>Kaṭhina-v 11. kaṭhināstārakasyāhaṃ bhikṣor āsamudācārikāṃ dharmāṃ prajñapayiṣyāmi
+            kaṭhināstārakena bhikṣuṇā kaṭhinena sarvatra pūrvaṃgamena bhavitavyam* dhāvatā vitaratā
+            cchindatā sīvatā raṃjayatā antato dvau trayo vā sūcīpadakā dātavyā dvau trayo vā cittotpādā
+            utpādayitavya<span class="it">ḥ</span></p>
+         
+         
+         <p>Kaṭhina-v 12. tataḥ paścād āśvayujamāse śuklapakṣapaṃcadaśyāṃ ārocayitavyam* : (<span class="bold">Matsumura 201</span>) śvo 'ham āyuṣmanta<span class="it">ḥ</span> kaṭhinam āstariṣyāmi / yuṣmābhi<span class="it">ḥ</span> svakasvakāni cīvarāṇi pratyuddhartavyāni iti tataḥ kaṭhināstārakeṇa (<span class="bold">Matsumura 202</span>) bhikṣuṇā kaṭhina<span class="it">ṃ</span> gandhapuṣpānvitaṃ surabhidhūpadhūpitaṃ kṛtvā śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya
+            pṛṣtavācikayā bhikṣūn samanuyujya sarvasaṃghe sanniṣaṇṇe sannipatite vṛddhānte sthāpayitavyaṃ
+            tato vṛddhānte sthivā kaṭhinaṃ gṛhītvā vaktavyaṃ </p>
+         
+         
+         <p>Kaṭhina-v 13. śṛṇotu bhadantāḥ saṃgha idaṃ cīvaraṃ saṃghena kaṭhinaṃ saṃmatam ahaṃ
+            caivaṃnāmā bhikṣuḥ kaṭhināstārakaḥ so 'ham evaṃnāmā kaṭhināstārakas tena cīvareṇa
+            saṃghasya kaṭhinam āstariṣyāmīti / evaṃ dvir api tṛr api tata āstīrya saṃghasthavirasya
+            purastāt sthitvā evaṃ vaktavyaṃ samanvāhara sthavira idaṃ cīvaraṃ saṃghena kaṭhinaṃ
+            (<span class="bold">Matsumura 203</span>) saṃmatam ahaṃ caivaṃnāmā kaṭhināstārakas tan mayā anena cīvareṇa saṃghasya kaṭhinam
+            āstṛtam iti</p>
+         
+         
+         <p>Kaṭhina-v 14. tena vaktavyaṃ sādhv āstṛtaṃ suṣṭhv āstṛtaṃ yo 'tra lābhas cānuśaṃsaś
+            ca so 'smākam iti evaṃ dvir api tṛr api yāvat saṃghanavakasya sarvair vaktavyaṃ sādhv
+            āstṛtaṃ suṣṭhv āstṛtaṃ yo 'tra lābhaś cānuśaṃsaś ca so 'smākam iti </p>
+         
+         
+         <p>Kaṭhina-v 15. kaṭhināstārakeṇa bhikṣuṇā kaṭhinaṃ gṛhītvā na prasrāvakuṭiṃ na varcaskuṭiṃ
+            na dhūmāgāraṃ praveṣṭavyaṃ nābhyavakāśe sthātavyaṃ na bahiḥsīmāṃ gantavyaṃ saced gacchati
+            na tasyāṃ vastavyaṃ (<span class="bold">Matsumura 204</span>) kaṭhināstārako bhikṣur yathāprajñaptān āsamudācārikāṃ dharmān na samādāya vartate
+            sātisāro bhavati</p>
+         
+         
+         <p>Kaṭhina-v 16. tataḥ kaṭhināstārakena bhikṣuṇā phālgunamāse <span class="it">śuklapakṣa</span>paṃcadaśyāṃ punar ārocayitavyaṃ śvā āyuṣmanta<span class="it">ḥ</span> kaṭhinam uddhariṣyāmi yūyaṃ svakasvakāni cīvarāṇy adhitiṣṭhateti / yaś ca tatra lābhaḥ
+            saṃpannaḥ sa saṃghena bhājayitavya<span class="it">ḥ</span> //</p>
+         
+         
+         <p>Kaṭhina-v 17. āyuśmān upālī buddhaṃ bhagavantaṃ pṛcchati / katīnāṃ bhadanta kaṭhinam
+            <span class="it">an</span>āstṛtaṃ pañcānām upāliṃ avarṣikasya varṣācchinnakasya paścimakā<span class="it">ṃ</span> (<span class="bold">277v1 = GBM 6.867</span>) varṣā<span class="it">ṃ</span> upagatasya anyatra varṣopagatasya tasmiṃ kaṭhina āstīryamāṇe asaṃmukhībhūtasya /
+            apareṣām api paṃcānām anāstṛtaṃ pārivāsikasya paryuṣitaparivāsasya mānāpyacārikasya
+            caritamānāpyasya śikṣādattakasya ca</p>
+         
+         <span class="note"><span class="bold">Matsumura 205</span></span>
+         
+         <p>Kaṭhina-v 18. <span class="it">katīnāṃ bhadantaiva lābho nānuśaṃsā / pañcānām upālin avarṣikasya varṣācchinnakasya
+               paścimakāṃ varṣām upagatasyānyatra varṣopagatasya tasmiṃ kaṭhina astīryamāṇa saṃmukhībhūtasya
+               / apareṣām api pañcānāṃ pārivāsikasya paryuṣitaparivāsasya mānāpyacārikasya caritamānāpyasya
+               śikṣādattakasya ca </span></p>
+         
+         
+         <p>Kaṭhina-v 19. kātīnāṃ bhadanta naiva lābho nānuśaṃsaḥ paṃcānām upāliṃ adarśanāyotkṣiptakasya
+            apratikarmaṇāyotkṣiptakasya apratinisṛṣṭe / pāpake dṛṣṭigate utkṣiptakasya anyatra
+            varṣoṣitasya bhinne ca saṃghe adharme pākṣikasya</p>
+         
+         <span class="note"><span class="bold">Matsumura 206</span></span>
+         
+         <p>Kaṭhina-v 20. saṃbahulā bhikṣavo janapadacārikāṃ carantaḥ corair muṣitās te 'nupūrveṇa
+            śrāvastīm anuprāptā bhikṣubhir dṛṣṭā<span class="it">ḥ</span> svāgataṃ svāgataṃ āyuṣmantaḥ kaccit sukhacaryā / kīdṛśī āyuṣmantaḥ sukhacaryā corair
+            muṣitā<span class="it">ḥ</span> sma<span class="it">ḥ</span> / asmākam āyuṣmantaḥ prabhūto lābhaḥ saṃpannaḥ yadi kaṭhinam uddhriyate cīvarair
+            yuṣmākaṃ saṃvibhāgaṃ kurma iti / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti bhagavān
+            āha / tasmād anujānāmi corair muṣitakānāṃ bhikṣūṇām arthāya kaṭhinam uddhartavyaṃ
+            evaṃ ca punar uddhartavyaṃ śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣtavācikayā
+            bhikṣūn samanuyujya sarvasaṃghe sanniṣaṇṇe sannipatite ekena bhikṣuṇā jñaptiṃ kṛtvā
+            karma kartavyam*</p>
+         
+         
+         <p>Kaṭhina-v 21. śṛṇotu bhadantāḥ saṃgha yāvad evāsminn āvāse samagreṇa saṃghena kaṭhinam
+            āstṛtaṃ saṃbahulāś ca bhikṣavaḥ corair muṣitā āgatāḥ sacet saṃghasya prāptakālaṃ kṣametānujānīyāt
+            saṃgho yat saṃghaś corair muṣitakānāṃ bhikṣūṇām arthāya kaṭhinam uddhared ity eṣā
+            jñaptiḥ evaṃ ca karma kartavyam*</p>
+         
+         <span class="note"><span class="bold">Matsumura 207</span></span>
+         
+         <p>Kaṭhina-v 22a. śṛṇotu bhadantāḥ saṃgha yāvad evāsminn āvāse samagreṇa saṃghena kaṭhinam
+            āstṛtaṃ saṃbahulāś ca bhikṣavaś corair muṣitakā āgatā<span class="it">s</span> tat saṃghaś corair muṣitakānāṃ bhikṣūṇām arthāya kaṭhinam uddharati yeṣām āyuṣmatāṃ
+            kṣamate coramuṣitakānāṃ bhikṣūṇām arthāya kaṭhinam uddharituṃ te tūṣṇīṃ na kṣamate
+            bhāṣantāṃ uddhṛtaṃ saṃghena coramuṣitakānāṃ bhikṣūṇām arthāya kaṭhinaṃ kṣāntam anujñātaṃ
+            saṃghena yasmāt tūṣṇīm evam etad dhārayāmi /</p>
+         
+         
+         <p>Kaṭhina-v 22b. tasmād yo lābhaḥ saṃpannaḥ sa bhājayitavyaḥ bhājite yasyābhipretan
+            tena svakāt pratyaṃśāc cauramuṣitakānāṃ bhikṣūṇāṃ saṃvibhāgaḥ kartavyaḥ // //</p>
+         
+         
+         <p>uddānam* //</p>
+         
+         
+         <p>vitaritaṃ vilikhitaṃ ca dhuṭī gaṇḍūṣapaṭṭikā 
+            upadhipariṣaṇḍo ca purāṇasannihitaphupphusam* // //</p>
+         
+         
+         <p>Kaṭhina-v 23. āyuṣmān upālī buddhaṃ bhagavantaṃ pṛcchati / labhyaṃ bhadanta vitaritena
+            cīvarakeṇa kaṭhinam āstartum* na labhyam upālin* labhyaṃ (<span class="bold">Matsumura 208</span>) bhadanta vilikhitena dakaśāṭikācīvareṇa gaṇḍūṣacīvareṇa paṭṭikācīvareṇa plotikācīvareṇa
+            pariṣaṇḍācīvareṇa purāṇacīvareṇa (<span class="bold">Matsumura 209</span>) sannihitacīvareṇa phupphusacīvareṇa kaṭhinam āstartuṃ na labhyam upālin* // //</p>
+         
+         <span class="note"><span class="bold">Matsumura 210</span></span>
+         
+         <p>uddānam* // //</p>
+         
+         
+         <p>
+            marditaṃ cāpy akālena pudgalasya tṛcīvaram*<br />
+            akalpikam asaṃcchanaṃ na kuryād ūnapaṃcakam*<br />
+            asaṃmatam anāstṛtaṃ bahiḥsīme na rohati // //
+            </p>
+         
+         
+         <p>Kaṭhina-v 24. āyuṣmān (<span class="bold">278r1 = GBM 6.868</span>) upālī buddhaṃ bhagavantaṃ pṛcchati labhyaṃ bhadanta marditena cīvareṇa kaṭhinam
+            āstartuṃ na labhyam upālin* labhyaṃ bhadanta akālacīvareṇa paudgalikayā saṃghāṭyā
+            (<span class="bold">Matsumura 211</span>) uttarāsaṃgena antarvāsena akalpikena cīvareṇa acchinakena ūnapaṃcakena asammatena
+            <span class="it">cīvareṇa asammatena</span> (<span class="bold">Matsumura 212</span>) kaṭhināstārakena bahiḥsīmāsammatena kaṭhinacīvareṇa bahiḥsīmāsaṃmatena kaṭhināstārakena
+            kaṭhinam āstartuṃ na labhyam upālin* // //</p>
+         
+         <span class="note"><span class="bold">Matsumura 213</span></span>
+         
+         <p>uddānam* // //</p>
+         
+         
+         <p>kālikaṃ cāpi traimāsyam ahantaṃ caiva kalpikam*
+            ātyayikaṃ pailotikaṃ pudgalasya tṛcīvaram* // //</p>
+         
+         
+         <p>Kaṭhina-v 25. labhyaṃ bhadanta kālikena cīvareṇa saṃghasya kaṭhinam āstartuṃ labhyaṃ
+            upālin* yo bhadanta traimāsyātyayāt saṃghasya cīvaralābhaḥ saṃpadyate <span class="it">tena labhyaṃ</span> kaṭhinam āstartuṃ labhyam upāliṃ ahatacīvareṇa labhyaṃ ahatakalpitena labhyaṃ ātyayikacīvareṇa
+            labhyaṃ paulotikacīvareṇa labhyaṃ paulotikayā (<span class="bold">Matsumura 214</span>) saṃghāṭyā na labhyaṃ <span class="it">labhyaṃ bhadanta paudgalikayā saṃghāṭyā kaṭhinam āstartuṃ labhyam upālin</span> sacet saṃghe nisṛṣṭā bhavati evam uttarāsaṃgenāntarvāsena // //</p>
+         
+         <span class="note"><span class="bold">Matsumura 215</span></span>
+         
+         <p>uddānam* // //</p>
+         
+         
+         <p>paudgalikaṃ gārhāpatakaṃ paṃcakaṃ sādhikapaṃcikaṃ
+            saṃmatam āstṛtaṃ caiva antaḥsīme ca rohau // //</p>
+         
+         
+         <p>Kaṭhina-v 26. labhyaṃ bhadanta paudgalikena cīvareṇa kaṭhinam āstartuṃ na labhyam
+            upāliṃ labhyaṃ sacet saṃghe nisṛṣṭaṃ bhavati gṛhapaticīvareṇa na labhyaṃ labhyaṃ sacet
+            saṃghe nisṛṣṭaṃ (<span class="bold">Matsumura 216</span>) bhavati paṃcakena labhyaṃ sādhikena paṃcakena labhyaṃ sammatena kaṭhinacīvare<span class="it">ṇa</span> kaṭhināstārakena labhyaṃ antaḥsīmāsammatena kaṭhinacīvareṇa labhyaṃ antaḥsīmāsammatena
+            kaṭhināstārakena labhyaṃ</p>
+         
+         
+         <p>Kaṭhina-v 27. aṣṭau mātṛkāpadāni kaṭhinoddhārāya saṃvartante katame 'ṣṭau prakramaṇaṃ
+            niṣṭhāpanaṃ sanniṣṭhāpanaṃ nāśanaṃ śravaṇaṃ sīmātikrāntaṃ (<span class="bold">Matsumura 217</span>) āśācchedakaṃ kaṭhinoddhāram evāṣṭamam* prakramaṇāntikaḥ kaṭhinoddhārā niṣṭhāpanāntikaḥ
+            sanniṣṭhāpanāntikaḥ nāśanāntikaḥ śravaṇāntikaḥ sīmātikrāntikaḥ āśācchedakaḥ kaṭhinoddhāram
+            evāṣṭamam*</p>
+         
+         
+         <p>Kaṭhina-v 28. prakramaṇāntikaḥ kaṭhinoddhāraḥ katamaḥ yathāpi tad bhikṣur āstīrṇakaṭhinād
+            āvāsāt* akṛtacīvaro 'niṣṭhitacīvaraḥ samādāya pātracīvaraṃ bahiḥsīmāṃ prakramaty apunarāgamanāya
+            tasya prakramaṇāntikaḥ kaṭhinoddhāraḥ</p>
+         
+         <span class="note"><span class="bold">Matsumura 218</span></span>
+         
+         <p>Kaṭhina-v 29. niṣṭhāpan<span class="it">āntik</span>aḥ kaṭhinoddhāraḥ katamaḥ yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            bahiḥsīmāṃ prakrāmati pratyeṣ<span class="it">y</span>āmi cīvaraṃ kariṣyāmīti tasyaivaṃ bhavati na haiva pratyeṣ<span class="it">y</span>āmy api tu cīvaraṃ kariṣyāmīti tasya niṣṭhāpanāntikaḥ kaṭhinoddhāraḥ</p>
+         
+         
+         <p>Kaṭhina-v 30. sanniṣṭhāpanāntikaḥ kaṭhinoddhāraḥ katamaḥ yathāpi tad bhikṣur (<span class="bold">Matsumura 219</span>) āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ bahiḥsīmāṃ prakrāmati pratyeṣyāmi
+            cīvaraṃ kariṣyāmīti / tasyaivaṃ bhavati na haiva pratyeṣyāmi nāpi cīvaraṃ kariṣyāmīti
+            tasya sanniṣṭhāpanāntikaḥ kaṭhinoddhāraḥ //</p>
+         
+         
+         <p>Kaṭhina-v 31. nāśanāntikaḥ kaṭhinoddhāraḥ katamaḥ yathāpi tad bhikṣur āstīrṇakaṭhinād
+            (<span class="bold">Matsumura 220</span>) āvāsād akṛta<span class="it">c</span>ī<span class="it">varo</span> 'n<span class="it">i</span>ṣṭhitacīvaraḥ bahiḥsīmāṃ prakrāmati pratyeṣyāmi (<span class="bold">278v1 = GBM 6.869</span>) cīvaraṃ kariṣyāmi / <span class="it">tasyaivaṃ bhavati na haiva pratyeṣyāmi api tu cīvaraṃ kariṣyāmīti</span> sa tad ārabhate ārabdhaṃ tu naśyati tasya nāśanāntikaḥ kaṭhinoddhāraḥ</p>
+         
+         
+         <p>Kaṭhina-v 32. śravaṇāntikaḥ kaṭhinoddhāraḥ katamaḥ yathāpi tad bhikṣuḥ āstīrṇakaṭhinād
+            āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ bahiḥsīmāṃ prakrāmati pratyeṣyāmi cīvaraṃ kariṣyāmi
+            samagreṇa ca saṃghena kaṭhinam uddhṛtaṃ sa śṛṇoti samagreṇa saṃghena kaṭhinam uddhṛtam
+            iti śrutvā cābhyanumodate sādhūddhṛtaṃ suṣṭhūddhṛtam iti / tasya śravaṇāntikaḥ kaṭhinoddhāraḥ</p>
+         
+         <span class="note"><span class="bold">Matsumura 221</span></span>
+         
+         <p>Kaṭhina-v 33. sīmātikrāntikaḥ kaṭhinoddhāraḥ katamaḥ yathāpi tad bhikṣur āstīrṇakaṭhinād
+            āvāsād akṛtacīvaro 'niṣṭhitacīvaro bahiḥsīmāṃ prakrāmati pratyeṣyāmi na pratyeṣyāmīti
+            sīmāṃ cātikrāmati tasya sīmātikrāntikaḥ kaṭhinoddhāraḥ</p>
+         
+         
+         <p>Kaṭhina-v 34. āśācchedakaḥ kaṭhinoddhāraḥ katamaḥ yathāpi tad bhikṣur āstīrṇakaṭhinād
+            āvāsād akṛtacīvaro 'niṣṭhitacīvaro bahiḥsīmāṃ prakrāmati pratyeṣyāmi cīvaraṃ kariṣyāmīti
+            tasya yā sā cīvarapratyāśā sā sarveṇa sarvaṃ samucchidyate tasyāśācchedakaḥ <span class="it">kaṭhinoddhāraḥ</span></p>
+         
+         
+         <p>Kaṭhina-v 35. kaṭhinoddhāra evāṣṭamaḥ katamaḥ yathāpi tad bhikṣur āstīrṇakaṭhinād
+            (<span class="bold">Matsumura 222</span>) āvāsād akṛtacīvaro 'niṣṭhitacīvaro bahiḥsīmāṃ prakrāmati cāgatya kaṭhinoddhāraḥ
+            pratyanubhavati tasya kaṭhinodhāra evāṣṭamaḥ // //</p>
+         
+         
+         <p>uddānam* //</p>
+         
+         
+         <p>akṛtena hi viṃśati vikṛtena hi viṃśati 
+            āśayā viṃśatiṃ kuryād anāsayā caiva viṃśikām* // //</p>
+         
+         
+         <p>Kaṭhina-v 36. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvara<span class="it">ḥ</span> bahiḥsīmāṃ prakrāmati pratyeṣyāmi cīvaraṃ kariṣyāmīti / tasyaivaṃ bhavati na haiva
+            pratyeṣyāmi api tu cīvaraṃ kariṣyāmīti tasya niṣṭhāpanāntikaḥ kaṭhinoddhāraḥ</p>
+         
+         
+         <p>Kaṭhina-v 37. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaro
+            bahiḥsīmāṃ prakrāmati pratyeṣyāmi cīvaraṃ kariṣyāmi / tasyaivaṃ bhavati na haiva pratyeṣyāmi
+            nāpi cīvaraṃ kariṣyāmīti tasya sa<span class="it">n</span>niṣṭhāpanāntikaḥ kaṭhinoddhāraḥ</p>
+         
+         <span class="note"><span class="bold">Matsumura 223</span></span>
+         
+         <p>Kaṭhina-v 38. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            bahiḥsīmāṃ prakrāmati pratyeṣyāmi cīvaraṃ kariṣyāmīti / sa tad ārabhate ārabdhaṃ cāsya
+            naśyati tasya nāśanāntikaḥ kaṭhinoddhāraḥ /</p>
+         
+         
+         <p>Kaṭhina-v 39. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaro
+            bahiḥsīmāṃ prakrāmati pratyeṣyāmi cīvarakaṃ kariṣyāmīti / samagreṇa ca saṃghena kaṭhinam
+            uddhṛtaṃ sa śṛṇoti samagreṇa saṃghena kaṭhinam uddhṛtam iti śrutvā cābhyanumodate
+            sādhūddhṛtaṃ suṣṭhūddhṛtam iti / tasya śravaṇāntikaḥ kaṭhinoddhāra-m-iti //</p>
+         
+         
+         <p>Kaṭhina-v 40. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaro
+            bahiḥsīmāṃ prakrāmati / pratyeṣyāmi cīvaraṃ kariṣyāmi tasya tatra gatasyaivaṃ bhavati
+            na haiva pratyeṣyāmy api tu cīvaraṃ kariṣyāmīti tasya niṣṭhāpanāntikaḥ kaṭhinoddhāraḥ
+            //</p>
+         
+         
+         <p>Kaṭhina-v 41. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaro
+            bahiḥsīmāṃ prakrāmati pratyeṣyāmi cīvaraṃ kariṣyāmi / tasya tatra gatasyaivaṃ bhavati
+            (<span class="bold">279r1 = GBM 6.870</span>) na haiva pratyeṣyāmi nāpi cīvaraṃ kariṣyāmīti tasya sa<span class="it">n</span>niṣṭhāpanāntikaḥ kaṭhinoddhāraḥ</p>
+         
+         
+         <p>Kaṭhina-v 42. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaro
+            bahiḥsīmāṃ prakrāmati pratyeṣyāmi cīvaraṃ kariṣyāmīti sa tatra gata ārabhate ārabdhaṃ
+            cāsya naśyati tasya nāśanānti<span class="it">kaḥ</span> kaṭhinoddhāraḥ</p>
+         
+         <span class="note"><span class="bold">Matsumura 224</span></span>
+         
+         <p>Kaṭhina-v 43. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacī<span class="it">va</span>raḥ bahiḥsīmāṃ prakrāmati pratyeṣyāmi cīvaraṃ kariṣyāmīti samagreṇa <span class="it">ca</span> saṃghena kaṭhinam uddhṛtaṃ sa śṛṇoti samagreṇa saṃghena kaṭhinam uddhṛtam iti / sa
+            śrutvā cā<span class="it">bhya</span>numodate sādhūddhṛtaṃ suṣṭhūddhṛtam iti tasya śrāvaṇāntikaḥ kaṭhinoddhāraḥ //</p>
+         
+         
+         <p>Kaṭhina-v 44. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            paligodhasantati bahiḥsīmāṃ prakrāmati pratyeṣyāmi cīvaraṃ kariṣyāmīti tasyaivaṃ bhavati
+            na haiva pratyeṣyāmy api tu cīvaraṃ kariṣyāmīti / tasya niṣṭhāpanāntikaḥ kaṭhinoddhāraḥ
+            //</p>
+         
+         
+         <p>Kaṭhina-v 45. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            paligodhasantatiḥ bahiḥsīmāṃ prakrāmati pratyeṣyāmi cīvaraṃ kariṣyāmīti / tasyaivaṃ
+            bhavati na haiva pratyeṣyāmi nāpi cīvaraṃ kariṣyāmīti tasya <span class="it">san</span>niṣṭhāpanāntikaḥ kaṭhinoddhāraḥ // 10 //</p>
+         
+         
+         <p>Kaṭhina-v 46. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            paligodhasantati bahiḥsīmāṃ prakrāmati pratyeṣyāmi cīvaraṃ kariṣyāmīti / sa tad ārabhate
+            ārabdhaṃ cāsya naśyati tasya nāśanāntikaḥ kaṭhinoddhāraḥ //</p>
+         
+         
+         <p>Kaṭhina-v 47. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            (<span class="bold">Matsumura 225</span>) paligodhasantatir bahiḥsīmāṃ prakrāmati pratyeṣyāmi cīvaraṃ kariṣyāmīti / samagreṇa
+            ca saṃghena kaṭhinam uddhṛtam* sa śṛṇoti samagreṇa saṃghena kaṭhinam uddhṛtam iti
+            śrutvā cābhyanumodate / sādhūddhṛtaṃ suṣṭhūddhṛtam iti // tasya śrāvaṇāntikaḥ kaṭhinoddhāraḥ
+            //</p>
+         
+         
+         <p>Kaṭhina-v 48. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            paligodhasaṃtati bahiḥsīmāṃ prakrāmati pratyeṣyāmi cīvaraṃ kariṣyāmīti / tasya tatra
+            gatasyaivaṃ bhavati na haiva pratyeṣyāmi api tu cīvarakaṃ kariṣyāmīti tasya niṣṭhāpanāntikaḥ
+            kaṭhinoddhāraḥ //</p>
+         
+         
+         <p>Kaṭhina-v 49. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            paligodhasantatir bahiḥsīmāṃ prakrāmati pratyeṣyāmi cīvaraṃ kariṣyāmīti / tasya gatasyaivaṃ
+            bhavati na haiva pratyeṣyāmi nāpi cīvaraṃ kariṣyāmīti / tasya <span class="it">san</span>niṣṭhāpanāntikaḥ kaṭhinoddhāraḥ //</p>
+         
+         
+         <p>Kaṭhina-v 50. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            paligodhasaṃtatiḥ bahiḥsīmāṃ prakrāmati pratyeṣyāmi cīvaraṃ kariṣyāmīti / sa tatra
+            gatā ārabhate ārabdhaṃ cāsya naśyati / tasya nāśanāntikaḥ kaṭhinoddhāraḥ //</p>
+         
+         
+         <p>Kaṭhina-v 51. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            paligodhasantatir bahiḥsīmāṃ prakrāmati (<span class="bold">279v1 = GBM 6.871</span>) pratyeṣyāmi cīvaraṃ kariṣyāmīti / samagreṇa saṃghena kaṭhinam uddhṛtam* sa śṛṇoti
+            samagreṇa saṃghena kaṭhinam uddhṛtam iti śrutvā cābhyanumodate / sādhūddhṛtaṃ suṣṭhūddhṛtam
+            iti // tasya śrāvaṇāntikaḥ kaṭhinoddhāraḥ //</p>
+         
+         
+         <p>Kaṭhina-v 52. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro (<span class="bold">Matsumura 226</span>) 'niṣṭhitacīvaraḥ vicikitsāsantatir bahiḥsīmāṃ prakrāmati kin nu pratyeṣyāmi āhosvi<span class="it">n</span> na pratyeṣyāmīti tasyaivaṃ bhavati na haiva pratyeṣyāmy api tu cīvaraṃ kariṣyāmīti
+            tasya niṣṭhāpanāntikaḥ kaṭhinoddhāraḥ //</p>
+         
+         
+         <p>Kaṭhina-v 53. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            vicikitsāsantatir bahiḥsīmāṃ prakrāmati kin nu pratyeṣyāmi āhosvin na pratyeṣyāmīti
+            tasyaivaṃ bhavati na haiva pratyeṣyāmy nāpi cīvaraṃ kariṣyāmīti tasya <span class="it">san</span>niṣṭhāpanāntikaḥ kaṭhinoddhāraḥ //</p>
+         
+         
+         <p>Kaṭhina-v 54. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            vicikitsāsantatir bahiḥsīmāṃ prakrāmati / kin nu pratyeṣyāmy ā<span class="it">ho</span>svin na pratyeṣyāmīti sa tad ārabhate ārabdhaṃ cāsya naśyati tasya nāśanāntikaḥ kaṭhinoddhāraḥ
+            //</p>
+         
+         
+         <p>Kaṭhina-v 55. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            vicikitsāsantatir bahiḥsīmāṃ prakrāmati / kin nu (<span class="bold">Matsumura 227</span>) pratyeṣyāmi āhosvin na pratyeṣyāmīti samagreṇa saṃghena kaṭhinam uddhṛtam* <span class="it">sa śṛṇoti samagreṇa saṃghena kaṭhinam uddhṛtam iti</span> śrutvā cābhyanumodate sādhūddhṛtaṃ suṣṭhūddhṛtam iti tasya śrāvaṇāntikaḥ kaṭhinoddhāraḥ
+            //</p>
+         
+         
+         <p>Kaṭhina-v 56. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            bahiḥsīmāṃ prakrāmati / pratyeṣyāmi cīvaraṃ kariṣyāmīti tasyaivaṃ bhavati na haiva
+            pratyeṣyāmy api tu cīvaraṃ kariṣyāmīti tasya niṣṭhāpanāntikaḥ kaṭhinoddhāraḥ</p>
+         
+         
+         <p>pūrvasyāṃ vi<span class="it">ṃ</span>śikāyāṃ akṛtacīvaro 'niṣṭhitacīvara ity atrāniṣṭhitacīvara ity apanīya viprakṛtacīvara
+            iti datvā nānākāreṇāparā viṃśati karyā / // //</p>
+         
+         
+         <p>Kaṭhina-v 57. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaro
+            bahiḥsīmāṃ prakrāmaty āśayā pratyeṣyām<span class="it">i cīvaraṃ kariṣyām</span>īti tasyaivaṃ bhavati / na haiva pratyeṣyāmy api tu cīvaraṃ kariṣyāmīti tasya niṣṭhāpanāntikaḥ
+            kaṭhinoddhāraḥ</p>
+         
+         
+         <p>āśayety anena viśeṣeṇa pūrvavad aparā viṃśikā kāryā //</p>
+         
+         <span class="note"><span class="bold">Matsumura 228</span></span>
+         
+         <p>Kaṭhina-v 58. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            bahiḥsīmāṃ prakrāmaty anāśayā pratyeṣyāmi cīvaraṃ kariṣyāmīti / tasyaivaṃ bhavati
+            na haiva pratyeṣyāmy api tu cīvaraṃ kariṣyāmīti / tasya niṣṭhāpanāntikaḥ kaṭhinoddhāraḥ</p>
+         
+         
+         <p>anāśayety anena viśeṣeṇāparā viṃśikā kāryā // //</p>
+         
+         
+         <p>uddānam* //</p>
+         
+         
+         <p>karaṇīyena dvādaśikā paryeṣaṇatayā tathā 
+            deśena paṃcikāṃ kṛtvā āvāsena ca paṃcikā // //</p>
+         
+         
+         <p>Kaṭhina-v 59. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaro
+            bahiḥsīmāṃ prakrāmati karaṇīyena pratyeṣyāmi cīvaraṃ kariṣyāmīti / tasyaivaṃ bhavati
+            na haiva pratyeṣyāmy api tu cīvaraṃ (<span class="bold">280r1 = GBM 6.872</span>) kariṣyāmīti tasya niṣṭhāpanāntikaḥ kaṭhinoddhāraḥ</p>
+         
+         
+         <p>Kaṭhina-v 60. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            bahiḥsīmāṃ prakrāmati karaṇīyena pratyeṣyāmi cīvaraṃ kariṣyāmīti tasyaivaṃ bhavati
+            na haiva pratyeṣyāmy nāpi cīvarakaṃ kariṣyāmīti / tasya sanniṣṭhāpanāntikaḥ kaṭhinoddhāraḥ
+            //</p>
+         
+         
+         <p>Kaṭhina-v 61. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvara<span class="it">ḥ</span> bahiḥsīmāṃ prakrā<span class="it">mati</span> karaṇīyena pratyeṣyāmi cīvaraṃ kariṣyāmīti (<span class="bold">Matsumura 229</span>) sa tad ārabhate ārabdhaṃ cāsya naśyati tasya nāśanāntikaḥ kaṭhinoddhāraḥ //</p>
+         
+         
+         <p>Kaṭhina-v 62. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            bahiḥsīmāṃ prakrāmati karaṇīyena pratyeṣyāmi cīvaraṃ kariṣyāmīti / samagreṇa ca saṃghena
+            kaṭhinam uddhṛtaṃ sa śṛṇoti samagreṇa saṃghena kaṭhinam uddhṛtam iti śrutvā cābhyanumodate
+            sādhūddhṛtaṃ suṣṭhūddhṛtam iti / tasya śrāvaṇāntikaḥ kaṭhinoddhāraḥ //</p>
+         
+         
+         <p>Kaṭhina-v 63. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            bahiḥsīmāṃ prakrāmati karaṇīyena pratyeṣyāmi cīvaraṃ kariṣyāmīti / tasya tatra gatasyaivaṃ
+            bhavati na haiva pratyeṣyāmy api tu cīvaraṃ kariṣyāmīti tasya niṣṭhāpanāntikaḥ kaṭhinoddhāraḥ
+            //</p>
+         
+         
+         <p>yathāpi tatra gatasyety anena viśeṣeṇa niṣṭhāpanāntika uktaḥ evaṃ <span class="it">san</span>niṣṭhāpanāntikaḥ // 6 //</p>
+         
+         
+         <p>nāśanāntikaḥ // 7 //</p>
+         
+         
+         <p>śrāvaṇāntika<span class="it">ḥ</span> // 8 //</p>
+         
+         
+         <p>Kaṭhina-v 64. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            vicikitsāsaṃtatir bahiḥsīmāṃ prakrāmati karaṇīyena kiṃ nu pratyeṣyāmi āhosvin na pratyeṣyāmīti
+            tasyaivaṃ bhavati na haiva pratyeṣyāmy api tu cīvaraṃ kariṣyāmīti <span class="it">tasya</span> niṣṭhāpanāntikaḥ kaṭhinoddhāraḥ // 9 //</p>
+         
+         
+         <p>yathā vicikitsāsan<span class="it">tatir ity anena viśeṣeṇa</span> niṣṭhāpanāntika uktaḥ // evaṃ sanniṣṭhāpanāntikaḥ // 10 //</p>
+         
+         
+         <p>nāśanāntikaḥ // 11//</p>
+         
+         <span class="note"><span class="bold">Matsumura 230</span></span>
+         
+         <p>śravaṇāntikaḥ // 12 //</p>
+         
+         
+         <p>Kaṭhina-v 65. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛta<span class="it">cīvaro 'niṣṭhita</span>cīvaraḥ bahiḥsīmāṃ prakrāmati paryeṣaṇāya pratyeṣyāmi cīvaraṃ kariṣyāmīti / tasyaivaṃ
+            bhavati na haiva pratyeṣyāmy api tu cīvaraṃ kariṣyāmīti tasya niṣṭhā<span class="it">panā</span>ntikaḥ kaṭhinoddhāraḥ</p>
+         
+         
+         <p>paryeṣan<span class="it">āy</span>ety anena <span class="it">viśeṣeṇa</span> pūrvavad aparā dvādaśikā : // //</p>
+         
+         
+         <p>Kaṭhina-v 66. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            bahiḥsīmāṃ prakrāmati deśānuprekṣī apunarāgamanāya tasya prakramaṇāntikaḥ kaṭhinoddhāraḥ
+            //</p>
+         
+         
+         <p>Kaṭhina-v 67.i. yathāpi tad bhikṣur āstīrṇakaṭhinād āvāsād akṛtacīvaro 'niṣṭhitacīvaraḥ
+            vicikitsāsantati deśānuprekṣī bahiḥsīmāṃ prakrāmati kin nu pr<span class="it">aty</span>eṣyāmi āhosvi<span class="it">n</span> na pr<span class="it">aty</span>eṣyāmīti tasyaivaṃ bhavati na haiva pratyeṣyāmy api tu cīvaraṃ kariṣyāmīti tasyaiva
+            niṣṭhāpanāntikaḥ kaṭhinoddhāraḥ // 2 //</p>
+         
+         
+         <p>evaṃ sanniṣṭhāpanāntikaḥ // 3 //</p>
+         
+         
+         <p>nāśanāntikaḥ // 4 //</p>
+         
+         
+         <p>śrāvaṇāntikaḥ // 5 //</p>
+         
+         
+         <p>Kaṭhina-v 67.ii. yathā deśānuprekṣaṇapaṃcikā evam āvāsaprekṣaṇapaṃcikā // //</p>
+         
+         
+         <p>kaṭhinavastu samāpta : // //</p>
+         
+         </div>
+   </body>
+</html>

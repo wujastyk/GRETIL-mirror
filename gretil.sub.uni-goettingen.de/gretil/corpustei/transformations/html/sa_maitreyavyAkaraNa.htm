@@ -1,0 +1,1774 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Maitreyavyākaraṇa (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Maitreyavyākaraṇa</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_maitreyavyAkaraNa.xml">sa_maitreyavyAkaraNa.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Jens-Uwe Hartmann</p>
+      <p class="noindent"><b>Contribution: </b>Jens-Uwe Hartmann</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>1. Gilgit Manuscript (incomplete), ed. Majumder (= MvyG), 2. Calcutta Manuscript (incomplete),
+            ed. Lévi (= MvyC), 3. Kathmandu Manuscript (complete), ed. Ishigami (= MvyK).</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="note">remarks</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/maivy_au.htm">maivy_au.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Maitreyavyakarana
+            <br />Based on:
+            <br />1. Gilgit Manuscript (incomplete), ed. Majumder = MvyG
+            <br />2. Calcutta Manuscript (incomplete), ed. Lévi = MvyC
+            <br />3. Kathmandu Manuscript (complete), ed. Ishigami = MvyK
+            <br />
+            <br />Data entry by Jens-Uwe Hartmann, München
+            <br />
+            <br />TEXT WITH PADA MARKERS
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         <span class="note">1. Gilgit Manuscript
+            
+            Majumder, Prabhas Chandra (1959), Ārya Maitreya-vyākaraṇam, Calcutta (also published
+            in Nalinaksha Dutt, Gilgit Manuscripts, vol. IV, Calcutta 1959, pp. xxix ff. and 185
+            ff., under P.C. Mazumder).
+            
+            The first folios of the Skt. text containing verses 1-30 are missing.
+            All the sandhis are standardized.</span>
+         
+         
+         <p id="MvyG_31">
+            (daśa māsāṃś ca) nikhilān dhārayitvā mahādyutim <br />
+            supuṣpite 'smin udyāne maitreyajananī tataḥ //
+             <span class="ref">MvyG_31</span></p>
+         
+         
+         <p id="MvyG_32">
+            na niṣaṇṇā nipannā vā sthitā sā dharmacāriṇī <br />
+            drumasya śākhām ālambya maitreyaṃ janayiṣyati //
+             <span class="ref">MvyG_32</span></p>
+         
+         
+         <p id="MvyG_33">
+            alipto garbhapaṅkena kuśeśayam ivāmbunā <br />
+            traidhātukam idaṃ sarvaṃ prabhayā pūrayiṣyati //
+             <span class="ref">MvyG_33</span></p>
+         
+         
+         <p id="MvyG_34">
+            prīto 'tha taṃ sahasrākṣo devarājā śacīpatiḥ <br />
+            jāyamānaṃ grahītā sa maitreyaṃ dvipadottamam //
+             <span class="ref">MvyG_34</span></p>
+         
+         
+         <p id="MvyG_35">
+            padāni jātamātraś ca saptāsau prakramiṣyati <br />
+            pade pade nidhanaṃ ca padmaṃ padmaṃ bhaviṣyati //
+             <span class="ref">MvyG_35</span></p>
+         
+         
+         <p id="MvyG_36">
+            diśaś catasraś codvīkṣya vācaṃ pravyāhariṣyati <br />
+            iyaṃ me paścimā jātir nāsti bhūyaḥ punarbhavaḥ <br />
+            na punar abhyāgamiṣyāmi nirvāsyāmi nirāsravaḥ //
+             <span class="ref">MvyG_36</span></p>
+         
+         
+         <p id="MvyG_37">
+            saṃsārārṇavamagnānāṃ sattvānāṃ duḥkhabhāginām <br />
+            tṛṣṇābandhanabaddhānāṃ kariṣyāmi vimocanam //
+             <span class="ref">MvyG_37</span></p>
+         
+         
+         <p id="MvyG_38">
+            śvetaṃ cāsya surāś chattraṃ dhārayiṣyanti mūrdhani <br />
+            śītoṣṇavāridhārābhyāṃ nāgendrau snāpayiṣyataḥ //
+             <span class="ref">MvyG_38</span></p>
+         
+         
+         <p id="MvyG_39">
+            pratigṛhya ca taṃ dhātrī dvātriṃśadvaralakṣaṇam <br />
+            śriyā jvalantaṃ maitreyaṃ mātre samupaneṣyati //
+             <span class="ref">MvyG_39</span></p>
+         
+         
+         <p id="MvyG_40">
+            manoramāṃ ca śivikāṃ nānāratnavibhuṣitām <br />
+            ārūḍhāṃ putrasahitāṃ vahiṣyanti ca devatā //
+             <span class="ref">MvyG_40</span></p>
+         
+         
+         <p id="MvyG_41">
+            tatas tūryasahasreṣu vādyamāneṣu tatpuram <br />
+            praviṣṭamātre maitreye puṣpavarṣaṃ patiṣyati //
+             <span class="ref">MvyG_41</span></p>
+         
+         
+         <p id="MvyG_42">
+            dṛṣṭvaivaṃ putraṃ subrahmā dvātriṃśadvaralakṣaṇam <br />
+            pratyavīkṣātha mantreṣu tadā prīto bhaviṣyati //
+             <span class="ref">MvyG_42</span></p>
+         
+         
+         <p id="MvyG_43">
+            gatidvayaṃ kumārasya yathā mantreṣu dṛśyate <br />
+            narādhipaś cakravartī buddho vā dvīpadottamaḥ //
+             <span class="ref">MvyG_43</span></p>
+         
+         
+         <p id="MvyG_44">
+            sa ca yauvanasaṃprāpto maitreyāḥ puruṣottamaḥ <br />
+            cintayiṣyati dharmātmā duḥkhitā khalv iyāṃ prajāḥ //
+             <span class="ref">MvyG_44</span></p>
+         
+         
+         <p id="MvyG_45">
+            brahmasvaro mahāghoṣo hemavarṇo mahādyutiḥ <br />
+            viśālavakṣāḥ pīnāṅsaḥ padmapattranibhekṣaṇaḥ //
+             <span class="ref">MvyG_45</span></p>
+         
+         
+         <p id="MvyG_46">
+            hastaḥ pañcāśad ucchrāya tasya kāyo bhaviṣyati <br />
+            visṛtaś ca tato 'rddhena śubhavarṇasamucchrayaḥ //
+             <span class="ref">MvyG_46</span></p>
+         
+         
+         <p id="MvyG_47">
+            aśītibhiś caturbhiś ca sahasraiḥ saṃpuraskṛtaḥ <br />
+            māṇavānāṃ sa maitreyo mantrān adhyāpayiṣyati //
+             <span class="ref">MvyG_47</span></p>
+         
+         
+         <p id="MvyG_48">
+            atha śaṅkho narapatiḥ yūpam ucchrāpayiṣyati <br />
+            tiryañ ca ṣoḍaśavyāmam ūrdhvaṃ vyāmasahasrakam //
+             <span class="ref">MvyG_48</span></p>
+         
+         
+         <p id="MvyG_49">
+            sa taṃ yūpaṃ narapatir nānāratnavibhūṣitam <br />
+            pradāsyati dvijātibhyo yajñaṃ kṛtvā puraḥsaram <br />
+            saptaratnamayaṃ yūpaṃ brāhmaṇebhyaḥ pradāsyati //
+             <span class="ref">MvyG_49</span></p>
+         
+         
+         <p id="MvyG_50">
+            taṃ ca ratnamayaṃ yūpaṃ dattamātraṃ manoramam <br />
+            brāhmaṇānāṃ sahasrāṇi vikiriṣyanti tatkṣaṇāt //
+             <span class="ref">MvyG_50</span></p>
+         
+         
+         <p id="MvyG_51">
+            yūpasya tasya maitreyo dṛṣṭvā caitām anityatām <br />
+            kṛtsnaṃ vicintya saṃsāraṃ pravrajyāṃ rocayiṣyati //
+             <span class="ref">MvyG_51</span></p>
+         
+         
+         <p id="MvyG_52">
+            yatv ahaṃ pravrajitveha spṛśeyam amṛtaṃ padam <br />
+            vimocayeyaṃ janatāṃ vyādhimṛtyujarābhayāt //
+             <span class="ref">MvyG_52</span></p>
+         
+         
+         <p id="MvyG_53">
+            aśītibhiḥ sahasraiḥ sa caturbhiś ca puraskṛtaḥ <br />
+            niṣkramiṣyati maitreyaḥ pravrajyām agrapudgalaḥ //
+             <span class="ref">MvyG_53</span></p>
+         
+         
+         <p id="MvyG_54">
+            nāgavṛkṣas tadā tasya bodhivṛkṣo bhaviṣyati <br />
+            pañcāśadyojanāny asya śākhā ūrdhvaṃ samucchritāḥ //
+             <span class="ref">MvyG_54</span></p>
+         
+         
+         <p id="MvyG_55">
+            niṣadya tasya cādhastān maitreyo puruṣottamaḥ <br />
+            anuttarāṃ śivāṃ bodhiṃ samavāpsyati nāyakaḥ //
+             <span class="ref">MvyG_55</span></p>
+         
+         
+         <p id="MvyG_56">
+            yasyām eva ca rātrau sa pravrajyāṃ niṣkramiṣyati <br />
+            tasyām eva ca rātrau hi parāṃ bodhim avāpsyati //
+             <span class="ref">MvyG_56</span></p>
+         
+         
+         <p id="MvyG_57">
+            aṣṭāṅgopetayā vācā tataḥ sa puruṣottamaḥ <br />
+            deśayiṣyati saddharmaṃ sarvaduḥkhāpahaṃ śivam //
+             <span class="ref">MvyG_57</span></p>
+         
+         
+         <p id="MvyG_58">
+            prasannāṃ janatāṃ dṛṣṭvā satyāni kathayiṣyati <br />
+            duḥkhaṃ duḥkhasamutpādaṃ duḥkhasya samatikramam //
+             <span class="ref">MvyG_58</span></p>
+         
+         
+         <p id="MvyG_59">
+            āryaṃ cāṣṭāṅgikaṃ mārgaṃ kṣemaṃ nirvāṇagāminam <br />
+            taṃ cāpi dharmaṃ saṃśrutya pratipatsyanti śāsane //
+             <span class="ref">MvyG_59</span></p>
+         
+         
+         <p id="MvyG_60">
+            udyāne puṣpasaṃcchanne sannipāto bhaviṣyati <br />
+            pūrṇaṃ ca yojanaśataṃ parṣat tasya bhaviṣyati //
+             <span class="ref">MvyG_60</span></p>
+         
+         
+         <p id="MvyG_61">
+            śrutvā narapati rājā śaṅkho nāma mahāyaśāḥ <br />
+            dattvā dānam asaṃkhyeyaṃ pravrajyāṃ niṣkramiṣyati //
+             <span class="ref">MvyG_61</span></p>
+         
+         
+         <p id="MvyG_62">
+            aśītibhiś caturbhiś ca sahasraiḥ parivāritaḥ <br />
+            narādhipo viniṣkramya pravrajyām upayāsyati //
+             <span class="ref">MvyG_62</span></p>
+         
+         
+         <p id="MvyG_63">
+            anenaiva pramāṇena mānavānāṃ puraskṛtaḥ <br />
+            maitreyasya pitā tatra pravrajyām niṣkramiṣyati //
+             <span class="ref">MvyG_63</span></p>
+         
+         
+         <p id="MvyG_64">
+            tato gṛhapatis tatra sudhano nāma viśrutaḥ <br />
+            pravrajiṣyati śuddhātmā maitreyasyānuśasane //
+             <span class="ref">MvyG_64</span></p>
+         
+         
+         <p id="MvyG_65">
+            strīratnam atha śaṅkhasya viśākhā nāma viśrutā <br />
+            aśītibhiś caturbhiś ca sahasraiḥ saṃpuraskṛtā <br />
+            nārīṇāṃ abhiniṣkramya pravrajyām rocayiṣyati //
+             <span class="ref">MvyG_65</span></p>
+         
+         
+         <p id="MvyG_66">
+            prāṇinaḥ tatra samaye sahasrāṇi śatāni ca <br />
+            pravrajyām upayāsyanti maitreyasyānuśāsane //
+             <span class="ref">MvyG_66</span></p>
+         
+         
+         <p id="MvyG_67">
+            supuṣpite 'smin udyāne sannipāto bhaviṣyati <br />
+            samantato yojanaśataṃ parṣat tasya bhaviṣyati //
+             <span class="ref">MvyG_67</span></p>
+         
+         
+         <p id="MvyG_68">
+            tataḥ kāruṇikaḥ śāstā maitreyaḥ puruṣottamaḥ <br />
+            samitiṃ vyavalokyātha idam arthaṃ pravakṣyati //
+             <span class="ref">MvyG_68</span></p>
+         
+         
+         <p id="MvyG_69">
+            sarve te śākyasiṃhena guṇiśreṣṭhena trāyinā <br />
+            arthato lokanāthena dṛṣṭvā saddharmadhātunā <br />
+            ropitā mokṣamārgeṇa vikṣiptā mama śāsane //
+             <span class="ref">MvyG_69</span></p>
+         
+         
+         <p id="MvyG_70">
+            chattradhvajapatākābhir gandhamālyavilepanaiḥ <br />
+            kṛtvā stūpeṣu satkāram āgatā hi mamāntikam //
+             <span class="ref">MvyG_70</span></p>
+         
+         
+         <p id="MvyG_71">
+            saṅghe dattvā ca dānāni cīvaraṃ pānabhojanam <br />
+            vividhaṃ glānabhaiṣajyam āgatā hi mamāntikam //
+             <span class="ref">MvyG_71</span></p>
+         
+         
+         <p id="MvyG_72">
+            kuṅkumodakasekaṃ ca candanenānulepanam <br />
+            dattvā śākyamuneḥ stūpeṣv āgatā hi mamāntikam //
+             <span class="ref">MvyG_72</span></p>
+         
+         
+         <p id="MvyG_73">
+            śikṣāpadāni cādāya śākyasiṃhasya śāsane <br />
+            paripālya yathābhūtam āgatā hi mamāntikam //
+             <span class="ref">MvyG_73</span></p>
+         
+         
+         <p id="MvyG_74">
+            upoṣadham upoṣyeha āryam aṣṭāṅgikaṃ śubham <br />
+            caturdaśīṃ pañcadaśīṃ pakṣasyehāṣṭamīṃ tathā <br />
+            prātihārikapakṣaṃ cāpy aṣṭāṅgaṃ susamāhitam //
+             <span class="ref">MvyG_74</span></p>
+         
+         
+         <p id="MvyG_75">
+            śīlāni ca samādāya saṃprāptāni ca śāsanam <br />
+            buddhaṃ dharmaṃ ca saṅghaṃ ca sattvās te śāsanaṃ gatāḥ <br />
+            kṛtvā ca kuśalaṃ karma macchāsanam upāgatāḥ //
+             <span class="ref">MvyG_75</span></p>
+         
+         
+         <p id="MvyG_76">
+            tenaite preṣitāḥ sattvāḥ pratīṣṭāś ca mayāpy amī <br />
+            gaṇiśreṣṭheṇa muninā parītā bhūrimedhasā //
+             <span class="ref">MvyG_76</span></p>
+         
+         
+         <p id="MvyG_77">
+            prasannāṃ janatāṃ dṛṣṭvā satyāni kathayiṣyati <br />
+            śrutvā ca te tato dharmaṃ prāpsyanti padam uttamam //
+             <span class="ref">MvyG_77</span></p>
+         
+         
+         <p id="MvyG_78">
+            prātihāryatrayeṇāsau śrāvakān vinayiṣyati <br />
+            sarve te asravās tatra kṣipayiṣyanti suratāḥ //
+             <span class="ref">MvyG_78</span></p>
+         
+         
+         <p id="MvyG_79">
+            prathamaḥ sannipāto 'sya śrāvakāṇāṃ bhaviṣyati <br />
+            pūrṇāḥ ṣaṇnavatikoṭyaḥ śrāvakāṇāṃ bhavacchidām //
+             <span class="ref">MvyG_79</span></p>
+         
+         
+         <p id="MvyG_80">
+            dvitīyaḥ sannipāto 'sya śrāvakāṇāṃ bhaviṣyati <br />
+            pūrṇāś caturnavatiḥ koṭyaḥ śāntānāṃ bhūrimedhasām //
+             <span class="ref">MvyG_80</span></p>
+         
+         
+         <p id="MvyG_81">
+            tṛtīyaḥ sannipāto 'sya śrāvakāṇāṃ bhaviṣyati <br />
+            pūrṇā dvāviṃśatiḥ koṭyaḥ śāntānāṃ śāntacetasām //
+             <span class="ref">MvyG_81</span></p>
+         
+         
+         <p id="MvyG_82">
+            dharmacakraṃ pravartyātha vinīya suramānuṣān <br />
+            sārdhaṃ śrāvakasaṅghena pure piṇḍaṃ cariṣyati //
+             <span class="ref">MvyG_82</span></p>
+         
+         
+         <p id="MvyG_83">
+            tataḥ praviśatas tasyāṃ ramyāṃ ketumatīṃ purīm <br />
+            māndārakāṇi puṣpāni patiṣyanti purottame <br />
+            devatāḥ prakariṣyanti tasmin puragate munau //
+             <span class="ref">MvyG_83</span></p>
+         
+         
+         <p id="MvyG_84">
+            catvāraś ca mahārājāḥ śakraś ca tridaśādhipaḥ <br />
+            brahmā devagaṇaiḥ sārdhaṃ pūjāṃ tasya kariṣyati //
+             <span class="ref">MvyG_84</span></p>
+         
+         
+         <p id="MvyG_85">
+            utpalaṃ kumudaṃ padmaṃ puṇḍarīkaṃ sugandhikam <br />
+            aguruṃ candanaṃ cāpi divyaṃ mālyaṃ patiṣyati //
+             <span class="ref">MvyG_85</span></p>
+         
+         
+         <p id="MvyG_86">
+            cailakṣepaṃ kariṣyanti devaputrā maharddhikāḥ <br />
+            taṃ lokanātham udvīkṣya praviśantaṃ purottamam //
+             <span class="ref">MvyG_86</span></p>
+         
+         
+         <p id="MvyG_87">
+            divyaś ca tūryanirghoṣo divyaṃ mālyaṃ patiṣyati <br />
+            devatā prakariṣyanti tasmin puragate munau //
+             <span class="ref">MvyG_87</span></p>
+         
+         
+         <p id="MvyG_88">
+            ye tu ketumatīṃ ke cid vāsayiṣyanti mānuṣāḥ <br />
+            te pi taṃ pūjayiṣyanti praviśantaṃ purottamam //
+             <span class="ref">MvyG_88</span></p>
+         
+         
+         <p id="MvyG_89">
+            pathi bhūmyāstaraṃ tatra mṛdutūlapicopamam <br />
+            vicitraṃ ca śubhaṃ mālyaṃ vikiriṣyanti te tadā //
+             <span class="ref">MvyG_89</span></p>
+         
+         
+         <p id="MvyG_90">
+            chattradhvajapatākābhir arcayiṣyanti mānuṣāḥ <br />
+            śubhaiś ca tūryanirghoṣaiḥ prasannamanaso narāḥ //
+             <span class="ref">MvyG_90</span></p>
+         
+         
+         <p id="MvyG_91">
+            taṃ ca śakraḥ sahasrākṣo devarājaḥ śacīpatiḥ <br />
+            prahṛṣṭaḥ prāñjalirbhūtvā maitreyaṃ stoṣyate jinam //
+             <span class="ref">MvyG_91</span></p>
+         
+         
+         <p id="MvyG_92">
+            namas te puruṣājanya namas te puruṣottama <br />
+            anukampasva janatāṃ bhagavann agrapudgala //
+             <span class="ref">MvyG_92</span></p>
+         
+         
+         <p id="MvyG_93">
+            maharddhiko devaputras tasya māro bhaviṣyati <br />
+            sa cāpi prāñjalirbhūtvā stoṣyate lokanāyakam //
+             <span class="ref">MvyG_93</span></p>
+         
+         
+         <p id="MvyG_94">
+            śuddhāvāsasahasraiś ca bahubhiḥ parivāritaḥ <br />
+            pravekṣyate ca maitreyo lokanātho vināyakaḥ //
+             <span class="ref">MvyG_94</span></p>
+         
+         
+         <p id="MvyG_95">
+            brāhmaṇaparivāreṇa brahmā cāpi girāsphuṭam <br />
+            kathayiṣyati saddharmaṃ brahmaṃ ghoṣam udīrayan //
+             <span class="ref">MvyG_95</span></p>
+         
+         
+         <p id="MvyG_96">
+            ākīrṇā pṛthivī sarvā arhadbhiś ca bhaviṣyati <br />
+            kṣīṇāsravair vāntadoṣaiḥ prahīṇabhavabandhanaiḥ //
+             <span class="ref">MvyG_96</span></p>
+         
+         
+         <p id="MvyG_97">
+            hṛṣṭā devamanuṣyāś ca gandharvā yakṣarākṣasāḥ <br />
+            śāstuḥ pūjāṃ kariṣyanti nāgāś cāpi maharddhikāḥ //
+             <span class="ref">MvyG_97</span></p>
+         
+         
+         <p id="MvyG_98">
+            te vai nūnaṃ bhaviṣyanti cyānaghāś (?) chinnasaṃcayāḥ <br />
+            utkṣiptaparikhāḥ dhīrā anādānā nirutsakāḥ <br />
+            brahmacaryaṃ cariṣyanti maitreyasyānuśasane //
+             <span class="ref">MvyG_98</span></p>
+         
+         
+         <p id="MvyG_99">
+            te 'pi nūnaṃ bhaviṣyanti amamā aparigrahāḥ <br />
+            ajātarūparajatā aniketā asaṃstavāḥ <br />
+            brahmacaryaṃ cariṣyanti ye maitreyānuśasane //
+             <span class="ref">MvyG_99</span></p>
+         
+         
+         <p id="MvyG_100">
+            te vai pānaṃ gamiṣyanti chitvā jālam eva bhujāt <br />
+            dhyānāni copasaṃpadya prītisaukhyasamanvitāḥ <br />
+            brahmacaryaṃ cariṣyanti maitreyasyānuśasane //
+             <span class="ref">MvyG_100</span></p>
+         
+         
+         <p id="MvyG_101">
+            ṣaṣṭiṃ varṣasahasrāṇi maitreyo dvipadottamaḥ <br />
+            deśayiṣyati saddharmaṃ śāstā lokānukampayā //
+             <span class="ref">MvyG_101</span></p>
+         
+         
+         <p id="MvyG_102">
+            śatāni ca sahasrāṇi prāṇinaṃ sa vināyakaḥ <br />
+            vinīya dharmakāyena tato nirvāṇam eṣyati //
+             <span class="ref">MvyG_102</span></p>
+         
+         
+         <p id="MvyG_103">
+            tasmiṃś ca nirvṛte dhīre maitreye dvipadottame <br />
+            daśavarṣasahasrāṇi saddharmaḥ sthāsyati kṣitau //
+             <span class="ref">MvyG_103</span></p>
+         
+         
+         <p id="MvyG_104">
+            prasādayati cittāni tasmāc chākyamunau jine <br />
+            tato dṛkṣatha maitreyaṃ saṃbuddhaṃ dvipadottamam //
+             <span class="ref">MvyG_104</span></p>
+         
+         
+         <p id="MvyG_105">
+            tasmād dharme ca buddhe ca saṅghe cāpi gaṇottame <br />
+            prasādayati cittāni bhaviṣyati maharddhikam //
+             <span class="ref">MvyG_105</span></p>
+         
+         
+         <p id="MvyG_106">
+            taṃ tādṛśaṃ kāruṇikaṃ maitreyaṃ dvipadottamam <br />
+            ārādhayitvā kālena tato nirvāṇam eṣyatha //
+             <span class="ref">MvyG_106</span></p>
+         
+         
+         <p id="MvyG_107">
+            idam āścaryakaṃ śrutvā dṛṣṭvā ca vibhavānalpikām <br />
+            ko vidvān na prasīdeta api kṛṣṇāsu jātiṣu //
+             <span class="ref">MvyG_107</span></p>
+         
+         
+         <p id="MvyG_108">
+            tasmād ihātmakāmena māhātmyam abhikāṅkṣatāḥ <br />
+            saddharmo gurukartavyaḥ smaratā buddhaśāsanam //
+             <span class="ref">MvyG_108</span></p>
+         
+         
+         <p>Maitreyavyākaraṇaṃ samāptam //</p>
+         
+         
+         
+         
+         <span class="note">2. Calcutta Manuscript (incomplete), ed. Lévi
+            
+            Sylvain Lévi, "Maitreya le consolateur", Études d'orientalisme publiées par le Musée
+            Guimet a la mémoire de Raymonde Linossier, Paris 1932, pp. 384-389
+            
+            The first two folios of the Skt. text containing verses 1-25ab are missing.
+            All the sandhis are standardized.</span>
+         
+         
+         <p id="MvyC_25">
+            elāpattraś ca gāndhāre śaṅkho vārāṇasīpure //
+             <span class="ref">MvyC_25</span></p>
+         
+         
+         <p id="MvyC_26">
+            caturbhir ebhir nidhibhiḥ sa rājā susamanvitaḥ <br />
+            bhaviṣyati mahāvīraś śatapuṇyabaloditaḥ //
+             <span class="ref">MvyC_26</span></p>
+         
+         
+         <p id="MvyC_27">
+            brāhmaṇas tasya rājñaś ca subrāhmaṇaḥ purohitaḥ <br />
+            bahuśrutaś caturvedas tasyopadhyāyo bhaviṣyati //
+             <span class="ref">MvyC_27</span></p>
+         
+         
+         <p id="MvyC_28">
+            adhyāpako mantradharaḥ smṛtimān vedapāragaḥ <br />
+            kaiṭābhe sa nirghaṇṭe ca padavyākaraṇe tathā //
+             <span class="ref">MvyC_28</span></p>
+         
+         
+         <p id="MvyC_29">
+            tadā brahmāvatī nāma tasya bhāryā bhaviṣyati <br />
+            darśanīyā prāsādikā abhirūpā yaśasvinī //
+             <span class="ref">MvyC_29</span></p>
+         
+         
+         <p id="MvyC_30">
+            tuṣitebhyaś cyavitvā tu maitreyo hy agrapudgalaḥ <br />
+            tasyāḥ kukṣau sa niyataṃ pratisandhiṃ grahīṣyati //
+             <span class="ref">MvyC_30</span></p>
+         
+         
+         <p id="MvyC_31">
+            daśa māsāṃś ca nikhilān dhārayitvā mahādyutiḥ <br />
+            supuṣpite ca udyāne gatvā maitreyamātarā //
+             <span class="ref">MvyC_31</span></p>
+         
+         
+         <p id="MvyC_32">
+            na niṣaṇṇā na suptāsau sthitā sā dharmacāriṇī <br />
+            drumasya śākhām ālambya maitreyaṃ janayiṣyati //
+             <span class="ref">MvyC_32</span></p>
+         
+         
+         <p id="MvyC_33">
+            niṣkramiṣyati pārśvena dakṣiṇena narottamaḥ <br />
+            abhrakūṭād yathā sūryo nirgataś ca prabhāsate //
+             <span class="ref">MvyC_33</span></p>
+         
+         
+         <p id="MvyC_34">
+            alipto garbhapaṅkena padmaṃ caiva yathāmbhasā <br />
+            traidhātukam idaṃ sarvaṃ prabhayā pūrayiṣyati //
+             <span class="ref">MvyC_34</span></p>
+         
+         
+         <p id="MvyC_35">
+            atha prītas sahasrākṣo devarājaś śacīpatiḥ <br />
+            grahīṣyati kumāraṃ taṃ jāyamānaṃ narottamam //
+             <span class="ref">MvyC_35</span></p>
+         
+         
+         <p id="MvyC_36">
+            śriyā jvalantaṃ maitreyaṃ dvātriṃśadvaralakṣaṇam <br />
+            muñca muñca sahasrākṣa jātamātro vadiṣyati //
+             <span class="ref">MvyC_36</span></p>
+         
+         
+         <p id="MvyC_37">
+            padāni jātamātras tu saptāsau prakramiṣyati <br />
+            pade pade nidhanaṃ ca padmaṃ padmaṃ bhaviṣyati //
+             <span class="ref">MvyC_37</span></p>
+         
+         
+         <p id="MvyC_38">
+            diśaś catasraś codvīkṣya vācaṃ pravyāhariṣyati <br />
+            iyaṃ me paścimā jātir nāsti bhūyaḥ punarbhavaḥ //
+             <span class="ref">MvyC_38</span></p>
+         
+         
+         <p id="MvyC_39">
+            na punar āgamiṣyāmi nirvāsyāmi nirāśravaḥ <br />
+            śītoṣṇavāridhārābhis snāpayiṣyanti pannagāḥ //
+             <span class="ref">MvyC_39</span></p>
+         
+         
+         <p id="MvyC_40">
+            divyāmbarāṇi puṣpāṇi patiṣyanti nabhastalāt <br />
+            śvetaṃ tasya surāś chattraṃ dhārayiṣyanti mūrdhani //
+             <span class="ref">MvyC_40</span></p>
+         
+         
+         <p id="MvyC_41">
+            hṛṣṭaś caiva sahasrākṣo devarājo śacīpatiḥ <br />
+            grahīṣyati taṃ kumāraṃ dvātriṃśadvaralakṣaṇam <br />
+            śriyā jvalantaṃ maitreyaṃ mātur haste pradāsyati //
+             <span class="ref">MvyC_41</span></p>
+         
+         
+         <p id="MvyC_42">
+            manoramāṃ ca śivikāṃ nānāratnavibhuṣitām <br />
+            ārūḍhā putrasahitā vahiṣyate ca devavat //
+             <span class="ref">MvyC_42</span></p>
+         
+         
+         <p id="MvyC_43">
+            tatas tūryasahasreṣu vādyamāneṣu tatpuram <br />
+            praviṣṭamātre maitreye puṣpavarṣaṃ patiṣyati //
+             <span class="ref">MvyC_43</span></p>
+         
+         
+         <p id="MvyC_44">
+            tasmiṃś ca divase bhāryā gurviṇyaḥ prasaviṣyanti <br />
+            sarvās tā janayiṣyanti putrān kṣemeṇa svastinā //
+             <span class="ref">MvyC_44</span></p>
+         
+         
+         <p id="MvyC_45">
+            dṛṣṭvā ca putraṃ subrahmā dvātriṃśadvaralakṣaṇam <br />
+            pratyavekṣya ca mantreṣu tataḥ prīto bhaviṣyati //
+             <span class="ref">MvyC_45</span></p>
+         
+         
+         <p id="MvyC_46">
+            gatidvayaṃ kumārasya yathā mantreṣu dṛśyate <br />
+            narādhipaś cakravartī buddho vā dvīpadottamaḥ //
+             <span class="ref">MvyC_46</span></p>
+         
+         
+         <p id="MvyC_47">
+            sa ca yauvanasaṃprāpto maitreyo hy agrapudgalaḥ <br />
+            cintayiṣyati dharmātmā duḥkhitāh khalv imāḥ prajāḥ //
+             <span class="ref">MvyC_47</span></p>
+         
+         
+         <p id="MvyC_48">
+            brahmasvaro mahāghoṣo hemavarṇo mahādyutiḥ <br />
+            viśālavakṣāḥ pīnāṅgaḥ padmapattranibhekṣaṇaḥ //
+             <span class="ref">MvyC_48</span></p>
+         
+         
+         <p id="MvyC_49">
+            samucchrayeṇa hastāśītis tasya kāyo bhaviṣyati <br />
+            vistāraṃ viṃśahastāni tato 'rdham mukhamaṇḍalam //
+             <span class="ref">MvyC_49</span></p>
+         
+         
+         <p id="MvyC_50">
+            aśītibhiś caturbhiś ca sahasraiḥ sa puraskṛtaḥ <br />
+            māṇavānāṃ ca maitreyo maṃtrān adhyāpayiṣyati //
+             <span class="ref">MvyC_50</span></p>
+         
+         
+         <p id="MvyC_51">
+            tataḥ śaṅkho mahārājo yūpam ucchrāpayiṣyati <br />
+            ṣoḍaśavyāmavistāram ūrdhvaṃ vyāmasahasrakam //
+             <span class="ref">MvyC_51</span></p>
+         
+         
+         <p id="MvyC_52">
+            sa taṃ yūpaṃ narapatir nānāratnavibhūṣitam <br />
+            pradāsyati dvijātibhyo yajñaṃ kṛtvā purassaram <br />
+            saptaratnamayaṃ yūpaṃ brāhmaṇebhyaḥ pradāsyati //
+             <span class="ref">MvyC_52</span></p>
+         
+         
+         <p id="MvyC_53">
+            taṃ ca ratnamayaṃ yūpaṃ dattamātraṃ manoramam <br />
+            brāhmaṇānāṃ sahasrāṇi vikariṣyanti tatkṣaṇāt //
+             <span class="ref">MvyC_53</span></p>
+         
+         
+         <p id="MvyC_54">
+            tasya yūpasya maitreyo dṛṣṭvā cainām anityatām <br />
+            kṛtsnaṃ vicintya saṃsāraṃ pravrajyāṃ rocayiṣyati //
+             <span class="ref">MvyC_54</span></p>
+         
+         
+         <p id="MvyC_55">
+            yatrāhaṃ pravrajitveha spṛśeyam amṛtaṃ padam <br />
+            vimocayeyaṃ janatāṃ vyādhimṛtyujarābhayāt //
+             <span class="ref">MvyC_55</span></p>
+         
+         
+         <p id="MvyC_56">
+            aśītibhiś caturbhiś ca sahasraiḥ sa puraskṛtaḥ <br />
+            niṣkramiṣyati maitreyaḥ pravrajyām agrapudgalaḥ //
+             <span class="ref">MvyC_56</span></p>
+         
+         
+         <p id="MvyC_57">
+            nāgavṛkṣas tadā tasya bodhivṛkṣo bhaviṣyati <br />
+            pañcāśadyojanās tasya ūrdhvaṃ śākhāḥ samudgatāḥ <br />
+            ṣaṭkrośaviṭapāṇy asya vivṛtāni samantataḥ //
+             <span class="ref">MvyC_57</span></p>
+         
+         
+         <p id="MvyC_58">
+            tasya mūle niṣaṇṇo 'sau maitreyo dvipadottamaḥ <br />
+            anuttarāṃ ca saṃbodhiṃ prāpsyati nātra saṃśayaḥ //
+             <span class="ref">MvyC_58</span></p>
+         
+         
+         <p id="MvyC_59">
+            aṣṭāṅgopetayā vācā tataḥ sa munisattamaḥ <br />
+            deśayiṣyati saddharmaṃ sarvaduḥkhāpahaṃ śivam //
+             <span class="ref">MvyC_59</span></p>
+         
+         
+         <p id="MvyC_60">
+            duḥkhaṃ duḥkhasamutpādaṃ duḥkhasya samatikramam <br />
+            āryaṃ cāṣṭāṅgikaṃ mārgaṃ kṣemaṃ nirvāṇagāminam //
+             <span class="ref">MvyC_60</span></p>
+         
+         
+         <p id="MvyC_61">
+            prasannān janatāṃ dṛṣṭvā satyāni kathayiṣyati <br />
+            taṃ cāsya dharmaṃ saṃśrutya pratipadyanti śāsane //
+             <span class="ref">MvyC_61</span></p>
+         
+         
+         <p id="MvyC_62">
+            supuṣpite ca udyāne sannipāto bhaviṣyati <br />
+            pūrṇaṃ ca yojanaṃ śataṃ parṣat tasya bhaviṣyati //
+             <span class="ref">MvyC_62</span></p>
+         
+         
+         <p id="MvyC_63">
+            tataḥ śrutvā narapatiḥ śaṅkho rājā mahāyaśāḥ <br />
+            dattvā dānam asaṃkhyeyaṃ pravrajyāṃ rocayiṣyati //
+             <span class="ref">MvyC_63</span></p>
+         
+         
+         <p id="MvyC_64">
+            aśītibhiś caturbhiś ca sahasraiḥ sa puraskṛtaḥ <br />
+            narādhipo viniṣkramya pravrajyām upayāsyati //
+             <span class="ref">MvyC_64</span></p>
+         
+         
+         <p id="MvyC_65">
+            tenaiva ca pramāṇena mānavānāṃ puraskṛtaḥ <br />
+            maitreyasya pitā caiva pravrajyām upayāsyati //
+             <span class="ref">MvyC_65</span></p>
+         
+         
+         <p id="MvyC_66">
+            tato gṛhapatiḥ x x sudhano nāma viśrutaḥ <br />
+            pravrajiṣyati dharmātmā sahasraiḥ parivāritaḥ //
+             <span class="ref">MvyC_66</span></p>
+         
+         
+         <p id="MvyC_67">
+            strīratnam atha śaṅkhasya viśākhā nāma viśrutā <br />
+            aśītibhiś caturbhiś ca sahasraiḥ sā puraskṛtā <br />
+            nārīṇāṃ saha niṣkramya pravrajyām upayāsyati //
+             <span class="ref">MvyC_67</span></p>
+         
+         
+         <p id="MvyC_68">
+            prāṇināṃ tatra samaye sahasrāṇi śatāni ca <br />
+            pravrajyām upayāsyanti maitreyasyānuśāsane //
+             <span class="ref">MvyC_68</span></p>
+         
+         
+         <p id="MvyC_69">
+            tataḥ kāruṇikaḥ śāstā maitreyo dvipadottamaḥ <br />
+            samitiṃ vyavalokyātha idam arthaṃ pravakṣyati //
+             <span class="ref">MvyC_69</span></p>
+         
+         
+         <p id="MvyC_70">
+            sarve te śākyamuninā muniśreṣṭhena tāyinā <br />
+            arthato lokanāthena dṛṣṭāḥ saddharmadhātunā <br />
+            ropitā mokṣamārgaṇe vikṣiptā mama śāsane //
+             <span class="ref">MvyC_70</span></p>
+         
+         
+         <p id="MvyC_71">
+            chattradhvajapatākābhir gandhamālyānulepanaiḥ <br />
+            kṛtvā śākyamuneḥ pūjāṃ hy āgatā mama śāsane //
+             <span class="ref">MvyC_71</span></p>
+         
+         
+         <p id="MvyC_72">
+            kuṅkumodakarasena candanenānulepanam <br />
+            dattvā śākyamuneḥ stūpe hy āgatā mama śāsane //
+             <span class="ref">MvyC_72</span></p>
+         
+         
+         <p id="MvyC_73">
+            buddhaṃ dharmaṃ ca saṅghaṃ ca gatvā tu śaraṇaṃ sadā <br />
+            kṛtvā tu kuśalaṃ karma āgatā mama śāsane //
+             <span class="ref">MvyC_73</span></p>
+         
+         
+         <p id="MvyC_74">
+            śikṣāpadāni samādāya x śākyamuniśāsane <br />
+            pratipālya yathābhūtaṃ hy āgatā mama śāsane //
+             <span class="ref">MvyC_74</span></p>
+         
+         
+         <p id="MvyC_75">
+            dattvā saṅghe ca dānāni cīvarapānabhojanam <br />
+            vicitraṃ glānabhaiṣajyaṃ hy āgatā mama śāsane //
+             <span class="ref">MvyC_75</span></p>
+         
+         
+         <p id="MvyC_76">
+            caturdaśīṃ pañcadaśīṃ pakṣasyehāṣṭamīṃ tathā <br />
+            prātihārakapakṣaṃ ca aṣṭāṅgaṃ susamāhitam <br />
+            upavāsam upoṣitvā hy āgatā mama śāsane //
+             <span class="ref">MvyC_76</span></p>
+         
+         
+         <p id="MvyC_77">
+            prātihāryatrayeṇāsau śrāvakān vedayiṣyati <br />
+            sarve te hy asravān dharmān kṣapayiṣyanti x x x //
+             <span class="ref">MvyC_77</span></p>
+         
+         
+         <p id="MvyC_78">
+            prathamaḥ sannipāto 'sya śrāvakāṇāṃ bhaviṣyati <br />
+            pūrṇāḥ ṣaṇnavatiḥ koṭyaḥ śrāvakāṇāṃ bhavacchidām //
+             <span class="ref">MvyC_78</span></p>
+         
+         
+         <p id="MvyC_79">
+            dvitīyaḥ sannipāto 'sya śrāvakāṇāṃ bhaviṣyati <br />
+            pūrṇāś caturnavatiḥ koṭyo muktānāṃ kleśabandhanāt //
+             <span class="ref">MvyC_79</span></p>
+         
+         
+         <p id="MvyC_80">
+            tṛtīyaḥ sannipāto 'sya śrāvakāṇāṃ bhaviṣyati <br />
+            pūrṇā dvānavatiḥ koṭyo muktānāṃ śāntacetasām //
+             <span class="ref">MvyC_80</span></p>
+         
+         
+         <p id="MvyC_81">
+            dharmacakraṃ pravartyātha vinīya suramānuṣān <br />
+            sārdhaṃ śrāvakasaṅghena pure piṇḍaṃ cariṣyati //
+             <span class="ref">MvyC_81</span></p>
+         
+         
+         <p id="MvyC_82">
+            tataḥ praviśatas tasya ramyāṃ ketumatīpurīm <br />
+            māndāravāṇi puṣpāni patiṣyanti narottame <br />
+            devatāḥ prakariṣyanti tasmin puragate munau //
+             <span class="ref">MvyC_82</span></p>
+         
+         
+         <p id="MvyC_83">
+            catvāraś ca mahārājāḥ śakraś ca tridaśādhipaḥ <br />
+            brahmadevagaṇaiḥ sārdhaṃ pūjāṃ tasya kariṣyati //
+             <span class="ref">MvyC_83</span></p>
+         
+         
+         <p id="MvyC_84">
+            utpalakumudapadmapuṇḍarīkasugandhikam <br />
+            aguruṃ candanaṃ caiva divyamālās tathaiva ca //
+             <span class="ref">MvyC_84</span></p>
+         
+         
+         <p id="MvyC_85">
+            cailakṣepaṃ kariṣyanti devaputrā maharddhikāḥ <br />
+            taṃ lokanātham udvīkṣya praviśantaṃ purottamam //
+             <span class="ref">MvyC_85</span></p>
+         
+         
+         <p id="MvyC_86">
+            pathi bhūmiḥ sthitā tatra mṛdutūlapicūpamā <br />
+            vicitraṃ ca śrutaṃ mālyaṃ vistariṣyanti te pathi //
+             <span class="ref">MvyC_86</span></p>
+         
+         
+         <p id="MvyC_87">
+            chattradhvajapatākāni gandhamālyānulepanaiḥ <br />
+            śrutaiś ca tūryanirghoṣaiḥ prasannamanaso narāḥ <br />
+            śāstuḥ pūjāṃ kariṣyanti devaputrā maharddhikāḥ //
+             <span class="ref">MvyC_87</span></p>
+         
+         
+         <p id="MvyC_88">
+            sa ca śakraḥ sahasrākṣo devarājo mahādyutiḥ <br />
+            prahṛṣṭaḥ prāñjaliṃ kṛtvā stoṣyate lokanāyakam //
+             <span class="ref">MvyC_88</span></p>
+         
+         
+         <p id="MvyC_89">
+            namas te puruṣājanya namas te puruṣottama <br />
+            anukampasva janatāṃ bhagavann agrapudgala //
+             <span class="ref">MvyC_89</span></p>
+         
+         
+         <p id="MvyC_90">
+            maharddhiko devaputras tasya māro bhaviṣyati <br />
+            sa caiva prāñjaliṃ kṛtvā stoṣyate lokanāyakam //
+             <span class="ref">MvyC_90</span></p>
+         
+         
+         <p id="MvyC_91">
+            brāhmaṇaparivāreṇa brahmā caiva puraskṛtaḥ <br />
+            kathayiṣyati saddharmaṃ brahmaghoṣam udīrayan //
+             <span class="ref">MvyC_91</span></p>
+         
+         
+         <p id="MvyC_92">
+            ākīrṇā pṛthivī sarvā arhadbhiś ca bhaviṣyati <br />
+            kṣīṇāsravair vāntadoṣaiḥ prahīṇabhavabandhanaiḥ //
+             <span class="ref">MvyC_92</span></p>
+         
+         
+         <p id="MvyC_93">
+            hṛṣṭā devā manuṣyāś ca gandharvā yakṣarākṣasāḥ <br />
+            śāstuḥ pūjāṃ kariṣyanti nāgāś cāpi maharddhikāḥ //
+             <span class="ref">MvyC_93</span></p>
+         
+         
+         <p id="MvyC_94">
+            te ca nūnaṃ bhaviṣyanti akhilāś chinnasaṃcayāḥ <br />
+            chinnasrotā anādīnā uttīrnābhavasāgarāḥ <br />
+            brahmacaryaṃ cariṣyanti maitreyasyānuśasane //
+             <span class="ref">MvyC_94</span></p>
+         
+         
+         <p id="MvyC_95">
+            te vai nūnaṃ bhaviṣyanti amamā aparigrahāḥ <br />
+            ajātarūparajatā aniketā asaṃstavāḥ <br />
+            brahmacaryaṃ cariṣyanti maitreyasyānuśasane //
+             <span class="ref">MvyC_95</span></p>
+         
+         
+         <p id="MvyC_96">
+            te vai nūnaṃ bhaviṣyanti chinnajālaviśaktikāḥ <br />
+            dhyānāni copasaṃpadya prītisaukhyasamanvitāḥ <br />
+            brahmacaryaṃ cariṣyanti maitreyasyānuśasane //
+             <span class="ref">MvyC_96</span></p>
+         
+         
+         <p id="MvyC_97">
+            ṣaṣṭivarṣasahasrāṇi maitreyo dvipadottamaḥ <br />
+            deśayiṣyati saddharmaṃ sarvabhūtānukampakam //
+             <span class="ref">MvyC_97</span></p>
+         
+         
+         <p id="MvyC_98">
+            śatalakṣasahasrāṇi prāṇinaṃ sa vināyakaḥ <br />
+            vinayitvā ca saddharmaṃ tato nirvāṇam eṣyati //
+             <span class="ref">MvyC_98</span></p>
+         
+         
+         <p id="MvyC_99">
+            parinirvṛtasya x x tasyaiva x mahāmuneḥ <br />
+            daśavarṣasahasrāṇi saddharmaḥ sthāsyate tadā //
+             <span class="ref">MvyC_99</span></p>
+         
+         
+         <p id="MvyC_100">
+            prasādayitvā cittāni tasmin śākyamunau jine <br />
+            tato drakṣyatha maitreyaṃ saṃbuddhaṃ dvipadottamam //
+             <span class="ref">MvyC_100</span></p>
+         
+         
+         <p id="MvyC_101">
+            idam āścaryakaṃ śrutvā imām ṛddhim anuttamām <br />
+            ko vidvān na prasīdeta atikṛṣṇābhijātikaḥ //
+             <span class="ref">MvyC_101</span></p>
+         
+         
+         <p id="MvyC_102">
+            tasmād ihātmakāmena māhātmyam abhikāṅkṣiṇā <br />
+            saddharmo gurukartavyaḥ smaratā buddhaśāsanam //
+             <span class="ref">MvyC_102</span></p>
+         
+         
+         <p>Maitreyavyākaraṇaṃ samāptam // ye dharmā (etc.) // cīnadeśīvinirgataḥ bhikṣu puṇyakīrtir
+            yad atra puṇyaṃ tad bhavatv ācāryopādhyāyamātāpitṛpūrvaṅgamaṃ krtvā sakalasattvarāśer
+            anuttarajñānaphalāptaya iti // śrīmad gopāladevarājyasaṃvat 57 phālguna dine 9 Ghosalīgrāme
+            likhati / oṃ hārītī mahāyakṣiṇī hara hara mama sarvapāpāni svāhā //</p>
+         
+         
+         <span class="note">3. Kathmandu Manuscript (complete), ed. Ishigami
+            
+            Ishigami, Zenno (1989), "Nepāru bon 'Maitreyavyākaraṇa'," Fujita Kḥtatsu Hakushi Kanreki
+            Kinen Ronbunshū: Indotetsugaku to Bukkyḥ, Kyoto, 295-310.
+            To facilitate searching, sandhis are standardized, misprints removed, some mistakes
+            corrected.</span>
+         
+         
+         <p>Oṃ namo maitreyanāthāya //</p>
+         
+         
+         <p>evaṃ mayā śrutam ekasmiṃ samaye bhagavān rājagṛhe viharati sma / veṇuvane kalandakanivāse
+            mahatā bhikṣusaṃghena sārdham ardhatrayodaśabhir bhikṣuśataiḥ //</p>
+         
+         
+         <p>atha khalv āyuṣmāñ</p>
+         
+         
+         <p id="MvyK_1">
+            chāriputra mahāprajño dharmasenāpatir vibhuḥ <br />
+            lokasya anukampārthaṃ śāstāraṃ paripṛcchati //
+             <span class="ref">MvyK_1</span></p>
+         
+         
+         <p id="MvyK_2">
+            yo 'sāv anāgato buddho nirdiṣṭo lokanāyakaḥ <br />
+            maitreya iti nāmnā 'sau sūtrapūrvāparāntike //
+             <span class="ref">MvyK_2</span></p>
+         
+         
+         <p id="MvyK_3">
+            tasyāhaṃ vistarañ caivaṃ śrotum icchāmi nāyaka <br />
+            ṛddhiñ cāsyānubhāvañ ca tan me brūhi narottama //
+             <span class="ref">MvyK_3</span></p>
+         
+         
+         <p id="MvyK_4">
+            athainam avadac chāstā vyākariṣyāmy ahaṃ tava <br />
+            vistaran tasya buddhasya maitreyasya śṛṇohi me //
+             <span class="ref">MvyK_4</span></p>
+         
+         
+         <p id="MvyK_5">
+            udadhis tena kālena dvātriṃśatśatayojanaḥ <br />
+            śoṣam āyāsyate yasmāc cakravartī yathā hy asau //
+             <span class="ref">MvyK_5</span></p>
+         
+         
+         <p id="MvyK_6">
+            daśayojanasāhasrā jambudvīpo bhavaiṣyati <br />
+            ālayaḥ sarvabhūtānāṃ vistareṇa samantataḥ //
+             <span class="ref">MvyK_6</span></p>
+         
+         
+         <p id="MvyK_7">
+            ṛddhisphītā janapadā adaṇḍā anupadravāḥ <br />
+            tatra kāle bhaviṣyanti narās te śubhakarminaḥ //
+             <span class="ref">MvyK_7</span></p>
+         
+         
+         <p id="MvyK_8">
+            akaṇṭakā vasumatī samāharitaśādvalā <br />
+            unnamantī namantī ca mṛdutūlapicūpamā //
+             <span class="ref">MvyK_8</span></p>
+         
+         
+         <p id="MvyK_9">
+            akṛṣṭotpadyate śālimadhunāś ca sugandhi ca <br />
+            cailavṛkṣā bhaviṣyanti nānāraṅgopaśobhitāḥ //
+             <span class="ref">MvyK_9</span></p>
+         
+         
+         <p id="MvyK_10">
+            puṣpapatraphalotpatā vṛkṣāś ca krośam ucchritāḥ <br />
+            aśītivarṣasahasrāṇi āyus teṣāṃ bhaviṣyati //
+             <span class="ref">MvyK_10</span></p>
+         
+         
+         <p id="MvyK_11">
+            nirāmayāś ca te satvā vītaśokā mahotsavāḥ <br />
+            varṇavanto mahāśakhyā mahānāgabalāc citāḥ //
+             <span class="ref">MvyK_11</span></p>
+         
+         
+         <p id="MvyK_12">
+            trayā rogā bhaviṣyanti icchā anaśanaṃ jarā <br />
+            pañcavarṣaśatā kanyā svāminam varayiṣyati //
+             <span class="ref">MvyK_12</span></p>
+         
+         
+         <p id="MvyK_13">
+            tadā ketumatī nāma rājadhānī bhaviṣyati <br />
+            āvāsaḥ śuddhasatvānāṃ prāṇināṃ śubhakarmiṇam //
+             <span class="ref">MvyK_13</span></p>
+         
+         
+         <p id="MvyK_14">
+            yojanadvādaśāyāmaṃ saptayojanavistaram <br />
+            nagaraṃ kṛtapuṇyānāṃ bhaviṣyati manoramam //
+             <span class="ref">MvyK_14</span></p>
+         
+         
+         <p id="MvyK_15">
+            saptaratnamayāś caiva prakārāḥ krośam uccitāḥ <br />
+            iṣṭakā dvārakhaṇḍānāṃ nānāratnavibhūṣitāḥ //
+             <span class="ref">MvyK_15</span></p>
+         
+         
+         <p id="MvyK_16">
+            pariṣāś ca bhaviṣyanti ratna iṣṭakasaṃcitāḥ <br />
+            padmotpalasamān kīrṇāś cakravākopaśobhitāḥ //
+             <span class="ref">MvyK_16</span></p>
+         
+         
+         <p id="MvyK_17">
+            samantataḥ parivṛtāḥ saptabhis talāpaṅktibhiḥ <br />
+            catūratnamayās tālāḥ kiṃkiṇī jālaśobhitāḥ //
+             <span class="ref">MvyK_17</span></p>
+         
+         
+         <p id="MvyK_18">
+            vāteneritatālebhyas tadā śruti manoharāḥ <br />
+            bhaviṣyanti śubhā śabdā tūryās pañcāṅgikā iva //
+             <span class="ref">MvyK_18</span></p>
+         
+         
+         <p id="MvyK_19">
+            ye ca tasmin pure martyāḥ krīḍāratisukhānvitāḥ <br />
+            tenaiva tālaśabdena krīḍiṣyanti pramoditāḥ //
+             <span class="ref">MvyK_19</span></p>
+         
+         
+         <p id="MvyK_20">
+            puṣkariṇo bhaviṣyanti kumudotpalasaṃcetāḥ <br />
+            udyānavanasaṃpannaṃ bhaviṣyati ca tat puram //
+             <span class="ref">MvyK_20</span></p>
+         
+         
+         <p id="MvyK_21">
+            bhaviṣyati tadā rājā śamkho nāma mahādyutiḥ <br />
+            mahābalacakravartī caturdvīpeśvaraḥ prabhuḥ //
+             <span class="ref">MvyK_21</span></p>
+         
+         
+         <p id="MvyK_22">
+            caturaṅgabalopetaḥ saptaratnasamanvitaḥ <br />
+            pūrṇasahasraputrāṇāṃ tasya rājño bhaviṣyati //
+             <span class="ref">MvyK_22</span></p>
+         
+         
+         <p id="MvyK_23">
+            imāṃ samudraparyantām adaṇḍena vasundharām <br />
+            pālayiṣyati dharmeṇa samena sa narādhipaḥ //
+             <span class="ref">MvyK_23</span></p>
+         
+         
+         <p id="MvyK_24">
+            mahānidhānāś catvāro nayutaśatalakṣitāḥ <br />
+            bhaviṣyanti tadā tasya rājñaḥ śaṃkhasya bhūpateḥ //
+             <span class="ref">MvyK_24</span></p>
+         
+         
+         <p id="MvyK_25">
+            piṅgalaś ca kaliṅgeṣu mithilāyām ca pāṇḍukaḥ <br />
+            elāpatraś ca gāndhāre śaṃkho vārāṇasīpure //
+             <span class="ref">MvyK_25</span></p>
+         
+         
+         <p id="MvyK_26">
+            caturbhir ebhir nidhibhiḥ sa rājā susamanvitaḥ <br />
+            bhaviṣyati mahāvīraḥ śatapuṇyaphalārpitaḥ //
+             <span class="ref">MvyK_26</span></p>
+         
+         
+         <p id="MvyK_27">
+            brāhmaṇas tasya rājño 'tha subrahmā nāmnā purohitaḥ <br />
+            bahuśrutaś caturvedī upadhyāyo bhaviṣyati //
+             <span class="ref">MvyK_27</span></p>
+         
+         
+         <p id="MvyK_28">
+            adhyāpako mantradharaḥ smṛtivān vedapāragaḥ <br />
+            kaiṭābhe ca sa nirghaṇṭe padavyākaraṇe tathā //
+             <span class="ref">MvyK_28</span></p>
+         
+         
+         <p id="MvyK_29">
+            tasya brahmavatī nāma tadā bhāryā bhaviṣyati <br />
+            darśanīyā prāsādikā abhirūpā yaśasvinī //
+             <span class="ref">MvyK_29</span></p>
+         
+         
+         <p id="MvyK_30">
+            tuṣitebhyas tataś cyutvā maitreyo hy agrapudgalaḥ <br />
+            tasyāḥ kukṣau sa niyataṃ pratisandhiṃ grahiṣyati //
+             <span class="ref">MvyK_30</span></p>
+         
+         
+         <p id="MvyK_31">
+            daśa māsāṃś ca nikhilān dhārayitvā mahādyutim <br />
+            supuṣpite ca udyāne gatvā maitreyamātaraḥ //
+             <span class="ref">MvyK_31</span></p>
+         
+         
+         <p id="MvyK_32">
+            na niṣaṇṇā nipannā vā sthitā sā brahmacāriṇī <br />
+            drumasya śākhām ālambya maitreyaṃ janayiṣyati //
+             <span class="ref">MvyK_32</span></p>
+         
+         
+         <p id="MvyK_33">
+            niṣkramiṣyati pārśvena dakṣiṇāṅge narottamaḥ <br />
+            abhrakūṭād yathā sūryo nirgataś ca prabhāyate //
+             <span class="ref">MvyK_33</span></p>
+         
+         
+         <p id="MvyK_34">
+            kariṣyate samālokaṃ sanarāmaravanditaḥ <br />
+            alipto garbhapaṅkena padmaṃ caiva yathāmbhuvā <br />
+            traidhātukam idaṃ sarvaṃ prabhayā pūrayiṣyati //
+             <span class="ref">MvyK_34</span></p>
+         
+         
+         <p id="MvyK_35">
+            pade pade nidhānaṃ ca padmaṃ padmaṃ bhaviṣyati <br />
+            diśaś catasro udvīkṣya vācaṃ pravyāhariṣyati <br />
+            iyaṃ me paścimā jātir nāsti bhūyaḥ punarbhavaḥ //
+             <span class="ref">MvyK_35</span></p>
+         
+         
+         <p id="MvyK_36">
+            na punar āgamiṣyāmi nirvāsyāmi nirāśravaḥ <br />
+            śītoṣṇavāridhārābhiḥ snāpayiṣyanti punnagāḥ //
+             <span class="ref">MvyK_36</span></p>
+         
+         
+         <p id="MvyK_37">
+            divyāsurāṇi puṣpāṇi patiṣyanti nabhastalāt <br />
+            śvetaṃ tasya surāś chattraṃ dhārayiṣyanti mūrdhani //
+             <span class="ref">MvyK_37</span></p>
+         
+         
+         <p id="MvyK_38">
+            hṛṣṭaś caiva sahasrākṣo devarājaḥ śacīpatiḥ <br />
+            pragrahīṣyati kumāraṃ taṃ dvātriṃśalakṣṇānvitam <br />
+            śriyā jvalantaṃ maitreyaṃ mātur haste pradāsyati //
+             <span class="ref">MvyK_38</span></p>
+         
+         
+         <p id="MvyK_39">
+            manoramāṃ ca śivikāṃ nānāratnavibhuṣitām <br />
+            ārūḍhāṃ putrasahitāṃ vahiṣyanti ca devatāḥ //
+             <span class="ref">MvyK_39</span></p>
+         
+         
+         <p id="MvyK_40">
+            tatas tūryasahasreṣu vādyamāneṣu tatpuram <br />
+            praviṣṭamātre maitreye puṣpavarṣaṃ patiṣyati //
+             <span class="ref">MvyK_40</span></p>
+         
+         
+         <p id="MvyK_41">
+            tasmiṃś ca divase nāryo gurviṇyaḥ prasaviṣyanti <br />
+            sarvās tā janayiṣyanti putrān kṣemeṇa svastinā //
+             <span class="ref">MvyK_41</span></p>
+         
+         
+         <p id="MvyK_42">
+            dṛṣṭvaivaṃ putraṃ subrahmā dvātriṃśadvaralakṣaṇam <br />
+            pratyavekṣya sumantreṇa tataḥ prīto bhaviṣyati //
+             <span class="ref">MvyK_42</span></p>
+         
+         
+         <p id="MvyK_43">
+            gatidvayaṃ kumārasya yathā mantreṣu dṛśyate <br />
+            narādhipaś cakravartī buddho vā dvīpadottamaḥ //
+             <span class="ref">MvyK_43</span></p>
+         
+         
+         <p id="MvyK_44">
+            sa ca yauvanasaṃprāpto maitreyo hy agrapudgalaḥ <br />
+            cintayiṣyati dharmātmā duḥkhitā khalv iyaṃ prajā //
+             <span class="ref">MvyK_44</span></p>
+         
+         
+         <p id="MvyK_45">
+            brahmasvaro mahāvego hemavarṇo mahādyutiḥ <br />
+            viśālacakṣuḥ pīnāṅgaḥ padmapattranibhedekṣaṇaḥ //
+             <span class="ref">MvyK_45</span></p>
+         
+         
+         <p id="MvyK_46">
+            ucchrayeṇa hastāśītiḥ kāyas tasya bhaviṣyati <br />
+            vistāraṃ viṃśatir hastā tato 'rdham mukhamaṇḍalam //
+             <span class="ref">MvyK_46</span></p>
+         
+         
+         <p id="MvyK_47">
+            aśītibhiś caturbhiś ca sahasraiḥ sa puraskṛtaḥ <br />
+            māṇavānāṃ sa maitreyo mantrān adhyāpayiṣyati //
+             <span class="ref">MvyK_47</span></p>
+         
+         
+         <p id="MvyK_48">
+            tataḥ śaṅkho mahārājo yūpam ucchrāpayiṣyati <br />
+            ṣoḍaśavyāmavistāram ūrdhvavyāmasahasrakam //
+             <span class="ref">MvyK_48</span></p>
+         
+         
+         <p id="MvyK_49">
+            sa taṃ yūpaṃ narapatir nānāratnavibhūṣitam <br />
+            saptaratnasamākīrṇaṃ brāhmaṇebhyaḥ pradāsyati //
+             <span class="ref">MvyK_49</span></p>
+         
+         
+         <p id="MvyK_50">
+            tac ca ratnamayaṃ yūpaṃ dattamātraṃ manoramam <br />
+            brāhmaṇānāṃ sahasrāṇi vikariṣyanti tatkṣaṇāt //
+             <span class="ref">MvyK_50</span></p>
+         
+         
+         <p id="MvyK_51">
+            tasya yūpasya maitreyo dṛṣṭvā cainām anityatām <br />
+            kṛtsnaṃ vicintya saṃsāraṃ pravrajyāṃ rocayiṣyati //
+             <span class="ref">MvyK_51</span></p>
+         
+         
+         <p id="MvyK_52">
+            yatv ahaṃ pravrajitveha spṛśeyam amṛtaṃ padam <br />
+            vimocayeyaṃ janatāṃ vyādhimṛtyujarābhayāt //
+             <span class="ref">MvyK_52</span></p>
+         
+         
+         <p id="MvyK_53">
+            aśītibhiś caturbhiś ca sahasraiḥ saṃpuraskṛtaḥ <br />
+            niḥkramiṣyati maitreyaḥ pravrajyārtham agrapudgalaḥ //
+             <span class="ref">MvyK_53</span></p>
+         
+         
+         <p id="MvyK_54">
+            nāgavṛkṣas tadā tasya bodhivṛkṣo bhaviṣyati <br />
+            pañcāśadyojanās tasya ūrdhvaṃ śākhāḥ bhaviṣyanti <br />
+            ṣaṭkrośaviṭapādyāni vidhūtāni samantataḥ //
+             <span class="ref">MvyK_54</span></p>
+         
+         
+         <p id="MvyK_55">
+            tasya mūle niṣaṇṇo 'sau maitreyo dvipadottamaḥ <br />
+            anuttarāṃ ca saṃbodhiṃ prāpsyate nātra saṃśayaḥ //
+             <span class="ref">MvyK_55</span></p>
+         
+         
+         <p id="MvyK_56">
+            aṣṭāṅgopetayā vācā tataḥ sa puruṣottamaḥ <br />
+            deśayiṣyati saddharmaṃ sarvaduḥkhāpahaṃ śivam //
+             <span class="ref">MvyK_56</span></p>
+         
+         
+         <p id="MvyK_57">
+            duḥkhaṃ duḥkhasamutpādaṃ duḥkhasya samatikramam <br />
+            āryāṣṭāṅgikaṃ mārgaṃ kṣemaṃ nirvāṇagāminam //
+             <span class="ref">MvyK_57</span></p>
+         
+         
+         <p id="MvyK_58">
+            prasannāṃ janatāṃ dṛṣṭvā satyāni kathayiṣyati <br />
+            tathāsya dharmaṃ saṃśrutvā pratipadyanti śāsane //
+             <span class="ref">MvyK_58</span></p>
+         
+         
+         <p id="MvyK_59">
+            supuṣpite ca udyāne sannipāto bhaviṣyati <br />
+            saṃpūrṇaṃ yojanaśataṃ parṣat tasya bhaviṣyati //
+             <span class="ref">MvyK_59</span></p>
+         
+         
+         <p id="MvyK_60">
+            tataḥ śrutvā narapatiḥ śaṃkho nāma mahāyaśāḥ <br />
+            dattvā dānam asaṃkhyeyaṃ pravrajyāṃ rocayiṣyati //
+             <span class="ref">MvyK_60</span></p>
+         
+         
+         <p id="MvyK_61">
+            aśītibhiś caturbhiś ca sahasraiḥ sa puraskṛtaḥ <br />
+            narādhipo 'pi niṣkramya pravrajyām upayāsyati //
+             <span class="ref">MvyK_61</span></p>
+         
+         
+         <p id="MvyK_62">
+            tenaiva ca pramāṇena mānavānāṃ puraskṛtaḥ <br />
+            maitreyasya pitā caiva pravrajyām upayāsyati //
+             <span class="ref">MvyK_62</span></p>
+         
+         
+         <p id="MvyK_63">
+            tato gṛhapatis tatra sudhano nāma viśrutaḥ <br />
+            pravrajiṣyati dharmātmā sahasraiḥ parivāritaḥ //
+             <span class="ref">MvyK_63</span></p>
+         
+         
+         <p id="MvyK_64">
+            strīratnam atha śaṃkhasya viśākhā nāma viśrutā <br />
+            aśītibhiś caturbhiś ca sahasraiḥ sā puraskṛtā <br />
+            nārīṇāṃ saha niṣkramya pravrajyām upayāsyati //
+             <span class="ref">MvyK_64</span></p>
+         
+         
+         <p id="MvyK_65">
+            prāṇināṃ tatra samaye sahasrāṇi śatāni ca <br />
+            pravrajyām upayāsyanti maitreyasyānuśāsane //
+             <span class="ref">MvyK_65</span></p>
+         
+         
+         <p id="MvyK_66">
+            tataḥ kāruṇikaḥ śāstā maitreyo dvipadottamaḥ <br />
+            samitiṃ vyavalokyātha idam arthaṃ pravakṣyate //
+             <span class="ref">MvyK_66</span></p>
+         
+         
+         <p id="MvyK_67">
+            sarve te śākyamuninā muniśreṣṭhena tāyinā <br />
+            arthato lokanāthena dṛṣṭāḥ saddharmadhātunā <br />
+            āropitā mokṣamārge nikṣiptā mama śāsane //
+             <span class="ref">MvyK_67</span></p>
+         
+         
+         <p id="MvyK_68">
+            chatradhvajapatākābhir gandhamālyānulepanaiḥ <br />
+            kṛtvā śākyamuneḥ pūjāṃ hy āgatā mama śāsane //
+             <span class="ref">MvyK_68</span></p>
+         
+         
+         <p id="MvyK_69">
+            kuṃkumodakasekena candanenānulepanam <br />
+            dattvā śākyamuneḥ stūpe hy āgatā mama śāsane //
+             <span class="ref">MvyK_69</span></p>
+         
+         
+         <p id="MvyK_70">
+            buddhaṃ dharmaṃ ca saṃghaṃ ca gatvā tu śaraṇaṃ sadā <br />
+            kṛtvā tu kuśalaṃ karma hy āgatā mama śāsane //
+             <span class="ref">MvyK_70</span></p>
+         
+         
+         <p id="MvyK_71">
+            śikṣāpadān samādāya śākyasiṃhasya śāsane <br />
+            pratipādya yathābhūtaṃ hy āgatā mama śāsane //
+             <span class="ref">MvyK_71</span></p>
+         
+         
+         <p id="MvyK_72">
+            dattvā saṃghe ca dānāni cīvaraṃ pānabhojanam <br />
+            vicitraṃ glānabhaiṣajyaṃ hy āgatā mama śāsane //
+             <span class="ref">MvyK_72</span></p>
+         
+         
+         <p id="MvyK_73">
+            caturdaśīṃ pañcadaśīṃ pakṣasyehāṣṭamīṃ tathā <br />
+            prātihārakapakṣaṃ ca aṣṭāṅgaṃ susamāhitaḥ <br />
+            upavāsam upoṣyeha hy āgatā mama śāsane //
+             <span class="ref">MvyK_73</span></p>
+         
+         
+         <p id="MvyK_74">
+            prātihāryatrayeṇāsau śrāvakān vinayiṣyati <br />
+            sarve te sāsravān dharmān kṣayayiṣyanti suratāḥ //
+             <span class="ref">MvyK_74</span></p>
+         
+         
+         <p id="MvyK_75">
+            prathamaḥ sannipāto 'sya śrāvakāṇāṃ bhaviṣyati <br />
+            pūrṇāḥ ṣaṇnavati koṭyaḥ śrāvakāṇāṃ bhaviṣyati //
+             <span class="ref">MvyK_75</span></p>
+         
+         
+         <p id="MvyK_76">
+            dvitīyaḥ sannipāto 'sya śrāvakāṇāṃ bhaviṣyati <br />
+            pūrṇāś caturnavati koṭyaḥ kleśamuktā kṣaṇāṭ //
+             <span class="ref">MvyK_76</span></p>
+         
+         
+         <p id="MvyK_77">
+            tṛtīyaḥ sannipāto 'sya śrāvakāṇāṃ bhaviṣyati <br />
+            pūrṇā dvānavati koṭyo muktānāṃ śāntacetasām //
+             <span class="ref">MvyK_77</span></p>
+         
+         
+         <p id="MvyK_78">
+            dharmacakraṃ pravartyātha vinīya suramānuṣān <br />
+            sārdhaṃ śrāvakasaṃghena pure piṇḍaṃ cariṣyati //
+             <span class="ref">MvyK_78</span></p>
+         
+         
+         <p id="MvyK_79">
+            tataḥ praveśatas tasya ramyāṃ ketumatīpurīm <br />
+            māndāravāṇi puṣpāni patiṣyanti purottame <br />
+            devatāḥ prakramiṣyanti tasmin pure gate munau //
+             <span class="ref">MvyK_79</span></p>
+         
+         
+         <p id="MvyK_80">
+            catvāraś ca mahārājānaḥ śakraś ca tridaśādhipaḥ <br />
+            brahma devagaṇaiḥ sārdhaṃ pūjāṃ tasya vidhāsyati //
+             <span class="ref">MvyK_80</span></p>
+         
+         
+         <p id="MvyK_81">
+            utpalaṃ kumudaṃ padmaṃ puṇḍarīkaṃ sugandhikam <br />
+            aguruṃ candanaṃ caiva divyamālyaṃ tathaiva ca //
+             <span class="ref">MvyK_81</span></p>
+         
+         
+         <p id="MvyK_82">
+            cailakṣepaṃ vidhāsyanti devaputrā maharddhikāḥ <br />
+            taṃ lokanātham udvīkṣya praviśantaṃ purottamam //
+             <span class="ref">MvyK_82</span></p>
+         
+         
+         <p id="MvyK_83">
+            pathi tatra sthitā bhūmir mṛdus tūlapicūpamā <br />
+            vicitraṃ ca tato mālyaṃ vikariṣyanti te pathi //
+             <span class="ref">MvyK_83</span></p>
+         
+         
+         <p id="MvyK_84">
+            chattradhvajapatākābhir gandhamālyānulepanaiḥ <br />
+            śubhaiś ca tūryanirghoṣaiḥ prasannamanaso narāḥ <br />
+            śāstuḥ pūjāṃ kariṣyanti devaputrā maharddhikāḥ //
+             <span class="ref">MvyK_84</span></p>
+         
+         
+         <p id="MvyK_85">
+            sa ca śakraḥ sahasrākṣo devarājo mahādyutiḥ <br />
+            prahṛṣṭaḥ prāñjaliṃ kṛtvā stoṣyate lokanāyakam //
+             <span class="ref">MvyK_85</span></p>
+         
+         
+         <p id="MvyK_86">
+            namas te puruṣasiṃha namas te puruṣottama <br />
+            anukampasva janatāṃ bhagavann agrapudgala //
+             <span class="ref">MvyK_86</span></p>
+         
+         
+         <p id="MvyK_87">
+            maharddhiko devaputras tasya māro bhaviṣyati <br />
+            sa caiva prāñjaliṃ bhūtvā stoṣyate lokanāyakam //
+             <span class="ref">MvyK_87</span></p>
+         
+         
+         <p id="MvyK_88">
+            śuddhāvāsasahasraiś ca bahubhiḥ parivāritaḥ <br />
+            pravekṣate ketumatīṃ maitreyo lokanandanaḥ //
+             <span class="ref">MvyK_88</span></p>
+         
+         
+         <p id="MvyK_89">
+            brāhmaṇaparivāreṇa brahmā caiva puraskṛtaḥ <br />
+            kathayiṣyati saddharmaṃ brahmaghoṣam udīrayan //
+             <span class="ref">MvyK_89</span></p>
+         
+         
+         <p id="MvyK_90">
+            ākīrṇā pṛthivī sarvā arhadbhiś ca bhaviṣyati <br />
+            kṣīṇāsravair vāntadoṣaiḥ prahīṇabhavabandhanaiḥ //
+             <span class="ref">MvyK_90</span></p>
+         
+         
+         <p id="MvyK_91">
+            hṛṣṭā devamanuṣyāś ca gandharvā yakṣarākṣasāḥ <br />
+            śāstuḥ pūjāṃ kariṣyanti nāgāś cāpi maharddhikāḥ //
+             <span class="ref">MvyK_91</span></p>
+         
+         
+         <p id="MvyK_92">
+            te vai nūnaṃ bhaviṣyanti akhilāś chinnasaṃśayāḥ <br />
+            chinnasrotā anādātā uttīrnā bhavasāgarāt <br />
+            brahmacaryaṃ cariṣyanti maitreyasyānuśasane //
+             <span class="ref">MvyK_92</span></p>
+         
+         
+         <p id="MvyK_93">
+            te vai nūnaṃ bhaviṣyanti amamā aparigrahāḥ <br />
+            ajātarūparajatā aniketā asaṃbhavāḥ <br />
+            brahmacaryaṃ cariṣyanti maitreyasyānuśasane //
+             <span class="ref">MvyK_93</span></p>
+         
+         
+         <p id="MvyK_94">
+            te vai nūnaṃ bhaviṣyanti chinnajālam aśaktikāḥ <br />
+            dhyānāny upasaṃpādya prītisaukhyasamanvitāḥ <br />
+            brahmacaryaṃ cariṣyanti maitreyasyānuśasane //
+             <span class="ref">MvyK_94</span></p>
+         
+         
+         <p id="MvyK_95">
+            ṣaṣṭivarṣasahasrāṇi maitreyo dvipadottamaḥ <br />
+            deśayiṣyati saddharmaṃ sarvabhūtānukampakaḥ //
+             <span class="ref">MvyK_95</span></p>
+         
+         
+         <p id="MvyK_96">
+            śatalakṣasahasrāṇi prāṇinaṃ sa vināyakaḥ <br />
+            vinayitvā ca saddharme tato nirvāṇam eṣyati //
+             <span class="ref">MvyK_96</span></p>
+         
+         
+         <p id="MvyK_97">
+            parinirvṛtasya tasyaiva maitreyasya mahāmuneḥ <br />
+            daśavarṣasahasrāṇi saddharmaḥ sthāsyate tadā //
+             <span class="ref">MvyK_97</span></p>
+         
+         
+         <p id="MvyK_98">
+            prasādayiṣyatha cittāni tasmiṃ śākyamunau jine <br />
+            tato drakṣyatha maitreyaṃ saṃbuddhaṃ dvipadottamam //
+             <span class="ref">MvyK_98</span></p>
+         
+         
+         <p id="MvyK_99">
+            idam āścaryakaṃ śrutvā imām ṛddhim anuttamām <br />
+            ko vidvān na prasīdeta api kṛṣṇābhijātikaḥ //
+             <span class="ref">MvyK_99</span></p>
+         
+         
+         <p id="MvyK_100">
+            tasmād ihātmakāmena māhātmyam abhikāṃkṣatā <br />
+            saddharmo gurukartavyaḥ smaratāṃ buddhaśāsanam //
+             <span class="ref">MvyK_100</span></p>
+         
+         
+         <p>iti maitreyavyākaraṇaṃ nāma mahāyānasūtraṃ samāptam |
+            ye dharmā hetuprabhavā hetu teṣāṃ tathāgato hy avadat |
+            teṣāṃ ca yo nirodha evaṃvādī mahāśramaṇaḥ ||
+            śubham astu ||
+            abdeglāvagnidvirade śita māghe guhānane |
+            pūṣāyāṃ pūṣṇadivase sarvvānanda samāpta kṛt ||</p>
+         
+         </div>
+   </body>
+</html>

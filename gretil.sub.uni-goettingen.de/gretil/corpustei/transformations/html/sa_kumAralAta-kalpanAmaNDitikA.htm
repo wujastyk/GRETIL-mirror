@@ -1,0 +1,2944 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Kumāralāta: Kalpanāmaṇḍitikā (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Kumāralāta: Kalpanāmaṇḍitikā</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_kumAralAta-kalpanAmaNDitikA.xml">sa_kumAralAta-kalpanAmaNDitikA.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Klaus Wille</p>
+      <p class="noindent"><b>Contribution: </b>Klaus Wille</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Heinrich Lüders: Bruchstücke der Kalpanāmaṇḍitikā des Kumāralāta. Leipzig 1926 (Kleinere
+            Sanskrit-Texte, 2) [= repr. in: Monographien zur indischen Archäologie, Kunst und
+            Philologie, 1: Steiner Verlag Wiesbaden 1979, pp. 113-375]. = KalpM.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="hi">highlighted text</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/kukalpmu.htm">kukalpmu.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Kumaralata: Kalpanamanditika
+            <br />Based on the edition by Heinrich Lüders: Bruchstücke der Kalpanāmaṇḍitikā des Kumāralāta.
+            Leipzig 1926 (Kleinere Sanskrit-Texte, 2) [= repr. in: Monographien zur indischen
+            Archäologie, Kunst und Philologie, 1: Steiner Verlag Wiesbaden 1979, pp. 113-375].
+            = KalpM
+            <br />
+            <br />Input by Klaus Wille
+            <br />
+            <br />Manuscript 1: SHT 21 (ed. KalpM pp. 137-193)
+            <br />Manuscript 2: SHT 638 (ed. KalpM pp. 200-208)
+            <br />Manuscript 3: SHT 1015 (ed. SHT V)
+            <br />Manuscript 4: Hori 2011
+            <br />Manucsript 5: Wille 2005 and Karashima 2009
+            <br />
+            <br />ABBREVIATIONS
+            <br />Divy = Divyāvadāna, ed. E. B. Cowell, R. A. Neil, Cambridge 1886.
+            <br />Hori 2011 = Shin'ichirḥ Hori, "Sanskrit Fragments from Central Asia at the Institute
+            of Oriental Manuscripts of the Russian Academy of Sciences, St. Petersburg", Bukkyo-Gaku
+            (Journal of Buddhist Studies) 53, pp. 1-24.
+            <br />IDP = The International Dunhuang Project, The British Library, London (http://idp.bl.uk
+            or http://idp.bbaw.de).
+            <br />Karashima 2009 = Seishi Karashima, "The Sanskrit Fragments Or.15010 in the Hoernle
+            Collection," Buddhist Manuscripts from Central Asia: The British Library Sanskrit
+            Fragments, vol. II, ed. S. Karashima and K. Wille, Tokyo Meiwa Printing Company, pp.
+            335-550.
+            <br />r = recto
+            <br />SHT = Sanskrithandschriften aus den Turfanfunden. Teil 1: unter Mitarbeit von W. Clawiter
+            und L. Holzmann hg. von E. Waldschmidt; Teil 5: bearbeitet von L. Sander und E. Waldschmidt,
+            Wiesbaden/Stuttgart 1965, 1985 (Verzeichnis der orientalischen Handschriften in Deutschland,
+            10,1 &amp; 5).
+            <br />v = verso
+            <br />Wille 2005 = Klaus Wille, "Some recently identified Sanskrit fragments from the Stein
+            and Hoernle collections in the British Library, London (1)," Annual Report of the
+            International Research Institute for Advanced Buddhology 8, pp. 47-79.
+            <br />
+            <br />SYMBOLS USED IN THE TRANSLITERATION
+            <br />+ lost akṣara
+            <br />.. illegible akṣara
+            <br />. single element thereof
+            <br />/// leaf broken off here
+            <br />/ daṇḍa
+            <br />// double daṇḍa
+            <br />* virāma
+            <br />' avagraha, not written in the MS
+            <br />
+            <br />ITALICS for restored akṣaras, unless otherwise indicated
+            <br />
+            <br />METRICS:
+            <br />^ = short
+            <br />_ = long
+            <br />X = short/long
+            <br />XX = short-short/long
+            <br />
+            <br />NOTICE:
+            <br />- The square brackets indicating damaged akṣaras in the edition are not noted.
+            <br />- Some orthographic pecularities have been standardized, e.g. kr for kkr, ty for tty,
+            tr for ttr, dhy for ddhy, ny for nny, pr for ppr, bhr for bbh, rj for rjj, rṇ for
+            rṇṇ, rt for rtt, rd for rdd, r n for r nn, rv for rvv
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>Manuscript 1: KalpM : SHT 21 (ed. KalpM pp. 137-193; the fragments IDP SHT 21/113-274
+            are not yet edited)</p>
+         
+         
+         <p>KalpM : IDP SHT 21/1
+            6r1 /// _ _ _ _ ^ _ .yaṃti sarvasatvahitaiṣiṇaḥ 14 atha sa ///</p>
+         
+         
+         <p>2 /// + + .. ham api .. .. rvaṃ hi śāpānugraha .. ///</p>
+         
+         
+         <p>v2 /// + + dhyātvā tam up<span class="it">ā</span>sakaṃ sabahumānavi ///</p>
+         
+         
+         <p>3 /// nā gāndhāraka ity avitathārthānīmāny akṣarā<span class="it">ṇi</span> ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/2
+            7r1 /// <span class="it">sa</span>dbhiḥ proktā gāndhārak<span class="it">āḥ</span> ///</p>
+         
+         
+         <p>2 /// hṛdayāny āviṣṭ. + + ///</p>
+         
+         
+         <p>3 /// .. .. kiṃ tasyai + ///</p>
+         
+         
+         <p>v1 /// _ _ ^ _ _ ^ ^ _ ^ _ _ m śamena śi _ ^ ^ _ ^ _ _ ///</p>
+         
+         
+         <p>2 /// _ _ ^ _ _ ^ ^ _ ^ _ ti divi kṣitau vā sa ^ _ ^ _ _ ///</p>
+         
+         
+         <p>3 /// ṣau taṃ śaraṇaṃ ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/3
+            10r1 /// <span class="it">pratīt</span>y<span class="it">a</span>samutp<span class="it">ā</span>dapustak<span class="it">o</span>palabdham e ///</p>
+         
+         
+         <p>2 /// + + d evam asya kevalasya maha .. ///</p>
+         
+         
+         <p>3 /// + .. .i .o .. + + .. + .. + + + + ///</p>
+         
+         
+         <p>v1 /// + .. .. t.+ + + .r. + + + .. + + ///</p>
+         
+         
+         <p>2 /// pūrvaṃ tu tīrthyamatavipralabdham ā //</p>
+         
+         
+         <p>3 /// + + + + .ā .īmā .ā .. .o .. .. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/4
+            13r1 /// .. ch. t. + + ///</p>
+         
+         
+         <p>2 /// .ād ghaṭeṣv i .. ///</p>
+         
+         
+         <p>3 /// <span class="it">kau</span>śiko 'bravī<span class="it">t</span> ///</p>
+         
+         
+         <p>v1 /// + .. kathāmu .. ///</p>
+         
+         
+         <p>2 /// <span class="it">kau</span>ś<span class="it">i</span>ko 'bravīt .āṃ ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/5
+            15r1 /// prakṛtir ity api yad vad<span class="it">aṃ</span>t<span class="it">i</span> s<span class="it">āṃ</span>khya + + + + ha ..
+            2 /// ḥ prāhus tat kim idānīṃ sāṃkhyajñānād api vi .. .. .. ..ṃ
+            v2 /// sa eva mama prasādahetuḥ kutaḥ // ahaṃkāram ani
+            3 /// mān utsahetāhaṃkāra .i + r.i + + + + + ..</p>
+         
+         
+         <p>KalpM : IDP SHT 21/6
+            17r1 + + n<span class="it">ai</span>ṣa doṣo yat kadāci + .. + .. + + + ///</p>
+         
+         
+         <p>2 _ syāt nirhetuke ca janmani śubhā ^ _ _ ^ _ _ _ ///</p>
+         
+         
+         <p>3 + iva .id .ā + + + + .. brāhmaṇaḥ pratī ///</p>
+         
+         
+         <p>v1 + + śu .. .. .. + + + <span class="it">vi</span>jñānabījam ādau gabh. ///</p>
+         
+         
+         <p>2 ^ karmabhiḥ kṣiptaṃ vijñānabījam anya ^ _ _ _ _ ^ _ _ _ <span class="it">27</span> _ _ _ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ _ _ _ _ _ _ _
+            3 _ ^ saṃbhavati 28 a + + + + + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/7
+            22r1 + + + + + + + + + + <span class="it">śrā</span>m<span class="it">a</span>ṇerair uktaḥ k<span class="it">i</span>martha<span class="it">ṃ</span> vayaṃ na nīyāmaha iti / vai ///</p>
+         
+         
+         <p>2 ^ _ ^ _ _ ye bhikṣavaḥ khalu jarābhihatā bh<span class="it">avant</span>i _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ <span class="it">1</span> ///</p>
+         
+         
+         <p>3 + + + + + + + + + + + + + + <span class="it">utthā</span>yāsanād abruvann apaṇḍitaḥ kha<span class="it">lu</span> ///</p>
+         
+         
+         <p>v1 + + + + + + + + + + + + + + <span class="it">sthavir</span>o na tāvatā bhavati yāvatā pali<span class="it">taṃ śiraḥ paripakvaṃ vayas tasya moghajīrṇaḥ sa ucyate 2 yas tu puṇyaṃ ca pāpaṃ ca
+               prahāya brahma</span>
+            2 <span class="it">caryavān viśreṇayitvā carati sa</span> vai sthavira ucyate 3 tan naitad asmā ///</p>
+         
+         
+         <p>3 _ _ ^ _ pravādo marṣayituṃ śakyam asmābhiḥ 4 tat sa ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/8
+            23r1 /// + .. śīghram ṛddhiprabhāvena jīrṇarūpāṇy abhinirmitāni / t<span class="it">e</span> s<span class="it">arve</span> palitavidyotitaśirogaṇḍapārśvabhrulomabhir avaguṇṭhitākṣi ///</p>
+         
+         
+         <p>2 /// <span class="it">dha</span>nurvakrapṛṣṭhīvaṃśā yaṣṭiviṣaktapāṇayaḥ pavanabalapracalitā i<span class="it">va</span> supuṣ<span class="it">p</span>itāḥ sindhuvāritagulmās tasya dā<span class="it">napateḥ</span>
+            3 /// <span class="it">dā</span>napatinā satkṛtya praveśitā muhūrtopaviṣṭāś ca svarūpeṇāva .i + + + + + .. dā .. +
+            + .. t. s. uvāca // tathā jī _ ^ _ _ _ _ _
+            v1 _ _ ^ _ ^ _ rasāyanam iva prāśya punar bālatvam āgatāḥ 6 śrāmaṇerā + + + .. + ..
+            na .. + <span class="it">va</span>yam amānuṣāḥ kiṃ tu bhavā ///</p>
+         
+         
+         <p>2 /// kutaḥ // apy eva gādhaṃ varuṇālayasya svatuṇḍasūcyā maśako labheta na tv eva
+            lokaḥ sacarācaro 'yaṃ saṃghā ^ _ _ ^ ^ _ ^
+            3 _ _ <span class="it">7</span> /// ṇā prabhāvite 'smiñ cchāsane vayaḥ pramāṇīkartuṃ paśyatu bhavān* / // bālye vārdhakye
+            vā pramāṇaṃ śarīraṃ buddhā vā _ _ _ ^ _ _ ^</p>
+         
+         
+         <p>KalpM : IDP SHT 21/9
+            24r1 tā vā śreyasy udyukto _ ^ _ ho 'py abālo jīrṇo 'py aśreyasy udyato bāla eva 8
+            + + + + + .<span class="it">ā</span>yuṣmatā aṃgulyagreṇeva mahārṇavaṃ saṃghārṇavam avagāhamānena /
+            2 kim āyuṣmatā sa śru<span class="it">tapū</span>rvaṃ yad uktaṃ bhagavatā catvāro daharā nāvajñeyā iti / catvāraś cāmropamāḥ pudgalā
+            iti na tvayā vicāritaṃ / kṣaṇyane pudgalaḥ pudgalasya
+            3 pramāṇam udgṛhṇan<span class="it">n</span> i + + + .. m ṛṣiṇā tad api te vismṛtaṃ / .. .. r. .. .. .. .. .. .. .. .i .. ik.
+            tam apratyāhāryam iti k<span class="it">ṛ</span>tvā parit<span class="it">y</span>ajyatāṃ .. + + + + + + + .i .. .. ..
+            v1 niścitā buddhir avasthāpy. + .. neryāpathena na kulena na ca <span class="it">ś</span>rut<span class="it">e</span>na na v<span class="it">idyayā</span> na vayas<span class="it">ā</span> na ca vāgviśudhyā śakyaṃ pramātum iha kenacid āryasa<span class="it">ṃghaḥ</span> _ _ ^ _ guṇa .ṛ _ ^
+            2 gaṇārṇavasya 9 yaṃ <span class="it">tu</span>ṣṭuve padaśataiḥ svayam eva buddho yatrālpam apy upakṛtaṃ bahutām upaiti ratnaṃ tṛtīyam
+            iti yat prathitaṃ pṛthivyām arcyaḥ sa śākyamuniśiṣyaga
+            3 naḥ samagraḥ 10 bālo <span class="it">'yam e</span>ṣa ca mahān ayam atra vidvān eṣo 'lpabuddhir iti na pra ^ _ ^ _ _ eraṇḍacaṇpakataruṣv
+            avicārya buddhiṃ yadvad vanaṃ smarasi saṃgham ana</p>
+         
+         
+         <p>KalpM : IDP SHT 21/10
+            26r1 /// <span class="it">śrāma</span>ṇ<span class="it">e</span>rāḥ procuḥ nanu trī /// <span class="it">dānapa</span>tir uvāca /// .. samāne 'pi ratnatve bhavaty eva ratnaviśeṣa ity ata
+            2 /// yaḥ śrāmaṇerā /// .. ṇam ity ava /// _ _ _ _ <span class="it">bhara</span>dvājo yāṃ dadau sarvadarśine a
+            3 _ _ _ ^ _ _ _ <span class="it">trai</span>lokye sarva _ ^ _ /// .āyaya + /// + + + + + + + + .i .. + + + r.. .i + + + +
+            v1 /// m etad ihāprā + + /// .. .. dāna .. /// + + + + + + + + + t. sa<span class="it">ṃ</span>ghaḥ prat<span class="it">i</span>grah<span class="it">ī</span>t<span class="it">ā</span> ..
+            2 /// bharadvājasya bho /// procuḥ .aṃ /// + + + + + + + tavān / yady udakagatasya
+            tasya
+            3 /// dṛṣṭo 'bhaviṣyat ka /// ṣyat / e<span class="it">va</span> /// ṇe / // b<span class="it">u</span>ddhodyatam avāpyārthaṃ svasthaḥ khyātigato gaṇa<span class="it">ḥ</span></p>
+         
+         
+         <p>KalpM : IDP SHT 21/11
+            27r1 /// + .. .. bhaviṣyat<span class="it">ī</span>ti dān. + ///</p>
+         
+         
+         <p>2 /// .. .. gautamīsūtrādiṣu co + ///</p>
+         
+         
+         <p>3 /// .. ratnam urupramāṇam a .. ///</p>
+         
+         
+         <p>v1 /// .. saṃsmaraṇe 23 tasmā ///</p>
+         
+         
+         <p>2 /// .. ndho munīnāṃ sainyaṃ śūrā .. ///</p>
+         
+         
+         <p>3 /// + .. .ā .. .. .. .ā .i + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/12
+            30r1 /// + + + + + + + + /// t. puruṣa<span class="it">ṃ</span> sakaruṇa<span class="it">ṃ</span> ni .. ///</p>
+         
+         
+         <p>2 /// <span class="it">akā</span>rya<span class="it">ṃ</span> kṛta<span class="it">ṃ</span> sa<span class="it">r</span>vathā /// latāvighātavi .. _ _ _ _ _ ^ _ ^ _ <span class="it">4</span>
+            3 _ _ _ _ ^ _ ^ _ <span class="it">m</span>ohād atyaṃta .. _ _ _ _ _ _ ^ _ ^ _ <span class="it">5</span> + <span class="it">ka</span>ś<span class="it">c</span>id amātyo rājño vāk<span class="it">y</span>aṃ + ///</p>
+         
+         
+         <p>v1 _ _ ^ _ _ _ _ _ _ tva ^ _ s tv ayam _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ 6 puṣpam āropya
+            ya _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ ^ _ _ _
+            2 _ _ _ _ ^ vāptavān* 7 st<span class="it">ū</span>pā ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ṣu nimagnadehaḥ .. ///</p>
+         
+         
+         <p>3 /// + + + + + + /// .. .i .i .. .. .. .. .. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/13
+            31r1 /// + . <span class="it">a</span>bhyuddhārāya tv asya prayata<span class="it">s</span>va paśya / // / nāyam arho vadham a _ _ _ _
+            2 /// <span class="it">9</span> _ _ _ _ ^ _ _ mi buddhaṃ yenārccayiṣyati na hy ṛte buddhapūjāyāḥ śān<span class="it">t</span>i _ _ ^ _
+            3 ^ _ <span class="it">10</span> .. .. .i .. matir ja .. .. .. tathāgata<span class="it">ṃ</span> punar abhipūjya .. .. + +
+            v1 /// <span class="it">bu</span>ddhaśāsan<span class="it">ā</span>bhivin<span class="it">ī</span>tena rājñā vadhārham <span class="it">ā</span>tmānam avamuktam avekṣya .. .. .. ..
+            2 /// <span class="it">kāru</span>ṇika yat tvayā parinirvṛtenāpy aham adya prāṇair ācchāditaḥ .. .. .. .. .. .. ..
+            3 /// + <span class="it">du</span>ḥkhagharmābhi<span class="it">ta</span>ptaṃ hi lokaṃ hlādayituṃ bhav<span class="it">ān</span> _ _ _ _ ^</p>
+         
+         
+         <p>KalpM : IDP SHT 21/14
+            35r1 /// + daṇḍānām iva pu .. ///</p>
+         
+         
+         <p>2 /// .. ta sma svīkartuṃ jā + ///</p>
+         
+         
+         <p>3 /// .. vitum na śakno .i + ///</p>
+         
+         
+         <p>v1 /// pṛṣṭas tena coktaṃ + ///</p>
+         
+         
+         <p>2 /// t <span class="it">k</span>aścin māṃsam ānaye<span class="it">t</span> ///</p>
+         
+         
+         <p>3 /// + kopakupitaḥ prā<span class="it">ha</span> ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/15
+            36r1 /// <span class="it">ya</span>dy ady. _ _ _ n necchasi hantuṃ ghṛṇā ^ _ _ tvā rājā _ _ _ _ _ _ _ _ ^ _ _ _ <span class="it">3</span>
+            2 _ _ _ _ _ _ _ _ _ _ <span class="it">aha</span>ny ahani hatv<span class="it">ā</span> sūtās tubhyaṃ dāsyanty upe<span class="it">tya siṃ</span>hāsanaga<span class="it">tāya 4</span> _ _ _ _ _ _ _ _ _
+            3 _ ^ _ ^ _ _ _ _ _ _ _ _ _ .y asakṛt saṃdhūkṣitakrodhaḥ 5 yadi tāvat .. _ _ _ _ _
+            _ ^ _ ^ _ _ _ _ _ _
+            v1 _ _ _ _ _ _ _ ^ _ _ _ <span class="it">6</span> _ ^ m iva vadhyapānaṃ vanam iva kusumojj<span class="it">v</span>alaṃ saśā _ _ _ _ _ _ _ _ _ _ _ _ ^ _ _ _ <span class="it">7</span> _ _ ^ _ _
+            2 ^ ^ _ ^ _ _ _ _ ^ _ _ ^ ^ _ ^ doṣān aiś<span class="it">varya</span>vahner avicārya doṣān guṇāṃ ^ _ paśyati bā ^ _ _ <span class="it">8</span> _ _ ^ _ _ ^ ^ _ ^ _ _ _ _ ^ _ _
+            3 ^ ^ _ ^ _ _ _ _ ^ _ _ ^ ^ _ diduḥ _ _ _ ^ _ yan maraṇena māl<span class="it">ām 9</span> _ laṃbaci _ ^ ^ _ ^ _ _ _ _ ^ _ _ ^ ^ _ ^</p>
+         
+         
+         <p>KalpM : IDP SHT 21/16
+            37r1 - - - - rathāśvā ^ ^ _ ^ _ ṅgā bhārā ^ _ _ vyas. _ ^ _ _ <span class="it">10</span> _ _ ^ _ _ ^ ^ _ ^ _ _ yad yac ca rājā ^ ^ _ ^ _ _ _ _ ^ _ _ ^ ^ _ ^ _ _ _ _
+            2 praviśyeva garapra _ nam 11 visraṃbhaśunye hṛdi _ ^ _ _ _ _ ^ _ _ ^ ^ _ ^ _ _ udvignabuddher
+            viṣaye ^ _ _ _ _ ^ _ _ ^ ^ _ ^ _ _ <span class="it">12</span>
+            3 baḍiśam ivāmiṣasahitan dhārām iva ca kṣu<span class="it">rasya</span> _ _ _ _ _ _ _ _ _ _ t sukham asukhānuba<span class="it">ndh</span>. _ <span class="it">13</span> _ _ _ _ _ _ ^
+            v1 m ātmanaḥ paśyasi tvam akṛtātman tasmā<span class="it">c</span> cyutasya parato na ^ _ _ _ ^ _ _ _ <span class="it">14</span> ^ _ <span class="it">va</span>hn<span class="it">i</span>jvālāśatanicita .. _ ^ ^ ^ _ ^ _ _ _ _ _ ^ ^ ^ ^ ^ _
+            2 vatsyati bhavān tadā rājyaiśvaryaṃ tava kim anu _ _ ^ ^ ^ _ ^ _ _ _ _ _ ^ ^ ^ m
+            apavarge kuru matim 15 + + + + + + + + + + + + + + + + +
+            3 .i .. .. .. .i .. .. .. + + .. .. .inivṛ .. .i + .. .. .. .. + + + + + + + + + +
+            + + + + + .ām avalokay. + + + + + + + + + + + + + + + + + + + + +</p>
+         
+         
+         <p>KalpM : IDP SHT 21/17
+            39r2 /// <span class="it">tī</span>rthyasaṃghānām bhūyaḥ śr. ///</p>
+         
+         
+         <p>3 /// rṣiṇā tu yat sa ..ṃ .. .. ///</p>
+         
+         
+         <p>v1 /// ^ _ śrameṇānaparādhi pīḍyate 8 ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/18
+            40r1 ^ _ n ujjhati 9 sa _ no mata eva śākyamuninā s. _ ^ _ _ ^ _ _ _ _ ^ ^ _ ^ _ ^
+            ^ ^ _ _ _ ^ _ _ ^ _ m kin taiḥ kāyapariśramair apaphalai
+            2 <span class="it">r u</span>grais tapovistarair duṣputrā iva ye phalaṃ ^ ^ ^ _ _ _ ^ _ _ ^ _ <span class="it">10</span> _ _ _ ^ ^ _ ^ _ ^ ^ ^ saḥ kaṇvādayas tāpasā hetus tatra da
+            3 _ ^ _ ^ ^ ^ _ _ _ ^ _ .oga _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _
+            v1 _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ c chete phal. _ .ch. _ <span class="it">11</span> _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ <span class="it">sa</span>tyakṣāṃtiśamapradānaniyamajñānāni saṃ
+            2 <span class="it">se</span>vate satyādes sa gaṇāt sukhāni labhate _ _ ^ _ _ ^ _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^
+            _ _ ^ nam 12 yadā hiṃsro jantur bhaya
+            3 <span class="it">m i</span>ha pareṣāṃ janayati cyutāyāṃ hiṃsāyāṃ bhavati ^ ^ _ _ ^ ^ ^ _ ^ _ _ _ _ _ ^ ^ ^</p>
+         
+         
+         <p>KalpM : IDP SHT 21/19
+            41r1 ^ ^ _ _ ^ ^ ^ _ ^ _ _ ś cādrohe bhavati vidito dhārmika iti 13 rasair iṣṭais
+            tṛpto ^ ^ ^ ^ ^ _ _ ^ ^ naro na taddhetoḥ k. _ <span class="it">j</span> j<span class="it">a</span>n<span class="it">a</span>y<span class="it">a</span>t<span class="it">i</span>
+            2 ^ _ _ ^ ^ ^ _ ^ _ _ kṣutkṣāmo bhavati na tad apy aṇv api sukhaṃ pareṣām ādhatte
+            na bhavati tapo 'taḥ sukhaphalam 14 bhaved etan maitrām anusarati yo
+            3 _ ^ ^ ^ _ ^ _ _ _ _ _ ^ ^ ^ phalam asyāsti vipulaṃ tapas tadvan na syāt parasukhakaraṃ
+            syāc ca phalavan na caivaṃ
+            v1 _ _ _ ^ ^ ^ ^ ^ _ _ ^ ^ ^ _ 15 vākkāyayor aśubhakarmanidānam ugram evaṃ ca yaḥ
+            pratigham āpatitaṃ jahāti tān kevalaśramakarair vviphalais tapobhi
+            2 _ _ ^ _ ^ ^ ^ _ ^ ^ _ m amūḍhaḥ 16 tūṣṇīṃ bhavantu khalu tīrthyagaṇā jino hi svaṃ
+            vādam apratisamaṃ bhuvi nānadīti vyālambakesarasaṭas. .. .i _
+            3 ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ .ā nadantīti 17 // // -</p>
+         
+         
+         <p>KalpM : IDP SHT 21/20
+            42r1 + cittādhīnatv. /// ś cittadamam evopadiśanti prājñās tadyathānuśrūyate śākale
+            kila paṃcatapās tapyate sma bhikṣ<span class="it">u</span>ṇī ca taṃ deśam āgatā ///</p>
+         
+         
+         <p>2 + s<span class="it">v</span>in<span class="it">na</span>lalā<span class="it">ṭaḥ</span> /// kukṣivakṣaṇavakṣāḥ śuṣkakaṇṭhauṣṭhapṛṣṭhaniṣṭhīvaḥ kanakakapilābhir a.iṃ <span class="it">jv</span>ālā<span class="it">bh</span>i<span class="it">r</span> i .. + + + + + + .i .. .i .. ///</p>
+         
+         
+         <p>3 + + + + + + /// .. tapena .. .. .ā .. .i .. .. .. c. .ā .. <span class="it">ku</span>tapena p<span class="it">r</span>āvṛtaḥ kutapa + + + + + + + + + + + + + + + ///</p>
+         
+         
+         <p>v1 + + + + + + /// .itam anyasmi<span class="it">ṃ</span>s t<span class="it">ā</span>pay<span class="it">i</span>tavy<span class="it">e 'n</span>yat tāpyata ity atha tena paṃcātapikena parama .r. + + + + + + + + + + + + + + + +
+            + + +
+            2 <span class="it">bhi</span>kṣuṇī kathayā<span class="it">māsa //</span> yasya kṣobhād eṣa bhrukuṭīvikṣepadāruṇatarākṣaḥ māṃ vadasi duṣṭamuṇḍety etat saṃtāpyat<span class="it">āṃ ci</span>ttam 1 asmiṃ hi so ^ _ _ _ _
+            3 _ te bhaviṣyati ^ _ _ dhūrye hi sārathir iha praharati na syandanaṃ tudati 2 yo
+            hy apratāpya cittaṃ kāyaṃ tāpayati</p>
+         
+         
+         <p>KalpM : IDP SHT 21/21
+            43r1 _ ^ _ _ _ _ _ _ _ _ _ _ _ _ _ ^ _ _ _ <span class="it">3</span> _ _ _ _ _ _ _ _ _ _ ^ _ . caturbhir iha paṭunā ca bh. ^ _ _ _ _
+            2 tivi _ ^ _ _ _ <span class="it">4</span> _ _ _ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ _ _ _ ddh. kliśnāsi parapraṇeyam imam 5 kṣeptā
+            _ _ _ _
+            3 va .. i ^ _ _ ^ _ ^ _ _ _ _ _ _ _ _ _ _ _ _ _ ^ _ _ _ <span class="it">6 sthā</span>nāsanaprasaraṇādiśarīrakarma
+            v1 ya _ ^ _ ^ ^ ^ _ ^ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ kāṣṭhanibho
+            hi kāyaḥ 7 puṇyaṃ bhaved yadi kaḍeba<span class="it">ra</span> _ ^ _ _ _ _
+            2 bhave ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ h. kṛtaṃ phalaṃ
+            syāt 8 svacchandata ^ ^ ^ _ ^ ^ _ ^ _ _
+            3 .i _ .i _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ lam asti</p>
+         
+         
+         <p>KalpM : IDP SHT 21/22
+            44r1 _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ <span class="it">9</span> _ _ ^ _ ^ ^ nam ārabhate śarīraṃ saṃtāpana ^ ^ ^ _ ^ ^ _ ^ _ _ <span class="it">a</span>ṅgāvapāṭanasamarjanavṛtt. _ _ _ _ ^
+            2 _ ^ ^ ^ _ ^ ^ _ ^ _ _ <span class="it">10</span> _ _ ^ _ ^ ^ iti praparīkṣya teṣāṃ neṣ<span class="it">ṭ</span>aṃ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ na syāt phalaṃ sa hi tapa ^ ^ _ ^ _ _
+            3 _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ <span class="it">11</span> _ _ ^ _ ^ ^ śarīrapari ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ ktāḥ
+            v1 _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ rakasya _ h. <span class="it">12</span> _ _ ^ _ ^ ^ ^ .y atha lobhajasya kiṃ _ ^ _ ^ ^ ^
+            2 _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ jasya svargapriyasya na ^ _ ^ ^ _ ^ _ .t.
+            13 kiṃ brāhmaṇābhrama ^ _ ^ ^ _ ^
+            3 _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ satyavacanādir udāhṛto 'nyas. _ _ ^ _ ^ ^
+            ^ _ ^ ^ _ ^ bodham 14 bhayā</p>
+         
+         
+         <p>KalpM : IDP SHT 21/23
+            45r1 .i .. s. i .. ///</p>
+         
+         
+         <p>2 nanu svā .. ///</p>
+         
+         
+         <p>3 manā .. .. .. ///</p>
+         
+         
+         <p>v1 buddhaś. vy. ///</p>
+         
+         
+         <p>2 śirasā p<span class="it">r</span>a ///</p>
+         
+         
+         <p>3 vākyāmṛt. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/24
+            46r1 _ _ ya iva k. ś. _ _ _ _ _ munir ayam ekapade vasāditaḥ 17 // // māṃsapeś. ..
+            ///</p>
+         
+         
+         <p>2 <span class="it">su</span>vastuni kila bhikṣuṇā jīrṇagṛhe kuḍyāntargato nidhir upalakṣitas tena sa ///</p>
+         
+         
+         <p>3 + + + .. .. .o .. .. iti / sa uvāca / ya .e .i ..+ .. + + .. .. + .i .. + + ///</p>
+         
+         
+         <p>v1 + + + + + + .. ha / // c<span class="it">i</span>r<span class="it">āt</span> pr. .ṛt. _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ <span class="it">1</span> _ _ _ _ ^ _ _ _ _ _ _ _ ^
+            2 _ ^ te anarthenārthasaṃjñena tena me kiṃ prayojanam 2 dhāryate pūtikāyo 'y<span class="it">aṃ</span> _ _ _ _ ^ _ ^ _ _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^
+            3 _ <span class="it">3</span> dit<span class="it">su</span>s .. n. ^ .ā _ _ _ _ nukrośa eva vā alpecchatāyāṃ yatnena mān nigṛhya ki<span class="it">m</span> _ ^ _ <span class="it">4</span> _ _ _ _ ^ _ _ _ _ _</p>
+         
+         
+         <p>KalpM : IDP SHT 21/25
+            47r1 _ _ ^ _ ^ _ _ _ _ _ ^ _ _ _ labhat<span class="it">e</span> vy<span class="it">ā</span>kulendriyaḥ 5 mahecchaḥ saṃkalpavra ^ ^ ^ ^ _ _ ^ ^ ^ _ ^ _ _ _ _ _ ^ ^ ^ ^ ^ _ _
+            ^ ^ ^ _
+            2 ^ _ _ _ _ _ ^ ^ ^ ^ paśāntiṃ na labhate janas tv alpeccho yaḥ satatam iha tasyo
+            ^ ^ ^ _ <span class="it">6</span> ///</p>
+         
+         
+         <p>3 /// + sādhu sādhu satpuruṣa tvaṃ hi liṅgagrahaṇam ṛte 'pi bhikṣur ya ///</p>
+         
+         
+         <p>v1 /// .. pratyādiṣṭo 'smi bhavatā yas tvaṃ lobhapadasthānam api gṛham an. ///</p>
+         
+         
+         <p>2 /// .. tāvirahitasya liṅgamātrakena śramaṇabhāvaṃ pratijānīyā + ///</p>
+         
+         
+         <p>3 /// + + + ca me bhaktena bhaktakāryam asti ca me piṇḍapā<span class="it">t</span>o + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/26; original under IDP SHT X 4181 frg. BH
+            48r1 /// .. pya taṃ rātriṃdivaṃ kisareṇā .i ///</p>
+         
+         
+         <p>2 /// _ _ _ _ _ _ _ _ _ _ ^ nāvaśeṣam ṛṣeḥ āy. _ _ _ _ _ _ _ _ ^ _ _ _ ///</p>
+         
+         
+         <p>3 /// .. yate 'lpecchatā yogā + + ///</p>
+         
+         
+         <p>v1 /// pāṇir gṛhṇīṣv eti prasārito _ ^ _ ^ _ _ _ _ _ _ _ _ _ _ _ _ _ ^ _ _ _ <span class="it">10</span>
+            2 _ _ _ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ nenaitad vacanaṃ jitaṃ bhavat<span class="it">i</span> _ ^ _ _ _ <span class="it">11</span>
+            3 /// _ _ _ ^ ^ _ ^ saṃstavatayā śīlādibhi<span class="it">r</span> vv. ^ _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ _ _ _ ^ ^ _ ^</p>
+         
+         
+         <p>KalpM : IDP SHT 21/27
+            49r1 t khalu sukhaṃ tat sa ^ _ _ ^ _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ yāsyat<span class="it">i</span> 13 ni _ _ _ ^ _ _ ^ ^ ^ ^ ^ ^ _ _ ^ _ _ ^ _ _ _ _ _ _ ^ _ _ ^ ^
+            2 ṇadhananidhicchāda _ _ ^ _ _ _ _ _ _ ^ _ _ ^ ^ .. jaṇamater g<span class="it">ā</span>traviśrāma _ _ _ _ _ _ ^ _ _ ^ ^ ^ ^ ^ ^ _ _ ^ _ _ ^ _ _ <span class="it">14</span>
+            3 + + + + + + + + + + + + + + + + + + + + + + + + .. .i // // + + ///</p>
+         
+         
+         <p>v1 /// + + + + + + /// .. s. t. c. + + + ///</p>
+         
+         
+         <p>2 yad<span class="it">i sa</span>ntuṣṭ<span class="it">i</span>p<span class="it">aramaṃ dhanaṃ</span> /// haṃ daridro 'bhimatas tava / .. ///</p>
+         
+         
+         <p>3 darid<span class="it">r</span>aṃ paṇḍitā .. /// r api lokadaridr. + + + .. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/28; cf. Divy 384
+            71r1 /// nyāyyam itaḥ ś. + ///</p>
+         
+         
+         <p>2 /// rāsāre .. ///</p>
+         
+         
+         <p>3 /// mbhe 'vabha ///</p>
+         
+         
+         <p>4 /// + ty.ḥ kāya ..ṃ ///</p>
+         
+         
+         <p>v1 /// + + .. prati śr. .ṭh. ///</p>
+         
+         
+         <p>2 /// paśyati 1 + ///</p>
+         
+         
+         <p>3 /// d iman ni .i ///</p>
+         
+         
+         <p>4 /// // sakleśā + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/29
+            80r1 /// m iva tārāṃ śriyā d. ///</p>
+         
+         
+         <p>2 /// gamya vigatāmarṣo 'py a ///</p>
+         
+         
+         <p>3 /// kāmadhātvīśvaro 'pi māro ///</p>
+         
+         
+         <p>4 /// pipīlikā mandare ///</p>
+         
+         
+         <p>v1 /// . tasy. gaṇikādārikā ///</p>
+         
+         
+         <p>2 /// // ehīti te na kathita ///</p>
+         
+         
+         <p>3 /// 11 tatas tā gaṇikā ///</p>
+         
+         
+         <p>4 /// bisapratānasadṛ<span class="it">ś</span>. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/30
+            86r1 _ svam a<span class="it">pa</span>rīkṣakaḥ 2 as .i _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ ^ _ _ _ _ _ _ _ ^ sīdati 3 tataḥ
+            sa citrakaro 'śvārūḍho harṣeṇa kaṭakābhy<span class="it">ā</span>ṃ <span class="it">sva</span>
+            2 <span class="it">laṃ</span>kṛtatanur gṛhaṃ gata + + /// .. tā tatas tena bhartrā procyate dehi dvāram aham karṇa
+            iti sā
+            3 <span class="it">bra</span>vīt kutas tavāśvo 'yaṃ + + /// _ _ _ _ ^ _ _ _ _ _ _ _ ^ kīryate tasyāyam aṃkuro jātaḥ
+            phalam anyad bhaviṣyati <span class="it">4</span>
+            4 .. .. k<span class="it">ṣ</span>etre śa .au .. + + /// + + + + + .. + + _ _ _ ^ .. taṃ mahāphalam i<span class="it">t</span>i
+            v1 _ ^ _ _ muni<span class="it">ḥ</span> .th. _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ .. ^ .ṣ. _ ..
+            _ .. _ _ ^ ^ _ ^ _ phalam api pretyānya<span class="it">d u</span>
+            2 <span class="it">tpa</span>tsyata iti / // // /// + prasādāya vyāyamitavyaṃ tadyathānuśrūyate tamasāvane ki<span class="it">la</span>
+            3 <span class="it">paṃ</span>cavarṣike vartamāne /// <span class="it">ma</span>hājanaṃ ca pradānābhim<span class="it">u</span>kham avekṣya jātaprasādā kim ahaṃ saṃ
+            4 ghāya dāsyāmīty utpannai /// taprasādā saṃgham abhigatā tatra ca saṃghasthaviraḥ
+            +</p>
+         
+         
+         <p>KalpM : IDP SHT 21/31; cf. Divy 432
+            103r1 <span class="it">ma</span>ma paścimam y<span class="it">athā saṃghaga</span>tā me 'dya vistīrṇā dakṣiṇā bhavet ///</p>
+         
+         
+         <p>2 ca bhikṣuṣu aśoko rājā .i ///</p>
+         
+         
+         <p>3 sārya tad ardhāmalaka ///</p>
+         
+         
+         <p>4 <span class="it">bh</span>āgyacchidram avek<span class="it">ṣya</span> ///</p>
+         
+         
+         <p>v1 <span class="it">da</span>ttam idam ām<span class="it">alakasyārdhaṃ</span> ///</p>
+         
+         
+         <p>2 <span class="it">eva</span>m uktaṃ hy etad bhagavatā ///</p>
+         
+         
+         <p>3 jaṃbudvīpeśvaro bhūtv<span class="it">ā</span> ///</p>
+         
+         
+         <p>4 tāni pratyādiś<span class="it">ann</span> i<span class="it">va manā</span>ṃ<span class="it">s</span>i <span class="it">pṛ</span>thagjanānām 13 atha te bhi<span class="it">k</span>ṣ<span class="it">avaḥ</span> ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/32
+            104r1 /// sya paścimaṃ dā<span class="it">na</span>m iti / kim idam upanītam evam. + /// + asārakebhyo bhogebhyaḥ sāram āde + + + + +
+            + + ///</p>
+         
+         
+         <p>2 /// .. dātā bhava<span class="it">t</span>ī<span class="it">ti</span> // // utsiktajanāvadhīrito .. /// c. s. ślakṣṇaḥ pratyādeśa ity ucyate / tadya<span class="it">thānuśrūyate</span> ///</p>
+         
+         
+         <p>3 /// <span class="it">u</span>tsave nimaṃtritas tena mālā lab<span class="it">dh</span>ā .. + /// .ā baddhavāṃs ta .. /// + + satā kathi<span class="it">ta</span>ṃ .. + .. vān imāṃ mālāṃ .. ///</p>
+         
+         
+         <p>4 /// + + + + + <span class="it">upā</span>sakaḥ p<span class="it">r</span>āha + + + + /// .ā .. .. + + + /// .. māṃ mālāṃ .. + + + + + + + + + + ///</p>
+         
+         
+         <p>v1 ^ _ ^ _ _ _ _ _ ^ _ _ _ _ _ ṇa sukham . ^ _ <span class="it">1</span> _ .y. śc. _ ^ _ _ _ _ _ _ _ ^ .īpsitam _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ <span class="it">2</span> _ _ _ _
+            2 ^ _ _ _ _ .y. .e .e ^ mām aham sudurlabho h<span class="it">i</span> kr. _ _ s triṣu lokeṣu _ ^ _ <span class="it">3</span> _ _ _ _ ^ k. so 'yam alpe<span class="it">na ba</span>hu labhyate _ _ _ _ ^ _ _ _ _ _ _ _
+            3 ^ _ ^ _ <span class="it">4</span> mālāṃ viśuṣkīm iva rājalakṣmīm utsṛṣṭa _ _ ^ ^ _ ^ _ _ _ _ ^ _ _ grahitāṃ ca mālāṃ
+            yo baddhavāṃś cetasi vi ^ _ _ <span class="it">5</span> _ _ ^ _ _ ^ ^
+            4 _ ^ _ _ stūpāya dās<span class="it">yā</span>my abhigamya bhaktyā .e _ ^ .ā _ ^ ^ _ ^ _ _ _ _ ^ _ _ ^ ^ _ . daridraḥ 6 eṣa sa krayakaśre
+            _ _ _ _ _ ^ _ ^ _ _ _ _ _ ^</p>
+         
+         
+         <p>KalpM : IDP SHT 21/33
+            105r1 /// + + + + + + + + + // // māyākāravikr<span class="it">ī</span>ḍ<span class="it">itavat</span> skandhān<span class="it">āṃ</span> kr<span class="it">i</span>y<span class="it">ā</span>m upadhārya .. + + + + + + + + + + ///</p>
+         
+         
+         <p>2 /// + + + + + + + + saṃghabhaktam akarot sa bh. .. + .u bhikṣuṣu śevālalatām ād<span class="it">āya</span> + + + + + + + + + ///</p>
+         
+         
+         <p>3 /// saha prāka .. + + + cacāra / tatas te bhikṣavo vigarhanti sma ko 'yam ah<span class="it">r</span>ī .. + .i tatas tena māyā<span class="it">kāreṇa</span> ///</p>
+         
+         
+         <p>4 /// nām / tatas te <span class="it">bh</span>i<span class="it">kṣavaḥ prā</span>huḥ śreyo 'smābhir viṣam <span class="it">u</span>pa + + + + + + + .. .. .īdṛśas. + + + + ///</p>
+         
+         
+         <p>v1 /// .ovāca / naiva + + + + yogena mattaḥ parituṣyanti na pratigh. .. /// <span class="it">ki</span>m <span class="it">i</span>dānī<span class="it">ṃ</span> karavāṇī<span class="it">ti</span> ///</p>
+         
+         
+         <p>2 /// + yāṃ pratisaṃ + + + + nataśirāḥ saṃghāya praṇipatya tāṃ śaivālalatām ādāyedam
+            u /// + + + + + d. .. ///</p>
+         
+         
+         <p>3 /// + + + + + + + + + + rśitā paśyantu bhadantā .. .. t tad āyuṣmadbhir abhīkṣṇaṃ
+            śru /// + + + + + + + ///</p>
+         
+         
+         <p>4 /// + + + + + + + + + + <span class="it">ni</span>rjīveṣu skandheṣu vijā + + + .. + + + + .. .. ty apy anta /// + + + + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/34
+            106r2 _ _ _ _ _ _ _ _ _ _ ^ _ ^ _ jñābhiḥ tāvad yāv<span class="it">an</span> n<span class="it">e</span>d<span class="it">aṃ</span> vastu prapar<span class="it">ī</span>kṣyate vidhivat 2 _ _ _ _ _ _ _ _ _ _ ^ _ ^ _ _ _
+            3 _ _ _ _ _ _ <span class="it">ci</span>tram idam i _ ^ _ _ _ 3 nehāsti strī na pumān nirjīvāḥ sarva eva saṃskār<span class="it">āḥ</span> _ _ _ _ _ _ _ _ _ _ ^ _ _ _ <span class="it">4</span>
+            4 _ _ _ sarvajño māye _ _ ^ _ ^ _ _ _ citrataram indra<span class="it">j</span>ālād idaṃ hi ^ ^ .a ^ _ _ _ <span class="it">5</span> _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _
+            v1 _ _ _ ^ ^ mapravṛttikara _ _ _ ^ _ _ ^ _ kurvat prekṣya kaḍeba<span class="it">raṃ</span> bahurasaśliṣṭ<span class="it">o</span>pacārākr. _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ <span class="it">6</span> ^ ^
+            2 ^ ^ ^ <span class="it">kaḍe</span>baran nāma _ _ ^ _ _ ^ _ sthyādikānāṃ samūho gaṇaś caiṣa niścetanaḥ pava ///</p>
+         
+         
+         <p>3 + + + + + + + + + + + + + + + .i .ohā .. .. .ir.ā .. + + + .. + + + + .. + ceṣ<span class="it">ṭ</span>ā .i ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/35; for additions see p. 191
+            107r2 /// <span class="it">tadyathānuśrū</span>yate rājñ. + + + + + + pratilabdhāyāṃ <span class="it">ś</span>r<span class="it">ad</span>dh<span class="it">āyā</span>m ahany ahan<span class="it">i</span> + + + gṛhe pari ///</p>
+         
+         
+         <p>3 /// + + + + + ś. ke viṣayār<span class="it">ā</span>matām <span class="it">e</span>va str<span class="it">ī</span>ṇā<span class="it">m a</span>v<span class="it">e</span>tya dānakathāṃ svargakathāṃ ca kurvanti sma / atha ka ///</p>
+         
+         
+         <p>4 /// + + + + + + + + + + .i + + + + + <span class="it">dhā</span>rma<span class="it">ka</span>thikam uvāca + + + + + + + .. .e .. .. .. .. ///</p>
+         
+         
+         <p>v2 /// + + + + + + + + + + + + + .. + .. .. śāsan. + + + + + + + + .. m. .r. t. ..
+            th. .. ///</p>
+         
+         
+         <p>3 /// .. gṛhītaṃ jīvitāt sāraṃ kṛtaṃ buddhasya śāsanam 1 yadīdānīn narapatir jīvite
+            prahari<span class="it">ṣyati</span> ///</p>
+         
+         
+         <p>4 /// <span class="it">ka</span>ṇṭhe baddhvā r<span class="it">ājñaḥ pādayor nipa</span>tyovā<span class="it">ca</span> kṛtā + + + haṃ devas. + + + + <span class="it">a</span>dya t<span class="it">v</span>adīy. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/36
+            108r1 tājña vidhūya _ _ m yātāsmi _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _
+            .y. m 3 auduṃbaraṃ nṛvara puṣpam iva pra _ _ _ _ ^ _ ^ ^ ti janma katha<span class="it">ṃ</span>c<span class="it">id</span>. _ _
+            2 tasya trilokamahitasya ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ <span class="it">4</span> _ k<span class="it">l</span>eśavadhyapaṭahaḥ suralokasetu _ _ ^ _ ^ ^ ^ _ cchrutivaṃcitānām
+            3 saṃsārabandhanapalā ^ ^ _ ^ _ _ _ _ ^ vas tad iha ko na bhajeta vidvā<span class="it">n 5</span> janmāntare nanu subhāṣita _ ^ _ _ _ _ ^ _ ^ ^ ninā jagato .i _ _
+            4 _ ṣṭaṃ śarīram iha śaila ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ taṃ .i ^ lo ^ _ _ <span class="it">6</span> _ _ ^ piṇḍakadalītar<span class="it">u</span> _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _
+            v1 _ _ kṣaṇārtham iha pūtikaḍeba _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ . mukhaḥ syāt 7 kṛtv<span class="it">ā</span> k<span class="it">uṃcanasaṃ</span>prasāraṇagatapra<span class="it">vyāhṛtaprekṣitaṃ</span> _ _ _ ^ ^ _ ^ _ ^ ^ .. .b. _ _ ^ _
+            2 ceṣṭitam kāyo 'yaṃ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ṭanājarjaro dhārāklinnaviśī<span class="it">rṇa</span>pustaracanābiṃbākṛtiḥ svapsya<span class="it">ti 8</span> /// h. tā īdṛśena vy. + ..
+            3 na dharmaṃ śrutvā kas tvayā guṇ. /// _ _ _ _ _ _ _ _ _ _ nareśvara guṇānām śṛṇu
+            cāva _ ^ _ _ <span class="it">vi</span>pulām utpādaya<span class="it">n</span>
+            4 prītim 9 _ r. i ^ parapra _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ _ _ dvāraṃ paryaṃtakṛtaś ca
+            saṃsāraḥ <span class="it">10</span> /// + + yasmiṃ<span class="it">s</span> .irli</p>
+         
+         
+         <p>KalpM : IDP SHT 21/37
+            109r1 /// .ṛ .. .j. + bandhanakalile ///</p>
+         
+         
+         <p>2 /// kāyaḥ sarpakaraṇḍa i .. ^ ^ _ _ _ ^ _ _ ^ _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _
+            _ ^ _ ///</p>
+         
+         
+         <p>3 /// _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ ghātopamās tṛṣṇā cogra ^ _ ^ _ ^ ^ ^ _ _ _ ^ _
+            _ ^ _ ///</p>
+         
+         
+         <p>4 /// + + + .i .i śās. .. + ///</p>
+         
+         
+         <p>v1 /// + + + + + + .. n<span class="it">ir</span>vṛt<span class="it">i</span>m. ///</p>
+         
+         
+         <p>2 /// + tvayā sastrībālavṛddhasya l. ///</p>
+         
+         
+         <p>3 _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ ti vākyaṃ te munipuṃgava ^ ^ ^ _ _ _ ^ _ _ ^
+            _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _
+            4 /// .i + + i + svi na ca na ś. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/38
+            111r1 ^ _ ^ ^ ^ _ _ proktadharme tvayi ta _ _ ^ ^ ha prasanna ^ ^ _ _ _ ^ _ _ ^ _
+            <span class="it">26</span> _ _ ^ bhṛtyavihatapraṇayāḥ pra _ _ _ _ ^ _
+            2 ^ ^ ^ _ ^ ^ _ ^ <span class="it">śā</span>kyāḥ yeṣāṃ subh<span class="it">āṣitarasā</span>yanabṛṃhitāni strīṇā<span class="it">ṃ</span> mahī ^ ^ ^ _ ^ ^ _ ^ _ _ 27 tasmāt satatam eva gaṃbhīrak. + + + + +
+            3 + + + + + + + ty adhigama iti .. // <span class="it">saṃ</span>g<span class="it">ra</span>ha<span class="it">ḥ</span> // karṇaḥ kanyā yakṣo _ _ _ _ ^ _ ^ _ _ _ ardhāmalakaṃ mālā śai<span class="it">vāl</span>. ^ _ ^ _ _ _ <span class="it">ity ā</span>
+            4 <span class="it">ryakau</span>māralā<span class="it">tāyāṃ</span> .. kalpanāmaṇḍitikā<span class="it">yāṃ</span> /// .. paṃktyāṃ tṛtīyā daśa<span class="it">tī samāptā 3 // //</span> pūjāsahiṣṇutvād api bh. + + + + + + + + + +
+            5 + + .. ma /// yate / tadyathānuśr<span class="it">ūyate</span> /// <span class="it">ku</span>latila<span class="it">k</span>. + + .. ṇi .e /// .. śrīvibhavaprabhāvaprat. + + + + + + + + + +
+            v1 /// + tasthe /// kasmiṃścit pradeśe vāsopaga .. /// + + + + .. bhiḥ ka + + rātma
+            /// dadarśa ca nātidūrastham urupra + + + + + + + + + +
+            2 /// .. pama .. /// + .. saṃkrāmya namas tathāgata /// + + + + + vimalaśubhapaṭṭālaṃ
+            /// + <span class="it">pra</span>ṇataś cābravīt // sarvā _ ^ ^ _ ^ _ ^ ^ ^ _
+            3 _ _ ^ _ _ ^ _ <span class="it">kṛ</span>tsnasyāsya carā<span class="it">carasya</span> jagataḥ s<span class="it">ā</span>dhāraṇo bāndhavaḥ _ _ _ ^ ^ _ ^ _ ^ ^ ^ to lokatrayān niḥsṛ _ _ dv. _ ^ ^ _ ^ _ ^
+            4 ^ ^ _ _ _ ^ _ tv. hite 1 atha bud<span class="it">dha</span> + + + /// .. raṇāvarjitamanasi praṇate + /// + + + m iva kātarajanasainyam ekapa
+            .e + + + + +
+            5 /// .. pavanabalabhi .. + + + + + /// .. rāśim āga .. .o + + + + + + /// + + + +
+            .. saṃbhramotphullacak<span class="it">ṣu</span>ṣā + + + + + + +</p>
+         
+         
+         <p>KalpM : IDP SHT 21/39
+            113r1 n<span class="it">i</span>gh<span class="it">ā</span>taninadair vvikrośatīva svayam 6 yac caitye bahu<span class="it">p</span>u<span class="it">t</span>r<span class="it">ake</span> ^ ^ ^ _ _ _ ^ _ _ ^ _ _ _ _ ^ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ _ _ _ ^ ^ _ ^ _
+            2 khalu śiro gacched itīdaṃ hi tat sarvajñasya subhāṣitaṃ svavagataś cai _ ^ _ _ ^
+            _ <span class="it">7</span> ///</p>
+         
+         
+         <p>3 ttam avekṣya prasādajanitanetramukharāgā janaughās tatra saṃ ///</p>
+         
+         
+         <p>4 parapravādinaḥ śramaṇaiś ca brāhmaṇai .. .i yat p<span class="it">r</span>atij. ///</p>
+         
+         
+         <p>5 + .i + + + + + + saṃjñinaś ca tathāgat. + + + + + + + ///</p>
+         
+         
+         <p>v1 t<span class="it">īr</span>thy. + .ṛ + + + + + nārghaṃti prāg eva tatrabha + + + + + + + + _ _ _ ^ ^ _ ^ _ ^
+            ^ ^ _ _ _ ^ _ _ ^ _ _ _ _ ^ ^ _ ^ _ ^
+            2 puruṣo nigraṃthako durmatiḥ stūpo mānuṣa<span class="it">mā</span>trakena khalu _ _ _ ^ _ _ ^ _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ <span class="it">8</span> _ _ _ _ ^ _ _ _
+            3 n nidāgha iti kathyate tathaiva niyatagranthaḥ sa nigra<span class="it">nthaka</span> _ ^ _ <span class="it">9</span> _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ ^ _ _ _ _ _ _ _ ^
+            4 bhaktibhiḥ 10 buddhasya hi prathitadhīdhṛtivaṃśakīrte st<span class="it">ū</span>pāḥ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^
+            5 vindhyapādā iti 11 tas<span class="it">m</span>āt .ā .. .. .āṃ .. .. + + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/40
+            114r1 /// <span class="it">ba</span>huśruto bhikṣuḥ prati<span class="it">vasati sma / sa</span> v<span class="it">i</span>dhavāyāṃ striyām ut. ///</p>
+         
+         
+         <p>2 /// to bāḍham avapravrajatu <span class="it">ahaṃ bhavato</span> bhāryā bhaviṣyāmīti ///</p>
+         
+         
+         <p>3 /// .yutpannabuddhitvāt kin nu khalu ka<span class="it">riṣyāmīti ci</span>ntām āpede / tad. ///</p>
+         
+         
+         <p>4 /// m etat karma k<span class="it">u</span>ryām iti / sa + + + + .. ra yathāpita ///</p>
+         
+         
+         <p>5 /// sya pūrva + + + to bhikṣur yadṛccha<span class="it">yā taṃ</span> deśam anuprā ///</p>
+         
+         
+         <p>v1 /// vṛtaṃ yama<span class="it">rājopa</span>mam iva rudhirabind<span class="it">ubhiḥ</span> siktadeham / ///</p>
+         
+         
+         <p>2 /// tā proktan nāham ekadharmam api <span class="it">samanupaśyā</span>my evaṃ laghu ///</p>
+         
+         
+         <p>3 /// śaṃkām apy asyākariṣyad im<span class="it">a</span>m. + + bhavān yāsyatīti ///</p>
+         
+         
+         <p>4 /// ṇālupratigataṃ sa .ā + + bahu vikurute cittat. ///</p>
+         
+         
+         <p>5 /// śramaṇā vā brāhmaṇ<span class="it">ā vā</span> + + .. m āryasatyaṃ na jānaṃti ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/41; original missing
+            115r3 ............... m. sv. katām asya smāra ............
+            4 ............ sutulita<span class="it">ṃ</span> kuruṣv<span class="it">e</span>t<span class="it">i</span> / ........... bh. v. .. k. .u ....... śramaṇo na ca māṃsaṃ krī ........... ṣyati
+            / // nikṣiptavya ^ _ ^ _
+            5 ^ ^ ^ _ _ _ ti kiṃcit .a .i _ .ā ..ṃ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ dātarāt ārya _ ^
+            ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ kāmānāṃ gurulāghavaṃ ^ ^ ^ _
+            v1 _ _ ^ _ _ ṣamām 3 ............. ryām anusmṛtya duḥkha ............. <span class="it">sū</span>trāṇy anusmṛtya tāṃ tulām e .........
+            2 ........... bhikṣum uvāca bhadanta bhada<span class="it">nta</span> _ _ _ _ _ _ _ _ cādīnavo .i .e .e _ ḥ hrīkakṣyā<span class="it">ṃ</span> buddh<span class="it">i</span>tulā _ _ _ _ ^ _ _ _ 4 ādīnavabhūya .........
+            3 .............. taṃ me yad ahaṃ te .ai .......... .ī .......</p>
+         
+         
+         <p>KalpM : IDP SHT 21/42; original missing
+            120r1 /// .y. m. ............ d rājñaḥ saci<span class="it">v</span>. ///</p>
+         
+         
+         <p>2 /// jñānaḥ krame<span class="it">ṇa</span> ....... mānamūrtiḥ k. ///</p>
+         
+         
+         <p>3 /// māyamānauttari ...... yāmāsa / kim idā<span class="it">nīṃ</span> ///</p>
+         
+         
+         <p>4 /// ..... r. ... .i ....... bhāgyāny aho yāva ///</p>
+         
+         
+         <p>5 /// t. .. pracchanne kilbiṣe vyava ///</p>
+         
+         
+         <p>v1 /// vasaktanist<span class="it">r</span>iṅśaḥ śārdūlapo<span class="it">ta</span> ///</p>
+         
+         
+         <p>2 /// ......... t. ........ ham ādāya prasthito ///</p>
+         
+         
+         <p>3 /// .t. kṣuttarṣaś ca ha .......... ghrāya bhasmamayā ///</p>
+         
+         
+         <p>4 /// .. īti / sa ........... va sthāne ni<span class="it">kṣ</span>i<span class="it">p</span>. ///</p>
+         
+         
+         <p>5 /// ........ .e ......... bdham akārya .i ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/43
+            123r1 kāmaṃ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^
+            _ _ _ _ ^ ^ _ ^ puṣpava ^ _ mokṣaṃ ca śālūka<span class="it">vat</span>. + <span class="it">ta</span>
+            2 smāc chīlasahāyena mokṣ. _ _ ^ _ ^ _ _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ /// m atikramāya
+            prayatitavyam / tadyathānu<span class="it">śrūya</span>
+            3 <span class="it">t</span>e <span class="it">k</span>enacid apaṇ<span class="it">ḍ</span>ita .. + + /// + + + + .i + t / tac ca taḷākam avatīrya suci<span class="it">raṃ</span>
+            4 + + + + + + + + + + + /// + + durlabhaṃ vinipatitasya mānuṣyatvam ekā ..
+            5 + + + + + + + + + + + /// + + + + .. .. .. .. .. + .. .. tyu .. .. .. + .. .. ..
+            .. +
+            v1 + + + + + + + + + + + /// + + + + nātyarthadūragāmini kāṣṭhe salile ca _
+            2 ^ _ _ _ _ _ _ _ _ _ _ _ _ _ ^ _ _ _ <span class="it">1</span> _ _ _ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ _ _ grīvā saṃprāpsyati tadyugacchidram 2 atyartha
+            3 du<span class="it">r</span>labh<span class="it">o</span> 'y<span class="it">aṃ</span> v<span class="it">i</span>n<span class="it">i</span>pat<span class="it">it</span>. _ ^ _ ^ _ _ _ _ _ _ _ _ _ _ _ _ _ ^ _ _ _ <span class="it">3</span> _ _ _ _ _ _ _ _ _ _ virāgitā buddhāḥ yuktam idā<span class="it">nī</span>
+            4 m ājñāṃ pratigrahītuṃ daśaba<span class="it">lasya 4</span> _ _ _ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ _ _ _ _ _ ^ va vidvān na tat k<span class="it">u</span>ryāt 5 aṣṭākṣaṇapatitā _ _
+            5 su .i _ ^ ṇasamāgamā _ _ _ _ _ _ _ _ _ _ _ _ ^ _ _ _ <span class="it">6</span> _ _ _ _ _ _ prasaraṃ bha ^ _ ^ _ t samāsādya _ _ _ _</p>
+         
+         
+         <p>KalpM : IDP SHT 21/44
+            125r1 /// + + dustyajaṃ tyajasi ca dra<span class="it">v</span>y<span class="it">aṃ</span> .r. .. + + + + + + + + + + + + + + + + + + .. y. nm. .. + + + + + + ///</p>
+         
+         
+         <p>2 /// lasya doṣo 'pi guṇāvaho bhavatīti .. + + + bahulena bhavitavyam / <span class="it">tadyathā</span>nuśrūyate ka<span class="it">ścit</span> + + + + ///</p>
+         
+         
+         <p>3 /// + m abhyāgatas tena ca bhikṣuṇā dvāraṃ ba<span class="it">d</span>dh<span class="it">aṃ</span> / tatas tena co<span class="it">r</span>e<span class="it">ṇa</span> prayaccha me dv<span class="it">āram i</span>ty abhihita<span class="it">ḥ sa bhik</span>ṣur u<span class="it">vāca</span> ///</p>
+         
+         
+         <p>4 /// taṃ praveś<span class="it">aya</span> yad ihāsti tat te dāsyāmīti / tena .. + + + praveśitaṃ tata<span class="it">s tena bhikṣu</span>ṇā tac corasya .. ///</p>
+         
+         
+         <p>5 /// laṃ kāṣṭham <span class="it">ā</span>dāya d<span class="it">v</span>āram avamuc<span class="it">y</span>a <span class="it">sa</span> bhikṣus .a + + + + nān nirgamya tat kāṣṭh. + + + + pāṇibhyām atisa ///</p>
+         
+         
+         <p>v1 /// .. / tataḥ sa cauraḥ prāṇaparityāga<span class="it">bha</span>yabhīta .. + + + + .inā buddhaṃ śaraṇaṃ ga<span class="it">cchāmīty uvā</span>ca tatas tena bhik<span class="it">ṣuṇā</span> ///</p>
+         
+         
+         <p>2 /// <span class="it">dharmaṃ śaraṇaṃ gac</span>chāmīti / <span class="it">tataḥ sa</span> coraḥ prāha dharmaṃ śaraṇaṃ gacchāmīti + + + + bhikṣuṇā tṛtīyaṃ + + + tvābhihitaḥ
+            kathay. ///</p>
+         
+         
+         <p>3 /// .. vat ko nu jānīte kati śaraṇagaman<span class="it">āny a</span>yaṃ bhikṣur vvakṣyat<span class="it">i</span> .. kati ca mayā <span class="it">lag</span>uḷaprahārā .. ///</p>
+         
+         
+         <p>4 /// + śanaiḥ saṃghaṃ śaraṇaṃ gacchāmīty ukta + + + na bhikṣuṇā tasmād ban<span class="it">dhanād vi</span>mucya gacchedā<span class="it">nīṃ</span> ///</p>
+         
+         
+         <p>5 /// + .. krameṇa svasthibh<span class="it">ūt</span>o .. .. .. + + + + + + + + .. + + + + + .. ..ṃ .o + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/45
+            126r4 /// prahāreṇa sa coro niṣprā .. ///</p>
+         
+         
+         <p>5 _ _ _ _ _ _ _ _ _ _ ^ _ ^ _ ^ payā śaraṇāgamanaṃ ca ^ _ _ _ _ _ ^ _ _ _ <span class="it">1</span> _ _ _ _ _ _ _ _ _ _ ^ _ ^
+            v1 _ _ _ _ _ _ _ _ _ _ _ _ _ samabhaviṣyam 2 etat tasya ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _
+            ^ _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _
+            2 ^ _ _ ^ _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ bhaṃte munau sūkṣ<span class="it">m</span>aṃ hetum a _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ <span class="it">3</span> ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/46
+            127r1 /// .. śatrur bhadantena cīva<span class="it">r</span>. + /// + + + + + + + + ///</p>
+         
+         
+         <p>2 /// .. d aśanin nivārayati ghor. /// + + + .. suhṛt prā .. ///</p>
+         
+         
+         <p>3 /// .. haṃti nanu priyaṃ kuru<span class="it">t</span>e + /// .. vihate sasyaṃ kṣetre ///</p>
+         
+         
+         <p>4 /// + so hi devadattasya + + /// + .. laṃ na babhūvot. ///</p>
+         
+         
+         <p>5 /// + lābhasatkāraḥ .. + /// + .. pi sa me .. + ///</p>
+         
+         
+         <p>v1 /// + + + + t. yalomacchavi + + + /// + ś chinatti nṛṇ<span class="it">ā</span>m + + ///</p>
+         
+         
+         <p>2 /// + + + + k. padasthānaṃ saṃgaṇi + /// + darpapramādatṛṣṇ<span class="it">ā</span> .. ///</p>
+         
+         
+         <p>3 /// + + <span class="it">sa</span>tkārasaṃjñitaṃ śatrum ā .. + + + /// r na syād ayam iha .i + ///</p>
+         
+         
+         <p>4 /// + + + niramate śamatyaktaś cāy. + + /// .. + + yatir iti .. ///</p>
+         
+         
+         <p>5 /// <span class="it">tadyathānu</span>śrūyate sthaviramau<span class="it">dgalyāyan</span>. /// + + + + + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/47
+            128r1 + + /// + <span class="it">s</span>th<span class="it">a</span>viramaudgalyāyane + + /// + .. d anayos ta .. + + + /// + + + + + + + <span class="it">ta</span>ta sthaviraśāradvatī<span class="it">p</span>u<span class="it">t</span>r<span class="it">eṇā</span>nuy<span class="it">u</span>
+            2 ktaḥ + /// + m ekasyānāpānasmṛtir a<span class="it">parasyāsthisaṃ</span>jñā mayopa<span class="it">d</span>i<span class="it">ṣṭā</span> + + /// + + + + .. .. t<span class="it">ataḥ</span> sthaviraśāradvatīputreṇoktaḥ ko 'tra
+            3 kasmā<span class="it">t</span> /// tataḥ sthaviramaudgalyāyanenoktaṃ <span class="it">yasyā</span>nāpānasmṛ<span class="it">tir upadiṣṭā</span> /// + + pravrajito yasya <span class="it">p</span>unar asthisaṃjñopadiṣṭā sa suvarṇa
+            4 <span class="it">kāraḥ</span> /// <span class="it">śā</span>radvatīputreṇābhihitaḥ /// + + ya eṣa <span class="it">ānāpānasmṛtiṃ bhāva</span>yati so 'sthisaṃjñāṃ bhāvayatu yaś cāsthisaṃjñāṃ bhāvayati
+            5 + + /// + + + + + + + + + + .. + /// + + .. + + /// + + + .. .e + .e + + + + + +
+            + + + + + +
+            v1 + + + + /// + + + + + + + + + + + /// + .. + + + ///.. .. .. + .dh. + + y. + +
+            + + + + + + .. + .. .. .. ///</p>
+         
+         
+         <p>2 + + + + /// ^ _ ^ _ _ _ _ <span class="it">upa</span>d<span class="it">e</span>śo 'yaṃ ś<span class="it">ī</span>ghra<span class="it">ṃ</span> s<span class="it">a</span>phalasaṃ ^ _ <span class="it">1</span> svagoa<span class="it">re</span> ^ _ _ _ _ _ <span class="it">bhāva</span>yati kriyām agocare tu bhramati matsyaḥ sthalagato yathā <span class="it">2</span>
+            3 śuklāni va<span class="it">strāṇi</span> ^ _ ^ _ _ _ _ taṭasthāny upalakṣitāni śai _ ^ _ _ ṇa ca me ^ _ _ _ _ ^ _ _ ^ ^ _
+            praviṣṭā 3 s. _ .i nāḍīpavanānusārāḍ ucchvāsa
+            4 niśvā<span class="it">sa</span> ^ _ ^ _ _ _ _ ^ _ _ ^ gato mahātmā sarvaḥ khal<span class="it">u</span> .e ^ ^ _ balīyān <span class="it">4</span> _ _ _ ^ ^ _ ^ _ ^ ^ ^ .. .o .o .. ..ṃ na svayaṃ dhārmyaṃ cakram anupravar<span class="it">ta</span>
+            5 ya<span class="it">t</span>i _ _ _ ^ _ _ ^ _ _ _ _ ^ hi yoganītividu<span class="it">ṣo dharmasya senā</span>pater vvākyai<span class="it">ḥ</span> _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ tāv iti 5 // /</p>
+         
+         
+         <p>KalpM : IDP SHT 21/48
+            130r1 /// + + + + + <span class="it">kā</span>ṣāyaprāvaraṇaṃ raktacandan. .. + + + /// + + .r. .. d. d. .. + .. ni / vakṣyate hi
+            / // ^ _ ^ _ _ ^ ^ _ ^ _ ^ _ ^ _ ^
+            2 ^ ^ _ ^ _ ^ _ ^ _ ^ _ _ bhrav<span class="it">i</span>daṣṭamaṇḍalaḥ śa<span class="it">śī pra</span>sannāṃśur ivodi _ ^ _ <span class="it">3</span> /// <span class="it">bha</span>gavaṃtam ālo<span class="it">kya</span> pramuditamanā d. + + + .. .. + + + + + + + + + + +
+            3 /// ṇi prahlādayati kiṃ punar manuṣyabhūtānāṃ vakṣyate hi <span class="it">/ //</span> _ _ _ _ takāntan te bh<span class="it">ā</span>janaṃ śa ^ _ ^ _ _ _ pratiniviṣṭānāṃ prahlāda _ ^ _ ^ _ <span class="it">4</span>
+            4 _ _ _ _ ^ _ _ _ _ _ paśyaṃti dehinaḥ tatra tatraiva sajjante harṣaniścala<span class="it">locanāḥ 5</span> dīptaṃ dedīpya<span class="it">te</span> bhūyo gātraṃ te varalakṣaṇaiḥ anupākruṣṭacāri<span class="it">tra</span> _ _ _ _
+            5 ^ _ ^ _ <span class="it">6</span> /// + + + + na tam ābhara<span class="it">ṇā</span>ny aśobhayaṃta vyapanīta ^ ^ _ ^ .. .. .āśe _ r. ^ _ r hi sa lakṣaṇābhidhānaiḥ <span class="it">saha</span>jair ābharaṇai ^ _ ^ _ _ <span class="it">7</span>
+            v1 ^ ^ _ ^ ^ _ ^ _ ^ .. _ ^ ^ phullai staba<span class="it">kair a</span>śokavṛkṣaḥ bhuv<span class="it">i</span> bhāti tath<span class="it">ā</span> ^ _ ^ _ s. sa mahātmā ^ ^ lakṣaṇair jvaladbhiḥ 8 yath. + + + // maṇ<span class="it">i</span>bhi<span class="it">r</span> vv. + + +
+            2 /// ti sugata tava gātram idaṃ varalakṣaṇaiḥ kham iva ni + + + + 9 yathā cā .. //
+            lāvaṇṇapuṇṇapattaṃ jananayanarasāyanaṃ pa .. _ _
+            3 _ _ _ _ _ taṃ vinayasamuttejitasirīraṃ 10 ko nu katatthasa _ _ ^ .. jjhavijjhapitadosa
+            _ _ _ ^ samāpaṇāṃkasobhā pa _ ^ _ _ ^
+            4 _ _ _ <span class="it">11</span> /// + pam evāścāryasaṃmata + + tu samaṃtabhadra + + + + + vakṣyate hi / // .. + te
+            kiṃcid vākyaṃ ya .i _ _ ^ ^ ^ ^ ^ _ _ ^ _ _ ^ _ _ _ _
+            5 _ _ ^ ^ ^ ^ ^ _ _ ^ _ _ ^ _ _ _ praspandas tanur api sa te _ ^ _ _ ^ _ _ _ _ _ _
+            ^ ^ ^ ^ ^ hānugraha _ ^ _ _ <span class="it">12</span> _ _ _ _ ^ ^ ^ ^ ^ _</p>
+         
+         
+         <p>KalpM : IDP SHT 21/49
+            131r1 _ ^ _ _ ^ _ _ _ _ _ _ ^ ^ ^ ^ ^ _ _ ^ _ _ ^ a _ _ _ cakṣuḥ paramanibhṛte _ ^
+            _ dhir na kiṃcit saṃ _ _ _ ^ ^ ^ ^ ^ _ _
+            2 ^ _ _ ^ _ _ <span class="it">13</span> /// + + + . <span class="it">a</span>calendr<span class="it">i</span>y<span class="it">air</span> bh<span class="it">i</span>kṣu<span class="it">bhir a</span>nupari<span class="it">vṛtam a</span>vekṣya prītamanā babh<span class="it">ūva vakṣya</span>te hi // śānte<span class="it">ndr</span>i<span class="it">y</span>. ^ ^ ^ _ ^ ^ _ ^
+            3 _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _t bh<span class="it">ā</span>ty <span class="it">e</span>ṣa śākyavṛṣabhaḥ k<span class="it">ana</span>kācalābhaḥ sāndhyair ghanaiḥ par<span class="it">i</span>vṛtaḥ śaradīva sū<span class="it">ryaḥ 14</span> ///</p>
+         
+         
+         <p>4 /// na me saṃsargayogyo bhagavā<span class="it">n</span> i + + .. .i + + thā prasthitas tasyedā .. + + + + + + + .igantum ayogyo 'smīty a
+            .. ///</p>
+         
+         
+         <p>5 /// + + ṇyaḥ pūrva<span class="it">ka</span>rmabhir evaṃ .. + + + + + .. m anena nīcena ka + + + + + + + + + + sarvasatvābhigamanī<span class="it">ya</span> ///</p>
+         
+         
+         <p>v1 /// + + + .. dahyate me <span class="it">h</span>ṛdayam / + /// .y. ktaṃ lokaiḥ sāmaraki + + + + + + + + + /// .. prāpya yo 'ha<span class="it">m</span> evaṃ vim. ///</p>
+         
+         
+         <p>2 /// <span class="it">bha</span>gavān buddhaḥ sarvasatvasamapraṣṭa + /// + .. + + + thas tenaivābhiprasthito + + +
+            + + + t. y. + /// .. kaṣ<span class="it">ṭ</span>am ita eva bhagav<span class="it">ān</span> . ///</p>
+         
+         
+         <p>3 /// <span class="it">ba</span>bhūva hā hato 'smi mandabhāgyaḥ pū<span class="it">rva</span>duścaritena tāvad iyam īdṛśī mam<span class="it">ā</span>vasthā yadi punar ni .. + /// + + + + + + + + + ///</p>
+         
+         
+         <p>4 /// + + + + .. div<span class="it">y</span>aiś <span class="it">c</span>an<span class="it">d</span>anac<span class="it">ū</span>rṇa<span class="it">puṣ</span>pavik. _ .<span class="it">a</span>bhyarcyate daivatair bhūmi _ ^ ^ _ praveśasa<span class="it">maye</span> _ _ ^ _ _ ^ _ _
+            5 _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ _ _ _ ^ ^ _ ^ _ ṣa ^ ^ _ _ grāgrahastaḥ kath<span class="it">am 16</span> tat kim idā<span class="it">n</span>ī<span class="it">m</span> /// + + + + + + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/50
+            132r1 /// + + + + + + + /// _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _
+            ..ḥ pauraiḥ kṛtāṃjalipuṭ. ^ ^
+            2 _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ <span class="it">17</span> /// .. tsṛjyānyāṃ rathyāṃ yāsyāmīty atha y.
+            3 /// y<span class="it">e</span>na n<span class="it">ī</span>th<span class="it">ir</span> gaccha + /// + + + tatas tathāgatasaṃsargaṃ
+            4 /// harataḥ sasaṃbhra<span class="it">m</span>. /// + + + + + t. khal<span class="it">u</span> yā .. + +
+            5 /// + lama + + + /// + + + + + + + + + + +
+            v1 /// <span class="it">rath</span>y<span class="it">ā</span>mukha .. .. /// + + + + + + + + + + +
+            2 /// <span class="it">bhaga</span>vān asamāptabhikṣ. /// _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ _ _ bhraṣṭam ivāmedhye _ _
+            3 _ _ ^ _ nakaḥ 18 a _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _
+            <span class="it">19</span> _ _ _ _ ^ _ _ _ _ ratāṃ ca parīkṣate viraca
+            4 _ ^ _ _ _ _ _ _ _ ^ _ ^ _ <span class="it">20</span> /// atha saṃvṛtaṃ rathyāmukham ave .. .i
+            5 + + + + + + + + + /// ḍavaśād bhūmim abhi + + + +</p>
+         
+         
+         <p>KalpM : IDP SHT 21/51
+            141r1 /// + + <span class="it">vā</span>sukiprabhṛtīnāṃ nāgānāṃ viṣam aviṣaṃ syā<span class="it">t</span> . /// + + + na gṛhāṇi kṣe + + + + + + + ///</p>
+         
+         
+         <p>2 /// + + .. kuta<span class="it">ḥ</span> // bhindyād idaṃ jaladadurdinam unnataṃ <span class="it">ca mattadvipe</span>ndrakalilaṃ dviṣatāṃ ca sai<span class="it">n</span>yam sa<span class="it">r</span>va<span class="it">jña</span> _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _
+            3 ^ _ _ <span class="it">8 cī</span>n<span class="it">a</span>r<span class="it">ā</span>jakumārasya tām ātmanaś cakṣur.i + /// .. pramuditamanasaḥ pūrvam eva ca sa + ///</p>
+         
+         
+         <p>4 /// <span class="it">ca</span>kṣur vviśuddhaṃ / sedānīṃ māṃsacakṣuṣi prajñā + /// + ddhe / buddhavacanamāhātmyavismitaḥ
+            prāha _ _ _ _ _ ^ _ _ ^ _ _ _ _ _ _ _ ^ _ _ ^ _
+            5 /// .i .. ś<span class="it">r</span>ot<span class="it">r</span>ābh<span class="it">y</span>āṃ yan <span class="it">m</span>ayā sād. _ _ cakṣur vvai _ _ ^ _ _ ^ śuddham 9 _ _ _ _ ^ _ _ ^ _ _ _ _ _ _ _ ^ _ _
+            ^ _ _
+            v1 _ _ _ _ _ naratnā<span class="it">ṃ</span>ja<span class="it">nena</span> svāsthyan nītaṃ hy adya cakṣurdvaya _ <span class="it">10</span> _ _ <span class="it">śā</span>kyamunau janaḥ <span class="it">sah</span>ṛdayaḥ ko nāma moh. ^ _ _ _ _ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ _
+            2 _ ^ ^ _ ^ tair mṛdupadair vvākyaiḥ kṛtānugrahaḥ m. _ _ ^ ^ _ ndriyaṃ kṛśamatir mleccho
+            'pi saṃbudhyata iti 11 ///</p>
+         
+         
+         <p>3 /// + .ī .. bhir avetya prasādāya praya<span class="it">titavyam /</span> tadyathānuśrūyate rājñā kila kaś<span class="it">c</span>i .. ///</p>
+         
+         
+         <p>4 /// + + s tad upagamya caṇḍālasyājñā dattā vadhy. /// <span class="it">pu</span>r<span class="it">u</span>ṣa iti / sa ca + + + .. + .. + + + ///</p>
+         
+         
+         <p>5 /// + + .o rājaśāsanam atikramasīti coktaḥ /// + + + .itāḥ khal. .. + + + + + +
+            + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/52
+            146r1 sarvajña iti viśr<span class="it">utaḥ</span> _ _ _ _ ^ _ _ mi sarvasatvānukampakam 6 yeṣāṃ ca _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^
+            ^ ^ _ ^ m avaiti buddhaḥ _ _ ^ <span class="it">tīr</span>thakagaṇai
+            2 <span class="it">r a</span>navāptapūrvo yo _ ^ _ ^ ^ ^ _ ^ gato jinena 7 sa bhagavaṃtam upasaṃkrāmya dakṣ<span class="it">i</span>ṇajānumaṇḍala<span class="it">ṃ</span> pṛth<span class="it">ivyāṃ</span> + /// <span class="it">pu</span>ṭaḥ prāha / // dīkṣā smṛtā yadi ^
+            3 varṇacatuṣṭayasya _ _ ^ <span class="it">ni</span>r<span class="it">vṛ</span>tisukhaṃ yadi madvidho 'pi sādhu prajāhitasamudyatasarvabhāva pr. _ ^ _ ^ ^ ^ _ ^
+            ^ _ pamānaḥ 8 tataḥ parama<span class="it">kāru</span>
+            4 ṇiko bhagavān buddhaḥ śata /// + kāśenojvalacakrabiṃbālaṃkṛtamadhy<span class="it">e</span>na tanutāmrav<span class="it">i</span>malajālāvaga + /// + + + ṣu natam āśaya<span class="it">ṃ</span> bhadrak. + +
+            5 v<span class="it">i</span>śeṣaṃ śi + .i + + .i + + /// + + <span class="it">pravra</span>ja vatsa visrabdhan nāsti tathāgatasya dharmeṣv ācāryamuṣṭir na prāde .. /// + + +
+            + + + + khyaṃ na saṃba + + +
+            v1 .. sanaṃ na p. .. + + + /// + + + <span class="it">yo</span>gakṣemakaro hi mayādhigato mārgaḥ sarvapaṇyaś ca mayāyam a /// + + + + + + + śāstraṃ
+            jāti .. +
+            2 .. tra vibhavān avekṣate /// + .. hāsaraś caturṇāṃ varṇānāṃ viśuddhim āvahat<span class="it">y</span> ayaṃ dharmavinayaḥ paśya .. /// _ _ ^ _ ^ ^ ^ _ na tṛṣā<span class="it">ṃ</span> cchinatti keṣāṃ gṛ<span class="it">he</span>
+            3 ṣu timiran na nihaṃti <span class="it">dīpaḥ sarva</span>jñaśāsanam upetya ca ko manuṣyo nyāyapravṛttamatir arcchati nārthasi<span class="it">ddh</span>i<span class="it">m 9</span> _ _ ^ _ ^ ^ ^ p<span class="it">i</span>ttaharī dvijānāṃ śūdrāṃs tu pi<span class="it">tta</span>
+            4 <span class="it">v</span>ihatān na vimocye<span class="it">ta</span> _ _ ^ _ kṣayakṛto 'pi bhaved viśeṣo dṛṣṭād adṛṣṭa ^ ^ .ā ^ ^ ha kṣamaṃ hi 10 yasmāt
+            .. vātakapha
+            5 pittavighātakṛ .i _ _ ^ _ ^ ^ ^ _ k<span class="it">r</span>iyate viśeṣaḥ rāgādidoṣam aśa _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ viśeṣaḥ 11 y. +
+            + + + + +</p>
+         
+         
+         <p>KalpM : IDP SHT 21/53; frg. 4 missing (in italics)
+            147r1 + + + + h. t. n. .. .. ṣ. + + + + + + + + + + + /// + + + + + + + + + + + .ṛ
+            + + + + + + /// <span class="it">.......... jana .......</span>
+            2 + + + pravrajiṣyasi v. + <span class="it">pra</span>vrajiṣyāmīty āha + + /// + + + + + + + .. sitajaladharavaragok<span class="it">alaviṃ</span>k<span class="it">apa</span>rabhṛtabhṛṅgarāja .. + /// <span class="it">........ muravaduṃdubhibrahmasvaro .........</span>
+            3 + + + śrotramanasī samabhiprahl<span class="it">āday</span>. /// + + + + + + <span class="it">e</span>hi bhikṣo cara brahmacarya<span class="it">m iti</span> ehīti coktaḥ sa tathāga<span class="it">tena muṇḍaś ca kāṣāyaparītadehaḥ sadyaḥ pra</span>
+            4 <span class="it">śānte</span>ndriya eva tasthau nipacchito buddhamanorathena 13 atha khalv ehibhikṣukadharmi<span class="it">ṇy upa</span>saṃpanne tatrabhavaty upāli<span class="it">ni</span> /// <span class="it">..... bhadrikaprabhṛtayaḥ .......</span>
+            5 + + karmaṇopasaṃpadya bhagavaṃtam abhigatās tato bhagavatābhihitāḥ kriya + + + +
+            /// + + ..ṃ pādavandanam iti / /// <span class="it">............. ṣmāśvaji .........</span>
+            v1 /// .. ṣv āyuṣmati copālini pratyaṃtāvasthite / bhadrikaḥ śākyarājā vṛṣabha ..
+            + + + + /// <span class="it">śāk</span>y<span class="it">a</span>putrāṇām agrataḥ pray. /// <span class="it">....... śākyā bhikṣū ........</span>
+            2 /// + copāliparyāyam āgatās ta āyuṣ<span class="it">m</span>aṃtam upālinam āsādya malayagiri /// + saṃkaṭapratihatā iva sā<span class="it">garormayaḥ pratinivṛttāḥ kathaṃ n. ..........</span>
+            3 /// + bhṛśavivṛddhayaśasīkṣvāku .. /// + + + + + + yasaṃskārābhisaṃskṛtapū .. ///
+            svasya paricārakasya śūdra + /// <span class="it">....ijasya nāpitakulotpannasya ........</span>
+            4 /// + ti / bhagava<span class="it">tābhi</span>hitāḥ k<span class="it">r</span>iy. .. + /// + + + + + + śāk<span class="it">y</span>āḥ prāhur bhagava<span class="it">n</span> . + /// + .. yam iti / bha<span class="it">gavān āha</span> /// <span class="it">mānaprahāṇāyāyaṃ dharmaḥ ........</span>
+            5 /// .. kyāḥ pā .. + + + + + + + + + /// + + + + + + + + + + + + + + + + + /// +
+            + + + + + + + + + ///<span class="it"> ............... .i ś. .....</span></p>
+         
+         
+         <p>KalpM : IDP SHT 21/54
+            153r1 /// .. vadhāraṇa + ///</p>
+         
+         
+         <p>2 /// .. yāmi pa<span class="it">r</span>v<span class="it">atān</span> ///</p>
+         
+         
+         <p>3 /// .. yagrahī .. ///</p>
+         
+         
+         <p>4 /// py uktam / // a .. ///</p>
+         
+         
+         <p>5 /// r vviśīrṇaḥ 6 + ///</p>
+         
+         
+         <p>v1 /// .. viluḷitaṃ ci .. ///</p>
+         
+         
+         <p>2 /// vahayoyaṃtra + ///</p>
+         
+         
+         <p>3 /// .. sūryavarmā + ///</p>
+         
+         
+         <p>4 /// ś cittam utpā<span class="it">d</span>i + ///</p>
+         
+         
+         <p>5 /// .. vṛddhatara .. + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/55
+            154r1 jayamitro ///</p>
+         
+         
+         <p>2 d bhaktatarpaṇ. /// .. tha vṛtte pariveṣe so 'm<span class="it">āt</span>y. + + + ///</p>
+         
+         
+         <p>3 vṛttaḥ pari .. /// .. kuto 'tra prasādo ya eva teṣāṃ bhi ///</p>
+         
+         
+         <p>4 stha .i + + /// + + + + .. pāṇibhyāṃ pidhāyovāca ///</p>
+         
+         
+         <p>5 + + + + + /// + + + + + + .. + .. + .. .. ///</p>
+         
+         
+         <p>v2 taca + + /// + + + + .. k<span class="it">a</span>lyāṇ. .. s. v. me ///</p>
+         
+         
+         <p>3 vijñāyam. /// + .. + .. m ākhyātāḥ na ca śakya ///</p>
+         
+         
+         <p>4 satpuruṣo /// _ _ _ _ garbhāḥ pracchannā nopalakṣ<span class="it">y</span>an<span class="it">t</span>e 4 ///</p>
+         
+         
+         <p>5 ti ca saṃ .. /// .. s. y. .. .. .i .. .. + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/56
+            161r1 /// + + + samutpanno devatābhir api c<span class="it">ā</span>vadhy<span class="it">ā</span>t<span class="it">ā</span>s t<span class="it">ad</span>vṛttāntābhijñāiś ca puṣpair dhigdhigvādenāvakīrṇās teṣāṃ ///</p>
+         
+         
+         <p>2 /// .. kṛtāṃjalayaḥ praṇipatya vijñāpayema // tava vacanam atikrāmya tribhavaguro
+            roṣarākṣasāvi<span class="it">ṣṭāḥ</span> _ _ _ _ _ _ _ _ _ _ ^ _ _ _ <span class="it">13</span>
+            3 _ _ _ _ kṛtvā pu<span class="it">na</span>r apy ājñāṃ prayaccha kāruṇika atyūrjitāṃ ca tāvac chṛṇu pratijñāṃ tva _ _ _ <span class="it">14</span> _ _ _ _ _ _ _ _ _ _ ^ _ ^
+            4 _ _ _ ājñāpa<span class="it">yi</span>ṣyasi <span class="it">na</span> te vacanāni vilomayiṣyāmaḥ 15 atha teṣāṃ bhikṣūṇāṃ ci + + + ///</p>
+         
+         
+         <p>5 ^ ^ ^ _ _ _ r. i _ _ _ _ ^ ^ kārya eva satataṃ te .āṃ ^ _ <span class="it">nugra</span>haḥ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ _ _ _ ^ ^ _ ^ _
+            v1 ^ ^ ^ _ _ _ t. _ trā ^ _ <span class="it">16</span> + + + .. bhagavāns tṛṇasaṃstarād u<span class="it">t</span>th<span class="it">āya</span> + + vārāmam. .. .. + + + ///</p>
+         
+         
+         <p>2 /// <span class="it">kṛ</span>tāṃjalayaḥ <span class="it">procu</span>ḥ // aho 'tikaruṇātmako 'yam ṛṣipuṃgavo yaj janaiḥ pramādam a ^ _ ^ _ ^ ^ ^ _ ^ _
+            _ ^ _ ^ _ ^ ^ ^ _ ^ _ ^ ^ ^
+            3 _ ^ _ _ dhanaḥ ka<span class="it">daś</span>v<span class="it">a</span>m api sārathir damayatīti saṃcintayan 17 tato bhagavān kauśāṃbeyā .. + + ///</p>
+         
+         
+         <p>4 /// + m upetya bhagavataḥ pādayor nipatya kṛtāṃjalayaḥ kathayitum ārabdhā vayaṃ
+            hi kalahabhaṇḍanābhi ///</p>
+         
+         
+         <p>5 /// + i <span class="it">saṃ</span>ghabhedāya ca pratipannāḥ / .. .ādh. . <span class="it">bhaga</span>vāṃs tān dharmān upadiśatu ye dharmāḥ priyakāriṇaś ca ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/57
+            163r1 /// t. bhavasi .. /// r iti / sa punar <span class="it">e</span>vaṃ vijñāpayitum ārabdhaḥ evam apy ah<span class="it">an</span> n<span class="it">a</span> + /// rtum iti sū +
+            2 /// + bhojanasya /// + + m / āyuṣm<span class="it">āṃs t</span>u bhaddālir bhagavataḥ <span class="it">sāṃ</span>tikād apakrāmya paraṃ vrīḍam āpanna /// yāmāsa // pr.
+            3 _ _ _ _ _ _ _ _ _ ^ _ ^ _ _ me katham iva ca mayā _ taḥ sa bhūpradeśo 'dya na viśīrṇaḥ
+            3 rakṣāṃsi piśācāś <span class="it">ca</span> _ ^ .i .ā .o ^
+            4 _ ^ _ _ _ _ _ _ _ _ _ ^ haṃty ahaṃ tu pr. _ _ _ <span class="it">4</span> ^ ^ ^ ^ ^ ^ _ _ _ ^ taṃ vābhaviṣyat krimibhir apahṛtaṃ vā pāṃsubhi _ ^ _ _ ^ ^ ^
+            ^ ^ ^ _ _ _
+            5 ^ _ _ ^ _ _ ^ ^ ^ ^ ^ ^ _ _ _ damātravyapa _ <span class="it">5</span> + + + + + + + + + + + + + bhūtas <span class="it">t</span>ena traimāsena na śaśāka bhaga + ///</p>
+         
+         
+         <p>v1 /// + yā dahyamāna .. /// + + + + + + prāhuḥ // idaṃ cīvarakam ādaya kriyate loka
+            _ ^ _ _ _
+            2 _ _ ^ _ _ _ _ _ _ _ ^ _ ^ ca 6 tadada ^ ^ ^ _ ^ _ ^ ^ ^ ^ ^ ^ _ ^ _ ^ _ḥ gurujanaparitoṣakāṅkṣiṇaḥ
+            śramama ^ ^ ^ _ ^ _ ^
+            3 _ <span class="it">7</span> /// ^ _ _ _ _ _ ^ ^ .. ṇamatitvān na gaṇitaṃ parityaktā lajjā sadasi vi<span class="it">vṛ</span>tā me capalatā na dṛṣṭo dhik ch. _ ^ ^ ra iti nā _ ^ ^ ^ _ ^ _ _
+            4 _ _ ko vivadit<span class="it">um</span>. _ _ ^ ^ ^ _ <span class="it">8</span> /// + + + brahmacāri<span class="it">bh</span>ir uktaḥ prasādaya bhagavantam iti sa uvāca // mamāpi + /// <span class="it">au</span>tsukyaṃ prasā + ///</p>
+         
+         
+         <p>5 /// .. .. mas. a .i /// cuḥ vītasarvās<span class="it">r</span>avasyopasarpataḥ kas <span class="it">t</span>ava viṣāda <span class="it">iti sa uvā</span>ca / // + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/58
+            164r1 /// sahāmi tena yad iha pr. .. + + ///</p>
+         
+         
+         <p>2 /// va niścaya iti so 'bra<span class="it">vīt</span> ///</p>
+         
+         
+         <p>3 /// + sa pariṣadgataṃ bhaga<span class="it">vantaṃ</span> ///</p>
+         
+         
+         <p>4 /// .ṛśaṃ kṣāmākṣasya kṣudu .. + ///</p>
+         
+         
+         <p>5 /// vihatam abhavi + + ///</p>
+         
+         
+         <p>v1 /// bhaddāle iha syā .. + ///</p>
+         
+         
+         <p>2 /// d anyeṣāṃ bhikṣūṇām ā + ///</p>
+         
+         
+         <p>3 /// ti / evam āryasatya .. ///</p>
+         
+         
+         <p>4 /// m mohapuruṣa tadā ceta ///</p>
+         
+         
+         <p>5 /// pratyayo jātaḥ mā .. ..///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/59
+            165r1 sthaviraś ca bhikṣur yadi na kṣī .. ///</p>
+         
+         
+         <p>2 tasyāsravakṣayaṃ vadati .. ///</p>
+         
+         
+         <p>3 to nāpaśyata iti / + + ///</p>
+         
+         
+         <p>4 naś ca nājānato nāpa + ///</p>
+         
+         
+         <p>5 + .ān iti vipratipanna + ///</p>
+         
+         
+         <p>v1 + <span class="it">p</span>rayatitavyam / tadya<span class="it">thānuśrūyate</span> ///</p>
+         
+         
+         <p>2 nuyātreṇānugatas tūrya + + + + + ///</p>
+         
+         
+         <p>3 rāśir asthiro babhūva + + + + + + ///</p>
+         
+         
+         <p>4 tphulladṛṣṭiḥ kaṣṭam ida + + + + + ///</p>
+         
+         
+         <p>5 .. tam iva diśaḥ kṣipamā + + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/60
+            166r1 + + + + + /// + + + + + cana<span class="it">m a</span>nudhāvaṃti g. /// + + + + + + .. ravivaram anu .. /// pādapalatā .ai /// .. ṅg.ḥ rājā
+            vicārayituṃ pravṛ<span class="it">ttaḥ</span>
+            2 k. + + .. + /// .. gaṇayitvā .. <span class="it">kiṃ</span> svit samīpa /// + + + + .. kūṭam āplutya vrajāmī<span class="it">ti</span> /// topayā .. + + /// iṃ .āme kṛtvā sukṛtaṃ syād iti vi ..
+            3 bhūto 'bhavat. /// .. rśvaḥ pavano + + + .. .. + + /// + + + + <span class="it">u</span>llikhyamānamastaka + /// + + mya pradhāvita eva / tataḥ sa <span class="it">rā</span>
+            4 jā kaṇ<span class="it">ṭh</span>ak. + /// + bhadrav. + + + + /// + ṣṭanaḥ parvatapāṣāṇodgha + + ///</p>
+         
+         
+         <p>5 /// <span class="it">hasti</span>pakam <span class="it">u</span>vāca // pra .. + + + ///</p>
+         
+         
+         <p>v1 /// na vṛddhena śvāsenonnāmya + + + ///</p>
+         
+         
+         <p>2 .. ṇ. r uv<span class="it">ā</span>ca .. /// + dinaṃ mu .. + + + /// maṃtrān paramarṣibhāṣitāṃ ka .. ///</p>
+         
+         
+         <p>3 r ivauṣadhībal. /// <span class="it">aṃ</span>kuśanigrahe .. + + /// + + + .. lam iti / tataḥ samī + /// + <span class="it">s</span>v<span class="it">ā</span>minn imāṃ latām ālaṃbasveti / ///</p>
+         
+         
+         <p>4 rā<span class="it">ja</span>ha<span class="it">st</span>i<span class="it">pakau</span> /// .. tāṃ vṛkṣaśākha<span class="it">m ā</span>lambya sthitau / <span class="it">ha</span>stī tāṃ hastinīm abhi .. /// + taḥ .. .. + /// .. pr<span class="it">ā</span>ṇaḥ śanakaiḥ skandhāvāram anup<span class="it">r</span>ā<span class="it">ptaḥ</span> ///</p>
+         
+         
+         <p>5 + + + + + /// + + + + + + .. ca <span class="it">ba</span>hubhir a .i /// + + + + + m ādāyābhigat. /// nmadhyagatasya /// + .āmayāmāsa / rājñā
+            ca k<span class="it">ru</span>d<span class="it">dh</span>e<span class="it">na</span> ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/61
+            167r1 /// + + + + + + + + <span class="it">hastipa</span>kaḥ kṛtāṃjalir uvāca / + + + + + ///</p>
+         
+         
+         <p>2 /// + + + + .. + + + + + <span class="it">gi</span>lemān ayoguḷān iti + + + .. + + ///</p>
+         
+         
+         <p>3 /// + + evam abhivinīt<span class="it">o</span> 'ya<span class="it">ṃ</span> nāgas tathodbhrānta iti / tac ca vacanam u .. ///</p>
+         
+         
+         <p>4 /// yenaiṣa doṣeṇa tām avasthān nītas tasya doṣasya na vayaṃ cikitsām. ///</p>
+         
+         
+         <p>5 /// .i .. mi yenāyam abhi<span class="it">vinīt</span>o <span class="it">nā</span>go 'smākam avineyaḥ saṃv<span class="it">ṛtta</span>ḥ .. ///</p>
+         
+         
+         <p>v1 /// .. cetasaḥ 4 rāgo hy eṣa ^ _ .. .y.ḥ katham apy upajāyate kayāpi _ ^ _ _ _
+            _ _ _ _ ^ _ ^ _ <span class="it">5</span> ///</p>
+         
+         
+         <p>2 /// .. bhadra kim upekṣito 'yaṃ vyādhiv<span class="it">i</span>śeṣo lokena āho svit kaścid asya praśamā .. ///</p>
+         
+         
+         <p>3 /// _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ gatiṃ tv asyānabhijñāya nirvartante hatodyamāḥ
+            6 tyajanti vi ^ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ ^
+            4 _ _ _ _ _ _ _ ^ _ ^ _ <span class="it">7</span> _ _ _ _ ^ _ _ _ _ _ _ tatra _ ^ _ _ _ _ yanti mūlāni kāmarāga ^ _ ^ .iḥ <span class="it">8</span> _ _ _ _ ^ _ _ ^ ^ ^ ^ ^ ^ _ _ ^
+            5 _ _ ^ _ _ _ _ _ _ ^ _ _ ^ ^ ^ ^ ^ ^ _ _ ^ _ _ ^ _ _ _ _ _ _ ^ _ _ r bhavagatigahane
+            'smiṃś ca _ _ ^ _ _ _ _ _ _ ^ _ _ ^ ^ ^ ^</p>
+         
+         
+         <p>KalpM : IDP SHT 21/62; cf. Divy 361-362
+            172r1 /// <span class="it">vyavasitenottaptahemapra</span>bhaṃ bauddhaṃ rūpa /// + + + + kṛtam kṛtvā rūpam ahaṃ tad eva naya<span class="it">na</span>pr<span class="it">ah</span>l<span class="it">ā</span>d<span class="it">ikaṃ dehi</span>nām eṣyāmy arkka)<span class="it">may</span>ūkh<span class="it">a</span> + + + + + +
+            2 /// atha /// <span class="it">kuṇa</span>pam apanīya tathāgatarūpadarśanotsuko 'vasthitaḥ <span class="it">mā</span>raś ca vanagahanam anupravi<span class="it">śya</span> + + + +
+            3 /// + + + + + /// <span class="it">āra</span>bdho niṣkramituṃ vakṣyate hi / // tathāgataṃ vapur athottama<span class="it">la</span>kṣaṇāḍhyam ādarśayan nayanaś<span class="it">āntikaraṃ</span>
+            4 /// + + + + + /// <span class="it">a</span>sau tad alaṃcakāra 27 atha vyāmaprabhāmaṇḍalamaṇḍitam asecanakadarśanaṃ bhagavato
+            rūpa
+            5 /// + + + + + /// na pārśvena maudgalyāyanam āyuṣmantam ānaṃdaṃ buddhapātravyagrakaraṃ
+            sthavirakāśyapānuruddha<span class="it">subhūtiprabhṛtīnāṃ</span>
+            v1 /// + + + + + /// <span class="it">bhi</span>kṣuśatair ardhacandreṇānuparivṛtaṃ buddham ādarśayitvā māraḥ sthavirasyopaguptasyāntikam
+            upagata
+            2 /// + + + + + /// .. <span class="it">pramuditamanā</span>s tvaritam āsanād utthāya nirīkṣamāṇa uvāca // dhig astu tān <span class="it">n</span>iṣkaruṇām anityatāṃ bhinatti rūpāṇi +
+            3 /// + + + + + /// + āgatam 28 sa tathāgatālaṃbanayā budhyā tathā vyāsakta<span class="it">ma</span>nāḥ saṃvṛtto yathā buddham evā + +
+            4 /// <span class="it">padma</span>muku<span class="it">lapratimam</span>. /// + <span class="it">a</span>ho rūpaśobhā bhagavataḥ kiṃ bahunā / // vaktrenābhibha<span class="it">vaty</span> ayaṃ hi kamalan <span class="it">n</span>īlotpalaṃ + + +
+            5 /// <span class="it">priyata</span>yā candraṃ samā<span class="it">ptadyutim</span> . /// <span class="it">mahodadhi</span>ṃ sthiratayā meruṃ ravin tejasā gatyā .. .. .<span class="it">a</span>ve<span class="it">kṣite</span>na vṛṣabhaṃ va<span class="it">rṇena</span> + + + + +</p>
+         
+         
+         <p>KalpM : IDP SHT 21/63
+            179r1 /// + + kṣitan na cāsya kalpakoṭīsahasreṣv ap<span class="it">i</span> ki<span class="it">ṃ</span>c<span class="it">i</span> ///</p>
+         
+         
+         <p>2 /// + .. pratyākhyāto 'nyaṃ bhikṣum abhigataḥ pravrājaya mām i<span class="it">t</span>i ///</p>
+         
+         
+         <p>3 /// <span class="it">stha</span>viraśāradvatīputro na cāsmy anena pravrājita iti / + + ///</p>
+         
+         
+         <p>4 /// ḥ / sa mahāvaidyapratyākhyāta ivāturo yena ye<span class="it">na</span> + + ///</p>
+         
+         
+         <p>5 /// .. .. .. re .i .. .. .. .. .. .. .. .. .. .ī .. + + + + + ///</p>
+         
+         
+         <p>v1 /// yo 'ham evam adhanyo 'kṛtapuṇyaś ca m<span class="it">ā</span> t<span class="it">ā</span>vad bh<span class="it">o</span>ḥ // + + + ///</p>
+         
+         
+         <p>2 _ _ _ _ _ _ ^ _ _ ^ _ _ _ _ _ _ _ sya satvādhamasya 1 etasminn aṃtare vaineyavatsalo
+            + + ///</p>
+         
+         
+         <p>3 /// + gato vakṣyate hi / // sarvajñasaṃtānanivāsinī hi _ _ ^ _ _ ^ ^ _ ^ _ _ _ _
+            ^ _ _ ^ ^
+            4 _ ^ _ _ _ _ ^ _ _ ^ ^ _ ^ _ _ <span class="it">2</span> atha bhagavān amalakamalaprakāśam ujjvala ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/64
+            181r1 /// + + + <span class="it">śā</span>radvatīputra ekāṃsam u .. /// + + <span class="it">ta</span>thāgatam<span class="it">ā</span>hātmyav<span class="it">i</span>smayākṣ. + ///</p>
+         
+         
+         <p>2 /// + + brūhīdānīṃ jñeyanistīrṇapā<span class="it">ra</span> _ _ _ _ _ ^ _ _ ^ _ _ _ _ _ _ _ ^ _ _ ^ vṛkṣakṣiptaṃ bījaṃ yad vimokṣasya _ _ <span class="it">9</span> ///</p>
+         
+         
+         <p>3 /// + .. <span class="it">va</span>tsa / pratyekabuddhānām api .. /// + + sa kāṣṭhārtham araṇyam anuprāpta ///</p>
+         
+         
+         <p>4 /// mayena bhagavān buddho 'nuprāpto + + + /// .. n. guṇasaṃbhāvanāṃ kṛtvā sarvāśaye
+            ///</p>
+         
+         
+         <p>5 /// tan mok<span class="it">ṣ</span>abījam aham asya ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ḥ adhyāśayena khal<span class="it">u</span> buddhanama ^ _ _ _ _ ^
+            v1 _ ^ ^ ^ _ ^ ^ _ sy. d. t. 10 tato bhagavatā + + + /// .. kavairāgyam avāptavān
+            / kim idam up<span class="it">anītam</span>. ///</p>
+         
+         
+         <p>2 /// <span class="it">kuśa</span>lamūlam amṛtaphalaṃ bhavati kim. + + + /// yata iti prāmodyam utpādaya / bhikṣū +
+            + + ///</p>
+         
+         
+         <p>3 /// + + bhagavaṃtaṃ pravrajitam anupravraji<span class="it">tāḥ</span> /// + <span class="it">tath</span>āgatasya prabhāvam avekṣya yeṣāṃ + + + ///</p>
+         
+         
+         <p>4 /// + + .. laṃ yena pratyekabuddhavi + /// + + + nvāgata iti 3 nagaropame va + +
+            + + ///</p>
+         
+         
+         <p>5 /// + + + <span class="it">bu</span>ddhir utpannā yadi bhagavān a + /// + + + yaṃti tad <span class="it">v</span>ayam api buddhatvāyo + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/65
+            183r1 _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ <span class="it">ka</span>nakādrir ivāvasiktaḥ 7 aparo 'bra<span class="it">vīt</span> + + /// + .. + + pr. + + +
+            2 /// + <span class="it">ū</span>cur ayaṃ sa hīnapratijñaḥ śā<span class="it">kyaputraḥ</span> /// <span class="it">t</span>yajya tad atiduṣkar. ..
+            3 + + + + + + + + + bh<span class="it">o</span>vādy. _ ^ _ _ _ _ _ _ _ ^ _ ^ _ t sthitair eva tu vaktavya _ _ _ _ ^ _ ^ _ <span class="it">9</span> /// <span class="it">pu</span>nar bhagavān upasasa<span class="it">rpa</span>
+            4 tathā tathā hi // uttasthus taṃ samālokya pūrṇacandrā ^ _ ^ _ _ _ _ _ m ivālokya
+            sāgarasya ^ _ ^ _ <span class="it">10</span> _ _ _ _ ^ _ _ _ _ _ _ buddhatejasā mahāra
+            5 jjubhir. _ _ dhvajo _ _ ^ _ ^ _ 11 ya _ _ _ ^ _ _ _ _ _ .e _ ^ _ ^ yā _ _ _ _ ^
+            _ _ _ _ _ _ _ ^ _ ^ _ <span class="it">12 ka</span>lpeṣv anekeṣu
+            v1 nihatya mānaṃ _ .mā ^ _ _ praṇat. n. ru .y.ḥ buddha ^ _ _ ^ ^ _ ^ _ _ <span class="it">kaḥ</span> ś<span class="it">a</span>knuy<span class="it">ā</span>t sth<span class="it">ā</span>tum agau<span class="it">raveṇa 13</span> _ _ ^ _ _ ^ ^ _ ^ _ _ _ _ ^ <span class="it">śāk</span>y<span class="it">ar</span>ṣabham āvraja<span class="it">n</span>tam
+            2 yadā natā connamate ca bhūmiḥ śailāś ca neme tṛṇava ^ _ _ <span class="it">14</span> /// <span class="it">paṃca</span>kās tvaritam utthāya + + /// <span class="it">ja</span>grāha kaścit pātram apa
+            3 + + + + + + + + + + + + pā .ā .. .. .ā .o + + + /// + + pādodakapratigraham upā
+            .. /// _ _ ^ _ ^ ^ ^ m āpatitan nirīkṣya taṃ .e
+            4 ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ n nirīkṣya maunavratāsina iva .. ^
+            _ ^ _ _ <span class="it">15</span> /// rṣīc cy<span class="it">u</span>tā bateme .e +
+            5 /// + .. tas<span class="it">thu</span>r nāmavādena tu bhagavantaṃ /// + + + .. .i + + + +</p>
+         
+         
+         <p>KalpM : IDP SHT 21/66
+            184r1 van kāruṇyād uvāca // mā kārṣur uddhṛtamale <span class="it">may</span>i pūrvavṛttim abhyarca _ ^ ^ ^ cāvagamaṃ labhaddhvam ni _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _
+            _ _ ^ _ ^ ^ ^ _
+            2 ya namaṃti santaḥ 16 kāmaṃ stotrair nāsti prītir na ca paruṣava<span class="it">canaka</span>thanair bhavaty aratir mama śro _ _ _ _ _ _ _ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ _ ^ _ .<span class="it">a</span>
+            3 nukaṃpayā mohakrodhasnehādyeṣu vratavidhiṣu vidhivad i ^ _ ^ _ ṣv akhileṣu _ _ _
+            _ _ _ _ _ _ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ _ ^ _
+            4 svayam udyatam 17 evam uktāḥ paṃcakā bhagavato bodhim asaṃbhāvayaṃta ūcuḥ // sthite
+            ^ ^ ^ _ ^ _ ^ ^ ^ _ ^ _ _ ^ _ ^ _ ^ ^ ^ _ ^
+            v1 lagnahṛdayaḥ kathaṃ bhotsyase plavena mahatā na śakta iha yaḥ pratartun nadīṃ sa
+            taṃ plavam apāsya parvataśi _ ^ _ _ ^ _ <span class="it">18</span> ///</p>
+         
+         
+         <p>2 paṃcakā ity avetya antadvayavarjitāṃ madhyamāṃ pratipadam upadidikṣu .ai + + + +
+            .. vekṣamāṇo 'bra<span class="it">vīt</span> _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _
+            3 dhāraṇaṃ kāryaṃ jīvan hi jñānam ārcchati 19 prāyaś caivāśanādīnāṃ laṃbhā _ _ ^ tān
+            vinā tasmād adhigama _ _ _ _ _ _ ^ _ ^ _ <span class="it">20</span> _ _ _ _ ^ _ _ _ _ _
+            4 vaṃti <span class="it">śa</span>rīriṇā<span class="it">m</span> tathaiva bhin<span class="it">na</span>śīlān<span class="it">āṃ</span> na bhav<span class="it">e</span>j jñānasaṃbhavaḥ 2<span class="it">1</span> _ _ _ ṇāṃś. śīlaṃ _ _ _ .ā śīl. _ ^ _ _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ <span class="it">22</span></p>
+         
+         
+         <p>KalpM : IDP SHT 21/67
+            185r1 _ _ _ _ ^ _ _ _ _ .ṇ. .ṛ .dh. c. s. ^ _ tya _ _ _ śatādīnāṃ mṛ. _ _ _ ^ eva
+            ca 23 a _ _ _ ^ _ _ _ _ _ _ _ samāśritaḥ _ _ _ _ ^ _ _ _
+            2 _ _ _ _ ^ _ ^ _ 24 parīkṣakānāṃ sa _ _ <span class="it">ubha</span>yor ddoṣada<span class="it">r</span>śa<span class="it">nā</span>t _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ yāḥ 25 kāmaṃ gedh. m. _ ^ _ ^ ^ ^ _ _ _
+            3 ^ _ _ ^ _ mārgasyāgninidāgha _ ^ ^ yutāv aṃtau prapanno ^ _ _ _ _ ^ ^ _ ^ _ ^ ^
+            ^ _ _ _ ^ _ _ ^ _ _ _ _ ^ ^
+            4 _ ^ _ ^ ^ ^ _ _ _ ^ _ _ s<span class="it">th</span>itaḥ 26 athāyuṣma<span class="it">taḥ kau</span>ṇḍinyasya jñānavadhya ///</p>
+         
+         
+         <p>5 /// + na kṛto mokṣas ta ///</p>
+         
+         
+         <p>v1 /// + + ciki<span class="it">t</span>s<span class="it">ak</span>. /// + .. cchaṃti tathā cittaci .. ///</p>
+         
+         
+         <p>2 _ _ ^ _ ^ ^ ^ _ ^ mamadhyavāsaṃ cotsṛjya nā ^ ^ ^ roṣṇam ihopase<span class="it">vya</span> _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ ///</p>
+         
+         
+         <p>3 /// / // pānaprāvaraṇāśa<span class="it">n</span>au<span class="it">ṣadha</span>vidhau śayyāsane cā ^ _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ _ _ _ ^ ^ _ ^ _
+            4 ^ ^ ^ _ _ _ ^ _ _ ^ _ prājño yuktivaśād ihāg<span class="it">n</span>i ^ ^ _ dāhakriyāṃ _ .i _ /// jñayābh<span class="it">i</span>v<span class="it">i</span>nītaś ca .. ///</p>
+         
+         
+         <p>5 /// .i + .. .. + <span class="it">bha</span>ga<span class="it">va</span>ṃtam u<span class="it">vāca</span> bhagavan na khal<span class="it">u</span> + + + + /// yad amārgo .. /// + iti kin tu / bhaga ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/68
+            187r1 /// .. sphātīkaraṇārthaṃ śiṣyāṇāṃ nānādeśaṃ preṣayati sma kimarthan nātmanā
+            janapadacaryāṃ gacched iti /
+            2 /// ti satvebhyo dharman deśayituṃ kim aṃga punaḥ svayan na deśayed ity ataḥ satvānugrahārthaṃ
+            bhagavā
+            3 /// + .. + .. myena phalan nānveṣṭavyaṃ / tadyathānuśrūyate ka<span class="it">śc</span>id alpaparicchadaḥ puruṣo dārid<span class="it">ry</span>ābhi
+            4 /// + + + yāsyāmy ahaṃ bhagavaṃtaṃ devaṃ dāridryanāśāya prasā + + + + + + + + +
+            + + + + +
+            5 /// + + + vāraṇaṃ gatvā kṣetrāṇi darśayiṣyāmi / ye .. + + + + + + + + + + + + +
+            v1 /// + + + .. kṣetrāṇi darśayitvā devakulaṃ praviśyopavāsam. .. + + + + + + + +
+            + + + +
+            2 /// + + + vaṃ dāsyāmīti / upāyapūrvakaṃ punar evaṃ vārayi + + + + + + + + + + +
+            + +
+            3 /// + + + + na ca puruṣeṇokto yadā tvaṃ mayā karmaṇi ni<span class="it">yu</span>ktas tat kimartham āgato 'sīt<span class="it">i</span> + +
+            4 /// _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ _ _ _ _ _ _ ^ <span class="it">dh</span>ānyāni tāny ayatnād bhaviṣyaṃti 1 tac ca vacanam upaśrutya sa puruṣaḥ paramakopakupitaru
+            5 /// _ _ _ _ _ _ _ _ _ _ ^ _ ^ _ nāyām yad bījam aprakīrya kṣetrāt samavāpyate dhānyam
+            2 tataḥ sā tasya bhrātṛrūpa</p>
+         
+         
+         <p>KalpM : IDP SHT 21/69
+            188r1 /// .. suniścito bhavān yad bījābhāvāt phal<span class="it">ābhāva</span> iti / sa uvāca bāḍhaṃ suniścito 'smī<span class="it">ti</span> tataḥ sā devat<span class="it">ā</span> svarū<span class="it">paṃ</span> + + .. + <span class="it">u</span>vāca // yadi svayam ima<span class="it">ṃ</span>
+            2 _ _ _ _ _ _ ^ _ ^ yam ātmānam upavāsena kliśn<span class="it">āsi tvam a</span>pārthakam 3 yathā bījād ṛte nāsti dhānyānāṃ phalasaṃbhavaḥ karmabī<span class="it">jā</span>d ṛte tadvan naivāsti phalasaṃbha
+            3 <span class="it">vaḥ 4</span> _ _ _ _ kaḷatrāṇāṃ yadi vistaram iccha<span class="it">si kā</span>yavākkṣetrayoḥ śuddhaṃ karmabījaṃ prakīryatām 5 śrīvṛddhī śaknuyuḥ kartuṃ devāḥ karma
+            vinā yadi /
+            4 _ _ _ _ ^ _ _ _ m aviśiṣṭā bhavet prabh<span class="it">ā 6</span> _ _ _ _ ^ _ _ _ _ _ _ _ <span class="it">śa</span>rīriṇām tasmāt karmātmakaḥ _ _ _ _ _ _ ^ _ ^ _ <span class="it">7</span>
+            5 _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ śīlāt surendrālayaṃ śī _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ .ān mucyate
+            _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ _ _
+            v1 _ ^ ^ _ ^ _ ^ ^ sadā ki<span class="it">ṃ</span> mā<span class="it">ṃ</span> vṛthā bādhase <span class="it">8</span> + + + + + + + + + + + + + + + + labhya iti .. + + + + + + + + + + + + + + + + + +
+            + + +
+            2 /// + <span class="it">bhi</span>kṣuḥ praviṣṭaḥ sa ca dānapa<span class="it">tiḥ</span> + + + + + + + + + + + + + + + + .. tvā rocanābindum akārṣīd āda .. + + + + kh. +
+            + y. + + + +
+            3 /// <span class="it">dāna</span>patin tathā kautukamaṃ<span class="it">gala</span> .. + + + .. m av<span class="it">e</span>kṣy<span class="it">o</span>vāca / dānapate kim <span class="it">i</span>daṃ kriyata iti / dānapatir uvāca bhadaṃta maṅgalāni kr<span class="it">i</span>ya<span class="it">ṃ</span>ta i
+            4 <span class="it">ti</span> /// tra guṇa iti / dānapatir āha / mahā + + + paśya bhadaṃta // vadhabandhanatāḍanajaṃ
+            yad abhimukhībhavati dehināṃ vyasanam kṛtamaṃgalasya
+            5 _ _ _ _ _ _ ^ m upayāti 1 tataḥ sa bhikṣur īṣat smi<span class="it">taṃ kṛtv</span>ovāca / yady etad balaṃ maṃgalānāṃ sādhu tāvad ucyatāṃ k<span class="it">u</span>taḥ khal<span class="it">v</span> i<span class="it">m</span>ā<span class="it">n</span>i <span class="it">maṃ</span>galāny utpadyaṃta iti /</p>
+         
+         
+         <p>KalpM : IDP SHT 21/70
+            192r1 .. tamadṛṣṭa + + + + .. tīty avetyārya + /// + + + + + + + + + + .. yāṃ dṛṣṭi
+            /// + ṣu ca sūtreṣūpaneya ///</p>
+         
+         
+         <p>2 yuktāny a .e + + + // saṃgrahaḥ // kala<span class="it">ha</span> ^ _ _ _ _ _ _ _ _ <span class="it">suga</span>ndh<span class="it">i</span>t<span class="it">ā</span> śakraḥ vyāghrabh. .. _ _ _ _ ^ <span class="it">da</span>ri<span class="it">dr</span>o 'tha maṃgalikaḥ + /// <span class="it">ity ā</span>
+            3 ryakaumāralātāyāṃ kalpanālaṅk<span class="it">ṛt</span>i<span class="it">kāyāṃ</span> /// <span class="it">ṣaṣṭhī da</span>śatī samāptā 6 // // .. /// + + + + + + + + + ///</p>
+         
+         
+         <p>4 .. m ity avagamo bhava<span class="it">t</span>i prāg eva .. + + + + /// .. pasaṃkramaṇaṃ mudā .. .. .i + + + + /// + + + + + + +
+            + + ///</p>
+         
+         
+         <p>5 + + + .. + + + + .. + + + + + + + /// bhagavan<span class="it">t</span>aṃ bhikṣ. ..ṃ + + + + + + + /// + + + + + + + + + ///</p>
+         
+         
+         <p>v1 + + .. saha saṃsṛjyam<span class="it">ānā</span>ḥ śrut. + + + + /// ṣu prakṛṣṭaśaktir .. + + + + + + + + + /// + + + + + + + + + ///</p>
+         
+         
+         <p>2 sthānānāṃ nāmābhijñāḥ saṃvṛttāḥ a + + /// + + tyayena nirvṛttāyāṃ prav<span class="it">āraṇāyāṃ</span> + + /// + + + + + + + + + ///</p>
+         
+         
+         <p>3 gacchantu + .. + + + + sarvajñaṃ bhagavanta + /// + + + .eti / tatas teṣāṃ gopāla<span class="it">kānāṃ</span> /// + .. + .. + + + + + ///</p>
+         
+         
+         <p>4 t sarvajñaḥ .. + + + .. tram etat sarvajña .. /// + + + + + + + + sāḥ ārāma + +
+            /// prabhābhiś ca vyāptam. ///</p>
+         
+         
+         <p>5 + + + + + + + + + + bhagavan<span class="it">t</span>am. + /// + + + + + + + + .iṣiktavi .. /// vṛddhabṛha .. + r.i .. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/71
+            193r1 /// <span class="it">ka</span>nakacūrṇarāśim ivārāmamadhyotkīrṇam avekṣya vismay. /// .. manasaḥ para<span class="it">s</span>para<span class="it">m a</span>bhivīkṣa<span class="it">māṇāḥ</span> ///</p>
+         
+         
+         <p>2 /// .. kṣyate / // kin nandanāt kanakavṛkṣa ihopanīto _ _ ^ _ ^ ^ l. āt patitaḥ
+            pṛthivyā<span class="it">m</span> _ _ ^ ^ ^ _ ^ ^ _ ^ _ _
+            3 _ _ ^ _ ^ ^ ^ _ ^ śaśī nilīna<span class="it">ḥ 1</span> sarpirniṣekabh<span class="it">ṛ</span>śadīp<span class="it">t</span>a ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ m uj<span class="it">jva</span>l. _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _
+            v3 /// vṛttam 6 bahuv<span class="it">is</span>taraṃ kim uktv<span class="it">ā</span> sam<span class="it">ā</span>sat<span class="it">o</span> hy a ^ ^ _ ^ _ _ _ _ _ śasaś ca rū _ _ _ _ _ ^ _ _ _ <span class="it">7</span>
+            4 _ _ _ _ _ _ _ _ sas tejasā pradīptam iva pariveṣṭitam iva _ _ _ _ .y. n<span class="it">ā</span>nuliptam iva 8 vyā _ _ _ _ _ _ _ _ _
+            5 ^ _ ^ _ _ _ _ _ _ grasatīva sthambhayatīvekṣaṇāni nṛṇām 9 yadi saṃbhavo 'sti _ _
+            sarvaj<span class="it">ñ</span>ā _ ^ _ ^ _ _ _ _ _</p>
+         
+         
+         <p>KalpM : IDP SHT 21/72
+            196r1 .. n. + + + + + /// teṣāṃ bhagavān uvāca / e<span class="it">kādaśabhi</span>r aṅgaiḥ samanvāgat<span class="it">o</span> m<span class="it">ā</span>gadhako gopālakaḥ abhavyo gāḥ sphātīka<span class="it">rtum a</span>bhavyo mahāṃ<span class="it">ta</span>ṃ + + + + <span class="it">samya</span>
+            2 k sukhena pariha<span class="it">r</span>tu /// + + + + + r a<span class="it">ṃ</span>gaiḥ iha gopālako rūpan na jānāti / lakṣaṇan na jānāty āśātikā na śāta<span class="it">yati /</span> vraṇaṃ na pra<span class="it">ticchādayati dhūmaṃ</span>
+            3 na kartā bhavati / <span class="it">vīthiṃ na j</span>ānāti pīthaṃ na jānāti tīrthan na jānāti / gocaraṃ na jānāti / niravaśeṣadohī bhavati
+            ye ca te ṛṣabhā gavāṃ .. +
+            4 s tān na kāle .. + /// + + + na parihartā bhavati / atha teṣāṃ gopālakānām abhavad
+            ye 'smākaṃ vṛddhatarakā gopālakās <span class="it">t</span>e <span class="it">'py et</span>āny ekādaśāṃg<span class="it">āni</span>
+            5 jānaṃti .i + + + /// <span class="it">kaścid asm</span>ākam aṃgatrayaṃ jānāti kaścid aṃgapaṃcakam eṣa tu bhagavān <span class="it">g</span>opālakajñānasya pāra + + + sarvaj<span class="it">ñ</span>a e<span class="it">vā</span>
+            v1 yam ity avetya + + + /// + + <span class="it">bha</span>gavatā ca dhārmyā kathayā saṃharṣ<span class="it">i</span>tāḥ śreyasā ca saṃyuktā iti / k<span class="it">i</span>m idam upanītam evaṃ <span class="it">bhagava</span>to 'bhigamanaṃ <span class="it">gopā</span>
+            2 lakānām apy u + + + /// <span class="it">kiṃ</span> punar vvipakvabuddhīnām iti / tasmān medhāvino bhagavaṃtam upasaṃkramaṃtīti / //
+            // lābhasa<span class="it">tkāram a</span>nādṛtya pratipa<span class="it">tt</span>i + +
+            3 nurudhyante mahātm<span class="it">ā</span>na<span class="it">ḥ tadyathā pū</span>rṇikodāharaṇam udāharaṃti / bhagavāñ śrāvastyāṃ yathābhipretam uṣitvā prakramitukāmo
+            'nāthapiṇḍadena vij<span class="it">ñ</span>āpi<span class="it">t</span>o + + +
+            4 bhagavān vasatv iti /// + .i .. vatsyāmīty atha mṛgāramātṛpramukhābhir anyābhiś
+            copāsikābhir ṛṣidattapu<span class="it">raskṛtaiś cā</span>mātyaiḥ kāle + + + + + + +
+            5 .. + + + + + + /// .. v<span class="it">i</span>jñāpito bhagavan<span class="it">n</span> i<span class="it">h</span>ai<span class="it">va</span> /// + + + + + + + + m iti / na ca <span class="it">prat</span>i<span class="it">j</span>ā<span class="it">nā</span>ti sma vatsyā<span class="it">m</span>ī<span class="it">t</span>i <span class="it">/</span> tato buddhavini<span class="it">rbandhe</span>na nirāśo 'nātha<span class="it">piṇḍadaḥ</span> + + + +</p>
+         
+         
+         <p>KalpM : IDP SHT 21/73
+            201r1 nn udv<span class="it">i</span>gno mahāmukhyo /// + + + + + + .. + + ///</p>
+         
+         
+         <p>2 krauṃcena gīrṇo na ca /// .. paraprāṇārtham aślāghya ///</p>
+         
+         
+         <p>3 na + + + th. .u .. + /// + + .. taḥ 1 kaśc<span class="it">i</span> ^ _ _ ^ ^ _ ^ _ _ _ _ ^ _ _ ^ ^ _ ^ _ syāt svaprāṇaheto ^ ^ _ ^ _ _ _ _
+            4 .i _ na tv ṛṣir evam ā _ <span class="it">2</span> _ _ ^ _ _ ^ ^ _ prasahya cchinda ^ _ _ ^ ^ _ ^ _ _ _ _ ^ _ _ ^ ^ _ ^ _ _ _ _ ^ _
+            _ ^ ^ _ ^ _ _ <span class="it">3</span> vāṅ nāk. _ ^ ^ ^ _ ^ ^
+            5 tāṃ ca vāca _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ lapsye tāj jīvi _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^
+            _ ^ ^ ^ _ ^ ^ _ ^ _ mi 4 _ _ ^ _ ^ ^ ^ _
+            v1 varam ūrjitena v. dh. ^ _ ^ ^ ^ _ ^ ^ _ ^ ṇaṃ me dhikcha<span class="it">bda</span> _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ 5 tas<span class="it">m</span>ā ///</p>
+         
+         
+         <p>2 va + + ā .. .. .. + /// + + k<span class="it">r</span>auñco yathā ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ toyam yatnāt tathā kuśa<span class="it">la</span> _ ^ ^ _ ^ _ _
+            3 pāsyāmi dharmam ṛṣi _ ^ ^ _ ^ _ _ <span class="it">6</span> /// <span class="it">krau</span>ñcaḥ kṣīragataṃ va nimnaga ///</p>
+         
+         
+         <p>4 .. sukhī bhavatu pa /// + + + + + + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/74
+            204r1 nanu v. r. kṣ. y. _ <span class="it">pa</span>riśuddhaśīlānām 20 yady ap<span class="it">i</span> jīvitanāś. _ _ _ _ ^ _ ^ _ nāṃ ca prajñ. _ _ _ _ _ _ _ _ ^ _ _ _ <span class="it">21</span> ///</p>
+         
+         
+         <p>2 maṇikāram āha / <span class="it">a</span>lam alam atinirdayaṃ mām upakrāmasy atha .. /// + .. ṇ.ḥ prāha // _ _ _ _ ^ _ ^ titīvraduḥkh.
+            _ _ _ _ ^ _ ^
+            3 m upaiti bhūyaḥ svārtho māṃ karkaśīkurut<span class="it">e</span> ^ _ _ _ _ _ _ ^ _ ^ ^ _ ^ _ _ <span class="it">22</span> _ _ _ _ ^ maṃ caiva karmaṇā _ ^ _ ^ dṛḍhīkartuṃ tvaṃ nārha<span class="it">s</span>i _ _ _ _ ^ _ ^ _ <span class="it">23 bhi</span>
+            4 kṣur īṣat smitaṃ kṛtvovā<span class="it">ca</span> + asti mama lobho na /// + .. paśyatu bha<span class="it">d</span>r<span class="it">amukha</span>ḥ // lobho 's<span class="it">t</span>i <span class="it">me ya</span>śasi sādhujanapraśas<span class="it">t</span>e _ _ ^ _ ^ ^
+            5 ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ mama somya maṇau <span class="it">tva</span>dīye 24 <span class="it">bhikṣā</span>vṛttiḥ pāṃsukūlaṃ ca vast<span class="it">r</span>aṃ _ _ _ _ _ ^ _ _
+            v1 ^ _ _ _ _ _ _ _ ^ _ _ ^ _ _ _ _ _ _ _ ^ _ _ ^ _ _ <span class="it">25</span> /// sa maṇikāro 'rtha<span class="it">va</span>śād dha<span class="it">r</span>mam a .. /// .. m<span class="it">ā</span>n<span class="it">o</span> na n<span class="it">i</span>rarthak<span class="it">e</span>na vy<span class="it">ā</span>p<span class="it">āreṇa</span> ///</p>
+         
+         
+         <p>2 ca bhikṣor atyākraṃtasya <span class="it">locanābhyāṃ</span> śrotrābhyāṃ nāsikā<span class="it">bhyāṃ ca śoṇita</span>m āgatam / sa ca k<span class="it">r</span>au<span class="it">ñca</span>ḥ śoṇitam a /// + <span class="it">sa</span>tvaraḥ samupasṛptas tena ca <span class="it">maṇikāreṇa da</span>
+            3 ṇḍenāhatya prāṇair vviyojitaḥ tataḥ sa + + + + /// bhadramukha jñāyat<span class="it">āṃ</span> + /// + + <span class="it">e</span>ṣa k<span class="it">r</span>auñco jīvatīti / sa <span class="it">p</span>r<span class="it">āha</span> ///</p>
+         
+         
+         <p>4 sa prāha etan <span class="it">t</span>āvan <span class="it">m</span>ama vyāpāraṃ kuruṣveti / tena parīkṣyokta<span class="it">ṃ</span> /// + + + atha sa bhi<span class="it">kṣu</span> /// + + + + + + plutya sasaṃ<span class="it">bhrama</span> /// <span class="it">ta</span>
+            5 s<span class="it">y</span>a k<span class="it">r</span>auñ<span class="it">c</span>asyā<span class="it">nt</span>i<span class="it">ka</span>m upetyodgataprāṇo 'yam iti cājñāya .. /// + + + + hā kaṣṭaṃ .. /// + + + + + + ..
+            .. + + + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/75
+            205r2 sa maṇikāraḥ prāha bha + + + + + + + + + + /// + + + + .. + + .. + + ///</p>
+         
+         
+         <p>3 maṇikāraḥ prāha / + + + + + + + + + /// .. kapotam uddiśya mah<span class="it">ā</span> ^ _ ^ _
+            4 kaḍebaraṃ tyaktam iti śrutaṃ mayā ^ _ ^ _ _ ^ ^ _ ^ _ ^ _ ^ _ ^ _ _ ^ ^ _ ^ _ ^
+            _ .. ^ _ ^ _ _ ^ ^ _ ^ mas tvayā vipā<span class="it">d</span>ita _ ^
+            5 m imaṃ vihiṃsatā kathaṃ nv i<span class="it">hā</span>tmānam avekṣ<span class="it">y</span>a vaṃ ^ _ ^ _ ^ _ _ ^ ^ _ ^ _ ^ _ ///</p>
+         
+         
+         <p>v1 .. .. bhikṣur āha .. .r. .. .. + + patām idān<span class="it">ī</span>m a /// + + + + .. + + + + /// _ _ _ <span class="it">saṃka</span>
+            2 ṭaṃ prāpya mayā śikṣānurakṣiṇā tathāpi pīḍyamā _ _ _ _ _ _ ^ _ ^ _ .. _ _ ^ _ ^
+            ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ dayām akārṣīt taṃ _ ^ _
+            3 gurum iha vyavadiśya _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ /// <span class="it">u</span>palabhya saṃvegam aga + ///</p>
+         
+         
+         <p>4 haṃ maṃdabhāgyo yo + + + + + + + + + + ///</p>
+         
+         
+         <p>5 .. r.ā .i .. .. .. + + + + + + + + + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/76
+            206r1 /// + nā dagdhas tan muhūrtaṃ tāvat tiṣṭha pṛthivyāṃ hy avaskhalitaḥ pṛthivīm
+            evālambyottiṣṭhatīti / bh. /// + .. y. .. +
+            2 /// <span class="it">nama</span>s te śubhacāritra namas te dṛḍhaniścayaḥ īdṛśaṃ saṃkaṭaṃ prāpya yas tvan naiva pa
+            .i ^ _ <span class="it">3</span>4 svastho ^
+            3 _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ . <span class="it">avis</span>mayanīyakarmā prāpyāpadaṃ bhavati yas tv avikaṃpyaśīlas tasmiṃs .i _ ^ ^ ^ <span class="it">vi</span>smayam eti
+            4 _ _ <span class="it">35</span> /// + + + + .. tavān iti / // // paramakṛcchrādhigato 'yaṃ bhagavatā dharma i + +
+            + + /// vyas tadyathā
+            5 /// + + + + .i .ir anyatīrth<span class="it">y</span>ācāryair asarvajñaiḥ sarvajñapratijñair asakṛd an. + + + + /// <span class="it">nā</span>sti samyak<span class="it">saṃ</span>
+            v1 /// + + + <span class="it">aparyava</span>sitasaṃkalp<span class="it">o</span> vaicikitsī kathaṃkathī acarad dīrgham adhvān<span class="it">am</span> _ _ _ _ <span class="it">tathāga</span>tam 1 śramaṇ.
+            2 _ ^ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ ^ _ _ _ _ _ maṃ paryupāsitum iti vistaraḥ 2 atha
+            śakrasya devendrasya viśvakarmaṇ. + + /// devendra viṣāda
+            3 /// + + + + + .. paramaduṣkarāṇi karmāṇi karoti yathā cainam anumānato 'numinvaṃti
+            vi + + /// m asau samyaksaṃ
+            4 /// + + lavyavasāyaḥ syāt kutaḥ // matsyāṇḍāny amrapuṣpāṇi bodhisatvāni cānagha
+            ba _ _ _ ^ naśyaṃti .i _
+            5 _ _ ^ _ ^ _ <span class="it">1</span> _ _ _ _ ^ _ _ _ _ _ _ .nāvasīdati bodhisatva iti jñeyaḥ sthirasatvaḥ sa tādṛśaḥ 2
+            tad āgaccha gamiṣyāva /// + camave +</p>
+         
+         
+         <p>KalpM : IDP SHT 21/77
+            208r1 t<span class="it">aṃ</span> p<span class="it">ā</span>r<span class="it">ā</span>vatam āśvāsay. + ///</p>
+         
+         
+         <p>2 nāṃ samuddiśya vay. + + ///</p>
+         
+         
+         <p>3 muc<span class="it">y</span>atām eṣa pārā<span class="it">vataḥ</span> ///</p>
+         
+         
+         <p>v3 tat ki<span class="it">m i</span>h<span class="it">a</span> pr<span class="it">ā</span>ptak<span class="it">ā</span>l. ///</p>
+         
+         
+         <p>4 atha bodhisatvaḥ śye + ///</p>
+         
+         
+         <p>5 sa mamātulayitv<span class="it">ā</span> ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/78
+            212r1 /// yatām asya mahātm<span class="it">anaḥ</span> sarvasatveṣv adhyā + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
+            2 /// m. .i .. .e .. vyavasāyavaip<span class="it">u</span>lyārthaṃ .r. + .. + .. + .th. .. .. .. .. .r. + .. t. .y. + .. + .. .. m. .. m. n.
+            y<span class="it">a</span>thā p<span class="it">au</span>r<span class="it">ā</span>ṇa
+            3 /// <span class="it">bo</span>dhisatvam u .e /// + + + + + + + + + + ..ḥ pārthiva kapotārtham ātmānaṃ parityajato
+            na te śoko 'bhūd iti / bodhisatvaḥ prāha / // kāṣṭha
+            4 _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ vā hutā _ _ _ _ _ _ ^ _ ^ ti 22 tad gātraṃ prāpya
+            yady asti pareṣāṃ hitam aṇv api kas tatra ma .i _ _ _
+            5 _ _ _ _ ^ _ ^ _ <span class="it">ikṣukṣodavad ujjhito bhuvi yadā kāyo mama svap</span>syati pratyutthānanamask<span class="it">ri</span>yāñjalipuṭaśleṣa<span class="it">kr</span>iyāsv ak<span class="it">ṣ</span>ama<span class="it">ḥ kāyenāha</span>
+            v1 <span class="it">m anena kiṃ nu kuśalaṃ śakṣyāmi kartuṃ tadā tasmān nyāyyam itaḥ śmaśānanidhanāt</span> sāraṅ grahītuṃ mayā 23 kṛtvā kuñcanasaṃprasāraṇaga<span class="it">tap</span>r<span class="it">a</span>vyāhṛtaprekṣi<span class="it">taṃ</span> _ _
+            2 _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ <span class="it">ceṣṭitam kā</span>yo 'yaṃ h. ^ _ ^ _ ^ ^ ^ _ _ _ ṭanājarjaro dhārāklinnaviśīrṇapustaracanābiṃbākṛtiḥ
+            svapsyati 24
+            3 /// .. ty atyadbhutaṃ + /// + + + + + + + + + .. .. + + + ti / bodhisatvaḥ prāha
+            / nanv aham eva tāvad avagacchāmy anye ca paracittavido maharṣayaḥ
+            4 /// .. tāvad abh<span class="it">i</span>dhātuṃ / yena satyenātmānaṃ pa .. + + + + + + + + + + + + + + + + + + + + + + + +
+            + + + +
+            5 /// <span class="it">ja</span>rjaramāṃsam ave<span class="it">kṣamā</span>ṇaḥ prāha / // ye + + + + + + + + + + + + + + + + + + + + + + + + + + + +</p>
+         
+         
+         <p>KalpM : IDP SHT 21/79
+            213r1 /// + + + + + dhikuryāñ jaga .. /// + + + + + + + + + + v. yathā p<span class="it">au</span>r<span class="it">ā</span>ṇaśar<span class="it">ī</span>
+            2 /// _ _ ^ _ _ ^ ^ _ ^ .. bhūr bhīteva _ _ ^ ^ _ <span class="it">ca</span>kampe khāt puṣpavarṣaṃ nipapāta divyam uccaiś ca vāditra
+            3 ^ _ ^ _ _ <span class="it">28</span> _ _ ^ _ _ ^ ^ _ ^ _ _ _ _ ^ _ _ paṭahapraṇādaiḥ dī _ ^ _ _ ^ ^ _ nninādair loko babhūva
+            kṣubhitārṇavābhaḥ 2<span class="it">9</span> _
+            4 _ ^ _ _ ^ ^ _ ^ _ _ _ _ ^ _ _ ^ ^ _ ^ _ _ _ _ ^ caṃ cārtavam eva c. _ _ _ ^ _ _
+            ^ ^ _ sya sādhoḥ 30 vṛkṣāṃtarebhyo vanadevatābhi<span class="it">ḥ</span> _ _
+            5 ^ _ _ ^ ^ _ ^ _ _ _ _ ^ _ _ ^ ^ _ ^ _ _ _ _ ^ _ _ ^ ^ _ ^ _ _ <span class="it">31</span> _ _ ^ rāgāṇi ca hemabinduvidyoti _ _ ^ ^ _
+            v1 ^ _ _ _ _ ^ _ _ ^ ^ _ ^ _ _ _ _ ^ _ _ ^ ^ _ ^ _ _ <span class="it">32</span> _ _ ^ _ _ ^ ^ _ ^ _ _ _ _ ^ _ _ ś ca bhṛśaṃ praseduḥ śivāś ca vātāḥ pra ^ _ ^ _
+            2 _ _ _ ^ _ _ ^ ^ _ ^ _ _ <span class="it">33</span> _ _ ^ _ _ ^ ^ _ ^ _ _ _ _ ^ _ guhyakasainyamukhy<span class="it">āḥ</span> _ _ ^ _ _ ^ ^ _ hanādair udbhāvayaṃti sma manaḥpraharṣam <span class="it">34</span>
+            3 _ _ ^ _ _ ^ ^ _ ^ _ _ _ _ ^ _ _ ^ ^ _ ^ _ _ _ _ rur uccaiḥ stutayaś ca _ _ _ _ ^
+            _ _ ^ ditair nisṛṣṭāḥ 36 siddhiṃ laghu prāpnuhi gaccha c. _
+            4 _ _ ^ _ _ ^ ^ _ ^ _ _ _ _ ^ _ _ ^ ^ _ ^ _ _ _ _ ^ _ _ ^ ^ _ . papāta 37 /// .. hṛṣṭamanāḥ
+            śakro viśvakarmā ca bodhisatvam abhyarcya
+            5 /// + + + + + cyata iti sa /// + + + + + + + + + + + + + + .īṃ .. .. .. haraṃ .i</p>
+         
+         
+         <p>KalpM : IDP SHT 21/80
+            214r1 + + + + + + + + /// + + + + + /// + + + <span class="it">n</span>t<span class="it">i</span>ke pravrajitaḥ sa kadāc<span class="it">i</span>t prady<span class="it">ota</span> + + + m anuprāptaḥ / tatra
+            2 vivikta udy<span class="it">āne</span> + + /// + + + + + /// .. ca bhadantasāraṇo bhaikṣam aṭitvā kṛtāhāras tatraivodyānalatāgulmapra
+            3 viṣṭo dhyāyamānaḥ /// lalobh. + + /// īryāpatham avekṣya cakṣuṣāṃ tañ ca rūpam aho
+            buddhaśāsanaṃ yat<span class="it">r</span>ed<span class="it">ṛ</span>śo 'pi
+            4 yauvanasaṃpanno /// caryaṃ caratī<span class="it">ti</span> /// + + tam avakāśam anuprāptaḥ sa taṃ bhadaṃtam avekṣya + + + + + +
+            5 hi / // na śukla _ ^ _ _ _ _ _ _ .. tareṇa vā _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ <span class="it">1</span> ///</p>
+         
+         
+         <p>v1 sa uvāca neti / kim a .. + /// + masya dhyānasya la /// + + + t. + + + + + .. +
+            + + + .. + .. .. + + draṣṭavya + + + + + +
+            2 varṣavara nirmuṇḍa kāṃcu<span class="it">k</span>. /// gateṣu / gṛ + /// + + + ya pratinivāsanamātraprāvaraṇaḥ kaṇṭakarkaś. + + + +
+            + +
+            3 s tāḷitas tatas tāḥ s<span class="it">tr</span>i<span class="it">yo</span> rudaṃtyo rā .. + + /// + <span class="it">ana</span>parāddhaḥ śramaṇas tāḍyata iti tataḥ pradyoto 'bhiniveśāt suṣṭhutara<span class="it">ṃ</span>
+            4 tāḷita<span class="it">vān</span> . + + + + /// + + + + + + + /// _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ ^ _ _ _ patitāḥ
+            karkaśāḥ kaśāḥ 2 tatas sa mandaprāṇāvaśeṣo muktaḥ atha
+            5 + + + + + + + + + /// + + + + + + + /// <span class="it">utphu</span>llākṣaḥ samaṃtato 'valok<span class="it">y</span>a tā .i .ā + + .. hastenādāya</p>
+         
+         
+         <p>KalpM : IDP SHT 21/81
+            222r1 <span class="it">bha</span>gavantam abhi<span class="it">sametya tasya sa</span>mīpe divyagandhaka<span class="it">lpaṃ gan</span>dh<span class="it">am āgh</span>r<span class="it">ā</span>ya vismayotphullanayanaḥ samaṃtaḥ prekṣitum ārabdhaḥ kasyāyaṃ gandha iti sa bhagavatābh<span class="it">i</span>h<span class="it">i</span>t<span class="it">aḥ</span>
+            2 kim icchati mahār<span class="it">ājo 'sya</span> gandhasya prabhavam upalabdhuṃ / paramam icchāmīty uvāca rājā / atha bhagavatā pāṇitalena
+            dharaṇitalam abhihitam utpatitā cāsthiśaṃ<span class="it">ka</span>
+            3 lā raktacandanadatto + + + <span class="it">paṃ</span>cāṅgulā tato bha<span class="it">gava</span>tābhihitam asyāḥ khalv asthiśaṃkalāyāḥ surabhir ayam abhivāti gan<span class="it">dh</span>a iti tato rājñābhitaṃ bhaga<span class="it">va</span>
+            4 n kasyeyam asthiś<span class="it">aṃkalā ko</span> vātra hetur ya<span class="it">d</span>ī<span class="it">dṛśo</span> 'syā gandha iti / sa bha<span class="it">gavatābh</span>i<span class="it">hitaḥ</span> + + + + + + + + + <span class="it">kāś</span>y<span class="it">a</span>po nāma bhagavān <span class="it">bu</span>d<span class="it">dh</span>o babhūva
+            v1 sa jagati dharmāl<span class="it">o</span>ka<span class="it">ṃ</span> kṛ<span class="it">tvā</span> + pariṣekābhiṣikta + .. gn. n<span class="it">i</span>rvṛtim upajagāma /// nāṃ ratnānāṃ sa .. t. .. .. .. <span class="it">s</span>tū<span class="it">paḥ</span>
+            2 pratiṣṭhāpitaḥ sarva<span class="it">puṣ</span>pasaṃgrahaś ca kṛta<span class="it">s tath</span>āgatacaitye puṣpāropaṇaṃ kariṣyāmīti / anyataraś ca gṛhapat<span class="it">i</span>putr<span class="it">o</span> gaṇikāyām avabaddhacittas ta<span class="it">yā</span>
+            3 gaṇikayābhihi<span class="it">t</span>o <span class="it">ya</span>di matsamāgamam icchasi puṣpāṇy ānīyaṃtām iti / tataḥ sarvapuṣpāṇi rājñājñayā parigṛhītānīty
+            avetya sa gṛhapatipu<span class="it">traḥ</span>
+            4 stūpāt pu<span class="it">ṣpa</span> + + + /// ti vyavasita .. + .. .. r.. .ir abhavat naitan mama pratirūpaṃ syād yad
+            aham upāsakakulaprasūto bu<span class="it">ddha</span>guṇānām upa</p>
+         
+         
+         <p>KalpM : IDP SHT 21/82
+            223r1 /// + + + + + + + + + .. + ///</p>
+         
+         
+         <p>2 /// + + + + + + n. m avekṣya jā ///</p>
+         
+         
+         <p>3 /// + + + .. kulavinayavidhi ///</p>
+         
+         
+         <p>4 _ _ ^ _ _ ^ _ _ _ _ _ _ ^ _ _ ^ ^ ^ ^ ^ ^ _ _ ^ _ lokavādaḥ saṃkṣepād dharma _ _
+            ^ ^ ^ ^ ^ ^ _ _ ^ _ _ ^ _ _ _ _ _ _ ^ _
+            5 _ ^ ^ ^ ^ ^ ^ _ _ ^ _ _ ^ _ _ <span class="it">1</span> _ _ _ _ ^ _ bhūmau mamāyaṃ dak<span class="it">ṣ</span>iṇo bh<span class="it">u</span>jaḥ _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ <span class="it">2</span> _ _ _ _ ^ _ _
+            v1 _ _ _ _ _ ^ _ ^ _ _ _ _ _ ^ _ _ _ _ _ _ _ ^ .ātalam 3 hā kaṣṭarāgaśikh<span class="it">i</span>nā _ _ _ _ ^ _ _ _ _ _ ^ _ _ _ _ _ _ _ ^ _
+            2 ^ _ <span class="it">4</span> _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ ^ _ kṣeṇa svena cittena vaṃci _ <span class="it">5</span> ///</p>
+         
+         
+         <p>3 /// + + + + .. mānahṛdayaḥ pa + ///</p>
+         
+         
+         <p>4 /// + + + + + + + .. ri .. + ///</p>
+         
+         
+         <p>5 /// + + + + + + + + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/83
+            226r1 /// + + + + + tasy. .. lasya sarvaśarī<span class="it">ra</span> ///</p>
+         
+         
+         <p>2 /// <span class="it">bhaga</span>van kāśyapa samyaksaṃbuddha // tvaṃ mātā ///</p>
+         
+         
+         <p>3 /// .. n mayā pa .. + lava ayaṃ .. .. + ///</p>
+         
+         
+         <p>v2 /// + + + + + + + .r. + + + + + + + ///</p>
+         
+         
+         <p>3 /// n<span class="it">ā</span>ma sthāpitam atha krameṇa jātas. .. ///</p>
+         
+         
+         <p>4 /// tuṃ parinirvṛtas tasyāṃgadasya pratyeka ///</p>
+         
+         
+         <p>5 /// + + + .. .. + + .. dibhiḥ pūjaviśe + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/84; originals under IDP SHT 4181 frgs. AS (italics), AW (bold),
+            AX
+            227r1 /// + + .. t. .. + + + + /// <span class="bold">tadyathā śrīguptacaritam u<span class="it">dāharaṃ</span></span> ///</p>
+         
+         
+         <p>2 /// <span class="it">ti</span> śrīgupto + + + /// <span class="it">jyotiṣkasya hi pit.</span> /// <span class="bold">nigranthaśrāvakāya duhit.</span> + ///</p>
+         
+         
+         <p>3 /// ttā dhātuśo hi satva .. + /// + <span class="it">ṣkajoti jyotiṣka</span> ///</p>
+         
+         
+         <p>4 /// thānāṃ tato jyotiṣka .. ///</p>
+         
+         
+         <p>5 /// tataḥ sar<span class="it">va</span>j<span class="it">ñ</span>o .. .. ///</p>
+         
+         
+         <p>v1 /// .. kaṃ vaṃcay. + k. .. .. ///</p>
+         
+         
+         <p>2 /// .. parān naivāṇv api pre .. ///</p>
+         
+         
+         <p>3 /// nāvartanyā māyayā /// <span class="it">.. ṣe / pūraṇasya</span> ///</p>
+         
+         
+         <p>4 /// .. .. darśanaṃ pra + + + /// <span class="it">.y. ti pūraṇasya</span> + /// <span class="bold"><span class="it">samī</span>pam upasaṃkrāmya pūraṇaṃ śvo</span> ///</p>
+         
+         
+         <p>5 /// + + .. .op. + + + + + /// + <span class="bold">t. mayi prasannaḥ sarvathā</span> + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/85; originals under IDP SHT 4181 frgs. AR (italics), AT (bold),
+            AV (italics/bold), AY (underlined), AZ; missing frg. (italics/underlined)
+            231r1 /// <span class="it">bu</span>ddhe samutpannapa<span class="it">kṣa</span><span class="underline">p<span class="it">ā</span>tā tasmāt saṃrakṣayi</span> ///</p>
+         
+         
+         <p>2 /// <span class="bold"><span class="it">tā / pūraṇa</span></span> /// + tāḥ āgacchaṃ<span class="it">tu bha</span><span class="underline">vaṃtaḥ śatruvadham ava</span> ///</p>
+         
+         
+         <p>3 /// + <span class="it">tato jātyaṃjan.</span> /// + + + <span class="bold">.ū ..</span> + + /// + ṇaḥ paṃcatapass<span class="it">e</span><span class="underline">vanān nirdagdhamūrtibhi</span> /// <span class="underline"><span class="it">........ ḥ sudhāśvetatal.</span></span>
+            4 /// <span class="it">.. takuṭajataru</span>vi<span class="bold">ṭapataṭasth.</span> /// + gaṇapar<span class="it">i</span>vṛtaḥ ko<span class="it">k</span><span class="underline">ilaḥ pramu</span> + + + /// <span class="underline"><span class="it">....... taṃ hi śramaṇaṃ gautam.</span></span>
+            5 /// + + <span class="it">bhibhūtaṃ v</span>ā <span class="bold">bhūmitale vi .o</span> /// hasiṣyāma iti + + + + <span class="underline">.. ..</span> + + ///</p>
+         
+         
+         <p>v1 /// + <span class="it">gacchedānīm it</span><span class="bold">i / tataḥ śrīgu</span><span class="it">ptaḥ paricāra</span>kaṃ preṣay<span class="it">i</span>tvā ha + + + + + + + <span class="underline">pūraṇ.</span> + + ///
+            2 /// <span class="it">sam idam ārabhyate</span> <span class="bold">t trailokya</span> /// + ta iyam asatkri<span class="it">yā</span> <span class="underline">kr<span class="it">i</span>yate /</span> + + + /// <span class="underline"><span class="it">........ . tan nāsti kutaḥ / //</span>
+               3 _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ <span class="it">ity etad utthita</span> ^ <span class="bold">.. hy ayaśo</span> ^ _ _ <span class="it">tya</span>kṣyāmi jīvitam idan na <span class="underline">hi jīvitena dh<span class="it">i</span>kch<span class="it">ab</span>d.</span> _ ^ ^ ^ _ <span class="underline"><span class="it">mama kāryam asti 16</span></span>
+               4 _ _ _ _ _ _ _ <span class="bold"><span class="it">yanadāraḥ</span></span> ^ _ ^ _ _ _ _ _ ^ kṛpāṅ kṛtvā tasya <span class="it">kathaṃ</span> <span class="underline">cintyate nidhanam 17</span> ///</span></p>
+         
+         
+         <p>5 /// + + + + + + + /// + + + + /// .. ptaparicārako <span class="it">ve</span><span class="underline">ṇuvanam upetya bhaga</span> ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/86
+            232r1 /// bhagavān mahākaruṇāpari .. /// + + + + + + .. satvahitakāmatayā ca ha +
+            + + + + + + + + + + + + /// + + + y. + + <span class="it">catu</span>rṣv āryasatyeṣu dra<span class="it">ṣ</span>ṭ<span class="it">av</span>y. .. + + + +
+            2 /// .. rāṇām upacitamokṣa + /// + + bhār<span class="it">ā</span>ṇāṃ ca vaineyānām iyaṃ vipratipattiḥ agnipūrṇ. n. .. + + + + + + /// yitvā saviṣaṃ
+            ca <span class="it">bhoja</span>naṃ kṛtvā vayam āhvayitavy<span class="it">ā</span> .. +
+            3 /// + ṇam idam ā<span class="it">ra</span>bdhaṃ mā tāvad bhoḥ // yad ahaṃ duṣkaraiḥ śuṣkaḥ sarvasatvahitaṃ prati ta<span class="it">s</span>y<span class="it">ā</span>yam <span class="it">u</span>pakārasya <span class="it">prati</span>kāro 'dya sajjitaḥ 19 dhig asty a
+            4 _ ^ _ _ _ _ _ .ān mayi dehibhiḥ mātṛbhyo vatsalatare 'py evaṃ drohaḥ prayujyate
+            20 tat kim i. /// + + vā / // ucitaṃ lokanāthānāṃ vai
+            5 _ _ _ ^ _ ^ _ _ _ _ _ ^ _ _ mi kāruṇyenābhipīḍitaḥ 21 bhūtagrahāveśavimūḍhacetā
+            yo hy ā ^ _ _ ^ ^ _ ^ _ ti na tatra vaidyaḥ <span class="it">pra</span>karoti
+            v1 _ _ _ _ ^ _ _ ^ ^ _ ^ _ _ <span class="it">22 kleśa</span>grahāveś<span class="it">avimū</span>ḍhacetās tathā jano 'ya<span class="it">ṃ</span> prakaroti pāpam tatrātma _ _ ^ ^ _ ^ <span class="it">pī</span>ḍāṃ kleśeṣu na kleśa ^ rāj. t. _
+            2 <span class="it">23</span> + . u<span class="it">t</span>th<span class="it">ā</span>yovāca / // ānanda cīvarakam ānaya gaccha nanda pātraṃ gṛhāṇa mama rāh<span class="it">ula</span> _ ^ _ _ bhikṣūn iha tvaraya bhadrika kiṃ sthi
+            3 _ _ _ _ ^ _ ^ ^ <span class="it">vi</span>laṃbanadeśakālaḥ 24 vaineyānām avastheyaṃ yady asmin mayy api s<span class="it">th</span>i<span class="it">t</span>e _ _ _ ndhā ^ _ bhūyaḥ kāyasaṃjño mahān ariḥ <span class="it">25</span>
+            4 /// .. lābhravivarā<span class="it">d iva</span> divasakaraṃ veṇuvanān niṣkramaṃtaṃ bhagavaṃtam avekṣya veṇu<span class="it">vana</span> + + + + + /// devatā divyena <span class="it">cakṣu</span>ṣā taṃ śrīguptasya gṛhagataṃ .. + +
+            5 /// kya buddhapremṇā savihvala /// + s <span class="it">tva</span>ritam <span class="it">u</span>petya bhagavataḥ pādayor <span class="it">n</span>i + + + + + + + + + + + /// + + + mā .. .. + + n udyaṃmya buddha .. .o .ī + + + +
+            + +</p>
+         
+         
+         <p>KalpM : IDP SHT 21/87
+            233r1 _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ <span class="it">pra</span>sādaviniva<span class="it">r</span>t<span class="it">ī</span> ca _ _ _ _ ^ _ .y. _ 26 _ _ _ _ ^ tisnehād e .e _ _ ^ _ ^ _ _ _ _ _ ^ _ _ _ _ _ _
+            2 _ ^ _ ^ _ 27 an<span class="it">ā</span>th<span class="it">ānāṃ hi tva</span>n nātho bhītān<span class="it">āṃ</span> _ ^ _ ^ _ viśrāmabh<span class="it">ū</span> ^ _ _ _ śaraṇaṃ śaraṇārthi<span class="it">nām 28</span> /// _ _ _ _ ^ _ _ _
+            3 _ _ _ _ niveśanam sade<span class="it">vāsura</span>gandharvaṃ _ _ _ _ ^ _ ^ _ <span class="it">2</span>9 tato .. /// <span class="it">bhaga</span>vān <span class="it">u</span>vāca kim a + ///</p>
+         
+         
+         <p>4 /// + .. .ir.. .e + + + /// + + + + + + /// + + + + /// + + + + + + + + + ///</p>
+         
+         
+         <p>v3 /// tv. n nāśārtham anarthalu /// + bhaktavi + + /// .. vivarja .. /// + + .ś.
+            + + + + + + ///</p>
+         
+         
+         <p>4 /// + bhagavān uvāca / // /// r n. vāsti bh. + + /// d api viṣā .. /// <span class="it">ma</span>hāgadena hy anuli<span class="it">pt</span>. + ///</p>
+         
+         
+         <p>5 /// + + + + + + + + /// .. kin nāma bha .. /// .. .. jinaṃ vi /// <span class="it">a</span>tha bhagavān <span class="it">v</span>e<span class="it">ṇuvan</span>. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/88
+            235r1 kitāḥ parimokṣit. + + + /// + + + + + + + + + + ///</p>
+         
+         
+         <p>2 yāmi śrīguptan nā .. + + /// + .. <span class="it">n</span>u<span class="it">p</span>r<span class="it">aveṣ</span>ṭu<span class="it">ṃ</span> te ca nirgra<span class="it">nthā</span> ///</p>
+         
+         
+         <p>3 ṇaḥ praviśaty atha śrī<span class="it">gupt</span>. /// nāny upalabdhavṛttāntā .. + + ///</p>
+         
+         
+         <p>4 gaṇayitvā pralapi /// ḥ saṃprati dvitīyāṃ dvāram. + ///</p>
+         
+         
+         <p>5 ri tṛṇāni prapatitāni / /// _ _ _ _ _ ^ _ _ ^ _ _ _ _ _ _ _ ^ _ _ _ _
+            v1 nveṣī dhāvati vyākulo vā bhūmi _ _ _ ^ _ _ ^ _ _ .. ^ _ ^ _ _ ^ ^ _ ^ _ ^ _ ^ _
+            ^ _ _ ^ ^ _ ^ _ ^ _ ^ _ ^ _ _ ^ ^ _ ^ _ ^ _ ^
+            2 naikahaṃsā naḷinīva dahyate + ^ _ ^ _ _ ^ ^ _ ^ _ ^ _ ^ _ ^ _ _ ^ ^ _ ^ _ yanam
+            sasaṃbhramā _ ^ ^ _ ^ _ ^ _ ^ _ ^ _ _ ^ ^ _ ^ _ ^ _ ..
+            3 nirdhotakāṃcananibha ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ <span class="it">saṃ</span>kocam eti niyataṃ tad ṛ. _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ ..
+            4 apy ardhadagdham api _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ manasāṃ
+            bhuvi tādṛśasya _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ .. <span class="it">ta</span>
+            5 sminn aṃtare bhaga + + + + /// + + + + + + .. + + .. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/89
+            240r2 /// + + + // .r. .. .c. .y. + .. yur utpa + + ///</p>
+         
+         
+         <p>3 /// <span class="it">śrīgu</span>pta uvāca // bhagavann yadi te kaṃ + + ///</p>
+         
+         
+         <p>4 /// + + p<span class="it">r</span>eṣito dūta iti / tataḥ ś<span class="it">r</span>ī<span class="it">gupta</span> ///</p>
+         
+         
+         <p>v1 /// + + .. .. kṛta iti śrīgupta uv<span class="it">āca</span> _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _
+            2 ^ _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ . <span class="it">ā</span>tmavadhāya dattam 78 bhaga<span class="it">vān</span> ///</p>
+         
+         
+         <p>3 /// m iti bhagavān <span class="it">u</span>vāca // ya .. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/90
+            241r1 _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ _ _ _ ^ ^ _ ^ vā mama vibho deh. ^ _ _
+            ^ _ /// tat<span class="it">o</span> bhagavatā bh. ///</p>
+         
+         
+         <p>2 /// _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ vacaḥ bhujyatāṃ _ ^ _ _ _ <span class="it">viṣa</span>ṃ vilayam eṣyati ///</p>
+         
+         
+         <p>3 /// .. kṣitum āra .. /// + + + .. davasā ///</p>
+         
+         
+         <p>4 /// + .. bhyavah. .. /// + + + + + + + ///</p>
+         
+         
+         <p>v1 /// praśāṃto 'tha /// + + + + + + + ///</p>
+         
+         
+         <p>2 /// 82 andh. _ _ ^ _ _ k. m aham āśri ^ _ ^ _ _ _ _ _ ^ _ _ _ _ _ _ _
+            3 ^ _ ^ _ <span class="it">83</span> _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ ktuṃ na śakto 'smi _ _ _ _ ^ _ ^ _ d.m 84 viṣapā
+            ///</p>
+         
+         
+         <p>4 /// + + + + + /// kim i<span class="it">da</span>m <span class="it">u</span>pa<span class="it">nītaṃ</span> ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/91
+            283r1 /// + + + bahava .. + .y. + + + + ///</p>
+         
+         
+         <p>2 /// + + .. kais tīrthyair ākīrṇā babh<span class="it">ūva</span> ///</p>
+         
+         
+         <p>3 /// .. praśna iti naiṣa dhārmakathik. ///</p>
+         
+         
+         <p>4 /// + + + praś<span class="it">n</span>e parihāro .. + + ///</p>
+         
+         
+         <p>v1 /// + + + sy<span class="it">ā</span>sya vin<span class="it">ir</span>ṇayam ///</p>
+         
+         
+         <p>2 /// myata iti / rājovāca / ya ///</p>
+         
+         
+         <p>3 /// + + bhavanto darśitā ete + ///</p>
+         
+         
+         <p>4 /// + + .. te 2 + + + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/92
+            284r1 /// <span class="it">3</span> _ _ _ _ ^ _ _ .y. _ _ hāryam idaṃ muneḥ ṣaṭtsa _ _ ^ _ _ _ yac chakyaṃ n. bh. v.
+            .t. _ <span class="it">4</span>
+            2 _ _ _ _ ^ _ _ ^ ^ ^ ^ ^ ^ _ _ _ ^ ^ ^ _ _ _ _ _ ^ _ dhyaḥ katham iva yad ayaṃ siddho
+            vidhiśatai<span class="it">ḥ</span> _ _ _ . <span class="it">a</span>gnitoyakṣitidharapata
+            3 _ _ _ ^ ^ ^ _ _ _ _ _ ^ _ _ ^ ^ ^ ^ ^ ^ _ _ _ ^ navidhau 5 vikrīya lavaṇaṃ naṣṭas
+            tīrth. _ _ ^ _ ^ _ḥ yac ceṣyate
+            v1 ^ _ _ _ _ _ _ _ ^ _ ^ _ <span class="it">6</span> _ _ _ _ ^ _ _ _ _ _ _ _ ^ gāṃ dvijaḥ ṣa<span class="it">ṭt</span>r<span class="it">iṃ</span>śadbhiḥ paṇaiḥ kṛtsnaṃ _ _ _ _ ^ _ ^ _ 7 mākṣīkāsvāda
+            2 _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ .ān 8 jīvo vaḥ paśavaḥ śālir
+            abhipre _ ^ _ ^ _ḥ śarīrabhakṣaṇe do
+            3 _ _ _ _ _ ^ _ ^ _ <span class="it">9</span> _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ ātmaghātād adharmo .i _ _ _ _ ^ _ ṣaṇāt <span class="it">10</span> ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/93
+            297r1 /// + .. tuśaḥ pra .. + ktam evaṃ kāmānām āsvādā
+            2 /// .. prasāraṇam a<span class="it">va</span>boddhavyam / yathā tantun<span class="it">ā</span>
+            3 /// śīlataṃtur utkṣipyate / śīlataṃtunā ..
+            v1 /// ā<span class="it">d</span>īnavānupaśyanā yogena gāḍham avaba
+            2 /// .. man yatnenā<span class="it">p</span>i saṃvaradaśāṃ śamathaṃ tayā
+            3 /// <span class="it">rā</span>jakule ni<span class="it">rdāyā</span>de saṃvṛtte tapovanāt ku</p>
+         
+         
+         <p>KalpM : IDP SHT 21/94
+            298r1 <span class="it">mā</span>raḥ paurair ānīya pr. + + /// <span class="it">śaya</span>nīyapālaiḥ śayana .u .. .. /// dhiruhya tasmād eva śayanīy<span class="it">ā</span>dh<span class="it">i</span>kṛtāt puruṣāt snā
+            2 naprāvaraṇapāna + /// + + .. viśeṣāt prārthayitum ā .. /// + + na puruṣeṇa vijñāpitaḥ
+            pravibhaktādhikāro
+            3 'yaṃ devasya bhṛ<span class="it">t</span>yaja<span class="it">naḥ</span> /// + + + hi mamādhikāro na snāna + + /// + + + eṣa dṛṣṭāṃto 'yaṃ punar artho draṣ<span class="it">ṭavyaḥ</span>
+            v1 yathā pravibhaktakarmāṇo r<span class="it">ā</span> /// + + + + pakulabhogayaśaḥpriy. + /// + + + tukāni anyad eva hy ārogyajanakaṃ karma
+            + .. ..
+            2 rūpādijanakāni ya + + + /// + + <span class="it">śa</span>yyāsanādhikṛtāḥ satpuruṣā + /// + + .. uccakulīnasaṃvartanīyaṃ karma kṛtvā vibhavā
+            3 <span class="it">di</span>saṃvartanīyāni ca ka + + + /// <span class="it">uccaku</span>līnasaṃvartanīyāt karma<span class="it">ṇ</span>o .. /// + + .. tam āpnoti arthalābhikayā acinaṃ tad uccakulī</p>
+         
+         
+         <p>KalpM : IDP SHT 21/95; original of one fragm. under IDP SHT 4181 frg. AU (in italics)
+            301r1 yathā svadeśābhi + + + + /// + + lokābhimukha + /// <span class="it">.. .i yathā vaidyasya</span> ///</p>
+         
+         
+         <p>2 + śrama iti evaṃ .. /// r <span class="it">i</span>ti / yathā ca grām. /// + + + + + + + ///</p>
+         
+         
+         <p>3 .. le .. .. ti / evam ayaṃ + /// + + nti nimittāni /// + + + + + + ///</p>
+         
+         
+         <p>v1 .. s. .. .t. r iti / yathā vai .. /// .. + .. ni prasādama + /// + + + + + + +
+            ///</p>
+         
+         
+         <p>2 + .ā dayate dāna /// <span class="it">ata</span> eva caitad ucyate <span class="it">/ //</span> _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^ ^ ^ _
+            3 śayituṃ pradātā _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ bhiṣak svabhava<span class="it">n</span>. ^ ^ _ ^ _ _ ^ <span class="it">//</span> <span class="it">ṛ // dvābhyāṃ strībhyām.</span> ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/96
+            302r1 /// + + + tayā punar dvitīyayā striyā āmrā .. ///</p>
+         
+         
+         <p>2 /// + .. phalāḥ saṃvṛttāḥ sā punar āmraphalāni s. ///</p>
+         
+         
+         <p>3 /// .rāṇīti / tayā <span class="it">ka</span>thitam evaṃ mayā tāny ā + ///</p>
+         
+         
+         <p>v1 /// pi nāvaśeṣīkṛtā<span class="it">n</span>y <span class="it">e</span>ṣa dṛṣṭāntaḥ ayaṃ pu<span class="it">nar artho draṣṭavyaḥ</span> ///</p>
+         
+         
+         <p>2 /// + pūrvasukṛtaphalaṃ bhuktaṃ na tu bījam avaśe<span class="it">ṣīkṛtam</span> + + ///</p>
+         
+         
+         <p>3 /// + <span class="it">pha</span>lāny upabhuṃkte sa tena pūrvake .. + + + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/97
+            303r2 kā ///</p>
+         
+         
+         <p>3 a ///</p>
+         
+         
+         <p>v1 atha ///</p>
+         
+         
+         <p>2 evaṃ dṛ ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/98
+            308r1 /// + + + + + + + + + + + + <span class="it">bha</span>gavato buddhir utp<span class="it">an</span>n<span class="it">ā</span> ///</p>
+         
+         
+         <p>2 /// + nmapar<span class="it">i</span>va<span class="it">r</span>t. v. + .y. .. + r <span class="it">a</span>pi satvair nābhāṣṭaḥ .. + ///</p>
+         
+         
+         <p>3 /// tvād ata eva caitad ucyate / // dṛṣṭvā natān sura ^ _ ^ ^ _ ^ _ _ _ _ ^ _ ^
+            ^ ^ _ ^ ^ _ ^ _ _
+            4 _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ _ _ ^ _ staraguṇān iva śaṃkhabhaṭ<span class="it">ṭ</span>aḥ <span class="it">// saṃgrahaḥ //</span> _ _ _ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _
+            v1 _ _ _ _ _ _ _ _ _ _ ^ _ _ sthā / // // bhikṣo<span class="it">s</span> t<span class="it">āk</span>ṣ<span class="it">aśila</span>k<span class="it">as</span>y<span class="it">a ā</span>rya + + + ///</p>
+         
+         
+         <p>2 /// <span class="it">samā</span>pta 9 // samāptā ca kalpanāmaṇḍitikā dṛṣṭā<span class="it">n</span>t<span class="it">a</span> ///</p>
+         
+         
+         <p>3 /// + + lā ta mā .. .. .. .. .ī .ai + .. + + skandhādimātrakṛtabuddha ///</p>
+         
+         
+         <p>4 /// + + + + + + + + + + + + + .. māvagamāś. .. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/99; original missing
+            Anhang A (part of story 2)
+            a2 /// tyaṃ tad arhasi ///</p>
+         
+         
+         <p>3 /// ṭitacchin. .. ///</p>
+         
+         
+         <p>b1 /// ca kauśika kri ///</p>
+         
+         
+         <p>2 /// d. yeya ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/100
+            Anhang B (part of story 46); cf. KalpM p. 219.19; 220.6,7)
+            a1 /// bhṛśam api paripīḍitāt .a ///</p>
+         
+         
+         <p>2 /// + .. bandhuviyogā .i + ///</p>
+         
+         
+         <p>3 /// + + + .. .. .i + + + ///</p>
+         
+         
+         <p>b4 /// + + + .v. viśeṣe va .l. + ///</p>
+         
+         
+         <p>5 /// . ch<span class="it">a</span>nnakalyāṇaṃ bhasmaccha ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/101
+            Anhang C (part of story 67)
+            a1 /// ḥ. pūraṇaḥ ///</p>
+         
+         
+         <p>b5 /// tīti yad a .e ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/102; original missing
+            Anhang D (part of story 67)
+            a5 /// thā pūraṇo ///</p>
+         
+         
+         <p>b1 /// yugaḷeno ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/103
+            Anhang E
+            a1 /// bhiktiśya ///</p>
+         
+         
+         <p>2 /// .a .. .e .ā ///</p>
+         
+         
+         <p>b4 /// .. .r. t. t. .. ///</p>
+         
+         
+         <p>5 /// cīvaraṃ va + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/104
+            Anhang F
+            a3 /// .um. h. .. + ///</p>
+         
+         
+         <p>4 /// .bhiktiḥ paṃca ///</p>
+         
+         
+         <p>b2 /// mi caturth. .. ///</p>
+         
+         
+         <p>3 /// hitena vya .e ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/105; original missing
+            Anhang G
+            a1 /// hi ye mauṣṭikāś ca nanu ///</p>
+         
+         
+         <p>2 /// tena divyāṃ ś<span class="it">r</span>iyaṃ ///</p>
+         
+         
+         <p>b3 /// janitasya ///</p>
+         
+         
+         <p>4 /// tr<span class="it">i</span>daśālayasya mā ///</p>
+         
+         
+         <p>5 /// bhād vāy<span class="it">u</span>r i .. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/106; original under IDP SHT 810 frg. 36
+            Anhang H
+            a1 /// asako brāhma ///</p>
+         
+         
+         <p>2 /// bhi .. + + ///</p>
+         
+         
+         <p>b1 /// .. .. + + ///</p>
+         
+         
+         <p>2 /// .. cchāsa .. paro ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/107; original missing
+            Anhang I
+            a3 /// v. prāṇa .ṛ ///</p>
+         
+         
+         <p>4 /// .u devaḥ // ca ///</p>
+         
+         
+         <p>5 /// āścārya ///</p>
+         
+         
+         <p>b1 /// mānuṣyakatha ///</p>
+         
+         
+         <p>2 /// .ānām alpa ///</p>
+         
+         
+         <p>3 /// s. ton.. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/108
+            Anhang K
+            a1 /// + caraṇapraha .. ///</p>
+         
+         
+         <p>2 /// vati niyamo ///</p>
+         
+         
+         <p>3 /// + rma vākkā ///</p>
+         
+         
+         <p>4 /// ..ḥ samuttiṣṭha + ///</p>
+         
+         
+         <p>5 /// ghārāme ke .. .i ///</p>
+         
+         
+         <p>b1 /// + sādhu sādhu .. .. ///</p>
+         
+         
+         <p>2 /// + .y. vam uktaś ca .. ///</p>
+         
+         
+         <p>3 /// + .. pari ///</p>
+         
+         
+         <p>4 /// krāmya ca sa .. .. ///</p>
+         
+         
+         <p>5 /// .. .ā .. .i .. .. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/109
+            Anhang L; fol. 100///</p>
+         
+         
+         <p>r1 + + + + + + + + .. .. .. .. ///</p>
+         
+         
+         <p>2 ptakālam athavā proktam etad bhaga<span class="it">vatā</span> ///</p>
+         
+         
+         <p>3 dharmadarśanam āhu + + + + + + ///</p>
+         
+         
+         <p>4 + + + .i .. + .e + + + + + + ///</p>
+         
+         
+         <p>v2 paśyāmi tasmād vi + + + ///</p>
+         
+         
+         <p>3 rad<span class="it">bh</span>ir asakṛt kāryaṃ kṛtvā gṛhṇā ///</p>
+         
+         
+         <p>4 + + + + + + + + āhaṃ .. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/110
+            Anhang M
+            a1 /// .. śar<span class="it">ī</span>ravṛkṣa<span class="it">ṃ</span> vaṭavṛkṣam ivāṇu vaṭabīja ///</p>
+         
+         
+         <p>2 /// <span class="it">tas</span>māc ca pūrvakarmabhir ā<span class="it">kṣ</span>iptan navam ihotpa + ///</p>
+         
+         
+         <p>3 /// .. nīmāni .. .. .. + + + + .. .i e .āṃ .. ///</p>
+         
+         
+         <p>b1 /// + tu k. .. .. .. + + + + .. .. .. + ///</p>
+         
+         
+         <p>2 /// karma janitaṃ janmādy akarmajaṃ tv aparimita ///</p>
+         
+         
+         <p>3 /// .or.. .. .. .. .. .. vismitaḥ prāha / + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/111; original under IDP SHT X 4318
+            Anhang N
+            a4 /// ete hy advayavādino bhag<span class="it">avataḥ</span> ///</p>
+         
+         
+         <p>5 /// .. pareṣu tṛṇavad bhasmīkṛte + + + ///</p>
+         
+         
+         <p>b1 /// pyam āryatvam avekṣya dṛṣṭasatyā .. ///</p>
+         
+         
+         <p>2 /// // .ā .o .. ..ṃ cit<span class="it">t</span>am a + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 21/112
+            Anhang O
+            a1 /// + + + + + .. .. + + .. .r. n. da<span class="it">r</span>śanam. ///</p>
+         
+         
+         <p>2 /// .. tan na śāsvatam ato nocchinnam apy aṅku ///</p>
+         
+         
+         <p>3 /// + + + + + .. rāhi ..ḥ p<span class="it">r</span>ītisu .. ///</p>
+         
+         
+         <p>b3 /// + + .y. + satyātman. ko 'yaṃ mucyat. ///</p>
+         
+         
+         <p>4 /// .. .e .itt. nāṃ prasaraḥ sarāga .i ///</p>
+         
+         
+         
+         
+         
+         <p>Manuscript 2: KalpM : SHT 638 (ed. KalpM pp. 200-208)</p>
+         
+         
+         <p>KalpM : IDP SHT 638s
+            I
+            r1 ^ ne nṛpatibhiḥ prāptāny upa _ ^ _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ _ _ _
+            _ _ _ _ _ _ _
+            2 r mudā pradāsyāmi evam ahaṃ _ _ _ _ _ _ _ ^ _ _ _ ^ _ _ _ _ _ ^ ^ ^ ^ ^ _ _ ^ ^
+            ^ _ ^ _ _ _
+            3 _ _ padam api hi nānuvrajati saḥ ^ _ _ _ _ _ ^ ^ ^ ^ ^ _ _ ^ ^ ^ _ ^ _ _ _ _ _ ^
+            ^ ^ ^ ^ _ _ ^ ^
+            4 ^ _ tataḥ sa rājā maṇiratnam ādā<span class="it">ya</span> ///</p>
+         
+         
+         <p>5 + .. rūpam iva bhrājate sma sūryoda ///</p>
+         
+         
+         <p>6 + ..ḥ s. .. .. .. .ād avataran patita ///</p>
+         
+         
+         <p>v1 + .. .. + + + + + .. + t. sma tataḥ ki .i ///</p>
+         
+         
+         <p>2 + + kṣitaṃ tac ca rudhiram anusaradbhiḥ kad. ///</p>
+         
+         
+         <p>3 + + tāṃ tāvat kaścit sa maṇir anena pu ///</p>
+         
+         
+         <p>4 + .. martham iha sa kāryam īdṛśaṃ kṛtam i ///</p>
+         
+         
+         <p>5 d itivac ca vacanam upaśrutya sa rājā + + ///</p>
+         
+         
+         <p>6 nā mohād atyantadāridra + + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 638t, Bl. 294
+            II
+            r1 śākyamuneḥ ko laṃghayet sahṛdayo jīvitahetor naravyāghra yatnaparirakṣitam api
+            kṣayāntam eveha jīvitaṃ puṃsāṃ sa
+            2 ti ca kṣaye nanu varaṃ kṣayo 'stu pariśuddhaśīlānāṃ yady api jīvitanāśaḥ samo guṇavatānāṃ
+            ca nirguṇānāṃ ca / prajñājīvi
+            3 talaṃbhe yaśasi ca sumahān viśeṣo 'sthi / śīlaṃ hy āśramavāsināṃ bhuvi mataṃ kṣetraṃ
+            guṇānāṃ mahat sopānaṃ tridaśā
+            4 layasya yaśasāṃ bījaṃ sukhasyākaraḥ śīlaṃ tīrtham ihāryadharmasarasaḥ śīlaṃ mukhaṃ
+            śreyasām icched bhadraghaṭopama
+            5 sya khalu kaḥ śīlasya tasya kṣayam iti // athāvarjitamanā sa rājā svayam evākuśavandhanān
+            muṃca
+            6 nn uvāca / aho suvihitaṃ tasya śāsanaṃ śākyasiṃhasya prāṇān api parityajya yad evaṃ
+            rakṣyate śiṣyaiḥ aham api <span class="it">tam udā</span>
+            v1 raśāsanaṃ śaraṇam upaimi gatajvaraṃ jinaṃ śaraṇam anagham abhyupetya yan na bhavati
+            śīlaviparyayo nṛṇ<span class="it">ām //</span>
+            2 // eko 'py āśayabhadrako mahājanasya kṣemam āvahatīty āśayabhadrakeṇa bhavitavyaṃ
+            tadyathānuśrūyate sārthena <span class="it">sārdhaṃ</span>
+            3 bhikṣavaḥ samudram avatīrṇāḥ sa ca poto vyāpannas tatra vṛddho bhikṣuḥ plavavirahitaḥ
+            paramabhayam arṇavam ananta
+            4 pāram avekṣya viklavamukhaḥ proplūyate sma navataraś ca bhikṣuḥ plavam ādāya prataritum
+            ārabdhaḥ sa tena vṛ
+            5 ddhatareṇa bhikṣuṇābhihitaḥ āyuṣman nanu yathāvṛddhikayā lābha ity uktaṃ bhagavatā
+            tad ānīyatām eṣa plava iti / a
+            6 tha tasya taruṇasya bhikṣoḥ pratirūpeyaṃ vicāraṇājātir bhaved bhagavatā hi yathāvṛddhikayā
+            lābho 'nujñāta ity ayaṃ</p>
+         
+         
+         <p>KalpM : IDP SHT 638u, Bl. 297
+            III
+            r1 ṇam ivānayanānāṃ śreyase na bhavatīti viditvā satyadarśanam ihāśu ^ _ _ siṃhavat
+            sadasi ye ninadantaḥ saṃśa
+            2 yān bahujanasya vinīya yānti durgatim adṛṣṭapadatvāt te bhavaṃti vidu _ ^ ^ hāsyāḥ
+            uktvāpi kramasaṃvidhānama
+            3 dhuraṃ saṃskāradīptākṣaraṃ / vākyaṃ sajjanacetasām upakaraṃ hetūpamālaṃkṛtaṃ / yady
+            ātmānam api pramokṣya naraka
+            4 pretādikād vandhanād astaṃyāti tato 'sya tena kathitenāviṣkṛtenāpi kiṃ tad etad
+            aniyatatvaṃ pṛthagjanānām a
+            5 vetya pratibodhāya vyāyamitavyaṃ yad api bhaven mama yaśaḥ khyātaṃ bhaviṣyaty amuko
+            nāma bhikṣur bahuśruto dṛṣṭāntā
+            6 bhidhyāyī veti tad apy akāraṇaṃ sarvathā adhyātmam eva cintaya parān sukathitaiḥ
+            samārirādhayiṣu tūṣṇīṃ bhava saṃprati hi
+            v1 praviralatidvajjano lokaḥ yatnād api vasuvipulaṃ yaśo 'pi nirviṣṭam eṣyati vināśaṃ
+            sarvaṃ hi saṃskṛtam anitya
+            2 m ity abhihitaṃ daśabalena traividyās trimalaprahīṇamanasas traikālyanidhyāyino
+            gaṃgātīravikīrṇasūkṣmasikatā
+            3 saṃkhyā bṛhatkīrtayaḥ buddhās tāvad anityatāsvabhihatā naṣṭāḥ svayaṃ nāmabhiḥ śreyasy
+            eva ghaṭasya niścitamanās tya
+            4 ktvā yaśaḥprārthanāṃ / tataḥ sa śrutābhirato bhikṣur uvāca eṣa eva vyāyamiṣyāmīty
+            athācirāt prāṇoparo
+            5 dhinā mahatā rogeṇākrāntaḥ / maraṇabhayasantrāsitaś cāha hā kaṣṭaṃ kim idānīṃ mayā
+            svākhyāte dharmavinaye pravra
+            6 jitvā kṛtaṃ tat śīlaśrutayuktasyāpy anadhigatatvād ihāryasatyānāṃ sva ^ _ _ na bhaviṣyati
+            mama ca śunāṃ ca prativi<span class="it">śeṣaḥ</span></p>
+         
+         
+         <p>KalpM : IDP SHT 638v
+            IV
+            r1 /// + + + + + + + + + + + + + _ _ _ ^ ^ _ tha _ ^ ^ ^ _ _ _ ^ _ _ ^ _ _ _ _ ^ ^
+            _ ^
+            2 _ ^ ^ ^ _ _ _ ^ _ _ ^ _ _ _ _ nn iva vāndhavā kar<span class="it">u</span>ṇayā dṛṣṭyā di _ _ ^ _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _
+            3 _ _ ^ _ _ ^ _ _ _ _ ^ ^ bhiḥ karais sakaruṇaṃ dīnair naraiḥ saṃjñi _ _ _ _ ^ ^ _
+            ^ _ ^ ^ ^ _ _ _ ^ _ _
+            4 ^ _ _ _ _ ^ ^ t. ś cito 'pi vibhavair yukto 'pi tasmin kṣaṇe / śaktaḥ pathya ^ _
+            ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ _ _
+            5 _ ^ ^ _ ^ _ ^ ^ ^ _ syākṣipyamāṇāyuṣo dīpasyeva niśāvasānasamaye _ _ ^ _ _ ^ _ _
+            _ _ ^ ^ _ ^ _
+            6 ^ ^ ^ _ _ _ ^ _ _ ^ ve tasmād yāvad anāgatas sa samayas tāvat pradānakṣaṇaḥ .. ///</p>
+         
+         
+         <p>v1 /// + .āyo 'stīti pradānam abhyasyanti pretya vighātabhīravaḥ ta .. ///</p>
+         
+         
+         <p>2 /// + rthaṃ saṃkrāmayiṣyāmīti sa na kasyacid ātmābhiprāyam a + + ///</p>
+         
+         
+         <p>3 /// m e<span class="it">v</span>a veśe sthāpitavān yadi kaścid dhanam ādāya gaccha<span class="it">t</span>i + + + ///</p>
+         
+         
+         <p>4 /// + .. .. jagāma vidhavāyaś ca striyā ekaputrakaḥ sa .. + + + ///</p>
+         
+         
+         <p>5 /// + + + n* sa mātrābhihitaḥ kuta idā<span class="it">n</span>īṃ .. + + + ///</p>
+         
+         
+         <p>6 /// + + + .. .īṃ .. + + + + gṛhyatām i + + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 638w
+            V
+            r1 _ _ _ _ _ _ <span class="it">p</span>ṛthagjanatvaṃ te kim idānīm iha bhūyaḥ sva ^ _ _ _ ^ rān hasasi _ _ _ _ _ _ _
+            2 _ _ _ ^ _ ^ _ _ smān ko jānīte bhikṣo kā nu bhaviṣyaty avasthā te tiṣṭhatsu hṛdi
+            kleśeṣv agni _ _ ^ _ ^ _ _
+            3 _ _ _ _ _ _ rṣaṃ hrīmān asmīti kaḥ kuryāt hrīmān sa yaḥ praviśatīha na dṛṣṭijālaṃ
+            hrīm<span class="it">ān</span>. _ ^
+            4 ^ ^ _ ^ ^ _ ^ _ .ān <span class="it">ā</span>cchādito 'pi vahubhir vasanaiḥ sadoṣo hrīmān iti vrajati naiva tu _ ^ _ _
+            5 /// + + + + + + + lomaṃ vacanam upaśrutyānyataro bhikṣur uvāca / samyag āhātrabhav<span class="it">ān</span>. + +
+            6 /// + + + + + + + gacchati / na liṃgagrahaṇamātreṇa kutaḥ kleśaprahāṇavirahād ya
+            ^ _ ^
+            v1 _ _ _ _ ^ _ ^ ^ ^ _ ^ ^ _ ^ _ _ śakyaṃ naṭair api hi veṣaviśeṣa eva kartuṃ na tena
+            tu kṛtena bhave ^ _ _ ///</p>
+         
+         
+         <p>2 /// + + + + + + + + labhā tena caturāryasatyapratibodhāya prayatitavyaṃ evaṃ hy
+            āha ///</p>
+         
+         
+         <p>3 /// .. .. + + + ..ḥ pudgala ito bahirdhānyaṃ śāstāraṃ paryeṣeti // // alpam a ///</p>
+         
+         
+         <p>4 /// + tra vairāgyapadasthāma bhūtam iti na manojñadarśanād viṣīditavyaṃ tadyathāsthi
+            ///</p>
+         
+         
+         <p>5 /// + svakalpanālaṅkṛto 'smābhir evam abhidhīyamānaḥ śobheta / tadyathānuśrūyate
+            / .. ///</p>
+         
+         
+         <p>6 /// bhijño yuktamuktapratibhānaḥ svasamayaparasamayajñaḥ praśnapratip<span class="it">ra</span>ś<span class="it">na</span> + + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 638x
+            VI
+            r1 /// + + + + + + + .. vāsthiśaṅkalākuṭikāṃ pralambahṛdayaklomakāṃ rajjukhaṇḍāvavaddhava
+            + ///</p>
+         
+         
+         <p>2 /// + + + + .. riṇīm iva varccaḥkuṭim avekṣya / vaktāraṃ cāsādya prāha mā tāvad
+            bhoḥ śūnyā _ _
+            3 _ _ _ _ _ _ ^ _ ^ _ <span class="it">śa</span>bdaḥ naḍavanavimathana _ _ pravṛtta iva vāyunirghoṣaḥ neyaṃ strī nātra strī
+            4 _ ^ _ _ _ _ _ _ d. katham api kim api samutthāpitaṃ kapaṭaṃ / unnamati namati tiṣṭhaty
+            ākuṃca ^ _ ^
+            5 _ ^ _ _ _ _ _ _ _ kathayati / na cātra kartāsti kaścid api / māyeyaṃ yantram idaṃ
+            cittabhramajo mamaiṣa sa ^ _ _ _
+            6 _ _ _ _ _ _ _ _ _ sya kiṃ caitat praviralaśithilās<span class="it">th</span>isnāyunaddhaṃ karaṅkaṃ naḍamayam iva yantraṃ naikas<span class="it">ūtr</span>. ^ _ _ ^ ^
+            v1 ^ ^ ^ ^ _ _ _ ^ _ _ tvam etat jvalitam iva su<span class="it">varṇaṃ vā</span>riṇā sicyamānaṃ / tataḥ stha<span class="it">v</span>i<span class="it">raḥ</span> saṃve .i + + ///</p>
+         
+         
+         <p>2 /// <span class="it">dā</span>rikām uvāca / brūhi putrake kas te manorathaḥ kiṃ kriyatām iti sā prāha / bhadanta
+            im. ///</p>
+         
+         
+         <p>3 /// + .. // sthūlaśirasaḥ kila purā śāpād vaḍavatvaṃ āgatā rambhā śāpānubandhaha
+            ^ _ _ _
+            4 _ _ ^ _ _ _ _ _ _ _ _ ga prasīda kuru mayi dayām udāramate lokeṣv adṛṣṭapūrvaḥ śāpaḥ
+            saṃ _ ^ _
+            5 _ _ /// + + + + + uttiṣṭha bhadre nirmanyu me me hṛdayaṃ sadā ayaṃ ca veṣaḥ śāpaś
+            ca viruddha i<span class="it">t</span>i _ ^ _
+            6 _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ .. te kāryākāryavimūḍhas tu tataḥ śāpaṃ prayacchati
+            / vītarāgā jitakrodhāḥ .i _ _ _ ^</p>
+         
+         
+         <p>KalpM : IDP SHT 638y
+            VII
+            r1 /// + + + + + + + + + + .. ..
+            2 /// + + + + .. <span class="it">sa</span>myakcchrutipratibandho
+            3 /// + <span class="it">tak</span>ṣ<span class="it">a</span>śilāyāṃ rājā kaścid vidvatpu
+            4 /// + + sa<span class="it">ṃ</span>krāntisūtraṃ bhāṣitaṃ / bālo
+            5 /// + va yathābhūtaṃ na prajānātīti vista
+            6 /// baddha eva jāyate baddho mriyate va
+            v1 /// <span class="it">rā</span>jñā bandhanamokṣaḥ samājñāptas tasya su
+            2 /// + kā me vṛddhir na mukto 'haṃ baddha eva tu kha
+            3 ^ _ _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ ^ _ _ _ r badhvā sarve pṛthagjanāḥ baddhā
+            eva ca
+            4 _ _ _ _ _ _ _ ^ _ ^ _ _ _ _ _ ^ _ _ _ _ _ _ _ ^ _ ^ _ _ p. śrotre nipatitaṃ sarvajñasya
+            su
+            5 _ ^ _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ _ tāni
+            ca / asmād bandhanavipra
+            6 _ ^ ^ ^ _ _ _ ^ _ _ ^ _ _ _ _ ^ ^ _ ^ _ ^ ^ ^ _ _ _ ^ ^ ^ _ _ _ ^ _ _ ^ _ /// +
+            + + + + + + + + .. .. padhāyā</p>
+         
+         
+         <p>KalpM : IDP SHT 638z
+            VIII
+            r1 /// <span class="it">bhagavān uvāca</span> _ _ <span class="it">r nai</span>vāsti bhayaṃ trailokyasamā<span class="it">śr</span>i<span class="it">tād api viṣānnāt karuṇāmahāgadena hy anulipt</span>. me tṛ
+            2 _ _ _ _ _ _ _ _ _ _ _ _ mūlam uddhṛtaṃ yena kiṃ nā<span class="it">ma bha</span> _ _ _ _ _ _ _ <span class="it">jinaṃ vi</span> ^ _ <span class="it">atha bhagavā</span>n <span class="it">ve</span>ṇuvanān ni
+            3 /// ś ca devatāḥ .e + + /// <span class="it">bhaga</span>vān veṇuva
+            v4 /// rveṇa bhagavā .. /// .. sinīva
+            5 /// hā kaṣṭam ayaṃ sa bhagavā .. /// .. yāḥ mā
+            6 /// .. taḥ pādayor nipatya prā<span class="it">ha</span> /// + .. ṇi</p>
+         
+         
+         <p>KalpM : IDP SHT 638aa
+            IX
+            r1 /// ..ḥ praruditās tāś cāśru .. + + + ///</p>
+         
+         
+         <p>2 /// + m upasaṃkrāntāḥ mahāpraj<span class="it">āpatī</span> ///</p>
+         
+         
+         <p>3 /// + + + <span class="it">bhi</span>kṣuṇyapāśrayativ. + ///</p>
+         
+         
+         <p>4 /// + <span class="it">mahāpra</span>jāpatyā saha niṣkrā .. ///</p>
+         
+         
+         <p>5 /// + + + + + + m apahāya duḥkhi + ///</p>
+         
+         
+         <p>6 /// + + <span class="it">mahāprajā</span>patī gautamī .i ///</p>
+         
+         
+         <p>v1 /// + + + + + + + ..bhikṣuṇyapāśr<span class="it">aya</span> ///</p>
+         
+         
+         <p>2 /// + + + + + + ha paścimam idaṃ me + ///</p>
+         
+         
+         <p>3 /// + + + + mi nirvāṇam iti // .. + ///</p>
+         
+         
+         <p>4 /// + + + + ṇanaśūnyatvam āga .. + ///</p>
+         
+         
+         <p>5 /// ..ḥ paṃcabhir vrajaty āryaḥ .. .. + ///</p>
+         
+         
+         <p>6 /// upāsikānāṃ śatāny abhi + + + ///</p>
+         
+         
+         <p>KalpM : IDP SHT 638bb
+            X
+            r5 /// + + + .. + himādrer iva
+            6 /// .. ty ucchrite mahati pāṇḍa
+            v1 /// .. r avacchāditaśaradhanur la
+            2 /// + + + to yāsyāva puru</p>
+         
+         
+         <p>KalpM : IDP SHT 638cc, Bl. 41<span class="it">9</span>
+            XI
+            r1 ^ _ samavāpya _ _ _ _ ^ _ ^ ^ ^ _ <span class="it">pa</span>rimocayeyam i + ///</p>
+         
+         
+         <p>2 + .. hi jaga .i + + /// + cittam anekeṣu ja ///</p>
+         
+         
+         <p>3 .. + sāphalyā .. .. + /// + .. nārtham āha / + ///</p>
+         
+         
+         <p>4 dānādhikāre vaktavyaṃ .. /// + h. .. + + + ///</p>
+         
+         
+         <p>5 kārikeṣ<span class="it">u</span> ca sūtreṣū + /// + + + + + + + + ///</p>
+         
+         
+         <p>6 tmāno vo .. + + + + /// + + + + + + + + ///</p>
+         
+         
+         <p>v1 n bodhisatvo + + + /// + + + + + + + + + + ///</p>
+         
+         
+         <p>2 m eva mṛgaśatānām u /// + + + + + + + + + + ///</p>
+         
+         
+         <p>3 nagaryāṃ brahmadatto /// + + + .. .ṛ .. + + + + ///</p>
+         
+         
+         <p>4 .. mṛgayūthapatīn i /// + + .. vaḥ pradeśaḥ + + ///</p>
+         
+         
+         <p>5 + .. s sarāṇ. + + + /// <span class="it">bodhisa</span>tvasya matir utpann<span class="it">ā</span> ///</p>
+         
+         
+         <p>6 + .ā yogakṣe<span class="it">m</span>. + /// + + m <span class="it">e</span>va taṃ rājānam u .. ///</p>
+         
+         
+         <p>KalpM : IDP SHT 638dd, Bl. 421
+            XII
+            r1 bhūteṣu vatsalatām upadarśayantīti / tato yena bodhisatvaḥ tenopetya ubh<span class="it">e</span> jānumaṇḍale śiraś ca .. + .. .. .. + + +
+            2 anāthāyā hi me nātho bhava tvaṃ mṛgapuṅgava / suvistīrṇo 'pi loko 'yaṃ bhayāt saṃkucatīva
+            me / prasīda vyasana _ _ _ _
+            3 janam ihoddhara āśā me tvayi nānyatra tvaṃ hi bhūtahite rataḥ tvatprasādān na tatrādya
+            gaccheyaṃ gurviṇī satī / anta<span class="it">rga</span>
+            4 rbhapraviṣṭo 'yaṃ rakṣyatāṃ śaraṇāgataḥ atha bodhisatvas tāṃ mṛgīm uvāca kiṃ niveditas
+            tvayāyaṃ vṛttāntaḥ svasya <span class="it">yūthapa</span>
+            5 ter iti / sā prāha nivedita iti / bodhisatvaḥ prāha kim āha tatrabhavān iti mṛgī
+            prāha / nirbhartsitāsmi khalu tena <span class="it">dayā</span>
+            6 m apāsya ga<span class="it">ccha</span>t<span class="it">va</span>m eva lagh<span class="it">u</span> ceti visarjitāsmi / sāhaṃ bhavantam abhayapradam abhyupetā tasmāt tathā kuru yath<span class="it">ā</span> ^ ^ _
+            v1 ^ _ ḥ syāt <span class="it">/ bo</span>dhisatvaḥ <span class="it">prā</span>ha yady evam alaṃ bhayena gaccha tvam aham atra prāptakālam anuṣṭhāsyāmīti / atha
+            sā mṛ<span class="it">gī</span> + + +
+            2 kīrṇamukhī svaṃ yūtham abhigatā gatāyāṃ ca tasyāṃ mṛgyāṃ bodhisatvaś cintayāmāsa
+            kam idānīm ahaṃ vakṣyāmi gaccha tvam. .. + +
+            3 kāla iti / athavā svayam eva pravekṣyāmi tasya rājño mahānasam // kṛtsnaṃ hi jagad
+            uddiśya bodhau me praṇidhiḥ <span class="it">kṛtaḥ</span>
+            4 majjīvitena yadi kuntapipīlako 'pi prāṇāṃ labheta mahati vyasane nimagnaḥ svaṃ jīvitaṃ
+            tṛṇava<span class="it">d e</span>
+            5 kapade tyajeyam icchāmi jīvitam ahaṃ hi jagaddhitārthaṃ / atha bodhisatvaḥ svaṃ
+            mṛgayūtham upetyāha yad asmābhir a<span class="it">parāddhaṃ</span>
+            6 syāt tat kṣantavyaṃ yāsyāmy aham anyasya janasya prāṇāvekṣayā rājño mahānasaṃ pravekṣyāīti
+            tatas te m<span class="it">ṛgā</span>ḥ sodvi</p>
+         
+         
+         <p>KalpM : IDP SHT 638ee, Bl. 4<span class="it">2</span>2; original missing
+            XIII
+            r1 huḥ tiṣṭha tvam. ///</p>
+         
+         
+         <p>2 na cātra mama vi ///</p>
+         
+         
+         <p>3 ddh<span class="it">i</span>r dhruvaṃ rna kṣayaḥ ///</p>
+         
+         
+         <p>4 jaṃ viṣādaṃ katham a ///</p>
+         
+         
+         <p>5 sarva eva bodhisatv. ///</p>
+         
+         
+         <p>6 ...... nubaddhāḥ a ///</p>
+         
+         
+         <p>v1 .. <span class="it">ma</span>hānasaṃ pravi ///</p>
+         
+         
+         <p>2 prāha kim etad ava ///</p>
+         
+         
+         <p>3 mṛgakulam api ///</p>
+         
+         
+         <p>4 kṣitavya iti ///</p>
+         
+         
+         <p>5 rasya śakto ///</p>
+         
+         
+         <p>6 me vinaṣṭā .i ///</p>
+         
+         
+         
+         
+         
+         <p>Manuscript 3: SHT 1015</p>
+         
+         
+         <p>A1 /// t. c(e)tasi na kleśak. ///</p>
+         
+         
+         <p>2 /// hy ayaṃ vatsa 6 ///</p>
+         
+         
+         <p>3 /// yayor aślā(gh). ///</p>
+         
+         
+         <p>4 /// tīti 8 // // ///</p>
+         
+         
+         <p>5 /// (pṛ)thivīśvare ///</p>
+         
+         
+         <p>B1 /// .. ś. .. .. ///</p>
+         
+         
+         <p>2 /// saṃghasthaviraḥ pro(kt). ///</p>
+         
+         
+         <p>3 /// mitaṃ caitat pra ///</p>
+         
+         
+         <p>4 /// rmam avidyāndhaḥ pṛthi(vīśvare) ///</p>
+         
+         
+         <p>5 /// .. .. śīlena s. ///</p>
+         
+         
+         
+         
+         
+         <p>Manuscript 4: ed. Hori 2011</p>
+         
+         
+         <p>4.1. SI 2Kr/9.4
+            r1 ṇa nagaram āgatāḥ anyatamaś ceśvaraḥ śrīsobhāgyavibhavarūpakāntidyutiranvito mahājanakrtā
+            .. ///</p>
+         
+         
+         <p>2 kāntena veṣeṇā ti sma atha yas teṣāṃ grāmavāsināṃ vidvatsammataḥ puruṣaḥ sa tam
+            īśvaram avekṣ. + ///</p>
+         
+         
+         <p>3 hāyair anuyuktaḥ kim atrabhavato na sādhv iti  sa prāha na khalu mayātrabhavato
+            'bhihitaṃ + + ///</p>
+         
+         
+         <p>4 nuṣyatvam āgato na cānena vidhināgata ity ataḥ sa pumṣaḥ prāha tyaktapram. + + +
+            ///</p>
+         
+         
+         <p>5 sādhv iti kathaṃ nv avadhūya lajjām* ātmanam eva tu na sādhv iti codayāmi yan nāgato
+            'smi .. + + ///</p>
+         
+         
+         <p>6 tad ahaṃ nirīkṣya kṛpaṇaṃ pūrvapramādakṣataṃ tat kārtāsmi śamapradānaniyamair adya
+            prabhṛty udyat. + + ///</p>
+         
+         
+         <p>v1 punar jātasya vā me ṣato rūpārogyakulapubhāpavibhavabhraṃśo na nirbhetsyati / āhāśa
+            .. + ///</p>
+         
+         
+         <p>2 vanānyaḥ pumān pāpe karmavidhau sthitaś ca hi naro naṣṭaṃ ca sarvaṃ śubhaṃ śreyasy
+            udyatacet. + ///</p>
+         
+         
+         <p>3 śubhaiḥ saty evaṃ nanu bhoḥ śubhāśubham iha prāpnoti lokaḥ svataḥ yadi prā + + ///</p>
+         
+         
+         <p>4 dṛḍhā prāyāsyāmi kṣemāṃ diśam ṛṣivaroktena vidhinā viśālaśrīlubdhā + + + ///</p>
+         
+         
+         <p>5 syārthe śubham iha kariṣye bahuvidhaṃ ālekhya doṣayuktaṃ puruṣa iha yathā kṛtvā
+            madava + ///</p>
+         
+         
+         <p>6 yati ca śubhaṃ citraṃ gatamadaḥ mohakṣībena tadvad yadi dahanasukṛtaṃ dehe khalu
+            mayā tat sa ///</p>
+         
+         
+         <p>4.2. SI P/152.2
+            r1 /// + .. .ūtātmano līnaḥ sarpa ivātr. ///</p>
+         
+         
+         <p>2 /// m apavargasukhaṃ cāhavatīti mokṣaṇ. ///</p>
+         
+         
+         <p>3 /// + m atha saṃghasthaviraḥ kena cit* bhikṣuṇ. ///</p>
+         
+         
+         <p>4 /// + + + .. sādhu sādhu dānapate + + ///</p>
+         
+         
+         <p>v3 /// + + + + .. .r. h.+ + .ādv.+ + + ///</p>
+         
+         
+         <p>4 /// + kṣāya praṇe dhānena duḥkha + + ///</p>
+         
+         
+         <p>5 /// .. labhate śālūkam ante ca tat* tacc. ///</p>
+         
+         
+         <p>6 /// śālūkavad iti  tasmāc chīlasah. ///</p>
+         
+         
+         
+         
+         
+         <p>Manuscript 5: all three fragments belong to one manuscript</p>
+         
+         
+         <p>5.1: Or.15010/130; ed. Karashima 2009
+            ru /// + + + + + + + + + + + + + .. 9 + ///</p>
+         
+         
+         <p>v /// + + + + .. bhikṣus tena maṇikārena pīḍya ///</p>
+         
+         
+         <p>w /// + + + ś ca taṃ bhikṣum uvāca / aham api tav. ///</p>
+         
+         
+         <p>x /// + + .. ñ caiva karmeṇa : pāpāt* lobhaṃ hi dṛ .. ///</p>
+         
+         
+         <p>y /// tu bhadramukhaḥ <span class="it">2</span>1 lobho 'sti me yaśasi sādhu<span class="it">jana</span> praśa .. e ///</p>
+         
+         
+         <p>z /// .. ma saumya maṇau tvadīye 23 bhaikṣavṛt<span class="it">t</span>iḥ <span class="it">pā</span>nsukūlaṃ ///</p>
+         
+         
+         <p>v1 /// t* 24 atha sa maṇikāro 'rthavaśād dharma .. ///</p>
+         
+         
+         <p>2 /// s. kāyāś ca śoṇitam āgataṃ sa ca krauñca śoṇita + dyanya .. ///</p>
+         
+         
+         <p>3 /// <span class="it">bhi</span>k<span class="it">ṣu</span>s taṃ maṇikāram uvāca bhadramukha jñ. ///</p>
+         
+         
+         <p>4 /// + + tena parīkṣyoktam uparataprāṇo 'yam i + ///</p>
+         
+         
+         <p>5 + + .. .ā .. y aś<span class="it">ru</span>p<span class="it">a</span>r<span class="it">yāku</span>lekṣaṇaḥ ///</p>
+         
+         
+         <p>6 /// + + + + + + + + + + + + + .. mi + ///</p>
+         
+         
+         <p>5.2: IOL San 761; ed. Wille 2005, fragment 68
+            r1 /// + .. r. .. .. cā mā bhu .. + + yā tā mi + 5 sth. n. c. pare kṣa .. + ///</p>
+         
+         
+         <p>2 /// .. kī puṇyavivṛddhi ne ś. .. .. + .. naimittik. n tarhi maraṇonmukho + ///</p>
+         
+         
+         <p>3 /// + .. .i .. ..ṃ m. .. .. svastho vā sṛjati niyataṃ vindati phalam* a ///</p>
+         
+         
+         <p>4 /// + + + + + + + .. .. kālātītaśmaśrur ākulavilambaveṣṭanaḥ sne<span class="it">ha</span> ///</p>
+         
+         
+         <p>5 /// + + + + + + + + + + + d. ś. .. rdinavadanaḥ śvāsapradhvā pr. .. ///</p>
+         
+         
+         <p>6 /// + + + + + + + + + + + + + + + .āyād asārādita .. + + ///</p>
+         
+         
+         <p>vu /// + + + + + + + + + + + + .. yādya prayacchāmy e + + ///</p>
+         
+         
+         <p>v /// + + + + + + + + + .. l. .. bhaktimahato yady asti ten. ///</p>
+         
+         
+         <p>w /// + + + + + + .. .y. d. yitvā samīpasaṃsthaṃ puruṣam āhūya prati ///</p>
+         
+         
+         <p>x /// .. .. y. m. .. ścima vyāpāraḥ gaccha kukūṭārāmaṃ gatvā madvaca .. ///</p>
+         
+         
+         <p>y /// rasyāśokasya rajña .. .. + .. ma vibh<span class="it">a</span>v<span class="it">a</span>ḥ // tathā niyujyat. ///</p>
+         
+         
+         <p>z /// .. ṣās. .eva rājñaḥ <span class="it">pratiśrut</span>v<span class="it">ā</span> tad ardh<span class="it">āma</span>l<span class="it">a</span>k<span class="it">a</span>m ā<span class="it">d</span>āya ku .. ///</p>
+         
+         
+         <p>5.3 IOL San 1242; not yet edited (transliteration K. Wille)
+            rx /// .. bhadra pūrvvaguṇā ///; cf. Divy 431.17f.
+            y /// kam idaṃ dīyataṃ .. ///</p>
+         
+         
+         <p>z /// yathā saṃghagatā me ///; cf. KalpM 103r1 = Divy 432.2
+            v1 /// hāmut. ca tvaṃ hi .. .. ///</p>
+         
+         
+         <p>2 /// .. nti na vyadhitasya .. ///</p>
+         
+         
+         <p>3 /// .. viṣṇu ta bhavati ca .. .. ///</p>
+         
+         
+         </div>
+   </body>
+</html>

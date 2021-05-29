@@ -1,0 +1,1538 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Rāmodanta (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Rāmodanta</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_rAmodanta.xml">sa_rAmodanta.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Christophe Vielle</p>
+      <p class="noindent"><b>Contribution: </b>Christophe Vielle</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/5_poetry/2_kavya/ramodtau.htm">ramodtau.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Ramodanta
+            <br />
+            <br />Input by Christophe Vielle
+            <br />
+            <br />TEXT WITH PADA MARKERS
+            <br />
+            <br />STRUCTURE OF REFERENCES
+            <br />RmUD_nn*n.nn = Rāmodanta_verse-number of Thrissur-ed.*kāṇḍa.verse of Palghat ed.
+            <br />
+            <br />CONTRIBUTOR'S NOTE:
+            <br />The Rāmodanta, an anonymous work of unknown date, is a short poetic rendering of the
+            Rāma epics which was traditionally read by beginners in Sanskrit throughout South
+            India (e.g. in Kerala). The present transliterated edition is mainly based on the
+            text of the following edition in Malayāḷam script:
+            <br />-- Siddharūpaṃ, Bālaprabodhaṃ, Samāsacakraṃ, vyākhyānavuṃ Śrīrāmodantavuṃ, ed. Si.
+            Vi. Raviśarmma Rājāvu [C.V. Ravisarma Raja], Thrissur: Kerala Sahitya Akademi, 2010
+            (19481).
+            <br />According to the kaṭapayādi system of writing the numbers, the last word of the work
+            (cinmayaḥ = 6 5 1) indicates that the original number of verses must have been 156,
+            which is the precise number of verses in the Thrissur edition. Close to the text of
+            this edition is the text (in 153 ślokas only) provided by the following two editions
+            here also used:
+            <br />-- Śrīrāmodantaṃ (samīkṣā vyākhyānaṃ), ed. Ḍo. Pūvattūr Rāmakṛṣṇa Piḷḷa [Dr. Poovattor
+            Ramakrishna Pillai], Thiruvananthapuram - Kottayam: National Book Stall, 1990 [in
+            Malayāḷam script];
+            <br />-- K.P.A. Menon, Nine Gems of Sanskrit Literature, vol. 3, Delhi: Nag Publishers,
+            1996, pp. 150-210 [in Devanāgarī script, with an English translation].
+            <br />There exists another, rather different, version of the same work, which presents a
+            longer text (due to a single passage of more than 50 additional or variant verses)
+            divided into seven kāṇḍas. According to a quick check of a few available manuscripts
+            of the work, it appears that both the kāṇḍa-division and the rewritten and expanded
+            passage occurring within the 6th kāṇḍa, are recent, possibly made by one of the first
+            editors. This interpolated version of the text is represented by the following popular
+            edition:
+            <br />-- Śrīrāmodantam | lalitaṭippaṇyādisametam | Sriramodanta: A Simple Sanskrit Poetry
+            Text, with exhaustive-notes, valuable grammatical instructions and model questions,
+            edited with foot-notes by L. Anantarama Sastri, Kalpathi (Palghat): R.S. Vadhyar &amp;
+            Sons, 11nd rev. ed. 1982, repr. 2006 [199 ślokas, in Devanāgarī script].
+            <br />Two parallel editions in e-book form have been made available on-line, which present
+            the same text as the one of the Palghat edition, viz. represent also the expanded
+            version with the kāṇḍa-division:
+            <br />-- Śrīrāmodantam | Story of Sri Rama (Sanskrit text and English Translation), E-book
+            published by http://hinduebooks.blogspot.com, July 2010 [in Devanāgarī script];
+            <br />-- Śrīrāmodantaṃ (arthasahitaṃ), E-book published by http://malayalamebooks.org, July
+            2010 [in Malayāḷam script].
+            <br />It was not possible for preparing the present edition to check several earlier listed
+            editions such the ones published at the Venkateswara Sastrulu/Vavilla Press or at
+            the Sri Balamanorama Press, Madras. The double numbering of the verses here used allows
+            to have the numbers of the verses according to both versions (the second one being
+            introduced by the sign *). The additional lines or verses from the secondary version
+            are the indented ones with the * reference only. The verses without the sign * are
+            the ones found only in the first version. [Christophe Vielle]
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <h3>śrīrāmodantam |</h3>
+         
+         
+         <p id="RmUD_*1.">atha bālakāṇḍaḥ || <span class="ref">(RmUD_*1.)</span></p>
+         
+         
+         
+         <p id="RmUD_1*">
+            śrīpatiṃ praṇipatyāhaṃ śrīvatsāṅkitavakṣasam <br />
+            śrīrāmodantam ākhyāsye śrīvālmīkiprakīrtitam //
+             <span class="ref">RmUD_1*</span></p>
+         
+         
+         <p id="RmUD_2*">
+            purā viśravasaḥ putro rāvaṇo nāma rākṣasaḥ <br />
+            āsīd asyānujau cāstāṃ kumbhakarṇavibhīṣaṇau //
+             <span class="ref">RmUD_2*</span></p>
+         
+         
+         <p id="RmUD_3*">
+            te tu tīvreṇa tapasā pratyakṣīkṛtya vedhasam <br />
+            vavrire ca varān iṣṭān asmād āśritavatsalāt //
+             <span class="ref">RmUD_3*</span></p>
+         
+         
+         <p id="RmUD_4*">
+            rāvaṇo mānuṣād anyair avadhyatvaṃ tathānujaḥ <br />
+            nirdevatvecchayā nidrāṃ kumbhakarṇo 'vṛṇīta ca //
+             <span class="ref">RmUD_4*</span></p>
+         
+         
+         <p id="RmUD_5*">
+            vibhīṣaṇo viṣṇubhaktiṃ vavre sattvaguṇānvitaḥ <br />
+            tebhya etān varān dattvā tatraivāntardadhe prabhuḥ //
+             <span class="ref">RmUD_5*</span></p>
+         
+         
+         <p id="RmUD_6*">
+            rāvaṇas tu tato gatvā raṇe jitvā dhanādhipam <br />
+            laṅkāpurīṃ puṣpakaṃ ca hṛtvā tatrāvasat sukham //
+             <span class="ref">RmUD_6*</span></p>
+         
+         
+         <p id="RmUD_*7">
+            yātudhānās tataḥ sarve rasātalanivāsinaḥ <br />
+            daśānanaṃ samāśritya laṅkāyāṃ sukham āvasan //
+             <span class="ref">RmUD_*7</span></p>
+         
+         
+         <p id="RmUD_8*">
+            mandodarīṃ mayasutāṃ pariṇīya daśānanaḥ <br />
+            tasyām utpādayām āsa meghanādāhvayaṃ sutam //
+             <span class="ref">RmUD_8*</span></p>
+         
+         
+         <p id="RmUD_9*">
+            rasāṃ rasātalaṃ caiva vijitya sa tu rāvaṇaḥ <br />
+            lokān ākramayan sarvāñ jahāra ca vilāsinīḥ //
+             <span class="ref">RmUD_9*</span></p>
+         
+         
+         <p id="RmUD_10*">
+            dūṣayan vaidikaṃ karma dvijān ardayati sma saḥ <br />
+            ātmajenānvito yuddhe vāsavaṃ cāpy apīḍayat //
+             <span class="ref">RmUD_10*</span></p>
+         
+         
+         <p id="RmUD_11*">
+            tadīyataruratnāni punar ānāyya kiṅkaraiḥ <br />
+            sthāpayitvā tu laṅkāyām avasac ca cirāya saḥ //
+             <span class="ref">RmUD_11*</span></p>
+         
+         
+         <p id="RmUD_12*">
+            tatas tasminn avasare vidhātāraṃ divaukasaḥ <br />
+            upagamyocire sarvaṃ rāvaṇasya viceṣṭitam //
+             <span class="ref">RmUD_12*</span></p>
+         
+         
+         <p id="RmUD_13*">
+            tad ākarṇya suraiḥ sākaṃ prāpya dugdhodadhes taṭam <br />
+            tuṣṭāva ca hṛṣīkeśaṃ vidhātā vividhaiḥ stavaiḥ //
+             <span class="ref">RmUD_13*</span></p>
+         
+         
+         <p id="RmUD_14*">
+            āvirbhūyātha daityāriḥ papraccha ca pitāmaham <br />
+            kim artham āgato 'si tvaṃ sākaṃ devagaṇair iti //
+             <span class="ref">RmUD_14*</span></p>
+         
+         
+         <p id="RmUD_15*">
+            tato daśānanāt pīḍām ajas tasmai nyavedayat <br />
+            tac chrutvovāca dhātāraṃ harṣayan viṣṭaraśravāḥ //
+             <span class="ref">RmUD_15*</span></p>
+         
+         
+         <p id="RmUD_16*">
+            alaṃ bhayenātmayone gaccha devagaṇaiḥ saha <br />
+            ahaṃ dāśarathir bhūtvā haniṣyāmi daśānanam //
+             <span class="ref">RmUD_16*</span></p>
+         
+         
+         <p id="RmUD_1*7">
+            ātmāṃśaiś ca surāḥ sarve bhūmau vānararūpiṇaḥ <br />
+            jāyeran mama sāhāyyaṃ kartuṃ rāvaṇanigrahe //
+             <span class="ref">RmUD_1*7</span></p>
+         
+         
+         <p id="RmUD_18*">
+            evam uktvā vidhātāraṃ tatraivāntardadhe prabhuḥ <br />
+            padmayonis tu gīrvāṇaiḥ samaṃ prāyāt prahṛṣṭadhīḥ //
+             <span class="ref">RmUD_18*</span></p>
+         
+         
+         <p id="RmUD_19*">
+            ajījanat tataḥ śakro vālinaṃ nāma vānaram <br />
+            sugrīvam api mārtāṇḍo hanumantaṃ ca mārutaḥ //
+             <span class="ref">RmUD_19*</span></p>
+         
+         
+         <p id="RmUD_20*">
+            puraiva janayām āsa jāmbavantaṃ ca padmajaḥ <br />
+            evam anye ca vibudhāḥ kapīn ajanayan bahūn //
+             <span class="ref">RmUD_20*</span></p>
+         
+         
+         <p id="RmUD_21*">
+            tato vānarasaṃghānāṃ vālī parivṛḍho 'bhavat <br />
+            amībhir akhilaiḥ sākaṃ kiṣkindhām adhyuvāsa ca //
+             <span class="ref">RmUD_21*</span></p>
+         
+         
+         <p id="RmUD_22*">
+            āsīd daśaratho nāma sūryavaṃśe 'tha pārthivaḥ <br />
+            bhāryās tisro 'pi labdhvāsau tāsu lebhe na saṃtatim //
+             <span class="ref">RmUD_22*</span></p>
+         
+         
+         <p id="RmUD_23*">
+            tataḥ sumantravacanād ṛṣyaśṛṅgaṃ sa bhūpatiḥ <br />
+            ānīya putrakāmeṣṭim ārebhe sapurohitaḥ //
+             <span class="ref">RmUD_23*</span></p>
+         
+         
+         <p id="RmUD_24*">
+            athāgner utthitaḥ kaś cid gṛhītvā pāyasaṃ carum <br />
+            etat prāśaya patnīs tvam ity uktvādān nṛpāya saḥ //
+             <span class="ref">RmUD_24*</span></p>
+         
+         
+         <p id="RmUD_25*">
+            tad gṛhītvā tadaivāsau patnīḥ prāśayad utsukaḥ <br />
+            tāś ca tatprāśanād eva nṛpād garbham adhārayan //
+             <span class="ref">RmUD_25*</span></p>
+         
+         
+         <p id="RmUD_26*">
+            pūrṇe kāle 'tha kausalyā sajjanāmbhojabhāskaram <br />
+            ajījanad rāmacandraṃ kaikeyī bharataṃ tathā //
+             <span class="ref">RmUD_26*</span></p>
+         
+         
+         <p id="RmUD_2*7">
+            tato lakṣmaṇaśatrughnau sumitrājījanat sutau <br />
+            akārayat pitā teṣāṃ jātakarmādikaṃ dvijaiḥ //
+             <span class="ref">RmUD_2*7</span></p>
+         
+         
+         <p id="RmUD_28*">
+            tato vavṛdhire 'nyonyaṃ snigdhāś catvāra eva te <br />
+            sakalāsu ca vidyāsu naipuṇyam abhilebhire //
+             <span class="ref">RmUD_28*</span></p>
+         
+         
+         <p id="RmUD_29*">
+            tataḥ kadā cid āgatya viśvāmitro mahāmuniḥ <br />
+            yayāce yajñarakṣārthaṃ rāmaṃ śaktidharopamam //
+             <span class="ref">RmUD_29*</span></p>
+         
+         
+         <p id="RmUD_30*">
+            vasiṣṭhavacanād rāmaṃ lakṣmaṇena samanvitam <br />
+            kṛcchreṇa nṛpatis tasya kauśikasya kare dadau //
+             <span class="ref">RmUD_30*</span></p>
+         
+         
+         <p id="RmUD_31*">
+            tau gṛhītvā tato gacchan balām atibalāṃ tathā <br />
+            astrāṇi ca samagrāṇi tābhyām upadideśa saḥ //
+             <span class="ref">RmUD_31*</span></p>
+         
+         
+         <p id="RmUD_32*">
+            gacchan sahānujo rāmaḥ kauśikena pracoditaḥ <br />
+            tāṭakām avadhīd dhīmāṃl lokapīḍanatatparām //
+             <span class="ref">RmUD_32*</span></p>
+         
+         
+         <p id="RmUD_33*">
+            tataḥ siddhāśramaṃ prāpya kauśikaḥ saharāghavaḥ <br />
+            adhvaraṃ ca samārebhe rākṣasāś ca samāgaman //
+             <span class="ref">RmUD_33*</span></p>
+         
+         
+         <p id="RmUD_34*">
+            rāghavas tu tato 'streṇa kṣiptvā mārīcam arṇave <br />
+            subāhupramukhān hatvā yajñaṃ cāpālayan muneḥ //
+             <span class="ref">RmUD_34*</span></p>
+         
+         
+         <p id="RmUD_35*">
+            kauśikena tato rāmo nīyamānaḥ sahānujaḥ <br />
+            ahalyāśāpanirmokṣaṃ kṛtvā saṃprāpa maithilam //
+             <span class="ref">RmUD_35*</span></p>
+         
+         
+         <p id="RmUD_36*">
+            janakenārcito rāmaḥ kauśikena pracoditaḥ <br />
+            sītānimittam ānītaṃ babhañja dhanur aiśvaram //
+             <span class="ref">RmUD_36*</span></p>
+         
+         
+         <p id="RmUD_3*7">
+            tato daśarathaṃ dūtair ānāyya mithilādhipaḥ <br />
+            rāmādibhyas tatsutebhyaḥ sītādyāḥ kanyakā dadau //
+             <span class="ref">RmUD_3*7</span></p>
+         
+         
+         <p id="RmUD_38*">
+            tato guruniyogena kṛtodvāhaḥ sahānujaḥ <br />
+            rāghavo niryayau tena janakenoru mānitaḥ //
+             <span class="ref">RmUD_38*</span></p>
+         
+         
+         <p id="RmUD_39*">
+            tad ākarṇya dhanurbhaṅgam āyāntaṃ roṣabhīṣaṇam <br />
+            vijitya bhārgavaṃ rāmam ayodhyāṃ prāpa rāghavaḥ //
+             <span class="ref">RmUD_39*</span></p>
+         
+         
+         <p id="RmUD_40*">
+            tataḥ sarvajanānandaṃ kurvāṇaś ceṣṭitaiḥ svakaiḥ <br />
+            tām adhyuvāsa kākutsthaḥ sītayā sahitaḥ sukham //
+             <span class="ref">RmUD_40*</span></p>
+         
+         
+         <p id="RmUD_*1.">iti śrīrāmodante bālakāṇḍaḥ samāptaḥ || <span class="ref">(RmUD_*1.)</span></p>
+         
+         
+         <p id="RmUD_*2.">atha ayodhyākāṇḍaḥ || <span class="ref">(RmUD_*2.)</span></p>
+         
+         
+         <p id="RmUD_41*">
+            etasminn antare gehaṃ mātulasya yudhājitaḥ <br />
+            prayayau bharataḥ prītaḥ śatrughnena samanvitaḥ //
+             <span class="ref">RmUD_41*</span></p>
+         
+         
+         <p id="RmUD_42*">
+            tataḥ prakṛtibhiḥ sākaṃ mantrayitvā sa bhūpatiḥ <br />
+            abhiṣekāya rāmasya samārebhe mudānvitaḥ //
+             <span class="ref">RmUD_42*</span></p>
+         
+         
+         <p id="RmUD_43*">
+            kaikeyī tu mahīpālaṃ mantharādūṣitāśayā <br />
+            varadvayaṃ purā dattaṃ yayāce satyasaṃgaram //
+             <span class="ref">RmUD_43*</span></p>
+         
+         
+         <p id="RmUD_44*">
+            vanavāsāya rāmasya rājyāptyai bharatasya ca <br />
+            tasyā varadvayaṃ kṛcchram anujajñe mahīpatiḥ //
+             <span class="ref">RmUD_44*</span></p>
+         
+         
+         <p id="RmUD_45*">
+            rāmaṃ tadaiva kaikeyī vanavāsāya cādiśat <br />
+            anujñāpya gurūn sarvān niryayau ca vanāya saḥ //
+             <span class="ref">RmUD_45*</span></p>
+         
+         
+         <p id="RmUD_46*">
+            dṛṣṭvā taṃ nirgataṃ sītā lakṣmaṇaś cānujagmatuḥ <br />
+            saṃtyajya svagṛhān sarve paurāś cānuyayur drutam //
+             <span class="ref">RmUD_46*</span></p>
+         
+         
+         <p id="RmUD_4*7">
+            vañcayitvā tu tān paurān nidrāṇān niśi rāghavaḥ <br />
+            vāhyamānaṃ sumantreṇa ratham āruhya cāgamat //
+             <span class="ref">RmUD_4*7</span></p>
+         
+         
+         <p id="RmUD_48*">
+            śriṅgiberapuraṃ gatvā gaṅgākūle 'tha rāghavaḥ <br />
+            guhena satkṛtas tatra niśām ekām uvāsa ca //
+             <span class="ref">RmUD_48*</span></p>
+         
+         
+         <p id="RmUD_49*">
+            sārathiṃ saṃnimantryāsau sītālakṣmaṇasaṃyutaḥ <br />
+            guhenānītayā nāvā saṃtatāra ca jāhnavīm //
+             <span class="ref">RmUD_49*</span></p>
+         
+         
+         <p id="RmUD_50*">
+            bharadvājamuniṃ prāpya taṃ natvā tena satkṛtaḥ <br />
+            rāghavas tasya nirdeśāc citrakūṭe 'vasat sukham //
+             <span class="ref">RmUD_50*</span></p>
+         
+         
+         <p id="RmUD_51*">
+            ayodhyāṃ tu tato gatvā sumantraḥ śokavihvalaḥ <br />
+            rājñe nyavedayat sarvaṃ rāghavasya viceṣṭitam //
+             <span class="ref">RmUD_51*</span></p>
+         
+         
+         <p id="RmUD_52*">
+            tad ākarṇya sumantroktaṃ rājā duḥkhavimūḍhadhīḥ <br />
+            rāma rāmeti vilapan dehaṃ tyaktvā divaṃ yayau //
+             <span class="ref">RmUD_52*</span></p>
+         
+         
+         <p id="RmUD_53*">
+            mantriṇas tu vasiṣṭhoktyā dehaṃ saṃrakṣya bhūpateḥ <br />
+            dūtair ānāyayan kṣipraṃ bharataṃ mātulālayāt //
+             <span class="ref">RmUD_53*</span></p>
+         
+         
+         <p id="RmUD_54*">
+            bharatas tu mṛtaṃ śrutvā pitaraṃ kaikayīgirā <br />
+            saṃskārādi cakārāsya yathāvidhi sahānujaḥ //
+             <span class="ref">RmUD_54*</span></p>
+         
+         
+         <p id="RmUD_55*">
+            amātyaiś codyamāno 'pi rajyāya bharatas tadā <br />
+            vanāyaiva yayau rāmam ānetuṃ nāgaraiḥ saha //
+             <span class="ref">RmUD_55*</span></p>
+         
+         
+         <p id="RmUD_56*">
+            sa gatvā citrakūṭasthaṃ rāmaṃ cīrajaṭādharam <br />
+            yayāce rakṣituṃ rājyaṃ vasiṣṭhādyair dvijaiḥ saha //
+             <span class="ref">RmUD_56*</span></p>
+         
+         
+         <p id="RmUD_5*7">
+            caturdaśa samā nītvā punar aiṣyāmy ahaṃ purīm <br />
+            ity uktvā pāduke dattvā taṃ rāmaḥ pratyayāpayat //
+             <span class="ref">RmUD_5*7</span></p>
+         
+         
+         <p id="RmUD_58*">
+            gṛhītvā pāduke tasmād bharato dīnamānasaḥ <br />
+            nandigrāme sthitas tābhyāṃ rarakṣa ca vasuṃdharām //
+             <span class="ref">RmUD_58*</span></p>
+         
+         
+         <p id="RmUD_59*">
+            rāghavas tu gires tasmād gatvātriṃ samavandata <br />
+            tatpatnī tu tadā sītāṃ bhūṣaṇaiḥ svair abhūṣayat //
+             <span class="ref">RmUD_59*</span></p>
+         
+         
+         <p id="RmUD_60*">
+            uṣitvā tu niśām ekām āśrame tasya rāghavaḥ <br />
+            viveśa daṇḍakāraṇyaṃ sītālakṣmaṇasaṃyutaḥ //
+             <span class="ref">RmUD_60*</span></p>
+         
+         
+         <p id="RmUD_*2.">iti śrīrāmodante ayodhyākāṇḍaḥ samāptaḥ || <span class="ref">(RmUD_*2.)</span></p>
+         
+         
+         <p id="RmUD_*3.">atha āraṇyakāṇḍaḥ || <span class="ref">(RmUD_*3.)</span></p>
+         
+         
+         <p id="RmUD_61*">
+            vrajan vanena kākutstho virādhaṃ vidhicoditam <br />
+            sadārānujam ātmānaṃ harantam avadhīt tadā //
+             <span class="ref">RmUD_61*</span></p>
+         
+         
+         <p id="RmUD_62*">
+            śarabhaṅgāśramam prāpya svargatiṃ tasya vīkṣya saḥ <br />
+            pratijajñe rākṣasānāṃ vadhaṃ munibhir arthitaḥ //
+             <span class="ref">RmUD_62*</span></p>
+         
+         
+         <p id="RmUD_63*">
+            tasmād gatvā sutīkṣṇaṃ ca praṇamyānena pūjitaḥ <br />
+            agastyasyāśramaṃ prāpya taṃ nanāma raghūttamaḥ //
+             <span class="ref">RmUD_63*</span></p>
+         
+         
+         <p id="RmUD_64*">
+            rāmāya vaiṣṇavaṃ cāpam aindraṃ tūṇīyugaṃ tathā <br />
+            brāhmaṃ cāstraṃ ca khaḍgaṃ ca pradadau kumbhasaṃbhavaḥ //
+             <span class="ref">RmUD_64*</span></p>
+         
+         
+         <p id="RmUD_65*">
+            tataḥ sa gacchan kākutsthaḥ samāgamya jaṭāyuṣam <br />
+            vaidehyāḥ pālanāyainaṃ śraddadhe pitṛvallabham //
+             <span class="ref">RmUD_65*</span></p>
+         
+         
+         <p id="RmUD_66*">
+            tataḥ pañcavaṭīṃ prāpya tatra lakṣmaṇanirmitām <br />
+            parṇaśālām adhyuvāsa sītayā sahitaḥ sukham //
+             <span class="ref">RmUD_66*</span></p>
+         
+         
+         <p id="RmUD_6*7">
+            tatrābhyetyaikadā rāmaṃ vavre śūrpaṇakhābhikā <br />
+            tannirastā lakṣmaṇaṃ ca vavre so'; pi nirākarot //
+             <span class="ref">RmUD_6*7</span></p>
+         
+         
+         <p id="RmUD_68*">
+            rāmam eva tato vavre kāmārtā kāmasaṃnibham <br />
+            punaś ca dhikkṛtā tena sītām abhyadravad ruṣā //
+             <span class="ref">RmUD_68*</span></p>
+         
+         
+         <p id="RmUD_69*">
+            lakṣmaṇena tadā roṣāt kṛttaśravaṇanāsikā <br />
+            sā tu gatvā janasthānaṃ kharāyaitan nyavedayat //
+             <span class="ref">RmUD_69*</span></p>
+         
+         
+         <p id="RmUD_70*">
+            tad ākarṇya kharaḥ kruddho rāghavaṃ hantum āyayau <br />
+            dūṣaṇatriśiromukhyair yātudhānaiḥ samanvitaḥ //
+             <span class="ref">RmUD_70*</span></p>
+         
+         
+         <p id="RmUD_71*">
+            tat kṣaṇaṃ lakṣmaṇe sītāṃ nidhāya raghunandanaḥ <br />
+            kharaṃ sahānugaṃ saṃkhye jaghānālaghuvikramaḥ //
+             <span class="ref">RmUD_71*</span></p>
+         
+         
+         <p id="RmUD_72*">
+            tataḥ śūrpaṇakhā gatvā laṅkāṃ śokasamanvitā <br />
+            nyavedayad rāvaṇāya vṛttāntaṃ sarvam āditaḥ //
+             <span class="ref">RmUD_72*</span></p>
+         
+         
+         <p id="RmUD_73*">
+            tac chrutvā rāvaṇaḥ sītāṃ hartuṃ kṛtamatis tadā <br />
+            mārīcasyāśramaṃ prāpya sāhāyye tam acodayat //
+             <span class="ref">RmUD_73*</span></p>
+         
+         
+         <p id="RmUD_74*">
+            so 'pi svarṇamṛgo bhūtvā sītāyāḥ pramukhe 'carat <br />
+            sā tu taṃ mṛgam āhartuṃ bhartāraṃ samayācata //
+             <span class="ref">RmUD_74*</span></p>
+         
+         
+         <p id="RmUD_75*">
+            niyujya lakṣmaṇaṃ sītāṃ rakṣituṃ raghunandanaḥ <br />
+            anvagacchan mṛgaṃ tūrṇaṃ dravantaṃ kānanāntare //
+             <span class="ref">RmUD_75*</span></p>
+         
+         
+         <p id="RmUD_76*">
+            vivyādha ca mṛgaṃ rāmaḥ sa nijaṃ rūpam āsthitaḥ <br />
+            hā sīte lakṣmaṇety evaṃ rudan prāṇān samatyajat //
+             <span class="ref">RmUD_76*</span></p>
+         
+         
+         <p id="RmUD_*77">
+            etad ākarṇya vaidehyā lakṣmaṇaś codito bhṛśam <br />
+            tadrakṣāṃ devatāḥ prārthya prayayau rāghavāntikam //
+             <span class="ref">RmUD_*77</span></p>
+         
+         
+         <p id="RmUD_78*">
+            tad antare samāsādya rāvaṇo yatirūpadhṛt <br />
+            sītāṃ gṛhītvā prayayau gaganena mudānvitaḥ //
+             <span class="ref">RmUD_78*</span></p>
+         
+         
+         <p id="RmUD_79*">
+            tato jaṭāyur ālokya nīyamānāṃ tu jānakīm <br />
+            prāharad rāvaṇaṃ prāpya tuṇḍapakṣanakhair bhṛśam //
+             <span class="ref">RmUD_79*</span></p>
+         
+         
+         <p id="RmUD_80*">
+            chittvainam candrahāsena pātayitvā ca bhūtale <br />
+            gṛhītvā rāvaṇaḥ sītāṃ prāviśan nijamandiram //
+             <span class="ref">RmUD_80*</span></p>
+         
+         
+         <p id="RmUD_81*">
+            aśokavanikāmadhye saṃsthāpya janakātmajām <br />
+            rāvaṇo rakṣituṃ caināṃ niyuyoja niśācarīḥ //
+             <span class="ref">RmUD_81*</span></p>
+         
+         
+         <p id="RmUD_82*">
+            hatvā rāmas tu mārīcam āgacchann anujeritām <br />
+            vārttām ākarṇya duḥkhārtaḥ parṇaśālām upāgamat //
+             <span class="ref">RmUD_82*</span></p>
+         
+         
+         <p id="RmUD_83*">
+            adṛṣṭvā tatra vaidehīṃ vicinvāno vanāntare <br />
+            sahānujo gṛdhrarājaṃ chinnapakṣaṃ dadarśa saḥ //
+             <span class="ref">RmUD_83*</span></p>
+         
+         
+         <p id="RmUD_84*">
+            tenoktāṃ jānakīvārttāṃ śrutvā paścān mṛtaṃ ca tam <br />
+            dagdhvā sahānujo rāmaś cakre tasyodakakriyām //
+             <span class="ref">RmUD_84*</span></p>
+         
+         
+         <p id="RmUD_85*">
+            ātmano 'bhibhavaṃ paścāt kurvatīṃ pathi lakṣmaṇaḥ <br />
+            ayomukhīṃ cakārāśu kṛttaśravaṇanāsikām //
+             <span class="ref">RmUD_85*</span></p>
+         
+         
+         <p id="RmUD_86*">
+            gṛhītau tau kabandhena bhujau tasya nyakṛntatām <br />
+            tatas tu yācitau tena taddehaṃ dehatuś ca tau //
+             <span class="ref">RmUD_86*</span></p>
+         
+         
+         <p id="RmUD_8*7">
+            sa tu divyākṛtir bhūtvā rāmaṃ sītopalabdhaye <br />
+            sugrīvam ṛṣyamūkasthaṃ yāhīty uktvā divaṃ yayau //
+             <span class="ref">RmUD_8*7</span></p>
+         
+         
+         <p id="RmUD_88*">
+            tataḥ prīto raghuśreṣṭhaḥ śabaryāśramam abhyayāt <br />
+            tayābhipūjitaḥ paścāt pampāṃ prāpa salakṣmaṇaḥ //
+             <span class="ref">RmUD_88*</span></p>
+         
+         
+         <p id="RmUD_*3.">iti śrīrāmodante āraṇyakāṇḍaḥ samāptaḥ || <span class="ref">(RmUD_*3.)</span></p>
+         
+         
+         <p id="RmUD_*4.">atha kiṣkindhākāṇḍaḥ || <span class="ref">(RmUD_*4.)</span></p>
+         
+         
+         <p id="RmUD_89*">
+            hanūmān atha sugrīvanirdiṣṭo rāmalakṣmaṇau <br />
+            prāpya jñātvā tu vṛttāntaṃ tena tau samayojayat //
+             <span class="ref">RmUD_89*</span></p>
+         
+         
+         <p id="RmUD_90*">
+            tato rāmasya vṛttāntaṃ sugrīvāya nivedya saḥ <br />
+            sakhyaṃ ca kārayām āsa tayoḥ pāvakasaṃnidhau //
+             <span class="ref">RmUD_90*</span></p>
+         
+         
+         <p id="RmUD_91*">
+            pratijajñe tadā rāmo haniṣyāmīti vālinam <br />
+            darśayiṣyāmi vaidehīm ity anyena ca saṃśrutam //
+             <span class="ref">RmUD_91*</span></p>
+         
+         
+         <p id="RmUD_92*">
+            sugrīveṇātha rāmāya bhrātṛvairasya kāraṇam <br />
+            niveditam aśeṣaṃ ca balādhikyaṃ ca tasya tat //
+             <span class="ref">RmUD_92*</span></p>
+         
+         
+         <p id="RmUD_93*">
+            tat kṣaṇaṃ dundubheḥ kāyaṃ sugrīveṇa pradarśitam <br />
+            sudūraṃ preṣayām āsa pādāṅguṣṭhena rāghavaḥ //
+             <span class="ref">RmUD_93*</span></p>
+         
+         
+         <p id="RmUD_94*">
+            punaś ca darśitāṃs tena sālān sapta raghūttamaḥ <br />
+            bāṇenaikena ciccheda sārdhaṃ tasyānuśaṅkayā //
+             <span class="ref">RmUD_94*</span></p>
+         
+         
+         <p id="RmUD_95*">
+            kiṣkindhāṃ prāpya sugrīvas tato rāmasamanvitaḥ <br />
+            jagarjātīva saṃhṛṣṭaḥ kopayan vānarādhipam //
+             <span class="ref">RmUD_95*</span></p>
+         
+         
+         <p id="RmUD_96*">
+            vālī niṣkramya sugrīvaṃ samare 'pīḍayad bhṛśam <br />
+            so 'pi saṃbhagnasarvāṅgaḥ prādravad rāghavāntikam //
+             <span class="ref">RmUD_96*</span></p>
+         
+         
+         <p id="RmUD_9*7">
+            kṛtacihnas tu rāmeṇa punar eva sa vālinam <br />
+            raṇāyāhvayata kṣipraṃ tasthau rāmas tirohitaḥ //
+             <span class="ref">RmUD_9*7</span></p>
+         
+         
+         <p id="RmUD_98*">
+            hemamālī tato vālī tārayābhihitaṃ hitam <br />
+            nirasya kupito bhrātrā raṇaṃ cakre sudāruṇam //
+             <span class="ref">RmUD_98*</span></p>
+         
+         
+         <p id="RmUD_99*">
+            bāṇena vālinaṃ rāmo viddhvā bhūmau nyapātayat <br />
+            so 'pi rāma iti jñātvā tyaktvā dehaṃ divaṃ yayau //
+             <span class="ref">RmUD_99*</span></p>
+         
+         
+         <p id="RmUD_100*">
+            paścāt tapantaṃ sugrīvaṃ samāśvāsya raghūttamaḥ <br />
+            vānarāṇām adhipatiṃ cakārāśritavatsalaḥ //
+             <span class="ref">RmUD_100*</span></p>
+         
+         
+         <p id="RmUD_101*">
+            tato mālyavataḥ pṛṣṭhe rāmo lakṣmaṇasaṃyutaḥ <br />
+            uvāsa caturo māsān sītāvirahaduḥkhitaḥ //
+             <span class="ref">RmUD_101*</span></p>
+         
+         
+         <p id="RmUD_102*">
+            atha rāmasya nirdeśāl lakṣmaṇo vānarādhipam <br />
+            ānayat plavagaiḥ sārdhaṃ hanūmatpramukhair girim //
+             <span class="ref">RmUD_102*</span></p>
+         
+         
+         <p id="RmUD_103*">
+            sugrīvo rāghavaṃ dṛṣṭvā vacanāt tasya vānarān <br />
+            nyayuṅkta sītām anveṣṭum āśāsu catasṛṣv api //
+             <span class="ref">RmUD_103*</span></p>
+         
+         
+         <p id="RmUD_104*">
+            tato hanumataḥ pāṇau dadau rāmo 'ṅgulīyakam <br />
+            viśvāsāya tu vaidehyās tad gṛhītvā sa niryayau //
+             <span class="ref">RmUD_104*</span></p>
+         
+         
+         <p id="RmUD_105*">
+            tato hanūmatpramukhā vānarā dakṣiṇāṃ diśam <br />
+            gatvā sītāṃ vicinvantaḥ parvataṃ vindhyam āpnuvan //
+             <span class="ref">RmUD_105*</span></p>
+         
+         
+         <p id="RmUD_106*">
+            samayātikramāt tatra cakruḥ prāyopaveśanam <br />
+            te 'tra sampātinā proktāṃ sītāvārttāṃ ca śuśruvuḥ //
+             <span class="ref">RmUD_106*</span></p>
+         
+         
+         <p id="RmUD_10*7">
+            tataḥ prāpur udanvantam aṅgadādyāḥ plavaṅgamāḥ <br />
+            taṃ vilaṅghayituṃ teṣāṃ na kaś cid abhavat kṣamaḥ //
+             <span class="ref">RmUD_10*7</span></p>
+         
+         
+         <p id="RmUD_108*">
+            svaprabhāvapraśaṃsābhis tadā jāmbavaduktibhiḥ <br />
+            saṃvardhito mahendrādrim ārurohānilātmajaḥ //
+             <span class="ref">RmUD_108*</span></p>
+         
+         
+         <p id="RmUD_*4.">iti śrīrāmodante kiṣkindhākāṇḍaḥ samāptaḥ || <span class="ref">(RmUD_*4.)</span></p>
+         
+         
+         <p id="RmUD_*5.">atha sundarakāṇḍaḥ || <span class="ref">(RmUD_*5.)</span></p>
+         
+         
+         <p id="RmUD_109*">
+            abhivandyātha sakalān amarān pavanātmajaḥ <br />
+            pupluve ca gires tasmād vilaṅghayitum arṇavam //
+             <span class="ref">RmUD_109*</span></p>
+         
+         
+         <p id="RmUD_110*">
+            sa samullaṅghya mainākaṃ surasām abhivandya ca <br />
+            nihatya siṃhikāṃ nītyā pāraṃ prāpa mahodadheḥ //
+             <span class="ref">RmUD_110*</span></p>
+         
+         
+         <p id="RmUD_111*">
+            laṅkādhidevatāṃ jitvā tāṃ praviśyānilātmajaḥ <br />
+            sītāṃ vicinvann adrākṣīn nidrāṇaṃ niśi rāvaṇaṃ //
+             <span class="ref">RmUD_111*</span></p>
+         
+         
+         <p id="RmUD_112*">
+            apaśyaṃs tatra vaidehīṃ vicinvānas tatas tataḥ <br />
+            aśokavanikāṃ gatvā kāṃ cid ārtāṃ dadarśa saḥ //
+             <span class="ref">RmUD_112*</span></p>
+         
+         
+         <p id="RmUD_113*">
+            pādapaṃ kaṃ cid āruhya tatpalāśaiḥ susaṃvṛtaḥ <br />
+            āste sma mārutis tatra sīteyam iti tarkayan //
+             <span class="ref">RmUD_113*</span></p>
+         
+         
+         <p id="RmUD_114*">
+            rāvaṇas tu tadābhyetya maithilīṃ madanārditaḥ <br />
+            bhāryā bhava mamety evaṃ bahudhā samayācata //
+             <span class="ref">RmUD_114*</span></p>
+         
+         
+         <p id="RmUD_115*">
+            ahaṃ tvadvaśagā na syām ity eṣā taṃ nirākarot <br />
+            kāmamanyuparītātmā rāvaṇo 'pi tadā yayau //
+             <span class="ref">RmUD_115*</span></p>
+         
+         
+         <p id="RmUD_116*">
+            nirgate rāvaṇe sītāṃ pralapantīṃ sa mārutiḥ <br />
+            uktvā rāmasya vṛttāntaṃ pradadau cāṅgulīyakam //
+             <span class="ref">RmUD_116*</span></p>
+         
+         
+         <p id="RmUD_11*7">
+            tat samādāya vaidehī vilapya ca bhṛśaṃ punaḥ <br />
+            cūḍāmaṇiṃ dadau tasya kare jagrāha so 'pi tam //
+             <span class="ref">RmUD_11*7</span></p>
+         
+         
+         <p id="RmUD_118*">
+            mā viṣādaṃ kṛthā devi rāghavo rāvaṇaṃ raṇe <br />
+            hatvā tvāṃ neṣyatīty enām āśvāsya sa viniryayau //
+             <span class="ref">RmUD_118*</span></p>
+         
+         
+         <p id="RmUD_119*">
+            nītimān so 'pi saṃcintya babhañjopavanaṃ ca tat <br />
+            akṣādīni ca rakṣāṃsi bahūni samare 'vadhīt //
+             <span class="ref">RmUD_119*</span></p>
+         
+         
+         <p id="RmUD_120*">
+            tataḥ śakrajitā yuddhe baddhaḥ pavananandanaḥ <br />
+            pratāpaṃ raghunāthasya rāvaṇāya nyavedayat //
+             <span class="ref">RmUD_120*</span></p>
+         
+         
+         <p id="RmUD_121*">
+            rakṣodīpitalāṅgūlaḥ sa tu laṅkām aśeṣataḥ <br />
+            dagdhvā sāgaram uttīrya vānarān samupāgamat //
+             <span class="ref">RmUD_121*</span></p>
+         
+         
+         <p id="RmUD_122*">
+            sa gatvā vānaraiḥ sākaṃ rāghavāyātmanā kṛtam <br />
+            nivedayitvā sakalaṃ dadau cūḍāmaṇiṃ ca tam //
+             <span class="ref">RmUD_122*</span></p>
+         
+         
+         <p id="RmUD_*5.">iti śrīrāmodante sundarakāṇḍaḥ samāptaḥ || <span class="ref">(RmUD_*5.)</span></p>
+         
+         
+         <p id="RmUD_*6.">atha yuddhakāṇḍaḥ || <span class="ref">(RmUD_*6.)</span></p>
+         
+         
+         <p id="RmUD_123*">
+            athāsaṃkhyaiḥ kapigaṇaiḥ sugrīvapramukhaiḥ saha <br />
+            niryayau rāghavas tūrṇaṃ tīraṃ prāpa mahodadheḥ //
+             <span class="ref">RmUD_123*</span></p>
+         
+         
+         <p id="RmUD_124*">
+            tadā vibhīṣaṇo bhrātrā tyakto rāmam upāgamat <br />
+            laṅkādhipatye 'bhyaṣiñcad enaṃ ramo 'rimardanaḥ //
+             <span class="ref">RmUD_124*</span></p>
+         
+         
+         <p id="RmUD_125*">
+            dattamārgaḥ samudreṇa tatra setuṃ nalena saḥ <br />
+            kārayitvā tena gatvā suvelaṃ prāpa parvatam //
+             <span class="ref">RmUD_125*</span></p>
+         
+         
+         <p id="RmUD_126*">
+            tato rāghavanirdiṣṭā nīlamukhyāḥ plavaṅgamāḥ <br />
+            rurudhuḥ sarvato laṅkāṃ vṛkṣapāṣāṇapāṇayaḥ //
+             <span class="ref">RmUD_126*</span></p>
+         
+         
+         <p id="RmUD_12*7">
+            rāvaṇasya niyogena nirgatān yudhi rākṣasān <br />
+            prahastapramukhān hatvā nedus te siṃhavikramāḥ //
+             <span class="ref">RmUD_12*7</span></p>
+         
+         
+         <p id="RmUD_128*">
+            sugrīvaś ca hanūmāṃś ca tathā rāghavalakṣmaṇau <br />
+            rākṣasān subahūn yuddhe jaghnur bhīmaparākramāḥ //
+             <span class="ref">RmUD_128*</span></p>
+         
+         
+         <p id="RmUD_129*">
+            rāvaṇis tu tadābhyetya samare rāmalakṣmaṇau <br />
+            nanāha nāgapāśena nāgāris tau vyamocayat //
+             <span class="ref">RmUD_129*</span></p>
+         
+         
+         <p id="RmUD_130*">
+            rāvaṇo 'pi tato yuddhe rāghaveṇa parājitaḥ <br />
+            kumbhakarṇaṃ prabodhyāśu rāmaṃ hantuṃ nyayuṅkta ca //
+             <span class="ref">RmUD_130*</span></p>
+         
+         
+         <p id="RmUD_131">
+            rakṣobhiḥ saha niryāya bhakṣayantaṃ plavaṅgamān <br />
+            sahānugaṃ kumbhakarṇaṃ jaghānāśu sa rāghavaḥ //
+             <span class="ref">RmUD_131</span></p>
+         
+         
+         <p id="RmUD_132">
+            indrajit punar apy ājau sānujaṃ ca raghūttamam <br />
+            amohayad vānarāṃś ca brahmāstreṇāstrakovidaḥ //
+             <span class="ref">RmUD_132</span></p>
+         
+         
+         <p id="RmUD_133">
+            tadaiva gatvā hanumān ānīyauṣadhiparvatam <br />
+            tān sarvān bodhayitvāśu tatsthāne 'sthāpayac ca tam //
+             <span class="ref">RmUD_133</span></p>
+         
+         
+         <p id="RmUD_134">
+            tato nikumbhilāṃ gatvā saumitriḥ savibhīṣaṇaḥ <br />
+            niṣiddhyendrajito homaṃ saṃyuge taṃ jaghāna ca //
+             <span class="ref">RmUD_134</span></p>
+         
+         
+         <p id="RmUD_135">
+            tac chrutvā rāvaṇaḥ kruddho niryāya śaravṛṣṭibhiḥ <br />
+            plavaṅgamān pīḍayitvā rāmeṇa yuyudhe bhṛśaṃ //
+             <span class="ref">RmUD_135</span></p>
+         
+         
+         <p id="RmUD_136">
+            rāmo 'pi suciraṃ tena kṛtvā yuddhaṃ sudāruṇaṃ <br />
+            brahmāstreṇa jaghānainaṃ brahmadattavaraṃ ripum //
+             <span class="ref">RmUD_136</span></p>
+         
+         
+         <p id="RmUD_137">
+            tadā śakrādayo devā hṛṣṭā rāvaṇanigrahāt <br />
+            raghūttamasyottamāṅge puṣpavṛṣṭim akurvata //
+             <span class="ref">RmUD_137</span></p>
+         
+         
+         <p id="RmUD_138">
+            rākṣasānām adhipatiṃ kṛtvā rāmo vibhīṣaṇam <br />
+            agnipraveśasaṃśuddhāṃ parijagrāha maithilīm //
+             <span class="ref">RmUD_138</span></p>
+         
+         
+         <p id="RmUD_139">
+            purandaravareṇāśu jīvayitvā plavaṅgamān <br />
+            atoṣayad raghuśreṣṭho vividhair dhanasaṃcayaiḥ //
+             <span class="ref">RmUD_139</span></p>
+         
+         
+         <p id="RmUD_140">
+            tataḥ puṣpakam āruhya sasītaḥ sahalakṣmaṇaḥ <br />
+            niryayau vānaraiḥ sākaṃ rāmo rakṣo'dhipena ca //
+             <span class="ref">RmUD_140</span></p>
+         
+         
+         <p id="RmUD_141">
+            ayodhyāṃ praty asau gacchan preṣayitvānilātmajam <br />
+            bharatasya mataṃ jñātvā nandigrāmam upāgamat //
+             <span class="ref">RmUD_141</span></p>
+         
+         
+         <p id="RmUD_142">
+            bhrātṛbhiḥ saha saṃgamya veṣaṃ saṃtyajya tāpasaṃ <br />
+            ayodhyāṃ prāviśad rāmaḥ prītair bandhujanaiḥ saha //
+             <span class="ref">RmUD_142</span></p>
+         
+         
+         <p id="RmUD_143">
+            vasiṣṭho 'tha dvijaiḥ sākaṃ mantrisāmantasaṃnidhau <br />
+            sītayā sahitaṃ rāmam abhyaṣiñcad yathāvidhi //
+             <span class="ref">RmUD_143</span></p>
+         
+         
+         <p id="RmUD_144">
+            āhlādayañ jagat sarvaṃ paurṇamāsyāṃ śaśī yathā <br />
+            ayodhyām avasad rāmaḥ sītayā sahitaś ciram //
+             <span class="ref">RmUD_144</span></p>
+         
+         
+         
+         <p id="RmUD_*6.9">
+            tato vānarasaṃghāṃś ca bhakṣayantaṃ niśācaram <br />
+            aindreṇāstreṇa rāmo 'pi nijaghāna raṇe bhṛśam //
+             <span class="ref">RmUD_*6.9</span></p>
+         
+         
+         <p id="RmUD_*6.10">
+            tato rāvaṇasaṃdiṣṭau devāntakanarāntakau <br />
+            hanūmadaṅgadābhyāṃ tu nihatau raṇamūrdhani //
+             <span class="ref">RmUD_*6.10</span></p>
+         
+         
+         <p id="RmUD_*6.11">
+            athātikāyam āyāntaṃ ratham āruhya vāhinīm <br />
+            ardayantaṃ mahākāyaṃ lakṣmaṇaś cāvadhīc charaiḥ //
+             <span class="ref">RmUD_*6.11</span></p>
+         
+         
+         <p id="RmUD_*6.12">
+            tato rāvaṇasaṃdiṣṭaḥ śakrajid rāghavau raṇe <br />
+            brahmāstreṇa ca tau baddhvā vānarāṃś cāvadhīc charaiḥ //
+             <span class="ref">RmUD_*6.12</span></p>
+         
+         
+         <p id="RmUD_*6.13">
+            atha jāmbavato vākyād gatvā cauṣadhiparvatam <br />
+            mārutiś cauṣadhīs tatrādṛṣṭvā kopaṃ cakāra saḥ //
+             <span class="ref">RmUD_*6.13</span></p>
+         
+         
+         <p id="RmUD_*6.14">
+            bhūdharaṃ taṃ samutpaṭya gṛhītvā punar āgataḥ <br />
+            tāsāṃ gandhena vai sarvān rāghavādīn ajīvayat //
+             <span class="ref">RmUD_*6.14</span></p>
+         
+         
+         <p id="RmUD_*6.15">
+            rāvaṇaḥ kapibhir dagdhāṃ purīṃ vīkṣya ruṣānvitaḥ <br />
+            nyayuṅkta kumbhakarṇasya putrau hantuṃ ca rāghavau //
+             <span class="ref">RmUD_*6.15</span></p>
+         
+         
+         <p id="RmUD_*6.16">
+            athārdayantau tat sainyaṃ vīkṣya tau balaśālinau <br />
+            kumbhaṃ rāmo 'vadhīd bāṇair nikumbhaṃ cātmajo raveḥ //
+             <span class="ref">RmUD_*6.16</span></p>
+         
+         
+         <p id="RmUD_*6.17">
+            tataḥ kharātmajaṃ tena rāvaṇena pracoditam <br />
+            pīḍayantaṃ kapīn bāṇair jaghānāstreṇa rāghavaḥ //
+             <span class="ref">RmUD_*6.17</span></p>
+         
+         
+         <p id="RmUD_*6.18">
+            tataḥ saṃtaptahṛdayo rāvaṇo yuddhadurmadam <br />
+            pracodayām āsa sutam yuddhe hantuṃ sa rāghavau //
+             <span class="ref">RmUD_*6.18</span></p>
+         
+         
+         <p id="RmUD_*6.19">
+            nagarān niryayau tūrṇam indrajit samitiñjayaḥ <br />
+            māyāsītāṃ vinikṣipya sarveṣāṃ mohanāya vai //
+             <span class="ref">RmUD_*6.19</span></p>
+         
+         
+         <p id="RmUD_*6.20">
+            vānareṣv api paśyatsu hanūmatpramukheṣu ca <br />
+            jaghāna sītāṃ khaḍgena śitena samitiñjayaḥ //
+             <span class="ref">RmUD_*6.20</span></p>
+         
+         
+         <p id="RmUD_*6.21">
+            yuddhaṃ tyaktvā tataḥ sarvair vānaraiḥ sa parīvṛtaḥ <br />
+            duḥkhito hanumāṃs tatra yatra ramo 'vrajal laghu //
+             <span class="ref">RmUD_*6.21</span></p>
+         
+         
+         <p id="RmUD_*6.22">
+            upagamyābravīd rāmaṃ hanūmān nikhilaṃ tadā <br />
+            śrutvā vṛttāntam akhilaṃ rāmo moham avāpa saḥ //
+             <span class="ref">RmUD_*6.22</span></p>
+         
+         
+         <p id="RmUD_*6.23">
+            vibhīṣaṇo 'tha saṃprāpya dṛṣṭvā rāmaṃ ca mūrchitam <br />
+            viṣaṇṇān vānarān vācā sāntvayann idam abravīt //
+             <span class="ref">RmUD_*6.23</span></p>
+         
+         
+         <p id="RmUD_*6.24">
+            mithyā viṣādaṃ saṃtyajya jagannāyaka he prabho <br />
+            śṛṇu me 'bhihitaṃ vākyaṃ jñātvā rāvaṇimānasam //
+             <span class="ref">RmUD_*6.24</span></p>
+         
+         
+         <p id="RmUD_*6.25">
+            durātmanā kṛtā māyā rākṣasendrasutena vai <br />
+            nikumbhilāyāṃ homaṃ tu kṛtaṃ tenādhunā kila //
+             <span class="ref">RmUD_*6.25</span></p>
+         
+         
+         <p id="RmUD_*6.26">
+            lakṣmaṇaṃ preṣayādyaiva mayā saha samantriṇā <br />
+            kṛte home tatra ripur ajeyo bhavati dhruvam //
+             <span class="ref">RmUD_*6.26</span></p>
+         
+         
+         <p id="RmUD_*6.27">
+            uvāca rāmaḥ saumitriṃ rākṣasendrasutaṃ jahi <br />
+            gaccheti śīghraṃ suhṛdā rāvaṇasyānujena saḥ //
+             <span class="ref">RmUD_*6.27</span></p>
+         
+         
+         <p id="RmUD_*6.28">
+            lakṣmaṇas tu tadā rāmam āmantrya savibhīṣaṇaḥ <br />
+            nikumbhilāṃ prāpa tūrṇam indrajid yatra vartate //
+             <span class="ref">RmUD_*6.28</span></p>
+         
+         
+         <p id="RmUD_*6.29">
+            adarśayad bhrātṛputraṃ dharmātmā sa vibhīṣaṇaḥ <br />
+            lakṣmaṇo bhedayām āsa rākṣasāñ śarasaṃcayaiḥ //
+             <span class="ref">RmUD_*6.29</span></p>
+         
+         
+         <p id="RmUD_*6.30">
+            kṛtvā ciraṃ tatra yuddham aindreṇāstreṇa vai ruṣā <br />
+            śiraś ciccheda saumitrir daśānanasutasya hi //
+             <span class="ref">RmUD_*6.30</span></p>
+         
+         
+         <p id="RmUD_*6.31">
+            sa sutasya vadhaṃ śrutvā rāvaṇaḥ sokakarśitaḥ <br />
+            naṣṭadhairyo vihvalāṅgo vilalāpākulendriyaḥ //
+             <span class="ref">RmUD_*6.31</span></p>
+         
+         
+         <p id="RmUD_*6.32">
+            nirarthakaṃ tu majjanma jalpitaṃ ca nirarthakam <br />
+            yenāham adya paśyāmi hatam indrajitaṃ raṇe //
+             <span class="ref">RmUD_*6.32</span></p>
+         
+         
+         <p id="RmUD_*6.33">
+            kva gato 'si hataḥ śūra mānuṣeṇa padātinā <br />
+            rājyād bhraṣṭena dīnena tyaktvā māṃ putra jīvitam //
+             <span class="ref">RmUD_*6.33</span></p>
+         
+         
+         <p id="RmUD_*6.34">
+            indraṃ jitvā tu taṃ baddhvā laṅkām ānīya vai balāt <br />
+            akaros tvaṃ pratāpena kārāgṛhanivāsinam //
+             <span class="ref">RmUD_*6.34</span></p>
+         
+         
+         <p id="RmUD_*6.35">
+            mocayām āsa brahmā tvāṃ sāntvayitvāmarādhipam <br />
+            tādṛk tvaṃ kutra māṃ tyaktvā gato 'dya sudurāsadaḥ //
+             <span class="ref">RmUD_*6.35</span></p>
+         
+         
+         <p id="RmUD_*6.36">
+            kiṃ kariṣyāmy aham putra kva gacchāmi vadādhunā <br />
+            naya māṃ yatra gantāsi tatra te na vilambanam //
+             <span class="ref">RmUD_*6.36</span></p>
+         
+         
+         <p id="RmUD_*6.37">
+            lokeṣu tvatsamo nāsti tādṛśasya pitāsmy aham <br />
+            ityāśayā sthitaṃ putra garvitena mayātra hi //
+             <span class="ref">RmUD_*6.37</span></p>
+         
+         
+         <p id="RmUD_*6.38">
+            dhūmrākṣo vajradaṃṣṭraś ca kumbhakarṇaḥ pratāpavān <br />
+            rākṣasā nihatāḥ sarve prahastapramukhā api //
+             <span class="ref">RmUD_*6.38</span></p>
+         
+         
+         <p id="RmUD_*6.39">
+            anādṛtya tu tān sarvān rākṣasān prahṛtān api <br />
+            avaṣṭabhya balaṃ putra sukhenāvasthitaṃ tava //
+             <span class="ref">RmUD_*6.39</span></p>
+         
+         
+         <p id="RmUD_*6.40">
+            ity evaṃ bahudhā tatra vilapya sa tu rāvaṇaḥ <br />
+            antarniyamya duḥkhāni kopaṃ cakre sudāruṇam //
+             <span class="ref">RmUD_*6.40</span></p>
+         
+         
+         <p id="RmUD_*6.41">
+            rathaṃ sūta mamāgre tvaṃ kṣipraṃ kuru jayaiṣiṇaḥ <br />
+            rāmaṃ salakṣmaṇaṃ hantuṃ nirgamiṣyāmy ahaṃ gṛhāt //
+             <span class="ref">RmUD_*6.41</span></p>
+         
+         
+         <p id="RmUD_*6.42">
+            ity uktvā ratham āruhya śīghraṃ sārathivāhitam <br />
+            rāmeṇa saha saṃgamya yuddhaṃ cakre sudāruṇam //
+             <span class="ref">RmUD_*6.42</span></p>
+         
+         
+         <p id="RmUD_*6.43">
+            tato mātalinānītaṃ ratham aindraṃ samāruhan <br />
+            rarāja rāmo dharmātmā hy udayastho yathā raviḥ //
+             <span class="ref">RmUD_*6.43</span></p>
+         
+         
+         <p id="RmUD_*6.44">
+            cakāra yuddham tumulaṃ devavṛnde ca paśyati <br />
+            sītāharaṇajāt kopād rāmo dharmabhṛtāṃ varaḥ //
+             <span class="ref">RmUD_*6.44</span></p>
+         
+         
+         <p id="RmUD_*6.45">
+            athāgastyasya vacanād rāvaṇaṃ lokakaṇṭakam <br />
+            jaghāna rāmo lakṣmīvān brāhmeṇāstreṇa taṃ raṇe //
+             <span class="ref">RmUD_*6.45</span></p>
+         
+         
+         <p id="RmUD_*6.46">
+            mandodarī vadhaṃ śrutvā bhartuḥ priyatarasya sā <br />
+            vilalāpa raṇaṃ gatvā kurarīva bhṛśāturā //
+             <span class="ref">RmUD_*6.46</span></p>
+         
+         
+         <p id="RmUD_*6.47">
+            vibhīṣaṇo 'tha rāmeṇa saṃdiṣṭaḥ saha rākṣasaiḥ <br />
+            cakāra dahanaṃ tasya rāvaṇasya gatāyuṣaḥ //
+             <span class="ref">RmUD_*6.47</span></p>
+         
+         
+         <p id="RmUD_*6.48">
+            athāgnivacanāt sītāṃ rāmo vīkṣya sunirmalām <br />
+            saṃdiṣṭo devavṛndaiś ca jagrāha pitṛsaṃnidhau //
+             <span class="ref">RmUD_*6.48</span></p>
+         
+         
+         <p id="RmUD_*6.49">
+            tavaiva yuktaṃ karmaitat sarvalokabhayaṅkaram <br />
+            tad vaidehyāḥ kṛte rāma sā tu lakṣmīr bhavān svabhūḥ //
+             <span class="ref">RmUD_*6.49</span></p>
+         
+         
+         <p id="RmUD_*6.50">
+            ity evaṃ devasaṃghaiś ca munibhiś cābhipūjitaḥ <br />
+            lakṣmaṇaś ca tutoṣātha rāmo viśvāsam āyayau //
+             <span class="ref">RmUD_*6.50</span></p>
+         
+         
+         <p id="RmUD_*6.51">
+            vibhīṣaṇasya dharmātmā satyasaṃdha udāradhīḥ <br />
+            kārayām āsa lakṣmīvān anujenābhiṣecanam //
+             <span class="ref">RmUD_*6.51</span></p>
+         
+         
+         <p id="RmUD_*6.52">
+            tataḥ puṣpakam āruhya saha mitrair jagatpatiḥ <br />
+            bhāryānujābhyāṃ sahitaḥ kiṣkindhāṃ prāpa rāghavaḥ //
+             <span class="ref">RmUD_*6.52</span></p>
+         
+         
+         <p id="RmUD_*6.53">
+            kiṣkindhānilayāḥ sarvāḥ kapīnāṃ yoṣitaḥ priyāḥ <br />
+            sītākutūhalāt puṣpaṃ vimānaṃ tāḥ samāruhan //
+             <span class="ref">RmUD_*6.53</span></p>
+         
+         
+         <p id="RmUD_*6.54">
+            atha dāśarathiḥ śrīmān bharataṃ draṣṭum icchayā <br />
+            bharadvājāśramaṃ prāptas tatra tena nivāritaḥ //
+             <span class="ref">RmUD_*6.54</span></p>
+         
+         
+         <p id="RmUD_*6.55">
+            bharatasyāntikaṃ rāmaḥ preṣayām āsa mārutim <br />
+            rāmasyādarśanād vahnipraveśaṃ kāṅkṣato bhṛśaṃ //
+             <span class="ref">RmUD_*6.55</span></p>
+         
+         
+         <p id="RmUD_*6.56">
+            tatra tena munīndreṇa sānujaḥ sasuhṛdgaṇaḥ <br />
+            saṃtoṣavivaśenātha rāmo 'pi vidhipūjitaḥ //
+             <span class="ref">RmUD_*6.56</span></p>
+         
+         
+         <p id="RmUD_*6.57">
+            rāmo 'tha saha saṃgamya bharatenārighātinā <br />
+            ayodhyāṃ prāviśat tūrṇaṃ mātṛbhiś cābhinanditaḥ //
+             <span class="ref">RmUD_*6.57</span></p>
+         
+         
+         <p id="RmUD_*6.58">
+            athāyodhyānivāsās te janāḥ sarve 'pi toṣitāḥ <br />
+            abhigamyābruvan rāmaṃ dhanyā vayam iti drutam //
+             <span class="ref">RmUD_*6.58</span></p>
+         
+         
+         <p id="RmUD_*6.59">
+            cātakās tu ghanān dṛṣṭvā mayūrāś ca yathā śiśūn <br />
+            āsādya mātaras toṣaṃ tathā prāpur janā bhuvi //
+             <span class="ref">RmUD_*6.59</span></p>
+         
+         
+         <p id="RmUD_*6.60">
+            athābhiṣekaṃ rāmasya vasiṣṭhādyā mudānvitāḥ <br />
+            sahitā mantribhiś cakrur vasavo vāsavaṃ yathā //
+             <span class="ref">RmUD_*6.60</span></p>
+         
+         
+         <p id="RmUD_*6.61">
+            abhiṣekotsave sarve sugrīvādyāḥ kapīśvarāḥ <br />
+            yathārhaṃ pūjitāś cāsan sraggandhāmbarabhūṣaṇaiḥ //
+             <span class="ref">RmUD_*6.61</span></p>
+         
+         
+         <p id="RmUD_*6.62">
+            viśiṣya muktāhāreṇa sītayā hanumān mudam <br />
+            pūjitaś ca tathā lebhe yathā sītāvalokane //
+             <span class="ref">RmUD_*6.62</span></p>
+         
+         
+         <p id="RmUD_*6.63">
+            sarvāsāṃ vānarīṇāṃ ca kausalyā putravatsalā <br />
+            bhūṣaṇair bhūṣayām āsa vastracandanakuṅkumaiḥ //
+             <span class="ref">RmUD_*6.63</span></p>
+         
+         
+         <p id="RmUD_*6.64">
+            rāmājñayātha sarve 'pi sugrīvādiplavaṅgamāḥ <br />
+            kiṣkindhāṃ lebhire kṛcchrāc chrīrāmavirahāturāḥ //
+             <span class="ref">RmUD_*6.64</span></p>
+         
+         
+         <p id="RmUD_*6.65">
+            atibhakto dīrghajīvī laṅkāsamarasādhakaḥ <br />
+            anujñātaḥ sa rāmeṇa laṅkāṃ prāyād vibhīṣaṇaḥ //
+             <span class="ref">RmUD_*6.65</span></p>
+         
+         
+         <p id="RmUD_*6.66">
+            pituḥ siṃhāsanaṃ prāpya bhrātṛbhiḥ sahito 'naghaḥ <br />
+            virarāja tathā rāmo yathā viṣṇus triviṣṭape //
+             <span class="ref">RmUD_*6.66</span></p>
+         
+         
+         <p id="RmUD_*6.67">
+            lakṣmaṇānumate rāmo yauvarājyaṃ tu dattavān <br />
+            bharatāyāprameyāya prāṇāt priyatarāya saḥ //
+             <span class="ref">RmUD_*6.67</span></p>
+         
+         
+         <p id="RmUD_*6.68">
+            catvāras te mahātmānaḥ sabhāryā raghusattamāḥ <br />
+            khe satāro yathā candras tathā rejuḥ svapattane //
+             <span class="ref">RmUD_*6.68</span></p>
+         
+         
+         <p id="RmUD_*6.">iti śrīrāmodante yuddhakāṇḍaḥ samāptaḥ || <span class="ref">(RmUD_*6.)</span></p>
+         
+         
+         <p id="RmUD_*7.">atha uttarakāṇḍaḥ || <span class="ref">(RmUD_*7.)</span></p>
+         
+         
+         
+         <p id="RmUD_145*">
+            rājā paryagrahīd eva bhāryāṃ rāvaṇadūṣitām <br />
+            ity ajñajanavādena rāmas tatyāja maithilīm //
+             <span class="ref">RmUD_145*</span></p>
+         
+         
+         <p id="RmUD_146*">
+            tad viditvātha vālmīkir ānīyaināṃ nijāśramam <br />
+            antarvatnīṃ samāśvāsya tatraivāvāsayat sukham //
+             <span class="ref">RmUD_146*</span></p>
+         
+         
+         <p id="RmUD_14*7">
+            ṛṣibhiḥ prārthitasyātha rāghavasya niyogataḥ <br />
+            śatrughno lavaṇaṃ yuddhe nihatyainān apālayat //
+             <span class="ref">RmUD_14*7</span></p>
+         
+         
+         <p id="RmUD_148">
+            tapasyantaṃ tataḥ śūdraṃ śambūkākhyaṃ raghūttamaḥ <br />
+            hatvā viprasya kasyāpi mṛtaṃ putram ajīvayat //
+             <span class="ref">RmUD_148</span></p>
+         
+         
+         <p id="RmUD_149*">
+            rāme hemamayīṃ patnīṃ kṛtvā yajñaṃ vitanvati <br />
+            ānīya sasutāṃ sītāṃ tasmai prācetaso dadau //
+             <span class="ref">RmUD_149*</span></p>
+         
+         
+         <p id="RmUD_150*">
+            śaṅkyamānā punaś caivaṃ rāmeṇa janakātmajā <br />
+            bhūmyā prārthitayā dattaṃ vivaraṃ praviveśa sā //
+             <span class="ref">RmUD_150*</span></p>
+         
+         
+         <p id="RmUD_151">
+            lakṣmaṇaḥ sabhayabhraṃśād rāmeṇa samupekṣitaḥ <br />
+            mānuṣaṃ deham utsṛjya svakaṃ rūpaṃ samāviśat //
+             <span class="ref">RmUD_151</span></p>
+         
+         
+         <p id="RmUD_152*">
+            atha rāmasya nirdeśāt pauraiḥ saha vanaukasaḥ <br />
+            nimajjya sarayūtīrthe dehaṃ tyaktvā divaṃ yayuḥ //
+             <span class="ref">RmUD_152*</span></p>
+         
+         
+         <p id="RmUD_153*">
+            tato bharataśatrughnau nijaṃ rūpam avāpatuḥ <br />
+            rāmo 'pi mānuṣaṃ dehaṃ tyaktvā dhāmāviśat svakam //
+             <span class="ref">RmUD_153*</span></p>
+         
+         
+         <p id="RmUD_154*">
+            śrīrāmodantam ākhyātam idaṃ mandadhiyā mayā <br />
+            samīkṣya nipuṇaiḥ sadbhiḥ saṃśodhya parigṛhyatām //
+             <span class="ref">RmUD_154*</span></p>
+         
+         
+         <p id="RmUD_155">
+            yeṣāṃ prasādād rāmasya caritaṃ kīrtitaṃ mayā <br />
+            tān gurūn sarvadā naumi nārāyaṇaparāyaṇān //
+             <span class="ref">RmUD_155</span></p>
+         
+         
+         <p id="RmUD_156*">
+            yas tu dāśarathir bhūtvā raṇe hatvā ca rāvaṇam <br />
+            rarakṣa lokān vaikuṇṭhaḥ sa māṃ rakṣatu cinmayaḥ //
+             <span class="ref">RmUD_156*</span></p>
+         
+         
+         <p id="RmUD_*7.">iti śrīrāmodante uttarakāṇḍaḥ samāptaḥ || <span class="ref">(RmUD_*7.)</span></p>
+         
+         
+         
+         <p>śrīrāmodantaṃ samāptam |</p>
+         
+         </div>
+   </body>
+</html>

@@ -1,0 +1,798 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Upasaṃpadājñapti (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Upasaṃpadājñapti</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_upasaMpadAjJapti.xml">sa_upasaMpadAjJapti.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Jin-il Chung</p>
+      <p class="noindent"><b>Contribution: </b>Jin-il Chung</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Jin-il Chung: Handbuch für die buddhistische Mönchsordination bei den Mūlasarvāstivādins.
+            Gimpo 2011.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="hi">highlighted text</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/upsmpjnu.htm">upsmpjnu.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Upasampadajnapti (= Uj)
+            <br />Based on the ed. Jin-il Chung: Handbuch für die buddhistische Mönchsordination bei
+            den Mūlasarvāstivādins. Gimpo 2011
+            <br />
+            <br />Input by Jin-il Chung
+            <br />
+            <br />ITALICS for restored passages
+            <br />
+            <br />1) Standardization of
+            <br />a) Internal Sandhi:
+            <br />ṃn for nn; nt for ṃt; ṃv for mv; saṃp for samp; kamp for kaṃp; saṃb for samb; ṃm for
+            mm
+            <br />
+            <br />b) External Sandhi:
+            <br />m for ṃm-vowel
+            <br />-ṃ k- for -ṅ k-; -ṇīṃ n- for -ṇīn n-; -ṃ t- for -n t-; -ṃ dh- for -m* dh-; -ṃ p- for
+            -m p-; -ṃ p- for -m* p-; -ṃ v- for -m v-; -ṃ s- for -m* s-
+            <br />
+            <br />2) Gemination removed:
+            <br />rṇ for rṇṇ; rt for rtt; rd for rdd; rdh for rddh; rm for rmm; ry for ryy; rv for rvv
+            <br />
+            <br />Abbreviations:
+            <br />KaVā(Bhī) = C. Bendall, "Fragment of a Buddhist Ordination-Ritual in Sanskrit", Album-Kern:
+            Opstellen geschreven te zijner eere van H[endrik] Kern, Leiden 1903, pp. 373_376.
+            <br />
+            <br />Kṣudr-v(Bhī) = M. Schmidt, "Bhikṣuṇī-Karmavācanā: Die Handschrift Sansk. c.25(R) der
+            Bodleian Library Oxford", Studien zur Indologie und Buddhismuskunde, Festgabe für
+            Professor Dr. Heinz Bechert zum 60. Geburtstag am 26. Juni 1992, hg. R. Grünendahl,
+            J.-U. Hartmann, P. Kieffer-Pülz, Bonn 1993 (Indica et Tibetica, 22), pp. 239-288.
+            <br />
+            <br />Skt.C = Bhikṣukarmavākya, ed. A.C. Banerjee, Indian Historcal Quarterly 25 (1949),
+            pp. 19-30.
+            <br />
+            <br />ŚrBh(T: re-ed) = Śrāvakabhūmi, Revised Sanskrit Text and Japanese Translation, ed.
+            Śrāvakabhūmi Study Group (The Institute for Comprehensive Studies of Buddhism, Taishḥ
+            University), 2 parts, Tokyo 1998, 2007 (Taishḥ Daigaku Sḥgḥ Bukkyḥ Kenyūjo Kenkyū
+            Sḥsho, 4, 18).
+            <br />
+            <br />Upj(J) = Upasaṃpadājñaptiḥ, ed. B. Jinananda, Patna 1961 (Tibetan Sanskrit Works Series,
+            6)
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>Uj II.i.1
+            yasya kasyacit pravrajyāpekṣa upasaṃ<span class="it">krā</span>mati sa tenāntarāyikān dharmmān pṛṣṭvodgrahītavya udgṛhya trīṇi śaraṇag<span class="it">ama</span>nāni pañca ca śikṣāpadāny upāsakasaṃvaro dātavyaḥ evañ ca punar dātavyaḥ (Upj(J) 16.13-16;
+            vgl. Kṣudr-v(Bhī) 9 a1-4)</p>
+         
+         
+         <p>Uj II.i.2
+            samanvāhara bhadanta aham evaṃnāmā buddhaṃ śaraṇaṃ gacchāmi dvipadānām agryaṃ dharmaṃ
+            śaraṇaṃ gacchāmi virāgāṇām agryaṃ saṃghaṃ śaraṇaṃ gacchāmi gaṇānām agryam upāsakaṃ
+            māṃ bhadanto dhārayatu yāvajjīvaṃ // evaṃ dvir api trir api vācyam* // (Upj(J) 16.16-17.2;
+            ~ Skt.C 43 r7-v1; vgl. Kṣudr-v(Bhī) 9 a4-b1)</p>
+         
+         
+         <p>Uj II.i.3a
+            samanvāharācārya yathā te āryā arhanto yāvajjīvaṃ prāṇātipātaṃ prahāya prāṇātipātāt
+            prativiratāḥ evam evāham evaṃnāmā yāvajjīvaṃ prāṇātipātaṃ prahāya prāṇātipātāt prativiramāmy
+            anenāhaṃ prathamenāṅgena teṣām āryāṇām arhatāṃ śikṣāyām anuśikṣe anuvidhīye anukaromi
+            (Upj(J) 17.3-5; 7.2-5; ~ Skt.C 43 v1-4; vgl. Kṣudr-v(Bhī) 9 b1-4)</p>
+         
+         
+         <p>Uj II.i.3b
+            yathā te āryā arhanto yāvajjīvam adattādānaṃ kāmamithyācāraṃ mṛṣāvādaṃ surāmaireyamadyapramādasthānaṃ
+            prahāya surāmaireyamadyapramādasthānāt prativiratāḥ evam evāham evaṃnāmā yāvajjīvam
+            adattādānaṃ kāmamithyācāraṃ mṛṣāvādaṃ surāmaireyamadyapramādasthānaṃ prahāya surāmaireyamadyapramādasthānāt
+            prativiramāmy anenāhaṃ pañcamenāṅgena teṣām āryāṇām arhatāṃ śikṣāyām anuśikṣe anuvidhīye
+            anukaro<span class="it">mi</span> evaṃ dvir api trir api // (Upj(J) 7.6-11; ~ Skt.C 43 v4-44 r1; vgl. Kṣudr-v(Bhī)
+            9 b4-10 a2)</p>
+         
+         
+         <p>Uj II.ii.1.1 <span class="it">Siehe unten 1.5</span>.</p>
+         
+         
+         <p>Uj II.ii.1.2
+            tataḥ paścād bhikṣur adhyeṣitavyo ya ekam ārocayati ārocakena bhikṣuṇā praṣṭavyaṃ
+            pṛṣṭas te āsamudācārikān dharmān ity apṛṣṭvā ārocayati sātisāro bhavati (Upj(J) 7.12-14;
+            vgl. Kṣudr-v(Bhī) 10 a2-4)</p>
+         
+         
+         <p>Uj II.ii.1.3
+            paścād ārocakena bhikṣuṇā ārocayitavyaṃ / evañ ca punar ārocayitavyaṃ sarvasaṅghe
+            saṃniṣaṇṇe saṃnipatite anuparigaṇikayā vā samīcīṃ trīṃ kṛtvā vṛddhānte utkuṭukena
+            sthitvā añjaliṃ pragṛhya idaṃ syād vacanīyaṃ bhadantāḥ samanvāhṛyatāṃ / ayam evaṃnāmā
+            evaṃnāmnaḥ pravrajyāpekṣo gṛhī avadātavasanaḥ anavatāritakeśaśmaśrur ākāṃkṣate svākhyāte
+            dharmavinaye pravrajituṃ so 'yam evaṃnāmā evaṃnāmnā upādhyāye<span class="it">na</span> svākhyāte dharmavinaye keśaśmaśruṇy avatārya kāṣāyāṇi vastrāṇy ācchādya samyag eva
+            śraddhayā agārād anagārikāṃ pravrajiṣyati / <span class="it">kiṃ pravrajatv iti</span> (Upj(J) 8.1-8; ~ Skt.C 44 r1-4; vgl. Kṣudr-v(Bhī) 10 a4-b2)</p>
+         
+         
+         <p>Uj II.ii.1.4
+            sarvair vaktavyaṃ sacet pariśuddho bhavatīti sacet vadantīti evaṃ kuśalaṃ no ced vadanti
+            sātisārā bhavanti (Upj(J) 8.8-10; vgl. Kṣudr-v(Bhī) 10 b2)</p>
+         
+         
+         <p>Uj II.ii.1.5
+            tataḥ paścād upādhyāyo yācitavyaḥ evañ ca punar yācitavyaḥ samīcīṃ kṛtvā purata utkuṭukena
+            sthitvā idaṃ syād vacanīyam* / samanvāharācārya aham evaṃnāmā ācāryam upādhyāyaṃ yāce
+            ācāryo me upādhyāyo bhavatu ācāryeṇopādhyāyena pravrajiṣyāmi evaṃ dvir api trir api
+            tṛtīyāyāṃ tu vāci upādhyāya iti vaktavyaṃ (Upj(J) 8.11-15; ~ Skt.C 44 r4-5; vgl. Kṣudr-v(Bhī)
+            10 b2-4)</p>
+         
+         
+         <p>Uj II.ii.1.6
+            tataḥ pravrājayitavyaḥ evañ ca punaḥ pravrājayitavyaḥ samanvāhara upādhyāya aham evaṃnāmā
+            buddhaṃ śaraṇaṃ gacchāmi dvipadānām agryaṃ dharmaṃ śaraṇaṃ gacchāmi virāgāṇām agryaṃ
+            saṃghaṃ śaraṇaṃ gacchāmi gaṇānām agryam* / taṃ bhagavantaṃ śākyamuniṃ śākyasiṃhaṃ
+            śākyādhirājaṃ tathāgatam arhantaṃ samyaksaṃbuddhaṃ pravrajitam anupravrajāmi gṛhaliṅgam
+            ucchṛjāmi pravrajyāliṅgaṃ samādade evaṃ dvir api trir api (Upj(J) 8.16-9.4; ~ Skt.C
+            44 r5-v1; vgl. Kṣudr-v(Bhī) 11 a5-b4)</p>
+         
+         
+         <p>Uj II.ii.1.7
+            tataḥ paścāt keśā avatārayitavyāḥ te sarvān evāvatārayanti / bhagavān āha cūḍā sthāpayitavyā
+            tataḥ paścāt praṣṭavyaḥ avatāryatāṃ cūḍeti / yadi kathayati neti vaktavyaḥ ata eva
+            gaccha atha kathayaty avatāryām iti avatārayitavyā / (Upj(J) 9.5-8; vgl. Kṣudr-v(Bhī)
+            10 b4-11 a1)</p>
+         
+         
+         <p>Uj II.ii.1.8
+            tataḥ paścāt snāpayitavyaḥ yadi śītakālo bhavati uṣṇena vāriṇā snāpayitavyaḥ athoṣṇakālo
+            bhavati śītalena (Upj(J) 9.9-10; vgl. Kṣudr-v(Bhī) 11 a1-3)</p>
+         
+         
+         <p>Uj II.ii.1.9
+            tataḥ upādhyāyena kāṣāyāṇi vastrāṇi dātavyāni tenāpi pādayor nipatya pratigṛhītavyāni
+            tata upādhyāyena nivāsayitavyaḥ pratyavekṣitavyaś ca mā avyañjana ubhayavyañjano veti
+            / uktaṃ bhagavatā pratyavekṣitavyaḥ iti te vinagnīkṛtya pratyavekṣante bhagavān āha
+            na vinagnīkṛtya pratyavekṣitavya api tu nivasann evāpratisaṃviditaṃ pratyavekṣitavya
+            (Upj(J) 9.10-17; vgl. Kṣudr-v(Bhī) 11 a3-5)</p>
+         
+         
+         <p>Uj II.ii.2.1 <span class="it">Siehe oben 1.6.</span></p>
+         
+         
+         <p>Uj II.ii.2.2
+            tataḥ paścād bhikṣur adhyeṣṭavyo / yo 'sya śaraṇagamanaśikṣāpadāny anuprayacchati
+            tena tasya samīcīṃ kṛtvā purata utkuṭukena niṣadyāṃjaliṃ pragṛhya idaṃ syād vacanīyaṃ
+            samanvāhara bhadanta aham eva<span class="it">ṃ</span>nāmā buddhaṃ śaraṇaṃ gacchāmi dvipadānām agryaṃ dharmaṃ śaraṇaṃ gacchāmi virāgāṇām
+            agryam* / saṃghaṃ śaraṇaṃ gacchāmi gaṇānām agryam* / <span class="it">śrāmaṇerakaṃ mām bhadanto dhārayatu yāvajjīvaṃ //</span> evaṃ dvir api trir api tṛtīyāyāṃ vāci vaktavyam* śrāmaṇeraka<span class="it">ṃ</span> ca mām ācāryo dhārayatu (Upj(J) 10.1-9; ~ Skt.C 44 v1-3; vgl. Kṣudr-v(Bhī) 11 b4-5)</p>
+         
+         
+         <p>Uj II.ii.2.3 <span class="it">Cf. Tibetan</span>.</p>
+         
+         
+         <p>Uj II.ii.2.4a
+            tataḥ śikṣāpadāni grāhayitavyaḥ / evañ ca punar grāhayitavyaḥ samanvāhara ācārya yathā
+            te āryā arhanto yāvajjīvaṃ prāṇātipātaṃ prahāya prāṇātipā<span class="it">tā</span>t prativiratāḥ evam eva aham evaṃnāmā yāvajjīvaṃ prāṇātipātaṃ prahāya prāṇātipātāt
+            prativiramāmy anenāhaṃ prathamenāṅgena teṣām āryāṇām arhatāṃ śikṣāyām anuśikṣe anuvidhīye
+            anukaromi / (Upj(J) 10.9- 13; ~ Skt.C 44 v3-5)</p>
+         
+         
+         <p>Uj II.ii.2.4b
+            yathā te āryā arhanto yāvajjīvam adattādānam abrahmacaryaṃ mṛṣāvādaṃ surāmaireyamadyapramādasthānaṃ
+            nṛttagītavāditamālāgandhavilepanavarṇakadhāraṇam uccaśayanamahāśayanaṃ akālabhoja<span class="it">naṃ</span> jātarūparajatapratigrahaṃ prahāya jātarūparajatapratigrahāt prativiratāḥ evam evāham
+            evaṃnāmā yāvajjīvam adattādānaṃ abrahmacaryaṃ mṛṣāvādaṃ surāmaireyamadyapramādasthānaṃ
+            nṛttagītavāditamālāgandhavilepanavarṇakadhāraṇam uccaśayanamahāśayanaṃ <span class="it">akālabhojanaṃ</span> jātarūparajatapratigrahaṃ prahāya jātarūparajatapratigrahāt prativiramāmy anenāhaṃ
+            daśamenā<span class="it">ṃ</span>gena teṣām āryāṇām arhatāṃ śikṣāyām anuśikṣe anuvidhīye anukaromi evaṃ dvir api <span class="it">trir api</span> (Upj(J) 10.14-22; ~ Skt.C 44 v5-45 r4)</p>
+         
+         
+         <p>Uj II.iii.1.1.1
+            upasaṃpadākarma karaṇīyaṃ // // tato yadi paripūrṇaviṃśativarṣo bhavati tasya pātracīvaraṃ
+            paryeṣitavyaṃ raho'nuśāsako bhikṣur adhyeṣitavyaḥ karmakārako bhikṣur adhyeṣitavyo
+            ye maṇḍalakaṃ pravekṣyanti (Upj(J) 11.1-4)</p>
+         
+         
+         <p>Uj II.iii.1.1.2.1
+            tataḥ sarvasaṃghe saṃniṣaṇṇe saṃnipatite apaścimake vā / daśavarge maṇḍalake triḥ
+            samīcīṃ kārayitavyaḥ dve samīcyau pañcamaṇḍalakena vā jāṃghāprapīḍanikayā vā triḥ
+            samīcīṃ kārayitvā upādhyāyo yācitavyaḥ yady upādhyāya upādhyāya eva athācāryaḥ ācāryaḥ
+            bhadanto bhadantaḥ evañ ca punar yācitavyaḥ upādhyāyasya samīcīṃ kṛtvā iṣṭake purataḥ
+            pārṣṇibhyān niṣadyāṃjaliṃ pragṛhya idaṃ syād vacanīyaṃ (Upj(J) 11.5-10)</p>
+         
+         
+         <p>Uj II.iii.1.1.2.2
+            samanvāhara upādhyāya aham eva<span class="it">ṃ</span>nāmā upādhyāyam upādhyāyaṃ yāce upādhyāyo me upādhyāyo bhavatu <span class="it">upādhyāyena</span> upādhyāyenopasaṃpatsye eva<span class="it">ṃ</span> dvir api tṛr api ācārye tu bhadante vā tṛtīye vāci vaktavyaṃ upādhyāya iti // (Upj(J)
+            11.10-12; ~ Skt.C 45 r4-5)</p>
+         
+         
+         <p>Uj II.iii.1.1.3.1a
+            tataś cīvarāṇy adhiṣṭhāpayitavyaḥ yadi tāvac chinnakāni bhavanti evam adhiṣṭhāpayitavyaḥ
+            samanvāhara upādhyāya aham evaṃnāmā idaṃ cīvaraṃ sāṃghāṭīm adhitiṣṭhāmi kṛtaniṣṭhitaṃ
+            cīvaraṃ <span class="it">kalpikaṃ</span> pāribhogikaṃ evaṃ dvir api tṛr api (Upj(J) 11.13-15; ~ Skt.C 45 r5-6; vgl. Kṣudr-v(Bhī)
+            15 a1-2)</p>
+         
+         
+         <p>Uj II.iii.1.1.3.1b
+            samanvāhara upādhyāya aham evaṃnāmā idaṃ cīvaraṃ uttarāsaṃgam adhitiṣṭhāmi kṛtaniṣṭhitaṃ
+            cīvaraṃ <span class="it">kalpikaṃ</span> pāribhogikam* / evaṃ dvir api tṛr api vaktavyaṃ (Upj(J) 11.16-17; ~ Skt.C 45 r6-7;
+            vgl. Kṣudr-v(Bhī) 15 a2)</p>
+         
+         
+         <p>Uj II.iii.1.1.3.1c
+            samanvāhara upādhyāya aham evaṃnāmā idaṃ cīvaraṃ antarvāsam adhitiṣṭhāmi kṛtaniṣṭhitaṃ
+            cīvaraṃ kalpikaṃ pāribhogikaṃ evaṃ dvir api trir api vaktavyaṃ (Upj(J) 11.18-20; ~
+            Skt.C 45 r7-v1; vgl. Kṣudr-v(Bhī) 15 a2)</p>
+         
+         
+         <p>Uj II.iii.1.1.3.2a
+            yady acchinnāni bhavanty evam adhiṣṭhātavyāni samanvāhara upādhyāya <span class="it">aham evaṃnāmā</span> i<span class="it">daṃ</span> cīvaraṃ sāṃghāṭīm adhitiṣṭhāmi ākāṃkṣaṃ navakaṃ kariṣyāmi ardhatṛtīyamaṇḍalakaṃ anantarāyeṇa
+            dhāviṣye vitariṣyāmi cchetsyāmi saṃbhatsyāmi saṃgranthiṣye seviṣyāmi ra<span class="it">ṃ</span>kṣye āsevakān vātrāropayiṣye yathāpratyayaṃ vā kariṣyāmi idaṃ cīvaraṃ <span class="it">kalpikaṃ</span> pāribhogikaṃ evaṃ dvir api trir api vācyaṃ // // (Upj(J) 12.1-5; ~ Skt.C 45 v1-3)</p>
+         
+         
+         <p>Uj II.iii.1.1.3.2b
+            samanvāhara upādhyāya aham evaṃnāmā idaṃ cīvaraṃ uttarāsaṃgam adhitiṣṭhāmi / ākāṃkṣaṃ
+            saptakaṃ kariṣyāmi ardhatṛtīyamaṇḍalakaṃ anantarāyeṇa dhāviṣye / vitariṣyāmi cchetsyāmi
+            saṃbhatsyāmi saṃgranthiṣye sīviṣyāmi raṃkṣye āsevakān vātrāropayiṣyāmi yathāpratyayaṃ
+            kariṣyāmi idaṃ cīvaraṃ <span class="it">kalpikaṃ</span> pāribhogikaṃ evaṃ dvir apy evaṃ trir api vaktavyaṃ // // (Upj(J) 12.6-10; ~ Skt.C
+            45 v3-5)</p>
+         
+         
+         <p>Uj II.iii.1.1.3.2c
+            samanvāhara upādhyāya aham evaṃnāmā idaṃ cīvaraṃ antarvāsam adhitiṣṭhāmi ākāṃkṣaṃ
+            pañcakaṃ kariṣyāmy a<span class="it">dhya</span>rdhamaṇḍalakaṃ anantarāyeṇa dhāviṣye / vitariṣyāmi cchetsyāmi saṃbhatsyāmi saṃgranthiṣye
+            seviṣyāmi raṃkṣye āsevakān vātrāropayiṣyāmi yathāpratyayaṃ kariṣyāmi / idaṃ cīvaraṃ
+            <span class="it">kalpikaṃ</span> pāribhogikaṃ // evaṃ dvir api trir api vācyam* (Upj(J) 12.11-15; ~ Skt.C 45 v5-46
+            r1)</p>
+         
+         
+         <p>Uj II.iii.1.1.4
+            tataḥ saṃghe pātraṃ darśayitavyaṃ idam asya pātram apy evaṃ mā ūnapātraṃ vādhikapātraṃ
+            vā bhaviṣyatīti (Upj(J) 12.16-17; vgl. Kṣudr-v(Bhī) 15 a2-3)</p>
+         
+         
+         <p>Uj II.iii.1.1.5
+            tato 'dhiṣṭhātavyaṃ evañ ca punar adhiṣṭhātavyaṃ / vāme pāṇau <span class="it">pātraṃ</span> pratiṣṭhāpya dakṣiṇena pāṇinā praticchādya vaktavyaṃ samanvāhara upādhyāya / aham
+            evaṃnāmā idaṃ pātraṃ ṛṣibhājanaṃ bhaikṣabhājanam adhitiṣṭhāmi bhojane pāribhogikam
+            evaṃ dvir apy evaṃ trir api vācyam* (Upj(J) 12.18-21; ~ Skt.C 46 r1-2; vgl. Kṣudr-v(Bhī)
+            15 a3-5)</p>
+         
+         
+         <p>Uj II.iii.1.2.1
+            tataḥ paścāc chramaṇopavicāraṃ vihāyya darśanopavicāre añjalim pragṛhya gaṇābhimukhaḥ
+            sthāpayitavyaḥ tataḥ karmakārakeṇa bhikṣuṇā praṣṭavyaṃ ko '<span class="it">dhī</span>ṣṭa evaṃnāmnā evaṃnāmno raho'nuśāsaka iti yo 'dhīṣṭas tena vaktavyam aham evaṃnāmeti
+            (Upj(J) 13.1-4; ~ Skt.C 46 r2; vgl. Kṣudr-v(Bhī) 15 a5-b1)</p>
+         
+         
+         <p>Uj II.iii.1.2.2
+            tataḥ paścād utsāhayitavya / utsahase tvam evaṃnāmānaṃ rahasy anuśāsituṃ evaṃnāmnā
+            upādhyāyena tena vaktavyaṃ utsahe (Upj(J) 13.5-6; ~ Skt.C 46 r2-3; vgl. Kṣudr-v(Bhī)
+            15 b1-3)</p>
+         
+         
+         <p>Uj II.iii.1.2.3
+            tataḥ karmakārakeṇa bhikṣuṇā muktikā jñaptiḥ kartavyā / śṛṇotu bhadantāḥ saṅghaḥ ayam
+            evaṃnāmā bhikṣu utsahate evaṃnāmānaṃ raho'nuśāsituṃ evaṃnāmnā upādhyāyena sacet saṅghasya
+            prāptakālaṃ kṣamate 'nujānīyāt saṃgho yat saṅghaḥ evaṃnāmānaṃ bhikṣum evaṃnāmno raho'nuśāsakaṃ
+            sa<span class="it">ṃ</span>manyeta ayam evaṃnāmā bhikṣur evaṃnāmānaṃ raho'nuśāsiṣyati evaṃnāmnā upādhyāyena eṣā
+            jñaptiḥ // // (Upj(J) 13.7-12; ~ Skt.C 46 r3-5; vgl. Kṣudr-v(Bhī) 15 b3-16 a1)</p>
+         
+         
+         <p>Uj II.iii.1.3.1
+            tataḥ paścā raho'nuśāsakena bhikṣuṇā ātmanaḥ samīcīṃ kārayitvā utkuṭukaṃ niṣādayitvā
+            añjaliṃ pragṛhya idaṃ syād vacanīyam* śṛṇu tvam āyuṣmann ayaṃ te satyakālo 'yaṃ bhūtakālaḥ
+            ya<span class="it">t</span> tvāhaṃ kiñcit pṛcchāmi sarva<span class="it">ṃ</span> ta<span class="it">t</span> tva<span class="it">yā</span> viśāradena bhūtvā bhūtañ ca bhūtato vaktavyam abhūtañ cābhūtato nirveṭhayitavyam
+            (Upj(J) 13.13-17; ~ Skt.C 46 r5-7; vgl. Kṣudr-v(Bhī) 16 a1-2)</p>
+         
+         
+         <p>Uj II.iii.1.3.2
+            puruṣo 'si puruṣaḥ puruṣendriyeṇa samanvāgataḥ samanvāgataḥ paripūrṇaviṃśativarṣaḥ
+            paripūrṇaviṃśativarṣaḥ paripūrṇaṃ te tricīvaraṃ pātrañ ca paripūrṇam* / jīvatas te
+            mātāpitarau yadi kathayati jīvata iti vaktavyam anujñāto 'si mātāpitṛbhyāṃ <span class="it">anujñātaḥ</span> yadi kathayati mṛtāv iti vaktavyaṃ māsi dāso mā prāptako mā vaktavyako mā āhṛtako
+            mā vikrītako mā rājabhaṭaḥ mā rājakilviṣī mā rājāpathyakarmakārī mā te rājāpathyaṃ
+            karma kṛtaṃ vā kāritam vā / māsi cauro dhvajabaddhaka mā ṣaṇḍhako <span class="it">mā</span> paṇḍako <span class="it">mā</span> avyañjana mā ubhayavyañjanako mā bhikṣuṇīdūṣako mā mātṛghātako mā pitṛghātako mārhantaghātako
+            mā saṃghabhedako mā tathāgatasyāntike duṣṭacittarudhirotpādakaḥ mā tīrthiko mā tīrthikāvakrāntako
+            mā steyasaṃvāsiko mā nānāsaṃvāsiko mā asaṃvāsiko mā nirmitakaḥ mā te kasyaci<span class="it">t</span> kiṃcid deyam alpaṃ vā prabhūtaṃ vā yadi kathayati deyaṃ vaktavyaṃ śakṣyasi pravrajya
+            dātuṃ yadi kathayati neti vaktavyam ata eva gaccha yadi kathayati śakṣyāmīti vaktavyaṃ
+            (Upj(J) 13.18-15.7; ~ Skt.C 46 r7-v6; vgl. Kṣudr-v(Bhī) 16 a2-b2)</p>
+         
+         
+         <p>Uj II.iii.1.3.3
+            māsi pūrvaṃ pravrajita iti / yadi kathayati pravrajita iti vaktavyaṃ māsi caturṇāṃ
+            pārājikānām anyatamānyatamām āpattim āpanno vibhramatā vā te śikṣā <span class="it">samyag</span> nyastā yadi kathayaty āpanno 'haṃ vaktavyam ata eva gaccha / atha kathayati neti
+            vaktavyaṃ kaccid asy etarhi pravrajita iti / yadi kathayati pravrajito 'haṃ vaktavyaṃ
+            samyak te brahmacaryaṃ cīrṇam* / cīrṇa<span class="it">ṃ</span> kiṃnāmā tvaṃ evaṃnāmā kiṃnā<span class="it">mā</span> te upādhyāyaḥ arthahetor nāma gṛhṇāmi evaṃnāmā me upādhyāyaḥ (Upj(J) 15.8-17; ~ Skt.C
+            46 v6-7; vgl. Kṣudr-v(Bhī) 16 b2-5)</p>
+         
+         
+         <p>Uj II.iii.1.3.4
+            śṛṇu tvam āyuṣman bhavanti khalu puruṣāṇām ima evaṃrūpāḥ kāye kāyikā ābādhā tadyathā
+            kuṣṭhaṃ gaṇḍaṃ kiṭibhaṃ kilāso dardru kaṇḍū kacchū rajataṃ vicarcikā hikkā cchardī
+            visūcikā lohaliṃgā raktaṃ pittaṃ gulmaṃ bhagandaro kṣayaḥ kāsaḥ śvāsaḥ śoṣo 'pasmāra
+            āṭakkaraḥ pāṇḍurogo 'ṅgabhedāsthibhedaḥ pārśvabhedo mūtrarogo 'tīsāraḥ ślīpadaṃ klamo
+            jvaraḥ prajvaraḥ ekāhiko dvitīyakaḥ tṛtīyakaś caturthakaḥ sāṃnipātikaḥ satatajvaro
+            viṣamajvaraḥ mā te ima evaṃrūpāḥ kāye kāyikā ābādhāḥ saṃvidyante anye vā punar evaṃjātīyā
+            (Upj(J) 15.18-16.6; ~ Skt.C 46 v7-47 r4; vgl. Kṣudr-v(Bhī) 16 b5-17 a3)</p>
+         
+         
+         <p>Uj II.iii.1.3.5
+            yad asy etarhi mayā pṛṣṭaḥ etad eva te saṅghamadhye sabrahmacāriṇaḥ prakṣyanti tatrāpi
+            te viśāradena bhūtvā bhūtaṃ ca bhūtato vaktavyam abhūtaṃ cābhūtato nirveṭhayitavyaṃ
+            tiṣṭha mā aśabdita āgamiṣya<span class="it">sī</span>ti (Upj(J) 16.7-9; ~ Skt.C 47 r4-6; vgl. Kṣudr-v(Bhī) 17 a3-4)</p>
+         
+         
+         <p>Uj II.iii.2.1.1
+            tataḥ paścād raho'nuśāsakena bhikṣuṇā antar mārge sthitvā vaktavyaṃ śṛṇotu bhadantāḥ
+            saṅghaḥ samanuśiṣṭo mayā evaṃnāmā rahasy āntarāyikān dharmān evaṃnāmnā upādhyāyena
+            kim āgacchatu (Upj(J) 16.10- 12; ~ Skt.C 47 r6-7; vgl. Kṣudr-v(Bhī) 17 a4-5)</p>
+         
+         
+         <p>Uj II.iii.2.1.2
+            sarvair vaktavyaṃ sacet pariśuddhyatīti / saced <span class="it">va</span>dantīty evaṃ kuśalaṃ no ced vadanti sātisārā bhavanti / (Upj(J) 16.12-13, 17.5-6;
+            vgl. Kṣudr-v(Bhī) 17 a5)</p>
+         
+         
+         <p>Uj II.iii.2.1.3a
+            tataḥ paścāt karmakārakasya bhikṣoḥ samīcīṃ kārayitvā iṣṭakeṣu purastāt pārṣṇibhyān
+            niṣadyāṃjaliṃ pragṛhyopasaṃpadaṃ yācayitavyaḥ evañ ca punaḥ yācayitavyaḥ (Upj(J) 17.7-9;
+            vgl. Kṣudr-v(Bhī) 17 a5-b1; 18 b5-19 a2; KaVā(Bhī) V1)</p>
+         
+         
+         <p>Uj II.iii.2.1.3b
+            śṛṇotu bhadantāḥ saṃghaḥ aham evaṃnāmā arthahetor nāma gṛhṇāmi evaṃnāmna upādhyāyasya
+            upasaṃpatprekṣaḥ so 'ham evaṃnāmā saṃghād upasaṃpadaṃ yāce arthahetor nāma gṛhṇāmi
+            <span class="it">e</span>vaṃnāmnopādhyāyena upasaṃpādayatu māṃ bhadantāḥ saṃghaḥ ulluṃpatu māṃ bhadantāḥ saṃghaḥ
+            anugṛhṇātu <span class="it">māṃ</span> bhadantāḥ saṃghaḥ anukampatu māṃ bhadantāḥ saṃghaḥ anukampako 'nukampām upādāya evaṃ
+            dvir api trir api // (Upj(J) 17.10-14; ~ Skt.C 47 r7-v2; vgl. Kṣudr-v(Bhī) 17 b1-3;
+            19 a2-4; KaVā(Bhī) V1-2)</p>
+         
+         
+         <p>Uj II.iii.2.2.1
+            tataḥ paścāt karmakārakeṇa bhikṣuṇā muktikā jñaptiḥ kartavyā : śṛṇotu bhadantāḥ saṃghaḥ
+            ay<span class="it">aṃ</span> evaṃnāmā evaṃnāmna upasaṃpatprekṣaḥ so 'yam evaṃnāmā saṃghād upasaṃpadaṃ yācate evaṃnāmnopādhyāyena
+            sacet saṃghasya prāptakālaṃ kṣamate 'nujānīyāt saṃgho yad vayam evaṃnāmānaṃ saṅghamadhye
+            'ntarāyikān dharmān pṛcchema evaṃnāmnā upādhyāyena eṣā jñaptiḥ (Upj(J) 17.15-18.2;
+            ~ Skt.C 47 v2-4; vgl. Kṣudr-v(Bhī) 17 b3-5; 19 a4-b1; KaVā(Bhī) V3-4)</p>
+         
+         
+         <p>Uj II.iii.2.2.2
+            tataḥ paścād vaktavyaṃ śṛṇu tvam āyuṣmann ayaṃ te satyakālo 'yaṃ <span class="it">bhūtakālaḥ</span> pūrvavad yāvat saṃvidyante anye vā punar evaṃjātīyāḥ (Upj(J) 18.3-4; ~ Skt.C 47 v4-5;
+            vgl. Kṣudr-v(Bhī) 17 b5-18 a2; 19 b1-20 b4; KaVā(Bhī) V4-R3)</p>
+         
+         
+         <p>Uj II.iii.2.3.1
+            tataḥ paścā jñaptiṃ kṛtvā karma kartavyaṃ evañ ca punaḥ kartavyaṃ śṛṇotu bhadantāḥ
+            saṅghaḥ ayam evaṃnāmā evaṃnāmnaḥ upasaṃpatprekṣaḥ puruṣaḥ paripūrṇaviṃśativarṣaḥ paripūrṇam
+            asya tṛcīvaraṃ pātrañ ca / pariśuddham antarāyikair dharmair ātmānaṃ vadati so 'yam
+            evaṃnāmā evaṃnāmnā upādhyāyena saṃghād upasaṃpadaṃ yācate / sacet saṅghasya prāptakālaṃ
+            kṣamate 'nujānīyāt saṅghaḥ <span class="it">yat saṃgha</span> evaṃnāmānam upasaṃpādayed evaṃnāmnā upādhyāyena eṣā jñaptiḥ (Upj(J) 18.5-10; ~ Skt.C
+            47 v5-48 r1; vgl. Kṣudr-v(Bhī) 18 a2-5; 20 b4-21 a4; KaVā(Bhī) R3-4)</p>
+         
+         
+         <p>Uj II.iii.2.3.2
+            evaṃ karma kartavyaṃ śṛṇotu bhadantāḥ saṅghaḥ ayam evaṃnāmā evaṃnāmna upasa<span class="it">ṃpa</span>tprekṣaḥ puruṣaḥ paripūrṇaviṃśativarṣaḥ paripūrṇam asya tṛcīvaraṃ pātrañ ca / pariśuddham
+            antarāyikair dharmair ātmānaṃ vadati / so 'yam evaṃnāmā evaṃnāmnā upādhyāyena saṃghād
+            upasaṃpadaṃ yācate tat saṃgha evaṃnāmānam upasaṃpāda<span class="it">ya</span>ty evaṃnāmnā upādhyāyena yeṣām āyuṣmatāṃ kṣamate evaṃnāmānam upasaṃpādayitum evaṃnāmnā
+            upādhyāye<span class="it">na</span> te tūṣṇīṃ <span class="it">yeṣāṃ</span> na kṣamate <span class="it">te</span> bhāṣantāṃ iyaṃ prathamā karmavācanā evaṃ dvitīyā tṛtīyā karmavācanā vaktavyā : (Upj(J)
+            18.11-19; ~ Skt.C 48 r1-5; vgl. Kṣudr-v(Bhī) 18 a5-b4; 21 a4-b4; KaVā(Bhī) R4-7)</p>
+         
+         
+         <p>Uj II.iii.2.3.3
+            upasaṃpāditaḥ saṃghena <span class="it">ayam evaṃnāmā</span> evaṃnāmnā upādhyāyena kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam etad dhārayāmi
+            / (Upj(J) 18.19-20; ~ Skt.C 48 r5-6; vgl. Kṣudr-v(Bhī) 18 b4-5; 21 b4-5)</p>
+         
+         
+         <p>Uj II.iii.3.1
+            tataḥ paścāc chāyā māpayitavyā / uktaṃ bhagavatā cchāyā māpayitavyeti / bhikṣavaḥ
+            padair māpayanty aticiraṃ bhavati bhāgavān āha / na padair māpayitavyā / saṃkunā māpayitavyā
+            bhikṣavo 'tidīrgheṇa māpayanti / tathāpy aticiram bhavati / bhagavān āha / caturaṃgulamātreṇa
+            śaṃkunā māpayitavyā yāvantaḥ śa<span class="it">ṃ</span>kavas tāvantaḥ puruṣā vaktavyāḥ (Upj(J) 18.21-19.2; vgl. Kṣudr-v(Bhī) 21 b5-22 a2)</p>
+         
+         
+         <p>Uj II.iii.3.2
+            tataḥ paścāt kāla ārocayitavyaḥ pūrvāhṇo madhyāhnaḥ sāyāhnaḥ rātryāḥ prathamo 'rdhayāmo
+            yāmaḥ madhyo 'rdhayāmo yāmaḥ paścimo 'rdhayāmo yāmaḥ anuddhato 'ruṇaḥ uddhato 'ruṇaḥ
+            anudita āditya udita ādityaḥ aṣṭabhāgodita āditya caturbhāgodita ādityaḥ apariṇato
+            madhyāhnaḥ pariṇato madhyāhnaḥ caturbhāgāvaśiṣṭo divaso 'ṣṭabhāgāvaśiṣṭo divasaḥ anastaṃgata
+            ādityaḥ astaṃgata ādityaḥ / anuditāni nakṣatrāṇy uditāni nakṣatrāṇi // (Upj(J) 19.3-8;
+            vgl. Kṣudr-v(Bhī) 22 a4-5)</p>
+         
+         
+         <p>Uj II.iii.3.3
+            tataḥ paścāt samayā ārocayitavyāḥ pañca samayā haimantiko graiṣmiko vārṣiko mṛtavārṣiko
+            dīrghavārṣikaḥ tatra haimantikaḥ catvāro māsā mārgaśīrṣapuṣyamāghaphālgunaḥ graiṣmikaḥ
+            catvāro māsāḥ caitravaiśākhajeṣṭhāṣāḍhaḥ vārṣi<span class="it">ka e</span>ko māsaḥ śrāvaṇaḥ mṛtavārṣika ekaṃ rātriṃdinaṃ bhādrapadasya māsasya pratipat* dīrghavārṣika
+            ekarātryūnās trayo māsāḥ bhādrapadāśvayujakārtikaḥ // (Upj(J) 19.9-14; vgl. Kṣudr-v(Bhī)
+            22 a2-4)</p>
+         
+         
+         <p>Uj III.i.1
+            tataḥ paścāc catvāro niśrayā ārocayitavyāḥ śṛṇu tvam āyuṣmaṃś catvāra ime tena bhagavatā
+            jānatā paśyatā tathāgatenārhatā samyaksaṃbuddhena evaṃ pravrajitopasaṃpannasya bhikṣor
+            niśrayā ākhyātāḥ yān niśritya bhikṣoḥ svākhyāte dharmavinaye pravrajyopasaṃpad bhikṣubhāvaḥ
+            katame catvāraḥ (Upj(J) 19.15-19; ~ Skt.C 48 r6-7; vgl. Kṣudr-v(Bhī) 22 a5-b2)</p>
+         
+         
+         <p>Uj III.i.2.1
+            pāṃsukūlaṃ cīvarāṇāṃ kalpikaṃ ca sulabhañ ca yan niśritya bhikṣoḥ svākhyāte dharmavinaye
+            pravrajyopasaṃpad bhikṣubhāvaḥ utsahase tvam evaṃnāman yāvajjīvaṃ pāṃsukūlena cīvareṇa
+            yāpayituṃ tena vaktavyam utsahe atirekalābhaḥ paṭṭā vā paṭā vā / prāvārā vā / aṃśukā
+            vā / kauśeyā vā / dukūlikā vā / kṣomakā vā / koṭṭambakā vā / śāṇakā vā / kārpāsikā
+            vā / āmilā vā / somilā vā kṛmilā vā kṛmivarṇā vā / samavarṇā vā / suvarṇā vā / du<span class="it">r</span>varṇā vā / kāśikasūkṣmam vā / kṣomakasūkṣmaṃ vā dukūlakasūkṣmaṃ vā / koṭṭambakasūkṣmaṃ
+            vā iti yad vā punar anyad api kalpikaṃ cīvaraṃ saṃghād vā utpadyeta pudgalato vā tatrāpi
+            te pratigrahe mātrā karaṇīyā / kaccid evaṃrūpaṃ sthānam abhisaṃbhotsyase / tena vaktavyam
+            abhisaṃbhotsye / (Upj(J) 20.1-9; ~ Skt.C 48 r7-v4; vgl. Kṣudr-v(Bhī) 22 b2-23 a1)</p>
+         
+         
+         <p>Uj III.i.2.2
+            śṛṇu tvam evaṃnāma piṇḍapāto bhojanānāṃ kalpikaś ca sulabhaś ca / yan niśritya bhikṣoḥ
+            svākhyāte dharmavinaye pravrajyopasaṃpad bhikṣubhāvaḥ utsahase tvam evaṃnāma yāvajjīva<span class="it">ṃ</span> piṇḍapātena bhojanena yāpayitum* / tena vaktavyaṃ utsahe atirekalābhaḥ bhaktāni vā
+            tarpaṇāni vā yavāgūpānāni vā / naityakāni vā / nimantraṇakāni vā pāñcamikaṃ vā / āṣṭamikaṃ
+            vā / cāturdaśikaṃ vā / pāñcadaśikaṃ vā / autpātikaṃ vā / utpiṇḍa<span class="it">ṃ</span> vā iti / yad vā punar anyad api kalpikaṃ piṇḍapātaṃ saṃghād vā utpadyeta pudgalato
+            vā / tatrāpi te pratigrahe mātrā karaṇīyā kaccid evaṃrūpaṃ sthānam abhisaṃbhotsyase
+            / tena vaktavyam abhisaṃbhotsye / (Upj(J) 20.10-17; ~ Skt.C 48 v4-49 r2; vgl. Kṣudr-v(Bhī)
+            23 a1-4)</p>
+         
+         
+         <p>Uj III.i.2.3
+            śṛṇu tvam evaṃnāman* / vṛkṣamūlaṃ śayanāsanānāṃ kalpikaṃ ca sulabhañ ca yan niśritya
+            bhikṣoḥ svākhyāte dharmavinaye pravrajyopasaṃpad bhikṣubhāvaḥ utsahase tvam evaṃnāman
+            yāvajjīvaṃ vṛkṣamūlena śayanāsanena yāpayituṃ tena vaktavyam utsahe / atirekalābhaḥ
+            layanāni vā mālā vā / kūṭāgārāṇi vā / harmikā vā rudantikā vā / prāsādā vā / vālāgrapotikā
+            vā / āmalakapṛṣṭhikā vā / bhūmiguhā vā / giriguhā vā / prāgbhāraguhā vā / daṇḍacchadanāni
+            vā / patracchadanāni vā / tṛṇakuṭikā vā / parṇakuṭikā vā / kṛtacaṃkramā vā / akṛtacaṃkramā
+            vā / kṛtaprāgbhārā vā / akṛtaprāgbhārā vā iti yad vā punar anyad api kalpikaṃ śayanāsanaṃ
+            saṃghād vā utpadyeta pudgalato vā tatrāpi te pratigrahe mātrā karaṇīyā / kaccid evaṃrūpaṃ
+            sthānam abhisaṃbhotsyase / tena vaktavyam abhisaṃbhotsye / (Upj(J) 20.18-21.6; ~ Skt.C
+            49 r2-7)</p>
+         
+         
+         <p>Uj III.i.2.4
+            śṛṇu tvam evaṃnāma pūtimuktaṃ bhaiṣajyānāṃ kalpikañ ca sulabhañ ca yan niśritya bhikṣoḥ
+            svākhyāte dharmavinaye pravrajyopasaṃpad bhikṣubhāvaḥ utsahase tvam evaṃnāman yāvajjīvaṃ
+            pūtimuktena bhaiṣajyena yāpayitum* / tena vaktavyam utsahe / atirekalābhaḥ sarpi<span class="it">s</span> tailaṃ madhu phāṇitaṃ kālikaṃ yāmikaṃ sāptāhikaṃ yāvajjīvikaṃ mūlabhaiṣajyaṃ gaṇḍabhaiṣajyaṃ
+            patrabhaiṣajyaṃ puṣpabhaiṣajyaṃ phalabhaiṣajyam iti yad vā punar anyad api kalpikaṃ
+            bhaiṣajyaṃ saṅghād vā utpadyeta pudgalato vā tatrāpi te pratigrahe mātrā karaṇīyā
+            / kaccid evaṃrūpaṃ sthānaṃ <span class="it">a</span>bhisaṃbhotsyase / tena vaktavyam abhisaṃbhotsye (Upj(J) 21.7-14; ~ Skt.C 49 r7-v5;
+            vgl. Kṣudr-v(Bhī) 23 a4-b2)</p>
+         
+         
+         <p>Uj III.ii.1.1
+            tataḥ paścāc catvāraḥ pa<span class="it">ta</span>nīyā dharmāḥ ārocayitavyā / evañ ca punar ārocayitavyāḥ śṛṇu tvam evaṃnāmaṃś catvāra
+            ime tena bhagavatā jānatā paśyatā tathāgatenārhatā samyaksa<span class="it">ṃ</span>buddhena evaṃ pravrajitopasaṃpannasya bhikṣoḥ patanīyā dharmā ākhyātā yeṣāṃ bhikṣur
+            anyatamānyatamaṃ sthānam adhyāpadya sa<span class="it">hādhyā</span>pa<span class="it">t</span>tyā abhikṣur bhavaty aśramaṇo 'śākyaputrīyo dhvasyate bhikṣubhāvād dhata<span class="it">m a</span>sya bhavati śrāmaṇyaṃ dhvastaṃ mathitaṃ patitaṃ parājitam apratyuddhāryam asya bhavati
+            śrāmaṇyam* / (Upj(J) 21.16-21; ~ Skt.C 49 v5-50 r1; vgl. Kṣudr-v(Bhī) 23 b2-5)</p>
+         
+         
+         <p>Uj III.ii.1.2
+            <span class="it">tadyathā tālo mastakāc chinno 'bhavyo haritatvāyābhavyo virūḍhiṃ vṛddhiṃ vipulatām
+               āpattum / evam eva bhikṣur eṣām caturṇāṃ sthānānām anyatamānyatamaṃ sthānam adhyāpadya
+               sahādhyāpattyā abhikṣur bhavaty aśramaṇo 'śākyaputrīyo dhvasyate bhikṣubhāvād dhatam
+               asya bhavati śrāmaṇyaṃ dhvastaṃ mathitaṃ patitaṃ parājitam apratyuddhāryam asya bhavati
+               śrāmaṇyam /</span> katame catvāraḥ (Upj(J) 22.1; vgl. Kṣudr-v(Bhī) 23 b5-24 a2)</p>
+         
+         
+         <p>Uj III.ii.2.1.1
+            anekaparyāyeṇāyuṣmaṃ bhagavatā kāmā vigarhitāḥ kāmālayaḥ kāma<span class="it">niyantiḥ kāmādhyavasānaṃ kāmānāṃ</span> prahāṇaṃ varṇitaṃ pratiniḥsargo vyantībhāvaḥ kṣayo virāgo nirodho vyupaśamo 'stagamaḥ
+            stutaḥ stomito varṇitaḥ praśastaḥ adyāgreṇa te āyuṣmaṃ saṃraktacittena mātṛgrāmaś
+            cakṣuṣā cakṣu<span class="it">r</span> upanidhyāyya na vyavalokayitavyaḥ kaḥ punar vādo dvayadvayasamāpa<span class="it">t</span>tyā abrahmacaryaṃ maithunaṃ dharmaṃ pratisevituṃ (Upj(J) 22.1-5; ~ Skt.C 50 r1- 4;
+            vgl. Kṣudr-v(Bhī) 24 a2-5)</p>
+         
+         
+         <p>Uj III.ii.2.1.2
+            uktaṃ caitad āyuṣmaṃs tena bhagavatā jānatā paśyatā tathāgatenārhatā samyaksa<span class="it">ṃ</span>buddhena yaḥ punar bhikṣur bhikṣubhiḥ sārdhaṃ śikṣāsamīcīṃ samāpannaḥ śikṣām apratyākhyāya
+            śikṣādaurbalyam anāviṣkṛtvābrahmacaryaṃ maithunaṃ dharmaṃ pratiṣevetānta<span class="it">ta</span>s tiryagyonigatayāpi sārdham ity (Upj(J) 22.5-8; ~ Skt.C 50 r4-6; vgl. Kṣudr-v(Bhī)
+            24 a5-b1)</p>
+         
+         
+         <p>Uj III.ii.2.1.3.1
+            evaṃrūpaṃ bhikṣuḥ sthānam adhyāpadya sahādhyāpa<span class="it">t</span>tyā abhikṣur bhavaty aśramaṇo 'śākyaputrīyo dhvasyate bhikṣubhāvād dhatam asya bhavati
+            śrāmaṇyaṃ dhvastaṃ mathitaṃ patitaṃ parājitam apratyuddhāryam asya bhavati śrāmaṇyaṃ
+            (Upj(J) 22.8-11; ~ Skt.C 50 r6-v1; vgl. Kṣudr-v(Bhī) 24 b1-3)</p>
+         
+         
+         <p>Uj III.ii.2.1.3.2
+            tadyathā tālo mastakāc chinna abhavyo haritatvāyābhavyo virūḍhiṃ vṛddhiṃ vipulatām
+            āpattuṃ (Upj(J) 22.11-12; ~ Skt.C 50 v1; vgl. Kṣudr-v(Bhī) 24 b3)</p>
+         
+         
+         <p>Uj III.ii.2.1.4
+            evam eva bhikṣur evaṃrūpaṃ sthānam adhyāpadya sahādhyāpa<span class="it">t</span>tyā yāvad apratyuddhāryam asya bhavati śrāmaṇyaṃ tatra te 'dyāgreṇānadhyācāre 'nadhyāpattāv
+            anadhyācāravairamaṇyāṃ tīvraś cetasa ārakṣā smṛtyapramāde yogaḥ karaṇīyaḥ (Upj(J)
+            22.12-15; ~ Skt.C 50 v1-2; vgl. Kṣudr-v(Bhī) 24 b3-5)</p>
+         
+         
+         <p>Uj III.ii.2.1.5
+            kaccid evaṃrūpaṃ sthānaṃ nādhyāpatsyase tena vaktavyaṃ nādhyāpatsye (Upj(J) 22.15-16;
+            ~ Skt.C 50 v2-3; vgl. Kṣudr-v(Bhī) 24 b5)</p>
+         
+         
+         <p>Uj III.ii.2.2.1
+            śṛṇu tvam āyuṣmaṃn anekaparyāyeṇa bhagavatā adattādānaṃ vigarhitaṃ adattādānaviratiḥ
+            stutā stomitā varṇitā praśastā adyāgreṇa te āyuṣmaṃ steyacittena <span class="it">antatas</span> tilatuṣam api parakīyam adattaṃ nādātavyaṃ kaḥ punar vādaḥ pañcamāsikaṃ vā uttarapañcamāsikaṃ
+            vā / (Upj(J) 22.17-23.1; ~ Skt.C 50 v3-5; vgl. Kṣudr-v(Bhī) 24 b5-25 a2)</p>
+         
+         
+         <p>Uj III.ii.2.2.2
+            uktaṃ caitad āyuṣman tena bhagavatā jānatā paśyatā tathāgatenārhatā samyaksaṃbuddhena
+            yaḥ punar bhikṣuḥ grāmagatam araṇyagatam vā adattam pareṣāṃ steyasaṃkhyātam ādadīta
+            yadrūpeṇādattādānena rājā vainaṃ gṛhītvā rājamātro vā hanyād vā badhnīyād vā pravāsayed
+            vā evaṃ cainaṃ vaded dhambho puruṣa cauro 'si bālo 'si mūḍho 'si steyo 'sīty (Upj(J)
+            23.1-5; ~ Skt.C 50 v5-7; vgl. Kṣudr-v(Bhī) 25 a2-4)</p>
+         
+         
+         <p>Uj III.ii.2.2.3
+            evaṃrūpaṃ bhikṣuḥ sthānam adhyāpadya sahādhyāpa<span class="it">t</span>tyā abhikṣur bhavati yāvat tadyathā tālo mastakāc chinnaḥ yāvan nādhyāpatsye (Upj(J)
+            23.5-6; ~ Skt.C 50 v7-51 r1; vgl. Kṣudr-v(Bhī) 25 a4-5)</p>
+         
+         
+         <p>Uj III.ii.2.3.1
+            śṛṇu tvam āyuṣmann anekaparyāyeṇa bhagavatā prāṇātipāto vigarhitaḥ prāṇātipātavirati<span class="it">ḥ</span> stutā stomitā varṇitā praśastā adyāgreṇa te āyuṣmaṃ sa<span class="it">ṃ</span>cintya <span class="it">antataḥ</span> kuntapipīliko 'pi prāṇī jīvitān na vyaparopayitavyaḥ kaḥ punar vādo manuṣyo vā manuṣyavigraho
+            vā (Upj(J) 23.7-10; ~ Skt.C 51 r1-3; vgl. Kṣudr-v(Bhī) 25 a5-b1)</p>
+         
+         
+         <p>Uj III.ii.2.3.2
+            uktaṃ caitad āyuṣmaṃs tena bhagavatā jānatā paśyatā tathāgatenārhatā samyaksaṃbuddhena
+            yaḥ punar bhikṣur manuṣyaṃ vā manuṣyavigrahaṃ vā svahastaṃ saṃcintya jīvitād vyaparopayec
+            chastraṃ vainam ādhārayec chastrādhārakaṃ vāsya paryeṣeta maraṇāya vainaṃ samādāpayen
+            maraṇāvarṇaṃ vāsyānusaṃvarṇayet* evaṃ cainaṃ vaded dhambho puruṣa kiṃ te 'nena pāpakenāśucinā
+            durjīvitena mṛtaṃ te bhoḥ puruṣa jīvitād varam iti cittānumataiś cittasaṃkalpair anekaparyāyeṇa
+            maraṇāya vainaṃ samādāpayen maraṇāvarṇaṃ vāsyānusaṃvarṇayet* / sa ca tenopakrameṇa
+            kālaṃ kuryād ity (Upj(J) 23.10-16; ~ Skt.C 51 r3-v1; vgl. Kṣudr-v(Bhī) 25 b1-4)</p>
+         
+         
+         <p>Uj III.ii.2.3.3
+            evaṃrūpaṃ bhikṣuḥ sthānam adhyāpadya sahādhyāpa<span class="it">t</span>tyā abhikṣur bhavaty aśramaṇo 'śākyaputrīyaḥ pūrvavad yāvan nādhyāpatsye (Upj(J) 23.16-17;
+            ~ Skt.C 51 v1-2; vgl. Kṣudr-v(Bhī) 25 b4-26 a1)</p>
+         
+         
+         <p>Uj III.ii.2.4.1
+            śṛṇu tvam āyuṣman<span class="it">n</span> anekaparyāyeṇa bhagavatā mṛṣāvādo vigarhito mṛṣāvādaviratiḥ stutā stomitā varṇitā
+            praśastā : adyāgreṇa te āyuṣman antato hāsyaprekṣiṇāpi saṃprajānan mṛṣāvādo <span class="it">na</span> bhāṣitavyaḥ kaḥ punar vādo 'santam asaṃvidyamānam uttaraṃmanuṣyadharmaṃ pralapituṃ
+            (Upj(J) 23.18-21; ~ Skt.C 51 v3-5; vgl. Kṣudr-v(Bhī) 26 a1-2)</p>
+         
+         
+         <p>Uj III.ii.2.4.2.1
+            uktaṃ caitad āyuṣmaṃs tena bhagavatā jānatā paśyatā tathāgatenārhatā samyaksaṃbuddhena
+            yaḥ punar bhikṣur <span class="it">anabhijānann aparijānann</span> asantam asaṃvidyamānam uttaraṃmanuṣyadharmam alamāryaviśeṣādhigamaṃ jñānaṃ vā darśanam
+            vā sparśavihāratāṃ vā pratijānīyād idaṃ jānāmīdaṃ paśyāmīti kiṃ jānāmi duḥkhaṃ jānāmi
+            samudayaṃ nirodhaṃ mārgaṃ jānāmi kim paśyāmi devān paśyāmi nāgān yakṣān* <span class="it">garuḍān</span> gandharvāṃ kinnarān mahoragān pretān piśācān kumbhāṇḍān kaṭapūtanāṃ paśyāmi devā
+            api māṃ paśyanti nāgā yakṣā <span class="it">garuḍā</span> gandharvāḥ kinnarāḥ mahoragāḥ pretāḥ piśācāḥ kumbhāṇḍā<span class="it">ḥ</span> kaṭapūtanā api māṃ paśyanti (Upj(J) 23.21-24.6; ~ Skt.C 51 v5-52 r3; vgl. Kṣudr-v(Bhī)
+            26 a2-5)</p>
+         
+         
+         <p>Uj III.ii.2.4.2.2
+            devānāṃ śabdaṃ śṛṇomi nāgānā<span class="it">ṃ</span> yāvat kaṭapūtanānāṃ śabdaṃ śṛṇomi devā api mama śabdaṃ śṛṇvanti nāgā yāvat kaṭapūtanā
+            api mama śabdaṃ śṛṇvanti devānāṃ darśanāyopasaṃkramāmi / nāgānāṃ yāvat kaṭapūtanānāṃ
+            darśanāyopasaṃkramāmi / devā api mama darśanāyopasaṃkrāmanti nāgā yāvat kaṭapūtanā
+            api mama darśanāyopasaṃkrāmanti devaiḥ sārdham ālapāmi saṃlapāmi pratisaṃmode sātatyam
+            api samāpadye nāgair yāvat <span class="it">kaṭapūtanaiḥ</span> sārdham ālapāmi <span class="it">saṃlapāmi</span> pratisaṃmode sātatyam api samāpadye devā api mayā sārdham ālapanti saṃlapanti pratisaṃmodante
+            sātatyam api samāpadyante nāgā yāvat kaṭapūtanā api mayā sārdham ālapanti <span class="it">saṃlapanti</span> pratisaṃmodante sātatyam api samāpadyante (Upj(J) 24.6-14; ~ Skt.C 52 r3-6; vgl.
+            Kṣudr-v(Bhī) 26 a5-b5)</p>
+         
+         
+         <p>Uj III.ii.2.4.2.3a
+            alābhy eva sann anityasaṃjñāyā lābhy aham asmīty ātmānaṃ pratijānīte anitye duḥkhasaṃjñāyā
+            <span class="it">duḥkhe anātmasaṃjñāyā</span> āhāre pratikūlasaṃjñāyāḥ sarvaloke 'nabhiratisaṃjñāyāḥ ādīnavasaṃjñāyāḥ prahāṇasaṃjñāyā
+            virāgasaṃjñāyā nirodhasaṃjñāyā maraṇasaṃjñāyā (Upj(J) 24.15-18; ~ Skt.C 52 r6-v2;
+            vgl. Kṣudr-v(Bhī) 26 b5-27 a2; ŚrBh(T: re-ed) I 214.2-5)</p>
+         
+         
+         <p>Uj III.ii.2.4.2.3b
+            alābhy eva sann aśubhasaṃjñāyāḥ lābhy aham asmīty ātmānaṃ pratijānīte vinīlakasaṃjñāyā
+            vipūyakasaṃjñāyā <span class="it">vyādhmātakasaṃjñāyā vipaṭumakasaṃjñāyā vikhāditakasaṃjñāyā vilohitakasaṃjñāyā vikṣi</span>ptakasaṃjñāyā asthisaṃjñāyāḥ śūnyatāpratyavekṣaṇasaṃjñāyāḥ lābhy aham asmīty ātmānaṃ
+            pratijānīte (Upj(J) 24.18-20; ~ Skt.C 52 v2-4; vgl. Kṣudr-v(Bhī) 27 a2-3; ŚrBh(T:
+            re-ed) I 214.5-8)</p>
+         
+         
+         <p>Uj III.ii.2.4.2.4
+            alābhy eva san* prathamasya dhyānasya dvitīyasya tṛtīyasya caturthasya dhyānasya maitryāḥ
+            karuṇāyā muditāyā upekṣāyāḥ ākāśānantyāyata<span class="it">na</span>sya vijñānānantyāyatanasyākiñcanyāyatanasya naivasaṃjñānāsaṃjñāyatanasya śrotaāpattiphalasya
+            sakṛdāgāmiphalasya anāgāmiphalasya ṛddhiviṣayasya divyaśrotrasya cetaḥparyāyasya pūrvanivāsasya
+            cyutyupapādasya <span class="it">āsravakṣayasya</span> (Upj(J) 24.20-25; ~ Skt.C 52 v4-53 r1; vgl. Kṣudr-v(Bhī) 27 a3-b1; ŚrBh(T: re-ed)
+            I 214.8-12)</p>
+         
+         
+         <p>Uj III.ii.2.4.2.5
+            anarhann eva sann arhann aham asmy aṣṭavimokṣadhyāyīty ātmānaṃ pratijānīte 'nyatrā<span class="it">bh</span>imānād ity (Upj(J) 24.25-25.1; ~ Skt.C 53 r1; vgl. Kṣudr-v(Bhī) 27 b1)</p>
+         
+         
+         <p>Uj III.ii.2.4.3.1
+            evaṃrūpaṃ bhikṣuḥ sthānam adhyāpadya sahādhyāpa<span class="it">t</span>tyā abhikṣur bhavaty aśramaṇo 'śākyaputrīyo dhvasyate bhikṣubhāvād dhatam asya bhavati
+            śrāmaṇyaṃ dhvastaṃ mathitaṃ patitaṃ parājitam apratyuddhāryam asya bhavati śrāmaṇyaṃ
+            (Upj(J) 25.1-3; ~ Skt.C 53 r1-3; vgl. Kṣudr-v(Bhī) 27 b1-2)</p>
+         
+         
+         <p>Uj III.ii.2.4.3.2
+            tadyathā tālo mastakāc chinnaḥ abhavyo haritatvāya abhavyo virūḍhiṃ vṛddhiṃ vipulatām
+            āpattuṃ (Upj(J) 25.4-5; ~ Skt.C 53 r3-4; vgl. Kṣudr-v(Bhī) 27 b2-3)</p>
+         
+         
+         <p>Uj III.ii.2.4.4
+            evam eva bhikṣur evaṃrūpaṃ sthānam adhyāpadya yāvad apratyuddhāryam asya bhavati śrāmaṇyaṃ
+            atra te 'dyāgreṇānadhyācāre 'nadhyāpattāv anadhyācāravairamaṇyāṃ tīvraś cetasa ārakṣā
+            smṛtyapramāde yogaḥ karaṇīyaḥ (Upj(J) 25.5-7; ~ Skt.C 53 r4-5; vgl. Kṣudr-v(Bhī) 27
+            b3-5)</p>
+         
+         
+         <p>Uj III.ii.2.4.5
+            kaccid evaṃrūpaṃ sthānaṃ nādhyāpatsyase tena vaktavyaṃ nādhyāpatsye (Upj(J) 25.7-8;
+            ~ Skt.C 53 r5; vgl. Kṣudr-v(Bhī) 27 b5)</p>
+         
+         
+         <p>Uj III.iii.1
+            tataḥ paścāc catvāraḥ śramaṇakarakā dharmā ārocayitavyāḥ evañ ca punar ārocayitavyāḥ
+            śṛṇu tvam āyuṣmaṃś catvāra ime tena bhagavatā jānatā paśyatā tathāgatenārhatā samyaksaṃbuddhena
+            <span class="it">evaṃ pravrajitopasaṃpannasya bhikṣoḥ</span> śramaṇakarakā dharmā ākhyātāḥ katame catvāraḥ (Upj(J) 25.10-13; ~ Skt.C 53 r5-7;
+            vgl. Kṣudr-v(Bhī) 31 a3-4)</p>
+         
+         
+         <p>Uj III.iii.2
+            adyāgreṇa te āyuṣmann ākruṣṭena na pratyākroṣitavyaṃ <span class="it">roṣitena na pratiroṣayitavyaṃ</span> tāḍitena na pratitāḍayitavyaṃ bhaṇḍitena na pratibhaṇḍayitavyaṃ kaccid evaṃrūpaṃ
+            sthānaṃ nādhyāpatsyase tena vaktavyaṃ nādhyāpatsye (Upj(J) 25.13-16; ~ Skt.C 53r7-v1;
+            vgl. Kṣudr-v(Bhī) 31 a4-5; ŚrBh(T: re-ed) I 216.2-3, 288.9-10)</p>
+         
+         
+         <p>Uj III.iv.1
+            śṛṇu tvam āyuṣman yas te 'bhūt pūrvam āśāsakaḥ kaccid ahaṃ labheya svākhyāte dharmavinaye
+            pravrajyām upasaṃpadaṃ bhikṣubhāvaṃ sa tvam etarhi pravrajita upasaṃpannaḥ pratirūpeṇopādhyāyena
+            pratirūpābhyām ācāryābhyā<span class="it">ṃ</span> samagreṇa saṃghena jñapticaturthena karmaṇā akopyenāsthāpanārheṇa (Upj(J) 25.17-20;
+            ~ Skt.C 53 v1-4; vgl. Kṣudr-v(Bhī) 31 a5-b1)</p>
+         
+         
+         <p>Uj III.iv.2
+            yatra varṣaśatopasaṃpannena bhikṣuṇā śikṣāyāṃ śikṣitavyaṃ tatra tadaha upasaṃpannena
+            <span class="it">yatra tadaha upasaṃpannena</span> tatra varṣaśatopasaṃpannena iti yātra samānaśīlatā samānaśikṣatā samānaprātimokṣasūtroddeśatā
+            sā te 'dyāgreṇārāgayitavyā na virāgayitavyā (Upj(J) 25.20-26.1; ~ Skt.C 53 v4-6; vgl.
+            Kṣudr-v(Bhī) 31 b1-3)</p>
+         
+         
+         <p>Uj III.iv.3
+            adyāgreṇa te upādhyā<span class="it">ya</span>syāntike pitṛsaṃjñā upasthāpayitavyā upādhyāyenāpi tavāntike putrasaṃjñā upasthāpayitavyā
+            / adyāgreṇa te upādhyāyo yāvajjīvam upasthātavyaḥ upādhyāyenāpi tvaṃ glānaḥ upasthātavyaḥ
+            āmaraṇāya vāvyutthānāya vā (Upj(J) 26.1-4; ~ Skt.C 53 v6-54 r1; vgl. Kṣudr-v(Bhī)
+            31 b3-5)</p>
+         
+         
+         <p>Uj III.iv.4
+            adyāgreṇa te sagauraveṇa vihartavyaṃ sapratīśena sabhayavaśavartinā sabrahmacāriṣu
+            sthavireṣu madhyeṣu navakeṣu / (Upj(J) 26.4-6; ~ Skt.C 54 r1-2; vgl. Kṣudr-v(Bhī)
+            31 b5-(32 a1))</p>
+         
+         
+         <p>Uj III.iv.5
+            adyāgreṇa te uddeṣṭavyaṃ paṭhitavyaṃ svādhyāyitavyaṃ skandhakauśalaṃ karaṇīyaṃ dhātukauśalam
+            āyatanakauśalaṃ pratītyasamutpādakauśalaṃ sthānāsthānakauśalam* / dhurā ca te na nikṣeptavyā
+            aprāptasya prāptaye anadhigatasyādhigamāya asākṣātkṛtasya sākṣātkriyāyai (Upj(J) 26.7-10;
+            ~ Skt.C 54 r2-4)</p>
+         
+         
+         <p>Uj III.iv.6
+            imāni ca te mayā audārikaudārikāṇi śikṣāpadāny ākhyātāni anyāni cānvardhamāsaṃ prātimokṣasūtroddeśa
+            uddiśyamāne śroṣyasi anyāni ca te ācāryopādhyāyā grāhayiṣyanti samānopādhyāyaḥ samānācāryaḥ
+            ālaptakās saṃlaptakāḥ saṃstutakāḥ sapremakāḥ (Upj(J) 26.11-14; ~ Skt.C 54 r4-7)</p>
+         
+         
+         <p>Uj III.iv.7
+            eṣa tvam upasaṃpanno varaprajñasya śāsane /
+            yathemāṃ na virāgayasi durlabhāṃ kṣaṇasaṃpadaṃ
+            prāsādikasya pravrajyā pariśuddhasyopasaṃpadā
+            ākhyātā satyanāmnā vai saṃbuddhena prajānatā</p>
+         
+         
+         <p>eṣa tvam āyuṣman upasaṃpanno 'pramādena saṃpādaya (Upj(J) 26.15- 27.3; ~ Skt.C 54
+            r7-v2)</p>
+         
+         
+         <p>// // upasaṃpādajñaptiḥ samāptaḥ // //</p>
+         
+         </div>
+   </body>
+</html>

@@ -1,0 +1,4625 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Ṛgvidhāna (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Ṛgvidhāna</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_RgvidhAna.xml">sa_RgvidhAna.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Muneo Tokunaga</p>
+      <p class="noindent"><b>Contribution: </b>Muneo Tokunaga</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>M.S. Bhat.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/1_veda/5_vedang/3_pratis/rgvidh_u.htm">rgvidh_u.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Rgvidhana
+            <br />Based on the edition by M.S. Bhat
+            <br />Input by Muneo Tokunaga
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         <h3>atha.ṛgvidhānam</h3>
+         
+         
+         <p id="RgV_1.1.1">
+            svayambhuve.brahmaṇe.viśvagoptre.namaskṛtvā.mantradṛgbhyas.tathaiva./<br />
+            vivakṣur.asmy.ṛgvidhānam.purāṇam.purādṛṣṭam.ṛṣibhir.mantra.dṛgbhiḥ.//
+             <span class="ref">RgV_1,1.1</span></p>
+         
+         
+         <p id="RgV_1.1.2">
+            mantrebhyo.mantra.dṛgbhyaś.ca.samāmnāyānupūrvaśaḥ./<br />
+            karmaṇām.ṛṣi.dṛṣṭānām.vidhim.provāca.śaunakaḥ.//
+             <span class="ref">RgV_1,1.2</span></p>
+         
+         
+         <p id="RgV_1.1.3">
+            ṛṣibhir.vividhā.mantrā.dṛṣṭā.dṛṣṭa.prayojanāḥ./<br />
+            prayojanāya.coddiṣṭās.tasmiṃs.tasmin.pradarśitāḥ.//
+             <span class="ref">RgV_1,1.3</span></p>
+         
+         
+         <p id="RgV_1.1.4">
+            nānārthāni.ca.karmāṇi.śānti.puṣṭy.āśrayāṇi.ca./<br />
+            siddhayaś.ca.tapo.mūlāḥ.śraddadhānasya.kurvataḥ.//
+             <span class="ref">RgV_1,1.4</span></p>
+         
+         
+         <p id="RgV_1.1.5">
+            stuty.ādayo.ye.vikārāḥ.pradiṣṭās.tathā.arthavādā.rkṣu.sūkteṣu.caiva./<br />
+            yair..yaiḥ.kāmair.ṛṣir.devatāś.ca.tuṣṭūṣyante..tān..śṛṇuṣva.ucyamānān.//
+             <span class="ref">RgV_1,1.5</span></p>
+         
+         
+         <p id="RgV_1.1.6">
+            āyuḥ.svargo.draviṇam.sūnavaś.ca.caturvidham.proktam.āśāsyam.agre./<br />
+            anye.kāmāḥ.śataśaḥ.sampradiṣṭāḥ.saṃstuvadbhir.ṛṣibhir.devatāś.ca.//
+             <span class="ref">RgV_1,1.6</span></p>
+         
+         
+         <p id="RgV_1.2.7">
+            siddhā.mantrā.vidhinā.brāhmaṇasya.phalam.yacchanti.vidhivat.prayuktāḥ./<br />
+            satyam.teṣām.sādhanam.samyamaś.ca.śamas.titikṣā.anasūyā.damaś.ca.//
+             <span class="ref">RgV_1,2.7</span></p>
+         
+         
+         <p id="RgV_1.2.8">
+            tasmād.dvijaḥ.praśānta.ātmā.japa.homa.parāyaṇaḥ./<br />
+            tapasy.adhyayane.yukto.bhaved.bhūta.anukampakaḥ.//
+             <span class="ref">RgV_1,2.8</span></p>
+         
+         
+         <p id="RgV_1.2.9">
+            kṣatriyo.bāhu.vīryeṇa.tared.āpadam.ātmanaḥ./<br />
+            dhanena.vaiśya.śūdrau.tu.japa.homair.dvija.uttamaḥ.//
+             <span class="ref">RgV_1,2.9</span></p>
+         
+         
+         <p id="RgV_1.2.10">
+            tapasā.svargam.āpnoti.tapasā.vindate.mahat./<br />
+            tapo.yuktasya.sidhyanti.karmāṇi.niyata.ātmanaḥ./
+             <span class="ref">RgV_1,2.10</span></p>
+         
+         <p id="RgV_1.2.11">
+            vidveṣaṇam.saṃvananam.viṣaghnam.roga.nāśanam./<br />
+            yena.yena.artham.ṛṣiṇā.yad.artham.devatāḥ.stutāḥ.//
+             <span class="ref">RgV_1,2.11</span></p>
+         
+         
+         <p id="RgV_1.3.12">
+            sa.sa.kāmaḥ.samṛddhaś.ca.teṣām.teṣām.tathā.tathā./<br />
+            tāni.karmāṇi.vakṣyāmi.vividhāni.ca.karmaṇām.//
+             <span class="ref">RgV_1,3.12</span></p>
+         
+         
+         <p id="RgV_1.3.13">
+            puraścaraṇam.ādau.tu.karmaṇām.siddhi.kārakam./<br />
+            svādhyāya.abhyasanasya.ādau.prājāpatyam.cared.dvijaḥ.//
+             <span class="ref">RgV_1,3.13</span></p>
+         
+         
+         <p id="RgV_1.3.14">
+            keśa.śmaśru.loma.nakhān.vāpayitvā.āplutaḥ.śuciḥ./<br />
+            tiṣṭhed.ahani.rātrau.tu.śucir.āsīta.vāg.yataḥ.//
+             <span class="ref">RgV_1,3.14</span></p>
+         
+         
+         <p id="RgV_1.3.15">
+            satya.vādī.pavitrāṇi.japed.vyāhṛtayas.tathā./<br />
+            om.kāra.ādyās.tu.tā.japtvā.sāvitrīm.ca.tad.ity.ṛcam.//
+             <span class="ref">RgV_1,3.15</span></p>
+         
+         
+         <p id="RgV_1.3.16">
+            āpo.hi.ṣṭha.iti.sūktam.tu.śuddhavatyo.aghamarṣaṇam./<br />
+            śaṃvatyaḥ.svastimatyaś.ca.pāvamānyas.tathaiva.ca.//
+             <span class="ref">RgV_1,3.16</span></p>
+         
+         
+         <p id="RgV_1.4.17">
+            sarvatra.etat.prayoktavyam.ādāv.ante.ca.karmaṇām./<br />
+            āsahasrād.āśatād.vā.daśa.antam.athavā.japet.//
+             <span class="ref">RgV_1,4.17</span></p>
+         
+         
+         <p id="RgV_1.4.18">
+            om.kāram.vyāhṛtīs.tisraḥ.sāvitrīm.athavā.ayutam./<br />
+            tarpayitvā.adbhir.ācāryān.ṛṣīṃś.chandāṃsi.devatāḥ.//
+             <span class="ref">RgV_1,4.18</span></p>
+         
+         
+         <p id="RgV_1.4.19">
+            prapadyeta.virūka.akṣam.raudram.mantra.gaṇam.japan./<br />
+            anāryair.na.ca.bhāṣeta.na.śūdrair.na.api.garhitai.ḥ.//
+             <span class="ref">RgV_1,4.19</span></p>
+         
+         
+         <p id="RgV_1.4.20">
+            na.rajasvalayā.nāryā.patitair.na.antyajair.nṛbhi.ḥ./<br />
+            na.deva.brāhmaṇa.dviṣṭair.na.ācārya.guru.nindakaiḥ.//
+             <span class="ref">RgV_1,4.20</span></p>
+         
+         
+         <p id="RgV_1.4.21">
+            na.mātṛ.pitṛ.vidviṣṭair.na.avamanyeta.kaṃcana./<br />
+            maṅgala.ācāra.yukta.ḥ.syāt.trir.ahno.abhyupayan.apaḥ.//
+             <span class="ref">RgV_1,4.21</span></p>
+         
+         
+         <p id="RgV_1.5.22">
+            ante.dvādaśa.rātrasya.sthālī.pākam.prakalpayet./<br />
+            agnaye.ca.atha.somāya.tṛtīyām.ca.tayoḥ.saha.//
+             <span class="ref">RgV_1,5.22</span></p>
+         
+         
+         <p id="RgV_1.5.23">
+            vaiśvadevīm.ca.raudrīm.ca.juhuyād.uttare.tataḥ./<br />
+            avasānasya.pataye.tathā.anumataye.api.ca.//
+             <span class="ref">RgV_1,5.23</span></p>
+         
+         
+         <p id="RgV_1.5.24">
+            dhanvantaraya.ity.anyā.gandharva.apsarasām.api./<br />
+            daśamī.brāhmaṇaspatyā.parā.tu.brahmaṇe.smṛtā.//
+             <span class="ref">RgV_1,5.24</span></p>
+         
+         
+         <p id="RgV_1.5.25">
+            sarasvatyai.tathā.viṣṇor.antyā.sauviṣṭakṛty.api./<br />
+            ājya.āhutaya.eva.ādau.sthālī.pāke.hute.punaḥ.//
+             <span class="ref">RgV_1,5.25</span></p>
+         
+         
+         <p id="RgV_1.5.26">
+            hutvā.agnim.tarpayed.viprān.śucir.bhuñjīta.vāg.yataḥ./<br />
+            tataḥ.śeṣam.vidhānena.śucir.bhuñjīta.vāg.yataḥ.//
+             <span class="ref">RgV_1,5.26</span></p>
+         
+         
+         <p id="RgV_1.6.27">
+            kṛcchrāṇām.eṣa.sarveṣām.vidhir.ukto.anupūrvaśaḥ./<br />
+            prājāpatya.atikṛcchrasya.tathā.sāṃtapanasya.ca.//
+             <span class="ref">RgV_1,6.27</span></p>
+         
+         
+         <p id="RgV_1.6.28">
+            parākasya.ca.kṛcchrasya.vidhiś.cāndrāyaṇasya.ca./<br />
+            ekena.śuddhim.āpnoti.dvābhyām.pāpaiḥ.pramucyate.//
+             <span class="ref">RgV_1,6.28</span></p>
+         
+         
+         <p id="RgV_1.6.29">
+            tribhir.sidhyanti.mantrāś.ca.mucyate.ca.upapātakai.h/(?)<br />
+            caturbhir.bhrūṇahatyāyās.tathaiva.ayājya.yājanāt.//
+             <span class="ref">RgV_1,6.29</span></p>
+         
+         
+         <p id="RgV_1.6.30">
+            pañcabhiḥ.pātakaiḥ.sarvair.duṣkṛtaiś.ca.pramucyate./<br />
+            tapta.kṛcchreṇa.sarvāṇi.pāpāni.pratibādhate.//
+             <span class="ref">RgV_1,6.30</span></p>
+         
+         
+         <p id="RgV_1.6.31">
+            cāndrāyaṇam.saha.ādy.antam.ebhi.ḥ.kṛcchraiḥ.samam.smṛtam./<br />
+            tribhiś.cāndrāyaṇaiḥ.pūto.brahma.lokam.samaśnute.//
+             <span class="ref">RgV_1,6.31</span></p>
+         
+         
+         <p id="RgV_1.7.32">
+            aṣṭābhir.devatāḥ.sākṣāt.paśyeta.varadās.tathā./<br />
+            chandāṃsi.daśabhir.jñātvā.sarvān.kāmānt.samaśnute.//
+             <span class="ref">RgV_1,7.32</span></p>
+         
+         
+         <p id="RgV_1.7.33">
+            tryaham.prātas.tryaham.sāyam.tryaham.adyād.ayācitam./<br />
+            tryaham.param.ca.na.aśnīyāt.prājāpatyam.caran.dvijaḥ.//
+             <span class="ref">RgV_1,7.33</span></p>
+         
+         
+         <p id="RgV_1.7.34">
+            eka.ekam.grāsam.aśnīyāt.tryahāṇi.trīṇi.pūrvavat./<br />
+            tryaham.ca.upavased.antyam.atikṛcchram.caran.dvijaḥ.//
+             <span class="ref">RgV_1,7.34</span></p>
+         
+         
+         <p id="RgV_1.7.35">
+            go.mūtram.gomayam.kṣīram.dadhi.sarpiḥ.kuśa.udakam./<br />
+            eka.rātra.upavāsaś.ca.kṛcchraḥ.sāṃtapanaḥ.smṛtaḥ.//
+             <span class="ref">RgV_1,7.35</span></p>
+         
+         
+         <p id="RgV_1.7.36">
+            etam.eva.tryahair.yuktam.mahā.sāṃtapanam.viduḥ./<br />
+            upavāsas.tu.sata.aham.śiśu.sāṃtapanam.smṛtam.//
+             <span class="ref">RgV_1,7.36</span></p>
+         
+         
+         <p id="RgV_1.8.37">
+            tapta.kṛcchram.caran.vipro.jala.kṣīra.ghṛta.anilān./<br />
+            pratitryaham.pibed.uṣṇānt.sakṛtsnāyī.saṃhāhitaḥ.//
+             <span class="ref">RgV_1,8.37</span></p>
+         
+         
+         <p id="RgV_1.8.38">
+            niyatas.tu.pibed.apaḥ.prājāpatya.vidhiḥ.smṛtaḥ./<br />
+            yati.kṛcchram.vadanty.etad.rapasām.apanodanam.//
+             <span class="ref">RgV_1,8.38</span></p>
+         
+         
+         <p id="RgV_1.8.39">
+            yata.ātmano.apramattasya.dvādaśa.aham.abhojanam./<br />
+            parāko.nāma.kṛcchro.ayam.sarva.pāpa.apanodanaḥ.//
+             <span class="ref">RgV_1,8.39</span></p>
+         
+         
+         <p id="RgV_1.8.40">
+            eka.ekam.hrāsayet.piṇḍam.kṛṣṇe.śukle.ca.vardhayet./<br />
+            upaspṛśaṃs.triṣavaṇam.etac.cāndrāyaṇam.vratam.//
+             <span class="ref">RgV_1,8.40</span></p>
+         
+         
+         <p id="RgV_1.8.41">
+            etam.eva.vidhim.kṛtsnam.ācared.yava.madhyame./<br />
+            śukla.pakṣa.ādi.niyataḥ.caraṃś.cāndrāyaṇa.vratam.//
+             <span class="ref">RgV_1,8.41</span></p>
+         
+         
+         <p id="RgV_1.9.42">
+            caturaḥ.prātar.aśnīyād.vipraḥ.piṇḍān.kṛta.āhnikaḥ./<br />
+            caturo.astamite.sūrye.śiśu.cāndrayaṇam.smṛtam.//
+             <span class="ref">RgV_1,9.42</span></p>
+         
+         
+         <p id="RgV_1.9.43">
+            aṣṭāv.aṣṭau.samaśnīyāt.piṇḍān.madhyaṃdine.sthite./<br />
+            niyata.ātmā.haviṣyasya.yati.cāndrāyaṇa.vratam.//
+             <span class="ref">RgV_1,9.43</span></p>
+         
+         
+         <p id="RgV_1.9.44">
+            yathā.kathaṃcit.piṇḍānām.tisro.aśītīḥ.samāhitaḥ./<br />
+            māsena.aśnan.haviṣyasya.candrasya.eti.salokatām.//
+             <span class="ref">RgV_1,9.44</span></p>
+         
+         
+         <p id="RgV_1.9.45">
+            etad.rudrās.tathā.ādityā.vasavaś.ca.ācaran.vratam./<br />
+            sarva.akuśala.mokṣāya.marutaś.ca.ṛbhubhiḥ.saha.//
+             <span class="ref">RgV_1,9.45</span></p>
+         
+         
+         <p id="RgV_1.9.46">
+            yāvakaḥ.sapta.rātram.tu.pātavyo.niyata.ātmanā./(?)<br />
+            sthāna.āsana.triṣavaṇair.japatā.pāvanāni.ca.//
+             <span class="ref">RgV_1,9.46</span></p>
+         
+         
+         <p id="RgV_1.10.47">
+            eka.ekam.sapta.rātreṇa.punāti.vidhivat.kṛtaḥ./<br />
+            tvag.asṛk.piśita.asthīni.medo.majjānam.eva.ca.//
+             <span class="ref">RgV_1,10.47</span></p>
+         
+         
+         <p id="RgV_1.10.48">
+            eka.ekam.sapta.rātram.tu.tvag.ādīnām.viśodhanam./<br />
+            ebhir.vratair.vipūta.ātmā.kuryāt.karmāṇy.atandritaḥ.//
+             <span class="ref">RgV_1,10.48</span></p>
+         
+         
+         <p id="RgV_1.10.49">
+            iṣṭān.kāmān.tataḥ.sarvān.avāpnoti.na.saṃśayaḥ./<br />
+            kaṇa.piṇyāka.takrāṇām.eka.ekam.śodhanam.bhavet.//
+             <span class="ref">RgV_1,10.49</span></p>
+         
+         
+         <p id="RgV_1.10.50">
+            śuddha.ātmā.karma.kurvīta.satya.vādī.jita.indriyaḥ./<br />
+            evam.śuddhasya.karmāṇi.mantrair.vakṣyāmi.tadyathā.//
+             <span class="ref">RgV_1,10.50</span></p>
+         
+         
+         <p id="RgV_1.10.51">
+            trirātram.eva.upavased.āditaḥ.sarva.karmaṇām./<br />
+            trīṇi.naktāni.vā.kuryāt.tataḥ.karma.samārabhet.//
+             <span class="ref">RgV_1,10.51</span></p>
+         
+         
+         <p id="RgV_1.11.52">
+            nitya.prayogiṇām.caiva.prayoga.ādau.vratam.tryaham./<br />
+            upariṣṭād.upavaset.kṛtvā.vā.sāmnipātikam.//
+             <span class="ref">RgV_1,11.52</span></p>
+         
+         
+         <p id="RgV_1.11.53">
+            āyuṣyāṇy.eva.karmāṇi.matra.yuktaḥ.samārabhet./<br />
+            śaṃvatyaḥ.svastimatyaś.ca.japeta.trivṛtā.ṛcaḥ.//
+             <span class="ref">RgV_1,11.53</span></p>
+         
+         
+         <p id="RgV_1.11.54">
+            araṇye.ca.udite.sūrye.diśam.prāpya.aparājitām./<br />
+            prācīm.atha.uttarām.vā.api.śucau.deśe.samāhitaḥ.//
+             <span class="ref">RgV_1,11.54</span></p>
+         
+         
+         <p id="RgV_1.11.55">
+            savāsāḥ.saśirasko.apsu.snātvā.abhyukṣya.japed.dvijaḥ./<br />
+            śuddhavatyas.tathā.abvatyaḥ.pāvamānyo.aghamarṣaṇam.//
+             <span class="ref">RgV_1,11.55</span></p>
+         
+         
+         <p id="RgV_1.11.56">
+            evam.trir.āplutya.śuciḥ.prāṇa.āyāmānt.samācaret./<br />
+            trīn.ṣaḍ.aṣṭau.dvādaśa.vā.ṣoḍaśa.aṣṭādaśa.api.vā.//
+             <span class="ref">RgV_1,11.56</span></p>
+         
+         
+         <p id="RgV_1.12.57">
+            āśatād.vāyamet.prāṇān.japan.brahma.aghamarṣaṇam./(?)<br />
+            yāvad.vā.manasas.tuṣṭis.tāvat.prāṇānt.samāyamet.//
+             <span class="ref">RgV_1,12.57</span></p>
+         
+         
+         <p id="RgV_1.12.58">
+            yathā.yathā.manas.tasya.duṣkṛtam.karma.garhati./<br />
+            tathā.tathā.śarīram.tat.tena.adharmeṇa.mucyate.//
+             <span class="ref">RgV_1,12.58</span></p>
+         
+         
+         <p id="RgV_1.12.59">
+            prāṇa.āyāmair.dagdha.doṣaḥ.śukla.ambara.dharaḥ.śuciḥ./<br />
+            yathā.vidhy.apa.ācamya.ārohed.dharma.prastaram.//
+             <span class="ref">RgV_1,12.59</span></p>
+         
+         
+         <p id="RgV_1.12.60">
+            pavitra.pāṇiḥ.kṛtvā.tu.upastham.dakṣiṇa.uttaram./<br />
+            diśor.eva.antaram.prekṣya.animiṣam.chādya.cakṣuṣī.//
+             <span class="ref">RgV_1,12.60</span></p>
+         
+         
+         <p id="RgV_1.12.61">
+            om.kārma.vyāhṛtīs.tisraḥ.sāvitrīm.ca.tad.ity.ṛcam./<br />
+            manasā.etā.anudrutya.veda.ādim.samupakamet.//
+             <span class="ref">RgV_1,12.61</span></p>
+         
+         
+         <p id="RgV_1.13.62">
+            mandram.eva.paṭhet.prātar.uccair.madhyaṃdine.paṭhet./<br />
+            uccair.eva.apara.ahne.tu.saṃdhyā.kāla.upāramet.//
+             <span class="ref">RgV_1,13.62</span></p>
+         
+         
+         <p id="RgV_1.13.63">
+            brāhme.muhūrte.ca.utthāya.trir.āplutya.paṭhed.dvijaḥ./<br />
+            madhyamām.vṛttim.āsthāya.na.drutām.na.vilambitām.//
+             <span class="ref">RgV_1,13.63</span></p>
+         
+         
+         <p id="RgV_1.13.64">
+            pūrvām.saṃdhyām.japais.tiṣṭhed.upāsīta.ca.paścimām./<br />
+            na.ca.antarā.vyāhareta.viramed.vā.kathaṃcana.//
+             <span class="ref">RgV_1,13.64</span></p>
+         
+         
+         <p id="RgV_1.13.65">
+            viramed.brāhmaṇe.prāpte.kāmam.tena.tu.saṃvadet./<br />
+            śūdram.dṛṣṭvā.eva.samprāptam.na.adhīyīta.kathaṃcana.//
+             <span class="ref">RgV_1,13.65</span></p>
+         
+         
+         <p id="RgV_1.13.66">
+            āgneyam.sūktam.ādyam.tu.mukhyam.brahma.ṛṣi.sammatam./<br />
+            rāyas.poṣa.karam.dhanyam.japan.vipro.artham.āpnuyāt.//
+             <span class="ref">RgV_1,13.66</span></p>
+         
+         
+         <p id="RgV_1.14.67">
+            ṛṣim.sarvam.idam.japtvā.saputam.niyata.ḥ.śuciḥ./(?)<br />
+            saṃhitā.phalam.āpnoti.ṛgvedasya.na.saṃśayaḥ.//
+             <span class="ref">RgV_1,14.67</span></p>
+         
+         
+         <p id="RgV_1.14.68">
+            ekādaśa.guṇam.hy.etaj.japan.brahma.sanātanam./<br />
+            sarvān.kāmān.avāpnoti.pāpaiś.ca.parimucyate.//
+             <span class="ref">RgV_1,14.68</span></p>
+         
+         
+         <p id="RgV_1.14.69">
+            anaśnan.saṃhitām.etām.prātaḥ.prātar.dine.dine./<br />
+            āyur.vidhyām.dhanam.putrān.gṛhāṃś.ca.āpnoty.anāmayān.//
+             <span class="ref">RgV_1,14.69</span></p>
+         
+         
+         <p id="RgV_1.14.70">
+            etad.brahma.japan.śūdrān.na.īkṣeta.anyāṃś.ca.tadvidhān./<br />
+            prekṣya.ācamya.udakam.pūtaḥ.paśyed.gām.agni.bhāskarau.//
+             <span class="ref">RgV_1,14.70</span></p>
+         
+         
+         <p id="RgV_1.14.71">
+            mandram.japo.daśa.guṇa.upāṃśu.syāt.śata.anvitaḥ./<br />
+            sahasram.mānasam.vidyād.eṣa.japya.vidhiḥ.smṛtaḥ.//
+             <span class="ref">RgV_1,14.71</span></p>
+         
+         
+         <p id="RgV_1.15.72">
+            ādāv.eva.tu.sāvitryā.karma.kurvīta.śāntaye./<br />
+            puṣṭaye.dhana.lābhāya.paśu.lābhāya.bhūtaye.//
+             <span class="ref">RgV_1,15.72</span></p>
+         
+         
+         <p id="RgV_1.15.73">
+            eṣā.hi.sammitā.vedaiḥ.sarva.brahmamaī.nicṛt./<br />
+            ugreṇa.tapasā.dṛṣṭā.viśvāmitreṇa.dhīmatā.//
+             <span class="ref">RgV_1,15.73</span></p>
+         
+         
+         <p id="RgV_1.15.74">
+            homāṃś.ca.japa.yajñāṃś.ca.nityam.kurvīta.ca.etayā./<br />
+            sarva.kāma.samṛddhy.artham.param.braham.idam.ucyate.//
+             <span class="ref">RgV_1,15.74</span></p>
+         
+         
+         <p id="RgV_1.15.75">
+            eṣā.eva.pratiloma.uktā.pacchaḥ.śatru.vināśinī./(?)<br />
+            akṣara.pratilomā.iyam.abhicāreṣu.śasyate.//
+             <span class="ref">RgV_1,15.75</span></p>
+         
+         
+         <p id="RgV_1.15.76">
+            akṣara.pratikomā.iyam.yasmin.yujyeta.karmaṇi./<br />
+            tad.amogham.vijānīyād.etad.vai.brahmaṇo.balam.//
+             <span class="ref">RgV_1,15.76</span></p>
+         
+         
+         <p id="RgV_1.15.77">
+            vyāghātaka.idhma.samidho.akṣara.pratilomayā./(?)<br />
+            juhuyāt.sārṣapam.tailam.vaibhītaka.kṛta.srucā.//
+             <span class="ref">RgV_1,15.77</span></p>
+         
+         
+         <p id="RgV_1.15.78">
+            ya.icchet.pīḍanam.śatror.api.vā.uccāṭanam.punaḥ./<br />
+            pacchaḥ.sampīḍayet.śatrūn.varṇaśaś.ca.pramāpayet.//
+             <span class="ref">RgV_1,15.78</span></p>
+         
+         
+         <p id="RgV_1.16.79">
+            ṛgveda.ādya.sūktasya.vidhim.vakṣyāmy.ataḥ.param./<br />
+            yathā.ṛṣir.madhucchandāḥ.karma.etena.akarot.purā.//
+             <span class="ref">RgV_1,16.79</span></p>
+         
+         
+         <p id="RgV_1.16.80">
+            śirasā.dhārayed.agnim.niyataḥ.parivatsaram./<br />
+            caturtha.prāṇa.kālīyo.huta.śiṣṭam.adan.haviḥ.//
+             <span class="ref">RgV_1,16.80</span></p>
+         
+         
+         <p id="RgV_1.16.81">
+            juhvat.trir.upatiṣṭheta.satya.vādī.dine.dine./<br />
+            vrata.kāle.tu.samprāpta.āgneyam.nirvapec.carutm.//
+             <span class="ref">RgV_1,16.81</span></p>
+         
+         
+         <p id="RgV_1.16.82">
+            anagnau.dhyāta.mātro.agnir.vrata.ante.asya.upatiṣṭhati./<br />
+            daheyam.iti.yam.cecchettam.dahaty.eva.pāvakaḥ.//(?)
+             <span class="ref">RgV_1,16.82</span></p>
+         
+         <p id="RgV_1.16.83">
+            apsv.apy.agnir.jvalaty.eva.tad.vratasya.mahātmanaḥ./<br />
+            samardhayati.tam.ca.iṣṭaiḥ.kāmair.vahniḥ.prayatnataḥ.//
+             <span class="ref">RgV_1,16.83</span></p>
+         
+         
+         <p id="RgV_1.17.84">
+            ataḥ.param.tṛcāḥ.sapta.vāyv.ādyā.ye.prakīrtitāḥ./<br />
+            tān.japan.prayato.nityam.iṣṭān.kāmānt.samaśnute.//
+             <span class="ref">RgV_1,17.84</span></p>
+         
+         
+         <p id="RgV_1.17.85">
+            medhātithāv.ṛṣau.punaḥ.sadasas.patim.ity.ṛcam./<br />
+            medhā.kāmo.japen.nityam.juhuyāt.ca.ājyam.etayā.//
+             <span class="ref">RgV_1,17.85</span></p>
+         
+         
+         <p id="RgV_1.17.86">
+            syonā.iti.pṛthivīm.nityam.snātvā.vipraḥ.śucir.japet./<br />
+            vindate.mahatīm.bhūmim.asapatnām.akaṇṭakām.//
+             <span class="ref">RgV_1,17.86</span></p>
+         
+         
+         <p id="RgV_1.17.87">
+            idam.viṣṇur.iti.imābhiḥ.pañcabhiḥ.śrāddha.karmaṇi./<br />
+            aṅguṣṭham.anne.avagāhya.tena.rakṣāṃsi.bādhate.//
+             <span class="ref">RgV_1,17.87</span></p>
+         
+         
+         <p id="RgV_1.17.88">
+            sapta.janma.kṛtam.pāpam.kṛtvā.ca.abhakṣya.bhakṣaṇam./<br />
+            tad.viṣṇor.ity.apām.madhye.sakṛj.japtvā.viśudhyati.//
+             <span class="ref">RgV_1,17.88</span></p>
+         
+         
+         <p id="RgV_1.17.89">
+            ambayo.yanti.yā.proktā.navarcas.tv.abhiṣecanīḥ./<br />
+            āyuṣyās.tāḥ.pariproktā.bhaiṣajyāḥ.pāpa.mocanīḥ.//
+             <span class="ref">RgV_1,17.89</span></p>
+         
+         
+         <p id="RgV_1.17.90">
+            śunahśepam.ṛṣim.baddhaḥ.samniruddho.athavā.japet./<br />
+            mucyate.sarva.pāśebhyo.gadī.ca.apy.agadī.bhavet.//
+             <span class="ref">RgV_1,17.90</span></p>
+         
+         
+         <p id="RgV_1.17.91">
+            ya.icchet.śāśvatān.kāmān.indrāt.prāptum.puraṃdarāt./<br />
+            sa.ṣoḍaśabhir.eva.ṛgbhir.indram.stūyād.dine.dine.//
+             <span class="ref">RgV_1,17.91</span></p>
+         
+         
+         <p id="RgV_1.18.92">
+            hairaṇyastūpam.indrasya.sūktam.karma.abhisaṃstavam./<br />
+            taj.japan.prayataḥ.śatrūn.ayatnāt.pratibādhate.//
+             <span class="ref">RgV_1,18.92</span></p>
+         
+         
+         <p id="RgV_1.18.93">
+            ākṛṣṇena.ity.ṛcā.tv.eva.yo.nityam.sūryam.arcati./<br />
+            prātar.madhye.astagam.vā.api.sa.jīved.agadaḥ.sukhī.//
+             <span class="ref">RgV_1,18.93</span></p>
+         
+         
+         <p id="RgV_1.18.94">
+            ākṛṣṇena.ity.ṛcam.tv.ekām.dhyāyan.niśi.diva.okasaḥ./<br />
+            agnau.hutvā.etayā.ca.ājyam.dīrgham.āyur.avāpnuyāt.//
+             <span class="ref">RgV_1,18.94</span></p>
+         
+         
+         <p id="RgV_1.18.95">
+            ye.te.panthā.iti.imām.tu.sāvitrīm.adhvago.abhyaset./<br />
+            svastimān.vrajate.adhvānam.gṛhāṃś.ca.āpnoty.anāmayān.//
+             <span class="ref">RgV_1,18.95</span></p>
+         
+         
+         <p id="RgV_1.18.96">
+            sam.pūṣann.iti.yat.sūktam.ghauraiḥ.kaṇvo.jagāv.ṛṣiḥ./<br />
+            adhvany.etad.vijñeyam.paripanthy.apasedhanam.//
+             <span class="ref">RgV_1,18.96</span></p>
+         
+         
+         <p id="RgV_1.18.97">
+            raudrībhiḥ.ṣaḍbhir.īśānam.tuṣṭūyād.yo.dine.dine./<br />
+            sa.nārī.nara.go.śāntim.śaṅkarāt.prāpnuyāt.sadā.//
+             <span class="ref">RgV_1,18.97</span></p>
+         
+         
+         <p id="RgV_1.18.98">
+            etena.eva.ṣaḍarcena.juhuyād.ājyam.anvaham./<br />
+            carum.vā.kalpayed.raudram.bhūti.kāmo.atha.parvasu.//
+             <span class="ref">RgV_1,18.98</span></p>
+         
+         
+         <p id="RgV_1.19.99">
+            ud.ity.udyantam.ādityam.upatiṣṭhed.dine.dine./<br />
+            hṛd.roga.nāśanam.hy.etat.parama.ārogya.vardhanam.//
+             <span class="ref">RgV_1,19.99</span></p>
+         
+         
+         <p id="RgV_1.19.100">
+            dviṣantam.ity.atha.ardharcam.yam.dviṣyāt.tam.japant.smaret./<br />
+            āgas.kṛt.sapta.rātreṇa.vidveṣam.adhigacchati.//
+             <span class="ref">RgV_1,19.100</span></p>
+         
+         
+         <p id="RgV_1.19.101">
+            rogair.gṛhīto.arogī.ca.praskaṇvasya.utttamam.tṛcam./<br />
+            ārogyam.etat.prayato.japen.nityam.anekaśaḥ.//
+             <span class="ref">RgV_1,19.101</span></p>
+         
+         
+         <p id="RgV_1.19.102">
+            uttamas.tasya.ca.ardharco.dviṣad.dveṣa.iti.smṛtaḥ./<br />
+            yam.dviṣyāt.tam.abhidhyāyed.dṛṣṭvā.ca.enam.japed.idam.//
+             <span class="ref">RgV_1,19.102</span></p>
+         
+         
+         <p id="RgV_1.19.103">
+            āgas.kṛc.cet.tri.rātreṇa.vidveṣam.samniyacchati./<br />
+            udayaty.āyur.akṣayyam.tejo.madhyaṃdine.japan.//
+             <span class="ref">RgV_1,19.103</span></p>
+         
+         
+         <p id="RgV_1.20.104">
+            astam.vrajati.sūrye.tu.dviṣantam.pratibādhate./<br />
+            ojas.tejas.tathā.ārogyam.dviṣad.dveṣam.prakīrtitam.//
+             <span class="ref">RgV_1,20.104</span></p>
+         
+         
+         <p id="RgV_1.20.105">
+            nava.paśvā.iti.sūktāni.yāni.garbhe.parāśaraḥ./<br />
+            arātīnām.haret.prāṇān.chatraṃś.caiva.niyacchati.//
+             <span class="ref">RgV_1,20.105</span></p>
+         
+         
+         <p id="RgV_1.20.106">
+            sauparṇāni.pavitrāṇi.sūktāny.ekādaśa.abhyaset./<br />
+            vāñchan.putrān.paśūn.vittam.svargam.āyur.anandhatām.//
+             <span class="ref">RgV_1,20.106</span></p>
+         
+         
+         <p id="RgV_1.20.107">
+            ādhyātmikīḥ.ka.ity.etā.japais.tu.susamāhitaḥ./<br />
+            prāpnuyāt.sa.param.dhāma.viśvam.jyotiḥ.sanātanam.//
+             <span class="ref">RgV_1,20.107</span></p>
+         
+         
+         <p id="RgV_1.20.108">
+            ānohadrīyam.āyuṣyam.vaiśvadevam.japan.muniḥ./<br />
+            mumūrṣur.api.japtvā.etat.sarvam.āyur.avāpnuyāt.//
+             <span class="ref">RgV_1,20.108</span></p>
+         
+         
+         <p id="RgV_1.21.109">
+            pitṝṇām.śrāddha.kāle.tu.madhv.ity.etat.tṛcam.japet./<br />
+            aghorāḥ.pitaras.tasya.viśanti.jyotir.uttamam.//
+             <span class="ref">RgV_1,21.109</span></p>
+         
+         
+         <p id="RgV_1.21.110">
+            tvam.soma.iti.tu.sūktena.paśyec.candram.upoditam./<br />
+            upatiṣṭhet.samit.pāṇir.māsi.māsi.navam.navam.//
+             <span class="ref">RgV_1,21.110</span></p>
+         
+         
+         <p id="RgV_1.21.111">
+            tam.māsam.tasya.duhkham.hi.na.jātu.trividham.bhavet./<br />
+            gotamena.purā.dṛṣṭam.mṛtyor.nāśanam.ātmanaḥ.//
+             <span class="ref">RgV_1,21.111</span></p>
+         
+         
+         <p id="RgV_1.21.112">
+            udyantam.upatiṣṭheta.pūrṇe.ca.etat.samāhitaḥ./<br />
+            vāsāṃsy.api.sa.vindeta.candrasya.eti.salokatām.//
+             <span class="ref">RgV_1,21.112</span></p>
+         
+         
+         <p id="RgV_1.21.113">
+            dhana.kāmo.japen.nityam.etā.iti.tu.nityaśaḥ./
+             <span class="ref">RgV_1,21.113</span></p>
+         
+         <p id="RgV_1.22.113">
+            snātvā.śucis.tu.niyata.iṣṭam.dhanam.avāpnuyāt.//
+             <span class="ref">RgV_1,22.113</span></p>
+         
+         
+         <p id="RgV_1.22.114">
+            āyur.īpsann.imam.iti.kautsam.sūktam.sadā.abhyaset./<br />
+            ājya.āhutiś.ca.juhuyāt.pratyṛcam.vāg.yataḥ.śuciḥ.//
+             <span class="ref">RgV_1,22.114</span></p>
+         
+         
+         <p id="RgV_1.22.115">
+            japed.āplutya.niyataḥ.sa.sākṣād.āpadam.taret./<br />
+            apa.naḥ.śośucad.iti.snātvā.madhyaṃdine.ravau.//
+             <span class="ref">RgV_1,22.115</span></p>
+         
+         
+         <p id="RgV_1.22.116">
+            śuddhi.kāmo.yata.āhāraḥ.pratyṛcam.juhuyād.ghṛtam./<br />
+            samidho.anvaham.aṣṭau.vā.sūktam.etad.agha.apaham.//
+             <span class="ref">RgV_1,22.116</span></p>
+         
+         
+         <p id="RgV_1.22.117">
+            yathā.muñja.ādi.veṣīkā.tathā.pāpāt.pramucyate./<br />
+            jātavedasa.ity.ādi.sadā.svastyayane.japet.//
+             <span class="ref">RgV_1,22.117</span></p>
+         
+         
+         <p id="RgV_1.22.118">
+            durge.pathi.prayātasya.na.asya.aribhyo.bhayam.bhavet./<br />
+            rāja.kārye.aśva.yūthe.vā.abhiśasto.apy.anekadhā.//
+             <span class="ref">RgV_1,22.118</span></p>
+         
+         
+         <p id="RgV_1.22.119">
+            aśakye.pratibhā.kārye.bhaye.prāṇa.antike.api.vā./(?)<br />
+            jātavedasa.ity.etām.japaṃs.tebhyaḥ.pramucyate.//
+             <span class="ref">RgV_1,22.119</span></p>
+         
+         
+         <p id="RgV_1.22.120">
+            siṣādhayiṣur.artham.ca.prasthito.manasā.japet./<br />
+            siddha.arthaḥ.svastimān.eti.pramīyeta.na.ca.adhvani.//
+             <span class="ref">RgV_1,22.120</span></p>
+         
+         
+         <p id="RgV_1.23.121">
+            kṛta.arthaḥ.sva.gṛhān.gacchann.etām.eva.sadā.abhyaset./<br />
+            udite.savitary.etām.japed.astam.gate.tathā.//
+             <span class="ref">RgV_1,23.121</span></p>
+         
+         
+         <p id="RgV_1.23.122">
+            ahaḥ.svastyayanam.prātā.rātri.svastyayanam.niśi./<br />
+            vyuṣṭāyām.ca.japen.nityam.etām.duhsvapna.nāśinīm.//
+             <span class="ref">RgV_1,23.122</span></p>
+         
+         
+         <p id="RgV_1.23.123">
+            pramandina.iti.sūyantyām.japed.garbha.pramocinīm./<br />
+            indram.ca.manasā.dhyāyen.nārī.garbham.pramuñcati.//
+             <span class="ref">RgV_1,23.123</span></p>
+         
+         
+         <p id="RgV_1.23.124">
+            āpatsu.sarva.kāmo.vā.tritam.nityam.japed.ṛṣim./<br />
+            japann.indrma.iti.snāto.vaiśvadevam.tu.saptakam.//
+             <span class="ref">RgV_1,23.124</span></p>
+         
+         
+         <p id="RgV_1.23.125">
+            mucyate.juhvad.ājyam.tu.viśvasmād.eva.so.aṃhasaḥ./<br />
+            śantātīyam.param.sūktam.pañca.viṃśakam.uttamam.//
+             <span class="ref">RgV_1,23.125</span></p>
+         
+         
+         <p id="RgV_1.23.126">
+            nāsatyau.tu.namas.kṛtvā.parā.m.ṛddhim.avāpnuyāt./<br />
+            dharma.saṃstavam.sūktam.rapasaś.ca.pramocanam.//
+             <span class="ref">RgV_1,23.126</span></p>
+         
+         
+         <p id="RgV_1.23.127">
+            imā.iti.japet.śaśvad.raudram.sūktam.dvijaḥ.śuciḥ./<br />
+            āyur.vidyām.dhanam.putrān.gṛhāṃś.ca.āpnoty.anāmayān.//
+             <span class="ref">RgV_1,23.127</span></p>
+         
+         
+         <p id="RgV_1.24.128">
+            vīreṣv.apatya.goṣṭheṣu.duhsvapne.ripram.ātmanaḥ./<br />
+            mā.no.mahāntam.ity.ābhyām.tri.rātra.upoṣitaḥ.śuciḥ.//
+             <span class="ref">RgV_1,24.128</span></p>
+         
+         
+         <p id="RgV_1.24.129">
+            audumbarīs.tu.juhuyād.dadhi.madhv.ājya.saṃskṛtāḥ./<br />
+            sūktena.juhuyād.ājyam.ādāv.ante.ca.karmaṇām.//
+             <span class="ref">RgV_1,24.129</span></p>
+         
+         
+         <p id="RgV_1.24.130">
+            ūrdhva.bāhus.tu.sūktena.tuṣṭvā.ca.śataśo.bhavam./<br />
+            chittvā.sarvān.mṛtyu.pāśān.jīved.rogair.vivarjitaḥ.//
+             <span class="ref">RgV_1,24.130</span></p>
+         
+         
+         <p id="RgV_1.24.131">
+            tiṣṭhann.udyantam.ādityam.samit.pāṇiḥ.śuciḥ.sadā./<br />
+            citram.ity.upatiṣṭheta.sūktena.anena.bhāskaram.//
+             <span class="ref">RgV_1,24.131</span></p>
+         
+         
+         <p id="RgV_1.24.132">
+            atistavena.ca.etena.nityam.madhyaṃdine.ravim./<br />
+            gṛṇann.apohate.ripram.prāpnoti.ca.dhana.āyuṣī.//
+             <span class="ref">RgV_1,24.132</span></p>
+         
+         
+         <p id="RgV_1.25.133">
+            adhaḥ.svapnasya.iti.japet.prātaḥ.prātar.dine.dine./<br />
+            duḥ.svapnam.nudate.kṣipram.na.ca.asya.abhojanād.bhayam.//
+             <span class="ref">RgV_1,25.133</span></p>
+         
+         
+         <p id="RgV_1.25.134">
+            ubhe.punāmi.iti.parā.ripughnyas.tu.prakīrtitāḥ./<br />
+            tā.japan.hanti.rakṣāṃsi.sapatnāṃś.ca.niyacchati.//
+             <span class="ref">RgV_1,25.134</span></p>
+         
+         
+         <p id="RgV_1.25.135">
+            nirvartya.pañca.yajñāṃś.ca.hutvā.ca.agnim.kṛta.āhnikaḥ./<br />
+            ye.devāso.divya.nayā.japan.kāmān.avāpnuyāt.//
+             <span class="ref">RgV_1,25.135</span></p>
+         
+         
+         <p id="RgV_1.25.136">
+            indrā.viṣṇū.namas.kṛtya.viṣṇor.nu.kam.iti.tribhiḥ./<br />
+            samit.pāṇiḥ.śucir.bhūtvā.upatiṣṭhed.dine.dine.//
+             <span class="ref">RgV_1,25.136</span></p>
+         
+         
+         <p id="RgV_1.25.137">
+            dharmam.buddhim.dhanam.putrān.ārogyam.brahma.vardhanam./<br />
+            prāpnoti.ca.param.sthānam.jyotī.rūpam.sanātanam.//
+             <span class="ref">RgV_1,25.137</span></p>
+         
+         
+         <p id="RgV_1.25.138">
+            ātatāyinam.āyāntam.dṛṣṭvā.vyāghram.atho.vṛkam./<br />
+            na.mā.garann.iti.japaṃs.tebhya.eva.pramucyate.//
+             <span class="ref">RgV_1,25.138</span></p>
+         
+         
+         <p id="RgV_1.25.139">
+            tri.rātra.upoṣito.rātrau.japed.āsūrya.darśanāt./<br />
+            āplutya.prayataḥ.saurīr.upatiṣṭhed.divākaram.//
+             <span class="ref">RgV_1,25.139</span></p>
+         
+         
+         <p id="RgV_1.26.140">
+            na.enam.paśyanti.vai.caurās.tathā.anye.pāpa.vṛttayaḥ./<br />
+            ekaḥ.śatāni.trāyeta.taskarebhyaś.caran.pathi.//
+             <span class="ref">RgV_1,26.140</span></p>
+         
+         
+         <p id="RgV_1.26.141">
+            steyam.kṛtvā.dvijo.mohāt.tri.rātra.upoṣitaḥ.śuciḥ./<br />
+            sūktam.japtvā.asya.vāmīyam.kṣipram.mucyeta.kilbiṣāt.//
+             <span class="ref">RgV_1,26.141</span></p>
+         
+         
+         <p id="RgV_1.26.142">
+            jñāti.putra.suhṛn.mitrair.yaś.ca.rājyam.cikīrṣati./<br />
+            nityam.sa.niyato.bhūtvā.sūktam.tu.manasā.japet.//
+             <span class="ref">RgV_1,26.142</span></p>
+         
+         
+         <p id="RgV_1.26.143">
+            kayā.śubhā.iti.paiśunyam.kṛtvā.ācārya.nṛpa.dvijaiḥ./<br />
+            śrutvā.para.rahasyam.tu.guror.apy.āha.śaunakaḥ.//
+             <span class="ref">RgV_1,26.143</span></p>
+         
+         
+         <p id="RgV_1.26.144">
+            imam.nu.somam.ity.ete.dve.ṛcau.prayato.japet./<br />
+            sarvān.kāmān.avāpnoti.na.kiṃcit.pātakam.bhavet.//
+             <span class="ref">RgV_1,26.144</span></p>
+         
+         
+         <p id="RgV_1.26.145">
+            pitum.nv.ity.upatiṣṭheta.nityam.annam.upasthitam./<br />
+            pūjayed.aśanam.nityam.bhuñjīyād.avikutsitam.//
+             <span class="ref">RgV_1,26.145</span></p>
+         
+         
+         <p id="RgV_1.27.146">
+            na.asya.syād.annajo.vyādhir.viṣam.apy.annatām.iyāt./<br />
+            viṣam.ca.pītvā.etat.sūktam.japeta.viṣa.nāśanam.//
+             <span class="ref">RgV_1,27.146</span></p>
+         
+         
+         <p id="RgV_1.27.147">
+            na.avāg.yatas.tu.bhuñjīta.na.aśucir.na.jugupsitam./<br />
+            dadyāc.ca.pūjayec.caiva.juhuyāc.ca.śuciḥ.sadā.//
+             <span class="ref">RgV_1,27.147</span></p>
+         
+         
+         <p id="RgV_1.27.148">
+            kṣud.bhayam.na.asya.kiṃcit.syān.na.annajam.vyādhim.āpnuyāt./<br />
+            utpatha.pratipanno.yo.bhraṣṭo.vā.api.pathaḥ.kvacit.//
+             <span class="ref">RgV_1,27.148</span></p>
+         
+         
+         <p id="RgV_1.27.149">
+            panthānam.pratipadyeta.kṛtvā.vā.karma.garhitam./<br />
+            agne.naya.iti.sūktena.pratyṛcam.juhuyād.ghṛtam.//
+             <span class="ref">RgV_1,27.149</span></p>
+         
+         
+         <p id="RgV_1.27.150">
+            japaṃś.ca.prayato.nityam.upatiṣṭheta.ca.analam./<br />
+            snātvā.japed.anarvāṇam.namas.kṛtya.bṛhaspatim.//
+             <span class="ref">RgV_1,27.150</span></p>
+         
+         
+         <p id="RgV_1.28.151">
+            vīrān.dhanam.ca.prāpnoti.suślokyam.ca.niyacchati./<br />
+            kaṅkato.na.iti.sūktam.tu.viṣa.ārtaḥ.prayato.japet.//
+             <span class="ref">RgV_1,28.151</span></p>
+         
+         
+         <p id="RgV_1.28.152">
+            viṣam.na.kramate.ca.asya.sarpād.dṛṣṭi.viṣād.api./<br />
+            yat.kīṭalūṭāsu.viṣam.daṃṣṭri.vṛścikajam.ca.yat.//
+             <span class="ref">RgV_1,28.152</span></p>
+         
+         
+         <p id="RgV_1.28.153">
+            maulam.ca.kṛtrimam.caiva.japant.sarvam.vyapohati./<br />
+            dharmam.buddhim.dhanam.putrān.saubhāgyam.brahma.varcasam.//
+             <span class="ref">RgV_1,28.153</span></p>
+         
+         <p id="RgV_1.28.154">
+            ārogyam.puṣṭim.āyuṣyam.paśūn.vidyām.mahad.yaśaḥ./<br />
+            tri.rātra.upoṣitaḥ.snātaḥ.prayataḥ.carita.vrataḥ.//
+             <span class="ref">RgV_1,28.154</span></p>
+         
+         
+         <p id="RgV_1.28.155">
+            prāṇa.āyāma.śatam.kṛtvā.upatiṣṭhet.śata.kratum./<br />
+            eka.aham.kṣura.samyuktaḥ.pādau.saṃdhāya.vāg.yataḥ.//
+             <span class="ref">RgV_1,28.155</span></p>
+         
+         
+         <p id="RgV_1.29.156">
+            yo.jāta.iti.sūktena.ṛṣim.gṛtsamadam.smaran./<br />
+            śata.kṛtvo.japed.etad.indra.śreṣṭha.iti.ca.antataḥ.//
+             <span class="ref">RgV_1,29.156</span></p>
+         
+         
+         <p id="RgV_1.29.157">
+            eka.ahāl.labhate.vittam.dvy.ahāt.siddhim.anuttamām./<br />
+            ahobhir.tribhir.ārogyam.caturbhir.aśanam.bahu.//
+             <span class="ref">RgV_1,29.157</span></p>
+         
+         
+         <p id="RgV_1.29.158">
+            pañcabhir.brahmavarcasyam.ṣaḍbhir.āyuḥ.sukha.āvaham./<br />
+            saptabhis.tanayān.puṣṭim.aṣṭahiḥ.prāpnuyād.yaśaḥ.//
+             <span class="ref">RgV_1,29.158</span></p>
+         
+         
+         <p id="RgV_1.29.159">
+            priyo.bhavati.ca.indrasya.priyam.dhāma.sa.gacchati./<br />
+            ripughnam.dasyu.śamanam.rāyas.pṣa.karam.param.//
+             <span class="ref">RgV_1,29.159</span></p>
+         
+         
+         <p id="RgV_1.29.160">
+            gaṇānām.iti.yat.sūktam.taj.japet.sukha.vardhanam./<br />
+            saṃdhyayoḥ.prayatas.tv.etaj.japen.nityam.bṛhaspatim.//
+             <span class="ref">RgV_1,29.160</span></p>
+         
+         
+         <p id="RgV_1.30.161">
+            upatiṣṭheta.sūktena.sarva.kāma.samṛddhaye./<br />
+            yo.me.rājann.iti.imām.tu.duhsvapna.śamanīm.ṛcam.//
+             <span class="ref">RgV_1,30.161</span></p>
+         
+         
+         <p id="RgV_1.30.162">
+            japtvā.nāśayati.kṣipram.duhsvapnam.brāhmaṇaḥ.śuciḥ./<br />
+            aho.rātram.upoṣya.ekam.niyato.brahmavittamaḥ.//
+             <span class="ref">RgV_1,30.162</span></p>
+         
+         
+         <p id="RgV_1.30.163">
+            prajā.artham.juhuyād.ājyam.carum.vā.payasi.śritam./<br />
+            rākā.maham.iti.imābhiḥ.ṣaṣṭhyām.śuklasya.pañcabhiḥ.//
+             <span class="ref">RgV_1,30.163</span></p>
+         
+         
+         <p id="RgV_1.30.164">
+            haviḥ.śeṣam.svayam.prāśya.vindate.mahatīm.prajām./<br />
+            vyādhinā.yo.abhibhūtaḥ.syād.ghoreṇa.prāṇa.hāriṇā.//
+             <span class="ref">RgV_1,30.164</span></p>
+         
+         
+         <p id="RgV_1.30.165">
+            caturdaśīm.upoṣya.ekām.kṛṣṇasya.juhuyāc.carum./<br />
+            ā.te.sūktena.raudreṇa.pratyṛcam.vāg.yataḥ.śuciḥ.//
+             <span class="ref">RgV_1,30.165</span></p>
+         
+         
+         <p id="RgV_1.31.166">
+            pūrvam.ājya.āhutīr.hutvā.atha.upasthāya.śaṃkaram./<br />
+            haviḥ.śeṣeṇa.varteta.ekāntaram.atandritaḥ.//
+             <span class="ref">RgV_1,31.166</span></p>
+         
+         
+         <p id="RgV_1.31.167">
+            pūrṇe.māsi.japen.mṛtyum.rogebhyaś.ca.pramucyate./<br />
+            abhiśasyeta.yo.mohāt.kuryād.vā.karma.garhitam.//
+             <span class="ref">RgV_1,31.167</span></p>
+         
+         
+         <p id="RgV_1.31.168">
+            snātvā.bhuñjan.japed.apsu.ambī.ity.ṛcam.atandritaḥ./<br />
+            adhvani.prasthito.yas.tu.paśyet.śakunim.utthitam.//
+             <span class="ref">RgV_1,31.168</span></p>
+         
+         
+         <p id="RgV_1.31.169">
+            apraśastam.praśastam.vā.sthitvā.aikṣya.prayato.japet./<br />
+            kanikradad.iti.sūktābhyām.upatiṣṭhet.kṛta.svaram.//
+             <span class="ref">RgV_1,31.169</span></p>
+         
+         
+         <p id="RgV_1.31.170">
+            śakunim.vāyasam.vā.api.mṛgam.daṃṣṭriṇam.eva.ca./<br />
+            apy.adṛṣṭvā.eva.japtavyam.etat.taskara.mohanam./E
+             <span class="ref">RgV_1,31.170</span></p>
+         
+         
+         <p id="RgV_2.1.1">
+            kalyāṇa.vādī.vā.anyo.vā.na.vā.rauti.na.dṛśyate/<br />
+            japed.eva.namas.kṛtya.siddha.arthaḥ.san.nivartate.//
+             <span class="ref">RgV_2,1.1</span></p>
+         
+         
+         <p id="RgV_2.1.2">
+            na.tasya.asti.bhayam.kiṃcid.dasyubhyo.adhvani.vā.kvacit./<br />
+            taraty.api.ca.durgāṇi.svastimāṃś.ca.sukhī.bhavet.//
+             <span class="ref">RgV_2,1.2</span></p>
+         
+         
+         <p id="RgV_2.1.3">
+            yasya.bhuktam.na.jīryeta.na.tiṣṭhed.vā.kathaṃcana./<br />
+            dhyātvā.so.attāram.annasya.agnir.asmi.ity.rcam.japet.//
+             <span class="ref">RgV_2,1.3</span></p>
+         
+         
+         <p id="RgV_2.1.4">
+            viśvāmitrasya.saṃvādam.nady.atikramaṇe.japet./<br />
+            āplutasya.ācamya.vidhivad.udakasya.añjalim.kṣipet.//
+             <span class="ref">RgV_2,1.4</span></p>
+         
+         
+         <p id="RgV_2.1.5">
+            namaḥ.sravadbhya.ity.etad.yo.nityam.hi.samācaret./<br />
+            tam.nadyaḥ.srotasaḥ.pānti.svam.putram.iva.mātaraḥ.//
+             <span class="ref">RgV_2,1.5</span></p>
+         
+         
+         <p id="RgV_2.2.6">
+            bhayam.ca.asya.na.vidyate.nadī.tīra.careṣv.api./<br />
+            jala.carebhyo.bhūtebhyaḥ.śīta.uṣṇair.na.ca.bādhyate.//
+             <span class="ref">RgV_2,2.6</span></p>
+         
+         
+         <p id="RgV_2.2.7">
+            pūrṇām.titīrṣuḥ.saritam.ramadhvam.iti.saṃsmaret./<br />
+            o.sv.ity.ṛcam.apām.madhye.japed.yo.vai.nadīm.taran.//
+             <span class="ref">RgV_2,2.7</span></p>
+         
+         
+         <p id="RgV_2.2.8">
+            sa.śīghram.tīram.āpnoti.gādham.vā.vindate.dvijaḥ./<br />
+            yuktena.eva.rathena.āśu.yo.apām.pāram.titīrṣati.//
+             <span class="ref">RgV_2,2.8</span></p>
+         
+         
+         <p id="RgV_2.2.9">
+            ud.va.ūrmir.iti.imām.tu.japeta.niyataḥ.svayam./<br />
+            adhvānam.prasthitaś.caivam.āmandrair.iti.saṃsmaret.//
+             <span class="ref">RgV_2,2.9</span></p>
+         
+         
+         <p id="RgV_2.2.10">
+            kāryāṇy.aśeṣataḥ.kṛtvā.punar.āyāti.vai.gṛham./<br />
+            adātāram.supuṣṭa.artham.sarvadā.āviṣṭa.cetanam.//
+             <span class="ref">RgV_2,2.10</span></p>
+         
+         
+         <p id="RgV_2.2.11">
+            hatvā.tad.dhanam.anvicchet.kim.te.kṛṇvanti.iti.smaran./<br />
+            indrā.parvata.iti.sūktam.āyuṣyam.drāviṇam.smṛtam.//
+             <span class="ref">RgV_2,2.11</span></p>
+         
+         
+         <p id="RgV_2.3.12">
+            vāg.indriya.pramūḍho.yo.na.vidyām.pratipadyate./<br />
+            indriya.arthāny.atha.arthān.vā.yo.na.vetti.kathaṃcana.//
+             <span class="ref">RgV_2,3.12</span></p>
+         
+         
+         <p id="RgV_2.3.13">
+            vidyā.vā.adhigatā.yasya.praṇaśyeta.punaḥ.punaḥ./<br />
+            sasarparīr.ṛcau.japan.dvau.māsau.pratipadyate.//
+             <span class="ref">RgV_2,3.13</span></p>
+         
+         
+         <p id="RgV_2.3.14">
+            anasā.samprayātas.tu.sthirau.gāvāv.iti.smaret./<br />
+            catasraḥ.kuśalena.eti.siddha.arthaḥ.sthirayā.anugaḥ.//
+             <span class="ref">RgV_2,3.14</span></p>
+         
+         
+         <p id="RgV_2.3.15">
+            yāna.akṣam.apabhagna.antam.dṛṣṭvā.durge.adhvani.dvijaḥ./<br />
+            abhi.vyayasva.iti.japed.dvṛcam.akṣa.balam.dadhat.//
+             <span class="ref">RgV_2,3.15</span></p>
+         
+         
+         <p id="RgV_2.3.16">
+            kṛṣṇa.pakṣe.caturdaśyām.tri.rātra.upoṣitaḥ.śuciḥ./<br />
+            dakṣiṇa.pravaṇe.deśe.śmaśānasthaḥ.samāhitaḥ.//
+             <span class="ref">RgV_2,3.16</span></p>
+         
+         
+         <p id="RgV_2.4.17">
+            rakta.uṣṇīṣy.asi.pāṇiś.ca.bailvaka.idhmo.nila.aśanaḥ./(?)<br />
+            sapta.aham.juhuyāt.tailam.sārṣapam.lavaṇa.anvitam.//
+             <span class="ref">RgV_2,4.17</span></p>
+         
+         
+         <p id="RgV_2.4.18">
+            samidho.rāja.vṛkṣasya.vasiṣṭha.dveṣiṇīḥ.paṭhan./<br />
+            yam.dviṣyāt.tasya.kṛtvā.tu.śamyākena.ākṛtim.niśi.//
+             <span class="ref">RgV_2,4.18</span></p>
+         
+         
+         <p id="RgV_2.4.19">
+            adhiṣṭhāya.ca.tām.kuryād.ṛgbhiś.catasṛbhir.dvijaḥ./<br />
+            uddiśya.nāma.homo.ayam.sapta.rātram.na.jīvati.//
+             <span class="ref">RgV_2,4.19</span></p>
+         
+         
+         <p id="RgV_2.4.20">
+            vasiṣṭhān.antato.hanti.brahma.etat.kuśika.uditam./<br />
+            na.asya.kaścid.avadhyo.asti.japato.juhvato.api.vā.//
+             <span class="ref">RgV_2,4.20</span></p>
+         
+         
+         <p id="RgV_2.4.21">
+            dvāviṃśakam.japet.sūktam.ādhyātmikam.anuttamam./<br />
+            parvasu.prayato.nityam.iṣṭān.kāmānt.samaśnute.//
+             <span class="ref">RgV_2,4.21</span></p>
+         
+         
+         <p id="RgV_2.5.22">
+            bṛhaspatim.aja.aśvam.ca.savitāram.babhrum.eva.ca./<br />
+            ṛtāvṛdhau.dine.dine.tṛcaiḥ.pañcabhir.anvaham.//
+             <span class="ref">RgV_2,5.22</span></p>
+         
+         
+         <p id="RgV_2.5.23">
+            bṛhaspata.iti.pañca.aham.pratyṛcam.juhuyād.ghṛtam./<br />
+            hutvā.agnim.arcayitvā.tu.gandha.mālyaiḥ.sadhūpakaiḥ.//
+             <span class="ref">RgV_2,5.23</span></p>
+         
+         
+         <p id="RgV_2.5.24">
+            tā.eva.devatāḥ.pañca.kāmair.arcanti.pañcabhiḥ./<br />
+            ratnair.apatyaiḥ.paśubhir.makhair.dīrgheṇa.ca.āyuṣā.//
+             <span class="ref">RgV_2,5.24</span></p>
+         
+         
+         <p id="RgV_2.6.25">
+            atha.veda.ādi.gītāyāḥ.prasāda.jananam.vidhim./<br />
+            gāyatryāḥ.sampravakṣyāmi.dharma.kāma.artha.mokṣadam.//
+             <span class="ref">RgV_2,6.25</span></p>
+         
+         
+         <p id="RgV_2.6.26">
+            nitye.naimittike.kāmye.tritaye.tu.parāyaṇam./<br />
+            gāyatryās.tu.param.na.asti.iha.loke.paratra.ca.//
+             <span class="ref">RgV_2,6.26</span></p>
+         
+         
+         <p id="RgV_2.6.27">
+            medhya.anna.mita.bhug.maunī.triḥ.snāna.arcana.tatparaḥ./<br />
+            japel.lakṣa.trayam.dhīmān.ananya.mānasa.kriyaḥ.//
+             <span class="ref">RgV_2,6.27</span></p>
+         
+         
+         <p id="RgV_2.6.28">
+            karmabhir.yojayet.paścāt.kramaśaḥ.sva.icchayā.api.vā./<br />
+            yāvat.kāryam.sa.kurvīta.na.lopet.tāvat.tad.vratam.//
+             <span class="ref">RgV_2,6.28</span></p>
+         
+         
+         <p id="RgV_2.6.29">
+            ādityasya.udaye.snātvā.sahasram.pratyaham.japet./<br />
+            āyur.ārogyam.aiśvaryam.dhanam.ca.labhate.dhruvam.//
+             <span class="ref">RgV_2,6.29</span></p>
+         
+         
+         <p id="RgV_2.7.30">
+            tri.rātra.upoṣitaḥ.samyag.ghṛtam.hutvā.sahasraśaḥ./<br />
+            sahasra.lābham.āpnoti.huta.aśe.khādira.indhane.//
+             <span class="ref">RgV_2,7.30</span></p>
+         
+         
+         <p id="RgV_2.7.31">
+            pālāśa.samidhām.caiva.ghṛta.aktānām.huta.aśane./<br />
+            sahasra.lābham.āpnoti.rāhu.sūrya.samāgame.//
+             <span class="ref">RgV_2,7.31</span></p>
+         
+         
+         <p id="RgV_2.7.32">
+            hutvā.tu.khādire.vahnau.saghṛtam.rakta.candanam./<br />
+            sahasram.homam.āpnoti.rāhu.sūrya.samāgamet.//
+             <span class="ref">RgV_2,7.32</span></p>
+         
+         
+         <p id="RgV_2.7.33">
+            rakta.candana.miśram.tu.saghṛtam.havya.vāhane./<br />
+            hutvā.gomayam.āpnoti.sahasram.go.dhanam.dvijaḥ.//
+             <span class="ref">RgV_2,7.33</span></p>
+         
+         
+         <p id="RgV_2.7.34">
+            yasyās.tu.gor.gomayena.guṭikānām.sahasraśaḥ./<br />
+            hutvā.tām.gām.avāpnoti.ghṛta.aktānām.huta.aśane.//
+             <span class="ref">RgV_2,7.34</span></p>
+         
+         
+         <p id="RgV_2.8.35">
+            yavair.aśvāṃs.tilair.hastīn.mahiṣyo.yāvakais.tathā./<br />
+            śālī.tāṇḍula.homena.kanyā.lābham.avāpnuyāt.//
+             <span class="ref">RgV_2,8.35</span></p>
+         
+         
+         <p id="RgV_2.8.36">
+            jātī.campaka.rāja.arka.kusumānām.sahasraśaḥ./<br />
+            hutvā.vastrāṇy.avāpnoti.ghṛta.aktānām.huta.aśane.//
+             <span class="ref">RgV_2,8.36</span></p>
+         
+         
+         <p id="RgV_2.8.37">
+            sūrya.bimbe.jala.madhye.toyam.hutvā.sahasraśaḥ./<br />
+            sahasram.prāpnuyādd.haimam.raupyam.indumaye.hute.//
+             <span class="ref">RgV_2,8.37</span></p>
+         
+         
+         <p id="RgV_2.8.38">
+            alakṣmī.pāpa.samyukto.mala.vyādhi.vināyakaiḥ./<br />
+            mucyet.sahasra.japtena.snāyād.yas.tu.jalena.vai.//
+             <span class="ref">RgV_2,8.38</span></p>
+         
+         
+         <p id="RgV_2.8.39">
+            yām.diśam.sapta.japtena.loṣṭena.sampracāṭayet./<br />
+            caura.agni.māruta.utthāni.bhayāni.na.bhavanti.vai.//
+             <span class="ref">RgV_2,8.39</span></p>
+         
+         
+         <p id="RgV_2.9.40">
+            kṣīra.āhāro.japel.lakṣam.apamṛtyum.vyapohati./
+             <span class="ref">RgV_2,9.40</span></p>
+         
+         <p id="RgV_2.10.40">
+            ghṛta.āśī.prāpnuyān.medhyām.bahu.vijñāna.saṃcayam.//
+             <span class="ref">RgV_2,10.40</span></p>
+         
+         
+         <p id="RgV_2.10.41">
+            hutvā.vetasa.patrāṇi.ghṛta.aktāni.huta.aśane./<br />
+            lakṣād.varṣāpayed.devam.sārvabhaumam.na.saṃśayaḥ.//
+             <span class="ref">RgV_2,10.41</span></p>
+         
+         
+         <p id="RgV_2.10.42">
+            lakṣeṇa.bhasma.homasya.kṛtyā.hy.uttiṣṭhate.jalāt./<br />
+            āditya.abhimukhaḥ.sthitvā.na.abhimātre.jale.śuciḥ.//
+             <span class="ref">RgV_2,10.42</span></p>
+         
+         
+         <p id="RgV_2.10.43">
+            tilānām.lakṣa.homena.ghṛta.aktānām.huta.aśane./<br />
+            sarva.kāma.samṛddha.ātmā.parām.siddhim.avāpnuyāt.//
+             <span class="ref">RgV_2,10.43</span></p>
+         
+         
+         <p id="RgV_2.10.44">
+            yavānām.lakṣa.homena.ghṛta.aktānām.huta.aśane./<br />
+            sarva.kāma.samṛddha.ātmā.param.sthānam.avāpnuyāt.//
+             <span class="ref">RgV_2,10.44</span></p>
+         
+         
+         <p id="RgV_2.10.45">
+            ghṛtasya.āhuti.lakṣeṇa.sarvān.kāmān.avāpnuyāt./<br />
+            pañca.gavya.aśano.lakṣam.japej.jāti.smaro.bhavet.//
+             <span class="ref">RgV_2,10.45</span></p>
+         
+         
+         <p id="RgV_2.10.46">
+            tad.eva.hy.anale.hutvā.prāpnoti.bahuśo.dhanam./<br />
+            anna.adya.havanān.nityam.anna.adyam.ca.bhavet.sadā.//
+             <span class="ref">RgV_2,10.46</span></p>
+         
+         
+         <p id="RgV_2.10.47">
+            juhuyāt.sarva.sādhyānām.āhuty.ayuta.saṃkhyayā./<br />
+            rakta.siddha.arthakān.hutvā.sarvānt.sādhayate.ripūn.//
+             <span class="ref">RgV_2,10.47</span></p>
+         
+         
+         <p id="RgV_2.10.48">
+            lavaṇam.madhu.samyuktam.hutvā.sarvam.vaśo.bhavet./<br />
+            hutvā.hu.kara.vīrāṇi.raktāni.janayej.jvaram.//
+             <span class="ref">RgV_2,10.48</span></p>
+         
+         
+         <p id="RgV_2.10.49">
+            hutvā.vaibhītakam.tailam.deśād.eva.pracāṭayet./<br />
+            hutvā.tu.nimba.patrāṇi.vidveṣam.janayen.nṛṇām.//
+             <span class="ref">RgV_2,10.49</span></p>
+         
+         
+         <p id="RgV_2.10.50">
+            raktānām.taṇḍulānām.tu.ghṛta.aktānām.huta.aśane./<br />
+            hutvā.balam.avāpnoti.śatrubhir.na.jīyate.//
+             <span class="ref">RgV_2,10.50</span></p>
+         
+         
+         <p id="RgV_2.11.51">
+            pratyānayana.siddhy.artham.madhu.sarpiḥ.samanvitam./<br />
+            gavyam.kṣīram.pradīpte.gnau.juhvatas.tat.praśāmyati.//
+             <span class="ref">RgV_2,11.51</span></p>
+         
+         
+         <p id="RgV_2.11.52">
+            brahma.cārī.mita.āhāro.yaḥ.sahasra.trayam.japet./<br />
+            saṃvatsareṇa.labhate.dhana.aiśvaryam.na.saṃśayaḥ.//
+             <span class="ref">RgV_2,11.52</span></p>
+         
+         
+         <p id="RgV_2.11.53">
+            śamī.bilva.palāśānām.arkasya.tu.viśeṣataḥ./<br />
+            puṣpāṇām.samidhām.caiva.hutvā.haimam.avāpnuyāt.//
+             <span class="ref">RgV_2,11.53</span></p>
+         
+         
+         <p id="RgV_2.11.54">
+            abrahma.tryambaka.ādīnām.yasya.āyatanam.āśritaḥ./<br />
+            japel.lakṣam.nirāhāraḥ.sa.tasya.varado.bhavet.//
+             <span class="ref">RgV_2,11.54</span></p>
+         
+         
+         <p id="RgV_2.11.55">
+            bilvānām.lakṣa.homena.ghṛta.aktānām.huta.aśane./<br />
+            parām.śriyam.avāpnoti.yadi.na.bhrūṇahā.bhavet.//
+             <span class="ref">RgV_2,11.55</span></p>
+         
+         
+         <p id="RgV_2.12.56">
+            padmānām.lakṣa.homena.ghṛta.aktānām.huta.aśane./<br />
+            prāpnoti.rājyam.nikhilam.asapatnam.akaṇṭakam.//
+             <span class="ref">RgV_2,12.56</span></p>
+         
+         
+         <p id="RgV_2.12.57">
+            pañca.viṃśati.lakṣeṇa.dadhi.kṣīra.ghṛta.aśanaḥ./<br />
+            sva.dehe.sidhyate.jantuḥ.kauśikasya.matam.yathā.//
+             <span class="ref">RgV_2,12.57</span></p>
+         
+         
+         <p id="RgV_2.12.58">
+            eka.aham.pañca.gavya.āśī.eka.aham.māruta.aśanaḥ./<br />
+            eka.aham.brāhmaṇa.anna.āśī.gāyatrī.japa.ucyate.//
+             <span class="ref">RgV_2,12.58</span></p>
+         
+         
+         <p id="RgV_2.12.59">
+            śatena.gāyatryā.snātvā.śatam.antar.jale.japet./<br />
+            śatena.apas.tataḥ.pītvā.sarva.pāpaiḥ.pramucyate.//
+             <span class="ref">RgV_2,12.59</span></p>
+         
+         
+         <p id="RgV_2.12.60">
+            godhnaḥ.pitṛghno.mātṛghno.brahmahā.guru.talpaṇaḥ./<br />
+            suvarṇa.ratna.hārī.ca.yaś.ca.vipraḥ.surām.pibet.//
+             <span class="ref">RgV_2,12.60</span></p>
+         
+         <p id="RgV_2.12.61">
+            ayājya.yājanam.kṛtvā.kṛtvā.vā.karma.garhitam./<br />
+            na.sīdet.pratigṛhṇāno.mahīm.api.sasāgarām.//
+             <span class="ref">RgV_2,12.61</span></p>
+         
+         
+         <p id="RgV_2.12.62">
+            ye.ca.asya.duhsthitā.loke.grahāḥ.sūrya.ādayo.bhuvi./<br />
+            te.yānti.saumyatām.sarve.śivā.iti.na.saṃśayaḥ.//
+             <span class="ref">RgV_2,12.62</span></p>
+         
+         
+         <p id="RgV_2.13.63">
+            kṛṇuṣva.iti.japant.sūktam.rakṣoghnam.dasyubhir.vṛtaḥ./<br />
+            arātīnām.haret.prāṇān.rakṣāṃsy.api.na.nāśayet.//
+             <span class="ref">RgV_2,13.63</span></p>
+         
+         
+         <p id="RgV_2.13.64">
+            upatiṣṭheta.yo.vahnim.pari.ity.ṛcā.dine.dine./<br />
+            tam.rakṣati.svayam.vahnir.viśvato.viśvato.mukhaḥ.//
+             <span class="ref">RgV_2,13.64</span></p>
+         
+         
+         <p id="RgV_2.13.65">
+            ko.adya.iti.tu.sūktena.yo.nityam.śakram.arcati./<br />
+            japed.vā.atha.namas.kāraiḥ.śakrato.labhate.varān.//
+             <span class="ref">RgV_2,13.65</span></p>
+         
+         
+         <p id="RgV_2.13.66">
+            kayā.iti.vāmadevyena.kuryāt.svastyayanam.niśi./<br />
+            japed.vā.saṃdhi.velāsu.brahma.etat.kuśika.uditam.//
+             <span class="ref">RgV_2,13.66</span></p>
+         
+         
+         <p id="RgV_2.13.67">
+            haṃsaḥ.śuciṣad.ity.ṛcā.śucir.īkṣed.divākaram./<br />
+            anta.kāle.japann.eti.brahmaṇaḥ.sadma.śāśvatam.//
+             <span class="ref">RgV_2,13.67</span></p>
+         
+         
+         <p id="RgV_2.13.68">
+            kṛṣim.prapadyamānas.tu.sthālī.pākam.yathā.vidhi./<br />
+            juhuyāt.kṣetra.madhye.tu.śunam.vāhās.tu.pañcabhiḥ.//
+             <span class="ref">RgV_2,13.68</span></p>
+         
+         
+         <p id="RgV_2.13.69">
+            yathā.liṅgam.tu.viharel.lāṅgalam.kṛṣīvalaḥ./<br />
+            indrāya.ca.marudbhyaś.ca.parjanyāya.bhagāya.ca.//
+             <span class="ref">RgV_2,13.69</span></p>
+         
+         
+         <p id="RgV_2.14.70">
+            pūṣṇe.dhānyāya.sītāyai.śunā.sīram.atha.uttaram./<br />
+            hutvā.tu.pṛthag.etāsām.yajed.etāś.ca.devatāḥ.//
+             <span class="ref">RgV_2,14.70</span></p>
+         
+         
+         <p id="RgV_2.14.71">
+            gandha.mālya.upahāraiś.ca.phala.lājā.surā.āsavaiḥ./<br />
+            pravapaṇe.pralavane.khala.sīta.upahārayoḥ.//
+             <span class="ref">RgV_2,14.71</span></p>
+         
+         
+         <p id="RgV_2.14.72">
+            etā.eva.yajen.nityam.devatā.vidhinā.śuciḥ./<br />
+            amogham.karma.bhavati.kṛṣir.vardhati.sarvadā.//
+             <span class="ref">RgV_2,14.72</span></p>
+         
+         
+         <p id="RgV_2.14.73">
+            kṣetrasya.patinā.ity.etat.kṣaitrapatyam.tṛcam.japet./<br />
+            īkṣet.sūryam.dvijo.nityam.vindate.kṣetram.uttamam.//
+             <span class="ref">RgV_2,14.73</span></p>
+         
+         
+         <p id="RgV_2.14.74">
+            ākhu.utkareṣu.caruṇā.yajed.etena.mūṣikān./<br />
+            citra.id.rāja.ity.anayā.stutvā.ca.ākhu.patim.sadā.//
+             <span class="ref">RgV_2,14.74</span></p>
+         
+         
+         <p id="RgV_2.15.75">
+            brāhmaṇān.bhojayed.atra.kīnāśāṃś.caiva.bhojayet./<br />
+            apramattaḥ.śānti.paraḥ.svayam.eva.kṛṣim.vrajet.//
+             <span class="ref">RgV_2,15.75</span></p>
+         
+         
+         <p id="RgV_2.15.76">
+            bhūmi.bhaṅgo.gavām.hiṃsā.tṛṇa.kīṭa.ādi.nāśanam./<br />
+            eteṣu.yat.kṛtam.pāpam.khala.dānena.śudhyati.//
+             <span class="ref">RgV_2,15.76</span></p>
+         
+         
+         <p id="RgV_2.15.77">
+            dhānyānām.viṃśakam.bhāgam.śrotriyebhyo.nivedayet./<br />
+            viṃśakasya.hi.dānena.kṛṣi.doṣāt.pramucyate.//
+             <span class="ref">RgV_2,15.77</span></p>
+         
+         
+         <p id="RgV_2.15.78">
+            samudrād.iti.sūktena.yaḥ.sadā.juhuyād.ghṛtam./<br />
+            pūrva.uktena.eva.kalpena.samyata.ātmā.jita.indriyaḥ.//
+             <span class="ref">RgV_2,15.78</span></p>
+         
+         
+         <p id="RgV_2.15.79">
+            vi.jyotiṣā.iti.jvalayed.yatra.icchej.jātavedasi./<br />
+            tam.agniḥ.sarvataḥ.pāti.bhadreṇa.draviṇena.ca.//
+             <span class="ref">RgV_2,15.79</span></p>
+         
+         
+         <p id="RgV_2.15.80">
+            viśvāni.na.iti.dvābhyām.ṛgbhyām.yo.vahnim.arcati./<br />
+            sa.taraty.āpadaḥ.sarvā.yaśaḥ.prāpnoti.ca.akṣayam.//
+             <span class="ref">RgV_2,15.80</span></p>
+         
+         
+         <p id="RgV_2.15.81">
+            hutvā.vahni.rūpa.stheyaḥ.prāṇa.artham.havya.vāhanaḥ./<br />
+            agne.tvam.iti.sūktena.dhanam.āyuś.ca.vāñchatā.//
+             <span class="ref">RgV_2,15.81</span></p>
+         
+         
+         <p id="RgV_2.16.82">
+            ya.ic.ched.vividham.vittam.sattvam.ca.anupamam.mahat./<br />
+            uro.ṣṭa.iti.sūktena.upatiṣṭhet.śatakratum.//
+             <span class="ref">RgV_2,16.82</span></p>
+         
+         
+         <p id="RgV_2.16.83">
+            prajā.kāmo.yajej.nityam.caruṇā.deva.patnayaḥ./<br />
+            upahṛtya.upahāram.ca.śeṣam.bhuñjīta.vāg.yataḥ.//
+             <span class="ref">RgV_2,16.83</span></p>
+         
+         
+         <p id="RgV_2.16.84">
+            ucchiṣṭam.ca.pradātavyam.bhāryāyai.putram.icchatā./<br />
+            dhenvāḥ.sarūpa.vatsāyāḥ.payasā.sādhayec.carum.//
+             <span class="ref">RgV_2,16.84</span></p>
+         
+         
+         <p id="RgV_2.16.85">
+            anurūpām.prajām.āśu.labhate.na.atra.saṃśayaḥ./<br />
+            svastyātreyam.japen.nityam.prātaḥ.prātar.dvijaḥ.śuciḥ.//
+             <span class="ref">RgV_2,16.85</span></p>
+         
+         
+         <p id="RgV_2.16.86">
+            etat.svastyayanam.puṇyam.sarva.kalmaṣa.nāśanam./<br />
+            suhṛdam.jñātinam.caiva.gacchantam.anumantrayet.//
+             <span class="ref">RgV_2,16.86</span></p>
+         
+         
+         <p id="RgV_2.17.87">
+            svasti.panthām.iti.procya.svastimān.vrajate.adhvani./<br />
+            vijihīṣva.vanaspate.tad.idam.cyāvanam.smṛtam.//
+             <span class="ref">RgV_2,17.87</span></p>
+         
+         
+         <p id="RgV_2.17.88">
+            yam.cyāvayitu.kāmaḥ.syāc.cyāvayet.tam.idam.japan./<br />
+            dviṣantam.vā.padā.ākramya.bhūmau.pāṃsumayīm.kṛtim.//
+             <span class="ref">RgV_2,17.88</span></p>
+         
+         
+         <p id="RgV_2.17.89">
+            niṣpekṣyann.iva.saṃgrāmāc.cyavate.na.atra.saṃśayaḥ./<br />
+            striyam.garbha.pramūḍhām.vā.pāyayed.anumantritam.//
+             <span class="ref">RgV_2,17.89</span></p>
+         
+         
+         <p id="RgV_2.17.90">
+            udakam.cyāvanena.eva.garbho.adhaḥ.cyavate.sukham./<br />
+            acchā.vada.iti.sūktam.tu.vṛṣṭi.kāmaḥ.prayojayet.//
+             <span class="ref">RgV_2,17.90</span></p>
+         
+         
+         <p id="RgV_2.17.91">
+            nirāhāraḥ.khinna.vāsā.acireṇa.pravarṣati./<br />
+            hutvā.ayutam.vaitasīnām.kṣīra.aktānām.huta.aśane.//
+             <span class="ref">RgV_2,17.91</span></p>
+         
+         
+         <p id="RgV_2.17.92">
+            mahad.varṣam.avāpnoti.sūktena.ācchā.vadena.hi./<br />
+            ya.icched.varadām.devīm.śriyam.nityam.kule.sthitām.//
+             <span class="ref">RgV_2,17.92</span></p>
+         
+         
+         <p id="RgV_2.18.93">
+            sa.śuciḥ.prayato.bhūtvā.juhuyād.ājyam.anvaham./<br />
+            śriyaḥ.pañca.daśa.ṛcam.ca.śrī.kāmaḥ.satatam.japet.//
+             <span class="ref">RgV_2,18.93</span></p>
+         
+         
+         <p id="RgV_2.18.94">
+            āvāhayet.śriyam.padme.pañcabhiḥ.kanako.api.vā./<br />
+            upahārān.upaharet.śuklān.bhakṣān.payo.dadhi.//
+             <span class="ref">RgV_2,18.94</span></p>
+         
+         
+         <p id="RgV_2.18.95">
+            sthālī.pākam.ca.śālīnām.payasā.samprakalpayet./<br />
+            cāndrāyaṇa.kṛta.ātmā.tu.prapadyet.prayataḥ.śriyai.//
+             <span class="ref">RgV_2,18.95</span></p>
+         
+         
+         <p id="RgV_2.18.96">
+            sarva.auṣadhībhiḥ.phāṇṭābhiḥ.snātvā.adbhiḥ.pāvanair.api./<br />
+            upaitu.mām.deva.sakha.iti.rājño.abhiṣecanī.//
+             <span class="ref">RgV_2,18.96</span></p>
+         
+         
+         <p id="RgV_2.18.97">
+            manasaḥ.kāmam.ity.eṣā.paśu.kāma.abhiṣecanī./<br />
+            kadarmena.iti.yaḥ.snāyāt.prajā.kāmaḥ.śuci.vrataḥ.//
+             <span class="ref">RgV_2,18.97</span></p>
+         
+         
+         <p id="RgV_2.19.98">
+            aśva.pūrṇām.iti.snāyād.rājya.kāmaḥ.śuci.vrataḥ./<br />
+            rohite.carmaṇi.snāyād.brāhmaṇas.tu.yathā.vidhi.//
+             <span class="ref">RgV_2,19.98</span></p>
+         
+         
+         <p id="RgV_2.19.99">
+            rājā.carmaṇi.vaiyāghre.kṣatriyas.tv.atha.raurave./<br />
+            basta.carmaṇi.vaiśyas.tu.homaḥ.kāryas.tv.anantaram.//
+             <span class="ref">RgV_2,19.99</span></p>
+         
+         
+         <p id="RgV_2.19.100">
+            candrām.iti.tu.padmāni.juhuyāt.sarpiṣā.dvijaḥ./<br />
+            āditya.varṇa.ity.anayā.bilva.homo.vidhīyate.//
+             <span class="ref">RgV_2,19.100</span></p>
+         
+         
+         <p id="RgV_2.19.101">
+            bilva.idhma.eva.vā.agniḥ.syāt.sthālīś.ca.juhuyād.dvijaḥ./<br />
+            daśa.sāhasriko.homaḥ.śrī.kāmaḥ.prathamo.vidhiḥ.//
+             <span class="ref">RgV_2,19.101</span></p>
+         
+         
+         <p id="RgV_2.19.102">
+            hutvā.tu.prayutam.samyag.anantām.vindate.śriyam./<br />
+            ayutam.śatakṛtvas.tu.hutvā.śuklāni.sarpiṣā.//
+             <span class="ref">RgV_2,19.102</span></p>
+         
+         
+         <p id="RgV_2.20.103">
+            anantām.avyavacchinām.śāśvatīm.vindate.śriyam./<br />
+            aśaktau.japa.eva.ukto.daśa.sāhasriko.varaḥ.//
+             <span class="ref">RgV_2,20.103</span></p>
+         
+         
+         <p id="RgV_2.20.104">
+            aptvā.nu.prayutam.samyag.anantām.vindate.śriyam./<br />
+            ayutam.śatakṛtvas.tu.japtvā.śriyam.upāśnute.//
+             <span class="ref">RgV_2,20.104</span></p>
+         
+         
+         <p id="RgV_2.20.105">
+            apsv.eva.juhuyān.nityam.padmāny.ayutaśo.niśi./<br />
+            dṛṣṭvā.śriyam.tu.uparamet.kilāsatvād.bibheta.vai.//
+             <span class="ref">RgV_2,20.105</span></p>
+         
+         
+         <p id="RgV_2.20.106">
+            bilva.āśī.bilva.nilayo.juhuyād.bilvāni.sarpiṣā./<br />
+            eka.viṃśati.rātreṇa.parām.siddhim.niyacchati.//
+             <span class="ref">RgV_2,20.106</span></p>
+         
+         
+         <p id="RgV_2.20.107">
+            yena.yena.ca.kāmena.juhoti.prayataḥ.śriyai./<br />
+            padmāny.atha.api.bilvāni.sa.sa.kāmaḥ.samṛdhyati.//
+             <span class="ref">RgV_2,20.107</span></p>
+         
+         
+         <p id="RgV_2.21.108">
+            na.jātu.kṛpaṇa.arthāya.śriyam.āvāhayet.kvacit./<br />
+            na.yat.kiṃcana.kāmena.homaḥ.kāryaḥ.kathaṃcana.//
+             <span class="ref">RgV_2,21.108</span></p>
+         
+         
+         <p id="RgV_2.21.109">
+            mahad.vā.prārthyamānena.rājya.kāmena.vā.punaḥ./<br />
+            vācaḥ.param.prārthayitā.yatnād.yuktaḥ.śriyam.yajet.//
+             <span class="ref">RgV_2,21.109</span></p>
+         
+         
+         <p id="RgV_2.21.110">
+            agnir.etv.iti.sūktena.juhuyād.ājyam.anvaham./<br />
+            ojasvinīm.avāpnoti.prajām.dharmavatīm.śubhām.//
+             <span class="ref">RgV_2,21.110</span></p>
+         
+         
+         <p id="RgV_2.21.111">
+            acchā.na.ity.ṛcā.dīptam.upatiṣṭhed.vibhāvasum./<br />
+            prajām.prāpya.jayet.śatrūṃs.tarate.duritāni.ca.//
+             <span class="ref">RgV_2,21.111</span></p>
+         
+         
+         <p id="RgV_2.21.112">
+            ā.gāva.iti.sūktena.goṣṭhagā.loka.mātaraḥ./<br />
+            upatiṣṭhed.vrajantīś.ca.ya.icchet.tāḥ.sadā.akṣayāḥ.//
+             <span class="ref">RgV_2,21.112</span></p>
+         
+         
+         <p id="RgV_2.21.113">
+            tvām.iddhi.iti.pragāthena.upatiṣṭhet.śatakratum./<br />
+            madhya.ahne.saṃdhyayoś.caiva.japan.dhanam.avāpnuyāt.//
+             <span class="ref">RgV_2,21.113</span></p>
+         
+         
+         <p id="RgV_2.22.114">
+            upa.iti.tisṛbhī.rājño.dundubhīn.saṃspṛśed.raṇe./<br />
+            ojo.balam.avāpnoti.śatrūṃś.caiva.niyacchati.//
+             <span class="ref">RgV_2,22.114</span></p>
+         
+         
+         <p id="RgV_2.22.115">
+            pāṇinā.tṛṇam.ādāya.yajña.ayajña.iti.yo.abhyaset./<br />
+            so.adhītasya.asya.sūktasya.phalam.prāpnoti.na.atṛṇaḥ.//
+             <span class="ref">RgV_2,22.115</span></p>
+         
+         
+         <p id="RgV_2.22.116">
+            sūkta.ante.ca.tṛṇam.tv.agnāv.iriṇe.vā.udake.api.vā./<br />
+            nikṣipet.tat.prayatnena.tyaktvā.anyatra.bhaya.āvaham.//
+             <span class="ref">RgV_2,22.116</span></p>
+         
+         
+         <p id="RgV_2.22.117">
+            tṛṇa.pāṇir.japan.sūktam.rakṣoghnam.dasyubhir.vṛtaḥ./<br />
+            na.bhayam.vindate.kiṃcid.rakṣobhyo.aribhya.eva.ca.//
+             <span class="ref">RgV_2,22.117</span></p>
+         
+         
+         <p id="RgV_2.22.118">
+            gṛhāt.prapadyamānas.tu.panthānam.dhana.kāmyayā./<br />
+            japet.so.adhvani.yatnena.api.panthām.iti.vrajan.//
+             <span class="ref">RgV_2,22.118</span></p>
+         
+         
+         <p id="RgV_2.22.119">
+            ye.ke.ca.jmā.ity.ṛcam.tv.etām.dhyāyan.niśi.diva.okasaḥ./<br />
+            agnau.hutvā.etayā.ca.ājyam.dīrgham.āyur.avāpnuyāt.//
+             <span class="ref">RgV_2,22.119</span></p>
+         
+         
+         <p id="RgV_2.23.120">
+            vayam.u.tvā.iti.sūktam.tu.pauṣṇam.draviṇa.vardhanam./<br />
+            nityam.japet.śucir.bhūtvā.dhanam.vindaty.abhīpsitam.//
+             <span class="ref">RgV_2,23.120</span></p>
+         
+         
+         <p id="RgV_2.23.121">
+            yasya.naṣṭam.bhavet.kiṃcid.dravyam.gaur.dvipadam.dhanam./<br />
+            naśyed.vā.adhvani.yo.mohāt.sampūṣan.sa.japen.niśi.//
+             <span class="ref">RgV_2,23.121</span></p>
+         
+         
+         <p id="RgV_2.23.122">
+            iyam.ity.etad.ādy.antam.sūktam.sārasvatam.dvijaḥ./<br />
+            nityam.japet.śucir.bhūtvā.vāgmī.bhavati.buddhimān.//
+             <span class="ref">RgV_2,23.122</span></p>
+         
+         
+         <p id="RgV_2.23.123">
+            sam.vām.iti.tu.yat.sūktam.aṣṭa.ṛcam.traiṣṭubham.smṛtam./<br />
+            taj.japan.prayato.nityam.iṣṭān.kāmānt.samaśnute.//
+             <span class="ref">RgV_2,23.123</span></p>
+         
+         
+         <p id="RgV_2.23.124">
+            yo.adri.bhit.tu.yat.sūktam.tat.sapatna.nibarhaṇam./<br />
+            bṛhaspatim.namas.kṛtvā.sapatnānt.stṛṇute.bahūn.//
+             <span class="ref">RgV_2,23.124</span></p>
+         
+         
+         <p id="RgV_2.24.125">
+            enasvī.vā.abhiśasto.vā.kṛtvā.vā.karma.garhitam./<br />
+            somā.raudram.japet.sūktam.kṛtsnam.eno.vyapohati.//
+             <span class="ref">RgV_2,24.125</span></p>
+         
+         
+         <p id="RgV_2.24.126">
+            juhuyād.vā.ya.etābhir.ṛgbhir.nityam.ghṛta.vrataḥ./<br />
+            vāruṇebhyo.sa.pāśebhyo.mucyate.śam.tathā.āpnuyāt.//
+             <span class="ref">RgV_2,24.126</span></p>
+         
+         
+         <p id="RgV_2.24.127">
+            jīmūta.sūktasya.vidhim.yathā.liṅgam.avekṣya.vai./<br />
+            ṛgbhiḥ.karmāṇi.kurvīta.ratha.aṅgānām.yathā.vidhi.//
+             <span class="ref">RgV_2,24.127</span></p>
+         
+         
+         <p id="RgV_2.24.128">
+            saṃgrāmam.tu.prayātasya.rājñaś.ca.etat.prayojayet./<br />
+            sarvāṇy.aṅgāni.rathyāṃś.ca.sadaśvāṃś.ca.anumantrayet.//
+             <span class="ref">RgV_2,24.128</span></p>
+         
+         
+         <p id="RgV_2.24.129">
+            yam.eva.deśam.gaccheta.śatrum.vā.apy.anumantritaḥ./<br />
+            na.ajitvā.vinivarteta.param.hi.brahmaṇo.balam.//
+             <span class="ref">RgV_2,24.129</span></p>
+         
+         
+         <p id="RgV_2.25.130">
+            putrān.āyur.atha.ārogyam.ya.icched.avyayam.sukham./<br />
+            so.agnim.nara.iti.sūktena.juhuyād.ājyam.anvaham.//
+             <span class="ref">RgV_2,25.130</span></p>
+         
+         
+         <p id="RgV_2.25.131">
+            pra.agnaye.atha.tribhiḥ.sūktaiḥ.saṃdhyayor.japam.ārabhet./<br />
+            na.rakṣobhyo.bhayam.vetti.dhanam.prāpnoti.ca.akṣayam.//
+             <span class="ref">RgV_2,25.131</span></p>
+         
+         
+         <p id="RgV_2.25.132">
+            abhi.tvā.yaḥ.pragāthena.nityam.arcati.vrajiṇam./<br />
+            sa.śriyam.vipulām.bhuṅkte.prāpnoti.ca.dhana.āyuṣī.//
+             <span class="ref">RgV_2,25.132</span></p>
+         
+         
+         <p id="RgV_2.25.133">
+            śaṃvatīḥ.śam.na.indra.agnī.ity.ete.satatam.japet./<br />
+            na.rakṣobhyo.na.bhūtebhyo.vyādhibhyo.vā.bhayam.bhavet.//
+             <span class="ref">RgV_2,25.133</span></p>
+         
+         
+         <p id="RgV_2.25.134">
+            niveṣṭu.kāmo.roga.ārto.bhaga.sūktam.sadā.abhyaset./<br />
+            niveśam.vindate.kṣipram.rogebhyaś.ca.pramucyate.//
+             <span class="ref">RgV_2,25.134</span></p>
+         
+         
+         <p id="RgV_2.26.135">
+            imā.iti.japen.nityam.raudram.sūktam.dvijaḥ.śuciḥ./<br />
+            taj.japan.prajayā.vittaiḥ.svayam.caiva.na.riṣyati.//
+             <span class="ref">RgV_2,26.135</span></p>
+         
+         
+         <p id="RgV_2.26.136">
+            uttitīrṣur.apo.yas.tu.śaṅket.srotyā.samāgame./(?)<br />
+            samudra.jyeṣṭhā.iti.japet.sūktam.etad.bhaya.apaham.//
+             <span class="ref">RgV_2,26.136</span></p>
+         
+         
+         <p id="RgV_2.26.137">
+            āditya.daivate.sūkte.ripughne.roga.nāśane./<br />
+            japet.prātaḥ.śucir.bhūtvā.ripu.rogaiḥ.pramucyate.//
+             <span class="ref">RgV_2,26.137</span></p>
+         
+         
+         <p id="RgV_2.26.138">
+            vāstoṣpate.prati.ity.etat.sūktam.vāstoṣpatam.japet./<br />
+            snātaḥ.kṛtvā.vaiśvadevam.param.brahma.idam.ucyate.//
+             <span class="ref">RgV_2,26.138</span></p>
+         
+         <p id="RgV_2.26.139">
+            amīvahā.iti.sūktena.bhūtāni.svāpayen.niśi./<br />
+            na.hi.prasvāpanam.kiṃcid.īdṛśam.vidyate.kvacit.//
+             <span class="ref">RgV_2,26.139</span></p>
+         
+         
+         <p id="RgV_2.27.140">
+            sambādhe.viṣame.durge.baddho.vā.nirgataḥ.kvacit./<br />
+            palāyan.vā.gṛhīto.vā.taskaraiḥ.sa.japed.idam.//
+             <span class="ref">RgV_2,27.140</span></p>
+         
+         
+         <p id="RgV_2.27.141">
+            amīvahā.viśvavatīm.uddhṛtya.anyāḥ.prayojayet./<br />
+            sūktam.etaj.japet.sarvam.iti.manyeta.śaunakaḥ.//
+             <span class="ref">RgV_2,27.141</span></p>
+         
+         
+         <p id="RgV_2.27.142">
+            tri.rātrim.niyato.anaśnan.śrapayet.pāyasam.carum./<br />
+            tena.āhuti.śatam.pūrṇam.juhuyāt.sarpiṣā.dvijaḥ.//
+             <span class="ref">RgV_2,27.142</span></p>
+         
+         
+         <p id="RgV_2.27.143">
+            samuddiśya.mahā.devam.tryambakam.tryambaka.ity.ṛcā./<br />
+            etat.parva.śatam.kṛtvā.jīved.abda.śatam.sukhī.//
+             <span class="ref">RgV_2,27.143</span></p>
+         
+         
+         <p id="RgV_2.27.144">
+            tat.cakśur.ity.ṛcā.snāta.upatiṣṭhed.divākaram./<br />
+            udyantam.madhyagam.caiva.dīrgham.āyur.jijīviṣuḥ.//
+             <span class="ref">RgV_2,27.144</span></p>
+         
+         
+         <p id="RgV_2.27.145">
+            rātryā.apara.kāle.ya.utthāya.prayataḥ.śuciḥ./
+             <span class="ref">RgV_2,27.145</span></p>
+         
+         <p id="RgV_2.28.145">
+            vyuṣā.ity.upatiṣṭheta.ṣaḍbhiḥ.sūktaiḥ.kṛta.añjaliḥ.//
+             <span class="ref">RgV_2,28.145</span></p>
+         
+         
+         <p id="RgV_2.28.146">
+            prāpnuyāt.sa.hiraṇya.ādi.nānā.rūpam.dhanam.bahu./<br />
+            gā.aśvān.puruṣān.dhānyam.striyo.vāsāṃsy.aja.avikam.//
+             <span class="ref">RgV_2,28.146</span></p>
+         
+         
+         <p id="RgV_2.28.147">
+            dhruvāsu.tv.āsu.kṣitiṣu.japan.baddhaḥ.pramucyate./<br />
+            tiṣṭhan.rātrau.japed.enām.vipāśaḥ.samprapadyate.//
+             <span class="ref">RgV_2,28.147</span></p>
+         
+         
+         <p id="RgV_2.28.148">
+            aho.rātram.sthitaś.caivam.anaśnant.syād.viceṣṭitaḥ./<br />
+            ayaḥ.pāśaḥ.sphuṭanty.asya.dāru.pāśās.tathaiva.ca.//
+             <span class="ref">RgV_2,28.148</span></p>
+         
+         
+         <p id="RgV_2.28.149">
+            syonā.iti.pṛthivīm.devīm.prapadyen.niyataḥ.sadā./<br />
+            japed.enām.ca.tatra.api.bhūmi.pāśāt.pramucyate.//
+             <span class="ref">RgV_2,28.149</span></p>
+         
+         
+         <p id="RgV_2.29.150">
+            yat.kiṃcit.pātakam.kuryāt.karmaṇā.manasā.girā./<br />
+            yat.kiṃca.idam.varuṇa.iti.ṛcam.japtvā.pramucyate.//
+             <span class="ref">RgV_2,29.150</span></p>
+         
+         
+         <p id="RgV_2.29.151">
+            agamyā.gamane.ca.etat.prāyaścittam.vidhīyate./<br />
+            anyatra.guru.talpāc.ca.tasmāt.pāpāt.pramucyate.//
+             <span class="ref">RgV_2,29.151</span></p>
+         
+         
+         <p id="RgV_2.29.152">
+            dvādaśa.aham.abhuñjānaḥ.sva.gotra.āgamane.japet./<br />
+            ardha.māsam.abhuñjānaḥ.sakhi.dāreṣu.saṃvasan.//
+             <span class="ref">RgV_2,29.152</span></p>
+         
+         
+         <p id="RgV_2.29.153">
+            idam.āpaḥ.pravahata.yat.kim.ca.idam.ṛcam.punaḥ./<br />
+            iti.ca.etā.japed.apaḥ.praviśya.eteṣu.karmasu.//
+             <span class="ref">RgV_2,29.153</span></p>
+         
+         
+         <p id="RgV_2.29.154">
+            indrā.viṣṇū.namas.kṛtya.juhuyād.ājyam.anvaham./<br />
+            sūktābhyām.para.etābhyām.ya.icched.bhūtim.ātmanaḥ.//
+             <span class="ref">RgV_2,29.154</span></p>
+         
+         
+         <p id="RgV_2.30.155">
+            āsya.daghnam.vigāhya.ambhaḥ.prān.mukhaḥ.prayataḥ.śuciḥ./<br />
+            sūktābhyām.tisra.etābhyām.upatiṣṭhed.divākaram.//
+             <span class="ref">RgV_2,30.155</span></p>
+         
+         
+         <p id="RgV_2.30.156">
+            anaśnatā.tu.japtavyam.vṛṣṭi.kāmena.yatnataḥ./<br />
+            pañca.rātre.vyatīte.tu.mahad.varṣam.avāpnuyāt.//
+             <span class="ref">RgV_2,30.156</span></p>
+         
+         
+         <p id="RgV_2.30.157">
+            yo.aribhiḥ.pratipadyeta.abhiśasyeta.vā.mṛṣā./<br />
+            upoṣya.ekam.tri.rātram.sa.juhuyād.ājyam.anvaham.//
+             <span class="ref">RgV_2,30.157</span></p>
+         
+         
+         <p id="RgV_2.30.158">
+            indrā.soma.iti.sūktam.tu.japec.ca.etat.śata.avaram./<br />
+            kiṃcid.dadyād.dvijebhyo.ante.stṛṇute.sarva.śātravān.//
+             <span class="ref">RgV_2,30.158</span></p>
+         
+         
+         <p id="RgV_2.30.159">
+            yasya.lupyed.vratam.mohād.vrātyair.vā.saṃspṛśed.dvijaḥ./<br />
+            upoṣya.ājyam.ca.juhuyāt.tvam.agne.vratapā.iti.//
+             <span class="ref">RgV_2,30.159</span></p>
+         
+         
+         <p id="RgV_2.31.160">
+            pra.saṃrājam.iti.tv.etaj.japann.īkṣed.divākaram./<br />
+            udyantam.upatiṣṭheta.snātvā.snātvā.dine.dine.//
+             <span class="ref">RgV_2,31.160</span></p>
+         
+         
+         <p id="RgV_2.31.161">
+            abhiyukto.bhaved.yas.tu.vivaded.vā.api.kenacit./<br />
+            nirjitya.sagaṇān.śatrūn.kṣipram.vādam.parājayet.//
+             <span class="ref">RgV_2,31.161</span></p>
+         
+         
+         <p id="RgV_2.31.162">
+            śam.agir.agnibhiś.ca.iti.prapadyed.vāyu.bhāskarau./<br />
+            agnim.prathamataḥ.stutvā.mahat.kṛcchrāt.pramucyate.//
+             <span class="ref">RgV_2,31.162</span></p>
+         
+         
+         <p id="RgV_2.31.163">
+            na.hi.iti.yaś.catuṣkeṇa.snātvā.vai.prātar.utthitaḥ./<br />
+            dvau.māsāv.upatiṣṭheta.sa.trāyati.bhayāt.svayam.//
+             <span class="ref">RgV_2,31.163</span></p>
+         
+         
+         <p id="RgV_2.31.164">
+            tṛcam.japtvā.āyad.ity.etat.snātvā.abhyarcya.puraṃdaram./<br />
+            prāpnuyān.mānasān.kāmān.sampūjya.vasu.rociṣaḥ.//
+             <span class="ref">RgV_2,31.164</span></p>
+         
+         
+         <p id="RgV_2.31.165">
+            ādyāni.trīṇi.sūktāni.pañca.ca.agre.bṛhann.iti./<br />
+            ṣaṭ.tathā.antyāni.sūktāni.agnim.nara.ito.iti.ca.//
+             <span class="ref">RgV_2,31.165</span></p>
+         
+         
+         <p id="RgV_2.31.166">
+            prakṛtāni.iti.ca.adhyāyam.bhojanāt.prāk.paṭhed.idam./<br />
+            sarvān.kāmān.avāpnoti.mucyeta.sarva.kilbiṣaiḥ.//
+             <span class="ref">RgV_2,31.166</span></p>
+         
+         
+         <p id="RgV_2.32.167">
+            prāg.bhojanam.idam.brahma.mānavānām.maharṣiṇām./<br />
+            pūrva.ahṇe.japato.nityam.artha.siddhiḥ.parā.bhavet.//
+             <span class="ref">RgV_2,32.167</span></p>
+         
+         
+         <p id="RgV_2.32.168">
+            agninā.ity.āśvinam.sūktam.catur.viṃśakam.anvaham./<br />
+            japet.prātaḥ.śucir.bhūtvā.nāsatyāv.arcya.suvrataḥ.//
+             <span class="ref">RgV_2,32.168</span></p>
+         
+         
+         <p id="RgV_2.32.169">
+            sa.prāpnuyāt.parām.ṛddhim.draviṇam.ca.ūrjam.eva.ca./<br />
+            samidhā.iti.juhoty.agnau.sūktena.pratyṛcam.ghṛtam.//
+             <span class="ref">RgV_2,32.169</span></p>
+         
+         
+         <p id="RgV_2.32.170">
+            sa.siddhim.atulām.prāpya.samānām.jīvate.śatam./<br />
+            dvi.catvāriṃśakena.iha.sūktena.agha.iti.vajriṇam.//
+             <span class="ref">RgV_2,32.170</span></p>
+         
+         
+         <p id="RgV_2.32.171">
+            sakhyam.labdhvā.mahā.indreṇa.sapatnānt.stṛṇute.bahūn./<br />
+            prāśnīyāj.japato.atra.asti.praśnam.kṛtvā.pramāṇataḥ.//
+             <span class="ref">RgV_2,32.171</span></p>
+         
+         
+         <p id="RgV_2.33.172">
+            tasmāt.pūrva.āhṇiko.adhyāyaḥ.smṛto.ayam.ripu.nāśanaḥ./<br />
+            vāśam.mahī.iti.ca.japtvā.prāpnoty.ārogyam.eva.ca.//
+             <span class="ref">RgV_2,33.172</span></p>
+         
+         
+         <p id="RgV_2.33.173">
+            duhsvapnaghnīḥ.parā.japtvā.prātaḥ.pāpaiḥ.pramucyate./<br />
+            śam.no.bhava.iti.dvābhyām.tu.bhuktvā.annam.prayataḥ.śuciḥ.//
+             <span class="ref">RgV_2,33.173</span></p>
+         
+         
+         <p id="RgV_2.33.174">
+            hṛdayam.pāṇinā.spṛṣṭvā.jyog.jīved.agadaḥ.sukhī./<br />
+            yato.bhayam.vijānīyāt.tasyām.diśi.yata.vrataḥ.//
+             <span class="ref">RgV_2,33.174</span></p>
+         
+         
+         <p id="RgV_2.33.175">
+            śucau.deśe.agnim.ādhāya.juhuyād.indram.arcya.ca./<br />
+            yata.ity.ājyam.utpūtam.ṣaḍbhir.gandhān.nivedya.ca.//
+             <span class="ref">RgV_2,33.175</span></p>
+         
+         
+         <p id="RgV_2.33.176">
+            pāyasam.dadhi.mantham.vā.apūpān.vā.apy.upahārayet./<br />
+            aho.rātram.upoṣya.ekam.tilān.vā.ghṛtam.eva.vā.//
+             <span class="ref">RgV_2,33.176</span></p>
+         
+         
+         <p id="RgV_2.34.177">
+            ut.tvā.mandantv.iti.snāto.hutvā.śatrūn.pramāpayet./<br />
+            baddho.vā.apy.abaddho.vā.vāg.yataḥ.prayato.japet.//
+             <span class="ref">RgV_2,34.177</span></p>
+         
+         
+         <p id="RgV_2.34.178">
+            tyā.nv.ity.āditya.daivatyam.sadyo.mucyeta.bandhanāt./<br />
+            yad.dyāvā.iti.japen.nityam.pragātham.niyataḥ.śuciḥ.//
+             <span class="ref">RgV_2,34.178</span></p>
+         
+         
+         <p id="RgV_2.34.179">
+            sa.kīrtim.atulām.prāpya.sarvān.kāmānt.samaśnute./<br />
+            tvam.no.agna.iti.sūktena.hutvā.arcya.agnim.ghṛtena.tu.//
+             <span class="ref">RgV_2,34.179</span></p>
+         
+         
+         <p id="RgV_2.34.180">
+            pālito.viśvato.dīptyā.prāpnuyād.vahninā.rayim./<br />
+            ā.tu.sūktena.satatam.dhanam.yāvat.puraṃdaram.//
+             <span class="ref">RgV_2,34.180</span></p>
+         
+         
+         <p id="RgV_2.34.181">
+            prasamit.pāṇaye.tasmai.dhanam.yacchati.vṛtrahā./
+             <span class="ref">RgV_2,34.181</span></p>
+         
+         <p id="RgV_2.35.181">
+            kanyā.vār.iti.sūktam.tu.satatam.niyato.japet.//
+             <span class="ref">RgV_2,35.181</span></p>
+         
+         
+         <p id="RgV_2.35.182">
+            tvag.doṣiṇīm.tathā.alomnīm.kṣipram.tasmāt.pramocayet./<br />
+            yad.adya.kac.ca.ity.udite.ravau.stutvā.puraṃdaram.//
+             <span class="ref">RgV_2,35.182</span></p>
+         
+         
+         <p id="RgV_2.35.183">
+            gṛṇann.apohate.ripram.vaśyam.vā.kurute.jagat./<br />
+            yad.vāg.iti.dvṛcena.etya.gaurīm.yo.arcati.suvrataḥ.//
+             <span class="ref">RgV_2,35.183</span></p>
+         
+         
+         <p id="RgV_2.35.184">
+            tasya.na.asaṃskṛtā.vāṇī.mukhād.uccarate.kvacit./<br />
+            baṇ.mahām.iti.dṛṣṭvā.arkam.upatiṣṭhed.dvṛcam.paṭhan.//(vaṇ.mahām)
+             <span class="ref">RgV_2,35.184</span></p>
+         
+         <p id="RgV_2.35.185">
+            bruvann.apy.anṛtām.vāṇīm.lipyate.na.anṛtena.saḥ./<br />
+            pūrṇe.candramasi.jyotsnām.iyam.yā.ity.anusevayet.//
+             <span class="ref">RgV_2,35.185</span></p>
+         
+         
+         <p id="RgV_2.35.186">
+            candra.dṛṣṭis.tv.animiṣo.varcasvī.dṛṣṭimān.bhavet./<br />
+            prajā.ha.iti.japant.snātvā.na.yonim.pratijāyate.//
+             <span class="ref">RgV_2,35.186</span></p>
+         
+         
+         <p id="RgV_2.35.187">
+            mātā.iti.gām.upaspṛśya.japan.gās.tu.samaśnute./<br />
+            vacovidam.iti.tv.etām.japan.vācam.samaśnute.//
+             <span class="ref">RgV_2,35.187</span></p>
+         
+         
+         <p id="RgV_2.35.188">
+            pāvamānam.param.hy.etan.navamam.maṇḍalam.japet./<br />
+            snātvā.śuciḥ.śucau.deśe.sapavitraḥ.sakāñcanaḥ.//E
+             <span class="ref">RgV_2,35.188</span></p>
+         
+         
+         <p id="RgV_3.1.1">
+            svādiṣṭhayā.iti.gāyatrīḥ.pāvamānīr.japed.dvijaḥ./<br />
+            pavitrāṇām.pavitram.tu.pāvamānīr.ṛco.japet.//
+             <span class="ref">RgV_3,1.1</span></p>
+         
+         
+         <p id="RgV_3.1.2">
+            prayato.apsu.nimajya.āśu.sarva.pāpaiḥ.pramucyate./<br />
+            etāsām.kīrtanam.puṇyam.smaraṇam.dhāraṇam.tathā.//
+             <span class="ref">RgV_3,1.2</span></p>
+         
+         
+         <p id="RgV_3.1.3">
+            yāthāyathyena.ca.jñātvā.brahma.lokam.samaśnute./<br />
+            eteṣām.tu.yathā.uktānām.guṇavad.yad.yad.uttaram.//
+             <span class="ref">RgV_3,1.3</span></p>
+         
+         
+         <p id="RgV_3.1.4">
+            kīrtanāt.tu.bhavet.pūtaḥ.smaraṇāt.smarate.param./<br />
+            dhāraṇād.brahmatām.eti.pūta.ātmā.vijita.indriyaḥ.//
+             <span class="ref">RgV_3,1.4</span></p>
+         
+         
+         <p id="RgV_3.1.5">
+            yāthātathyena.ca.jñātvā.brahmaṇo.vindate.padam./<br />
+            śrāvayed.devatā.kṛtye.brāhmaṇān.bhuñjato.agrataḥ.//
+             <span class="ref">RgV_3,1.5</span></p>
+         
+         
+         <p id="RgV_3.2.6">
+            prīṇāti.devatām.tac.ca.samardhayati.karma.ca./<br />
+            pitrye.pitrīn.prīṇayanti.śrāvitāḥ.prayata.ātmanā.//
+             <span class="ref">RgV_3,2.6</span></p>
+         
+         
+         <p id="RgV_3.2.7">
+            kṛtvā.doṣānt.sumahato.apy.apeya.ādīn.prapīya.ca./<br />
+            japtvā.tarat.samandīyam.praviśya.apaḥ.tryahāt.śuciḥ.//
+             <span class="ref">RgV_3,2.7</span></p>
+         
+         
+         <p id="RgV_3.2.8">
+            akṣayyam.ca.bhaved.dattam.pitṛbhyaḥ.paramam.madhu./<br />
+            yaḥ.pāvamānīr.adhyeti.pūta.ātmā.vijita.indriyaḥ.//
+             <span class="ref">RgV_3,2.8</span></p>
+         
+         
+         <p id="RgV_3.2.9">
+            tasya.kāma.dughā.bhūtvā.upatiṣṭhanti.dhenavaḥ./<br />
+            āyur.balam.yaśo.vittam.prajām.kīrtim.anāmayam.//
+             <span class="ref">RgV_3,2.9</span></p>
+         
+         
+         <p id="RgV_3.2.10">
+            svādhyāya.puṇyam.atulam.pūtaḥ.prāpnoti.ca.akṣayam./<br />
+            aśaktas.tu.japed.yuktāḥ.pavitrasya.ca.yāḥ.parāḥ.//
+             <span class="ref">RgV_3,2.10</span></p>
+         
+         
+         <p id="RgV_3.2.11">
+            sapta.ṛṣibhiś.ca.yāḥ.proktāḥ.pavitrasya.ca.yāḥ.parāḥ./<br />
+            ṛcām.dviṣaṣṭiḥ.proktā.iyam.pavasva.ity.ṛṣi.sattamaiḥ.//
+             <span class="ref">RgV_3,2.11</span></p>
+         
+         
+         <p id="RgV_3.3.12">
+            sarva.kalmaṣa.nāśāya.pāvanāya.śivāya.ca./<br />
+            svādiṣṭhayā.iti.sūktānām.sapta.ṣaṣṭir.iha.uditā.//
+             <span class="ref">RgV_3,3.12</span></p>
+         
+         
+         <p id="RgV_3.3.13">
+            daśa.uttarāṇy.ṛcām.caiva.pāvamānīḥ.śatāni.ṣa]./<br />
+            etaj.juhvan.japaṃś.caiva.ghoram.mṛtyu.bhayam.jayet.//
+             <span class="ref">RgV_3,3.13</span></p>
+         
+         
+         <p id="RgV_3.3.14">
+            vyādhibhyaḥ.parimokṣam.ca.labhate.na.atra.saṃśayaḥ./<br />
+            pratigṛhya.apratigrāhyam.bhuktvā.ca.annam.vigarhitam.//
+             <span class="ref">RgV_3,3.14</span></p>
+         
+         
+         <p id="RgV_3.3.15">
+            japaṃs.taratsamandīyam.praviśya.apaḥ.tryahāt.śuciḥ./<br />
+            pāvamānam.param.hy.etad.rapasām.apanodanam.//
+             <span class="ref">RgV_3,3.15</span></p>
+         
+         
+         <p id="RgV_3.3.16">
+            prāṇān.āyamya.ca.dhyāyed.ante.devān.pitṝn.ṛṣīn./<br />
+            upoṣya.ājyam.ca.juhuyād.agnim.somam.ca.pūjayet.//
+             <span class="ref">RgV_3,3.16</span></p>
+         
+         
+         <p id="RgV_3.3.17">
+            sarasvatīm.ca.arcayeta.payo.ambu.madhu.sarpiṣā./<br />
+            ādhyātmikam.pavitram.te.sūktam.japtvā.āplutaḥ.śuciḥ.//
+             <span class="ref">RgV_3,3.17</span></p>
+         
+         
+         <p id="RgV_3.4.18">
+            gatim.iṣṭām.avāpnoti.vindate.ca.iha.vṛddayaḥ./<br />
+            [.maṇḍalam.pāvamānam.tu.japel.lakṣam.upoṣitaḥ./<br />
+            nāśayed.brahmahatyām.vai.vasiṣṭha.vacanam.yathā./](not in Bhat)<br />
+            nānānam.iti.sūktāni.anta.kāle.japet.sakṛt.//
+             <span class="ref">RgV_3,4.18</span></p>
+         
+         
+         <p id="RgV_3.4.19">
+            japtvā.caiva.param.sthānam.amṛtatvam.ca.gacchati./<br />
+            āpo.hi.ṣṭha.iti.niyataḥ.prayuñjīta.sadā.dvijaḥ.//
+             <span class="ref">RgV_3,4.19</span></p>
+         
+         
+         <p id="RgV_3.4.20">
+            snāna.artham.śuddhi.kāmas.tu.japeta.triḥ.samāhitaḥ./<br />
+            apsu.caiva.nimajjitvā.triḥ.paṭhet.susamāhitaḥ.//
+             <span class="ref">RgV_3,4.20</span></p>
+         
+         
+         <p id="RgV_3.4.21">
+            brahmahā.tu.kapālena.khaṭva.aṅgī.cīra.saṃvṛtaḥ./<br />
+            cared.dvādaśa.varṣāṇi.sva.karma.parikīrtayan.//
+             <span class="ref">RgV_3,4.21</span></p>
+         
+         
+         <p id="RgV_3.4.22">
+            ajapan.manasā.eva.etad.āpo.hi.ṣṭha.iti.saṃsmaret./<br />
+            ūrdhvam.tu.pañcamād.varṣāj.japed.eva.sahasraśaḥ.//
+             <span class="ref">RgV_3,4.22</span></p>
+         
+         
+         <p id="RgV_3.4.23">
+            aparas.tu.tri.sāhasro.japaḥ.syāt.pratyaham.sadā./<br />
+            pūrṇe.tu.dvādaśe.varṣe.brahmahā.vipramucyate.//
+             <span class="ref">RgV_3,4.23</span></p>
+         
+         
+         <p id="RgV_3.4.24">
+            sametya.brāhmaṇā.brūyur.atha.tam.carita.vratam./
+             <span class="ref">RgV_3,4.24</span></p>
+         
+         <p id="RgV_3.5.24">
+            acaritam.bhavet.kiṃcid.mithyā.vādī.pateḥ.punaḥ.//
+             <span class="ref">RgV_3,5.24</span></p>
+         
+         
+         <p id="RgV_3.5.25">
+            daśa.avarān.daśa.parān.hanyās.tvam.anṛtam.vadan./<br />
+            om.bho.iti.vaded.viprair.anujñātaḥ.śucir.japet.//
+             <span class="ref">RgV_3,5.25</span></p>
+         
+         
+         <p id="RgV_3.5.26">
+            sthālī.pākam.ca.kurvīta.so.agnaya.vrata.cāriṇe./<br />
+            evam.sa.mucyate.pāpāt.sāvitrīm.pratipadya.ca.//
+             <span class="ref">RgV_3,5.26</span></p>
+         
+         
+         <p id="RgV_3.6.27">
+            brahmahā.sa.purā.śakras.tvāṣṭram.hatvā.tv.ṛṣim.prabham./<br />
+            sindhu.dvīpas.tam.etābhir.abhiṣicya.vyamocayat.//
+             <span class="ref">RgV_3,6.27</span></p>
+         
+         <p id="RgV_3.6.28">
+            brahmasvam.ca.guror.dravyam.steyam.kṛtvā.japann.imāḥ./<br />
+            anena.eva.vidhānena.ṣaḍbhir.varṣaiḥ.pramucyate.//
+             <span class="ref">RgV_3,6.28</span></p>
+         
+         
+         <p id="RgV_3.6.29">
+            brahmahā.ca.surāpaś.ca.niyamena.japann.imāḥ./<br />
+            anena.eva.upacāreṇa.brahmaghna.iva.mucyate.//
+             <span class="ref">RgV_3,6.29</span></p>
+         
+         
+         <p id="RgV_3.6.30">
+            brāhmaṇasya.ruṣā.udyamya.japed.etā.nipātya.ca./<br />
+            tryaham.nipātya.upavased.eka.aham.avagūrya.ca.//
+             <span class="ref">RgV_3,6.30</span></p>
+         
+         
+         <p id="RgV_3.6.31">
+            śoṇitam.tu.prahāreṇa.utpādya.sa.kathaṃcana./<br />
+            tri.rātram.eva.upavasej.japed.etāḥ.prasādya.tam.//
+             <span class="ref">RgV_3,6.31</span></p>
+         
+         
+         <p id="RgV_3.6.32">
+            prātar.utthāya.satatam.kuryād.mārjanam.ātmanaḥ./<br />
+            rātrau.kṛtasya.pāpasya.avijñātasya.niṣkṛtiḥ.//
+             <span class="ref">RgV_3,6.32</span></p>
+         
+         
+         <p id="RgV_3.6.33">
+            sāyam.ca.nityam.etābhiḥ.kuryād.mārjanam.ātmanaḥ./<br />
+            divā.kṛtasya.pāpasya.avijñātasya.niṣkṛtiḥ.//
+             <span class="ref">RgV_3,6.33</span></p>
+         
+         
+         <p id="RgV_3.7.34">
+            upatiṣṭheta.rājānam.yamam.sūktena.vai.dvijaḥ./<br />
+            sthālī.pākam.ca.kurvīta.pakṣayor.yama.daivatam.//
+             <span class="ref">RgV_3,7.34</span></p>
+         
+         
+         <p id="RgV_3.7.35">
+            aṣṭamyām.ca.caturdaśyām.yajeta.haviṣā.yamam./<br />
+            pareyivāṃsam.ity.etat.sūktam.atra.prayojayet.//
+             <span class="ref">RgV_3,7.35</span></p>
+         
+         
+         <p id="RgV_3.7.36">
+            purā.āyuṣaḥ.pramīyeta.na.jātu.sa.kathaṃcana./<br />
+            prīyate.asya.yamo.rājā.smṛtim.ca.ante.prayacchati.//
+             <span class="ref">RgV_3,7.36</span></p>
+         
+         
+         <p id="RgV_3.7.37">
+            dharma.rājāya.svāhā.iti.mantra.ante.juhuyādd.haviḥ./<br />
+            vaiśākhyām.paurṇamāsyām.tu.karma.nityam.prayojayet.//
+             <span class="ref">RgV_3,7.37</span></p>
+         
+         
+         <p id="RgV_3.7.38">
+            anaye.parvasu.snātvā.yaḥ.pradadyāt.tila.udakam./<br />
+            yamāya.sagaṇāya.eva.tad.bhayam.na.sa.vindati.//
+             <span class="ref">RgV_3,7.38</span></p>
+         
+         
+         <p id="RgV_3.7.39">
+            mṛtyum.eva.prapadyeta.param.mṛtyo.japan.dvijaḥ./<br />
+            nakta.bhojī.mita.āhāraḥ.parisaṃvatsaram.sadā.//
+             <span class="ref">RgV_3,7.39</span></p>
+         
+         
+         <p id="RgV_3.8.40">
+            na.enam.purā.āyuṣo.mṛtyur.nayate.sasuta.prajam./<br />
+            phala.āhāro.jayen.mṛtyum.tribhir.varṣair.mita.aśanaḥ.//
+             <span class="ref">RgV_3,8.40</span></p>
+         
+         
+         <p id="RgV_3.8.41">
+            ṣaṣṭhe.kāle.tu.bhuñjīta.phalam.mūlam.atha.api.vā./<br />
+            sthāna.āsanābhyām.vihared.udake.śiśire.vaset.//
+             <span class="ref">RgV_3,8.41</span></p>
+         
+         
+         <p id="RgV_3.8.42">
+            grīṣme.pañca.tapās.tu.syād.varṣāsv.abhra.avakāśakaḥ./<br />
+            evam.yukto.jayen.mṛtyum.rogebhyaś.ca.pramucyate.//
+             <span class="ref">RgV_3,8.42</span></p>
+         
+         
+         <p id="RgV_3.8.43">
+            bhrātur.bhāryām.aputrasya.santāna.artham.mṛte.patau./<br />
+            devaro.anvārurukṣantīm.udīrṣva.iti.nivartayet.//
+             <span class="ref">RgV_3,8.43</span></p>
+         
+         
+         <p id="RgV_3.8.44">
+            ṛtu.kāle.tu.samprāpte.ghṛta.abhyakto.atha.vāg.yataḥ./<br />
+            ekam.utpādayet.putram.na.dvitīyam.kathaṃcana.//
+             <span class="ref">RgV_3,8.44</span></p>
+         
+         
+         <p id="RgV_3.8.45">
+            daśa.akṣaram.tu.śānty.artham.bhadram.na.iti.saṃsmaret./<br />
+            nityam.japet.śucir.bhūtvā.mānasam.vindate.sukham.//
+             <span class="ref">RgV_3,8.45</span></p>
+         
+         
+         <p id="RgV_3.9.46">
+            phala.āhāro.bhaven.māsam.māsam.ca.apaḥ.pibet.tataḥ./<br />
+            vāyu.bhakṣo.bhaven.māsam.japann.etat.sahasraśaḥ.//
+             <span class="ref">RgV_3,9.46</span></p>
+         
+         
+         <p id="RgV_3.9.47">
+            manasā.eva.asya.sidhyanti.sarve.kāmāḥ.samīhitāḥ./<br />
+            divyān.paśyati.gandharvānt.siddhān.paśyati.cāraṇān.//
+             <span class="ref">RgV_3,9.47</span></p>
+         
+         
+         <p id="RgV_3.9.48">
+            antardhānam.vrajaty.asmāl.lokād.ākāśago.bhavet./<br />
+            dūrāt.paśyati.dūrāc.ca.śṛṇoti.parameṣṭhivat.//
+             <span class="ref">RgV_3,9.48</span></p>
+         
+         
+         <p id="RgV_3.9.49">
+            pra.devatra.iti.niyato.japeta.maru.dhanvasu./<br />
+            prāṇa.antike.bhaye.prāpte.kṣipram.ambhaḥ.sa.vindati.//
+             <span class="ref">RgV_3,9.49</span></p>
+         
+         
+         <p id="RgV_3.9.50">
+            vaibhītakāṃs.tu.trīn.akṣān.gandhaiḥ.samabhivāsayet./<br />
+            puṣpair.avakirec.ca.enānt.sthāpayitvā.vihāyasi.//
+             <span class="ref">RgV_3,9.50</span></p>
+         
+         
+         <p id="RgV_3.10.51">
+            saṃhatya.pādau.tām.rātrīm.tiṣṭhann.akṣa.stutim.japet./<br />
+            prā.vepā.mā.ṛcam.tv.etām.manasā.eva.japen.niśi.//
+             <span class="ref">RgV_3,10.51</span></p>
+         
+         
+         <p id="RgV_3.10.52">
+            vyuṣṭāyām.udite.sūrye.japann.ādevanam.vrajet./<br />
+            etām.eva.japen.nityam.jayaty.anyair.na.jīyate.//
+             <span class="ref">RgV_3,10.52</span></p>
+         
+         
+         <p id="RgV_3.10.53">
+            yam.eva.jetum.iccheta.spṛṣṭvā.mūrdhani.tam.japet./<br />
+            sūkta.śeṣam.jayaty.anyān.jīyate.na.sa.kenacit.//
+             <span class="ref">RgV_3,10.53</span></p>
+         
+         
+         <p id="RgV_3.10.54">
+            abudhram.uṣāsā.naktā.ity.ete.svastyayane.japet./<br />
+            namo.mitrasya.varuṇasya.cakṣasa.iti.nityaśaḥ.//
+             <span class="ref">RgV_3,10.54</span></p>
+         
+         
+         <p id="RgV_3.10.55">
+            asya.eva.ca.uttama.ṛg.ekā.yayā.enobhyaḥ.pramucyate./<br />
+            tayā.ājyam.juhuyān.nityam.enobhyo.vipramucyate.//
+             <span class="ref">RgV_3,10.55</span></p>
+         
+         
+         <p id="RgV_3.11.56">
+            divas.pari.iti.sūktam.tu.japen.śraddhā.samanvitaḥ./<br />
+            sarvatra.labhate.śraddhām.śraddhā.kāmaḥ.samāhitaḥ.//
+             <span class="ref">RgV_3,11.56</span></p>
+         
+         
+         <p id="RgV_3.11.57">
+            mā.pra.gāma.iti.ca.japet.sa.mūḍho.gahane.pathi./<br />
+            svastimān.eti.panthānam.vindate.ca.param.sukham.//
+             <span class="ref">RgV_3,11.57</span></p>
+         
+         
+         <p id="RgV_3.11.58">
+            kṣīṇa.āyur.iti.manyeta.yam.kaṃcit.suhṛdam.priyam./<br />
+            yat.te.yamam.iti.snātas.tasya.mūrdhānam.ālabhet.//
+             <span class="ref">RgV_3,11.58</span></p>
+         
+         
+         <p id="RgV_3.11.59">
+            sahasrakṛtvaḥ.pañca.aham.japed.āyur.labheta.saḥ./<br />
+            ghṛtena.sindhu.dvīpasya.sūktena.enam.pralepayet.//
+             <span class="ref">RgV_3,11.59</span></p>
+         
+         
+         <p id="RgV_3.11.60">
+            saṃviśan.śayane.nityam.etam.mantram.japeta.vai./<br />
+            putrān.bhāryām.priyam.ca.anyam.ātmānam.saṃspṛśet.tataḥ.//
+             <span class="ref">RgV_3,11.60</span></p>
+         
+         
+         <p id="RgV_3.12.61">
+            jīva.āvṛttim.prayuñjīta.nityam.etām.ghṛtena.tu./<br />
+            śrotāṃsy.abhyajya.sarvāṇi.sukhī.bhavati.vijvaraḥ.//
+             <span class="ref">RgV_3,12.61</span></p>
+         
+         
+         <p id="RgV_3.12.62">
+            idam.itthā.iti.mantro.ayam.sahasra.sanir.ucyate./<br />
+            ardha.māsam.haviṣya.annam.ardha.māsam.payaḥ.pibet.//
+             <span class="ref">RgV_3,12.62</span></p>
+         
+         
+         <p id="RgV_3.12.63">
+            upoṣya.ca.aparam.pakṣam.araṇye.sthaṇḍile.śucau./<br />
+            audumbara.idhmam.prajvālya.juhuyāt.pāvake.ghṛtam.//
+             <span class="ref">RgV_3,12.63</span></p>
+         
+         
+         <p id="RgV_3.12.64">
+            sruk.sruvau.camasaś.caiva.sarvam.audumbaram.bhavet./<br />
+            hutvā.āhuti.sahasram.tu.tena.kāmena.yujyate.//
+             <span class="ref">RgV_3,12.64</span></p>
+         
+         
+         <p id="RgV_3.12.65">
+            amogham.eva.karma.etaj.jānīyāt.siddhim.eva.tu./<br />
+            vyartham.apy.ardham.eva.etat.phalasya.asya.prayacchati.//
+             <span class="ref">RgV_3,12.65</span></p>
+         
+         
+         <p id="RgV_3.13.66">
+            catuṣ.pathe.ca.anna.kāma.āditya.abhimukho.ghṛtam./<br />
+            juhuyād.dhana.kāmas.tu.sahasram.bhojayed.dvijān.//
+             <span class="ref">RgV_3,13.66</span></p>
+         
+         
+         <p id="RgV_3.13.67">
+            paśu.kāmo.japed.goṣṭhe.juhuyād.vā.apy.upoṣitaḥ./<br />
+            vidhinā.anena.niyataḥ.sahasram.vindate.paśūn.//
+             <span class="ref">RgV_3,13.67</span></p>
+         
+         
+         <p id="RgV_3.13.68">
+            loha.lohita.hemānām.kārayet.trivṛtam.maṇim./<br />
+            sahasram.samidhām.caiva.sampāta.abhihut.tu.bhavet.//
+             <span class="ref">RgV_3,13.68</span></p>
+         
+         
+         <p id="RgV_3.13.69">
+            kṛtvā.sahasra.sampātam.śirasā.dhārayet.tu.tam./<br />
+            pāṇinā.vā.śucir.bhūtvā.sahasra.anucaro.bhavet.//
+             <span class="ref">RgV_3,13.69</span></p>
+         
+         
+         <p id="RgV_3.13.70">
+            parāvataḥ.svastyayanam.snātakasya.vidhīyate./<br />
+            svarga.kāmaś.ca.tam.nityam.japeta.niyata.vrataḥ.//
+             <span class="ref">RgV_3,13.70</span></p>
+         
+         
+         <p id="RgV_3.14.71">
+            bṛhaspate.prathamam.iti.nityam.jñāna.stutim.japet./<br />
+            jñānavān.bhavati.śrīmān.anantām.vindate.śriyam.//
+             <span class="ref">RgV_3,14.71</span></p>
+         
+         
+         <p id="RgV_3.14.72">
+            alakṣmī.nāśana.artham.tu.payo.bhakṣo.bhaved.dvijaḥ./<br />
+            vayaḥ.suparṇā.ity.etām.japan.vai.vindate.śriyam.//
+             <span class="ref">RgV_3,14.72</span></p>
+         
+         
+         <p id="RgV_3.14.73">
+            tamasā.prāvṛto.yas.tu.manyeta.ātmānam.ātmani./<br />
+            aśriyā.vā.apy.atha.āviṣṭo.japann.etām.pramucyate.//
+             <span class="ref">RgV_3,14.73</span></p>
+         
+         
+         <p id="RgV_3.14.74">
+            akṣiṇī.prātar.utthāya.vimṛjīta.etayā.sadā./<br />
+            cakṣuṣmān.bhavati.śrīmān.alakṣmīm.ca.prabādhate.//
+             <span class="ref">RgV_3,14.74</span></p>
+         
+         
+         <p id="RgV_3.14.75">
+            na.tam.vidātha.ity.etām.tu.japan.vipraḥ.samāhitaḥ./<br />
+            vihāya.kalmaṣam.sarvam.brahma.abhyeti.sanātanam.//
+             <span class="ref">RgV_3,14.75</span></p>
+         
+         
+         <p id="RgV_3.14.76">
+            anayā.parvasu.snātvā.yaḥ.pradadyāt.tila.udakam./<br />
+            yamāya.sagaṇāya.eva.tad.bhayam.na.sa.vindati.//
+             <span class="ref">RgV_3,14.76</span></p>
+         
+         
+         <p id="RgV_3.14.77">
+            yas.te.manyo.iti.sadā.sapatnaghne.tv.ime.japet./<br />
+            ghṛtena.abhihutam.dvābhyām.dhārayed.āyasam.maṇim.//
+             <span class="ref">RgV_3,14.77</span></p>
+         
+         
+         <p id="RgV_3.15.78">
+            juhuyād.āyasam.śaṅkum.ābhyām.eva.caturdaśīm./<br />
+            khādira.idhma.samiddhe.agnau.sapatnān.pratibādhate.//
+             <span class="ref">RgV_3,15.78</span></p>
+         
+         
+         <p id="RgV_3.15.79">
+            yathā.hi.paramam.brahma.guhyam.pāvanam.adbhutam./<br />
+            tathā.saṃvananam.hṛdyam.na.hy.asmād.vidyate.param.//
+             <span class="ref">RgV_3,15.79</span></p>
+         
+         
+         <p id="RgV_3.15.80">
+            upoṣya.dvādaśa.ahāni.japann.etam.ṛṣim.sadā./<br />
+            tan.manāḥ.prayataḥ.sa.syāt.trir.ahno.abhyupayann.apaḥ.//
+             <span class="ref">RgV_3,15.80</span></p>
+         
+         
+         <p id="RgV_3.15.81">
+            ante.tu.dvādaśa.ahasya.śucau.deśe.samāhitaḥ./<br />
+            puṃsaḥ.pratikṛtim.kuryād.bhūmau.pāṃsumayīm.tathā.//
+             <span class="ref">RgV_3,15.81</span></p>
+         
+         
+         <p id="RgV_3.15.82">
+            tasyā.hṛdaya.deśam.tu.samākramya.japed.ṛṣim./<br />
+            amogham.karma.jānīyād.aho.rātre.gate.sati.//
+             <span class="ref">RgV_3,15.82</span></p>
+         
+         
+         <p id="RgV_3.16.83">
+            tryaheṇa.dhaninām.vaiśyam.catū.rātreṇa.kṣatriyam./<br />
+            rājānam.pañca.rātreṇa.ṣaḍ.rātreṇa.dvija.uttamam.//
+             <span class="ref">RgV_3,16.83</span></p>
+         
+         
+         <p id="RgV_3.16.84">
+            tapasvinam.sapta.rātrāj.jayed.bhuñjīta.ca.eva.tam./<br />
+            api.vā.upoṣitaḥ.snāto.japed.etat.sadā.sthitaḥ.//
+             <span class="ref">RgV_3,16.84</span></p>
+         
+         
+         <p id="RgV_3.16.85">
+            ya.icched.ātmanaḥ.kartum.hīnam.tu.parivarjayet./<br />
+            sahasra.sampāta.hutam.bilvānām.cūrṇam.āvayet.//
+             <span class="ref">RgV_3,16.85</span></p>
+         
+         
+         <p id="RgV_3.16.86">
+            uda.pāne.vaśam.netum.tam.janam.kṣipram.ānayet./<br />
+            mātary.ātmani.putreṣu.pitṛ.bhrātṛ.suhṛtsu.ca.//
+             <span class="ref">RgV_3,16.86</span></p>
+         
+         
+         <p id="RgV_3.17.87">
+            hṛdyam.etat.prayujñīta.śirasā.dhārayed.gurum./<br />
+            sumitram.tu.pariṣvajya.mūrdhany.āghrāya.ca.ātmajam.//
+             <span class="ref">RgV_3,17.87</span></p>
+         
+         
+         <p id="RgV_3.17.88">
+            hṛdyam.etat.prayuñjīta.śānty.arthāya.sukhāya.ca./<br />
+            asaṃsiddhe.saṃvanane.pāṃsu.pratikṛtim.pathi.//
+             <span class="ref">RgV_3,17.88</span></p>
+         
+         
+         <p id="RgV_3.17.89">
+            prajvālya.juhuyād.agnim.ghṛtena.brāhmaṇo.yadi./<br />
+            kṣatriyasya.tu.tailena.sārṣapeṇa.viśām.api.//
+             <span class="ref">RgV_3,17.89</span></p>
+         
+         
+         <p id="RgV_3.17.90">
+            āyasīm.vā.pratikṛtim.agni.madhye.nidhāpayet./<br />
+            tām.ca.prajvalitām.matvā.juhuyāt.tanmanāḥ.śuciḥ.//
+             <span class="ref">RgV_3,17.90</span></p>
+         
+         
+         <p id="RgV_3.17.91">
+            ugreṇa.manasā.hanyāt.kruddhaś.ca.juhuyād.ghṛtam./<br />
+            yathā.yathā.prajvalite.hūyate.jāta.vedasi.//
+             <span class="ref">RgV_3,17.91</span></p>
+         
+         
+         <p id="RgV_3.17.92">
+            dīptā.pratikṛti.vipras.tathā.sa.vaśam.eṣyati./<br />
+            śmaśāna.dagdha.pāṃsūnām.kuryād.vedim.vilakṣaṇām.//
+             <span class="ref">RgV_3,17.92</span></p>
+         
+         
+         <p id="RgV_3.18.93">
+            vaibhītaka.idhme.jvalite.loha.pratikṛtim.nyaset./<br />
+            ardha.rātre.sthite.taile.sārṣapam.lavaṇa.anvitam.//
+             <span class="ref">RgV_3,18.93</span></p>
+         
+         
+         <p id="RgV_3.18.94">
+            tatra.śaramayam.kuryāt.prastaram.pratilomataḥ./<br />
+            triṣu.śaṅkuṣu.ca.āsīno.juhuyād.ugra.darśanaḥ.//
+             <span class="ref">RgV_3,18.94</span></p>
+         
+         
+         <p id="RgV_3.18.95">
+            mukta.keśo.vadham.prepsur.acireṇa.prasādhayet./<br />
+            athavā.abhicared.evam.juhuyād.ātma.śoṇitam.//
+             <span class="ref">RgV_3,18.95</span></p>
+         
+         
+         <p id="RgV_3.18.96">
+            vaśam.nayati.rājānam.kṣipram.jana.padam.puram./<br />
+            puṣṭi.karma.api.kartavyam.hṛdyena.uktam.yata.ātmanā.//
+             <span class="ref">RgV_3,18.96</span></p>
+         
+         
+         <p id="RgV_3.18.97">
+            anāgasi.na.kurvīta.brāhmaṇo.vadha.samyutam./<br />
+            sarūpa.vatsāyāś.ca.goḥ.payasā.sādhayet.carum.//
+             <span class="ref">RgV_3,18.97</span></p>
+         
+         
+         <p id="RgV_3.19.98">
+            sahasra.sampāta.hutam.pāyayed.vatsam.agrajam./<br />
+            sahasra.anucaro.vatsaḥ.sa.syād.rāgair.vivarjitaḥ.//
+             <span class="ref">RgV_3,19.98</span></p>
+         
+         
+         <p id="RgV_3.19.99">
+            gāś.caiva.pāyayet.tāś.ca.bhavanti.vigata.jvarāḥ./<br />
+            putrāṃś.ca.prāśayen.nityam.priyān.anyāṃś.ca.sajjanān.//
+             <span class="ref">RgV_3,19.99</span></p>
+         
+         
+         <p id="RgV_3.19.100">
+            nirāmayāś.ca.snigdhāś.ca.bhavanti.vigata.jvarāḥ./<br />
+            striyam.ced.abhimanyeta.tasyāḥ.saṃvananam.mahat.//
+             <span class="ref">RgV_3,19.100</span></p>
+         
+         
+         <p id="RgV_3.19.101">
+            vrīhīṇām.nakha.bhinnānām.taṇḍulānt.sūkṣma.cūrṇitān./<br />
+            sahasra.sampāta.hutānt.svedayet.kuśalo.agninā.//
+             <span class="ref">RgV_3,19.101</span></p>
+         
+         
+         <p id="RgV_3.19.102">
+            tena.pratikṛtim.kuryāt.tām.dhyātvā.manasā.striyam./<br />
+            aktām.sarṣapa.tailena.juhuyād.aṅgaśaś.ca.tām.//
+             <span class="ref">RgV_3,19.102</span></p>
+         
+         
+         <p id="RgV_3.20.103">
+            pādau.prathamataś.chindyāt.phaḍ.ity.agnau.nidhāpayet./<br />
+            atha.jaṅghe.jānuni.ca.ūrū.bāhū.tataḥ.śiraḥ.//
+             <span class="ref">RgV_3,20.103</span></p>
+         
+         
+         <p id="RgV_3.20.104">
+            chittvā.hṛdaya.deśam.tu.hṛdaye.sve.niveśayet./<br />
+            japann.etam.ṛṣim.vipraḥ.strī.vaśam.sā.adhigacchati.//
+             <span class="ref">RgV_3,20.104</span></p>
+         
+         
+         <p id="RgV_3.20.105">
+            na.etat.parigṛhītāsu.na.sādhvīṣu.kathaṃcana./<br />
+            na.dharma.vrata.śīlāsu.kurvīta.dvija.sattamaḥ.//
+             <span class="ref">RgV_3,20.105</span></p>
+         
+         
+         <p id="RgV_3.20.106">
+            kāmam.parigṛhītāsu.hīna.varṇāsu.yaś.caret./<br />
+            patim.asyā.guṇī.kuryāt.pūrvam.paścāt.tu.tām.striyam.//
+             <span class="ref">RgV_3,20.106</span></p>
+         
+         
+         <p id="RgV_3.20.107">
+            bhuktvā.vā.pāyasam.sadyaḥ.chardayitvā.nidhāpayet./<br />
+            tat.cūrṇam.kṛṣṇa.jāyāyai.deyam.saṃvananam.smṛtam.//
+             <span class="ref">RgV_3,20.107</span></p>
+         
+         
+         <p id="RgV_3.21.108">
+            mahā.vṛkṣa.phalāny.evam.ayugmāny.abhimantrayet./<br />
+            teṣām.yugmāni.bhuñjīta.svayam.ardhāni.śeṣayet.//
+             <span class="ref">RgV_3,21.108</span></p>
+         
+         
+         <p id="RgV_3.21.109">
+            tāni.dadyād.yam.icchet.tu.vaśī.kartum.japann.ṛṣim./<br />
+            suhṛd.bhūtvā.asuhṛd.yasya.deyam.saṃvananam.smṛtam.//
+             <span class="ref">RgV_3,21.109</span></p>
+         
+         
+         <p id="RgV_3.21.110">
+            eka.ekam.abhirūpam.tu.hṛdya.sūkta.ādy.ataḥ.punaḥ./<br />
+            karmāṇi.tv.abhirūpāṇi.kuryād.yas.tu.yathā.icchati.//
+             <span class="ref">RgV_3,21.110</span></p>
+         
+         
+         <p id="RgV_3.21.111">
+            parāka.dāsasya.vidhim.hṛdyena.uktam.vidur.budhāḥ./<br />
+            strīṇām.saṃvananam.ca.etat.puṃsām.api.vidhīyate.//
+             <span class="ref">RgV_3,21.111</span></p>
+         
+         
+         <p id="RgV_3.21.112">
+            dveṣyam.tu.jñātinām.eva.japec.caiva.sadā.yudhi./<br />
+            khādiram.kārayet.śaṅkum.hṛdi.tam.samniveśayet.//
+             <span class="ref">RgV_3,21.112</span></p>
+         
+         
+         <p id="RgV_3.22.113">
+            kṛtvā.pratikṛtim.pūrvam.pāṃsubhir.vā.athavā.tuṣaiḥ./<br />
+            iṣum.apy.anumantrya.eva.saṃgrāmam.samprakalpayet.//
+             <span class="ref">RgV_3,22.113</span></p>
+         
+         
+         <p id="RgV_3.22.114">
+            ripughnam.etaj.jānīyāt.prayuktam.aparājitam./<br />
+            parāka.dāsa.dveṣya.artham.hṛdyam.saṃvananam.smṛtam.//
+             <span class="ref">RgV_3,22.114</span></p>
+         
+         
+         <p id="RgV_3.22.115">
+            cintayann.manasā.apy.ete.sūkte.siddhim.niyacchati./<br />
+            sūryāyai.bhāva.vṛttam.tu.śrāvayet.kanyakām.pitā.//
+             <span class="ref">RgV_3,22.115</span></p>
+         
+         
+         <p id="RgV_3.22.116">
+            anurūpam.susadṛśam.bhartāram.tena.vindati./<br />
+            imām.iti.japet.kanyā.nābhim.ālabhya.nityaśaḥ.//
+             <span class="ref">RgV_3,22.116</span></p>
+         
+         
+         <p id="RgV_3.22.117">
+            evam.eva.japed.bhartā.tato.dīrgha.āyuṣau.tu.tau./<br />
+            snāpayed.abhirūpaiś.ca.bhrātā.kanyām.pitā.api.vā.//
+             <span class="ref">RgV_3,22.117</span></p>
+         
+         
+         <p id="RgV_3.23.118">
+            daśa.putravatī.bhaven.na.ca.bhartrā.viyujyate./<br />
+            saṃrājñī.iti.japen.mūrdhni.kanyām.ālabhya.nityaśaḥ.//
+             <span class="ref">RgV_3,23.118</span></p>
+         
+         
+         <p id="RgV_3.23.119">
+            śvaśrū.śvaśura.devarair.nanāndrā.ca.api.pūjyate./(?)<br />
+            indrāṇyā.kṛta.saṃvādam.snāne.sūktam.prayojayet.//
+             <span class="ref">RgV_3,23.119</span></p>
+         
+         
+         <p id="RgV_3.23.120">
+            nava.varga.uttama.yutam.pati.saubhāgya.putradam./<br />
+            jala.puṣpa.utkara.yute.citra.kumbha.samāvṛte.//
+             <span class="ref">RgV_3,23.120</span></p>
+         
+         
+         <p id="RgV_3.23.121">
+            kartavyo.atra.tathā.yāgaḥ.soma.gandharva.vahninām./<br />
+            bhagāya.apsarasām.caiva.yakṣa.adhipataye.api.ca.//
+             <span class="ref">RgV_3,23.121</span></p>
+         
+         
+         <p id="RgV_3.23.122">
+            indrāṇyai.deva.patnīnām.rati.pradyumnayos.tathā./<br />
+            nadī.salika.sampūrṇaiḥ.pañca.gavya.samāvṛtaiḥ.//
+             <span class="ref">RgV_3,23.122</span></p>
+         
+         
+         <p id="RgV_3.24.123">
+            hutvā.agnim.snāpayet.kanyām.sthitām.deśe.tu.dakṣiṇe./<br />
+            priyaṅgu.vaṭa.nāgānām.kaṣāya.udghṛṣṭa.kesaram.//
+             <span class="ref">RgV_3,24.123</span></p>
+         
+         
+         <p id="RgV_3.24.124">
+            sampāta.abhihutam.kṛtvā.sarva.oṣadhi.samanvitam./<br />
+            abhimantrya.hi.sūkta.ante.navabhis.tu.vi.hi.iti.vai.//
+             <span class="ref">RgV_3,24.124</span></p>
+         
+         
+         <p id="RgV_3.24.125">
+            stheyābhir.adbhiḥ.pūrṇena.abhiṣiñced.upoṣitām./<br />
+            yaḥ.patighnyaḥ.striyas.tanvaḥ.śāmyante.tās.tv.anena.vai.//
+             <span class="ref">RgV_3,24.125</span></p>
+         
+         
+         <p id="RgV_3.24.126">
+            snāpayed.āhanasyābhir.vidyād.yām.vipravrājinīm./<br />
+            sūktād.upoddhared.enam.na.seśa.iti.tu.dvṛcam.//
+             <span class="ref">RgV_3,24.126</span></p>
+         
+         
+         <p id="RgV_3.24.127">
+            upadiṣṭo.ayam.ekeṣām.puṃsaḥ.karmaṇi.pauruṣe./<br />
+            rakṣohaṇam.vājinam.ity.etad.rakṣohaṇam.japet.//
+             <span class="ref">RgV_3,24.127</span></p>
+         
+         
+         <p id="RgV_3.25.128">
+            agnim.prajvālya.ca.etena.upatiṣṭheta.nityaśaḥ./<br />
+            ājya.āhutīś.ca.juhuyāt.tena.rakṣāṃsi.bādhate.//
+             <span class="ref">RgV_3,25.128</span></p>
+         
+         
+         <p id="RgV_3.25.129">
+            etad.rakṣohaṇam.śāntiḥ.paramā.eṣā.prakīrtitā./<br />
+            haviṣpāntīyam.ity.etat.sūktam.atra.prayojayet.//
+             <span class="ref">RgV_3,25.129</span></p>
+         
+         
+         <p id="RgV_3.25.130">
+            garhita.anna.agha.yoge.ca.haviṣpāntīyam.abhyaset./<br />
+            pavitram.paramam.hy.etad.dhyātavyam.ca.abhīkṣṇaśaḥ.//
+             <span class="ref">RgV_3,25.130</span></p>
+         
+         
+         <p id="RgV_3.25.131">
+            āditye.dṛṣṭim.āsthāya.ṣaṇ.māsān.niyato.abhyaset./<br />
+            deva.yānam.sa.panthānam.paśyaty.āditya.maṇḍale.//
+             <span class="ref">RgV_3,25.131</span></p>
+         
+         
+         <p id="RgV_3.25.132">
+            vidyā.vaiśvānarī.ca.asya.sva.kāyasthā.prakāśate./<br />
+            haviṣpāntīyam.abhyasya.sarva.pāpaiḥ.pramucyate.//
+             <span class="ref">RgV_3,25.132</span></p>
+         
+         
+         <p id="RgV_3.25.133">
+            indram.stava.iti.sūktam.tu.japet.śatru.nibarhaṇam./<br />
+            pavitrāṇām.pavitram.tu.guhyam.pāvanam.adbhutam.//
+             <span class="ref">RgV_3,25.133</span></p>
+         
+         
+         <p id="RgV_3.26.134">
+            śukla.pakṣe.śubhe.vāre.sunakṣatre.sugocare./<br />
+            dvādaśyām.putra.kāmāya.carum.kurvīta.vaiṣṇavam.//
+             <span class="ref">RgV_3,26.134</span></p>
+         
+         
+         <p id="RgV_3.26.135">
+            dampatyor.upavāsaḥ.syād.ekādaśyām.sula.ālaye./<br />
+            ṛgbhiḥ.ṣoḍaśabhiḥ.samyag.arcayitvā.janārdanam.//
+             <span class="ref">RgV_3,26.135</span></p>
+         
+         
+         <p id="RgV_3.26.136">
+            carum.puruṣa.sūktena.śrapayet.putra.kāmyayā./<br />
+            prāpnuyād.vaiṣṇavam.putram.acirāt.santati.kṣamam.//
+             <span class="ref">RgV_3,26.136</span></p>
+         
+         
+         <p id="RgV_3.26.137">
+            dvādaśa.dvādaśīḥ.samyak.payasā.nirvapet.carum./<br />
+            yaḥ.karoti.sahasram.syād.yāti.viṣṇoḥ.param.padam.//
+             <span class="ref">RgV_3,26.137</span></p>
+         
+         
+         <p id="RgV_3.26.138">
+            hutvā.agnim.vidhivat.samyag.ṛgbhiḥ.ṣoḍaśabhir.budhaḥ./<br />
+            kṛta.añjalipuṭo.bhūtvā.stavam.tābhiḥ.prayojayet.//
+             <span class="ref">RgV_3,26.138</span></p>
+         
+         
+         <p id="RgV_3.27.139">
+            keśavam.mārgaśīrṣe.tu.pauṣe.nārāyaṇam.smṛtam./<br />
+            mādhavam.māghamāse.tu.govindam.phālgune.tathā.//
+             <span class="ref">RgV_3,27.139</span></p>
+         
+         
+         <p id="RgV_3.27.140">
+            caitre.caiva.tathā.viṣṇum.vaiśākhe.madhu.sūdanam./<br />
+            jyeṣṭhe.trivikramam.vidyād.āṣāḍhe.vāmanam.viduḥ.//
+             <span class="ref">RgV_3,27.140</span></p>
+         
+         
+         <p id="RgV_3.27.141">
+            śrāvaṇe.śrīdharam.vidyādd.hṛṣīkeśam.tataḥ.pare./<br />
+            āśvine.padmanābham.tu.dāmodaram.ca.kārttike.//
+             <span class="ref">RgV_3,27.141</span></p>
+         
+         
+         <p id="RgV_3.27.142">
+            dvādaśa.etāni.nāmāni.ṛṣyaśṛṅgo.abravīn.muniḥ./<br />
+            pūjayen.māsa.nāmabhiḥ.sarvān.kāmānt.samaśnute.//
+             <span class="ref">RgV_3,27.142</span></p>
+         
+         
+         <p id="RgV_3.27.143">
+            āyuṣmantam.sutam.sūte.yaśo.medhā.samanvitam./<br />
+            dhanavantam.prajāvantam.dhārmikam.sāttvikam.tathā.//
+             <span class="ref">RgV_3,27.143</span></p>
+         
+         
+         <p id="RgV_3.28.144">
+            samidho.aśvattha.vṛkṣasya.hutvā.agnim.juhuyāt.punaḥ./<br />
+            upasthānam.hutāśasya.dhyātvā.arcya.madhu.sūdanam.//
+             <span class="ref">RgV_3,28.144</span></p>
+         
+         
+         <p id="RgV_3.28.145">
+            havir.hoam.tataḥ.kuryāt.pratyṛcam.vāg.yataḥ.śuciḥ./<br />
+            sūktena.juhuyād.ājyam.ādāv.ante.ca.pūrvavat.//
+             <span class="ref">RgV_3,28.145</span></p>
+         
+         
+         <p id="RgV_3.28.146">
+            haviḥ.śeṣam.namas.kṛtvā.nārī.nārāyaṇam.patim./<br />
+            bhakṣayitvā.haviḥ.śeṣam.labdha.āśīḥ.saṃviśet.kṣapām.//
+             <span class="ref">RgV_3,28.146</span></p>
+         
+         
+         <p id="RgV_3.28.147">
+            tatas.tu.karma.kṛtvā.idam.kartavyam.dvija.tarpaṇam./<br />
+            dvitīyām.striyām.nivarteta.yāvad.garbham.na.vindati.//
+             <span class="ref">RgV_3,28.147</span></p>
+         
+         
+         <p id="RgV_3.28.148">
+            aputrā.mṛta.putrā.vā.yā.ca.kanyām.prasūyate./
+             <span class="ref">RgV_3,28.148</span></p>
+         
+         <p id="RgV_3.29.148">
+            kṣipram.sā.janayet.putram.ṛṣyaśṛṅgo.yathā.abravīt.//
+             <span class="ref">RgV_3,29.148</span></p>
+         
+         
+         <p id="RgV_3.29.149">
+            arcām.sampravakṣyāmi.viṣṇor.amita.tejasaḥ./<br />
+            yat.kṛtvā.munayaḥ.sarve.brahma.nirvāṇam.āpnuyuḥ.//
+             <span class="ref">RgV_3,29.149</span></p>
+         
+         
+         <p id="RgV_3.29.150">
+            apsv.agnau.hṛdaye.sūrye.sthaṇḍile.pratimāsu.ca./<br />
+            ṣaṭsv.eteṣu.hareḥ.samyag.arcanam.munibhiḥ.smṛtam.//
+             <span class="ref">RgV_3,29.150</span></p>
+         
+         
+         <p id="RgV_3.29.151">
+            agnau.kriyāvatām.devo.divi.devo.manīṣiṇām./<br />
+            pratimāsv.alpa.buddhīnām.yoginām.hṛdaye.hariḥ.//
+             <span class="ref">RgV_3,29.151</span></p>
+         
+         
+         <p id="RgV_3.29.152">
+            āpo.hy.āyatanam.tasya.tasmāt.tāsu.sadā.hariḥ./<br />
+            tasya.sarva.gatatvāc.ca.sthaṇḍile.bhāvita.ātmanām.//
+             <span class="ref">RgV_3,29.152</span></p>
+         
+         
+         <p id="RgV_3.29.153">
+            dadyāt.puruṣa.sūktena.yaḥ.puṣpāṇy.apa.eva.vā./<br />
+            arcitam.syāt.jagad.idam.tena.sarvam.cara.acaram.//
+             <span class="ref">RgV_3,29.153</span></p>
+         
+         
+         <p id="RgV_3.29.154">
+            ānuṣṭubhasya.sūktasya.triṣṭub.antasya.devatā./<br />
+            puruṣo.yo.jagad.bījam.ṛṣir.nārāyaṇaḥ.smṛtaḥ.//
+             <span class="ref">RgV_3,29.154</span></p>
+         
+         
+         <p id="RgV_3.30.155">
+            nārāyaṇa.mahā.bāho.śṛṇuṣva.eka.manāḥ.prabho./<br />
+            vakṣye.puruṣa.sūktasya.vidhānam.tv.arcanam.prati.//
+             <span class="ref">RgV_3,30.155</span></p>
+         
+         
+         <p id="RgV_3.30.156">
+            agni.kāryam.japa.vidhim.stotram.caiva.sadātmakam./<br />
+            snātvā.yathā.ukta.vidhinā.prān.mukhaḥ.śuddha.mānasaḥ.//
+             <span class="ref">RgV_3,30.156</span></p>
+         
+         
+         <p id="RgV_3.30.157">
+            prathamām.vinyased.vāme.dvitīyām.dakṣiṇe.kare./<br />
+            tṛtīyām.vāma.pāde.tu.caturthīm.dakṣiṇe.nyaset.//
+             <span class="ref">RgV_3,30.157</span></p>
+         
+         
+         <p id="RgV_3.30.158">
+            pañcamī.vāma.jānuni.ṣaṣṭhim.vai.dakṣiṇe.nyaset./<br />
+            saptamīm.vāma.kaṭyām.tu.aṣṭamīm.dakṣiṇe.kaṭau.//
+             <span class="ref">RgV_3,30.158</span></p>
+         
+         
+         <p id="RgV_3.30.159">
+            navamīm.nābhi.madhye.tu.daśamīm.hṛdaye.nyaset./<br />
+            ekādaśīm.kaṇṭha.deśe.dvādaśīm.vāma.bāhuke.//
+             <span class="ref">RgV_3,30.159</span></p>
+         
+         
+         <p id="RgV_3.30.160">
+            trayodaśīm.dakṣiṇe.ca.āsye.caiva.caturdaśīm./<br />
+            akṣṇoḥ.pañcadaśīm.caiva.ṣoḍaśīm.mūrdhni.vinyaset.//
+             <span class="ref">RgV_3,30.160</span></p>
+         
+         
+         <p id="RgV_3.31.161">
+            evam.nyāsa.vidhim.kṛtvā.paścāt.pūjām.samārabhet./<br />
+            yathā.dehe.tathā.deve.nyāsam.kṛtvā.vidhānataḥ.//
+             <span class="ref">RgV_3,31.161</span></p>
+         
+         
+         <p id="RgV_3.31.162">
+            ādyayā.āvāhayed.devam.ṛcā.tu.puruṣa.uttamam./<br />
+            dvitīyayā.āsanam.dadyāt.pādyam.caiva.tṛtīyayā.//
+             <span class="ref">RgV_3,31.162</span></p>
+         
+         
+         <p id="RgV_3.31.163">
+            arghyam.caturthyā.dātavyam.pañcamyā.ācamanīyakam./<br />
+            ṣaṣṭhyā.snānam.prakurvīta.saptamyā.vastram.eva.ca.//
+             <span class="ref">RgV_3,31.163</span></p>
+         
+         
+         <p id="RgV_3.31.164">
+            yajña.upavītam.aṣṭamyā.navamyā.ca.anulepanam./<br />
+            puṣpam.daśamyā.dātavyam.ekādaśyā.tu.dhūpakam.//
+             <span class="ref">RgV_3,31.164</span></p>
+         
+         
+         <p id="RgV_3.31.165">
+            dvādaśyā.dīpakam.dadyāt.trayodaśyā.nivedanam./<br />
+            caturdaśyā.namaskāram.pañcadaśyā.pradakṣiṇam.//
+             <span class="ref">RgV_3,31.165</span></p>
+         
+         
+         <p id="RgV_3.31.166">
+            snāne.vastre.ca.naivedye.dadyād.ācamanīyakam./<br />
+            dakṣiṇām.tu.yathā.śaktyā.ṣoḍaśyā.tu.pradāpayet.//
+             <span class="ref">RgV_3,31.166</span></p>
+         
+         
+         <p id="RgV_3.32.167">
+            tataḥ.pradakṣiṇām.kṛtvā.japam.kuryāt.samāhitaḥ./<br />
+            yathā.śakti.japitvā.tu.sūktam.tasya.nivedayet.//
+             <span class="ref">RgV_3,32.167</span></p>
+         
+         
+         <p id="RgV_3.32.168">
+            devasya.dakṣiṇe.pārśve.kuṇḍam.sthaṇḍilam.eva.vā./<br />
+            kārayet.prathamena.eva.dvitīyena.tu.prokṣaṇam.//
+             <span class="ref">RgV_3,32.168</span></p>
+         
+         
+         <p id="RgV_3.32.169">
+            tṛtīyena.agnim.ādadhyāc.caturthena.samindhanam./<br />
+            pañcamena.ājya.śrapaṇam.caroś.ca.śrapaṇam.tathā.//
+             <span class="ref">RgV_3,32.169</span></p>
+         
+         
+         <p id="RgV_3.32.170">
+            ṣaṣṭhena.eva.agni.madhye.tu.kalpayet.padmam.āsanam./<br />
+            cintayed.deva.deva.īśam.kāla.anala.sama.prabham.//
+             <span class="ref">RgV_3,32.170</span></p>
+         
+         
+         <p id="RgV_3.32.171">
+            tato.gandham.ca.puṣpam.ca.dhūpa.dīpa.nivedanam./<br />
+            anujñāpya.tataḥ.kuryāt.saptamy.ādi.yathā.kramam.//
+             <span class="ref">RgV_3,32.171</span></p>
+         
+         
+         <p id="RgV_3.32.172">
+            samidhas.tāvatīḥ.pūrvam.juhuyād.abhidhāritāḥ./(?)<br />
+            tato.ghṛtena.juhuyāc.caruṇā.ca.tataḥ.punaḥ./
+             <span class="ref">RgV_3,32.172</span></p>
+         
+         <p id="RgV_3.32.173">
+            evam.hutvā.tataś.caiva.anujñāpya.yathā.kramam.//<br />
+            
+            agner.bhagavatas.tasya.samīpe.stotram.uccaret./
+             <span class="ref">RgV_3,32.173</span></p>
+         
+         <p id="RgV_3.33.174">
+            jitam.te.puṇḍarīka.akṣa.namas.te.viśva.bhāvana./<br />
+            namas.te.astu.hṛṣīkeśa.mahā.puruṣa.pūrvaja.//
+             <span class="ref">RgV_3,33.174</span></p>
+         
+         
+         <p id="RgV_3.33.175">
+            devānām.dānavānām.ca.sāmānyam.adhidaivatam./<br />
+            sarvadā.caraṇa.dvandvam.vrajāmi.śaraṇam.tava.//
+             <span class="ref">RgV_3,33.175</span></p>
+         
+         
+         <p id="RgV_3.33.176">
+            ekas.tvam.asi.lokasya.sraṣṭā.saṃhārakas.tathā./<br />
+            avyaktaś.ca.anumantā.ca.guṇa.māyā.samāvṛtaḥ.//
+             <span class="ref">RgV_3,33.176</span></p>
+         
+         
+         <p id="RgV_3.33.177">
+            saṃsāra.sāgaram.ghoram.anantam.kleśa.bhājanam./<br />
+            tvām.eva.śaraṇam.prāpya.nistaranti.manīṣiṇaḥ.//
+             <span class="ref">RgV_3,33.177</span></p>
+         
+         
+         <p id="RgV_3.33.178">
+            na.te.rūpam.na.ca.ākāro.na.āyudhāni.na.ca.āspadam./<br />
+            tathā.api.puruṣa.ākāro.bhaktānām.tvam.prakāśase.//
+             <span class="ref">RgV_3,33.178</span></p>
+         
+         
+         <p id="RgV_3.33.179">
+            na.eva.kiṃcit.parokṣam.te.pratyakṣo.asi.na.kasyacit./<br />
+            na.eva.kiṃcid.asādhyam.te.na.ca.sādhyo.asi.kasyacit.//
+             <span class="ref">RgV_3,33.179</span></p>
+         
+         
+         <p id="RgV_3.34.180">
+            kāryāṇām.kāraṇam.pūrvam.vacasām.vāyam.uttamam./<br />
+            yoginām.parama.aiddhiḥ.paramam.te.padam.viduḥ.//
+             <span class="ref">RgV_3,34.180</span></p>
+         
+         
+         <p id="RgV_3.34.181">
+            aham.bhīto.asmi.deva.īśa.saṃsāre.asmin.mahā.bhaye./<br />
+            trāhi.mām.puṇḍarīka.akṣa.na.jāne.paramam.padam.//
+             <span class="ref">RgV_3,34.181</span></p>
+         
+         
+         <p id="RgV_3.34.182">
+            kāleṣv.api.ca.sarveṣu.diṣku.sarvāṣu.ca.acyuta./<br />
+            śarīre.ca.gataś.ca.asi.vartate.me.mahad.bhayam.//
+             <span class="ref">RgV_3,34.182</span></p>
+         
+         
+         <p id="RgV_3.34.183">
+            tvat.pāda.kamalād.anyan.na.me.janma.antareṣv.api./<br />
+            vijñānam.yad.idam.prāpya.yad.idam.sthānam.arjitam.//
+             <span class="ref">RgV_3,34.183</span></p>
+         
+         
+         <p id="RgV_3.34.184">
+            janma.antare.api.me.deva.mā.bhūd.asya.parikṣayaḥ./<br />
+            durgatāv.api.jātavya.tvad.gato.me.mano.rathaḥ.//
+             <span class="ref">RgV_3,34.184</span></p>
+         
+         
+         <p id="RgV_3.34.185">
+            yadi.nāśam.na.vindeta.tāvatā.asmi.kṛtī.sadā./<br />
+            kāmaye.viṣṇu.pādau.tu.sarva.janmasu.kevalam.//
+             <span class="ref">RgV_3,34.185</span></p>
+         
+         
+         <p id="RgV_3.35.186">
+            puruṣasya.hareḥ.sūktam.svargyam.dhanyam.yaśaskaram./<br />
+            ātma.jñānam.idam.puṇyam.yoga.jñānam.idam.param.//
+             <span class="ref">RgV_3,35.186</span></p>
+         
+         
+         <p id="RgV_3.35.187">
+            phala.āhāro.bhaven.māsam.paśyaty.ātmānam.ātmani./<br />
+            phalāni.bhuktvā.upavasen.māsam.adbhiś.ca.vartayet.//
+             <span class="ref">RgV_3,35.187</span></p>
+         
+         
+         <p id="RgV_3.35.188">
+            araṇye.nivasen.nityam.japann.etam.ṛṣim.sadā./<br />
+            tris.triṣavaṇa.kāleṣu.snāyād.apsu.samāhitaḥ.//
+             <span class="ref">RgV_3,35.188</span></p>
+         
+         
+         <p id="RgV_3.35.189">
+            ādityam.upatiṣṭheta.sūktena.anena.nityaśaḥ./<br />
+            ājya.āhutor.anena.eva.hutvā.etam.cintayed.ṛṣim.//
+             <span class="ref">RgV_3,35.189</span></p>
+         
+         
+         <p id="RgV_3.35.190">
+            ūrdhvam.māsāt.phala.āhāras.tribhir.varṣair.jayed.divam./<br />
+            tadbhaktas.tanmanā.yukto.daśa.varṣāṇy.ananya.bhāk.//
+             <span class="ref">RgV_3,35.190</span></p>
+         
+         
+         <p id="RgV_3.35.191">
+            sākṣāt.paśyati.tam.devam.nārāyaṇam.anāmayam./<br />
+            grāhyam.atyanta.yatnena.sraṣṭāram.jagato.avyayam.//
+             <span class="ref">RgV_3,35.191</span></p>
+         
+         
+         <p id="RgV_3.36.192">
+            gṛhastha.dharme.varteta.nyāya.klṛptaḥ.śuci.vrataḥ./<br />
+            etam.devam.cintayeta.nārāyaṇam.anāmayam.//
+             <span class="ref">RgV_3,36.192</span></p>
+         
+         
+         <p id="RgV_3.36.193">
+            ardha.rātre.tyakta.nidra.utthāya.śuci.vāg.yataḥ./<br />
+            samprasupteṣu.bhūteṣu.yogam.yuñjīta.yogavit.//
+             <span class="ref">RgV_3,36.193</span></p>
+         
+         
+         <p id="RgV_3.36.194">
+            ṛjv.āsīnaḥ.same.deśe.nivāte.śabda.varjite./<br />
+            savyam.pādam.dakṣiṇasya.jānuni.śleṣayet.tataḥ.//
+             <span class="ref">RgV_3,36.194</span></p>
+         
+         
+         <p id="RgV_3.36.195">
+            saṃhṛtya.dakṣiṇam.pādam.savye.jānuni.yacchati./<br />
+            brahma.añjali.kṛtaḥ.svastho.yoga.sammīlita.īkṣaṇaḥ.//
+             <span class="ref">RgV_3,36.195</span></p>
+         
+         
+         <p id="RgV_3.36.196">
+            om.ity.uktvā.svam.hṛdayam.cintayed.aviśaṅkitaḥ./<br />
+            tatra.ātmānam.samādadhyād.indriyāṇi.manas.tathā.//
+             <span class="ref">RgV_3,36.196</span></p>
+         
+         
+         <p id="RgV_3.37.197">
+            na.ced.budhyeta.kiṃca.anyan.na.paśyec.śṛṇuyān.na.ca./<br />
+            na.manasyed.yadā.yogam.tadā.prāptaḥ.sa.ucyate.//
+             <span class="ref">RgV_3,37.197</span></p>
+         
+         
+         <p id="RgV_3.37.198">
+            hṛdyam.etam.ṛṣim.abhyasyet.paśyann.iva.yathā.śruti./<br />
+            prāṇān.āyamya.ca.āsīno.yāvat.tam.cintayed.ṛṣim.//
+             <span class="ref">RgV_3,37.198</span></p>
+         
+         
+         <p id="RgV_3.37.199">
+            ucchvasiṣyann.adho.nābhi.gamayitvā.manas.tathā./<br />
+            ucchvased.evam.asakṛt.tanmanā.yogam.unnayet.//
+             <span class="ref">RgV_3,37.199</span></p>
+         
+         
+         <p id="RgV_3.37.200">
+            evam.hi.yuñjant.sāmānyam.na.paśyet.śṛṇuyān.na.ca./<br />
+            tadā.śanair.nayec.ceto.hṛdayād.ūrdhvam.eva.tu.//
+             <span class="ref">RgV_3,37.200</span></p>
+         
+         
+         <p id="RgV_3.37.201">
+            samau.tu.jatrū.ca.āsyam.ca.nāsikā.nayane.bhruvau./<br />
+            bhruvor.madhye.param.sthānam.tatra.etad.dhārayet.sthiram.//
+             <span class="ref">RgV_3,37.201</span></p>
+         
+         
+         <p id="RgV_3.38.202">
+            lalāṭa.deśe.dhārya.atha.mūrdhānam.gamayet.tataḥ./<br />
+            ucchvasaṃś.ca.yathā.kālam.nābhim.gatvā.ucchvaset.punaḥ.//
+             <span class="ref">RgV_3,38.202</span></p>
+         
+         
+         <p id="RgV_3.38.203">
+            etat.param.sthānam.uktam.brahmaṇaḥ.paramātmanaḥ./<br />
+            evam.yukto.mahātmānam.ātmānam.pratipadyate.//
+             <span class="ref">RgV_3,38.203</span></p>
+         
+         
+         <p id="RgV_3.38.204">
+            yadi.syāt.sukṛtī.śuddho.yadi.vā.pāpakṛttamaḥ./<br />
+            upalabhya.param.brahma.gatim.jñātvā.bhavet.śuciḥ.//
+             <span class="ref">RgV_3,38.204</span></p>
+         
+         
+         <p id="RgV_3.38.205">
+            sarva.pāpa.anubaddhaś.ced.buddhvā.etat.prayato.japet./<br />
+            api.jijñāsanād.eva.gaccheta.paramām.gatim.//
+             <span class="ref">RgV_3,38.205</span></p>
+         
+         
+         <p id="RgV_3.38.206">
+            dhāraṇā.tu.pṛthak.kāryā.dharmeṇa.anena.nityaśaḥ./<br />
+            āditye.agnau.candramasi.vṛkṣa.agreṣu.ca.dhārayet.//
+             <span class="ref">RgV_3,38.206</span></p>
+         
+         
+         <p id="RgV_3.39.207">
+            parvata.agre.samudre.vā.yatra.vā.api.mano.rame./<br />
+            na.tv.eva.viṣayān.prāpya.dhārayīta.kathaṃcana.//
+             <span class="ref">RgV_3,39.207</span></p>
+         
+         
+         <p id="RgV_3.39.208">
+            bahv.atra.duhkham.jānīyāt.pradhvaṃse.dhāraṇā.kṛte./<br />
+            dhārmikāṇām.kule.śuddhe.yoga.bhraṣṭo.abhijāyate.//
+             <span class="ref">RgV_3,39.208</span></p>
+         
+         
+         <p id="RgV_3.39.209">
+            mūrdhni.brahma.yadā.vindet.tam.eva.ṛṣi.sattamam./<br />
+            tadā.mūrdhnaḥ.param.jyotir.nakṣatra.patham.unnayet.//
+             <span class="ref">RgV_3,39.209</span></p>
+         
+         
+         <p id="RgV_3.39.210">
+            yogī.yoga.īśvaram.prāpya.nirdvandvaḥ.parama.ātmavit./<br />
+            sarvatra.eva.ātmanā.ātmānam.paśyed.ṛṣi.parāyaṇaḥ.//
+             <span class="ref">RgV_3,39.210</span></p>
+         
+         
+         <p id="RgV_3.39.211">
+            japec.caiva.sadā.snātaḥ.pavitram.idam.uttamam./<br />
+            api.pātaka.samyuktaḥ.kālena.sukṛtī.bhavet.//
+             <span class="ref">RgV_3,39.211</span></p>
+         
+         
+         <p id="RgV_3.40.212">
+            tapaḥ.parāyaṇo.nityam.satya.vāg.anasūyakaḥ./<br />
+            japann.etam.ṛṣim.vipraḥ.kālena.sa.vanī.bhavet.//
+             <span class="ref">RgV_3,40.212</span></p>
+         
+         
+         <p id="RgV_3.40.213">
+            yena.yena.ca.kāmena.japed.imam.ṛṣim.sadā./<br />
+            sa.sa.kāmaḥ.samṛddhaḥ.syāt.śraddadhānasya.kurvataḥ.//
+             <span class="ref">RgV_3,40.213</span></p>
+         
+         
+         <p id="RgV_3.40.214">
+            homam.vā.apy.athavā.jāpyam.upahāram.atho.carum./<br />
+            kurvīta.yena.kāmena.tat.siddhim.avadhārayet.//
+             <span class="ref">RgV_3,40.214</span></p>
+         
+         
+         <p id="RgV_3.40.215">
+            jñāti.śraiṣṭhyam.mahad.vittam.yaśo.loke.parām.gatim./<br />
+            pāpena.vipramokṣas.tu.tat.siddhim.avadhārayet.//
+             <span class="ref">RgV_3,40.215</span></p>
+         
+         
+         <p id="RgV_3.40.216">
+            jñāna.gamyam.param.sūkṣmam.vyāpya.sarvam.avasthitam./<br />
+            grāhyam.atyanta.yatnena.brahma.abhyety.sanātanam.//
+             <span class="ref">RgV_3,40.216</span></p>
+         
+         
+         <p id="RgV_3.40.217">
+            sahasra.śīrṣā.iti.sūktam.sarva.kāma.phala.pradam./<br />
+            veda.garbha.śarīreṇa.sa.vai.nārāyaṇaḥ.smṛtaḥ.//
+             <span class="ref">RgV_3,40.217</span></p>
+         
+         
+         <p id="RgV_3.40.218">
+            brahma.indu.rudra.parjanyā.atra.sūkte.vyavasthitāḥ./<br />
+            atrastham.etad.draṣṭavyam.jagat.sthāvara.jaṅgamam.//
+             <span class="ref">RgV_3,40.218</span></p>
+         
+         
+         <p id="RgV_3.41.219">
+            anāsādayāmo.api.bhaktim.na.parihāpayet./<br />
+            bhakta.anukampī.bhagavān.śrūyate.puruṣa.uttamaḥ.//
+             <span class="ref">RgV_3,41.219</span></p>
+         
+         
+         <p id="RgV_3.41.220">
+            pūjā.artham.tasya.devasya.vanyānt.svayam.upārjitān./<br />
+            āraṇyaka.vidhānena.nirvapet.pratyaham.carum./
+             <span class="ref">RgV_3,41.220</span></p>
+         
+         <p id="RgV_3.41.221">
+            nārāyaṇāya.svāhā.iti.mantra.ante.juhuyādd.haviḥ.//<br />
+            
+            āsahasrāt.tataś.cakṣur.divyam.hotur.dadāti.saḥ./
+             <span class="ref">RgV_3,41.221</span></p>
+         
+         <p id="RgV_3.41.222">
+            api.vā.caru.sahasram.tantreṇa.ekena.nirvapet.//<br />
+            
+            yāvanto.vā.api.śakyante.ahnā.sarvānt.samāpayet./
+             <span class="ref">RgV_3,41.222</span></p>
+         
+         <p id="RgV_3.41.223">
+            sahasrasya.īpsitānām.ca.kāmānām.labhate.phalam.//<br />
+            
+            puruṣa.āyuḥ.samāyuktaḥ.siddho.vā.api.caren.mahīm./
+             <span class="ref">RgV_3,41.223</span></p>
+         
+         <p id="RgV_3.42.224">
+            dhyeyaḥ.sadā.savitṛ.maṇḍala.madhya.vartī.nārāyaṇaḥ.sarasija.āsana.samniviṣṭaḥ./<br />
+            keyūravān.makara.kuṇḍalavān.kirīṭī.hārī.hiraṇmaya.vapur.dhṛta.śaṅkha.cakraḥ.//
+             <span class="ref">RgV_3,42.224</span></p>
+         
+         
+         <p id="RgV_3.42.225">
+            etat.tu.yaḥ.paṭhati.kevalam.eva.sūktam.nārāyaṇasya.caraṇāv.abhivandya.vandyau./<br />
+            pāṭhena.tena.paramena.sanātanasya.sthānam.jarā.maraṇa.varjitam.eti.viṣṇoḥ.//
+             <span class="ref">RgV_3,42.225</span></p>
+         
+         
+         <p id="RgV_3.42.226">
+            haviṣā.agnau.jale.puṣpair.dhyānena.hṛday.harim./<br />
+            yajanti.sūrayo.nityam.japena.ravi.maṇḍale.//
+             <span class="ref">RgV_3,42.226</span></p>
+         
+         
+         <p id="RgV_3.43.227">
+            bilva.patram.śamī.patram.patram.bhṛṅgārakasya.ca./<br />
+            mālatī.kuśa.padmam.ca.sadyas.tuṣṭi.karam.hareḥ.//
+             <span class="ref">RgV_3,43.227</span></p>
+         
+         
+         <p id="RgV_3.43.228">
+            yan.na.upapadyate.kiṃcit.tam.dhyāyen.manasā.eva.tu./<br />
+            sampadyate.prasādāt.tu.deva.devasya.cakriṇaḥ.//
+             <span class="ref">RgV_3,43.228</span></p>
+         
+         
+         <p id="RgV_3.43.229">
+            patraiś.ca.puṣpaiś.ca.toyair.akrīta.labdhairś.ca.sadā.eva.satsu./<br />
+            bhaktyā.eka.labhye.puruṣe.purāṇe.muktyai.kim.artham.kriyate.na.yatnaḥ.//
+             <span class="ref">RgV_3,43.229</span></p>
+         
+         
+         <p id="RgV_3.43.230">
+            ity.evam.uktaḥ.puruṣasya.viṣṇor.arcā.vidhir.viṣṇu.kumāra.nāmnā./<br />
+            muktyā.eka.mārga.pratibodhanāya.dṛṣṭvā.vidhānam.tv.iha.nārada.uktam.//
+             <span class="ref">RgV_3,43.230</span></p>
+         
+         
+         <p id="RgV_3.43.231">
+            yā.oṣadhīḥ.svastyayanam.japeta.nitya.vrataḥ./<br />
+            oṣadhīś.ca.jayen.nityam.ṣaṇ.māsān.eva.nityaśaḥ.//E
+             <span class="ref">RgV_3,43.231</span></p>
+         
+         
+         <p id="RgV_4.1.1">
+            iṣṭvā.śaradi.vai.rudram.oṣadhīś.ca.yajet.tathā./<br />
+            tasya.āmayā.na.bhavanti.tathā.jīrṇāni.yāni.ca.//
+             <span class="ref">RgV_4,1.1</span></p>
+         
+         
+         <p id="RgV_4.1.2">
+            kriyām.tu.sapta.rātreṇa.saptakṛtvo.abhyaset.tataḥ./<br />
+            prapadyeta.oṣadhīm.vipraḥ.sūktam.etaj.japant.sadā.//
+             <span class="ref">RgV_4,1.2</span></p>
+         
+         
+         <p id="RgV_4.1.3">
+            dviṣat.kṣetrād.iha.āyadhvam.iti.vijñāpayeta.ca./<br />
+            sva.kṣetre.varuṇam.iṣṭvā.vindate.dviṣad.oṣadhīḥ.//
+             <span class="ref">RgV_4,1.3</span></p>
+         
+         
+         <p id="RgV_4.1.4">
+            vṛṣṭi.kāmo.yata.āhāraḥ.prapadyeta.bṛhaspatim./<br />
+            pāyasena.upahāreṇa.homena.ca.samanvitaḥ.//
+             <span class="ref">RgV_4,1.4</span></p>
+         
+         
+         <p id="RgV_4.1.5">
+            bṛhaspate.pati.ity.etad.vṛṣṭi.kāmaḥ.prayojayet./<br />
+            parjanyam.ca.namas.kṛtvā.vṛṣṭim.vindati.śobhanām.//
+             <span class="ref">RgV_4,1.5</span></p>
+         
+         
+         <p id="RgV_4.2.6">
+            sarvatra.tu.parā.śāntir.jñeyo.apratirathas.tv.ṛṣiḥ./<br />
+            yam.eva.deśam.gaccheta.śatrum.vā.apy.anumantritaḥ.//
+             <span class="ref">RgV_4,2.6</span></p>
+         
+         
+         <p id="RgV_4.2.7">
+            na.ajitvā.vinivarteta.param.hi.brahmaṇo.balam./<br />
+            sarva.kāmair.japed.etat.sarva.kāma.samṛddhaye.//
+             <span class="ref">RgV_4,2.7</span></p>
+         
+         
+         <p id="RgV_4.2.8">
+            saṃgrāmam.abhyudyatāya.rājñe.ca.etat.prayojayet./<br />
+            sarvān.vijayate.śatrūn.na.parājīyate.paraiḥ.//
+             <span class="ref">RgV_4,2.8</span></p>
+         
+         
+         <p id="RgV_4.2.9">
+            pathi.svastyayanam.ca.etat.taskarebhyaś.caran.pathi./<br />
+            bhūta.uraga.piśācebhyaḥ.sarvebhyaḥ.parirakṣati.//
+             <span class="ref">RgV_4,2.9</span></p>
+         
+         
+         <p id="RgV_4.2.10">
+            bhūtāṃśam.kāśyapam.sūktam.prajā.kāmaḥ.śucir.japan./<br />
+            anurūpām.prajām.āśu.labhate.na.atra.saṃśayaḥ.//
+             <span class="ref">RgV_4,2.10</span></p>
+         
+         
+         <p id="RgV_4.3.11">
+            sthālī.pākena.nāsatyāv.aśvinau.tu.jayed.dvijaḥ./<br />
+            anena.eva.tu.sūktena.hutvā.aśvān.anumantrayet.//
+             <span class="ref">RgV_4,3.11</span></p>
+         
+         
+         <p id="RgV_4.3.12">
+            pāyasam.kṛsaram.māṃsam.odanam.dadhi.saktukān./<br />
+            kulmāṣāṃś.ca.karambhāṃś.ca.phalāni.vividhāni.ca.//
+             <span class="ref">RgV_4,3.12</span></p>
+         
+         
+         <p id="RgV_4.3.13">
+            citram.mātryam.śubhān.gandhān.anna.pānāni.yāni.ca./<br />
+            bhakṣyam.bhojyam.ca.peyam.ca.samāhṛtya.udite.ravau.//
+             <span class="ref">RgV_4,3.13</span></p>
+         
+         
+         <p id="RgV_4.3.14">
+            bhūtāṃśam.abhyaset.tāvad.yāvad.astamito.raviḥ./<br />
+            ardha.rātre.tv.atikrānte.tato.aśvibhyām.nivedayet.//
+             <span class="ref">RgV_4,3.14</span></p>
+         
+         
+         <p id="RgV_4.3.15">
+            dīrgha.āyuṣam.surūpam.ca.labhet.putram.suvarcasam./<br />
+            rūpavāṃś.ca.bhaven.nityam.bhūtāṃśam.yo.abhyaset.sadā.//
+             <span class="ref">RgV_4,3.15</span></p>
+         
+         
+         <p id="RgV_4.4.16">
+            sārvakāmim.ity.etam.ṛṣim.vidyād.vicakṣaṇaḥ./<br />
+            na.vā.u.devā.ity.etaj.japeta.niyata.vrataḥ.//
+             <span class="ref">RgV_4,4.16</span></p>
+         
+         
+         <p id="RgV_4.4.17">
+            annam.vindati.sarvatra.yatra.yatra.upatiṣ]hati./<br />
+            pāpmā.upahatam.ātmānam.yo.manyeta.vicakṣaṇaḥ.//
+             <span class="ref">RgV_4,4.17</span></p>
+         
+         
+         <p id="RgV_4.4.18">
+            sa.japen.niyato.bhūtvā.laghu.manyeta.pāpmanā./<br />
+            vācam.prapadyed.vāk.kāmo.juhvad.āśu.japann.imāḥ.//
+             <span class="ref">RgV_4,4.18</span></p>
+         
+         
+         <p id="RgV_4.4.19">
+            aham.rudrebhir.ity.etad.vāgmī.bhavati.pūjitaḥ./<br />
+            natam.ity.aṣṭakam.sūktam.vaiśvadevam.japan.muniḥ.//
+             <span class="ref">RgV_4,4.19</span></p>
+         
+         
+         <p id="RgV_4.4.20">
+            kṛtsnam.tu.kalmaṣam.hatvā.viśvair.devaiḥ.saha.āsate./<br />
+            rātrīm.prapadyeta.sadā.śuciś.cīrṇa.vrato.niśi.//
+             <span class="ref">RgV_4,4.20</span></p>
+         
+         
+         <p id="RgV_4.4.21">
+            yaḥ.kāmayeta.na.punar.jāyeyam.iti.yoniṣu./<br />
+            sahasrakṛtvo.manasā.japed.rātrī.iti.rātri.su.//
+             <span class="ref">RgV_4,4.21</span></p>
+         
+         
+         <p id="RgV_4.4.22">
+            sthālī.pākena.rātrīm.ca.yajeta.ahar.ahar.niśi./<br />
+            tanmanā.niśi.ca.āsīnas.tiṣṭhed.ahani.dhārmikaḥ.//
+             <span class="ref">RgV_4,4.22</span></p>
+         
+         
+         <p id="RgV_4.5.23">
+            ūrdhvam.saṃvatsarāc.caiva.carum.payasi.saṃskṛtam./<br />
+            sahasrakṛtvas.tv.etena.divā.homo.vidhīyate.//
+             <span class="ref">RgV_4,5.23</span></p>
+         
+         
+         <p id="RgV_4.5.24">
+            juhuyān.niśi.pūrvasmin.bhāge.rātri.samāhitaḥ./<br />
+            divā.ca.āvaśyakam.kāryam.chāyāyām.aṃśu.tejasā.//
+             <span class="ref">RgV_4,5.24</span></p>
+         
+         
+         <p id="RgV_4.5.25">
+            iti.prayata.ātmavānt.sūktam.tu.manasā.japet./<br />
+            saṃvatsare.tṛtīye.tu.sarpiṣā.sādhayet.carum.//
+             <span class="ref">RgV_4,5.25</span></p>
+         
+         
+         <p id="RgV_4.5.26">
+            atha.asya.varadā.devī.rātrir.bhavati.śarvarī./<br />
+            vijñāpayati.tām.devīm.varadām.svayam.āgatām.//
+             <span class="ref">RgV_4,5.26</span></p>
+         
+         
+         <p id="RgV_4.5.27">
+            saṃvatsara.ṛtau.māsi.divase.asmin.kṣaṇe.api.vā./<br />
+            prayāṇa.kālo.bhavitā.tava.vatsa.iti.vatsalā.//
+             <span class="ref">RgV_4,5.27</span></p>
+         
+         
+         <p id="RgV_4.6.28">
+            rātrī.sūktam.japann.eva.tam.kālam.pratipadyate./<br />
+            na.yonim.punar.āyāti.sarva.pāpaiḥ.pramucyate.//
+             <span class="ref">RgV_4,6.28</span></p>
+         
+         
+         <p id="RgV_4.6.29">
+            mama.agne.varca.ity.etat.sarva.kāmair.japed.dvijaḥ./<br />
+            juhvad.ājyam.anena.eva.sarvān.kāmān.avāpnuyāt.//
+             <span class="ref">RgV_4,6.29</span></p>
+         
+         <p id="RgV_4.6.30">
+            yām.kalpayanti.iti.sadā.japeta.niyata.vrataḥ./<br />
+            na.enam.kṛtyā.nihiṃsanti.kruddha.abhicaritāni.ca.//
+             <span class="ref">RgV_4,6.30</span></p>
+         
+         
+         <p id="RgV_4.6.31">
+            yamm.aṅgirasa.kalpais.tu.tadvido.abhicaranti.saḥ./<br />
+            pratyaṅgirasa.kalpena.sarvāṃs.tān.pratibādhate.//
+             <span class="ref">RgV_4,6.31</span></p>
+         
+         
+         <p id="RgV_4.6.32">
+            pratyaṅgirasa.vidvāṃs.tu.na.riṣyeta.kadācana./<br />
+            na.enam.kṛtyā.nihiṃsanti.jñāta.ajñātāni.vā.kvacit.//
+             <span class="ref">RgV_4,6.32</span></p>
+         
+         
+         <p id="RgV_4.7.33">
+            ajānatā.jānatā.vā.kruddhena.amarṣitena.vā./<br />
+            ākruṣṭam.vā.duruktam.vā.na.eno.liṇpati.tadvidam.//
+             <span class="ref">RgV_4,7.33</span></p>
+         
+         
+         <p id="RgV_4.7.34">
+            evam.eva.japen.nityam.ṛṣim.svastyayanāya.vai./<br />
+            sarva.prāyaścittam.etad.abhāṣata.ṛṣiḥ.svayam.//
+             <span class="ref">RgV_4,7.34</span></p>
+         
+         
+         <p id="RgV_4.7.35">
+            sthāvarāṇām.niveśe.tu.nagarāṇām.tathaiva.ca./<br />
+            grāmāṇām.ca.gṛhāṇām.ca.japed.imam.ṛṣim.sadā.//
+             <span class="ref">RgV_4,7.35</span></p>
+         
+         
+         <p id="RgV_4.7.36">
+            jāta.rūpamayam.vidvān.kārayet.trivṛtam.maṇim./<br />
+            sahasra.sampāta.hutam.ṛṣiṇā.tena.tam.tataḥ.//
+             <span class="ref">RgV_4,7.36</span></p>
+         
+         
+         <p id="RgV_4.7.37">
+            pratimuñceta.śirasi.grīvāyām.athavā.urasi./<br />
+            na.enam.kṛtyā.nihiṃsanti.jñāta.ajñātāni.yāni.ca.//
+             <span class="ref">RgV_4,7.37</span></p>
+         
+         
+         <p id="RgV_4.8.38">
+            anena.eva.tu.sūktena.rājñām.ca.samalohitam./<br />
+            kārayeta.maṇim.vidvāṃs.tāvad.eva.anumantraṇam.//
+             <span class="ref">RgV_4,8.38</span></p>
+         
+         
+         <p id="RgV_4.8.39">
+            saṃgrāmeṣu.dhvaja.agrāṇi.vāditrāṇy.anumantrayet./<br />
+            āsanāni.ca.śayyāś.ca.yānāni.vividhāni.ca.//
+             <span class="ref">RgV_4,8.39</span></p>
+         
+         
+         <p id="RgV_4.8.40">
+            tasya.abhicarataḥ.sākṣād.āṅgirasa.ṛṣeḥ.svayam./<br />
+            pratyaṅgirasa.kalpena.sarvam.tat.pratibādhate.//
+             <span class="ref">RgV_4,8.40</span></p>
+         
+         
+         <p id="RgV_4.8.41">
+            amānuṣīr.abhicaret.kṛtyā.sūktam.japann.idam./<br />
+            mucyate.sarvato.aniṣṭāt.kim.punar.mānuṣād.bhayam.//
+             <span class="ref">RgV_4,8.41</span></p>
+         
+         
+         <p id="RgV_4.8.42">
+            tapasvī.niyato.dāntaḥ.prayoktā.ced.bhaved.ṛṣiḥ./<br />
+            sarvam.tarati.śānta.ātmā.tapo.hi.sumahad.balam.//
+             <span class="ref">RgV_4,8.42</span></p>
+         
+         
+         <p id="RgV_4.9.43">
+            āyuṣyam.āyur.varcasyam.sūktam.dākṣāyaṇam.mahat./<br />
+            alaṃkāram.hiraṇyam.vā.prāpya.dākṣāyaṇam.japet.//
+             <span class="ref">RgV_4,9.43</span></p>
+         
+         
+         <p id="RgV_4.9.44">
+            prāptam.ca.śriyam.ādatte.bahu.ca.annam.samaśnute./<br />
+            na.asad.āsīd.iti.japej.juhuyād.yoga.tatparaḥ.//
+             <span class="ref">RgV_4,9.44</span></p>
+         
+         
+         <p id="RgV_4.9.45">
+            prajāpates.tu.sāyojyam.dvādaśa.abdaiḥ.samaśnute./<br />
+            uta.devā.iti.japed.āmayāvī.yata.vrataḥ.//
+             <span class="ref">RgV_4,9.45</span></p>
+         
+         
+         <p id="RgV_4.9.46">
+            ghṛta.kumbham.nidhāya.atha.juhuyāj.jāta.vedasi./<br />
+            kumbhāt.sampātam.anyasmin.kāṃsya.pātre.nidhāpayet.//
+             <span class="ref">RgV_4,9.46</span></p>
+         
+         
+         <p id="RgV_4.9.47">
+            yo.annāya.alam.na.ca.annam.syāt.sa.idam.samprakalpayet./<br />
+            tena.ājyena.aṅgam.abhyajya.śanakair.anna.bhāg.bhavet.//
+             <span class="ref">RgV_4,9.47</span></p>
+         
+         
+         <p id="RgV_4.9.48">
+            roga.ārtasya.apy.anena.eva.gātram.aṅktvā.japed.idam./<br />
+            ajīrṇān.no.apy.añjayīta.sukham.bhavati.tena.ha.//
+             <span class="ref">RgV_4,9.48</span></p>
+         
+         
+         <p id="RgV_4.10.49">
+            agne.acchā.vada.ity.etad.dhana.kāmaḥ.prayojayet./<br />
+            niyataḥ.sarpiṣā.hutvā.japed.ayutaśaḥ.punaḥ.//
+             <span class="ref">RgV_4,10.49</span></p>
+         
+         
+         <p id="RgV_4.10.50">
+            khādirīṇām.hi.samidhām.juhuyād.daśatīr.daśa./<br />
+            daśakṛtvaḥ.sadāreṇa.rāyas.poṣeṇa.puṣyati.//
+             <span class="ref">RgV_4,10.50</span></p>
+         
+         
+         <p id="RgV_4.10.51">
+            bilva.udumbara.pālāśīs.tathā.rauhītakīś.ca.yāḥ./<br />
+            juhuyād.dhana.kāmas.tu.rāyas.poṣeṇa.puṣyati.//
+             <span class="ref">RgV_4,10.51</span></p>
+         
+         
+         <p id="RgV_4.10.52">
+            vaibhītaka.idhmo.bailvakīr.juhuyād.ardha.māsabhuk./<br />
+            dviṣad.dveṣeṇa.tasya.ante.sūktam.etat.prayojayet.//
+             <span class="ref">RgV_4,10.52</span></p>
+         
+         
+         <p id="RgV_4.10.53">
+            dviṣantam.dhaninam.hatvā.dviṣato.vindate.dhanam./<br />
+            athavā.japyam.eva.syād.rāyas.poṣa.dhana.arthinā.//
+             <span class="ref">RgV_4,10.53</span></p>
+         
+         
+         <p id="RgV_4.11.54">
+            ayam.agne.jaritā.iti.japed.agni.bhaye.sati./<br />
+            vidhinā.tarpayitvā.agnim.payo.dadhi.ghṛta.ādibhiḥ.//
+             <span class="ref">RgV_4,11.54</span></p>
+         
+         
+         <p id="RgV_4.11.55">
+            svayam.pātum.yāvad.icchet.tāvad.gatvā.catur.diśam./<br />
+            apām.idam.pariṇayet.saṃtata.udaka.dhārayā.//
+             <span class="ref">RgV_4,11.55</span></p>
+         
+         
+         <p id="RgV_4.11.56">
+            uda.hrada.iva.bhūtvā.agner.bheṣajam.antikāt./<br />
+            araṇyam.etya.pāṭhām.tu.krīṇīyād.yava.muṣṭinā.//
+             <span class="ref">RgV_4,11.56</span></p>
+         
+         
+         <p id="RgV_4.11.57">
+            yadi.saumy.asi.somāya.tvā.parikrīṇāmy.oṣadhim./<br />
+            yadi.vāruṇy.asy.varuṇāya.tvā.parikrīṇāmy.aham.tataḥ.//
+             <span class="ref">RgV_4,11.57</span></p>
+         
+         
+         <p id="RgV_4.11.58">
+            vasubhyo.athavā.rudrebhya.ādityebhyo.athavā.punaḥ./<br />
+            vaiśvadevy.asi.viśvebhyaḥ.parikrīṇāmy.aham.tataḥ.//
+             <span class="ref">RgV_4,11.58</span></p>
+         
+         
+         <p id="RgV_4.11.59">
+            kṣiptvā.sumanasaḥ.pūrvam.oṣadhyā.saha.vīrudhi./<br />
+            tasyā.vīryam.samādatte.karma.yatra.kariṣyati.//
+             <span class="ref">RgV_4,11.59</span></p>
+         
+         
+         <p id="RgV_4.11.60">
+            tām.tu.madhye.nidadhīta.oṣadhīnām.vihāyasi./<br />
+            grahaṇe.tv.oṣadhīnām.tu.sarvatra.eṣa.vidhir.bhavet.//
+             <span class="ref">RgV_4,11.60</span></p>
+         
+         
+         <p id="RgV_4.12.61">
+            utkhāpayīta.tām.pāṭhām.imām.iti.japann.iha./<br />
+            prātaś.ca.peṣayed.enām.saṃsadi.brahma.cāriṇā.//
+             <span class="ref">RgV_4,12.61</span></p>
+         
+         
+         <p id="RgV_4.12.62">
+            tad.alābhe.vratavatā.kanyayā.brāhmaṇena.vā./<br />
+            prātaḥ.śucis.tām.ghṛtena.triḥ.pibed.anumantritām.//
+             <span class="ref">RgV_4,12.62</span></p>
+         
+         
+         <p id="RgV_4.12.63">
+            imām.iti.tu.sūktena.śatakṛtvo.daśa.avaram./<br />
+            sapatnīm.bādhate.tena.patiś.ca.atīva.manyate.//
+             <span class="ref">RgV_4,12.63</span></p>
+         
+         
+         <p id="RgV_4.12.64">
+            patis.tu.parijapya.enām.pāṭhām.etena.vai.pibet./<br />
+            payasā.sapta.rātram.tu.sapatnān.pratibādhate.//
+             <span class="ref">RgV_4,12.64</span></p>
+         
+         
+         <p id="RgV_4.12.65">
+            mūla.mantra.japair.anyair.yā.patim.jetum.icchati./<br />
+            alokā.yama.lokasthā.majjate.narake.hi.sā.//
+             <span class="ref">RgV_4,12.65</span></p>
+         
+         
+         <p id="RgV_4.13.66">
+            anyathā.ca.upanītāni.cūrṇa.mūla.auṣadhāny.api./<br />
+            vināśayeyuḥ.puruṣam.tasmān.na.anyat.samācaret.//
+             <span class="ref">RgV_4,13.66</span></p>
+         
+         
+         <p id="RgV_4.13.67">
+            priyam.vadā.bhartari.yā.bhartā.yasyāḥ.parāyaṇam./<br />
+            vāk.caiva.madhurā.yasyāḥ.patyuḥ.saṃvananam.mahat.//
+             <span class="ref">RgV_4,13.67</span></p>
+         
+         
+         <p id="RgV_4.13.68">
+            priyam.bhartāram.āsādya.pibed.eva.oṣadhīm.imām./<br />
+            priyaṃvadām.dharma.parām.dharma.patnīm.aninditām.//
+             <span class="ref">RgV_4,13.68</span></p>
+         
+         
+         <p id="RgV_4.13.69">
+            avamanyeta.yo.mohāt.tam.āhuḥ.puruṣa.adhamam./<br />
+            araṇyānī.ity.araṇyeṣu.japet.sūktam.anekaśaḥ.//
+             <span class="ref">RgV_4,13.69</span></p>
+         
+         
+         <p id="RgV_4.13.70">
+            araṇyānīm.namas.kṛtvā.so.araṇyāt.pramucyate./<br />
+            śraddhā.sūktam.japen.nityam.śraddhā.kāmaḥ.samāhitaḥ.//
+             <span class="ref">RgV_4,13.70</span></p>
+         
+         
+         <p id="RgV_4.14.71">
+            sarvatra.labhate.śraddhām.medhā.sūktam.tathaiva.ca./<br />
+            brāhmīm.āsādya.sūkte.dve.japeta.niyata.vrataḥ.//
+             <span class="ref">RgV_4,14.71</span></p>
+         
+         
+         <p id="RgV_4.14.72">
+            tām.pibet.tu.yathā.śaktyā.tryahāt.siddhim.niyacchati./<br />
+            śaṅkha.puṣpīm.tu.payasā.brāhmī.puṣpāṇi.sarpiṣā.//
+             <span class="ref">RgV_4,14.72</span></p>
+         
+         
+         <p id="RgV_4.14.73">
+            śata.avarīm.tu.payasā.varcām.adbhir.ghṛtena.vā./(?)<br />
+            sūktābhyām.anumantrya.ābhyām.eka.ekām.tryaham.pibet.//
+             <span class="ref">RgV_4,14.73</span></p>
+         
+         
+         <p id="RgV_4.14.74">
+            śraddhām.medhām.smṛtim.puṣṭim.balam.lakṣmīm.ca.vindati./<br />
+            siddhim.prāpnoti.ca.parām.dīrgham.ca.āyuḥ.samaśnute.//
+             <span class="ref">RgV_4,14.74</span></p>
+         
+         
+         <p id="RgV_4.14.75">
+            athavā.manasā.dhyāyet.sūkte.siddhim.niyacchati./<br />
+            śāma.itthā.sapatnaghnam.saṃgrāmam.vijigīṣataḥ.//
+             <span class="ref">RgV_4,14.75</span></p>
+         
+         
+         <p id="RgV_4.15.76">
+            prayoktavyam.tu.śucinā.juhuyāt.tatra.siddhaye./<br />
+            athavā.japyam.eva.syāt.saṃgrāmam.abhigacchataḥ.//
+             <span class="ref">RgV_4,15.76</span></p>
+         
+         
+         <p id="RgV_4.15.77">
+            śāma.itthā.iti.yo.hantum.śatrūnt.sarvān.nivārayet./<br />
+            alakṣmī.nāśana.artham.tu.japen.nityam.śirimbiṭam.//
+             <span class="ref">RgV_4,15.77</span></p>
+         
+         
+         <p id="RgV_4.15.78">
+            apāmārgamayīm.śākhām.sadarbhām.saha.vīrudhām./<br />
+            gṛhītvā.ātmānam.pāvayed.adhaś.ca.ūrdhvam.ca.nityaśaḥ.//
+             <span class="ref">RgV_4,15.78</span></p>
+         
+         
+         <p id="RgV_4.15.79">
+            ājyam.ca.anena.juhuyāt.sahasram.daśatīr.daśa./<br />
+            tryaheṇa.nudate.dehād.alakṣmīm.śatavārṣikīm.//
+             <span class="ref">RgV_4,15.79</span></p>
+         
+         
+         <p id="RgV_4.15.80">
+            cāndrāyaṇam.carann.etat.sūktam.siddhikaram.japet./<br />
+            alakṣmīm.nudate.dehād.api.varṣa.sahasrakīm.//
+             <span class="ref">RgV_4,15.80</span></p>
+         
+         
+         <p id="RgV_4.16.81">
+            gṛhītam.yakṣmaṇā.darbhān.gṛhītvā.saṃspṛśan.japet./<br />
+            muñcāmi.tvā.haviṣā.iti.yakṣmāṇam.apakarṣati.//
+             <span class="ref">RgV_4,16.81</span></p>
+         
+         
+         <p id="RgV_4.16.82">
+            samiddham.agim.juhuyād.ājyena.eva.yathā.vidhi./<br />
+            sampātam.ājye.ninayet.sampātaiś.ca.payaḥ.pibet.//
+             <span class="ref">RgV_4,16.82</span></p>
+         
+         
+         <p id="RgV_4.16.83">
+            sampāta.bhājane.sarpiś.cūrṇam.tatra.nidhāpayet./<br />
+            tatra.asya.bhojanīyam.syāt.pānīyam.ca.anumantritam.//
+             <span class="ref">RgV_4,16.83</span></p>
+         
+         
+         <p id="RgV_4.16.84">
+            khādirāṇi.ca.kāṣṭhāni.cūrṇam.kṛtvā.saha.ambubhiḥ./<br />
+            śodhayīta.rasam.ca.iṣām.madhv.ājyābhyām.pibet.saha.//
+             <span class="ref">RgV_4,16.84</span></p>
+         
+         
+         <p id="RgV_4.16.85">
+            muñcāmi.tvā.haviṣā.iti.tatra.tatra.prayojayet./<br />
+            yakṣmāṇam.apakarṣanti.śarīrāt.tena.karmaṇā.//
+             <span class="ref">RgV_4,16.85</span></p>
+         
+         
+         <p id="RgV_4.17.86">
+            yasyāḥ.garbhaḥ.pramīyeta.tatra.agnau.juhuyādd.haviḥ./<br />
+            brahmaṇā.agniḥ.saṃvidāna.ity.ājyena.yathā.vidhi.//
+             <span class="ref">RgV_4,17.86</span></p>
+         
+         
+         <p id="RgV_4.17.87">
+            ājya.śeṣeṇa.ca.abhyajya.garbhiṇī.prasavet.tataḥ./<br />
+            pibed.eva.ājya.śeṣam.tu.jīvaṃs.tasyāḥ.prajāyate.//
+             <span class="ref">RgV_4,17.87</span></p>
+         
+         
+         <p id="RgV_4.17.88">
+            jātāni.cet.pramīyerann.ājyam.kṛtvā.anumantritam./<br />
+            juhuyād.brahmaṇā.agnir.iti.sampātān.ninayen.maṇau.//
+             <span class="ref">RgV_4,17.88</span></p>
+         
+         
+         <p id="RgV_4.17.89">
+            maṇim.tu.trivṛti.sūtre.vāsayed.vāsasā.saha./<br />
+            nyagrodha.śuṅgayā.tatra.śukla.lohita.veṣṭitam.//
+             <span class="ref">RgV_4,17.89</span></p>
+         
+         
+         <p id="RgV_4.17.90">
+            tam.sāvitry.ayutena.eva.anumantrya.yathā.vidhi./<br />
+            sampātair.ayutena.eva.brahmaṇā.iti.ca.saṃstutam.//
+             <span class="ref">RgV_4,17.90</span></p>
+         
+         
+         <p id="RgV_4.18.91">
+            upariṣṭāc.ca.sāvitryā.tāvad.eva.anumantraṇam./<br />
+            sarvaiḥ.svastyayanaiś.ca.etaj.japed.abhihutam.maṇim.//
+             <span class="ref">RgV_4,18.91</span></p>
+         
+         
+         <p id="RgV_4.18.92">
+            śirasā.dhārayen.nārī.prayatā.garbhiṇī.satī./<br />
+            tṛtīye.garbha.māse.tu.maṇim.etam.samāsajet.//
+             <span class="ref">RgV_4,18.92</span></p>
+         
+         
+         <p id="RgV_4.18.93">
+            puṣpavatī.śaradam.nārī.gauḥ.savatsā.vased.yathā./<br />
+            bahu.pānīya.yavasā.vatsena.pibatā.saha.//
+             <span class="ref">RgV_4,18.93</span></p>
+         
+         
+         <p id="RgV_4.18.94">
+            jātasya.tu.kumārasya.kaṇṭhe.tam.maṇim.āsajet./<br />
+            ājya.śeṣam.puraskṛtya.tam.abhyajya.kumārakam.//
+             <span class="ref">RgV_4,18.94</span></p>
+         
+         
+         <p id="RgV_4.18.95">
+            hutvā.svastyayanair.eva.strī.pumāṃsam.prasūyate./<br />
+            ūrdhvam.varṣāt.svastyayanam.punar.eva.vidhīyate.//
+             <span class="ref">RgV_4,18.95</span></p>
+         
+         
+         <p id="RgV_4.19.96">
+            puraḥ.stana.pradānāt.tam.śraddhā.sūktena.pāyayet./<br />
+            medhā.sūktena.caiva.enam.piṣṭam.vrīhimayam.carum.//
+             <span class="ref">RgV_4,19.96</span></p>
+         
+         
+         <p id="RgV_4.19.97">
+            madhu.miśram.jāta.rūpam.medhāvī.tena.jāyate./<br />
+            śatam.varṣāṇi.jīvet.ṃriyate.na.purā.āyuṣaḥ.//
+             <span class="ref">RgV_4,19.97</span></p>
+         
+         
+         <p id="RgV_4.19.98">
+            smṛtam.eva.tasya.syāt.ṣaṇ.māsāc.ca.tataḥ.param./<br />
+            ājyam.saṃskṛtya.juhuyād.akṣibhyām.ta.iti.dvijaḥ.//
+             <span class="ref">RgV_4,19.98</span></p>
+         
+         
+         <p id="RgV_4.19.99">
+            pāṇinā.tu.ghṛta.aktena.mūrdhānam.saṃspṛśet.tataḥ./<br />
+            karṇau.netre.ca.chubukam.nāsike.caiva.saṃspṛśet.//
+             <span class="ref">RgV_4,19.99</span></p>
+         
+         
+         <p id="RgV_4.19.100">
+            evam.eva.japen.nityam.yakṣmaṇo.vipramucyate./<br />
+            pūrva.uktena.eva.kalpena.yakṣma.nāśanam.ācaret.//
+             <span class="ref">RgV_4,19.100</span></p>
+         
+         
+         <p id="RgV_4.20.101">
+            homena.ca.japaiś.caiva.yakṣam.nāśanam.ācaret./<br />
+            apehi.iti.ca.japet.sūktam.śucir.duhsvapna.nāśanam.//
+             <span class="ref">RgV_4,20.101</span></p>
+         
+         
+         <p id="RgV_4.20.102">
+            devāḥ.kapota.iti.tu.kapotasya.upaveśane./<br />
+            sūktena.juhuyād.ājyam.yama.dūtam.hi.tam.viduḥ.//
+             <span class="ref">RgV_4,20.102</span></p>
+         
+         
+         <p id="RgV_4.20.103">
+            sapatnaghnam.prayuñjīta.ṛṣabham.japa.homayoḥ./<br />
+            yena.idam.iti.vai.nityam.japeta.niyata.vrataḥ.//
+             <span class="ref">RgV_4,20.103</span></p>
+         
+         
+         <p id="RgV_4.20.104">
+            samādhim.manasas.tena.vindate.na.eva.muhyati./<br />
+            mayo.bhūr.vāta.iti.tu.gavām.svastyayane.japet.//
+             <span class="ref">RgV_4,20.104</span></p>
+         
+         
+         <p id="RgV_4.20.105">
+            yavānām.tu.ghṛta.aktānām.kārīṣe.agnau.samāhitaḥ./<br />
+            juhuyād.goṣṭha.madhye.tu.dadhi.madhv.ājya.saṃskṛtān.//
+             <span class="ref">RgV_4,20.105</span></p>
+         
+         
+         <p id="RgV_4.21.106">
+            rājānam.abhiṣiñceta.tiṣyeṇa.śravaṇena.vā./<br />
+            pauṣṇa.sāvitra.saumya.aśvi.rohiṇīṣu.uttarāsu.ca.//
+             <span class="ref">RgV_4,21.106</span></p>
+         
+         
+         <p id="RgV_4.21.107">
+            hutvā.agnim.rāja.liṅgābhiḥ.sāvitryā.prayataḥ.śuciḥ./<br />
+            mahā.vyāhṛtibhiś.caiva.sampāta.abhihuto.bhavet.//
+             <span class="ref">RgV_4,21.107</span></p>
+         
+         
+         <p id="RgV_4.21.108">
+            sarva.oṣadhi.rasaiḥ.ślakṣṇair.nadīnām.salilena.ca./<br />
+            vyāghra.carmaṇy.atha.āsīnam.āsandyām.abhiṣicya.ca.//
+             <span class="ref">RgV_4,21.108</span></p>
+         
+         
+         <p id="RgV_4.21.109">
+            tiṣṭhan.pratyan.mukho.brūyāj.jaya.tvam.pṛthivīm.imām./<br />
+            dharmas.te.nikhilo.rājan.vardhatām.pālayan.prajāḥ.//
+             <span class="ref">RgV_4,21.109</span></p>
+         
+         
+         <p id="RgV_4.21.110">
+            vardhasva.tvam.śriyai.puṣṭyai.jayāya.abhyudayāya.ca./<br />
+            rājānaḥ.santu.te.gotre.tato.apratiratham.japet.//
+             <span class="ref">RgV_4,21.110</span></p>
+         
+         
+         <p id="RgV_4.22.111">
+            vaiyāghram.tu.bhavet.carma.samid.audumbarī.bhavet./<br />
+            tir.enam.abhiṣicya.evam.dundubhīn.abhimantrayet.//
+             <span class="ref">RgV_4,22.111</span></p>
+         
+         
+         <p id="RgV_4.22.112">
+            prācyām.tvā.diśi.vasavo.abhiṣiñcantu.tejase./<br />
+            dakṣiṇasyām.tvā.diśi.rudrā.abhiṣiñcantu.vṛddhaye.//
+             <span class="ref">RgV_4,22.112</span></p>
+         
+         
+         <p id="RgV_4.22.113">
+            pratīcyām.tvā.diśy.ādityā.abhiṣiñcantu.puṣṭaye./<br />
+            viśvedevā.udīcyām.tu.abhiṣiñcantu.śreyase.//
+             <span class="ref">RgV_4,22.113</span></p>
+         
+         
+         <p id="RgV_4.22.114">
+            abhiṣicya.ca.rājānam.āśīrbhir.abhinandya.ca./<br />
+            ā.tvā.ahārṣam.antaredhī.ity.atha.enam.abhimantrayet.//
+             <span class="ref">RgV_4,22.114</span></p>
+         
+         
+         <p id="RgV_4.22.115">
+            pataṅgam.iti.nityam.tu.japed.ajñāna.bhedanam./<br />
+            māyā.bhedanam.etadd.hi.sarva.māyāḥ.prabādhate.//
+             <span class="ref">RgV_4,22.115</span></p>
+         
+         
+         <p id="RgV_4.23.116">
+            śāmbarīm.indra.jālām.vā.māyām.etena.vārayet./<br />
+            adṛṣṭānām.ca.sattvānām.māyām.etena.bādhate.//
+             <span class="ref">RgV_4,23.116</span></p>
+         
+         
+         <p id="RgV_4.23.117">
+            tyamūṣv.iti.svastyayanam.japeta.niyata.vrataḥ./<br />
+            puṣpam.dṛṣṭvā.tu.yā.garbham.na.gṛhṇīyād.vayo.anvitā.//
+             <span class="ref">RgV_4,23.117</span></p>
+         
+         
+         <p id="RgV_4.23.118">
+            viṣṇur.yonim.nejameṣa.yonim.spṛṣṭvā.tato.japet./<br />
+            mahi.trīṇām.avo.astv.iti.pathi.svastyayane.japet.//
+             <span class="ref">RgV_4,23.118</span></p>
+         
+         
+         <p id="RgV_4.23.119">
+            pra.agnaye.atha.dviṣad.dveṣyam.japed.dveṣasya.niṣkṛtim./<br />
+            āyam.gauḥ.sārparājñīs.tu.sarvān.etena.bādhate.//
+             <span class="ref">RgV_4,23.119</span></p>
+         
+         
+         <p id="RgV_4.23.120">
+            pavitrāṇām.pavitram.tu.japed.eva.aghamarṣaṇam./<br />
+            apaḥ.praviśya.yaś.ca.etat.triḥ.paṭhet.susamāhitaḥ.//
+             <span class="ref">RgV_4,23.120</span></p>
+         
+         
+         <p id="RgV_4.24.121">
+            yathā.aśva.medha.avabhṛthas.tādṛśam.manur.abravīt./<br />
+            yathā.aśva.medhaḥ.kratu.rāṭ.sarva.pāpa.praṇodanaḥ.//
+             <span class="ref">RgV_4,24.121</span></p>
+         
+         
+         <p id="RgV_4.24.122">
+            tathā.aghamarṣaṇam.sūktam.sarva.pāpa.praṇodanam./<br />
+            senā.dāraṇam.etat.syān.nairhastyam.iti.śaunakaḥ.//
+             <span class="ref">RgV_4,24.122</span></p>
+         
+         
+         <p id="RgV_4.24.123">
+            manasādhyeyam.etat.tu.manyate.śaunakas.tv.ṛṣiḥ./<br />
+            sam.samid.yuvase.vṛṣan.saubhrātṛ.karaṇam.mahat.//
+             <span class="ref">RgV_4,24.123</span></p>
+         
+         
+         <p id="RgV_4.24.124">
+            jñāti.bhede.prayuñjīta.na.bhidyante.kadācana./<br />
+            kṛte.bhede.tu.saṃjñānam.etat.saṃdhi.karam.japet.//
+             <span class="ref">RgV_4,24.124</span></p>
+         
+         
+         <p id="RgV_4.24.125">
+            na.tatra.bhedo.bhūyaḥ.syād.yatra.etat.satatam.japet./<br />
+            tac.śamyor.ā.vṛṇīmaha.iti.svastyayane.japet.//
+             <span class="ref">RgV_4,24.125</span></p>
+         
+         
+         <p id="RgV_4.25.126">
+            mahānāmnyaḥ.param.brahma.śukram.jyotiḥ.sanātanam./<br />
+            sapatnaghnyaś.ca.puṇyāś.ca.pāvamānyaḥ.parāḥ.smṛtāḥ.//
+             <span class="ref">RgV_4,25.126</span></p>
+         
+         
+         <p id="RgV_4.25.127">
+            vṛṣṭi.kāmo.japec.ca.etā.āpo.hi.ṣṭhāḥ.sanātanāḥ./<br />
+            om.kāra.pūrvā.vyāhṛtayo.madhucchandasa.āditaḥ.//
+             <span class="ref">RgV_4,25.127</span></p>
+         
+         
+         <p id="RgV_4.25.128">
+            sūktāny.ante.mahānāmnyaḥ.saṃhitā.sā.amṛtā.smṛtā./<br />
+            amṛtatvam.yayur.devāḥ.pūrvam.sahitayā.anayā.//
+             <span class="ref">RgV_4,25.128</span></p>
+         
+         
+         <p id="RgV_4.25.129">
+            japed.etām.śucir.nityam.amṛtatvam.sa.gacchati./<br />
+            atra.eva.tv.āvapen.madhye.pitṛ.sūktāny.anekaśaḥ.//
+             <span class="ref">RgV_4,25.129</span></p>
+         
+         
+         <p id="RgV_4.25.130">
+            pitryām.tām.saṃhitām.vidyāt.pitṝn.prīṇāti.ca.etayā./<br />
+            evam.eva.samāhṛtya.vāsavī.saṃhitā.bhavet.//
+             <span class="ref">RgV_4,25.130</span></p>
+         
+         
+         <p id="RgV_4.25.131">
+            raudra.ādityā.vaiśvadevī.yad.devatyām.ca.kāmayet./<br />
+            kurvīta.vāstu.śamanam.madhye.goṣṭhasya.dharmavit.//
+             <span class="ref">RgV_4,25.131</span></p>
+         
+         
+         <p id="RgV_4.26.132">
+            puṣpair.gandhairś.ca.mālyaiś.ca.vānaspatyais.tathā.auṣadhaiḥ./<br />
+            vāstu.sarvam.pratikiret.sapta.dhānyais.tathaiva.ca.//
+             <span class="ref">RgV_4,26.132</span></p>
+         
+         
+         <p id="RgV_4.26.133">
+            vāstoṣpatim.yajec.ca.atra.pāyasena.bṛhaspatim./<br />
+            audumbara.palāśaiś.ca.balim.pratidiśam.haret.//
+             <span class="ref">RgV_4,26.133</span></p>
+         
+         
+         <p id="RgV_4.26.134">
+            sūryo.vāyur.yamaḥ.pitaro.varuṇo.nirṛtis.tathā./<br />
+            somo.mahā.indra.ity.etā.dikṣu.vai.devatāḥ.smṛtāḥ.//
+             <span class="ref">RgV_4,26.134</span></p>
+         
+         
+         <p id="RgV_4.26.135">
+            dadyād.dānam.brāhmaṇebhyaḥ.śivam.bhavati.vāstuni./<br />
+            pratisaṃvatsaram.kāryam.gṛhe.vai.gṛhamedhinā.//
+             <span class="ref">RgV_4,26.135</span></p>
+         
+         
+         <p id="RgV_4.26.136">
+            yady.evam.savidham.ca.anyad.anuktam.api.kiṃcana./<br />
+            agnim.indram.atho.vāyum.sūryam.anyāś.ca.devatāḥ.//
+             <span class="ref">RgV_4,26.136</span></p>
+         
+         
+         <p id="RgV_4.27.137">
+            ārirādhāyaṣur.yām.yām.abhidhāveta.devatām./<br />
+            abhirūpeṇa.sūktena.yathā.ādiṣṭam.prayojanam.//
+             <span class="ref">RgV_4,27.137</span></p>
+         
+         
+         <p id="RgV_4.27.138">
+            ṛṣīṇām.mantra.dṛṣṭena.pratyakṣā.siddhir.iṣyate./<br />
+            sarvatra.dakṣiṇām.dadyād.dhanam.vā.karma.siddhaye.//
+             <span class="ref">RgV_4,27.138</span></p>
+         
+         
+         <p id="RgV_4.27.139">
+            na.tv.eva.adakṣiṇam.karma.kiṃcid.asti.iti.śaunakaḥ./<br />
+            śaktyā.hi.pūrṇa.pātreṇa.sammitā.apy.antato.bhavet.//
+             <span class="ref">RgV_4,27.139</span></p>
+         
+         
+         <p id="RgV_4.27.140">
+            tasmāt.svalpā.api.dātavyā.dakṣiṇā.karma.siddhaye./<br />
+            ṛṣabha.ekādaśā.dadyād.yena.vā.tuṣyate.guruḥ./
+             <span class="ref">RgV_4,27.140</span></p>
+         
+         <p id="RgV_4.27.141">
+            dharmajñe.satya.vādini.brahma.dānam.ca.dīyate.//<br />
+            
+            tad.idam.param.brahma.guhyam.pāvanam.adbhutam./
+             <span class="ref">RgV_4,27.141</span></p>
+         
+         <p id="RgV_4.27.142">
+            na.apraśāntāya.dātavyam.na.aputrāya.atapasvine./<br />
+            na.asaṃvatsara.uṣitāya.na.aśiṣyāya.ahitāya.ca.//
+             <span class="ref">RgV_4,27.142</span></p>
+         
+         
+         <p id="RgV_5.1.1">
+            narāṇām.bhāgya.hīnānām.ṛgvidhānam.ajānatām./<br />
+            ṛgvedaḥ.kalpa.vṛkṣo.ayam.phalam.naiva.prayacchati.//
+             <span class="ref">RgV_5,1.1</span></p>
+         
+         
+         <p id="RgV_5.1.2">
+            ratna.garbha;iva.āvāsa;ṛgvedaḥ.pratibhāti.me./<br />
+            ṛgvidhāna.pardīpena.vinā.naiva.prakāśate.//
+             <span class="ref">RgV_5,1.2</span></p>
+         
+         
+         <p id="RgV_5.1.3">
+            ratnākara;iva.udāra;ṛgvedo.atyanta.duṣṭaraḥ./<br />
+            ṛgvidhāna.mahā.potam.vinā.naiva.phala.pradaḥ.//
+             <span class="ref">RgV_5,1.3</span></p>
+         
+         
+         <p>nidhānam.sarva.ratnānām.ṛgvedo..brahma.mandiram./ <span class="ref">RgV_5,1.4</span></p>
+         
+         
+         <p id="RgV_5.1.5">
+            ṛgvedaḥ.pathito.hy.eṣa.nṛṇām.bhavati.nihphalaḥ./<br />
+            ṛgvidhānam.vinā.tasmād.adhyeyam.tat.prayatnataḥ.//
+             <span class="ref">RgV_5,1.5</span></p>
+         
+         
+         <p id="RgV_5.2.1">
+            sūkta.tattva.artha.kathanam.ṛgvidhānam.avaiti.yaḥ./<br />
+            ṛgvedo.jāyate.tasya.prasādāt.phulla.mānasaḥ.//
+             <span class="ref">RgV_5,2.1</span></p>
+         
+         
+         <p id="RgV_5.2.2">
+            āyuṣyam.sampado.mūlam.sarva.kalmaṣa.nāśanam./<br />
+            ṛgvidhāna.abhyanuṣṭhānam.śubhra.kīrti.karam.param.//
+             <span class="ref">RgV_5,2.2</span></p>
+         
+         
+         <p id="RgV_5.2.3">
+            ṛgvidhānena.samyuktam.ṛgvedam.vetti.yo.dvijaḥ./<br />
+            dharma.artha.kāma.mokṣāṇām.āśrayaḥ.sa.bhaved.dhruvam.//
+             <span class="ref">RgV_5,2.3</span></p>
+         
+         
+         <p id="RgV_5.2.4">
+            vedeṣu.prathamo.veda;āyurveda.nidhiḥ.prabhuḥ./<br />
+            ṛgvidhāna.sadābhyāsād atīva.paritu;syati.//
+             <span class="ref">RgV_5,2.4</span></p>
+         
+         
+         <p id="RgV_5.2.5">
+            śatru.nāśam.manas.tuṣṭim.suhṛj.jana.samāgamān./<br />
+            ṛgvedaḥ.prayantā.nityam.ṛgvidhānena.toṣitaḥ.//
+             <span class="ref">RgV_5,2.5</span></p>
+         
+         
+         <p id="RgV_5.3.1">
+            ṛgvedam.vetti.yaḥ.sāṅgam.ṛgvidhāna.rataḥ.sadā./<br />
+            mano.rathād.apy.adhikam.bhavet.tasya.samīhitam.//
+             <span class="ref">RgV_5,3.1</span></p>
+         
+         
+         <p id="RgV_5.3.2">
+            kule.janmani.śīle.vā.prajñāyām.udyame.api.ca./<br />
+            ṛgvidhāna.parijñānād.uśanti.carita.arthatām.//
+             <span class="ref">RgV_5,3.2</span></p>
+         
+         
+         <p id="RgV_5.3.3">
+            tuṣyanti.devatāḥ.sarvāḥ.sampadyante.vibhūtayaḥ./<br />
+            durādhayaḥ.praṇaśyanti.nityam.ṛg.vidhi.pāṭhinām.//
+             <span class="ref">RgV_5,3.3</span></p>
+         
+         
+         <p>
+            yādṛśam.pustakam.dṛṣṭvā.tādṛśam.likhitam.mayā./<br />
+            yadi.śuddham.aśuddham.vā.mama.doṣo.na.dīyate./<br />
+            ārṣam.yo.vilikhitvā.tu.brāhmaṇebhyaḥ.prayacchati./<br />
+            pitaras.tasya.vaikuṇṭhe.vasanty.akṣara.saṃkhyayā./<br />
+            bhagna.pṛṣṭi.kaṭi.grīvā.baddha.muṣṭir.adho.mukham./<br />
+            kaṣṭena.likhitam.cedam.yatnena.paripālayet./<br />
+            tailād.rakṣej.jalād.rakṣed.rakṣet.śithila.bandhanāt./<br />
+            para.haste.gatām.rakṣed.evam.vadati.pustikā./
+            </p>
+         
+         </div>
+   </body>
+</html>

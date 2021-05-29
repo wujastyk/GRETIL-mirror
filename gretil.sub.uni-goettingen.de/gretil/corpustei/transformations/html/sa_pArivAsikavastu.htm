@@ -1,0 +1,408 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Pārivāsikavastu (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Pārivāsikavastu</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_pArivAsikavastu.xml">sa_pArivAsikavastu.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Klaus Wille</p>
+      <p class="noindent"><b>Contribution: </b>Klaus Wille</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>N. Dutt: Gilgit Manuscript, vol. III: Mūlasarvāstivādavinayavastu, part 3 (Srinagar
+            1943), pp. 89-103: Pārivāsikavastu (second edition: Delhi 1984).</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="hi">highlighted text</span></li>
+         <li><span class="note">remarks</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/vinv13_u.htm">vinv13_u.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Parivasikavastu of the Vinayavastvagama of the Mulasarvastivadin (= Vastu 13 of
+            the Vinayavastu)
+            <br />Based on the edition by N. Dutt: Gilgit Manuscript, vol. III: Mūlasarvāstivādavinayavastu,
+            part 3 (Srinagar 1943), pp. 89-103: Pārivāsikavastu (second edition: Delhi 1984).
+            <br />
+            <br />Input by Klaus Wille, Göttingen
+            <br />
+            <br />ABBREVIATIONS:
+            <br />GBM = Gilgit Buddhist Manuscripts (Facsimile Edition), ed. by Raghu Vira and Lokesh
+            Chandra, 10 pts., New Delhi 1959Ō1974 (Śata-Piṭaka Series 10). (The Vinayavastu manuscript
+            is reproduced in vol. 6) [repr. in 3 parts Delhi 1995. (The Vinayavastu manuscript
+            is reproduced in vol. 2)]
+            <br />
+            <br />MSV III = Gilgit Manuscript, ed. N. Dutt, vol. III, part 3, Srinagar 1943.
+            <br />
+            <br />BOLD for references
+            <br />ITALICS for restored passages
+            <br />
+            <br />Some of Dutt's reading have been corrected by K. Wille according to the manuscript,
+            for example:
+            <br /><span class="it">buddhaṃ bhagavataṃ</span> (p. 94.1); MS: <span class="it">buddhā bhagavantaḥ</span>
+            
+            <br /><span class="it">yat tv ahaṃ</span>; MS: <span class="it">yanv ahaṃ</span>
+            
+            <br /><span class="it">udālī</span>; MS: <span class="it">upālī</span>
+            
+            <br /><span class="it">duṣṭatayā</span>; MS: <span class="it">duṣkṛtayā</span>
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         <span class="note"><span class="bold">MSV III 89</span></span>
+         
+         <p>vastutrayasya piṇḍoddānam* /</p>
+         
+         
+         <p>
+            abhivādanaṃ ca ṣaṣṭiś ca aśuddhaś codanāhi ca /<br />
+            adhārmikaś ca śākyaś ca glānakaḥ kalahena ca //
+            </p>
+         
+         <span class="note"><span class="bold">MSV III 91</span></span>
+         
+         <p>Pārivāsikavastu</p>
+         
+         <span class="note"><span class="bold">MSV III 93</span></span>
+         
+         <p>pārivāsikavastūddānam* /</p>
+         
+         
+         <p>abhivādanaṃ caṃkramaṇamāsanāni kulāni ca /
+            ekacchadane na saṃvasen na pravrājayed api /
+            na gacched api abhikṣukam (<span class="bold">309v1 = GBM 6.931</span>) āvāsam adhodeśañ ca sarvalābhikam* //</p>
+         
+         
+         <p>buddho bhagavān śrāvastyāṃ viharati jetavane anāthapiṇḍadasyārāme / asati vairāgye
+            bhikṣavaḥ saṃghāvaśeṣām āpattim āpadyante / te vipratisārajātāḥ saṃlakṣayanti / katham
+            idānīṃ vayaṃ sāpattikāḥ santaḥ sakaukṛtyāḥ savilolāḥ sakaraṇīyāḥ khaṇḍakāriṇaḥ śavalakāriṇaḥ
+            kalmaṣakāriṇaḥ āpattimūlād avyutthitāḥ prakṛtisthakānāṃ bhikṣūṇām antikād abhivādanavandanapratyutthānāṃjalisāmīcīkarma
+            svīkariṣyāmaḥ / śrāddhānāṃ ca brāhmaṇagṛhapatīnāṃ sakāśād agrāsanam agrodakam agrapiṇḍapātaṃ
+            paribhokṣyāmaḥ / alpakālikasya ca sukhasyārthāya bahukālikaṃ duḥkham āviśāmo narakatīryakpretebhyaḥ
+            paribhramantaḥ / yan nu vayaṃ śikṣāṃ pratyākhyāya hānāyāvartāmaha iti te śikṣāṃ pratyākhyāya
+            hānāyāvartante / pravrajyābhilaṣitaṃ ca janaṃ vipralambhayanti / bhavanto duścaraṃ
+            brahmacaryam alaṃ pravrajyayeti / teṣām apravrajitā<span class="it">nā</span>m apravrāja<span class="it">ya</span>tāṃ cālpībhūtā bhikṣavaḥ / kṣayam (<span class="bold">MSV III 94</span>) āpannaś chidrībhūtas tanubhūto bhikṣusaṃghaḥ / jānakāḥ pṛcchakā buddhā bhagavantaḥ
+            pṛcchanti / buddho bhagavān āyuṣmantam ānanadam* / ka ānanda hetuḥ kaḥ pratyayaḥ yenetarhy
+            alpībhūtā bhikṣavaḥ / kṣayam āpannaś chidrībhūtas tanubhūto bhikṣusaṃgha iti / sa
+            etat prakaraṇaṃ bhagavato vistareṇārocayati /</p>
+         
+         
+         <p>atha bhagavata etad abhavat* / yanv ahaṃ saṃghāvaśeṣām āpattim āpannānāṃ bhikṣūṇāṃ
+            hastoddhāram anupradadyām anugraham aneneti viditvā <span class="it">bhikṣu</span>saṃghaṃ saṃnipātya purastād bhikṣusaṃghasya prajñapta evāsane niṣaṇṇaḥ / niṣadya bhagavān
+            bhikṣūn āmantrayate sma / śrutaṃ mayā bhikṣavaḥ saṃghāvaśeṣām āpattim āpannā vipratisārajātāḥ
+            śikṣāṃ pratyākhyāya hānāyāvṛttā iti / tasmād yuṣmābhiḥ śāsanasthitaye teṣāṃ cānukampayā
+            saṃghāvaśeṣām āpattim āpannānāṃ bhikṣūṇāṃ parivāso deyo mūlāpakarṣo mānāpyaṃ mūlamānāpyaṃ
+            mūlāpakarṣamānāpyam āvarhitavyaś ca /</p>
+         
+         
+         <p>evaṃ ca punar deyaḥ / śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn
+            samanuyujya sarvasaṃghe saṃniṣaṇṇe saṃnipatite apaścimakena bhikṣuṇā parivāso deyaś
+            caturvargamaṇḍalakena / saṃghāvaśeṣakeṇa bhikṣuṇā yathāvṛddhikayā sāmīcīṃ kṛtvā vṛddhānte
+            utkuṭukena sthitvāñjaliṃ pragṛhya parivāso yācitavyaḥ / evaṃ ca punar yācitavyaḥ /</p>
+         
+         <span class="note"><span class="bold">MSV III 95</span></span>
+         
+         <p>śṛṇotu bhadantaḥ saṃghaḥ / aham evaṃnāmā bhikṣuḥ saṃbahulāḥ saṃghāvaśeṣā āpattīr āpannaḥ
+            saṃcintyaśukravisṛṣṭisamutthitām ardhamāsapraticchannām* / so 'ham evaṃnāmā bhikṣus
+            tāsāṃ saṃbahulānāṃ saṃghāvaśeṣāṇāṃ āpattīnāṃ saṃcintyaśukravisṛṣṭisamutthitām ardhamāsapraticchannāṃ
+            saṃghād ardhamāsaṃ parivāsaṃ yāce / dadātu me bhadantaḥ saṃgho mamaivaṃnāmno bhikṣor
+            āsāṃ saṃbahulānāṃ saṃghāvaśeṣāṇāṃ āpattīnāṃ saṃcintyaśukravisṛṣṭisamutthitānām ardhamāsapraticchannānām
+            ardhamāsaṃ parivāsam anukaṃpayānukaṃpām upādāya / evaṃ dvir api trir api / tataḥ paścād
+            ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyam* /</p>
+         
+         
+         <p>śṛṇotu bhadantaḥ saṃghaḥ / ayam evaṃnāmā bhikṣuḥ saṃbahulāḥ saṃghāvaśeṣā (<span class="bold">310r1 = GBM 6.932</span>) āpattīr āpannaḥ saṃcintyaśukravisṛṣṭisamutthitām ardhamāsapraticchannām* / so 'yam
+            evaṃnāmā bhikṣur āsāṃ <span class="it">saṃ</span>bahulānāṃ saṃghāvaśeṣāṇām āpattīnāṃ saṃcintyaśukravisṛṣṭisamutthitānām ardhamāsapraticchannānāṃ
+            saṃghād ardhamāsaṃ parivāsaṃ yācate / sacet saṃghasya prāptakālaṃ kṣametānujānīyāt
+            saṃgho yat saṃghaḥ evaṃnāmnor bhikṣor āsāṃ saṃbahulānāṃ saṃghāvaśeṣāṇāṃ āpattīnāṃ
+            saṃcintyaśukravisṛṣṭisamutthitānām ardhamāsapraticchannānām ardhamāsaṃ parivāsaṃ dadyāt*
+            / ity eṣā jñaptiḥ / karma kartavyam* /</p>
+         
+         
+         <p>śṛṇotu bhadantaḥ saṃghaḥ / ayam evaṃnāmā bhikṣuḥ saṃbahulāḥ saṃghāvaśeṣā āpattīr āpannaḥ
+            saṃcintyaśukravisṛṣṭisamutthitā ardhamāsapraticchannāḥ / so 'yam evaṃnāmā bhikṣur
+            āsāṃ saṃbahulānāṃ saṃghāvaśeṣāṇām āpattīnāṃ saṃcintyaśukravisṛṣṭisamutthitānām ardhamāsapraticchannānāṃ
+            (<span class="bold">MSV III 96</span>) saṃghād ardhamāsaṃ parivāsaṃ yācate / tat saṃghaḥ evaṃnāmnor bhikṣor āsāṃ <span class="it">saṃ</span>bahulānāṃ saṃghāvaśeṣāṇām āpattīnāṃ saṃcintyaśukravisṛṣṭisamutthitānām ardhamāsaṃ
+            parivāsaṃ dadāti / eṣām āyuṣmatāṃ kṣāmante evaṃnāmnor bhikṣor āsāṃ saṃbahulānāṃ saṃghāvaśeṣāṇām
+            āpattīnāṃ saṃcintyaśukravisṛṣṭisamutthitānām ardhamāsapraticchannānām ardhamāsaṃ parivāsaṃ
+            dātuṃ te tūṣṇīm* / na kṣamante bhāṣantām* / iyaṃ prathamā karmavācanā vaktavyā / dattaḥ
+            saṃghena evaṃnāmnor bhikṣor āsāṃ saṃbahulānāṃ saṃghāvaśeṣāṇām āpattīnāṃ saṃcintyaśukravisṛṣṭisamutthitānām
+            ardhamāsapraticchannānām ardhamāsaṃ parivāsaḥ / kṣāntam anujñātaṃ saṃghena yasmāt
+            tūṣṇīm evam etad dhārayāmi / uktaṃ bhagavatā / parivāso dātavyo mūlaparivāsa iti vistaraḥ
+            /</p>
+         
+         
+         <p>ṣaḍvargikā bhikṣavaḥ pārivāsikamānāpyacārikāḥ santaḥ prakṛtisthakānāṃ bhikṣūṇām antikād
+            abhivādanavandanapratyutthānāṃjalisāmīcīkarma svīkurvanti / alpārthā bhikṣavo 'vadhyāyanti
+            kṣipanti vivācayanti tad idaṃ na cchekaṃ na pratirūpaṃ yatredānīṃ pārivāsikamānāpyacārikā
+            bhikṣavaḥ prakṛtisthakānāṃ bhikṣūṇām antikād abhivādanavandanapratyutthānāṃjalisāmīcīkarma
+            svīkurvanti / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / pārivāsikamānāpyacārikāṇām
+            ahaṃ bhikṣavo bhikṣūṇām āsamudācārikān dharmān prajñapayāmi / pārivāsikamānāpyacārikair
+            bhikṣubhiḥ prakṛtisthakānāṃ bhikṣūṇām antikād abhivādanavandana<span class="it">pratyu</span>tthānāṃjalisāmīcīkarma <span class="it">na</span> svīkartavyam* / naikāsane niṣattavyam* (<span class="bold">MSV III 97</span>) / nāpi samāsane / sacen niṣīdanti nīcataram āsanaṃ gṛhītvā niṣattavyam* / na caṃkrame
+            yugapac chaṃkramitavyam* / nāpy agrataḥ / sacec caṃkrame caṃkramanti padaparihāṇikayā
+            / na brāhmaṇakulāni upasaṃkramitavyam* / saced upasaṃkramanti paścācchramaṇanyāyena
+            / naikac chadane vastavyam* / na pravrājayitavyam* / nopasaṃpādayitavyam* / na niśrayo
+            deyaḥ / na śramaṇoddeśī upasthāpayitavyaḥ / na karma kartavyam* / na karmakārakaḥ
+            saṃmantavyaḥ / na bhikṣuṇyo 'vavaditavyāḥ / na bhikṣuṇyavavādakaḥ saṃmantavyaḥ / na
+            pūrvasaṃmatena bhikṣuṇyo 'vavaditavyāḥ / na bhikṣuś codayitavyaḥ (<span class="bold">310v1 = GBM 6.933</span>) smārayitavyaḥ śīlavipattyā dṛṣṭivipattyā ācāravipattyā ājīvavipattyā / nānenāvavādaḥ
+            sthāpayitavyaḥ / na poṣadho na pravāraṇā na jñaptir na jñaptidvitīyaṃ na jñapticaturthaṃ
+            karma / kālyam evotthāya dvāraṃ bhoktavyam* / dīpasthālaka udvartavyaḥ / vihāraḥ sektavyaḥ
+            / saṃmārṣṭavyaḥ / sukumārī gomayakārṣī anupradātavyā / prasrāvoccārakuṭī dhāvayitavyā
+            / mṛttikā upasthāpayitavyā pātrāṇi pānīyaṃ śītalaṃ vā kālānurūpataḥ / praṇāḍikāmukhāni
+            dhāvayitavyāni / kālaṃ jñātvāsanaprajñaptiṃ kṛtvā dhūpakaṭacchūke dhūpaś copasthāpayitavaḥ
+            / sacet pratibalo bhavati śāstur guṇasaṃkīrtanaṃ kartuṃ svayam eva kartavyam* / noced
+            bhāṣaṇakaḥ praṣṭavyaḥ upānvāhāraṃ pratyavekṣyopānvāhṛtaṃ cec charaṇapṛṣṭham abhiruhya
+            gaṇḍīr (<span class="bold">MSV III 98</span>) dātavyā / nidāghakāle bhikṣūṇāṃ vyajanaṃ grahītavyam* / tataḥ sarvopasaṃpannānāṃ
+            copariṣṭāc chānteneryāpathavartinā bhikṣusaṃgham upasthāpya bhoktavyam* / kṛtabhaktakṛtyena
+            śayanāsanaṃ channe gopayitavyam* / pātrādhiṣṭhānaṃ chorayitavyam* / kālaṃ jñātvā tathāgatakeśanakhastūpāḥ
+            saṃmārṣṭavyāḥ sukumārī gomayakārṣī anupradātavyā / sāmagrīvelāyāṃ punaḥ śayanāsanaprajñaptiḥ
+            kartavyā / dhūpakaṭacchuke <span class="it">dhūpa</span> upasthāpayitavyaḥ / śastur guṇasaṃkīrtanaṃ pūrvavat kartavyam* / divasa ārocayitavyaḥ
+            / śṛṇotu bhadantaḥ saṃghaḥ / adya pakṣaya daśamīty evamādi yathā upadhivārikā ārocayanti
+            / tataḥ parivāsa ārocayitavyaḥ / śṛṇotu bhadantaḥ saṃghaḥ / aham evaṃnāmā bhikṣur
+            evaṃrūpāṃ caivaṃrūpāṃ ca saṃghāvaśeṣām āpattim āpanna iyatkālapraticchannām* / tasya
+            mama saṃghena iyatkālaṃ parivāso dattaḥ / tato mayā iyaccaritaṃ śiṣṭaṃ caritavyam*
+            / pārivāsikaṃ māṃ bhadantaḥ saṃgho dhārayatu mānāpyacārikaṃ ceti /</p>
+         
+         
+         <p>uktaṃ bhagavatā / parivāsa ārocayitavyaḥ / ity āgantukānāṃ nārocayati / bhagavān āha
+            / āgantukānām ārocayitavyam iti / uktaṃ bhagavatā / āgantukānām apy ārocayitavyam
+            iti / anyatamaś ca bhikṣur āgantuka āgataḥ / sa yāvan na pātracīvaraṃ sthāpayati tāvat
+            pārivāsiko 'sya purataḥ sthitvā kathayati / samanvāhara mām āyuṣmann (<span class="bold">MSV III 99</span>) aham evaṃnāmā bhikṣuḥ saṃghāvaśeṣām āpattim āpannaḥ / pūrvavad yāvat pārivāsikaṃ
+            mām āyuṣmān dharayatv iti /</p>
+         
+         
+         <p>sa tasyāntike paryavasthitaḥ kathayati / apehi mama purastān mohapuruṣa mā parivāso
+            mā tvam iti / sa lajjāparigatahṛdayo 'vāṅmukho mandagatipracāratayā tasya bhikṣoḥ
+            sakāśāt prakrāntaḥ / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha
+            / āgantukasya bhikṣoḥ pātracīvare apratiśāmite nārocayitavyam* / api tu na ekaikasyārocayitavyam*
+            / kiṃ tu sarvasaṃghe saṃniṣaṇṇe saṃnipatita iti / bhagavān āha / gaṇḍyām ākoṭitāyāṃ
+            yathā saṃnihitānām ārocayitavyam* /</p>
+         
+         
+         <p>na cānenābhikṣukaṃ vihāraṃ gantavyam* / saced gacchati na tatra vastavyam* /</p>
+         
+         
+         <p>vikāle bhikṣūṇām uṣṇena śītāmbunā vā yathākālaṃ pādāḥ śocitavyāḥ / mrakṣayitavyāḥ
+            / na ced icchanti / snehalābhopasaṃhāraḥ kartavyaḥ / tataḥ smṛtim upasthāpya utthānasaṃjñinā
+            śayyā kalpayitavyā /</p>
+         
+         
+         <p>pārivāsikamānāpyacārikā (<span class="bold">311r1 = GBM 6.934</span>) bhikṣavo yathā prajñaptān āsamudācārikān dharmān na samādāya vartante sātisārā bhavanti
+            /</p>
+         
+         
+         <p>tasya vihāraṃ noddiśanti / lābhaṃ nānuprayacchanti / bhagavān āha / sarvapaścāt tasya
+            vihāra uddeṣṭavyaḥ / sarvapaścāc ca lābho deyaḥ /</p>
+         
+         <span class="note"><span class="bold">MSV III 100</span></span>
+         
+         <p>uddānam* /</p>
+         
+         
+         <p>
+            ṣaṣṭiśataṃ kuryāt pudgalaś caiva viṃśikāt* /<br />
+            saṃghe mānāpyaṃ caritavyam āgatāḥ prativaikārikāḥ //
+            </p>
+         
+         
+         <p>ṣaḍvargikāḥ pārivāsikamānāpyacārikāḥ santo bhikṣūṇāṃ <span class="it">parivāsaṃ</span> pradadati / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / na caturbhiḥ
+            pārivāsikair bhikṣoḥ parivāso dātavyaḥ / na tribhiḥ pārivāsikair ekena prakṛtisthena
+            / na dvābhyāṃ pārivāsikābhyāṃ dvābhyāṃ prakṛtisthakābhyām* / naikena pārivāsikena
+            na tribhiḥ prakṛtisthakaiḥ / kin tu sarvaiḥ pariśuddhaiḥ samānadṛṣṭibhir bhikṣoḥ parivāso
+            dātavyaḥ /</p>
+         
+         
+         <p>yathā pārivāsikair evaṃ mūlapārivāsikair mānāpyacārikaiś caritamānāpyaiḥ /</p>
+         
+         
+         <p>yathā parivāsam evaṃ mūlaparivāsaṃ mūlāpakarṣaṃ mānāpyaṃ mūlamānāpyaṃ mūlāpakarṣamānāpyaṃ
+            ca /</p>
+         
+         
+         <p>ṣaḍvargikā bhikṣavaḥ pārivāsikamānāpyacārikāḥ santo bhikṣūn āvarhanti / etat prakaraṇaṃ
+            bhikṣavo bhagavata ārocayanti / bhagavān āha / na viṃśatyā pārivāsikair bhikṣur āvarhitavyaḥ
+            / na ekonaviṃśatyā pārivāsikair ekena prakṛtisthakena / nāṣṭādaśabhiḥ pārivāsikair
+            dvābhyāṃ prakṛtisthakābhyām evaṃ yāvan na ekonaviṃśatyā prakṛtisthakair ekena <span class="it">pārivāsikena</span> /</p>
+         
+         <span class="note"><span class="bold">MSV III 101</span></span>
+         
+         <p>yathā pārivāsikair evaṃ paryuṣitaparivāsair mānāpyaiś cāritamānāpyaiḥ śikṣādattakaiś
+            ca /</p>
+         
+         
+         <p>ṣaḍvargikā bhikṣavaḥ pārivāsikamānāpyacārikāḥ santaḥ pārivāsikānāṃ bhikṣūṇām antike
+            parivāsaṃ caranti / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha /
+            na bhikṣuṇā caturṇāṃ pārivāsikānām antikāt parivāsaś caritavyaḥ / na trayāṇāṃ pārivāsikānām
+            ekasya prakṛtisthakasya / na dvayoḥ pārivāsikayor dvayoḥ prakṛtistha<span class="it">ka</span>yoḥ / na trayāṇāṃ prakṛtisthakānām ekasya pārivāsikasya / api tu sarveṣāṃ pariśuddhānāṃ
+            samānadṛṣṭikānām antikāt parivāsaś caritavyaḥ /</p>
+         
+         
+         <p>yathā pārivāsikānām evaṃ paryuṣitapārivāsikānāṃ mānāpyacārikāṇāṃ cāritamānāpyānāṃ
+            śikṣādattakānāṃ ca /</p>
+         
+         
+         <p>yathā parivāsam evaṃ mūlaparivāsaṃ mūlāpakarṣaṃ mānāpyaṃ mūlamānāpyaṃ mūlāpakarṣamānāpyaṃ
+            caranti /</p>
+         
+         
+         <p>ṣaḍvargikā bhikṣavaḥ pārivāsikamānāpyacārikāḥ santaḥ śūnyavihāraṃ gatvā parivāsaṃ
+            caranti / te bhikṣubhir dṛṣṭā uktāś ca / āyuṣmantaḥ kim eṣa vihāro yuṣmābhir āvāsitaḥ
+            / te kathayanti / nāyam asmābhir āvāsitaḥ / kiṃ tu parivāsaṃ carāma iti / te kathayanti
+            / yūyaṃ parivāsaṃ carathā / kiṃ tarhi pracchādyanti / tair abhyāhatās tūṣṇīm avasthitāḥ
+            / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / na bhikṣavaḥ śūnyāgāre
+            parivāsaś caritavyo nāpi yatraiko bhikṣur dvau trayo vā / api tu yatra (<span class="bold">MSV III 102</span>) catvāro bhikṣavaḥ pariśuddhāḥ samānadṛṣṭayaḥ prativasanti tatra parivāsaś caritavyaḥ
+            /</p>
+         
+         <span class="note"><span class="bold">311v1 = GBM 6.935</span></span>
+         
+         <p>yathā parivāsa evaṃ mūlaparivāso mūlāpakarṣo mānāpyaṃ mūlamānāpyaṃ mūlāpakarṣamānāpyaṃ
+            ca /</p>
+         
+         
+         <p>athāyuṣmān upālī buddhaṃ bhagavantaṃ pṛcchati / yathāpi tad bhadanta pārivāsikamānāpyacārikaiḥ
+            <span class="it">śrutaṃ</span> bhikṣava āgacchanti kalahakārakā bhaṇḍanakārakā vigrahakārakā vivādakārakā ādhikaraṇikāḥ
+            / te 'smāṃś codayiṣyanti alajjitena vā vaitarikeṇa vā iti / tais teṣāṃ kathaṃ pratipattavyam
+            iti / bhagavān āha / pārivāsikamānāpyacārikair upālin bhikṣubhiḥ kalahakārakā bhikṣava
+            āgacchantīti śrutvā sa parivāso bhikṣoḥ purastāt pratinisraṣṭavyaḥ / evaṃ ca punaḥ
+            pratinisraṣṭavyaḥ / samīcīṃ kṛtvā utkuṭukena sthitvāñjaliṃ pragṛhya idaṃ syād vacanīyam*
+            / samanvāharāyuṣmann aham evaṃnāmā evaṃrūpāṃ caivaṃrūpāṃ ca saṃghāvaśeṣām āpattim
+            āpannaḥ iyaccirakālapraticchannām* / tasya mama saṃghena iyantaṃ kālaṃ parivāso dattaḥ
+            / tena mayā pārivāsikena satā śrutaṃ bhikṣava āgacchanti kalahakārakā bhaṇḍanakārakā
+            vigrahakārakā vivādakārakā ādhikaraṇikās te māṃ codayiṣyanti smārayiṣyanti alajjitena
+            vā vaitarikeṇa vā / so 'ham evaṃnāmā pārivāsiko bhikṣus taṃ parivāsam āyuṣmataḥ purastāt
+            pratinisṛjāmi / iyatkālaṃ me caritam iyatkālaṃ tu caritavyam* / prakṛtisthakaṃ (<span class="bold">MSV III 103</span>) māmāyuṣman dhārayatv iti / tataḥ punar api gatavegair hatavegair gatapratyarthikais
+            tathaiva prakṛtisthakasya bhikṣoḥ purastāt parivāsaḥ samādātavyaḥ / evam ca punaḥ
+            samādātavyaḥ / samīcīṃ kṛtvā utkuṭukena sthitvāñjaliṃ pragṛhya idaṃ syād vacanīyam*
+            / samanvāharāyuṣmann aham evaṃnāmā bhikṣur evaṃrūpāṃ caivaṃrūpāṃ ca saṃghāvaśeṣām
+            āpattim āpannaḥ iyaccirakālapraticchannām* / tasya mama saṃghena iyantaṃ kālaṃ parivāso
+            dattaḥ / tena mayā pārivāsikena śrutaṃ bhikṣava āgacchanti kalahakārakā bhaṇḍanakārakā
+            vigrahakārakā vivādakārakā ādhikaraṇikās te māṃ codayiṣyanti smārayiṣyanti alajjitena
+            vā vaitarikeṇeti / tan mayā pārivāsikavṛttaṃ bhikṣoḥ purastāt pratinisṛṣṭam* / so
+            'ham evaṃnāmā bhikṣus taṃ parivāsam āyuṣmataḥ purastāt samādade / iyatkālaṃ me caritam
+            iyatkālaṃ me kartavyaṃ bhaviṣyati / pārivāsikaṃ māmāyuṣman dhārayatu /</p>
+         
+         
+         <p>yathā parivāsa evaṃ mūlaparivāso mūlāpakarṣo mānāpyaṃ ca /</p>
+         
+         
+         <p>pārivāsikavastu samāptam* //</p>
+         
+         </div>
+   </body>
+</html>

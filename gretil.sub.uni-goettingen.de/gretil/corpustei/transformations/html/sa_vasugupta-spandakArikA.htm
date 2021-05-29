@@ -1,0 +1,480 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Vasugupta: Spandakārikā (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Vasugupta: Spandakārikā</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vasugupta-spandakArikA.xml">sa_vasugupta-spandakArikA.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Marino Faliero</p>
+      <p class="noindent"><b>Contribution: </b>Marino Faliero</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="note">remarks</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/saiva/spandkau.htm">spandkau.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Vasugupta (?): Spanda-Karika
+            	 <br />
+            	 <br />Input by Marino Faliero
+            	 <br />
+            	 <br />Date: July 1998
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>prathamo niḥṣyandaḥ</p>
+         
+         
+         <p>
+            yasyonmeṣanimeṣābhyāṃ jagataḥ pralayodayau |<br />
+            taṃ śakticakravibhavaprabhavaṃ śaṅkaraṃ stumaḥ || 1 ||
+            </p>
+         
+         
+         <p>
+            yatra sthitam idaṃ sarvaṃ kāryaṃ yasmāc ca nirgataṃ |<br />
+            tasyānāvṛtarūpatvān na nirodho 'sti kutracit || 2 ||
+            </p>
+         
+         
+         <p>
+            jāgradādi vibhede 'pi tadabhinne prasarpati |<br />
+            nivartate nijānnaiva svabhāvād upalabdhṛtaḥ || 3 ||
+            </p>
+         
+         
+         <p>
+            ahaṃ sukhī ca duḥkhī ca raktaś ca ityadisamvidaḥ |<br />
+            sukhādyavasthānusyūte vartante 'nyatra tāḥ sphuṭam || 4 ||
+            </p>
+         
+         
+         <p>
+            na duḥkhaṃ na sukhaṃ yatra na grāhyam grāhakaṃ na ca |<br />
+            na cāsti mūḍhabhāvo 'pi tad asti paramārthataḥ || 5 ||
+            </p>
+         
+         
+         <p>
+            yataḥ karaṇavargo 'yaṃ vimūḍho 'mūḍhavat svayam |<br />
+            sahāntareṇa cakreṇa pravṛttisthitisaṃhṛtiḥ || 6 ||
+            </p>
+         
+         
+         <p>
+            labhate tatprayatnena parīkṣyaṃ tattvam ādarāt |<br />
+            yataḥ svatantratā tasya sarvatreyam akṛtrimā || 7 ||
+            </p>
+         
+         
+         <p>
+            na hīcchānodanasyāyam prerakatvena vartate |<br />
+            api tv ātmabalasparśāt puruṣas tatsamo bhavet || 8 ||
+            </p>
+         
+         
+         <p>
+            nijāśuddhyāsamarthasya kartavyeṣv abhilāṣiṇaḥ |<br />
+            yadā kṣobhaḥ pralīyeta tadā syāt paramam padam || 9 ||
+            </p>
+         
+         
+         <p>
+            tadāsyākṛtrimo dharmo jñatvakartṛtvalakṣaṇah |<br />
+            yatas tadepsitaṃ sarvaṃ jānāti ca karoti ca || 10 ||
+            </p>
+         
+         
+         <p>
+            tam adhiṣṭhātṛbhāvena svabhāvam avalokayan |<br />
+            smayamāna ivāste yas tasyeyaṃ kusṛtiḥ kutaḥ || 11 ||
+            </p>
+         
+         
+         <p>
+            nābhāvo bhāvyatām eti na ca tatrāsty amūḍhatā |<br />
+            yato 'bhiyogasaṃsparśāt tadāsid iti niścayah || 12 ||
+            </p>
+         
+         
+         <p>
+            atas tatkṛtrimaṃ jñeyaṃ sauṣuptapadavat sadā |<br />
+            na tv evaṃ smaryamāṇatvaṃ tat tattvam pratipadyate || 13 ||
+            </p>
+         
+         
+         <p>
+            avasthāyugalaṃ cātra kāryakartṛtvaśabditam |<br />
+            kāryatā kṣayiṇī tatra kartṛtvam punar akṣayam || 14 ||
+            </p>
+         
+         
+         <p>
+            kāryonmukhaḥ prayatno yaḥ kevalaṃ so 'tra lupyate |<br />
+            tasmin lupte vilupto 'smīty abudhaḥ pratipadyate || 15 ||
+            </p>
+         
+         
+         <p>
+            na tu yo 'ntarmukho bhāvah sarvajñātvaguṇāspadam |<br />
+            tasya lopaḥ kadācit syād anyasyānupalambhanāt || 16 ||
+            </p>
+         
+         
+         <p>
+            tasyopalabdhiḥ satataṃ tripadāvyabhicāriṇī |<br />
+            nityaṃ syāt suprabuddhasya tadādyante parasya tu || 17 ||
+            </p>
+         
+         
+         <p>
+            jñānajñeyasvarūpiṇyā śaktyā paramayā yutaḥ |<br />
+            padadvaye vibhur bhāti tadanyatra tu cinmayaḥ || 18 ||
+            </p>
+         
+         
+         <p>
+            guṇādispandaniḥṣyandāḥ sāmānyaspandasaṃśrayāt |<br />
+            labdhātmalābhaḥ satataṃ syur jñasyāparipanthinaḥ || 19 ||
+            </p>
+         
+         
+         <p>
+            aprabudhadhiyas tv ete svasthitisthaganodyatāḥ |<br />
+            pātayanti duruttāre ghore saṃsāravartmani || 20 ||
+            </p>
+         
+         
+         <p>
+            ataḥ satatam udyuktaḥ spandatattvaviviktaye |<br />
+            jāgrad eva nijam bhāvam acireṇādhigacchati || 21 ||
+            </p>
+         
+         
+         <p>
+            atikruddhaḥ prahṛṣṭo vā kiṃ karomīti vā mṛśan |<br />
+            dhāvan va yat padaṃ gacchet tatra spandaḥ pratiṣṭhitaḥ || 22 ||
+            </p>
+         
+         
+         <p>
+            yām avasthāṃ samālambya yad ayam mama vakṣyati |<br />
+            tadavaśyaṃ kariṣye 'ham iti saṃkalpya tiṣṭhati || 23 ||
+            </p>
+         
+         
+         <p>
+            tām aśrityordhvamārgeṇa candrasūryāv ubhāv api |<br />
+            sauṣumne 'dhvanyastamito hitvā brahmā.ṅdagocaram || 24 ||
+            </p>
+         
+         
+         <p>
+            tadā tasmin mahāvyomni pralīnaśaśibhāskare |<br />
+            sauṣuptapadavan mūḍhaḥ prabuddhaḥ syād anāvṛtaḥ || 25 ||
+            </p>
+         
+         
+         <p>dvitīyo niḥṣyandaḥ</p>
+         
+         
+         <p>
+            tadākramya balam mantrāḥ sarvajñābalaśālinaḥ |<br />
+            pravartante 'dhikārāya karaṇānīva dehinām || 1 ||
+            </p>
+         
+         
+         <p>
+            tatraiva sampralīyante śāntarūpā nirañjanāḥ |<br />
+            sahārādhakacittena tenaite śivadharmiṇaḥ || 2 ||
+            </p>
+         
+         
+         <p>
+            yasmāt sarvamayo jīvaḥ sarvabhāvasamudbhavāt |<br />
+            tatsaṃvedanarūpeṇa tādātmyapratipattitaḥ || 3 ||
+            </p>
+         
+         
+         <p>
+            tasmāc chabdārthacintāsu na sāvasthā na yā śivaḥ |<br />
+            bhoktaiva bhogyabhāvena sadā sarvatra saṃsthitaḥ || 4 ||
+            </p>
+         
+         
+         <p>
+            iti vā yasya saṃvittiḥ krīḍātvenākhilaṃ jagat |<br />
+            sa paśyan satataṃ yukto jīvanmukto na saṃśayaḥ || 5 ||
+            </p>
+         
+         
+         <p>
+            ayam evodayas tasya dhyeyasya dhyāyicetasi |<br />
+            tadātmatāsamāpattir icchataḥ sādhakasya yā || 6 ||
+            </p>
+         
+         
+         <p>
+            iyam evāmṛtaprāptir ayam evātmano grahaḥ |<br />
+            iyaṃ nirvāṇa-dīkṣā ca śivasadbhāvadāyini || 7 ||
+            </p>
+         
+         
+         <p>tṛtīyo niḥṣyandaḥ</p>
+         
+         
+         <p>yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān
+            somasūryodayaṃ kṛtvā sampādayati dehinaḥ || 1 |</p>
+         
+         
+         <p>
+            tathā svapne 'py abhīṣṭārthān praṇayasyānatikramāt |<br />
+            nityaṃ sphuṭataraṃ madhye sthito 'vaśyaṃ prakāśayet || 2 ||
+            </p>
+         
+         
+         <p>
+            anyathā tu svatantrā syāt sṛṣṭis taddharmakatvataḥ |<br />
+            satataṃ laukikasyeva jāgratsvapnapadadvaye || 3 ||
+            </p>
+         
+         
+         <p>
+            yathā hi artho 'sphuṭo dṛṣṭaḥ sāvadhāne 'pi cetasi |<br />
+            bhūyaḥ sphuṭataro bhāti svabalodyogabhāvitaḥ || 4 ||
+            </p>
+         
+         
+         <p>
+            tathā yat paramārthena yena yatra yathā sthitam |<br />
+            tat tathā balam ākramya na cirāt sampravartate || 5 ||
+            </p>
+         
+         
+         <p>
+            durbalo 'pi tadākramya yataḥ kārye pravartate |<br />
+            ācchādayed bubhukṣāṃ ca tathā yo 'ti bubhukṣitaḥ || 6 ||
+            </p>
+         
+         
+         <p>
+            anenādhiṣṭhite dehe yathā sarvajñatādayaḥ |<br />
+            tathā svātmany adhiṣṭhānāt sarvatraivam bhaviṣyati || 7 ||
+            </p>
+         
+         
+         <p>
+            glānir vilu.ṅthikā dehe tasyāścājñānataḥ sṛtiḥ |<br />
+            tad unmeṣaviluptaṃ cet kutaḥ sā syād ahetukā || 8 ||
+            </p>
+         
+         
+         <p>
+            ekacintāprasaktasya yataḥ syād aparodayaḥ |<br />
+            unmeṣaḥ sa tu vijñeyaḥ svayaṃ tam upalakṣayet || 9 ||
+            </p>
+         
+         
+         <p>
+            ato bindur ato nādo rūpam asmād ato rasaḥ |<br />
+            pravartante 'cireṇaiva kṣobhakatvena dehinaḥ || 10 ||
+            </p>
+         
+         
+         <p>
+            didṛkṣayeva sarvārthān yadā vyāpyāvatiṣṭhate |<br />
+            tadā kiṃ bahunoktena svayam eva avabhotsyate || 11 ||
+            </p>
+         
+         
+         <p>
+            prabuddhaḥ sarvadā tiṣṭhej jñānenālokya gocaram |<br />
+            ekatrāropayet sarvaṃ tato 'nyena na pīḍyate || 12 ||
+            </p>
+         
+         
+         <p>
+            śabdarāśisamutthasya śaktivargasya bhogyatām |<br />
+            kalāviluptavibhavo gataḥ san sa paśuḥ smṛtaḥ || 13 ||
+            </p>
+         
+         
+         <p>
+            parāmṛtarasāpāyas tasya yaḥ pratyayodbhavaḥ |<br />
+            tenāsvatantratām eti sa ca tanmātragocaraḥ || 14 ||
+            </p>
+         
+         
+         <p>
+            svarūpāvaraṇe cāsya śaktayaḥ satatotthitāḥ |<br />
+            yataḥ śabdānuvedhena na vinā pratyayodbhavaḥ || 15 ||
+            </p>
+         
+         
+         <p>
+            seyaṃ kriyātmikā śaktiḥ śivasya paśuvartinī |<br />
+            bandhayitrī svamārgasthā jñāta siddhyupapādikā || 16 ||
+            </p>
+         
+         
+         <p>
+            tanmātrodayarūpena mano 'haṃbuddhivartinā |<br />
+            puryaṣṭakena saṃruddhas taduttham pratyayodbhavam || 17 ||
+            </p>
+         
+         
+         <p>
+            bhuṅkte paravaśo bhogaṃ tadbhāvāt saṃsared ataḥ |<br />
+            saṃsṛtipralayasyāsya kāraṇaṃ sampracakṣmahe || 18 ||
+            </p>
+         
+         
+         <p>
+            yadā tv ekatra saṃrūḍhas tadā tasya layodayau |<br />
+            niyacchan bhoktṛtām eti tataś cakreśvaro bhavet || 19 ||
+            </p>
+         
+         
+         <p>caturtho niḥṣyandaḥ</p>
+         
+         
+         <p>
+            agādhasaṃśayāmbhodhisamuttaraṇatārinīm |<br />
+            vande vicitrārthapadāṃ citrāṃ tāṃ gurubhāratīm || 1 ||
+            </p>
+         
+         
+         <p>
+            labdhvāpy alabhyam etaj jñānadhanaṃ hṛdguhāntakṛtanihiteḥ |<br />
+            vasuguptavac chivāya hi bhavati sadā sarvalokasya || 2 ||
+            </p>
+         
+         
+         
+         
+         <span class="note">Gandharva-nagaram / DSO Sanskrit Archive</span>
+         
+         
+         </div>
+   </body>
+</html>

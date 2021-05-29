@@ -1,0 +1,2572 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Jayadeva: Gītagovinda (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Jayadeva: Gītagovinda</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_jayadeva-gItagovinda-alt.xml">sa_jayadeva-gItagovinda-alt.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Jan Brzezinski</p>
+      <p class="noindent"><b>Contribution: </b>Jan Brzezinski</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>the Kavyamala ed. (Calcutta 1878), checked against several other editions (cf. NOTE
+            below).</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="hi">highlighted text</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/5_poetry/2_kavya/jaygit2u.htm">jaygit2u.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Jayadeva: Gitagovinda
+            <br />Based on the Kavyamala ed. (Calcutta 1878), checked against several other editions
+            (cf. NOTE below).
+            <br />
+            <br />Input by Jan Brzezinski
+            <br />Version 2.00
+            <br />
+            <br />_____________________________________________________________
+            <br />
+            <br />NOTICE:
+            <br />
+            <br />A number of sources were used to establish this text.
+            <br />The first copy was taken from the Kāvya-mālā edition (Calcutta 1878).
+            <br />Lee Siegel has a transliterated edition in his "Sacred and profane dimensions of love
+            in Indian traditions as exemplified in the Gīta-govinda of Jayadeva" (Delhi: Oxford
+            University Press: 1990 (1978)).
+            <br />His readings were taken from the Nirnaya Sagara Edition (Bombay 1949) and the Kulkarni
+            edition (Ahmedabad 1965).
+            <br />Alternate readings based on Siegel's edition are marked <span class="it">ni</span>-.
+            <br />
+            <br />Other editions:
+            <br />(ed.) Haridas Das. (Nabadwip: Haribol Kutir, 470 Gaurābda [= 1955])
+            <br />(ed.) Bhaktivedanta Narayana (Mathura: Gaudiya Vedanta Publications, 2005).
+            <br />
+            <br />In particular, the first of these two was used in making the 2.00 version.
+            <br />Some of the additional variant readings were found in the Haridas Das edition.
+            <br />
+            <br />Two numbering systems are usually followed, one maintaining a sequence throughout,
+            the other separating songs from verses in classical meters.
+            <br />These latter are also sometimes numbered sequentially from beginning to end rather
+            than starting afresh with each chapter.
+            <br />The first number of each verse here is the sequential number from the beginning of
+            the chapter including both classical and song verses.
+            <br />The second number is the alternative system, with all classical metred verses being
+            number sequentially, the song verses numbered from 1 to 8, with one verse designated
+            as the chorus or <span class="it">dhruva-pada</span>.
+            <br />
+            <br />_____________________________________________________________
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>śrī-jayadeva-gosvāmi-viracitaṃ
+            gīta-govinda-kāvyam</p>
+         
+         
+         <p>śrī-gīta-govinda-kāvyam
+            (1)
+            prathamaḥ sargaḥ
+            sāmoda-dāmodaraḥ</p>
+         
+         
+         <p>
+            meghair meduraṃ ambaraṃ vana-bhuvaḥ śyāmās tamāla-drumair naktaṃ bhīrur ayaṃ tvam
+            eva tad imaṃ rādhe gṛhaṃ prāpaya |<br />
+            itthaṃ nanda-nideśataś calitayoḥ praty-adhva-kuñja-drumaṃ rādhā-mādhavayor jayanti
+            yamunā-kūle rahaḥ-kelayaḥ || GG_1.1 ||
+            </p>
+         
+         
+         <p>
+            vāg-devatā-carita-citrita-citta-sadmā padmāvatī-caraṇa-cāraṇa-cakravartī |<br />
+            śrī-vāsudeva-rati-keli-kathā-sametaṃ etaṃ karoti jayadeva-kaviḥ prabandhaṃ || GG_1.2
+            ||
+            </p>
+         
+         
+         <p>
+            yadi hari-smaraṇe sarasaṃ mano yadi vilāsa-kalāsu kutūhalaṃ |<br />
+            madhura-komala-kānta-padāvalīṃ śṛṇu tadā jayadeva-sarasvatīm || GG_1.3 ||
+            </p>
+         
+         
+         <p>vacaḥ pallavayaty umāpatidharaḥ sandarbha-śuddhiṃ girāṃ jānītejayadeva eva śaraṇaḥ
+            ślāghyo durūha-druteḥ |
+            <span class="bold">NOTE:</span> {durūhādbhuteḥ iti <span class="it">ni-</span>pāthāntaraḥ | }
+            śṛṅgārottara-sat-prameya-racanair ācārya-govardhana-spardhī ko'pi na viśrutaḥ srutidharo
+            dhoyī kavi-kṣmāpatiḥ || GG_1.4 ||</p>
+         
+         
+         <p>|| prathama-prabandhaḥ ||</p>
+         
+         
+         <p><span class="it">mālava-gauḍa-rāgeṇa rūpaka-talena giyate | aṣṭāpadī</span> |</p>
+         
+         
+         <p>pralaya-payodhijale dhṛtavān asi vedaṃ vihita-vahitra-caritram akhedam |
+            keśava dhṛta-mīna-śarīra jaya jagadīśa hare [dhruva-padam] || GG_1.5 || (1.1)</p>
+         
+         
+         <p>kṣitir ativipulatare tava tiṣṭhati pṛṣṭhe dharaṇī-dharaṇa-kiṇa-cakra-gariṣṭhe |
+            keśava dhṛta-kacchapa-rūpa jaya jagadīśa hare || GG_1.6 || (1.2)</p>
+         
+         
+         <p>vasati daśana-śikhare dharaṇī tava lagnā śaśini kalaṅka-kaleva nimagnā |
+            keśava dhṛta-sūkara-rūpa jaya jagadīśa hare || GG_1.7 || (1.3)</p>
+         
+         
+         <p>tava kara-kamala-vare nakhaṃ adbhuta-śṛṅgaṃ dalita-hiraṇyakaśipu-tanu-bhṛṅgaṃ |
+            keśava dhṛta-nara-hari-rūpa jaya jagad-īśa hare || GG_1.8 || (1.4)</p>
+         
+         
+         <p>chalayasi vikramaṇe balim adbhuta-vāmana pada-nakha-nīra-janita-jana-pāvana |
+            keśava dhṛta-vāmana-rupa jaya jagad-īśa hare || GG_1.9 || (1.5)</p>
+         
+         
+         <p>kṣatrīya-rudhira-maye jagad apagata-pāpaṃ snapayasi payasi śamita-bhava-tāpam |
+            keśava dhṛta-bhṛgu-pati-rūpa jaya jagad-īśa hare || GG_1.10 || (1.6)</p>
+         
+         
+         <p>vitarasi dikṣu raṇe dik-pati-kamanīyaṃ daśa-mukha-mauli-bali ramaṇīyam |
+            keśava dhṛta-rāma-śarīra jaya jagad-īśa hare || GG_1.11 || (1.7)
+            <span class="bold">NOTE:</span> {raghupati-rūpaṃ iti ha-saṃskaraṇa-pāṭhaḥ.}</p>
+         
+         
+         <p>vahasi vapuṣi viśade vasanaṃ jaladābhaṃ hala-hati-bhīti-milita-yamunābham |
+            keśava dhṛta-hala-dhara-rūpa jaya jagad-īśa hare || GG_1.12 || (1.8)</p>
+         
+         
+         <p>nindasi yajña-vidher ahaha śruti-jātam sadaya-hṛdaya darśita-paśu-ghātam |
+            keśava dhṛta-buddha-śarīra jaya jagad-īśa hare || GG_1.13 || (1.9)</p>
+         
+         
+         <p>mleccha-nivaha-nidhane kalayasi karavālaṃ dhūma-ketum iva kim api karālam |
+            keśava dhṛta-kalki-śarīra jaya jagad-īśa hare || GG_1.14 || (10)</p>
+         
+         
+         <p>śrī-jayadeva-kaver idam uditam udāraṃ śṛṇu sukhadaṃ śubhadaṃ bhava-sāram |
+            keśava dhṛta-daśa-vidha-rūpa jaya jagad-īśa hare || GG_1.15 || (11)</p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>vedān uddharate jaganti vahate bhūgolam udbibhrate daityaṃ dārayate baliṃ chalayate
+            kṣatra-kṣayaṃ kurvate |
+            paulastyaṃ jayate halaṃ kalayate kāruṇyam ātanvate mlecchān mūrcchayate daśākṛti-kṛte
+            kṛṣṇāya tubhyaṃ namaḥ || GG_1.16 || (5)</p>
+         
+         
+         <p>|| prabandhaḥ 2 ||</p>
+         
+         
+         <p><span class="it">gurjarī-rāga-niḥsāra-</span>tālābhyāṃ<span class="it"> gīyate</span> |</p>
+         
+         
+         <p>śrita-kamalā-kuca-maṇḍala dhṛta-kuṇḍala e
+            kalita-lalita-vana-māla
+            jaya jaya deva hare || GG_1.17 ||[dhruva-padam]</p>
+         
+         
+         <p>dina-maṇi-maṇḍala-maṇḍana
+            
+            <p>
+               bhava-khaṇḍana e<br />
+               muni-jana-mānasa-haṃsa<br />
+               jaya jaya deva hare || GG_1.18 ||
+               </p>
+         </p>
+         
+         
+         <p>kāliya-viṣa-dhara-gañjana
+            
+            <p>
+               jana-rañjana e<br />
+               yadukula-nalina-dineśa<br />
+               jaya jaya deva hare || GG_1.19 ||
+               </p>
+         </p>
+         
+         
+         <p>
+            madhu-mura-naraka-vināśana<br />
+            garuḍāsana e |<br />
+            sura-kula-keli-nidāna<br />
+            jaya jaya deva hare || GG_1.20 ||
+            </p>
+         
+         
+         <p>amala-kamala-dala-locana
+            
+            <p>
+               bhava-mocana e<br />
+               tribhuvana-bhuvana-nidhāna<br />
+               jaya jaya deva hare || GG_1.21 ||
+               </p>
+         </p>
+         
+         
+         <p>janaka-sutā-kṛta-bhūṣaṇa
+            
+            <p>
+               jita-dūṣaṇa e<br />
+               samara-śamita-daśa-kaṇṭha<br />
+               jaya jaya deva hare || GG_1.22 ||
+               </p>
+         </p>
+         
+         
+         <p>abhinava-jala-dhara-sundara
+            
+            <p>
+               dhṛta-mandara e<br />
+               śrī-mukha-candra-cakora<br />
+               jaya jaya deva hare || GG_1.23 ||
+               </p>
+         </p>
+         
+         
+         <p>tava caraṇaṃ praṇatā vayam
+            <span class="bold">NOTE:</span> {caraṇe}
+            
+            <p>
+               iti bhāvaya e<br />
+               kuru kuśalaṃ praṇateṣu<br />
+               jaya jaya deva hare || GG_1.24 ||
+               </p>
+         </p>
+         
+         
+         <p>śrī-jayadeva-kaver idaṃ
+            
+            <p>
+               kurute mudam e<br />
+               maṅgalam ujjvala-gītaṃ<br />
+               jaya jaya deva hare || GG_1.25 ||
+               </p>
+         </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            padmā-payodhara-taṭī-parirambha-lagna-kāśmīra-mudritam uro madhusūdanasya |<br />
+            vyaktānurāgam iva khelad-anaṅga-kheda-svedāmbu-pūram anupūrayatu priyaṃ vaḥ || GG_1.26
+            ||
+            </p>
+         
+         
+         <p>
+            vasante vāsantī-kusuma-sukumārair avayavair bhramantīṃ kāntāre bahu-vihita-kṛṣṇānusaraṇām
+            |<br />
+            amandaṃ kandarpa-jvara-janita-cintākulatayā valad-bādhāṃ rādhāṃ sarasam idam ūce sahacarī
+            || GG_1.27 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {calad iti <span class="it">ni-</span>pāṭhāntaraḥ.}</p>
+         
+         
+         <p>|| prabandhaḥ 3 ||</p>
+         
+         
+         <p><span class="it">vasanta-rāga-yati-tālābhyāṃ gīyate</span> |</p>
+         
+         
+         <p>
+            lalita-lavaṅga-latā-pariśīlana-komala-malaya-samīre |<br />
+            madhukara-nikara-karambita-kokila-kūjita-kuñja-kuṭīre || GG_1.28 ||
+            </p>
+         
+         
+         <p>viharati harir iha sarasa-vasante
+            nṛtyati yuvatī-janena samaṃ sakhi virahi-janasya durante ||dhr||</p>
+         
+         
+         <p>
+            unmada-madana-manoratha-pathika-vadhū-jana-janita-vilāpe |<br />
+            ali-kula-saṅkula-kusuma-samūha-nirākula-bakula-kalāpe || GG_1.29 ||
+            </p>
+         
+         
+         <p>
+            mṛga-mada-saurabha-rabhasa-vaśaṃvada-nava-dala-māla-tamāle |<br />
+            yuva-jana-hṛdaya-vidāraṇa manasija-nakha-ruci-kiṃśuka-jāle || GG_1.30 ||
+            </p>
+         
+         
+         <p>
+            madana-mahīpati-kanaka-daṇḍa-ruci-keśara-kusuma-vikāśe |<br />
+            milita-śili-mukha-pāṭala-paṭala-kṛta-smara-tūṇa-vilāse || GG_1.31 ||
+            </p>
+         
+         
+         <p>
+            vigalita-lajjita-jagad-avalokana-taruṇa-karuṇa-kṛta-hāse |<br />
+            virahi-nikṛntana-kunta-mukhākṛti-ketaka-danturitāśe || GG_1.32 ||
+            </p>
+         
+         
+         <p>mādhavikā-parimala-lalite nava-mālati-jāti-sugandhau |
+            <span class="bold">NOTE:</span> {mālikayātisugandhau iti <span class="it">ni-</span>pāṭhāntaraḥ.}
+            muni-manasām api mohana-kārīṇi taruṇa||-karaṇa-bandhau || GG_1.33 ||</p>
+         
+         
+         <p>
+            sphurad-atimukta-latā-parirambhana-mukulita-pulakita-cūte |<br />
+            vṛndāvana-vīpine parīsara-parigata-yamunā-jala-pūte || GG_1.34 ||
+            </p>
+         
+         
+         <p>
+            śrī-jayadeva-bhaṇitam idam udayati hari-caraṇa-smṛti-sāram |<br />
+            sarasa-vasanta-samaya-vana-varṇanam anugata-madana-vikāram || GG_1.35 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            dara-vidalita-mallī-valli-cañcat-parāga-prakaṭita-paṭa-vāsair vāsayan kānanāni |<br />
+            iha hi dahati cetaḥ ketakī-gandha-bandhuḥ prasarad-asama-bāṇa-prāṇavad gandhavāhaḥ
+            || GG_1.36 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {atra haridāsa-dāsasya prabodhānanda-ṭīkā-saṃvalita-saṃskaraṇe 48-saṅkhyaka-padyaṃ
+            dṛśyate }
+            unmīlan-madhu-gandha-lubdha-madhupa-vyādhūta-cūtāṅkura-krīḍat-kokila-kākalī-kalakalair
+            udgīrṇa-karṇa-jvaraḥ |
+            <span class="bold">NOTE:</span> {kala-ravair iti <span class="it">ni-</span>pāṭhāntaraḥ.}
+            nīyante pathikaiḥ kathaṃ katham api dhyānāvadhāna-kṣaṇa prāpta-prāṇa-samāgama-rasollāsair
+            amī vāsarāḥ || GG_1.37 ||</p>
+         
+         
+         <p>
+            aneka-nārī-parirambha-sambhrama-sphuraṇ-manohāri-vilāsa-lālasam |<br />
+            murārim ārād upadarśayanty asau sakhī samakṣaṃ punar āha rādhikām || GG_1.38 ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 4 ||</p>
+         
+         
+         <p><span class="it">rāmakarī-rāga-yati-tālābhyāṃ gīyate</span> |</p>
+         
+         
+         <p>
+            candana-carcita-nīla-kalevara-pīta-vasana-vana-mālī |<br />
+            keli-calan-maṇi-kuṇḍala-maṇḍita-gaṇḍa-yuga-smita-śālī || GG_1.39 ||
+            </p>
+         
+         
+         <p>harir iha mugdha-vadhū-nikare vilāsini vilāsati kelī-pare ||dhr||</p>
+         
+         
+         <p>
+            pīna-payodhara-bhāra-bhareṇa hariṃ parirabhya sarāgam |<br />
+            gopa-vadhūr anugāyati kācid udañcita-pañcama-rāgam || GG_1.40 ||
+            </p>
+         
+         
+         <p>
+            kāpi vilāsa-vilola-vilocana-khelana-janita-manojam |<br />
+            dhyāyati mugdha-vadhūr adhikaṃ madhusūdana-vadana-sarojam || GG_1.41 ||
+            </p>
+         
+         
+         <p>
+            kāpi kapola-tale militā lapituṃ kim api śruti-mūle |<br />
+            cāru cucumba nitambavatī dayitaṃ pulakair anukūle || GG_1.42 ||
+            </p>
+         
+         
+         <p>
+            keli-kalā-kutukena ca kācid amuṃ yamunā-jala-kūle |<br />
+            mañjula-vañjula-kuñja-gataṃ vicakarṣa kareṇa dukūle || GG_1.43 ||
+            </p>
+         
+         
+         <p>
+            kara-tala-tāla-tarala-valayāvali-kalita-kalasvana-vaṃśe |<br />
+            rāsa-rase saha-nṛtya-parā hariṇā yuvatī praśaśaṃse || GG_1.44 ||
+            </p>
+         
+         
+         <p>
+            śliṣyati kām api cumbati kām api kām api ramayati rāmām |<br />
+            paśyati sa smita-cāru-tarām aparām anugacchati vāmām || GG_1.45 ||
+            </p>
+         
+         
+         <p>
+            śrī-jayadeva-bhaṇitam idam adbhuta-keśava-keli-rahasyam |<br />
+            vṛndāvana-vipine lalitaṃ vitanotu śubhāni yaśasyam || GG_1.46 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {valitam iti ca pāṭhaḥ.}</p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            viśveṣām anurañjanena janayann ānandam indīvara-śreṇī-śyāmala-komalair upanayann aṅgair
+            anaṅgotsavam |<br />
+            svacchandaṃ vraja-sundarībhir abhitaḥ praty-aṅgam āliṅgitaḥ śṛṅgāraḥ sakhi mūrtimān
+            iva madhau mugdho hariḥ krīḍati || GG_1.47 ||
+            </p>
+         
+         
+         <p>nijotsaṅga-vasad-bhujaṅga-kavala-kleśād iveśācalaṃ prāleya-plavanecchayānusarati śrī-khaṇḍa-śailānilaḥ
+            |
+            <span class="bold">NOTE:</span> {adryotsaṅgaadyotsaṅga- iti <span class="it">ni-</span>pāṭhāntaraḥ.}
+            kiṃ ca snigdha-rasāla-mauli-mukulāny ālokya harṣodayād unmīlanti kuhūḥ kuhūr iti kalottālāḥ
+            pikānāṃ giraḥ || GG_1.48 ||</p>
+         
+         
+         <p><span class="bold">NOTE:</span> {ayaṃ ślokaḥ prabodhānandena na paṭhitaḥ }
+            
+            <p>
+               rāsollāsa-bhareṇa vibhrama-bhṛtām ābhīra-vāma-bhruvām abhyarṇaṃ parirabhya nirbharam
+               uraḥ premāndhayā rādhayā |<br />
+               sādhu tvad-vadanaṃ sudhā-mayam iti vyāhṛtya gīta-stuti-vyājād udbhaṭa-cumbitaḥ smita-manohāri
+               hariḥ pātu vaḥ || GG_1.49 ||
+               </p>
+         </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {smṛta (?)}</p>
+         
+         
+         <p>|| iti śrī-gīta-govinde sāmoda-dāmodaro nāma prathamaḥ sargaḥ ||</p>
+         
+         
+         <p>(2)</p>
+         
+         
+         <p>dvitīyaḥ sargaḥ
+            akleśa-keśavaḥ</p>
+         
+         
+         <p>
+            viharati vane rādhā sādhāraṇa-praṇaye harau vigalita-nijotkarṣād īrṣyā-vaśena gatā'nyataḥ
+            |<br />
+            kvacid api latā-kuñje guñjan-madhu-vrata-maṇḍalī mukhara-śikhare līna dīnāpy uvāca
+            rahaḥ sakhīm || GG_2.1 ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 5 ||</p>
+         
+         
+         <p><span class="it">gurjarī-rāgeṇa yati-tālena gīyate</span> |</p>
+         
+         
+         <p>sañcarad-adhara-sudhā-madhura-dhvani-mukharita-mohana-vaṃśam |
+            calita-dṛg-añcala-cañcala-mauli-kapola-vilola-vataṃsam |
+            rāse harim iha vihita-vilāsaṃ smarati mano mama kṛta-parihāsam || dhru. || GG_2.2
+            ||</p>
+         
+         
+         <p>
+            candraka-cāru-mayūra-śikhaṇḍaka-maṇḍala-valayita-keśam |<br />
+            pracura-purandara-dhanur-anurañjita-medura-mudira-suveśam || GG_2.3 ||
+            </p>
+         
+         
+         <p>
+            gopa-kadamba-nitambavatī-mukha-cumbana-lambhita-lobham |<br />
+            bandhujīva-madhurādhara-pallavam ullasita-smita-śobham || GG_2.4 ||
+            </p>
+         
+         
+         <p>
+            vipula-pulaka-bhuja-pallava-valayita-ballava-yuvati-sahasram |<br />
+            kara-caraṇorasi maṇi-gaṇa-bhūṣaṇa-kiraṇa-vibhinna-tamisram || GG_2.5 ||
+            </p>
+         
+         
+         <p>
+            jalada-paṭala-calad-indu-vinindaka-candana-tilaka-lalāṭam |<br />
+            pīna-payodhara-parisara-mardana-nirdaya-hṛdaya-kapāṭam || GG_2.6 ||
+            </p>
+         
+         
+         <p>
+            maṇi-maya-makara-manohara-kuṇḍala-maṇḍita-gaṇḍam udāram |<br />
+            pīta-vasanam anugata-muni-manuja-surāsura-vara-parivāram || GG_2.7 ||
+            </p>
+         
+         
+         <p>
+            viśada-kadamba-tale militaṃ kali-kaluṣa-bhayaṃ śamayantam |<br />
+            mām api kim api tarala-taraṅgad-anaṅga-dṛśā manasā ramayantam || GG_2.8 ||
+            </p>
+         
+         
+         <p>
+            śrī-jayadeva-bhaṇitam atisundara-mohana-madhu-ripu-rūpam |<br />
+            hari-caraṇa-smaraṇaṃ prati samprati puṇyavatām anurūpam || GG_2.9 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>gaṇayati guṇa-grāmaṃ bhāmaṃ bhrāmād api nehate vahati ca paritoṣaṃ doṣaṃ vimuñcati
+            dūrataḥ |
+            <span class="bold">NOTE:</span> {bhrāmam}
+            yuvatiṣu valat-tṛṣṇe kṛṣṇe vihāriṇi māṃ vinā punar api mano vāmaṃ kāmaṃ karoti karomi
+            kim || GG_2.10 ||</p>
+         
+         
+         <p>|| prabandhaḥ 6 ||</p>
+         
+         
+         <p><span class="it">mālava-gauḍa-rāgena ekatālī-tālena ca gīyate</span> |</p>
+         
+         
+         <p>
+            nibhṛta-nikuñja-gṛhaṃ gatayā niśi rahasi nilīya vasantam |<br />
+            cakīta-vilokita-sakala-diśā rati-rabhasa-bhareṇa hasantam || GG_2.11 ||
+            </p>
+         
+         
+         <p>sakhi he keśī-mathanam udāram
+            ramaya mayā saha madana-manoratha-bhāvitayā sa-vikāram ||dhruvam ||</p>
+         
+         
+         <p>
+            prathama-samāgama-lajjitayā paṭu-cāṭu-śatair anukūlam |<br />
+            mṛdu-madhura-smita-bhāṣitayā śithilī-kṛta-jaghana-dukūlam || GG_2.12 ||
+            </p>
+         
+         
+         <p>
+            kīsala-śayana-niveśitayā ciram urasi mamaiva śayānam |<br />
+            kṛta-parirambhaṇa-cumbanayā parirabhya kṛtādhara-pānam || GG_2.13 ||
+            </p>
+         
+         
+         <p>
+            alasa-nimīlita-locanayā pulakāvali-lalita-kapolam |<br />
+            śrama-jala-sakala-kalevarayā vara-madana-madād atilolam || GG_2.14 ||
+            </p>
+         
+         
+         <p>
+            kokila-kala-rava-kūjitayā jita-manasija-tantra-vicāram |<br />
+            ślatha-kusumākula-kuntalayā nakha-likhita-ghana-stana-bhāram || GG_2.15 ||
+            </p>
+         
+         
+         <p>
+            caraṇa-raṇita-maṇi-nūpurayā paripūrita-surata-vitānam |<br />
+            mukhara-viśṛṅkhala-mekhalayā sa-kaca-graha-cumbana-dānam || GG_2.16 ||
+            </p>
+         
+         
+         <p>
+            rati-sukha-samaya-rasālasayā dara-mukulita-nayana-sarojam |<br />
+            niḥsaha-nipatita-tanu-latayā madhusūdanam udita-manojam || GG_2.17 ||
+            </p>
+         
+         
+         <p>
+            śrī-jayadeva-bhaṇitam idam atiśaya-madhu-ripu-nidhuvana-śīlam |<br />
+            sukham utkaṇṭhita-gopa-vadhū-kathitaṃ vitanotu salīlaṃ || GG_2.18 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            hasta-srasta-vilāsa-vaṃśam anṛju-bhrū-vallimad-ballavī-vṛndotsāri-dṛganta-vīkṣitam
+            atisvedārdra-gaṇḍa-sthalam |<br />
+            mām udvīkṣya vilajjitaṃ smṛta-sudhā-mugdhānana-kānane govindaṃ vraja-sundarī-gaṇa-vṛtaṃ
+            paśyāmi hṛṣyāmi ca || GG_2.19 ||
+            </p>
+         
+         
+         <p>
+            durāloka-stoka-stavaka-navakāśoka-latikā-vikāsaḥ kāsāropavana-pavano'pi vyathayati
+            |<br />
+            api bhrāmyad-bhṛṅgī-raṇita-ramaṇīyā na mukula-prasūtiś cūtānāṃ sakhi śikhariṇīyaṃ
+            sukhayati || GG_2.20 ||
+            </p>
+         
+         
+         <p>
+            sakūta-smitam ākulākula-galad-dhammillam ullāsita-bhrū-vallīkam alīka-darśita-bhujā-mūlārdha-hasta-stanam
+            |<br />
+            gopīnāṃ nibhṛtaṃ nirīkṣya gamitākāṅkṣaś ciraṃ cintayann antar mugdha-manoharaṃ haratu
+            vaḥ kleśaṃ navaḥ keśavaḥ || GG_2.21 ||
+            </p>
+         
+         
+         <p>iti śrī-gīta-govinda-mahā-kāvye akleśa-keśavo nāma
+            dvitīyaḥ sargaḥ
+            ||2||</p>
+         
+         
+         <p>(3)
+            tṛtīyaḥ sargaḥ
+            mugdha-madhusūdanaḥ</p>
+         
+         
+         <p>kaṃsārir api saṃsāra-vāsanābaddha-śṛṅkhalām |
+            <span class="bold">NOTE:</span> {vāsanābaddha- iti caitanya-caritāmṛtasya pāṭhaḥ.}
+            rādhām ādhāya hṛdaye tatyāja vraja-sundarīḥ || GG_3.1 ||</p>
+         
+         
+         <p>
+            itas tatas tām anusṛtya rādhikām anaṅga-bāṇa-vraṇa-khinna-mānasaḥ |<br />
+            kṛtānutāpaḥ sa kalinda-nandinī-taṭānta-kuñje viṣasāda mādhavaḥ || GG_3.2 ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 7 ||</p>
+         
+         
+         <p><span class="it">gurjarī-rāga-yati-tālābhyāṃ gīyate</span> |</p>
+         
+         
+         <p>
+            mām iyaṃ calitā vilokya vṛtaṃ vadhū-nicayena |<br />
+            sāparādhatayā mayāpi na vāritā'tibhayena || GG_3.3 ||
+            </p>
+         
+         
+         <p>hari hari hatādaratayā gatā sā kupiteva ||dhruva-padam ||</p>
+         
+         
+         <p>
+            kiṃ kariṣyati kiṃ vadiṣyati sā ciraṃ viraheṇa |<br />
+            kiṃ dhanena janena kiṃ mama jīvitena gṛheṇa || GG_3.4 ||
+            </p>
+         
+         
+         <p>
+            cintayāmi tad-ānanaṃ kuṭila-bhru kopa-bhareṇa |<br />
+            śona-padmam ivopari-bhramatākulaṃ bhramareṇa || GG_3.5 ||
+            </p>
+         
+         
+         <p>
+            tām ahaṃ hṛdi saṅgatām aniśaṃ bhṛśaṃ ramayāmi |<br />
+            kiṃ vane'nusarāmi tām iha kiṃ vṛthā vilapāmi || GG_3.6 ||
+            </p>
+         
+         
+         <p>
+            tanvi khinnam asūyayā hṛdayaṃ tavākalayāmi |<br />
+            tan na vedmi kuto gatāsi na tena te'nunayāmi || GG_3.7 ||
+            </p>
+         
+         
+         <p>
+            dṛśyase purato gatāgatam eva me vidadhāsi |<br />
+            kiṃ pureva sasambhramaṃ parirambhaṇaṃ na dadāsi || GG_3.8 ||
+            </p>
+         
+         
+         <p>
+            kṣamyatām aparaṃ kadāpi tavedṛśaṃ na karomi |<br />
+            dehi sundari darśanaṃ mama manmathena dunomi || GG_3.9 ||
+            </p>
+         
+         
+         <p>varṇitaṃ jayadevakena harer idaṃ praṇatena |
+            <span class="bold">NOTE:</span> {pravaṇena}
+            kindubilva-samudra-sambhava-rohiṇī-ramaṇena || GG_3.10 ||</p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            hṛdi bisa-latā-hāro nāyaṃ bhujaṅgama-nāyakaḥ kuvalaya-dala-śreṇī kaṇṭhe na sā garala-dyutiḥ
+            |<br />
+            malayaja-rajo nedaṃ bhasma priyā-rahite mayi prahara na hara-bhrāntyā'naṅga krudhā
+            kim u dhāvasi || GG_3.11 ||
+            </p>
+         
+         
+         <p>
+            pāṇau mā kuru cūta-sāyakam amuṃ mā cāpam āropaya kṛīḍā-nirjita-viśva mūrcchita-janāghātena
+            kiṃ pauruṣam |<br />
+            tasyā eva mṛgī-dṛśo manasija preṇkhat-katākṣāśuga-śreṇī-jarjaritaṃ manāg api mano
+            nādyāpi sandhukṣate || GG_3.12 ||
+            </p>
+         
+         
+         <p>
+            bhrū-pallavaṃ dhanur apāṅga-taraṇgitāni bāṇā guṇaḥ śravaṇa-pālir iti smareṇa |<br />
+            tasyām anaṅga-jaya-jaṅgama-devatāyām astrāṇi nirjita-jaganti kim arpitāni || GG_3.13
+            ||
+            </p>
+         
+         
+         <p>
+            bhrū-cāpe nihitaḥ kaṭākṣa-viśikho nirmātu marma-vyathāṃ śyāmātmā kuṭilaḥ karotu kabarī-bhāro'pi
+            mārodyamam |<br />
+            mohaṃ tāvad ayaṃ ca tanvi tanutāṃ bimba-dharo rāgavān sad-vṛttaḥ stana-maṇḍalas tava
+            kathaṃ prāṇair mama krīḍati || GG_3.14 ||
+            </p>
+         
+         
+         <p>
+            tāni sparśa-sukhāni te ca taralāḥ snigdhā dṛśor vibhramās tad-vaktrāmbuja-saurabhaṃ
+            sa ca sudhā-syandi girāṃ vakrimā |<br />
+            sa bimbādhara-mādhurīti viṣayāsaṅge'pi cen mānasaṃ tasyāṃ lagna-samādhi hanta viraha-vyādhiḥ
+            kathaṃ vardhate || GG_3.15 ||
+            </p>
+         
+         
+         <p>tiryak-kaṇṭha-vilola-mauli-taralottaṃsasya vamśoccarad-gīti-sthāna-kṛtāvadhāna-lalanā-lakṣair
+            na saṃlakṣitāḥ |
+            <span class="bold">NOTE:</span> {dīpti iti <span class="it">ni-</span>pāṭhāntaraḥ.}
+            saṃmugdhe madhusūdanasya madhure rādhā-mukhendau sudhā-sāre kandalitāś ciraṃ dadatu
+            vaḥ kṣemaṃ kaṭākṣormayaḥ || GG_3.16 ||</p>
+         
+         
+         <p>iti śrī-gīta-govinda-mahā-kāvye mugdha-madhusūdano nāma
+            tṛtīyaḥ sargaḥ
+            ||3||</p>
+         
+         
+         <p>(4)</p>
+         
+         
+         <p>caturthaḥ sargaḥ
+            snigdha-madhusūdanaḥ</p>
+         
+         
+         <p>
+            yamunā-tīra-vānīra-nikuñje mandaṃ āsthitaṃ |<br />
+            prāha prema-bharodbhrāntaṃ mādhavaṃ rādhikā-sakhī || GG_4.1 ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 8 ||</p>
+         
+         
+         <p><span class="it">karṇāṭa-rāgaika-tālī-tālābhyāṃ gīyate</span> |</p>
+         
+         
+         <p>
+            nindati candanam indu-kiraṇam anu vindati khedam adhīram |<br />
+            vyāla-nilaya-milanena garalam iva kalayati malaya-samīram || GG_4.2 ||
+            </p>
+         
+         
+         <p>
+            mādhava manasija-viśikha-bhayād iva bhāvanayā tvayi līnā |<br />
+            sā virahe tava dīnā || dhruva-padam ||
+            </p>
+         
+         
+         <p>
+            avirala-nipatita-madana-śarād iva bhavad-avanāya vīśālam |<br />
+            sva-hṛdaya-marmaṇi varma karoti sajala-nalinī-dala-jālam || GG_4.3 ||
+            </p>
+         
+         
+         <p>
+            kusuma-viśikha-śara-talpam analpa-vilāsa-kalā-kamaṇīyam |<br />
+            vratam iva tava parirambha-sukhāya karoti kusuma-śayanīyam || GG_4.4 ||
+            </p>
+         
+         
+         <p>
+            vahati ca calita-vilocana-jaladhāram ānana-kamalam udāram |<br />
+            vidhum iva vikaṭa-vidhuntuda-danta-dalana-galitāmṛta-dhāram || GG_4.5 ||
+            </p>
+         
+         
+         <p>
+            vilikhati rahasi kuraṅga-madena bhavantam asama-śara-bhūtam |<br />
+            praṇamati makaram adho vinidhāya kare ca śaraṃ nava-cūtam || GG_4.6 ||
+            </p>
+         
+         
+         <p>
+            dhyāna-layena puraḥ parikalpya bhavantam atīva durāpam |<br />
+            vilapati hasati viṣīdati roditi cañcati muñcati tāpam || GG_4.7 ||
+            </p>
+         
+         
+         <p>
+            prati-padam idam api nigadati mādhava tava caraṇe patitāham |<br />
+            tvayi vimukhe mayi sapadi sudhā-nidhir api tanute tanu-dāham || GG_4.8 ||
+            </p>
+         
+         
+         <p>
+            śrī-jayadeva-bhaṇitam idam adhikaṃ yadi manasā naṭaṇīyam |<br />
+            hari-virahākula-ballava-yuvati-sakhī-vacanaṃ paṭhanīyam || GG_4.9 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            āvāso vipināyate priya-sakhī-mālāpi jālāyate tāpo'pi śvasitena dāva-dahana-jvāla-kalāpāyate
+            |<br />
+            sāpi tvad-viraheṇa hanta hariṇī-rūpāyate hā kathaṃ kandarpo'pi yamāyate viracayan
+            śārdūla-vikrīḍitam || GG_4.10 ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 9 ||</p>
+         
+         
+         <p><span class="it">deśākhya-rāgaika-tālī-tālābhyāṃ gīyate</span> |</p>
+         
+         
+         <p>
+            stana-vinihitam api hāram udāram |<br />
+            sa manute kṛśā-tanur iva bhāram || GG_4.11 ||
+            </p>
+         
+         
+         <p>rādhikā tava virahe keśava || dhruvam ||</p>
+         
+         
+         <p>
+            sa-rasa-masṛṇam api malayaja-paṅkam |<br />
+            paśyati viṣam iva vapuṣi sa-śaṅkam || GG_4.12 ||
+            </p>
+         
+         
+         <p>
+            śvasita-pavanam anupama-pariṇāham |<br />
+            madana-dahanam iva vahati sa-dāham || GG_4.13 ||
+            </p>
+         
+         
+         <p>
+            diśi diśi kirati sajala-kaṇa-jālam |<br />
+            nayana-nalinam iva vigalita-nālam || GG_4.14 ||
+            </p>
+         
+         
+         <p>
+            tyajati na pāṇi-talena kapolam |<br />
+            bāla-śaśinam iva sāyam alolam || GG_4.15 ||
+            </p>
+         
+         
+         <p>
+            nayana-viṣayam api kiśalaya-talpaṃ |<br />
+            kalayati vihita-hutāśa-vikalpam || GG_4.16 ||
+            </p>
+         
+         
+         <p>
+            harir iti harir iti japati sa-kāmam |<br />
+            viraha-vihita-maraṇeva nikāmaṃ || GG_4.17 ||
+            </p>
+         
+         
+         <p>
+            śrī-jayadeva-bhaṇitam iti gītam |<br />
+            sukhayatu keśava-padam upanītam || GG_4.18 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            sā romāñcati śītkaroti vilapaty utkampate tāmyati dhyāyaty udbhramati pramīlati pataty
+            udyāti mūrcchaty api |<br />
+            etāvaty atanu-jvare vara-tanur jīven na kiṃ te rasāt svar-vaidya-pratima prasīdasi
+            yadi tyakto'nyathā hastakaḥ || GG_4.19 ||
+            </p>
+         
+         
+         <p>
+            smarāturaṃ daivata-vaidya-hṛdya tvad-aṅga-saṅgāmṛta-mātra-sādhyam |<br />
+            nivṛtta-bādhāṃ kuruṣe na rādhām upendra-vajrād api dāruṇo'si || GG_4.20 ||
+            </p>
+         
+         
+         <p>
+            kandarpa-jvara-saṃjvarātura-tanor aścaryam asyāś ciraṃ cetaś candana-candramaḥ-kamalinī-cintāsu
+            santāmyati |<br />
+            kintu klānti-vaśena śītala-tanuṃ tvām ekam eva priyaṃ dhyāyantī rahasi sthitā katham
+            api kṣīṇā kṣaṇaṃ prāṇiti || GG_4.21 ||
+            </p>
+         
+         
+         <p>
+            kṣaṇam api virahaḥ purā na sehe nayana-nimīlana-khinnayā yayā te |<br />
+            śvasiti katham asau rasāla-śākhāṃ cira-viraheṇa vilokya puṣpitāgram || GG_4.22 ||
+            </p>
+         
+         
+         <p>
+            vṛṣṭi-vyākula-gokula-vana-rasād uddhṛtya govardhanaṃ bibhrad ballava-vallabhābhir
+            adhikānandāc ciraṃ cumbitaḥ |<br />
+            darpeṇeva tad-arpitādhara-taṭī-sindūra-mudrāṅkito bāhur gopa-tanos tanotu bhavatāṃ
+            śreyāṃsi kaṃsa-dviṣaḥ || GG_4.23 ||
+            </p>
+         
+         
+         <p>iti śrī-gīta-govinde snigdha-madhusūdano nāma
+            caturthaḥ sargaḥ
+            ||4||</p>
+         
+         
+         <p>(5)
+            pañcamaḥ sargaḥ
+            sākāṅkṣa-puṇḍarīkākṣaḥ</p>
+         
+         
+         <p>
+            aham iha nivasāmi yāhi rādhām anunaya mad-vacanena cānayethāḥ |<br />
+            iti madhu-rīpuṇā sakhī niyuktā svayam idam etya punar jagāda rādhām || GG_5.1 ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 10 ||</p>
+         
+         
+         <p><span class="it">deśīvarāḍi-rāgeṇa rūpaka-tālena gīyate</span> |</p>
+         
+         
+         <p>
+            vahati malaya-samīre madanam upanidhāya |<br />
+            sphuṭati kusuma-nikare virahi-hṛdaya-dalanāya || GG_5.2 ||
+            </p>
+         
+         
+         <p>tava virahe vana-mālī sakhi sīdati | dhruva-padam ||</p>
+         
+         
+         <p>
+            dahati śiśira-mayūkhe maraṇam anukaroti |<br />
+            patati madana-viśikhe vilapati vikalataro'ti || GG_5.3 ||
+            </p>
+         
+         
+         <p>
+            dhvanati madhupa-samūhe śravaṇam apidadhāti |<br />
+            manasi kalita-virahe niśi nisi rujam upayāti || GG_5.4 ||
+            </p>
+         
+         
+         <p>
+            vasati vipina-vitāne tyajati lalita-dhāma |<br />
+            luṭhati dharaṇi-śayane bahu vilapati tava nāma || GG_5.5 ||
+            </p>
+         
+         
+         <p>
+            bhaṇati kavi-jayadeve viraha-vilasitena |<br />
+            manasi rabhasa-vibhave harir udayatu sukṛtena || GG_5.6 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            pūrvaṃ yatra samaṃ tvayā rati-pater āsāditāḥ siddhayas tasminn eva nikuñja-manmatha-mahā-tīrthe
+            punar mādhavaḥ |<br />
+            dhyāyaṃs tvām aniśaṃ japann api tavaivālāpa-mantrāvaliṃ bhūyas tvat-kuca-kumbha-nirbhara-parīrambhāmṛtaṃ
+            vāñchati || GG_5.7 ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 11 ||</p>
+         
+         
+         <p><span class="it">gurjarī-rāgeṇa ekatāli-tālena gīyate</span> |</p>
+         
+         
+         <p>
+            rati-sukha-sāre gatam abhisāre madana-manohara-veśam |<br />
+            na kuru nitambini gamana-vilambanam anusara taṃ hṛdayeśam || GG_5.8 ||
+            </p>
+         
+         
+         <p>
+            dhīra-samīre yamunā-tīre vasati vane vana-mālī |<br />
+            pīna-payodhara-parisara-mardana-cañcala-kara-yuga-śālī || dhruva||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {This line does not seem to be in all versions. Prabodhananda does not comment on
+            it.}</p>
+         
+         
+         <p>
+            nāma-sametaṃ kṛta-saṅketaṃ vādayate mṛdu-veṇum |<br />
+            bahu manute'tanu te tanu-saṅgata-pavana-calitam api reṇum || GG_5.9 ||
+            </p>
+         
+         
+         <p>
+            patati patatre vicalati patre śaṅkita-bhavad-upayānam |<br />
+            racayati śayanaṃ sacakita-nayanaṃ paśyati tava panthānam || GG_5.10 ||
+            </p>
+         
+         
+         <p>
+            mukharam adhīraṃ tyaja mañjīraṃ ripum iva keli-sulolam |<br />
+            cala sakhi kuñjaṃ satimira-puñjaṃ śīlaya nīla-nicolam || GG_5.11 ||
+            </p>
+         
+         
+         <p>
+            urasi murārer upahita-hāre ghana iva tarala-balāke |<br />
+            taḍid iva pīte rati-viparīte rājasi sukṛta-vipāke || GG_5.12 ||
+            </p>
+         
+         
+         <p>
+            vigalita-vasanaṃ parihṛta-raśanaṃ ghaṭaya jaghanam apidhānam |<br />
+            kiśalaya-śayane paṅkaja-nayane nidhim iva harṣa-nidhānam || GG_5.13 ||
+            </p>
+         
+         
+         <p>
+            harir abhimāṇī rajanir idānīm iyam api yāti virāmam |<br />
+            kuru mama vacanaṃ satvara-racanaṃ pūraya madhu-ripu-kāmam || GG_5.14 ||
+            </p>
+         
+         
+         <p>
+            śrī-jayadeve kṛta-hari-seve bhaṇati parama-ramaṇīyam |<br />
+            pramudita-hṛdayaṃ harim atisadayaṃ namata sukṛta-kamanīyaṃ || GG_5.15 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            vikirati muhuḥ śvāsān āśāḥ puro muhur īkṣate praviśati muhuḥ kuñjaṃ gūñjan muhur bahu
+            tāmyati |<br />
+            racayati muhuḥ śayyāṃ paryākulaṃ muhur īkṣate madana-kadana-klāntaḥ kānte priyas tava
+            vartate || GG_5.16 ||
+            </p>
+         
+         
+         <p>
+            tvad-vāmyena samaṃ samagram adhunā tigmāṃśur astaṃ gato govindasya manorathena ca
+            samaṃ prāptaṃ tamaḥ sāndratām |<br />
+            kokānāṃ karuṇa-svanena sadṛśī dīrgha-mad-abhyarthanā tan mugdhe viphalaṃ vilambanam
+            asau ramyo'bhisāra-kṣaṇaḥ || GG_5.17 ||
+            </p>
+         
+         
+         <p>
+            āśleṣād anu cumbanād anu nakho-lekhād anu svāntaja-prodbodhād anu sambhramād anu ratārambhād
+            anu prītayoḥ |<br />
+            anyārthaṃ gatayor bhramān militayoḥ sambhāṣaṇair jānator dampatyor iha ko na ko na
+            tamasi vrīḍā-vimiśro rasaḥ || GG_5.18 ||
+            </p>
+         
+         
+         <p>
+            sa-bhaya-cakitaṃ vinyasyantīṃ dṛśaṃ timire pathi pratitaru muhuḥ sthitvā mandaṃ padāni
+            vitanvatīm |<br />
+            katham api rahaḥ prāptām aṅgair anaṅga-taraṇgibhiḥ sumukhi subhagaḥ paśyan sa tvām
+            upaitu kṛtārthatām || GG_5.19 ||
+            </p>
+         
+         
+         <p>
+            rādhā-mugdha-mukhāravinda-madhupas trailokya-mauli-sthalī nepathyocita-nīla-ratnam
+            avanī-bhārāvatārāntakaḥ |<br />
+            svacchandaṃ vraja-sundarī-jana-manas-toṣa-pradoṣodayaḥ kaṃsa-dhvaṃsana-dhūma-ketur
+            avatu tvāṃ devakī-nandanaḥ || GG_5.20 ||
+            </p>
+         
+         
+         <p>iti śrī-gīta-govinde'bhisārikā-varṇane sākāṅkṣa-puṇḍarīkākso nāma
+            pañcamaḥ sargaḥ
+            ||5||</p>
+         
+         
+         <p>(6)</p>
+         
+         
+         <p>ṣaṣṭhaḥ sargaḥ
+            sotkaṇṭha-vaikuṇṭhaḥ
+            <span class="bold">NOTE:</span> {dhanya-vaikuṇṭha-kuṅkumaḥ iti kvacit dṛśyate }</p>
+         
+         
+         <p>
+            atha tāṃ gantum aśaktāṃ ciram anuraktāṃ latā-gṛhe dṛṣṭvā |<br />
+            tac-caritaṃ govinde manasija-mande sakhī prāha || GG_6.1 ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 12 ||</p>
+         
+         
+         <p><span class="it">guṇakarī-rāgena rūpaka-tālena gīyate</span> |</p>
+         
+         
+         <p>
+            paśyati diśi diśi rahasi bhavantam |<br />
+            tad-adhara-madhura-madhūni pibantam || GG_6.2 ||
+            </p>
+         
+         
+         <p>nātha hare sīdati rādhā vāsa-gṛhe || dhru. ||</p>
+         
+         
+         <p>
+            tvad-abhisaraṇa-rabhasena valantī |<br />
+            patati padāni kiyantī calantī || GG_6.3 ||
+            </p>
+         
+         
+         <p>
+            vihita-viśada-bisa-kiśalaya-valayā |<br />
+            jīvati param iha tava rati-kalayā || GG_6.4 ||
+            </p>
+         
+         
+         <p>
+            muhur avalokita-maṇḍana-līlā |<br />
+            madhu-ripur aham iti bhāvana-śīlā || GG_6.5 ||
+            </p>
+         
+         
+         <p>
+            tvaritam upaiti na katham abhisāram |<br />
+            harir iti vadati sakhīm anuvāram || GG_6.6 ||
+            </p>
+         
+         
+         <p>
+            śliṣyati cumbati jala-dhara-kalpam |<br />
+            harir upagata iti timiram analpam || GG_6.7 ||
+            </p>
+         
+         
+         <p>
+            bhavati vilambini vigalita-lajjā |<br />
+            vilapati roditi vāsaka-sajjā || GG_6.8 ||
+            </p>
+         
+         
+         <p>
+            śrī-jayadeva-kaver idam uditam |<br />
+            rasika-janaṃ tanutām atimuditam || GG_6.9 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            vipula-pulaka-pāliḥ sphīta-sīt-kāram antar-janita-jaḍimam-kāku-vyākulaṃ vyāharantī
+            |<br />
+            tava kitava vidhāyāmanda-kandarpa-cintāṃ rasa-jala-nidhi-magnā dhyāna-lagnā mṛgakṣī
+            || GG_6.10 ||
+            </p>
+         
+         
+         <p>
+            aṅgeṣv ābharaṇaṃ karoti bahuśaḥ patre'pi sañcāriṇī prāptaṃ tvāṃ pariśaṅkate vitanute
+            śayyāṃ ciraṃ dhyāyati |<br />
+            ity ākalpa-vikalpa-talpa-racanā-saṅkalpa-līlā-śata-vyāsaktāpi vinā tvayā vara-tanur
+            naiṣā niśāṃ neṣyati || GG_6.11 ||
+            </p>
+         
+         
+         <p>
+            kiṃ viśrāmyasi kṛṣṇa-bhogi-bhavane bhāṇḍīra-bhūmī-ruhi bhrātar yāsi na dṛṣṭi-gocaram
+            itaḥ sānanda-nandāspadam |<br />
+            rādhāyā vacanaṃ tad adhvaga-mukhān nandāntike gopato govindasya jayanti sāyam atithi-prāśastya-garbhā
+            giraḥ || GG_6.12 ||
+            </p>
+         
+         
+         <p>iti śrī-gīta-govinde'bhisārikā-varṇane dhanya-vaikuṇṭho nāma
+            ṣaṣṭhaḥ sargaḥ
+            ||6||</p>
+         
+         
+         <p>(7)</p>
+         
+         
+         <p>saptamaḥ sargaḥ
+            nāgara-nārāyaṇaḥ</p>
+         
+         
+         <p>atrāntare ca kulaṭā-kula-vartma-ghāṭa-sañjāta-pātaka iva sphuṭa-lāñchana-śrīḥ |
+            <span class="bold">NOTE:</span> {pāta- iti pāṭhāntaraḥ.}
+            vṛndāvanāntaram adīpayad aṃśu-jālair dik-sundarī-vadana-candana-bindur induḥ || GG_7.1
+            ||</p>
+         
+         
+         <p>
+            prasarati śaśa-dhara-bimbe vihita-vilambe ca mādhave vidhurā |<br />
+            viracita-vividha-vilāpaṃ saparitāpaṃ cakāroccaiḥ || GG_7.2 ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 13 ||</p>
+         
+         
+         <p><span class="it">mālava-rāga-yati-tālābhyāṃ gīyate</span> |
+            <span class="bold">NOTE:</span> {pratimaṇṭha-}</p>
+         
+         
+         <p>
+            kathita-samaye'pi harir ahaha na yayau vanam |<br />
+            mama viphalam idam amala-rūpam api yauvanam || GG_7.3 ||
+            </p>
+         
+         
+         <p>yāmi he kam iha śaraṇaṃ sakhī-jana-vacana-vañcitā ||dhruva||||</p>
+         
+         
+         <p>
+            yad-anugamanāya niśi gahanam api śīlitam |<br />
+            tena mama hṛdayam idam asama-śara-kīlitam || GG_7.4 ||
+            </p>
+         
+         
+         <p>mama maraṇam eva varam iti vitatha-ketanā |
+            <span class="bold">NOTE:</span> {iha iti <span class="it">ni-</span>pāṭhāntaraḥ.}
+            <span class="bold">NOTE:</span> {ativitatha-cetaneti ṭīkā-dhṛta-pāṭhāntaraḥ.}
+            kim iha viṣahāmi virahānalam acetanā || GG_7.5 ||</p>
+         
+         
+         <p>
+            mām ahaha vidhurayati madhura-madhu-yāminī |<br />
+            kāpi harim anubhavati kṛta-sukṛta-kāminī || GG_7.6 ||
+            </p>
+         
+         
+         <p>
+            ahaha kalayāmi valayādi-maṇi-bhūṣaṇam |<br />
+            hari-viraha-dahana-vahanena bahu-dūṣaṇam || GG_7.7 ||
+            </p>
+         
+         
+         <p>
+            kusuma-sukumāra-tanum atanu-śara-līlayā |<br />
+            srag api hṛdi hanti mām ativiṣama-śilayā || GG_7.8 ||
+            </p>
+         
+         
+         <p>
+            aham iha nivasāmi na-gaṇita-vana-vetasā |<br />
+            smarati madhusūdano mām api na cetasā || GG_7.9 ||
+            </p>
+         
+         
+         <p>
+            hari-caraṇa-śaraṇa-jayadeva-kavi-bhāratī |<br />
+            vasatu hṛdi yuvatir iva komala-kalāvatī || GG_7.10 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            tat kiṃ kām api kāminīm abhisṛtaḥ kiṃ vā kalā-kelibhir baddho bandhubhir andhakāriṇi
+            vanābhyarṇe kim udbhrāmyati |<br />
+            kāntaḥ klānta-manā manāg api pathi prasthātum evākṣamaḥ saṅketī-kṛta-mañju-vāñjula-latā-kuñje'pi
+            yan nāgataḥ || GG_7.11 ||
+            </p>
+         
+         
+         <p>
+            athāgatāṃ mādhavam antareṇa sakhīm iyaṃ vīkṣya viṣāda-mūkām |<br />
+            viśaṅkamānā ramitaṃ kayāpi janārdanaṃ dṛṣṭavad etad āha || GG_7.12 ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 14 ||</p>
+         
+         
+         <p><span class="it">vasanta-rāga-yati-tālābhyāṃ gīyate</span> |</p>
+         
+         
+         <p>
+            smara-samarocita-viracita-veśā |<br />
+            galita-kusuma-dara-vilulita-keśā || GG_7.13 ||
+            </p>
+         
+         
+         <p>kāpi madhuripuṇā vilasati yuvatir adhika-guṇā ||dhruva||||</p>
+         
+         
+         <p>hari-parirambhana-calita-vikārā |
+            <span class="bold">NOTE:</span> {valita iti <span class="it">ni-</span>pāṭhāntaraḥ.}
+            kuca-kalaśopari taralita-hārā || GG_7.14 ||</p>
+         
+         
+         <p>
+            vicalad-alaka-lalitānana-candrā |<br />
+            tad-adhara-pāna-rabhasa-kṛta-tandrā || GG_7.15 ||
+            </p>
+         
+         
+         <p>
+            cañcala-kuṇḍala-dalita-kapolā |<br />
+            mukharita-raśana-jaghana-gati-lolā || GG_7.16 ||
+            </p>
+         
+         
+         <p>
+            dayita-vilokita-lajjita-hasitā |<br />
+            bahu-vidha-kūjita-rati-rasa-rasitā || GG_7.17 ||
+            </p>
+         
+         
+         <p>
+            vipula-pulaka-pṛthu-vepathu-bhaṅgā |<br />
+            śvasita-nimīlita-vikasad-anaṅgā || GG_7.18 ||
+            </p>
+         
+         
+         <p>
+            śrama-jala-kaṇa-bhara-subhaga-śarīrā |<br />
+            paripatitorasi rati-raṇa-dhīrā || GG_7.19 ||
+            </p>
+         
+         
+         <p>
+            śrī-jayadeva-bhaṇita-hari-ramitam |<br />
+            kali-kaluṣaṃ janayatu pariśamitam || GG_7.20 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            viraha-pāṇḍu-murāri-mukhāmbuja-dyutir ayaṃ tirayann api vedanām |<br />
+            vidhur atīva tanoti mano-bhuvaḥ suhṛd aye hṛdaye madana-vyathām || GG_7.21 ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 15 ||</p>
+         
+         
+         <p><span class="it">gurjarī-rāgaika-tāli-tālena gīyate</span> |</p>
+         
+         
+         <p>
+            samudita-madane ramaṇī-vadane cumbana-valitādhare |<br />
+            mṛga-mada-tilakaṃ likhati sapulakaṃ mṛgam iva rajanī-kare || GG_7.22 ||
+            </p>
+         
+         
+         <p>ramate yamunā-pulina-vane vijayī murārir adhunā ||dhruva||||</p>
+         
+         
+         <p>
+            ghana-caya-rucire racayati cikure taralita-taruṇānane |<br />
+            kurubaka-kusumaṃ capalā suṣamaṃ rati-pati-mṛga-kānane || GG_7.23 ||
+            </p>
+         
+         
+         <p>
+            ghaṭayati sughane kuca-yuga-gagaṇe mṛga-mada-ruci-rūṣite |<br />
+            maṇi-saram amalaṃ tāraka-paṭalaṃ nakha-pada-śaśi-bhūṣite || GG_7.24 ||
+            </p>
+         
+         
+         <p>
+            jita-bisa-śakale mṛdu-bhuja-yugale kara-tala-nalinī-dale |<br />
+            marakata-valayaṃ madhukara-nicayaṃ vitarati hima-śītale || GG_7.25 ||
+            </p>
+         
+         
+         <p>
+            rati-gṛha-jaghane vipulāpaghane manasija-kanakāsane |<br />
+            maṇi-maya-raśanaṃ toraṇa-hasanaṃ vikirati kṛta-vāsane || GG_7.26 ||
+            </p>
+         
+         
+         <p>
+            caraṇa-kiśalaye kamalā-nilaye nakha-maṇi-gaṇa-pūjite |<br />
+            bahir-apavaraṇaṃ yāvaka-bharaṇaṃ janayati hṛdi yojite || GG_7.27 ||
+            </p>
+         
+         
+         <p>
+            ramayati subhṛśaṃ kam api sudṛśaṃ khala-haladhara-sodare |<br />
+            kim aphalam avasaṃ ciram iha virasaṃ vada sakhi viṭapodare || GG_7.28 ||
+            </p>
+         
+         
+         <p>
+            iha rasa-bhaṇane kṛta-hari-guṇane madhuripu-pada-sevake |<br />
+            kali-yuga-caritaṃ na vasatu duritaṃ kavi-nṛpa-jayadevake || GG_7.29 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {racitam iti kvacit dṛśyate.}</p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            nāyātaḥ sakhi nirdayo yadi śaṭhas tvaṃ dūti kiṃ dūyase svacchandaṃ bahu-vallabhaḥ
+            sa ramate kiṃ tatra te dūṣaṇam |<br />
+            paśyādya priya-saṅgamāya dayitasyākṛṣyamāṇaṃ guṇair utkaṇṭhārti-bharād iva sphuṭad
+            idaṃ cetaḥ svayam yāsyati || GG_7.30 ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 16 ||</p>
+         
+         
+         <p><span class="it">deśavarāḍi-rāgeṇa rūpaka-tālena gīyate</span> |</p>
+         
+         
+         <p>
+            anila-tarala-kuvalaya-nayanena |<br />
+            tapati na sā kiśalaya-śayanena || GG_7.31 ||
+            </p>
+         
+         
+         <p>sakhi yā ramitā vana-mālinā ||dhruva-padam ||</p>
+         
+         
+         <p>
+            vikasita-sarasija-lalita-mukhena |<br />
+            sphuṭati na sā manasija-viśikhena || GG_7.32 ||
+            </p>
+         
+         
+         <p>
+            amṛta-madhura-mṛdu-tara-vacanena |<br />
+            jvalati na sā malayaja-pavanena || GG_7.33 ||
+            </p>
+         
+         
+         <p>
+            sthala-jala-ruha-ruci-kara-caraṇena |<br />
+            luṭhati na sā hima-kara-kiraṇena || GG_7.34 ||
+            </p>
+         
+         
+         <p>
+            sajala-jalada-samudaya-rucireṇa |<br />
+            dalati na sā hṛdi cira-viraheṇa || GG_7.35 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {viraha-bhareṇa iti haridāsa-saṃskaraṇe }</p>
+         
+         
+         <p>
+            kanaka-nikaṣa-ruci-śuci-vasanena |<br />
+            śvasiti na sā parijana-hasanena || GG_7.36 ||
+            </p>
+         
+         
+         <p>
+            sakala-bhuvana-jana-vara-taruṇena |<br />
+            vahati na sā rujam atikaruṇena || GG_7.37 ||
+            </p>
+         
+         
+         <p>
+            śrī-jayadeva-bhaṇita-vacanena |<br />
+            praviśatu harir api hṛdayam anena || GG_7.38 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            mano-bhavānandana candanānila prasīda re dakṣiṇa muñca vāmatām |<br />
+            kṣaṇaṃ jagat-prāṇa nidāya mādhavaṃ puro mama prāṇa-haro bhaviṣyasi || GG_7.39 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {nidhāya iti <span class="it">ni-</span>pāṭhāntaraḥ.}</p>
+         
+         
+         <p>
+            ripur iva sakhi-saṃvāso'yaṃ śikhīva himānilo viṣam iva sudhā-raśmir yasmin dunoti
+            mano-gate |<br />
+            hṛdayam adaye tasmin naivaṃ punar valate balāt kuvalaya-dṛśāṃ vāmaḥ kāmo nikāma-niraṇkuśaḥ
+            || GG_7.40 ||
+            </p>
+         
+         
+         <p>
+            bādhāṃ vidhehi malayānila pañca-bāṇa prāṇān gṛhāṇa na gṛhaṃ punar āśrayiṣye |<br />
+            kiṃ te kṛtānta-bhagini kṣamayā taraṅgair aṅgāni siñca mama śāmyatu deha-dāhaḥ || GG_7.41
+            ||
+            </p>
+         
+         
+         <p>
+            prātar nīla-nicolam acyutam uraḥ saṃvīta-pītāṃśukaṃ rādhāyāś cakitaṃ vilokya hasati
+            svairaṃ sakhi-maṇḍale |<br />
+            vrīḍā-cañcalam añcalaṃ nayanayor ādhāya rādhānane svādu-smera-mukho'yam astu jagad-ānandāya
+            nandātmajaḥ || GG_7.42 ||
+            </p>
+         
+         
+         <p>iti śrī-gīta-govinda-mahākāvye vipralabdhā-varṇane
+            nāgara-nārāyaṇo nāma
+            saptamaḥ sargaḥ
+            ||7||</p>
+         
+         
+         <p>(8)
+            aṣṭamaḥ sargaḥ
+            vilakṣa-lakṣmīpatiḥ</p>
+         
+         
+         <p>
+            atha katham api yāminīṃ vinīya smara-śara-jarjaritāpi sā prabhāte |<br />
+            anunaya-vacanaṃ vadantam agre praṇatam api priyaṃ āha sābhyasūyam || GG_8.1 ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 17 ||</p>
+         
+         
+         <p><span class="it">bhairavi-rāga-yati-tālābhyāṃ gīyate</span> |</p>
+         
+         
+         <p>
+            rajani-janita-guru-jāgara-rāga-kaṣāyitam alasa-nimeṣam |<br />
+            vahati nayanam anurāgam iva sphuṭam udita-rasābhiniveśam || GG_8.2 ||
+            </p>
+         
+         
+         <p>
+            hari hari yāhi mādhava yāhi keśava mā vada kaitava-vādam |<br />
+            tām anusara sarasīruha-locana yā tava harati viṣādam || dhru. ||
+            </p>
+         
+         
+         <p>
+            kajjala-malina-vilocana-cumbana-viracita-nīlima-rūpam |<br />
+            daśana-vasanam aruṇ aṃ tava krsṇa tanoti tanor anurūpam || GG_8.3 ||
+            </p>
+         
+         
+         <p>
+            vapur anuharati tava smara-saṅgara-khara-nakhara-kṣata-rekham |<br />
+            marakata-śakala-kalita-kala-dhauta-liper iva rati-jaya-lekham || GG_8.4 ||
+            </p>
+         
+         
+         <p>
+            caraṇa-kamala-galad-alaktaka-siktam idaṃ tava hṛdayam udāram |<br />
+            darsayatīva bahir madana-druma-nava-kiśalaya-parivāram || GG_8.5 ||
+            </p>
+         
+         
+         <p>
+            daśana-padaṃ bhavad-adhara-gataṃ mama janayati cetasi khedam |<br />
+            kathayati katham adhunāpi mayā saha tava vapur etad abhedam || GG_8.6 ||
+            </p>
+         
+         
+         <p>
+            bahir iva malinataraṃ tava kṛṣṇa mano'pi bhaviṣyati nūnam |<br />
+            katham atha vañcayase janam anugatam asama-śara-jvara-dūnam || GG_8.7 ||
+            </p>
+         
+         
+         <p>
+            bhramati bhavān abalā-kavalāya vaneṣu kim atra vicitram |<br />
+            prathayati pūtanikaiva vadhū-vadha-nirdaya-bāla-caritram || GG_8.8 ||
+            </p>
+         
+         
+         <p>
+            śrī-jayadeva-bhaṇita-rati-vañcita-khaṇḍita-yuvati-vilāpam |<br />
+            śṛṇuta sudhā-madhuraṃ vibudhā vibudhālayato'pi durāpam || GG_8.9 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>tavedaṃ paśyantyāḥ prasarad-anurāgaṃ bahir iva priyā-pādālakta-cchuritam aruṇa-cchāya-hṛdayam
+            |
+            <span class="bold">NOTE:</span> {dyoti-}
+            mamādya prakhyāta-praṇaya-bhara-bhaṅgena kitava tvad-ālokaḥ śokād api kim api lajjāṃ
+            janayati || GG_8.10 ||</p>
+         
+         
+         <p>antar-mohana-mauli-ghūrṇana-calan-mandāra-visraṃśana-stambhākarṣaṇa-dṛṣṭi-harṣaṇa-mahā-mantraḥ
+            kuraṅgī-dṛśām |
+            <span class="bold">NOTE:</span> {vibhraṃśana}
+            <span class="bold">NOTE:</span> {dṛpti}
+            dṛpyad-dānava-dūyamāna-diviṣad-durvāra-duḥkhāpadāṃ bhraṃśaḥ kaṃsa-ripor vyapohayatu
+            vaḥ śreyāṃsi vaṃśī-ravaḥ || GG_8.11 ||</p>
+         
+         
+         <p><span class="bold">NOTE:</span> {vyapolayatu vaḥ śreyāṃsi iti <span class="it">ni-</span>pāṭhaḥ.}</p>
+         
+         
+         <p>iti śrī-śrī-gīta-govinde mahā-kāvye khaṇḍitā-varṇane
+            vilakṣa-lakṣmīpatir nāma
+            aṣṭamaḥ sargaḥ
+            ||8||</p>
+         
+         
+         <p>(9)</p>
+         
+         
+         <p>navamaḥ sargaḥ
+            mugdha-mukundaḥ</p>
+         
+         
+         <p>
+            tām atha manmatha-khinnāṃ rati-rasa-bhinnāṃ viṣāda-sampannām |<br />
+            anucintita-hari-caritāṃ kalahāntaritām uvāca rahasi sakhī || GG_9.1 ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 18 ||</p>
+         
+         
+         <p><span class="it">gurjarī-rāga-yati-tālābhyāṃ gīyate</span> |</p>
+         
+         
+         <p>
+            harir abhisarati vahati madhu-pavane |<br />
+            kim aparam adhika-sukhaṃ sakhi bhavane || GG_9.2 ||
+            </p>
+         
+         
+         <p>mādhave mā kuru mānini mānam aye || dhruva-padam ||</p>
+         
+         
+         <p>
+            tāla-phalād api gurum atisarasam |<br />
+            kiṃ viphalī-kuruṣe kuca-kalaśam || GG_9.3 ||
+            </p>
+         
+         
+         <p>
+            kati na kathitam idam anupadam aciram |<br />
+            mā parihara harim atīśaya-ruciram || GG_9.4 ||
+            </p>
+         
+         
+         <p>
+            kim iti viṣīdasi rodiṣi vikalā |<br />
+            vihasati yuvatī-sabhā tava sakalā || GG_9.5 ||
+            </p>
+         
+         
+         <p>sajala-nalinī-dala-śīlita-śayane |
+            <span class="bold">NOTE:</span> {śītala-}
+            harim avalokaya saphalaya nayane || GG_9.6 ||</p>
+         
+         
+         <p>
+            janayasi manasi kim iti guru-khedam |<br />
+            śṛṇu mama vacanam anīhita-bhedam || GG_9.7 ||
+            </p>
+         
+         
+         <p>
+            harir upayātu vadatu bahu-madhuram |<br />
+            kim iti karoṣi hṛdayam atividhuram || GG_9.8 ||
+            </p>
+         
+         
+         <p>
+            śrī-jayadeva-bhaṇitam atilalitaṃ |<br />
+            sukhayatu rasika-janaṃ hari-caritaṃ || GG_9.9 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            snigdhe yat paruṣāsi praṇamati stabdhāsi yad rāgiṇi dveṣa-sthāsi yad unmukhe vimukhatāṃ
+            yātāsi tasmin priye |<br />
+            tad yuktaṃ viparīta-kāriṇi tava śrīkhaṇḍa-carcā viṣaṃ śītāṃśus tapano himaṃ hutavahaḥ
+            krīḍā-mudo yātanāḥ || GG_9.10 ||
+            </p>
+         
+         
+         <p>
+            sāndrānanda-purandarādi-diviṣad-vṛndair amandādarād ānamrair mukuṭendra-nīla-maṇibhiḥ
+            sandarśitendindiram |<br />
+            svacchandaṃ makaranda-sundara-galan-mandākinī-meduraṃ śrī-govinda-padāravindam aśubha-skandāya
+            vandāmahe || GG_9.11 ||
+            </p>
+         
+         
+         <p>(10)</p>
+         
+         
+         <p>daśamaḥ sargaḥ
+            catura-catur-bhujaḥ</p>
+         
+         
+         <p>
+            atrāntare'masṛṇa-roṣa-vaśām apāra-niḥśvāsa-niḥsaha-mukhīṃ sumukhīm upetya |<br />
+            savrīḍam īkṣita-sakhī-vadanāṃ dinānte sānanda-gadgada-padaṃ harir ity uvaca || GG_10.1
+            ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 19 ||</p>
+         
+         
+         <p><span class="it">deśavarāḍi-rāgāṣṭātālī-tālābhyāṃ gīyate</span> |</p>
+         
+         
+         <p>
+            vadasi yadi kiñcid api danta-ruci-kaumudī harati dara-timiram atighoram |<br />
+            sphurad-adhara-sīdhave tava vadana-candramā rocayatu locana-cakoraṃ || GG_10.2 ||
+            </p>
+         
+         
+         <p>
+            priye cāru-śīle muñca mayi mānam anidānaṃ |<br />
+            sapadi madanānalo dahati mama mānasam<br />
+            dehi mukha-kamala-madhu-pānaṃ ||dhruva-padaṃ ||
+            </p>
+         
+         
+         <p>
+            satyam evāsi yadi sudati mayi kopinī dehi khara-nakhara-śara-ghātam |<br />
+            ghaṭaya bhuja-bandhanaṃ janaya rada-khaṇḍanaṃ yena vā bhavati sukha-jātaṃ || GG_10.3
+            ||
+            </p>
+         
+         
+         <p>
+            tvam asi mama bhūṣaṇaṃ tvam asi mama jīvanaṃ tvam asi mama bhava-jaladhi-ratnam |<br />
+            bhavatu bhavatīha mayi satatam anurodhinī tatra mama hṛdayam atiyatnaṃ || GG_10.4
+            ||
+            </p>
+         
+         
+         <p>
+            nīla-nalinābham api tanvi tava locanaṃ dhārayati kokanada-rūpaṃ |<br />
+            kusuma-śara-bāṇa-bhāvena yadi rañjayasi kṛṣṇam idam etad-anurūpam || GG_10.5 ||
+            </p>
+         
+         
+         <p>
+            sphuratu kuca-kumbhayor upari maṇi-mañjarī rañjayatu tava hṛdaya-deśam |<br />
+            rasatu raśanāpi tava ghana-jaghana-maṇḍale ghoṣayatu manmatha-nideśam || GG_10.6 ||
+            </p>
+         
+         
+         <p>
+            sthala-kamala-gañjanaṃ mama hṛdaya-rañjanaṃ janita-rati-raṅga-parabhāgam |<br />
+            bhaṇa masṛṇa-vāṇi karavāṇi caraṇa-dvayaṃ sarasa-lasad-alaktaka-rāgam || GG_10.7 ||
+            </p>
+         
+         
+         <p>smara-garala-khaṇḍanaṃ mama śirasi maṇḍanaṃ dehi pada-pallavam udāram |
+            <span class="bold">NOTE:</span> {dhehi iti <span class="it">ni-</span>pāṭhaḥ.}
+            jvalati mayi dāruṇo madana-kadanāruṇo haratu tad-upāhita-vikāram || GG_10.8 ||</p>
+         
+         
+         <p>
+            iti caṭula-cāṭu-paṭu-cāru mura-vairiṇo rādhikām adhi vacana-jātam |<br />
+            jayatu jayadeva-kavi-bhāratī-bhūṣitaṃ māninī-jana-janita-śātam || GG_10.9 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {jayati iti pātḥaḥ.}
+            <span class="bold">NOTE:</span> {jayati padmāvatī-ramaṇa-jayadeva-kavi-bhāratī-bhaṇitam atiśātam iti ṭīkā-dhṛta-pāṭhāntaraḥ.}</p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            parihara kṛtātaṅke śaṅkāṃ tvayā satataṃ ghana-stana-jaghanayākrānte svānte parānavakāśinī
+            |<br />
+            viśati vitanor anyo dhanyo na ko'pi mamāntaraṃ praṇayini parīrambhārambhe vidhehi
+            vidheyatām || GG_10.10 ||
+            </p>
+         
+         
+         <p>
+            mugdhe vidhehi mayi nirdaya-danta-daṃśa-dor-valli-bandha-niviḍa-stana-pīḍanāni |<br />
+            caṇḍi tvam eva mudam udvaha pañca-bāṇa-cāṇḍāla-kāṇḍa-dalanād asavaḥ prayāntu || GG_10.11
+            ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {prayānti}</p>
+         
+         
+         <p>
+            śaśi-mukhi tava bhāti bhaṅgura-bhrūr yuva-jana-moha-karāla-kāla-sarpī |<br />
+            tad-udita-bhaya-bhañjanāya yūnāṃ tvad-adhara-sīdhu-sudhaiva siddha-mantraḥ || GG_10.12
+            ||
+            </p>
+         
+         
+         <p>
+            vyathayati vṛthā maunaṃ tanvi prapañcaya pañcamaṃ taruṇi madhurālāpais tāpaṃ vinodaya
+            dṛṣṭibhiḥ |<br />
+            sumukhi vimukhī-bhāvaṃ tāvad vimuñca na muñca māṃ svayam atiśaya-snigdho mugdhe priyo'yam
+            upasthitaḥ || GG_10.13 ||
+            </p>
+         
+         
+         <p>
+            bandhūka-dyuti-bāndhavo'yam adharaḥ snigdho madhūka-cchavir gaṇḍaś caṇḍi cakāsti nīla-nalina-śrī-mocanaṃ
+            locanam |<br />
+            nāsābhyeti tila-prasūna-padavīṃ kundābha-danti priye prāyas tvan-mukha-sevayā vijayate
+            viśvaṃ sa puṣpāyudhaḥ || GG_10.14 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {senayeti ṭīkā-dhṛta-pāṭhāntaraḥ.}</p>
+         
+         
+         <p>dṛśau tava madālase vadanam indu-sandīpanaṃ gatir jana-manoramā vijita-rambhaṃ ūru-dvayam
+            |
+            <span class="bold">NOTE:</span> {vidhuta- iti haridāsa-saṃskaraṇe.}
+            ratis tava kalāvatī rucira-citra-lekhe bhruvāv aho vibudha-yauvataṃ vahasi tanvi pṛthvī-gatā
+            || GG_10.15 ||</p>
+         
+         
+         <p>sa prītiṃ tanutāṃ hariḥ kuvalayāpīḍena sārdhaṃ raṇe rādhā-pīna-payodhara-smaraṇa-kṛt-kumbhena
+            sambhedavān |
+            <span class="bold">NOTE:</span> {prītiṃ vas tanutāṃ iti haridāsa-saṃskaraṇe.}
+            yatra svidyati mīlati kṣaṇam api kṣipraṃ tad-ālokana-vyāmohena jitaṃ jitaṃ jitam abhūt
+            kaṃsasya kolāhalaḥ || GG_10.16 ||</p>
+         
+         
+         <p><span class="bold">NOTE:</span> {yatra svidyati mīlati kṣaṇam atha kṣipte dvipe tat-kṣaṇāt kaṃsasyālam abhūj jitaṃ
+            jitaṃ jitam iti vyāmoha-kolāhalaḥ || iti haridāsa-saṃskaraṇa-pāṭhaḥ.}</p>
+         
+         
+         <p>(11)</p>
+         
+         
+         <p>ekādaśaḥ sargaḥ
+            sānanda-dāmodaraḥ
+            <span class="bold">NOTE:</span> {sāmoda- iti kvacit, sānanda-govinda iti haridāsa-saṃskaraṇe.}</p>
+         
+         
+         <p>
+            suciram anunayena prīṇayitvā mṛgākṣīṃ gatavati kṛtaveśe keśave kuñja-śayyām |<br />
+            racita-rucira-bhūṣāṃ dṛṣṭi-moṣe pradoṣe sphurati niravasādāṃ kāpi rādhāṃ jagāda ||
+            GG_11.1 ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 20 ||</p>
+         
+         
+         <p><span class="it">vasanta-rāga-yati-tālābhyāṃ gīyate</span> |</p>
+         
+         
+         <p>
+            viracita-cāṭu-vacana-racanaṃ caraṇe racita-praṇipātam |<br />
+            samprati mañjula-vañjula-sīmani keli-śayanam anuyātaṃ || GG_11.2 ||
+            </p>
+         
+         
+         <p>mugdhe madhu-mathanam anugatam anusara rādhike ||dhruva||||</p>
+         
+         
+         <p>
+            ghana-jaghana-stana-bhāra-bhare dara-manthara-caraṇa-vihāram |<br />
+            mukharita-maṇi-mañjīram upaihi vidhehi marāla-vikāram || GG_11.3 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {nikāram iti.}</p>
+         
+         
+         <p>śṛṇu ramaṇīyataraṃ taruṇī-jana-mohana-madhupa-virāvam |
+            <span class="bold">NOTE:</span> {ramaṇī-}
+            <span class="bold">NOTE:</span> {madhuripu-rāvam}
+            kusuma-śarāsana-śāsana-vandini pika-nikare bhaja bhāvam || GG_11.4 ||</p>
+         
+         
+         <p>
+            anila-tarala-kiśalaya-nikareṇa kareṇa latā-nikurambam |<br />
+            preraṇam iva karabhoru karoti gatiṃ prati muñca vilambam || GG_11.5 ||
+            </p>
+         
+         
+         <p>
+            sphuritam anaṅga-taraṅga-vaśād iva sūcita-hari-parirambham |<br />
+            pṛccha manohara-hāra-vimala-jala-dhāram amuṃ kuca-kumbham || GG_11.6 ||
+            </p>
+         
+         
+         <p>
+            adhigatam akhila-sakhībhir idaṃ tava vapur api rati-raṇa-sajjam |<br />
+            caṇḍi rasita-raśanā-rava-ḍiṇḍimam abhisara sarasam alajjam || GG_11.7 ||
+            </p>
+         
+         
+         <p>
+            smara-śara-subhaga-nakhena sakhīm avalambya kareṇa salīlam |<br />
+            cala valaya-kvaṇitair avabodhaya harim api nija-gati-śīlaṃ || GG_11.8 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {nigadita iti.}</p>
+         
+         
+         <p>
+            śrī-jayadeva-bhaṇitam adharīkṛta-hāram udāsita-vāmam |<br />
+            hari-vinihita-manasām adhitiṣṭhatu kaṇṭha-taṭīm avirāmam || GG_11.9 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>sā māṃ drakṣyati vakṣyati smara-kathāṃ praty-aṅgam āliṅganaiḥ prītiṃ yāsyati raṃsyate
+            sakhi samāgatyeti cintākulaḥ |
+            <span class="bold">NOTE:</span> {sañcintayan iti haridāsa-pāṭhaḥ.}
+            sa tvāṃ paśyati vepate pulakayaty ānandati svidyati pratyudgacchati mūrcchati sthira-tamah-puñje
+            nikuñje prīyaḥ || GG_11.10 ||</p>
+         
+         
+         <p>
+            akṣṇor nikṣipad añjanaṃ śravaṇayos tāpiñcha-gucchāvalīṃ mūrdhni śyāma-saroja-dāma
+            kucayoḥ kastūrikā-patrakam |<br />
+            dhūrtānām abhisāra-sambhrama-jūṣāṃ viṣvaṅ-nikuñje sakhi dhvāntaṃ nīla-nicola-cāru
+            sudṛśāṃ praty-aṅgam aliṅgati || GG_11.11 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {abhisāra-satvara-hṛdāṃ iti haridāsa-saṃskaraṇa-pāthaḥ.}</p>
+         
+         
+         <p>
+            kāśmīra-gaura-vapuṣām abhisārikāṇāṃ ābaddha-rekham abhito ruci-mañjarībhiḥ |<br />
+            etat tamāla-dala-nīlatamaṃ tamisraṃ tat-prema-hema-nikaṣopalatāṃ tanoti || GG_11.12
+            ||
+            </p>
+         
+         
+         <p>hārāvalī-tarala-kāñcana-kāñci-dāma-keyūra-kaṅkaṇa-maṇi-dyuti-dīpitasya |
+            <span class="bold">NOTE:</span> {mañjīra iti haridāsasya pāṭhaḥ.}
+            dvāre nikuñja-nilayasya hariṃ nirīkṣya vrīḍāvatīm atha sakhīṃ īyam ity uvaca || GG_11.13
+            ||</p>
+         
+         
+         <p>|| prabandhaḥ 21 ||</p>
+         
+         
+         <p><span class="it">varāḍi-rāga-rūpaka-tālābhyāṃ gīyate</span> |</p>
+         
+         
+         <p>
+            mañjutara-kuñja-tala-keli-sadane |<br />
+            vilasa rati-rabhasa-hasita-vadane || GG_11.14 ||
+            </p>
+         
+         
+         <p>praviśa rādhe mādhava-samīpam iha || dhruva-padaṃ ||</p>
+         
+         
+         <p><span class="bold">NOTE:</span> {haridāsasya saṃskaraṇe, ḥpraviśa rādheḥ ity-ādi dhruva-padaṃ pratiślokasya prathama-dvitīya-caraṇayor
+            madhye gīyate.}</p>
+         
+         
+         <p>nava-lasad-aśoka-dala-śayana-sāre |
+            <span class="bold">NOTE:</span> {bhavad- iti <span class="it">ni-</span>pāṭhaḥ.}
+            vilasa kuca-kalaśa-tarala-hāre || GG_11.15 ||</p>
+         
+         
+         <p>
+            kusuma-caya-racita-śuci-vāsa-gehe |<br />
+            vilasa kusuma-sukumāra-dehe || GG_11.16 ||
+            </p>
+         
+         
+         <p>mṛdu-cala-malaya-pavana-surabhi-śīte |
+            <span class="bold">NOTE:</span> {mṛdu-cala-malaya- iti haridāsa-pāṭhāntaraḥ.}
+            vilasa madana-śara-nikara-bhīte || GG_11.17 ||</p>
+         
+         
+         <p><span class="bold">NOTE:</span> {kusuma-śara iti, madana-rasa iti vā <span class="it">ni-</span>pāṭhāntaraḥ.}
+            <span class="bold">NOTE:</span> {vilasa rati-valita-lalita-gīte iti haridāsa-pāṭhaḥ. tatra pāthāntare <span class="it">rasa</span>-valita- iti ca. }</p>
+         
+         
+         <p>
+            vitata-bahu-valli-nava-pallava-ghane |<br />
+            vilasa ciram alasa-pīna-jaghane || GG_11.18 ||
+            </p>
+         
+         
+         <p>
+            madhu-mudita-madhupa-kula-kalita-rāve |<br />
+            vilasa madana-rasa-sarasa-bhāve || GG_11.19 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {rabhasa-rasa- haridāsasya pāṭhaḥ.}</p>
+         
+         
+         <p>
+            madhuratara-pika-nikara-ninada-mukhare |<br />
+            vilasa daśana-ruci-rucira-śikhare || GG_11.20 ||
+            </p>
+         
+         
+         <p>
+            vihita-padmāvatī-sukha-samāje |<br />
+            kuru murāre maṅgala-śatāni |<br />
+            bhaṇati jayadeva-kavi-rāja-rāje || GG_11.21 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>
+            tvāṃ cittena ciraṃ vahann ayam atiśrānto bhṛśaṃ tāpitaḥ kandarpeṇa ca pātum icchati
+            sudhā-sambādha-bimbādharam |<br />
+            asyāṅkaṃ tad alaṅkuru kṣaṇam iha bhrū-kṣepa-lakṣmī-lava-krīte dāsa ivopasevita-padāmbhoje
+            kutaḥ sambhramaḥ || GG_11.22 ||
+            </p>
+         
+         
+         <p>
+            sā sa-sādhvasa-sānandaṃ govinde lola-locanā |<br />
+            siñjānā mañju-mañjīraṃ praviveśa niveśanam || GG_11.23 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {praviveśābhiveśanam iti haridāsasya pāṭhaḥ.}</p>
+         
+         
+         <p>|| prabandhaḥ 22 ||</p>
+         
+         
+         <p><span class="it">varāḍi-rāga-yati-tālābhyāṃ gīyate</span> |</p>
+         
+         
+         <p>
+            rādhā-vadana-vilokana-vikasita-vividha-vikāra-vibhaṅgam |<br />
+            jala-nidhim iva vidhu-maṇḍala-darśana-taralita-tuṅga-taraṅgam || GG_11.24 ||
+            </p>
+         
+         
+         <p>
+            harim eka-rasaṃ ciram abhilaṣita-vilāsam |<br />
+            sā dadarśa guru-harṣa-vaśaṃvada-vadanam anaṅga-nivāsaṃ || [dhru.]
+            </p>
+         
+         
+         <p>hāram amalatara-tāram urasi dadhataṃ parilambya vidūram |
+            <span class="bold">NOTE:</span> {parirabhya iti <span class="it">ni-</span>pāṭhāntaraḥ.}
+            sphuṭatara-phena-kadamba-karambitam iva yamunā-jala-pūram || GG_11.25 ||</p>
+         
+         
+         <p>
+            śyāmala-mṛdula-kalevara-maṇḍalam adhigata-gaura-dukūlam |<br />
+            nīla-nalinam iva pita-parāga-paṭala-bhara-valayita-mūlam || GG_11.26 ||
+            </p>
+         
+         
+         <p>
+            tarala-dṛg-añcala-calana-manohara-vadana-janita-rati-rāgam |<br />
+            sphuṭa-kamalodara-khelita-khañjana-yugam iva śaradi taḍāgam || GG_11.27 ||
+            </p>
+         
+         
+         <p>
+            vadana-kamala-pariśīlana-milita-mihira-sama-kuṇḍala-śobham |<br />
+            smita-ruci-rucira-samullasitādhara-pallava-kṛta-rati-lobham || GG_11.28 ||
+            </p>
+         
+         
+         <p>
+            śaśi-kiraṇa-cchuritodara-jaladhara-sundara-sakusuma-keśam |<br />
+            timirodita-vidhu-maṇḍala-nirmala-malayaja-tilaka-niveśam || GG_11.29 ||
+            </p>
+         
+         
+         <p>
+            vīpula-pulaka-bhara-danturitaṃ rati-keli-kalābhir adhīraṃ |<br />
+            maṇi-gaṇa-kiraṇa-samūha-samujjvala-bhūṣaṇa-subhaga-śarīram || GG_11.30 ||
+            </p>
+         
+         
+         <p>
+            śrī-jayadeva-bhaṇita-vibhava-dviguṇīkṛta-bhūṣaṇa-bhāram |<br />
+            praṇamata hṛdi vinidhāya hariṃ suciraṃ sukṛtodaya-sāram || GG_11.31 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>atikramyāpāṅgaṃ śravaṇa-patha-paryanta-gamana-prayāsenevākṣṇos taralatara-tāraṃ gamitayoḥ
+            |
+            <span class="bold">NOTE:</span> {patitayoḥ iti haridāsa-dāsasya pāṭhaḥ.}
+            idānīṃ rādhāyāḥ priyatama-samāloka-samaye papāta svedāmbu-prasara iva harṣāśru-nikaraḥ
+            || GG_11.32 ||</p>
+         
+         
+         <p><span class="bold">NOTE:</span> {samāyāta- iti <span class="it">ni-</span>pāṭhaḥ.}</p>
+         
+         
+         <p>
+            bhajantyās talpāntaṃ kṛta-kapaṭa-kaṇḍūti-pihita-smitaṃ yāte gehād bahir avahitālī-parijane
+            |<br />
+            priyāsyaṃ paśyantyāḥ smara-paravaśākūta-subhagaṃ salajjā lajjāpi vyagamad iva dūraṃ
+            mṛga-dṛśaḥ || GG_11.33 ||
+            </p>
+         
+         
+         <p>sānandaṃ nanda-sūnur diśatu mitaparaṃ saṃmadaṃ manda-mandaṃ rādhām ādhāya bāhvor vivaram
+            anu drḍhaṃ pīḍayan prīti-yogāt |
+            <span class="bold">NOTE:</span> {haridāsa-dāsa-saṃskaraṇe ayaṃ śloko nāsti.}
+            tuṅgau tasyā urojāv atanu-varatanor nirgatau mā sma bhūtāṃ pṛṣṭhaṃ nirbhidya tasmād
+            bahir iti valita-grīvam ālokayan vaḥ || GG_11.34 ||</p>
+         
+         
+         <p>
+            jaya-śrī-vinyastair mahita iva mandāra-kusumaiḥ svayaṃ sindūreṇa dvipa-raṇa-mudā mudrita
+            iva |<br />
+            bhujāpīḍa-krīḍā-hata-kuvalayāpīḍa-kariṇaḥ prakīrṇāsṛg-bindur jayati bhuja-daṇḍo murajitaḥ
+            || GG_11.35 ||
+            </p>
+         
+         
+         <p>saundaryaika-nidher anaṅga-lalanā-lāvaṇya-līlā-juṣo rādhāyā hṛdi palvale manasija-krīḍaika-raṅga-sthale
+            |
+            <span class="bold">NOTE:</span> {haridāsa-dāsa-saṃskaraṇe ayaṃ śloko nāsti.}
+            ramyoroja-saroja-khelana-rasitvād ātmanaḥ khyāpayan dhyātur mānasa-rāja-haṃsa-nibhatāṃ
+            deyān mukundo mudam || GG_11.36 ||</p>
+         
+         
+         <p>(12)</p>
+         
+         
+         <p>dvādaśaḥ sargaḥ
+            suprīta-pītāmbaraḥ</p>
+         
+         
+         <p>
+            gatavati sakhī-vṛnde'manda-trapā-bhara-nirbhara-smara-paravaśākūta-sphīta-smita-snapitādharam
+            |<br />
+            sarasa-manasaṃ dṛṣṭvā rādhāṃ muhur nava-pallava-prasava-śayane nikṣiptākṣīm uvāca
+            hariḥ priyām || GG_12.1 ||
+            </p>
+         
+         
+         <p>|| prabandhaḥ 23 ||</p>
+         
+         
+         <p><span class="it">vibhāsa-rāgaikatāli-tālābhyāṃ gīyate</span> |</p>
+         
+         
+         <p>
+            kiśalaya-śayana-tale kuru kāmini caraṇa-nalina-viniveśam |<br />
+            tava pada-pallava-vairi-parābhavam idam anubhavatu suveśaṃ || GG_12.2 ||
+            </p>
+         
+         
+         <p>kṣaṇam adhunā nārāyaṇam anugatam anusara rādhike || dhruva ||</p>
+         
+         
+         <p>
+            kara-kamalena karomi caraṇam aham āgamitāsi vidūram |<br />
+            kṣaṇam upakuru śayanopari mām iva nūpuram anugati-śūram || GG_12.3 ||
+            </p>
+         
+         
+         <p>
+            vadana-sudhā-nidhi-galitam amṛtam iva racaya vacanam anukūlam |<br />
+            viraham ivāpanayāmi payodhara-rodhakam urasi dukūlaṃ || GG_12.4 ||
+            </p>
+         
+         
+         <p>
+            priya-parirambhaṇa-rabhasa-valitam iva pulakitam atiduravāpam |<br />
+            mad-urasi kuca-kalaśaṃ viniveśaya śoṣaya manasija-tāpam || GG_12.5 ||
+            </p>
+         
+         
+         <p>
+            adhara-sudhā-rasam upanaya bhāmini jīvaya mṛtam iva dāsam |<br />
+            tvayi vinihita-manasaṃ virahānala-dagdha-vapuṣam avilāsam || GG_12.6 ||
+            </p>
+         
+         
+         <p>
+            śaśi-mukhi mukharaya maṇi-raśanā-guṇam anuguṇa-kaṇṭha-ninādam |<br />
+            śruti-yugale pika-ruta-vikale mama śamaya cirād avasādam || GG_12.7 ||
+            </p>
+         
+         
+         <p>
+            mām ativiphala-ruṣā vikalī-kṛtam avalokitum adhunedam |<br />
+            lajjitam iva nayanaṃ tava viramati visṛja vṛthā rati-khedam || GG_12.8 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {sṛjasi iti <span class="it">ni-</span>pāṭhaḥ.}
+            <span class="bold">NOTE:</span> <span class="it">{mīlitaṃ lajjitam iva nayanaṃ tava virama visṛja rati-khedam</span> iti tu haridāsa-dāsasya pāṭhaḥ.}</p>
+         
+         
+         <p>
+            śrī-jayadeva-bhaṇitam idam anupada-nigadita-madhuripu-modam |<br />
+            janayatu rasika-janeṣu manorama-rati-rasa-bhāva-vinodam || GG_12.9 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>pratyūhaḥ pulakāṅkureṇa niviḍa-leśa-nimeṣeṇa ca krīḍākūta-vilokite'dhara-sudhā-pāne
+            kathā-kelibhiḥ |
+            <span class="bold">NOTE:</span> {narmabhiḥ iti haridāsa-dāsa-pāṭhaḥ.}
+            ānandādhigamena manmatha-kalā-yuddhe'pi yasminn abhūd udbhūtaḥ sa tayor babhūva suratārambhaḥ
+            priyambhāvukaḥ || GG_12.10 ||</p>
+         
+         
+         <p>
+            dorbhyāṃ saṃyamitaḥ payodhara-bhareṇāpīḍitaḥ pāṇijair āviddho daśanaiḥ kṣatādhara-puṭaḥ
+            śroṇī-taṭenāhataḥ |<br />
+            hastenānamitaḥ kace'dhara-madhu-syandena saṃmohitaḥ kāntaḥ kām api tṛptim āpa tad
+            aho kāmasya vāmā gatiḥ || GG_12.11 ||
+            </p>
+         
+         
+         <p>mārāṅke rati-keli-saṅkula-raṇārambhe tayā sāhasa-prāyaṃ kānta-jayāya kiṃcid upari
+            prārambhi yat-sambhramāt |
+            <span class="bold">NOTE:</span> {vāmāṅge iti <span class="it">ni-</span>pāṭhaḥ. }
+            niṣpandā jaghana-sthalī śithilitā dor-vallir utkampitaṃ vakṣo mīlitam akṣi pauruṣa-rasaḥ
+            strīṇāṃ kutaḥ sidhyati || GG_12.12 ||</p>
+         
+         
+         <p>tasyāḥ pāṭala-pāṇijāṅkitam uro nidrā-kaṣāye dṛśau nirdhautādhara-śonimā vilulita-srasta-srajo
+            mūrdha-jaḥ |
+            <span class="bold">NOTE:</span> {nirdhauto'dhara iti haridāsaḥ.}
+            <span class="bold">NOTE:</span> {vilulitāḥ iti haridāsaḥ.}
+            kāñcī-dāma dara-ślathāñcalam iti prātar nikhātair dṛśor ebhiḥ kāma-śarais tad adbhutam
+            abhūt patyur manaḥ kīlitaṃ || GG_12.13 ||</p>
+         
+         
+         <p>vyālolaḥ keśa-pāśas taralitam alakaiḥ sveda-mokṣau kapolau kliṣṭā bimbādhara-śrīḥ
+            kuca-kalaśa-rucā hāritā hāra-yaṣṭiḥ |
+            <span class="bold">NOTE:</span> {vyākośa iti <span class="it">ni-</span>pāṭhaḥ.}
+            <span class="bold">NOTE:</span> {lolau iti haridāsaḥ.}
+            <span class="bold">NOTE:</span> {daṣṭā iti ca.}
+            kāñcī-kāntir hatāśā stana-jaghana-padaṃ pāṇinācchādya sadyaḥ paśyantī satrapā sā tad
+            api vilulitā mugdha-kantir dhinoti || GG_12.14 ||</p>
+         
+         
+         <p><span class="bold">NOTE:</span> {kāñcī kāñcid gatāśāṃ iti haridāsaḥ.}
+            <span class="bold">NOTE:</span> {satrapaṃ māṃ iti haridāsaḥ.}
+            <span class="bold">NOTE:</span> {vilulita-srag-dhareyaṃ iti haridāsaḥ.}</p>
+         
+         
+         <p>īṣan-mīlita-dṛṣṭi mugdha-vilasat-śītkāra-dhārā-vaśād avyaktākula-keli-kāku-vikasad-dantāṃśu-dhautādharam
+            |
+            <span class="bold">NOTE:</span> {mīlad-dṛṣṭi milat-kapola-pulakaṃ iti haridāsa-dāsa-pāṭhaḥ.}
+            śānta-stabdha-payodharaṃ bhṛśa-pariṣvaṅgāt kuraṅgī-dṛśo harṣotkarṣa-vimukta-niḥsaha-tanor
+            dhanyo dhayaty ānanaṃ || GG_12.15 ||</p>
+         
+         
+         <p><span class="bold">NOTE:</span> {śyāmottuṅga-payodharopari pariṣvaṅgī iti haridāsa-dāsa-pāṭhaḥ.}</p>
+         
+         
+         <p>atha sahasā suprītaṃ suratānte sā nitānta-khinnāṅgi |
+            <span class="bold">NOTE:</span> {iti sahasā nigadantaṃ iti haridāsa-dhṛta-pāṭhāntaraḥ.}
+            rādhā jagāda sādaram idam ānandena govindam || GG_12.16 ||</p>
+         
+         
+         <p>|| prabandhaḥ 24 ||</p>
+         
+         
+         <p><span class="it">rāmakari-rāga-yati-tālābhyāṃ gīyate</span> |</p>
+         
+         
+         <p>
+            kuru yadu-nandana candana-śiśiratareṇa kareṇa payodhare |<br />
+            mṛga-mada-patrakam atra mano-bhava-maṅgala-kalaśa-sahodare || GG_12.17 ||
+            </p>
+         
+         
+         <p>nijagāda sā yadu-nandane krīḍati hṛdaya-nandane ||dhruva||||</p>
+         
+         
+         <p>ali-kula-gañjanam añjanakaṃ rati-nāyaka-sāyaka-mocane |
+            <span class="bold">NOTE:</span> {gañjana-sañjanakaṃ iti haridāsasya pāṭhaḥ.}
+            tvad-adhara-cumbana-lambita-kajjalam ujjvalaya priya locane || GG_12.18 ||</p>
+         
+         
+         <p>
+            nayana-kuraṅga-taraṅga-vikasa-nirāsa-kare śruti-maṇḍale |<br />
+            manasija-pāśa-vilāsa-dhare śubha-veśa niveśaya kuṇḍale || GG_12.19 ||
+            </p>
+         
+         
+         <p>
+            bhramara-cayaṃ racayantam upari ruciraṃ suciraṃ mama sammukhe |<br />
+            jita-kamale vimale parikarmaya narma-janakam alakaṃ mukhe || GG_12.20 ||
+            </p>
+         
+         
+         <p>
+            mṛga-mada-rasa-valitaṃ lalitaṃ kuru tilakam alika-rajani-kare |<br />
+            vihita-kalaṅka-kalaṃ kamalānana viśramita-śrama-sīkare || GG_12.21 ||
+            </p>
+         
+         
+         <p>
+            mama rucire cikure kuru mānada manasija-dhvaja-cāmare |<br />
+            rati-galite lalite kusumāni śikhaṇḍi-śikhaṇḍaka-ḍāmare || GG_12.22 ||
+            </p>
+         
+         
+         <p>
+            sarasa-ghane jaghane mama śambara-dāraṇa-vāraṇa-kandare |<br />
+            maṇi-raśanā-vasanābharaṇāni śubhāśaya vāsaya sundare || GG_12.23 ||
+            </p>
+         
+         
+         <p>
+            śrī-jayadeva-vacasi rucire sadayaṃ hṛdayaṃ kuru maṇḍane |<br />
+            hari-caraṇa-smaraṇāmṛta-nirmita-kali-kaluṣa-jvara-khaṇḍane || GG_12.24 ||
+            </p>
+         
+         
+         <p>* * * * *</p>
+         
+         
+         <p>racaya kucayoś citraṃ patraṃ kuruṣva kapolayor ghaṭaya jaghane kāñcīṃ mugdha-srajā
+            kavarī-bharaṃ |
+            <span class="bold">NOTE:</span> {patraṃ citraṃ iti haridāsaḥ.}
+            <span class="bold">NOTE:</span> {kāñcīm añca srajā iti haridāsaḥ.}
+            kalaya valaya-śreṇīṃ pāṇau pade maṇi-nūpurāv iti nigaditaḥ prītaḥ pitāmbaro'pi tathākarot
+            || GG_12.25 ||</p>
+         
+         
+         <p>
+            paryaṅkī-kṛta-nāga-nāyaka-phaṇā-śreṇī-maṇīnāṃ gaṇe saṅkrānta-pratibimba-saṃvalanayā
+            bibhrad-vibhu-prakriyām |<br />
+            pādāmbho-ruha-dhāri-vāridhi-sutām akṣṇāṃ didṛkṣuḥ śataiḥ kāya-vyūham iva-carann apacitau
+            bhūyo hariḥ pātu vaḥ || GG_12.26 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {upacitī-bhūto iti haridāsaḥ.}</p>
+         
+         
+         <p>
+            tvām aprāpya mayi svayaṃvara-parāṃ kṣīroda-tīrodare śaṅke sundari kālakūṭam apiban
+            mūḍho mṛḍānī-patiḥ |<br />
+            itthaṃ pūrva-kathābhir anya-manasā vikṣipya vakṣo'ñcalaṃ rādhāyāḥ stana-korakopari-milan-netro
+            hariḥ pātu vaḥ || GG_12.27 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {padmāyāḥ iti haridāsaḥ.}</p>
+         
+         
+         <p>
+            yad gāndharva-kalāsu kauśalam anudhyānaṃ ca yad vaiṣṇavaṃ yac chṛṅgāra-viveka-tattva-racanā-kāvyeṣu
+            līlāyitam |<br />
+            tat sarvaṃ jayadeva-paṇḍita-kaveḥ kṛṣṇaika-tānātmanaḥ sānandāḥ pariśodhayantu sudhiyaḥ
+            śrī-gīta-govindataḥ || GG_12.28 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {This verse appears as number 26 in the Haridāsa edition.}</p>
+         
+         
+         <p>
+            sādhūnāṃ svata eva saṃmatir iha syād eva bhaktyārthinām ālocya grathana-śramaṃ ca
+            vidusām asmin bhaved ādaraḥ |<br />
+            ye kecit para-kṛty-upaśruti-parās tān arthaye mat-kṛtiṃ bhūyo vīkṣya vadanto avadyam
+            iha cet sā vāsanā sthāsyati || GG_12.29 ||
+            </p>
+         
+         
+         <p>
+            śrī-bhojadeva-prabhavasya rāmādevī-suta-śrī-jayadevakasya |<br />
+            parāśarādi-priya-varga-kaṇṭhe śrī-gīta-govinda-kavitvam astu || GG_12.30 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {bandhu iti ha-pāṭhaḥ.}
+            <span class="bold">NOTE:</span> {This verse is the last in some editions. }
+            
+            <p>
+               sādhvī mādhvīka cintā na bhavati bhavataḥ śarkare karkaśāsi drākṣe drakṣyanti ke tvām
+               amṛta mṛtam asi kṣīra nīraṃ rasaste |<br />
+               mākanda kranda kāntādhara dhara na tulāṃ gaccha yacchanti bhāvaṃ yāvac chṛṅgāra-sāraṃ
+               śubham iva jayadevasya vaidagdhya-vācaḥ || GG_12.31 ||
+               </p>
+         </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {This verse is not found in Narayana Maharaja's edition of Gīta-govinda, even though
+            there is a Bāla-bodhinī ṭīkā for it.}</p>
+         
+         
+         <p>
+            itthaṃ keli-tatir vihṛtya yamunā-kūle samaṃ rādhayā tad-romāvali-mauktikāvali-yuge
+            veṇī-bhramaṃ bibhrati |<br />
+            tatrāhlādi-kuca-prayāga-phalayor lipsāvator hastayor vyāpārāḥ puruṣottamasya dadatu
+            sphītāṃ mudaṃ sampadaṃ || GG_12.32 ||
+            </p>
+         
+         
+         <p><span class="bold">NOTE:</span> {This verse does not seem to be in those editions that follow Bāla-bodhinī. It's
+            in the Kulkarni and Nirnaya-sāgara editions.}</p>
+         
+         
+         <p>iti śrī-jayadeva kṛtau śrī-śrī-gīta-govinda-mahā-kāvye
+            suprīta-pītāmbaro nāma dvādaśa sargaḥ</p>
+         
+         
+         <p>samāptam idaṃ kāvyam</p>
+         
+         </div>
+   </body>
+</html>

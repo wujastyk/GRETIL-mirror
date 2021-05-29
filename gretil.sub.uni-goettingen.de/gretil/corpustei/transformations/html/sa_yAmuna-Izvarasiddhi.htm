@@ -1,0 +1,1145 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Yāmuna: Īśvarasiddhi (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Yāmuna: Īśvarasiddhi</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_yAmuna-Izvarasiddhi.xml">sa_yAmuna-Izvarasiddhi.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Sadanori Ishitobi</p>
+      <p class="noindent"><b>Contribution: </b>Sadanori Ishitobi</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="analysis">analysis</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/vedanta/yamis_au.htm">yamis_au.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Yamuna: Isvarasiddhi
+            <br />
+            <br />Input by Sadanori ISHITOBI
+            <br />
+            <br />ANALYTIC TEXT VERSION (BHELA conventions)
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_1">
+                  tatra kasyacid ekasya vaśe viśvaṃ pravartate |<br />
+                  iti sādhayituṃ pūrvaṃ pūrvapakṣaṃ pracakṣmahe ||
+                   <span class="ref">YIs_1</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tatra kasyacid ekasya vaśe viśvaṃ pravartate |
+                  iti sādhayituṃ pūrvaṃ pūrva-pakṣaṃ pracakṣmahe ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p9388">tatra mīmāṃsakāḥ prāhuḥ -- nāyaṃ sarvārthadarśanaśaktisampannaḥ puruṣo 'bhyupagamam
+                  arhati, atipatitasakalasādhakapramāṇasambhāvanābhūmitvāt sphuṭavividhabādhakatvāc
+                  ca / tathā hi -- asya pratyakṣam anyad vā sādhakaṃ bhavet ? pratyakṣam api laukikaṃ
+                  yaugikaṃ vā ? <span class="ref">(YIs_p9388)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  tatra mīmāṃsakāḥ prāhuḥ --- na ayaṃ sarva-artha-darśana-śakti-sampannaḥ puruṣo 'bhyupagamam
+                  arhati, atipatita-sakala-sādhaka-pramāṇa-sambhāvanā-bhūmitvāt sphuṭa-vividha-bādhakatvāc
+                  ca / tathā hi --- asya pratyakṣam anyad vā sādhakaṃ bhavet ? pratyakṣam api laukikaṃ
+                  yaugikaṃ vā ?
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_2">
+                  vyavasthitamitasvārthaṃ na tāvad iha laukikam |<br />
+                  sādhanaṃ tena sarvārthatajjñānāder asiddhitaḥ ||
+                   <span class="ref">YIs_2</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  vyavasthita-mita-sva-arthaṃ na tāvad iha laukikam |
+                  sādhanaṃ tena sarva-artha-taj-jñāna-āder asiddhitaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p9839">sarvārthadarśanaśaktiśālinam avagamayatā hi deśakālasvabhāvaviprakarṣavyavadhānajuṣaḥ
+                  sarva evārthās darśanaṃ śaktiś ca gocarayitavyāni / na ca vidyamānendriyasannikarṣayogyakatipayaviṣayaniyatavṛtter
+                  laukikapratyakṣasya niravadhir ayaṃ mahimā saṃbhāvanābhūmir iti katham iva tad iha
+                  sādhanam iti manyemahi / <span class="ref">(YIs_p9839)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  sarva-artha-darśana-śakti-śālinam avagamayatā hi deśa-kāla-svabhāva-viprakarṣa-vyavadhāna-juṣaḥ
+                  sarva eva arthās darśanaṃ śaktiś ca gocarayitavyāni / na ca vidyamāna-indriya-sannikarṣa-yogya-katipaya-viṣaya-niyata-vṛtter
+                  laukika-pratyakṣasya niravadhir ayaṃ mahimā saṃbhāvanā-bhūmir iti katham iva tad iha
+                  sādhanam iti manyemahi /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p10194">nāpi yogipratyakṣam asya sādhakam; yataḥ -- <span class="ref">(YIs_p10194)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  na api yogi-pratyakṣam asya sādhakam; yataḥ ---
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_3">
+                  pratyakṣatve tad apy evaṃ vidyamānaikagocaram |<br />
+                  bhūtādigocaraṃ naiva pratyakṣaṃ pratibhādivat ||
+                   <span class="ref">YIs_3</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  pratyakṣatve tad apy evaṃ vidyamāna-eka-gocaram |
+                  bhūta-ādi-gocaraṃ na eva pratyakṣaṃ pratibhā-ādivat ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p10414">tat khalu yogivijñānam aindriyakaṃ na vā ? aindriyakam api bahirindriyasambhavam āntarakaraṇajanitaṃ
+                  vā ? bahirindriyāṇi tāvat samadhigatanijaviṣayasannikarṣasahakārīṇi tadgocarajñānajananānīti
+                  jagati viditam / ato na rasanādibhir ajātātivṛttavyavahitādisakalaviṣayavedanaprasaṅgaḥ
+                  / na cāvidyamānair ajātādibhiḥ saṃbhavati sannikarṣaḥ; tasya hy āśrayatvād āśrayābhāve
+                  tadasambhavāt / ato 'pekṣito 'rthasannikarṣaḥ / sahakārivirahe katham indriyāṇy atītādiviṣayasākṣātkārāya
+                  kalperan ? / bhavati ca -- yad yatsahakāri yatkāryajananam, tat tadabhāve na taj janayati
+                  ; yathā kṣitisalilasahakāri aṅkurakāryajananabījaṃ kṣityādyabhāve 'ṅkuram / arthasannikarṣasahakārīṇi
+                  bahirindriyāṇi jñānajananānīti tāny api nātīte 'nāgate vārthe jñānaṃ janayantīti na
+                  tad upajanitaṃ pratyakṣaṃ yathoktaviṣayaniyamam atikrāmati / <span class="ref">(YIs_p10414)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  tat khalu yogi-vijñānam aindriyakaṃ na vā ? aindriyakam api bahir-indriya-sambhavam
+                  āntara-karaṇa-janitaṃ vā ? bahir-indriyāṇi tāvat samadhigata-nija-viṣaya-sannikarṣa-sahakārīṇi
+                  tad-gocara-jñāna-jananāni iti jagati viditam / ato na rasana-ādibhir ajāta-ativṛtta-vyavahita-ādi-sakala-viṣaya-vedana-prasaṅgaḥ
+                  / na ca avidyamānair ajāta-ādibhiḥ saṃbhavati sannikarṣaḥ; tasya hy āśrayatvād āśraya-abhāve
+                  tad-asambhavāt / ato 'pekṣito 'rtha-sannikarṣaḥ / sahakāri-virahe katham indriyāṇy
+                  atīta-ādi-viṣaya-sākṣātkārāya kalperan ? / bhavati ca --- yad yat-sahakāri yat-kārya-jananam,
+                  tat tad-abhāve na taj janayati ; yathā kṣiti-salila-sahakāri aṅkura-kārya-janana-bījaṃ
+                  kṣity-ādy-abhāve 'ṅkuram / artha-sannikarṣa-sahakārīṇi bahir-indriyāṇi jñāna-jananāni
+                  iti tāny api na atīte 'nāgate va ārthe jñānaṃ janayanti iti na tad upajanitaṃ pratyakṣaṃ
+                  yathā-ukta-viṣaya-niyamam atikrāmati /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p11308">nāpy antarakaraṇasambhavam, āntaragocara eva sukhādau svāntasvātantryāt / bāhyaviṣayamitiṣu
+                  ca manaso niraṅkuśakaraṇatāṅgīkāre hi kṛtaṃ cakṣurādibhiḥ / ataś ca kaścid andho badhiro
+                  vā bhavet / bhavati cātra vimatipadaṃ mano bahirindriyanirapekṣaṃ na bāhyapratyakṣagocare
+                  pravartate, tatra tattantravṛttitvāt / yady atra yattantravṛtti na tat tannirapekṣaṃ
+                  tatra pravartate, yathālokāpekṣapravṛtti cakṣuḥ svagocare 'ndhatamasa iti / na ca
+                  siddhāuṣadhamantratapaḥsamādhimahimasamāsāditātiśayānīndriyāṇi kadācid apajahati samadhigataviṣayaniyamam
+                  iti sambhavati; sāṃsiddhikasāmārthāvirbhāvaikaphalatvāt teṣām, sāmarthyasya ca pratiniyamāt
+                  / na khalu suprayuktabheṣajaśatavihitasaṃskāram api śrotraṃ rūparasavibhāvāvagamāya
+                  kalpate / bhavati ca -- vivādādhyāsitabāhyābhyantarakaraṇapāṭavātiśayo 'nullaṅghitasīmā,
+                  aindriyakaprakarṣatvāt, dṛśyamānatatprakarṣavad ity aindriyakaṃ jñānaṃ nātītādi gocarayati
+                  / <span class="ref">(YIs_p11308)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  na apy antarakaraṇa-sambhavam, āntaragocara eva sukha-ādau sva-anta-svātantryāt /
+                  bāhya-viṣaya-mitiṣu ca manaso niraṅkuśa-karaṇatā-aṅgīkāre hi kṛtaṃ cakṣur-ādibhiḥ
+                  / ataś ca kaścid andho badhiro vā bhavet / bhavati ca atra vimati-padaṃ mano bahir-indriya-nirapekṣaṃ
+                  na bāhya-pratyakṣa-gocare pravartate, tatra tat-tantra-vṛttitvāt / yady atra yat-tantra-vṛtti
+                  na tat tan-nirapekṣaṃ tatra pravartate, yathā āloka-apekṣa-pravṛtti cakṣuḥ sva-gocare
+                  'ndha-tamasa iti / na ca siddha-auṣadha-mantra-tapaḥ-samādhi-mahima-samāsādita-atiśayāni
+                  indriyāṇi kadācid apajahati samadhigata-viṣaya-niyamam iti sambhavati; sāṃsiddhika-sāmārtha-āvirbhāva-eka-phalatvāt
+                  teṣām, sāmarthyasya ca pratiniyamāt / na khalu suprayukta-bheṣa-ja-śata-vihita-saṃskāram
+                  api śrotraṃ rūpa-rasa-vibhāva-avagamāya kalpate / bhavati ca --- vivāda-adhyāsita-bāhya-abhyantara-karaṇa-pāṭava-atiśayo
+                  'nullaṅghita-sīmā, aindriyaka-prakarṣatvāt, dṛśyamāna-tat-prakarṣavad ity aindriyakaṃ
+                  jñānaṃ na atīta-ādi gocarayati /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p12299">bhāvanāprakarṣaparyantajanmanas tu saty api viśadanirbhāsatve prācyānubhavagocarād
+                  anadhikam adhikaṃ vādhyavasyataḥ smṛtivibhramasrotasor anyatarāvartaparivartinaḥ kutaḥ
+                  prāmāṇyakūlapratilabhaḥ ? kutastarāṃ ca pratyakṣatayottambhanam ? / pratyakṣasya vā
+                  sataḥ katham iva viditaviṣayaniyamavyatikramaḥ ? atikrāmato vā kutaḥ pratyakṣatvam
+                  iti na viśvānubhavāiśvaryaśālini pratyakṣaṃ pramāṇam / <span class="ref">(YIs_p12299)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  bhāvanā-prakarṣa-paryanta-janmanas tu saty api viśada-nirbhāsatve prācya-anubhava-gocarād
+                  anadhikam adhikaṃ va ādhyavasyataḥ smṛti-vibhrama-srotasor anyatara-āvarta-parivartinaḥ
+                  kutaḥ prāmāṇya-kūla-pratilabhaḥ ? kutastarāṃ ca pratyakṣataya ūttambhanam ? / pratyakṣasya
+                  vā sataḥ katham iva vidita-viṣaya-niyama-vyatikramaḥ ? atikrāmato vā kutaḥ pratyakṣatvam
+                  iti na viśva-anubhava-aiśvarya-śālini pratyakṣaṃ pramāṇam /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p12739">nāpi pramāṇāntaram / tat khalv anumānam āgamo vā ? anumānam api viśeṣato dṛṣṭaṃ sāmānyato
+                  dṛṣṭaṃ vā ? tatra sakalapadavīdavīyasi bhavati na tāvat svalakṣaṇasākṣātkārapūrvakāvinābhāvāvadhāraṇādhīnodayatvād
+                  idam anumānam udetum alam / na hy anavagatacarahutabhujas tadavinābhāvitayā dhūmam
+                  anusandhātum īśate / na ca sarvārthanirmāṇasākṣātkārapaṭīyasi liṅgaṃ sāmānyato dṛṣṭam
+                  api kiñcana labhate / <span class="ref">(YIs_p12739)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  na api pramāṇa-antaram / tat khalv anumānam āgamo vā ? anumānam api viśeṣato dṛṣṭaṃ
+                  sāmānyato dṛṣṭaṃ vā ? tatra sakala-padavī-davīyasi bhavati na tāvat sva-lakṣaṇa-sākṣātkāra-pūrvaka-avinābhāva-avadhāraṇa-adhīna-udayatvād
+                  idam anumānam udetum alam / na hy anavagata-cara-huta-bhujas tad-avinābhāvitayā dhūmam
+                  anusandhātum īśate / na ca sarva-artha-nirmāṇa-sākṣātkāra-paṭīyasi liṅgaṃ sāmānyato
+                  dṛṣṭam api kiñcana labhate /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_4">
+                  nanv ekacetanādhīnaṃ vivādādhyāsitaṃ jagat |<br />
+                  acetanenānārabdhatvād arogasvaśarīravat ||
+                   <span class="ref">YIs_4</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nanv eka-cetana-adhīnaṃ vivāda-adhyāsitaṃ jagat |
+                  acetanena anārabdhatvād aroga-sva-śarīravat ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_5">
+                  tathā sarvārthanirmāṇasākṣātkaraṇakauśalam |<br />
+                  kāryatvād eva jagatas tatkartur anumīyatām ||
+                   <span class="ref">YIs_5</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tathā sarva-artha-nirmāṇa-sākṣātkaraṇa-kauśalam |
+                  kāryatvād eva jagatas tat-kartur anumīyatām ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p13456">sarvaṃ hi kāryam upādānopakaraṇasampradānaprayojanasaṃvedicetanaracitam avagataṃ ghaṭamaṇikagṛhādi
+                  / kāryaṃ ca vimatipadam avanigirimahārṇavādīti tad api tathāvidhabuddhimaddhetukam
+                  adhyavasīyate / na ca kāryatvam asiddham iti vācyam, avayavasanniveśādibhir hetubhis
+                  tatsiddheḥ / iha cānyāvayavibhyaḥ prabhṛti ādvyaṇukam akhilam avayavi kramanihīyamānanānāvayavavyatiṣaṅgaviśeṣajanitam
+                  avagatam ity antata upādānaṃ caturvidhāḥ paramāṇavaḥ prapañcasya / teṣām ādiparispandasya
+                  tadanuguṇādṛṣṭaviśiṣṭatattatkṣetrajñasaṃyogāsamavāyikāraṇaka iti upakaraṇam api samastakṣetrajñavartini
+                  dharmādharmalakṣaṇāny adṛṣṭāni / prayojanaṃ punastadabhinirvartitavicitrārthakriyākāraś
+                  cetanopakārapakārabhedo 'payantaḥ / tadupabhujasta eva kṣetrajñāḥ sampradānam / na
+                  cāmī svasamavāyināv api dharmādharmāvalam avalokayitum iti tadatirekī nikhilabhuvananirmāṇanipuṇo
+                  'dhikaraṇasiddhāntasamadhigataniratiśayasahajasakalaviṣayasaṃvidaiśvaryaśaktyatiśayaḥ
+                  puruṣadhaureyakaḥ kim iti na sāmānyatodṛṣṭaliṅgād anumīyate ? <span class="ref">(YIs_p13456)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  sarvaṃ hi kāryam upādāna-upakaraṇa-sampradāna-prayojana-saṃvedi-cetana-racitam avagataṃ
+                  ghaṭa-maṇika-gṛha-ādi / kāryaṃ ca vimati-padam avani-giri-mahā-arṇava-ādi iti tad
+                  api tathā-vidha-buddhimad-dhetukam adhyavasīyate / na ca kāryatvam asiddham iti vācyam,
+                  avayava-sanniveśa-ādibhir hetubhis tat-siddheḥ / iha ca anya-avayavibhyaḥ prabhṛti
+                  ā-dvyaṇukam akhilam avayavi krama-nihīyamāna-nānā-avayava-vyatiṣaṅga-viśeṣa-janitam
+                  avagatam ity antata upādānaṃ catur-vidhāḥ parama-aṇavaḥ prapañcasya / teṣām ādi-parispandasya
+                  tad-anuguṇa-adṛṣṭa-viśiṣṭa-tat-tat-kṣetra-jña-saṃyoga-asamavāyikāraṇaka iti upakaraṇam
+                  api samasta-kṣetra-jña-vartini dharma-adharma-lakṣaṇāny adṛṣṭāni / prayojanaṃ punas-tad-abhinirvartita-vicitra-artha-kriyā-kāraś
+                  cetana-upakāra-pakāra-bhedo 'payantaḥ / tad-upabhujasta eva kṣetra-jñāḥ sampradānam
+                  / na ca amī sva-samavāyināv api dharma-adharma-avalam avalokayitum iti tad-atirekī
+                  nikhila-bhuvana-nirmāṇa-nipuṇo 'dhikaraṇa-siddhānta-samadhigata-niratiśaya-sahaja-sakala-viṣaya-saṃvid-aiśvarya-śakty-atiśayaḥ
+                  puruṣa-dhaureyakaḥ kim iti na sāmānyato-dṛṣṭa-liṅgād anumīyate ?
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p14560">tad idam aviditānumānavṛttasya svamatiracitataralatarkollasitam iti parihasanti mīmāṃsakāḥ
+                  / tathā hi -- kim idam ekacetanādhīnatvaṃ nāmābhipretaṃ tanubhuvanādeḥ ? / tadāyattatvam
+                  iti cet; <span class="ref">(YIs_p14560)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  tad idam avidita-anumāna-vṛttasya sva-mati-racita-tarala-tarka-ullasitam iti parihasanti
+                  mīmāṃsakāḥ / tathā hi --- kim idam eka-cetana-adhīnatvaṃ nāma abhipretaṃ tanu-bhuvana-ādeḥ
+                  ? / tad-āyattatvam iti cet;
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_6">
+                  kim asya tasminn āyattaṃ kiṃ nu janmātha vā sthitiḥ |<br />
+                  pravṛttir vādyayos tāvat sādhyahīnaṃ nidarśanam ||
+                   <span class="ref">YIs_6</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kim asya tasminn āyattaṃ kiṃ nu janma atha vā sthitiḥ |
+                  pravṛttir vā ādyayos tāvat sādhya-hīnaṃ nidarśanam ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p14941">na khalu śarīram ekacetanādhīnotpattisthiti / ye hi yaddehādhīnasukhaduḥkhopabhogabhāginaḥ,
+                  bhavati hi taducitādṛṣṭaśālināṃ sarveṣām eva teṣāṃ taddehina iva tadutpattisthitinimittatvam
+                  / api ca śarīrāvayavinaḥ svāvayavasamavāyalakṣaṇā sthitir avayavyatiṣaṅgaviśeṣād ṛte
+                  na cetayitāraṃ param apekṣate / yā punas tadapekṣiṇī prāṇanalakṣaṇā sthitiḥ, na sā
+                  pakṣīkṛte kṣityādau sambhavatīti sthitim api naikarūpāṃ pakṣasapakṣānuyāyinīm udīkṣāmahe
+                  / ekacetanādhīnapravṛttitve tu prabalabahujanasarabhasaprayatnapracālyair upalatarurathādibhir
+                  vyabhicāraḥ / ārabdhatvād eva caitatsādhyasiddhābadhikam idam upādānaviśeṣavacanam
+                  / <span class="ref">(YIs_p14941)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  na khalu śarīram eka-cetana-adhīna-utpatti-sthiti / ye hi yad-deha-adhīna-sukha-duḥkha-upabhoga-bhāginaḥ,
+                  bhavati hi tad-ucita-adṛṣṭa-śālināṃ sarveṣām eva teṣāṃ tad-dehina iva tad-utpatti-sthiti-nimittatvam
+                  / api ca śarīra-avayavinaḥ sva-avayava-samavāya-lakṣaṇā sthitir avayavy-atiṣaṅga-viśeṣād
+                  ṛte na cetayitāraṃ param apekṣate / yā punas tad-apekṣiṇī prāṇana-lakṣaṇā sthitiḥ,
+                  na sā pakṣīkṛte kṣity-ādau sambhavati iti sthitim api na eka-rūpāṃ pakṣa-sapakṣa-anuyāyinīm
+                  udīkṣāmahe / eka-cetana-adhīna-pravṛttitve tu prabala-bahu-jana-sarabhasa-prayatna-pracālyair
+                  upala-taru-ratha-ādibhir vyabhicāraḥ / ārabdhatvād eva ca etat-sādhya-siddha-abadhikam
+                  idam upādāna-viśeṣa-vacanam /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_7">
+                  cetanādhīnatāmātrasāhdane siddhasādhyatā |<br />
+                  cetanair bhoktṛbhir bhogyaḥ karmabhir janyate hi naḥ ||
+                   <span class="ref">YIs_7</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  cetana-adhīnatā-mātra-sāhdane siddha-sādhyatā |
+                  cetanair bhoktṛbhir bhogyaḥ karmabhir janyate hi naḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p15784">yuktaṃ caitat -- yadubhayavādisiddhānām eva cetanānāṃ kartṛtvābhyupagamaḥ; lāghavāt
+                  / na copādānādyanabhijñatayā tatpratikṣepaḥ / <span class="ref">(YIs_p15784)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  yuktaṃ ca etat --- yad-ubhaya-vādi-siddhānām eva cetanānāṃ kartṛtva-abhyupagamaḥ;
+                  lāghavāt / na ca upādāna-ādy-anabhijñatayā tat-pratikṣepaḥ /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_8">
+                  upādānaṃ pṛthivyādi yāgadānādi sādhanam |<br />
+                  sākṣātkartuṃ kṣamante yat sarva eva ca cetanāḥ ||
+                   <span class="ref">YIs_8</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  upādānaṃ pṛthivy-ādi yāga-dāna-ādi sādhanam |
+                  sākṣātkartuṃ kṣamante yat sarva eva ca cetanāḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p16089">adyavad eva viśvambharādayaḥ kramaprāptāgantukopacayāpacayaikadeśaśālino na yugapad
+                  eva niravaśeṣavilayajananabhāgina ityantimaparamāṇusākṣātkāro na kartṛbhāvopayogī
+                  / <span class="ref">(YIs_p16089)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  adyavad eva viśvambhara-ādayaḥ krama-prāpta-āgantuka-upacaya-apacaya-eka-deśa-śālino
+                  na yugapad eva niravaśeṣa-vilaya-janana-bhāgina ity-antima-parama-aṇu-sākṣātkāro na
+                  kartṛ-bhāva-upayogī /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_9">
+                  karmaṇaḥ śaktirūpaṃ yadpūrvādipadāspadam |<br />
+                  mā bhūt pratyakṣatā tasya śaktimad dhy akṣagocaraḥ ||
+                   <span class="ref">YIs_9</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  karmaṇaḥ śakti-rūpaṃ yad-pūrva-ādi-pada-āspadam |
+                  mā bhūt pratyakṣatā tasya śaktimad dhy akṣa-gocaraḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p16447">na khalu kulālādayaḥ kumbhādikāryam ārabhamāṇās tadupādānopakaraṇabhūtamṛddaṇḍacakrādikāryotpādanaśaktiṃ
+                  sākṣātkṛtya tat tad ārabhante / yadi paraṃ śaktim aviduṣām abhilaṣitasādhane tadupādānādivyavahāro
+                  'nupapannaḥ, iha tu -- <span class="ref">(YIs_p16447)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  na khalu kulāla-ādayaḥ kumbha-ādi-kāryam ārabhamāṇās tad-upādāna-upakaraṇa-bhūta-mṛd-daṇḍa-cakra-ādi-kārya-utpādana-śaktiṃ
+                  sākṣātkṛtya tat tad ārabhante / yadi paraṃ śaktim aviduṣām abhilaṣita-sādhane tad-upādāna-ādi-vyavahāro
+                  'nupapannaḥ, iha tu ---
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_10">
+                  āgamād avagamyante vicitrāḥ karmaśaktayaḥ |<br />
+                  tena karmabhir ātmānaḥ sarvaṃ nirmimatāṃ pṛthak ||
+                   <span class="ref">YIs_10</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  āgamād avagamyante vicitrāḥ karma-śaktayaḥ |
+                  tena karmabhir ātmānaḥ sarvaṃ nirmimatāṃ pṛthak ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p16859">api ca tad eva cetanakarṭrkaṃ jagati paridṛśyate, yad eva śakyakriyaṃ śakyajñānopādānādi
+                  ca / na ca tathā mahīmahīśvaramahārṇavādīti katham iva tattatkāryatvam ? kathantarāṃ
+                  ca tadupādānopakaraṇādeḥ sākṣātkāragocaratā ? yādṛśaṃ hi kāryam upādānādyabhijñapūrvakam
+                  avagataṃ ghaṭamaṇikādi, tādṛśam eva hi tathāvidhabuddhimaddhetukatvānumānāya prabhavati
+                  / <span class="ref">(YIs_p16859)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  api ca tad eva cetana-karṭrkaṃ jagati paridṛśyate, yad eva śakya-kriyaṃ śakya-jñāna-upādāna-ādi
+                  ca / na ca tathā mahī-mahīśvara-mahārṇava-ādi iti katham iva tat-tat-kāryatvam ? kathantarāṃ
+                  ca tad-upādāna-upakaraṇa-ādeḥ sākṣātkāra-gocaratā ? yādṛśaṃ hi kāryam upādāna-ādy-abhijña-pūrvakam
+                  avagataṃ ghaṭa-maṇika-ādi, tādṛśam eva hi tathā-vidha-buddhimad-dhetukatva-anumānāya
+                  prabhavati /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p17264">api cānīśvareṇa parimitaśaktijñānena vigrahavatānavāptakāmena kṛtam avagataṃ ghaṭādikāryam
+                  iti tathāvidhaṃ boddhāram upasthāpayan hetur abhimatapuruṣasārvajñyasarvāiśvaryādiviparyayasādhanādiviruddhaḥ
+                  syāt / na caivaṃ sati sarvānumānavyavahārocchedaprasaṅgaḥ śaṅkitavyaḥ / pramāṇāntaragocare
+                  hi liṅgini liṅgabalād āpatato viparītaviśeṣāṃs tatpramāṇam eva pratiruṇaddhi / iha
+                  punar atipatitasakalamānāntarakarmabhāve sarvanirmāṇanipuṇe siṣādhayiṣite yāvanto
+                  'nvayavyatirekāvadhāritāvinābhāvabhājo dharmās tān apy aviśeṣeṇopasthāpayati / <span class="ref">(YIs_p17264)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  api ca anīśvareṇa parimita-śakti-jñānena vigrahavata ānavāpta-kāmena kṛtam avagataṃ
+                  ghaṭa-ādi-kāryam iti tathā-vidhaṃ boddhāram upasthāpayan hetur abhimata-puruṣa-sārvajñya-sarva-aiśvarya-ādi-viparyaya-sādhana-ādi-viruddhaḥ
+                  syāt / na ca evaṃ sati sarva-anumāna-vyavahāra-uccheda-prasaṅgaḥ śaṅkitavyaḥ / pramāṇa-antara-gocare
+                  hi liṅgini liṅga-balād āpatato viparīta-viśeṣāṃs tat-pramāṇam eva pratiruṇaddhi /
+                  iha punar atipatita-sakala-māna-antara-karma-bhāve sarva-nirmāṇa-nipuṇe siṣādhayiṣite
+                  yāvanto 'nvaya-vyatireka-avadhāritā-avinā-bhāva-bhājo dharmās tān apy aviśeṣeṇa upasthāpayati
+                  /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p17868">api ca -- <span class="ref">(YIs_p17868)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  api ca ---
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_11">
+                  svārthakāruṇyabhāvena vyāptāḥ prekṣāvataḥ kriyāḥ |<br />
+                  īśvarasyobhayābhāvāj jagatsargo na yujyate ||
+                   <span class="ref">YIs_11</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  svārtha-kāruṇya-bhāvena vyāptāḥ prekṣāvataḥ kriyāḥ |
+                  īśvarasya ubhaya-abhāvāj jagat-sargo na yujyate ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p18052">avāptakāmatvān na tāvad ātmārthe sṛjati; pralayasamaye pralīnasakalakaraṇakalevarādibhogopakaraṇatayā
+                  ca cetanānāṃ duḥkhābhāvād duḥkhidarśanajanitakṛpāprayuktir api nāstīti vyāpakabhūtasvārthakāruṇyanivṛtter
+                  vyāpyabhūtayā prekṣāvatpravṛttyāpi nivartitavyam / <span class="ref">(YIs_p18052)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  avāpta-kāmatvān na tāvad ātma-arthe sṛjati; pralaya-samaye pralīna-sakala-karaṇa-kalevara-ādi-bhoga-upakaraṇatayā
+                  ca cetanānāṃ duḥkha-abhāvād duḥkhi-darśana-janita-kṛpā-prayuktir api na asti iti vyāpaka-bhūta-sva-artha-kāruṇya-nivṛtter
+                  vyāpya-bhūtayā prekṣāvat-pravṛttya āpi nivartitavyam /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_12">
+                  sukhaikatānaṃ janayej jagatkaruṇayā sṛjan |<br />
+                  tatkarmānuvidhāyitve hīyetāsya svatantratā ||
+                   <span class="ref">YIs_12</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sukha-ekatānaṃ janayej jagat-karuṇayā sṛjan |
+                  tat-karma-anuvidhāyitve hīyeta asya sva-tantratā ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p18502">na copādānādisākṣātkāriṇi eva kartṛtvam ity api niyamaḥ; upādānam upakaraṇaṃ cāviduṣa
+                  evātmano jñānādiṣu kartṛtvāt / <span class="ref">(YIs_p18502)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  na ca upādāna-ādi-sākṣātkāriṇi eva kartṛtvam ity api niyamaḥ; upādānam upakaraṇaṃ
+                  ca aviduṣa evā atmano jñāna-ādiṣu kartṛtvāt /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p18653">ataḥ -- <span class="ref">(YIs_p18653)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  ataḥ ---
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_13">
+                  asiddhatvād viruddhatvād anaikāntyāc ca varṇitāt |<br />
+                  kāryatvahetor jagato na yathoditakartṛtā ||
+                   <span class="ref">YIs_13</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  asiddhatvād viruddhatvād anaikāntyāc ca varṇitāt |
+                  kāryatva-hetor jagato na yathā-udita-kartṛtā ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p18831">prayogaś ca bhavati -- mahīmahīdharādi kāryaṃ na bhavati, prasiddhakāryavilakṣaṇatvāt,
+                  gaganavat; aśakyadarśanopādānopakaraṇatvād vā, vyatirekeṇa ghaṭādivat / paramāṇavo
+                  na pratyakṣāḥ niratiśayasūkṣmadravyatvāt, tathaiva ghaṭādivat / vimativiṣayaḥ kāle
+                  na lokaśūnyaḥ, kālatvād idānīntanakālavat / tanubhuvanādīśvarakartṛkaṃ na bhavati
+                  kāryatvāt tadvad eva / īśvaraḥ kartā na bhavati prayojanarahitatvād aśarīratvād vā
+                  muktātmavad iti / <span class="ref">(YIs_p18831)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  prayogaś ca bhavati --- mahī-mahīdhara-ādi kāryaṃ na bhavati, prasiddha-kārya-vilakṣaṇatvāt,
+                  gaganavat; aśakya-darśana-upādāna-upakaraṇatvād vā, vyatirekeṇa ghaṭa-ādivat / parama-aṇavo
+                  na pratyakṣāḥ niratiśaya-sūkṣma-dravyatvāt, tatha aiva ghaṭa-ādivat / vimati-viṣayaḥ
+                  kāle na loka-śūnyaḥ, kālatvād idānīntana-kālavat / tanu-bhuvana-ādi-īśvara-kartṛkaṃ
+                  na bhavati kāryatvāt tadvad eva / īśvaraḥ kartā na bhavati prayojana-rahitatvād aśarīratvād
+                  vā mukta-ātmavad iti /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_14">
+                  atra brūmo na kāryatvaṃ kṣityādau śakyanihnavam |<br />
+                  sabhāgatvāt kriyāvattvān mahattvena viśeṣitāt ||
+                   <span class="ref">YIs_14</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  atra brūmo na kāryatvaṃ kṣity-ādau śakya-nihnavam |
+                  sabhāgatvāt kriyāvattvān mahattvena viśeṣitāt ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_15">
+                  tādṛśād eva mūrtatvād bāhyapratyakṣatānvitāt |<br />
+                  sasāmānyaviśeṣatvād ityādibhyo ghaṭādivat ||
+                   <span class="ref">YIs_15</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tādṛśād eva mūrtatvād bāhya-pratyakṣatā-anvitāt |
+                  sa-sāmānya-viśeṣatvād ity-ādibhyo ghaṭa-ādivat ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p19603">na cedṛśa eva sanniveśaḥ kāryaḥ, netara ity avayavasanniveśaviśeṣapratiniyataṃ rūpabhedam
+                  udīkṣāmahe / yat tu śakyakriyaṃ śakyajñānopādānopakaraṇaṃ ca kriyata iti, tad astu
+                  nāma / kin tu te kriyājñānaśaktī kriyājñānābhyām eva samadhigamanīye / te ca kṣityādiṣu
+                  yathoktasādhanabalasamupasthāpite iti na viśeṣaḥ prasiddhaprākāragopurādikāryebhyas
+                  tanubhuvanādeḥ / na caitāvān eva kriyāgocara iti viṣayaniyamaḥ kaścit kriyāyā dṛṣṭaḥ;
+                  yenedam aśakyakriyam adhyavasyema / siddhe ca kāryatve tadupādānādisakṣātkaraṇatadadhiṣṭhānatatpreraṇanipuṇaḥ
+                  puruṣaviśeṣaḥ sidhyaty eva / <span class="ref">(YIs_p19603)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  na cā idṛśa eva sanniveśaḥ kāryaḥ, na itara ity avayava-sanniveśa-viśeṣa-pratiniyataṃ
+                  rūpa-bhedam udīkṣāmahe / yat tu śakya-kriyaṃ śakya-jñāna-upādāna-upakaraṇaṃ ca kriyata
+                  iti, tad astu nāma / kin tu te kriyā-jñāna-śaktī kriyā-jñānābhyām eva samadhigamanīye
+                  / te ca kṣity-ādiṣu yathā-ukta-sādhana-bala-samupasthāpite iti na viśeṣaḥ prasiddha-prākāra-gopura-ādi-kāryebhyas
+                  tanu-bhuvana-ādeḥ / na ca etāvān eva kriyā-gocara iti viṣaya-niyamaḥ kaścit kriyāyā
+                  dṛṣṭaḥ; yena idam aśakya-kriyam adhyavasyema / siddhe ca kāryatve tad-upādāna-ādi-sakṣātkaraṇa-tad-adhiṣṭhāna-tat-preraṇa-nipuṇaḥ
+                  puruṣa-viśeṣaḥ sidhyaty eva /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p20239">adhiṣṭhānaṃ ca tatpravṛttyanuguṇasaṅkalpavadīśvarasannikarṣaḥ, kṣetrajñeneva svaśarīrādau
+                  / sa ca dravyaiḥ saṃyogalakṣaṇaḥ, tadguṇais tu saṃyuktasamavāyarūpaḥ / pravṛttiś ca
+                  paramāṇūnāṃ parispandalakṣaṇā; dharmādharmayos tu phalodayānukūlatādṛśadeśakālādisahakārisahitatā
+                  / tābhyāṃ dharmādharmābhyām eva phalam, cetanānadhiṣṭhitānāṃ sarveṣām eteṣām acaitanyenākiñcitkaratvāt
+                  / na hi cetanena vardhakinānadhiṣṭhitā vāsī deśakālādisahakāriśatasamadhigame 'pi
+                  yūpādīny upādayitum alam / bījāṅkurādayas tu pakṣāntarbhūtā iti tair vyabhicāravacanam
+                  anabhijñatayaiva śrotriyāṇām / etena sukhādibhir vyabhicāro 'pi pratyuktaḥ / na cobhayavādisiddhatāmātreṇa
+                  kṣetrajñānām evedṛśādhiṣṭhātṛtvakalpanam ucitam; teṣāṃ sūkṣmavyavahitādidarśanāśakter
+                  niścitatvāt / dṛṣṭānusāriṇī hi sarvatra kalpanā; na dṛṣṭavirodhinī / na caivam īśvarasyāśaktir
+                  niścitā; pramāṇāntaratas tatsiddheḥ / yathoditapramāṇabalena sidhyan sāṃsiddhikasarvārthadarśanatatpreraṇaśaktisampanna
+                  eva sidhyati; kāryatvasya samarthakartṛpūrvakatvena pratibandhāt / <span class="ref">(YIs_p20239)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  adhiṣṭhānaṃ ca tat-pravṛtty-anuguṇa-saṅkalpavad-īśvara-sannikarṣaḥ, kṣetra-jñena iva
+                  sva-śarīra-ādau / sa ca dravyaiḥ saṃyoga-lakṣaṇaḥ, tad-guṇais tu saṃyukta-samavāya-rūpaḥ
+                  / pravṛttiś ca parama-aṇūnāṃ parispanda-lakṣaṇā; dharma-adharmayos tu phala-udaya-anukūla-tādṛśa-deśa-kāla-ādi-sahakāri-sahitatā
+                  / tābhyāṃ dharma-adharmābhyām eva phalam, cetana-anadhiṣṭhitānāṃ sarveṣām eteṣām acaitanyena
+                  akiñcitkaratvāt / na hi cetanena vardhakina ānadhiṣṭhitā vāsī deśa-kāla-ādi-sahakāri-śata-samadhigame
+                  'pi yūpa-ādīny upādayitum alam / bīja-aṅkura-ādayas tu pakṣa-antarbhūtā iti tair vyabhicāra-vacanam
+                  anabhijñataya aiva śrotriyāṇām / etena sukha-ādibhir vyabhicāro 'pi pratyuktaḥ / na
+                  ca ubhaya-vādi-siddhatā-mātreṇa kṣetra-jñānām evā idṛśa-adhiṣṭhātṛtva-kalpanam ucitam;
+                  teṣāṃ sūkṣma-vyavahita-ādi-darśana-aśakter niścitatvāt / dṛṣṭa-anusāriṇī hi sarvatra
+                  kalpanā; na dṛṣṭa-virodhinī / na ca evam īśvarasya aśaktir niścitā; pramāṇa-antaratas
+                  tat-siddheḥ / yathā-udita-pramāṇa-balena sidhyan sāṃsiddhika-sarva-artha-darśana-tat-preraṇa-śakti-sampanna
+                  eva sidhyati; kāryatvasya samartha-kartṛ-pūrvakatvena pratibandhāt /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p21356">yat tu parimitaśaktijñānānaiśvaryādyāpādanād dharmaviśeṣaviparītasādhanatvam udbhāvitam,
+                  tad atisthavīyaḥ, aprayojakatvāt teṣām / na hi kiñcit kriyamāṇaṃ kartur arthāntaraviṣayam
+                  asāmarthyam ajñānaṃ vā svotpattaye 'pekṣate; svasampādanasamarthakartṛmātrākṣepāt
+                  kevalavyatirekāsiddheḥ / tāvataivopapadyamāne kāryodaye sambandhino 'kiñcitkarasyārthāntaraviṣayasyābhāvasya
+                  hetutvakalpanānupapatteḥ / api ca kiṃ taditarasamastavastuviṣayam ajñānādi vyāpakam,
+                  uta katipayagocaram iti vivecanīyam / na tāvad aśeṣaviṣayam, anupalabdheḥ / na khalu
+                  kumbhakāraḥ kumbhātireki kim api na vijānāti / atha katipayaviṣayam ? tad api na,
+                  aniyataviṣayatayā tasya tasya vyabhicāradarśanāt / na cāsti kiñcidvyavasthitam, yad
+                  avidyādimān eva kartṛtām anubhavati / <span class="ref">(YIs_p21356)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  yat tu parimita-śakti-jñāna-anaiśvarya-ādy-āpādanād dharma-viśeṣa-viparīta-sādhanatvam
+                  udbhāvitam, tad atisthavīyaḥ, aprayojakatvāt teṣām / na hi kiñcit kriyamāṇaṃ kartur
+                  artha-antara-viṣayam asāmarthyam ajñānaṃ vā sva-utpattaye 'pekṣate; sva-sampādana-samartha-kartṛ-mātra-ākṣepāt
+                  kevala-vyatireka-asiddheḥ / tāvata aiva upapadyamāne kārya-udaye sambandhino 'kiñcitkarasya
+                  artha-antara-viṣayasya abhāvasya hetutva-kalpanā-anupapatteḥ / api ca kiṃ tad-itara-samasta-vastu-viṣayam
+                  ajñāna-ādi vyāpakam, uta katipaya-gocaram iti vivecanīyam / na tāvad aśeṣa-viṣayam,
+                  anupalabdheḥ / na khalu kumbha-kāraḥ kumbha-atireki kim api na vijānāti / atha katipaya-viṣayam
+                  ? tad api na, aniyata-viṣayatayā tasya tasya vyabhicāra-darśanāt / na ca asti kiñcid-vyavasthitam,
+                  yad avidyā-ādimān eva kartṛtām anubhavati /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p22170">na ca śarīriṇaiva kartrā bhāvyam, śarīragrahaṇenaivānaikāntyāt / na khalu śarīraviśiṣṭas
+                  sann evāyam ātmā śarīram upādatte, ayogino yugapadanekaśarīragrahaṇāyogāt / pūrvadehaparityāgena
+                  dehāntaraprāpakakarmapreritaprāṇasahāya eva dehāntaraṃ praviśatīty upapāditam ātmacintāyām
+                  / <span class="ref">(YIs_p22170)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  na ca śarīriṇa aiva kartrā bhāvyam, śarīra-grahaṇena eva anaikāntyāt / na khalu śarīra-viśiṣṭas
+                  sann eva ayam ātmā śarīram upādatte, ayogino yugapad-aneka-śarīra-grahaṇa-ayogāt /
+                  pūrva-deha-parityāgena deha-antara-prāpaka-karma-prerita-prāṇa-sahāya eva deha-antaraṃ
+                  praviśati ity upapāditam ātma-cintāyām /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p22498">kiñcid ātmā śarīram adhitiṣṭhato 'dhiṣṭhānakriyākarmabhūtasya dehasyādhiṣṭhātṛdaśa(deha?)anupraveśo
+                  'nupapannaḥ, yugapad ekakriyāyām ekasya karmakartṛtvavirodhāt / adhitiṣṭhāsitadehasaṃyogavata
+                  eva tatpravṛttyanuguṇaprayatnayogalakṣaṇam adhiṣṭhānaṃ dṛṣṭam iti cet; astv ekatattva(stva)sambaddhasyādhiṣṭhānānupapatteḥ
+                  preryavastusambandhinā prerakeṇa bhavitavyam iti; na yato 'nyad apy adhiṣṭhīyamānaṃ
+                  mānadaṇḍādi svasambandhinaivādhiṣṭhīyate / tenādhiṣṭhānakriyāpekṣitādhiṣṭheyapadārthasambandhamātrātirekeṇa
+                  dehasambandho nāmāparo nādartavyaḥ / asti ceśvarasyāpi jagadupādānopakaraṇais sambandha
+                  ity uktam eva / <span class="ref">(YIs_p22498)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  kiñcid ātmā śarīram adhitiṣṭhato 'dhiṣṭhāna-kriyā-karma-bhūtasya dehasya adhiṣṭhātṛ-daśa(deha?)-anupraveśo
+                  'nupapannaḥ, yugapad eka-kriyāyām ekasya karma-kartṛtva-virodhāt / adhitiṣṭhāsita-deha-saṃyogavata
+                  eva tat-pravṛtty-anuguṇa-prayatna-yoga-lakṣaṇam adhiṣṭhānaṃ dṛṣṭam iti cet; astv eka-tattva(stva)-sambaddhasya
+                  adhiṣṭhāna-anupapatteḥ prerya-vastu-sambandhinā prerakeṇa bhavitavyam iti; na yato
+                  'nyad apy adhiṣṭhīyamānaṃ māna-daṇḍa-ādi sva-sambandhina aiva adhiṣṭhīyate / tena
+                  adhiṣṭhāna-kriyā-apekṣita-adhiṣṭheya-pada-artha-sambandha-mātra-atirekeṇa deha-sambandho
+                  nāma aparo nā adartavyaḥ / asti cā iśvarasya api jagad-upādāna-upakaraṇais sambandha
+                  ity uktam eva /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p23182">atha svadehavyatirikte vastuni pravṛttiviśeṣakaratvaṃ dehadvāreṇaiva / dṛṣṭaṃ hi daṇḍacakrādiṣu
+                  karasaṃyogādinā kulālādeḥ pravartayitṛtvam ity ucyeta; tad api na; abhidhyānamātreṇaiva
+                  paraśarīragatagaranirasanac(v?)isāraṇadarśanāt / katham asati śarīre parapreraṇātmakaḥ
+                  saṅkalpa iti cet; kiṃ śarīraṃ saṅkalpayati, yena tadabhāve na bhavet ? / karaṇam iti
+                  cen na; manasaḥ karaṇatvāt / kim asatīśvarasya manaḥ ? bāḍham / nanv evaṃ vigrahadharmādharmānāśvaryādayaḥ
+                  sādhāraṇadharmāḥ prāduḥṣyuḥ / maivam; kāryatvākṣiptasamarthakartṛmattvād(ttvārtha?)
+                  draḍhimnaivāpāsatvāt / manaso nityendriyatayā dehāpagame 'pi sambandhābhyupagamād
+                  anaikāntikaś ca / yāvad dhi dṛṣṭānuguṇaṃ vyāptayupayogi, tāvad anujñāyate / na cāsmadāder
+                  manasāpy acintyaracanasyāparyantavistārasya mahābhūtabhautikaprapañcasya prādeśikaśarīrakaḥ
+                  kiñcijjñaḥ puṇyapāpaparavaśagatir alaṃ nirmāṇāyety aparimitajñānāiśvaryaśaktiḥ śarīrādyanapekṣaḥ
+                  saṅkalpād eva sakalabhuvananirmāṇakṣamaḥ kartā siddhaḥ / <span class="ref">(YIs_p23182)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  atha sva-deha-vyatirikte vastuni pravṛtti-viśeṣa-karatvaṃ deha-dvāreṇa eva / dṛṣṭaṃ
+                  hi daṇḍa-cakra-ādiṣu kara-saṃyoga-ādinā kulāla-ādeḥ pravartayitṛtvam ity ucyeta; tad
+                  api na; abhidhyāna-mātreṇa eva para-śarīra-gata-gara-nirasana-c(v?)isāraṇa-darśanāt
+                  / katham asati śarīre para-preraṇa-ātmakaḥ saṅkalpa iti cet; kiṃ śarīraṃ saṅkalpayati,
+                  yena tad-abhāve na bhavet ? / karaṇam iti cen na; manasaḥ karaṇatvāt / kim asatī iśvarasya
+                  manaḥ ? bāḍham / nanv evaṃ vigraha-dharma-adharma-anāśvarya-ādayaḥ sādhāraṇa-dharmāḥ
+                  prāduḥṣyuḥ / ma aivam; kāryatva-ākṣipta-samartha-kartṛmattvād(-ttva-artha?) draḍhimna
+                  aiva apāsatvāt / manaso nitya-indriyatayā deha-apagame 'pi sambandha-abhyupagamād
+                  anaikāntikaś ca / yāvad dhi dṛṣṭa-anuguṇaṃ vyāptay-upayogi, tāvad anujñāyate / na
+                  ca asmad-āder manasa āpy acintya-racanasya aparyanta-vistārasya mahābhūta-bhautika-prapañcasya
+                  prādeśika-śarīrakaḥ kiñcij-jñaḥ puṇya-pāpa-paravaśa-gatir alaṃ nirmāṇāya ity aparimita-jñāna-aiśvarya-śaktiḥ
+                  śarīra-ādy-anapekṣaḥ saṅkalpād eva sakala-bhuvana-nirmāṇa-kṣamaḥ kartā siddhaḥ /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p24238">īdṛśena kartrā ghaṭādiṣu kāryatvasya sambandho na dṛṣṭa iti cet; atigahanagiritaṭādhiṣṭhānenātiprakṛṣṭādṛṣṭacarendhananivahasambandhinā
+                  hutavahaviśeṣeṇa mahānasādau dhūmasya vā kiṃ sambandho dṛṣṭaḥ ? yena dhūmaviśeṣadarśanād
+                  giriśikhare tathāvidhāgnir anumīyate / yādṛśo dhūmo yatrāvagataḥ tatraiva tādṛśas
+                  tatsampādanasamartho dṛṣtāntabhūmāv aparidṛṣṭo 'pi sāmānyavyāptibalena pakṣadharmatāvaśāt
+                  sidhyatīti cet; tad idam asmābhir abhidhīyamānaṃ kim iti na hṛdayam adhirohati bhavatām
+                  / ihāpi kāryatvaṃ samarthakartṛpūrvakatvena ghaṭādiṣu viditasambandhaniyamaṃ kṣtityādiṣu
+                  dṛśyamānaṃ svasampādanasamartham adṛṣṭapūrvam eva buddhimatkartāram upasthāpayati
+                  / yathaiva hi deśakālendhanaparimāṇādiviśeṣānādareṇa dhūmasya svodayānuguṇahutavahamātreṇa
+                  sambandhaniyamaḥ, tathaivānīśvaratvākiñcijjñatvaśarīritvapuṇyapāpaparavaśatvam anuṣyatvādiviśeṣaprahāṇena
+                  kāryasya svanirmāṇasamarthabuddhimatkartṛmātreṇa sambandhaniyamaniścaya iti na kaścidviśeṣaḥ
+                  / <span class="ref">(YIs_p24238)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  īdṛśena kartrā ghaṭa-ādiṣu kāryatvasya sambandho na dṛṣṭa iti cet; atigahana-giri-taṭa-adhiṣṭhānena
+                  atiprakṛṣṭa-adṛṣṭa-cara-indhana-nivaha-sambandhinā hutavaha-viśeṣeṇa mahānasa-ādau
+                  dhūmasya vā kiṃ sambandho dṛṣṭaḥ ? yena dhūma-viśeṣa-darśanād giri-śikhare tathā-vidha-agnir
+                  anumīyate / yādṛśo dhūmo yatra avagataḥ tatra eva tādṛśas tat-sampādana-samartho dṛṣtānta-bhūmāv
+                  aparidṛṣṭo 'pi sāmānya-vyāpti-balena pakṣa-dharmatā-vaśāt sidhyati iti cet; tad idam
+                  asmābhir abhidhīyamānaṃ kim iti na hṛdayam adhirohati bhavatām / iha api kāryatvaṃ
+                  samartha-kartṛ-pūrvakatvena ghaṭa-ādiṣu vidita-sambandha-niyamaṃ kṣtity-ādiṣu dṛśyamānaṃ
+                  sva-sampādana-samartham adṛṣṭa-pūrvam eva buddhimat-kartāram upasthāpayati / yatha
+                  aiva hi deśa-kāla-indhana-parimāṇa-ādi-viśeṣa-anādareṇa dhūmasya sva-udaya-anuguṇa-hutavaha-mātreṇa
+                  sambandha-niyamaḥ, tatha aiva anīśvaratva-akiñcij-jñatva-śarīritva-puṇya-pāpa-para-vaśatvam
+                  anuṣyatva-ādi-viśeṣa-prahāṇena kāryasya sva-nirmāṇa-samartha-buddhimat-kartṛ-mātreṇa
+                  sambandha-niyama-niścaya iti na kaścid-viśeṣaḥ /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p25284">api ca vibhudravyasaṃyoginaḥ parispandavataś ca sarvatra sparśavattvāvyabhicāre 'pi
+                  jñānasukhādinityadravyaviśeṣaguṇānumitātmasaṃyogino manasaḥ katham iva sparśarahitatatvam
+                  ? kathaṃ ca vāyavīyadravyasya mahimaguṇaśālino niyatādhiṣṭhānasparśanatvaniyamadarśane
+                  'pi tvagindriye tadviparyayaḥ ? taijasasya vā rūpasparśayor anyattarasya vā prākaṭyaniyame
+                  'pi rūpopalambhasādhanatānumitataijasabhāvasya cakṣuṣo niyamena tadubhayānudbhavābhyupagamaḥ
+                  ? / atha kāryadarśanānumitasadbhāvānāṃ taijasādibhāve 'pi tattadviśeṣaṇāṃ yogyānupalabdhibādhitatvāt
+                  tadabhyupagame 'nekaniyamabhaṅgaprasaṅgāc ca tathābhyupagamaḥ, hanta tarhi prakṛtaviṣaye
+                  'pi prasañjitadharmaviśeṣāṇām anupalambhabādhāviśeṣād anekaniyamadarśanavighātaprasaṅgāc
+                  ca tathābhyupagama iti sarvaṃ samānam anyatrābhiniveśāt / <span class="ref">(YIs_p25284)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  api ca vibhu-dravya-saṃyoginaḥ parispandavataś ca sarvatra sparśavattva-avyabhicāre
+                  'pi jñāna-sukha-ādi-nitya-dravya-viśeṣa-guṇa-anumita-ātma-saṃyogino manasaḥ katham
+                  iva sparśa-rahitatatvam ? kathaṃ ca vāyavīya-dravyasya mahima-guṇa-śālino niyata-adhiṣṭhāna-sparśanatva-niyama-darśane
+                  'pi tvag-indriye tad-viparyayaḥ ? taijasasya vā rūpa-sparśayor anyattarasya vā prākaṭya-niyame
+                  'pi rūpa-upalambha-sādhanata ānumita-taijasa-bhāvasya cakṣuṣo niyamena tad-ubhaya-anudbhava-abhyupagamaḥ
+                  ? / atha kārya-darśana-anumita-sad-bhāvānāṃ taijasa-ādi-bhāve 'pi tat-tad-viśeṣaṇāṃ
+                  yogya-anupalabdhi-bādhitatvāt tad-abhyupagame 'neka-niyama-bhaṅga-prasaṅgāc ca tatha
+                  ābhyupagamaḥ, hanta tarhi prakṛta-viṣaye 'pi prasañjita-dharma-viśeṣāṇām anupalambha-bādhā-viśeṣād
+                  aneka-niyama-darśana-vighāta-prasaṅgāc ca tatha ābhyupagama iti sarvaṃ samānam anyatra
+                  abhiniveśāt /
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_p26152">dṛśyante hi nītayaḥ / yathā vivādāspadaṃ paramāṇvādi prekṣāvatpreritaṃ ceṣṭate, acetanatvāt;
+                  yad acetanaṃ tat tathā, yathā tathāvidhaṃ kandukādi / tathā vivādādhyāsitā bāhyābhyantarapravṛttayaḥ
+                  prakṛtyupakaraṇapratyakṣapūrvikāḥ kāryatvāt tadvad eva | <span class="ref">(YIs_p26152)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  dṛśyante hi nītayaḥ / yathā vivāda-āspadaṃ parama-aṇv-ādi prekṣāvat-preritaṃ ca iṣṭate,
+                  acetanatvāt; yad acetanaṃ tat tathā, yathā tathā-vidhaṃ kanduka-ādi / tathā vivāda-adhyāsitā
+                  bāhya-abhyantara-pravṛttayaḥ prakṛty-upa-karaṇa-pratyakṣa-pūrvikāḥ kāryatvāt tadvad
+                  eva |
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_16">
+                  pratyakṣaṃ tat prameyatvāt padārthatvād ghaṭādivat/<br />
+                  ekecchānuvidhāyīdam acaitanyāt svadehavat ||
+                   <span class="ref">YIs_16</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  pratyakṣaṃ tat prameyatvāt padārthatvād ghaṭa-ādivat/
+                  eka-icchā-anuvidhāyi idam acaitanyāt sva-dehavat ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_17">
+                  ekenābhiṣṭhitāḥ kāryaṃ kurvate sarvacetanāḥ |<br />
+                  dehasambandhasāpekṣakāryakṛttvāt tvagādivat ||
+                   <span class="ref">YIs_17</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ekena abhiṣṭhitāḥ kāryaṃ kurvate sarva-cetanāḥ |
+                  deha-sambandha-sāpekṣa-kārya-kṛttvāt tvag-ādivat ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YIs_18">
+                  ekapradhānapuruṣaṃ vivādādhyāsitaṃ jagat |<br />
+                  cetanācetanātmatvād ekarājakadeśavat ||
+                   <span class="ref">YIs_18</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  eka-pradhāna-puruṣaṃ vivāda-adhyāsitaṃ jagat |
+                  cetana-acetana-ātmatvād eka-rājaka-deśavat ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         </div>
+   </body>
+</html>

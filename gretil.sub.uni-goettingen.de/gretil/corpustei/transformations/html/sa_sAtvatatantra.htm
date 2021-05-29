@@ -1,0 +1,3727 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Sātvatatantra (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Sātvatatantra</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_sAtvatatantra.xml">sa_sAtvatatantra.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Oliver Hellwig</p>
+      <p class="noindent"><b>Contribution: </b>Oliver Hellwig</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>A. Phadke, Benares : Chowkhamba Sanskrit Series Office, 1934.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/vaisn/satvtanu.htm">satvtanu.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Satvatatantra
+            <br />Based on the edition by A. Phadke,
+            <br />Benares : Chowkhamba Sanskrit Series Office, 1934
+            <br />
+            <br />Input by Oliver Hellwig (hellwig7@gmx.de), Berlin, 2001/02
+            <br />
+            <br />Der digitalisierte Text kann in jedem Rahmen ohne
+            <br />Einschraenkungen genutzt werden. Allerdings sollte ein
+            <br />Hinweis auf den Einleser enthalten sein.
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>
+            Sātvatatantra, prathamaḥ paṭalaḥ<br />
+            śrīsūta uvāca /<br />
+            ya eko bahudhā kṛṣṇaḥ sṛṣṭyādau bahudheyate /<br />
+            tam ahaṃ śaraṇaṃ yāmi paramānandavigraham // SatvT_1.1
+            </p>
+         
+         <p>
+            kailāsaśikharāsīnaṃ śivaṃ śivakaraṃ param /<br />
+            nāradaḥ paripapraccha sarvabhūtahite rataḥ // SatvT_1.2
+            </p>
+         
+         <p>
+            bhagavan śrotum icchāmi harer adbhutakarmaṇaḥ /<br />
+            śrīkṛṣṇasyāprameyasya nānā līlātanūr vibhoḥ // SatvT_1.3
+            </p>
+         
+         <p>
+            yadarthaṃ yatsvarūpaṃ ca yadyat kāle yathā rataḥ /<br />
+            gṛhṇāti bhagavān svasthas tan mamākhyātum arhasi // SatvT_1.4
+            </p>
+         
+         <p>
+            avatāranimittaṃ yac cirād vigrahasambhavam /<br />
+            prathamaṃ tattvato brūhi tvaṃ parāparavittamaḥ // SatvT_1.5
+            </p>
+         
+         <p>
+            śrīśiva uvāca /<br />
+            pṛṣṭaṃ mahābhāga tvayā bhāgavatottama /<br />
+            yad ahaṃ noditaḥ samyagbhagavadvīryavarṇane // SatvT_1.6
+            </p>
+         
+         <p>
+            śrīviṣṇor avatārāṇāṃ virājaś ca mahāmate /<br />
+            kathane naiva paśyāmi pāraṃ varṣaśatair api /<br />
+            tathāpi sāram uddhṛtya tantrarūpeṇa nārada // SatvT_1.7
+            </p>
+         
+         <p>
+            varṇayāmi yathaivoktam īśvareṇa dayālunā /<br />
+            jayapūrvaṃ namaskṛtya goparūpiṇam īśvaram // SatvT_1.8
+            </p>
+         
+         <p>
+            vakṣye sātvatatantrākhyaṃ bhagavadbhaktivardhanam /<br />
+            yadāsīd ekam avyaktaṃ nityaṃ cidrūpam avyayam // SatvT_1.9
+            </p>
+         
+         <p>
+            brahmeti yad vidur vijñā bhagavān iti sātvatāḥ /<br />
+            tadāsantam ivātmānaṃ matvā dṛśya vinā vibhuḥ // SatvT_1.10
+            </p>
+         
+         <p>
+            dviprakāram abhūt satyaṃ sattābhūtvā svayaṃ svayam /<br />
+            tac cicchaktisvarūpeṇa prakṛtiḥ puruṣo mahān // SatvT_1.11
+            </p>
+         
+         <p>
+            sarvalokaikanilayo bhagavān iti śabdyate /<br />
+            tasyaiva śaktiḥ prakṛtiḥ kāryakāraṇarūpiṇī // SatvT_1.12
+            </p>
+         
+         <p>
+            guṇatrayasvarūpeṇa yā svayaṃ bhidyate punaḥ /<br />
+            yaḥ kālas taṃ vadanty eke hareś ceṣṭāṃ duranvayām // SatvT_1.13
+            </p>
+         
+         <p>
+            yasmād guṇatrayakṣobhāt pṛthagbhūto 'bhavat purā /<br />
+            jīvasya yasmād bhavati śubhāśubhaphalagrahaḥ // SatvT_1.14
+            </p>
+         
+         <p>
+            tat karma mahato janmahetur avyaktamūrtimat /<br />
+            bhāvānāṃ pariṇāmo hi yato bhavati sarvadā // SatvT_1.15
+            </p>
+         
+         <p>
+            tam evāhur vedavidaḥ sūkṣmarūpaṃ svabhāvakam /<br />
+            ukto 'yaṃ puruṣaḥ sākṣād īśvaro bhagavattanuḥ // SatvT_1.16
+            </p>
+         
+         <p>
+            kālakarmasvabhāvasthaḥ prakṛtiṃ prati noditaḥ /<br />
+            puruṣādhiṣṭhitā devī prakṛtir guṇasaṃgrahā // SatvT_1.17
+            </p>
+         
+         <p>
+            mahattattvam abhūt tattatparijñānakriyātmakam /<br />
+            tasmāj jāto hy ahaṃkāras trividho daivanoditāt // SatvT_1.18
+            </p>
+         
+         <p>
+            vaikārikas taijasaś ca tāmasaś ceti yaṃ viduḥ /<br />
+            vaikārikān manodevā jātā jñānakriyādhipāḥ // SatvT_1.19
+            </p>
+         
+         <p>
+            marutkeśau diśaḥ sūryo nāsatyo jñānanodakāḥ /<br />
+            vahnīndramitrakopetā ete karmāpanodakāḥ // SatvT_1.20
+            </p>
+         
+         <p>
+            rājasād viṣayagrāhajñānakarmasvarūpiṇaḥ /<br />
+            tvagrasajñā śrutiś cakṣur ghrāṇaṃ buddhiś ca tanmayāḥ // SatvT_1.21
+            </p>
+         
+         <p>
+            vākpāṇipāyūpasthāś ca gatiś ceti kriyātmakāḥ /<br />
+            tāmasāt pañcabhūtāni tanmātrāṇi ca bhāgaśaḥ // SatvT_1.22
+            </p>
+         
+         <p>
+            prathamaṃ tāmasāj jajñe śabdas tasmād abhūn nabhaḥ /<br />
+            śabdarūpāt tu nabhasaḥ sparśas tasmād abhūn marut // SatvT_1.23
+            </p>
+         
+         <p>
+            maruto 'bhūt tatas tejas tejaso rūpam uttamam /<br />
+            rūpamātrād raso jajñe tasmād āpo 'bhavan śucīḥ // SatvT_1.24
+            </p>
+         
+         <p>
+            adbhyo jāto gandhaguṇo gandhād bhūmir ajāyata /<br />
+            mahattattvam ahaṃkāraḥ saśabdasparśatejasaḥ // SatvT_1.25
+            </p>
+         
+         <p>
+            rasagandhāv ime sarve smṛtā prakṛtivikriyāḥ /<br />
+            śabdasya prakṛter eva saṃdṛśyante yato budhaiḥ // SatvT_1.26
+            </p>
+         
+         <p>
+            ato 'bhavan prakṛtayo vikārān vikṛtīr viduḥ /<br />
+            ākāśe śabdamātraṃ syād vāyau sparśaḥ saśabdakaḥ // SatvT_1.27
+            </p>
+         
+         <p>
+            rūpaṃ tejasi śabdaś ca sparśaś caiva jale tathā /<br />
+            rasaśabdasparśarūpaṃ pṛthivyāṃ sarvam eva hi // SatvT_1.28
+            </p>
+         
+         <p>
+            kāraṇānāṃ yataḥ kārye samanvayavidhis tataḥ /<br />
+            dṛśyate tv adhikas tatra guṇo yāvati kaś ca ha // SatvT_1.29
+            </p>
+         
+         <p>
+            mahadādīni tattvāni puruṣasya mahātmanaḥ /<br />
+            kāryāvatārarūpāṇi jānīhi dvijasattama // SatvT_1.30
+            </p>
+         
+         <p>
+            sarvāṇy etāni saṃgṛhya puruṣasyecchayā yā /<br />
+            aṃśair utpādayāmāsur virājaṃ bhuvanātmakam // SatvT_1.31
+            </p>
+         
+         <p>
+            tasya cāntargataṃ chidraṃ pañcāśatkoṭivistṛtam /<br />
+            daśottarādhikair etaiḥ saptabhir bahir āvṛtam // SatvT_1.32
+            </p>
+         
+         <p>
+            tam āhuḥ puruṣasyaiva gehaṃ yatrāviśat svayam /<br />
+            yato 'cetanam evāsīt kevalaṃ sarvavistaram // SatvT_1.33
+            </p>
+         
+         <p>
+            narād utpannatattvānāṃ saṃgrahe nārasaṃjñake /<br />
+            ayanaṃ tasya yad abhūt tasmān nārāyaṇaḥ smṛtaḥ // SatvT_1.34
+            </p>
+         
+         <p>
+            virāḍdehe yad avasad bhagavān purasaṃjñake /<br />
+            ataḥ puruṣanāmānam avāpa puruṣaḥ paraḥ // SatvT_1.35
+            </p>
+         
+         <p>
+            yadā sa bhagavān devo mūlaprakṛtivistaraḥ /<br />
+            nārāyaṇena rūpeṇa virajam aviśat svayam // SatvT_1.36
+            </p>
+         
+         <p>
+            tadā cetanam āpādya cirād vigraha utthitaḥ /<br />
+            samaṣṭiśabdatāvācyo dvisaptabhuvanāśrayaḥ // SatvT_1.37
+            </p>
+         
+         <p>
+            yasmin carācaraṃ bhūtaṃ sraṣṭā brahmāhares tanūḥ /<br />
+            tatra lokamayaṃ yāvat taṃ virājaṃ vido viduḥ // SatvT_1.38
+            </p>
+         
+         <p>
+            tasyābhimāninaṃ jīvaṃ vairājaṃ puruṣābhidham /<br />
+            tadantaryāmiṇaṃ devaṃ nārāyaṇam anāmayam // SatvT_1.39
+            </p>
+         
+         <p>
+            sarvajīvaikanilayaṃ bhagavantaṃ pracakṣate /<br />
+            avatārasahasrāṇāṃ nidhānaṃ bījam avyayam // SatvT_1.40
+            </p>
+         
+         <p>
+            yasyāṃśena rajoyuktaḥ sṛṣṭau brahmā vyajāyata /<br />
+            viṣṇuḥ sattvaguṇādhīśaḥ sthitau sthāpayituṃ jagat // SatvT_1.41
+            </p>
+         
+         <p>
+            tamasā rudrarūpo 'bhūt pratisaṃcaraṇo vibhuḥ /<br />
+            ete viṣṇor guṇamayā avatārāḥ kriyākṛtāḥ // SatvT_1.42
+            </p>
+         
+         <p>
+            eṣām aṃśāvatārān me nibodha gadato mama /<br />
+            brahmaṇo 'ṃśena samabhūn marīcir atrir aṅgirāḥ // SatvT_1.43
+            </p>
+         
+         <p>
+            pulastyaḥ pulahaś caiva kratur dakṣo dvijottama /<br />
+            bhṛgur vasiṣṭho 'tharvā ca kardamādyāḥ prajeśvarāḥ // SatvT_1.44
+            </p>
+         
+         <p>
+            eṣāṃ putrāś ca pautrāś ca prapautrāś ca mahaujasaḥ /<br />
+            sṛṣṭyartham udgatāḥ sarve bhagavadvīryasaṃyutāḥ // SatvT_1.45
+            </p>
+         
+         <p>
+            viṣṇor aṃśena samabhūd dharmo yajño bṛhattrivṛt /<br />
+            svāyambhuvādyā manavo dvisaptā lokaviśrutāḥ // SatvT_1.46
+            </p>
+         
+         <p>
+            eṣāṃ putrāś ca pautrāś ca tathendrādyāś ca devatāḥ /<br />
+            viṣṇvaṃśayuktā lokānāṃ pālakāḥ kathitā mayā // SatvT_1.47
+            </p>
+         
+         <p>
+            rudrasyāṃśena śataśo jātā rudragaṇāḥ pṛthak /<br />
+            sarpāś ca śataśo jātā ye ca hiṃsrāḥ svabhāvataḥ // SatvT_1.48
+            </p>
+         
+         <p>
+            ete saṃkṣepataḥ proktā rudrasyāṃśās tamojuṣaḥ /<br />
+            saṃhāriṇo 'sya jagato ghorarūpā vilakṣaṇāḥ // SatvT_1.49
+            </p>
+         
+         <p>
+            atha te sampravakṣyāmi līlādehān hareḥ pṛthak /<br />
+            śuddhasattvamayān śāntān lokapremāspadān śṛṇu // SatvT_1.50
+            </p>
+         
+         <p>
+            ya īśa eko bhagavān ananto brahmasvarūpī puruṣo 'dhiyajñaḥ /<br />
+            pātuṃ punar viśvam asau svakāryaṃ bheje tanūs taṃ praṇamāmi kṛṣṇam // SatvT_1.51
+            </p>
+         
+         <p>iti śrīsātvatatantre śivanāradasaṃvāde prathamaḥ paṭalaḥ // SatvT_1.52</p>
+         
+         
+         <p>
+            Sātvatatantra, dvitīyaḥ paṭalaḥ<br />
+            śrīsiva uvāca /<br />
+            sākṣād babhūva bhagavān paripātum īśo vedān yugādisamaye hayaśīrṣanāmā /<br />
+            hatvā suretaravarau madhukaiṭabhākhyau nastaś cakāra viśrutīḥ śrutibhir vimṛgyaḥ //
+            SatvT_2.1
+            </p>
+         
+         <p>
+            lokān nivṛttiparatāṃ pracikīrṣur ādau bhūtvā catuḥsanatayā bhagavān vimuktyai /<br />
+            provāca yogam amalaṃ viśadāśayebhyo bhogān viraktiparatāṃ svayam ācacāra // SatvT_2.2
+            </p>
+         
+         <p>
+            deveṣu nāradatanur bhagavān viśuddhaṃ naiṣkarmyayogam avahat khalu pāñcarātram /<br />
+            dharmaṃ tathā bhagavatā kathitaṃ viśeṣaśiṣyeṣv asau paramanirvṛtim ādadhānam // SatvT_2.3
+            </p>
+         
+         <p>
+            ādau dadhāra dharaṇīdharaṇāya dhātuḥ svāyambhuvoktiparipālakakāla eva /<br />
+            nārāyaṇo 'khilagurur gurukoladehaṃ tenāhanad ditisutaṃ daśanāgraghātaiḥ // SatvT_2.4
+            </p>
+         
+         <p>
+            bhūmer adho dharaṇimaṇḍalam aprameyaḥ śeṣākhya āsa jagataḥ sthitaye nitāntam /<br />
+            yasmin kalārpitam idaṃ likhivac cakāsti nāgādhipair munigaṇaiḥ parisevitāṅghriḥ //
+            SatvT_2.5
+            </p>
+         
+         <p>
+            tasmād adhaḥ kamaṭha āsa viśālarūpī brahmāṇḍabhāṇḍaparivistṛtādivyakāyaḥ /<br />
+            śeṣo 'pi yatra paribhāti sutantutulyo yaṃ cāryamā pitṛpatiḥ samupāsate vai // SatvT_2.6
+            </p>
+         
+         <p>
+            dṛṣṭvā dṛśārdhavayasāpi vihāya mātur dehaṃ dhruvaṃ madhuvane tapasābhitaptam /<br />
+            bhūtvā kṛpāmayavapur bhagavān svalokaṃ prādāt stuvanti yatayo munayo 'pi yaṃ vai //
+            SatvT_2.7
+            </p>
+         
+         <p>
+            ālokya kardamatapo bhagavān vibhūtyai saṃśuddhadivyavapuṣāvirabhūt saśuklaḥ /<br />
+            tasmā adād varamajātmajaputrarūpam ānandabindupayasā ca cakāra tīrtham // SatvT_2.8
+            </p>
+         
+         <p>
+            yajñe sa eva rucinā manuputriputra āhūtisūtir asurāraṇivahnikalpaḥ /<br />
+            trailokyagopanavidhau suranātha īśa nāmnā suyajña iti viśrutakīrtir āśiḥ // SatvT_2.9
+            </p>
+         
+         <p>
+            siddheśvaraś ca samabhūt kapilākhya īśaḥ śrīdevahūtitanayo vitatāna tasyai /<br />
+            yogaṃ svaśaktisahitaṃ cidacidvibhāgaṃ sāṃkhyaṃ tathā svabhimukheṣu jagāda śuddham
+            // SatvT_2.10
+            </p>
+         
+         <p>
+            yogeśvaro 'tritanayo bhagavān ananto dattākhya āsa samatāvavadat svacaryām /<br />
+            prahlādahaihayayaduṣv aparāyaṇeṣu śiṣyeṣu śikṣitakathāṃ kathayan gurubhyaḥ // SatvT_2.11
+            </p>
+         
+         <p>
+            nārāyaṇo nara ṛṣipravarāvabhūtāṃ dharmasya dakṣaduhitary adhimūrtipatnyām /<br />
+            dhīropakārakaruṇāśayakāyaśuddhaṃ tīvraṃ tapaḥ pracaratāṃ surarājatāpam // SatvT_2.12
+            </p>
+         
+         <p>
+            nābher abhūd ṛṣabhasaṃjñasadāptakāmo yogeśvaraḥ sutaśatair avadat prajābhyaḥ /<br />
+            dharmaṃ tataḥ paramayogijanāvacaryāṃ naiṣkarmyalakṣaṇaparāṃ svayam ācacāra // SatvT_2.13
+            </p>
+         
+         <p>
+            dhātrantike susanakādibhir īryamāṇe cetoguṇān vigalituṃ bhagavān sa haṃsaḥ /<br />
+            provāca tattvam amalaṃ sadayārdracittā yasmād guṇāguṇavibhāgam abhūn munīnām // SatvT_2.14
+            </p>
+         
+         <p>
+            vene mṛte dvijajanair anu bāhuyugmaṃ saṃmathyamānasamaye pṛthurūpa āsīt /<br />
+            lokakṣudhāṃ praśamayan pṛthivīṃ dudoha sarvāṇi bhūtikaraṇāni ca sarvabhūtyai // SatvT_2.15
+            </p>
+         
+         <p>
+            dakṣasya yajñavihite śivaśaktihetoḥ prāptājyabhāmam adhikaṃ bhṛguṇābhidattam /<br />
+            tatrāṣṭabāhur abhavad bhagavān bhavāya prāptā nutiḥ suranarādikṛtāpi tena // SatvT_2.16
+            </p>
+         
+         <p>
+            jātaḥ priyavratakule gaya ity udārakīrtiṃ tatāna bhagavān tanuvāṅmanobhiḥ /<br />
+            tenāpi yajñatanur īśvara indrarūpī spardhāṃ cakāra mahatāṃ madam ādadhānaḥ // SatvT_2.17
+            </p>
+         
+         <p>
+            saṃvatsarasya tanayaḥ sa ha yāminīnām ālokanādivividhaṃ mudam ācikīrṣuḥ /<br />
+            śrīkāmadevavapuṣā hy avatīrya devo devyomayā madanakelibhir ārarāma // SatvT_2.18
+            </p>
+         
+         <p>
+            prācīnabarhitanayāṃs tapasā sutaptān dṛṣṭvā svaśāntavapuṣāvirabhūd anantaḥ /<br />
+            dattvā svapādabhajanaṃ vasatāṃ gṛheṣu kanyāṃ ca vṛkṣajanitām adiśad dayāluḥ // SatvT_2.19
+            </p>
+         
+         <p>
+            svārociṣe tuṣitayā dvijavedaśīrṣāj jāto vibhuḥ sakaladharmabhṛtāṃ variṣṭhaḥ /<br />
+            yad brahmacaryāniyamān ṛṣayo 'py aśikṣan sākṣāj jagadgurutayāvacacāra śuddhān // SatvT_2.20
+            </p>
+         
+         <p>
+            dharmād abhūt sutatayā bhagavāṃs tṛtīye manvantare trijagataḥ sthitaye kṛpāluḥ /<br />
+            śrīsatyasena iti durjanayakṣarakṣān yas tān apāharad asau suranāthamitraḥ // SatvT_2.21
+            </p>
+         
+         <p>
+            turye 'ntare sarasi vāraṇarājarājaṃ grāheṇa tīvrabalinā parikarṣayantam /<br />
+            nārāyaṇety abhihite harir uddadhāra tasmād bhavārṇavajalād api devarājaḥ // SatvT_2.22
+            </p>
+         
+         <p>
+            vaikuṇṭha āsa bhagavān dvijavarya mudrā devyā mayā tadanurūpajayābhidhānaḥ /<br />
+            vaikuṇṭhadarśanam akārayad aprameyas tasyāu pañcamamanoḥ samaye prasiddham // SatvT_2.23
+            </p>
+         
+         <p>
+            ṣaṣṭhe 'ntare tu bhagavān dvijaśāpakhinnadehān surān avanatān avalokya sannaḥ /<br />
+            vairājavipratanayo 'jitasaṃjña īśo devāsurair amathayat sahasā payodhim // SatvT_2.24
+            </p>
+         
+         <p>
+            devāsure jalanidher mathanād viṣaṣṇe hastāc cyute girivare sahasārdracittaḥ /<br />
+            bhūtvā tu kūrmavapur adbhutam uddadhāra mene ca parvatavivartanagātrakaṇḍūm // SatvT_2.25
+            </p>
+         
+         <p>
+            dugdhāmbudhāv ururujāṃ pracikīrṣur īśa ādāya pūrṇakalaśaṃ sudhayā nitāntam /<br />
+            āyurvidhānanigamaṃ khalu yajñabhoktā dhanvantariḥ samabhavad bhagavān narāṇām // SatvT_2.26
+            </p>
+         
+         <p>
+            dhanvantarer amṛtapūrṇaghaṭe svavārā cūrṇīyamāna amare śaraṇaṃ praviṣṭe /<br />
+            mohiny abhūt sa bhagavān asurāsurāṇāṃ mohāya tāpaviramāya sadāptakāmaḥ // SatvT_2.27
+            </p>
+         
+         <p>
+            satyavratāya janatarpaṇataḥ svarūpaṃ mātsyaṃ mahākaruṇayā pravitatya sadyaḥ /<br />
+            kalpārṇave 'py avadad acyuta ātmatattvaṃ bhūrūpanāvivasate viharan dvijebhyaḥ // SatvT_2.28
+            </p>
+         
+         <p>
+            trailokyaduḥkhadalanāya nṛsiṃharūpaṃ kṛtvā svabhaktam avituṃ kila lāṅgalāgraiḥ /<br />
+            dhṛtvāsurendram asurendraviśālatīvravakṣaḥsthalaṃ sthalam ivāgranakhair dadāra //
+            SatvT_2.29
+            </p>
+         
+         <p>
+            yasmin prapaśyati baliḥ sagaṇaṃ trilokaṃ tenāpi vāmanatanuṃ bhagavān gṛhītvā /<br />
+            saṃyācya sammitapadatritayaṃ baleḥ svaṃ kṛtvā triviṣṭapam adād aditeḥ sutebhyaḥ //
+            SatvT_2.30
+            </p>
+         
+         <p>
+            bhaktān ahaṃ samanuvarta iti svavācaṃ sākṣāt prakartum iva bhūvivare praviṣṭaḥ /<br />
+            vairocaner gṛham arakṣayad aprameyo nāmnā gadādhara iti kṣapayan dayāvān // SatvT_2.31
+            </p>
+         
+         <p>
+            bhūtvā tu bhārgavakule nijatātanāśād rāmo mahāparaśukaṃ parigṛhya tīkṣṇam /<br />
+            kṣatraṃ nivārya kṣititalaṃ parihṛtya bhūyo dattvā dvijāya hy avasat sa mahendrapṛṣṭhe
+            // SatvT_2.32
+            </p>
+         
+         <p>
+            vṛndārakaiḥ pariniṣevitapādapadmaḥ śrīrāmacandra iti sūryakulābdhijātaḥ /<br />
+            devārināśanavidhau kuśikānvayena nīto maheśadhanur ājagavaṃ babhañja // SatvT_2.33
+            </p>
+         
+         <p>
+            jñātvā tato bhṛgukulodbhavadhīravīraṃ rāmaṃ sugaurarucirāṃ pariṇīya sītām /<br />
+            gatvā gṛhān gṛhapateḥ pitur āptajāyāvācaṃ niśamya vanavāsam agāt sabhāryaḥ // SatvT_2.34
+            </p>
+         
+         <p>
+            tīrtvā gāṅgapayo 'nujānugamanāc chrīcitrakūṭaṃ giriṃ tyaktvā duṣṭavirādharādhadamano
+            dhāvan dhanur dhārayan /<br />
+            hatvā krūrasurendravairihariṇaṃ mārīcasaṃjñaṃ tato laṅkeśāhṛtasītayā khalu punaḥ prāpto
+            dṛśām īdṛśām // SatvT_2.35
+            </p>
+         
+         <p>
+            candraṃ caṇḍakaraṃ pracaṇḍapavanaṃ mene sumandānilaṃ mālāṃ mālatimallikāṃ śucikalāṃ
+            gītaṃ sphuliṅgāyitam /<br />
+            ity evaṃ vanitāparāyaṇanaraṃ hāsyann ivālokayan ṛkṣaṃ manmathasāyakāhṛtamano reme
+            priyāśaṅkayā // SatvT_2.36
+            </p>
+         
+         <p>
+            gatvā vānararājavālinamahāmitreṇa setuṃ tato baddhvā vāridhim ātarat taratamaṃ sākaṃ
+            plavaṃgair mudā /<br />
+            chittvā rākṣasayakṣalakṣam amalā sītā saputrānujaṃ laṅkeśaṃ jvaladagninā bhagavatā
+            cāptā punaḥ sā purī // SatvT_2.37
+            </p>
+         
+         <p>
+            sūryādiśaktim avihṛtya śaśāsa bhūmiṃ govipraprājñaparisevanasarvadharmaḥ /<br />
+            udriktabhaktinamitān anayat svanāthān sarvān vanādhivasataḥ svapadaṃ suśāntam // SatvT_2.38
+            </p>
+         
+         <p>
+            tasyānujo bharatasaṃjña udārabuddhī rāmājñayā nijagṛhe nivasann api śrīm /<br />
+            tyaktvā vanasthavratavān abhavat tato vai gandharvakoṭimathanaṃ viharaṃś cakāra //
+            SatvT_2.39
+            </p>
+         
+         <p>
+            śrīlakṣmaṇas tadavaro vanam etya rāmaṃ sītāṃ niṣecya bahukaṣṭa āsīt /<br />
+            bāhye 'pi cāsya vacasā vanam etya dehaṃ saṃtyajya tatpadam agād arisainyavahniḥ //
+            SatvT_2.40
+            </p>
+         
+         <p>
+            śatrughnasaṃjña uruvikramaśuddhabuddhiḥ śauryeṇa darpadalano dviṣatāṃ dayāluḥ /<br />
+            dīneṣu daityalavaṇāntaka āryasevī svānyeṣu sāmyamatirājanatābhirāmaḥ // SatvT_2.41
+            </p>
+         
+         <p>
+            mārkaṇḍanāmamunaye bhuvanāni deṣṭuṃ māyālaye tanutare jaṭhare mukundaḥ /<br />
+            nyagrodhapattrapuṭakośaśayāna āsīd aṅguṣṭhapānaparamaḥ śiśur aprameyaḥ // SatvT_2.42
+            </p>
+         
+         <p>
+            vṛtrasya ghoravapuṣā paritāpitānāṃ saṃrakṣaṇāya bhagavān yudhi nirjarāṇām /<br />
+            ādyo hy abhūd garuḍakiṃnaragītakīrtis teṣāṃ suduḥkhabhayaśokavināśaśīlaḥ // SatvT_2.43
+            </p>
+         
+         <p>
+            aṅguṣṭhaparvasumitān śramaṇān dvijāgryān dṛṣṭvā tu goṣpadapayogatasarvadehān /<br />
+            brahmaṇya indrahasitān samidaṃśuhastān gurvarcanāya kṛpayāvad amūn prapannān // SatvT_2.44
+            </p>
+         
+         <p>
+            duṣyantabījam adhigamya śakuntalāyāṃ jāto hy ajo 'pi bhagavān adhiyajñakart<br />
+             /<br />
+            vismāpayan bahunṛpān bahuvājimedhān sākṣād iyāja bahu dānam adād ameyaḥ // SatvT_2.45
+            </p>
+         
+         <p>
+            sarvān janān kaliyuge balabuddhihīnān dṛṣṭvā kṛpāparavaśo vasuvīryajāyām /<br />
+            jātaḥ parāśarasakāśata ādidevo vedān samāhitatayā vibhajiṣyati sma // SatvT_2.46
+            </p>
+         
+         <p>
+            vṛṣṇeḥ kule tu bhagavān baladevanāmā yasmād balān atibalān adalat surārīn /<br />
+            yal lāṅgalāgrakalanāt kururājadhānī dhāneva dhāmasahitā calitātibhītā // SatvT_2.47
+            </p>
+         
+         <p>
+            bhūmer janasya nijapādaparāyaṇasya vṛṣṇer ajo 'pi bhagavān sukham ādadhānaḥ /<br />
+            jāto bhaviṣyati yaśo vipulaṃ prakartuṃ śrīkṛṣṇa ity abhihito 'khilaśaktipūrṇaḥ //
+            SatvT_2.48
+            </p>
+         
+         <p>
+            jāto nijena vapuṣā vasudevagehe gatvā tu gokulam atho viharan vinodaiḥ /<br />
+            bālākṛtir viśadabālakabhāṣāhāsair gogopagopavanitāmudam āśu kartā // SatvT_2.49
+            </p>
+         
+         <p>
+            kaṃsānuśiṣṭasuraśatrugaṇān ulūkīmukhyān haniṣyati vrajasthitaye mahādrim /<br />
+            dhṛtvocchilīndhram iva sapta dināni vāmahaste pragṛhya suranāthamadaṃ pramārṣṭā //
+            SatvT_2.50
+            </p>
+         
+         <p>
+            dhātrā yadā sapaśugopaśiśau praṇīte buddher bhramo halabhṛto 'bhavad aprameyaḥ /<br />
+            tat saṃharan sapaśupālakulasvarūpaṃ kṛtvā vidhiṃ vividhamohamalāt sa dhartā // SatvT_2.51
+            </p>
+         
+         <p>
+            vṛndāvane surabhivādyavilāsagītair godhugvadhūjanamanojajavaṃ dadhānaḥ /<br />
+            kartā mahāmadanakelivihāragoṣṭhīvismāpanaṃ niśi niśācarakhecarāṇām // SatvT_2.52
+            </p>
+         
+         <p>
+            kaṃsasya raṅgasadanaṃ sabale praṇīte svāphalkinā bhavadhanus tarasā vibhajya /<br />
+            cāṇūraśūraśamanaṃ sahakaṃsamājau kartā dvipaṃ kuvalayaṃ sahasā nihatya // SatvT_2.53
+            </p>
+         
+         <p>
+            sāṃdīpanaṃ mṛtasutaṃ gurudakṣiṇārthī dattvā jarāsutabalaṃ yavanaṃ ca hatvā /<br />
+            śrīrukmiṇīprabhṛtidāraśataṃ vivāhya tābhyaḥ sutān daśadaśānu janiṣyati sma // SatvT_2.54
+            </p>
+         
+         <p>
+            bhaumaṃ nihatya sagaṇaṃ divi devamātur dātuṃ tadīyamaṇikuṇḍalam ādidevaḥ /<br />
+            gatvā surendratarurājavaraṃ priyāyāḥ prītau samuddharaṇato ditijān sa jetā // SatvT_2.55
+            </p>
+         
+         <p>
+            bāṇāsurasya samare mama vīryanāśāl labdhāmaratvam adhikaṃ yudhi bhūpabandhūn /<br />
+            jitvā yudhiṣṭhiranṛpakratunā vivāhabījaṃ nipātya gurubhārataraṃ prahartā // SatvT_2.56
+            </p>
+         
+         <p>
+            loke pradarśya sutarāṃ dvijadevapūjāṃ svasyāpy apārakaruṇāṃ nijasevakebhyaḥ /<br />
+            trātvā parīkṣitanṛpaṃ paramāstradagdhaṃ pārthāya bhūtim avalokayitā dvijārthe // SatvT_2.57
+            </p>
+         
+         <p>
+            kāmena snehabhayarāgakuṭubasaṃdhe yasmin mano nivasataḥ śamalaṃ nirasya /<br />
+            dātā svarūpam amalaṃ pariśuddhabhāvaḥ sākṣāt svarūpaniratasya ca kiṃ nu vakṣye //
+            SatvT_2.58
+            </p>
+         
+         <p>
+            yat pādapaṅkajaparāgaparāyaṇānām agre cakāsti na ca muktisukhaṃ nitāntam /<br />
+            kiṃ vānyadarpitabhayaṃ khalu kālavegaiḥ sākṣān mahāsukhasamudragatāntarāṇām // SatvT_2.59
+            </p>
+         
+         <p>
+            gaṅgāditīrthatapahomavratādikebhyaḥ kīrtiṃ svakīyam adhikāṃ samudīrya loke /<br />
+            atyunnataṃ dvijakulaṃ dvijaśāpavyājād dhatvā svalokam amalaṃ tanunābhigantā // SatvT_2.60
+            </p>
+         
+         <p>tasmād bhaviṣyati sutaḥ sukhado janānāṃ pradyumnasaṃjña urugāyaguṇānurūpaḥ // SatvT_2.61</p>
+         
+         <p>
+            kartā mudaṃ muditavaktrasucārugātraiḥ pātrair ivāmṛtapayo manujān pracchan /<br />
+            tatrāpy ajo 'nujanitāpyaniruddhanāmānāmnāṃ pravartakatayā manasīśvaro 'pi // SatvT_2.62
+            </p>
+         
+         <p>
+            yasmād uṣāharaṇato bhujavīryanāśād bāṇo bhaviṣyati śivānugaśāntadehaḥ /<br />
+            vyāsād bhaviṣyati [... au2 ṇeichenjh] bhagavān araṇyāṃ yogī janān prati gadiṣyati
+            vedasāram // SatvT_2.63
+            </p>
+         
+         <p>
+            śrīmatsuśāntam amalaṃ bhagavatpraṇītaṃ yac chraddhayā kalijanā api yānti śāntim /<br />
+            buddhāvatāram adhigamya kalāvalakṣair veṣair mater ativimohakaraṃ pralobham // SatvT_2.64
+            </p>
+         
+         <p>
+            pākhaṇḍaśāstram adhikalpya suradviṣāṇāṃ kartā jinasya tanayo bhagavān gayāyām /<br />
+            pākhaṇḍaśāstrabahule nijavedamārge naṣṭe dvijātibhir asatpathi vartamāne // SatvT_2.65
+            </p>
+         
+         <p>
+            kalkyāvatārataraṇis taruṇāndhakāratulyaṃ tudan nṛpagaṇaṃ kṛtadharmagoptā /<br />
+            sākṣād bhaviṣyati sarasvatisaṃjñitāyāṃ śrīsārvabhauma iti vedagupo dvijāgryāt // SatvT_2.66
+            </p>
+         
+         <p>
+            kṛtvā puraṃdaraśriyaṃ balaye 'tidāsyan goptāṣṭame manuyuge viditānubhāvaḥ /<br />
+            āyuḥ karo navamanoḥ samaye janānāṃ nītiṃ vidhātum amarārivināśanāya // SatvT_2.67
+            </p>
+         
+         <p>
+            goptā bhaviṣyati jagajjanadhārayāsau bhūtvā śrutendrasahito bhagavān apāraḥ /<br />
+            bhūtvā viśūcisadane dvijarājaśambhoḥ sāhityakarmaparavān daśame 'ntare saḥ // SatvT_2.68
+            </p>
+         
+         <p>
+            pātāmarān [... au3 ṇeichenjh] viśvak [... au1 ṇeichenjh] senasaṃjño yat sainyapūgasamarād
+            amarārināśaḥ /<br />
+            manvantaraikadaśame 'rthakariprapautraḥ śrīdharmasetur iti viśruta ādidevaḥ // SatvT_2.69
+            </p>
+         
+         <p>
+            hatvāsurān surapatau vidhṛter apatye dātā tṛtīyabhavanaṃ bhagavān svayambhūḥ /<br />
+            jāto dviṣaṇmanuyuge yugapālanāya viprāt svaśaktimahasaḥ sunṛtākhyato vai // SatvT_2.70
+            </p>
+         
+         <p>
+            khyāto bhaviṣyati tato bhagavān svadhāmā yasmāj janā jagati saukhyam apāram āpuḥ /<br />
+            bhāvye trayodaśayuge bhavitādidevaḥ śrīdevahotratanayo bhagavān bṛhatyām // SatvT_2.71
+            </p>
+         
+         <p>
+            yogeśvaro divi divaspatiśakramitro yogād ameyavapuṣā sa vitānatulyaḥ /<br />
+            satrāyaṇasya sadane bhagavān anādidevo 'pi devavanitātanayo 'bhijātaḥ // SatvT_2.72
+            </p>
+         
+         <p>
+            ante 'ntare karaṇakarmavitānatantūn vistārayiṣyati jagaddhitakāmaśīlaḥ /<br />
+            ete mayā bhagavataḥ kathitā dvijāte śuddhāvatāranicayā jagato hitārthāḥ /<br />
+            sampūrṇatāṃśakalayā paribhāvanīyā jñānakriyābalasamādibhir ābhivyaktāḥ // SatvT_2.73
+            </p>
+         
+         <p>
+            yal līlātanubhir nityaṃ pālyate sacarācaram /<br />
+            tam ahaṃ śaraṇaṃ yāmi kṛṣṇaṃ brahmāṇḍanāyakam // SatvT_2.74
+            </p>
+         
+         
+         <p>
+            Sātvatatantra, tṛtīyaḥ paṭalaḥ<br />
+            śrīnārada uvāca /<br />
+            kathitā bhagavān viṣṇor avatārā mahātmanaḥ /<br />
+            sampūrṇāṃśakalābhedair bhāvanīyās tvayā prabho // SatvT_3.1
+            </p>
+         
+         <p>
+            nirvikalpasya kṛṣṇasya brahmaṇaḥ paramātmanaḥ /<br />
+            katham aṃśakalābhāga etad varṇaya no vibho // SatvT_3.2
+            </p>
+         
+         <p>
+            śrīśiva uvāca /<br />
+            satyam uktaṃ tvayā brahman kṛṣṇasya jagadātmanaḥ /<br />
+            avatāreṣu sarveṣu bhedād aṃśakalāḥ svataḥ // SatvT_3.3
+            </p>
+         
+         <p>
+            na varṇayanti nipuṇā jñānino bhagavatparāḥ /<br />
+            avikārād acyutāc ca nirbhedād brahmarūpiṇaḥ // SatvT_3.4
+            </p>
+         
+         <p>
+            kiṃ tu jñānaprabhāvādeḥ pūrṇāṃśāṃśānudarśanāt /<br />
+            pūrṇam aṃśakalābhāgaṃ vadanti jagadīśituḥ // SatvT_3.5
+            </p>
+         
+         <p>
+            santi yady api sarvatra jñānavīryaguṇādayaḥ /<br />
+            tathāpi kāryataḥ kecid dṛśyante na hi sarvataḥ // SatvT_3.6
+            </p>
+         
+         <p>
+            aiśvaryajñānadharmāś ca vairāgyaṃ śrīr yaśas tathā /<br />
+            eṣāṃ saṃdarśanāt sākṣāt pūrṇo vidvadbhir ucyate // SatvT_3.7
+            </p>
+         
+         <p>
+            eteṣām api bhāgānām alpālpadarśanād asau /<br />
+            vibhāty aṃśakalābhedo bhagavān bhagabhedadhṛk // SatvT_3.8
+            </p>
+         
+         <p>
+            aṃśas turīyo bhāgaḥ syāt kalā tu ṣoḍaśī matā /<br />
+            śatabhāgo vibhūtiś ca varṇyate kavibhiḥ pṛthak // SatvT_3.9
+            </p>
+         
+         <p>
+            ato jñānasya dharmasya vairāgyaiśvaryayoḥ śriyaḥ /<br />
+            yaśasaḥ pṛthagbhedaṃ mattaḥ śṛṇu dvijottama // SatvT_3.10
+            </p>
+         
+         <p>
+            utpattipralayau caiva vidyāvidye gatāgatī /<br />
+            eṣāṃ jñānaṃ vadanty aṅga jñānaṃ ṣaḍvidham uttamam // SatvT_3.11
+            </p>
+         
+         <p>
+            satyaṃ śaucaṃ dayā maunaṃ dharmaś cāturvidhaḥ smṛtaḥ /<br />
+            amāno vyatirekaś ca aindriyas tu vaśīkṛtaḥ // SatvT_3.12
+            </p>
+         
+         <p>
+            evaṃ caturvidho bhadra vairāgyaḥ samudāhṛtaḥ /<br />
+            aṇimā laghimā caiva mahimā tadanantaram // SatvT_3.13
+            </p>
+         
+         <p>
+            prākāmyaṃ caiva prāptiś ca īśitā vaśitā tathā /<br />
+            kāmasyāvasitā hy ete aṣṭaiśvaryāḥ prakīrtitāḥ // SatvT_3.14
+            </p>
+         
+         <p>
+            bhṛtyāmātyasuhṛdbandhuputrapautrakalatrakāḥ /<br />
+            vāsobhūṣaṇakośāś ca senikā caturaṅgiṇī // SatvT_3.15
+            </p>
+         
+         <p>
+            gṛhā bhūr astraśastre ca durgādyāḥ śriya īritāḥ /<br />
+            yaśas tu puṃso bhavati karmato guṇatas tathā // SatvT_3.16
+            </p>
+         
+         <p>
+            karma caturvidhaṃ proktaṃ sṛṣṭisthitilayātmakam /<br />
+            tayā līlāvatārāṇāṃ caritaṃ paramādbhutam // SatvT_3.17
+            </p>
+         
+         <p>
+            guṇāny aparimeyāṇi kīrtitāni manīṣibhiḥ /<br />
+            tathāpy ahaṃ dviṣaṣṭhīṃ te varṇayāmy anupūrvaśaḥ // SatvT_3.18
+            </p>
+         
+         <p>
+            brahmaṇyaś ca śaraṇyaś ca bhaktavātsalyam eva ca /<br />
+            dātṛtvaṃ satyasaṃdhatvaṃ vikrāntatvaṃ niyamyatā // SatvT_3.19
+            </p>
+         
+         <p>
+            durjayatvaṃ duḥsaratvaṃ niṣevyatvaṃ sahiṣṇutā /<br />
+            akṣobhyatvaṃ svatantratvaṃ nairapekṣyaṃ svasauṣṭhavam // SatvT_3.20
+            </p>
+         
+         <p>
+            śauryam audāryam āstikyaṃ sthairyaṃ dhairyaṃ prasannatā /<br />
+            gāmbhīryaṃ praśrayaḥ śīlaṃ prāgalbhyam ṛtamaṅgalam // SatvT_3.21
+            </p>
+         
+         <p>
+            śamo damo balaṃ dākṣyaṃ kṣemaṃ harṣo 'nahaṃkṛtiḥ /<br />
+            saṃtoṣa ārjavaṃ sāmyaṃ manobhāgyaṃ śrutaṃ sukham // SatvT_3.22
+            </p>
+         
+         <p>
+            tyāgo bhayaṃ pāvanaṃ ca tejaḥ kauśalam āśrayaḥ /<br />
+            dhṛtiḥ kṣamā smṛtir lajjā śraddhā maitrī dayonnatiḥ // SatvT_3.23
+            </p>
+         
+         <p>
+            śāntiḥ puṣṭiḥ svavākśuddhir buddhir vidyā svarakṣatā /<br />
+            ete te bhagabhedās tu kathitā hy anupūrvaśaḥ // SatvT_3.24
+            </p>
+         
+         <p>
+            eṣāṃ prakāśo yatrāsīt sa pūrṇaḥ parikīrtitaḥ /<br />
+            aṃśaprakāśād aṃśaḥ syāt kalāyās tu kalā smṛtā // SatvT_3.25
+            </p>
+         
+         <p>
+            vibhūtes tu vibhūtiḥ syād eṣa bhedo na hi svataḥ /<br />
+            nirvikalpasya satyasya parabrahmasvarūpiṇaḥ // SatvT_3.26
+            </p>
+         
+         <p>
+            nārāyaṇasya śuddhasya śrīkṛṣṇasya mahātmanaḥ /<br />
+            yataḥ kṛṣṇāvatāreṇa bhagabhedāḥ pṛthak pṛthak // SatvT_3.27
+            </p>
+         
+         <p>
+            saṃdarśitāḥ pṛthakkārye tasmāt sampūrṇa ucyate /<br />
+            hayagrīvādyavatāre tasmād alpatarā yataḥ // SatvT_3.28
+            </p>
+         
+         <p>
+            darśitā bhagabhedā vai tasmād aṃśāḥ prakīrtitāḥ /<br />
+            yato rāmo matsyakūrmavarāhā narakesarī // SatvT_3.29
+            </p>
+         
+         <p>
+            manvantarāvatārāś ca yajñādyā hayaśīrṣavān /<br />
+            tathā śuklādayo hy āvirbhāvā ṛṣabha ātmavān // SatvT_3.30
+            </p>
+         
+         <p>
+            naranārāyaṇo dattaḥ kalau ca buddhakalkinau /<br />
+            jñānakarmaprabhāvādyair aṃśā viṣṇoḥ prakīrtitāḥ // SatvT_3.31
+            </p>
+         
+         <p>
+            kumāranāradavyāsā brahmarātādayaḥ kalāḥ /<br />
+            jñānāṃśayuktāḥ śrīviṣṇor avatārā mahātmanaḥ // SatvT_3.32
+            </p>
+         
+         <p>
+            gayaḥ pṛthuś ca bharataḥ śaktiyuktāḥ kalā matāḥ /<br />
+            guṇāvatārā brahmādyās tadaṃśā ye vibhūtayaḥ // SatvT_3.33
+            </p>
+         
+         <p>
+            eṣā mayā te kathitā sampūrṇāṃśakalābhidā /<br />
+            kāryānurūpā viprendra bhagabhedapradarśanāt // SatvT_3.34
+            </p>
+         
+         <p>
+            na brahmaṇo bhidā vipra śrīkṛṣṇasya ca sattama /<br />
+            nārāyaṇasya vā saumya hy avatārisvarūpiṇaḥ // SatvT_3.35
+            </p>
+         
+         <p>
+            śrīnārada uvāca /<br />
+            avatārisvarūpaṃ me varṇayasva sadāśiva /<br />
+            kiṃ brahma paramaṃ sākṣāt kiṃ vā nārāyaṇo vibhuḥ // SatvT_3.36
+            </p>
+         
+         <p>
+            kiṃ vā vaikuṇṭhalokeśaḥ śrīkṛṣṇaḥ puruṣottamaḥ /<br />
+            kim ekatattvam eteṣām athavā kiṃ pṛthak pṛthak // SatvT_3.37
+            </p>
+         
+         <p>śrīśiva uvāca // SatvT_3.38</p>
+         
+         <p>
+            śṛṇu tat paramaṃ guhyaṃ brahmadāyāda sattama /<br />
+            avatārisvarūpaṃ me yathā varṇayato dvija // SatvT_3.39
+            </p>
+         
+         <p>
+            ekam eva paraṃ tattvam avatāri sanātanam /<br />
+            śrīkṛṣṇabrahmapuruṣaiḥ saṃjñābhir dīyate pṛthak // SatvT_3.40
+            </p>
+         
+         <p>
+            yathā bhānoḥ prakāśasya maṇḍalasyāpṛthaksthitiḥ /<br />
+            tathā śrīkṛṣṇadevasya brahmaṇaḥ puruṣasya ca // SatvT_3.41
+            </p>
+         
+         <p>
+            ataḥ sātvatatantrajñā bhaktiniṣṭhā vilakṣaṇāḥ /<br />
+            śrīkṛṣṇākhyaṃ paraṃ dhāma paramānandam uttamam // SatvT_3.42
+            </p>
+         
+         <p>
+            vaikuṇṭhalokanilayaṃ śuddhasattvātmavigraham /<br />
+            vadanti śāśvataṃ satyaṃ svabhaktagaṇasevitam // SatvT_3.43
+            </p>
+         
+         <p>
+            vedāntino jñānaniṣṭhā jñānaśāstrānusārataḥ /<br />
+            vadanti brahma paramaṃ prakāśātmakam avyayam // SatvT_3.44
+            </p>
+         
+         <p>
+            apāṇipādanayanaśrotratvagghrāṇavigraham /<br />
+            sarvaśaktiyutaṃ tejomayaṃ vāṅmanasāpadam // SatvT_3.45
+            </p>
+         
+         <p>
+            ānandamātraṃ saṃśuddhaṃ cidvyaktaṃ sarvakāraṇam /<br />
+            hairaṇyagarbhās traividyā nārāyaṇam anāmayam // SatvT_3.46
+            </p>
+         
+         <p>
+            sahasraśirasaṃ devaṃ paramānandam avyayam /<br />
+            anantaśaktiṃ sarveṣāṃ puruṣaṃ prakṛteḥ param // SatvT_3.47
+            </p>
+         
+         <p>
+            vadanti karmaparamāḥ sthityutpattyantabhāvanam /<br />
+            sarvānandakaraṃ śāntaṃ saṃsārārṇavatārakam // SatvT_3.48
+            </p>
+         
+         <p>
+            ataḥ kṛṣṇasya devasya brahmaṇaḥ puruṣasya ca /<br />
+            vastuto naiva bhedo hi varṇyate tair api dvija // SatvT_3.49
+            </p>
+         
+         <p>
+            yathārtho bahudhā bhāti nānākaraṇavṛttibhiḥ /<br />
+            tathā sa bhagavān kṛṣṇo nāneva paricakṣate // SatvT_3.50
+            </p>
+         
+         <p>
+            ataḥ sarvam etenāpi śrīkṛṣṇaḥ puruṣottamaḥ /<br />
+            līlāmānuṣarūpeṇa devakījaṭharaṃ gataḥ // SatvT_3.51
+            </p>
+         
+         <p>
+            ataḥ sarvāvatārāṇāṃ kāraṇaṃ kṛṣṇa ucyate /<br />
+            sṛṣṭyādyanekakāryāṇi darśitāni yataḥ svataḥ // SatvT_3.52
+            </p>
+         
+         <p>
+            sa eva sarvalokānām ārādhyaḥ puruṣottamaḥ /<br />
+            muktyādyarthaṃ nṛlokasya mānuṣatvaṃ yato gataḥ // SatvT_3.53
+            </p>
+         
+         <p>
+            atas taṃ puruṣā nityaṃ bhaktibhedena nityadā /<br />
+            bhajanti hy apavargeśaṃ pareśaṃ tadakāmyayā // SatvT_3.54
+            </p>
+         
+         <p>
+            mayā te kathitā vipra avatārā mahātmanaḥ /<br />
+            kim anyat kathayāmy adya tvaṃ hi bhāgavatottamaḥ // SatvT_3.55
+            </p>
+         
+         
+         <p>
+            Sātvatatantra, caturthaḥ paṭalaḥ<br />
+            śrīnārada uvāca /<br />
+            nāsti tṛptiḥ śṛṇvato me tava vāgamṛtaṃ hareḥ /<br />
+            yaśaḥ paramakalyāṇam avatārakathāśrayam // SatvT_4.1
+            </p>
+         
+         <p>
+            tathāpi sāmprataṃ hy etac chrutvā kautūhalaṃ mama /<br />
+            bhaktibhedaṃ bhagavato bhāvanīyaṃ sadā nṛbhiḥ // SatvT_4.2
+            </p>
+         
+         <p>
+            brūhi me bhagavan viṣṇor bhaktibhedaṃ sadāśiva /<br />
+            yaj jñātvā hy añjasā viṣṇoḥ sāmyaṃ yāti janaḥ prabho // SatvT_4.3
+            </p>
+         
+         <p>
+            śrīśiva uvāca /<br />
+            sādhu pṛṣṭaṃ tvayā sādho paraṃ guhyatamaṃ yataḥ /<br />
+            anyasmai na mayā proktaṃ vinā bhāgavatān narāt // SatvT_4.4
+            </p>
+         
+         <p>
+            yadaivāvocaṃ māṃ kṛṣṇo dhyānāt tuṣṭamanā vibhuḥ /<br />
+            tadaivāhaṃ niṣiddho 'smi abhaktoktau kṛpālunā // SatvT_4.5
+            </p>
+         
+         <p>
+            tadā cāhaṃ tasya pādapaṅkaje śirasā nataḥ /<br />
+            babhāṣa etad bhagavān bhaktān nirdeṣṭum arhasi // SatvT_4.6
+            </p>
+         
+         <p>
+            tadā prītamanā devo mām uvāca satāṃ gatiḥ /<br />
+            śṛṇuṣva śiva bhadraṃ te bhaktān vakṣyāmi sātvatān // SatvT_4.7
+            </p>
+         
+         <p>
+            maddhyānaniṣṭhān matprāṇān madyaśaḥśravaṇotsukān /<br />
+            bhaktān jānīhi me deva sarvalokapraṇāmakān // SatvT_4.8
+            </p>
+         
+         <p>
+            tebhyaḥ paramasaṃtuṣṭo bhaktibhedaṃ sasādhanam /<br />
+            bravīmi śiva te bhaktis tenaiva samprasidhyati // SatvT_4.9
+            </p>
+         
+         <p>
+            yadi tvadvākyaniṣṭhaḥ syād yo 'pi ko 'pi sadāśiva /<br />
+            tasmai prītamanā vācyo bhaktibhedaḥ sasādhanaḥ // SatvT_4.10
+            </p>
+         
+         <p>
+            tad idaṃ te pravakṣyāmi bhaktibhedaṃ sasādhanam /<br />
+            yato bhāgavataśreṣṭho bhagavatkīrtanapriyaḥ // SatvT_4.11
+            </p>
+         
+         <p>
+            ekaiva bhaktiḥ śrīviṣṇoḥ prītir ity ucyate budhaiḥ /<br />
+            nirguṇatvād akhaṇḍatvād ānandatvād dvijottama // SatvT_4.12
+            </p>
+         
+         <p>
+            kiṃ tu jñānakriyālīlābhedaiḥ sā trividhā matā /<br />
+            tān śṛṇuṣvānupūrvyeṇa mattaḥ svavahito dvija // SatvT_4.13
+            </p>
+         
+         <p>
+            sarvāntaryāmiṇi harau manogatir avicyutā /<br />
+            sā nirguṇajñānamayī sākṣād api garīyasī // SatvT_4.14
+            </p>
+         
+         <p>
+            sarvendriyāṇāṃ sarveśe viṣṇau gatir anuttamā /<br />
+            svābhāvikī bhāgavatī karmajā muktihelinī // SatvT_4.15
+            </p>
+         
+         <p>
+            harilīlāśrutoccāre jātā premamayī tu yā /<br />
+            satsaṅgajānyāsād grāhyā sarvadā sā hy anuttamā // SatvT_4.16
+            </p>
+         
+         <p>
+            tāsāṃ sādhanasāmagrī kramataḥ śṛṇu sattama /<br />
+            yām āśritya samāpnoti jano bhaktiṃ janārdane // SatvT_4.17
+            </p>
+         
+         <p>
+            svānurūpasvadharmeṇa vāsudevārpaṇena ca /<br />
+            hiṃsārahitayogena bhagavatpratimādiṣu // SatvT_4.18
+            </p>
+         
+         <p>
+            śrutidṛṣṭisparśapūjāstutipratyabhinandanaiḥ /<br />
+            viṣayāṇāṃ virāgeṇa svaguroḥ paricaryayā // SatvT_4.19
+            </p>
+         
+         <p>
+            nivṛttiśāstraśravaṇair uttameṣu kṣamādibhiḥ /<br />
+            sameṣu mitrabhāvena dīneṣu dayayā tathā // SatvT_4.20
+            </p>
+         
+         <p>
+            bhagavanmūrtyabhidhyānair yaśasāṃ śrutikīrtanāt /<br />
+            bhūteṣu bhagavaddṛṣṭyā nirguṇā bhaktir ucyate // SatvT_4.21
+            </p>
+         
+         <p>
+            labdhvā tāṃ nirguṇāṃ bhaktiṃ muktiṃ cāpi na manyate /<br />
+            muktiḥ saivety abhihitā bhagavadbhāvakāriṇī // SatvT_4.22
+            </p>
+         
+         <p>
+            atha bhāgavatībhakteḥ sādhanaṃ śṛṇu sattama /<br />
+            yat sarvayatnataḥ kāryaṃ puruṣeṇa manīṣiṇā // SatvT_4.23
+            </p>
+         
+         <p>
+            śrīguror upadeśena bhagavadbhaktitatparaiḥ /<br />
+            yathākāryaṃ svakaraṇair bhagavatpādasevanam // SatvT_4.24
+            </p>
+         
+         <p>
+            vācoccāro harer nāmnāṃ karṇābhyāṃ karmaṇāṃ śrutiḥ /<br />
+            hastābhyāṃ bhagavaddehapratimādiṣu sevanam // SatvT_4.25
+            </p>
+         
+         <p>
+            jihvayā bhagavaddattanaivedyaharaṇaṃ mudā /<br />
+            nāsayā kṛṣṇapādābjalagnagandhānujighraṇam // SatvT_4.26
+            </p>
+         
+         <p>
+            bhagavadgātranirmālyaharaṇaṃ śirasā tathā /<br />
+            dṛṣṭvā viṣṇujanādīnām īkṣaṇaṃ sādareṇa ca // SatvT_4.27
+            </p>
+         
+         <p>
+            manasā bhagavadrūpacintanaṃ śirasorasā /<br />
+            bāhupādādibhir viṣṇor vandanaṃ parayā mudā // SatvT_4.28
+            </p>
+         
+         <p>
+            arthādīnām ānayanam īśvarārthena sarvaśaḥ /<br />
+            etaiḥ svasādhanair nityaṃ bhagavatpādasevanam // SatvT_4.29
+            </p>
+         
+         <p>
+            āśu sampadyate bhaktiḥ kṛṣṇe bhāgavatī satī /<br />
+            yadendriyāṇāṃ sarveṣāṃ kṛṣṇe paramapūruṣe // SatvT_4.30
+            </p>
+         
+         <p>
+            svābhāvikī ratir abhūt sā vai bhāgavatī matā /<br />
+            etadbhaktiparo vipra cāturvargyaṃ na manyate // SatvT_4.31
+            </p>
+         
+         <p>
+            tasyām antaḥ sarvasukham adhikaṃ vāpi labhyate /<br />
+            atha premamayībhakteḥ kāraṇaṃ dvijasattama // SatvT_4.32
+            </p>
+         
+         <p>
+            śṛṇu viśvāsam āpanno niścayātmikayā dhiyā /<br />
+            sadguror upadeśena labdhvā satsaṅgam ādṛtaḥ // SatvT_4.33
+            </p>
+         
+         <p>
+            caturvidhānāṃ śrīviṣṇoḥ karmaṇāṃ śravaṇaṃ satām /<br />
+            teṣv evaṃ kīrtanaṃ teṣāṃ manasā cāpi cintanam // SatvT_4.34
+            </p>
+         
+         <p>
+            vacasā grahaṇaṃ teṣāṃ tatparāṇāṃ praśaṃsanam /<br />
+            yady aśakto bhavet kīrtau smaraṇe cāpi sarvaśaḥ // SatvT_4.35
+            </p>
+         
+         <p>
+            tadā tu bhagavannāmnām āvṛttau vṛttayet sadā /<br />
+            sadā śaśvat prītiyukto yaḥ kuryād etad anvaham // SatvT_4.36
+            </p>
+         
+         <p>
+            tasyāśu bhaktiḥ śrīkṛṣṇe jāyate sadbhir ādṛtā /<br />
+            evaṃ premamayīṃ labdhvā bhittvā saṃsāram ātmanaḥ // SatvT_4.37
+            </p>
+         
+         <p>
+            āśu sampadyate śāntiṃ paramānandadāyinīm /<br />
+            labdhvāpi bhaktā bhagavadrūpaśīlaguṇakriyāḥ // SatvT_4.38
+            </p>
+         
+         <p>
+            nānusaṃdhatta etā vai vinā bhaktiṃ janārdane /<br />
+            yady anyasādhanāny anyabhaktau kuryād atantritaḥ // SatvT_4.39
+            </p>
+         
+         <p>
+            na tatra kaścid doṣaḥ syād dharisevā yataḥ kṛtā /<br />
+            kiṃ tu yad bhaktiniṣṭhā syāt tām evāpnoti mānavaḥ // SatvT_4.40
+            </p>
+         
+         <p>
+            phalabhedena bhedaḥ syāt sādhanena na bhidyate /<br />
+            pṛthag eṣa mayākhyāto bhaktibhedaḥ sasādhanaḥ // SatvT_4.41
+            </p>
+         
+         <p>
+            niṣkāmaḥ phalarūpaś ca nityo mokṣasukhādhikaḥ /<br />
+            sakāmaḥ saguṇo vipra bahudhokto maharṣibhiḥ // SatvT_4.42
+            </p>
+         
+         <p>
+            kiṃ bhūyaḥ kathayāmy adya vada māṃ dvijasattama /<br />
+            śrīnārada uvāca /<br />
+            vidheyaṃ kathitaṃ sarvaṃ tvayā me surasattama /<br />
+            niṣedhanīyaṃ kiṃ cātra bhaktistambhakaraṃ ca yat // SatvT_4.43
+            </p>
+         
+         <p>
+            hānivṛddhikaraṃ cāpi mukhyasādhanam eva ca /<br />
+            kathayasva mahādeva śraddhāsevāparāya me // SatvT_4.44
+            </p>
+         
+         <p>
+            śrīśiva uvāca /<br />
+            bhaktīnāṃ sādhanānāṃ yad bahirbhūtaṃ mahāmune /<br />
+            niṣedhanīyaṃ tat tāsāṃ bhaktānāṃ puruṣottame // SatvT_4.45
+            </p>
+         
+         <p>
+            dehapravāhād ādhikyaṃ viṣayādaraṇaṃ ca yat /<br />
+            bhaktistambhakaraṃ proktaṃ bhaktiniṣṭhe dvijottama // SatvT_4.46
+            </p>
+         
+         <p>
+            samāsena mayā proktaṃ niṣedhastambhanaṃ tava /<br />
+            bhaktighnadoṣaṃ śṛṇu taṃ sarvathā varjanaṃ nṛṇām // SatvT_4.47
+            </p>
+         
+         <p>
+            nirguṇāyāṃ prāṇihiṃsā bhāgavatyām ahaṃkṛtiḥ /<br />
+            premamayyāṃ satāṃ dveṣo bhaktināśakarā ime // SatvT_4.48
+            </p>
+         
+         <p>
+            sarvabhaktivyatikaraḥ svaguror vāganādaraḥ /<br />
+            dveṣeṇa narakaṃ yāti kurvan bhaktim api dvijaḥ // SatvT_4.49
+            </p>
+         
+         <p>
+            doṣadṛṣṭyā doṣavān syāt tatra doṣaphalaṃ bhavet /<br />
+            martyadṛṣṭyā kṛtaṃ sarvaṃ bhavet kuñjaraśaucavat // SatvT_4.50
+            </p>
+         
+         <p>
+            sarvasādhanamukhyā hi gurusevā sadādṛtā /<br />
+            yayā bhaktir bhagavati hy añjasā syāt sukhāvahā // SatvT_4.51
+            </p>
+         
+         <p>
+            tasmāt sarvaprayatnena guror vāgādareṇa vai /<br />
+            kāryā saiva tu tat sarvā bhagavadbhaktivardhinī // SatvT_4.52
+            </p>
+         
+         <p>
+            nirguṇā bhaktiniṣṭhena kāryā bhūtadayā sadā /<br />
+            bhāgavatyāṃ kāyamanovacasāṃ pariniṣṭhitā // SatvT_4.53
+            </p>
+         
+         <p>
+            premamayyāṃ satāṃ prītyā śravaṇaṃ yaśasāṃ hareḥ /<br />
+            mukhyāḥ sādhanasampattyaḥ kathitās te dvijottama // SatvT_4.54
+            </p>
+         
+         <p>
+            sarvamūlaṃ kṛṣṇapādaśaraṇaṃ parikīrtitam /<br />
+            yad vinā sravate bhaktir āmabhāṇḍāt payo yathā // SatvT_4.55
+            </p>
+         
+         <p>
+            śrīnārada uvāca /<br />
+            kṛṣṇapādābjaśaraṇaṃ vada me bahuvittama /<br />
+            vinā yena pumān yāti kurvan bhaktim api śramam // SatvT_4.56
+            </p>
+         
+         <p>
+            śrīśiva uvāca /<br />
+            kāyavāṅmanasāṃ sākṣāt kṛṣṇe paramapūruṣe /<br />
+            pariniṣṭhāśrayaṃ yad vai śaraṇaṃ parikīrtitam // SatvT_4.57
+            </p>
+         
+         <p>
+            etad vai trividhaṃ proktaṃ vedavidbhir dvijottama /<br />
+            prathamaṃ madhyamaṃ śreṣṭhaṃ kramaśaḥ śṛṇu tan mune // SatvT_4.58
+            </p>
+         
+         <p>
+            dharme tīrthe ca devādau rakṣakatvamaghāditaḥ /<br />
+            yad buddhiniṣṭhitaṃ kṛṣṇe kṛtaṃ tat prathamaṃ smṛtam // SatvT_4.59
+            </p>
+         
+         <p>
+            kalatraputramitreṣu dhane gehagavādiṣu /<br />
+            yan mamatvāśrayaṃ kṛṣṇe kṛtaṃ tan madhyamaṃ smṛtam // SatvT_4.60
+            </p>
+         
+         <p>
+            dehādāv ātmano yāvad ātmatvāśrayaṇādi yat /<br />
+            tat sarvaṃ kṛṣṇapādābje kṛtaṃ śreṣṭhaṃ prakīrtitam // SatvT_4.61
+            </p>
+         
+         <p>
+            īśvaraṃ tadadhīnaṃ ca taddharmaṃ ca sanātanam /<br />
+            hitvānyad āśrayaṃ tasya vastuto naiva dṛśyate // SatvT_4.62
+            </p>
+         
+         <p>
+            etaccharaṇasampanno bhaktimān puruṣottame /<br />
+            punāti sarvabhuvanaṃ hṛdisthenācyutena saḥ // SatvT_4.63
+            </p>
+         
+         <p>
+            tasmād bhaktādṛter viṣṇor deho 'pi naiva satpriyaḥ /<br />
+            kim utānye vibhūtādyāḥ paramānandarūpiṇaḥ // SatvT_4.64
+            </p>
+         
+         <p>
+            śrīnārada uvāca /<br />
+            bhaktānāṃ lakṣaṇaṃ sākṣād brūhi me surattama /<br />
+            tathaiva teṣv ahaṃ prītiṃ kariṣyāmi samāhitaḥ // SatvT_4.65
+            </p>
+         
+         <p>
+            śrīśiva uvāca /<br />
+            bhaktānāṃ lakṣaṇaṃ sākṣād durvijñeyaṃ nṛbhir mune /<br />
+            vaiṣṇavair eva tad vedyaṃ padāny ahir aher iva // SatvT_4.66
+            </p>
+         
+         <p>
+            tathāpi sāratas teṣāṃ lakṣaṇaṃ yad alaukikam /<br />
+            vakṣye tat te muniśreṣṭha viṣṇubhakto yato bhavān // SatvT_4.67
+            </p>
+         
+         <p>
+            maccittā nirahaṃkārā mamakāravivarjitāḥ /<br />
+            śāstrānuvartinaḥ śāntāḥ suhṛdaḥ sarvadehinām // SatvT_4.68
+            </p>
+         
+         <p>
+            yadā sarveṣu bhūteṣu hiṃsantam api kaṃcana /<br />
+            na hiṃsanti tadā muktā nirguṇā bhagavatparāḥ // SatvT_4.69
+            </p>
+         
+         <p>
+            harisevāṃ vinā kiṃcin manyante nātmanaḥ priyam /<br />
+            vāsudevaparā dehageha indriyavṛttayaḥ // SatvT_4.70
+            </p>
+         
+         <p>
+            rāgadveṣādirahitā mānāmānavivarjitāḥ /<br />
+            sadā saṃtuṣṭamanaso bhaktā bhāgavatā matāḥ // SatvT_4.71
+            </p>
+         
+         <p>
+            satprītiparamāḥ śuddhāḥ śrutikīrtyuktiniṣṭhitāḥ /<br />
+            traivargikaparālāpasnehasaṅgavivarjitāḥ // SatvT_4.72
+            </p>
+         
+         <p>
+            sadvākyakāriṇaḥ kṛṣṇayaśasy utsukamānasāḥ /<br />
+            hariprītiparā ete bhaktā lokapraṇāmakāḥ // SatvT_4.73
+            </p>
+         
+         <p>
+            bhaktānāṃ lakṣaṇaṃ hy etat sāmānyena nirūpitam /<br />
+            idānīm ātmajijñāsyaṃ lakṣaṇaṃ trividhaṃ śṛṇu // SatvT_4.74
+            </p>
+         
+         <p>
+            sarvātmānaṃ hariṃ jñātvā sarveṣu prītimān naraḥ /<br />
+            sevāparo dveṣahīno janeṣu sa ca sattamaḥ // SatvT_4.75
+            </p>
+         
+         <p>
+            jñātvāpi sarvagaṃ viṣṇuṃ tāratamyena prītimān /<br />
+            śreṣṭhamadhyamanīceṣu hy ātmanaḥ sa tu madhyamaḥ // SatvT_4.76
+            </p>
+         
+         <p>
+            pratimādiṣv eva harau prītimān na tu sarvage /<br />
+            prāṇiprāṇavadhatyāgī prākṛtaḥ sa tu vaiṣṇavaḥ // SatvT_4.77
+            </p>
+         
+         <p>
+            yasyendriyāṇāṃ sarveṣāṃ harau svābhāvikī ratiḥ /<br />
+            sa vai mahābhāgavato hy uttamaḥ parikīrtitaḥ // SatvT_4.78
+            </p>
+         
+         <p>
+            yasya yatnenendriyāṇāṃ viṣṇau prītir hi jāyate /<br />
+            sa vai bhāgavato vipraḥ madhyamaḥ samudāhṛtaḥ // SatvT_4.79
+            </p>
+         
+         <p>
+            yasyendriyaiḥ kṛṣṇasevā kṛtā prītivivarjitā /<br />
+            sa prākṛto bhāgavato bhaktaḥ kāmavivarjitaḥ // SatvT_4.80
+            </p>
+         
+         <p>
+            harilīlāśrutoccāraṃ yaḥ prītyā kurute sadā /<br />
+            sa vai mahābhāgavato hy uttamo lokapāvanaḥ // SatvT_4.81
+            </p>
+         
+         <p>
+            śravaṇaṃ kīrtanaṃ viṣṇau prītyāyāsau tu yo naraḥ /<br />
+            kuryād aharahaḥ śaśvat prītimān sa ca madhyamaḥ // SatvT_4.82
+            </p>
+         
+         <p>
+            yāmaikamātraṃ yaḥ kuryāc chravaṇaṃ kīrtanaṃ hareḥ /<br />
+            prītyā viṣṇujanadveṣahīnaḥ prākṛta ucyate // SatvT_4.83
+            </p>
+         
+         <p>
+            yady anyalakṣaṇaṃ cānyabhakte lakṣyeta sajjanaiḥ /<br />
+            tathāpi niṣṭhām ālakṣya taṃ taṃ jānīhi sattama // SatvT_4.84
+            </p>
+         
+         <p>
+            yaddharmaniṣṭhā ye bhaktā bhavanti dvijasattama /<br />
+            tatprasaṅgādyanuṣṭhānaṃ tatprīteḥ kāraṇaṃ param // SatvT_4.85
+            </p>
+         
+         <p>
+            tathāpi nirguṇā ye ca ye ca bhāgavatā matāḥ /<br />
+            teṣu prītir mahābhāga duṣkareti mayocyate // SatvT_4.86
+            </p>
+         
+         <p>
+            harilīlāśrutopacārapareṣu satataṃ tvayā /<br />
+            kāryā prītis tava harer yathā bhaktir na naśyati // SatvT_4.87
+            </p>
+         
+         <p>
+            ity etat kathitaṃ vipra sādhūnāṃ lakṣaṇaṃ pṛthak /<br />
+            bhakteṣu prītikaraṇaṃ janānāṃ muktikāraṇam // SatvT_4.88
+            </p>
+         
+         <p>
+            sādhanena mayā bāla bhaktibhedo nirūpitaḥ /<br />
+            sa sārvavarṇikaḥ śuddhaḥ sarvāśramiśramāpahaḥ // SatvT_4.89
+            </p>
+         
+         <p>
+            sarvakālabhavo nityaḥ sarvadaiśikasiddhidaḥ /<br />
+            caturyugeṣv abhimato bhagavatpriyasādhakaḥ // SatvT_4.90
+            </p>
+         
+         
+         <p>
+            Sātvatatantra, pañcamaḥ paṭalaḥ<br />
+            śrīnārada uvāca /<br />
+            kathitaṃ me suraguro bhagavadbhaktilakṣaṇam /<br />
+            caturyuge 'py abhimataṃ sarvalokasukhāvaham // SatvT_5.1
+            </p>
+         
+         <p>
+            adhunā vada deveśa janānāṃ hitakāmyayā /<br />
+            yugānurūpaṃ śrīviṣṇoḥ sevayā mokṣasādhanam // SatvT_5.2
+            </p>
+         
+         <p>
+            prajānāṃ lakṣaṇaṃ viṣṇor bhūtir liṅgaṃ pṛthagvidham /<br />
+            dharmaṃ ca nāmasaṃkhyā ca samāsena sureśvara // SatvT_5.3
+            </p>
+         
+         <p>
+            śrīśiva uvāca /<br />
+            kṛte yuge prajāḥ sarvāḥ śuddhā rāgādivarjitāḥ /<br />
+            autpattikena yogena śāntāḥ śamadṛśo matāḥ // SatvT_5.4
+            </p>
+         
+         <p>
+            teṣāṃ tu bhagavaddhyānaṃ saṃsārārṇavatārakam /<br />
+            tad eva paramo dharmas tadyugasya mahāmate // SatvT_5.5
+            </p>
+         
+         <p>
+            taddhyānaṃ trividhaṃ proktaṃ daśabhir nāmabhir yutam /<br />
+            nirālambaṃ sāvalambaṃ sarvāntaryāmidhāraṇam // SatvT_5.6
+            </p>
+         
+         <p>
+            tatṣaḍaṅgayutaṃ kuryāt samādhyavadhim uttamam /<br />
+            duḥkhagrahaṃ nirālambaṃ prathamaṃ śṛṇu sattama // SatvT_5.7
+            </p>
+         
+         <p>
+            ahiṃsā brahmacaryaṃ ca satyaṃ lajjā hy akāryataḥ /<br />
+            asteyo 'saṃcayo maunam asaṅgam abhayaṃ dayā // SatvT_5.8
+            </p>
+         
+         <p>
+            dharme sthairyaṃ ca viśvāso yamā dvādaśa sattama /<br />
+            yamādyam aṅgaṃ prathamaṃ kuryād dhyātā hy atandritaḥ // SatvT_5.9
+            </p>
+         
+         <p>
+            dehaśaucaṃ manaḥśaucaṃ jāpyaṃ homaṃ tapo vratam /<br />
+            śrāddham atithiśuśrūṣāṃ tīrthasevāṃ sutuṣṭidām // SatvT_5.10
+            </p>
+         
+         <p>
+            parārthehāṃ guroḥ sevāṃ dviṣaṅniyamasaṃjñitam /<br />
+            kuryād dhyānaṃ dvitīyāṅgaṃ tṛtīyāṅgaṃ ca me śṛṇu // SatvT_5.11
+            </p>
+         
+         <p>
+            svajānulagne pādāgre kuryāj jaṅghe 'ntarāntare /<br />
+            utsaṅgamadhye hastau dvau tat sthānam āsanaṃ smṛtam // SatvT_5.12
+            </p>
+         
+         <p>
+            praṇavenaiva mantreṇa pūrakumbhakarecakaiḥ /<br />
+            viparyayeṇa vā kuryāt turyāṅgaṃ prāṇasaṃyamam // SatvT_5.13
+            </p>
+         
+         <p>
+            viṣayebhyas tv indriyāṇāṃ saṃyamaṃ manasā hṛdi /<br />
+            kuryād atandrito yogī pratyāhāraṃ tu pañcamam // SatvT_5.14
+            </p>
+         
+         <p>
+            prāṇena manasaḥ sākṣāt sthairyaṃ dhyānāṅgam uttamam /<br />
+            kuryāt samāhito yogī svanāsāgrāvalokanaḥ // SatvT_5.15
+            </p>
+         
+         <p>
+            tejomayaṃ svaprakāśam avāṅmanasagocaram /<br />
+            lakṣīkṛtya dhiyā tiṣṭhed yāvan naiva prakāśate // SatvT_5.16
+            </p>
+         
+         <p>
+            evaṃ cāharahaḥ kurvan yogī saṃśuddhakilbiṣaḥ /<br />
+            cirāt prāpnoti paramāṃ samādhiṃ brahmaṇaḥ padam // SatvT_5.17
+            </p>
+         
+         <p>
+            sāvaśeṣaṃ harer dhyānaṃ śṛṇu vipra samāsataḥ /<br />
+            tenaiva vidhinā yukto manasā cintayed yathā // SatvT_5.18
+            </p>
+         
+         <p>
+            hṛtpadmakarṇikāmadhye śuddhasattvatanuṃ harim /<br />
+            puruṣaṃ caturbhujaṃ dhyāyec chuddhasphaṭikasaṃnibham // SatvT_5.19
+            </p>
+         
+         <p>
+            jaṭādharaṃ valkalinaṃ kṛṣṇasārājinottaram /<br />
+            akṣamālāṃ yajñasūtraṃ tathā daṇḍakamaṇḍalum // SatvT_5.20
+            </p>
+         
+         <p>
+            bibhrāṇaṃ hṛdyugārādhyaṃ brahmacāriṇam avyayam /<br />
+            mukhāravindaṃ sunasaṃ subhruvaṃ sukapālinam // SatvT_5.21
+            </p>
+         
+         <p>
+            suvarṇaśakalābhātaṃ sudvijaṃ kambukaṃdharam /<br />
+            dīrghāyatacaturbāhuṃ karapallavaśobhitam // SatvT_5.22
+            </p>
+         
+         <p>
+            sucakṣuṣaṃ suhṛdayaṃ sūdaraṃ valibhir yutam /<br />
+            nimnanābhiṃ sucārūrujānujaṅghāpadaṃ śubham // SatvT_5.23
+            </p>
+         
+         <p>
+            cārvaṅgulidalākāraṃ nakhacandradyutiprabham /<br />
+            evaṃ cintayato rūpaṃ viṣṇor lokamanoharam // SatvT_5.24
+            </p>
+         
+         <p>
+            tasyāśu paramānandaḥ sampad āśu bhaviṣyati /<br />
+            āśusiddhikaraṃ cātaḥ sarvāntaryāmidhāraṇam // SatvT_5.25
+            </p>
+         
+         <p>
+            śṛṇu svavahito vipra mānastambhavivarjitam /<br />
+            sarvaṃ carācaram idaṃ bhagavadrūpādhiṣṭhitam // SatvT_5.26
+            </p>
+         
+         <p>
+            bhāvayed dveṣahīnena kāyavāṅmanasā dvija /<br />
+            uttamān mānayed bhaktyā samān mitratayā dvija // SatvT_5.27
+            </p>
+         
+         <p>
+            adhamān dayayā śatrūn upekṣeta dayānvitaḥ /<br />
+            evaṃ bhāvayatas tasya yāvat sarvātmadarśanam // SatvT_5.28
+            </p>
+         
+         <p>
+            acirāt paramānandasaṃdohaṃ manasāpnuyāt /<br />
+            tretāyāṃ prāṇinaḥ sarve japahomaparāyaṇāḥ // SatvT_5.29
+            </p>
+         
+         <p>
+            suvinītāḥ sukhāvṛttā mahāśālā mahātmanaḥ /<br />
+            teṣāṃ tu bhagavadyāgo hy añjasā muktisādhakaḥ // SatvT_5.30
+            </p>
+         
+         <p>
+            sa eva paramo dharmas tretāyāṃ dvijasattama /<br />
+            tasmin yajanti raktābhaṃ yajñamūrtiṃ jagadgurum // SatvT_5.31
+            </p>
+         
+         <p>
+            nityanaimittikaiḥ sattrair yāgair nāmāṣṭakāyutaiḥ /<br />
+            traividyena vidhānena yānti muktiṃ tadā janāḥ // SatvT_5.32
+            </p>
+         
+         <p>
+            dvāpare tu janā hṛṣṭāḥ puṣṭāḥ karmakṛtikṣamāḥ /<br />
+            bhogānuṣaktamanasaḥ sukhaduḥkhatvam āvṛtāḥ // SatvT_5.33
+            </p>
+         
+         <p>
+            bhagavatpūjanaṃ teṣāṃ mokṣasādhanam uttamam /<br />
+            sāṅgopāṅgaṃ kevalaṃ ca dvividhaṃ pūjanaṃ smṛtam // SatvT_5.34
+            </p>
+         
+         <p>
+            tad eva paramo dharmo dvāparasya yugasya vai /<br />
+            tasmin yajanti puruṣā mahārājoktalakṣaṇam // SatvT_5.35
+            </p>
+         
+         <p>
+            pītavarṇaṃ vedamantrair nāmnāṃ dvādaśabhiḥ samam /<br />
+            kalau prajā mandabhāgyā alasā duḥkhasaṃyutāḥ // SatvT_5.36
+            </p>
+         
+         <p>
+            śiśnodaraparāḥ kṣudrā dīnā malinacetasaḥ /<br />
+            teṣām ekavidhaṃ proktam añjasā muktikāraṇam // SatvT_5.37
+            </p>
+         
+         <p>
+            sarvasaukhyakaraṃ cāpi kṛṣṇanāmānukīrtanam /<br />
+            yataḥ kaliyugasyādau bhagavān puruṣottamaḥ // SatvT_5.38
+            </p>
+         
+         <p>
+            avatīrya yaśas tene śuddhaṃ kalimalāpaham /<br />
+            dhyānayogakriyāḥ sarvāḥ sa saṃhatya dayāparaḥ // SatvT_5.39
+            </p>
+         
+         <p>
+            svakīye yaśasi sthāpya gato vaikuṇṭham uttamam /<br />
+            sa tāta paramo devo devakīdevinandanaḥ // SatvT_5.40
+            </p>
+         
+         <p>
+            indranīlasamaḥ śyāmas tantramantrair ya ijyate /<br />
+            tasmin kaliyuge vipra śrutvā hariyaśo 'malāḥ // SatvT_5.41
+            </p>
+         
+         <p>
+            prāyo bhaktā bhaviṣyanti tasmāc chreṣṭhayugaḥ kaliḥ /<br />
+            ataḥ kṛtādiṣu prajāḥ kalau sambhavam ātmanaḥ // SatvT_5.42
+            </p>
+         
+         <p>
+            vāñchanti dharmaparamā bhagavadbhaktikāraṇam /<br />
+            dhyāneneṣṭayā pūjanena yat phalaṃ labhyate janaiḥ // SatvT_5.43
+            </p>
+         
+         <p>
+            kṛtādiṣu kalau tad vai kīrtanādiṣu labhyate /<br />
+            na deśakālakartṇāṃ niyamaḥ kīrtane smṛtaḥ // SatvT_5.44
+            </p>
+         
+         <p>
+            tasmāt kalau paro dharmo harikīrteḥ sukīrtanam /<br />
+            yataḥ kaliṃ praśasanti śiṣṭāstriyugavartinaḥ // SatvT_5.45
+            </p>
+         
+         <p>
+            yatra kīrtanamātreṇa prāpnoti paramaṃ padam /<br />
+            kṛtādāv api ye jīvā na muktā nijadharmataḥ // SatvT_5.46
+            </p>
+         
+         <p>
+            te 'pi muktiṃ prayāsyanti kalau kīrtanamātrataḥ /<br />
+            kaler doṣasamudrasya guṇa eko mahān yataḥ // SatvT_5.47
+            </p>
+         
+         <p>
+            nāmnāṃ saṃkīrtanenaiva cāturvargaṃ jano 'śnute /<br />
+            kṛtādiṣv api viprendra harināmānukīrtanam // SatvT_5.48
+            </p>
+         
+         <p>
+            tapādisādhyaṃ tad bhūyaḥ kalāv ubhayatāṃ gatam /<br />
+            tasmāt kaliyuge viṣṇor nāmakīrtanam uttamam // SatvT_5.49
+            </p>
+         
+         <p>
+            sādhanaṃ bhaktiniṣṭhānāṃ sādhyaṃ caiva prakīrtitam /<br />
+            yena kenāpi bhāvena kīrtayan satataṃ harim // SatvT_5.50
+            </p>
+         
+         <p>
+            hitvā pāpaṃ gatiṃ yānti kim utacchraddhayā gṛṇan /<br />
+            kalau nāmaparā eva satataṃ dvijasattama // SatvT_5.51
+            </p>
+         
+         <p>
+            uktā mahābhāgavatā bhagavatpriyakāriṇaḥ /<br />
+            tasmāt sarvātmanā vipra kuru śrīkṛṣṇakīrtanam // SatvT_5.52
+            </p>
+         
+         <p>śraddhayā satataṃ yukta etad eva mahāphalam // SatvT_5.53</p>
+         
+         
+         <p>
+            Sātvatatantra, ṣaṣṭhaḥ paṭalaḥ<br />
+            śrīnārada uvāca /<br />
+            kathitaṃ me tvayā deva harināmānukīrtanam /<br />
+            pāpāpahaṃ mahāsaukhyaṃ bhagavadbhaktikāraṇam // SatvT_6.1
+            </p>
+         
+         <p>
+            tatrāhaṃ yāni nāmāni kīrtayāmi surottama /<br />
+            tāny ahaṃ jñātum icchāmi sākalyena kutūhalāt // SatvT_6.2
+            </p>
+         
+         <p>
+            śrīśiva uvāca /<br />
+            bhūmyambutejasāṃ ye vai paramāṇūn api dvija /<br />
+            śakyante gaṇituṃ bhūyo janmabhir na harer guṇān // SatvT_6.3
+            </p>
+         
+         <p>
+            tathāpi mukhyaṃ vakṣyāmi śrīviṣṇoḥ paramādbhutam /<br />
+            nāmnāṃ sahasraṃ pārvatyai yadi hoktaṃ kṛpālunā // SatvT_6.4
+            </p>
+         
+         <p>
+            samādhiniṣṭhaṃ māṃ dṛṣṭvā pārvatī varavarṇinī /<br />
+            apṛcchat paramaṃ devaṃ bhagavantaṃ jagadgurum // SatvT_6.5
+            </p>
+         
+         <p>
+            tadā tasyai mayā prokto matparo jagadīśvaraḥ /<br />
+            nāmnāṃ sahasraṃ ca tathā guṇakarmānusārataḥ // SatvT_6.6
+            </p>
+         
+         <p>
+            tad ahaṃ te 'bhivakṣyāmi mahābhāgavato bhavān /<br />
+            yasyaikasmaraṇenaiva pumān siddhim avāpnuyāt // SatvT_6.7
+            </p>
+         
+         <p>
+            udyannavīnajaladābham akuṇṭhadhiṣṇyaṃ vidyotitānalamanoharapītavāsam /<br />
+            bhāsvanmayūkhamukuṭāṅgadahārayuktaṃ kāñcīkalāpavalayāṅgulibhir vibhātam // SatvT_6.8
+            </p>
+         
+         <p>
+            brahmādidevagaṇavanditapādapadyaṃ śrīsevitaṃ sakalasundarasaṃniveśam /<br />
+            gogopavanitāmunivṛndajuṣṭaṃ kṛṣṇaṃ purāṇapuruṣaṃ manasā smarāmi // SatvT_6.9
+            </p>
+         
+         <p>
+            oṃ namo vāsudevāya kṛṣṇāya paramātmane /<br />
+            praṇatakleśasaṃhartre paramānandadāyine // SatvT_6.10
+            </p>
+         
+         <p>
+            oṃ śrīkṛṣṇaḥ śrīpatiḥ śrīmān śrīdharaḥ śrīsukhāśrayaḥ /<br />
+            śrīdātā śrīkaraḥ śrīśaḥ śrīsevyaḥ śrīvibhāvanaḥ // SatvT_6.11
+            </p>
+         
+         <p>
+            paramātmā paraṃ brahma pareśaḥ parameśvaraḥ /<br />
+            parānandaḥ paraṃ dhāma paramānandadāyakaḥ // SatvT_6.12
+            </p>
+         
+         <p>
+            nirālambo nirvikāro nirlepo niravagrahaḥ /<br />
+            nityānando nityamukto nirīho nispṛhapriyaḥ // SatvT_6.13
+            </p>
+         
+         <p>
+            priyaṃvadaḥ priyakaraḥ priyadaḥ priyasaṃjanaḥ /<br />
+            priyānugaḥ priyālambī priyakīrtiḥ priyāt priyaḥ // SatvT_6.14
+            </p>
+         
+         <p>
+            mahātyāgī mahābhogī mahāyogī mahātapāḥ /<br />
+            mahātmā mahatāṃ śreṣṭho mahālokapatir mahān // SatvT_6.15
+            </p>
+         
+         <p>
+            siddhārthaḥ siddhasaṃkalpaḥ siddhidaḥ siddhasādhanaḥ /<br />
+            siddheśaḥ siddhamārgāgraḥ siddhalokaikapālakaḥ // SatvT_6.16
+            </p>
+         
+         <p>
+            iṣṭo viśiṣṭaḥ śiṣṭeṣṭo mahiṣṭho jiṣṇur uttamaḥ /<br />
+            jyeṣṭhaḥ śreṣṭhaś ca sarveṣṭo viṣṇur bhrājiṣṇur avyayaḥ // SatvT_6.17
+            </p>
+         
+         <p>
+            vibhuḥ śambhuḥ prabhur bhūmā svabhūḥ svānandamūrtimān /<br />
+            prītimān prītidātā ca prītidaḥ prītivardhanaḥ // SatvT_6.18
+            </p>
+         
+         <p>
+            yogeśvaro yogagamyo yogīśo yogapāragaḥ /<br />
+            yogadātā yogapatir yogasiddhividhāyakaḥ // SatvT_6.19
+            </p>
+         
+         <p>
+            satyavrataḥ satyaparaḥ trisatyaḥ satyakāraṇaḥ /<br />
+            satyāśrayaḥ satyaharaḥ satpāliḥ satyavardhanaḥ // SatvT_6.20
+            </p>
+         
+         <p>
+            sarvānandaḥ sarvaharaḥ sarvagaḥ sarvavaśyakṛt /<br />
+            sarvapātā sarvasukhaḥ sarvaśrutigaṇārṇavaḥ // SatvT_6.21
+            </p>
+         
+         <p>
+            janārdano jagannātho jagattrātā jagatpitā /<br />
+            jagatkartā jagaddhartā jagadānandamūrtimān // SatvT_6.22
+            </p>
+         
+         <p>
+            dharāpatir lokapatiḥ svarpatir jagatāṃpatiḥ /<br />
+            vidyāpatir vittapatiḥ satpatiḥ kamalāpatiḥ // SatvT_6.23
+            </p>
+         
+         <p>
+            caturātmā caturbāhuś caturvargaphalapradaḥ /<br />
+            caturvyūhaś caturdhāmā caturyugavidhāyakaḥ // SatvT_6.24
+            </p>
+         
+         <p>
+            ādidevo devadevo deveśo devadhāraṇaḥ /<br />
+            devakṛd devabhṛd devo deveḍitapadāmbujaḥ // SatvT_6.25
+            </p>
+         
+         <p>
+            viśveśvaro viśvarūpī viśvātmā viśvatomukhaḥ /<br />
+            viśvasūr viśvaphalado viśvago viśvanāyakaḥ // SatvT_6.26
+            </p>
+         
+         <p>
+            bhūtakṛd bhūtabhṛd bhāvo bhūtātmā bhūtabhāvanaḥ /<br />
+            bhūtido bhūtivistāro vibhūtir bhūtipālakaḥ // SatvT_6.27
+            </p>
+         
+         <p>
+            nārāyaṇo nāraśāyī nārasūr nārajīvanaḥ /<br />
+            nāraikaphalado nāramuktido nāranāyakaḥ // SatvT_6.28
+            </p>
+         
+         <p>
+            sahasrarūpaḥ sāhasranāmā sāhasravigrahaḥ /<br />
+            sahasraśīrṣā sāhasrapādākṣibhujaśīrṣavān // SatvT_6.29
+            </p>
+         
+         <p>
+            padmanābhaḥ padmagarbhaḥ padmī padmanibhekṣaṇaḥ /<br />
+            padmaśāyī padmamālī padmāṅkitapadadvayaḥ // SatvT_6.30
+            </p>
+         
+         <p>
+            vīryavān sthairyavān vāgmī śauryavān dhairyavān kṣamī /<br />
+            dhīmān dharmaparo bhogī bhagavān bhayanāśanaḥ // SatvT_6.31
+            </p>
+         
+         <p>
+            jayanto vijayo jetā jayado jayavardhanaḥ /<br />
+            amāno mānado mānyo mahimāvān mahābalaḥ // SatvT_6.32
+            </p>
+         
+         <p>
+            saṃtuṣṭas toṣado dātā damano dīnavatsalaḥ /<br />
+            jñānī yaśasvān dhṛtimān sahaojobalāśrayaḥ // SatvT_6.33
+            </p>
+         
+         <p>
+            hayagrīvo mahātejā mahārṇavavinodakṛt /<br />
+            madhukaiṭabhavidhvaṃsī vedakṛd vedapālakaḥ // SatvT_6.34
+            </p>
+         
+         <p>
+            sanatkumāraḥ sanakaḥ sanandaś ca sanātanaḥ /<br />
+            akhaṇḍabrahmavratavān ātmā yogavivecakaḥ // SatvT_6.35
+            </p>
+         
+         <p>
+            śrīnārado devaṛṣiḥ karmākarmapravartakaḥ /<br />
+            sātvatāgamakṛl lokahitāhitaprasūcakaḥ // SatvT_6.36
+            </p>
+         
+         <p>
+            ādikālo yajñatattvaṃ dhātṛnāsāpuṭodbhavaḥ /<br />
+            dantāgranyastabhūgolo hiraṇyākṣabalāntakaḥ // SatvT_6.37
+            </p>
+         
+         <p>
+            pṛthvīpatiḥ śīghravego romāntargatasāgaraḥ /<br />
+            śvāsāvadhūtahemādriḥ prajāpatipatistutaḥ // SatvT_6.38
+            </p>
+         
+         <p>
+            ananto dharaṇībhartā pātālatalavāsakṛt /<br />
+            kāmāgnijavano nāgarājarājo mahādyutiḥ // SatvT_6.39
+            </p>
+         
+         <p>
+            mahākūrmo viśvakāyaḥ śeṣabhṛk sarvapālakaḥ /<br />
+            lokapitṛgaṇādhīśaḥ pitṛstutamahāpadaḥ // SatvT_6.40
+            </p>
+         
+         <p>
+            kṛpāmayaḥ svayaṃ vyaktir dhruvaprītivivardhanaḥ /<br />
+            dhruvastutapado viṣṇulokado lokapūjitaḥ // SatvT_6.41
+            </p>
+         
+         <p>
+            śuklaḥ kardamasaṃtaptas tapastoṣitamānasaḥ /<br />
+            mano'bhīṣṭaprado harṣabindvañcitasarovaraḥ // SatvT_6.42
+            </p>
+         
+         <p>
+            yajñaḥ suragaṇādhīśo daityadānavaghātakaḥ /<br />
+            manutrātā lokapālo lokapālakajanmakṛt // SatvT_6.43
+            </p>
+         
+         <p>
+            kapilākhyaḥ sāṃkhyapātā kardamāṅgasamudbhavaḥ /<br />
+            sarvasiddhagaṇādhīśo devahūtigatipradaḥ // SatvT_6.44
+            </p>
+         
+         <p>
+            datto 'tritanayo yogī yogamārgapradarśakaḥ /<br />
+            anasūyānandakaraḥ sarvayogijanastutaḥ // SatvT_6.45
+            </p>
+         
+         <p>
+            nārāyaṇo naraṛṣir dharmaputro mahāmanāḥ /<br />
+            maheśaśūladamano maheśaikavarapradaḥ // SatvT_6.46
+            </p>
+         
+         <p>
+            ākalpāntatapodhīro manmathādimadāpahaḥ /<br />
+            ūrvaśīsṛgjitānaṅgo mārkaṇḍeyapriyapradaḥ // SatvT_6.47
+            </p>
+         
+         <p>
+            ṛbhavo nābhisukhado merudevīpriyātmajaḥ /<br />
+            yogirājadvijasraṣṭā yogacaryāpradarśakaḥ // SatvT_6.48
+            </p>
+         
+         <p>
+            aṣṭabāhur dakṣayajñapāvano 'khilasatkṛtaḥ /<br />
+            dakṣeśadveṣaśamano dakṣajñānapradāyakaḥ // SatvT_6.49
+            </p>
+         
+         <p>
+            priyavratakulotpanno gayanāmā mahāyaśāḥ /<br />
+            udārakarmā bahuvinmahāguṇagaṇārṇavaḥ // SatvT_6.50
+            </p>
+         
+         <p>
+            haṃsarūpī tattvavaktā guṇāguṇavivecakaḥ /<br />
+            dhātṛlajjāpraśamano brahmacārijanapriyaḥ // SatvT_6.51
+            </p>
+         
+         <p>
+            vaiśyaḥ pṛthuḥ pṛthvidogdhā sarvajīvanadohakṛt /<br />
+            ādirājo janāvāsakārako bhūsamīkaraḥ // SatvT_6.52
+            </p>
+         
+         <p>
+            praceto'bhiṣṭutapadaḥ śāntamūrtiḥ sudarśanaḥ /<br />
+            divārātrigaṇādhīśaḥ ketumān ajanāśrayaḥ // SatvT_6.53
+            </p>
+         
+         <p>
+            śrīkāmadevaḥ kamalākāmakelivinodakṛt /<br />
+            svapādaratido 'bhīṣṭasukhado duḥkhanāśanaḥ // SatvT_6.54
+            </p>
+         
+         <p>
+            vibhur dharmabhṛtāṃ śreṣṭho vedaśīrṣo dvijātmajaḥ /<br />
+            aṣṭāśītisahasrāṇāṃ munīnām upadeśadaḥ // SatvT_6.55
+            </p>
+         
+         <p>
+            satyaseno yakṣarakṣodahano dīnapālakaḥ /<br />
+            indramitraḥ surārighnaḥ sūnṛtādharmanandanaḥ // SatvT_6.56
+            </p>
+         
+         <p>
+            harir gajavaratrātā grāhapāśavināśakaḥ /<br />
+            trikūṭādrivanaślāghī sarvalokahitaiṣaṇaḥ // SatvT_6.57
+            </p>
+         
+         <p>
+            vaikuṇṭhaśubhrāsukhado vikuṇṭhāsundarīsutaḥ /<br />
+            ramāpriyakaraḥ śrīmān nijalokapradarśakaḥ // SatvT_6.58
+            </p>
+         
+         <p>
+            vipraśāpaparīkhinnanirjarārtinivāraṇaḥ /<br />
+            dugdhābdhimathano vipro virājatanayo 'jitaḥ // SatvT_6.59
+            </p>
+         
+         <p>
+            mandārādridharaḥ kūrmo devadānavaśarmakṛt /<br />
+            jambūdvīpasamaḥ sraṣṭā pīyūṣotpattikāraṇam // SatvT_6.60
+            </p>
+         
+         <p>
+            dhanvantarī rukśamano 'mṛtadhuk rukpraśāntakaḥ /<br />
+            āyurvedakaro vaidyarājo vidyāpradāyakaḥ // SatvT_6.61
+            </p>
+         
+         <p>
+            devābhayakaro daityamohinī kāmarūpiṇī /<br />
+            gīrvāṇāmṛtapo duṣṭadaityadānavavañcakaḥ // SatvT_6.62
+            </p>
+         
+         <p>
+            mahāmatsyo mahākāyaḥ śalkāntargatasāgaraḥ /<br />
+            vedāridaityadamano vrīhibījasurakṣakaḥ // SatvT_6.63
+            </p>
+         
+         <p>
+            pucchāghātabhramatsindhuḥ satyavratapriyapradaḥ /<br />
+            bhaktasatyavratatrātā yogatrayapradarśakaḥ // SatvT_6.64
+            </p>
+         
+         <p>
+            narasiṃho lokajihvaḥ śaṅkukarṇo nakhāyudhaḥ /<br />
+            saṭāvadhūtajalado dantadyutijitaprabhaḥ // SatvT_6.65
+            </p>
+         
+         <p>
+            hiraṇyakaśipudhvaṃsī bahudānavadarpahā /<br />
+            pravadastutapādābjo bhaktasaṃsāratāpahā // SatvT_6.66
+            </p>
+         
+         <p>
+            brahmendrarudrabhītighno devakāryaprasādhakaḥ /<br />
+            jvalajjvalanasaṃkāśaḥ sarvabhītivināśakaḥ // SatvT_6.67
+            </p>
+         
+         <p>
+            mahākaluṣavidhvaṃsī sarvakāmavarapradaḥ /<br />
+            kālavikramasaṃhartā grahapīḍāvināśakaḥ // SatvT_6.68
+            </p>
+         
+         <p>
+            sarvavyādhipraśamanaḥ pracaṇḍaripudaṇḍakṛt /<br />
+            ugrabhairavasaṃtrastaharārtivinivārakaḥ // SatvT_6.69
+            </p>
+         
+         <p>
+            brahmacarmāvṛtaśirāḥ śivaśīrṣaikanūpuraḥ /<br />
+            dvādaśādityaśīrṣaikamaṇir dikpālabhūṣaṇaḥ // SatvT_6.70
+            </p>
+         
+         <p>
+            vāmano 'ditibhītighno dvijātigaṇamaṇḍanaḥ /<br />
+            tripadavyājayāñcāptavalitrailokyasampadaḥ // SatvT_6.71
+            </p>
+         
+         <p>
+            pannakhakṣatabrahmāṇḍakaṭāho 'mitavikramaḥ /<br />
+            svardhunītīrthajanano brahmapūjyo bhayāpahaḥ // SatvT_6.72
+            </p>
+         
+         <p>
+            svāṅghrivārihatāghaugho viśvarūpaikadarśanaḥ /<br />
+            balipriyakaro bhaktasvargadogdhā gadādharaḥ // SatvT_6.73
+            </p>
+         
+         <p>
+            jāmadagnyo mahāvīryaḥ parśubhṛt kārtavīryajit /<br />
+            sahasrārjunasaṃhartā sarvakṣatrakulāntakaḥ // SatvT_6.74
+            </p>
+         
+         <p>
+            niḥkṣatrapṛthvīkaraṇo vīrajid viprarājyadaḥ /<br />
+            droṇāstravedapravado maheśagurukīrtidaḥ // SatvT_6.75
+            </p>
+         
+         <p>
+            sūryavaṃśābjataraṇiḥ śrīmaddaśarathātmajaḥ /<br />
+            śrīrāmo rāmacandraś ca rāmabhadro 'mitaprabhaḥ // SatvT_6.76
+            </p>
+         
+         <p>
+            nīlavarṇapratīkāśaḥ kausalyāprāṇajīvanaḥ /<br />
+            padmanetraḥ padmavakraḥ padmāṅkitapadāmbujaḥ // SatvT_6.77
+            </p>
+         
+         <p>
+            pralambabāhuś cārvaṅgo ratnābharaṇabhūṣitaḥ /<br />
+            divyāmbaro divyadhanur diṣṭadivyāstrapāragaḥ // SatvT_6.78
+            </p>
+         
+         <p>
+            nistriṃśapāṇivīreśo 'parimeyaparākramaḥ /<br />
+            viśvāmitragurur dhanvī dhanurvedavid uttamaḥ // SatvT_6.79
+            </p>
+         
+         <p>
+            ṛjumārganimitteṣu saṃghatāḍitatāḍakaḥ /<br />
+            subāhur bāhuvīryāḍhyabahurākṣasaghātakaḥ // SatvT_6.80
+            </p>
+         
+         <p>
+            prāptacaṇḍīśadordaṇḍacaṇḍakodaṇḍakhaṇḍanaḥ /<br />
+            janakānandajanako jānakīpriyanāyakaḥ // SatvT_6.81
+            </p>
+         
+         <p>
+            arātikuladarpaghno dhvastabhārgavavikramaḥ /<br />
+            pitṛvāksaktarājyadhīr vanavāsakṛtotsavaḥ // SatvT_6.82
+            </p>
+         
+         <p>
+            virādharādhadamanaś citrakūṭādrimandiraḥ /<br />
+            dvijaśāpasamucchannadaṇḍakāraṇyakarmakṛt // SatvT_6.83
+            </p>
+         
+         <p>
+            caturdaśasahasrograrākṣasaghnaḥ kharāntakaḥ /<br />
+            triśiraḥprāṇaśamano duṣṭadūṣaṇadūṣaṇaḥ // SatvT_6.84
+            </p>
+         
+         <p>
+            chadmamārīcamathano jānakīvirahārtihṛt /<br />
+            jaṭāyuṣaḥ kriyākārī kabandhavadhakovidaḥ // SatvT_6.85
+            </p>
+         
+         <p>
+            ṛṣyamūkaguhāvāsī kapipañcamasakhyakṛt /<br />
+            vāmapādāgranikṣiptadundubhyasthibṛhadgiriḥ // SatvT_6.86
+            </p>
+         
+         <p>
+            sakaṇṭakāradurbhedasaptatālaprabhedakaḥ /<br />
+            kiṣkindhādhipavālighno mitrasugrīvarājyadaḥ // SatvT_6.87
+            </p>
+         
+         <p>
+            āñjaneyasvalāṅgūladagdhalaṅkāmahodayaḥ /<br />
+            sītāvirahavispaṣṭaroṣakṣobhitasāgaraḥ // SatvT_6.88
+            </p>
+         
+         <p>
+            girikūṭasamutkṣepasamudrādbhutasetukṛt /<br />
+            pādaprahārasaṃtrastavibhīṣaṇabhayāpahaḥ // SatvT_6.89
+            </p>
+         
+         <p>
+            aṅgadoktiparikliṣṭaghorarāvaṇasainyajit /<br />
+            nikumbhakumbhadhūmrākṣakumbhakarṇādivīrahā // SatvT_6.90
+            </p>
+         
+         <p>
+            kailāsasahanonmattadaśānanaśiroharaḥ /<br />
+            agnisaṃsparśasaṃśuddhasītāsaṃvaraṇotsukaḥ // SatvT_6.91
+            </p>
+         
+         <p>
+            kapirākṣasarājāṅgaprāptarājyanijāśrayaḥ /<br />
+            ayodhyādhipatiḥ sarvarājanyagaṇaśekharaḥ // SatvT_6.92
+            </p>
+         
+         <p>
+            acintyakarmā nṛpatiḥ prāptasiṃhāsanodayaḥ /<br />
+            duṣṭadurbuddhidalano dīnahīnaikapālakaḥ // SatvT_6.93
+            </p>
+         
+         <p>
+            sarvasampattijananas tiryaṅnyāyavivecakaḥ /<br />
+            śūdraghoratapaḥpluṣṭadvijaputraikajīvanaḥ // SatvT_6.94
+            </p>
+         
+         <p>
+            duṣṭavākkliṣṭahṛdayaḥ sītānirvāsakārakaḥ /<br />
+            turaṃgamedhakratuyāṭ śrīmatkuśalavātmajaḥ // SatvT_6.95
+            </p>
+         
+         <p>
+            satyārthatyaktasaumitriḥ sūnnītajanasaṃgrahaḥ /<br />
+            satkarṇapūrasatkīrtiḥ kīrtyālokāghanāśanaḥ // SatvT_6.96
+            </p>
+         
+         <p>
+            bharato jyeṣṭhapādābjaratityaktanṛpāsanaḥ /<br />
+            sarvasadguṇasampannaḥ koṭigandharvanāśakaḥ // SatvT_6.97
+            </p>
+         
+         <p>
+            lakṣmaṇo jyeṣṭhanirato devavairigaṇāntakaḥ /<br />
+            indrajitprāṇaśamano bhrātṛmān tyaktavigrahaḥ // SatvT_6.98
+            </p>
+         
+         <p>
+            śatrughno 'mitraśamano lavaṇāntakakārakaḥ /<br />
+            āryabhrātṛjanaślāghyaḥ satāṃ ślāghyaguṇākaraḥ // SatvT_6.99
+            </p>
+         
+         <p>
+            vaṭapattrapuṭasthāyī śrīmukundo 'khilāśrayaḥ /<br />
+            tanūdarārpitajaganmṛkaṇḍatanayaḥ khagaḥ // SatvT_6.100
+            </p>
+         
+         <p>
+            ādyo devagaṇāgraṇyo mitastutinatipriyaḥ /<br />
+            vṛtraghoratanutrastadevasanmantrasādhakaḥ // SatvT_6.101
+            </p>
+         
+         <p>
+            brahmaṇyo brāhmaṇaślāghī brahmaṇyajanavatsalaḥ /<br />
+            goṣpadāpsugaladgātravālakhilyajanāśrayaḥ // SatvT_6.102
+            </p>
+         
+         <p>
+            dausvastir yajvanāṃ śreṣṭho nṛpavismayakārakaḥ /<br />
+            turaṃgamedhabahukṛd vadānyagaṇaśekharaḥ // SatvT_6.103
+            </p>
+         
+         <p>
+            vāsavītanayo vyāso vedaśākhānirūpakaḥ /<br />
+            purāṇabhāratācāryaḥ kalilokahitaiṣaṇaḥ // SatvT_6.104
+            </p>
+         
+         <p>
+            rohiṇīhṛdayānando balabhadro balāśrayaḥ /<br />
+            saṃkarṣaṇaḥ sīrapāṇiḥ musalāstro 'maladyutiḥ // SatvT_6.105
+            </p>
+         
+         <p>
+            śaṅkhakundenduśvetāṅgas tālabhid dhenukāntakaḥ /<br />
+            muṣṭikāriṣṭahanano lāṅgalākṛṣṭayāmunaḥ // SatvT_6.106
+            </p>
+         
+         <p>
+            pralambaprāṇahā rukmīmathano dvividāntakaḥ /<br />
+            revatīprītido rāmāramaṇo balvalāntakaḥ // SatvT_6.107
+            </p>
+         
+         <p>
+            hastināpurasaṃkarṣī kauravārcitasatpadaḥ /<br />
+            brahmādistutapādābjo devayādavapālakaḥ // SatvT_6.108
+            </p>
+         
+         <p>
+            māyāpatir mahāmāyo mahāmāyānideśakṛt /<br />
+            yaduvaṃśābdhipūrṇendur baladevapriyānujaḥ // SatvT_6.109
+            </p>
+         
+         <p>
+            narākṛtiḥ paraṃ brahma paripūrṇaḥ parodayaḥ /<br />
+            sarvajñānādisampūrṇaḥ pūrṇānandaḥ purātanaḥ // SatvT_6.110
+            </p>
+         
+         <p>
+            pītāmbaraḥ pītanidraḥ pītaveśmamahātapāḥ /<br />
+            mahoraskomahābāhur mahārhamaṇikuṇḍalaḥ // SatvT_6.111
+            </p>
+         
+         <p>
+            lasadgaṇḍasthalīhaimamaulimālāvibhūṣitaḥ /<br />
+            sucārukarṇaḥ subhrājanmakarākṛtikuṇḍalaḥ // SatvT_6.112
+            </p>
+         
+         <p>
+            nīlakuñcitasusnigdhakuntalaḥ kaumudīmukhaḥ /<br />
+            sunāsaḥ kundadaśano lasatkokanadādharaḥ // SatvT_6.113
+            </p>
+         
+         <p>
+            sumandahāso rucirabhrūmaṇḍalavilokanaḥ /<br />
+            kambukaṇṭho bṛhadbrahmā valayāṅgadabhūṣaṇaḥ // SatvT_6.114
+            </p>
+         
+         <p>
+            kaustubhī vanamālī ca śaṅkhacakragadābjabhṛt /<br />
+            śrīvatsalakṣmyālakṣyāṅgaḥ sarvalakṣaṇalakṣaṇaḥ // SatvT_6.115
+            </p>
+         
+         <p>
+            dalodaro nimnanābhir niravadyo nirāśrayaḥ /<br />
+            nitambabimbavyālabbikiṅkiṇīkāñcimaṇḍitaḥ // SatvT_6.116
+            </p>
+         
+         <p>
+            samajaṅghājānuyugmaḥ sucārurucirājitaḥ /<br />
+            dhvajavajrāṅkuśāmbhojaśarāṅkitapadāmbujaḥ // SatvT_6.117
+            </p>
+         
+         <p>
+            bhaktabhramarasaṃghātapītapādāmbujāsavaḥ /<br />
+            nakhacandramaṇijyotsnāprakāśitamahāmanāḥ // SatvT_6.118
+            </p>
+         
+         <p>
+            pādāmbujayuganyastalasanmañjīrarājitaḥ /<br />
+            svabhaktahṛdayākāśalasatpaṅkajavistaraḥ // SatvT_6.119
+            </p>
+         
+         <p>
+            sarvaprāṇijanānando vasudevanutipriyaḥ /<br />
+            devakīnandano lokanandikṛd bhaktabhītibhit // SatvT_6.120
+            </p>
+         
+         <p>
+            śeṣānugaḥ śeṣaśāyī yaśodānatimānadaḥ /<br />
+            nandānandakaro gopagopīgokulabāndhavaḥ // SatvT_6.121
+            </p>
+         
+         <p>
+            sarvavrajajanānandī bhaktavallabhavavallabhaḥ /<br />
+            valyavyaṅgalasadgātro ballavībāhumadhyagaḥ // SatvT_6.122
+            </p>
+         
+         <p>
+            pītapūtanikāstanyaḥ pūtanāprāṇaśoṣaṇaḥ /<br />
+            pūtanorasthalasthāyī pūtanāmokṣadāyakaḥ // SatvT_6.123
+            </p>
+         
+         <p>
+            samāgatajanānandī śakaṭoccāṭakārakaḥ /<br />
+            prāptaviprāśiṣodhīśo laghimādiguṇāśrayaḥ // SatvT_6.124
+            </p>
+         
+         <p>
+            tṛṇāvartagalagrāhī tṛṇāvartaniṣūdanaḥ /<br />
+            jananyānandajanako jananyāmukhaviśvadṛk // SatvT_6.125
+            </p>
+         
+         <p>
+            bālakrīḍārato bālabhāṣālīlādinirvṛtaḥ /<br />
+            gopagopīpriyakaro gītanṛtyānukārakaḥ // SatvT_6.126
+            </p>
+         
+         <p>
+            navanītaviliptāṅgo navanītalavapriyaḥ /<br />
+            navanītalavāhārī navanītānutaskaraḥ // SatvT_6.127
+            </p>
+         
+         <p>
+            dāmodaro 'rjunonmūlo gopaikamatikārakaḥ /<br />
+            vṛndāvanavanakrīḍo nānākrīḍāviśāradaḥ // SatvT_6.128
+            </p>
+         
+         <p>
+            vatsapucchasamākarṣī vatsāsuraniṣūdanaḥ /<br />
+            bakārir aghasaṃhārī bālādyantakanāśanaḥ // SatvT_6.129
+            </p>
+         
+         <p>
+            yamunānilasaṃjuṣṭasumṛṣṭapulinapriyaḥ /<br />
+            gopālabālapūgasthaḥ snigdhadadhyannabhojanaḥ // SatvT_6.130
+            </p>
+         
+         <p>
+            gogopagopīpriyakṛd dhanabhṛn mohakhaṇḍanaḥ /<br />
+            vidhātur mohajanako 'tyadbhutaiśvaryadarśakaḥ // SatvT_6.131
+            </p>
+         
+         <p>
+            vidhistutapadāmbhojo gopadārakabuddhibhit /<br />
+            kālīyadarpadalano nāganārīnutipriyaḥ // SatvT_6.132
+            </p>
+         
+         <p>
+            dāvāgniśamanaḥ sarvavrajabhṛj janajīvanaḥ /<br />
+            muñjāraṇyapraveśāptakṛcchradāvāgnidāraṇaḥ // SatvT_6.133
+            </p>
+         
+         <p>
+            sarvakālasukhakrīḍo barhibarhāvataṃsakaḥ /<br />
+            godhugvadhūjanaprāṇo veṇuvādyaviśāradaḥ // SatvT_6.134
+            </p>
+         
+         <p>
+            gopīpidhānārundhāno gopīvratavarapradaḥ /<br />
+            vipradarpapraśamano viprapatnīprasādadaḥ // SatvT_6.135
+            </p>
+         
+         <p>
+            śatakratuvaradhvaṃsī śakradarpamadāpahaḥ /<br />
+            dhṛtagovardhanagirir vrajalokābhayapradaḥ // SatvT_6.136
+            </p>
+         
+         <p>
+            indrakīrtilasatkīrtir govindo gokulotsavaḥ /<br />
+            nandatrāṇakaro devajaleśeḍitasatkathaḥ // SatvT_6.137
+            </p>
+         
+         <p>
+            vrajavāsijanaślāghyo nijalokapradarśakaḥ /<br />
+            suveṇunādamadanonmattagopīvinodakṛt // SatvT_6.138
+            </p>
+         
+         <p>
+            godhugvadhūdarpaharaḥ svayaśaḥkīrtanotsavaḥ /<br />
+            vrajāṅganājanārāmo vrajasundarīvallabhaḥ // SatvT_6.139
+            </p>
+         
+         <p>
+            rāsakrīḍārato rāsamahāmaṇḍalamaṇḍanaḥ /<br />
+            vṛndāvanavanāmodī yamunākūlakelikṛt // SatvT_6.140
+            </p>
+         
+         <p>
+            gopikāgītikāgītaḥ śaṅkhacūḍaśiroharaḥ /<br />
+            mahāsarpamukhagrastatrastanandavimocakaḥ // SatvT_6.141
+            </p>
+         
+         <p>
+            sudarśanārcitapado duṣṭāriṣṭavināśakaḥ /<br />
+            keśidveṣo vyomahantā śrutanāradakīrtanaḥ // SatvT_6.142
+            </p>
+         
+         <p>
+            akrūrapriyakṛt krūrarajakaghnaḥ suveśakṛt /<br />
+            sudāmadattamālāḍhyaḥ kubjācandanacarcitaḥ // SatvT_6.143
+            </p>
+         
+         <p>
+            mathurājanasaṃharṣī caṇḍakodaṇḍakhaṇḍakṛt /<br />
+            kaṃsasainyasamucchedī vaṇigvipragaṇārcitaḥ // SatvT_6.144
+            </p>
+         
+         <p>
+            mahākuvalayāpīḍaghātī cāṇuramardanaḥ /<br />
+            rāgaśālāgatāpāranaranārīkṛtotsavaḥ // SatvT_6.145
+            </p>
+         
+         <p>
+            kaṃsadhvaṃsakaraḥ kaṃsasvasārūpyagatipradaḥ /<br />
+            kṛtograsenanṛpatiḥ sarvayādasaukhyakṛt // SatvT_6.146
+            </p>
+         
+         <p>
+            tātamātṛkṛtānando nandagopaprasādadaḥ /<br />
+            śritasāṃdīpanigurur vidyāsāgarapāragaḥ // SatvT_6.147
+            </p>
+         
+         <p>
+            daityapañcajanadhvaṃsī pāñcajanyadarapriyaḥ /<br />
+            sāṃdīpanimṛtāpatyadātā kālayamārcitaḥ // SatvT_6.148
+            </p>
+         
+         <p>
+            sairandhrīkāmasaṃtāpaśamano 'krūraprītidaḥ /<br />
+            śārṅgacāpadharo nānāśarasaṃdhānakovidaḥ // SatvT_6.149
+            </p>
+         
+         <p>
+            abhedyadivyakavacaḥ śrīmaddārukasārathiḥ /<br />
+            khagendracihnitadhvajaś cakrapāṇir gadādharaḥ // SatvT_6.150
+            </p>
+         
+         <p>
+            nandakīyadusenāḍhyo 'kṣayabāṇaniṣaṅgavān /<br />
+            surāsurājeyaraṇyo jitamāgadhayūthapaḥ // SatvT_6.151
+            </p>
+         
+         <p>
+            māgadhadhvajinīdhvaṃsī mathurāpurapālakaḥ /<br />
+            dvārakāpuranirmātā lokasthitiniyāmakaḥ // SatvT_6.152
+            </p>
+         
+         <p>
+            sarvasampattijananaḥ svajanānandakārakaḥ /<br />
+            kalpavṛkṣākṣitamahiḥ sudharmānītabhūtalaḥ // SatvT_6.153
+            </p>
+         
+         <p>
+            yavanāsurasaṃhartā mucukundeṣṭasādhakaḥ /<br />
+            rukmiṇīdvijasaṃmantrarathaikagatakuṇḍinaḥ // SatvT_6.154
+            </p>
+         
+         <p>
+            rukmiṇīhārako rukmimuṇḍamuṇḍanakārakaḥ /<br />
+            rukmiṇīpriyakṛt sākṣād rukmiṇīramaṇīpatiḥ // SatvT_6.155
+            </p>
+         
+         <p>
+            rukmiṇīvadanāmbhojamadhupānamadhuvrataḥ /<br />
+            syamantakanimittātmabhaktarkṣādhipajit śuciḥ // SatvT_6.156
+            </p>
+         
+         <p>
+            jāmbavārcitapādābjaḥ sākṣāj jāmbavatīpatiḥ /<br />
+            satyabhāmākaragrāhī kālindīsundarīpriyaḥ // SatvT_6.157
+            </p>
+         
+         <p>
+            sutīkṣṇaśṛṅgavṛṣabhasaptajid rājayūthabhit /<br />
+            nagnajit tanayāsatyānāyikānāyakottamaḥ // SatvT_6.158
+            </p>
+         
+         <p>
+            bhadreśo lakṣmaṇākānto mitravindāpriyeśvaraḥ /<br />
+            murujit pīṭhasenānīnāśano narakāntakaḥ // SatvT_6.159
+            </p>
+         
+         <p>
+            dharārcitapadāmbhojo bhagadattabhayāpahā /<br />
+            narakāhṛtadivyastrīratnavāhādināyakaḥ // SatvT_6.160
+            </p>
+         
+         <p>
+            aṣṭottaraśatadvyaṣṭasahastrastrīvilāsavān /<br />
+            satyabhāmābalāvākyapārijātāpahārakaḥ // SatvT_6.161
+            </p>
+         
+         <p>
+            devendrabalabhij jāyājātanānāvilāsavān /<br />
+            rukmiṇīmānadalanaḥ strīvilāsāvimohitaḥ // SatvT_6.162
+            </p>
+         
+         <p>
+            kāmatātaḥ sāmbasuto 'saṃkhyaputraprapautravān /<br />
+            uśāśāgatapautrārthabāṇabāhusasrachit // SatvT_6.163
+            </p>
+         
+         <p>
+            nandyādipramathadhvaṃsī līlājitamaheśvaraḥ /<br />
+            mahādevastutapado nṛgaduḥkhavimocakaḥ // SatvT_6.164
+            </p>
+         
+         <p>
+            brahmasvāpaharakleśakathāsvajanapālakaḥ /<br />
+            pauṇḍrakāriḥ kāśirājaśirohartā sadājitaḥ // SatvT_6.165
+            </p>
+         
+         <p>
+            sudakṣiṇāvratārādhyaśivakṛtyānalāntakaḥ /<br />
+            vārāṇasīpradahano nāradekṣitavaibhavaḥ // SatvT_6.166
+            </p>
+         
+         <p>
+            adbhutaiśvaryamahimā sarvadharmapravartakaḥ /<br />
+            jarāsaṃdhanirodhārtabhūbhujeritasatkathaḥ // SatvT_6.167
+            </p>
+         
+         <p>
+            nāraderitasanmitrakāryagauravasādhakaḥ /<br />
+            kalatraputrasanmitrasadvṛttāptagṛhānugaḥ // SatvT_6.168
+            </p>
+         
+         <p>
+            jarāsaṃdhavadhodyogakartā bhūpatiśarmakṛt /<br />
+            sanmitrakṛtyācarito rājasūyapravartakaḥ // SatvT_6.169
+            </p>
+         
+         <p>
+            sarvarṣigaṇasaṃstutyaś caidyaprāṇanikṛntakaḥ /<br />
+            indraprasthajanaiḥ pūjyo duryodhanavimohanaḥ // SatvT_6.170
+            </p>
+         
+         <p>
+            maheśadattasaubhāgyapurabhit śatrughātakaḥ /<br />
+            dantavakraripucchettā dantavakragatipradaḥ // SatvT_6.171
+            </p>
+         
+         <p>
+            vidūrathapramathano bhūribhārāvatārakaḥ /<br />
+            pārthadūtaḥ pārthahitaḥ pārthārthaḥ pārthasārathiḥ // SatvT_6.172
+            </p>
+         
+         <p>
+            pārthamohasamucchedī gītāśāstrapradarśakaḥ /<br />
+            pārthabāṇagataprāṇavīrakaivalyarūpadaḥ // SatvT_6.173
+            </p>
+         
+         <p>
+            duryodhanādidurvṛttadahano bhīṣmamuktidaḥ /<br />
+            pārthāśvamedhāharakaḥ pārtharājyaprasādhakaḥ // SatvT_6.174
+            </p>
+         
+         <p>
+            pṛthābhīṣṭaprado bhīmajayado vijayapradaḥ /<br />
+            yudhiṣṭhireṣṭasaṃdātā draupadīprītisādhakaḥ // SatvT_6.175
+            </p>
+         
+         <p>
+            sahadeveritapado nakulārcitavigrahaḥ /<br />
+            brahmāstradagdhagarbhasthapuruvaṃśaprasādhakaḥ // SatvT_6.176
+            </p>
+         
+         <p>
+            pauravendrapurastrībhyo dvārakāgamanotsavaḥ /<br />
+            ānartadeśanivasatprajeritamahatkathaḥ // SatvT_6.177
+            </p>
+         
+         <p>
+            priyaprītikaro mitravipradāridryabhañjanaḥ /<br />
+            tīrthāpadeśasanmitrapriyakṛn nandanandanaḥ // SatvT_6.178
+            </p>
+         
+         <p>
+            gopījanajñānadātā tātakratukṛtotsavaḥ /<br />
+            sadvṛttavaktā sadvṛttakartā sadvṛttapālakaḥ // SatvT_6.179
+            </p>
+         
+         <p>
+            tātātmajñānasaṃdātā devakīmṛtaputradaḥ /<br />
+            śrutadevapriyakaro maithilānandavardhanaḥ // SatvT_6.180
+            </p>
+         
+         <p>
+            pārthadarpapraśamano mṛtaviprasutapradaḥ /<br />
+            strīratnavṛndasaṃtoṣī janakelikalotsavaḥ // SatvT_6.181
+            </p>
+         
+         <p>
+            candrakoṭijanānandī bhānukoṭisamaprabhaḥ /<br />
+            kṛtāntakoṭidurlaṅghyaḥ kāmakoṭimanoharaḥ // SatvT_6.182
+            </p>
+         
+         <p>
+            yakṣarāṭkoṭidhanavān marutkoṭisvavīryavān /<br />
+            samudrakoṭigambhīro himavatkoṭyakampanaḥ // SatvT_6.183
+            </p>
+         
+         <p>
+            koṭyaśvamedhāḍhyaharaḥ tīrthakoṭyadhikāhvayaḥ /<br />
+            pīyūṣakoṭimṛtyughnaḥ kāmadhukkoṭyabhīṣṭadaḥ // SatvT_6.184
+            </p>
+         
+         <p>
+            śakrakoṭivilāsāḍhyaḥ koṭibrahmāṇḍanāyakaḥ /<br />
+            sarvāmoghodyamo 'nantakīrtiniḥsīmapauruṣaḥ // SatvT_6.185
+            </p>
+         
+         <p>
+            sarvābhīṣṭapradayaśāḥ puṇyaśravaṇakīrtanaḥ /<br />
+            brahmādisurasaṃgītavītamānuṣaceṣṭitaḥ // SatvT_6.186
+            </p>
+         
+         <p>
+            anādimadhyanidhano vṛddhikṣayavivarjitaḥ /<br />
+            svabhaktoddhavamukhyaikajñānado jñānavigrahaḥ // SatvT_6.187
+            </p>
+         
+         <p>
+            vipraśāpacchaladhvastayaduvaṃśogravikramaḥ /<br />
+            saśarīrajarāvyādhasvargadaḥ svargisaṃstutaḥ // SatvT_6.188
+            </p>
+         
+         <p>
+            mumukṣumuktaviṣayijanānandakaro yaśaḥ /<br />
+            kalikālamaladhvaṃsiyaśāḥ śravaṇamaṅgalaḥ // SatvT_6.189
+            </p>
+         
+         <p>
+            bhaktapriyo bhaktahito bhaktabhramarapaṅkajaḥ /<br />
+            smṛtamātrākhilatrātā yantramantraprabhañjakaḥ // SatvT_6.190
+            </p>
+         
+         <p>
+            sarvasampatsrāvināmā tulasīdāmavallabhaḥ /<br />
+            aprameyavapur bhāsvadanarghyāṅgavibhūṣaṇaḥ // SatvT_6.191
+            </p>
+         
+         <p>
+            viśvaikasukhado viśvasajjanānandapālakaḥ /<br />
+            sarvadevaśiroratnam adbhutānantabhogavān // SatvT_6.192
+            </p>
+         
+         <p>
+            adhokṣajo janājīvyaḥ sarvasādhujanāśrayaḥ /<br />
+            samastabhayabhinnāmā smṛtamātrārtināśakaḥ // SatvT_6.193
+            </p>
+         
+         <p>
+            svayaśaḥśravaṇānandajanarāgī guṇārṇavaḥ /<br />
+            anirdeśyavapus taptaśaraṇo jīvajīvanaḥ // SatvT_6.194
+            </p>
+         
+         <p>
+            paramārthaḥ paraṃvedyaḥ parajyotiḥ parāgatiḥ /<br />
+            vedāntavedyo bhagavān anantasukhasāgaraḥ // SatvT_6.195
+            </p>
+         
+         <p>
+            jagadbandhadhvaṃsayaśā jagajjīvajanāśrayaḥ /<br />
+            vaikuṇṭhalokaikapatir vaikuṇṭhajanavallabhaḥ // SatvT_6.196
+            </p>
+         
+         <p>
+            pradyumno rukmiṇīputraḥ śambaraghno ratipriyaḥ /<br />
+            puṣpadhanvā viśvajayī dyumatprāṇaniṣūdakaḥ // SatvT_6.197
+            </p>
+         
+         <p>
+            aniruddhaḥ kāmasutaḥ śabdayonir mahākramaḥ /<br />
+            uṣāpatir vṛṣṇipatir hṛṣīkeśo manaḥpatiḥ // SatvT_6.198
+            </p>
+         
+         <p>
+            śrīmadbhāgavatācāryaḥ sarvavedāntasāgaraḥ /<br />
+            śukaḥ sakaladharmajñaḥ parīkṣinnṛpasatkṛtaḥ // SatvT_6.199
+            </p>
+         
+         <p>
+            śrībuddho duṣṭabuddhighno daityavedabahiṣkaraḥ /<br />
+            pākhaṇḍamārgapravado nirāyudhajagajjayaḥ // SatvT_6.200
+            </p>
+         
+         <p>
+            kalkī kaliyugācchādī punaḥ satyapravartakaḥ /<br />
+            vipraviṣṇuyaśo'patyo naṣṭadharmapravartakaḥ // SatvT_6.201
+            </p>
+         
+         <p>
+            sārasvataḥ sārvabhaumo balitrailokyasādhakaḥ /<br />
+            aṣṭamyantarasaddharmavaktā vairocanipriyaḥ // SatvT_6.202
+            </p>
+         
+         <p>
+            āpaḥ karo ramānātho 'marārikulakṛntanaḥ /<br />
+            śrutendrahitakṛd dhīravīramuktibalapradaḥ // SatvT_6.203
+            </p>
+         
+         <p>
+            viṣvaksenaḥ śambhusakho daśamāntarapālakaḥ /<br />
+            brahmasāvarṇivaṃśābdhihitakṛd viśvavardhanaḥ // SatvT_6.204
+            </p>
+         
+         <p>
+            dharmasetur adharmaghno vaidhyatantrapadapradaḥ /<br />
+            asurāntakaro devārthakasūnuḥ subhāṣaṇaḥ // SatvT_6.205
+            </p>
+         
+         <p>
+            svadhāmā sūnṛtāsūnuḥ satyatejo dvijātmajaḥ /<br />
+            dviṣaṇmanuyugatrātā pātālapuradāraṇaḥ // SatvT_6.206
+            </p>
+         
+         <p>
+            daivahotrir vārhatoyo divaspatir atipriyaḥ /<br />
+            trayodaśāntaratrātā yogayogijaneśvaraḥ // SatvT_6.207
+            </p>
+         
+         <p>
+            sattrāyaṇo bṛhadbāhur vainateyo viduttamaḥ /<br />
+            karmakāṇḍaikapravado vedatantrapravartakaḥ // SatvT_6.208
+            </p>
+         
+         <p>
+            parameṣṭhī surajyeṣṭho brahmā viśvasṛjāṃpatiḥ /<br />
+            abjayonir haṃsavāhaḥ sarvalokapitāmahaḥ // SatvT_6.209
+            </p>
+         
+         <p>
+            viṣṇuḥ sarvajagatpātā śāntaḥ śuddhaḥ sanātanaḥ /<br />
+            dvijapūjyo dayāsindhuḥ śaraṇyo bhaktavatsalaḥ // SatvT_6.210
+            </p>
+         
+         <p>
+            rudro mūḍhaḥ śivaḥ śāstā śambhuḥ sarvaharo haraḥ /<br />
+            kapardī śaṃkaraḥ śūlī tryakṣo 'bhedyo maheśvaraḥ // SatvT_6.211
+            </p>
+         
+         <p>
+            sarvādhyakṣaḥ sarvaśaktiḥ sarvārthaḥ sarvatomukhaḥ /<br />
+            sarvāvāsaḥ sarvarūpaḥ sarvakāraṇakāraṇam // SatvT_6.212
+            </p>
+         
+         <p>
+            ity etat kathitaṃ vipra viṣṇor nāmasahasrakam /<br />
+            sarvapāpapraśamanaṃ sarvābhīṣṭaphalapradam // SatvT_6.213
+            </p>
+         
+         <p>
+            manaḥśuddhikaraṃ cāśu bhagavadbhaktivardhanam /<br />
+            sarvavighnaharaṃ sarvāścaryaiśvaryapradāyakam // SatvT_6.214
+            </p>
+         
+         <p>
+            sarvaduḥkhapraśamanaṃ cāturvargyaphalapradam /<br />
+            śraddhayā parayā bhaktyā śravaṇāt paṭhanāj japāt // SatvT_6.215
+            </p>
+         
+         <p>
+            pratyahaṃ sarvavarṇānāṃ viṣṇupādāśritātmanām /<br />
+            etat paṭhan dvijo vidyāṃ kṣatriyaḥ pṛthivīm imām // SatvT_6.216
+            </p>
+         
+         <p>
+            vaiśyo mahānidhiṃ śūdro vāñchitāṃ siddhim āpnuyāt /<br />
+            dvātriṃśadaparādhānyo jñānājñānāc cared dhareḥ // SatvT_6.217
+            </p>
+         
+         <p>
+            nāmnā daśāparādhāṃś ca pramādād ācared yadi /<br />
+            samāhitamanā hy etat paṭhed vā śrāvayej japet // SatvT_6.218
+            </p>
+         
+         <p>
+            smared vā śṛṇuyād vāpi tebhyaḥ sadyaḥ pramucyate /<br />
+            nātaḥ parataraṃ puṇyaṃ triṣu lokeṣu vidyate // SatvT_6.219
+            </p>
+         
+         <p>
+            yasyaikakīrtanenāpi bhavabandhād vimucyate /<br />
+            atas tvaṃ satataṃ bhaktyā śraddhayā kīrtanaṃ kuru // SatvT_6.220
+            </p>
+         
+         <p>
+            viṣṇor nāmasahasraṃ te bhagavatprītikāraṇam /<br />
+            śrīnārada uvāca /<br />
+            dhanyo 'smy anugṛhīto 'smi tvayātikaruṇātmanā /<br />
+            yataḥ kṛṣṇasya paramaṃ sahasraṃ nāmakīrtitam // SatvT_6.221
+            </p>
+         
+         <p>
+            yady ālasyāt pramādād vā sarvaṃ paṭhitum anvaham /<br />
+            na śaknomi tadā deva kiṃ karomi vada prabho // SatvT_6.222
+            </p>
+         
+         <p>
+            śrīśiva uvāca /<br />
+            yadi sarvaṃ na śaknosi pratyahaṃ paṭhituṃ dvija /<br />
+            tadā kṛṣṇeti kṛṣṇeti kṛṣṇeti pratyahaṃ vada // SatvT_6.223
+            </p>
+         
+         <p>
+            etena tava viprarṣe sarvaṃ sampadyate sakṛt /<br />
+            kiṃ punar bhagavannāmnāṃ sahasrasya prakīrtanāt // SatvT_6.224
+            </p>
+         
+         <p>
+            yan nāmakīrtanenaiva pumān saṃsārasāgaram /<br />
+            taraty addhā prapadye taṃ kṛṣṇaṃ gopālarūpiṇam // SatvT_6.225
+            </p>
+         
+         
+         <p>
+            Sātvatatantra, saptamaḥ paṭalaḥ<br />
+            śrīśiva uvāca /<br />
+            śṛṇvanti pratyahaṃ ye vai viṣṇor nāmasahasrakam /<br />
+            kīrtayanty athavā vipra saṃsmaranty ādareṇa vā // SatvT_7.1
+            </p>
+         
+         <p>
+            vā śataṃ vā viṃśatiṃ vāpi daśa vā pañca vā dvija /<br />
+            ekaṃ vā kāmato bhaktyā viṣṇupādāmbujāśrayāḥ // SatvT_7.2
+            </p>
+         
+         <p>
+            teṣāṃ phalasya puṇyānāṃ nāntaṃ paśyāmi nārada /<br />
+            yatas tair bhagavān eva parānando vaśīkṛtaḥ // SatvT_7.3
+            </p>
+         
+         <p>
+            yato nāmaiva paramaṃ tīrthaṃ kṣetraṃ ca puṇyadam /<br />
+            nāmaiva paramaṃ daivaṃ nāmaiva paramaṃ tapaḥ // SatvT_7.4
+            </p>
+         
+         <p>
+            nāmaiva paramaṃ dānaṃ nāmaiva paramā kriyā /<br />
+            nāmaiva paramo dharmo nāmaivārthaḥ prakīrtitaḥ // SatvT_7.5
+            </p>
+         
+         <p>
+            nāmaiva kāmo bhaktānāṃ mokṣo 'pi nāma kevalam /<br />
+            eṣāṃ ca sādhanaṃ nāma kāmināṃ dvijasattama // SatvT_7.6
+            </p>
+         
+         <p>
+            nāmaiva paramā bhaktir nāmaiva paramā gatiḥ /<br />
+            nāmaiva paramaṃ jāpyaṃ nāmaiva prārthanaṃ param // SatvT_7.7
+            </p>
+         
+         <p>
+            niṣkāmānāṃ dhanaṃ nāma muktibhuktisukhārthavat /<br />
+            nāma syāt paramaṃ saukhyaṃ nāmaiva vairāgyakāraṇam // SatvT_7.8
+            </p>
+         
+         <p>
+            sattvaśuddhikaraṃ nāma nāma jñānapradaṃ smṛtam /<br />
+            mumukṣūṇāṃ muktipadaṃ kāmināṃ sarvakāmadam // SatvT_7.9
+            </p>
+         
+         <p>
+            vaiṣṇavānāṃ phalaṃ nāma tasmān nāma sadā smaret /<br />
+            saṃketitāt pārihāsyād dhelanājvaratāpataḥ // SatvT_7.10
+            </p>
+         
+         <p>
+            kīrtitaṃ bhagavannāma sarvapāpaharaṃ smṛtam /<br />
+            yāvatī pāpanirhāre śaktir nāmni hareḥ sthitā // SatvT_7.11
+            </p>
+         
+         <p>
+            tāvat pāpijanaḥ pāpaṃ kartuṃ śaknoti naiva hi /<br />
+            jñānājñānād dharer nāmakīrtanāt puruṣasya hi // SatvT_7.12
+            </p>
+         
+         <p>
+            pāparāśiṃ dahaty āśu yathā tūlaṃ vibhāvasuḥ /<br />
+            saṃkīrtitaṃ harer nāma śraddhayā puruṣeṇa vai // SatvT_7.13
+            </p>
+         
+         <p>
+            tasya satyaphalaṃ dhatte kramaśo dvijasattamaḥ /<br />
+            pāpanāśaṃ mahāpuṇyaṃ vairāgyaṃ ca caturvidham // SatvT_7.14
+            </p>
+         
+         <p>
+            gurusevām ātmabodhaṃ bhrāntināśam anantaram /<br />
+            sampūrṇānandabodhaṃ ca tatas tasmin labhet sthiram // SatvT_7.15
+            </p>
+         
+         <p>
+            śrīnārada uvāca /<br />
+            caturvidhaṃ tvayā proktaṃ vairāgyaṃ surasattama /<br />
+            etad varṇaya lokasya hitāya jñānakāraṇam // SatvT_7.16
+            </p>
+         
+         <p>
+            śrīśiva uvāca /<br />
+            asaṅgarahito bhogaḥ kriyate puruṣeṇa yat /<br />
+            viṣayāṇāṃ dvijaśreṣṭha tadamānaḥ prakīrtitaḥ // SatvT_7.17
+            </p>
+         
+         <p>
+            bhogye svāduvihīne 'pi kriyate vṛttir ātmanaḥ /<br />
+            dvitīyo vyatirekākhyas tad vijānīhi sattama // SatvT_7.18
+            </p>
+         
+         <p>
+            manasaḥ prītirāhitye indriyair evaṃ bhujyate /<br />
+            bhogas tṛtīyaḥ puruṣair indriyākhyaḥ prakīrtitaḥ // SatvT_7.19
+            </p>
+         
+         <p>
+            manasaś cendriyāṇāṃ ca rāgarāhityam uttamam /<br />
+            viṣayāharaṇaṃ vipra caturthaḥ parikīrtitaḥ // SatvT_7.20
+            </p>
+         
+         <p>
+            eṣa nāma paraś cāśu jāyate dvijasattama /<br />
+            jñānaṃ ca paramaṃ śuddhaṃ brahmānandapradāyakam // SatvT_7.21
+            </p>
+         
+         <p>
+            tīrthair dānais tapobhiś ca homair jātyair vratamaikhaiḥ /<br />
+            yogaiś ca vividhair vipra yad viṣṇoḥ paramaṃ padam // SatvT_7.22
+            </p>
+         
+         <p>
+            na yānti mānavās tad vai nāmakīrtanamātrataḥ /<br />
+            saṃyānty eva na saṃdehaṃ kuru vipra haripriyam // SatvT_7.23
+            </p>
+         
+         <p>
+            mahāpātakayukto 'pi kīrtayitvā jagadgurum /<br />
+            taraty eva na saṃdehaḥ satyam eva vadāmy aham // SatvT_7.24
+            </p>
+         
+         <p>
+            kalikālamalaṃ cāpi sarvapātakam eva ca /<br />
+            hitvā nāmaparo vipra viṣṇulokaṃ sa gacchati // SatvT_7.25
+            </p>
+         
+         <p>
+            tasmān nāmaikamātreṇa taraty eva bhavārṇavam /<br />
+            pumān atra na saṃdeho vinā nāmāparādhataḥ // SatvT_7.26
+            </p>
+         
+         <p>
+            tadyatnenaiva puruṣaḥ śreyaskāmo dvijottamaḥ /<br />
+            viṣṇor na kuryān nāmnas tu daśapāpān kathaṃcana // SatvT_7.27
+            </p>
+         
+         <p>
+            śrīnārada uvāca /<br />
+            śruto bhagavato vaktrād dvāviṃśadaparādhakam /<br />
+            viṣṇor nāmnā daśa tathā etad varṇaya no prabho // SatvT_7.28
+            </p>
+         
+         <p>
+            śrīśiva uvāca /<br />
+            śrūyatām aparādhān vai viṣṇor vakṣyāmi nārada /<br />
+            yān kṛtvā narakaṃ yānti mānavāḥ satataṃ mune // SatvT_7.29
+            </p>
+         
+         <p>
+            asnātvā sparśanaṃ viṣṇor vinā śaṅkhena snāpanam /<br />
+            aśauce sparśanaṃ sākṣād bhuktā pādodakagrahaḥ vā // SatvT_7.30
+            </p>
+         
+         <p>
+            vinā śabdena pūjā ca vinā naivedyapūjanam /<br />
+            uccāsanasthapūjā ca śīte vyajanavātakam // SatvT_7.31
+            </p>
+         
+         <p>
+            udakyādarśanaṃ caiva ghaṇṭāyā bhūniveśanam /<br />
+            pauṣe ca candanasparśo grīṣme cāsparśanaṃ tathā // SatvT_7.32
+            </p>
+         
+         <p>
+            puṣpaṃ toyena saṃsparśaṃ vinā homaṃ mahotsavaḥ /<br />
+            pūjāṃ kṛtvā pṛṣṭhadarśam agre ca bhramaṇaṃ tathā // SatvT_7.33
+            </p>
+         
+         <p>
+            bhojanaṃ bhagavadvāre abhuktvā ca viṣādatā /<br />
+            pādukārohaṇaṃ viṣṇor gehe kambalaveśanam // SatvT_7.34
+            </p>
+         
+         <p>
+            vāmapādapraveśaś ca kūrdanaṃ pākabhojanam /<br />
+            śleṣmaprakṣepaṇaṃ caiva tattṛṇair dantadhāvanam // SatvT_7.35
+            </p>
+         
+         <p>
+            devāgre vāhanāroho naivedye dravyabuddhitā /<br />
+            śālagrāme sthirāyāṃ ca śileti pratimeti ca // SatvT_7.36
+            </p>
+         
+         <p>
+            harikīrter asaṃślāghā vaiṣṇave narasāmyatā /<br />
+            viṣṇau ca devatāsāmyam anyoddeśanivedanam // SatvT_7.37
+            </p>
+         
+         <p>
+            ete 'parādhā dvātriṃśad viṣṇor nāmnām atha śṛṇu /<br />
+            satāṃ nāmnā śive viṣṇau bhidācāryāvamānatā // SatvT_7.38
+            </p>
+         
+         <p>
+            vedanindā nāmni vādaḥ pāpecchā nāmasāhasāt /<br />
+            nāmno dharmaiḥ sāmyabuddhir dānaṃ śraddhāvivarjitaiḥ // SatvT_7.39
+            </p>
+         
+         <p>
+            śrutvāpi śraddhārāhityaṃ kīrtane cāpy ahaṃmatiḥ /<br />
+            ete nāmnāṃ dvijaśreṣṭha hy aparādhā mayeritāḥ // SatvT_7.40
+            </p>
+         
+         <p>
+            varjanīyā nṛbhir yatnair yato narakakāraṇāḥ /<br />
+            śrīnārada uvāca // SatvT_7.41
+            </p>
+         
+         <p>
+            viṣayāsaktacittānāṃ prākṛtānāṃ nṛṇāṃ prabho /<br />
+            aparādhā harer āśu varjyā naiva bhavanti hi // SatvT_7.42
+            </p>
+         
+         <p>
+            ato yena prakāreṇa taranti prākṛtā api /<br />
+            aparādhān kṛtān deva tan mamākhyātum arhasi // SatvT_7.43
+            </p>
+         
+         <p>
+            śrīśiva uvāca /<br />
+            pradakṣiṇaśataṃ kṛtvā daṇḍavat praṇamed bhuvi /<br />
+            aparādhaśataṃ tasya kṣamate svasya keśavaḥ // SatvT_7.44
+            </p>
+         
+         <p>
+            pradakṣiṇaṃ sakṛt kṛtvā yo na jānuśiraṃ namet /<br />
+            niṣphalaṃ tad bhavet tasya tasmāt pratyekaśo namet // SatvT_7.45
+            </p>
+         
+         <p>
+            jagannātheti te nāma vyāhariṣyanti te yadi /<br />
+            aparādhaśataṃ teṣāṃ kṣamate nātra saṃśayaḥ // SatvT_7.46
+            </p>
+         
+         <p>
+            nāmno 'parādhās tarati nāmna eva sadā japāt /<br />
+            vinā bhaktāparādhena tatprasādavivarjitaḥ // SatvT_7.47
+            </p>
+         
+         <p>
+            sarvāparādhāṃs tarati viṣṇupādāmbujāśrayaḥ /<br />
+            viṣṇor apy aparādhān vai nāmasaṃkīrtanāt taret // SatvT_7.48
+            </p>
+         
+         <p>
+            viṣṇubhaktāparādhānāṃ naivāsty anyā pratikriyā /<br />
+            śrīnārada uvāca /<br />
+            bhaktāparādhān me brūhi yathā teṣāṃ pratikriyā /<br />
+            anugrahāya lokānāṃ bhagavan mama cāpi hi // SatvT_7.49
+            </p>
+         
+         <p>
+            śrīśiva uvāca /<br />
+            viṣṇubhaktasya sarvasvaharaṇaṃ dvijasattama /<br />
+            bhartsanaṃ cottame bhakte svapne cāpi prahāraṇam // SatvT_7.50
+            </p>
+         
+         <p>
+            ete 'parādhā bhaktānāṃ śṛṇv eṣāṃ pratikriyā /<br />
+            taddhanaṃ dviguṇaṃ dattvā kṛtvā pādābhivandanam // SatvT_7.51
+            </p>
+         
+         <p>
+            kathayen me kṣamasveti taddoṣaṃ dhanakarṣaṇam /<br />
+            yāvat tadbhartsanaṃ kṛtvā tāvan māsān samāhitaḥ // SatvT_7.52
+            </p>
+         
+         <p>
+            nirmatsaraḥ paricaret tatprasādena śudhyati /<br />
+            yāvaj jīvaṃ prahāre tu paricaryed atandritaḥ // SatvT_7.53
+            </p>
+         
+         <p>
+            tatprasādena tatpāpān niṣkṛtir nānyathā bhavet /<br />
+            akṛtvā niṣkṛtīn etān narakān nāsti niṣkṛtiḥ // SatvT_7.54
+            </p>
+         
+         <p>
+            ajñānataḥ kṛte vipra tatprasādena naśyati /<br />
+            jñānāt tu dviguṇaṃ kuryād eṣa dharmaḥ sanātanaḥ // SatvT_7.55
+            </p>
+         
+         <p>
+            putre śiṣye ca jāyāyāṃ śāsane nāsti dūṣaṇam /<br />
+            anyayā tu kṛte doṣo bhavaty eva na saṃśayaḥ // SatvT_7.56
+            </p>
+         
+         <p>
+            keśākarṣe padāghāte mukhe ca carpaṭe kṛte /<br />
+            na niṣkṛtiṃ prapaśyāmi tasmāt tān na samācaret // SatvT_7.57
+            </p>
+         
+         
+         <p>
+            Sātvatatantra, aṣṭamaḥ paṭalaḥ<br />
+            śrīśiva uvāca /<br />
+            atha te sampravakṣyāmi rahasyaṃ hy etad uttamam /<br />
+            yac chraddhayā tu tiṣṭhan vai harau bhaktir dṛḍhā bhavet // SatvT_8.1
+            </p>
+         
+         <p>
+            deve tīrthe ca dharme ca viśvāsaṃ tāpatāraṇāt /<br />
+            taddhitvā kṛṣṇapādāmbuśaraṇaṃ praviśen mudā // SatvT_8.2
+            </p>
+         
+         <p>
+            śaraṇaṃ me jagannāthaḥ śrīkṛṣṇaḥ puruṣottamaḥ /<br />
+            tannāmni svagurau caiva brūyād etat samāhitaḥ // SatvT_8.3
+            </p>
+         
+         <p>
+            hitvānyadevatāpūjāṃ balidānādinā dvija /<br />
+            ekam eva yajet kṛṣṇaṃ sarvadevamayaṃ dhiyā // SatvT_8.4
+            </p>
+         
+         <p>
+            nityaṃ naimitakaṃ kāryaṃ tathāvaśyakam eva ca /<br />
+            gṛhāśramī viṣṇubhaktaḥ kuryāt kṛṣṇaṃ dhiyā smaran // SatvT_8.5
+            </p>
+         
+         <p>
+            eteṣu cānyadevānāṃ yā pūjā vidhinā smṛtā /<br />
+            sāpi kṛṣṇārcanāt paścāt kriyeta hṛdi taṃ smaran // SatvT_8.6
+            </p>
+         
+         <p>
+            anyadā tv anyadevānāṃ pṛthakpūjāṃ na ca smaret /<br />
+            kāmyaṃ niṣiddhaṃ ca tathā naiva kuryāt kadācana // SatvT_8.7
+            </p>
+         
+         <p>
+            kalatraputramitrādīn hitvā kṛṣṇaṃ samāśritāḥ /<br />
+            harikīrtiratā ye ca teṣāṃ kṛtyaṃ na vidyate // SatvT_8.8
+            </p>
+         
+         <p>
+            kṛtvānyadevatāpūjāṃ sakāmāṃ balinā dvija /<br />
+            bhaktibhraṣṭo bhaved āśu saṃsārān na nivartate // SatvT_8.9
+            </p>
+         
+         <p>
+            kāmātmā niranukrośaḥ paśughātaṃ samācaran /<br />
+            paśulomasamaṃ varṣaṃ narake paripacyate // SatvT_8.10
+            </p>
+         
+         <p>
+            yajñe paśor ālabhane naiva doṣo 'sti yad vacaḥ /<br />
+            api pravṛttī rāgiṇāṃ nivṛttis tu garīyasī // SatvT_8.11
+            </p>
+         
+         <p>
+            kṛtvānyadevatāpūjāṃ paśuṃ hitvā narādhamāḥ /<br />
+            yadi te svargatiṃ yānti narakaṃ yānti ke tadā // SatvT_8.12
+            </p>
+         
+         <p>
+            sa māṃ punar bhakṣayitā yasya māṃsam adāmy aham /<br />
+            iti māṃsaniruktaṃ vai varṇayanti manīṣiṇaḥ // SatvT_8.13
+            </p>
+         
+         <p>
+            viṣṇubhaktiṃ samāśritya paśughātaṃ samācaran /<br />
+            kṛtvānyadevatāpūjāṃ bhraṣṭo bhavati niścitam // SatvT_8.14
+            </p>
+         
+         <p>
+            mānuṣyaṃ prāpya ye jīvā na bhajanti hareḥ padam /<br />
+            te śocyā sthāvarādīnām apy ekaśaraṇā yadi // SatvT_8.15
+            </p>
+         
+         <p>
+            ahaṃ brahmā surendrāś ca ye bhajāmo divāniśam /<br />
+            tato 'dhiko 'sti ko devaḥ śrīkṛṣṇāt puruṣottamāt // SatvT_8.16
+            </p>
+         
+         <p>
+            yatprasādaṃ pratīkṣante sarve lokāḥ sapālakāḥ /<br />
+            sāpi lakṣmīr yac caraṇaṃ sevate tadanādṛtā // SatvT_8.17
+            </p>
+         
+         <p>
+            tato 'dhiko 'sti ko devo lakṣmīkāntāj janārdanāt /<br />
+            yan nāmni ke na saṃyānti puruṣāḥ paramaṃ padam // SatvT_8.18
+            </p>
+         
+         <p>
+            dharmārthakāmamokṣāṇāṃ mūlaṃ yac caraṇārcanam /<br />
+            tato 'dhiko 'sti ko devaḥ kṛpāsindhor mahātmanaḥ // SatvT_8.19
+            </p>
+         
+         <p>
+            bhajanasyālpamātreṇa bahu manyeta yaḥ sadā /<br />
+            tato 'dhiko 'sti ko devaḥ sukhārādhyāj jagadguroḥ // SatvT_8.20
+            </p>
+         
+         <p>
+            yena kenāpi bhāvena yo 'pi ko 'pi bhajan janaḥ /<br />
+            labhate 'bhīpsitāṃ siddhiṃ mokṣaṃ cāpy akutobhayam // SatvT_8.21
+            </p>
+         
+         <p>
+            tato 'dhiko 'sti ko devaḥ devakīdevinandanāt /<br />
+            yo jaganmuktaye kīrtim avatīrya tatāna ha // SatvT_8.22
+            </p>
+         
+         <p>
+            ato 'nyadevatāpūjāṃ tyaktvā balividhānataḥ /<br />
+            sadguror upadeśena bhajet kṛṣṇapadadvayam // SatvT_8.23
+            </p>
+         
+         <p>
+            śṛṇuyāt pratyahaṃ viṣṇor yaśaḥ paramamaṅgalam /<br />
+            uccārayen mukhenaiva nāma cittena saṃsmaret // SatvT_8.24
+            </p>
+         
+         <p>
+            prītiṃ kuryād vaiṣṇaveṣu abhakteṣu vivarjayet /<br />
+            daivopalabdhaṃ bhuñjāno nātiyatnaṃ caret sukhe // SatvT_8.25
+            </p>
+         
+         <p>
+            gṛheṣv atithivat tiṣṭhed yady etān naiva bādhate /<br />
+            eṣāṃ bādhe pṛthak tiṣṭhed vaiṣṇaveṣu ca saṅgavān // SatvT_8.26
+            </p>
+         
+         <p>
+            brahmacārī gṛhī vāpi vānaprastho yatiś ca vā /<br />
+            vinā vaiṣṇavasaṅgena naiva siddhiṃ labhej janaḥ // SatvT_8.27
+            </p>
+         
+         <p>
+            bhaktasaṅgaṃ vinā bhaktir naiva jāyeta kasyacit /<br />
+            bhaktiṃ vinā na vairāgyaṃ na jñānaṃ mokṣam aśnute // SatvT_8.28
+            </p>
+         
+         <p>
+            ata āśramaliṅgāṃś ca hitvā bhakteḥ samaṃ vaset /<br />
+            yatsaṅgāc chrutikīrtibhyāṃ harau bhaktiḥ prajāyate // SatvT_8.29
+            </p>
+         
+         <p>
+            viṣṇubhaktaprasaṅgasya nimeṣeṇāpi nārada /<br />
+            svargāpavargau na sāmyaṃ kim utānyasukhādibhiḥ // SatvT_8.30
+            </p>
+         
+         <p>
+            ato yatnena puruṣaḥ kuryāt saṅgaṃ harer janaiḥ /<br />
+            tiryañco 'pi yato muktiṃ labhante kimu mānuṣāḥ // SatvT_8.31
+            </p>
+         
+         <p>
+            tatsaṅgenaiva puruṣo viṣṇuṃ prāpnoti niścitam /<br />
+            vinā vairāgyajñānābhyāṃ yato viṣṇus tadantike // SatvT_8.32
+            </p>
+         
+         <p>
+            yeṣāṃ saṅgāddhareḥ saṅgaṃ sakṛd ākarṇya mānavaḥ /<br />
+            parityaktuṃ na śaknoti yadi bhadrasarid bhavet // SatvT_8.33
+            </p>
+         
+         <p>
+            arasajño 'pi tatsaṅgaṃ yadi yāti kathaṃcana /<br />
+            bhūtvā rasajño 'pi mahān karmabandhād vimucyate // SatvT_8.34
+            </p>
+         
+         <p>
+            tatas taddharmanirato bhagavaty amalātmani /<br />
+            prāpnoti paramāṃ bhaktiṃ sarvakāmapradāyinīm // SatvT_8.35
+            </p>
+         
+         <p>
+            bhaktiṃ viditvā puruṣo muktiṃ necchati kaścana /<br />
+            sālokyādipadaṃ cāpi kimu cānyasukhaṃ dvija // SatvT_8.36
+            </p>
+         
+         <p>
+            phalaṃ vinā viṣṇubhaktā muktiṃ yānti dvijottama /<br />
+            tata eva vidur nānya ānandamayam uttamam // SatvT_8.37
+            </p>
+         
+         <p>
+            yato harir likhitavat hṛdaye vartate sadā /<br />
+            teṣāṃ premalatābaddhaḥ paramānandavigrahaḥ // SatvT_8.38
+            </p>
+         
+         
+         <p>
+            Sātvatatantra, navamaḥ paṭalaḥ<br />
+            śrīnārada uvāca /<br />
+            iyān guṇo 'sti deveśa bhagavatpādasevane /<br />
+            kuto bhajanti manujo anyadevaṃ kim icchayā // SatvT_9.1
+            </p>
+         
+         <p>
+            śrīśiva uvāca /<br />
+            yadādisatye viprendra narā viṣṇuparāyaṇāḥ /<br />
+            na yajanti vinā viṣṇum anyadevaṃ kathaṃcana // SatvT_9.2
+            </p>
+         
+         <p>
+            tadātmapūjāprāptyarthaṃ sarvadevamayaṃ ca vai /<br />
+            pūjayāmo hṛṣīkeśaṃ kāyavāṅmanasā dvija // SatvT_9.3
+            </p>
+         
+         <p>
+            tadā tuṣṭo vibhuḥ prāha devadevo rameśvaraḥ /<br />
+            avatīrya yajiṣyāmi yuṣmāṃl lokāṃś ca yājayan // SatvT_9.4
+            </p>
+         
+         <p>
+            tataḥ sarve janā yuṣmān yajiṣyanti samāhitāḥ /<br />
+            anena pūjā yuṣmākaṃ bhaviṣyati sukhāvahā // SatvT_9.5
+            </p>
+         
+         <p>
+            ahaṃ coktaḥ pṛthak tena śrīnivāsena brāhmaṇa /<br />
+            kalpitair āgamair nityaṃ māṃ gopāya maheśvara // SatvT_9.6
+            </p>
+         
+         <p>
+            madavajñāpāpaharaṃ nāmnāṃ sahasram uttamam /<br />
+            paṭhiṣyasi sadā bhadraṃ prārthitena mayā punaḥ // SatvT_9.7
+            </p>
+         
+         <p>
+            tato me hy āgamaiḥ kṛṣṇam ācchādya na tu devatāḥ /<br />
+            yantrair mantraiś ca tantraiś ca darśitāḥ phaladā dvija // SatvT_9.8
+            </p>
+         
+         <p>
+            tair āgamair mandadhiyā hitvā kṛṣṇaṃ jagadgurum /<br />
+            bhajanti devatā anyā balidānena nityaśaḥ // SatvT_9.9
+            </p>
+         
+         <p>
+            nānā devān samārādhya nānākāmasukhecchayā /<br />
+            bhogāvasāne te yānti narakaṃ svatamomayam // SatvT_9.10
+            </p>
+         
+         <p>
+            dṛṣṭvā tathāvidhāṃ lokān pāpāśaṅkitamānasaḥ /<br />
+            gato 'haṃ vāsudevasya caraṇe śaraṇaṃ dvija // SatvT_9.11
+            </p>
+         
+         <p>
+            stutiṃ ca cakre praṇataḥ praśrayānatakaṃdharaḥ /<br />
+            samāhitamanā vipra prāñjaliḥ puruṣottamam // SatvT_9.12
+            </p>
+         
+         <p>
+            oṃ namo 'stu kṛṣṇāya vikuṇṭhavedhase tvatpādalīlāśrayajīvabandhave /<br />
+            sadāptakāmāya mahārthahetave vijñānavidyānidhaye svayambhuve // SatvT_9.13
+            </p>
+         
+         <p>
+            eko 'si sṛṣṭeḥ purato laye tathā yugādikāle ca vidāṃ samakṣataḥ /<br />
+            anyatra nānātanubhir virājate tasmā anantācaritāya te namaḥ // SatvT_9.14
+            </p>
+         
+         <p>
+            pradhānakālāśayakarmasākṣiṇe tatsaṃgrahāpāravihārakāriṇe /<br />
+            kṛṣṇāya nānātanum īyuṣe same kṛtānurāgāya namo namas te // SatvT_9.15
+            </p>
+         
+         <p>
+            śṛṇvanti gāyanti gṛṇanti ye yaśo jagatpavitraṃ jagadīśitus tava /<br />
+            te 'nyaṃ na paśyanti sukhāya hy ātmano vinā bhavatpādaniṣevaṇād bahiḥ // SatvT_9.16
+            </p>
+         
+         <p>
+            niṣkiṃcanā ye tava pādasaṃśrayāḥ puṣṇanti te tat sukham ātmasambhavam /<br />
+            jānanti tattvena vidus tataḥ parāḥ kāmaiḥ samākṛṣṭadhiyo vicakṣaṇāḥ // SatvT_9.17
+            </p>
+         
+         <p>
+            ahaṃ tu sākṣāt tava pādapaṅkajaṃ nityaṃ bhajāno 'pi pṛthaṅmatir vibho /<br />
+            purātmamānaṃ pracikīrṣur ātmanaḥ sakāśato 'py adya malaṃ nikṛntayan // SatvT_9.18
+            </p>
+         
+         <p>
+            athāpi te deva padāmbujadvayaṃ nikāmalābhāya sadāstu me hareḥ /<br />
+            yac cintanāt sarvamano'nukūlāt siddhir bhavaty eva kimu prakīrtanāt // SatvT_9.19
+            </p>
+         
+         <p>
+            iti me saṃstutiṃ jñātvā bhagavān praṇatārtihā /<br />
+            mamākṣigocaraṃ rūpam akarot sa dayāparaḥ // SatvT_9.20
+            </p>
+         
+         <p>
+            sāndrānandamahendranīlamaṇivad dehodgataprollasatsvarṇair mauliṣu hārakuṇḍalayugaiḥ
+            keyūrakāñcyaṅgadaiḥ /<br />
+            mañjīrair vilasatpiśaṅgavalayaṃ lakṣmyāṅkitaṃ śāśvatam sarveśaṃ karuṇākaraṃ suravarair
+            bhaktaiḥ samāsevitam // SatvT_9.21
+            </p>
+         
+         <p>
+            dṛṣṭvā tatpadapaṅkajaṃ hṛdi dadhe govindadāmodaraśrīkṛṣṇeti mukhair vadan trijagato
+            bhartur mudāhaṃ tadā /<br />
+            netrair nirjharavāripūram iva me gātre ca harṣas tato vāṇyāṃ gadgadatāṃ vilokya bhagavān
+            mām āha bhaktapriyaḥ // SatvT_9.22
+            </p>
+         
+         <p>
+            jñatāṃ me suravarya vāñchitatarāṃ madbhaktasaṅgāvaliṃ tat te 'haṃ pravadāmi te karuṇayā
+            bhaktāya sākaṃ varaiḥ /<br />
+            mallīlāṃ gadato bhaviṣyati bhavatsarve janā vaiṣṇavāḥ /<br />
+            bhāryā cāpi tayānukūlasukhadā bhaktāgraṇīr me bhavān // SatvT_9.23
+            </p>
+         
+         <p>
+            etāvad uktvā bhagavān gato lokam alaukikam /<br />
+            ahaṃ ca tān varāṃl labdhvā kṛtārtho 'smi dvijarṣabha // SatvT_9.24
+            </p>
+         
+         <p>
+            atas tad dinam ārabhya pārvatī bhuvaneśvarī /<br />
+            matsaṅgād vaiṣṇavī bhūtvā mām āpṛcchat sureśvarī // SatvT_9.25
+            </p>
+         
+         <p>
+            bhavān mahābhāgavataḥ kumārādyā maheśvarāḥ /<br />
+            kuberādyā devatāś ca nandīśādyāś ca me gaṇāḥ // SatvT_9.26
+            </p>
+         
+         <p>
+            pṛthak pṛthag apṛcchan mā kṛṣṇapādāmbujāśrayāḥ /<br />
+            kathāḥ paramakalyāṇīḥ sarvalokaikapāvanīḥ // SatvT_9.27
+            </p>
+         
+         <p>
+            atha māṃ pṛcchatī vākyaṃ madvākyaṃ ca dvijottama /<br />
+            saṃlikhaty apramatto 'sau gaṇeśo matsuto 'ntike // SatvT_9.28
+            </p>
+         
+         <p>
+            mama teṣāṃ ca saṃvādaṃ kalā lokamanoharāḥ /<br />
+            abhavaṃs tatra śāstrāṇi sarvalokahitāni vai // SatvT_9.29
+            </p>
+         
+         <p>
+            tāni tantrāṇi śrotāraḥ samānīya mahītale /<br />
+            sthāne sthāne muniśreṣṭha kathayiṣyanti bhūriśaḥ // SatvT_9.30
+            </p>
+         
+         <p>
+            tvam apy enaṃ sātvatākhyaṃ tantraṃ bhagavataḥ priyam /<br />
+            naimiṣe śaunakādīnāṃ samakṣaṃ kathayiṣyasi // SatvT_9.31
+            </p>
+         
+         <p>
+            śrīnārada uvāca /<br />
+            śrutaṃ bhagavato vaktrāt tantraṃ sātvatam uttamam /<br />
+            tasmin hiṃsāniṣedhaṃ ca śrutvā me saṃśayo 'bhavat // SatvT_9.32
+            </p>
+         
+         <p>
+            vedena vihitā hiṃsā paśūnāṃ yajñakarmaṇi /<br />
+            yajñe vadho 'vadhaś caiva vedavidbhir nirūpitaḥ // SatvT_9.33
+            </p>
+         
+         <p>
+            tanniṣedhe kathaṃ śrautaṃ smārtaṃ karma maheśvara /<br />
+            varteta sarvalokasya ihāmutraphalapradam // SatvT_9.34
+            </p>
+         
+         <p>
+            śrīśiva uvāca /<br />
+            pravṛttaṃ ca nivṛttaṃ ca dvividhaṃ karma varṇitam /<br />
+            śrutyā smṛtyā ca viprendra kāmyaṃ kāmijanāya vai // SatvT_9.35
+            </p>
+         
+         <p>
+            pravṛttam avirodhena kurvan svar yāti mānavaḥ /<br />
+            puṇyāvaśeṣe bhūpṛṣṭhe karmasaṃjñiṣu jāyate // SatvT_9.36
+            </p>
+         
+         <p>
+            nivṛttam ācaran yogī bhogecchātyaktamānasaḥ /<br />
+            prayāti paramāṃ siddhiṃ yato nāvartate gataḥ // SatvT_9.37
+            </p>
+         
+         <p>
+            ataḥ pravṛttiniṣṭhasya nānākāmānurāgiṇaḥ /<br />
+            ṣaḍvidhair niyamair viprābhyanujñaiva pradarśitā // SatvT_9.38
+            </p>
+         
+         <p>
+            vidhir naivāsti hiṃsāyām abhyanujñā yataḥ kṛtā /<br />
+            ato nivṛttihiṃsāyāṃ yajñe 'pi kathitā budhaiḥ // SatvT_9.39
+            </p>
+         
+         <p>
+            ahiṃsā paramo dharmaḥ sarvavarṇāśramāditaḥ /<br />
+            sa ca ācārato nṇām abhīṣṭaphalado bhavet // SatvT_9.40
+            </p>
+         
+         <p>
+            viśeṣato viṣṇubhaktā hiṃsākarma tyajanti hi /<br />
+            ahiṃsayā hi bhūtānāṃ bhagavān āśu tuṣyati // SatvT_9.41
+            </p>
+         
+         <p>
+            ataḥ sarveṣu bhūteṣu bhagavān akhileśvaraḥ /<br />
+            praviṣṭa īyate nānārūpaiḥ sthāvarajaṅgamaiḥ // SatvT_9.42
+            </p>
+         
+         <p>
+            mayāpi hy āgame hiṃsā vihitā yā vidhānataḥ /<br />
+            sāpi kāmukalokānāṃ kāmitāphalasiddhaye /<br />
+            viṣṇubhaktā na vāñchanti matto 'pi kiyad eva hi /<br />
+            atas teṣāṃ vidhāne 'pi hiṃsā nindyā prakīrtitā // SatvT_9.43
+            </p>
+         
+         <p>
+            atas tvaṃ kāmyakarmāṇi parityajya viśeṣataḥ /<br />
+            śrūyāḥ kṛṣṇakathāḥ puṇyāḥ sarvalokeṣṭasiddhidāḥ // SatvT_9.44
+            </p>
+         
+         <p>
+            pravṛttaśāstraṃ śṛṇuyād yac chrutvā tatparo bhavet /<br />
+            nivṛtte 'pi harer bhaktiyutaṃ mukhyaṃ prakīrtitam // SatvT_9.45
+            </p>
+         
+         <p>
+            viśeṣataḥ kṛṣṇalīlākathā lokasumaṅgalāḥ /<br />
+            kīrtayasva dvijaśreṣṭha śrūyāś caiva nirantaram // SatvT_9.46
+            </p>
+         
+         <p>
+            hitvānyadevaśaraṇaṃ bhajanaṃ ca viśeṣataḥ /<br />
+            ye bhajanti hareḥ pādaṃ kṛṣṇaikaśaraṇaṃ narāḥ // SatvT_9.47
+            </p>
+         
+         <p>
+            ihāmutra te nityaṃ kṛtārthā bhagavatpriyāḥ /<br />
+            paramānandasaṃdohaṃ prāpnuvanti nirantaram // SatvT_9.48
+            </p>
+         
+         <p>
+            ye tu naivaṃvido 'śāntā mūḍhāḥ paṇḍitamāninaḥ /<br />
+            yajanty avirataṃ devān paśūn hatvā sukhecchayā // SatvT_9.49
+            </p>
+         
+         <p>
+            kāmabhogāvasāne taṃ te cchetsyanti viniścitam /<br />
+            ity etat kathitaṃ vipra tantraṃ sātvatam uttamam // SatvT_9.50
+            </p>
+         
+         <p>
+            viṣṇubhaktajanājīvyaṃ sarvasiddhipradāyakam /<br />
+            śravaṇāt kīrtanād asya kṛṣṇe bhaktir hi jāyate // SatvT_9.51
+            </p>
+         
+         <p>
+            bhaktiṃ labdhavataḥ sādho kim anyad avaśiṣyate /<br />
+            yato bhagavatā proktaṃ tasya bhaktivivardhanam // SatvT_9.52
+            </p>
+         
+         <p>
+            tantre 'smin kathitaṃ vipra viśvasambhavam uttamam /<br />
+            avatārāś ca śrīviṣṇoḥ sampūrṇāṃśakalā bhidā // SatvT_9.53
+            </p>
+         
+         <p>
+            bhaktibhedāś ca bhedānāṃ lakṣaṇaṃ ca pṛthagvidham /<br />
+            yugānurūpaṃ śrīviṣṇoḥ sevayā mokṣasādhanam // SatvT_9.54
+            </p>
+         
+         <p>
+            viṣṇor nāmasahasraṃ ca nāmamāhātmyam uttamam /<br />
+            viṣṇor nāmnā vaiṣṇavānām aparādhasya ca niṣkṛtiḥ // SatvT_9.55
+            </p>
+         
+         <p>
+            sarvasārarahasyaṃ ca tantrotpatteś ca kāraṇam /<br />
+            hiṃsāvidhiniṣedhaṃ ca tava praśnānusārataḥ // SatvT_9.56
+            </p>
+         
+         <p>
+            yan nāmaikaṃ karṇamūlaṃ praviṣṭaṃ vācānviṣṭaṃ cetanāsu smṛtaṃ vā /<br />
+            dagdhvā pāpaṃ śuddhasattvāt taddehaṃ kṛtvā sākṣāt saṃvidhatte 'navadyam /<br />
+            tasmād anantāya janārdanāya vederitānantaguṇākarāya /<br />
+            mahānubhāvāya nirañjanāya nityātmalābhāya namo namas te // SatvT_9.57
+            </p>
+         
+         </div>
+   </body>
+</html>

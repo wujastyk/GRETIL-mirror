@@ -1,0 +1,411 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Vajracchedika Prajñāpāramitā (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Vajracchedika Prajñāpāramitā</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vajracchedikA-prajJApAramitA-frag.xml">sa_vajracchedikA-prajJApAramitA-frag.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Klaus Wille</p>
+      <p class="noindent"><b>Contribution: </b>Klaus Wille</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Paul Harrison and Shogo Watanabe in: Buddhist Manuscripts, vol. 3, ed. by Jens Braarvig,
+            Oslo 2006 (Manuscripts in the Sch&amp;oslash;yen Collection), pp. 89-132. = Vaj.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="hi">highlighted text</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/vchedppu.htm">vchedppu.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Vajracchedika Prajnaparamita
+            <br />Based on the edition by Paul Harrison and Shogo Watanabe in: Buddhist Manuscripts,
+            vol. 3,
+            <br />ed. by Jens Braarvig, Oslo 2006 (Manuscripts in the Sch&amp;oslash;yen Collection), pp.
+            89-132. = Vaj
+            <br />
+            <br />Cz = ed. Conze
+            <br />G = ed. Schopen
+            <br />P = ed. Pargiter
+            <br />
+            <br />Input by Klaus Wille, Göttingen (Germany)
+            <br />
+            <br />ITALICS for restored text
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>Vaj 1; folio 26r1-v4 (Cz 27.1-1)
+            namo śākyamunaye tathāgatāyārhate samyaksaṃbuddhāya / //</p>
+         
+         
+         <p>evaṃ mayā śrutam ekasmin samaye bhagavān / śrāvastyāṃ viharati sma / jetavane / anāthapiṇḍadasyārāme
+            mahatā bhikṣusaṃghena sārdham ardhatrayodaśabhir bhikṣuśataiḥ <span class="it">/</span> atha khalu bhagavān pūrvāhṇakālasamaye nivāsya pātracīvaram ādāya / śrāvastīṃ mahānagarīṃ
+            piṇḍāya prāviśat / atha khalu bhagavān / śrāvastīṃ mahānagarī<span class="it">ṃ</span> piṇḍāya caritvā paścādbhaktapiṇḍapātapratikrāntaḥ pādau prakṣālya nyaṣīdad bhagavān
+            / prajñapta evāsane paryaṃkam ābhujya ṛjuṃ kāyaṃ praṇidhāya pratimukhaṃ smṛtim upasthāpya
+            / atha saṃbahulā bhikṣavaḥ yena bhagavāṃs tenopasaṃkkraman upasaṃkkramya bhagavataḥ
+            pādau śirasābhivandya bhagavaṃtaṃ tṛḥpradakṣiṇīkṛtvā <span class="it">e</span>kāṃte nyaṣīdan /</p>
+         
+         
+         <p>Vaj 2; folio 26v4-27v6 (Cz 27.16-28.17; P 179.14-24)
+            tena khalu punaḥ samayenāyuṣmān subhūtiḥ tasyām eva pariṣadi sannipatito 'bhūt sanniṣaṇṇaḥ
+            <span class="it">/</span> atha khalv āyuṣmān subhūtir utthāyāsanād ekāṃsam uttarāsaṃgaṃ kṛtvā dakṣiṇaṃ jānumaṇḍalaṃ
+            pṛthivyāṃ pratiṣṭhāpya yena bhagavāṃs tenāṃjaliṃ praṇāmya bhagavaṃtam etad avocat
+            / āścaryaṃ bhagavan yāvad eva tathāgatenārhatā samyaksaṃbuddhena bodhisatvā mahāsatvā
+            anuparigṛhītāḥ parameṇānugraheṇa / yāvad eva tathāgatena bodhisatvāḥ parittāḥ paramayā
+            parindanayā / kathaṃ bhagava<span class="it">n</span> bodhisatvayānasaṃprasthitena sthātavyam / kathaṃ pratipattavyam / kathaṃ cittaṃ pratigṛhītavyam
+            / evam ukte bhagavān āyuṣmaṃtaṃ subhūtim etad av<span class="it">o</span>c<span class="it">a</span>t / sādhu sādhu subhūte evam etat subhūte anuparigṛhītās tathāgatena bodhisat<span class="it">v</span>ā<span class="it">ḥ para</span>meṇānugraheṇa / parittās tathāgatena bodhisatvāḥ paramayānuparindanayā / tena hi subhūte
+            śṛṇu sādhu ca suṣṭhu ca manasikuru bhāṣiṣye / yathā bodhisatvayānasaṃprasthitena sthātavyaṃ
+            / yathā pratipattavyam / yathā cittaṃ pratigṛhītavyam / evaṃ bhagavann i<span class="it">ty āyu</span>ṣmān subhūtir bhagavataḥ pratyaśrauṣīt /</p>
+         
+         
+         <p>Vaj 3M folio 27v6-28v1 (Cz 28.17-29.7; P 179.24-180.10)
+            bhagavāṃs tān etad avocat / iha subhūte bodhisatvayānasaṃprasthitair evaṃ cittam utpādayitavyam
+            / yāvaṃtaḥ satvāḥ satvasaṃgraheṇa saṃgṛhītaḥ aṇḍajā vā jarāyujā vā saṃsvedajā vā upapādukā
+            vā rūpiṇo vā arūpiṇo vā saṃjñino vā asaṃjñino vā naiva saṃjñino nāsaṃjñinaḥ yāvat
+            satvadhātuḥ prajñapyamānaḥ prajñapyate te mayā sarve anupadhiśeṣe nirvāṇadhātau parini<span class="it">rvā</span>payitavyāḥ <span class="it">/</span> evam aparimāṇāṃś ca satvān parini<span class="it">r</span>vāpayitavyāḥ na ca kaścit satva<span class="it">ḥ</span> parinirvāpito bhavati / tat kasmād dhetoḥ <span class="it">/</span> sacet subhūte bodhisatvasya satvasaṃjñā pravartate na sa bodhisatva iti vaktavyaḥ
+            <span class="it">/</span> tat kasya hetoḥ <span class="it">/</span> na sa subhūte bodhisatvo vaktavyo yasya satvasaṃjñā pravarteta jīvasaṃjñā vā pudgalasaṃjñā
+            vā pravarteta <span class="it">/</span></p>
+         
+         
+         <p>Vaj 4; folio 28v1-29r5 (Cz 29.8-30.5; P 180.10-15)
+            api tu khalu punaḥ subhūte bodhisatvena <span class="it">na va</span>stupratiṣṭhitena dānaṃ dātavyam / na kvacitpratiṣṭhitena dānaṃ <span class="it">dā</span>tavyam / na rūpapratiṣṭhitena dānaṃ dātavyam na śabdagandharasaspraṣṭavyeṣu na dharmapratiṣṭhitena
+            dānaṃ dātavyam / evaṃ hi subhūte bodhisatvena dānaṃ dātavyam / yathā na nimittasaṃjñāyāṃ
+            prati<span class="it">ti</span>ṣṭhet / tat kasya hetoḥ <span class="it">/</span> yaḥ subhūte bodhisatvaḥ apratiṣṭhito dānaṃ dadāti <span class="it">ta</span>sya subh<span class="it">ū</span>te puṇyaskandhasya na sukaraṃ pramāṇam udgrahītum / tat kiṃ manyase subh<span class="it">ū</span>te sukaraṃ <span class="it">pū</span>rv<span class="it">a</span>syāṃ diśi ākāśasya pramāṇam udgrahītum / subhūtir āha / no hīdaṃ bhagavan / evaṃ dakṣiṇapaścimottarā<span class="it">sv adha</span> ūrdhvaṃ vidikṣu-r-avidikṣu / daśasu dikṣu / sukaram ākāśasya pramāṇam udgrahītum
+            / subhūtir āha / na hīdaṃ bhagavan / <span class="it">bhagavān</span> āha / evam eta<span class="it">t</span> subhūte / evam etat subhūte yo bodhisatvo 'pratiṣṭhito dānaṃ dadāti tasya puṇyaskandhasya
+            na sukaraṃ pramāṇam udgrahītum / api tu khalu punaḥ subhūte evaṃ bodhisatvena dānamayaṃ
+            puṇyakṛyāvastuṃ dānaṃ dātavyam /</p>
+         
+         
+         <p>Vaj 5; folio 29r5-v4 (Cz 30.6-14)
+            tat kiṃ manyase subhūte tathāgato lakṣaṇasaṃpadā draṣṭavyaḥ <span class="it">/</span> bhagavān āha na lakṣaṇasaṃpadā tathāgato draṣṭavyaḥ <span class="it">/</span> tat kasya hetoḥ <span class="it">/</span> yā sā tathāgatena lakṣaṇasaṃpad bhāsitā saivālakṣaṇasaṃpat / evam ukte bhagavān āyuṣmaṃtaṃ
+            subhūtim etad avocat / y<span class="it">ā</span>vat su<span class="it">bhū</span>te lakṣaṇaṃ tāvan mṛṣā / yāvad alakṣaṇaṃ tāvad amṛṣā <span class="it">/</span> iti hi lakṣaṇālakṣaṇataḥ tathāgato draṣṭavyaḥ //</p>
+         
+         
+         <p>Vaj 6; folio 29v4-31v6 (Cz 30.15-32.5)
+            evam ukte āyuṣmān subhūti<span class="it">r</span> bhagavaṃtam etad avocat / asti bhagavan kecit satvāḥ bhaviṣyaṃty anāgate 'dhvani
+            paścimāyāṃ paṃcāśatyā<span class="it">ṃ</span> vartamānāyāṃ ye imeṣv eva<span class="it">ṃ</span>rūpeṣu sūtrāṃtapadeṣu bhāṣyamāṇeṣu bhūtasaṃjñām utpādayiṣyaṃti / bhagavān āha / mā
+            tvaṃ subhūte <span class="it">e</span>vaṃ vocat / a<span class="it">sti</span> kecit satvāḥ bhaviṣya<span class="it">ṃ</span>ty anāgate 'dhvani ye imeṣv evaṃrūpeṣu sūtrāṃtapadeṣu bhāṣyamāṇeṣu bhūtasaṃjñām utpādayiṣyaṃti
+            / api tu khalu punaḥ subhūte bhaviṣyaṃty anāgate 'dhvani bodhisatvā mahāsatvā paścimāyāṃ
+            paṃcāśatyāṃ saddharmavipralope vartamāne śīlavaṃto guṇavaṃtaḥ prajñāva<span class="it">ṃ</span>to bhaviṣyaṃti / na khalu punaḥ subhūte bodhisatvā ekabuddhaparyupāsitā bhaviṣyaṃti
+            / naikabuddhāvaropitakuśalamūlā bhaviṣyaṃti / api tu khalu punaḥ subhūte anekabuddhaparyupāsitā
+            bhaviṣyaṃti anekabuddhāvaropitakuśalamūlā bhaviṣyaṃti / ye imeṣv eva<span class="it">ṃ</span>rūpeṣu sūtrā<span class="it">ṃ</span>tapadeṣu bhāṣyamāṇeṣv ekacittaprasādamātram api pratilapsyaṃte / jñātās te subhūte
+            tathāgatena dṛṣṭās te subhūte tathāgatena sarve te aprameyaṃ puṇyaskaṃdhaṃ prasaviṣyaṃti
+            pratigṛhīṣyaṃti <span class="it">/</span> tat kasya hetoḥ <span class="it">/</span> na hi teṣā<span class="it">ṃ</span> subhūte bodhisatvānām ātmasaṃjñā pravartsyate na satvasaṃ<span class="it">jñā</span> na jīvasaṃjñā na pudgalasaṃjñā pravartsyate / nāpi teṣāṃ subhūte bodhisatvānāṃ dharmasaṃjñā
+            pravartsyate nādharmasaṃjñā nāpi teṣāṃ saṃjñā nāsaṃjñā pravartsyate / tat kasya hetoḥ
+            <span class="it">/</span> sace<span class="it">t</span> subhūte teṣāṃ bodhisatvānā<span class="it">ṃ</span> dharmasaṃjñā prav<span class="it">ar</span>tsyate sa eva teṣām ātmagrāho bhavet / satvagrāho jī<span class="it">v</span>a<span class="it">g</span>r<span class="it">ā</span>h<span class="it">aḥ pudgalagrā</span>ho bhavet / saced <span class="it">a</span>dharmasaṃjñā pravarteta sa eva teṣā<span class="it">m ātmagrāh</span>o bhavet / satvagrāho jīvagrāhaḥ pudgalagrāha iti <span class="it">/ ta</span>t <span class="it">ka</span>sya hetoḥ <span class="it">/</span> na khalu puna<span class="it">ḥ</span> subhūte dharmodgrahītavyo nādharma<span class="it">ḥ /</span> tasmād <span class="it">i</span>da<span class="it">ṃ</span> sandhāya tathāgatena bhāṣitaṃ kolopamaṃ dharmaparyāyam ājānadbhiḥ dharmāḥ eva prahātavyāḥ
+            prāg evādharmāḥ /</p>
+         
+         
+         <p>Vaj 7; folio 31v6-32vl (Cz 32.6-33.2)
+            punar aparaṃ bhagavān āyuṣmaṃtaṃ subhūtim etad avocat / tat ki<span class="it">ṃ</span> manyase subhūte kācit tathāgatenānuttarā samyaksaṃbodhir abhisaṃbuddhā / kaścid vā
+            dharmas tathāgatena deśitaḥ // subhūtir āha / yathāhaṃ bhagavan bhagavato bhāṣitasyārtham
+            ājānāmi nāsti sa kaścid dha<span class="it">r</span>m<span class="it">o ya</span>s tathāgatenānuttarā samyaksaṃbodhir abhisaṃbuddhā / nāsti sa kaścid dharmo y<span class="it">as tathā</span>g<span class="it">at</span>ena deśitaḥ <span class="it">/</span> tat kasya hetoḥ <span class="it">/</span> yo 'sau tathāgatena dharmo deśit<span class="it">aḥ / agrāhyaḥ s</span>o 'nabhilapyaḥ <span class="it">/</span> na sa dharmo nādharmaḥ <span class="it">/</span> tat kasya hetoḥ <span class="it">/</span> asaṃskṛtaprabhāvitā hy āryapudgalāḥ <span class="it">/</span></p>
+         
+         
+         <p>Vaj 8; folio 32vl-34rl (Cz 33.3-26)
+            tat kiṃ manyase subhūte ya imāṃ tṛsāhasramahāsāhasr<span class="it">āṃ</span> lokadhātuṃ saptaratnapratipūrṇaṃ kṛtvā dānaṃ dadyāt / tat kiṃ manyase subhūte api
+            nu sa kulaputro vā kuladuhitā vā tatonidānaṃ bahu puṇyaṃ prasunuyāt / subhūtir āha
+            / bahu bhagavan bahu sugata / sa kulaputro vā kuladuhitā vā tatonidān<span class="it">a</span>ṃ bahu puṇyaṃ <span class="it">pra</span>sunuyāt <span class="it">/</span> tat kasya hetoḥ <span class="it">/</span> sa eva bhagavann askandhaḥ <span class="it">/ tas</span>m<span class="it">ā</span>t tathāgato bhāṣate puṇyaskandhaḥ askandha iti bhagavān āha / yaś ca khalu punaḥ subhūte
+            kulaputro vā kuladuhitā vā imāṃ tṛsāhasrāmahāsāhasrāṃ lokadhātuṃ saptaratnapratipūrṇaṃ
+            kṛtvā dānaṃ dad<span class="it">y</span>āt / yaś ceto dharmaparyāyad aṃtaśaś catuṣpadikām api gāthām udgṛhya parebhyo deśayet
+            saṃprakāśayed ayam eva tatonidānaṃ bahutaraṃ puṇyaṃ prasunuyāt / aprameyam asaṃkhyeyaṃ
+            <span class="it">/</span> tat kasya hetoḥ <span class="it">/</span> ato nirjātā hi subhūte tathāgatānām anuttarā samyaksaṃbodhiḥ <span class="it">/</span> ato nirjātāś ca buddhā bhagava<span class="it">ṃ</span>taḥ <span class="it">/</span> tat kasmād dhetoḥ <span class="it">/</span> buddhadharmāḥ buddhadhannā iti subhūte abuddhadharmāś caiva te /</p>
+         
+         
+         <p>Vaj 9a; folio 34rl-5 (Cz 33.26-34.11)
+            tat kiṃ manyase subhūte / api nu srotāpannasya evaṃ bhavati mayā srotāpattiphalaṃ
+            prāptam iti / subhūtir āha / no hīdaṃ bhagavan <span class="it">/</span> bhagavān āha / tat kasya hetoḥ <span class="it">/</span> na hi sa bhagavan kiṃcid āpanna<span class="it">ḥ /</span> tenocyate srotāpanna iti / na rūpam āpanno na śabdā<span class="it">n</span> na gandhā<span class="it">n</span> na rasān na spraṣṭavyān na dharmān āpannaḥ <span class="it">/</span> tenocyate srotāpanna iti /</p>
+         
+         
+         <p>Vaj 9b; folio 34vl-35rl (Cz 34.12-18)
+            bhagavān āha / tat kiṃ manyase subhūte api nu sakṛdāgāminaḥ evaṃ bhaven mayā sakṛdāgāmiphalaṃ
+            prāptam iti / subhūtir āha / no hīdaṃ bhagavan <span class="it">/</span> bhagavān āha / tat kasya hetoḥ <span class="it">/</span> na sakṛdāgāmino evaṃ bhavati mayā sakṛdāgāmiphalaṃ prāptam iti / tat kasmād dhetoḥ
+            <span class="it">/</span> na hi sa kaścid dharmaḥ yaḥ sakṛdāgāmitvam āpannaḥ <span class="it">/</span> te<span class="it">noc</span>y<span class="it">ate sak</span>ṛdāgāmīti /</p>
+         
+         
+         <p>Vaj 9c; folio 35rl-4 (Cz 34.19-25)
+            bhagavān āha / tat kiṃ manyase subhūte api nv anāgāmina evaṃ bhavati mayā anāgāmiphalaṃ
+            prāptam iti <span class="it">/</span> tat kasya hetoḥ <span class="it">/</span> na sa kaścid dharmaḥ yo 'nāgāmīti / samanupaśyati / tenocyate anāgāmīti /</p>
+         
+         
+         <p>Vaj 9d; folio 35r4-v2 (Cz 34.26-35.6)
+            bhagavān āha / tat kiṃ manyase subhūte / api nv arhato evaṃ bhavati mayārhatvaṃ prāptam
+            iti / subhūtir āha / no hīdaṃ bhagavan / tat ka<span class="it">sya h</span>e<span class="it">t</span>o<span class="it">ḥ / na</span> hi bhagavan sa kaścid dharmo yo 'rhan nāmaḥ <span class="it">/</span> saced bhagavann arha<span class="it">ta evaṃ bha</span>v<span class="it">en</span> m<span class="it">ayārha</span>tv<span class="it">aṃ p</span>r<span class="it">ā</span>ptam iti / sa eva tasyātmagrāho bhavet / satvagrāho j<span class="it">īva</span>grāhaḥ pudgalagrāho bhavet /</p>
+         
+         
+         <p>Vaj 9e; folio 35v2-36rl (Cz 35.6-14)
+            aham asmi bhagavan / // tathāgatenārhatā samyaksaṃbuddhenāraṇavihāriṇām agryo nirdiṣṭaḥ
+            <span class="it">/</span> aham asmi bhagavann arhan vigatarāgaḥ <span class="it">/</span> na ca me bhagavann evaṃ bhavati aham asmi arhann iti / sacen mama bhagavann evaṃ
+            bhaven mayārhatvaṃ prāptam iti / na me tathāgato vyākariṣyati / araṇā<span class="it">v</span>i<span class="it">h</span>ā<span class="it">r</span>i<span class="it">nām a</span>grya iti subhūti<span class="it">ḥ</span> / kulaputro na kvacid viharati / tenocyate / araṇāvihārīti araṇāvihārīti /</p>
+         
+         
+         <p>Vaj 10a; folio 36rl-4 (Cz 35.15-20)
+            bhagavān āha / tat kiṃ manyase subhūte / kaścid dharmas tathāgatena dīpaṃkarāt tathāgatā<span class="it">d a</span>rhata<span class="it">ḥ</span> samyaksaṃbuddhād udgṛhītaḥ <span class="it">/</span> subhūtir āha / no hīdaṃ bhagavan <span class="it">/</span> bhagavān āha / na sa kaścid dharmaḥ tathāgatena dīpaṃkarāt tathāgatād arhataḥ samyaksaṃbuddhād
+            udgṛhītaḥ <span class="it">/</span></p>
+         
+         
+         <p>Vaj 10b; folio 36r4-v2 (Cz 35.21-25; P 180.17)
+            bhagavān āha / ya<span class="it">ḥ</span> kaścit subhūte bodhisatvo evaṃ vaded ahaṃ kṣetravyūhān niṣpādayiṣyāmīti sa vitatha<span class="it">ṃ</span> vadet / tat kasya hetoḥ <span class="it">/</span> kṣetravyūhā<span class="it">ḥ</span> kṣetravyūhā iti subhūte avyūhā hy ete tathāgatena bhāṣitā<span class="it">ḥ /</span> tenocyaṃte kṣetravyūhā iti <span class="it">/</span></p>
+         
+         
+         <p>Vaj 10c; folio 36v2-37r3 (Cz 35.25-36.12; P 180.17-181.1)
+            tasmāt tarhi subhūte bodhisatvena evaṃ cittam utpādayitavyaṃ apratiṣṭhitaṃ <span class="it">/</span> na rūpapratiṣṭhitaṃ cittam utpādayitavyaṃ / na śabdagandharasaspraṣṭavyadharmapratiṣṭhitaṃ
+            cittam utpādayitavyam / na kvacitpratiṣṭhitaṃ cittam utpādayitavyam / tad yathā<span class="it">p</span>i nāma subhūte puruṣo bhavet / yasyaivaṃrūpa ātmabhāvaḥ syāt tad yathāpi <span class="it">nāma su</span>meruḥ parvatarājā / tat ki<span class="it">ṃ</span> manyase subhūte mahān sa ātmabhāvo bhavet / subhūtir āha / mahān bhagavaṅ mahā<span class="it">n</span> sugata / <span class="it">sa ā</span>tmabhāvo bhavet / bhagavan / tat kasya hetoḥ <span class="it">/</span> abhāvaḥ sa tathāgatena bhāṣitaḥ <span class="it">/</span> tenocyate ātmabhāva iti / na hi sa bhāvaḥ <span class="it">/</span> tenocyate ātmabhāva iti / //</p>
+         
+         
+         <p>Vaj 11; folio 37r3-38r2 (Cz 36.13-37.10; P 181.1-13)
+            bhagavān āha / tat kiṃ manyase subhūte yāvaṃtyo gaṃgānadyāṃ vālukās tāvaṃtya eva gaṃgānadyo
+            bhaveyuḥ <span class="it">/</span> api nu tāsu bahvyo vālukā bhaveyuḥ <span class="it">/</span> subhūtir āha / tā eva tāvad bhagavan bahvyo gaṃgānadyo bhaveyuḥ prāg eva yās tāsu
+            vālukāḥ <span class="it">/</span> bhagavān āha / ārocayāmi te subhūte prativedayāmi te yāvaṃtyas tāsu gaṃgānadīṣu vālukā
+            bhaveyuḥ <span class="it">/</span> tāvaṃtyo lokadhātavaḥ kaścid eva strī vā puruṣo vā saptaratnapratipūrṇaṃ kṛtvā tathāgatebhyo
+            'rhadbhyaḥ samyaksaṃbuddhebhyo dānaṃ dadyāt / tat kiṃ manyase subhūte <span class="it">/</span> api nu sā strī vā puruṣo vā tatonidānaṃ bahu puṇyaṃ prasunuyāt / subhūtir āha / bahu
+            bhagavan bahu sugata / sā strī vā puruso vā tatonidānaṃ bahu puṇyaṃ prasunuyāt <span class="it">/</span> bhagavān āha / yaś ca khalu punaḥ subhūte tāvaṃtyo lokadhātavaḥ saptaratnapratipūrṇaṃ
+            kṛtvā dānaṃ dadyāt / yaś ceto dharmaparyāyād aṃtaśaś catuṣpadikām api gāthām udgṛhya
+            parebhyo deśayet / ayaṃ tato bahutaraṃ puṇyaṃ pra<span class="it">sunuyād apra</span>meyam asaṃkhyeyam /</p>
+         
+         
+         <p>Vaj 12; folio 38r2-vl (Cz 37.10-19; P 181.13-182.3)
+            api tu khalu subhūte yasmin pṛthivīpradeśe ito dharmaparyāyād aṃtaśaś catuṣpadikām
+            api gāthāṃ bhāṣyeta vā deśyeta vā sa pṛthivīpradeśaś caityabhūto bhavet / sadevamānuṣāsurasya
+            lokasya kaḥ punar vādaḥ subhūte ya imaṃ dharmaparyāyaṃ dhārayiṣyaṃti parameṇa te āścaryeṇa
+            samanvāgatā bhaviṣyaṃti / tasmiṃś ca pṛthivīpradeśe śāstā viharaty anyatarānyataro
+            vā gurusthānīyaḥ <span class="it">/</span></p>
+         
+         
+         <p>Vaj 13a; folio 38vl-5 (Cz 37.20-38.2; P 182.3-8)
+            evam ukte āyuṣmān subhūtir bhagavaṃtam e<span class="it">ta</span>d avocat / ko nāmāyaṃ bhagavan dharmaparyāyaḥ kathaṃ cainaṃ dhārayāmi / evam ukte
+            bhagavān āyuṣmaṃtaṃ subhūtim etad avocat / prajñāpāramitā nāmāya<span class="it">ṃ</span> subhūte dharmaparyāyaḥ <span class="it">/</span> evam cainaṃ dhāraya / tat kasya hetoḥ <span class="it">/</span> yaiva subhū<span class="it">te</span> prajñāpāramitā tathāgatena bhāṣitā / saivāpāramitā /</p>
+         
+         
+         <p>Vaj 13b; folio 38v5-39rl (Cz 38.3-6; Pl82.8-10)
+            tat kiṃ manyase subhūte api nu sa kaści<span class="it">d</span> dharmo tathāgatena bhāṣitaḥ <span class="it">/</span> subhūtir āha <span class="it">/</span> no hīdaṃ bhagavan / na sa kaścid bhagavaṃ dharmo yaḥ tathāgate<span class="it">na</span> bhāṣita<span class="it">ḥ /</span></p>
+         
+         
+         <p>Vaj 13c; folio 39rl-6 (Cz 38.7-15; G 5al-2; P182.10-15)
+            yāvataḥ subhūte tṛsāhasramahāsāhasryāṃ lokadhātau pṛthivīrajaḥ kaccit tad bahu bhavet
+            / subhūtir āha / bahu bhagavans tat pṛthivīrajo bhavet / yat ta<span class="it">d</span> bhagavan / pṛthivīrajaḥ tathāgatena bhāṣitaḥ arajaḥ sa tathāgatena bhāṣitaḥ <span class="it">/</span> tad ucyate pṛthivīraja iti / yā sā lokadhātur adhātuḥ sā tathāgatena bhāṣitaḥ <span class="it">/</span> tad ucyate lokadhātur iti / //</p>
+         
+         
+         <p>Vaj 13d; folio 39r6-v4 (Cz 38.16-24; G 5a2-3; P 182.15-20)
+            bhagavān āha / tat kiṃ manyase subhūte dvātṛṃśadbhir ma<span class="it">h</span>āpuruṣalakṣaṇaiḥ tathāgato 'rhan samyaksaṃbuddho draṣṭavya<span class="it">ḥ</span> / subhūtir āha / no hīdaṃ bhagavan / tat kasya hetoḥ <span class="it">/</span> yāni tāni bhagavan dvātṛṃśanmahāpura<span class="it">ṣa</span>lakṣaṇāni tathāgatena bhāṣitāny alakṣaṇāni ta<span class="it">thā</span>gatena bhāṣitāni tasmād ucyaṃte dvātṛṃśanmahāpuruṣalakṣaṇānīti /</p>
+         
+         
+         <p>Vaj 13e; folio 39v4-40rl (Cz 39.1-8; G 5a3-5; P 182.20-183.3)
+            bhagavān āha / yaś ca khalu punaḥ subhūte strī vā puruṣo vā gaṃgānadīvālukopamān ātmabhāvān
+            parityajet / yaś ceto dharmaparyāyāc catuṣpadikām api gāthām udgṛhya parebhyo deśayet
+            / ayaṃ tatonidānaṃ bahutaraṃ puṇyaṃ pra<span class="it">sunuyād apra</span>meyam asaṃkhyeyam /</p>
+         
+         
+         <p>Vaj 14a; folio 40rl-vl (Cz 39.9-21; G 5a5-5bl; P 183.3-10 )
+            atha khalv āyuṣmān subhūtiḥ dharmapravegenāśrūṇi prāmuṃcat / pravartayaṃ so 'śrūṇi
+            parimārjya bhagavaṃtam etad avocat / āścaryaṃ bhagavan / paramāścaryaṃ sugata / yāvad
+            ayaṃ dharmaparyāyaḥ tathāgatena bhāṣitaḥ <span class="it">/</span> yato me bhagavan / jñānam utpannaṃ na mayā jātv eva dharmaparyāyaḥ śrutapūrvaḥ <span class="it">/</span> parameṇa te bhagavan / āścaryeṇa samanvāgatā bhaviṣyaṃti ya iha sūtre bhāṣyamāṇe
+            bhūtasa<span class="it">ṃ</span>jñām utpādayiṣyaṃti <span class="it">/</span> yā caiṣā bhagavan / bhūtasaṃjñā saivāsaṃjñā tasmā<span class="it">t</span> tathāgato bhāṣate bhūtasaṃjñā bhūtasaṃjñeti /</p>
+         
+         
+         <p>Vaj 14b; folio 40vl-4 (Cz 40.1-8; G 5bl-2; P 183.10-16)
+            na mama bhagavann āścaryaṃ yad ahaṃ dharmaparyāyaṃ bhāṣyamāṇam avakalpayāmy adhimucyāmi
+            / ye te bhagavann imaṃ dharmaparyāyam udgṛhīṣyaṃti paryavāpsyaṃti dhā<span class="it">ra</span>yiṣyaṃti / te paramāścaryasamanvāgatā bhaviṣyaṃti / //</p>
+         
+         
+         <p>Vaj 14c; folio 40v4-41rl (Cz 40.9-15; G 5b2-3; P 183.16-184.3)
+            api tu khalu punaḥ bhagavan na teṣām ātmasaṃjñā pravartsyate / na satvasaṃjñā na jīvasaṃjñā
+            / na pudgalasaṃjñā pravartsyate / tat kasya heto<span class="it">ḥ</span> yāsāv ātmasaṃjñā saivāsaṃjñā <span class="it">/</span> yā satvasaṃjñā jīvasaṃjñā pudgalasaṃjñā saivāsaṃjñā / tat kasya hetoḥ <span class="it">/</span> sarvasaṃjñāpagatā hi buddhā bhagava<span class="it">ṃta</span>ḥ //</p>
+         
+         
+         <p>Vaj 14d; folio 41rl-vl (Cz 40.16-41.4; G 5b3-5; P 184.4-9)
+            evam ukte bhagavān āyuṣmaṃtaṃ subhūtim etad avocat / evam etat subhūte evam etat subhūte
+            paramā<span class="it">śca</span>ryasamanvāgatās te satvā bhaviṣyaṃti / ya iha sūtre bhāṣyamāṇe śrutvā nottrasiṣyaṃti
+            / na saṃtrasiṣyaṃti / <span class="it">na</span> saṃtrāsam āpatsyaṃte <span class="it">/</span> tat kasya hetoḥ <span class="it">/</span> paramapāramiteyaṃ subhūte tathāgatena bhāṣitā <span class="it">/</span> yā<span class="it">ṃ</span> ca tathāgataḥ paramapāramitāṃ bhāṣate tām aparimāṇā buddhā bhagavaṃto bhāṣaṃte <span class="it">/ te</span>nocyate paramapāramiteti /</p>
+         
+         
+         <p>Vaj 14e; folio 41vl-42v3 (Cz 41.5-42.5; G 5b5-7; P 184.10-185.4)
+            api tu khalu punaḥ subhūte yā tathāgatasya kṣāṃtipāramitā saivāpāramitā <span class="it">/</span> tat kasya hetoḥ <span class="it">/</span> yadā me subhūte kaliṃgarājā aṃgapratyaṃgāny a<span class="it">c</span>chetsīn nāsīn me tasmin samaye ātmasaṃjñā vā satvasaṃjñā vā jīvasaṃjñā vā pudgalasaṃjñā
+            vā na me kācit saṃjñā nāsaṃjñā babhūva <span class="it">/</span> tat kasya hetoḥ <span class="it">/</span> sacet subhūte mama tasmin samaye ātmasamjñābhaviṣyat / vyāpādasaṃjñāpi me 'bhaviṣyat
+            tasmin samaye <span class="it">/</span> abhijānāmy ahaṃ subhūte atīte 'dhvani paṃca jātiśatāni yad ahaṃ kṣāṃtivādī riṣir
+            abhū tadāpi me nātmasaṃjñā babhūva / na satvasaṃjñā na jīvasaṃjñā na pudgalasaṃjñā
+            / tasmāt tarhi subhūte bodhisatvena mahāsatvena sarvasaṃjñā vivarjayitvānuttarāyāṃ
+            s<span class="it">am</span>y<span class="it">a</span>ksaṃbodhau cittam utpādayitavyam / na rūpapratiṣṭhitaṃ cittam utpādayitavyam / na
+            śabdagandharasaspraṣṭavyapratiṣṭhitaṃ cittam utpādayitavyam / na dharmapratiṣṭhitaṃ
+            cittam utpādayitavyam / nādharmapratiṣṭhitaṃ cittam utpādayitavyam / na kvacitpratiṣṭhitaṃ
+            cittam utpādayitavyam / tat kasmād dhetoḥ <span class="it">/</span> yat pratiṣṭhi<span class="it">ta</span>ṃ tad evāpratiṣṭhi<span class="it">ta</span>ṃ <span class="it">/</span> tasmād eva tathāgato bhāṣate rūpāpratiṣṭhitena dānaṃ dātavyam /</p>
+         
+         
+         <p>Vaj 14f; folio 42v3-43rl (Cz 42.5-12; P 185.4-8)
+            api tu khalu punaḥ subhūte bodhisatvenaivaṃ dānaparityāgaḥ parityajyaḥ sarvasatvānām
+            arthāya <span class="it">/</span> yaiva ca satvasaṃjñā sa evāsaṃjñā / ya eva te sarvasatvā<span class="it">ḥ</span> tathāgatena bhāṣitāḥ ta evāsatvāḥ <span class="it">/</span> bhūtavādī subhūte tathāgataḥ satyavādī tathāvādī tathāgato na vitathāvādī tathāgato
+            /</p>
+         
+         
+         <p>Vaj 14g; folio 43rl-6 (Cz 42.12-20; P 185.8-14)
+            api tu khalu punaḥ subhūte yaḥ tathāgatena dharmo 'bhisaṃbuddho deśito vā na tatra
+            satyaṃ na mṛṣā <span class="it">/</span> tad yathāpi nāma subhūte puruṣo 'ndhakārapraviṣṭaḥ <span class="it">/</span> evaṃ vastupatito bo<span class="it">dh</span>isatvo draṣṭavyo yo vastupatitaṃ dānaṃ parityajati / tad yathāpi nāma subhūte cakṣuṣmān
+            puruṣo <span class="it">v</span>i<span class="it">bh</span>ā<span class="it">t</span>āyā<span class="it">ṃ</span> rātryā<span class="it">ṃ</span> sūrye 'bhyudgate nānāvidhāni rūpāṇi paśyet / evaṃ bodhisatvo draṣṭavyo yo vastvapatitaṃ
+            dānaṃ parityajati /</p>
+         
+         
+         <p>Vaj 14h; folio 43r6-v3 (Cz 42.20-43.7; P 185.14-18)
+            api tu khalu punaḥ subhūte ye kulaputrā vā kuladuhitaro vā imaṃ dharmaparyāyam udgrahīṣyaṃti
+            / dhāra<span class="it">yi</span>ṣyaṃti / vāc<span class="it">a</span>yiṣyaṃti <span class="it">/</span> paryavāpsyaṃti / jñātās te subhūte tathāgatena dṛṣṭās te subhūte tathāgatena buddhās
+            te tathāgatena <span class="it">/</span> sarve te satvāḥ aprameyaṃ puṇyaskandhaṃ prasaviṣyaṃti /</p>
+         
+         
+         <p>Vaj 15a; folio 43v3-44r5 (Cz 43.8-19; P 185.18-186.4)
+            yaś ca khalu punaḥ subhūte strī vā puruṣo vā pūrvāhṇakālasamaye gaṃgānadīvālukopamān
+            ātmabhāvān parityajet / madhyāhṇakālasamaye sāyāhṇakālasamaye gaṃgānadīvālukopamān
+            ātmabhāvā<span class="it">n</span> parityajet / anena paryāyeṇa kalpakoṭīnayutaśa<span class="it">ta</span>sahasrāṇy ātmabhāvān parityajet / yaś cemaṃ dharmaparyāyaṃ śrutvā / na pratikṣiped
+            ayam eva tatonidānaṃ bahutaraṃ puṇyaskandhaṃ prasunuyāt / aprameyam asaṃkhyeyam /
+            kaḥ punar vādaḥ yo Iikhitvodgṛhṇ<span class="it">ī</span>yāt / dhārayet / vācayet / paryavāpnuyāt / parebhyaś ca vistareṇa saṃprakāśayet /</p>
+         
+         
+         <p>Vaj 15b; folio 44r5-45r4 (Cz 43.19-44.13; G 7al-2; P 186.5-17)
+            api tu subhūte aciṃtyo 'tulyo 'ya<span class="it">ṃ</span> dharmaparyāyaḥ <span class="it">/</span> ayaṃ ca dharmaparyāyaḥ tathāgatena bhāṣitaḥ agrayānasaṃprasthitānāṃ satvānā<span class="it">m a</span>r<span class="it">th</span>āya / śreṣṭhayānasaṃprasthitānāṃ satvānām arthāya / ye i<span class="it">maṃ</span> dharmaparyāyam udgrahīṣyaṃti / dhārayiṣyaṃti / vācayiṣya<span class="it">ṃ</span>ti <span class="it">/</span> paryavāpsyaṃti / jñātās te subhūte tathāgatena dṛṣṭās te subhūte tathāgatena <span class="it">/</span> sarve te satvāḥ aprameyeṇa puṇyaskandhena samanvāgatā bhaviṣyaṃti / aciṃtyenātulyenāmāpyenāparimāṇena
+            puṇyaskandhena samanvāgatā bhaviṣyaṃti / tat kasya heto<span class="it">ḥ</span> / na hi ś<span class="it">a</span>ky<span class="it">aṃ</span> subhūte ayaṃ dharmo hīnādhimu<span class="it">kt</span>i<span class="it">k</span>aiḥ śrotum / nātmadṛṣṭikaiḥ na satvadṛṣṭikaiḥ na jīvadṛṣṭikaiḥ na pudgaladṛṣṭikaiḥ
+            śakyaṃ śrotum udgrahītuṃ vā dhārayituṃ vā vācayituṃ vā paryavāptu<span class="it">ṃ</span> vā nedaṃ sthānaṃ vidyate <span class="it">/</span></p>
+         
+         
+         <p>Vaj 15c; folio 45r4-v2 (Cz 44.13-18; G 7a2-3; P 186.17-20)
+            api tu subhūte yatra pṛthivīpradeśe idaṃ sūtraṃ prakāśayiṣyati / pūjanīyaḥ sa pṛthivīpradeśo
+            bhaviṣya<span class="it">ti / sa</span>devamānuṣāsurasya lokasya vandanīyaḥ pradakṣiṇīkaraṇīyaś ca sa pṛthivīpradeśo bhaviṣyati
+            / cai<span class="it">t</span>y<span class="it">a</span> sa pṛthivīpradeśo bhaviṣyati /</p>
+         
+         
+         <p>Vaj 16a; folio 45v2-46rl (Cz 44.18-45.6; G 7a3-5; P 186.20-187.3)
+            ye te subhūte kulaputrā vā kuladuhitaro vā imān evaṃrūpāṃ sūtrāṃtān udgrahīsyaṃti
+            dhārayiṣyaṃti paryavāpsyaṃti / te paribhūtā bhaviṣyaṃ<span class="it">ti</span> suparibhūtāś ca bhaviṣyaṃti / // yāni teṣāṃ satvānāṃ paurvajanmikāni karmāṇi kṛtāny
+            apāyasaṃvartanīyāni dṛṣṭa eva dharme paribhūtatayā pūrvajanmik<span class="it">āny aśubhān</span>i karmāṇi kṣapayiṣya<span class="it">ṃ</span>ti / buddhabodhiṃ ca prāpsyaṃti /</p>
+         
+         
+         <p>Vaj 16b; folio 46rl-v4 (Cz 45.6-46.6; G 7a5-7b3; P 187.3-187.13)
+            abhijānāmy ahaṃ subhūte atīte 'dhvani asaṃkhyeye kalpe asaṃkhyeyatare dīpaṃkarasya
+            tathāgatasyārhataḥ samyaksaṃbuddhasya pareṇa parataraṃ caturaśītibuddhakoṭīnayutaśatasahasrāṇy
+            abhūvan ye mayā ārādhitā ārādhayetvā na virādhitā <span class="it">/</span> yac ca mayā subhūte buddhā bhagavaṃtaḥ ārāgitā ārāgayetvā na virāgitā yac ca carime
+            kāle paścimi<span class="it">k</span>āyaṃ paṃcā<span class="it">śa</span>tyāṃ vartamānāyām imaṃ s<span class="it">ū</span>trāṃtam <span class="it">u</span>d<span class="it">gra</span>hīṣ<span class="it">ya</span>ṃti dhāra<span class="it">y</span>i<span class="it">ṣya</span>ṃ<span class="it">t</span>i v<span class="it">āca</span>yi<span class="it">ṣya</span>ṃ<span class="it">t</span>i <span class="it">pa</span>ryavāpsyaṃti / asya subhūt<span class="it">e</span> puṇyaska<span class="it">n</span>dh<span class="it">a</span>sy<span class="it">āṃ</span>t<span class="it">i</span>k<span class="it">ā</span>d <span class="it">e</span>ṣa pū<span class="it">r</span>v<span class="it">a</span>k<span class="it">aḥ puṇyaskandhaḥ śatatamī</span>m api kalā<span class="it">ṃ</span> nopaiti sāhasṛtamām api / śatasāha<span class="it">sṛ</span>tamām a<span class="it">p</span>i / k<span class="it">o</span>ṭ<span class="it">īśatasāha</span>sṛtamām api / saṃkhyām api kalām api gaṇanām api upamām api <span class="it">u</span>paniśām api na kṣamate /</p>
+         
+         
+         <p>Vaj 16c; folio 46v4-6 (Cz 46.6-11; G 7b3-4; P 187.13-14)
+            <span class="it">sace</span>t subhūte teṣāṃ kulaputrāṇāṃ kuladuhi<span class="it">t</span>ṝ<span class="it">ṇāṃ</span> vā puṇyaskandhaṃ bhāṣet / yāva<span class="it">ṃ</span>taḥ te kula<span class="it">p</span>utrā vā kuladuhitaro vā tasmin samaye <span class="it">pu</span>ṇyaskandha<span class="it">ṃ</span> pratigṛhṇaṃti / unm<span class="it">ā</span>d<span class="it">a</span>ṃ te satvāḥ prāpnuyuḥ cittavikṣepaṃ vā gacche<span class="it">yuḥ /</span></p>
+         
+         
+         <p>[Here the manuscript breaks off.]</p>
+         
+         </div>
+   </body>
+</html>

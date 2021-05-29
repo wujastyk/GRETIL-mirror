@@ -1,0 +1,1293 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Brahmagupta: Brāhmasphuṭasiddhānta (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Brahmagupta: Brāhmasphuṭasiddhānta</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_brahmagupta-brAhmasphuTasiddhAnta.xml">sa_brahmagupta-brAhmasphuTasiddhAnta.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Takao Hayashi</p>
+      <p class="noindent"><b>Contribution: </b>Takao Hayashi</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>S. Dvivedin's edition, Benares 1902.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="note">remarks</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/8_jyot/brsphutu.htm">brsphutu.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Brahmagupta (A.D.628):
+            <br />Brahmasphutasiddhanta
+            <br />
+            <br />Input by Takao Hayashi, 18 June 1993.
+            <br />Based on S. Dvivedin's edition, Benares 1902.
+            <br />Revised 29 June 1993.
+            <br />
+            <br />The Brahmasphutasiddhanta consists of 24 chapters, but this digitalized version contains
+            mathematical chapters only, that is,
+            <br />1. Chpater 12 (ganita),
+            <br />2. Chapter 18 (kuttaka),
+            <br />3. Chapter 19 (sanku-chaya-vijnana),
+            <br />4. Chapter 20 (chandas-citi-uttara), and
+            <br />5. jna-prakarana (stanzas 17--23) of Chpater 21 (gola).
+            <br />
+            <br />Notation (local rules)
+            <br />[D: x &gt; y] indicates that Dvivedin, the editor, suggests the reading, y, instead of
+            x.
+            <br />In Chapter 18:
+            <br />[Cb.n] indicates that the stanza is given the number, n, in Colebrooke's translation.
+            <br />[Cb.@] indicates that the stanza does not exist in Colebrooke's translation.
+            <br />Otherwise, the stanza number coincides with Colebrooke's one.
+            <br />(Colebrooke's translation is available for Chapters 12 and 18 only. In Chapter 12,
+            all the stanza numbers given by Dvivedin coincide with Colebrooke's .)
+            As Chapter 20, on combinatrics concerning Sanskrit prosody, has not been deciphered
+            yet, the text of that chapter is left exactly as i<br />t is in Dvivedin's edition without decomposition of compounds and sandhi.
+            </p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>[atha gaṇita-adhyāyas]</p>
+         
+         <p>[parikarma-viṃśatis]</p>
+         
+         <p id="BSS_12.1">
+            parikarma-%viṃśatim yas saṅkalita-ādyām pṛthak vijānāti/<br />
+            %aṣṭau ca vyavahārān chāyā-antān bhavati gaṇakas sas//
+             <span class="ref">BSS_12.1</span></p>
+         
+         <p id="BSS_12.2">
+            viparīta-cheda-guṇās rāśyos cheda-aṃśakās sama-chedās/<br />
+            saṅkalite aṃśās yojyās vyavakalite aṃśa-antaram kāryam//
+             <span class="ref">BSS_12.2</span></p>
+         
+         <p id="BSS_12.3">
+            rūpāṇi cheda-guṇāni aṃśa-yutāni %dvayos bahūnām vā/<br />
+            pratyutpannas bhavati cheda-vadhena uddhṛtas aṃśa-vadhas//
+             <span class="ref">BSS_12.3</span></p>
+         
+         <p id="BSS_12.4">
+            parivartya bhāga-hāra-cheda-aṃśau cheda-saṃguṇa-chedas/ <span class="note">D: parivarttya &lt; parivartya</span><br />
+            aṃśas aṃśa-guṇas bhājyasya bhāga-hāras savarṇitayos//
+             <span class="ref">BSS_12.4</span></p>
+         
+         <p id="BSS_12.5">
+            saṃvarṇita--aṃśa-vargas cheda-kṛti-vibhājitas bhavati vargas/<br />
+            saṃvarṇita-aṃśa-mūlam cheda-padena uddhṛtam mūlam//
+             <span class="ref">BSS_12.5</span></p>
+         
+         <p id="BSS_12.6">
+            sthāpyas antya-ghanas antya-kṛtis %tri-guṇa-uttara-saṅguṇā ca tad-%prathamāt/<br />
+            uttara-kṛtis antya-guṇā %tri-guṇā ca uttara-ghanas ca ghanas//
+             <span class="ref">BSS_12.6</span></p>
+         
+         <p id="BSS_12.7">
+            chedas ghanāt %dvitīyāt ghana-mūla-kṛtis %tri-saṅguṇā āpta-kṛtis/<br />
+            śodhyā %tri-pūrva-guṇitā %prathamāt ghanatas ghanas mūlam//
+             <span class="ref">BSS_12.7</span></p>
+         
+         <p id="BSS_12.8">
+            sadṛśa-cheda-aṃśa-yutis cheda-vibhaktā phalam %prathama-jātau/<br />
+            aṃśais aṃśās guṇitās chedais chedās %dvitīyāyām//
+             <span class="ref">BSS_12.8</span></p>
+         
+         <p id="BSS_12.9">
+            ūrdhva-aṃśās cheda-guṇās %tṛtīya-jātau %dvayos %prathama-parayos/<br />
+            chedais chedās guṇitās sva-aṃśa-yuta-ūnais upari-ga-aṃśās//
+             <span class="ref">BSS_12.9</span></p>
+         
+         <p id="BSS_12.10">
+            trairāśike pramāṇam phalam iccā ādi-antayos sadṛśa-rāśī/<br />
+            icchā phalena guṇitā pramāṇa-bhaktā phalam bhavati//
+             <span class="ref">BSS_12.10</span></p>
+         
+         <p id="BSS_12.11">
+            vyasta-trairāśika-phalam icchā-bhaktas pramāṇa-phala-ghātas/<br />
+            trairāśika-ādiṣu phalam viṣameṣu %ekādaśa-anteṣu//
+             <span class="ref">BSS_12.11</span></p>
+         
+         <p id="BSS_12.12">
+            phala-saṅkramaṇam ubhaya-tas bahu-rāśi-vadhas alpa-vadha-hṛtas jñeyam/<br />
+            sakaleṣu evam bhinneṣu ubhaya-tas cheda-saṅkramaṇam//
+             <span class="ref">BSS_12.12</span></p>
+         
+         <p id="BSS_12.13">
+            prāk mūlya-vyatyāsas bhāṇḍapratibhāṇḍake anyat ukta-samam/<br />
+            parikarmāṇi %aṣṭānām vyavahārāṇām abhihitāni//
+             <span class="ref">BSS_12.13</span></p>
+         
+         <p>[miśraka-vyavahāras]</p>
+         
+         <p id="BSS_12.14">
+            kāla-guṇitam pramāṇam phala-bhaktam vi-%eka-guṇa-hatam kālas/<br />
+            sva-phala-yuta-#rūpa-bhaktam mūla-phala-aikyam bhavati mūlam//
+             <span class="ref">BSS_12.14</span></p>
+         
+         <p id="BSS_12.15">
+            kāla-pramāṇa-ghātas para-kāla-hṛtas dvidhā ādya-miśra-vadhāt/<br />
+            anya-%ardha-kṛti-yutāt padam anya-%ardha-ūnam pramāṇa-phalam//
+             <span class="ref">BSS_12.15</span></p>
+         
+         <p id="BSS_12.16">
+            prakṣepa-yoga-hṛtayā labdhyā prakṣepakās guṇās lābhās/<br />
+            ūna-adhika-uttarās tad-yuta-ūnayā sva-phalam ūna-yutam//
+             <span class="ref">BSS_12.16</span></p>
+         
+         <p>[śreḍhī-vyavahāras]</p>
+         
+         <p id="BSS_12.17">
+            padam %eka-hīnam uttara-guṇitam saṃyuktam ādinā antya-dhanam/<br />
+            ādi-yuta-antya-dhana-%ardham madhya-dhanam pada-guṇam gaṇitam//
+             <span class="ref">BSS_12.17</span></p>
+         
+         <p id="BSS_12.18">
+            uttara-hīna-%dvi-guṇa-ādi-śeṣa-vargam dhana-uttara-%aṣṭa-vadhe/<br />
+            prakṣipya padam śeṣa-ūnam %dvi-guṇa-uttara-hṛtam gacchas//
+             <span class="ref">BSS_12.18</span></p>
+         
+         <p id="BSS_12.19">
+            %eka-uttaram %eka-ādyam yadi iṣṭa-gacchasya bhavati saṅkalitam/<br />
+            tat %dvi-yuta-gaccha-guṇitam %tri-hṛtam saṅkalita-saṅkalitam//
+             <span class="ref">BSS_12.19</span></p>
+         
+         <p id="BSS_12.20">
+            %dvi-guṇa-pada-sa-%eka-guṇitam tat %tri-hṛtam bhavati varga-saṅkalitam/<br />
+            ghana-saṅkalitam tad-kṛtis eṣām sama-golakais citayas//
+             <span class="ref">BSS_12.20</span></p>
+         
+         <p>[kṣetra-vyavahāras]</p>
+         
+         <p id="BSS_12.21">
+            sthūla-phalam %tri-%catur-bhuja-bāhu-pratibāhu-yoga-#dala-ghātas/<br />
+            bhuja-yoga-%ardha-%catuṣṭaya-bhuja-ūna-ghātāt padam sūkṣmam//
+             <span class="ref">BSS_12.21</span></p>
+         
+         <p id="BSS_12.22">
+            bhuja-kṛti-antara-bhū-hṛta-hīna-yutā bhūs %dvi-bhājitā āvādhe/ <span class="note">D: -kṛtyantyantara- &lt; -kṛti-antara-</span><br />
+            sva-āvādhā-varga-ūnāt bhuja-vargāt mūlam avalambas//
+             <span class="ref">BSS_12.22</span></p>
+         
+         <p id="BSS_12.23">
+            aviṣama-%catur-asra-bhuja--pratibhuja-vadhayos yutes padam karṇas/<br />
+            karṇa-kṛtis bhū-mukha-yuti-#dala-varga-ūnā padam lambas//
+             <span class="ref">BSS_12.23</span></p>
+         
+         <p id="BSS_12.24">
+            karṇa-kṛtes koṭi-kṛtim viśodhya mūlam bhujas bhujasya kṛtim/<br />
+            prohya padam koṭis koṭi-bāhu-kṛti-yuti-padam karṇas// <span class="note">D: vāhu &lt; bāhu</span>
+             <span class="ref">BSS_12.24</span></p>
+         
+         <p id="BSS_12.25">
+            karṇa-yutau ūrdhva-adhara-khaṇḍe karṇa-avalamba-yoge vā/<br />
+            sva-āvādhe sva-yuti-hṛte dvidhā pṛthak karṇa-lamba-guṇe//
+             <span class="ref">BSS_12.25</span></p>
+         
+         <p id="BSS_12.26">
+            aviṣama-pārśva-bhuja-guṇas karṇas %dvi-guṇa-avalambaka-vibhaktas/<br />
+            hṛdayam viṣamasya bhuja-pratibhuja-kṛti-yoga-mūla-%ardham//
+             <span class="ref">BSS_12.26</span></p>
+         
+         <p id="BSS_12.27">
+            %tri-bhujasya vadhas bhujayos %dvi-guṇita-lamba-uddhṛtas hṛdaya-rajjus/<br />
+            sā %dvi-guṇā %tri-%catur-bhuja-koṇa-spṛk vṛtta-viṣkambhas//
+             <span class="ref">BSS_12.27</span></p>
+         
+         <p id="BSS_12.28">
+            karṇa-āśrita-bhuja-ghāta-aikyam ubhayathā anyonya-bhājitam guṇayet/<br />
+            yogena bhuja-pratibhuja-vadhayos karṇau pade viṣame//
+             <span class="ref">BSS_12.28</span></p>
+         
+         <p id="BSS_12.29">
+            viṣama-%catur-asra-madhye viṣama-%tri-bhuja-%dvayam prakalpya pṛthak/<br />
+            karṇa-%dvayena pūrva-vat āvādhe lambakau ca pṛthak//
+             <span class="ref">BSS_12.29</span></p>
+         
+         <p id="BSS_12.30">
+            viṣama-bhuja-antar-%tri-bhuje prakalpya karṇau bhujau tad-āvādhe/<br />
+            pṛthak ūrdhva-adhara-khaṇḍe karṇa-yutau karṇayos adhare//
+             <span class="ref">BSS_12.30</span></p>
+         
+         <p id="BSS_12.31">
+            %tri-bhje bhujau tu bhūmis tad-lambas lambaka-adharam khaṇḍam/<br />
+            ūrdhvam avalamba-khaṇḍam lambaka-yoga-%ardham adhara-ūnam//
+             <span class="ref">BSS_12.31</span></p>
+         
+         <p id="BSS_12.32">
+            karṇa-avalambaka-yutau khaṇḍe karṇa-avalambakayos adhare/<br />
+            anupātena tad-ūne ūrdhve sūcyām sa-pāṭāyām//
+             <span class="ref">BSS_12.32</span></p>
+         
+         <p id="BSS_12.33">
+            kṛti-yutis asadṛśa-rāśyos bāhus ghātas %dvi-saṅguṇas lambas/<br />
+            kṛti-antaram asadṛśayos %dvi-guṇam %dvi-sama-%tri-bhuja-bhūmis//
+             <span class="ref">BSS_12.33</span></p>
+         
+         <p id="BSS_12.34">
+            iṣṭa-%dvayena bhaktas dvidhā iṣṭa-vargas phala-iṣṭa-yoga-%ardhe/<br />
+            viṣama-%tri-bhujasya bhujau iṣṭa-ūna-phala-%ardha-yogas bhūs//
+             <span class="ref">BSS_12.34</span></p>
+         
+         <p id="BSS_12.35">
+            iṣṭasya bhujasya kṛtis bhaktā ūnā iṣṭena tad-#dalam koṭis/<br />
+            āyata-%catur-asrasya kṣetrasya iṣṭa-adhikā karṇas//
+             <span class="ref">BSS_12.35</span></p>
+         
+         <p id="BSS_12.36">
+            āyata-karṇas bāhū bhuja-kṛtis iṣṭena bhājitā iṣṭa-ūnā/<br />
+            %dvi-hṛtā koṭi-adhikā bhūs mukham ūnā %dvi-sama-%catur-asre//
+             <span class="ref">BSS_12.36</span></p>
+         
+         <p id="BSS_12.37">
+            karṇa-kṛtis %tri-sama-hbujās %trayas %caturthas viśodhya koṭi-kṛtim/<br />
+            bāhu-kṛtes %tri-guṇāyās yadi adhikas bhūs mukham hīnas//
+             <span class="ref">BSS_12.37</span></p>
+         
+         <p id="BSS_12.38">
+            jātya-%dvaya-koṭi-bhujās para-karṇa-guṇās bhujās %catur-viṣame/<br />
+            adhikas bhūs mukha-hīnas bāhu-%dvitayam bhujau anyau//
+             <span class="ref">BSS_12.38</span></p>
+         
+         <p id="BSS_12.39">
+            iṣṭa-guṇa-kāra-guṇitas giri-ucchrāyas pura-antaram anaṣṭam/<br />
+            %dvi-yuta-guṇa-kāra-bhājitam utpātas anyasya sama-gatyos//
+             <span class="ref">BSS_12.39</span></p>
+         
+         <p id="BSS_12.40">
+            vyāsa-vyāsa-%ardha-kṛtī paridhi-phale vyāvahārike %tri-guṇe/<br />
+            tad-vargābhyām %daśabhis saṅguṇitābhyām pade sūkṣme//
+             <span class="ref">BSS_12.40</span></p>
+         
+         <p id="BSS_12.41">
+            vṛtte śara-ūna-guṇitāt vyāsāt %catur-āhatāt padam jīvā/<br />
+            jyā-vargas %catur-āhata-śara-bhaktas śara-yutas vyāsas//
+             <span class="ref">BSS_12.41</span></p>
+         
+         <p id="BSS_12.42">
+            jyā-vyāsa-kṛti-viśeṣāt mūla-vyāsa-antara-%ardham iṣus alpas/<br />
+            vyāsau grāsa-ūna-guṇau grāsa-ūna-aikya-uddhṛtau bāṇau//
+             <span class="ref">BSS_12.42</span></p>
+         
+         <p id="BSS_12.43">
+            iṣṭa-śara-%dvaya-bhakte jyā-%ardha-kṛtī śara-yute phale vyāsau/<br />
+            śarayos phalayos aikyam grāsas grāsa-ūnam aikyam tat//
+             <span class="ref">BSS_12.43</span></p>
+         
+         <p>[khāta-vyavahāras]</p>
+         
+         <p id="BSS_12.44">
+            kṣetra-phalam vedha-guṇam sama-khāta-phalam hṛtam %tribhis sūcyās/<br />
+            mukha-tala-tulya-bhuja-aikyāni %eka-agra-hṛtāni sama-rajjus//
+             <span class="ref">BSS_12.44</span></p>
+         
+         <p id="BSS_12.45">
+            mukha-tala-yuti-#dala-gaṇitam vedha-guṇam vyāvahārikam gaṇitam/<br />
+            mukha-tala-gaṇita-aikya-%ardham vedha-guṇam syāt gaṇitam autram//
+             <span class="ref">BSS_12.45</span></p>
+         
+         <p id="BSS_12.46">
+            autra-gaṇitāt viśodhya vyavahāra-phalam bhajet %tribhis śeṣam/<br />
+            labdham vyavahāra-phale prakṣipya bhavati phalam sūkṣmam//
+             <span class="ref">BSS_12.46</span></p>
+         
+         <p>[citi-vyavahāras]</p>
+         
+         <p id="BSS_12.47">
+            ākṛti-phalam auccya-āhatam agra-tala-aikya-%ardham auccya-dairghya-guṇam/<br />
+            ghana-gaṇitam iṣṭakā-ghana-phalena hṛtam iṣṭakā-gaṇitam//
+             <span class="ref">BSS_12.47</span></p>
+         
+         <p>[krākacika-vyavahāras]</p>
+         
+         <p id="BSS_12.48">
+            vistāra-āyāma-aṅgula-ghātas mārga-āhatas %dvi-#veda-hṛtas/<br />
+            kiṣku-aṅgulāni labdham tat %ṣaṇṇavatis bhavati karma//
+             <span class="ref">BSS_12.48</span></p>
+         
+         <p id="BSS_12.49">
+            śākā-ādiṣu śālmalyām %śata-%dvayam bījake %śatam %viṃśam/<br />
+            śāla-sarala-ādiṣu %śatam atha avi-dāruṣu %catuḥṣaṣṭis/
+             <span class="ref">BSS_12.49</span></p>
+         
+         <p>[rāśi-vyavahāras]</p>
+         
+         <p id="BSS_12.50">
+            %navamas śūkiṣu %daśamas sthūleṣu %ekādaśas bhavati aṇuṣu/<br />
+            paridhes vedhas paridhes %ṣaṣ-aṃśa-varga-āhatas gaṇitam//
+             <span class="ref">BSS_12.50</span></p>
+         
+         <p id="BSS_12.51">
+            %dvi-%catur-sa-%tri-aṃśa-guṇas bhitti-antar-vāhya-koṇa-gas paridhis/<br />
+            prāk-vat kṛtvā gaṇitam tad-gaṇitam sva-guṇa-kāra-hṛtam//
+             <span class="ref">BSS_12.51</span></p>
+         
+         <p>[chāyā-vyavahāras]</p>
+         
+         <p id="BSS_12.52">
+            chāyā-nara-sa-%eka-hṛtam dyu-#dalam prāk-aparayos dyu-gata-śeṣam/<br />
+            dina-gata-śeṣa-aṃśa-hṛtam dyu-#dalam chāyā-nara-vi-%ekam//
+             <span class="ref">BSS_12.52</span></p>
+         
+         <p id="BSS_12.53">
+            dīpa-tala-śaṅku-talayos antaram iṣṭa-pramāṇa-śaṅku-guṇam/<br />
+            dīpa-śikha-auccyāt śaṅkum viśodhya śeṣa-uddhṛtam chāyā//
+             <span class="ref">BSS_12.53</span></p>
+         
+         <p id="BSS_12.54">
+            chāyā-agra-antara-guṇitā chāyā chāyā-antareṇa bhaktā bhūs/<br />
+            bhūs śaṅku-guṇā chāyā-vibhājitā dīpa-śikhayā auccyam//
+             <span class="ref">BSS_12.54</span></p>
+         
+         <p>[pratyutpanna-ādayas]</p>
+         
+         <p id="BSS_12.55">
+            guṇa-kāra-khaṇḍa-tulyas guṇyas go-mūtrikā-kṛtas guṇitas/<br />
+            sahitas pratyutpannas guṇa-kāraka-bheda-tulyas vā//
+             <span class="ref">BSS_12.55</span></p>
+         
+         <p id="BSS_12.56">
+            guṇyas rāśis guṇa-kāra-rāśinā iṣṭa-adhika-ūnakena guṇas/<br />
+            guṇya-iṣṭa-vadha-ūna-yutas guṇake abhyadhika-ūnake kāryas//
+             <span class="ref">BSS_12.56</span></p>
+         
+         <p id="BSS_12.57">
+            chedena iṣṭa-yuta-ūnena āptam bhājyāt anaṣṭam iṣṭa-guṇam/<br />
+            prakṛti-stha-cheda-hṛtam labdhyā yuta-hīnakam anaṣṭam//
+             <span class="ref">BSS_12.57</span></p>
+         
+         <p id="BSS_12.58">
+            guṇyas cheda-phala-vadhas guṇaka-hṛtas guṇya-bhājitas guṇakas/<br />
+            cheda-uddhṛtas phalam guṇya-guṇa-vadhas phala-hṛtas chedas//
+             <span class="ref">BSS_12.58</span></p>
+         
+         <p id="BSS_12.59">
+            guṇya-guṇa-kārayos cheda-labdhayos yadi %dvayos %dvayos nāśas/<br />
+            teṣām dṛśyau vyastau kṛtvā tad-sthānayos ca iṣṭau//
+             <span class="ref">BSS_12.59</span></p>
+         
+         <p id="BSS_12.60">
+            guṇyam guṇa-kāram vā guṇayet chedena bhāga-hārasya/<br />
+            guṇya-guṇa-kāra-rāśyos cheda-guṇas bhāga-hāras ca//
+             <span class="ref">BSS_12.60</span></p>
+         
+         <p id="BSS_12.61">
+            acchedasya chedam #rūpam kṛtvā anyat ukta-vat sarvam/<br />
+            apavartyau cheda-guṇau tulyena iṣṭena guṇyau vā//<span class="note">D: avaparttyau &lt; apavartyau</span>
+             <span class="ref">BSS_12.61</span></p>
+         
+         <p id="BSS_12.62">
+            sva-vikala-%ṣaṣṭi-aṃśa-guṇas sakalas %triṃśa-uddhṛtas vikala-vargas/<br />
+            prakṣepyas sakala-kṛtau varga-ghanau %dvi-%tri-tulya-vadhau//
+             <span class="ref">BSS_12.62</span></p>
+         
+         <p id="BSS_12.63">
+            rāśes ūnam %dvi-guṇam bahutara-guṇam ūna-kṛti-yutam vargas/<br />
+            rāśes iṣṭa-yuta-ūnāt vadhas kṛtis vā iṣṭa-kṛti-yuktas//
+             <span class="ref">BSS_12.63</span></p>
+         
+         <p id="BSS_12.64">
+            iṣṭa-alpa-rāśi-vargau yukta-ūnau itara-vikala-vargābhyām/<br />
+            %dvi-guṇa-itara-rāśibhyām bhaktau tena adhika-ūnābhyām//
+             <span class="ref">BSS_12.64</span></p>
+         
+         <p id="BSS_12.65">
+            sthāna-antareṣu labdham yena samam phala-yuta-ūnaka-chedas/<br />
+            dalitas kṛti-yoga-antara-padam itaras vā phala-yuta-ūnas//
+             <span class="ref">BSS_12.65</span></p>
+         
+         <p id="BSS_12.66">
+            dik-mātram etat anyat jyā-utpattau kuṭṭake ca kathayiṣye/<br />
+            saṅkalita-ādiṣu āryās %ṣaṭṣaṣṭis %dvādaśas adhyāyas//<br />
+            iti śrī-brāhma-sphuṭa-siddhānte %dvādaśas adhyāyas//12//
+             <span class="ref">BSS_12.66</span></p>
+         
+         <p>[atha kuṭṭaka-adhyāyas]</p>
+         
+         <p id="BSS_18.1">
+            prāyeṇa yatas praśnās kuṭṭākārāt ṛte na śakyante/<br />
+            jñātum vakṣyāmi tatas kuṭṭākāram saha praśnais//
+             <span class="ref">BSS_18.1</span></p>
+         
+         <p id="BSS_18.2">
+            kuṭṭaka-#kha-ṛṇa-dhana-avyakta-madhya-haraṇa-%eka-varṇa-bhāvitakais/<br />
+            ācāryas tantra-vidām jñātais varga-prakṛtyā ca//
+             <span class="ref">BSS_18.2</span></p>
+         
+         <p>[kuṭṭakam]</p>
+         
+         <p id="BSS_18.3">
+            adhika-agra-bhāga-hārāt ūna-agra-cheda-bhājitāt śeṣam/<br />
+            yat tat paraspara-hṛtam labdham adhas adhas pṛthak sthāpyam//
+             <span class="ref">BSS_18.3</span></p>
+         
+         <p id="BSS_18.4">
+            śeṣam tathā iṣṭa-guṇitam yathā agrayos antareṇa saṃyuktam/<br />
+            śudhyati guṇakas sthāpyas labdham ca antyāt upāntya-guṇas//
+             <span class="ref">BSS_18.4</span></p>
+         
+         <p id="BSS_18.5">
+            sva-ūrdhvas antya-yutas agra-antas hīna-agra-cheda-bhājitas śeṣam/<br />
+            adhika-agra-cheda-hatam adhika-agra-yutam bhavati agram//
+             <span class="ref">BSS_18.5</span></p>
+         
+         <p id="BSS_18.6">
+            cheda-vadhasya %dvi-yugam cheda-vadhas yuga-gatam %dvayos agram/<br />
+            kuṭṭākāreṇa evam %tri-ādi-graha-yuga-gata-ānayanam//
+             <span class="ref">BSS_18.6</span></p>
+         
+         <p id="BSS_18.7">
+            bha-gaṇa-ādi-śeṣam agram cheda-hṛtam #kham ca dina-ja-śeṣa-hṛtam/<br />
+            anayos agram bha-gaṇa-ādi-dina-ja-śeṣa-uddhṛtam dyu-gaṇas// <span class="note">Cb.8</span>
+             <span class="ref">BSS_18.7</span></p>
+         
+         <p id="BSS_18.8">
+            dina-ja-bha-gaṇa-ādi-śeṣam yena guṇam maṇḍala-ādi śeṣakayos/<br />
+            sa-dṛśa-cheda-uddhṛtayos tad-ghātam ahar-gaṇa-ādyam atas// <span class="note">Cb.10</span>
+             <span class="ref">BSS_18.8</span></p>
+         
+         <p id="BSS_18.9">
+            hṛtayos parasparam yat cheṣam guṇa-kāra-bhāga-hārakayos/<br />
+            tena hṛtau nis-chedau tau eva parasparam hṛtayos// <span class="note">Cb.11</span>
+             <span class="ref">BSS_18.9</span></p>
+         
+         <p id="BSS_18.10">
+            labdham adhas adhas sthāpyam tathā iṣṭa-guṇa-kāra-saṅguṇam śeṣam/<br />
+            śudhyati yathā %eka-hīnam guṇakas sthāpyas phalam ca antyāt// <span class="note">Cb.12</span>
+             <span class="ref">BSS_18.10</span></p>
+         
+         <p id="BSS_18.11">
+            agra-antam upāntyena sva-ūrdhvas guṇitas antya-saṃyutas bhaktam/<br />
+            nis-śeṣa-bhāga-hāreṇa evam sthira-kuṭṭakas śeṣam// <span class="note">Cb.13</span>
+             <span class="ref">BSS_18.11</span></p>
+         
+         <p id="BSS_18.12">
+            iṣṭa-bha-gaṇa-ādi-śeṣāt sva-kuṭṭaka-guṇāt sva-bhāga-hāra-guṇāt/<br />
+            śeṣam dyu-gaṇas gata-nis-apavarta-guṇa-bhāga-hāra-yutas// <span class="note">Cb.15; ḍ: -apavartta- &lt; -apavarta-</span>
+             <span class="ref">BSS_18.12</span></p>
+         
+         <p id="BSS_18.13">
+            evam sameṣu viṣameṣu ṛṇam dhanam dhanam ṛṇam yat uktam tat/<br />
+            ṛṇa-dhanayos vyastatvam guṇya-prakṣepayos kāryam// <span class="note">Cb.16</span>
+             <span class="ref">BSS_18.13</span></p>
+         
+         <p id="BSS_18.14">
+            guṇakas chedas chedas guṇakas dhanam ṛṇam ṛṇam dhanam kāryam/<br />
+            vargam padam padam kṛtis antyāt viparītam ādyam tat// <span class="note">Cb.17</span>
+             <span class="ref">BSS_18.14</span></p>
+         
+         <p id="BSS_18.15">
+            yas jānāti yuga-ādi graha-yuga-yātais pṛthak pṛthak kathitais/<br />
+            %dvi-%tri-%catur-prabhṛtīnām kuṭṭākāram sas jānāti// <span class="note">Cb.7</span>
+             <span class="ref">BSS_18.15</span></p>
+         
+         <p id="BSS_18.16">
+            bha-gaṇa-ādyam iṣṭa-śeṣam kadā indu-divase raves guru-dine vā/<br />
+            jña-dine rāśīn kathayati kuṭṭākāram sas jānāti// <span class="note">Cb.19</span>
+             <span class="ref">BSS_18.16</span></p>
+         
+         <p id="BSS_18.17">
+            jña-dine yat aṃśa-śeṣam vikalā-śeṣam kadā tat indu-dine/<br />
+            bhānos atha vā śaśinas yas kathayati kuṭṭaka-jñas sas// <span class="note">Cb.20</span>
+             <span class="ref">BSS_18.17</span></p>
+         
+         <p id="BSS_18.18">
+            tithi-māna-dineṣu iṣṭās ye arka-ādyās te punar kadā teṣu/<br />
+            iṣṭa-graha-vāreṣu yas kathayati kuṭṭaka-jñas sas// <span class="note">Cb.21</span>
+             <span class="ref">BSS_18.18</span></p>
+         
+         <p id="BSS_18.19">
+            iṣṭa-bha-gaṇa-ādi-śeṣāt dyu-gaṇas tat kuṭṭakena saṃyuktas/<br />
+            tad-cheda-dinais tāvat dina-vāras yāvat iṣṭas syāt// <span class="note">Cb.22</span>
+             <span class="ref">BSS_18.19</span></p>
+         
+         <p id="BSS_18.20">
+            yas rāśi-ādīn dṛṣṭvā madhyasya iṣṭasya katahyati dyu-gaṇam/<br />
+            %dvi-ādi-graha-saṃyogāt graha-antarāt vā sas kuṭṭa-jñas// <span class="note">Cb.23</span>
+             <span class="ref">BSS_18.20</span></p>
+         
+         <p id="BSS_18.21">
+            nis-cheda-bhāga-hārāt rāśi-ādi-kalā-ādinā hatāt bhaktāt/<br />
+            bha-gaṇa-kalābhis labdham maṇḍala-śeṣam dina-gaṇas asmāt// <span class="note">Cb.24</span>
+             <span class="ref">BSS_18.21</span></p>
+         
+         <p id="BSS_18.22">
+            evam rāśi-aṃśa-kalā-vikalā-śeṣāt ahar-gaṇas prāk-vat/<br />
+            naṣṭa-stheṣu iṣṭān tān kṛtvā bhaktvā ukta-vat śeṣam// <span class="note">Cb.25</span>
+             <span class="ref">BSS_18.22</span></p>
+         
+         <p id="BSS_18.23">
+            rāśi-aṃśa-kalā-vikalā-śeṣāt kathitāt abhīṣṭatas naṣṭān/<br />
+            yas sādhayati uparitanān sa-madhyamān kuṭṭaka-jñas sas// <span class="note">Cb.26</span>
+             <span class="ref">BSS_18.23</span></p>
+         
+         <p id="BSS_18.24">
+            yena guṇas śeṣa-yutas chedas śudhyati hṛtas sva-guṇakena/<br />
+            tad-bhuktam śeṣam phalam evam śeṣāt graha-dyu-gaṇau// <span class="note">Cb.27</span>
+             <span class="ref">BSS_18.24</span></p>
+         
+         <p id="BSS_18.25">
+            jānāti yas yuga-gatam kathitāt adhimāsa-śeṣakāt iṣṭāt/<br />
+            avama-avaśeṣatas vā tad-yogāt vā sas kuṭṭa-jñas// <span class="note">Cb.28</span>
+             <span class="ref">BSS_18.25</span></p>
+         
+         <p id="BSS_18.26">
+            iṣṭeṣu māna-divaseṣu adhimāsa-nyūna-rātra-śeṣe vā/<br />
+            bhūyas te yas kathayati pṛthak pṛthak vā sas kuṭṭa-jñas// <span class="note">Cb.@</span>
+             <span class="ref">BSS_18.26</span></p>
+         
+         <p id="BSS_18.27">
+            aṃśaka-śeṣāt %tri-ūnāt %sapta-hṛtāt mūlam ūnam %aṣṭābhis/<br />
+            %navabhis guṇam sa-#rūpam kadā %śatam budha-dine savitus// <span class="note">Cb.18</span>
+             <span class="ref">BSS_18.27</span></p>
+         
+         <p id="BSS_18.28">
+            %tri-ūna-adhimāsa-śeṣāt mūlam %dvi-adhikam vibhājitam %ṣaḍbhis/<br />
+            %dvi-ūnam vargitam adhikam %navabhis %navatis kadā bhavati// <span class="note">Cb.29</span>
+             <span class="ref">BSS_18.28</span></p>
+         
+         <p id="BSS_18.29">
+            avama-avaśeṣa-vargas vi-%ekas %viṃśati-vibhājitas %dvi-adhikas/<br />
+            %aṣṭa-guṇas %daśa-bhaktas %dvi-yutas %aṣṭādaśa kadā bhavati// <span class="note">Cb.30</span>
+             <span class="ref">BSS_18.29</span></p>
+         
+         <p>[dhana-ṛṇa-śūnyam]</p>
+         
+         <p id="BSS_18.30">
+            dhanayos dhanam ṛṇam ṛṇayos dhana-ṛṇayos antaram sama-aikyam #kham/<br />
+            ṛṇam aikyam ca dhanam ṛṇa-dhana-#śūnyayos #śūnyayos #śūnyam// <span class="note">Cb.31</span>
+             <span class="ref">BSS_18.30</span></p>
+         
+         <p id="BSS_18.31">
+            ūnam adhikāt viśodhyam dhanam dhanāt ṛṇam ṛṇāt adhikam ūnāt/<br />
+            vyastam tad-antaram syāt ṛṇam dhanam dhanam ṛṇam bhavati// <span class="note">Cb.32</span>
+             <span class="ref">BSS_18.31</span></p>
+         
+         <p id="BSS_18.32">
+            #śūnya-vihīnam ṛṇam ṛṇam dhanam dhanam bhavati #śūnyam #ākāśam/<br />
+            śodhyam yadā dhanam ṛṇāt ṛṇam dhanāt vā tadā kṣepyam// <span class="note">Cb.33</span>
+             <span class="ref">BSS_18.32</span></p>
+         
+         <p id="BSS_18.33">
+            ṛṇam ṛṇa-dhanayos ghātas dhanam ṛṇayos dhana-vadhas dhanam bhavati/<br />
+            #śūnya-ṛṇayos #kha-dhanayos #kha-#śūnyayos vā vadhas #śūnyam// <span class="note">Cb.34</span>
+             <span class="ref">BSS_18.33</span></p>
+         
+         <p id="BSS_18.34">
+            dhana-bhaktam dhanam ṛṇa-hṛtam ṛṇam dhanam bhavati #kham #kha-bhaktam #kham/<br />
+            bhaktam ṛṇena dhanam ṛṇam dhanena hṛtam ṛṇam ṛṇam bhavati// <span class="note">Cb.34</span>
+             <span class="ref">BSS_18.34</span></p>
+         
+         <p id="BSS_18.35">
+            #kha-uddhṛtam ṛṇam dhanam vā tad-chedam #kham ṛṇa-dhana-vibhaktam vā/<br />
+            ṛṇa-dhanayos vargas svam #kham #khasya padam kṛtis yat tat// <span class="note">Cb.36</span>
+             <span class="ref">BSS_18.35</span></p>
+         
+         <p>[saṅkramaṇam]</p>
+         
+         <p id="BSS_18.36">
+            yogas antara-yuta-hīnas %dvi-hṛtas saṅkramaṇam antara-vibhaktam vā/<br />
+            varga-antaram antara-yuta-hīnam %dvi-hṛtam viṣama-karma// <span class="note">Cb.37</span>
+             <span class="ref">BSS_18.36</span></p>
+         
+         <p>[karaṇī]</p>
+         
+         <p id="BSS_18.37">
+            karaṇī lambas tad-kṛtis iṣṭa-hṛtā iṣṭa-ūna-saṃyutā alpā bhūs/<br />
+            adhikas %dvi-hṛtas bāhus saṃkṣepyas yad-vadhas vargas// <span class="note">Cb.38; ḍ: saṃkṣeppas</span>
+             <span class="ref">BSS_18.37</span></p>
+         
+         <p id="BSS_18.38">
+            iṣṭa-uddhṛta-karaṇī-pada-yuti-kṛtis iṣṭa-guṇitā antara-kṛtis vā/<br />
+            guṇyas tiryak adhas adhas guṇaka-samas tad-guṇas sahitas// <span class="note">Cb.39</span>
+             <span class="ref">BSS_18.38</span></p>
+         
+         <p id="BSS_18.39">
+            sva-iṣṭa-ṛṇa-cheda-guṇau bhājya-chedau pṛthak yujau asakṛt/<br />
+            cheda-%eka-gata-hṛtas vā bhājyas vargas sama-%dvi-vadhas// <span class="note">Cb.40</span>
+             <span class="ref">BSS_18.39</span></p>
+         
+         <p id="BSS_18.40">
+            iṣṭa-karaṇī-ūnāyās rūpa-kṛtes pada-yuta-ūna-rūpa-%ardhe/<br />
+            %prathamam rūpāṇi anyat tatas dvitīyam karaṇī asakṛt// <span class="note">Cb.41</span>
+             <span class="ref">BSS_18.40</span></p>
+         
+         <p id="BSS_18.41">
+            avyakta-varga-ghana-varga-varga-%pañca-gata-%ṣaṣ-gata-ādīnām/<br />
+            tulyānām saṅkalita-vyavakalite pṛthak atulyānām// <span class="note">Cb.42</span>
+             <span class="ref">BSS_18.41</span></p>
+         
+         <p id="BSS_18.42">
+            sadṛśa-%dvi-vadhas vargas %tri-ādi-vadhas tad-gatas anya-jāti-vadhas/<br />
+            anyonya-varṇa-ghātas bhāvitakas pūrva-vat śeṣam// <span class="note">Cb.43</span>
+             <span class="ref">BSS_18.42</span></p>
+         
+         <p>[eka-varṇa-samī-karaṇam]</p>
+         
+         <p id="BSS_18.43">
+            avyakta-antara-bhaktam vyastam rūpa-antaram same avyaktas/<br />
+            varga-avyaktās śodhyās yasmāt rūpāṇi tad-adhastāt// <span class="note">Cb.44</span>
+             <span class="ref">BSS_18.43</span></p>
+         
+         <p id="BSS_18.44">
+            varga-%catur-guṇitānām rūpāṇām madhya-varga-sahitānām/<br />
+            mūlam nadhyena ūnam varga-%dvi-guṇa-uddhṛtam madhyas// <span class="note">Cb.48</span>
+             <span class="ref">BSS_18.44</span></p>
+         
+         <p id="BSS_18.45">
+            varga-āhata-rūpāṇām avyakta-%ardha-kṛti-saṃyutānām yat/<br />
+            padam avyakta-%ardha-ūnam tat varga-vibhaktam avyaktas// <span class="note">Cb.50</span>
+             <span class="ref">BSS_18.45</span></p>
+         
+         <p id="BSS_18.46">
+            sa-%ekāt aṃśaka-śeṣāt %dvādaśa-bhāgas %catur-guṇas %aṣṭa-yutas/<br />
+            sa-%eka-aṃśa-śeṣa-tulyas yadā tadā ahar-gaṇam kathaya// <span class="note">Cb.45</span>
+             <span class="ref">BSS_18.46</span></p>
+         
+         <p id="BSS_18.47">
+            %dvi-ūnam adhika-māsa-śeṣam %tri-hṛtam %sapta-adhikam %dvi-saṅguṇitam/<br />
+            adhimāsa-śeṣa-tulyam yadā tadā yuga-gatam kathaya// <span class="note">Cb.46</span>
+             <span class="ref">BSS_18.47</span></p>
+         
+         <p id="BSS_18.48">
+            vi-%ekam avama-avaśeṣam %ṣaṣ-uddhṛtam %tri-yutam avama-śeṣasya/<br />
+            %pañca-vibhaktasya samam yadā tadā yuga-gatam kathaya// <span class="note">Cb.47</span>
+             <span class="ref">BSS_18.48</span></p>
+         
+         <p id="BSS_18.49">
+            maṇḍala-śeṣāt %dvi-ūnāt mūlam vi-%ekam %daśa-āhatam %dvi-yutam/<br />
+            maṇḍala-śeṣam vi-%ekam bhānos jña-dine kadā bhavati//
+             <span class="ref">BSS_18.49</span></p>
+         
+         <p id="BSS_18.50">
+            adhimāsa-śeṣa-#pādāt %tri-ūnāt vargas adhimāsa-śeṣa-samas/<br />
+            avama-avaśeṣatas vā avama-śeṣa-samas kadā bhavati// <span class="note">Cb.51</span>
+             <span class="ref">BSS_18.50</span></p>
+         
+         <p>[aneka-varṇa-samī-karaṇam]</p>
+         
+         <p id="BSS_18.51">
+            ādyāt varṇāt anyān varṇān prohya ādya-mānam āḍya-hṛtam/<br />
+            sadṛśa-chedau asakṛt %dvau vyastau kuṭṭakas bahuṣu// <span class="note">Cb.52</span>
+             <span class="ref">BSS_18.51</span></p>
+         
+         <p id="BSS_18.52">
+            gata-bhagaṇa-yutāt dyu-gaṇāt tad-śeṣa-yutāt tad-aikya-saṃyuktāt/<br />
+            tad-yogāt dyu-gaṇam vā yas kathayati kuṭṭaka-jñas sas// <span class="note">Cb.53</span>
+             <span class="ref">BSS_18.52</span></p>
+         
+         <p id="BSS_18.53">
+            gata-bhagaṇa-ūnāt dyu-gaṇāt tad-śeṣa-ūnāt tad-aikya-hīnāt vā/<br />
+            tad-vivarāt dyu-gaṇam vā yas kathayati kuṭṭaka-jñas sas// <span class="note">Cb.54</span>
+             <span class="ref">BSS_18.53</span></p>
+         
+         <p id="BSS_18.54">
+            rāśi-ādyais tad-śeṣais ca evam bhukta-adhimāsa-dina-hīnais/<br />
+            tad-śeṣais ca yuga-gatam yas kathayati kuṭṭaka-jñas sas// <span class="note">Cb.55</span>
+             <span class="ref">BSS_18.54</span></p>
+         
+         <p id="BSS_18.55">
+            aṃśaka-śeṣeṇa yutāt liptā-śeṣāt tad-antarāt atha vā/<br />
+            bhānos jña-dine dyu-gaṇam yas kathayati kuṭṭaka-jñas sas// <span class="note">Cb.56</span>
+             <span class="ref">BSS_18.55</span></p>
+         
+         <p id="BSS_18.56">
+            aṃśaka-śeṣam %tri-yutam liptā-śeṣam kadā raves jña-dine/<br />
+            %ṣaṭ %sapta %aṣṭau %nava vā kurvan ā vatsarāt gaṇakas// <span class="note">Cb.57</span>
+             <span class="ref">BSS_18.56</span></p>
+         
+         <p id="BSS_18.57">
+            aṃśa-samam aṃśa-śeṣam kalā-samam vā kalā-śeṣam/<br />
+            divasa-karasya iṣṭa-dine kurvan ā vatsarāt gaṇakas// <span class="note">Cb.58</span>
+             <span class="ref">BSS_18.57</span></p>
+         
+         <p id="BSS_18.58">
+            avama-avaśeṣam avamais adhimāsaka-śeṣam adhimāsais/<br />
+            iṣṭa-yuta-ūnam tulyam kurvan ā vatsarāt gaṇakas// <span class="note">Cb.59</span>
+             <span class="ref">BSS_18.58</span></p>
+         
+         <p id="BSS_18.59">
+            nis-cheda-bhāga-hāras bhānos %saptati-guṇas aṃśa-śeṣa-ūnas/<br />
+            śudhyati %ayuta-vibhaktas kurvan ā vatsarāt gaṇakas// <span class="note">Cb.60</span>
+             <span class="ref">BSS_18.59</span></p>
+         
+         <p>[bhāvitakam]</p>
+         
+         <p id="BSS_18.60">
+            bhāvitaka-rūpa-guṇanā sa-avyakta-vadhā iṣṭa-bhājitā iṣṭa-āptyos/<br />
+            alpe adhikas adhike alpas kṣepyas bhāvita-hṛtau vyastam// <span class="note">Cb.61</span>
+             <span class="ref">BSS_18.60</span></p>
+         
+         <p id="BSS_18.61">
+            bhānos rāśi-aṃśa-vadhāt %tri-%catur-guṇitān viśodhya rāśi-aṃśān/<br />
+            %navatim dṛṣṭvā sūryam kurvan ā vatsarāt gaṇakas// <span class="note">Cb.62</span>
+             <span class="ref">BSS_18.61</span></p>
+         
+         <p id="BSS_18.62">
+            bhāvitake yad-ghātas vinaṣṭa-varṇena tad-pramāṇāni/<br />
+            kṛtvā iṣṭāni tad-āhata-varṇa-aikyam bhavati rūpāṇi// <span class="note">Cb.66</span>
+             <span class="ref">BSS_18.62</span></p>
+         
+         <p id="BSS_18.63">
+            varṇa-pramāṇa-bhāvita-ghātas bhavati iṣṭa-varṇa-saṅkhyā evam/<br />
+            sidhyati vinā api bhāvita-sama-karaṇāt kim kṛtam tat atas// <span class="note">Cb.64</span>
+             <span class="ref">BSS_18.63</span></p>
+         
+         <p>[varga-prakṛtis]</p>
+         
+         <p id="BSS_18.64">
+            mūlam dvidhā iṣṭa-vargāt guṇaka-guṇāt iṣṭa-yuta-vihīnāt ca/<br />
+            ādya-vadhas guṇaka-guṇas saha antya-ghātena kṛtam antyam// <span class="note">Cb.65</span>
+             <span class="ref">BSS_18.64</span></p>
+         
+         <p id="BSS_18.65">
+            vajra-vadha-aikyam %prathamam prakṣepas kṣepa-vadha-tulyas/<br />
+            prakṣepa-śodhaka-hṛte mūle prakṣepake #rūpe// <span class="note">Cb.66</span>
+             <span class="ref">BSS_18.65</span></p>
+         
+         <p id="BSS_18.66">
+            #rūpa-prakṣepa-pade pṛthak iṣṭa-kṣepya-śodhya-mūlābhyām/<br />
+            kṛtvā antya-ādya-pade ye prakṣepe śodhane vā iṣṭe// <span class="note">Cb.68</span>
+             <span class="ref">BSS_18.66</span></p>
+         
+         <p id="BSS_18.67">
+            %catur-adhike antya-pada-kṛtis %tri-ūnā dalitā antya-pada-guṇā antya-padam/<br />
+            antya-pada-kṛtis vi-%ekā %dvi-hṛtā ādya-pada-āhatā ādya-padam// <span class="note">Cb.69</span>
+             <span class="ref">BSS_18.67</span></p>
+         
+         <p id="BSS_18.68">
+            %catur-ūne antya-pada-kṛtī %tri-%eka-yute vadha-#dalam pṛthak vi-%ekam/<br />
+            vi-%eka-āḍya-āhatam antyam pada-vadha-guṇam ādyam āntya-padam// <span class="note">Cb.71</span>
+             <span class="ref">BSS_18.68</span></p>
+         
+         <p id="BSS_18.69">
+            varge guṇake kṣepas kena cit uddhṛta-yuta-ūnitas dalitas/<br />
+            %prathamas antya-mūlam anyas guṇa-kāra-pada-uddhṛtas %prathamas// <span class="note">Cb.73</span>
+             <span class="ref">BSS_18.69</span></p>
+         
+         <p id="BSS_18.70">
+            varga-chinne guṇake %prathamam tad-mūla-bhājitam bhavati/<br />
+            varga-chinne kṣepe tad-pada-guṇite tadā mūle// <span class="note">Cb.75</span>
+             <span class="ref">BSS_18.70</span></p>
+         
+         <p id="BSS_18.71">
+            guṇaka-yutis %aṣṭa-guṇitā guṇaka-antara-varga-bhājitā rāśis/<br />
+            guṇakau %tri-guṇau vyasta-adhikau hṛtau antareṇa pade// <span class="note">Cb.78</span>
+             <span class="ref">BSS_18.71</span></p>
+         
+         <p id="BSS_18.72">
+            vargas anya-kṛti-yuta-ūnas tad-saṃyoga-antara-%ardha-kṛti-bhaktas/<br />
+            tad-guṇitau yuti-viyutau vargau ghāte ca #rūpa-yute// <span class="note">Cb.72</span>
+             <span class="ref">BSS_18.72</span></p>
+         
+         <p id="BSS_18.73">
+            yais ūnas yais ca yutas rūpais vargas tad-aikyam iṣṭa-hṛtam/<br />
+            iṣṭa-ūnam tad-#dala-kṛtis ūnā abhyadhikā bhavati rāśis// <span class="note">Cb.84</span>
+             <span class="ref">BSS_18.73</span></p>
+         
+         <p id="BSS_18.74">
+            yābhyām kṛtis adhika-ūnas tad-antaram hṛta-yuta-ūnam iṣṭena/<br />
+            tad-#dala-kṛtis adhika-ūnā adhikayos adhika-ūnayos rāśis// <span class="note">Cb.82</span>
+             <span class="ref">BSS_18.74</span></p>
+         
+         <p>[udāharaṇāni]</p>
+         
+         <p id="BSS_18.75">
+            rāśi-kalā-śeṣa-kṛtim %dvinavati-guṇitām %tryaśīti-guṇitām vā/<br />
+            sa-%ekā jña-dine vargam kurvan ā vatsarāt gaṇakas// <span class="note">Cb.67</span>
+             <span class="ref">BSS_18.75</span></p>
+         
+         <p id="BSS_18.76">
+            sūrya-viliptā-śeṣam %pañcabhis ūna-āhatam tathā %daśabhis/<br />
+            varge bṛhaspati-dine kurvan ā vatsarāt gaṇakas// <span class="note">Cb.86</span>
+             <span class="ref">BSS_18.76</span></p>
+         
+         <p id="BSS_18.77">
+            bha-gaṇa-ādi-śeṣa-vargam %tribhis guṇam saṃyutam %śatais %navabhis/<br />
+            kṛtim %aṣṭa-%śata-ūnam vā kurvan ā vatsarāt gaṇakas// <span class="note">Cb.70</span>
+             <span class="ref">BSS_18.77</span></p>
+         
+         <p id="BSS_18.78">
+            bha-gaṇa-ādi-śeṣa-vargam %catur-guṇam %pañcaṣaṣṭi-saṃyuktam/<br />
+            %ṣaṣṭi-ūnam vā vargam kurvan ā vatsarāt gaṇakas// <span class="note">Cb.74</span>
+             <span class="ref">BSS_18.78</span></p>
+         
+         <p id="BSS_18.79">
+            iṣṭa-bhagaṇa-ādi-śeṣam %dvinavati-ūnam %tryaśīti-saṃguṇitam/<br />
+            #rūpeṇa yutam vargam kurvan ā vatsarāt gaṇakas// <span class="note">Cb.87</span>
+             <span class="ref">BSS_18.79</span></p>
+         
+         <p id="BSS_18.80">
+            adhimāsa-śeṣa-vargam %trayodaśa-guṇam %tribhis %śatais yuktam/<br />
+            %tri-ghana-ūnam vā vargam kurvan ā vatsarāt gaṇakas// <span class="note">Cb.72</span>
+             <span class="ref">BSS_18.80</span></p>
+         
+         <p id="BSS_18.81">
+            indu-viliptā-śeṣam %saptadaśa-guṇam %trayodaśa-guṇam ca api/<br />
+            pṛthak %eka-yutam vargam kurvan ā vatsarāt gaṇakas// <span class="note">Cb.79</span>
+             <span class="ref">BSS_18.81</span></p>
+         
+         <p id="BSS_18.82">
+            avama-avaśeṣa-vargam %dvādaśa-guṇitam %śatena saṃyuktam/<br />
+            %tribhis ūnam vā vargam kurvan ā vatsarāt gaṇakas// <span class="note">Cb.76</span>
+             <span class="ref">BSS_18.82</span></p>
+         
+         <p id="BSS_18.83">
+            jña-dine arka-kalā-śeṣam guru-dina-vikalā-avaśeṣa-yukta-ūnam/<br />
+            vargam vadham ca sa-%ekam kurvan ā vatsarāt gaṇakas// <span class="note">Cb.81</span>
+             <span class="ref">BSS_18.83</span></p>
+         
+         <p id="BSS_18.84">
+            vikalā-śeṣam sahitam %trinavatyā %saptaṣaṣṭi-hīnam ca/<br />
+            bhānos jña-dine vargam kurvan ā vatsarāt gaṇakas// <span class="note">Cb.85</span>
+             <span class="ref">BSS_18.84</span></p>
+         
+         <p id="BSS_18.85">
+            jña-dine arka-kalā-śeṣam %dvādaśabhis saṃyutam %triṣaṣṭyā ca/<br />
+            %ṣaṣṭyā %aṣṭabhis ca ūnam kurvan ā vatsarāt gaṇakas// <span class="note">Cb.83</span>
+             <span class="ref">BSS_18.85</span></p>
+         
+         <p id="BSS_18.86">
+            indu-viliptā-śeṣāt ravi-liptā-śeṣam aṃśa-śeṣam vā/<br />
+            atha vā madhyamam iṣṭam kurvan ā vatsarāt gaṇakas// <span class="note">Cb.88</span>
+             <span class="ref">BSS_18.86</span></p>
+         
+         <p id="BSS_18.87">
+            jīva-viliptā-śeṣāt ku-jam indum bhauma-liptikā-śeṣāt/<br />
+            ravim indu-bhāga-śeṣāt kurvan ā vatsarāt gaṇakas// <span class="note">Cb.89</span>
+             <span class="ref">BSS_18.87</span></p>
+         
+         <p id="BSS_18.88">
+            iṣṭa-graha-iṣṭa-śeṣāt dyu-gaṇas gata-nis-apavarta-saṃguṇitais/ <span class="note">D: -apavartta- &lt; -apavarta-</span><br />
+            cheda-dinais adhikas asmāt anya-graha-śeṣam iṣṭas vā// <span class="note">Cb.90</span>
+             <span class="ref">BSS_18.88</span></p>
+         
+         <p id="BSS_18.89">
+            nis-cheda-bhāga-hārau grahayos viparītau grahayos dyu-gaṇāt/<br />
+            yasmāt tad-nis-chedena uddhṛtayos labdha-saṃguṇitau// <span class="note">D: uddhatayos &lt; uddhṛtayos, Cb.89</span>
+             <span class="ref">BSS_18.89</span></p>
+         
+         <p id="BSS_18.90">
+            nis-cheda-bhāga-hārau viparītau tad-yutāt punar tasmāt/<br />
+            śeṣe dyu-gaṇāt evam %tri-ādīnām prāk-vat iṣṭa-dine// <span class="note">Cb.91</span>
+             <span class="ref">BSS_18.90</span></p>
+         
+         <p id="BSS_18.91">
+            dyu-gaṇam avama-avaśeṣāt ravi-candrau madhyamau sphuṭau atha vā/<br />
+            evam tithim graham vā kurvan ā vatsarāt gaṇakas// <span class="note">Cb.92</span>
+             <span class="ref">BSS_18.91</span></p>
+         
+         <p id="BSS_18.92">
+            %eka-dinam avama-śeṣam yad-guṇam %eka-ravi-candra-bha-gaṇa-ūnam/<br />
+            śudhyati bhū-dina-bhaktam vi-%ekam cāndrais tad-uktis iyam// <span class="note">Cb.93</span>
+             <span class="ref">BSS_18.92</span></p>
+         
+         <p id="BSS_18.93">
+            #iṣu-#śara-#kṛta-%aṣṭa-3digbhis 108455 saṅguṇitāt avama-śeṣakāt bhaktāt/<br />
+            #rūpa-%aṣṭa-#veda-#rasa-#śūnya-#śara-#guṇais 3506481 dina-gaṇas śeṣam// <span class="note">Cb.94</span>
+             <span class="ref">BSS_18.93</span></p>
+         
+         <p id="BSS_18.94">
+            #jina-#rasa-#go-#abdhi-#rada-3249624-guṇāt #śaśi-#vasu-#kṛta-#rasa-#kha-#bhūta-#rāma-3506481-hṛtāt/<br />
+            iṣṭa-avama-śeṣāt yat śeṣam ravi-bha-gaṇa-śeṣam tat// <span class="note">Cb.95</span>
+             <span class="ref">BSS_18.94</span></p>
+         
+         <p id="BSS_18.95">
+            #go-#aga-#indu-#kha-#īśa-110179-guṇitāt bhaktāt #nakha-#pakṣa-#yama-#rasa-#iṣu-#guṇais
+            3562220/<br />
+            śeṣam avama-avaśeṣāt tithayas avama-śeṣakāt vikalam// <span class="note">Cb.96</span>
+             <span class="ref">BSS_18.95</span></p>
+         
+         <p id="BSS_18.96">
+            bhāga-kalā-vikalā-aikyam dṛṣṭvā vikalā-antaram ca ke śeṣe/<br />
+            aikyam dvidhā antara-adhika-hīnam ca %dvi-bhājitam śeṣe// <span class="note">Cb.97</span>
+             <span class="ref">BSS_18.96</span></p>
+         
+         <p id="BSS_18.97">
+            tad-varga-antaram ādye tad-antaram ca anatara-uddhṛta-yuta-ūnam/<br />
+            varga-antaram vibhaktam %dvābhyām śeṣe tatas dyu-gaṇas// <span class="note">Cb. 98</span>
+             <span class="ref">BSS_18.97</span></p>
+         
+         <p id="BSS_18.98">
+            [kṛti-saṃyogāt %dvi-guṇāt yuti-vargam prohya śeṣa-mūlam yat/<br />
+            tena yuta-ūnas yogas dalitas śeṣe pṛthak abhīṣṭe// Cb.99]
+             <span class="ref">BSS_18.98</span></p>
+         
+         <p id="BSS_18.99">
+            śeṣa-vadhāt %dvi-kṛti-guṇāt śeṣa-antara-varga-saṃyutāt mūlam/<br />
+            śeṣa-antara-ūna-yuktam dalitam śeṣe pṛthak abhīṣṭe// <span class="note">Cb.100</span>
+             <span class="ref">BSS_18.99</span></p>
+         
+         <p id="BSS_18.100">
+            hṛdi-ghātram amī praśnās praśnān anyān %sahasra-śas kuryāt/ <span class="note">D: hṛdi-ghātram &gt; hṛd-mātram</span><br />
+            anyais dattān praśnān uktyā evam sādhayet karaṇais// <span class="note">Cb.101</span>
+             <span class="ref">BSS_18.100</span></p>
+         
+         <p id="BSS_18.101">
+            jana-saṃsadi daiva-vidām tejas nāśayati bhānus iva bhānām/<br />
+            kuṭṭākāra-praśnais pathitais api kim punar %śata-śas// <span class="note">Cb.102, ḍ: śata-śas &gt; sūtrais</span>
+             <span class="ref">BSS_18.101</span></p>
+         
+         <p id="BSS_18.102">
+            prati-sūtram amī praśnās pathitās sa-uddeśakeṣu sūtreṣu/<br />
+            āryā-%tri-adhika-%śatena ca kuṭṭas ca %aṣṭādaśas adhyāyas// <span class="note">Cb.103</span><br />
+            iti śrī-brāhmasphuṭasiddhānte kuṭṭaka-adhyāyas %aṣṭādaśas//
+             <span class="ref">BSS_18.102</span></p>
+         
+         <p>[śaṅku-chāyā-ādi-jñānam]</p>
+         
+         <p>[praśnās]</p>
+         
+         <p id="BSS_19.1">
+            dṛṣṭvā dina-%ardha-ghaṭikā yas arka-jñas akṣa-aṃśakān vijānāti/<br />
+            udaya-antara-ghaṭikābhis jñātāt jñeyam sas tantra-jñas//
+             <span class="ref">BSS_19.1</span></p>
+         
+         <p id="BSS_19.2">
+            asta-antara-ghaṭikābhis yas jñātāt jñeyam ānayati tastmāt/<br />
+            madhya-gatim yuga-bha-gaṇān ānayati tatas sas tantra-jñas//
+             <span class="ref">BSS_19.2</span></p>
+         
+         <p id="BSS_19.3">
+            ānayati yas tamas-ravi-śaśa-aṅka-mānāni dīpaka-śikha-auccyāt/<br />
+            śaṅku-tala-antara-bhūmi-jñāne chāyām sas tantra-jñas//
+             <span class="ref">BSS_19.3</span></p>
+         
+         <p id="BSS_19.4">
+            iṣṭa-gṛha-auccya-jñas yas tad-antara-jñas nirīkṣyate tu jale/<br />
+            gṛha-bhitti-agram darśayati darpaṇe vā sas tantra-jñas//
+             <span class="ref">BSS_19.4</span></p>
+         
+         <p id="BSS_19.5">
+            chāyā-%dvitīya-bhā-agra-antara-vijñānena vetti dīpa-aucyam/<br />
+            śaṅku-chāyā-jñas vā bhūmes chāyām sas tantra-jñas// <span class="note">D: śaṅka- &lt; śaṅku-</span>
+             <span class="ref">BSS_19.5</span></p>
+         
+         <p id="BSS_19.6">
+            dṛṣṭvā gṛha-tala-antara-jālabhos dṛṣṭvā agram gṛhasya bhūmi-jñas/ <span class="note">D: dṛṣṭvā gṛha-tala-antara-jālabhos &gt; gṛha-puruṣa-antara-salile yas</span><br />
+            vetti gṛha-auccyam dṛṣṭvā taila-stham vā sas tantra-jñas//
+             <span class="ref">BSS_19.6</span></p>
+         
+         <p id="BSS_19.7">
+            vīkṣya gṛha-agram salile prasārya salilam punar sva-bhū-jñāne/<br />
+            ānayati jalāt bhūmim gṛhasya vā auccyam sas tantra-jñas//
+             <span class="ref">BSS_19.7</span></p>
+         
+         <p id="BSS_19.8">
+            jñātais chāyā-puruṣais vijñāte toya-kuḍyayos vivare/<br />
+            kuḍye arka-tejasas yas vetti ārūḍhim sas tantra-jñas//
+             <span class="ref">BSS_19.8</span></p>
+         
+         <p>[uttarāṇi]</p>
+         
+         <p id="BSS_19.9">
+            iṣṭa-divasa-%ardha-ghaṭikā ghaṭikā-%pañcadaśa-antara-prāṇās/<br />
+            tad-divasa-cara-prāṇās tais akṣam sādhayet prāk-vat//
+             <span class="ref">BSS_19.9</span></p>
+         
+         <p id="BSS_19.10">
+            jñāta-jñeya-grahayos udaya-antara-nāḍikābhis adhika-ūnas/<br />
+            udayais jñātas jñātāt jñeyas prāk-aparayos jñeyas//
+             <span class="ref">BSS_19.10</span></p>
+         
+         <p id="BSS_19.11">
+            jñātas sa-bha-%ardhas udayais asta-antara-nāḍikābhis adhika-ūnas/<br />
+            jñātāt pūrva-aparayos jñeyas bha-%ardha-ūnake jñeyas//
+             <span class="ref">BSS_19.11</span></p>
+         
+         <p id="BSS_19.12">
+            jñātam kṛtvā madhyam bhūyas anya-dine tad-antaram bhuktis/<br />
+            trairāśikena bhuktyā kalpa-graha-maṇḍala-ānayanam//
+             <span class="ref">BSS_19.12</span></p>
+         
+         <p id="BSS_19.13">
+            sthiti-%ardhāt viparītam tamas-pramāṇam sphuṭam grahaṇe/<br />
+            māna-udayāt ravi-indvos ghaṭikā-avayavena bha-udaya-tas//
+             <span class="ref">BSS_19.13</span></p>
+         
+         <p id="BSS_19.14">
+            dīpa-tala-śaṅku-talayos antaram iṣṭa-pramāṇa-śaṅku-guṇam/<br />
+            dīpa-śikha-auccyāt śaṅkum viśodhya śeṣa-uddhṛtam chāyā//
+             <span class="ref">BSS_19.14</span></p>
+         
+         <p id="BSS_19.15">
+            śaṅku-antareṇa guṇitā chāyā chāyā-antareṇa bhaktā bhūs /<br />
+            sa-chāyā śaṅku-guṇā dīpa-auccyam chāyayā bhaktā//
+             <span class="ref">BSS_19.15</span></p>
+         
+         <p id="BSS_19.16">
+            jñātvā śaṅku-chāyām anupātāt sādhayet samucchrāyān/<br />
+            gṛha-caitya-taru-nagānām auccyam vijñāya vā chāyām//
+             <span class="ref">BSS_19.16</span></p>
+         
+         <p id="BSS_19.17">
+            yuta-dṛṣṭi-gṛha-auccya-hṛtā hi antara-bhūmis dṛk-auccya-saṅguṇitā//<br />
+            phala-bhūs nyaste toye prati-rūpa-agram gṛhasya narāt//
+             <span class="ref">BSS_19.17</span></p>
+         
+         <p id="BSS_19.18">
+            gṛha-puruṣa-antara-salile vīkṣya gṛha-agram dṛk-auccya-saṅguṇitam/<br />
+            gṛha-toya-antaram auccyam gṛhasya nṛ-jala-antareṇa hṛtam//
+             <span class="ref">BSS_19.18</span></p>
+         
+         <p id="BSS_19.19">
+            %prathama-%dvitīya-nṛ-jala-antara-antareṇa uddhṛtā jala-apasṛtis/<br />
+            dṛṣṭi-auccya-guṇā ucchrāyas toyāt nṛ-jala-antara-guṇā bhūs//
+             <span class="ref">BSS_19.19</span></p>
+         
+         <p id="BSS_19.20">
+            chāyā-puruṣa-chinnam jala-kuḍya-antaram avāptam ārūḍhis/<br />
+            adhyāyas %viṃśati-āryāṇām %ekonaviṃśas ayam//
+             <span class="ref">BSS_19.20</span></p>
+         
+         <p>[chandas-citi-uttaram]</p>
+         
+         <p id="BSS_20.1">
+            ṛgvargaḥ paryāyaḥ samūhayogāvayukṣu yugmeṣu/<br />
+            soyāḥ prāgvatprāptādāścatuṣkakāḥ śeṣayuktyontyaḥ//
+             <span class="ref">BSS_20.1</span></p>
+         
+         <p id="BSS_20.2">
+            ekādiyutavihīnāvādyantau tadviparyayau yāvat/<br />
+            vargādiṣu viṣamayujāṃ kramotkramādvardhayetpādān//
+             <span class="ref">BSS_20.2</span></p>
+         
+         <p id="BSS_20.3">
+            ekaikena dvyādvyāḥ soppappadhikeṣu tatpratiṣṭheṣu/<br />
+            vargādirabhīṣṭāntaḥ prastāro bhavati yavamadhyaḥ//
+             <span class="ref">BSS_20.3</span></p>
+         
+         <p id="BSS_20.4">
+            sūnontyo dvipadāgraṃ tripadādyānāmadhaḥ pṛthak saṃkhyā/<br />
+            tacchodhyo vyekaḥ pṛthagntādrūpamūrdhvayutam//
+             <span class="ref">BSS_20.4</span></p>
+         
+         <p id="BSS_20.5">
+            yāvat pādāvyekāgacchādvarṇeṣvathaikavṛddheṣu/<br />
+            rūpādyutaghāte vargādyānāṃ parā saṃkhyā//
+             <span class="ref">BSS_20.5</span></p>
+         
+         <p id="BSS_20.6">
+            rūpādhikapādārdheviṣameṣūrdhvaḥ sameṣu pādārdhe/<br />
+            ardhādviguṇāvyekāṃyulānyadhastasya sarveṣām//
+             <span class="ref">BSS_20.6</span></p>
+         
+         <p id="BSS_20.7">
+            mādhyais tathārdhahīnaiḥ kramapādair vyastatulyapādādyaḥ/<br />
+            viṣameravyekaṃ madhye prohyādyānyataḥ kuryāt//
+             <span class="ref">BSS_20.7</span></p>
+         
+         <p id="BSS_20.8">
+            saikakramatulyādyair nyāso'bhyadhiko viśodhitaś cādhaḥ/<br />
+            saṃkhyaikyaṃ tādṛk yādṛk prathamas trirahito naṣṭe//
+             <span class="ref">BSS_20.8</span></p>
+         
+         <p id="BSS_20.9">
+            mādhyaiḥ kṛtaiś ca dalitaiḥ samasaṃkhyāyāṃ kramotkramāt kṣeppam/<br />
+            viṣamāyāṃ vyekāyāṃ dalam kramād uttkramāt saikam//
+             <span class="ref">BSS_20.9</span></p>
+         
+         <p id="BSS_20.10">
+            samasaṃkhyāyāṃ sopānakramotkramābhyāṃ tathaiva viṣamābhyām/<br />
+            kalpyā pacite dṛṣṭe prathamaḥ śeṣākṣarāṇyante//
+             <span class="ref">BSS_20.10</span></p>
+         
+         <p id="BSS_20.11">
+            samadalasamaviṣamāṇāṃ saṃkhyāpādārdhasarvakalpavadhaḥ/<br />
+            svādyavadho'nyaiḥ pādaiḥ svaparasya prāgvadhaḥ saikaiḥ//
+             <span class="ref">BSS_20.11</span></p>
+         
+         <p id="BSS_20.12">
+            ādyādanantaro'dhaḥ kalppo'nyatulyamādyaḥ prāk/<br />
+            nyāso vargo'nyonaḥ prastāro'rdhasamaviṣamāṇām//
+             <span class="ref">BSS_20.12</span></p>
+         
+         <p id="BSS_20.13">
+            naṣṭentyāt svādhasthonakalpaghāto'rdhatulyaviṣamāṇām/<br />
+            vyekaḥ pṛthak svavargoddhṛtaḥ phalaṃ tulyakalyānām//
+             <span class="ref">BSS_20.13</span></p>
+         
+         <p id="BSS_20.14">
+            uddiṣṭe kalpahṛte'tītaiḥ prathamaḥ phale sarūpe 'nyaḥ/<br />
+            asakṛdvargāṃśayute saike vārdhasamaviṣamāṇām//
+             <span class="ref">BSS_20.14</span></p>
+         
+         <p id="BSS_20.15">
+            kapeṣu pṛthak gurulaghusaṃkhyaikādibhājitā prāgvat/<br />
+            viṣameṣvādyalaghūno laghubhir meruḥ samādīnām//
+             <span class="ref">BSS_20.15</span></p>
+         
+         <p id="BSS_20.16">
+            ekadvitayoḥ parato dvisaṃguṇo'nantarādvirūpo'dhaḥ/<br />
+            vargadharādyonodalasamaviṣamāṇāṃ dhvajo laghubhiḥ//
+             <span class="ref">BSS_20.16</span></p>
+         
+         <p id="BSS_20.17">
+            laghusaṃkhyā padadalitā parato'dho'dhaś ca śudhyati hṛtā yaiḥ/<br />
+            dviguṇāntaiḥ śuddhair vargaparair mandaro laghubhiḥ//
+             <span class="ref">BSS_20.17</span></p>
+         
+         <p id="BSS_20.18">
+            kṛtvādho'dhaḥ kalpyānyekādyekottarānadhasteṣām/<br />
+            svāt parato'nyaikyam adhaḥ prastārād uktavad ihādyaiḥ//
+             <span class="ref">BSS_20.18</span></p>
+         
+         <p id="BSS_20.19">
+            guruṣaṣṭyekānighaṭīdviguṇānyekāṃgulāni saṃkhyā syāt/<br />
+            drāviṃśatir āryāṇāṃ chandaścityuttaro'dhyāyaḥ//<br />
+            iti śrī-brāhmasphuṭa-siddhānte chandaścityuttarādhyāyo viṃśatitamaḥ//
+             <span class="ref">BSS_20.19</span></p>
+         
+         <p>[jyā-prakaraṇam]</p>
+         
+         <p id="BSS_21.17">
+            rāśi-%aṣṭa-aṃśeṣu aṅkān pada-sandhibhyas krama-utkramāt kṛtvā/<br />
+            badhnīyāt sūtrāṇi %dvayos %dvayos jyās tad-%ardhāni//
+             <span class="ref">BSS_21.17</span></p>
+         
+         <p id="BSS_21.18">
+            jyā-%ardhāni jyā-%ardhānām jyā-khaṇḍāni antarāṇi/<br />
+            vyastāni antyāt atha vā iṣus utkrama-jyā dhanus tābhyām//
+             <span class="ref">BSS_21.18</span></p>
+         
+         <p id="BSS_21.19">
+            %eka-%dvi-%tri-guṇāyās vyāsa-%ardha-kṛtes pṛthak %caturthebhyas/<br />
+            mūlāni %aṣṭa-%dvādaśa-%ṣoḍaśa-khaṇḍāni atas anyāni//
+             <span class="ref">BSS_21.19</span></p>
+         
+         <p id="BSS_21.20">
+            tulya-krama-utkrama-jyā-sama-khaṇḍaka-varga-yuti-%catur-bhāgam/<br />
+            prohya anaṣṭam vyāsa-%ardha-vargatas tad-pade %prathamam//
+             <span class="ref">BSS_21.20</span></p>
+         
+         <p id="BSS_21.21">
+            tad-#dala-khaṇḍāni tad-ūna-#jina-samāni %dvitīyam utpattau/<br />
+            #kṛta-#yamala-%eka-#diś-#īśa-#iṣu-%sapta-#rasa-#guṇa-%nava-ādīnām//
+             <span class="ref">BSS_21.21</span></p>
+         
+         <p id="BSS_21.22">
+            evam jīvā-khaṇḍāni alpāni bahūni vā ādya-khaṇḍāni/<br />
+            jyā-%ardhāni vṛtta-paridhes %ṣaṣṭha-%caturtha-%tri-bhāgānām//
+             <span class="ref">BSS_21.22</span></p>
+         
+         <p id="BSS_21.23">
+            utkrama-sama-khaṇḍa-guṇāt vyāsāt atha vā %caturtha-bhāgāt yat/<br />
+            kṛtvā ukta-khaṇḍakāni jyā-%ardha-ānayanam na laghu asmāt//
+             <span class="ref">BSS_21.23</span></p>
+         </div>
+   </body>
+</html>

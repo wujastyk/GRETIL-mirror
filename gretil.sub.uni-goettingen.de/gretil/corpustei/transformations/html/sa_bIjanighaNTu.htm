@@ -1,0 +1,503 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Bījanighaṇṭu (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Bījanighaṇṭu</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_bIjanighaNTu.xml">sa_bIjanighaNTu.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Oliver Hellwig</p>
+      <p class="noindent"><b>Contribution: </b>Oliver Hellwig</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Ram Kumar Rai in: Dictionaries of Tantrashastra. - Benares: Prachya Prakashan, 1984.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/saiva/bijnighu.htm">bijnighu.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Bijanighantu
+            <br />Based on the edition by Ram Kumar Rai in:
+            <br />Dictionaries of Tantrashastra. - Benares: Prachya Prakashan, 1984.
+            <br />
+            <br />Input by Oliver Hellwig
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>
+            atha vakṣye mantrakośaṃ yad uktaṃ bhūtaḍāmare /<br />
+            kramād bījavidhānaṃ ca śrutyarthajñānasambhavam // 1
+            </p>
+         
+         <p>
+            śrīśiva uvāca /<br />
+            a vidyujjihvā ā kālavajrī i garjinī ī dhūmrabhairavī u kālarātriḥ ū vidārī ṛ mahāraudrī
+            ṝ bhayaṃkarī ḷ saṃhāriṇī lu karālinī e ūrdhvakeśī ai ugrabhairavī o bhīmākṣī au ḍākinī
+            aṃ rudrarākiṇī aḥ caṇḍikā ka krodhīśaḥ kha vāmanaḥ ga caṇḍaḥ gha vikārī ṅa unmattabhairavaḥ
+            ca jvālāmukhaḥ cha raktadaṃṣṭraḥ ja asitāṅgaḥ jha vaḍavāmukhaḥ ja vidyunmukhaḥ ṭa
+            mahājvālaḥ ṭha kapālī ḍa bhīṣaṇaḥ ḍha ruruḥ ṇa saṃhārī ta bhairavaḥ tha daṇḍī da balibhuk
+            dha ugrasūladhṛk na siṃhanādī pa kapardī pha karālāgniḥ ba bhayaṃkaraḥ bha bahurūpī
+            ma mahākālaḥ ya jīvātmā ra kṣatajokṣitaḥ la balabhedī va raktapaṭaḥ śa caṇḍīśaḥ ṣa
+            jvalanadhvajaḥ sa dhūmadhvajaḥ ha vyomavaktraḥ kṣa tryailokyagrasanātmakaḥ // 2
+            </p>
+         
+         <p>vidyujjihvā kālavaktrā mahākālair alaṃkṛtā // 3</p>
+         
+         <p>viśabījaṃ śrutimukhaṃ dhruvaṃ hālāhalaṃ priye ca tat // 4</p>
+         
+         <p>
+            caṇḍīśaḥ kṣatajārūḍho dhūmrabhairavyalaṃkṛtaḥ /<br />
+            nādabindusamāyukto bījaṃ viṣṇupriyā mataṃ śrīṃ // 5
+            </p>
+         
+         <p>
+            kṣatajastho vyomavaktro dhūmrabhairavyalaṃkṛtaḥ /<br />
+            nādabindusamāyukto bījaṃ prāthamikaṃ smṛtaṃ hrīṃ // 6
+            </p>
+         
+         <p>
+            krodhīśaḥ kṣatajārūḍho dhūmrabhairavyalaṃkṛtaḥ /<br />
+            nādabindusamāyuktaḥ pitṛbhūvāsinī smṛtaḥ krīṃ // 7
+            </p>
+         
+         <p>
+            vidārīyuktaṃ vyomāsyaṃ rudrarākiṇyalaṃkṛtam /<br />
+            kūrcaṃ kālaṃ krodhabījaṃ jānīhi vīravandite hūṃ // 8
+            </p>
+         
+         <p>
+            nādabindusamāyuktāṃ samādāyograbhairavīm /<br />
+            bhautikaṃ vāgbhavaṃ bījaṃ viddhi sārasvataṃ priye ai // 9
+            </p>
+         
+         <p>pralayāgnir mahājvālaḥ khyātaś cāstramanuḥ priye phaṭ // 10</p>
+         
+         <p>krodhīśaraktabhīmākṣyo 'ṅkuśo 'yaṃ nādabindumān kroṃ // 11</p>
+         
+         <p>dviṭhaḥ śiro vahnijāyā svāhā jvalanavallabhā svāhā // 12</p>
+         
+         <p>
+            krodhīśo balabhid dhūmrabhairavīnādabindubhiḥ /<br />
+            trimūrtir manmathaḥ kāmaḥ bījaṃ trailokyamohanam klīṃ // 13
+            </p>
+         
+         <p>
+            vyomāsyaḥ kālarātryārḍhyo varma bindīndusaṃyutaḥ /<br />
+            kathitaṃ kavacaṃ bījaṃ kulācārapriye 'male huṃ // 14
+            </p>
+         
+         <p>
+            vyomāsyaḥ kṣatajārūḍho ḍākinīnādabindubhiḥ /<br />
+            jyotir mantraḥ samākhyāto mahāpātakanāśanaḥ hrauṃ // 15
+            </p>
+         
+         <p>
+            saṃyukto dhūmrabhairavyā raktastho balibhojanaḥ /<br />
+            nādabindusamāyuktaḥ kiṅkiṇībījam uttamam drīṃ // 16
+            </p>
+         
+         <p>
+            bahurūpiṇam ādāya kṣatajokṣitasaṃsthitam /<br />
+            vidāryāliṅgitaṃ tadvad viśeṣārtho mahāmanuḥ bhrūṃ // 17
+            </p>
+         
+         <p>
+            dhūmradhvajādhaḥ kālāgniḥ sordhvakeśīndubindubhiḥ /<br />
+            yugāntakārakaṃ bījaṃ bhairaveṇa prakāśitam spheṃ // 18
+            </p>
+         
+         <p>
+            saṃhāriṇyāśritaṃ cordhvakeśinī tu kapardinam /<br />
+            nādabindusamāyuktaṃ bījaṃ vaitālikaṃ smṛtam pleṃ // 19
+            </p>
+         
+         <p>
+            sanādabinduṃ krodhīśaṃ gṛhya saṃhāriṇīsthitam /<br />
+            kampinībījam ity uktaṃ dviṭhenoktā manoharī klīṃ svāhā // 20
+            </p>
+         
+         <p>
+            kapardinaṃ samādāya kṣatajokṣitasaṃsthitam /<br />
+            saṃyuktaṃ dhūmrabhairavyā dhvāṅkṣo 'yaṃ nādabindumān prīṃ // 21
+            </p>
+         
+         <p>
+            kapālidvayam ādāya mahākālena maṇḍitam /<br />
+            samāsanam iti proktaṃ caṇḍikāḍhyaṃ manoharam ṭhaṃ ṭhaṃ ṭhaḥ ṭhaḥ // 22
+            </p>
+         
+         <p>
+            pralayāgnisthito dhūmadhvajo guhye sabindumān /<br />
+            saṃyukto dhūmrabhairavyā smṛtā phetkāriṇī priye sphīṃ // 23
+            </p>
+         
+         <p>
+            kṣatajastho vyomavaktro bindukhaṇḍendvalaṃkṛtaḥ /<br />
+            khadyotam iti vikhyātaṃ grāsinī kālarātriyuk hruṃ // 24
+            </p>
+         
+         <p>
+            kṣatajasthaṃ vyomavaktraṃ nādabindusamanvitam /<br />
+            vidārībhūṣaṇaṃ kṛtvā bījaṃ vaivasvatātmakaṃ hrūṃ // 25
+            </p>
+         
+         <p>
+            vyomavaktro dhūmadhvajo vāraṇaḥ pralayāgnikaḥ /<br />
+            ūrdhvakeśī kṣatārūḍhā binducandrārdhasaṃgatā // 26
+            </p>
+         
+         <p>bījam ānandabhairavyā mūkānandakaraṃ param hasakhaphreṃ // 27</p>
+         
+         <p>
+            akāre bhīṣaṇā kīrtiṃ vidyujjihveti kīrtitā /<br />
+            ākāre tāmasī kālavajrī ca kālabhairavī // 28
+            </p>
+         
+         <p>
+            ikāre garjinī caṇḍā vijñeyā rudrabhairavī /<br />
+            īkāre śūlinī khyātā caṇḍogrā dhūmrabhairavī // 29
+            </p>
+         
+         <p>
+            ukāre kālakūṭākhyā pracaṇḍā caṇḍavallabhā /<br />
+            vidāry ūkārake proktā tālajaṅghā kapālinī // 30
+            </p>
+         
+         <p>
+            ṛkāre syān mahāraudrī jvālinī yoginīty api /<br />
+            ṝkāre kālikā proktā pitṛkālī bhayaṃkarī // 31
+            </p>
+         
+         <p>
+            saṃhāriṇī ḷkāre syān meghanādograbhāṣiṇī /<br />
+            rudracaṇḍā kālarātriḥ ḹkāre ca karālinī // 32
+            </p>
+         
+         <p>
+            ūrdhvakeśī ca cāmuṇḍā nādiny ekārake smṛtā /<br />
+            aikāre koṭarākṣī ca māliny unmattabhairavī // 33
+            </p>
+         
+         <p>
+            jvāliny okāragā jñeyā bhīmākṣī caṇḍamālinī /<br />
+            aukāre ḍākinī siṃhanādinī caṇḍabhairavī // 34
+            </p>
+         
+         <p>
+            akrūrākhyā vidārī ca aṃkāre rudrarākiṇī /<br />
+            śeṣe kapālinī yāmyā caṇḍikā kuṇḍaladvayam // 35
+            </p>
+         
+         <p>visargo nādaḥ sakalāḥ ṣaḍdaśoktāḥ svarā matāḥ // 36</p>
+         
+         <p>
+            krodhīśo vāraṇaś caṇḍaḥ śaṅkā tūnmattabhairavaḥ /<br />
+            jvālāmukho raktadaṃṣṭro 'sitāṅgo balayāmukhaḥ // 37
+            </p>
+         
+         <p>
+            vidyunmukho mahājvali kapālī bhīṣaṇo guruḥ /<br />
+            prahārī rauravo daṇḍī balito 'tyugraśūladhṛk // 38
+            </p>
+         
+         <p>
+            siṃhanādī kapardī ca pralayāgnir bhayaṃkaraḥ /<br />
+            bahurūpī mahākālaḥ sthirātmā kṣatajokṣitaḥ // 39
+            </p>
+         
+         <p>
+            balabhedī raktapaṭaś caṇḍiśo jvalanadhvajaḥ /<br />
+            dhūmadhvajo vyomavaktras trailokyagrasanātmakaḥ // 40
+            </p>
+         
+         <p>nayanaśrotrāsyanāsāhṛtsu nyāse daśa svarāḥ // 41</p>
+         
+         <p>
+            dhvajinīdhūmrabhairavyāvabhāve ca dṛśoḥ smṛte /<br />
+            mūlārṇamuramādiṣṭaṃ hṛdayaṃ svaraśaktayaḥ // 42
+            </p>
+         
+         <p>
+            ādimadhyāvasāneṣu pūrvābhāve yathottaram /<br />
+            kaṇṭhāsyaḥ kālavaktreṇa mahākālena bhūṣitaḥ /<br />
+            tadādiḥ pañcaraśmiś ca sṛṣṭisthitilayaṃ viṣam // 43
+            </p>
+         
+         <p>
+            śūlinyā sahito 'gnisthaś caṇḍīśa indubindumān /<br />
+            etad viṣṇupriyābījaṃ yan mānyaṃ jagataḥ priyam // 44
+            </p>
+         
+         <p>
+            kṣatajastho vyomavaktraś caṇḍogrābindubhūṣitaḥ /<br />
+            adrijā raudrī bhūteśī bījam prāthamikaṃ priyam // 45
+            </p>
+         
+         <p>
+            krodhīśo raktasaṃsthaś ca dhūmrabhairavyalaṃkṛtaḥ /<br />
+            bindvindusaṃyuto bījam drāvaṇaṃ kledanaṃ smṛtam // 46
+            </p>
+         
+         <p>
+            vyomāsyo bindusaṃyuktas tālajaṅghāvibhūṣitaḥ /<br />
+            kūrcakālo mahākālaḥ krodhabījam nirañjanam // 47
+            </p>
+         
+         <p>
+            unmattabhairavī rudraḍākinyā ca vibhūṣitā /<br />
+            nādenālaṃkṛtā bījam vāgbhavaṃ buddhivardhanam // 48
+            </p>
+         
+         <p>phaḍ ity astraṃ prasiddhaṃ syāj phaṭ // 49</p>
+         
+         <p>jvālāgnir vyāpakāṅkuśaḥ kror // 50</p>
+         
+         <p>śiraḥ svāhā dviṭho vahnijāyā jvalanavallabhā // 51</p>
+         
+         <p>dakṣajānudvayaṃ senduḥ devāsyaṃ vahnisundarī svāhā // 52</p>
+         
+         <p>indrāsanagato brahmā trimūrtīnduś ca manmathaḥ klīṃ // 53</p>
+         
+         <p>
+            garjinīdhūmrabhairavyau dakṣavāmapayodharau /<br />
+            vyomāsyaḥ kālavaktrāḍhyo varmabindīndusaṃyutaḥ huṃ // 54
+            </p>
+         
+         <p>
+            śūnyaṃ kṣatajamārūḍhaṃ caṇḍabhairavyalaṃkṛtam /<br />
+            nādabinduyutaṃ mūrdhni jyotirmantra udāhṛto hrauṃ // 55
+            </p>
+         
+         <p>
+            ādidevena nirdiṣṭaṃ mantrakośam anuttamam /<br />
+            yad arthibhyaḥ purā guptaṃ tan mayādya prakāśitam // 56
+            </p>
+         
+         <p>
+            yakṣaḍāmaratantrasya mantrakośavivecanam /<br />
+            krodhīśena tu yat proktaṃ bhairavāya mahātmane // 57
+            </p>
+         
+         <p>
+            vidyuccaṇḍāśinī gaurī krośinī nāginī jayā /<br />
+            kiṃnarī yoginī yakṣī bhūtinī pretinī narī // 58
+            </p>
+         
+         <p>
+            grāsinī trāsinī caṇḍī kalety evaṃ prakīrtitā /<br />
+            kālabhairave 'marasarvāsu bhūtalāṅgalavarāsu ca // 59
+            </p>
+         
+         <p>
+            subhagā sumukhī caṇḍī pārvatī suratapriyā /<br />
+            urvaśī caindriṇī līlā kaṅkālī mekhalā śacī // 60
+            </p>
+         
+         <p>
+            māninī haṃsinī caulā kalanā bhūminīti ca /<br />
+            ādidevena nirdiṣṭāḥ prathamādhipaśaktayaḥ // 61
+            </p>
+         
+         <p>
+            vibhramo bāhulo daṇḍī bhairavo naṭakaḥ śukaḥ /<br />
+            vṛkodaro jaṭo bhīṣmaḥ kṣobhakaḥ khecaro naṭaḥ // 62
+            </p>
+         
+         <p>
+            niśācarā dhvajī bhīmo vicitraḥ kauśiko yamaḥ /<br />
+            liṅgī vatsādhiko bhṛṅgī maṇibhadro ghaṭotkacaḥ // 63
+            </p>
+         
+         <p>
+            mahānandī śuko daṇḍī sugrīvaḥ kalaho bhavaḥ /<br />
+            daṇḍī bhāṣāntako 'jeśo gargo haṃsaḥ pakṣaiścaro halī // 64
+            </p>
+         
+         <p>
+            caṇḍībījam iti khyātaṃ vidyunnāgāṅganāṃśukaiḥ /<br />
+            aurasādhike 'ṃśukādyā ca dhūminy asau kiṃnaraḥ smṛtaḥ // 65
+            </p>
+         
+         <p>urvaśyālaṃkṛto haṃso haṃsendumastakoddhṛtaḥ hūṃ // 66</p>
+         
+         <p>vidyuccaṇḍā ca haṃsī ca ketur nāginyalaṃkṛtā ha // 67</p>
+         
+         <p>ḍiṇḍibhena saraktena kāminī bindubhiḥ śaśī śrīṃ // 68</p>
+         
+         <p>haṃsagrīvapārvatyā kapardīndvādyalaṃkṛtā hrīṃ // 69</p>
+         
+         <p>vigrahakalahakāminīndvādiprāṇahāriṇī krīṃ // 70</p>
+         
+         <p>vibhramo raktapārvatyai svāhā ulkāmukhī smṛtā // 71</p>
+         
+         <p>jvālaṃdharīti vikhyātā sabindvindukalā naṭī // 72</p>
+         
+         <p>haṃsaḥ sugrīvaḥ caṇḍādyaiḥ khadyotaiḥ parikīrtitā hraṃ // 73</p>
+         
+         <p>śyāmāliṅgitadeho 'sau khadyoto jyotir īritaḥ hrauṃ // 74</p>
+         
+         <p>yamaḥ sugrīvaḥ kāminīndrendvādyaiḥ kiṃnarīti ca hruṃ // 75</p>
+         
+         <p>sugrīvo 'pi yamaś caṇḍo nīlādyair vāṇa īritaḥ drāṃ // 76</p>
+         
+         <p>yamaḥ sugrīvabindvindujapādyaḥ piśitāśanaḥ druṃ // 77</p>
+         
+         <p>
+            tyāginaṃ maṇibhadrasthaṃ pretinīndvādyalaṃkṛtam /<br />
+            yugāntakārakaṃ bījam bhairaveṇa prakāśitam sphreṃ // 78
+            </p>
+         
+         <p>
+            bhṛṅgiṇaṃ mekhalāyuktaṃ pretinīndvādyalaṃkṛtam /<br />
+            bījaṃ vaitālikaṃ proktaṃ dviṭhenoktā manoharī pleṃ svāhā // 79
+            </p>
+         
+         <p>
+            vibhramo dhūminī vidyuccaṇḍikādyas tu kākinī /<br />
+            dhvāṅkṣabījam iti khyātaṃ sarvatantreṣu gopitaṃ prīṃ // 80
+            </p>
+         
+         <p>naṭadvayena dhūminyā ūrdhvakeśyā hy alaṃkṛtaṃ phreṃ // 81</p>
+         
+         <p>naṭo dhavānasaṃyukto naṭītīkṣṇapayodharaiḥ ṭaṃṭhaṃ // 82</p>
+         
+         <p>
+            pārvatyāliṅgitaṃ maṇibhadrasthaṃ yoginīpriye /<br />
+            phetkāriṇīti vikhyātā vidyuccaṇḍavibhūṣitā sphīṃ // 83
+            </p>
+         
+         <p>
+            sugrīvāsthilayaḥ śrotre hṛdyatvāvikalādṛśaḥ /<br />
+            vikalāyāḥ svabhāve ca syād gaurīti ca pārvatī // 84
+            </p>
+         
+         <p>
+            mūlārṇamāsam ākhyātaṃ hṛdayaṃ svaraśaktayaḥ /<br />
+            bhavasthityavasāneṣu vijñātavyaṃ yathottaram // 85
+            </p>
+         
+         <p>
+            ādidevena nirdiṣṭaṃ jambudvīpe kalau yuge /<br />
+            mantrakośam idaṃ bhūtayakṣaḍāmaratantrayoḥ // 86
+            </p>
+         
+         <p>martyānām upakārāya triṣu lokeṣu durlabham // 87</p>
+         
+         </div>
+   </body>
+</html>

@@ -1,0 +1,1625 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Dharmaskandha (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Dharmaskandha</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_dharmaskandha.xml">sa_dharmaskandha.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Klaus Wille</p>
+      <p class="noindent"><b>Contribution: </b>Klaus Wille</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Siglinde Dietz: Fragmente des Dharmaskandha - Ein Abhidharma-Text in Sanskrit aus
+            Gilgit. Göttingen 1984 (Abhandlungen der Akademie der Wissenschaften in Göttingen,
+            142) = DhskD: fols. 3-20, 26, and Kazunobu Matsuda: "Newly Identified Sanskrit Fragments
+            of the Dharmaskandha in the Gilgit manuscripts" (1), Sanskrit Fragments Transliterated,
+            with an Appendix by Hajime Sakurabe, Kyoto 1986. GBM 151-156; DhskM = fols. 21, 22,
+            27; Ed. also in: K. Sankarnarayan, K. Matsuda, M. Yoritomi: Lokaprajñapti, A Critical
+            Exposition of Buddhist Cosmology, Mumbai/New Delhi 2002. pp. 15-24.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="hi">highlighted text</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/dhrmsk_u.htm">dhrmsk_u.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Dharmaskandha = Dhsk
+            <br />Based on the ed. by Siglinde Dietz: Fragmente des Dharmaskandha -
+            <br />Ein Abhidharma-Text in Sanskrit aus Gilgit.
+            <br />Göttingen 1984 (Abhandlungen der Akademie der Wissenschaften in Göttingen, 142)
+            <br />= DhskD: fols. 3-20, 26,
+            <br />and
+            <br />Kazunobu Matsuda: "Newly Identified Sanskrit Fragments of the Dharmaskandha in the
+            Gilgit manuscripts" (1),
+            <br />Sanskrit Fragments Transliterated, with an Appendix by Hajime Sakurabe, Kyoto 1986.
+            <br />GBM 151-156; DhskM = fols. 21, 22, 27
+            <br />Ed. also in:
+            <br />K. Sankarnarayan, K. Matsuda, M. Yoritomi:
+            <br />Lokaprajñapti, A Critical Exposition of Buddhist Cosmology,
+            <br />Mumbai/New Delhi 2002. pp. 15-24.
+            <br />
+            <br />Input by Klaus Wille
+            <br />
+            <br />ITALICS = emendations
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>1. (avidyāpratyayāḥ saṃskārāḥ)</p>
+         
+         
+         <p>(<span class="bold">DhskD 3r1</span>) saṃmohaḥ pramoho mohaṃ mohajam iyam ucyate avidyā <span class="it">/</span> avidyāpratyayāḥ saṃskārāḥ katame <span class="it">/</span> evam uktaṃ bhagavatā <span class="it">/</span></p>
+         
+         
+         <p>avidyā bhikṣavo hetuḥ saṃrāgāya hetuḥ saṃdveṣāya hetuḥ saṃ<span class="it">mohāya / iti</span> (<span class="bold">DhskD 3r2</span>) yā sā saṃrāgatā saṃmohatā iyam ucyate avidyāpratyayāḥ saṃskārāḥ <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā <span class="it">/</span></p>
+         
+         
+         <p>avidyā bhikṣavaḥ pūrvaṃgamaṃ pūrvanimittam anekavidhānāṃ pāpa<span class="it">kānām akuśalā</span>nāṃ (<span class="bold">DhskD 3r3</span>) dharmāṇāṃ samutpattaye 'nūtpātiko bhavati yad uta āḥrīkyaṃ cānapatrāpyaṃ ca <span class="it">/</span> ahrīmān bhikṣavo bhikṣur anapatrāpī mithyādṛṣṭiko bhavati <span class="it">/</span> tatra bhikṣavo mithyā mithyādṛṣṭyā mithyāsaṃkalpo bhava<span class="it">ti /</span></p>
+         
+         
+         <p><span class="it">mithyā</span>saṃkalpān (<span class="bold">DhskD 3r4</span>) mithyāvācaṃ bhāṣati <span class="it">/</span> mithyāvāco mithyākarmāntaḥ prabhavati <span class="it">/</span> mithyākarmāntān mithyājīvaḥ prabhavati <span class="it">/</span> mithyājīvān mithyāvyāyāmaḥ prabhavati <span class="it">/</span> mithyāvyāyā<span class="it">mā</span>n mithyāsmṛti<span class="it">ḥ</span> prabhavati <span class="it">/ mithyāsmṛ</span>ter (<span class="bold">DhskD 3r5</span>) mithyāsamādhiḥ prabhavati <span class="it">/</span> iti yā sā mithyādṛṣṭir mithyāsaṃkalpo mithyāvāṅ mithyākarmānto mithyājīvo mithyāvyāyāmo
+            mithyāsmṛtiḥ mithyāsamādhir ima ucyante avidyā<span class="it">pratyayāḥ</span> (<span class="bold">DhskD 3r6</span>) saṃskārāḥ <span class="it">/</span></p>
+         
+         
+         <p>api khalv evaṃ uktaṃ bhagavatā <span class="it">/</span></p>
+         
+         
+         <p>ye ke cid bhikṣavo 'nekavidhāḥ pāpakā akuśalā dharmāḥ saṃbhavanti sarve te avidyāmūlakā
+            avidyāsamudayā avidyājātīyā <span class="it">avidyā</span>prabhavā <span class="it">/</span> (<span class="bold">DhskD 3r7</span>) avidāgato hi bhikṣavaḥ ajānan kuśalākuśalān dharmān yathābhūtaṃ na prajānāti sāvadyānavadyān
+            sevitavyāsevitavyān hīnapraṇītān kṛṣṇaśuklān sapratibhāgapratī<span class="it">tyasamu</span>tpannān (<span class="bold">DhskD 3r8</span>) dharmān yathābhūtaṃ na prajānāti <span class="it">/</span> sa evaṃ kuśalākuśalān dharmān yathābhūtam aprajānan sāvadyānavadyān sevitavyāsevitavyān
+            hīnapraṇītakṛṣṇaśuklasapratibhāgapra<span class="it">tītyasa</span>mutpannān (<span class="bold">DhskD 3r9</span>) dharmān yathābhūtam aprajānan mithyādṛṣṭiko bhavati <span class="it">/</span> tatra bhikṣavo mithyādṛṣṭyā mithyāsaṃkalpaḥ prabhavati vistareṇa yathā pūrvoktaṃ
+            <span class="it">/</span> ima ucyante avidyāpratyayāḥ <span class="it">sa</span>ṃ<span class="it">skārāḥ /</span></p>
+         
+         
+         <p>(<span class="bold">DhskD 3v1</span>) api khalv evam uktaṃ bhagavatā kuṃbhopame vyākaraṇe <span class="it">/</span></p>
+         
+         
+         <p>puṇyān api saṃskārān abhisaṃskaroti avidyāpratyayān <span class="it">/</span> apuṇyān apy āniṃjyān api saṃskārān abhisaṃskaroti <span class="it">/</span> avidyāpratyayāḥ puṇyasaṃskā<span class="it">rāḥ katame / āha kuśalaṃ kāyakarma</span> (<span class="bold">DhskD 3v2</span>) vākkarma kuśalāś cittacaitasikā dharmāḥ kuśalāś cittaviprayuktāḥ saṃskārāḥ <span class="it">/</span> yad api tat kuśalasya kāyakarmavākkarmaṇaḥ kuśalānāṃ cittacaitasikānāṃ kuśalānāṃ
+            cittaviprayuktānāṃ saṃskārāṇāṃ dīrgharātraṃ <span class="it">iṣṭaṃ kāntaṃ pri</span>yaṃ (<span class="bold">DhskD 3v3</span>) manāpaṃ vipākaṃ pratisaṃvedayate tad idam ucyate puṇyam iti vā puṇyaphalam iti vā
+            puṇyaphalavipākam iti vā <span class="it">/</span></p>
+         
+         
+         <p>apuṇyāḥ saṃskārāḥ katame <span class="it">/</span> āhākuśalaṃ kāyakarmavākkarma akuśalāś cittacaitasikā dharmāḥ aku<span class="it">śalāś ci</span>ttaviprayuktā<span class="it">ḥ</span> (<span class="bold">DhskD 3v4</span>) saṃskārā <span class="it">/</span> yad api tad akuśalasya kāyakarmavākkarmaṇaḥ akuśalānāṃ cittacaitasikānāṃ dharmāṇām
+            akuśalānāṃ cittaviprayuktānāṃ saṃskārāṇāṃ dīrgharātram aniṣṭam akāntam apriyam amanāpaṃ
+            pratisaṃve<span class="it">dayate ta</span>d (<span class="bold">DhskD 3v5</span>) ucyate apuṇyam iti vā apuṇyaphalam iti vā apuṇyaphalavipākam iti vā <span class="it">/</span> ima ucyante apuṇyāḥ saṃskārāḥ <span class="it">/</span></p>
+         
+         
+         <p>āniṃjyāḥ saṃskārā<span class="it">ḥ</span> katame <span class="it">/</span> āha / catvāry ārūpyāṇy āniṃjyam ity ucyate //</p>
+         
+         
+         <p>katham apuṇyān saṃskārān a<span class="it">bhisaṃskuru</span>te (<span class="bold">DhskD 3v6</span>) avidyāpratyayān <span class="it">/</span> āha / yathā khalv ihaikatyo rāgaparyavasthito dveṣapāryavasthito mohaparyavasthitaḥ
+            kāyena duścaritaṃ carati vācā manasā duścaritaṃ carati <span class="it">/</span> itīme te akuśalāḥ kāyasaṃskārā <span class="it">vāksaṃskārā</span> (<span class="bold">DhskD 3v7</span>) manaḥsaṃskārā <span class="it">/</span> ima ucyante apuṇyā<span class="it">ḥ</span> saṃskārā <span class="it">/</span> yad api taddhetos tatpratyayaṃ kāyasya bhedān narakeṣūpapadyante / tatra ca saṃskārān
+            abhinirvartayante <span class="it">/</span> evam apuṇyān saṃskārān abhisaṃskaroti avidyāpratya<span class="it">yān /</span></p>
+         
+         
+         <p><span class="it">yathā</span> (<span class="bold">DhskD 3v8</span>) narakeṣv evaṃ tiryakpreteṣu /</p>
+         
+         
+         <p>kathaṃ puṇyān saṃskārān abhisaṃskaroti avidyāpratyayān <span class="it">/</span> āha / yathā khalv ihaikatyo manuṣyasukhakeṣv avekṣāvān bhavati pratibaddhacittas
+            <span class="it">/</span> tasyaivaṃ bhavaty <span class="it">/</span> aho batāhaṃ manuṣyasukhakānāṃ <span class="it">sabhāgatā</span>yām (<span class="bold">DhskD 3v9</span>) upapadyeyam iti <span class="it">/</span> sa taṃ prārthayamānas taddhetukaṃ saṃvartanīyaṃ kāyena sucaritaṃ carati vācā manasā
+            sucaritaṃ carati <span class="it">/</span> iti ye te kuśalāḥ kāyasaṃskārā vā vāksaṃskārā vā manaḥsaṃskārā vā <span class="it">ima ucyante pu</span>ṇyāḥ (<span class="bold">DhskD 3v10</span>) saṃskārāḥ <span class="it">/</span> yad api taddhetu tatpratyayaṃ kāyasya bhedān manuṣyasukhakānāṃ sabhāgatāyām upapadyate
+            <span class="it">/</span> tatra ca saṃskārān abhinirvartayaty <span class="it">/</span> evaṃ puṇyān saṃskārān abhisaṃskaroti avidyāpratyayān <span class="it">/ n</span>a hai<span class="it">vāvekṣāvā</span>n (<span class="bold">DhskD 4r1</span>) bhavati pratibaddhacittaḥ <span class="it">/</span> api tv avidyāyāṃ satyām avidyāsaṃcetanāhetoḥ kāyena sucaritaṃ carati vācā manasā
+            sucaritaṃ carati <span class="it">/</span> iti ye te kuśalāḥ kāyasaṃskārā vistareṇa yāvan manuṣyasukhakānāṃ sabhāgatāyā<span class="it">m upapadyate /</span> (<span class="bold">DhskD 4r2</span>) tatra ca saṃskārān abhisaṃvartayaty <span class="it">/</span> evaṃ puṇyān saṃskārān abhisaṃskurute avidyāpratyayān <span class="it">/</span></p>
+         
+         
+         <p>yathā manuṣyasukhakānām evaṃ cāturmahārājakāyikānāṃ trayastriṃśānāṃ yāmānāṃ tuṣitānāṃ
+            nirmāṇaratīnāṃ paranirmitava<span class="it">śavartināṃ /</span></p>
+         
+         
+         <p>(<span class="bold">DhskD 4r3</span>) yathā khalv ihaiko brahmakāyikānāṃ devānām avekṣāvān bhavati pratibaddhacittaḥ <span class="it">/</span> tasyaivaṃ bhavati <span class="it">/</span> aho batāhaṃ brahmakāyikānāṃ devānāṃ sabhāgatāyām upapadyeyaṃ <span class="it">/</span> sa taṃ prārthayamānaḥ taddhetos tatsaṃvartanīyaṃ viviktaṃ kā<span class="it">mair vivi</span>ktaṃ (<span class="bold">DhskD 4r4</span>) pāpakair akuśalair dharmaiḥ savitarkaṃ savicāraṃ vivekajaṃ prītisukhaṃ prathamaṃ
+            dhyānam upasaṃpadya viharati <span class="it">/</span> tathā samāpannasya yat kāyasaṃvaro vāksaṃvaraḥ ājīvapariśuddhiḥ ima ucyante puṇyāḥ
+            saṃskārāḥ <span class="it">/</span> yad api <span class="it">taddhetos ta</span>tpratyayaṃ (<span class="bold">DhskD 4r5</span>) kāyasya bhedād braḥmakāyikānāṃ devānāṃ sabhāgatāyām upapadyate <span class="it">/</span> tatra ca saṃskārān abhinirvartayati <span class="it">/</span> evaṃ puṇyān saṃskārān abhinirvartayaty avidyāpratyayān <span class="it">/</span> na haivāvekṣāvān bhavati pratibaddhaci<span class="it">ttaḥ / api</span> (<span class="bold">DhskD 4r6</span>) tv avidyāyāṃ satyām avidyāsaṃcetanāhetor viviktaṃ kāmair yāvat prathamaṃ dhyānam
+            upasaṃpadya viharati <span class="it">/</span> tathā samāpannasya yaḥ kāyasaṃvaro vāksaṃvaraḥ <span class="it">/</span> vistareṇa yāvat <span class="it">/</span> tatra ca saṃskārān abhinirvartayati <span class="it">/ evam puṇyān</span> (<span class="bold">DhskD 4r7</span>) saṃskārān abhinirvartayaty avidyāpratyayān*<span class="it">/</span></p>
+         
+         
+         <p>yathā brahmakāyikānām evaṃ brahmapurohitānāṃ mahābraḥmāṇāṃ parīttābhānāṃ apramāṇābhānā<span class="it">m ā</span>bhāsvarāṇāṃ parīttaśubhānām apramāṇaśubhānāṃ śubhakṛtsnānām a<span class="it">nabhrakā</span>ṇāṃ (<span class="bold">DhskD 4r8</span>) puṇyaprasavānāṃ bṛhatphalānāṃ <span class="it">/</span> eṣu sarveṣu yathāyogyāni dhyānāni vaktavyāni <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyaḥ asaṃjñisatvānāṃ devānām avekṣāvān bhavati pratibaddhacittaḥ
+            <span class="it">/</span> tasyaivaṃ bhavaty <span class="it">/</span> aho batāhaṃ asaṃjñisa<span class="it">ttvānāṃ devā</span>nāṃ (<span class="bold">DhskD 4r9</span>) sabhāgatāyām upapadyeyaṃ <span class="it">/</span> sa taṃ prārthayamānas taddhetos tatsaṃvartanīyaṃ saṃjñām audārikato duḥkhilataḥ sthūlabhittikato
+            manasikaroti āsaṃjñikaṃ ca śāntataḥ praṇītato niḥsaraṇa<span class="it">taḥ / tasya saṃjñām au</span>dārikato (<span class="bold">DhskD 4r10</span>) duḥkhilataḥ sthūlabhittikato manasikurvataḥ āsaṃjñikaṃ ca śāntataḥ praṇītato niḥsaraṇataḥ
+            saṃjñā antarāyaty āsaṃjñikaṃ ca saṃsthihati <span class="it">/</span> yatrāsya saṃjñā antarāyaty āsaṃjñikaṃ <span class="it">saṃsthihaty etā</span>vad (<span class="bold">DhskD 4v1</span>) asaṃjñisamāpattiṃ samāpanna iti vaktavyaṃ <span class="it">/</span> tathā samāpannasya yaḥ kāyasaṃvaro vāksaṃvaraḥ ājīvaviśuddhir ima ucyante puṇyāḥ
+            saṃskārāḥ <span class="it">/</span> yad api taddhetos tatpratyayaṃ kāyasya bhe<span class="it">dād asaṃ</span>jñ<span class="it">isattvānāṃ sabhā</span>gatāyām (<span class="bold">DhskD 4v2</span>) upapadyate / tatra ca saṃskārān abhisaṃnirvartayaty avidyāpratyayān <span class="it">/</span> na haivāvekṣāvān bhavati pratibaddhacitto <span class="it">/</span> 'pi tv avidyāyāṃ satyāṃ avidyābhisaṃcetanāhetoḥ saṃjñām audārikato duḥkhilataḥ <span class="it">sthūlabhittikato</span> (<span class="bold">DhskD 4v3</span>) manasikurute āsaṃjñikaṃ ca śāntataḥ praṇītato niḥsaraṇataḥ <span class="it">/</span> tasya vistareṇa yāvad āsaṃjñikaṃ saṃsthihaty etāvat asaṃjñisamāpattiṃ samāpanna iti
+            vaktavyaṃ <span class="it">/</span> tathā samāpannasya yaḥ kāyasaṃvaro <span class="it">/ vistare</span>ṇa (<span class="bold">DhskD 4v4</span>) yāvat <span class="it">/</span> tatra ca saṃskārān abhinirvartayaty <span class="it">/</span> evaṃ puṇyān saṃskārān abhisaṃskaroty avidyāpratyayān <span class="it">/</span></p>
+         
+         
+         <p>katham āniṃjyān saṃskārān abhisaṃskaroty avidyāpratyayān <span class="it">/</span> āha / yathā khalv ihaikatyaḥ ākāśānantyāyata<span class="it">nānāṃ devānā</span>m (<span class="bold">DhskD 4v5</span>) avekṣāvān bhavati pratibaddhacittaḥ <span class="it">/</span> tasyaivaṃ bhavaty <span class="it">/</span> aho batāhaṃ ākāśānantyāyata<span class="it">nā</span>nāṃ devānāṃ sabhāgatāyām upapadyeyaṃ <span class="it">/</span> sa taṃ prārthayamānaḥ taddhetos tatsaṃvartanīyaṃ sarvaśo rūpasaṃ<span class="it">jnānām a</span>tikramāt (<span class="bold">DhskD 4v6</span>) pratighasaṃjñānāṃ astaṃgamān nānātvasaṃjñānām amanasikārād anantam ākāśam ity ākāśānantyāyatanam
+            upasaṃpadya viharati <span class="it">/</span> tathā samāpannasya yā cetanā cetitaṃ cetanāmitaṃ <span class="it">cetayi</span>tatvaṃ (<span class="bold">DhskD 4v7</span>) cetanāgataṃ cittābhisaṃskāro manaskarma ima ucyante āniṃjyāḥ saṃskārāḥ <span class="it">/</span> yad api taddhetos tatpratyayaṃ kāyasya bhedād ākāśānantyāyatanānāṃ devānāṃ sabhāgatāyām
+            upapadyate ta<span class="it">tra ca saṃ</span>skārān (<span class="bold">DhskD 4v8</span>) abhinirvartayaty <span class="it">/</span> evam āniṃjyān saṃskārān abhinirvartayaty avidyāpratyayān <span class="it">/</span> na haivāvekṣāvān bhavati pratibaddhacittaḥ <span class="it">/</span> api tv avidyāyāṃ satyāṃ avidyābhisaṃcetanāhetoḥ sarvaśo rūpasaṃjñānāṃ <span class="it">samati</span>kramād (<span class="bold">DhskD 4v9</span>) vistareṇa yāvad ākāśānantyāyatanam upasaṃpadya viharati <span class="it">/</span> tathā samāpannasya yā cetanā vistareṇa ima ucyante āniṃjyāḥ saṃskārā <span class="it">/</span> yad api taddhetos tatpratyayaṃ kāyasya bhedā<span class="it">d ā</span>kāśā<span class="it">nantyāyata</span>nānāṃ (<span class="bold">DhskD 4v10</span>) devānāṃ sabhāgatāyām upapadyate <span class="it">/</span> tatra ca saṃskārān abhinirvartayaty <span class="it">/</span> evaṃ āniṃjyān saṃskārān abhinirvartayaty avidyāpratyayān* <span class="it">/</span></p>
+         
+         
+         <p>yathākāśānantyāyatanānām evaṃ vijñānānantyāyatanānām ā<span class="it">kiṃcanyāya</span>tanānāṃ (<span class="bold">DhskD 5r1</span>) naivasaṃjñānāsaṃjñāyatanānām eteṣāṃ pratyekapratyekasaḥ ārūpyā vaktavyā <span class="it">/</span> iti ye te saṃskārā avidyām āgamyāvidyāṃ niśrityāvidyāṃ pratiṣṭhāya utpadyanti samutpadyante
+            jāyanti saṃjāyanti <span class="it">samudāgacchanti</span> (<span class="bold">DhskD 5r2</span>) prādurbhavanti ima ucyante avidyāpratyayās saṃskārāḥ //</p>
+         
+         
+         <p>2. (saṃskārapratyayaṃ vijñānaṃ)</p>
+         
+         
+         <p>uddānaṃ <span class="it">/</span></p>
+         
+         
+         <p>hetuḥ pūrvaṃgamaṃ balaṃ saṃskārāḥ kumbhena <span class="it">/</span>
+            catuṣkaṃ //</p>
+         
+         
+         <p>uddānaṃ <span class="it">/</span>
+            lobhaḥ alobhaḥ atha cakṣuḥ saṃskṛtaṃ kumbhopamena <span class="it">/</span>
+            dvitīyaṃ catuṣkaṃ //</p>
+         
+         
+         <p>saṃskā<span class="it">rapratyayaṃ</span> (<span class="bold">DhskD 5r3</span>) vijñānaṃ katamad <span class="it">/</span> āha / yatha tāval lobhasahajāṃ vedanāṃ pratītya lobhasahajasya vijñānasyābhinirvṛttir
+            bhavati prādurbhāvaś ca dveṣasahajāṃ mohasahajāṃ vedanāṃ pratītya mohasahajasya vijñāna<span class="it">syābhinirvṛttir bhava</span>ti (<span class="bold">DhskD 5r4</span>) prādurbhāvaḥ <span class="it">/</span> tad ucyate saṃskārapratyayaṃ vijñānaṃ <span class="it">/</span> api khalu cakṣuḥ pratītya rūpāṇi cotpadyate cakṣurvijñānaṃ <span class="it">/</span> tatra cakṣuḥsaṃskṛtaṃ rūpāṇi ca bāhyaṃ pratyayaṃ cakṣurvijñānasya tad ucyate saṃskāra<span class="it">pratyayaṃ vijnānaṃ /</span> (<span class="bold">DhskD 5r5</span>) śrotraghrāṇajihvākāyamanaḥ pratītya dharmāṃś cotpadyate manovijñānaṃ <span class="it">/</span> tatra manaḥsaṃskṛtaṃ dharmāś ca bāhyaṃ pratyayaṃ manovijñānasya tad ucyate saṃskārapratyayaṃ
+            vijñānaṃ <span class="it">/</span> api khalv evam uktaṃ <span class="it">bhagavatā kumbho</span>pamesmin (<span class="bold">DhskD 5r6</span>) vyākaraṇe <span class="it">/</span></p>
+         
+         
+         <p>tasya puṇyān saṃskārān abhisaṃskṛtya puṇyopagaṃ bhavati vijñānaṃ <span class="it">/</span> apuṇyān āniṃjyān saṃskārān abhisaṃskṛtyāniṃjyopagaṃ bhavati vijñānaṃ <span class="it">/</span></p>
+         
+         
+         <p>katham apuṇyaṃ <span class="it">/</span> āha <span class="it">/</span> yathā kha<span class="it">lv ihaikatyo rāga</span>paryavasthito (<span class="bold">DhskD 5r7</span>) dveṣaparyavasthito mohaparyavasthitaḥ kāyena duścaritaṃ carati vācā manasā duścaritaṃ
+            carati <span class="it">/</span> iti ye te akuśalāḥ kāyasaṃskārā vāksaṃskārā manaḥsaṃskārā i<span class="it">ma ucyante 'pu</span>ṇyāḥ (<span class="bold">DhskD 5r8</span>) saṃskārāḥ <span class="it">/</span> yad api taddhetos tatpratyayaṃ kāyasya bhedān narakeṣūpapadyate <span class="it">/</span> tatra ca vijñānam abhinirvartayati <span class="it">/</span> evam apuṇyān saṃskārān abhisaṃskṛtyāpuṇyopagaṃ vijñānaṃ bhavati <span class="it">/</span></p>
+         
+         
+         <p>yathā na<span class="it">rakeṣu tiryakpre</span>teṣu (<span class="bold">DhskD 5r9</span>) <span class="it">/</span></p>
+         
+         
+         <p>kathaṃ puṇyān abhisaṃskārān abhisaṃskṛtya puṇyopagaṃ bhavati vijñānaṃ <span class="it">/</span> āha / yathā khalv ihaikatyo manuṣyasukhakeṣv avekṣāvān bhavati pratibaddhacittaḥ
+            <span class="it">/</span> vistareṇa yāvat <span class="it">/</span> tatra ca vijñānam abhi<span class="it">nirvartayati / e</span>vaṃ (<span class="bold">DhskD 5r10</span>) puṇyān saṃskārān abhisaṃskṛtya puṇyopagaṃ bhavati vijñānaṃ <span class="it">/</span></p>
+         
+         
+         <p>yathā manuṣyasukhakānām evaṃ yāvat paranirmitavaśavartināṃ brahmakāyikānāṃ viviktaṃ
+            kāmair viviktaṃ tatra ca vijñānam abhi<span class="it">nirvartayati /</span> (<span class="bold">DhskD 5r11</span>) (about 65-70 akṣaras illegible)</p>
+         
+         
+         <p>(<span class="bold">DhskD 5v1</span>) yāvad bṛhatphalānāṃ sarveṣu pratipratidhyānāni vaktavyāni <span class="it">/</span></p>
+         
+         
+         <p>katham āniṃjyān saṃskārān abhisaṃskṛtyāniṃjyopagaṃ bhavati vijñānaṃ <span class="it">/</span> āha <span class="it">/</span> yathā khalv ihaikatya ākāśānantyāyatanānāṃ devānām ave<span class="it">kṣāvān bhavati prati</span>baddhacitto (<span class="bold">DhskD 5v2</span>) vistareṇa tatra ca vijñānam abhinirvartayati <span class="it">/</span> evaṃ yāvan naivasaṃjñānāsaṃjñāyatanānām iti yāvad vijñānaṃ saṃskārān āgamya vistaraḥ
+            //</p>
+         
+         
+         <p>3. (vijñānapratyayam nāmarūpaṃ)</p>
+         
+         
+         <p>lobhasahajaṃ vijñānam alobhasahajaṃ tathā
+            nādi<span class="it">kaphalgunavā</span>daṃ (<span class="bold">DhskD 5v3</span>) svātir ānanda eva ca /
+            uddānaṃ //</p>
+         
+         
+         <p>vijñānapratyayaṃ nāmarūpaṃ katarad <span class="it">/</span> āha <span class="it">/</span> yathā tāval lobhasahajaṃ vijñānaṃ pratītya lobhasahajasya kāyakarmavākkarmaṇo 'bhinirvṛttir
+            bhavati prādurbhā<span class="it">vaś ca lobhasa</span>hajā (<span class="bold">DhskD 5v4</span>) vividhā utpadyante rūpi vikṛtaṃ <span class="it">/</span> ya idaṃ rūpasya tajjā vedanā saṃjñā saṃskārā vijñānam idaṃ nāmasya vijñānapratyayaṃ
+            nāmarūpasya <span class="it">/</span> tad ucyate vijñānapratyayaṃ nāmarūpaṃ <span class="it">/</span></p>
+         
+         
+         <p>evaṃ <span class="it">lobhasahajaṃ</span> (<span class="bold">DhskD 5v5</span>) mohasahajaṃ viparyayeṇa śuklapakṣeṣv alobhasahajam amohasahajaṃ vaktavyaṃ <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā nādikāvavādavyākaraṇe <span class="it">/</span></p>
+         
+         
+         <p>priyāṇāṃ nādika jñātīnāṃ vipariṇāmā<span class="it">nyathībhā</span>vād (<span class="bold">DhskD 5v6</span>) utpadyante śokāḥ paridevā duḥkhadaurmanasyopāyāsāḥ <span class="it">/</span></p>
+         
+         
+         <p>ity etac chokasahajaṃ vijñānaṃ pratītya śokasahajasya kāyavākkarmaṇo 'bhinirvṛttir
+            bhavati prādurbhāvaḥ <span class="it">/ yad idaṃ rūpasya tajjā</span> (<span class="bold">DhskD 5v7</span>) vedanā saṃjñā saṃskārā vijñānaṃ <span class="it">/</span> idaṃ nāmasya vijñānaṃ vijñānasya pratyayaṃ nāmarūpasya <span class="it">/</span> tad ucyate vijñānapratyayaṃ nāmarūpaṃ <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā phalgunāvavāde vyāka<span class="it">raṇe /</span></p>
+         
+         
+         <p><span class="it">vijnānaṃ</span> (<span class="bold">DhskD 5v8</span>) phalguna āhāraṃ yāvad evāyatyāṃ punarbhavasyābhinirvṛttaye prādurbhāvāya <span class="it">/</span></p>
+         
+         
+         <p>tat katarad vijñānaṃ <span class="it">/</span> āha <span class="it">/</span> yat tad gandharvasya caramaṃ cittaṃ manovijñānaṃ ācitam upacitaṃ pratiṣṭhitam apraha<span class="it">tam aparijñā</span>taṃ (<span class="bold">DhskD 5v9</span>) anirodhitam aśāntīkṛtaṃ <span class="it">/</span> yasya vijñānasya samanantaraṃ mātuḥ kukṣau kalalātmabhāvo 'bhisaṃmūrcchati <span class="it">/</span> kalalam ātmabhāvaṃ abhisaṃmūrcchatīti <span class="it">/</span> idaṃ rūpasya tajjā vedanā saṃjñā saṃskā<span class="it">rās tajjaṃ</span> (<span class="bold">DhskD 5v10</span>) vijñānam idaṃ nāmasya vijñānapratyayaṃ nāmarūpasya <span class="it">/</span> tad ucyate vijñānapratyayaṃ nāmarūpaṃ <span class="it">/</span></p>
+         
+         
+         <p>asti khalv evam uktaṃ bhagavatā svātiṃ bhikṣuṃ kaivartapūrviṇam ārabhya <span class="it">/</span></p>
+         
+         
+         <p>trayāṇāṃ bhi<span class="it">kṣavaḥ</span> (<span class="bold">DhskD 6r1</span>) sannipātān mātuḥ kukṣau garbhasyāvakrāntir bhavati <span class="it">/</span> katameṣāṃ trayāṇāṃ <span class="it">/</span> iha bhikṣavo mātāpitarau raktau bhavataḥ sannipatitau mātā ca kalyā bhavati ṛtumatī
+            gandharvaś ca pratyupasthito (<span class="bold">DhskD 6r2</span>) bhavati <span class="it">/</span> imeṣāṃ bhikṣavas trayāṇāṃ sannipātān mātuḥ kukṣau garbhasyāvakrāntir bhavati <span class="it">/</span></p>
+         
+         
+         <p>iti yat tad garbhasya caramaṃ cittaṃ manovijñānaṃ vistareṇa yāvad vijñānapratyayayaṃ
+            (<span class="bold">DhskD 6r3</span>) nāmarūpasya <span class="it">/</span> tad ucyate vijñānapratyayaṃ nāmarūpaṃ <span class="it">/</span></p>
+         
+         
+         <p>asti khalv evam uktaṃ bhagavatā mahānidānaparyāye vyākaraṇe āyuṣmate ānandāya <span class="it">/</span></p>
+         
+         
+         <p>asti pratyayam ānanda nāmarūpaṃ <span class="it">/</span> (<span class="bold">DhskD 6r4</span>) pṛṣṭe sati astīty asya vacanīyaṃ <span class="it">/</span> kiṃpratyayaṃ ānanda nāmarūpaṃ <span class="it">/</span> vijñānapratyayam iti syād vacanīyaṃ <span class="it">/</span></p>
+         
+         
+         <p>vijñānapratyayaṃ ānanda nāmarūpaṃ <span class="it">/</span> iti mayā yad uktam (<span class="bold">DhskD 6r5</span>) idaṃ me tat pratyuktaṃ <span class="it">/</span> vijñānaṃ ced ānanda mātuḥ kukṣau nāvakramiṣyad api nu nāmarūpaṃ kalalatvaṃ hi saṃmurcchiṣyat*
+            <span class="it">/</span> no bhadanta <span class="it">/</span> vijñānaṃ ced ānanda mātuḥ kukṣau nāvakramitvā puna<span class="it">r na vyu</span>tkramiṣyat* (<span class="bold">DhskD 6r6</span>) api nu nāmarūpaṃ imaṃ dhātum āgamiṣyan <span class="it">/</span> no bhadanta <span class="it">/</span> vijñānaṃ ced ānandādāv eva daḥra<span class="it">m a</span>sya taruṇasya kumārakasya ucchidyeta vinaśyeta na bhaveta api nu nāmarū<span class="it">paṃ vi</span>rūḍhiṃ (<span class="bold">DhskD 6r7</span>) vaipulyatām āpadyeta <span class="it">/</span> no bhadanta <span class="it">/</span> sarvaśo vā punaḥ sarvaśa ānanda vijñāne asati na nāmarūpaṃ prajñāyeta <span class="it">/</span> no bhadanta <span class="it">/</span> tasmād dhi ānanda etan nidānam eṣa hetuḥ eṣa pratyayo nā<span class="it">marūpasya</span> (<span class="bold">DhskD 6r8</span>) yad uta vijñānaṃ <span class="it">/</span> vijñānapratyayam ānanda nāmarū<span class="it">pa</span>m <span class="it">/</span> iti mayā yad uktam idaṃ me tat pratyuktaṃ //</p>
+         
+         
+         <p>4. (nāmarūpapratyayaṃ vijñānaṃ)</p>
+         
+         
+         <p>uddānaṃ //</p>
+         
+         
+         <p>dvayapratyayāt* vijñānaṃ phalgunaḥ svātir eva ca
+            rāgajaṃ dveṣamohaś ca ānando bhavati + +</p>
+         
+         
+         <p>(<span class="bold">DhskD 6r9</span>) nāmarūpapratyayaṃ vijñānaṃ katarad <span class="it">/</span> āha <span class="it">/</span> cakṣuḥ pratītya rūpāṇi cotpadyate cakṣurvijñānaṃ <span class="it">/</span> tatra yac cakṣur yāni ca rūpāṇi idaṃ rūpasya tajjā vedanā saṃjñā saṃskārā vijñānaṃ
+            <span class="it">/</span> idaṃ nā<span class="it">marūpasya</span> (<span class="bold">DhskD 6r10</span>) manasikāraṃ nāmapratyayasya manovijñānasya <span class="it">/</span> tad ucyate nāmarūpapratyayaṃ manovijñānaṃ <span class="it">/</span></p>
+         
+         
+         <p>evaṃ śrotraṃ ghrāṇaṃ jihvāṃ kāyaṃ <span class="it">/</span></p>
+         
+         
+         <p>manaḥ pratītya dharmāṃś cotpadyate <span class="it">manovijñānaṃ /</span> (<span class="bold">DhskD 6v1</span>) tatra ye rūpiṇo manovijñeyā dharmā idaṃ rūpasya tajjā vedanā saṃjñā saṃskārāḥ tajjaṃ
+            vijñānaṃ <span class="it">/</span> idaṃ nāmarūpasya tajjaṃ manasikāraṃ nāmapratyayasya manovijñānasya <span class="it">/</span> tad ucyate nāmarūpapratya<span class="it">yaṃ manovijñānam /
+               api</span> (<span class="bold">DhskD 6v2</span>) khalv evam uktaṃ bhagavatā phalgunāvavāde vyākaraṇe / vijñānaṃ phalgunāhāraṃ yāvad
+            evāyatyāṃ punarbhavasyābhinirvṛttaye prādurbhāvāya <span class="it">/</span></p>
+         
+         
+         <p>tat katarad vijñānaṃ <span class="it">/</span> āha / yat tad gandharvasya caramaṃ cittaṃ vi<span class="it">stareṇa yāvad</span> (<span class="bold">DhskD 6v3</span>) yasya gandharvasya samanantaraṃ mātuḥ kukṣau kalalam ātmabhāvaṃ saṃmūrcchati <span class="it">/</span> kalalam ātmabhāvaṃ saṃmūrcchatīti <span class="it">/</span> idaṃ rūpasya tajjā vedanā saṃjñā saṃskārās tajjaṃ vijñānaṃ idaṃ nāmasya <span class="it">/</span> ity etad ayoniśoma<span class="it">nasikārasa</span>hajaṃ (<span class="bold">DhskD 6v4</span>) nāmarūpaṃ pratītya mātuḥ kukṣau vijñānasyābhinirvṛttir bhavati prādurbhāvas <span class="it">/</span> tad ucyate nāmarūpapratyayaṃ vijñānaṃ <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā svātiṃ bhikṣuṃ kaivartapūrviṇam ārabhya <span class="it">/</span></p>
+         
+         
+         <p>trayāṇāṃ <span class="it">bhikṣavaḥ sa</span>nnipātān (<span class="bold">DhskD 6v5</span>) mātuḥ kukṣau garbhasyāvakrāntir bhavati <span class="it">/</span> vistareṇa yāvad <span class="it">/</span> ity evam ayoniśomanasikāreṇa sahajaṃ nāmarūpaṃ pratītya mātuḥ kukṣau vijñānasyāvakrāntir
+            bhavati prādurbhāvas <span class="it">/</span> tad u<span class="it">cyate nāmarū</span>papratyayaṃ (<span class="bold">DhskD 6v6</span>) vinjñānaṃ <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā mahānidānaparyāye <span class="it">/</span></p>
+         
+         
+         <p>vistareṇa yāvad <span class="it">/</span> vijñānaṃ ced ānanda nāmarūpapratiṣṭhāṃ na labheta tathāpratiṣṭhite vijñāne anatirūḍhe
+            + + + + + (<span class="bold">DhskD 6v7</span>) bhavasamudayasamutthāpakaṃ jātijarāmaraṇam abhinirvarteta <span class="it">/</span> no bhadanta <span class="it">/</span> sarvaśo vā punar ānanda nāmarūpe asati api nu vijñānaṃ prajñāyeta <span class="it">/</span> no bhadanta <span class="it">/</span> tasmād ānanda (<span class="bold">DhskD 6v8</span>) etan nidānaṃ vistareṇa yathā pūrvoktaṃ <span class="it">/</span></p>
+         
+         
+         <p>5. (nāmarūpapratyayaṃ ṣaḍāyatanam)</p>
+         
+         
+         <p>uddānaṃ <span class="it">/</span></p>
+         
+         
+         <p>śītam uṣṇaṃ ca bhojya<span class="it">ṃ</span> ca pānam udvartanaṃ tathā
+            śītodikā puṣkariṇī svātir eva ca rāgajaṃ
+            dveṣajaṃ caiva mohajaṃ bhavati paścimaṃ //</p>
+         
+         
+         <p>(<span class="bold">DhskD 6v9</span>) nāmarūpapratyayaṃ ṣaḍāyatanaṃ katarad <span class="it">/</span> āha / yathā khalv ihaikatyaḥ śītapracurād uṣṇaṃ gacchati <span class="it">/</span> tasya tata utpadya<span class="it">n</span>te uṣṇasahajāni mahābhūtāni <span class="it">/</span> tatra yāni ca uṣṇasahajāni (<span class="bold">DhskD 6v10</span>) mahābhūtāni idaṃ rūpasya tajjā vedanā saṃjñā saṃskārā vijñānaṃ idaṃ nāmasya <span class="it">/</span> ity etac chītasahajaṃ nāmarūpaṃ pratītya cakṣurindriyasyopacayo bhavati <span class="it">/</span></p>
+         
+         
+         <p>(<span class="bold">DhskD 7r1</span>) <span class="it">evaṃ śrotraṃ ghrāṇaṃ</span> jihvā kāyo mano 'pi tatra upacīyate <span class="it">/</span> tad ucyate nāmarūpapratyayaṃ ṣaḍāyatanam <span class="it">/</span> iti eṣa uṣṇapracurāc chītaṃ <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyo jighatsādaurbalyaparītaḥ śuci prāṇītaṃ khādanīyaṃ bhojanīya<span class="it">m khādayati / tasya</span> (<span class="bold">DhskD 7r2</span>) <span class="it">tata</span> utpadyante bhojanasahajāni mahābhūtāni <span class="it">/</span> tatra yac ca bhojanaṃ yāni ca bhojanasahajāni mahābhūtāni idaṃ rūpasya tajjā vedanā
+            <span class="it">/</span> vistareṇa yathā pūrvoktaṃ <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyas tṛṣitaḥ klāntaḥ pi<span class="it">pāsitaḥ</span> (<span class="bold">DhskD 7r3</span>) śuci śītalaṃ pānīyaṃ pibati <span class="it">/</span> tasya tata utpadyante pānasahajāni mahābhūtāni <span class="it">/</span> vistaraḥ <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyaḥ utsadanaparimardanasaṃvāhanāyogam anuyukto viharati <span class="it">/</span> tasya tata utpadyante utsada<span class="it">napa</span>rimardanasaṃvāhanasahajāni (<span class="bold">DhskD 7r4</span>) mahābhūtāni <span class="it">/</span> tatra yac ca utsadanaṃ parimardanasaṃvāhanaṃ yāni ca utsadanaparimardanasaṃvāhanasahajāni
+            mahābhūtāni idaṃ rūpasya tajjā vedanā saṃjñā saṃskārās tajjaṃ vi<span class="it">jñā</span>nam (<span class="bold">DhskD 7r5</span>) idaṃ nāmasya <span class="it">/</span> vistaraḥ <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyo grīṣmābhitapto grīṣmaparītas tṛṣitaḥ klāntaḥ pipāsitaḥ vātātapaparidyūnaḥ
+            śītodikāṃ puṣkariṇīm avagāhayet* <span class="it">/</span> tasya tata u<span class="it">tpadyante</span> (<span class="bold">DhskD 7r6</span>) śītasahajāni mahābhūtāni <span class="it">/</span> tatra ca yac ca śītaṃ yāni ca śītasahajāni mahābhūtāni {/} tasya tajjā vedanā <span class="it">/</span> vistaraḥ <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā phalgunāvavāde vyākaraṇe /</p>
+         
+         
+         <p>vi<span class="it">jñānaṃ phalgu</span>na (<span class="bold">DhskD 7r7</span>) āhāraṃ yāvad āyatyāṃ punarbhavasyābhinirvṛttaye prādurbhāvāya <span class="it">/</span></p>
+         
+         
+         <p>yat tat katarad vijñānaṃ <span class="it">/</span> vistareṇa yāvat* <span class="it">/</span> yasya vijñānasya samanantaraṃ mātuḥ kukṣau kalalam ātmabhāvam abhi<span class="it">saṃmūrcchati /</span> (<span class="bold">DhskD 7r8</span>)<span class="it"> ka</span>lalaṃ ātmabhāvaṃ saṃmūrcchatīti <span class="it">/</span> idaṃ rūpasya tajjā vedanā saṃjñā saṃskārās tajjaṃ vijñānam idaṃ nāmasya <span class="it">/</span> ity etad ayoniśomanasikārasahajaṃ nāmarūpaṃ pratītya mātuḥ kukṣau ṣaṇṇā<span class="it">m indriyāṇā</span>m (<span class="bold">DhskD 7r9</span>) abhinirvṛttir bhavati prādurbhāvas <span class="it">/</span> tad ucyate nāmarūpapratyayaṃ ṣaḍāyatanam iti <span class="it">/</span>
+            api khalv evam uktaṃ bhagavatā svātiṃ bhikṣuṃ kaivartapūrviṇam ārabhya <span class="it">/</span></p>
+         
+         
+         <p>trayāṇām bhikṣavaḥ saṃnipātān mātuḥ <span class="it">kukṣau garbhasyāva</span>krāntir (<span class="bold">DhskD 7r10</span>) bhavati <span class="it">/</span> vistareṇa yāvan <span class="it">/</span> mātuḥ kukṣau ṣaṇṇām indriyāṇām abhinirvṛttir bhavati prādurbhāvaḥ <span class="it">/</span> tad ucyate ṣaḍāyatanapratyayaṃ nāmarūpam iti <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihai<span class="it">katyo</span> + + + <span class="it">rā</span>gaparyavasthito (<span class="bold">DhskD 7v1</span>) dveṣaparyavasthito mohaparyavasthitaḥ kāyena duścaritaṃ carati <span class="it">/</span> vācā manasā duścaritaṃ carati <span class="it">/</span> kāyena vācā duścaritaṃ carati <span class="it">/</span> idaṃ rūpasya <span class="it">/</span> manasā duścaritam idaṃ nāmasyety <span class="it">/</span> eta<span class="it">d akuśalaṃ nāma</span>rūpaṃ (<span class="bold">DhskD 7v2</span>) pratītya duḥkhodayaṃ duḥkhavipākaṃ kāyasya bhedān narakeṣūpapadyate / tatra ca ṣaṇṇām
+            indriyāṇām abhinirvṛttir bhavati prādurbhāvaḥ <span class="it">/</span> tad ucyate nāmarūpapratyayaṃ ṣaḍāyatanaṃ <span class="it">/</span></p>
+         
+         
+         <p>yathā nara<span class="it">keṣu tirya</span>kpreteṣu (<span class="bold">DhskD 7v3</span>) <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyo manuṣyasukhakeṣv avekṣāvān bhavati pratibaddhacittaḥ <span class="it">/</span> tasyaivaṃ bhavaty <span class="it">/</span> aho batāhaṃ manuṣyasukhakānāṃ sabhāgatāyām upapadyeyaṃ <span class="it">/</span> sa taṃ prārthayamāno <span class="it">/</span> vistareṇa yā<span class="it">vat kāyena vā</span>cā (<span class="bold">DhskD 7v4</span>) manasā sucaritaṃ caratīti <span class="it">/</span> idaṃ rūpasya <span class="it">/</span> manasā sucaritaṃ caratīti <span class="it">/</span> idaṃ nāmasyety <span class="it">/</span> etat kuśalaṃ nāmarūpaṃ pratītya sukhodayaṃ sukhavipākaṃ kāyasya bhedān manuṣyasukhakānāṃ
+            sabhāgatā<span class="it">yā(5)m u</span>papadyate (<span class="bold">DhskD 7v5</span>) <span class="it">/</span> tatra ca ṣaṇṇām indriyāṇām abhinirvṛttir bhavati prādurbhāvaḥ <span class="it">/</span> tad ucyate nāma<span class="it">rūpa</span>pratyayaṃ ṣaḍāyatanam iti <span class="it">/</span></p>
+         
+         
+         <p>yathā manuṣyasukhakānām evaṃ yāvat paranirmitavaśavartināṃ <span class="it">/</span></p>
+         
+         
+         <p><span class="it">yathā kha</span>lv (<span class="bold">DhskD 7v6</span>) ihaikatyo brahmakāyikānāṃ devānām avekṣāvān bhavati pratibaddhacittaḥ <span class="it">/</span> vistareṇa yāvat <span class="it">/</span> tathā samāpannasya yaḥ kāyasaṃvaro vāksaṃvaraḥ ājīvaviśuddhiḥ idaṃ rūpasya tajjā
+            vedanā (<span class="bold">DhskD 7v7</span>) vistareṇa yāvad vijñānaṃ idaṃ nāmasya <span class="it">/</span> ity etat kuśalaṃ nāmarūpaṃ pratītya sukhodayaṃ sukhavipākaṃ kāyasya bhedād brahmakāyikānāṃ
+            devānāṃ sabhāgatāyām upapadyate <span class="it">/</span> tatra ca ṣaṇṇāṃ (<span class="bold">DhskD 7v8</span>) indriyāṇām abhinirvṛttir bhavati prādurbhāvaḥ <span class="it">/</span> tad ucyate nāmarūpapratyayaṃ ṣaḍāyatanam iti <span class="it">/</span></p>
+         
+         
+         <p>yathā brahmakāyikānām evaṃ yāvad asaṃjñisatvasaṃgṛhītānāṃ bṛhatphalānāṃ <span class="it">/</span> iti yat ta<span class="it">t ṣaḍāya</span>tanaṃ (<span class="bold">DhskD 7v9</span>) nāmarūpam āgamya ca nāmarūpaṃ niśritya nāmarūpaṃ pratiṣṭhāya utpadyate samutpadyate
+            jāyate saṃjāyate nirvartayaty abhinirvartayati samudāgacchati prādurbhavati idaṃ ucya<span class="it">te nāmarū</span>papratyayaṃ (<span class="bold">DhskD 7v10</span>) ṣaḍāyatanaṃ <span class="it">//</span></p>
+         
+         
+         <p>6. (nāmarūpapratyayaḥ sparśaḥ)</p>
+         
+         
+         <p>nāmarūpapratyayaḥ sparśaḥ <span class="it">kataraḥ /</span></p>
+         
+         
+         <p>// uddānaṃ</p>
+         
+         
+         <p>+ + ya<span class="it">pra</span>tyayāc ca sparśa<span class="it">ḥ</span> phalgunaḥ svātir eva ca
+            rāgajaṃ dveṣajaṃ mohajam ānandena paṃcikāha /</p>
+         
+         
+         <p>(<span class="bold">DhskD 8r1</span>) cakṣuḥ pratītya rūpāṇi cotpadyate cakṣurvijñānaṃ <span class="it">/</span> trayāṇāṃ sannipātaḥ sparśaḥ <span class="it">/</span> tatra yac cakṣur yāni ca rūpāṇi idaṃ rūpasya tajjā vedanā saṃjñā saṃskārās tajjaṃ
+            vijñānaṃ <span class="it">/</span> idaṃ nāmasya tajjaṃ manasikāraṃ nāmapratya<span class="it">yaṃ cakṣuḥ</span>saṃsparśasya (<span class="bold">DhskD 8r2</span>) <span class="it">/</span> tad ucyate nāmarūpapratyayaḥ sparśaḥ <span class="it">/</span></p>
+         
+         
+         <p>evaṃ śrotraghrāṇajihvākāyamanaḥ pratītya dharmāṃś cotpadyate manovijñānaṃ <span class="it">/</span> trāyāṇāṃ sannipātaḥ sparśaḥ <span class="it">/</span> tatra ye rūpiṇo manovijñeyā dharmā idaṃ <span class="it">rūpa</span>sya (<span class="bold">DhskD 8r3</span>) tajjā vedanā saṃjñā saṃskārā vijñānaṃ <span class="it">/</span> idaṃ nāmasya tajjaṃ manasikāraṃ nāmapratyayam manaḥsaṃsparśasya <span class="it">/</span> tad ucyate nāmarūpapratyayaḥ sparśaḥ <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā phalgunāvavāde vyākaraṇe <span class="it">/</span></p>
+         
+         
+         <p>vijñānaṃ <span class="it">pha</span>lgunāhāraṃ (<span class="bold">DhskD 8r4</span>) yāvad evāyatyāṃ punarbhavasyābhinirvṛttaye prādurbhāvāya /</p>
+         
+         
+         <p>tat katarad vijñānam <span class="it">/</span> āha <span class="it">/</span> yat tad gandharvasya caramaṃ cittaṃ manovijñānaṃ <span class="it">/</span> vistareṇa yāvat <span class="it">/</span> kalalam ātmabhāvam abhisaṃmūrcchatīti <span class="it">/</span> idaṃ rūpasya (<span class="bold">DhskD 8r5</span>) tajjā vedanā saṃjñā saṃskārās tajjaṃ vijñānaṃ idaṃ nāmasya <span class="it">/</span> ity etad ayoniśomanasikārasahitaṃ nāmarūpaṃ pratītya mātuḥ kukṣau sparśasyābhinirvṛttir
+            bhavati prādurbhāvaḥ <span class="it">/</span> tad ucyate nāmarūpapratyayaḥ (<span class="bold">DhskD 8r6</span>) sparśaḥ <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā svātiṃ bhikṣuṃ kaivartapūrviṇam ārabhya <span class="it">/</span></p>
+         
+         
+         <p>trayāṇāṃ bhikṣavaḥ sannipātān mātuḥ kukṣau garbhasyāvakrāntir bhavati <span class="it">/</span> vistareṇa yāvad <span class="it">/</span> ayoniśomanasikārasahajaṃ (<span class="bold">DhskD 8r7</span>) nāmarūpaṃ pratītya mātuḥ kukṣau garbhasyāvakrāntir bhavati prādurbhāvas <span class="it">/</span> tad ucyate nāmarūpapratyayaḥ sparśaḥ <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyo rāgaparyavasthito dveṣaparyavasthito mohaparyavasthitaḥ (<span class="bold">DhskD 8r8</span>) kāyena duścaritaṃ carati <span class="it">/</span> vācā manasā duścaritaṃ carati idaṃ rūpasya <span class="it">/</span> manasā duścaritaṃ caratīti idaṃ nāmasya <span class="it">/</span> ity etad akuśalaṃ nāmarūpaṃ pratītya duḥkhodayaṃ duḥkhavipākaṃ kāyasya bhedān narakeṣūpapadyate
+            <span class="it">/</span> (<span class="bold">DhskD 8r9</span>) tatra ca sparśam abhinirvartayati <span class="it">/</span> tad ucyate nāmarūpapratyayaḥ sparśa iti <span class="it">/</span></p>
+         
+         
+         <p>yathā narakeṣv evaṃ tiryakpreteṣu <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyo manuṣyasukhakeṣv avekṣāvān bhavati pratibaddhacitto <span class="it">/</span> vistareṇa (<span class="bold">DhskD 8r10</span>) yāvat <span class="it">/</span> kāyena vācā sucaritaṃ caratīti idaṃ rūpasya <span class="it">/</span> manasā sucaritaṃ caratīti idaṃ rūpasya <span class="it">/</span> manasā sucaritaṃ caratīti idaṃ nāmasyety <span class="it">/</span> etat kuśalaṃ nāmarūpaṃ pratītya vistareṇa (<span class="bold">DhskD 8v1</span>) yāvat <span class="it">/</span> tatra ca sparśam abhinirvartayati <span class="it">/</span> tad ucyate nāmarūpapratyayaḥ sparśa iti <span class="it">/</span></p>
+         
+         
+         <p>yathā manuṣyasukhakeṣv evaṃ yāvat paranirmitavaśavartiṣu <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyo brahmakāyikānāṃ devānām avekṣāvān bhavati prati<span class="it">baddha</span>citto <span class="it">/</span> (<span class="bold">DhskD 8v2</span>) yāvat <span class="it">/</span> tathā samāpannasya yaḥ kāyasaṃvaro vāksaṃvaraḥ ājīvapariśuddhir idaṃ rūpasya tajjā
+            vedanā saṃjñā saṃskārās tajjaṃ vijñānam idaṃ nāmasya <span class="it">/</span> ity etat kuśalaṃ nāmarūpam pratītya vistareṇa yāvat <span class="it">/</span> tatra ca sparśam (<span class="bold">DhskD 8v3</span>) abhinirvartayati <span class="it">/</span> tad ucyate nāmarūpapratyayaḥ sparśaḥ <span class="it">/</span></p>
+         
+         
+         <p>yathā brahmakāyikānāṃ evaṃ yāvad asaṃjñisatvasaṃgṛhītānāṃ bṛhatphalānāṃ <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā mahānidānaparyāyesmin vyākaraṇe āyuṣmate (<span class="bold">DhskD 8v4</span>) ānandāya <span class="it">/</span></p>
+         
+         
+         <p>asti pratyayam ānanda sparśa iti <span class="it">/</span> vistareṇa yāvat* <span class="it">/</span> yeṣām ānandākārāṇāṃ yeṣām uddeśānāṃ sati nāmakāyasya prajñaptir bhavati teṣām ākārāṇāṃ
+            teṣām uddeśānām asaty api (<span class="bold">DhskD 8v5</span>) nu adhivacanasaṃsparśaḥ prajñāyeta <span class="it">/</span> no bhadanta <span class="it">/</span> yeṣām ānandākārāṇāṃ yeṣām uddeśānāṃ sati rūpakāyasya prajñaptir bhavati teṣām ākārāṇāṃ
+            teṣām uddeśānāṃ asaty api nu pratighasaṃsparśaḥ prajñāyeta <span class="it">/</span> (<span class="bold">DhskD 8v6</span>) no bhadanta <span class="it">/</span> sarvaśo vā punar ānanda nāmakāyarūpakāyānām asati api nu sparśo vā prajñāyeta sparśaprajñaptir
+            vā <span class="it">/</span> no bhadanta <span class="it">/</span> tasmād dhy ānandaitan nidānaṃ vistareṇa yāvad <span class="it">/</span> idaṃ mayā yad (<span class="bold">DhskD 8v7</span>) uktam idaṃ me tat pratyuktaṃ <span class="it">/</span></p>
+         
+         
+         <p>7. (ṣaḍāyatanapratyayaḥ sparśaḥ)</p>
+         
+         
+         <p>trayāṇāṃ sannipātāc cakṣur ādhyātmikaṃ tathā
+            cakṣuṣṭo rūpataś caivaṃ na cakṣuṣṭo na rūpataḥ //</p>
+         
+         
+         <p>ṣaḍāyatanapratyayaḥ sparśaḥ katama <span class="it">/</span> āha <span class="it">/</span> cakṣuḥ pratītya rūpāṇi cotpadyate cakṣurvijñānaṃ <span class="it">/</span> (<span class="bold">DhskD 8v8</span>) trayāṇāṃ saṃnipātaḥ sparśaḥ <span class="it">/</span></p>
+         
+         
+         <p>evaṃ śrotraghrāṇajihvākāyamanaḥ pratītya dharmāṃś cotpadyate manovijñānaṃ <span class="it">/</span> trayāṇāṃ sannipātāt sparśas <span class="it">/</span> tad ucyate ṣaḍāyatanapratyayaḥ sparśa iti <span class="it">/</span></p>
+         
+         
+         <p>api khalu (<span class="bold">DhskD 8v9</span>) cakṣuḥ pratītya rūpāṇi cotpadyate cakṣurvijñānaṃ <span class="it">/</span> trayāṇāṃ sannipātāt sparśaḥ <span class="it">/</span> tatra cakṣur ādhyātmikam āyatanaṃ rūpaṃ ca bāhyaṃ pratyayaṃ cakṣuḥsaṃsparśasya <span class="it">/</span> tad ucyate ṣaḍāyatanapratyayaḥ sparśa iti <span class="it">/</span></p>
+         
+         
+         <p><span class="it">evaṃ</span> (<span class="bold">DhskD 8v10</span>) śrotraṃ ghrāṇaṃ jihvā kāyo <span class="it">/</span></p>
+         
+         
+         <p>manaḥ pratītya dharmāṃś cotpadyate manovi<span class="it">jñāna</span>ṃ <span class="it">/ (trayāṇāṃ saṃni</span>)pātāt sparśaḥ <span class="it">/</span> tatra mana ādhyātmikam āyatanaṃ dharmāś ca bāhyaṃ pratyayaṃ manaḥsaṃsparśasya <span class="it">/</span> tad ucyate <span class="it">ṣaḍāyata</span>)napratyayaḥ (<span class="bold">DhskD 9r1</span>) sparśa iti <span class="it">/</span></p>
+         
+         
+         <p>api khalu cakṣuḥ pratītya rūpāṇi cotpadyate <span class="it">cakṣurvijñānaṃ / trayā</span>ṇāṃ sannipātāt sparśaḥ <span class="it">/</span> cakṣuṣṭo rūpataś ca cakṣurvijñānataḥ <span class="it">/</span></p>
+         
+         
+         <p>evaṃ śrotraghrāṇajihvākāyamano vaktavya<span class="it">m /</span></p>
+         
+         
+         <p><span class="it">api</span> khalu cakṣu<span class="it">ḥ pratī</span>tya (<span class="bold">DhskD 9r2</span>) rūpāṇi cotpadyate cakṣurvijñānaṃ <span class="it">/</span> trayāṇāṃ sannipātāt* sparśaḥ <span class="it">/</span> tatra sacakṣu + + + + rūpāṇi na cakṣurvijñānaṃ <span class="it">/</span> yā tv eṣā trayāṇāṃ dharmāṇāṃ saṃgati<span class="it">ḥ</span> sannikarṣaḥ sannipātaḥ saṃsparśaḥ <span class="it">/</span></p>
+         
+         
+         <p>evaṃ śrotraghrāṇajihvākāyamano (<span class="bold">DhskD 9r3</span>) vaktavyaṃ <span class="it">/</span></p>
+         
+         
+         <p>manaḥ pratītya dharmāṃś cotpadyate manovijñānaṃ <span class="it">/</span> yā tv eṣā trayāṇāṃ dharmāṇāṃ saṃgatiḥ sannikarṣaḥ samavāyaḥ saṃsparśaḥ tad ucyate
+            ṣaḍāyatanapratyayaḥ sparśa <span class="it">/</span> iti sparśaḥ ṣaḍāyatanam (<span class="bold">DhskD 9r4</span>) āgamya ṣaḍāyatanaṃ niśritya ṣaḍāyatanaṃ pratiṣṭhāya utpadyate samutpadyate jāyate
+            saṃjāyate nirvartayaty abhinirvartayati samudāgacchati prādurbhavati <span class="it">/</span> ayam ucyate ṣaḍāyatanapratyayaḥ (<span class="bold">DhskD 9r5</span>) sparśa iti <span class="it">/</span></p>
+         
+         
+         <p>8. (sparśapratyayā vedanā)</p>
+         
+         
+         <p>trayāṇāṃ sannipātāj jāyate yā hi vedanā
+            sukhavedanīyaḥ sparśaḥ ghoṣilānanda eva ca <span class="it">//</span>
+            uddānaṃ //</p>
+         
+         
+         <p>sparśapratyayā vedanā katamā <span class="it">/</span> āha <span class="it">/</span> cakṣuḥ pratītya rūpāṇi cotpadyate (<span class="bold">DhskD 9r6</span>) cakṣurvijñānaṃ <span class="it">/</span> trayāṇāṃ sannipātāt* sparśaḥ <span class="it">/</span> sparśapratyayā vedanā <span class="it">/</span></p>
+         
+         
+         <p>evaṃ śrotraghrāṇajihvākāyamanaḥ pratītya dharmāṃś cotpadyate manovijñānaṃ <span class="it">/</span> trayāṇāṃ sannipātāt* sparśaḥ <span class="it">/</span> sparśapratyayā vedanā <span class="it">/</span> (<span class="bold">DhskD 9r7</span>)</p>
+         
+         
+         <p>api khalu cakṣuḥ pratītya rūpāṇi cotpadyate cakṣurvijñānaṃ <span class="it">/</span> trayāṇāṃ sannipātāt* sparśaḥ sukhavedanīyo duḥkhavedanīyo 'duḥkhāsukhavedanīyaḥ <span class="it">/</span> tat khalu sukhavedanīyaṃ sparśaṃ pratītyotpadyate (<span class="bold">DhskD 9r8</span>) sukhā vedanāsukhavedanīyaṃ sparśaṃ pratītyotpadyate duḥkhā vedanā <span class="it">/</span> aduḥkhāsukhavedanīyaṃ sparśaṃ pratītyotpadyate duḥkhā vedanā <span class="it">/</span> aduḥkhāsukhavedanīyaṃ sparśaṃ pratītyotpadyate aduḥkhāsukhā (<span class="bold">DhskD 9r9</span>) vedanā <span class="it">/</span> tad ucyate sparśapratyayā vedanā <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktam āyuṣmatā ānandena ghoṣilasya gṛhapater <span class="it">/</span></p>
+         
+         
+         <p>anyo ca gṛhapate cakṣurdhātur anyo rūpadhātur anyaś cakṣurvijñānadhātuḥ <span class="it">/</span> sukhavedanīyaṃ gṛhapate (<span class="bold">DhskD 9r10</span>) dvayaṃ pratītya vijñānasyotpādo bhavati <span class="it">/</span> trayāṇāṃ sannipātāt* sparśaḥ <span class="it">/</span> tat khalu sukhavedanīyaṃ sparśaṃ pratītyotpadyate sukhā vedanā <span class="it">/</span> anya eva yāvad <span class="it">/</span> duḥkhavedanīyaṃ gṛhapate dvayaṃ pratītya (<span class="bold">DhskD 9v1</span>) vijñānasyotpādo bhavati <span class="it">/</span> trayāṇāṃ sannipātāt* sparśaḥ duḥkhavedanīyaḥ <span class="it">/</span> tat khalu duḥkhavedanīyaṃ sparśaṃ pratītyotpadyate duḥkhā vedanā <span class="it">/</span> anya eva yāvad <span class="it">/</span> aduḥkhāsukhavedanīyaṃ gṛhapate dvayaṃ pratītya vijñānasyotpādo (<span class="bold">DhskD 9v2</span>) bhavati <span class="it">/</span> trayāṇāṃ sannipātaḥ sparśaḥ aduḥkhāsukhavedanīyaḥ <span class="it">/</span> tat khalv aduḥkhāsukhavedanīyaṃ sparśaṃ pratītyotpadyate aduḥkhāsukhā vedanā <span class="it">/</span></p>
+         
+         
+         <p>anya eva gṛha<span class="it">pa</span>te śrotraghrāṇajihvākāyamanodhātur anyo dharmadhātur (<span class="bold">DhskD 9v3</span>) anyo manovijñānadhātuḥ <span class="it">/</span> sukhavedanīyaṃ gṛhapate dvayaṃ pratītya vistareṇa yathā pūrvoktaṃ <span class="it">/</span> tad ucyate sparśapratyayā vedanā <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā mahānidānaparyāyesmin vyākaraṇe āyuṣmate ānandāya <span class="it">/</span> (<span class="bold">DhskD 9v4</span>)</p>
+         
+         
+         <p>asti pratyayam ānanda vedanā vistareṇa yāvac <span class="it">/</span> cakṣuḥsaṃsparśaś ced ānanda nābhaviṣyad api nu cakṣuḥsaṃsparśapratyayam adhyātmam
+            utpadyeta sukhaṃ vā duḥkhaṃ vā aduḥkhāsukhaṃ vā <span class="it">/</span> no bhadanta <span class="it">/</span></p>
+         
+         
+         <p>evaṃ śrotraghrāṇajihvākāyamahaḥsaṃsparśaḥ (<span class="bold">DhskD 9v5</span>) ced ānanda nābhaviṣyad api nu manaḥsaṃsparśapratyayam adhyātmaṃ utpadyeta veditaṃ
+            sukhaṃ vā duḥkhaṃ vā aduḥkhāsukhaṃ vā <span class="it">/</span> no bhadanta <span class="it">/</span> sarvaśo vā ānanda sparśe asati (<span class="bold">DhskD 9v6</span>) vedanā prajñāyeta <span class="it">/</span> no bhadanta <span class="it">/</span> tasmād dhy ānandaitan nidānaṃ vistareṇa yāvad <span class="it">/</span> idaṃ mayā yad uktam idaṃ tat pratyuktaṃ //</p>
+         
+         
+         <p>9. (vedanāpratyayā tṛṣṇā)</p>
+         
+         
+         <p>uddānaṃ //</p>
+         
+         
+         <p>cakṣuḥ pratītyāsvādaṃ dvau skandhau āyatanau
+            guhyenāparadvayaṃ mahānāmā (<span class="bold">DhskD 9v7</span>) licchaviś caiva
+            nidānaṃ pūrṇamāsikaṃ <span class="it">//</span></p>
+         
+         
+         <p>vedanāpratyayā tṛṣṇā katamā <span class="it">/</span> āha <span class="it">/</span> cakṣuḥ pratītya rūpāṇi cotpadyate cakṣurvijñānaṃ <span class="it">/</span> trayāṇāṃ sannipātaḥ sparśaḥ <span class="it">/</span> sparśapratyayā vedanā <span class="it">/</span> vedanāpratyayā (<span class="bold">DhskD 9v8</span>) tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>evaṃ śrotraghrāṇajihvākāyamanaḥ pratītya dharmāṃś cotpadyate manovijñānaṃ <span class="it">/</span> trayāṇāṃ sannipātāt sparśaḥ <span class="it">/</span> sparśapratyayā vedanā <span class="it">/</span> vedanāpratyayā tṛṣṇā <span class="it">/</span> tad ucyate vedanāpratyayā tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>api khalu cakṣurāsvādaṃ (<span class="bold">DhskD 9v9</span>) vedayitaṃ pratītya bhūyo bhūyaś cakṣuṣi apratikūlatā saṃtiṣṭhate <span class="it">/</span> apratikūle sati bhūyo bhūyaś cakṣuṣi utpadyate rāgaḥ saṃrāgaḥ ālayo niyantir adhyavasānaṃ
+            tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>evaṃ śrotraghrāṇajihvākāyamanaḥāsvādaṃ (<span class="bold">DhskD 9v10</span>) vedayitavyṃ pratītya bhūyo bhūyo manasi apratikūlatā saṃtiṣṭhate / apratikūle sati
+            bhūyo bhūyo manasy utpadyate rāgaḥ saṃrāgaḥ ālayo niyantir adhyavasānaṃ vā tṛṣṇā <span class="it">/ tad ucyate</span> (<span class="bold">DhskD 10r1</span>) vedanāpratyayā tṛṣnā <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā paṃcopādānaskandhike vyākaraṇe <span class="it">/</span></p>
+         
+         
+         <p>rūpasyāhaṃ bhikṣavaḥ āsvādaparyeṣaṇām acārṣaṃ <span class="it">/</span> yo rūpe āsvādas tam anvabhotsyaṃ yāvad rūpe āsvādaḥ prajñayā me sudṛṣṭa <span class="it">/</span> ity eta<span class="it">d rūpā</span>svādaṃ (<span class="bold">DhskD 10r2</span>) vedayitaṃ pratītya bhūyo bhūyo rūpe apratikūlatā saṃtiṣṭhate <span class="it">/</span> apratikūle sati bhūyo bhūyo rūpe utpadyate rāgaḥ saṃrāgaḥ ālayo niyantir adhyavasānaṃ
+            tṛṣṇā <span class="it">/</span> tad ucyate vedanāpratyayā tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>evaṃ vedanāyāḥ (<span class="bold">DhskD 10r3</span>) saṃjñāyāḥ saṃskārāṇāṃ</p>
+         
+         
+         <p>vijñānasyāhaṃ bhikṣavaḥ āsvādaparyeṣaṇām acārṣaṃ <span class="it">/</span> yo vijñāne āsvādas tam anvabhotsyaṃ yāvad vijñāne āsvādaḥ prajñayā me sudṛṣṭa <span class="it">/</span> ity etad vijñānāsvādaṃ vedayitaṃ pratītya bhūyo bhūyo vijñāne apratikūlatā (<span class="bold">DhskD 10r4</span>) saṃtiṣṭhate <span class="it">/</span> apratikūle sati bhūyo bhūyo vijñāne utpadyate rāgaḥ saṃrāgaḥ ālayo niyantir adhyavasānaṃ
+            tṛṣṇā <span class="it">/</span> tad ucyate vedanāpratyayā tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā paṃcopādānaskandhike vyākaraṇe <span class="it">/</span> (<span class="bold">DhskD 10r5</span>)</p>
+         
+         
+         <p>rūpe ced bhikṣava āsvādo na bhaven neme satvā rūpe saṃrajyeran* <span class="it">/</span> yasmāt tu bhikṣavo 'sti rūpe āsvādaḥ teneme satvā rūpe saṃrajyante <span class="it">/</span> ity etad rūpāsvādaṃ vedayitam pratītya bhūyo vistareṇa yāvad utpadyate tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>(<span class="bold">DhskD 10r6</span>) vedanāyāṃ saṃjñāyāṃ saṃskāreṣu</p>
+         
+         
+         <p>vijñāne ced bhikṣavaḥ āsvādo na bhaven neme satvā vijñāne saṃrajyeran* <span class="it">/</span> yasmāt tu bhikṣavo 'sti vijñāne āsvādas tasmād ime satvā vijñāne saṃrajyante <span class="it">/</span> ity etad vijñānāsvāda<span class="it">veda</span>yitaṃ pratītya bhūyo (<span class="bold">DhskD 10r7</span>) bhūyo vistareṇa yāvad utpadyate tṛṣṇā <span class="it">/</span> tad ucyate vedanāpratyayā tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā ṣaḍāyatanike vyākaraṇe <span class="it">/</span></p>
+         
+         
+         <p>cakṣuṣo 'haṃ bhikṣava āsvādaparyeṣaṇām acārṣaṃ <span class="it">/</span> yaś cakṣuṣi āsvādas tam anvabhotsyan <span class="it">/</span> yāvāṃś cakṣuṣy āsvādaḥ (<span class="bold">DhskD 10r8</span>) prajñayā me sa sudṛṣṭaḥ <span class="it">/</span> ity etac cakṣuṣa āsvādaṃ vedayitaṃ pratītya bhūyo vistareṇa yāvat tṛṣṇā <span class="it">/</span> tad u<span class="it">cy</span>ate vedanāpratyayā tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>evaṃ śrotraghrāṇajihvākāyamanaso 'haṃ bhikṣavaḥ āsvādaparyeṣaṇām acārṣaṃ <span class="it">/</span> yo (<span class="bold">DhskD 10r9</span>) manasy āsvādas taṃ anvabhotsyaṃ yāvan manasy āsvādaḥ prajñayā me sa sudṛṣṭa <span class="it">/</span> ity etan manasa āsvādavedayitaṃ pratītya bhūyo vistareṇa yāvat tṛṣṇā <span class="it">/</span> tad ucyate vedanāpratyayā tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā ṣaḍāyantike (<span class="bold">DhskD 10r10</span>) vyākaraṇe <span class="it">/</span></p>
+         
+         
+         <p>cakṣuṣi bhikṣava āsvādaś cen na bhaven neme satvāś cakṣuṣi saṃrajyeran* <span class="it">/</span> yasmād bhikṣavaḥ asti cakṣuṣv āsvādas tasmād ime satvāś cakṣuṣi saṃrajyante <span class="it">/</span> ity etac cakṣurāsvādaṃ vedayitaṃ vistareṇa pratītya yāvat tṛṣṇā <span class="it">/</span> tad ucyate (<span class="bold">DhskD 10v1</span>) vedanāpratyayā tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>evaṃ śrotraghrāṇajihvāyāṃ kāyemanasi ced bhikṣavaḥ āsvādo na bhaven neme satvā manasi
+            saṃrajyeran* <span class="it">/</span> yasmāt tu bhikṣavo 'sti manasy āsvādas tasmād ime satvā manasi saṃrajyante <span class="it">/</span> ity etan manasa āsvādavedayitaṃ (<span class="bold">DhskD 10v2</span>) pratītya bhūyo bhūyo manasy apratikūlatā saṃtiṣṭhate <span class="it">/</span> vistareṇa yāvat tṛṣṇā <span class="it">/</span> tad ucyate vedanāpratyayā tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā ṣaḍāyatanike vyākaraṇe <span class="it">/</span></p>
+         
+         
+         <p>rūpasyāhaṃ bhikṣavaḥ āsvādaparyeṣaṇām acārṣam* <span class="it">/</span> (<span class="bold">DhskD 10v3</span>) yo rūpe āsvādas tam anvabhotsyaṃ yāvad rūpe āsvādaḥ prajñayā me sa sudṛṣṭaḥ <span class="it">/</span> ity etad rūpāsvādavedayitaṃ pratītya yāvat tṛṣṇā <span class="it">/</span> tad ucyate vedanāpratyayā tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>evaṃ śabdagandharasasparśadharmāṇām ahaṃ bhikṣava āsvādaparyeṣaṇām (<span class="bold">DhskD 10v4</span>) acārṣaṃ <span class="it">/</span> yo dharme āsvādas taṃ anvabhotsyaṃ <span class="it">/</span> yāvān dharmeṣv āsvādaḥ prajñayā me sa sudṛṣṭaḥ <span class="it">/</span> ity etad dharmāsvādavedayitaṃ pratītya vistareṇa yāvat tṛṣṇā <span class="it">/</span> tad ucyate vedanāpratyayā tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā (<span class="bold">DhskD 10v5</span>) ṣaḍāyatanike vyākaraṇe <span class="it">/</span></p>
+         
+         
+         <p>rūpe ced bhikṣava āsvādo na bhaven neme satvā rūpe saṃrajyeran <span class="it">/</span> yasmāt tu bhikṣavo 'sti rūpe āsvādas tasmād ime satvā rūpe saṃrajyante <span class="it">/</span> ity etad rūpāsvādavedayitaṃ pratītya vistareṇa yāvat (<span class="bold">DhskD 10v6</span>) tṛṣṇā <span class="it">/</span> tad ucyate vedanāpratyayā tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>evaṃ śabde gandhe rase spraṣṭavye dharme ced bhikṣava āsvādo na bhaven neme satvā
+            dharme saṃrajyeran* <span class="it">/</span> tasmāt tu bhikṣavo 'sti dharmeṣv āsvādas <span class="it">/</span> teneme satvā dharme saṃrajyante <span class="it">/</span> ity etad (<span class="bold">DhskD 10v7</span>) dharmāsvādaṃ pratītya vedayitaṃ vistareṇa yāvat tṛṣṇā <span class="it">/</span> tad ucyate vedanāpratyayā tṛṣṇā //</p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā mahānāmānaṃ licchavim āgamya <span class="it">/</span></p>
+         
+         
+         <p>rūpaṃ cen mahānāmann ekāntaduḥkhaṃ bhaven na sukhaṃ na sukhānugataṃ (<span class="bold">DhskD 10v8</span>) na sukhasaumanasyaparītam avakrāntam eva sukhena hetur api mahānāman na prajñāyeta
+            satvānāṃ rūpe saṃrāgāya na ceme satvā rūpe saṃrajyeran* <span class="it">/</span> yasmāt tu mahānāman rūpaṃ naikāntaduḥkhaṃ sukhaṃ (<span class="bold">DhskD 10v9</span>) sukhānugataṃ sukhasaumanasyaparītam avakrāntam eva sukhena tasmād ime satvā rūpe
+            saṃrajyante saṃraktāḥ saṃyujyante saṃyuktāḥ saṃkliṣyante <span class="it">/</span> ity etad rūpāsvādavedayitaṃ pratītya vistareṇa yāvat tṛṣṇā <span class="it">/</span> tad ucyate (<span class="bold">DhskD 10v10</span>) vedanāpratyayā tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>vedanā saṃjñā saṃskārā vijñānaṃ cen mahānāmann ekāntaduḥkhaṃ bhaven na sukhaṃ na sukhānugataṃ
+            na sukhasaumanasyaparītam avakrāntaṃ caiva sukhena hetur api mahānāman na prajñāyeta
+            sa<span class="it">ttvānāṃ</span> (<span class="bold">DhskD 11r1</span>) vijñāne saṃrāgāya na ceme satvā vijñāne saṃrajyeran* <span class="it">/</span> yasmāt tu mahānāman vijñānaṃ naikāntaduḥkhaṃ sukhaṃ sukhānugataṃ sukhasaumanasyaparītaṃ
+            anavakrāntam eva sukhena tasmād ime satvā vijñāne saṃrajyante saṃraktā<span class="it">ḥ saṃ</span>yujyante (<span class="bold">DhskD 11r2</span>) saṃyuktāḥ saṃkliṣyante <span class="it">/</span> ity etad vijñānāsvādavedayitaṃ pratītya vistareṇa yāvat tṛṣṇā <span class="it">/</span> tad ucyate vedanāpratyayā tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā paurṇamāsike vyākaraṇe <span class="it">/</span></p>
+         
+         
+         <p>yad bhikṣavo rūpaṃ pratītyotpadyate (<span class="bold">DhskD 11r3</span>) sukham utpadyate saumanasyam ayaṃ rūpe āsvādaḥ <span class="it">/</span> ity etad rūpāsvādavedayitaṃ pratītya yāvat tṛṣṇā <span class="it">/</span> tad ucyate vedanāpratyayā tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>yad bhikṣavo vedanāsaṃjñāsaṃskārān yad vijñānaṃ pratītyotpadyate sukham utpadyate
+            saumanasyam (<span class="bold">DhskD 11r4</span>) ayaṃ vijñāne āsvāda <span class="it">/</span> ity etad vijñānāsvādavedayitaṃ pratītya bhūyo bhūyo vijñāne apratikūlatā saṃtiṣṭhate
+            <span class="it">/</span> apratikūle sati bhūyo bhūyo vijñāne utpadyate rāgaḥ saṃrāgaḥ ālayo niyantir adhyavasānam*
+            (<span class="bold">DhskD 11r5</span>) tṛṣṇā <span class="it">/</span> tad ucyate vedanāpratyayā tṛṣṇā <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā mahānidānaparyāye āyuṣmaty ānande <span class="it">/</span></p>
+         
+         
+         <p>tatrānanda yā ca bhavatṛṣṇā yā ca vibhavatṛṣṇā itīme dve tṛṣṇādvayena vedanāsamavasaraṇe
+            (<span class="bold">DhskD 11r6</span>) bhavataḥ <span class="it">/</span> tad ucyate vedanāpratyayā tṛṣṇā //</p>
+         
+         
+         <p>10. (tṛṣṇāpratyayam upādānam)</p>
+         
+         
+         <p>uddānaṃ //</p>
+         
+         
+         <p>tatprathamābhinipātaḥ kāmaiś cāvekṣāvāṃs tathā
+            dṛṣṭir vicikitsā upādānaṃ vibhāgo nandam eva ca //</p>
+         
+         
+         <p>tṛṣṇāpratyayam upādānaṃ katamad <span class="it">/</span> āha / yat prathamābhinipātaṃ (<span class="bold">DhskD 11r7</span>) tṛṣṇāvaipulyam upādānaṃ yathā katham iti <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyaḥ kāmeṣv avekṣāvān bhavati pratibaddhacittaḥ kāmarāgaparyavasthānaṃ
+            utpādayati <span class="it">/</span> sa tasmāt paryavasthānād anyaṃ paryavasthānam utpādayati (<span class="bold">DhskD 11r8</span>) adhimātrād adhimātrataraṃ tīvrāt tīvrataraṃ pūrṇāt pūritataraṃ <span class="it">/</span> iti pūrvakaṃ paryavasthānaṃ tṛṣṇā paścimam upādānaṃ <span class="it">tad ucyante</span> tṛṣṇāpratyayaṃ upādānaṃ <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyo rūpeṣv ārūpyeṣv avekṣāvān bhavati pratibaddhacitta (<span class="bold">DhskD 11r9</span>) ārūpyarāgaparyavasthānam utpādayati <span class="it">/</span> sa tasmāt paryavasthānād anyat paryavasthānam utpādayati adhimātrād adhimātrataraṃ
+            yāvat paripūrṇāt paripūrṇataraṃ <span class="it">/</span> iti pūrvakaṃ paryavasthānaṃ tṛṣṇā paścimam upādānam* <span class="it">/</span> (<span class="bold">DhskD 11r10</span>) tad ucyate tṛṣṇāpratyayam upādānaṃ <span class="it">/</span></p>
+         
+         
+         <p>asti khalv evam uktaṃ bhagavatā pātaleyavyākaraṇe <span class="it">/</span></p>
+         
+         
+         <p>deśitā vo bhikṣavo mayā dharmāḥ skandhānāṃ pravicayāya / yad uta catvāri smṛtyupasthānāni
+            catvāri samyakpradhānāni (<span class="bold">DhskD 11v1</span>) catvāra ṛddhipādāḥ paṃcendriyāṇi paṃca balāni sapta bodhyaṃgāny āryāṣṭāṃgo mārga
+            <span class="it">/</span> evaṃ deśiteṣu vo bhikṣavo mayā dharmeṣu skandhānāṃ pravicayāya <span class="it">/</span></p>
+         
+         
+         <p>atha ca punar ihaikatyā mohapuruṣā na tīvracchandā viharanti na tīvrasnehā na tīvrapremāṇo
+            (<span class="bold">DhskD 11v2</span>) na tīvrapramādās <span class="it">/</span> te dhandham evānuttaryaṃ spṛśanti yad utāsravāṇāṃ kṣayāya / evaṃ deśiteṣu vo bhikṣavo
+            mayā dharmeṣu skandhānāṃ pravicayāya <span class="it">/</span></p>
+         
+         
+         <p>atha ca punar ihaikatyāḥ kulaputrāḥ atīvatīvracchandā viharanti atīvatīvrasnehā (<span class="bold">DhskD 11v3</span>) atīvatīvrapremāṇo 'tīvatīvrapramādās <span class="it">/</span> te kṣipram evānuttaryaṃ spṛśanti yad utāsravāṇāṃ kṣayāya <span class="it">/</span> evaṃ deśiteṣu vo bhikṣavo mayā dharmeṣu skandhānāṃ pravicayāya <span class="it">/</span></p>
+         
+         
+         <p>atha ca punar ihaikatyo rūpam ātmataḥ (<span class="bold">DhskD 11v4</span>) samanupaśyati <span class="it">/</span> yā sā samanupaśyanā saṃskārās te <span class="it">/</span> te punaḥ saṃskārāḥ kinnidānāḥ kiṃsamudayāḥ kiṃjātīyāḥ kiṃprabhavāḥ <span class="it">/</span> avidyāsaṃsparśajaṃ bhikṣavo vedayitaṃ pratītya tṛṣṇotpannā <span class="it">/</span> tatas te saṃ<span class="it">s</span>kārās <span class="it">/</span> tṛṣṇā punar bhikṣavaḥ (<span class="bold">DhskD 11v5</span>) kinnidānā kiṃsamudayā kiṃjātīyā kiṃprabhavā <span class="it">/</span> tṛṣṇā bhikṣavo vedanānidānā vedanāsamudayā vedanājātīyā vedanāprabhavā <span class="it">/</span> vedanā punar bhikṣavaḥ kinnidānā kiṃsamudayā kiṃjātīyā kiṃprabhavā <span class="it">/</span> vedanā bhikṣavaḥ (<span class="bold">DhskD 11v6</span>) sparśanidānā sparśasamudayā sparśajātīyā sparśaprabhavā <span class="it">/</span> sparśaḥ kinnidānaḥ kiṃsamudayaḥ kiṃjātīyaḥ kiṃprabhavaḥ <span class="it">/</span> sparśo bhikṣavaḥ ṣaḍāyatananidānaḥ ṣaḍāyatanasamudayaḥ ṣaḍāyatanajātīyaḥ (<span class="bold">DhskD 11v7</span>) ṣaḍāyatanaprabhavaḥ <span class="it">/</span> tatra bhikṣavaḥ ṣaḍāyatanam anityaṃ saṃskṛtaṃ cetitaṃ pratītyasamutpannaṃ <span class="it">/</span> so 'pi sparśaḥ sāpi vedanā sāpi tṛṣṇā sāpi samanupaśyanā anityā saṃskṛtā cetitā pratītyasamutpannā
+            <span class="it">/</span> (<span class="bold">DhskD 11v8</span>)</p>
+         
+         
+         <p>sa rūpam ātmeti samanupaśyatīti satkāyadṛṣṭiparyavasthānam utpādayati <span class="it">/</span> sa tasmāt paryavasthānād anyat paryavasthānam utpādayati adhimātrād adhimātrataraṃ
+            yāvat paripūrṇāt paripūrṇataraṃ (<span class="bold">DhskD 11v9</span>) <span class="it">/</span> iti pūrvakaṃ paryavasthānaṃ tṛṣṇā paścimam upādānaṃ <span class="it">/</span> tad ucyate tṛṣṇāpratyayam upādānaṃ <span class="it">/</span></p>
+         
+         
+         <p>na haiva rūpam ātmeti samanupaśyaty api tu rūpavantam ātmānaṃ samanupaśyati <span class="it">/</span> na haiva rūpavantam ātmānaṃ saṃanupaśyaty api (<span class="bold">DhskD 11v10</span>) tu rūpam ātmīyaṃ samanupaśyati <span class="it">/</span> na haiva rūpam ātmīyaṃ samanupaśyaty api tu rūpe ātmānaṃ samanupaśyati <span class="it">/</span></p>
+         
+         
+         <p>na haiva rūpe ātmānaṃ samanupaśyaty api tu vedanām ātmataḥ samanupaśyati <span class="it">/</span> na haiva vedanā<span class="it">m ātmataḥ</span> (<span class="bold">DhskD 12r1</span>) saṃanupaśyaty api tu vedanāvantam ātmānaṃ samanupaśyati <span class="it">/</span> na haiva vedanā<span class="it">vantaṃ</span> ātmānaṃ samanupaśyaty api tu vedanām ātmīyāṃ samanupaśyati <span class="it">/</span> na haiva vedanām ātmīyāṃ samanupaśyaty api tu vedanāyām ātmānaṃ samanupa<span class="it">śyati /</span></p>
+         
+         
+         <p>(<span class="bold">DhskD 12r2</span>) na haiva vedanāyām ātmānaṃ samanupaśyaty api tu saṃjñām ātmataḥ samanupaśyati <span class="it">/</span> na haiva saṃjñām ātmataḥ samanupaśyaty api tu saṃjñāvantam ātmānaṃ samanupaśyati
+            <span class="it">/</span> na haiva saṃjñāvantam ātmānaṃ samanupaśyaty api tu saṃjñām ātmīyāṃ (<span class="bold">DhskD 12r3</span>) samanupaśyati <span class="it">/</span> na haiva saṃjñām ātmīyāṃ samanupaśyaty api tu saṃjñāyām ātmānaṃ samanupaśyati <span class="it">/</span></p>
+         
+         
+         <p>na haiva saṃjñāyām ātmānaṃ samanupaśyaty api tu saṃskārān ātmataḥ samanupaśyati <span class="it">/</span> na haiva saṃskārān ātmataḥ (<span class="bold">DhskD 12r4</span>) samanupaśyaty api tu saṃskāravantam ātmānaṃ samanupaśyati <span class="it">/</span> vistaraḥ <span class="it">/</span></p>
+         
+         
+         <p>vijñānam ātmataḥ samanupaśyati <span class="it">/</span> na haiva vijñānam ātmataḥ samanupaśyaty api tu vijñānavantam ātmānaṃ samanupaśyati
+            <span class="it">/</span> na haiva vijñānavantam ātmānaṃ (<span class="bold">DhskD 12r5</span>) samanupaśyati api tu vijñānam ātmīyaṃ samanupaśyati<span class="it"> /</span> na haiva vijñānam ātmīyaṃ samanupaśyaty api tu vijñāne ātmānaṃ samanupaśyati <span class="it">/</span></p>
+         
+         
+         <p>na haiva vijñāne ātmānaṃ samanupaśyaty api tu kāṃkṣī bhavati vicikitsī <span class="it">/</span> na haiva kāṃkṣī bhavati vicikitsī api (<span class="bold">DhskD 12r6</span>) tu bhavadṛṣṭir bhavati vibhavadṛṣṭiḥ <span class="it">/</span> na haiva bhavadṛṣṭir bhavati vibhavadṛṣṭiḥ api tv astīti vācādhigataṃ bhavaty <span class="it">/</span> ayam aham asmīti samanupaśyati <span class="it">/</span> yo 'sāv asmīty adhigamo 'yam aham asmīty adhigamo <span class="it">/</span> yāsāv asmī<span class="it">ti</span> samanupaśyanā (<span class="bold">DhskD 12r7</span>) saṃskārās te <span class="it">/</span> te punaḥ saṃskārāḥ kiṃnidānāḥ kiṃsamudayāḥ kiṃjātīyāḥ kiṃprabhavā <span class="it">/</span> vistareṇa yāvat <span class="it">/</span></p>
+         
+         
+         <p>tatra bhikṣavaḥ ṣaḍāyatanam anityaṃ saṃskṛtaṃ cetitaṃ pratītyasamutpannaṃ <span class="it">/</span> so 'pi sparśaḥ sāpi vedanā sāpi tṛṣṇā (<span class="bold">DhskD 12r8</span>) te 'pi saṃskārāḥ sāpi samanupaśyanā anityā saṃskṛtā cetitā pratītyasamutpannā asmīty
+            adhigatā bhavaty <span class="it">/</span> ayam aham asmīti saṃanupaśyati <span class="it">/</span> satkāyadṛṣṭiparyavasthānaṃ utpādayati <span class="it">/</span> sa tasmāt paryavasthānād anyat (<span class="bold">DhskD 12r9</span>) paryavasthānam utpādayati adhimātrād adhimātrataraṃ tīvrāt tīvrataraṃ paripūrṇāt
+            paripūrṇataraṃ <span class="it">/</span> iti pūrvakaṃ paryavasthānaṃ trṣṇā paścimam upādānaṃ <span class="it">/</span> tad ucyate tṛṣṇāpratyayam upādānaṃ <span class="it">/</span></p>
+         
+         
+         <p>api khalu śāśvato lokaḥ (<span class="bold">DhskD 12r10</span>) antagrāhadṛṣṭiparyavasthānam utpādayaty adhimātrā<span class="it">d a</span>dhimātrataraṃ yāvat paripūrṇāt paripūrṇataram <span class="it">/</span> iti pūrvakaṃ paryavasthānaṃ tṛṣṇā paścimakam upādānaṃ <span class="it">/</span> tad ucyate tṛṣṇāpratyayam upādānaṃ <span class="it">/</span></p>
+         
+         
+         <p>aśāśvato (<span class="bold">DhskD 12v1</span>) lokaḥ <span class="it">/</span> śāśvataś cāśāśvataś ca <span class="it">/</span> naiva śāśvato nāśāśvataḥ <span class="it">/</span> antavān lokaḥ <span class="it">/</span> anantavān lokaḥ <span class="it">/</span> antavāṃś cānantavāṃś ca <span class="it">/</span> naivāntavān anantavāṃś ca / sa jīvas tac charīraṃ <span class="it">/</span> anyo jīvo 'nyac charīraṃ bhavati <span class="it">/</span> tathāgataḥ paraṃ maraṇān na bhavati <span class="it">/</span> tathāgataḥ (<span class="bold">DhskD 12v2</span>) paraṃ maraṇād bhavati ca na bhavati ca <span class="it">/</span> naiva bhavati na na bhavati paraṃ maraṇād <span class="it">/</span> antagrāhadṛṣṭiparyavasthānam utpādayati <span class="it">/</span> sa tasmāt paryavasthānād yāvat paripūrṇāt paripūrṇataraṃ <span class="it">/</span> iti pūrvakaṃ paryavasthānaṃ tṛṣṇā paścimakam (<span class="bold">DhskD 12v3</span>) upādānaṃ <span class="it">/</span> tad ucyate tṛṣṇāpratyayam upādānaṃ <span class="it">/</span></p>
+         
+         
+         <p>api khalu na bhagavāṃs tathāgato 'rhan samyaksaṃbuddho na vidyācaraṇasaṃpanno na sugato
+            lokavid anuttaraḥ puruṣadaṃyasārathi śāstā devamanuṣyāṇāṃ buddho bhagavāṃ mithyā dṛṣṭiparyavasthānaṃ
+            (<span class="bold">DhskD 12v4</span>) utpādayati <span class="it">/</span> sa tasmāt paryavasthānād vistareṇa paripūrṇāt paripūrṇataraṃ <span class="it">/</span> tad ucyate tṛṣṇāpratyayam upādānaṃ <span class="it">/</span></p>
+         
+         
+         <p>na svākhyāto bhagavato dharmo na sāṃdṛṣṭiko na nirjvaraḥ nākālikaḥ naupanāyiko naihipaśyakaḥ
+            (<span class="bold">DhskD 12v5</span>) na pratyātmavedanīyo vijñair <span class="it">/</span>
+            na supratipanno bhagavataḥ śrāvakasaṃgho na ṛjupratipanno na nyāyapratipanno na sāmīcīpratipanno
+            nānudharmacārī <span class="it">/</span></p>
+         
+         
+         <p>na duḥkhaṃ <span class="it">/</span> na samudayo <span class="it">/</span> na nirodho <span class="it">/</span> na mārgo <span class="it">/</span></p>
+         
+         
+         <p>na sarvasaṃskārā (<span class="bold">DhskD 12v6</span>) anityā <span class="it">/</span> na sarvadharmā anātmāno <span class="it">/</span> na śāntaṃ nirvāṇam <span class="it">/</span> iti mithyādṛṣṭiparyavasthānam utpādayati <span class="it">/</span> sa tasmāt paryavasthānād anyat paryavasthānam utpādayati <span class="it">/</span> vistareṇa yāvad <span class="it">/</span> iti pūrvakaṃ paryavasthānaṃ (<span class="bold">DhskD 12v7</span>) tṛṣṇā paścimam upādānaṃ <span class="it">/</span> tad ucyate tṛṣṇāpra<span class="it">tya</span>yam upādānam iti <span class="it">/</span></p>
+         
+         
+         <p>api khalu śāśvato loka idam eva satyaṃ moham anyad <span class="it">/</span> iti dṛṣṭiparāmarśaparyavasthānam utpādayati <span class="it">/</span> sa tasmāt paryavasthānād anyat paryavasthānam (<span class="bold">DhskD 12v8</span>) utpādayati <span class="it">/</span> vistareṇa yāvat paścimakam upādānaṃ <span class="it">/</span> tad ucyate tṛṣṇāpratyayam upādānaṃ <span class="it">/</span></p>
+         
+         
+         <p>śāśvato loko vistareṇa yāvac caiva bhavati tathāgataḥ paraṃ maraṇād iti idam eva satyaṃ
+            mohaṃ anyad <span class="it">/</span> (<span class="bold">DhskD 12v9</span>) iti dṛṣṭiparāmarśaparyavasthānam utpādayati <span class="it">/</span> sa tasmāt paryavasthānād anyat paryavasthānam utpādayati <span class="it">/</span> vistareṇa yāvat paścimakam upādānaṃ <span class="it">/</span> tad ucyate tṛṣṇāpratyayaṃ upādānaṃ <span class="it">/</span></p>
+         
+         
+         <p>api khalu śīlaṃ parāmṛśati (<span class="bold">DhskD 12v10</span>) śīlena śucyati mucyati niryāti sukhaduḥkhaṃ vyatikrāmati sukhaduḥkhavyatikramaṃ
+            cānuprāpnoti <span class="it">/</span> śīlavrataparāmarśaparyavasthānam utpādayati <span class="it">/</span> sa tasmāt paryavasthānād anyat paryavasthānaṃ utpādayati (<span class="bold">DhskD 13r1</span>) <span class="it">/</span> vistareṇa yāvat paścimakaṃ upādānaṃ <span class="it">/</span> tad ucyate tṛṣṇāpratyayam upādānaṃ <span class="it">/</span></p>
+         
+         
+         <p>vrataṃ parāmṛśati yad ubhayataḥ śīlavrataṃ parāmṛśati <span class="it">/</span> śīlavratena śucyati mucyate niryāti yāvat sukhaduḥkhaṃ vyatikramam anuprāpnoti (<span class="bold">DhskD 13r2</span>) <span class="it">/</span> śīlavrataparāmarśaparyavasthānam utpādayati <span class="it">/</span> sa tasmāt paryavasthānād anyat paryavasthānam utpādayati <span class="it">/</span> vistareṇa yāvat paścimakam upādānaṃ <span class="it">/</span> tad ucyate tṛṣṇāpratyayam upādānaṃ <span class="it">/</span></p>
+         
+         
+         <p>api khalu tathāgato bhagavān arhan samyaksaṃbuddho (<span class="bold">DhskD 13r3</span>) neti vicikitsāparyavasthānam utpādayati <span class="it">/</span> sa tasmāt paryavasthānād anyaṃ paryavasthānam utpādayati <span class="it">/</span> vistareṇa yāvat paścimakaṃ upādānaṃ <span class="it">/</span> tad ucyate tṛṣṇāpratyayam upādānaṃ <span class="it">/</span> vidyācaraṇasaṃpanno na vidyācaraṇasaṃpannaḥ (<span class="bold">DhskD 13r4</span>) <span class="it">/</span> sugato lokavit* na sugato lokavit* <span class="it">/</span> anuttaro nānuttaraḥ <span class="it">/</span> puruṣadamyasārathiḥ na puruṣadamyasārathiḥ <span class="it">/</span> śāstā devamanuṣyāṇāṃ na śāstā devamanuṣyāṇāṃ <span class="it">/</span> buddho bhagavān na buddho bhagavān * <span class="it">/</span></p>
+         
+         
+         <p>(<span class="bold">DhskD 13r5</span>) svākhyāto bhagavato dharmo na svākhyāto bhagavato dharmaḥ <span class="it">/</span> sāṃdṛṣṭiko na sāṃdṛṣṭiko <span class="it">/</span> nirjvaro na nirjvaraḥ <span class="it">/</span> ākāliko nākālikaḥ <span class="it">/</span> aupanāyiko naupanāyikaḥ <span class="it">/</span> aihidarśiko naihidarśikaḥ <span class="it">/</span> pratyātmaved<span class="it">anī</span>yo (<span class="bold">DhskD 13r6</span>) vijñaiḥ na pratyātmavedanīyo vijñaiḥ <span class="it">/</span></p>
+         
+         
+         <p>supratipanno bhagavataḥ śrāvakasaṃgho na supratipanno bhagavataḥ śrāvakasaṃghaḥ <span class="it">/</span> ṛjupratipanno na ṛjupratipanno <span class="it">/</span> nyāyapratipanno na nyāyapratipanno (<span class="bold">DhskD 13r7</span>) <span class="it">/</span> dharmānudharmapratipanno na dharmānudharmapratipannaḥ <span class="it">/</span> sāmīcīpratipanno na sāmīcīpratipannaḥ <span class="it">/</span> anudharmacārī nānudharmacārī <span class="it">/</span></p>
+         
+         
+         <p>duḥkhaṃ na duḥkhaṃ <span class="it">/</span> samudayo na samudayo <span class="it">/</span> nirodho na nirodhaḥ <span class="it">/</span> mārgo na mārgaḥ <span class="it">/</span> sarvasaṃskārā (<span class="bold">DhskD 13r8</span>) anityā na sarvasaṃskārā anityāḥ <span class="it">/</span> sarvadharmā anātmānaḥ na sarvadharmā anātmānaḥ <span class="it">/</span> śāntaṃ nirvāṇaṃ na śāntaṃ nirvāṇaṃ <span class="it">/</span> iti vicikitsāparyavasthānam utpādayati <span class="it">/</span> vistareṇa yāvat paścimakam upādānam* <span class="it">/</span> (<span class="bold">DhskD 13r9</span>) tad ucyate tṛṣṇāpratyayam upādānaṃ <span class="it">/</span></p>
+         
+         
+         <p>api khalu sarvāṇy eva catvāry upādānāni tṛṣṇāsamudayāni tṛṣṇājātīyāni tṛṣṇāprabhavāni
+            <span class="it">/</span> katamāni catvāri <span class="it">/</span> kāmopādānaṃ dṛṣṭyupādānaṃ śīlavratopādānam ātmavādopādānaṃ (<span class="bold">DhskD 13r10</span>) <span class="it">/</span></p>
+         
+         
+         <p>kāmopādānaṃ katamad <span class="it">/</span> āha / kāmapratisaṃyuktāṃ dṛṣṭiṃ śīlavrataṃ ca sthāpya yāni <span class="it">tada</span>nyāni kāmapratisaṃyuktāni saṃyojanabandhanānuśayopakleśaparyavasthānāni idam ucyate
+            (<span class="bold">DhskD 13v1</span>) kāmopādānaṃ <span class="it">/</span></p>
+         
+         
+         <p>dṛṣṭyupādānaṃ katamad <span class="it">/</span> āha / catasro dṛṣṭayo dṛṣṭyupādānam ity ucyate satkāyadṛṣṭir antagrāhadṛṣṭir mithyādṛṣṭir
+            dṛṣṭiparāmarśa itīmāś catasro dṛṣṭayo <span class="it">/</span> dṛṣṭyupādānam ity ucyate <span class="it">/</span></p>
+         
+         
+         <p>śīlavratopādānaṃ katamad <span class="it">/</span> yathā (<span class="bold">DhskD 13v2</span>) khalv ihaikatyaḥ śīlaṃ parāmṛśati vistareṇa yāvat* <span class="it">/</span> ubhayena śīlavratena śucyati mucyate niryāti sukhaduḥkhaṃ vyatikrāmati sukhaduḥkhavyatikramam
+            anuprāpnoti <span class="it">/</span> idam ucyate śīlavratopādānaṃ <span class="it">/</span></p>
+         
+         
+         <p>ātmavratopādānam (<span class="bold">DhskD 13v3</span>) ātmav<span class="it">ād</span>opādānaṃ katamat* <span class="it">/</span> rūpārūpyapratisaṃyuktā<span class="it">ṃ</span> dṛṣṭi<span class="it">ṃ</span> śīlavrataṃ ca sthāpya tadanyāni rūpārūpyapratisaṃyuktāni saṃyojanabandhanānuśayopakleśaparyavasthānānīdam
+            ucyate ātmavādopādānaṃ <span class="it">/</span></p>
+         
+         
+         <p>(<span class="bold">DhskD 13v4</span>) api khalv evam uktaṃ bhagavatā mahānidāne vyākaraṇe āyuṣmaty ānande <span class="it">/</span></p>
+         
+         
+         <p>asti pratyayam ānandopādānaṃ vistareṇa yāvat <span class="it">/</span></p>
+         
+         
+         <p>tṛṣṇā ced ānanda nābhaviṣyad api nu kasya cit kā cit tṛṣṇābhaviṣyan <span class="it">/</span> no bhadanta <span class="it">/</span> sarvaśo vā punar ānanda (<span class="bold">DhskD 13v5</span>) tṛṣṇāyām asatyām api nu upādānaṃ prajñāpayeta <span class="it">/</span> no bhadanta <span class="it">/</span> tasmāt tarhy ānanda etan nidānam eṣa hetur eṣa samudaya eṣa pratyayaḥ upādānasya
+            yad uta tṛṣṇā tṛṣṇāpratyayam upādānaṃ <span class="it">/</span> iti (<span class="bold">DhskD 13v6</span>) yad uktam idaṃ me tat pratyuktam iti //</p>
+         
+         
+         <p>11. (upādānapratyayo bhavaḥ)</p>
+         
+         
+         <p>bhavaḥ katama <span class="it">/</span> āha <span class="it">/</span> upādānāny eva pratītyānekavidhā bhavaprajñaptir uktā bhagavatā <span class="it">/</span> ekavidhā asti bhavaprajñaptir yatra traidhātukāḥ paṃca skandhā uktā bhagavatā <span class="it">/</span> (<span class="bold">DhskD 13v7</span>) asti bhavaprajñaptir yatrāyatyāṃ punarbhavābhinirva<span class="it">rta</span>kaṃ karmoktaṃ bhagavatā <span class="it">/</span> asti bhavaprajñaptir yatropapa<span class="it">t</span>tyaṃgikā paṃca skandhā uktā bhagavatā <span class="it">/</span></p>
+         
+         
+         <p>katamā bhavaprajñaptir yatra traidhātukāḥ paṃca skandhā bhavā uktā (<span class="bold">DhskD 13v8</span>) bhagavatā <span class="it">/</span> yad uktaṃ <span class="it">/</span> trayo bhavāḥ kāmabhavo rūpabhavaḥ ārūpyabhavaḥ <span class="it">/</span> iyaṃ bhavaprajñaptir yatra traidhātukāḥ paṃca skandhā bhava uktā bhagavatā <span class="it">/</span></p>
+         
+         
+         <p>katamā bhavaprajñaptir yatrāyatyāṃ punarbhavābhinirvartakaṃ karmoktaṃ bhagavatā (<span class="bold">DhskD 13v9</span>) <span class="it">/</span> yad uktaṃ <span class="it">/</span> yad api tad ānanda karmāyatyāṃ punarbhavāya saṃvartate idam atra bhavasya <span class="it">/</span> iyaṃ bhavaprajñaptir yatrāyatyāṃ punarbhavābhinirvartakaṃ karma bhava uktaṃ bhagavatā
+            <span class="it">/</span></p>
+         
+         
+         <p>katamā bhavaprajñaptir yatropapa<span class="it">t</span>tyāṃgikāḥ (<span class="bold">DhskD 13v10</span>) paṃca skandhā bhava uktā bhagavatā <span class="it">/</span> yad uktaṃ <span class="it">/</span> vijñānaṃ phalgunāhāraṃ yāvad evāyatyāṃ punarbhavābhinirvartaye prādurbhāvāya <span class="it">/</span> iyaṃ bhavaprajñaptir yatropapat<span class="it">t</span>yāṃgikāḥ paṃca skandhā bhava uktaṃ bhagavatā <span class="it">/</span></p>
+         
+         
+         <p>api (<span class="bold">DhskD 14r1</span>) khalv evam uktaṃ bhagavatā nidānaparyāye vyākaraṇe āyuṣmaty ānande <span class="it">/</span></p>
+         
+         
+         <p>asti pratyayam ānanda bhavo <span class="it">/</span> vistareṇa yāvat <span class="it">/</span></p>
+         
+         
+         <p>sarvaśo vā punar ānanda upādāne asati api nu bhavaḥ prajñāyeta <span class="it">/</span> no bhadanta <span class="it">/</span> tasmāt tarhy ānanda eta<span class="it">n ni</span>dānaṃ (<span class="bold">DhskD 14r2</span>) caiṣa hetur eṣa samudaya eṣa pratyayo bhavasya yad utopādānaṃ <span class="it">/</span> upādānapratyayam ānanda bhava <span class="it">/</span> iti yad uktam idaṃ me tat pratyuktaṃ //</p>
+         
+         
+         <p>12. (bhavapratyayā jātiḥ)</p>
+         
+         
+         <p>bhavapratyayā jātiḥ katamā <span class="it">/</span> āha <span class="it">/</span> yathā khalv ihaikatyo rāgaparyavasthito (<span class="bold">DhskD 14r3</span>) dveṣaparyavasthito mohaparyavasthitaḥ kāyena duścaritaṃ carati vācā manasā duścaritaṃ
+            carati <span class="it">/</span> ye te akuśalā kāyasaṃskārā vāksaṃskārā manaḥsaṃskārā ayam ucyate akuśalaḥ karmabhavaḥ
+            <span class="it">/</span> yad api taddhetu (<span class="bold">DhskD 14r4</span>) tatpratyayaṃ kāyasya bhedān narakeṣūpapadyate <span class="it">/</span> tatra yā jātiḥ saṃjātir avakrāntir abhinirvṛttiḥ prādurbhāvaḥ skandhapratilābho dhātupratilābha
+            āyatanapratilābho jīvitendriyasya prādurbhāva itīyaṃ jātir (<span class="bold">DhskD 14r5</span>) imaṃ bhavaṃ pratītya tad ucyate bhavapratyayā jātir <span class="it">/</span></p>
+         
+         
+         <p>iti yathā narakeṣv evaṃ tiryakpreteṣu /</p>
+         
+         
+         <p>yathā khalv ihaikatyo manuṣyasukhakānām avekṣāvān bhavati pratibaddhacittaḥ <span class="it">/</span> tasyaivaṃ bhavaty <span class="it">/</span> aho batāhaṃ manuṣyasubhagānāṃ (<span class="bold">DhskD 14r6</span>) sabhāgatāyām upapadyeyam iti <span class="it">/</span> sa tatprārthayamānas taddhetos tatsaṃvartanīyaṃ kāyena sucaritaṃ carati vācā manasā
+            sucaritaṃ carati <span class="it">/</span> ye te kuśalāḥ kāyasaṃskārā vāksaṃskārā manaḥsaṃskārā (<span class="bold">DhskD 14r7</span>) ayam ucyate kuśalaḥ karmabhavaḥ <span class="it">/</span> yad api taddhetu tatpratyayaṃ kāyasya bhedān manuṣyasubhagānāṃ sabhāgatāyām upapadyate
+            <span class="it">/</span> tatra yā jātiḥ saṃjātir vistareṇa tad ucyate bhavapratyayā jāti <span class="it">/</span></p>
+         
+         
+         <p>yathā manuṣyasubhagānāṃ (<span class="bold">DhskD 14r8</span>) evaṃ cāturmahārājikānāṃ trayastriṃśānāṃ yāmānāṃ tuṣitānāṃ nirmāṇaratīnāṃ paranirmitavaśavartināṃ
+            <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyo brahmakāyikānāṃ devānām avekṣāvān bhavati pratibaddhacittaḥ
+            tasyaivaṃ bhavaty (<span class="bold">DhskD 14r9</span>) <span class="it">/</span> aho batāhaṃ brahmakāyikānāṃ devānāṃ sabhāgatāyām upapadyeyam iti <span class="it">/</span> sa tatprārthayamānas taddhetos tatsaṃvartanīyaṃ viviktaṃ kāmair viviktaṃ pāpakair
+            akuśalair dharmaiḥ savitarkaṃ savicāraṃ vivekajaṃ (<span class="bold">DhskD 14r10</span>) prītisukhaṃ prathamaṃ dhyānam upasaṃpadya viharati <span class="it">/</span> tathā samāpannasya yaḥ kāyasaṃvaro vāksaṃvara ājīvapariśuddhi<span class="it">r</span> ayam ucyate kuśalaḥ karmabhavaḥ <span class="it">/</span> yad api taddhetu tatpratyayaṃ kāyasya bhedād (<span class="bold">DhskD 14v1</span>) brahmakāyikānāṃ devānāṃ sabhāgatāyām upapadyate <span class="it">/</span> tatra jātiḥ saṃjātir vistareṇa yāvad <span class="it">/</span> iyaṃ jātir imaṃ bhavaṃ pratītya tad ucyate bhavapratyayā jātir iti <span class="it">/</span></p>
+         
+         
+         <p>yathā brahmakāyikānāṃ evaṃ brahmapurohitānāṃ mahābrahmaṇāṃ <span class="it">/</span></p>
+         
+         
+         <p>(<span class="bold">DhskD 14v2</span>) yathā khalv ihaikatyaḥ parīttābhānāṃ devānām avekṣāvān bhavati pratibaddhacittaḥ
+            <span class="it">/</span> tasyaivaṃ bhavaty <span class="it">/</span> aho batāhaṃ parīttābhānāṃ devānāṃ sabhāgatāyām upapadyeyam iti <span class="it">/</span> sa tatprārthayamāno vitarkavicārāṇāṃ vyupaśamād (<span class="bold">DhskD 14v3</span>) adhyātmasaṃprasādāc cetasa ekotībhāvād avitarkam avicāraṃ samādhijaṃ prītisukhaṃ
+            dvitīyaṃ dhyānam upasaṃpadya viharati <span class="it">/</span> tathā samāpannasya yaḥ kāyasaṃvaro vāksaṃvara ājīvapariśuddhiḥ ayam ucyate (<span class="bold">DhskD 14v4</span>) kuśalaḥ karmabhavaḥ <span class="it">/</span> yad api taddhetu tatpratyayaṃ kāyasya bhedāt parīttābhanāṃ devānāṃ sabhāgatāyām upapadyate
+            <span class="it">/</span> tatra yā jātiḥ saṃjātir vistareṇa jīvitendriyasya prādurbhāvaḥ <span class="it">/</span> itīyaṃ jātir imaṃ bhavam* (<span class="bold">DhskD 14v5</span>) pratītya tad ucyate bhavapratyayā jātiḥ <span class="it">/</span></p>
+         
+         
+         <p>yathā parīttābhānām evam apramāṇābhānām ābhāsvarāṇāṃ <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyaḥ parīttaśubhānāṃ devānām avekṣāvān bhavati pratibaddhacittaḥ
+            <span class="it">/</span> tasyaivaṃ bhavaty <span class="it">/</span> aho batāhaṃ (<span class="bold">DhskD 14v6</span>) parīttaśubhānāṃ devānāṃ sabhāgatāyām upapadyeyaṃ <span class="it">/</span> sa tatprārthayamānas taddhetos tatsaṃvartanīyaṃ prīter virāgād upekṣako viharati
+            <span class="it">/</span> smṛtaḥ saṃprajānan sukhaṃ ca kāyena pratisaṃvedayate <span class="it">/</span> yat (<span class="bold">DhskD 14v7</span>) tad āryā ācakṣate upekṣakaḥ smṛtimāṃ sukhavihārīti tṛtīyaṃ dhyānam upasaṃpadya viharati
+            <span class="it">/</span> tathā samāpannasya yaḥ kāyasaṃvaro vāksaṃvaraḥ ājīvapariśuddhir ayam ucyate kuśalaḥ
+            karmabhavaḥ <span class="it">/</span> (<span class="bold">DhskD 14v8</span>) yad api taddhetu tatpratyayaṃ kāyasya bhedāt parīttaśubhānāṃ devānāṃ sabhāgatāyām
+            upapadyate <span class="it">/</span> tatra yā jātiḥ saṃjātir vistareṇa <span class="it">/</span> iyam ucyate bhavapratyayā jātir iti <span class="it">/</span></p>
+         
+         
+         <p>yathā parīttaśubhānām evam (<span class="bold">DhskD 14v9</span>) apramāṇ<span class="it">aśu</span>bhānāṃ śubhakṛtsnānāṃ <span class="it">/</span>
+            yathā khalv ihaikatyaḥ anabhrakāṇāṃ devānām avekṣāvān bhavati pratibaddhacittaḥ <span class="it">/</span> tasyaivaṃ bhavaty <span class="it">/</span> aho batāham anabhrakāṇāṃ devānāṃ sabhāgatāyām upapadyeyam iti <span class="it">/</span> sa tatprārthayamānas (<span class="bold">DhskD 14v10</span>) taddhetos tatsaṃvartanīyaṃ sukhasya ca prahāṇā<span class="it">d</span> duḥkhasya ca prahāṇā<span class="it">t</span> pūrvam eva ca saumanasyadaurmanasyayor astagamād aduḥkhāsukhaṃ upekṣāsmṛtipariśuddhaṃ
+            caturthaṃ dhyānam upasaṃpadya viharati <span class="it">/</span> (<span class="bold">DhskD 15r1</span>) tathā samāpannasya yaḥ kāyasaṃvaro vāksaṃvara ājīvapariśuddhir ayam ucyate kuśalaḥ
+            karmabhavaḥ <span class="it">/</span> yad api taddhetu tatpratyayaṃ kāyasya bhedād anabhrakāṇāṃ devānāṃ sabhāgatāyām upapadyate
+            (<span class="bold">DhskD 15r2</span>) <span class="it">/</span> tatra yā jātiḥ saṃjātiḥ vistareṇa yāvaj jīvitendriyasya prādurbhāvaḥ <span class="it">/</span> itīyaṃ jātir imaṃ bhavaṃ pratītya tad ucyate bhavapratyayā jātiḥ <span class="it">/</span></p>
+         
+         
+         <p>yathā anabhrakāṇām evaṃ puṇyaprasavānām (<span class="bold">DhskD 15r3</span>) asaṃjñisatv<span class="it">a</span>saṃgṛhītānāṃ ca bṛhatphalānāṃ <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyaḥ asaṃjñisatvānāṃ devānām avekṣāvān bhavati pratibaddhacittaḥ
+            <span class="it">/</span> tasyaivaṃ bhavaty <span class="it">/</span> aho batāham asaṃjñisatvānāṃ devānāṃ sabhāgatāyām (<span class="bold">DhskD 15r4</span>) upapadyeyam iti <span class="it">/</span> sa taṃ prārthayamānas taddhetos tatsaṃvartanīyaṃ saṃjñām audārikato duḥkhilataḥ sthūlabhittikato
+            manasikaroti āsaṃjñikaṃ ca śāntataḥ praṇītato niḥsaraṇataḥ <span class="it">/</span> tasya saṃjñām audārikato (<span class="bold">DhskD 15r5</span>) duḥkhilataḥ sthūlabhittikato manasikurvataḥ āsaṃjñikaṃ ca śāntataḥ praṇītato niḥsaraṇataḥ
+            saṃjnā antardhīyate āsaṃjñikaṃ ca saṃsthihati / iti yatra mama saṃjñā antarāyaty āsaṃjñikaṃ
+            (<span class="bold">DhskD 15r6</span>) ca saṃsthihaty etāvad asaṃjñisamāpattiḥ samāpanna iti vaktavyaṃ <span class="it">/</span> tathā samāpannasya yaḥ kāyasaṃvaro vāksaṃvaraḥ ājīvapariśuddhir ayam ucyate kuśalaḥ
+            karmabhavaḥ <span class="it">/</span> yad api taddhetu tatpratyayaṃ (<span class="bold">DhskD 15r7</span>) kāyasya bhedād asaṃjñisatvānāṃ devānāṃ sabhāgatāyām upapadyate <span class="it">/</span> tatra yā jātiḥ saṃjātir vistareṇa yāvaj jīvitendriyasya prādurbhāva iti <span class="it">/</span> itīyaṃ jātir imaṃ bhavaṃ pratītya tad ucyate (<span class="bold">DhskD 15r8</span>) bhavapratyayā jātir iti <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyaḥ ākāśānantyāyatanānāṃ devānām avekṣāvān bhavati pratibaddhacittaḥ
+            <span class="it">/</span> tasyaivaṃ bhavaty <span class="it">/</span> aho batāhaṃ ākāśānantyāyatanānāṃ devānāṃ sabhāgatāyām upapadyeyam (<span class="bold">DhskD 15r9</span>) iti <span class="it">/</span> sa tatprārthayamānas taddhetos tatsaṃvartanīyaṃ sarvaśo rūpasaṃjñānāṃ samatikramāt
+            pratighasaṃjñānām astagamān nānātvasaṃjñānām amanasikārād anantam ākāśam ity ākāśānantyāyata<span class="it">na</span>m (<span class="bold">DhskD 15r10</span>) upasaṃpadya viharati <span class="it">/</span> tathā samāpannasya yā cetanā saṃcetanābhisaṃcetanā cetayitaṃ cetanāgataṃ cittābhisaṃskāro
+            manaskarma ayam ucyate kuśalaḥ karmabhavaḥ <span class="it">/</span> yad api taddhetu (<span class="bold">DhskD 15v1</span>) tatpratyayaṃ kāyasya bhedād ākāśānantyāyatanānāṃ devānāṃ sabhāgatāyām upapadyate
+            <span class="it">/</span> tatra yā jātiḥ saṃjātir vistareṇa yāva<span class="it">j</span> jīvitendriyaprādurbhāva <span class="it">/</span> itīyaṃ jātir imaṃ bhavaṃ pratītya tad ucyate (<span class="bold">DhskD 15v2</span>) bhavapratyayā jātir iti <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyo vijñānānantyāyatanānāṃ devānām avekṣāvān bhavati pratibaddhacittaḥ
+            <span class="it">/</span> tasyaivaṃ bhavaty <span class="it">/</span> aho batāhaṃ vijñānānantyāyatanānāṃ devānāṃ sabhāgatāyām upapadyeyaṃ (<span class="bold">DhskD 15v3</span>) iti <span class="it">/</span> sa tatprārthayamānas taddhetos tatsaṃvartanīyaṃ sarvaśa ākāśānantyāyatanaṃ samatikramyānantaṃ
+            vijñānam iti vijñānānantyāyatanam upasaṃpadya viharati <span class="it">/</span> tathā samāpannasya yā cetanā yāvac cittābhisaṃskāro (<span class="bold">DhskD 15v4</span>) manaskarmāyam ucyate kuśalaḥ karmabhavaḥ <span class="it">/</span> yad api taddhetu tatpratyayaṃ kāyasya bhedād vijñānānantyāyatanānāṃ devānāṃ sabhāgatāyām
+            upapadyate <span class="it">/</span> tatra yā jātiḥ saṃjātiḥ vistareṇa (<span class="bold">DhskD 15v5</span>) yāvaj jīvitendriyasya prādurbhāva <span class="it">/</span> itīyaṃ jātir imaṃ bhavaṃ pratītya tad ucyate bhavapratyayā jātir iti <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatya ākiṃcanyāyatanānāṃ devānām avekṣāvān bhavati pratibaddhacittaḥ
+            (<span class="bold">DhskD 15v6</span>) <span class="it">/</span> tasyaivaṃ bhavaty <span class="it">/</span> aho batāham ākiṃcanyāyatanānāṃ devānāṃ sabhāgatāyām upapadyeyam iti <span class="it">/</span> sa tatprārthayamānas taddhetos tatsaṃvartanīyaṃ sarvaśo vijñānānantyāyatanaṃ samatikramya
+            nāsti (<span class="bold">DhskD 15v7</span>) kiṃ cid ity ākiṃcanyāyatanam upasaṃpadya viharati <span class="it">/</span> tathā samāpannasya yā cetanā saṃcetanā vistareṇa yāvac cittābhisaṃskāro manaskarma
+            ayam ucyate kuśalaḥ karmabhavaḥ <span class="it">/</span> (<span class="bold">DhskD 15v8</span>) yad api taddhetu tatpratyayaṃ kāyasya bhedād ākiṃcanyāyatanānāṃ devānāṃ sabhāgatāyāṃ
+            upapadyate <span class="it">/</span> tatra yā jātiḥ saṃjātiḥ vistareṇa yāvaj jīvitendriyasya prādurbhāva (<span class="bold">DhskD 15v9</span>) <span class="it">/</span> itīyaṃ jātir imaṃ bhavaṃ pratītya tad ucyate bhavapratyayā jātir iti <span class="it">/</span></p>
+         
+         
+         <p>yathā khalv ihaikatyo naivasaṃjñānāsaṃjñāyatanānāṃ devānām avekṣāvān bhavati pratibaddhacittaḥ
+            <span class="it">/</span> (<span class="bold">DhskD 15v10</span>) tasyaivaṃ bhavaty <span class="it">/</span> aho batāhaṃ naivasaṃjñānāsaṃjñāyatanānāṃ devānāṃ sabhāgatāyāṃ upapadyeyam iti <span class="it">/</span> sa tatprārthayamānas taddhetos tatsaṃvartanīyaṃ ākiṃcanyāyatanaṃ samatikramya (<span class="bold">DhskD 16r1</span>) naivasaṃjñānāsaṃjñāyatanam upasaṃpadya viharati <span class="it">/</span> tathā samāpannasya yā cetanā vistareṇa yāva<span class="it">c</span> cittābhisaṃskāro manaskarmāyam ucyate kuśalaḥ karmabhavaḥ <span class="it">/</span> yad api taddhetu tatpratyayaṃ naivasaṃjñānāsaṃjñāyatanānāṃ (<span class="bold">DhskD 16r2</span>) devānāṃ sabhāgatāyāṃ upapadyate <span class="it">/</span> tatra yā jātiḥ saṃjātir avakrāntir abhinirvṛttiḥ prādurbhāvaḥ skandhapratilābho dhātupratilābhaḥ
+            āyatanapratilābhaḥ jīvitendriyasya prādurbhāvaḥ (<span class="bold">DhskD 16r3</span>) <span class="it">/</span> itīyaṃ jātir imaṃ bhavaṃ pratītya tad ucyate bhavapratyayā jātir iti <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktam bhagavatā mahānidānaparyāye vyākaraṇe āyuṣmaty ānande <span class="it">/</span></p>
+         
+         
+         <p>asti pratyayam ānanda jātir <span class="it">/</span> iti pṛṣṭair astīti (<span class="bold">DhskD 16r4</span>) vacanīyaṃ <span class="it">/</span> kiṃpratyayā jātir iti <span class="it">/</span> bhavapratyayā iti vacanīyaṃ <span class="it">/</span> bhavapratyayā ānanda jātir <span class="it">/</span> iti me yad uktam idaṃ me tat pratyuktaṃ /</p>
+         
+         
+         <p>bhavaś ced ānanda na syād api nu matsyānāṃ matsyatve pakṣiṇānāṃ vā pakṣitve (<span class="bold">DhskD 16r5</span>) sarīsṛpāṇāṃ sarīsṛpatve catuṣpadānāṃ vā catuṣpadatve nāgānāṃ vā nāgatve yakṣāṇāṃ
+            vā yakṣatve bhūtānāṃ vā bhūtatve gandharvāṇāṃ vā gandharvatve devānāṃ vā devatve manuṣyāṇāṃ
+            vā manuṣyatve (<span class="bold">DhskD 16r6</span>) teṣāṃ teṣām ānanda satvānāṃ tasmin tasmin satvanikāye api nu kasya cit ka<span class="it">ś</span> cid bhavaḥ syān <span class="it">/</span> no bhadanta <span class="it">/</span> sarvaśo vā punar ānanda bhave asaty api nu kasya cit k<span class="it">ā</span> cij jāti<span class="it">ḥ</span> prajñāyeta <span class="it">/</span> no bhadanta <span class="it">/</span> (<span class="bold">DhskD 16r7</span>) tasmāt tarhy ānandaitan nidānam eṣa samudaya eṣa hetur eṣa pratyayo jātyā yad uta
+            bhavaḥ <span class="it">/</span> bhavapratyayā ānanda jātir <span class="it">/</span> iti me yad uktam idaṃ me tat praty<span class="it">u</span>ktaṃ /</p>
+         
+         
+         <p>13. (jātipratyayā jarāmaraṇaśokaparidevaduḥkhadaurmanasyopāyāsāḥ)</p>
+         
+         
+         <p>jātipratyayaṃ jarāmaraṇam iti <span class="it">/</span></p>
+         
+         
+         <p>jarā katamā <span class="it">/</span> (<span class="bold">DhskD 16r8</span>) āha <span class="it">/</span> yat teṣāṃ teṣāṃ satvānāṃ tasmiṃ tasmiṃ satvanikāye jātiḥ saṃjātir avakrāntir abhinirvṛttir
+            vistareṇa jīvitendriyasya prādurbhāvaḥ iyam ucyate jātiḥ <span class="it">/</span></p>
+         
+         
+         <p>api khalv evam uktaṃ bhagavatā mahānidānaparyāye (<span class="bold">DhskD 16r9</span>) vyākaraṇe āyuṣmaty ānande <span class="it">/</span></p>
+         
+         
+         <p>asti pratyayam ānanda jarāmaraṇaṃ <span class="it">/</span> iti pṛṣṭair astīti syād vacanīyaṃ <span class="it">/</span> vistareṇa yāvaj <span class="it">/</span></p>
+         
+         
+         <p>jātiś ced ānanda na syād api nu matsyānāṃ vā matsyatve pakṣināṃ vā (<span class="bold">DhskD 16r10</span>) pakṣitve vistareṇa yāva<span class="it">d</span> devānāṃ devatve teṣāṃ teṣām ānanda satvānāṃ tasmiṃ tasmin satvanikāye api nu kasya
+            cit k<span class="it">ā</span> cij jātiḥ syān <span class="it">/</span> no bhadanta <span class="it">/</span> sarvaśo vā punar ānanda jātyām a<span class="it">satyāṃ</span> (<span class="bold">DhskD 16v1</span>) api nu jarāmaraṇaṃ prajnāyeta <span class="it">/</span> no bhadanta <span class="it">/</span> tasmāt tarhy ānanda tan nidānaṃ eṣa samudaya eṣa hetur eṣa pratyayo jarāmaraṇasya
+            yad uta jātiḥ <span class="it">/</span> jātipratyayam ānanda jarāmaraṇam iti me yad uktam (<span class="bold">DhskD 16v2</span>) etat pratyuktaṃ //</p>
+         
+         
+         <p>jarā katamā <span class="it">/</span> yat tat khālityaṃ pālityaṃ vistareṇa yāvat saṃskārāṇāṃ purāṇībhāvo jarjarībhāva iyam
+            ucyate jarā <span class="it">/</span>
+            maraṇaṃ katamad <span class="it">/</span> āha <span class="it">/</span> yat teṣāṃ teṣāṃ satvānāṃ tasmāt tasmāt satvanikāyāc (<span class="bold">DhskD 16v3</span>) cyutiś cyavanatā bhedo 'ntarhāṇiḥ saṃmoṣaḥ parihāṇiḥ āyuṣo hānir ūṣmaṇo hāniḥ skandhānāṃ
+            nikṣepo jīvitendriyasyoparodho maraṇaṃ kālakriyā idam ucyate maraṇaṃ <span class="it">/</span></p>
+         
+         
+         <p>śokaḥ katama <span class="it">/</span> āha (<span class="bold">DhskD 16v4</span>) / yat tan mātṛma<span class="it">ra</span>ṇena pitṛmaraṇena bhrātṛmaraṇena bhaginīmaraṇena jñātikṣayād dhanakṣayād bhogakṣayāt
+            spṛṣṭasya śārīrikābhir vedanābhir duḥkhābis tīvrābhiḥ kharābhiḥ kaṭukābhir amanāpābhiḥ
+            (<span class="bold">DhskD 16v5</span>) prāṇahāriṇībhir yo dāghaḥ saṃdāghaḥ śokaḥ śocanā śokāyitatvam ayam ucyate śokaḥ
+            <span class="it">/</span></p>
+         
+         
+         <p>paridevaḥ katama <span class="it">/</span> āha / tathā dahyate tathā paridahyate / hā aṃba hā tāta hā bhagini hā bhrātaḥ <span class="it">/</span> tad upādāya (<span class="bold">DhskD 16v6</span>) yad vākyaṃ vacanaṃ vyāhāro bhāṣā gīr niruktir vākpatho vāgghoṣo vācā vākkarma vāgvijñaptir
+            ārttir bhāṣyaṃ vipralāpo lālapyaṃ lālapyanatā paridevaḥ paridevanatā ayam ucyate (<span class="bold">DhskD 16v7</span>) paridevaḥ <span class="it">/</span></p>
+         
+         
+         <p>duḥkhaṃ katamad <span class="it">/</span> āha / paṃcavijñānasaṃprayuktam asātaṃ veditaṃ vedanāgatam idam ucyate duḥkhaṃ <span class="it">/</span></p>
+         
+         
+         <p>daurmanasyaṃ katarad <span class="it">/</span> āha / manovijñānaṃsaprayuktaṃ asātaṃ veditaṃ vedanāgatam idam ucyate daurmanasyaṃ
+            (<span class="bold">DhskD 16v8</span>) <span class="it">/</span></p>
+         
+         
+         <p>upāyāsaḥ katama <span class="it">/</span> āha / yaś cetasa āyāsa upāyāsaḥ upāyāsanatā ayam ucyate upāyāsaḥ //</p>
+         
+         
+         <p>14. (duḥkhaskandhasyābhinirvṛttiḥ)</p>
+         
+         
+         <p>api khalv avidyāduḥkhaskandhaṃ pratītya saṃskāraduḥkhaskandhasyābhinirvṛttir bhavati
+            (<span class="bold">DhskD 16v9</span>) prādurbhāvaḥ <span class="it">/</span> saṃskāraduḥkhaskandhaṃ pratītya vijñānaduḥkhaskandhasyābhinirvṛttir bhavati prādurbhāvaḥ
+            <span class="it">/</span> vijñānaduḥkhaskandhaṃ pratītya nāmarūpaduḥkhaskandhasyābhinirvṛttir bhavati prādurbhāvaḥ
+            <span class="it">/</span> nāmarūpaduḥkhaskandhaṃ (<span class="bold">DhskD 16v10</span>) pratītya ṣaḍāyatanaduḥkhaskandhasyābhinirvṛttir bhavati prādurbhāvaḥ <span class="it">/</span> ṣaḍāyatanaduḥkhaskandhaṃ pratītya sparśaduḥkhaskandhasyābhinirvṛttir bhavati prādurbhāvaḥ
+            <span class="it">/</span> sparśaduḥkhaskandhaṃ (<span class="bold">DhskD 17r1</span>) pratītya vedanāduḥkhaskandhasyābhinirvṛttir bhavati prādurbhāvaḥ <span class="it">/</span> vedanāduḥkhaskandhaṃ pratītya tṛṣṇāduḥkhaskandhasyābhinirvṛttir bhavati prādurbhāvaḥ
+            <span class="it">/</span> tṛṣṇāduḥkhaskandhaṃ pratītyopādānaduḥkhaskandhasyābhinirvṛttir (<span class="bold">DhskD 17r2</span>) bhavati prādurbhāvaḥ <span class="it">/</span> upādānaduḥkhaskandhaṃ pratītya bhavaduḥkhaskandhasyābhinirvṛttir bhavati prādurbhāvaḥ
+            <span class="it">/</span> bhavaduḥkhaskandhaṃ pratītya jātiduḥkhaskandhasyābhinirvittir bhavati prādurbhāvaḥ
+            <span class="it">/</span> jātiduḥkhaskandham* (<span class="bold">DhskD 17r3</span>) pratītya jarā<span class="it">ma</span>raṇaduḥkhaskandhasyābhinirvṛttir bhavati prādurbhāvaḥ // //</p>
+         
+         
+         <p>15. (pañca bhayāni vadyāni vairāṇi)</p>
+         
+         
+         <p>evaṃ mayā śrutam ekasmin samaye bhagavāṃś chrāvastyāṃ viharati jetavane 'nāthapiṇḍadasyārāme
+            <span class="it">/</span> tatra bhagavān bhikṣūn āmantrayate sma / yasya kasya cid bhikṣavaḥ (<span class="bold">DhskD 17r4</span>) paṃca bhayāni vadyāni vairāṇi aśāntāni bhavanti sa dṛṣṭa eva dharme vijñānāṃ garhyo
+            bhavati paścāc cānutāpyaḥ kāyasya ca bhedāt paraṃ maraṇād apāyadurgatiṃ vinipātaṃ
+            narakeṣūpapadyate <span class="it">/</span></p>
+         
+         
+         <p>katamāni paṃca bhayāni (<span class="bold">DhskD 17r5</span>) vadyāni vairāṇy aśāntāni bhavanti <span class="it">/</span></p>
+         
+         
+         <p>yat prāṇātipātikaḥ prāṇātipātapratyayaṃ vadyaṃ vairaṃ prasavati prāṇātipātād aprativiratasya
+            evam asyedaṃ prathamaṃ bhayaṃ vadyaṃ vairam aśāntaṃ bhavati <span class="it">/</span></p>
+         
+         
+         <p>yad (<span class="bold">DhskD 17r6</span>) adattādāyikaḥ kāmamithyācāriko mṛṣāvādikaḥ</p>
+         
+         
+         <p>surāmaireyamadyapramādasthāyikaḥ surāmaireyamadyapramādasthānabhayaṃ vadyaṃ vairaṃ
+            prasavati surāmaireyamadyapramādasthānād aprativiratasya (<span class="bold">DhskD 17r7</span>) evam asyedaṃ paṃcamaṃ bhayaṃ vadyaṃ vairam aśāntaṃ bhavati <span class="it">/</span></p>
+         
+         
+         <p>yasya kasya cid imāni paṃca bhayāni vadyāni vairāṇy aśāntāni bhavanti sa dṛṣṭa eva
+            dharme vijñānāṃ garhyo bhavati paścāc cānutāpyaḥ <span class="it">/</span> (<span class="bold">DhskD 17r8</span>) kāyasya bhedāt paraṃ maraṇād apāyadurgatiṃ vinipātaṃ narakeṣūpapadyate /</p>
+         
+         
+         <p>yasya tu kasya cit paṃca bhayāni vadyāni vairāṇi śāntāni bhavanti sa dṛṣṭa eva dharme
+            vijñānāṃ praśasyo bhavati paścāc ca nānutāpyaḥ (<span class="bold">DhskD 17r9</span>) kāyasya ca bhedāt sugatau svargaloke deveṣūpapadyate <span class="it">/</span></p>
+         
+         
+         <p>katamāni paṃca bhayāni vadyāni vairāṇi śāntāni bhavanti <span class="it">/</span></p>
+         
+         
+         <p>yat* prāṇātipātikaḥ prāṇātipātapratyayaṃ bhayaṃ vadyaṃ vairaṃ prasavati prāṇātipātāt
+            (<span class="bold">DhskD 17r10</span>) prativiratasya evam asyedaṃ prathamaṃ vadyaṃ vairaṃ śāntaṃ bhavati <span class="it">/</span>
+            yad adattādāyikaḥ kāmamithyācāriko mṛṣāvādikaḥ</p>
+         
+         
+         <p>surāmaireyamadyapramādasthāyikaḥ surāmaireyamadyapramādasthānapratyayaṃ (<span class="bold">DhskD 17v1</span>) bhayaṃ vadyaṃ vairaṃ prasavati surāmaireyamadyapramādasthānāt prativiratasya evam
+            asyedaṃ paṃcamaṃ bhayaṃ vadyaṃ vairaṃ śāntaṃ bhavati <span class="it">/</span></p>
+         
+         
+         <p>yasya kasya cid imāni paṃca bhayāni vadyāni vairāṇi śāntāni bhavanti sa dṛṣṭa eva
+            dharme (<span class="bold">DhskD 17v2</span>) vijñānāṃ praśasyo bhavati paścāc ca nānutāpyaḥ kāyasya ca bhedāt sugatau svargaloke
+            deveṣūpapadyate <span class="it">/</span> idam avocad bhagavān <span class="it">/</span> idam uktvā sugato hy athāparam etad uvāca śāstā //</p>
+         
+         
+         <p>yaḥ prāṇam atipātayati mṛṣāvādaṃ (<span class="bold">DhskD 17v3</span>) ca bhāṣate /
+            loke adattam ādatte paradāraṃ ca gacchati <span class="it">/</span>
+            surāmaireyapānaṃ ca yo naro hy adhigṛdhyati <span class="it">/</span>
+            saktaḥ paṃcasu dharmeṣu duḥśīla iti kathyate /
+            kāyasya bhedā<span class="it">d</span> duṣprajño narakeṣūpapadyate <span class="it">//</span>
+            yas tu prāṇaṃ nātipātayati (<span class="bold">DhskD 17v4</span>) mṛṣāvādaṃ na bhāṣate <span class="it">/</span>
+            loke adattaṃ nādatte paradāraṃ na gacchati <span class="it">/</span>
+            surāmaireyapānaṃ ca yo naro nādhigṛdhyati /
+            muktaḥ paṃcasu dharmeṣu śīlavān iti kathyate <span class="it">/</span>
+            kāyasya bhedāt sugato svargaloke deveṣūpapadyate <span class="it">/</span></p>
+         
+         
+         <p>idam (<span class="bold">DhskD 17v5</span>) avocat* //</p>
+         
+         
+         <p>16. (upāsakaḥ)</p>
+         
+         
+         <p>kiyatā upāsako bhavati <span class="it">/</span> yataś ca gṛhī avadātavasanaḥ puruṣaḥ puruṣendriyeṇa samanvāgataḥ buddhaṃ śaraṇaṃ
+            gacchati dharmaṃ saṃghaṃ śaraṇaṃ gacchati cittam utpādayati vācaṃ ca bhāṣate upāsakaṃ
+            (<span class="bold">DhskD 17v6</span>) māṃ dhārayeti <span class="it">/</span> iyatā upāsako bhavati <span class="it">/</span></p>
+         
+         
+         <p>kiyatā upāsakaḥ śikṣāsv ekadeśakārī bhavati <span class="it">/</span> yataś copāsakaḥ buddhaṃ śaraṇaṃ gato bhavati dharmaṃ saṃghaṃ śaraṇaṃ gato bhavati
+            prāṇātipātāt (<span class="bold">DhskD 17v7</span>) prativirataḥ adattādānāt kāmamithyācārān mṛṣāvādād aprativirataḥ iyatā upāsakaḥ
+            śikṣāsv ekadeśakārī bhavati <span class="it">/</span></p>
+         
+         
+         <p>kiyatā upāsakaḥ śikṣāsu (<span class="bold">DhskD 17v8</span>) pradeśakārī bhavati <span class="it">/</span> yataś copāsakaḥ buddhaṃ śaraṇaṃ gato bhavati dharmaṃ saṃghaṃ śaraṇaṃ gato bhavati
+            prāṇātipātād adattādānāt prativirataḥ kāmamithyācārān mṛṣāvādāt surāmaireyamadyapramādasthānād
+            (<span class="bold">DhskD 17v9</span>) aprativirataḥ iyatā upāsakaḥ śikṣāsu pradeśakārī bhavati <span class="it">/</span></p>
+         
+         
+         <p>kiyatā upāsakaḥ śikṣāsu yadbhūyaskārī bhavati <span class="it">/</span> yataś copāsakaḥ buddhaṃ śaraṇaṃ gato bhavati dharmaṃ saṃghaṃ śaraṇaṃ (<span class="bold">DhskD 17v10</span>) gato bhavati prāṇātipātād adattādānāt kāmamithyācārāt prativirataḥ mṛṣāvādāt surāmaireyamadyapramādasthānād
+            aprativirataḥ iyatā upāsakaḥ śikṣāsu yadbhūyaskāri bhavati <span class="it">/</span></p>
+         
+         
+         <p>(<span class="bold">DhskD 18r1</span>) kiyatā upāsakaḥ śikṣāsv aparipūrṇakārī bhavati <span class="it">/</span> yataś copāsakaḥ buddhaṃ śaraṇaṃ gato bhavati dharmaṃ saṃghaṃ śaraṇaṃ gato bhavati
+            prāṇātipātād adattādānāt kāmamithyācārān mṛṣāvādāt prativirataḥ surāmaireyamadyapramādasthānād
+            (<span class="bold">DhskD 18r2</span>) aprativirataḥ iyatā upāsakaḥ śikṣāsv aparipūrṇakārī bhavati <span class="it">/</span></p>
+         
+         
+         <p>kiyatā upāsakaḥ śikṣāsu paripūrṇakārī bhavati <span class="it">/</span> yataś copāsakaḥ buddhaṃ śaraṇaṃ gato bhavati dharmaṃ saṃghaṃ śaraṇaṃ gato bhavati
+            prāṇātipātāt (<span class="bold">DhskD 18r3</span>) prativirataḥ adattādānāt kāmamithyācārān mṛṣāvādāt surāmaireyamadyapramādasthānāt
+            prativirataḥ iyatā upāsakaḥ śikṣāsu paripūrṇakārī bhavati //</p>
+         
+         
+         <p>paṃcabhir dharmaiḥ samanvāgataḥ upāsakaḥ (<span class="bold">DhskD 18r4</span>) ātmahitāya pratipanno bhavati na parahitāya <span class="it">/</span> katamaiḥ paṃcabhiḥ <span class="it">/</span> ātmanā prāṇātipātāt prativirato bhavati <span class="it">/</span> no tu parān prāṇātipātaviratau samādāpayati <span class="it">/</span></p>
+         
+         
+         <p>ātmanā adattā<span class="it">dā</span>nāt326 (<span class="bold">DhskD 18r5</span>) kāmamithyācārān mṛṣāvādāt surāmaireyamadyapramādasthānāt prativirato bhavati <span class="it">/</span> no tu parān surāmaireyamadyapramādasthānaviratau samādāpayati <span class="it">/</span> ebhiḥ paṃcabhiḥ (<span class="bold">DhskD 18r6</span>) dharmaiḥ samanvāgata upāsaka ātmahitāya pratipanno bhavati parahitāya //</p>
+         
+         
+         <p>daśabhir dharmaiḥ samanvāgata upāsakaḥ ātmahitāya pratipanno bhavati parahitāya ca
+            <span class="it">/</span> ātmanā prāṇātipātāt prativirato (<span class="bold">DhskD 18r7</span>) bhavati parāṃś ca prāṇātipātaviratau samādāpayati <span class="it">/</span> ātmanā adattādānāt kāmamithyācārān mṛṣāvādāt surāmaireyamadyapramādasthānāt prativirato
+            bhavati parāṃś ca surāmaireyamadyapramādasthānaviratau (<span class="bold">DhskD 18r8</span>) samādāpayati <span class="it">/</span> ebhir daśabhir dharmais samanvāgataḥ upāsakaḥ ātmahitāya pratipanno bhavati parahitāya
+            ca //</p>
+         
+         
+         <p>paṃcadaśabhir dharmais samanvāgata upāsakaḥ atmāhitāya pratipanno bhavati parahitāya
+            ca (<span class="bold">DhskD 18r9</span>) bahujanahitāya bahujanasukhāya ca <span class="it">/</span> ātmanā prāṇātipātāt prativirato bhavati parān api prāṇātipātaviratau samādāpayati
+            prāṇātipātavirataṃ ca dṛṣṭvā sumanojño bhavati <span class="it">/</span></p>
+         
+         
+         <p>ātmanā (<span class="bold">DhskD 18r10</span>) adattādānāt kāmamithyācārān mṛṣāvādāt surāmaireyamadyapramādasthānaviratau samādāpayati
+            surāmaireyamadyapramādasthānavirataṃ ca dṛṣṭvā sumanojño bhavaty <span class="it">/</span> ebhiḥ paṃcadaśabhir dharmai<span class="it">ḥ</span> (<span class="bold">DhskD 18v1</span>) samanvāgataḥ upāsakaḥ ātmahitāya pratipanno bhavati parahitāya bahujanahitāya bahujanasukhāya
+            ca //</p>
+         
+         
+         <p>aṣṭābhir dharmais samanvāgata upāsakaḥ ātmahitāya pratipanno bhavati na parahitāya
+            <span class="it">/</span> ātmanā (<span class="bold">DhskD 18v2</span>) śraddhāsaṃpanno bhavati no tu parāṃ cchraddhāsaṃpadi samādāpayati <span class="it">/</span> ātmā<span class="it">nā</span> śīlasaṃpannas tyāgasaṃpannaḥ <span class="it">/</span> abhīkṣṇam ārāmaṃ gantā bhavati bhikṣūṇāṃ darśanāya / avahitaśrotro dharmaṃ śṛṇoti
+            <span class="it">/</span> śrutānāṃ dharmāṇāṃ dhāraṇajātīyo bhavati (<span class="bold">DhskD 18v3</span>) <span class="it">/</span> dhṛtānāṃ dharmāṇām arthopaparīkṣī bhavati <span class="it">/</span> ātmanā upaparīkṣitānāṃ dharmāṇām artham ājñāya dharmam ājñāya dharmānudharmapratipanno
+            bhavati sāmīcīpratipanno 'nudharma no tu parān dharmacārī no tu parān dharmānudharmapratipattau
+            (<span class="bold">DhskD 18v4</span>) samādāpayati <span class="it">/</span> ebhir aṣṭābhir dharmaiḥ samanvāgataḥ upāsakaḥ ātmahitāya pratipanno bhavati na parahitāya
+            /</p>
+         
+         
+         <p>ṣoḍaśabhir dharmaiḥ samanvāgata upāsakaḥ ātmahitāya pratipanno bhavati (<span class="bold">DhskD 18v5</span>) parahitāya ca / ātmanā śraddhāsaṃpanno bhavati parān api śraddhāsaṃpadi samādāpayati
+            <span class="it">/</span> ātmanā śīlasaṃpannas tyāgasaṃpanno bhavaty <span class="it">/</span> ātmanā abhīkṣṇam ārāmaṃ gantā bhavati bhikṣūṇāṃ darśanāya <span class="it">/</span> avahitaśrotro (<span class="bold">DhskD 18v6</span>) dharmaṃ śṛṇoti <span class="it">/</span> śrutānāṃ dharmāṇāṃ dhāraṇajātīyo bhavati <span class="it">/</span> dhṛtānāṃ dharmāṇāṃ upaparīkṣ<span class="it">a</span>ṇajātīyo bhavati <span class="it">/</span> ātmanā upaparīkṣitānāṃ dharmāṇām artham ājñāya dharmaṃ ājñāya dharmānudharmapratipanno
+            (<span class="bold">DhskD 18v7</span>) bhavati / sāmīcīpratipanno 'nudharmacārī parāṃś ca dharmānudharmapratipattau samādāpayati
+            <span class="it">/</span> ebhiḥ ṣoḍaśabhir dharmaiḥ samanvāgata upāsaka ātmahitāya (<span class="bold">DhskD 18v8</span>) pratipanno bhavati parahitāya ca /</p>
+         
+         
+         <p>caturviṃśatyā dharmais samanvāgata upāsakaḥ ātmahitāya pratipanno bhavati parahitāya
+            bahujanahitāya bahujanasukhāya ca <span class="it">/</span> ātmanā śraddhāsaṃpanno bhavati parān (<span class="bold">DhskD 18v9</span>) api śraddhāsaṃpadi samādāpayati śraddhāsaṃpannaṃ ca dṛṣṭvā sumano<span class="it">jño</span> bhavati <span class="it">/</span> ātmanā śīlasaṃpannaḥ tyāgasaṃpannaḥ <span class="it">/</span> abhīkṣṇam ārāmaṃ gantā bhavati bhikṣūṇāṃ darśanāya <span class="it">/</span> avahitaśrotro dharmaṃ śṛṇoti <span class="it">/</span> śrutānāṃ (<span class="bold">DhskD 18v10</span>) dharmāṇāṃ dhāraṇajātīyo bhavati <span class="it">/</span> dhṛtānāṃ dharmāṇām arthopaparikṣī bhavati <span class="it">/</span> ātmanā upaparikṣitānāṃ dharmāṇām artham ājñāya dharmam ājñāya dharmānudharmapratipanno
+            bhavati sāmīcīpratipanno 'nudharmacār (<span class="bold">DhskD 19r1</span>) <span class="it">/</span> parān api dharmānudharmapratipattau samādāpayati <span class="it">/ dharmā</span>nudharmapratipannaṃ ca dṛṣṭvā sumanojño bhavati <span class="it">/</span> ebhiś caturviṃśatyā dharmaiḥ samanvāgata upāsakaḥ ātmahitāya pratipanno bhavati parahitāya
+            bahujanahitāya bahujanasu<span class="it">khā</span>ya (<span class="bold">DhskD 19r2</span>) ca //</p>
+         
+         
+         <p>daśabhir dharmais samanvāgata upāsakaḥ kāyasya bhedāt paraṃ maraṇād apāyadurgativinipātaṃ
+            narakeṣūpapadyate <span class="it">/</span> ātmanā prāṇātipātiko bhavati <span class="it">/</span> adattādāyikaḥ kāmamithyācāriko mṛṣāvādikaḥ piśunavādikaḥ (<span class="bold">DhskD 19r3</span>) paruṣavādikaḥ saṃbhinnapralāpiko 'bhidhyālur vyāpannacitto mithyādṛṣṭikaś ca bhavati
+            <span class="it">/</span> ebhir daśabhir dharmaiḥ samanvāgata upāsakaḥ kāyasya bhedād yāvan narakeṣūpapadyate
+            <span class="it">/</span></p>
+         
+         
+         <p>viṃśatyā dharmaiḥ samanvāgata upāsakaḥ kāyasya bhedād yāvan (<span class="bold">DhskD 19r4</span>) narakeṣūpapadyate <span class="it">/</span> ātmanā prāṇātipātiko bhavati parān api prāṇātipāte samādāpayati <span class="it">/</span> ātmanā adattādāyiko yāvan mithyādṛṣṭikaḥ <span class="it">/</span> parān api mithyādṛṣṭau samādāpayaty <span class="it">/</span> ebhir viṃśatyā dharmaiḥ samanvāgata (<span class="bold">DhskD 19r5</span>) upāsakaḥ kāyasya bhedād yāvan narakeṣūpapadyate /</p>
+         
+         
+         <p>triṃśatā dharmaiḥ samanvāgataḥ upāsakaḥ kāyasya bhedād yāvan narakeṣūpapadyate <span class="it">/</span> ātmanā prāṇātipātiko bhavati <span class="it">/</span> parān api prāṇātipāte samādāpayati (<span class="bold">DhskD 19r6</span>) prāṇātipātikaṃ ca dṛṣṭvā sumanojño bhavati <span class="it">/</span> ātmanā adattādāyiko yāvan mithyādṛṣṭikaṃ ca dṛṣṭvā sumanojño bhavati <span class="it">/</span> ebhis triṃśatā dharmaiḥ samanvāgataḥ upāsako yāvat kāyasya bhedān (<span class="bold">DhskD 19r7</span>) narakeṣūpapadyate /</p>
+         
+         
+         <p>catvāriṃśatā dharmais samanvāgata upāsakaḥ kāyasya bhedād yāvan narakeṣūpapadyate
+            <span class="it">/</span> ātmanā prāṇātipātiko bhavati <span class="it">/</span> parān api prāṇātipāte samādāpayati prāṇātipātikaṃ ca (<span class="bold">DhskD 19r8</span>) dṛṣṭvā sumanojño bhavati prāṇātipātasya ca varṇaṃ bhāṣate <span class="it">/</span> ātmanā adattā<span class="it">dā</span>yiko yāvan mithyādṛṣṭeś ca varṇaṃ bhāṣate <span class="it">/</span> ebhiś catvāriṃśatā dharmais samanvāgata upāsakaḥ kāyasya bhedād yāvan narakeṣūpapadyate
+            //</p>
+         
+         
+         <p>(<span class="bold">DhskD 19r9</span>) daśabhir dharmaiḥ samanvāgata upāsakaḥ kāyasya bhedāt sugatau svargaloke deveṣūpapadyate
+            <span class="it">/</span> ātmanā prāṇātipātāt prativirato bhavati <span class="it">/</span> ātmanā adattādā<span class="it">nāt</span> kāmamithyācārān mṛṣāvādāt paiśunyāt pāruṣyāt (<span class="bold">DhskD 19r10</span>) saṃbhinnapralāpād anabhidhyālur avyāpannacittaḥ samyagdṛṣṭiko bhavati <span class="it">/</span> ebhir daśabhir dharmaiḥ samanvāgata upāsakaḥ kāyasya bhedāt sugatau svargaloke de<span class="it">ve</span>ṣūpapadyate //</p>
+         
+         
+         <p>viṃśatyā dharmais samanvāgata upāsaka<span class="it">ḥ</span> (<span class="bold">DhskD 19v1</span>) kāyasya bhedād yāvad deveṣūpapadyate <span class="it">/</span> ātma<span class="it">nā prāṇāti</span>pātāt prativirato bhavati <span class="it">/</span> parān api prāṇātipātaviratau samādāpayati <span class="it">/</span> ātmanā adattādānād yāvat samyagdṛṣṭi<span class="it">ko</span> bhavati <span class="it">/</span> parān api samyagdṛṣṭau samādāpayati <span class="it">/</span> ebhir (<span class="bold">DhskD 19v2</span>) viṃśatyā dharmaiḥ samanvāgata upāsako yāvad deveṣūpapadyate //</p>
+         
+         
+         <p>triṃśatā dharmais samanvāgata upāsakaḥ kāyasya bhedād yāvad deveṣūpapadyate <span class="it">/</span> ātmanā prāṇātipāt<span class="it">āt pra</span>tivirato bhavati <span class="it">/</span> parān api prāṇātipātaviratau (<span class="bold">DhskD 19v3</span>) samādāpayati <span class="it">/</span> prāṇātipātavirataṃ ca dṛṣṭvā sumanojño bhavati <span class="it">/</span> ātmanā adattādānād yāvat samyagdṛṣṭikaṃ ca dṛṣṭvā sumanojño bhavaty <span class="it">/</span> ebhis triṃśatā dharmaiḥ samanvā<span class="it">gata</span> upāsakaḥ kāyasya bhedād yāvad deveṣūpapadyate //</p>
+         
+         
+         <p>(<span class="bold">DhskD 19v4</span>) catvāriṃśatā dharmais samanvāgata upāsakaḥ kāyasya bhedāt sugatau svargaloke deveṣūpapadyate
+            <span class="it">/</span> ātmanā prāṇātipātāt prativirato bhavati <span class="it">/</span> parān api prā<span class="it">ṇā</span>tipātaviratau samādāpayati <span class="it">/</span> prāṇātipātavirataṃ (<span class="bold">DhskD 19v5</span>) ca dṛṣṭvā sumanojño bhavati prāṇātipātavirateś ca varṇaṃ bhāṣate <span class="it">/</span> ātmanā adattādānāt kāmamithyācārān mṛṣāvādāt* paiśunyāt pāruṣyāt saṃbhinnapralāpāt
+            prativirato bhavaty <span class="it">/</span> anabhidhyālur avyāpannacittaḥ (<span class="bold">DhskD 19v6</span>) samyagdṛṣṭiko bhavati <span class="it">/</span> parān api samyagdṛṣṭau samādāpayati <span class="it">/</span> samyagdṛṣṭikaṃ ca dṛṣṭvā sumanojño bhavati samyagdṛṣṭeś ca varṇaṃ bhāṣate / ebhiś
+            catvāriṃśatā dharmaiḥ samanvāgata upāsakaḥ kāyasya (<span class="bold">DhskD 19v7</span>) bhedāt sugatau svargaloke deveṣūpapadyate /</p>
+         
+         
+         <p>17. (pañcopāsakasya śikṣāpadāni)</p>
+         
+         
+         <p>paṃcopāsakasya śikṣāpadāni <span class="it">/</span> yāvajjīvaṃ prāṇātipātād viratir upāsakasya śikṣāpadaṃ <span class="it">/</span> yāvajjīvam adattādānāt kāmamithyācārān mṛṣāvādāt (<span class="bold">DhskD 19v8</span>) surāmaireyamadyapramādasthānād vairamaṇir upāsakasya śikṣāpadaṃ // //</p>
+         
+         
+         <p>yāvajjīvaṃ prāṇātipātād viratir upāsakasya śikṣāpadam iti <span class="it">/</span> tatra kataraḥ prāṇātipātaḥ <span class="it">/</span> kataraḥ prāṇī <span class="it">/</span> katamā prāṇātipātād vairamaṇiḥ (<span class="bold">DhskD 19v9</span>) <span class="it">/</span> yad ucyate prāṇātipātād vairamaṇir upāsakasya śikṣāpadam ity āha /</p>
+         
+         
+         <p>evaṃ hy uktaṃ bhagavatā <span class="it">/</span>
+            prāṇātipātī khalv ihaiko bhavati raudro rudhirapāṇiḥ hataprahataniviṣṭaḥ alajjī adayāvān
+            sarvasatvaprāṇibhūteṣv (<span class="bold">DhskD 19v10</span>) antataḥ kuntapipīlakam api prāṇātipātād aprativirato bhavati <span class="it">/</span> ayam ucyate prāṇātipātikaḥ <span class="it">/
+               </span>
+            prāṇī katamaḥ <span class="it">/</span> yasmin prāṇini prāṇisaṃjñī jīve jīvasaṃjñī satve satvasaṃjñī poṣe poṣasaṃjñī (<span class="bold">DhskD 20r1</span>) pudgale pudgalasaṃjñī ayam ucyate prāṇī //</p>
+         
+         
+         <p>prāṇātipātaḥ katamaḥ <span class="it">/</span> āha <span class="it">/</span> yasmin prāṇini prāṇisaṃjñinaḥ satve satvasaṃjñinaḥ poṣe poṣasaṃjñinaḥ pudgale pudgalasaṃjñinaḥ
+            yat parākramam āgamya yat pāpacittam akuśalacittaṃ (<span class="bold">DhskD 20r2</span>) vadhakacittaṃ hananacittaṃ māraṇacittaṃ ca pratyupasthitaṃ bhavati <span class="it">/</span> tatra yat karmāgamya yat prayogam āgamya yām ūhām āgamya yad upakramam āgamya prāṇino
+            hanana<span class="it">ṃ</span> māraṇaṃ saṃcintya jīvitād vyaparopaṇam iti / (<span class="bold">DhskD 20r3</span>) yat tat karma yo 'sau prayogaḥ yā sā ūhā yad upakramaṃ yat tat prāṇino hananaṃ māraṇaṃ
+            saṃcintya jīvitād vyaparopaṇaṃ ayaṃ ucyate prāṇātipātaḥ //</p>
+         
+         
+         <p>prāṇātipātī khalv ihaiko bhavatīti ātmā prāṇātipātād (<span class="bold">DhskD 20r4</span>) anārato bhavatīty aprativiratas tatatrasthas tena samanvāgatas <span class="it">/</span> tenāha <span class="it">/</span> prāṇātipātī khalv ihaiko bhavati <span class="it">/</span></p>
+         
+         
+         <p>raudra iti <span class="it">/</span> raudratā katamā <span class="it">/</span> āha <span class="it">/</span> yat tad ācīrṇadaṇḍatācīrṇaśastratācīrṇapraharaṇatā iyam ucyate raudratā <span class="it">/</span> (<span class="bold">DhskD 20r5</span>) tenāha <span class="it">/</span> raudratā iti <span class="it">/</span></p>
+         
+         
+         <p>rudhirapāṇir iti rudhirapāṇaya ucyante aurabhrikāḥ kaukkuṭikasaukarikamātsikamṛgalubdhakāś
+            caurāḥ vadhyaghātakā goghātakā nāgamaṇḍalikāḥ śaśavāgurikā bandhanapālakāḥ (<span class="bold">DhskD 20r6</span>) sūcakāḥ kāraṇakārakā ima ucyante rudhirapāṇayaḥ <span class="it">/</span> kenaita ucyante rudhirapāṇayaḥ <span class="it">/</span> āha / kiṃ cāpi ye susnātā bhavanti suviliptāḥ kalpitakeśanakhāvadātavastraprāvṛtāḥ
+            (<span class="bold">DhskD 20r7</span>) āmuktamālyābharaṇā atha ca punas te rudhirapāṇaya evocyante / kiṃ kāraṇam <span class="it">/</span> āha <span class="it">/</span> yasmāt te anāratā aviratā aprativiratās tasya rudhirasyotthāpanāya jananāya saṃjananāya
+            samutpādāya (<span class="bold">DhskD 20r8</span>) prāviṣkaraṇāya <span class="it">/</span> tena kāraṇena rudhirapāṇaya ucyante //</p>
+         
+         
+         <p>hataprahataniviṣṭā iti syāt prāṇī prahato na hataḥ <span class="it">/</span> syād dhato na prahataḥ <span class="it">/</span> syād dhataś ca prahataś ca <span class="it">/</span> prahatas tāvan na hataḥ <span class="it">/</span> yathā tāvat prāṇī ākoṭito bhavati (<span class="bold">DhskD 20r9</span>) pāṇinā vā loṣṭena vā daṇḍena vā śastreṇa vā anyatamānyatamena vā vividhena praharaṇena
+            <span class="it">/</span> na tu sarveṇa sarvaṃ jīvitād vyaparopito bhavati <span class="it">/</span> evaṃ prāṇī hato bhavati na hataś ca <span class="it">/</span> yathā tāvat prāṇī (<span class="bold">DhskD 20r10</span>) ākoṭito bhavati pāṇinā vā loṣṭena vā daṇḍena vā śastreṇa vā anyatamānyatamena vā
+            vividhena praharaṇena sarveṇa vā sarvaṃ prāṇī jīvitād vyaparopito bhavati <span class="it">/</span> evaṃ hataś ca bhavati prahataś ca <span class="it">/</span> (<span class="bold">DhskD 20v1</span>) api hataprahataniviṣṭaś ca bhavati sanniviṣṭaś cāniviṣṭaś ca <span class="it">/</span> tenāha <span class="it">/</span> hataprahataniviṣṭa iti //</p>
+         
+         
+         <p>alajjī adayāvān sarvasatvaprāṇibhūteṣv iti <span class="it">/</span> tatra katame prāṇāḥ <span class="it">/</span> katame bhūtāḥ <span class="it">/</span> yad ucyate alajjī adayāvān sarvasatvaprāṇibhūteṣv (<span class="bold">DhskD 20v2</span>) ity <span class="it">/</span> āha <span class="it">/</span> pṛthagjanāḥ prāṇāḥ bhagavataḥ śrāvakā bhūtāḥ <span class="it">/</span> api khalu ye satvāḥ sarāgāḥ sadveṣā<span class="it">ḥ</span> samohā ima ucyante bhūtāḥ <span class="it">/</span> api khalu ye satvā vigatarāgā vigatadveṣā viga<span class="it">ta</span>mohā ima ucyante bhūtāḥ <span class="it">/</span> api khalu ye satvāḥ (<span class="bold">DhskD 20v3</span>) satṛṣṇā sopādānā ima ucyante prāṇāḥ <span class="it">/</span> ye satvā nistṛṣṇā nirupādānā ima ucyante bhūtāḥ <span class="it">/</span> api khalu ye satvā āniruddhā<span class="it">ḥ</span> prativiruddhā ima ucyante prāṇāḥ <span class="it">/</span> ye satvā anāniruddhāḥ aprativiruddhā ima ucyante bhūtā <span class="it">/</span> api khalu (<span class="bold">DhskD 20v4</span>) ye satvā aviduṣo 'vidyāgatā ima ucyante prāṇāḥ <span class="it">/</span> ye satvā viduṣo vidyāgatā ima ucyante bhūtāḥ <span class="it">/</span> api khalu ye satvāḥ kāmebhyo 'vītarāgāḥ ima ucyante prāṇāḥ <span class="it">/</span> ye satvāḥ kāmebhyo vītarāgā ima ucyante bhūtāḥ <span class="it">/</span> (<span class="bold">DhskD 20v5</span>) api khalu ye satvāḥ kāmebhyo vītarāgā na tu bhagavataḥ śrāvakā ima ucyante prāṇāḥ
+            <span class="it">/</span> ye satvā kāmebhyo vītarāgās te bhagavataḥ śrāvakā ima ucyante bhūtāḥ <span class="it">/</span> asmiṃs tv arthe pṛthagjanāḥ prāṇāḥ bhagavataḥ (<span class="bold">DhskD 20v6</span>) śrāvakā bhūtāḥ <span class="it">/</span> kiṃ kāraṇaṃ bhavanam ucyate nirvāṇaṃ <span class="it">/</span> tat taiḥ prāptaṃ pratilabdham adhigataṃ spṛṣṭaṃ sākṣātkṛtaṃ <span class="it">/</span> yathā cāha <span class="it">/</span></p>
+         
+         
+         <p>samantānusārī lokaṃ diśaḥ sarvam īritaḥ <span class="it">/</span>
+            icched bhavanam ātmānaṃ nādhigacched aniśritaṃ (<span class="bold">DhskD 20v7</span>) //</p>
+         
+         
+         <p>tad asminn arthe pṛthagjanāḥ prāṇāḥ bhagavataḥ śrāvakā bhūtāḥ tad eṣāṃ prāṇabhūtānām
+            adayāya pratipanno bhavaty ananudayāyā nānukaṃpāya //</p>
+         
+         
+         <p>śokāṣṭahārakāḥ kuntā ucyante (<span class="bold">DhskD 20v8</span>) pipīlakāḥ <span class="it">/</span> pipīlakā eva <span class="it">/</span> asmāt prāṇātipātād upāsakaḥ pratisaṃkhyāyārato bhavaty upadrutarataḥ prativirataḥ
+            saṃvṛtaś ca <span class="it">/</span> yatra yā akriyā akaraṇam anabhidhyācāro 'nadhyāpattir anadhyāpadanaṃ (<span class="bold">DhskD 20v9</span>) velā setuḥ vairamaṇī sthitir anatikramo 'vyatikramo 'vyatikramaṇatā <span class="it">/</span> tenāha <span class="it">/</span> yāvajjīvaṃ prāṇātipātād vairamaṇīr upāsakasya śikṣāpadam iti // * //</p>
+         
+         
+         <p>yāvajjīvam adattādānād vairamaṇīr upāsakasya (<span class="bold">DhskD 20v10</span>) śikṣāpadam iti <span class="it">/</span> adattādānaṃ katamat <span class="it">/</span></p>
+         
+         
+         <p>evaṃ hy uktaṃ bhagavatā <span class="it">/</span></p>
+         
+         
+         <p>adattādāyī khalv ihaiko bhavati <span class="it">/</span> sa grāmagatam araṇyagataṃ vā pareṣām adattaṃ steyasaṃkhyātam ādatte <span class="it">/</span> idam ucyate <span class="it">adattādānaṃ</span> <span class="it">/</span></p>
+         
+         
+         <p>DhskM 21r1. adattādānaṃ <span class="it">/</span> yāvajjīvam adattādānād vairamaṇir upāsakasya śikṣāpadam iti tatra katarad adattaṃ
+            katarad adattādānaṃ katamā adattādānād vairamaṇiḥ yā ucyate yāvajjīvam adattā<span class="it">dā</span>nād vairamaṇir upāsakasya śikṣāpadam iti adattaṃ .. ///</p>
+         
+         
+         <p>DhskM 21r2. -te adattaṃ <span class="it">/</span> adattādānaṃ katamat* āha paraparigṛhīte pariṣkāre paraparigṛhītasaṃjñino yat pāpacittaṃ
+            cākuśalacittaṃ ca haraṇacittaṃ cāpaharaṇacittaṃ codgrahaṇacittaṃ ca grahaṇacittaṃ
+            cādānacittam āsādīyanacittaṃ ca pratyupasthitaṃ bhavati tatra yat. ///</p>
+         
+         
+         <p>DhskM 21r3. -pahāram āgamya paraparigṛhīte pariṣkāre paraparigṛhītasaṃjñinaḥ yad grahaṇam
+            udgrahaṇam ādīyanāsādīyanā haraṇāpaharaṇā saṃcintya sthānāt sthānasaṃkrāmaṇam iti
+            yat tat karma yat prayogaṃ yā sā ūhā yad upakramaṃ yat parākramaṃ yat tad vā .. ///</p>
+         
+         
+         <p>DhskM 21r4. yat tat paraparigṛhīte pariṣkāre paraparigṛhītasaṃjñino grahaṇam udgrahaṇam
+            ādīyanāsādīyanā saṃcintya sthānāt sthānasaṃkramaṇam idam ucyate adattādānaṃ <span class="it">/</span> adattādāyī bhavatīty asmād adattādānād anārato bhavaty avirato 'prativirataḥ tatrastha-
+            ///</p>
+         
+         
+         <p>DhskM 21r5. -taṃ vety antaragataḥ prākārasya <span class="it">/</span> araṇyagataṃ veti bahiḥ prakārasya <span class="it">/</span> a<span class="it">da</span>ttam iti paraparigṛ<span class="it">hī</span>taṃ stenam ādatte ti paraparigṛhītam adattam ādatte atyantam amuktam aniḥsṛṣṭam apratiniḥsṛṣṭam
+            api khalu steyam ucyate paracitto 'pahārakaḥ tena .. ///</p>
+         
+         
+         <p>DhskM 21r6. -sṛṣṭam apratiniḥsṛṣṭam api khalu yat paraparigṛhītaṃ pariṣkāram adattam
+            api tat* stainyam api tat* saṃkhyātam api tat* tad ucyate adattastainyaṃ saṃkhyātam
+            ādatte // adattādānāt prativirato bhavatīty asmād adattādānād upāsakas<span class="it">ya</span> + + + y. ///</p>
+         
+         
+         <p>DhskM 21r7. -saṃkhyātaḥ saṃvṛtaḥ tatra yā akriyā akaraṇam anadhyācāro 'nadhyāpattir
+            anadhyāpadanam* velā setur vairamaṇī sthitir anatikramo 'vyatikramo 'vyatikramaṇatā
+            tad ucyate yāvajjīvam adattādānād vairamaṇir upāsakasya ///</p>
+         
+         
+         <p>DhskM 21r8. -mithyācārād vairamaṇir upāsakasya śikṣāpadam iti kāmamithyācāraḥ katamaḥ
+            <span class="it">/</span> evaṃ hy uktaṃ bhagavatā kāmamithyācārī khalv ihaiko bhavati sa yās tā bhavanti parastriyaḥ
+            parabhāryās tadyathā mātṛrakṣitā vā pitṛ<span class="it">rākṣitā vā</span> ///</p>
+         
+         
+         <p>DhskM 21r9. śvaśrūrakṣitā vā ś<span class="it">v</span>aśurarakṣitā vā jñātirakṣitā vā jātirakṣitā vā gotrarakṣitā vā sadaṇḍāḥ / sāvaraṇāḥ
+            <span class="it">sadaṇḍāvaraṇā</span> antato mālāguṇaparikṣiptā / api tadrūpāsu sahasā balenānupraskandya kāmeṣu cāritram
+            āpadyaty ayam ucya<span class="it">te</span> ///</p>
+         
+         
+         <p>DhskM 21r10. khalv ihaiko bhavatīty asmāt kāmamithyācārād anārato bhavaty anuparato
+            'virato 'prativirataḥ tad ucyate kāmamithyā<span class="it">cā</span>rī khalu bhavatīti // yās tā bhavanti parastriyo parabhāryā iti sapta puruṣasya bhāryāḥ
+            <span class="it">/</span> katamā sapta tadyathā ///</p>
+         
+         
+         <p>DhskM 21r11. paṭavāsinī samajīvikā tatkṣaṇikā ca <span class="it">/</span> udakadattā katamā yā strī kumārikā vā puruṣasya mātāpitṛbhyām udakenānupradattā bhavati
+            iyaṃ te bhāryā bhaviṣyati prajāpatī iyam ucyate udakadattā // dhanakrītā ka<span class="it">tamā</span> ///</p>
+         
+         
+         <p>DhskM 21r12. -nakrītā bhavati iyaṃ me bhāryā bhaviṣyati prajāpatī sā tasya bhāryā
+            bhavati prajāpatī iyam ucyate dhanakrītā / dhvajāhṛtā yathā tāvac caurāḥ pararāṣṭraṃ
+            paraviṣayaṃ gatvā svaṃ śirodhvajaṃ kṛtvā striyaṃ kumārikāṃ vāharanti ///</p>
+         
+         
+         <p>DhskM 21r13. -mi dhvajāhṛtā yathā tāvad rājā ajitaṃ jayaṃ jitam adhyāvasan yathā gṛhītikām
+            utsṛjati / tatra puruṣo rājñaḥ śirodhvajaṃ kṛtvā striyaṃ kumārikāṃ vāharati iyaṃ me
+            bhāryā bhaviṣyati prajāpatī sa tasya bhā<span class="it">ryā</span> ///</p>
+         
+         
+         <p>DhskM 21v1. <span class="it">ccha</span>ndavāsinī katamā yā strī svayā śraddhayā svena premṇā svena prasādena puruṣam upasaṃkramyaivam
+            āha / āryaputro me svāmī bhavaty aham āryaputrasya bhāryā bhaviṣyāmi / prajāpatī iyam
+            ucyate cchandavāsinī <span class="it">/</span> pa<span class="it">ṭavāsinī</span> ///</p>
+         
+         
+         <p>DhskM 21v2. -pasaṃkramyaivam āha āryaputro me bhaktācchādanam anuprayacchatv ahaṃ
+            āryaputrasya bhāryā bhaviṣyāmi prajāpatī iyam ucyate paṭavāsinī <span class="it">/</span> samajīvikā katamā / yā strī puruṣam upasaṃkramyaiva<span class="it">m āha</span> ///</p>
+         
+         
+         <p>DhskM 21v3. dhanaṃ tad ekadhye sannicayaṃ gacchatu ye cāsmākaṃ krīḍatāṃ ramatā<span class="it">ṃ</span> paricārayatāṃ putrā bhaviṣyanti pautrā vā te 'smākaṃ mṛtānāṃ kālagatānāṃ śrāddham
+            anupradāsyanti sā tasya bhāryā bhavati prajāpatī ///</p>
+         
+         
+         <p>DhskM 21v4. .. .. .ikī // mātṛrakṣiteti yasyā striyāḥ kumārikāyā vā pitā svāmī vā
+            unmatto bhavati kṣiptacittaḥ pararāṣṭraṃ paraviṣayaṃ vā niṣpalāno bhavati sā mātur
+            antike prativasati sa mā<span class="it">tṛ</span> ///</p>
+         
+         
+         <p>DhskM 21v5. <span class="it">go</span>pitā sugopitā mātrapare apratisaṃviditaṃ kāmeṣu cāritram āpatsya<span class="it">n</span>ta iti iyam ucyate mātṛrakṣitā <span class="it">/</span> yathā mātṛrakṣitā evaṃ pitṛrakṣitā // bhrātṛrakṣitā katamā / yasya stri<span class="it">yāḥ</span> ///</p>
+         
+         
+         <p>DhskM 21v6. <span class="it">mātā</span>pitarau svāmī vā mṛto bhavati kālagataḥ unmatto vā bhavati kṣiptacittaḥ pararāṣṭraṃ
+            paraviṣayaṃ niṣpalāno bhavati sā bhrātur antike prativasati sā bhrātrā rakṣitā ///</p>
+         
+         
+         <p>DhskM 21v7. <span class="it">sugo</span>pitā mātrapare apratisaṃviditaṃ kāmeṣu cāritram āpatsyanta iti iyam ucyate bhrātṛrakṣitā
+            <span class="it">/</span> yathā bhrātṛrakṣitā evaṃ bhaginīrakṣitā // śvaśrūrakṣitā katamā + + ///</p>
+         
+         
+         <p>DhskM 21v8. p.ā mātāpitarau svāmī vā mṛto bhavati kālagata unmatto vā bhavati kṣiptacittaḥ
+            pararāṣṭraṃ paraviṣayaṃ vā niṣpalāno bhavati sā śvaśrvā antike prativasati vasava-
+            ///</p>
+         
+         
+         <p>DhskM 21v9. trasya sā śvaśrvā rakṣitā bhavati surakṣitā gopitā sugopitā mātrapare
+            apratisaṃviditaṃ kāmeṣu cāritram āpatsyanta iti iyam ucyate śvaśrūrakṣitā // yathā
+            ś<span class="it">vaśrūrakṣitā</span> ///</p>
+         
+         
+         <p>DhskM 21v10. <span class="it">jñātira</span>kṣitā katamā / jñātaya ucyante yāvad ā saptamaṃ mātāmahaṃ pitāmahaṃ yugam upādāya
+            yasyā striyaḥ kumārikāyā vā pūrva<span class="it">va</span>t* // jātirakṣitā katamā / jāta<span class="it">ya ucyante</span> ///</p>
+         
+         
+         <p>DhskM 22r1. <span class="it">vai</span>śyāḥ śūdrāḥ yasyā striyāḥ kumārikāyā vā pūrvavat* // gotrarakṣitā katamā / gotrā ucyante
+            kautsā vātsāś śāṇḍilyā bhāradvājā upapaṃcakāḥ yasyā striyāḥ kumārikāyā vā mā<span class="it">tā</span> ///</p>
+         
+         
+         <p>DhskM 22r2. <span class="it">kā</span>lagataḥ unmattaḥ kṣiptacittaḥ vedanābhitunno vā pararāṣṭraṃ paraviṣayaṃ vā niṣpalāno
+            bhavati sā gotrāṇām antike prativasati gotrai rakṣitā bhavati surakṣitā gopitā ///</p>
+         
+         
+         <p>DhskM 22r3. <span class="it">apratisaṃvidi</span>taṃ kāme<span class="it">ṣu</span> cāritram āpatsyanta iti iyam ucyate gotrarakṣitā // sadaṇḍā iti yā sā bhavati gūḍhikā
+            na evaṃ yathā veśī nāpy evaṃ yathā kulastrī saced enaṃ rājā jānīyāt tāṃ + ///</p>
+         
+         
+         <p>DhskM 22r4. -dhnīyād vā pravāsayed vā hiraṇyadaṇḍaṃ vānupradāpayed iyaṃ ucyate sadaṇḍāḥ
+            <span class="it">/</span> sāvaraṇā iti yathā tāvad āryeṇa vā āryaputreṇa vā āvṛtā bhavaty api khalu yā etāḥ
+            pa + + ///</p>
+         
+         
+         <p>DhskM 22r5. -varaṇāḥ sadaṇḍāvaraṇāḥ kiṃ kāraṇam atonidānaṃ hi puruṣo 'dhigacchati
+            vadhaṃ vā bandhanaṃ vā jyāniṃ vā grahaṇaṃ vā // antato mālāguṇaparikṣiptā apīti yathā
+            tāva- ///</p>
+         
+         
+         <p>DhskM 22r6. <span class="it">ka</span>ṇṭheguṇena vā candanacūrṇena vā vilepanapuṭena vā anyatamānyatamena vā kenacit pratigṛhītā
+            bhavati iyam ucyate mālāguṇaparikṣiptā // api khalu sarv. + ///</p>
+         
+         
+         <p>DhskM 22r7. -riṇī bhikṣuṇikā carikā parivrājikā vratapadadharmajīvinī yathā tāvat
+            puruṣaḥ svāṃ prajāpatīm anujānīte gaccha bhadre cara brahmacaraṃs (sic) tasyā tena
+            vratasamādā .. ///</p>
+         
+         
+         <p>DhskM 22r8. -ya saṃsparśaṃ samāpadyate dvayadvayasamāpattiṃ vāpadyate kāmamithyācārāṃ
+            svaṃ vā punar pāram anaṅge vijñapayann āpadyate kāmamithyācāraṃ <span class="it">/</span> asmāt kāmamithyācārā ///</p>
+         
+         
+         <p>DhskM 22r9. bhavaty uparato virataḥ saṃvṛtaḥ tatra yā akriyā akaraṇam anācāro 'nadhyāpattir
+            anadhyāpadanaṃ velā setur vairamaṇī sthitir anatikramo 'vyatikramaṇatā tad ya ///</p>
+         
+         
+         <p>DhskM 22r10. -mithyācārād vairamaṇiḥ śikṣāpadam iti // ṛ // yāvajjīvaṃ mṛṣāvādād vairamaṇir
+            upāsakasya śikṣāpadam iti mṛṣāvādaḥ katamaḥ evaṃ hy uktaṃ bhagavatā ///</p>
+         
+         
+         <p>DhskM 22v1. sa sabhāgato vā parṣanmadhyagato vā rājakulamadhyagato vā yuktakulamadhyagato
+            vā jñātikulamadhyagato vā sākṣīpṛṣṭaḥ san haṃ bhoḥ puruṣa yaj jānīṣe tad vada yan
+            na jānīṣe tan mā vo<span class="it">caḥ</span> ///</p>
+         
+         
+         <p>DhskM 22v2. tan mā vocaḥ so 'jānaka eva saṃjānāmīty āha / apaśyaka eva saṃpaśyāmīty
+            āha / jānann ena san na jānāmīty āha paśyann eva san* na paśyāmīty āha ity ātmaheto
+            paraheto āmiṣakiṃci<span class="it">tka</span> ///</p>
+         
+         
+         <p>DhskM 22v3. <span class="it">mṛṣāvā</span>dād aprativirato bhavatīty asmān mṛṣāvādād anārato bhavaty anuparataḥ avirato 'prativirataḥ
+            tatrasthas tena samanvāgataḥ tenāha mṛṣāvādī khalu bhavatīti <span class="it">/</span> sabhāgato veti ///</p>
+         
+         
+         <p>DhskM 22v4. -bhā rāṣṭrasabhā ca / tatrāsau gataś ca bhavati samāgataś ca / samavahitaḥ
+            saṃmukhībhūtaḥ tenāha sabhāgata iti // parṣadgato veti catasraḥ parṣadaḥ tadyathā
+            kṣatriyaparṣad brāhmaṇa ///</p>
+         
+         
+         <p>DhskM 22v5. -rṣat tatrāsau gataś ca bhavati samāgataś ca samavahitaḥ saṃmukhībhūtaḥ
+            tenāha parṣadgata iti // rājakulamadhyagato veti āha rājāmātyapariṣat sanniṣaṇṇā bhavati
+            ///</p>
+         
+         
+         <p>DhskM 22v6. -ti samāgataś ca samavahitaḥ saṃmukhībhūtaḥ tenāha rājakulamadhyagata
+            iti // yuktakulamadhyagato veti yuktaparṣat sanniṣaṇṇā bhavati sannipatitā tatrāsau
+            ///</p>
+         
+         
+         <p>DhskM 22v7. -hitaḥ saṃmukhībhūtaḥ tenāha yuktakulamadhyagata iti // jñātikulamadhyagato
+            veti āha jñātayaḥ sanniṣaṇṇā bhavanti sannipatitā tatrāsau gataś ca bha<span class="it">vati</span> ///</p>
+         
+         
+         <p>DhskM 22v8. saṃmukhībhūtaḥ tenāha jñātikulamadhyagata iti // sākṣīpṛṣṭaḥ sann iti
+            sākṣī adhīṣṭaḥ sann āsādito vā nipātitaḥ <span class="it">/</span> haṃ bho puruṣa iti upaihi upagaccha yatne .. ///</p>
+         
+         
+         <p>DhskM 22v9. -ya prajñapaya prasthāpaya prakāśaya yatne na dṛṣṭaṃ na śrutaṃ na mataṃ
+            na vijñātaṃ taṃ mā vakṣva mā deśaya mā prajñapaya mā prasthāpaya mā prakāśaya <span class="it">/</span> so 'jānann eva saṃjā + ///</p>
+         
+         
+         <p>DhskM 22v10. -mīty āha / śrotravijñānānubhūtaṃ śrotravijñānaprativijñaptaṃ sa vinidhāya
+            saṃjñāṃ vinidhāya kṣāntiṃ ruciṃ matiṃ prekṣāṃ dṛṣṭiṃ na me śrutam ity āha / evam ajānann
+            eva sañjānāmīty ā<span class="it">ha</span> ///</p>
+         
+         
+         <p>18. (maitrī cetaḥsamadhiḥ)
+            (<span class="bold">DhskD 26r1</span>) + + + + + + payikaṃ pratirūpaṃ pradakṣiṇam ni + + + ṃga saṃbhāraṃ <span class="it">/</span> etac cittam eṣā tāvan maitrī cetaḥsamādhir iti vaktavyā <span class="it">/</span> tathā samāpannasya yac cittaṃ manovijñānam idam ucyate maitrīsahagata<span class="it">m cittaṃ / yā cetanā saṃceta</span>nā (<span class="bold">DhskD 26r2</span>) abhisaṃcetanā cetitaṃ cetanāgataṃ cittābhisaṃskārā manaskarma idam ucyate maitrīsahabhuvaṃ
+            karma <span class="it">/</span> yaś cetaso 'dhimokṣo 'dhimuktir adhimucyanatāyam ucyate maitrīsahabhuvo 'dhimokṣaḥ
+            <span class="it">/</span> yad a<span class="it">pi tathā samāpannasya</span> (<span class="bold">DhskD 26r3</span>) vedanā vā saṃjñā vā cchando vā sneho vā manasikāro vā smṛtir vā samādhir vā prajñā
+            vā itīme 'pi dharmā maitrīsahabhuvaḥ <span class="it">/</span> tat sarva ime dharmā maitrī cetaḥsamādhir iti vaktavyāḥ <span class="it">/</span></p>
+         
+         
+         <p>maitrī khalu bhave<span class="it">c cetaḥsamādhir dvividhaḥ</span> (<span class="bold">DhskD 26r4</span>) parīttaś cāpramāṇaś ca /</p>
+         
+         
+         <p>kataraḥ prayogaḥ parīttasya maitrasya cetaḥsamādheḥ <span class="it">/</span> kathaṃ prayuktaś ca punaḥ parīttaṃ maitraṃ cetaḥsamādhiṃ saṃāpadyate / āha /</p>
+         
+         
+         <p>yathā khalv ihaikatyasya ye satvā bhavantīṣṭā<span class="it">ḥ kāntā</span> + + + + <span class="it">ma</span>naāpās (<span class="bold">DhskD 26r5</span>) tadyathā mātā vā pitā vā bhrātā vā bhaginī vā anyatamānyatamo vā mitrajñātisālohito
+            vā <span class="it">/</span> ebhiḥ parīttaiḥ satvaiḥ parīttaṃ maitrīsahabhuvaṃ cittam āsthāpayaty upa<span class="it">sthāpayati damayati</span> (<span class="bold">DhskD 26r6</span>) śamayatu vyupaśamayati ekotīkurute samādadhāti <span class="it">/</span> tasyaibhiḥ parīttaiḥ satvaiḥ parīttaṃ maitrīsahabhuvaṃ cittaṃ āsthāpayataḥ saṃsthāpayata
+            upasthāpayato damayataḥ <span class="it">śamayato vyupaśama</span>yataḥ (<span class="bold">DhskD 26r7</span>) ekotīkurvataḥ samādadhataḥ tac cittaṃ vikṣipyati visarati vidhāvati naikotībhavati
+            na ekāgrā smṛtiḥ saṃtiṣṭhate <span class="it">/</span> parīttaṃ sukhit<span class="it">ā</span> bata satvā iti yad asya tac cittaṃ vikṣipyati <span class="it">visarati vidhāvati</span> (<span class="bold">DhskD 26r8</span>) na ekotībhavati na ekāgrā smṛtiḥ saṃtiṣṭhate <span class="it">/</span> parīttaṃ sukhit<span class="it">ā</span> bata satvā iti na ekāgratā parīttaṃ maitraṃ cetaḥsamādhiḥ samāpanna <span class="it">/</span> iti vaktavyaṃ <span class="it">/</span></p>
+         
+         
+         <p>sa tac cittaṃ vikṣipyantaṃ visarantaṃ <span class="it">vidhāvantaṃ tasminn evopa</span>saṃharati (<span class="bold">DhskD 26r9</span>) <span class="it">/</span> tad eva nimittaṃ manasikurute <span class="it">/</span> parīttaṃ sukhitā bata satvā iti evaṃ manasikurvato yad vīryaṃ yo vyāyāmo niṣkramaḥ
+            parākramaḥ sthāma āraṃbha utsāha utsūdhir apratiśrabdhi + + + + + + + + + (<span class="bold">DhskD 26r10</span>) tad yaḥ ayaṃ prayogaḥ parīttasya maitrasya cetaḥsamādheḥ evaṃ prayuktaś ca punaḥ
+            parīttaṃ maitraṃ cetaḥsamādhiṃ samāpadyate <span class="it">/</span></p>
+         
+         
+         <p>sa tam utpannaṃ mārgam āsevayati bhāvaya<span class="it">ti bahulīkurute tasya imaṃ mārga</span>m (<span class="bold">DhskD 26v1</span>) āsevayato bhāvayato bahulīkurvataḥ tac cittam āsthihati saṃsthihati upasthihati
+            ekotībhavati samāvarte <span class="it">/</span> yataś ca tac cittaṃ sthitaṃ ca bhavati saṃsthitaṃ copasthitam cādvayaṃ cā<span class="it">parihīṇaṃ ca parīttaṃ sukhitā bata satvā iti</span> (<span class="bold">DhskD 26v2</span>) etāvat parīttaṃ maitraṃ cetaḥsamādhiṃ samāpanna <span class="it">/</span> iti vaktavyaṃ <span class="it">/</span> tathā samāpannasya yac cittaṃ manovijñānam idam ucyate parīttaṃ maitrīsahabhuvaṃ
+            <span class="it">/</span> citte yā cetanā vistareṇa yāvad <span class="it">/</span></p>
+         
+         
+         <p>ime 'pi dharmā <span class="it">parīttamaitrīsahabhuvaḥ</span> (<span class="bold">DhskD 26v3</span>) te sarva ime dharmāḥ parīttaṃ maitraṃ cetaḥsamādhir iti vaktavyāḥ <span class="it">/</span></p>
+         
+         
+         <p>kataraḥ prayogo 'pramāṇasya maitrasya cetaḥsamādheḥ <span class="it">/</span> kathaṃ prayuktaś ca punar apramāṇaṃ maitraṃ cetaḥsamādhiṃ samāpadyate <span class="it">/ yad evābhyaste parītte</span> (<span class="bold">DhskD 26v4</span>) maitre cetaḥsamādhau taṃ cittaṃ damayitvā kārayitvāsvedayitvā parisvedayitvā ṛjukṛtvā
+            mṛdu karmaṇīyaṃ ārjjavam āśravaṃ vidheyaṃ <span class="it">/</span></p>
+         
+         
+         <p>tataḥ paścād apramāṇaṃ sukhit<span class="it">ā</span> bata satvā iti <span class="it">śanaiḥ spharati pūrvāṃ da</span>kṣiṇāṃ (<span class="bold">DhskD 26v5</span>) paścimām uttarāṃ diśaṃ tasyāpramāṇaṃ sukhitā bata satvā <span class="it">/</span> iti spharataḥ pūrvāṃ diśaṃ dakṣiṇāṃ paścimām uttarāṃ diśaṃ tac cittaṃ vikṣipyati
+            visarati vidhāvati na eko<span class="it">tībhhavati na ekāgrā</span> (<span class="bold">DhskD 26v6</span>) smṛtiḥ saṃtiṣṭhate <span class="it">/</span> apramāṇaṃ sukhitā bata satvā iti yato 'sya tac cittaṃ vikṣipyati vistareṇa yāvat*
+            <span class="it">/</span> tāvatāpramāṇaṃ maitrī cetaḥsamādhiḥ samāpanna iti vakta<span class="it">vyaṃ / sa tac cittaṃ vikṣipya</span>ntaṃ (<span class="bold">DhskD 26v7</span>) visarantaṃ vidhāvantaṃ tasminn evopasaṃharati <span class="it">/</span> tad eva manasikurute <span class="it">/</span> apramāṇaṃ sukhitā bata satvā iti evaṃ manasikurvato yad vīryaṃ vistareṇa yāvad <span class="it">/</span> ayaṃ prayo<span class="it">go 'pramāṇe maitre cetaḥ</span>samādhau (<span class="bold">DhskD 26v8</span>) <span class="it">/</span> evaṃ prayuktaś ca punar apramāṇaṃ maitraṃ cetaḥsamādhiḥ samāpanna <span class="it">/</span> iti vaktavyaṃ <span class="it">/</span> tathā samāpannasya yac cittaṃ manovijñānam idam ucyate apramāṇaṃ maitrīsahabhuvaṃ
+            ci<span class="it">ttaṃ / yā cetanā vista</span>reṇa (<span class="bold">DhskD 26v9</span>) yāvad <span class="it">/</span></p>
+         
+         
+         <p>ime 'pi dharmā apramāṇamaitrīsahabhuvaḥ <span class="it">/</span> tat sarva ime dharmāḥ apramāṇaṃ maitrī cetaḥsamādhir iti vaktavyā //</p>
+         
+         
+         <p>19. (karuṇā cetaḥsamādhiḥ)</p>
+         
+         
+         <p>karuṇā katamā <span class="it">/</span> āha / duḥkhitā bata satvā iti + + + + + + + + (<span class="bold">DhskD 26v10</span>) yac caiveme pravivekajā adhyātmasamutthitāḥi pratisaṃkhyāya samutpannāḥ kuśalā rūpapratisaṃyuktā
+            arttiarttīyanā duḥkhaduḥkhāyanā karuṇākaruṇāyanā + + + + + + + +</p>
+         
+         
+         <p>DhskM 27r1. -ṇāsaṃprayuktā ca yā vedanā saṃjñā saṃskārā vijñānaṃ tataḥ samutthitaṃ
+            kāyakarma vākkarma tatsamutthitāś cittaviprayuktāḥ saṃskārā iyam ucyate karuṇā ///</p>
+         
+         
+         <p>DhskM 27r2. -ś cāpramāṇaś ca <span class="it">/</span> katamaḥ prayogaḥ parīttasya karuṇācetaḥsamādheḥ kathaṃ prayuktaś ca punaḥ parīttaṃ
+            karuṇaṃ cetaḥsamādhiṃ samāpadyate āha yathā khalv ihaikaty. ///</p>
+         
+         
+         <p>DhskM 27r3. tadyathā mātā vā pitā vā bhrātā vā bhaginī vā anyatamānyatamo mitrajñātisālohito
+            vā sa ebhiḥ parīttaiḥ parīttaṃ karuṇāsahagataṃ cittam āsthāpayati saṃsthāpaya<span class="it">ti</span> ///</p>
+         
+         
+         <p>DhskM 27r4. -ti vyupaśamayati ekotīkurute samādhatte parīttaṃ duḥkhitā bata satvā
+            iti tasyaibhiḥ parīttaiḥ parīttaṃ karuṇāsahagataṃ cittam upasthāpayataḥ damayataḥ
+            śamayato ///</p>
+         
+         
+         <p>DhskM 27r5. -taḥ tac cittaṃ vikṣipyate vistareṇa yathā maitrāyām uktaṃ // muditā katamā
+            / āha modantāṃ bata satvā iti evaṃ manasikurvataḥ yān naiṣkramyapraviveka .. ///</p>
+         
+         
+         <p>DhskM 27r6. kuśalā rūpapratisaṃyuktāḥ cetasa āmodanā pramodanābhipramodanā / muditā
+            modanā āttamanaskatā sumanaskatā saumanasyaṃ ārabdhi .. ///</p>
+         
+         
+         <p>DhskM 27r7. -m audbilyāyitatvaṃ prītiḥ prītyāyitatvaṃ ucyate muditā <span class="it">/</span> api khalu muditā muditāsaṃprayuktā ca yā vedanā saṃjñā saṃskārā vijñānaṃ tataḥ sa<span class="it">mutthitaṃ</span> ///</p>
+         
+         
+         <p>DhskM 27r8. -ttaviprayuktāḥ saṃskārā iyam ucyate muditā <span class="it">/</span> muditā khalu cetaḥsamādhiḥ dvividhaḥ parīttaś cāpramāṇaś ca <span class="it">/</span> kataraḥ prayogaḥ parīttasya muditasya cetaḥsa<span class="it">mādheḥ</span> ///</p>
+         
+         
+         <p>DhskM 27r9. -samādhiṃ samāpadyate āha yathā khalv ihaikatyasya ye satvā bhavanti iṣṭāḥ
+            kāntāḥ priyā manaāpās tadyathā mātā vā pitā vā bhrātā vā bhaginī vā anyata<span class="it">mānyatamo</span> ///</p>
+         
+         
+         <p>DhskM 27r10. ebhiḥ parīttaiḥ satvaiḥ parīttaṃ muditāsahabhuvaṃ cittam āsthāpayati
+            saṃsthāpayaty upasthāpayati damayati śamayati vyupaśamayati ekotīkaroti samā ///</p>
+         
+         
+         <p>DhskM 27v1. tasyaibhiḥ parīttaiḥ satvaiḥ parīttaṃ muditāsahagataṃ cittam āsthāpayataḥ
+            saṃsthāpayataḥ <span class="it">upasthāpayataḥ</span> damayataḥ śamayato vyupaśamayataḥ ekotīkurvataḥ samādadhataḥ tac cittaṃ vikṣipya<span class="it">ti</span> ///</p>
+         
+         
+         <p>DhskM 27v2. -tamā āha satvā ity evaṃ manasikurvataḥ yan naiṣkramyapravivekadhyānasamutthitā
+            pratisaṃkhyāya samutpannā kuśalā rūpapratisaṃyuktā cittasamatā cittaprasannatā cetaso
+            'nābho ///</p>
+         
+         
+         <p>DhskM 27v3. -lūpekṣāsaṃprayuktā ca yā vedanā saṃjñā saṃskārā vijñānaṃ tataḥ samutthitaṃ
+            kāyakarma vākkarma tataḥ samutthitāś cittaviprayuktāḥ saṃskārā iyam ucyate upekṣā
+            <span class="it">/</span> kataraḥ prayo<span class="it">gaḥ</span> ///</p>
+         
+         
+         <p>DhskM 27v4. -ś ca punar upekṣāṃ samādhiṃ samāpadyate āha / yathā khalv ihaikatyasya
+            satvā bhavantīṣṭāḥ kāntāḥ priyā manaāpās tadyathā mātā vā pitā vā bhrātā vā bhaginī
+            vā anyatamānyata<span class="it">mo</span> ///</p>
+         
+         
+         <p>DhskM 27v5. -syaivaṃ bhavati iyaṃ mātā vā pitā vā bhrātā vā bhaginī vā anyatamānyatamo
+            vā mitrajñātisālohito vā kāmam anyatra satvaḥ satva ity adhimukto bhavati tadyathā
+            ///</p>
+         
+         
+         <p>DhskM 27v6. -t sa tatra paśyet* sālān vā tālān vā naktamālān vā aśvatthoduṃbaranyagrodhān
+            vā tasya naivaṃ bhavati ime 'tra sālā vā tālā vā naktamālā vā aśvatthoduṃ<span class="it">bara</span> ///</p>
+         
+         
+         <p>DhskM 27v7. -mukto bhavati / evaṃ evaihaikatyasya ye satvā bhavanti iṣṭāḥ kāntā vistareṇa
+            yāvaj jñātisālohitaḥ tasya naivaṃ bhavatīyaṃ mama mātā vā pitā vā bhrāta vā ///</p>
+         
+         
+         <p>DhskM 27v8. -tisālohito vā kāmam anyatra satvaḥ satva ity adhimukto bhavati ayaṃ prayogaḥ
+            upekṣasya cetaḥsamādher evaṃ prayuktaś ca punar upekṣaḥ cetaḥsamādhiḥ saṃpadyate ///</p>
+         
+         
+         <p>DhskM 27v9. -ś cāpramāṇaś ca <span class="it">/</span> kataraḥ prayogaḥ parīttasyopekṣasya cetaḥsamādheḥ kathaṃ prayuktaś ca punaḥ parīttam
+            upekṣācetaḥsamādhiṃ samāpadyate āha / yathā khalv ihaikatya<span class="it">sya</span> ///</p>
+         
+         
+         <p>DhskM 27v10. vistareṇa yāvaj jñātisālohitaṃ sa ebhiḥ parīttaiḥ satvaiḥ parīttam upekṣāsahagataṃ
+            cittam āsthāpayati saṃsthāpayaty upasthāpayati damayati śama<span class="it">yati</span> ///</p>
+         
+         </div>
+   </body>
+</html>

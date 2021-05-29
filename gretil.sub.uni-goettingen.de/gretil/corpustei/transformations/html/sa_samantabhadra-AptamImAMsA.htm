@@ -1,0 +1,838 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Samantabhadra: Āptamīmāṃsā (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Samantabhadra: Āptamīmāṃsā</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_samantabhadra-AptamImAMsA.xml">sa_samantabhadra-AptamImAMsA.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Diwakar Acharya</p>
+      <p class="noindent"><b>Contribution: </b>Diwakar Acharya</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>of Gajādhara Lal Jain. Benares : Jain Siddhant Prakashini Sanstha, 1914.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/sbhami_u.htm">sbhami_u.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Samantabhadra: Aptamimamsa
+            <br />Based on the edition of Gajādhara Lal Jain.
+            <br />Benares : Jain Siddhant Prakashini Sanstha, 1914.
+            <br />
+            <br />Input by Diwakar Acharya
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>Samantabhadra: Āptamīmāṃsā</p>
+         
+         
+         <p>
+            devāgamanabhoyānacāmarādivibhūtayaḥ /<br />
+            māyāviṣvapi dṛśyante nātastvamasi no mahān // SAm_1 //
+            </p>
+         
+         
+         <p>
+            adhyātmaṃ bahirapyeṣa vigrahādimahodayaḥ /<br />
+            divyaḥ satyo divaukassvapyasti rāgādimatsu saḥ // SAm_2 //
+            </p>
+         
+         
+         <p>
+            tīrthakṛtsamayānāṃ ca parasparavirodhataḥ /<br />
+            sarveṣāmāptatā nāsti kaścideva bhavedguruḥ // SAm_3 //
+            </p>
+         
+         
+         <p>
+            doṣāvaraṇayorhānirniḥśeṣāstyatiśāyanāt /<br />
+            kvacidyathā svahetubhyo bahirantarmalakṣayaḥ // SAm_4 //
+            </p>
+         
+         
+         <p>
+            sūkṣmāntaritadūrārthāḥ pratyakṣāḥ kasyacidyathā /<br />
+            anumeyatvato 'gnyādiriti sarvajñasaṃsthitiḥ // SAm_5 //
+            </p>
+         
+         
+         <p>
+            sa tvamevāsi nirdoṣo yuktiśāstrāvirodhavāk /<br />
+            avirodho yadiṣṭaṃ te prasiddhena na bādhyate // SAm_6 //
+            </p>
+         
+         
+         <p>
+            tvanmatāmṛtabāhyānāṃ sarvathaikāntavādinām /<br />
+            āptābhimānadagdhānāṃ sveṣṭaṃ dṛṣṭena bādhyate // SAm_7 //
+            </p>
+         
+         
+         <p>
+            kuśalākuśalaṃ karma paralokaśca na kvacit /<br />
+            ekāntagraharakteṣu nātha svaparavairiṣu // SAm_8 //
+            </p>
+         
+         
+         <p>
+            bhāvaikānte padārthānāmabhāvānāmapahnavāt /<br />
+            sarvātmakamanādyantamasvarūpamatāvakam // SAm_9 //
+            </p>
+         
+         
+         <p>
+            kāryadravyamanādi syātprāgabhāvasya nihnave /<br />
+            pradhvaṃsasya ca dharmasya pracyave 'nantatāṃ vrajet // SAm_10 //
+            </p>
+         
+         
+         <p>
+            sarvātmakaṃ tadekaṃ syādanyāpohavyatikrame /<br />
+            anyatra samavāyena vyapadiśyeta sarvathā // SAm_11 //
+            </p>
+         
+         
+         <p>
+            abhāvaikāntapakṣe 'pi bhāvāpahnavavādinām /<br />
+            bodhavākyaṃ pramāṇaṃ na kena sādhanadūṣaṇam // SAm_12 //
+            </p>
+         
+         
+         <p>
+            virodhānnobhayaikātmyaṃ syādvādanyāyavidviṣām /<br />
+            avācyataikānte 'pyuktirnāvācyamiti yujyate // SAm_13 //
+            </p>
+         
+         
+         <p>
+            kathaṃcitte sadeveṣṭaṃ kathañcidasadeva tat /<br />
+            tathobhayamavācyaṃ ca nayayogānna sarvathā // SAm_14 //
+            </p>
+         
+         
+         <p>
+            sadeva sarvaṃ ko necchetsvarūpādicatuṣṭayāt /<br />
+            asadeva viparyāsānna cenna vyavatiṣṭhate // SAm_15 //
+            </p>
+         
+         
+         <p>
+            kramārpitadvayād dvaitaṃ sahāvācyamaśaktitaḥ /<br />
+            avaktavyottarāḥ śeṣāstrayo bhaṅgāḥ svahetutaḥ // SAm_16 //
+            </p>
+         
+         
+         <p>
+            astitvaṃ pratiṣedhyenāvinābhāvyekadharmiṇi /<br />
+            viśeṣaṇatvātsādharmyaṃ yathā bhedavivakṣayā // SAm_17 //
+            </p>
+         
+         
+         <p>
+            nāstitvaṃ pratiṣedhyenāvinābhāvyekadharmiṇi /<br />
+            viśeṣaṇatvādvaidharmyaṃ yathā 'bhedavivakṣayā // SAm_18 //
+            </p>
+         
+         
+         <p>
+            vidheyapratiṣedhyātmā viśeṣyaḥ śabdagocaraḥ /<br />
+            sādhyadharmo yathā heturahetuścāpyapekṣayā // SAm_19 //
+            </p>
+         
+         
+         <p>
+            śeṣabhaṅgāśca netavyā yathoktanayayogataḥ /<br />
+            na ca kaścidvirodho 'sti munīndra tava śāsane // SAm_20 //
+            </p>
+         
+         
+         <p>
+            evaṃ vidhiniṣedhābhyāmanavasthitamarthakṛt /<br />
+            neti cenna yathākāryaṃ bahirantarupādhibhiḥ // SAm_21 //
+            </p>
+         
+         
+         <p>
+            dharme dharme 'nya evārtho dharmiṇo 'nantadharmaṇaḥ /<br />
+            aṅgitve 'nyatamāntasya śeṣāntānāṃ tadaṅgatā // SAm_22 //
+            </p>
+         
+         
+         <p>
+            ekānekavikalpādāvuttaratrāpi yojayet /<br />
+            prakriyāṃ bhaṅginīmenāṃ nayairnayaviśāradaḥ // SAm_23 //
+            </p>
+         
+         
+         <p>
+            advaitākāntapakṣe 'pi dṛṣṭo bhedo virudhyate /<br />
+            kārakāṇāṃ kriyāyāśca naikaṃ svasmātprajāyate // SAm_24 //
+            </p>
+         
+         
+         <p>
+            karmadvaitaṃ phaladvaitaṃ lokadvaitaṃ ca no bhavet /<br />
+            vidyāvidyādvayaṃ na syādbandhamokṣadvayaṃ tathā // SAm_25 //
+            </p>
+         
+         
+         <p>
+            hetoradvaitasiddhiśced dvaitaṃ syāddhetusādhyayoḥ /<br />
+            hetunā cedvinā siddhirdvaitaṃ vāṅmātrato na kim // SAm_26 //
+            </p>
+         
+         
+         <p>
+            advaitaṃ na vinā dvaitādaheturiva hetunā /<br />
+            saṃjñinaḥ pratiṣedho na pratiṣedhyādṛte kvacit // SAm_27 //
+            </p>
+         
+         
+         <p>
+            pṛthaktvaikāntapakṣe 'pi pṛthaktvādapṛthakkṛtau /<br />
+            pṛthaktve na pṛthaktvaṃ syādanekastho hyasau guṇaḥ // SAm_28 //
+            </p>
+         
+         
+         <p>
+            santānaḥ samudāyaśca sādharmyaṃ ca niraṅkuśaḥ /<br />
+            pretyabhāvaśca tatsarvaṃ na syādekatvanihnave // SAm_29 //
+            </p>
+         
+         
+         <p>
+            sadātmanā ca bhinnaṃ cejjñānaṃ jñeyād dvidhā 'pyasat /<br />
+            jñānābhāve kathaṃ jñeyaṃ bahirantaśca te dviṣām // SAm_30 //
+            </p>
+         
+         
+         <p>
+            sāmānyārthā giro 'nyeṣāṃ viśeṣo nābhilapyate /<br />
+            sāmānyābhāvatasteṣāṃ mṛṣaiva sakalā giraḥ // SAm_31 //
+            </p>
+         
+         
+         <p>
+            virodhānnobhayaikātmyaṃ syādvādanyāyavidviṣām /<br />
+            avācyataikānte 'pyuktirnāvācyamiti yujyate // SAm_32 //
+            </p>
+         
+         
+         <p>
+            anapekṣe pṛthaktvaikyaṃ hyavastu dvayahetutaḥ /<br />
+            tadevaikyaṃ pṛthaktvaṃ ca svabhedaiḥ sādhanaṃ yathā // SAm_33 //
+            </p>
+         
+         
+         <p>
+            satsāmānyāttu sarvaikyaṃ pṛthagdravyādibhedataḥ /<br />
+            bhedābhedavivakṣāyāmasādhāraṇahetuvat // SAm_34 //
+            </p>
+         
+         
+         <p>
+            vivakṣā cāvivakṣā ca viśeṣye 'nantadharmiṇi /<br />
+            sato viśeṣaṇasyātra nāsatastaistadarthibhiḥ // SAm_35 //
+            </p>
+         
+         
+         <p>
+            pramāṇagocarau santau bhedābhedau na saṃvṛtī /<br />
+            tāvekatrāviruddhau te guṇamukhyavivakṣayā // SAm_36 //
+            </p>
+         
+         
+         <p>
+            nityatvaikāntapakṣe 'pi vikriyā nopapadyate /<br />
+            prāgeva kārakābhāvaḥ kva pramāṇaṃ kva tatphalam // SAm_37 //
+            </p>
+         
+         
+         <p>
+            pramāṇakārakairvyaktaṃ vyaktaṃ cedindriyārthavat /<br />
+            te ca nityaṃ vikāryaṃ kiṃ sādhoste śāsanādbahiḥ // SAm_38 //
+            </p>
+         
+         
+         <p>
+            yadi satsarvathā kāryaṃ puṃvannotpattumarhati /<br />
+            pariṇāmaprakḷptiśca nityatvaikāntabādhinī // SAm_39 //
+            </p>
+         
+         
+         <p>
+            puṇyapāpakriyā na syātpretyabhāvaḥ phalaṃ kutaḥ /<br />
+            bandhamokṣau ca teṣāṃ na yeṣāṃ tvaṃ nāsi nāyakaḥ // SAm_40 //
+            </p>
+         
+         
+         <p>
+            kṣaṇikaikāntapakṣe 'pi pretyabhāvādyasambhavaḥ /<br />
+            pratyabhijñādyabhāvānna kāryārambhaḥ kutaḥ phalam // SAm_41 //
+            </p>
+         
+         
+         <p>
+            yadyasatsarvathā kāryaṃ tanmā jani khapuṣpavat /<br />
+            mopādānaniyāmo bhūnmāśvāsaḥ kāryajanmani // SAm_42 //
+            </p>
+         
+         
+         <p>
+            na hetuphalabhāvādiranyabhāvādananvayāt /<br />
+            santānāntaravannaikaḥ santānastadvataḥ pṛthak // SAm_43 //
+            </p>
+         
+         
+         <p>
+            anyeṣvananyaśabdo 'yaṃ saṃvṛtirna mṛṣā katham /<br />
+            mukhyārthaḥ saṃvṛtirnāsti vinā mukhyānna saṃvṛtiḥ // SAm_44 //
+            </p>
+         
+         
+         <p>
+            catuṣkoṭervikalpasya sarvānteṣūktyayogataḥ /<br />
+            tattvānyatvamavācyaṃ ca tayoḥ santānatadvatoḥ // SAm_45 //
+            </p>
+         
+         
+         <p>
+            avaktavyacatuṣkoṭivikalpo 'pi na kathyatām /<br />
+            asarvāntamavastu syādaviśeṣyaviśeṣaṇam // SAm_46 //
+            </p>
+         
+         
+         <p>
+            dravyādyantarabhāvena niṣedhaḥ saṃjñinaḥ sataḥ /<br />
+            asadbhedo na bhāvastu sthānaṃ vidhiniṣedhayoḥ // SAm_47 //
+            </p>
+         
+         
+         <p>
+            avastvanabhilāpyaṃ syātsarvāntaiḥ parivarjitam /<br />
+            vastvevāvastutāṃ yāti prakriyāyā viparyayāt // SAm_48 //
+            </p>
+         
+         
+         <p>
+            sarvāntāścedavaktavyāsteṣāṃ kiṃ vacanaṃ punaḥ /<br />
+            saṃvṛttiścenmṛṣaivaiṣā paramārthaviparyayāt // SAm_49 //
+            </p>
+         
+         
+         <p>
+            aśakyatvādavācyaṃ kimabhāvātkimabodhataḥ /<br />
+            ādyatoktidvayaṃ na syātkiṃ vyājenocyatāṃ sphuṭam // SAm_50 //
+            </p>
+         
+         
+         <p>
+            hinastyanabhisaṃdhātṛ na hinastyabhisandhimat /<br />
+            badhyate taddvayāpetaṃ cittaṃ baddhaṃ na mucyate // SAm_51 //
+            </p>
+         
+         
+         <p>
+            ahetukatvānāśasya hiṃsāheturna hiṃsakaḥ /<br />
+            cittasantatināśaśca mokṣo nāṣṭāṅgahetukaḥ // SAm_52 //
+            </p>
+         
+         
+         <p>
+            virūpakāryārambhāya yadi hetusamāgamaḥ /<br />
+            āśrayibhyāmananyo 'sāvaviśeṣādayuktavat // SAm_53 //
+            </p>
+         
+         
+         <p>
+            skandhāḥ santatayaścaiva saṃvṛtitvādasaṃskṛtāḥ /<br />
+            sthityutpattivyayāsteṣāṃ na syuḥ kharaviṣāṇavat // SAm_54 //
+            </p>
+         
+         
+         <p>
+            virodhānnobhayaikātmyaṃ syādvādanyāyavidviṣām /<br />
+            avācyataikānte 'pyuktirnāvācyamiti yujyate // SAm_55 //
+            </p>
+         
+         
+         <p>
+            nityaṃ tatpratyabhijñānānnākasmāttadavicchidā /<br />
+            kṣaṇikaṃ kālabhedātte buddhyasañcaradoṣataḥ // SAm_56 //
+            </p>
+         
+         
+         <p>
+            na sāmānyātmanodeti na vyeti vyaktamanvayāt /<br />
+            vyetyudeti viśeṣātte sahaikatrodayādi sat // SAm_57 //
+            </p>
+         
+         
+         <p>
+            kāryotpādaḥ kṣayo heturniyamāllakṣaṇātpṛthak /<br />
+            na tau jātyādyavasthānādanapekṣāḥ khapuṣpavat // SAm_58 //
+            </p>
+         
+         
+         <p>
+            ghaṭamaulisuvarṇārthī nāśotpādasthitiṣvayam /<br />
+            śokapramohamādhyasthyaṃ jano yāti sahetukam // SAm_59 //
+            </p>
+         
+         
+         <p>
+            payovrato na dadhyatti na payo 'tti dadhivrataḥ /<br />
+            agorasavrato nobhe tasmāttattvaṃ trayātmakam // SAm_60 //
+            </p>
+         
+         
+         <p>
+            kāryakāraṇanānātvaṃ guṇaguṇyanyatāpi ca /<br />
+            sāmānyatadvadanyatvaṃ caikāntena yadīṣyate // SAm_61 //
+            </p>
+         
+         
+         <p>
+            ekasyānekavṛttirna bhāgābhāvādbahūni vā /<br />
+            bhāgitvādvāsya naikatvaṃ doṣo vṛtteranārhate // SAm_62 //
+            </p>
+         
+         
+         <p>
+            deśakālaviśeṣe 'pi syādvṛttiryutasiddhivat /<br />
+            samānadeśatā na syānmūrtakāraṇakāryayoḥ // SAm_63 //
+            </p>
+         
+         
+         <p>
+            āśrayāśrayibhāvānna svātantryaṃ samavāyinām /<br />
+            ityayuktaḥ sa sambandho na yuktaḥ samavāyibhiḥ // SAm_64 //
+            </p>
+         
+         
+         <p>
+            sāmānyaṃ samavāyaścāpyekaikatra samāptitaḥ /<br />
+            antareṇāśrayaṃ na syānnāśotpādiṣu ko vidhiḥ // SAm_65 //
+            </p>
+         
+         
+         <p>
+            sarvathānabhisambandhaḥ sāmānyasamavāyayoḥ /<br />
+            tābhyāmartho na sambaddhastāni trīṇi khapuṣpavat // SAm_66 //
+            </p>
+         
+         
+         <p>
+            ananyataikānte 'ṇūnāṃ saṃghāte 'pi vibhāgavat /<br />
+            asaṃhatatvaṃ syādbhūtacatuṣkaṃ bhrāntireva sā // SAm_67 //
+            </p>
+         
+         
+         <p>
+            kāryabhrānteraṇubhrāntiḥ kāryaliṅgaṃ hi kāraṇam /<br />
+            ubhayābhāvatastatsthaṃ guṇajātītaracca na // SAm_68 //
+            </p>
+         
+         
+         <p>
+            ekatve 'nyatarābhāvaḥ śeṣābhāvo 'vinābhuvaḥ /<br />
+            dvitvasaṅkhyāvirodhaśca saṃvṛtiścenmṛṣaiva sā // SAm_69 //
+            </p>
+         
+         
+         <p>
+            virodhānnobhayaikātmyaṃ syādvādanyāyavidviṣām /<br />
+            avācyataikānte 'pyuktirnāvācyamiti yujyate // SAm_70 //
+            </p>
+         
+         
+         <p>
+            dravyaparyāyayoraikyaṃ tayoravyatirekataḥ /<br />
+            pariṇāmaviśeṣācca śaktimacchaktibhāvataḥ // SAm_71 //
+            </p>
+         
+         
+         <p>
+            saṃjñāsaṃkhyāviśeṣācca svalakṣaṇaviśeṣataḥ /<br />
+            prayojanādibhedācca tannānātvaṃ na sarvathā // SAm_72 //
+            </p>
+         
+         
+         <p>
+            yadyāpekṣikasiddhiḥ syānna dvayaṃ vyavatiṣṭhate /<br />
+            anāpekṣikasiddhau ca na sāmānyaviśeṣatā // SAm_73 //
+            </p>
+         
+         
+         <p>
+            virodhānnobhayaikātmyaṃ syādvādanyāyavidviṣām /<br />
+            avācyataikānte 'pyuktirnāvācyamiti yujyate // SAm_74 //
+            </p>
+         
+         
+         <p>
+            dharmadharmyavinābhāvaḥ sidhyatyanyonyavīkṣayā /<br />
+            na svarūpaṃ svato hyetatkārakajñāpakāṅgavat // SAm_75 //
+            </p>
+         
+         
+         <p>
+            siddhaṃ ceddhetutaḥ sarvaṃ na pratyakṣādito gatiḥ /<br />
+            siddhaṃ cedāgamātsarvaṃ viruddhārthamatānyapi // SAm_76 //
+            </p>
+         
+         
+         <p>
+            virodhānnobhayaikātmyaṃ syādvādanyāyavidviṣām /<br />
+            avācyataikānte 'pyuktirnāvācyamiti yujyate // SAm_77 //
+            </p>
+         
+         
+         <p>
+            vaktaryanāpte yaddhetoḥ sādhyaṃ taddhetusādhitam /<br />
+            āpte vaktari tadvākyātsādhyamāgamasādhitam // SAm_78 //
+            </p>
+         
+         
+         <p>
+            antaraṅgārthataikānte buddhivākyaṃ mṛṣākhilam /<br />
+            pramāṇābhāsamevātastatpramāṇādṛte katham // SAm_79 //
+            </p>
+         
+         
+         <p>
+            sādhyasādhanavijñapteryadi vijñaptimātratā /<br />
+            na sādhyaṃ na ca hetuśca pratijñāhetudoṣataḥ // SAm_80 //
+            </p>
+         
+         
+         <p>
+            bahiraṅgārthataikānte pramāṇābhāsanihnavāt /<br />
+            sarveṣāṃ kāryasiddhiḥ syādviruddhārthābhidhāyinām // SAm_81 //
+            </p>
+         
+         
+         <p>
+            virodhānnobhayaikātmyaṃ syādvādanyāyavidviṣām /<br />
+            avācyataikānte 'pyuktirnāvācyamiti yujyate // SAm_82 //
+            </p>
+         
+         
+         <p>
+            bhāvaprameyāpekṣāyāṃ pramāṇābhāsanihnavaḥ /<br />
+            bahiḥprameyāpekṣāyāṃ pramāṇaṃ tannibhaṃ ca te // SAm_83 //
+            </p>
+         
+         
+         <p>
+            jīvaśabdaḥ sabāhyārthaḥ saṃjñātvāddhetuśabdavat /<br />
+            māyādibhrāntisaṃjñāśca māyādyaiḥ svaiḥ pramoktivat // SAm_84 //
+            </p>
+         
+         
+         <p>
+            buddhiśabdārthasaṃjñāstāstisro buddhyādivācikāḥ /<br />
+            tulyā buddhyādibodhāśca trayastatpratibimbikāḥ // SAm_85 //
+            </p>
+         
+         
+         <p>
+            vaktṛśrotṛpramātṝṇāṃ vākyabodhapramāḥ pṛthak /<br />
+            bhrāntāveva pramābhrāntau bāhyārthau tādṛśetarau // SAm_86 //
+            </p>
+         
+         
+         <p>
+            buddhiśabdapramāṇatvaṃ bāhyārthe sati nāsati /<br />
+            satyānṛtavyavasthaivaṃ yujyate 'rthāptyanāptiṣu // SAm_87 //
+            </p>
+         
+         
+         <p>
+            daivādevārthasiddhiśceddaivaṃ pauruṣataḥ katham /<br />
+            daivataścedanirmokṣaḥ pauruṣaṃ niṣphalaṃ bhavet // SAm_88 //
+            </p>
+         
+         
+         <p>
+            pauruṣādeva siddhiścetpauruṣaṃ daivataḥ katham /<br />
+            pauruṣāccedamoghaṃ syātsarvaprāṇiṣu pauruṣam // SAm_89 //
+            </p>
+         
+         
+         <p>
+            virodhānnobhayaikātmyaṃ syādvādanyāyavidviṣām /<br />
+            avācyataikānte 'pyuktirnāvācyamiti yujyate // SAm_90 //
+            </p>
+         
+         
+         <p>
+            abuddhipūrvāpekṣāyāmiṣṭāniṣṭaṃ svadaivataḥ /<br />
+            buddhipūrvavyapekṣāyāmiṣṭāniṣṭaṃ svapauruṣāt // SAm_91 //
+            </p>
+         
+         
+         <p>
+            pāpaṃ dhruvaṃ pare duḥkhātpuṇyaṃ ca sukhato yadi /<br />
+            acetanākaṣāyau ca badhyeyātāṃ nimittataḥ // SAm_92 //
+            </p>
+         
+         
+         <p>
+            puṇyaṃ dhruvaṃ svato duḥkhātpāpaṃ ca sukhato yadi /<br />
+            vītarāgo munirvidvāṃstābhyāṃ yuñjyānnimittataḥ // SAm_93 //
+            </p>
+         
+         
+         <p>
+            virodhānnobhayaikātmyaṃ syādvādanyāyavidviṣām /<br />
+            avācyataikānte 'pyuktirnāvācyamiti yujyate // SAm_94 //
+            </p>
+         
+         
+         <p>
+            viśuddhisaṃkleśāṅgaṃ cetsvaparasthaṃ sukhāsukham /<br />
+            puṇyapāpāsravau yuktau na cedvyarthastavārhataḥ // SAm_95 //
+            </p>
+         
+         
+         <p>
+            ajñānācceddhruvo bandho jñeyānantyānna kevalī /<br />
+            jñānastokādvimokṣaścedajñānād bahuto 'nyathā // SAm_96 //
+            </p>
+         
+         
+         <p>
+            virodhānnobhayaikātmyaṃ syādvādanyāyavidviṣām /<br />
+            avācyataikānte 'pyuktirnāvācyamiti yujyate // SAm_97 //
+            </p>
+         
+         
+         <p>
+            ajñānānmohato bandho nājñānādvītamohataḥ /<br />
+            jñānastokācca mokṣaḥ syādamohānmohito 'nyathā // SAm_98 //
+            </p>
+         
+         
+         <p>
+            kāmādiprabhavaścitraḥ karmabandhānurūpataḥ /<br />
+            tacca karma svahetubhyo jīvāste śuddhyaśuddhitaḥ // SAm_99 //
+            </p>
+         
+         
+         <p>
+            śuddhyaśuddhī punaḥ śaktī te pākyāpākyaśaktivat /<br />
+            sādyanādī tayorvyaktī svabhāvo 'tarkagocaraḥ // SAm_100 //
+            </p>
+         
+         
+         <p>
+            tattvajñānaṃ pramāṇaṃ te yugapat sarvabhāsanam /<br />
+            kramabhāvi ca yajjñānaṃ syādvādanayasaṃskṛtam // SAm_101 //
+            </p>
+         
+         
+         <p>
+            upekṣā phalamādyasya śeṣasyādānahānadhīḥ /<br />
+            pūrvaṃ vājñānanāśo vā sarvasyāsya svagocare // SAm_102 //
+            </p>
+         
+         
+         <p>
+            vākyeṣvanekāntadyotī gamyaṃ prati viśeṣakaḥ /<br />
+            syānnipāto 'rthayogitvāttava kevalināmapi // SAm_103 //
+            </p>
+         
+         
+         <p>
+            syādvādaḥ sarvathaikāntayogātkiṃvṛttacidvidhiḥ /<br />
+            saptabhaṅganayāpekṣo heyādeyaviśeṣakaḥ // SAm_104 //
+            </p>
+         
+         
+         <p>
+            syādvādakevalajñāne sarvatattvaprakāśane /<br />
+            bhedaḥ sākṣādasākṣācca hyavastvanyatamaṃ bhavet // SAm_105 //
+            </p>
+         
+         
+         <p>
+            sadharmaṇaiva sādhyasya sādharmyādavirodhataḥ /<br />
+            syādvādapravibhaktārthaviśeṣavyañjako nayaḥ // SAm_106 //
+            </p>
+         
+         
+         <p>
+            nayopanayaikāntānāṃ trikālānāṃ samuccayaḥ /<br />
+            avibhrāḍ bhāvasambandho dravyamekamanekadhā // SAm_107 //
+            </p>
+         
+         
+         <p>
+            mithyāsamūho mithyā cenna mithyaikāntatāsti naḥ /<br />
+            nirapekṣā nayā mithyā sāpekṣā vastu te 'rthakṛt // SAm_108 //
+            </p>
+         
+         
+         <p>
+            niyamyate 'rtho vākyena vidhinā vāraṇena vā /<br />
+            tathānyathā ca so 'vaśyamaviśeṣyatvamanyathā // SAm_109 //
+            </p>
+         
+         
+         <p>
+            tadatadvastu vāgeṣā tadevetyanuśāsati /<br />
+            na satyā syānmṛṣāvākyaiḥ kathaṃ tattvārthadeśanā // SAm_110 //
+            </p>
+         
+         
+         <p>
+            vāksvabhāvo 'nyavāgarthapratiṣedhaniraṅkuśaḥ /<br />
+            āha ca svārthasāmānyaṃ tādṛgvācyaṃ khapuṣpavat // SAm_111 //
+            </p>
+         
+         
+         <p>
+            sāmānyavāgviśeṣe cenna śabdārthā mṛṣā hi sā /<br />
+            abhipretaviśeṣāpteḥ syātkāraḥ satyalāñchanaḥ // SAm_112 //
+            </p>
+         
+         
+         <p>
+            vidheyamīpsitārthāṅgaṃ pratiṣedhavirodhi yat /<br />
+            tathaivādeyaheyatvamiti syādvādasaṃsthitiḥ // SAm_113 //
+            </p>
+         
+         
+         <p>
+            itīyamāptamimāṃsā vihitā hitamicchatā /<br />
+            samyaṅmithyopadeśārthaviśeṣapratipattaye // SAm_114 //
+            </p>
+         
+         
+         <p>
+            jayati jagati kleśāveśaprapaṃcahimāṃśumān<br />
+            vihitaviṣamaikāntadhvāntapramāṇanayāṃśumān /<br />
+            yatipatirajo yasyādhṛṣṭānmatāmbunidherlavān<br />
+            svamatamatayastīrthyā nānā pare samupāsate // SAm_115 //
+            </p>
+         
+         </div>
+   </body>
+</html>

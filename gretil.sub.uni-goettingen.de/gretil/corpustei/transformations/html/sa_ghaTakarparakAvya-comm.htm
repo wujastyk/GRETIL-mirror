@@ -1,0 +1,671 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Ghaṭakarparakāvya with Abhinavagupta's Ghaṭakarparavivṛti (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Ghaṭakarparakāvya with Abhinavagupta's Ghaṭakarparavivṛti</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_ghaTakarparakAvya-comm.xml">sa_ghaTakarparakAvya-comm.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Daniele Cuneo</p>
+      <p class="noindent"><b>Contribution: </b>Daniele Cuneo</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>B. Parlier: La Ghaṭakarparavivṛti d'Abhinavagupta, Paris: Institut de civilisation
+            indienne 1975. (Publications de l'Institut de civilisation indienne, 39).</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/5_poetry/2_kavya/aghatkvu.htm">aghatkvu.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Ghatakarparakavya, with Abhinavagupta's Ghatakarparavivrti
+            <br />Based on the ed. by B. Parlier: La Ghaṭakarparavivṛti d'Abhinavagupta,
+            <br />Paris: Institut de civilisation indienne 1975.
+            <br />(Publications de l'Institut de civilisation indienne, 39)
+            <br />
+            <br />Input by Daniele Cuneo
+            <br />
+            <br />ABBREVIATIONS:
+            <br />Ghk = Ghaṭakarparakāvya
+            <br />GhkV = Ghaṭakarparavivṛti
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>ghaṭakarparakāvyam
+            śrīmanmahāmāheśvarācāryaśrīmadabhinavaguptapādaracitavivṛtyupetam</p>
+         
+         
+         <p>
+              apūrvaḥ ko 'yaṃ te varada śirasaḥ śekharavidhir nanu jñātaṃ pluṣṭaṃ smaradhanur
+            idaṃ mūrdhani dhṛtam /<br />
+              yadālokāl loke viṣamaviśikhaḥ sphūrjatitarām iti prokte devyā galitaniyamaḥ śambur
+            avatāt //
+            </p>
+         
+         
+         <p>idaṃ proṣitapramadayā hetubhūtayā proṣitapramadām uddiśya kathyate kulakam | tatra
+            kiñcit kavinibaddhapramdāvaktṛkam, kiñcitkavinibaddhatatsakhībhāṣitam, kiñcit kavinibaddhadūtībhāṣitam,
+            anyat kaviprakaṭitapratidūtīvacanam, itarat svatantrakavikathitam iti bahuprakāraṃ
+            darśayiṣyāmaḥ | na tu saiva ekā kathanakartrī | proṣitaḥ pramado vallabho harṣaś ca
+            yasyāḥ | athaca proṣitā vallabhena viyuktā, prakṛṣṭena yauvanaśṛṅgārajanitena madena
+            ca yuktā | anyadeśatayā viyuktatvam eva proṣitatvena lakṣyate</p>
+         
+         
+         <p class="bold">
+            chādite dinakarasya bhāvane khāj jale patati śokabhāvane /<br />
+            manmathe ca hṛdi hantum udyate proṣitapramadayedam udyate // Ghk_1 //
+            </p>
+         
+         
+         <p>dinaṃ karotīti dinakaras tasya bhāvane raśmipuñje chādite tiraskṛte sati tāsāṃ tamaḥpratipakṣatayā
+            suprasiddhānām api sa sūryo yatra ācchādyate tatra kathaṃ harṣāloko 'pi mānaso 'stu,
+            athaca virahiṇīnāṃ rajanisamayajanitaraṇaraṇakakaluṣitahṛdayāṇāṃ kadācit dinam api
+            vividhavinodālokavitaraṇena bandhutāṃ yāyāt | adya tu yatprasādāt tādṛśadinam upajāyate
+            tasya api kaścid ātmīyaḥ sahajaḥ svabhāvaḥ, so 'pi ācchadita iti sātiśayaṃ bhāgyahīnatvaṃ
+            dyotitam | tathā jale ca ākāśāt patati | kīdṛśī | śokaṃ bhāvayati | jalaṃ hi nikaṭavartinā
+            pārthivarajasā ātmānaṃ bhāvayati ekatayā yojayatīti śrutam idam, adya tu apūrvaṃ vartate
+            śokena virahiṇīr bhāvayati śokamayya eva sampādyante tāḥ | na hi tāsāṃ prāvṛṭsamayamadhye
+            priyāgamanaśaṅkāmātram api astīti tātkālaṃ nairāśyam eva khāt patatīty anena amuṣya
+            duṣprasahasya apratīkāratayā sātiśayo 'nutāpaḥ sūcyate | tathā manmatho hṛdayapraharaṇaṃ
+            prati sasaṃrambhaḥ | athaca bāhyo yaḥ kaścit hantā tasmād upāyaiḥ palāyyate 'pi, ayaṃ
+            punar hṛdayāvasthita eva antarhananaṃ prati sasaṃrambhaḥ | caśabda ekakālatāsūcakaḥ
+            | yathā kaścit durjano nirjane nirāloke durdina eva saśokaṃ janam ata eva nirudhyamānam
+            ekākinaṃ prāpyaiva labdhacchidraḥ praharati, tathāiva amuṣmin kāla īdṛśam iva kāminījanaṃ
+            madanas tāḍayatīty arthaḥ || GhkV_1 ||</p>
+         
+         
+         <p class="bold">
+            sarvakālam ativāhya toyadā āgatāḥ stha dayito gato yadā /<br />
+            nirdayena paradeśasevinā māriṣyatha hi tena māṃ vinā // Ghk_2 //
+            </p>
+         
+         
+         <p>  iyaṃ nāyikāyā eva uktiḥ | he toyadāḥ ! macchokabhāvakajalavitaraṇodyatā yatra vayaṃ
+            priyaviyuktā na abhūma, tādṛśaṃ kālam ativāhya yatra kvacit yāpayitvā yadā adya dayito
+            gatas tadā yūyam āgatāḥ | tathā sarvaṃ kālaṃ diṣṭam athaca kṛtāntarūpaṃ yeṣāṃ te tathā
+            matibāhyā amanojñamanasaḥpīḍakatvāt te ca toyadāś ceti vigrahaḥ | ataś ca māṃ māriṣyatha,
+            kākvā uktiḥ | evaṃ nāma puṇyabhāginī bhūyāsaṃ, yena dayitajanavirahitā bhīṣaṇabhavadīyacaritāvalokanaparikhinnahṛdayā
+            jīvitatyāgena api sukham āsīnā | athaca dayitena vinā yā jīvati sā avaśyavadhārhaiva
+            | yaś ca dirdayaḥ san paradeśaṃ sevate, sa cet dayitāyā hṛdayaṃ praviṣṭaḥ, tatkaratalopanatam
+            eva maraṇam | na hi asau jaladharasamaye kim api kāryaṃ kartum samartha iti avaśyam
+            eka eva kvacana ciram āste iti | tasmād asmāsu upari prema tāvad āstām; dayām api
+            yadi akariṣyat, tad avaśyam ihaiva āgamiṣyad ity etāvatī kaṣṭaparampareti anena viśvāsaparipāṭījanitadauḥsthityasūcakena
+            dhvanyate || GhkV_2 ||</p>
+         
+         
+         <p>  priyatamaṃ prati nijāvasthāṃ jijñāpayiṣur bhīṣaṇajaladavijṛmbhām asahiṣṇur yuktyā
+            kathaṃcid vacanāt yadi amī deśāntaraṃ vrajeyus tat sarvaṃ sampatsyate | priyatamo
+            'pi ca taddeśaprāptajaladharadhvānākarṇanena kadācit madīyām avasthāṃ svayaṃ vā anubhaved
+            api ity abhiprāyeṇa nāyikā idam āha</p>
+         
+         
+         <p class="bold">
+            brūta taṃ pathikapāṃsulaṃ ghanā yūyam eva pathiśīghralaṅgan /<br />
+            anyadeśaratir adya mucyatāṃ sāthavā tava vadhūḥ kim ucyatām // Ghk_3 //
+            </p>
+         
+         
+         <p>  he ghanāḥ ! meghāḥ, athaca atinibiḍāḥ, ata eva hananaśīlāḥ, tam pathikānām madhye
+            pāṃsulaṃ nirmaryādaṃ nirdayaṃ brūta | etad eva tasya abhijñānaṃ yat pathikeṣu madhye
+            sa eva nirdaya ity arthaḥ | yato yūyam eva pathaḥ śīghraṃ laṅgayathety anena katham
+            itaḥ kṣipram eva vrajeyur iti protsāhanā dhvanyate | brūteti ca adhyeṣaṇā iyam, laṅganaṃ
+            ca ciravrajitasya api jhagiti āsādanam | priyatamo hi cirakālaṃ proṣitaḥ, sa katham
+            yo mārgaṃ laṅghayitum na śakyas tena adya itaś calitena labhyeteti bhāvaḥ | kiṃ brūta
+            | anyasmin deśe yā iyaṃ ratir vinā api kāryam āsaktiḥ, athaca vallabhāntareṇa saha
+            premavisrambho na hi anyathā ambudharakālo 'tivāhya iti, sā ratir mucyatām | avaśyaṃ
+            hi tayā ratyā bhavān grathita eveti upālambhagarbhā uktiḥ | adyeti | adyaivety arthaḥ
+            | atha kathaṃ prema savisrambhaṃ śithilayituṃ śaktas tarhi sā tava vadhūr na punaḥ
+            priyatamā, api tu śāstrasamayapatnī | kiṃ kathyatām, na vayam apriyam āvedayāmaḥ,
+            niścitaṃ tu prāṇān naiva dhārayet | athavā sāthavā tava vadhūr ity etāvat sandeśavacanam
+            abhidhāya kim ahaṃ kathaṃ vā bhaveyam iti kim alīkavikatthaneneti avaśyam eva na jīvāmīty
+            arthaḥ || GhkV_3 ||</p>
+         
+         
+         <p class="bold">
+            haṃsapaṅktir api nātha samprati prasthitā viyati mānasaṃ prati /<br />
+            cātakaś ca tṛṣito 'mbu yācate duḥkhitā pathika sā priyā ca te // Ghk_4 //
+            </p>
+         
+         
+         <p>  yadi punar adya mārge gamanam āgamanaṃ ca na yujyate iti śaṅkyate, tad evaṃ brūteti
+            nāyikā āha -- he pathika ! na hi bhavān nityaṃ yathā gacchati, ato yadā taddeśagato
+            'bhūt tadā sā priyā śrūyate sma | ataḥ cātakas tṛṣākrānto jalaṃ yācate, sā ca tava
+            yāñcāṃ karoti | anena cātakayāñcāṃ prati jalasya kārakatā | tvaṃ tu tadīyayāñcāṃ prati
+            na kārakaḥ | sa hi yāñcāṃ prati kārako bhavati yaḥ kadācit āśāpūraṇaṃ karoti | tvaṃ
+            tu sarvakālam evaṃvidhapratikūlācaraṇacuñcur eva | tathāpi tu yācyase | ata eva āha
+            na prabhuḥ paryanuyogārhaḥ | haṃsānāṃ sambandhinī paṅktir atibahavo 'pi haṃsā adya
+            ākāśamārge mānasaṃ prati pracalitāḥ | eko 'pi hi yatra gacchati, tatra avaśyam aparasya
+            api aniruddhena pathā bhāvyaṃ | kiṃ punar bahavaḥ | yataś ca jaladharamuktajalapaṭale
+            te viyato bhuvi sañcaranti tasya yad ekāyatanam ākāśaṃ tad eva haṃsānāṃ mārgatvena
+            vartate | bhūmau mārge ko bhayasambhavaḥ | yatra ca atidūraṃ mānasaṃ gantuṃ nirbuddhīnām
+            api haṃsānām udyamaḥ, tatra parimitadeśanivṛttimātra eva na kim iti sā priyā bhavato
+            yācate || GhkV_4 ||</p>
+         
+         
+         <p class="bold">
+            nīlaśaṣpam abhibhāti komalaṃ vāri vindati ca cātako 'malam /<br />
+            ambudaiḥ śikhigaṇo vinādyate kā ratiḥ priya mayā vinādya te // Ghk_5 //
+            </p>
+         
+         
+         <p>  nīlaṃ śaṣpākhyaṃ tṛṇaṃ sarvato bhāti, cātako nirmalaṃ jalaṃ vindati jalaṃ labhate,
+            mayūrakulaṃ ca meghaiḥ kekāyuktaṃ kriyate ity etair vākyair pratyuta iha āgacchatas
+            tava kim api pathi manoharatvam iti dhvanyate | nīlaṃ ca śaṣpam avalokayatas tatsukumāratarasparśānubhavasukhitacaraṇayugalasya
+            gagananipatitāmalajaladalitaklamasya muditamayūraracitakekākaraṇanirbharavikasvarakarṇadvayasya
+            avaśyaṃ sarvam eva sukham | adya tu tūṣṇīṃ sthitasya mayā vinā kā ratiḥ, na kācid
+            iti svātmasaubhāgyasaṃbhāvanāgarbhā iyam uktiḥ | athaca mama īdṛśī avasthā yato vartate,
+            tato māṃ prati śaṣpaṃ nīlaṃ malinasvabhāvam api komalaṃ karuṇārdram iva bhāti | cātakaś
+            ca yo nāmnaiva priyagaganajalaḥ prasiddhaḥ, so 'pi jalam iha labhate, na tathā pibatīti
+            pratīyamānā utprekṣā | ambudaiś ca virahihṛdayasphoṭanapaṭutaragarjitair api mamopari
+            karuṇāvaśāt nijasuhṛtkulam ākrandavat sampādyate | kā punar mayā vinā mama abhāve
+            kā aratiḥ kaḥ khedaḥ, na kaścit | tathā mama abhāve bhavataḥ kā iyaṃ ratiḥ ko 'yam
+            anubandhaḥ, sā mriyatām iti | athaca prāṅ mayā vinā tava ratir na kadācid abhūt, adya
+            tu kathaṃ sā ratiḥ | adyety anena prāg atyantapremarasamānasatām kapaṭena kila prakaṭitavān
+            asīti dhvanyate | ata eva sotprāsaṃ priyeti āmantraṇam iti upālambhagarbhā bhaṇitiḥ
+            || GhkV_5 ||</p>
+         
+         
+         <p class="bold">
+            meghaśabdamuditāḥ kalāpinaḥ proṣitāhṛdayaśokalāpinaḥ /<br />
+            toyadāgamakṛśā ca sādya te durdhareṇa madanena sādyate // Ghk_6 //
+            </p>
+         
+         
+         <p>amī ye bhavatā puraḥ paridṛśyante kalāpinas te meghānāṃ secanapradhānānāṃ sambandhinā
+            śabdena muditāḥ kekāpriyatvāt, tathā ca proṣitānāṃ kāntānāṃ sambandhini hṛdaye śokaṃ
+            lāpayanti samyak śleṣayanti avaśyaṃ, tathā proṣitānāṃ hṛdaye śokaṃ lapanti teṣu hi
+            kūjatsu avaśyaṃ virahiṇyaḥ śokavatya iti niścīyate, tathā proṣitāhṛdayaṃ śokena lāpayanti
+            dravīkurvate | sā ca te priyā adya ca tava durdhareṇa kāmena pūrvaṃ hi kāmabhayabhītāyās
+            tvam eva śaraṇam abhūḥ, adya tu iha sthitasya tava madano durdhara iti durnivāraḥ
+            | sambandhamātre ṣaṣṭhī, na tu kartari "khalartha" (2.3.69) iti pratiṣedhāt | tathā
+            tavaiva sannihitasya sā toyadāgame kṛśā abhūt | āgamiṣyati jaladharasamayaḥ pravatsyati
+            ca priyatamaḥ iti raṇaraṇakavatī bhavatsannidhāne kṛśā babhūva | adya tatra madhye
+            bhūyān kālo gata iti asyā adya hitena bhavitavyam iti kavinibaddhadūtīvacanam idam
+            | na hi meghānāṃ svayam eva "meghaśabdamuditāḥ" iti "toyadāgama-" iti ca svātantryeṇa
+            kathayitum ucitam | "ambudaiḥ śikhigaṇo vinādyate" ity atre tu prāktanaśloke meghamukhasañcāritākṣarā
+            nāyikā eva kavinā vaktṛtvena upanibaddhā, iha tu naivam || GhkV_6 ||</p>
+         
+         
+         <p class="bold">
+            kiṃ kṣamāpi tava nāsti kāntayā pāṇḍugaṇḍapatitālakāntayā /<br />
+            śokasāgarajale ca pātitāṃ tvadguṇasmaraṇam eva pāti tām // Ghk_7 //
+            </p>
+         
+         
+         <p>  sakhyā eva dūtītvena preṣitāyā iyaṃ bhaṇitiḥ | āstāṃ tāvat premānubandhaḥ | tādṛśī
+            api yā kāntā lāvaṇyadyasādhāraṇabhūtā, sā yadi īdṛśavat jāyate, tat kiṃ tayā hetubhūtayā
+            kṣamā api nāsti | pānḍuracchāyayoḥ kapolayoḥ patitā alakāntā yasyāḥ tadīyakapolatalapāṇḍimānaṃ
+            malinasvabhāvā alakā api prekṣituṃ na pārayantīty arthaḥ | athaca kānteti āmantraṇam
+            api | tvaṃ yadi tasyā vallabhas tayā īdṛśyā janamātrakṛpābhājanabhūtayā api yā sāmānyajanasya
+            kṛpā bhavati, sāpi na asti tava ātmani iyatāpi puruṣaguṇaṃ bahumānaṃ vahato 'pi |
+            tathāpi sā śokārṇavapānīye meghasamayavāriṇā pātitā bhavadīyaguṇasmaraṇena eva rakṣyate
+            | athaca tvattas tava sakāśāt patitā śoke, bhavadviprayuktā ca jātā, śokajaladhau
+            ca nimagnā sampannety arthaḥ | cakārād etad dhvanyate, vastutas tu tvadguṇānām eva
+            sātiśayasambhogādīnāṃ smaraṇena eva śoke patitā | adya tu tathā kṛpāpātratāṃ prāptā,
+            yad uta tena niṣkaruṇena pātitā api tvadguṇasmaraṇena eva rakṣyate | mama kila sa
+            priyatamo 'pagato nirbahumāno māṃ prati ca dṛḍhatarapremapavitritāntaḥkaraṇo nūnaṃ
+            mām eva tadavasthāṃ yathā pūrvaṃ trātavaṃs tathā trāsyate iti tvadguṇānāṃ smarantī
+            sā jīvatīti yāvat | tathā yo 'yaṃ sāgare patitaḥ, so 'pi avaśyaṃ guṇasmaraṇavṛttyā
+            eva rakṣyate dṛḍhaguṇaviracitarajjvavalambanena jātucid uttareyam apīty arthaḥ ||
+            GhkV_7 ||</p>
+         
+         
+         <p class="bold">
+            kusumitakuṭajeṣu kānaneṣu priyarahiteṣu samutsukānaneṣu /<br />
+            dravati ca kaluṣaṃ jalaṃ nadīnāṃ kim iti ca māṃ samavekṣase na dīnām // Ghk_8 //
+            </p>
+         
+         
+         <p>  iyaṃ vilāpāvasthāṃ yātāyāḥ svayam eva nāyikāyā uktiḥ | puṣpitāni kuṭajāni yeṣu vaneṣu
+            yāḥ samutsukā utkaṇṭhitā mādṛśyas tāsāṃ yāni ānanāni priyatamaviyuktāni teṣu tadviṣaye
+            nadīnām api kaluṣaṃ jalaṃ galati asmādṛśīnāṃ virahiṇīnām ānanāni avalokya jaḍabhāvānām
+            api kaluṣaṃ jalaṃ galati, asmādṛśīnāṃ virahiṇīsaritāṃ śokāvilaṃ jalaṃ galatīty arthaḥ
+            | tvaṃ māṃ dīnāṃ kim iti samavekṣase 'pi na | cakārāv apiśabdārthau bhinnakramau,
+            eka nadīnām ity asya anantaram, aparas tu samavekṣaseśabdasya || GhkV_8 ||</p>
+         
+         
+         <p class="bold">
+            mārgeṣu meghasalilena vināśiteṣu kāmo dhanuḥ spṛśati tena vinā śiteṣu /<br />
+            gambhīramegharasitavyathitā kadāhaṃ jahyāṃ sakhi priyaviyogajaśokadāhaṃ // Ghk_9 //
+            </p>
+         
+         
+         <p>visṛṣṭāyām api dūtyāṃ tadvacanākarṇanād api na āgata iti śokākulamanasi nāyikāyāṃ
+            yadā, kadācit sakhī tatsamāśvāsanāya ittham abhihitavatī -- mārgāṇāṃ duḥsañcaratvād
+            asau na prāptaḥ, tadā punar api nāyikāyāḥ sakhiṃ prati iyam uktiḥ -- sakhi ! paśya
+            , mārgā meghasalilena nāśitās tathāparo 'yaṃ doṣaḥ -- apratyayeṣu mārgeṣu śitā iṣavo
+            yatra tādṛk dhanuḥ spṛśati, śitaṃ śiraṃ sandhāya ākarṇākṛṣṭaṃ moktum icchatīty arthaḥ
+            | tena vinā tadviyuktāyāḥ | athaca yadi ahaṃ tam abhisareyam, tat mārgā durjñānāḥ,
+            tathāvidheṣu api teṣu duḥsahaṃ smaraśarabhayaṃ smaraś ca tadvarjaṃ śarān sandhatte
+            mām eva tāḍayati, anyathā kadācit tasyaiva gamanam iha sambhāvyate | atha ihasthā
+            eva jaladasamayam ativāhayāmi, tat gambhīreṇa ghangarjitena jātatrāsā tiṣṭhāmi | ato
+            he sakhi ! kadā ahaṃ priyaviyogajam śokadāhaṃ jahyām | ahaṃ ca meghaśabdavyathitā,
+            madanaś ca niśitaśarapātanodyata iti avaśyaṃ mama jīvitāntena bhāvyaṃ | tac ca kadā
+            bhavet, yatra ahaṃ sakalaśokanirmuktā sampadyeyeti | kecit sakhīpriyeti paṭhantaḥ
+            sahṛdayāḥ katham adya api sakhī dūtītvena visṛṣṭā sā api na āgatā tat nūnaṃ tatsambhogarasalālasayā
+            tayā bhāvyam iti sambhāvayantyāṃ nāyikāyāṃ kayācit vayasyayā mārgadaurātmye tadāgamanavighnakāriṇi
+            upanyaste svayaṃ nāyikāyā idaṃ sūktam iti abhyūcuḥ | mārgas tāvat naṣṭāḥ tena ca vinā
+            madanaḥ praharatīti tannikaṭāt calituṃ na yujyate 'syāḥ | athaca tatsambhogarasavṛttismaraṇenaiva
+            madanakadarthanārhā ato 'haṃ sakhyā | priyeṇa ca saha viyogaḥ, tathā tasyāḥ sakhyāḥ
+            | idānīṃ yaḥ priyas tena saha viyogaḥ, tajjaṃ śokadāhaṃ kadā jīvitāntena api jahyām
+            || GhkV_9 ||</p>
+         
+         
+         <p class="bold">
+            susugandhitayā vane 'jitānāṃ svanadambhodharavātavījitānām /<br />
+            madanasya kṛte niketanānāṃ pratibhānty adya vanāni ketanānām // Ghk_10 //
+            </p>
+         
+         
+         <p>  yadā vinodārthaṃ sakhyā udyānopavanaṃ nītā, tadā taddarśanadviguṇataropacitavilāpāvasthāyā
+            nāyikāyā idaṃ sūktam | ketananāmnāṃ tarūṇāṃ vanāni adya virājante | kīdṛśānām | suṣṭhu
+            saurabheṇa vanamadhye kenacid ajitānāṃ, tathā garjatāṃ meghānāṃ pavanena vījitānāṃ
+            prabodhitānām | ata eva kāmasya kṛte niketanānāṃ saṅketadhāmnām | ayam abhiprāyaḥ
+            -- ketanavanāni madananiveśanasthānānīti atisukumārāṇi, jaladhararasitatadvimuktaśīkarāsārasahitaś
+            ca pavanas teṣām eva prabodhanahetutayā sukumāratām āpta iti kim atra jaladasamaye
+            mārgavaiṣamyam, tat nūnam eva ketanavānāvalokanaprabodhitamadanasthānasukhasaṃskāraḥ
+            priyatama āgamiṣyatīti sambhāvayantyā nāyikāyā bhaṇitiḥ pratibhātīti | apare tu vanaśabdapaunaruktyam
+            amṛṣyamāṇā madanasya avane rakṣaṇe kṛte ajitānāṃ ketanānāṃ vanāni śobhante iti āhuḥ
+            | athavā saurabheṇa ye vane ekānte yatra aparaḥ paritrātā na sambhāvyate tatra jitā
+            apahṛtadhairyavṛttayaḥ kṛtā vimohitāḥ kecana virahijanāḥ teṣāṃ daivavaśāt jaladharaśiśirapavanaprabodhitānām
+            api punar api etāni ketanavanāni kāmasya kṛte karaṇāya pratibhānti | madanātaṅkakaraṇād
+            ṛte na eteṣāṃ kim api prayojanam iti yāvat | svanaśabdena karuṇāvaśāt śabdāyamānatā
+            dhvanyate | yadā svananto garjanto 'mbhodharā yatra saṃjātakṛpāḥ saṃvṛttāḥ, tatra
+            amīṣāṃ ketanavanānāṃ kā iyaṃ niṣkaruṇatā || GhkV_10 ||</p>
+         
+         
+         <p class="bold">
+            tat sādhu yat tvāṃ sutaruṃ sasarja prajāpatiḥ kāmanivāsa sarja /<br />
+            tvaṃ mañjarībhiḥ pravaro vanānāṃ netrotsavaś cāsi sayauvanānām // Ghk_11 //
+            </p>
+         
+         
+         <p>  iyam anantaravad eva uktiḥ | he sarjanāmadheya ! prajāpatir yat tvām sasarja śobhanaṃ
+            taruṃ, tat sādhu, yatas tvaṃ kāmasya nivāsaḥ | kākur iyaṃ evaṃ dhvanati -- prajānāṃ
+            kila patyā avaśyaṃ prajāhitakāriṇā bhavitavyam, evaṃvidhahṛdayadāhavitaraṇaniḥśeṣitanikhilajantoḥ
+            kāmasya nivāsabhūtaṃ bhavantaṃ nirmimāṇena prajāpatinā suṣṭhu prajāpatitvam uddarśitaṃ,
+            tvayi dṛṣṭamātra eva mama kāpi vyathā vijṛmbhate ity arthaḥ | atha evaṃ api jānatī
+            kim iti mām avalokitavaty asīti yadi, tat kila mañjarībhir bhavān sakalavanamadhye
+            śreṣṭho bahvībhiḥ kantābhis tu parivṛta iti śṛṅgāriṇi bhavati bahumāna ity arthaḥ,
+            tathāpi sayauvanānāṃ yuvatīnāṃ tu netrotsavaḥ | yadā kila ahaṃ yuvatiḥ priyasaṃyuktā
+            tvām avalokitavatī, tadā lokottaranayanānandavatī abhūvam, adya tvam evaṃvidhabahutaravallabhāparivṛto
+            bhūtvā kathaṃ māṃ priyaviyuktāṃ trātavyāṃ darśanamātreṇa api madanaparavaśāṃ karoṣīti
+            vākyārthaḥ || GhkV_11 ||</p>
+         
+         
+         <p class="bold">
+            navakadamba śiro 'vanatāsmi te vasati vo madanaḥ kusumasmite /<br />
+            kuṭaja kiṃ kusumair avahasyate praṇipatāmi ca duṣprahasya te // Ghk_12 //
+            </p>
+         
+         
+         <p>  yadā sarjataror apakrāntā nāyikā jhagiti kadambam avalokayati, tadā prāktanamadanabhayabhītimatī
+            jhagiti āha -- he navakadamba ! idānīm eva avalokitānubhūtatvadīyapratāpā ahaṃ tubhyaṃ
+            śirasā avanatā asmi | evaṃ yāvat bhaṇati, tāvat tadīyakusumavilokanajanitaraṇaraṇakā
+            āha -- yuṣmākaṃ puṣpavikāse kāmo vasati, mayā jñātaṃ sarjasyaiva idaṃ vaiṣamyaṃ yāvatā
+            tvam api evam eva, sarveṣām ekayogakṣamateti sarvathā mama hātāśāyā nayanaviṣayatākṣamaṃ
+            na kiñcit samastīti va iti bahuvacanena dhvanyate | itthamākārayatnī eva nāyikā yadā
+            kusumitaṃ jhagiti kuṭajam avalokayati, tadā manyate nūnaṃ mām ayaṃ sarvato hi hatabhāgadheyām
+            apahasatīti tata āha -- he kuṭaja ! kim iti avāṅmukhaṃ kṛtvā hasyate | kusumito 'pi
+            pradeśo 'vaśyaṃ dharābhimukhaḥ, yaś ca sannihita eva param apahasati, so 'pi avāṅmukha
+            eva | ataś ca tvayi upacīyamāne bahutaravyathā | te duḥsahasya praṇāma eva śobhana
+            iti kākuḥ | ata eva īpsitatamatvābhāvaḥ sambandhaṣaṣṭhyā vyajyate | kiṃkusumair iti
+            kutsitaiḥ parātaṅkavitaraṇacaturaiḥ puṣpair avahasyate iti sotprāsaṃ kākvā dhvanito
+            'rthaḥ || GhkV_12 ||</p>
+         
+         
+         <p class="bold">
+            taruvara vinatāsmi te sadāhaṃ hṛdayaṃ me prakaroṣi kiṃ sadāham /<br />
+            tava puṣpanirīkṣitāpadehaṃ visṛjeyaṃ sahasaiva nīpa deham // Ghk_13 //
+            </p>
+         
+         
+         <p>  he nīpābhidhāna taruśrṣṭha ! tava sarvakālam ahaṃ praṇatā, tat kim adya mama hṛdayaṃ
+            dāhayuktaṃ prakarṣeṇa karoṣi | anye 'pi taravo na evaṃ māṃ dahanti yathā tvaṃ sarvakālam
+            abhiṣṭuto 'pi, sarvathā ayaṃ bhāgadheyaviparyayaḥ | athaca tava sadā ahaṃ praṇatā
+            yena īdṛśaḥ upakāras tvat sambhāvyate, tvadīyapuṣpair nirīkṣitā dehaṃ visṛjeyam |
+            kīdṛśam | apade 'kāṇḍa eva īhā dūtīvisarjanatatpratipālanamudhāvinodanaprabhṛtayo
+            yasya tam | ahaṃ tāvat tādṛgupakāribhavadīyakusumāvalokane 'pi asamarthā, tāni tu
+            yadi mahāpuruṣatayā evaṃvidhām avasthāṃ prāptāṃ mām avalokeyuḥ, tat ciravāñchitajīvitatyāgamanorathena
+            api jhagiti yujyeya | atas tava sadā natā asmi | na ca evaṃ sambhāvanīyam -- ahito
+            hṛdayadāhakāri kathaṃ praṇamyate iti yataḥ kiṃ tvaṃ hṛdayaṃ sadāhaṃ karoṣi, kākvā
+            na evam ity arthaḥ | nijena eva virahahutavahena mama dahyate hṛdayaṃ, tad idānīṃ
+            dāhakena api dagdhasya kiṃ dahyate iti sambandhaḥ | yadi tu ahaṃśabdapaunaruktyaṃ
+            sahṛdayāḥ kṣamante tadā evaṃ vyākhyā -- āpade viṣamavipadvahanārtham eva kevalaṃ yo
+            mama dehas taṃ tyajeyam iti | tathā nīpa taruvara tava natā asmi | evam uktvā duḥsahatayā
+            dvitīyavākyam āha -- dāhayuktaṃ mama hṛdayaṃ prakaroṣi, punar api vilāpavaśāt, vicinitya
+            brūte -- kiṃ yathā adya, tathā sarvakālaṃ tvatpuṣpekṣitā aham akāṇḍa eva dehaṃ tyajeyaṃ,
+            kākvā naivety arthaḥ || GhkV_13 ||</p>
+         
+         
+         <p class="bold">
+            kusumair upaśobhitāṃ sitair ghanamuktāmbulavaprahāsitaiḥ /<br />
+            madhunaḥ samavekṣya kālatāṃ bhramaraś cumbati yūthikālatām // Ghk_14 //
+            </p>
+         
+         
+         <p>  ayaṃ bhramaraḥ bhramaṇaśīlaḥ yūthikaṃ cumbati, madīyapriyatamas tu pathika ekatra
+            eva kvacit sthito mama nāma api na avekṣate iti | tāṃ kīdṛśīṃ yūthikāṃ | sitair baddhair
+            na tāvat vikasitaiḥ, tato 'nantaraṃ tu ghanair muktās tyaktā ye 'mbulavās taiḥ karaṇabhūtaiḥ
+            prahāsitaiḥ kusumair upalakṣitām | athaca ghanā muktāphalasadṛśā ye jalakaṇāḥ tatkṛtāni
+            yāni prahāsitāni prahāsitatvotpāditāni nijacchāyāsphuraṇāni yaiḥ pītāni api santi
+            śuklāni jātāni kusumāni | kiṃ kṛtvā madhuno makarandasya kālatām atyantaparipākarasotpannāṃ
+            vilokya | athaca yo nāyakaś cirāt kāntām upabhuṅkte, so 'pi madhunaḥ pānagoṣṭhyāḥ
+            kālatām avasaraprāptim avalokya paricumbati | kāla iti matvarthīyākārānto 'pi, tathā
+            sā api kāntā dhammillapuṣpair ghanair muktāphalair virahasmaraṇānandādikotpannaiś
+            ca ambulavair bāṣpair harṣacāṭvādijaiḥ prahasitaiḥ sitair baddhair vyāmiśrarūpatayā
+            sthitaiḥ parasparasaṃśliṣṭair upalakṣitā bhavati kilakiñcitaceṣṭālaṅkārayoginī bhavati
+            viśeṣataḥ pānagoṣṭhyavasare | yad uktaṃ
+            "śuṣkaṃ muhuḥ praruditaṃ kṣaṇam aśrupātaḥ
+            krodho muhur hasitam āśu ..."
+            ityādi | ata īdṛśī kadā ahaṃ priyeṇa paricumbyamānā bhuyāsam ity arthaḥ || GhkV_14
+            ||</p>
+         
+         
+         <p class="bold">
+            nicitaṃ kham upetya nīradaiḥ priyahīnahṛdayāvanīradaiḥ /<br />
+            salilair vihataṃ rajaḥ kṣitau ravicandrāv api nopalakṣitau // Ghk_15 //
+            </p>
+         
+         
+         <p>  idaṃ nāyikavisṛṣṭāyāḥ pratidūtyā vacanam | mā tvam adhṛtiṃ kārṣīḥ, mārgavaiṣamyād
+            eva asāv iyantaṃ kālaṃ na āgataḥ | tathāhi nīradair meghair upetya sarvatodikkaṃ saṅghaṭya
+            khaṃ gaganaṃ nicitam | kīdṛśaiḥ priyaiḥ priyābhiś ca ye vihīnā viyuktās teṣāṃ hṛdayāvanīṃ
+            manobhūmīṃ radanti vilikhanti | evaṃ tāvat sarvatodikkaṃ duṣprekṣaṃ kṣitau bhūmau
+            rajaḥ salilair vihatam | āstāṃ tāvad anyat salilena abhibhūyate rajomātram api na
+            avaśiṣṭam ity arthaḥ || GhkV_15 ||</p>
+         
+         
+         <p class="bold">
+            haṃsā nadanmeghabhayād dravanti niśāmukhāny adya na candravanti /<br />
+            navāmbumattāḥ śikhino nadanti meghāgame kundasamānadanti // Ghk_16 //
+            </p>
+         
+         
+         <p>  he kundakusumasadṛśadaśane ! parivarjitatāmbūlādisambhoge ! pratidūtyāś caiva nāyikāṃ
+            prati uktiḥ -- evaṃ nāma meghāḥ śabdāyante yat haṃsā api palāyante, rātrāv api na
+            sañcaraṇaṃ yujyate yataś candrayuktāni tanmukhāni na bhavanti, ete ca śikhino mayūrā
+            udgatapraharṣavaśāt śabdāyante | etena tat pratyuktaṃ yat tu nāyikayā pūrvam uktaṃ</p>
+         
+         
+         <p>  "haṃsapaṅktir api nātha samprati"</p>
+         
+         
+         <p>ityādinā mārgasaukumāryaṃ, tad eva hi pratyuta raṇaraṇakapradīpakaṃ mārgasaṅkaṭatāṃ
+            karotīty arthaḥ || GhkV_16 ||</p>
+         
+         
+         <p class="bold">
+            meghāvṛttaṃ niśi na bhāti nabho vitāraṃ nidrābhyupaiti ca hariṃ śubhasevitāram /<br />
+            sendrayudhaś ca jalado 'dya rasann ibhānāṃ saṃrambham āvahati bhūdharasannibhānām
+            // Ghk_17 //
+            </p>
+         
+         
+         <p>  rātrisamaye 'pi gamanāgamane na yujyete, yato rātrisamaye vitāraṇ vigatatārāpaṭalaṃ
+            nabho na bhāti yato meghāvṛttam | yac ca tayā uktaṃ "pathikapāmsulo 'sau mām upekṣate"
+            iti, tad api na yuktaṃ; śubhasevitāram akaluṣacaritam api bhagavantaṃ hariṃ nidrā
+            abhyupaiti aśaknuvatī virahaṃ soḍhum nāyakam abhisarati pratyutety arthaḥ | indrāyudhayuktajalado
+            rasan śabdāyamāna ibhānāṃ kariṇāṃ parvatasadṛśānāṃ saṃrambhaṃ saṃrabdhatām āvahati
+            samantāt darśayati | yaḥ kila atisukumāratayā suprasiddho jaladaḥ, so 'pi anyānullaṅghanīyena
+            śakrāyudhena vajreṇa sātiśayabhīṣaṇaḥ sādinā hatānāṃ kariṇāṃ sādṛśyam udvahatīty arthaḥ
+            | athavā meghaḥ śabdāyamāna ibhānāṃ kariṇāṃ parvatasadṛśānāṃ saṃrambhaṃ janayati pratigarjanaśaṅkayeti
+            te 'pi kṣubhitāḥ sampannā iti sarvathā susaṅkaṭāḥ panthānaḥ || GhkV_17 ||</p>
+         
+         
+         <p class="bold">
+            sataḍijjaladārpitaṃ nageṣu nadadambhodharabhītapannageṣu /<br />
+            paridhīraravaṃ jalaṃ darīṣu prapaty adbhutarūpasundarīṣu // Ghk_18 //
+            </p>
+         
+         
+         <p>  pratidūtyā eva iyam uktir nāyikā yadā evam āha nanu aham eva tatra yāsyāmīti, tadā
+            tāṃ prati | darīṣu guhāsu api antaḥsthitā yā adbhutarūpasundaryās tāsu api upari jalaṃ
+            patatīti vyadhikaraṇasaptamyau | kīdṛk jalam | saha vidyudbhir jalam dadati ye, tair
+            meghair arpitaṃ, na te jalamātraṃ dadati, yāvat vidyuto 'pi atibhīṣaṇā arpayantīti
+            | kva | nageṣu giriṣu garjanmeghatrastasarpeṣu | aparasya ye trāsadāyinas te 'pi yato
+            jaladhararasitāt trasyanti, tatra kā vārtā bhavādṛśīnāṃ mālatīkusumasukumāramanasām
+            iti tātparyārthaḥ | anyac ca kiṃbhūtaṃ jalaṃ | darīṣu antaḥ paritaḥ samantāt dhīro
+            gambhīro ravo yasya, kandarāsu antaḥ pratiśabdena dviguṇībhūta ity arthaḥ | tena eṣā
+            api āśā na asti -- toyadajalapaṭalaṃ gaganāt nipatat kvacana guhāmukhe 'tivāhya punar
+            api gamiṣyāma iti || GhkV_18 ||</p>
+         
+         
+         <p class="bold">
+            kṣipraṃ prasādayati samprati ko 'pi tāni kāntāmukhāni rativigrahakopitāni /<br />
+            utkaṇṭhayanti pathikāṇ jaladāḥ svanantaḥ śoko vivardhati ca tadvinatāsv anantaḥ //
+            Ghk_19 //
+            </p>
+         
+         
+         <p>  evam etābhir uktibhiḥ priyatamāgamanaṃ durghaṭam iti avagate āsthābandho nāyikāyā
+            vijāghaṭītīty abhiprayeṇa sā eva punar āśvāsasampādanāya asya mādhyasthye viśeṣānuddeśāt
+            tadīyahṛdayaśokaśikhiśamanaśaktām uktim abhidhatte -- ko 'pi anirvaṇanīyapuṇyasambhārabṛṃhitaḥ
+            samprati jaladasamaye tāni kāntāmukhāni niratiśayasaundaryavanti rativigraheṇa praṇayakupitena
+            sañjātaroṣāṇi tathā yāni tadīyaviyogajanitapāṇḍimnā adya āsādhāraṇadharmasundarāṇi
+            kṣipram anāyāsena eva prasādayati tvām avaśyaṃ prasādayatīti yāvat | nanu na adyāpi
+            asāv āgatas tat katham etat | āha śabdāyamānā hi jaladharāḥ pathikān raṇaraṇakavataḥ
+            kurvanti niścitaṃ dinād dinam upacīyamānajaladharadhvānākarṇanena parivardhitotkaṇṭhaḥ
+            priyatamas tāvad āgacchatīti yāvat | nanu priyatamāḥ kathaṃ śīghraṃ prasīdeyuḥ | āha
+            tadvanitāsu pathikadayitāsu tathā śoko vivardhati vivṛddhavad ācarati yathā anantaḥ
+            sampadyate | cakāreṇa evaṃ dhvanyate tad eva rasitaṃ tāsāṃ śokavivṛddhau kāraṇam iti
+            || GhkV_19 ||</p>
+         
+         
+         <p>atra kecid iti paṭhanti</p>
+         
+         
+         <p class="bold">
+            tāsām ṛtuḥ saphala eva hi yā dineṣu sendrāyudhāmbudharagarjitadurdineṣu /<br />
+            ratyutsavaṃ priyatamaiḥ saha mānayanti meghāgamaṃ priyasakhi śvasamānayanti // Ghk_20
+            //
+            </p>
+         
+         
+         <p>  ayaṃ śloko 'tratya iva na lakṣyate, pustakeṣu kena kāraṇena gata iti na vidmaḥ |
+            tathāhi pūrvaślokaucityaṃ tāvad arthena na bhajate | tāsām eva saphala ṛtur varṣākhyo
+            yāti yā sendrāyudhair ambudair durdineṣu priyatamaiḥ saha ratyutsavaṃ mānayanti |
+            anyathā kila he priyasakhi ! meghāgamaṃ śvasamāḥ sārameyaprāyā api nayanti -- iti
+            vyākhyāyāṃ prāktane nave (?) yamakam eva durlabham | dinadurdinaśabdābhyām arthapaunaruktyam
+            api durdharam | yān astaṃ gacchann ino mārtaṇḍo yeṣu dineṣu -- ity api vyākhyāne tāsām
+            iti apekṣito yadartho durupapādaḥ | tāsām iti tu anapekṣitayadarthe padavyaṅgye dhvanau
+            vyākhyāyamāne uttaravākyaṃ khaṇḍaṃ gacchet caramārdhe cānyatheti (?) madhye śāstranyāyopacitaḥ
+            kāvyāmṛtakāluṣaikakāraṇam adhyāhāraḥ kalpyaḥ śvasamā meghāgamaṃ nayantīti param anaucityam
+            | na ca evaṃvidhena anaucityena kulakaparisamāptiḥ kriyamāṇā sahṛdayacetaḥsu romanthād
+            ṛte kiñcit vidadhyāt | śvasatīti śvasas tadvad ācaratīti kvip tato 'pi tācchīlyādivivakṣāyāṃ
+            cānaś | tataḥ priyasakhiśabdena sambandhaḥ prāg eva vā | tathāpi na kiñcid arthasya
+            pauṣkalyam, kaṣṭakalpanāyasaṃ sat | kva | priyasakhiṣv iti saptamyā samāsa iti bahuvacanānte
+            'pi na kaścit kṛtaḥ sambandhaḥ | anyathāpāṭhakaraṇam api kleśamātraphalam eva | kiñca
+            atra kartā mahākaviḥ kālidāsa iti anuśrutam asmābhiḥ | na ca asya kāvye tṛṇamātram
+            api kalaṅkapātram utprekṣitavanto manorathe'; pi supte 'pi sahṛdayāḥ | tasmāt prāktana
+            eva parisamāptiślokaḥ | sa ca sakhyā pratidūtībhūtayā nāyikāyā āsthābandhadārḍhyotpādanāya
+            yujyate | utpannasamāśvāsā hi hṛdayaṃ sthāpayantī vipralambhayituṃ śakyā syāt
+            "āsthābandhaḥ kusumasadṛśaṃ prāyaśo hy aṅganānāṃ /
+            sadyaḥpāti praṇayi hṛdayaṃ viprayoge ruṇaddhi // (Meghadūta 10) //"
+            iti dṛṣṭyā | tena asya parisamāptidhurodvahasya api durandharatvam avikalam eveti
+            | tad idaṃ yuktam ayuktaṃ veti svayam eva vidāṃ kuruta sahṛdayāḥ || GhkV_20 ||</p>
+         
+         
+         <p class="bold">
+            bhāvānuraktalalanāsurataiḥ śapeyam ālabhya cāmbu tṛṣitaḥ karakośapeyam /<br />
+            jīyeya yena kavinā yamakaiḥ pareṇa tasmai vaheyam udakaṃ ghaṭakarpareṇa // Ghk_21
+            //
+            </p>
+         
+         
+         <p>  kavinā auddhatyaprakaṭanāya sahṛdayajanamānasarañjanāya pratijñā iyam upanibadhyate
+            | sañjātapipāsaḥ karakośena hastasampuṭena peyaṃ pānārhaṃ tāvad avasaraprāptam api
+            jalam atyantābhilāṣautsukyapātram adrohayogyam api pratyuta ālabhya drugdhvā sahajapremapraṇayinīsambhogarasaiś
+            ca śapeyam | atra śarīrasparśanākhyasya upālambhasya na atīva spaṣṭateti "śapa upalāmbhane"
+            (Vā-911) iti ātmanepadābhāvaḥ | yena pareṇa kavinā yamakair jīyeya, tasmai ghaṭakarpareṇa
+            jalaṃ vaheyam | karparaśabdena sātiśayakleśasamudvahatvam ātmani ucyate | atra ca
+            yamakānāṃ vipralambhaśṛṅgārarasātiśayavighnabhūtānām api mayā tathā apṛthagyatnanirvartyatayā
+            nibandhaḥ kṛtaḥ, yena pratyuta rasaparipoṣakaviśiṣṭavyākhyābhidhāyipadaparamparālābho
+            yamakaiḥ sampannaḥ | tad uktaṃ</p>
+         
+         
+         <p>  "rasākṣiptatayā yasya bandhaḥ śakyakriyo bhavet /
+            apṛthagyatnanirvartyaḥ so 'laṅkāro dhvanau mataḥ // (Dhv- 2.16) //"</p>
+         
+         
+         <p>iti | etayā ca pratijñayā etat parihṛtaṃ</p>
+         
+         
+         <p>  "dhvanyātmabhūte śṛṅgāre yamakādinibandhanam /
+            śaktāv api pramāditvaṃ vipralambhe viśeṣataḥ // (Dhv- 2.15) //"</p>
+         
+         
+         <p>iti | na hi iyaṃ rājājñā, api tu rasabandhavighnakāritvapramādaḥ parihāryaḥ | atra
+            ca pratyuta ātmaparipoṣakatvam eva uktena prakāreṇa yamakānām iti | kavīnāṃ śaktir
+            eva balīyasī, sā eva lokottarā vyutpattir iti abhidhīyate; na tu anyā kaviśakter vyutpattir
+            nāma kācit | yad uktaṃ mayā eva raurave vicāre</p>
+         
+         
+         <p>
+              "na vai doṣā doṣā na ca khalu guṇā eva ca guṇā<br />
+              nibandhuḥ svātantryaṃ sapadi guṇadoṣān vibhajate /<br />
+              iyaṃ sā vaidagdhī prakṛtimadhurā tasya sukaver<br />
+              yad atrotpādād apy atisubhagabhāvaḥ pariṇataḥ //"
+            </p>
+         
+         
+         <p>iti śivam || GhkV_21 ||</p>
+         
+         
+         <p>
+            pramāṇapadamīmāṃsāgaganaṃ vai virājate /<br />
+            samuccalati yatspṛṣṭaḥ sāhityāmṛtasāgaraḥ // 1 //
+            </p>
+         
+         
+         <p>
+            kavīndor indurājasya te maccittavikāsakāḥ /<br />
+            bodhāṃśavo vigāhantaṃ bhūrbhuvaḥsvastrayīm api // 2 //
+            </p>
+         
+         
+         <p>
+            tatparāmarśadhavalamanaḥkokanado manāk /<br />
+            kāvye 'bhinavaguptākhyo vivṛtiṃ samarīracat // 3 //
+            </p>
+         
+         
+         <p>|| iti śrīmadabhinavaguptapādaracitavivṛtyupetaṃ ghaṭakarparakāvyaṃ samāptam ||</p>
+         
+         </div>
+   </body>
+</html>

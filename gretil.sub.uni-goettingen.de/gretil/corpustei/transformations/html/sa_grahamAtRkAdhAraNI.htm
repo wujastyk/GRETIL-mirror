@@ -1,0 +1,358 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Grahamātṛkādhāraṇī (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Grahamātṛkādhāraṇī</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_grahamAtRkAdhAraNI.xml">sa_grahamAtRkAdhAraNI.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Klaus Wille</p>
+      <p class="noindent"><b>Contribution: </b>Klaus Wille</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>: Āryagrahamātṛkā nāma dhāraṇī, Dhīḥ 39 (2005), pp. 169-176. = Gmdh.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="hi">highlighted text</span></li>
+         <li><span class="note">remarks</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/grahmdhu.htm">grahmdhu.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Grahamatrkanamadharani
+            <br />Based on the edition: Āryagrahamātṛkā nāma dhāraṇī, Dhīḥ 39 (2005), pp. 169-176. =
+            Gmdh
+            <br />
+            <br />Input by Klaus Wille (Göttingen)
+            <br />
+            <br />BOLD for references to printed edition
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>Grahamātṛkānāmadhāraṇī</p>
+         
+         <span class="note"><span class="bold">Gmdh 171</span></span>
+         
+         <p>āryagrahamātṛkā nāma dhāraṇī</p>
+         
+         
+         <p>oṃ namo bhagavatyai āryagrahamātṛkāyai /</p>
+         
+         
+         <p>evaṃ mayā śrutam ekasmin samaye bhagavān aḍakavatyāṃ mahānagaryām anekadevanāgayakṣarākṣasagandharvāsuragaruḍakinnaramahoragāpasmārādityasomāṅgārabudhabṛhaspatiśukraśaniścararāhuketvādibhiś
+            cāṣṭāviṃśatinakṣatrādibhiḥ stūyamāno mahāvajrasamayālaṅkāravyūhādhiṣṭhānādhiṣṭhite
+            siṃhāsane viharati sma / anekair bodhisattvasahasraiḥ sārdham* / tadyathā - vajrapāṇinā
+            ca nāma bodhisattvena mahāsattvena / vajracaṇḍena ca nāma bodhisattvena mahāsattvena
+            / vajrasenena ca nāma bodhisattvena mahāsattvena / vajravināyakena ca nāma bodhisattvena
+            mahāsattvena / vajracāpahastena ca nāma bodhisattvena mahāsattvena / vajravikurvitena
+            ca nāma bodhisattvena mahāsattvena / vajrādhipatinā ca nāma bodhisattvena mahāsattvena
+            / vajrālaṅkāreṇa ca nāma bodhisattvena mahāsattvena / vajravikrameṇa ca nāma bodhisattvena
+            mahāsattvena / jyotivajreṇa ca nāma bodhisattvena mahāsattvena / avalokiteśvareṇa
+            ca nāma bodhisattvena mahāsattvena / samantabhadreṇa ca nāma bodhisattvena mahāsattvena
+            / samantāvalokiteśvareṇa ca nāma bodhisattvena mahāsattvena / lokaśriyā ca nāma bodhisattvena
+            mahāsattvena / padmaketunā ca nāma bodhisattvena mahāsattvena / ratnaketunā ca nāma
+            bodhisattvena mahāsattvena / vikasitavaktreṇa ca nāma bodhisattvena mahāsattvena /
+            padmagarbheṇa ca nāma bodhisattvena mahāsattvena / padmanetreṇa ca nāma bodhisattvena
+            mahāsattvena / mañjuśriyā ca nāma bodhisattvena mahāsattvena / maitreyeṇa ca nāma
+            bodhisattvena mahāsattvena /</p>
+         
+         
+         <p>evaṃ pramukhair bodhisattvair mahāsattvaiḥ śatasahasraiḥ sārdhaṃ parivṛtaḥ puraskṛto
+            bhagavān dharmaṃ deśayati sma / ādau kalyāṇaṃ madhye kalyāṇaṃ paryavasāne kalyāṇaṃ
+            svarthaṃ (<span class="bold">Gmdh 172</span>) suvyañjanaṃ kevalaṃ paripūrṇaṃ pariśuddhaparyavadātaṃ brahmacaryaṃ saṃprakāśayati
+            sma / cintāmaṇimahāvyūhālaṅkāraṃ nāma dharmaparyāyaṃ deśayati sma / atha khalu vajrapāṇir
+            bodhisattvo mahāsattvas tat parṣanmaṇḍalam avalokyāsanād utthāya svaṛddhyādhiṣṭhānena
+            bhagavantam anekaśatasahasraṃ pradakṣiṇīkṛtya praṇamya purato niṣadya sagarveṇa paryaṅkam
+            ābhujya līlayā tat parṣanmaṇḍalam avalokya vajrāñjalī svahṛdaye pratiṣṭhāpya bhagavantam
+            etad avocat* / grahāś ca bhagavann ugrānugrarūpāś ca raudrāraudrarūpās ca krūrākrūrarūpāś
+            ca sattvān viheṭhayanti / keṣāñcit prāṇam apaharanti keṣāñcid upadravāś ca kurvanti
+            keṣāñcid ojohārāṃś ca kurvanti keṣāñcid dravyam apaharanti keṣāñcid dīrghāyuṣsattvānām
+            alpāyuṣaṃ kurvanti / evaṃ sarvasattvānām upadraveṇa vāhayanti / tad deśayatu bhagavan
+            dharmaparyāyaṃ yena sarvasattvānāṃ sarvopadravebhyo rakṣā bhaviṣyati /</p>
+         
+         
+         <p>bhagavān āha - sādhu sādhu vajrapāṇe yas tvaṃ sarvasattvānām arthāya hitāya sukhāya
+            kṛpācittam utpādya mahāguhyātiguhyataraṃ tathāgataṃ samyaksaṃbuddhaṃ paripṛcchasi
+            / tac chṛṇu sādhu ca suṣṭhu ca manasi kuru bhāṣiṣye 'haṃ te / grahāṇām ugrarūpāṇāṃ
+            krūrātibhīṣaṇamukhānāṃ mahāguhyātiguhyataraṃ divyapūjām arghaṃ ca jāpañ ca dhūpañ
+            ca -</p>
+         
+         
+         <p>
+            yathānuvarṇabhedena yathā tuṣyanti te grahāḥ /<br />
+            pūjitāḥ pratipūjyante nirdahante yam ānitaḥ // 1 //
+            </p>
+         
+         
+         <p>
+            devāś cāpy asurāś caiva kinnarāś ca mahoragāḥ /<br />
+            yakṣāś ca rākṣasāś caiva manuṣāś caivāmānuṣāḥ // 2 //
+            </p>
+         
+         
+         <p>
+            śamayanti ca kruddhāś ca mahānugrāś ca tejasā /<br />
+            pūjāṃ teṣāṃ pravakṣāmi mantrāṃś cāpi yathākramam* // 3 //
+            </p>
+         
+         
+         <p>atha khalu bhagavāñ chākyamuniḥ samyaksaṃbuddhaḥ svahṛdayāt karuṇāvikrīḍitaṃ nāma
+            raśmijvālaṃ niścārya grahāṇāṃ mūrdhni praveśayati sma / atha tatkṣaṇād eva te sarve
+            ādityādayo grahā utthāya bhagavantaṃ śākyamuniṃ tathāgatam arhantaṃ samyaksaṃbuddhaṃ
+            sarvābhir divyapūjābhiḥ pūjayitvā praṇamya jānubhir nipatya kṛtāñjalipuṭā bhūtvā bhagavantam
+            etad avocan*</p>
+         
+         <span class="note"><span class="bold">Gmdh 173</span></span>
+         
+         <p>anugṛhītā vayaṃ bhagavatā tathāgatenārhato samyaksaṃbuddhena tad deśayatu bhagavan
+            tādṛśaṃ dharmaparyāyaṃ yena vayaṃ sāmagrībhūtasya dharmabhāṇakasya rakṣāṃ kuryāmaḥ
+            / guptiṃ paritrāṇaṃ parigrahaṃ paripālanaṃ śāntiṃ svastyayanaṃ daṇḍaparihāraṃ śastraparihāraṃ
+            viṣadūṣaṇaṃ viṣanāśanaṃ sīmābandhanaṃ dharaṇībandhaṃ ca kuryāmaḥ /</p>
+         
+         
+         <p>atha khalu bhagavāñ chākyamunis tathāgato 'rhan samyaksaṃbuddho grahāṇāṃ mantrapūjāñ
+            ca bhāṣate sma / oṃ megholkāya svāhā / oṃ śītāṃśave svāhā / oṃ raktāṅgakumārāya svāhā
+            / oṃ budhāya svāhā / oṃ bṛhaspataye svāhā / oṃ asurottamāya svāhā / oṃ kṛṣṇavarṇāya
+            svāhā / oṃ rāhave svāhā / oṃ jyotiḥ ketave svāhā / yathānukramabhedena diśāś copadiśāś
+            ca gandhamaṇḍalakaṃ padmamadhye dvādaśāṅgulapramāṇaṃ caturasraṃ caturdvāraṃ catustoraṇaśobhitaṃ
+            kūṭāgāraṃ cakrasamanvitaṃ kartavyam* / tanmadhye sitakamalopari kuṅkumagandhamaṇḍalake
+            cintayed devaṃ bhāskaraṃ tāpasarūpadharaṃ bhujābhyāṃ sitakamaladharaṃ raktavarṇaṃ
+            sahasrasūryakoṭisamatejomālinaṃ vigraham* / asya deyaṃ kṣīrabhojanaṃ kundurudhūpam*
+            / oṃ megholkāya svāhā /</p>
+         
+         
+         <p>pūrvasyāṃ diśi raktakamalopari priyaṅgugandhamaṇḍalake somo brāhmaṇa iti jñeyaṃ sitavarṇaṃ
+            jaṭāmukuṭapuṣpāvasaktaṃ bhojanaghṛtodanaṃ śrīvāsadhūpaḥ / oṃ candrāmṛtavikramāya namaḥ
+            / śītāṃśave svāhā /</p>
+         
+         
+         <p>dakṣiṇasyāṃ diśi śuklakamalopari candanagandhamaṇḍalake bhikṣurūpo maṅgalo raktavarṇo
+            ratnamakuṭo vāme śakti dakṣiṇe varadahasto bhojanam asya kṣīrabhojanaṃ bhāṣabhaktaṃ
+            vā gugguladhūpaḥ / oṃ raktāṅgārasojjvalakumārāya namaḥ / aṅgārāya svāhā /</p>
+         
+         
+         <p>paścimāyām diśi raktapadmopari kṛṣṇāgarugandhamaṇḍalake brahmacārī budhaḥ syāt pītavarṇo
+            raktaśmaśruḥ akṣasūtrakamaṇḍaludharaḥ / bhojanaṃ mudrabhāṣakṛṣaraḥ / dhūpo gandharasaḥ
+            / oṃ rājaputrapītavarṇāya namaḥ / budhāya svāhā /</p>
+         
+         
+         <p>uttarasyāṃ diśi sitakamalopari devadārugandhamaṇḍalake parivrājako gurus taptakāñcanavarṇābho
+            raktaśmaśruḥ akṣasūtrakamaṇḍaludharaḥ / asya deyaṃ dadhibhaktodanakṣīraṃ vā madhudhṛtadhūpaḥ
+            / oṃ lohitavarṇanigamāya namaḥ bhogāspadāya svāhā /</p>
+         
+         <span class="note"><span class="bold">Gmdh 174</span></span>
+         
+         <p>āgneyāṃ diśi raktapadmopari candanagandhamaṇḍalake śukrapāśupatadhāri gokṣīravarṇadhavalāmbho
+            jaṭāmukutākṣasūtrakamaṇḍaludharaḥ / asya deyaṃ kṣīrabhojanaṃ karpūradhūpaḥ / oṃ namaḥ
+            śukrādhipataye asurottamāya śuddhavigrahe svāhā /</p>
+         
+         
+         <p>nairṛtyāṃ diśi sitapaṅkajopari nīlacandanagandhamaṇḍalake śaniścaro kṛṣṇavarṇaphaṇabhṛtkṣapaṇako
+            jñeyaḥ bījajaṭāmukuṭaśmaśruḥ / akṣasūtrakṣikṣirikādharo bhojanam asya bhāṣabhaktakṛṣaraḥ
+            / dhūpo gandharasaḥ / oṃ nīlavarṇasannibhāya namaḥ / kṛṣṇaśaniścarāya svāhā /</p>
+         
+         
+         <p>vāyavyāṃ diśi raktāmbhojopari tagarādigandhamaṇḍalake kāpāliko rāhu rājāvartanibho
+            'rdhadeho ravirathabhayānakalocanayugo daṃṣṭrākarālo bhṛkuṭīkṛtalalāṭapañcavarṇaḥ
+            meghamadhyagato bhujābhyāṃ candrasūryakamalābhinayasthitaḥ / asya deyaṃ bhāṣāmiṣabhojanaṃ
+            tilakṛṣaro vā vilvapatradhūpaḥ / oṃ vikṛtavadanarudhirāśin rāho bhṛṅgāñjanasannibhāya
+            namaḥ / amṛtapriyāya svāhā /</p>
+         
+         
+         <p>aiśānyāṃ diśi raktasaroruhopari spṛkkāgandhamaṇḍalake cāṇḍālaketur bhavet* / dhūmravarṇaḥ
+            kṛtāñjalir nāgākṛtiḥ svapucchabhṛt* / asya deyaṃ bhojanaṃ dhṛtapūrakaṃ sajjaraso dhūpaḥ
+            / oṃ dhūmravarṇasannibhāya jyotiṣketave namaḥ svāhā /</p>
+         
+         
+         <p>maṇḍalasya pūrvadvāre buddho bhagavān dakṣiṇadvāre vajrapāṇiḥ paścimadvāre lokanāthaḥ
+            uttaradvāre mañjuśrīkumāraḥ / pūrvottarakoṇe sarve grahāḥ pūrvadakṣiṇakoṇe sarve rāśinakṣatrāḥ
+            dakṣiṇapaścimakoṇe sarvopadravāḥ paścimottarakoṇe bhaṭṭārikā mahāvidyā / śvetā nīlāruṇatrimukhā
+            hastadvayena vyākhyānamudrā dakṣiṇe ratnachatrā vāme pāśaśaktidharā ratnamukuṭīvajraparyaṅkopaviṣṭā
+            candāsanasamāsīnā ṣoḍaśavarṣākārā sarvālaṅkārabhūṣitā /</p>
+         
+         
+         <p>bāhyapūrvadvāre dhṛtarāṣṭrasya dadhibhaktaṃ dakṣiṇe virūḍhakasya dadhimāṣabhaktaṃ
+            paścime virūpākṣasya kṣīrabhatam uttare kuberasya dadhimāṣabhaktaṃ sindūramastakam*
+            / yathānukramabhedena puṣpādipūjā kartavyā / pratyekam dīpo deyaḥ / dhṛtamadhubhyāṃ
+            śaṃkhaṃ pūrayitvā pañcaratnaṃ prakṣipyārgho deyaḥ / sarveṣāṃ mukhapaṭo deyam iti /
+            evaṃ varṇabhujāsanamudrācihnāni bhavanti /</p>
+         
+         <span class="note"><span class="bold">Gmdh 175</span></span>
+         
+         <p>oṃ namaḥ sarvatathāgatebhyaḥ sarvāśāparipūrakebhyaḥ sarvathā bhaktine svāhā / ratnatrayasya
+            mantraṃ evaṃ pratyekaṃ japet saptasaptāṣṭaśataṃ mantram ekaikaśaḥ / evaṃ pūjitāḥ sarve
+            grahā vividharūpiṇo dadati vipulān bhogān saubhāgyān* janayanty api /</p>
+         
+         
+         <p>imāni vajrapāṇe navagrahāṇāṃ hṛdayāni paṭhitasiddhāni tathānukramabhedena gandhamaṇḍalakaṃ
+            kṛtvā dvādaśāṅgulimadhye pūjayitavyāni tāmramṛṇmayarūpyādibhojanena arghaṃ datvāṣṭottaraśatavārān
+            mantraṃ japet* ekaikaśaḥ / paścāt punar vajrapāṇe gṛhamātṛkānāma dhāraṇīmantrapadāni
+            saptavārānuccārayitavyāni / tatas te ādityādayo rakṣāvaraṇaguptiṃ kariṣyanti / dāridryaṃ
+            duḥkhaṃ mocayiṣyanti gatāyuṣaṃ dīrghāyuṣaṃ kariṣyanti /</p>
+         
+         
+         <p>yaś ca khalu punar vajrapāṇe bhikṣubhikṣuṇyupāsakopāsikān ye vā sattvajātīyā yeṣāṃ
+            karṇapuṭe śabdaṃ nipatiṣyanti na teṣām akālamṛtyunā kālaṃ kariṣyanti / yaś ca khalu
+            punar vajrapāṇe grahān maṇḍalamadhye pūjayitvā dine dine saptavārānuccārayiṣyanti
+            / tatra
+            tasya dharmabhāṇakasya sarve grahāḥ sarveṇa sarvāśāṃ paripūrayiṣyanti / tatkulād api
+            dāridryañ ca nāśāyiṣyanti /</p>
+         
+         
+         <p>atha khalu bhagavāñ chākyamuni tathāgataḥ punar api gṛhamātṛkānāma dhāraṇīmantrapadāni
+            bhāṣate sma / oṃ namo ratnatrayāya / oṃ namo buddhāya / oṃ namo dharmāya / oṃ namaḥ
+            saṃghāya / oṃ namo vajradharāya / oṃ namaḥ padmadharāya / oṃ namaḥ kumārāya / oṃ namaḥ
+            sarvagrahāṇāṃ sarvāśāparipūrakāṇām* / oṃ namaḥ nakṣatrāṇām* / oṃ namo dvādaśarāśīnām*
+            / oṃ namaḥ sarvopadravāṇām* / tadyathā -</p>
+         
+         
+         <p>oṃ buddhe 2 śuddhe 2 vajre 2 padme 2 sara 2 prasare 2 smara 2 krīḍa 2 krīḍaya 2 mara
+            2 māraya 2 mardaya 2 stambha 2 stambhaya 2 ghaṭa 2 ghāṭaya 2 mama sarvasattvānāñ ca
+            vighnān* chinda chinda bhinda 2 sarvavighnān nāśanaṃ kuru 2 mama saparivārasya sarvasattvānāñ
+            ca kāryaṃ kṣepaya 2 mama sarvasattvānāñ ca sarvanakṣatragrahapīḍān nivāraya 2 bhagavati
+            śriyaṃ kuru mahāmāyā prasādhaya sarvaduṣṭān nāśaya sarvapāpāni mama saparivārasya
+            sarvasattvānāñ ca rakṣa 2 vajre 2 caṇḍe 2 caṇḍini 2 nuru 2 musu 2 mumu 2 muñca 2 havā
+            have ugre ugratare pūraya bhagavati manorathaṃ mama sarvaparivārasya sarvasattvānāñ
+            ca sarvatathāgatādiṣṭhānādhiṣṭhite svāhā / oṃ svāhā / hūṃ svāhā / hrīḥ svāhā / dhūḥ
+            svāhā / dhīḥ svāhā / oṃ ādityāya svāhā / oṃ somāya svāhā / oṃ dharaṇīsutāya svāhā
+            / oṃ budhāya svāhā / oṃ bṛhaspataye svāhā / oṃ śukrāya svāhā / oṃ śaniścarāya svāhā
+            / oṃ rāhave svāhā / oṃ ketave svāhā / oṃ buddhāya svāhā / oṃ vajrapāṇaye svāhā / oṃ
+            padmadharāya svāhā / oṃ kumārāya svāhā / oṃ sarvagrahāṇāṃ svāhā / oṃ sarvanakṣatrāṇāṃ
+            svāhā / sarvopadravāṇāṃ svāhā / oṃ dvādaśarāśīnāṃ svāhā / oṃ sarvavidye hūṃ 2 phaṭ*
+            svāhā /</p>
+         
+         
+         <p>imāni vajrapāṇe grahamātṛkānāma dhāraṇīmantrapadāni sarvasiddhikarāṇi ca / yac ca
+            khalu punar vajrapāṇe imāni grahamātṛkānāma dhāraṇīmantrapadāni kārtikamāsaśuklapakṣasya
+            saptamīm ārabhyopoṣadhiko bhūtvā yāvac caturdaśīgrahanakṣatrān madhye pūjayitvā dine
+            dine saptavārānuccārayitavyāni / tataḥ pūrṇamāsyām ahorātraṃ vācayet* / tasya navanavativarṣāṇi
+            mṛtyubhayaṃ na bhaviṣyati / ulkāpātagrahanakṣatrapīḍābhayaṃ na bhaviṣyati / jātau
+            jātau jātismaro bhaviṣyati / sarve grahā īpsitaṃ varaṃ dāsyanti /</p>
+         
+         
+         <p>atha te sarve grahāḥ sādhu bhagavann iti kṛtvā praṇamyāntarhitābhūvann iti / idam
+            avocad bhagavān āttamanās te ca bhikṣavas te ca bodhisattvā mahāsattvāḥ sā ca sarvāvatīparṣat
+            sadevamānuṣāsuragaruḍagandharvaś ca loko bhagavato bhāṣitam abhyanandann iti /</p>
+         
+         
+         <p>āryagrahamātṛkānāma dhāraṇī samāptā //</p>
+         
+         </div>
+   </body>
+</html>

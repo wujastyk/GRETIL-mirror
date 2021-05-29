@@ -1,0 +1,754 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Yāmuna: Gītārthasaṃgraha (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Yāmuna: Gītārthasaṃgraha</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_yAmuna-gItArthasaMgraha.xml">sa_yAmuna-gItArthasaMgraha.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Sadanori Ishitobi</p>
+      <p class="noindent"><b>Contribution: </b>Sadanori Ishitobi</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="analysis">analysis</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/vedanta/yamgasau.htm">yamgasau.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Yamuna: Gitarthasangraha
+            <br />
+            <br />Input by Sadanori ISHITOBI
+            <br />
+            <br />ANALYTIC TEXT VERSION (BHELA conventions)
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_1">
+                  svadharmajñānavairāgyasādhyabhaktyekagocaraḥ |<br />
+                  nārāyaṇaḥ paraṃ brahma gītāśāstre samīritaḥ ||
+                   <span class="ref">YGas_1</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sva-dharma-jñāna-vairāgya-sādhya-bhakty-eka-gocaraḥ |
+                  nārāyaṇaḥ paraṃ brahma gītā-śāstre samīritaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_2">
+                  jñānakarmātmike niṣṭhe yogalakṣe susaṃskṛte |<br />
+                  ātmānubhūtisiddhyārthe pūrvaṣaṭkena coditaḥ ||
+                   <span class="ref">YGas_2</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  jñāna-karma-ātmike niṣṭhe yoga-lakṣe su-saṃskṛte |
+                  ātma-anubhūti-siddhya-arthe pūrva-ṣaṭkena coditaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_3">
+                  madhyame bhagavattattvayāthātmyāvāptisiddhaye |<br />
+                  jñānakarmābhinirvartyo bhaktiyogaḥ prakīrtitaḥ ||
+                   <span class="ref">YGas_3</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  madhyame bhagavat-tattva-yāthātmya-avāpti-siddhaye |
+                  jñāna-karma-abhinirvartyo bhakti-yogaḥ prakīrtitaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_4">
+                  pradhānapuruṣavyaktasarveśvaravivecanam |<br />
+                  karma dhīr bhaktir ityādipūrvaśeṣo 'ntimoditaḥ ||
+                   <span class="ref">YGas_4</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  pradhāna-puruṣa-vyakta-sarva-īśvara-vivecanam |
+                  karma dhīr bhaktir ity-ādi-pūrva-śeṣo 'ntima-uditaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_5">
+                  asthānasnehakāruṇyadharmādharmadhiyākulam |<br />
+                  pārthaṃ prapannam uddiśya śāstrāvatraṇaṃ kṛtam ||
+                   <span class="ref">YGas_5</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  asthāna-sneha-kāruṇya-dharma-adharma-dhiyā-kulam |
+                  pārthaṃ prapannam uddiśya śāstra-avatraṇaṃ kṛtam ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_6">
+                  nityātmāsaṅgakarmehagocarā sāṃkhyayogadhīḥ |<br />
+                  dvitīye sthitadhīlakṣyā proktā tanmohaśāntaye ||
+                   <span class="ref">YGas_6</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nitya-ātma-asaṅga-karma-iha-gocarā sāṃkhya-yoga-dhīḥ |
+                  dvitīye sthita-dhī-lakṣyā proktā tan-moha-śāntaye ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_7">
+                  asaktyā lokarakṣāyai guṇeṣv āropya kartrktām |<br />
+                  sarveśvare vā nyasyoktā tṛtīye karmakāryatā ||
+                   <span class="ref">YGas_7</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  asaktyā loka-rakṣāyai guṇeṣv āropya kartrktām |
+                  sarva-īśvare vā nyasya uktā tṛtīye karma-kāryatā ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_8">
+                  prasaṅgāt svasvabhāvoktiḥ karmaṇo 'karmatāsya ca |<br />
+                  bhedā jñānasya māhātmyam caturthādhyāya ucyate ||
+                   <span class="ref">YGas_8</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  prasaṅgāt sva-svabhāva-uktiḥ karmaṇo 'karmata āsya ca |
+                  bhedā jñānasya māhātmyam caturtha-adhyāya ucyate ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_9">
+                  karmayogasya saukaryaṃ śaighryaṃ kāścana tadvidhāḥ |<br />
+                  brahmajñānprakāraś ca pañcamādhyāya ucyate ||
+                   <span class="ref">YGas_9</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  karma-yogasya saukaryaṃ śaighryaṃ kāścana tad-vidhāḥ |
+                  brahma-jñān-prakāraś ca pañcama-adhyāya ucyate ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_10">
+                  yogābhyāsavidhir yogī caturdhā yogasādhanam |<br />
+                  yogasiddhaḥ svayogasya pāramyaṃ ṣaṣṭha ucyate ||
+                   <span class="ref">YGas_10</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yoga-abhyāsa-vidhir yogī caturdhā yoga-sādhanam |
+                  yoga-siddhaḥ sva-yogasya pāramyaṃ ṣaṣṭha ucyate ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_11">
+                  svayāthātmyaṃ prakṛtyāsya tirodhiḥ śaraṇāgatiḥ |<br />
+                  bhaktabhedaḥ prabuddhasya śraiṣṭhyaṃ saptama ucyate ||
+                   <span class="ref">YGas_11</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sva-yāthātmyaṃ prakṛtya āsya tirodhiḥ śaraṇā-gatiḥ |
+                  bhakta-bhedaḥ prabuddhasya śraiṣṭhyaṃ saptama ucyate ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_12">
+                  aiśvaryākṣarayāthātmyaṃ bhagavaccaraṇārthiṇām |<br />
+                  vedyopādeyabhāvānām aṣṭame bhede ucyate ||
+                   <span class="ref">YGas_12</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  aiśvarya-akṣara-yāthātmyaṃ bhagavac-caraṇa-arthiṇām |
+                  vedya-upādeya-bhāvānām aṣṭame bhede ucyate ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_13">
+                  svamāhātmyaṃ manuṣyatve paratvaṃ ca mahātmanām |<br />
+                  viśeṣo navame yogo bhaktirūpaḥ prakīrtitaḥ ||
+                   <span class="ref">YGas_13</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sva-māhātmyaṃ manuṣyatve paratvaṃ ca mahā-ātmanām |
+                  viśeṣo navame yogo bhakti-rūpaḥ prakīrtitaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_14">
+                  svakalyāṇaguṇānantyakṛtsnasvādhīnatāmatiḥ |<br />
+                  bhaktyutpattivivṛdhyarthā vistīrṇā daśamoditā ||
+                   <span class="ref">YGas_14</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sva-kalyāṇa-guṇa-ānantya-kṛtsna-sva-adhīnatā-matiḥ |
+                  bhakty-utpatti-vivṛdhy-arthā vistīrṇā daśama-uditā ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_15">
+                  ekādaśe 'sya yāthātmyasākṣātkārāvalokanam |<br />
+                  dattam uktā vidiprāptyor bhaktyekopāyatā tathā ||
+                   <span class="ref">YGas_15</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ekādaśe 'sya yāthātmya-sākṣātkāra-avalokanam |
+                  dattam uktā vidi-prāptyor bhakty-eka-upāyatā tathā ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_16">
+                  bhaktiśraiṣṭhyam upāyoktir aśaktasyātmaniṣṭhatā |<br />
+                  tatprakārās tv atiprītir bhakte dvādaśa ucyate ||
+                   <span class="ref">YGas_16</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  bhakti-śraiṣṭhyam upāya-uktir aśaktasyā atma-niṣṭhatā |
+                  tat-prakārās tv atiprītir bhakte dvādaśa ucyate ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_17">
+                  dehasvarūpam ātmāptihetur ātmaviśodhanam |<br />
+                  bandhahetur vivekaś ca trayodaśa udīryate ||
+                   <span class="ref">YGas_17</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  deha-svarūpam ātma-āpti-hetur ātma-viśodhanam |
+                  bandha-hetur vivekaś ca trayo-daśa udīryate ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_18">
+                  guṇabandhavidhau teṣāṃ kartṛtvam tannivartanam |<br />
+                  gatitrayasvamūlatvaṃ caturdaśa udīryate ||
+                   <span class="ref">YGas_18</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  guṇa-bandha-vidhau teṣāṃ kartṛtvam tan-nivartanam |
+                  gati-traya-sva-mūlatvaṃ catur-daśa udīryate ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_19">
+                  acinmiśrād viśuddhāc ca cetanāt puruṣottamaḥ |<br />
+                  vyāpānād bharaṇāt svāmyād anyaḥ pañcadaśoditaḥ ||
+                   <span class="ref">YGas_19</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  acin-miśrād viśuddhāc ca cetanāt puruṣa-uttamaḥ |
+                  vyāpānād bharaṇāt svāmyād anyaḥ pañca-daśa-uditaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_20">
+                  devāsuravibhāgoktipūrvikā śāstravaśyatā |<br />
+                  tattvānuṣṭhānavijñānasthemne ṣoḍaśa ucyate ||
+                   <span class="ref">YGas_20</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  deva-asura-vibhāga-ukti-pūrvikā śāstra-vaśyatā |
+                  tattva-anuṣṭhāna-vijñāna-sthemne ṣoḍaśa ucyate ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_21">
+                  aśāstram āsuraṃ kṛtsnam śāstrīyaṃ guṇataḥ pṛthak |<br />
+                  lakṣaṇaṃ śāstrasiddhasya tridhā saptadaśoditam ||
+                   <span class="ref">YGas_21</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  aśāstram āsuraṃ kṛtsnam śāstrīyaṃ guṇataḥ pṛthak |
+                  lakṣaṇaṃ śāstra-siddhasya tridhā sapta-daśa-uditam ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_22">
+                  īśvare kartṛtābuddhiḥ sattvopādeyatāntime |<br />
+                  svakarmapariṇāmaś ca śāstrasārārtha ucyate ||
+                   <span class="ref">YGas_22</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  īśvare kartṛtā-buddhiḥ sattva-upādeyatā-antime |
+                  sva-karma-pariṇāmaś ca śāstra-sāra-artha ucyate ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_23">
+                  karmayogas tapastīrthadānayajñādisevanam |<br />
+                  jñānayogo jitasvāntaiḥ pariśuddhātmani sthitiḥ ||
+                   <span class="ref">YGas_23</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  karma-yogas tapas-tīrtha-dāna-yajña-ādi-sevanam |
+                  jñāna-yogo jita-sva-antaiḥ pariśuddha-ātmani sthitiḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_24">
+                  bhaktiyogaḥ parāikāntyaprītyā dhyānādiṣu sthitiḥ |<br />
+                  trayānām api yogānāṃ tribhir anyonyasaṃgamaḥ ||
+                   <span class="ref">YGas_24</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  bhakti-yogaḥ para-aikāntya-prītyā dhyāna-ādiṣu sthitiḥ |
+                  trayānām api yogānāṃ tribhir anyonya-saṃgamaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_25">
+                  nityanaimittikānāṃ ca parārādhanarūpiṇam |<br />
+                  ātmaṛṣṭes trayo 'py ete yogadvāreṇa sādhakāḥ ||
+                   <span class="ref">YGas_25</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nitya-naimittikānāṃ ca para-ārādhana-rūpiṇam |
+                  ātma-ṛṣṭes trayo 'py ete yoga-dvāreṇa sādhakāḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_26">
+                  nirastanikhilājñāno dṛṣṭvātmānaṃ parānugam |<br />
+                  pratilabhya parāṃ bhaktiṃ tayaivāvāpnoti tatpadam ||
+                   <span class="ref">YGas_26</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nirasta-nikhila-ajñāno dṛṣṭvā ātmānaṃ para-anugam |
+                  pratilabhya parāṃ bhaktiṃ taya aiva avāpnoti tat-padam ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_27">
+                  bhaktiyogas tadarthī cet samagrāiśvaryasādhanam |<br />
+                  ātmārthī cet trayo 'py ete tatkaivalyasya sādhakāḥ ||
+                   <span class="ref">YGas_27</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  bhakti-yogas tad-arthī cet samagra-aiśvarya-sādhanam |
+                  ātma-arthī cet trayo 'py ete tat-kaivalyasya sādhakāḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_28">
+                  aikāntyaṃ bhagavaty eṣāṃ samānam adhikāriṇām |<br />
+                  yāvatprāpti parārthī cet tad evātyantam aśunute ||
+                   <span class="ref">YGas_28</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  aikāntyaṃ bhagavaty eṣāṃ samānam adhikāriṇām |
+                  yāvat-prāpti para-arthī cet tad eva atyantam aśunute ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_29">
+                  jñānī tu paramaikāntī tadāyattātmajīvanaḥ |<br />
+                  tatsaṃśleṣaviyogaikasukhaduḥkhas tadekadhīḥ ||
+                   <span class="ref">YGas_29</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  jñānī tu parama-ekāntī tad-āyatta-ātma-jīvanaḥ |
+                  tat-saṃśleṣa-viyoga-eka-sukha-duḥkhas tad-eka-dhīḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_30">
+                  bhagavaddhyānayogoktivandanastutikīrtanaiḥ |<br />
+                  labdhātmā tadgataprāṇamanobuddhīndriyakriyaḥ ||
+                   <span class="ref">YGas_30</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  bhagavad-dhyāna-yoga-ukti-vandana-stuti-kīrtanaiḥ |
+                  labdha-ātmā tad-gata-prāṇa-mano-buddhi-indriya-kriyaḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_31">
+                  nijakarmādibhaktyantaṃ kuryāt prītyaiva kāritaḥ |<br />
+                  upāyatāṃ parityajya nyasyed deve tu tām abhīḥ ||
+                   <span class="ref">YGas_31</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nija-karma-ādi-bhakty-antaṃ kuryāt prītya aiva kāritaḥ |
+                  upāyatāṃ parityajya nyasyed deve tu tām abhīḥ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YGas_32">
+                  aikāntyātyantadāsyaikaratis tatpadam āpnuyāt |<br />
+                  tatpradhānam idaṃ śāstram iti gītārthasaṃgrahaṃ ||
+                   <span class="ref">YGas_32</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  aikāntya-atyanta-dāsya-eka-ratis tat-padam āpnuyāt |
+                  tat-pradhānam idaṃ śāstram iti gītārthasaṃgrahaṃ ||
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         </div>
+   </body>
+</html>

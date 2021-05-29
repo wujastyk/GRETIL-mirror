@@ -1,0 +1,477 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Apohasiddhi (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Apohasiddhi</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_apohasiddhi.xml">sa_apohasiddhi.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>members of the Digital Sanskrit Buddhist Canon Input Project</p>
+      <p class="noindent"><b>Contribution: </b>members of the Digital Sanskrit Buddhist Canon Input Project</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Haraprasad Shastri: Six Buddhist Nyaya tracts in Sanskrit. Calcutta : The Asiatic
+            Society, 1989, pp. 1-114.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/buddh/bsa0551u.htm">bsa0551u.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Apohasiddhi
+            <br />Based on the edition by Haraprasad Shastri: Six Buddhist Nyaya tracts in Sanskrit.
+            <br />Calcutta : The Asiatic Society, 1989, pp. 1-114.
+            <br />
+            <br />Input by members of the Sanskrit Buddhist Input Project.
+            <br />With kind permission of the Digital Sanskrit Buddhist Canon Project
+            <br />of Nagarjuna Institute, Nepal
+            <br />and University of the West, Rosemead, California, USA
+            <br />(www.uwest.edu/sanskritcanon)
+            <br />Sastra section, text no. 55.1
+            <br />
+            <br />The transliteration emulates the conventions of Nagari script.
+            <br />Therefore, many word boundaries are not marked by blanks.
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>Apohasiddhiḥ /</p>
+         
+         
+         <p>namaḥ śrīlokanāthāya //</p>
+         
+         
+         <p>apohaḥ śabdārtho nirucyate /</p>
+         
+         
+         <p>nanu ko 'yaṃ apoho nāma? kimidaṃ anyasmādapohyate; asmādvā anyadapohyate; asmin vānyadapohyata
+            iti vyutpattyā vijātivyāvṛttaṃ vāhya meva vivakṣitaṃ; buddhyākāro vā; yadi vā apohanaṃ
+            apoha ityanya vyāvṛttimātraṃ iti trayaḥ pakṣāḥ / na tāvadādimau pakṣau, apohanāmnā
+            vidhereva vivakṣitatvāt; antimo 'pyasaṅgataḥ prati tivādhitatvāt; tathāhi parvvatoddeśe
+            vanhirastīti śābdau pratītirvvidhirūpamevollikhantī lakṣyate; nānagnirnabhavatīti
+            nivṛttimātramāmukhayantī / yacca pratyakṣavādhitaṃ na tatra sādhanāntarāvakāśa ityatiprasiddham
+            /</p>
+         
+         
+         <p>atha yadyapi nivṛttimahaṃ pratyemīti na vikalpaḥ / tathāpi nivṛttapadārthollekha eva
+            nivṛttyullekhaḥ / na hyanantarbhāvitaviśeṣaṇapratīti vviśiṣṭapratītiḥ / tato yathā
+            sāmānyamahaṃ pratyemīti vikalpābhāve 'pi sādhāraṇākāraparisphuraṇāt vikalpabuddhiḥ
+            sāmānyabuddhiḥ pareṣām; tathā nivṛttapratyayā kṣiptā nivṛttibuddhirapohapratītivyavahāramātanotīti
+            cet? nanu sādhāraṇākāraparisphuraṇe vidhirūpatayā yadi sāmānyabodhavyavasthā; tat
+            kimāyātamasphu radabhāvākāre cetasi nivṛttipratītivyavasthāyāḥ / tato nivṛttimahaṃ
+            pratyemītyevamākārābhāve 'pi nivṛttyākārasphuraṇaṃ yadi syāt, ko nāma nivṛttipratītisthitimapalapet
+            / anyathāsati pratibhāse tatpratītivyavahṛtiriti gavākārepi cetasi turagabodha ityastu
+            /</p>
+         
+         
+         <p>atha viśeṣaṇatayā antarbhūtā nivṛttipratītirityuktaṃ, tathāpi yadyagavāpoḍha itīdṛśā
+            kārovikalpastadā viśeṣaṇatayā tadanupraveśo bhavatu, kintu gauriti pratītiḥ / tadā
+            ca satopi nivṛttilakṣaṇasya viśeṣaṇasya tatrānutkalanāt; kathaṃ tat pratītivyavasthā
+            / athaivaṃ matiḥ / yadvidhirūpaṃ sphuritaṃ tasya parāpoho 'pyastīti tatpratītirucyate
+            / tathāpi sambandhamātramapohasya vidhireva sākṣānnirbhāsī / api caivamadhyakṣasyā
+            pyapohaviṣayatvamanivāryam / viśeṣato vikalpādekavyāvṛttollekhino 'khilānyavyāvṛttamīkṣamāṇasya
+            / tasmādvidhyākārāvagrahādadhyakṣavadvikalpasyāpi vidhiviṣayatvameva nānyāpohaviṣayatvamiti
+            kathamapohaḥ śabdārtho ghuṣyate // atrābhidhīyate //</p>
+         
+         
+         <p>nāsmābhirapohaśabdena vidhireva kevalo 'bhipretaḥ / nāpyanyavyāvṛttimātraṃ, kintvanyāpohaviśiṣṭo
+            vidhiḥ śabdānāmarthaḥ / tataśca na pratyekapakṣopanipātidoṣāvakāśaḥ / yattu goḥ pratītau
+            na tadātmāparātmeti sāmarthyādapohaḥ paścānniścīyata iti vidhivādināṃ matam; anyāpohapratītau
+            vā sāmarthyāt anyāpoḍhovadhāryyate iti pratiṣedhavādināṃ matam / tadasundaram / prāthamikasyāpi
+            pratipattikramādarśanāt / na hi vidhiṃ pratīpadya kaścidarthāpattitaḥ paścādapohamavagacchati;
+            apohaṃ vā pratipadyānyāpodam; tasmād goḥ pratipattiriti anyāpoḍhapratipattirucyate
+            / yadyapi cānyāpoḍhaśabdānullekha uktaḥ / tathāpi nāpratipattireva, viśeṣaṇabhūtasyānyāpohasya
+            agavāpoḍha eva gośabdasya niveśitatvāt / yathā nīlotpale niveśitādindīvaraśabdānnīlotpala
+            pratītau tatkāla eva nīlimasphuraṇamanivāryyam; tathā gośabdādapyagavāpoḍhe niveśitāt
+            gopratītau tulyakālameva viśeṣaṇatvāt ago[']pohasphuraṇamanivāryyam / yathā pratyakṣasya
+            prasahya rūpābhāvagrahaṇamabhāvavikalpotpādana śaktireva / tathā vidhivikalpānāmapi
+            tadanurūpānuṣṭhānadānaśaktirevābhāvagrahaṇamabhidhīyate / paryyudāsarūpābhāvagrahaṇantu
+            niyata svarūpasambedanamubhayoraviśiṣṭaṃ; anyathā yadi śabdādarthapratipattikāle kalito
+            na parāpohaḥ; kathamanyaparihāreṇa pravṛttiḥ / tato gāṃ vadhāneti codito 'śvādīnapi
+            vadhnīyāt /</p>
+         
+         
+         <p>yadapyavocadvācaspatiḥ; jātimatyo vyaktavyaḥ; vikalpānāṃ śabdānāñca gocaraḥ; tāsāñca
+            tadvatīnāṃ rūpamatajjātīyaparāvṛttamityarthatastadavagaterna gāmbadhāneti co dito
+            'śvādīn badhnāti / tadapyanenaiva nirastaṃ yato jāteradhikāyāḥ prakṣepe 'pi vyaktīnāṃ
+            rūpamatajjātīyavyāvṛttameva cet, tadā tenaiva rūpeṇa śabdavikalpayorviṣayībhavantīnāṃ
+            kathamatadyāvṛttiparihāraḥ?</p>
+         
+         
+         <p>atha na vijātīyavyāvṛttaṃ vyaktirūpaṃ, tathāpratītaṃ, vā tadā jātiprasāda eṣa iti
+            kathamarthatopi tadavagatirityuktaprāyam /</p>
+         
+         
+         <p>atha jātivalādevānyato vyāvṛttam / bhavatu jātivalāt svahetuparamparāvalādvānyavyāvṛttam
+            / ubhayathāpi vyāvṛttapratipattau vyāvṛttipratipattirastyeva / nacāgo[']poḍhe gośabdasaṅketavidhāvanyonyāśrayadoṣaḥ
+            / sāmānye tadvati vā saṅkete 'pi taddoṣāvakāśāt / na hi sāmānyaṃ nāma sāmānyamātramabhipretam
+            turagepi gośabdasaṅketaprasaṅgāt / kintu gotvam / tāvatā ca sa eva doṣaḥ / gavāparijñāne
+            gotvasāmānyāparijñānāt / gotvasāmānyāparijñane gośabdavācyāparijñānāt / tasmāt ekapiṇḍadarśanapūrvvako
+            yaḥ sarvvavyaktisādhāraṇa iva bahiradhya sto vikalpabudhyākāraḥ, tatrāyaṃ gauriti
+            saṅketakaraṇe netaretarāśrayadoṣaḥ / abhimate ca gośabdapravṛttāvagośabdena śeṣasyāpyabhidhāna
+            mucitam / na cānyāpoḍhā nyāpohayorvvirodhoviśeṣyaviśeṣaṇakṣatirvvā; parasparavyavacchedābhāvāt,
+            sāmānādhikaraṇyasadbhāvāt, bhūtalaghaṭābhāvavat / svābhāvena hi virodho na parābhāvenetyābālaprasiddhaṃ
+            / eṣa panthāḥ śrughnamupatiṣṭhata ityatrāpyapoho gamyata eva; aprakṛta pathāntarāpekṣayā
+            eṣa eva / śrughnapratyanīkāniṣṭasthānāpekṣayā śrughnameva / araṇyamārgavadvicchedābhāvādupatiṣṭhata
+            eva / sārthadūtādivyavacchedena panthāeveti pratipadaṃ vyavacchedasya sulabhatvāt
+            tasmādapohadharmmaṇo vidhirūpasya śabdādavagatiḥ; puṇḍarīkaśabdādiva śvetimaviśiṣṭasya
+            padmasya / yadyevaṃ vidhireva śabdārthovaktumucitaḥ / kathamapoho gīyata iti cet?
+            uktamatrāpohaśabdenānyāpohaviśiṣṭo vidhirucyate; tatra vidhau pratīyamāne viśeṣaṇatayā
+            tulyakālamanyāpohapratītiriti / na caivaṃ pratyakṣasyāpyapohaviṣayatvavyavasthā karttumucitā;
+            tasya śābdapratyayasyeva vastuviṣayatve vivādābhāvāt / vidhiśabdena ca yathādhyavasāyamatadrūpa
+            parāvṛtto bāhyorthobhimataḥ / yathāpratibhāsaṃ buḍdhyākāraśca; tatra vāhyorthodhyavasāyādeva
+            śabdavācyo vyavasthāpyate / na svalakṣaṇaparisphūrttyā pratyakṣavaddeśakālāvasthāniyatapravyakta
+            svalakṣaṇāsphuraṇāt / yacchāstraṃ //</p>
+         
+         
+         <p>śabdenāvyāpṛtākhyasya buddhvāvapratibhāsanāt /</p>
+         
+         
+         <p>arthasya dṛṣṭāviveti, indriyaśabdasvabhāvopāyabhedāt ekasyaiva pratibhāsa bheda iti
+            cet? atrāpyuktam /</p>
+         
+         
+         <p>
+            jāto nāmāśrayonyānyaḥ cetasāntasya vastunaḥ /<br />
+            ekasyaiva kuto rūpaṃ bhinnākārāvabhāsi tat //
+            </p>
+         
+         
+         <p>na hi spaṣṭāspaṣṭe dve rūpe parasparaviruḍdhe ekasya vastunaḥ staḥ; yata ekenendriyabuḍdhau
+            pratibhāsetānyena vikalpe, tathā sati vastuna eva bhedaprāpteḥ; na hi svarūpabhedādaparo
+            vastubhedaḥ / na ca pratibhāsabhedādapara svarūpabhedaḥ; anyathā trailokyamekameva
+            vastu syāt / dūrāsannadeśavarttinoḥ puruṣayoḥ ekatra śākhini spaṣṭāspaṣṭapratibhāsabhedepi
+            na śākhibheda iti cet? na brūmaḥ pratibhāsabhedobhinnavastu niyataḥ / kintu , ekaviṣayatvābhāvaniyata
+            iti / tato yatrārthakriyābhedādisacivaḥ pratibhāsabhedaḥ tatra vastubhedaḥ, ghaṭavat
+            / anyatra punarnniyame naikaviṣayatāṃ pariharatītyekapratibhāso bhrāntaḥ /</p>
+         
+         
+         <p>etena yadāha vācaspatiḥ; na ca śabdapratyakṣayovvastugocaratve pratyayābhedaḥ kāraṇabhedena
+            pārokṣyāpārokṣyabhedopapatteriti / tannopayogi / parokṣapratyayasya vastugocaratvāsamarthanāt
+            / parokṣatāśrayastu kāraṇabheda indriyagocaragrahaṇaviraheṇaiva kṛtārthaḥ / tanna
+            śābde pratyaye svalakṣaṇam parisphurati kiñca svalakṣaṇātmani vastuni vācye sarvvātmanā
+            pratipatteḥ, vidhiniṣedhayorayogaḥ / tasya hi sadbhāvestīti vyartha, nāstītyasamartham;
+            asadbhāve nāstīti vyarthamastī tyasamartham / asti cāstyādipadaprayogaḥ / tasmāt śabdapratibhāsasya
+            vāhyārthabhāvābhāvasādhāraṇyaṃ na tadviṣayatāṃ kṣamate /</p>
+         
+         
+         <p>yacca vācaspatinā jātimabdyaktivācyatāṃ svavācaiva prastu tyānanantarameva na ca śabdārthasya
+            jāterbhāvābhāvasādhāraṇyaṃ nopapadyate; sā hi svarūpato nityāpi deśakālaviprakīrṇānekavyaktyāśrayatayā
+            bhāvābhāvasādhāraṇībhavannastinā stisambandhayogyā; varttamānavyaktisambandhitā hi
+            jāterastitā; atītānāgatavyaktisambandhitā ca nāstiteti sandigdhavyatirekitvādanaikāntikambhāvābhāvasādhāraṇyamanyathāsiḍvaṃ
+            veti vilapitaṃ / tāvanna prakṛtakṣatiḥ / jātau bharaṃ nyasyatā svalakṣaṇāvācyatvasya
+            svayaṃ svīkārāt / kiñca sarvvatra padārthasya svalakṣaṇasvarūpeṇaivāstitvādikaṃ cintyate
+            / jātestu varttamānādivyaktisambandho stitvādikamiti tu bālapratāraṇam / evaṃ jātimavdhyaktivacane
+            'pi doṣaḥ; vyakteścet pratītisiddhiḥ, jātiradhikā pratīyatām, mā vā, na tu vyaktipratītidoṣanmuktiḥ
+            / ete na yaducyate kaumārilaiḥ / sabhāgatvādeva vastuno na sādhāraṇyadoṣaḥ / vṛkṣatvaṃ
+            hyanirdvāritabhāvābhāvaṃ śabdādavagamyate / tayoranyatareṇa śabdāntarāvagatena sambadhyata
+            iti / tadapyasaṅgatam; sāmānyasya nityasya pratipattāvanirdvāritabhāvābhāvatvāyogāt
+            / yacceḍhaṃ na ca pratyakṣasyeva śabdānāṃ arthapratyāyanaprakāro yena taddṛṣṭa ivāstyādiśabdāpekṣā
+            na syāt; vicitraśaktitvāt pramāṇānāmiti tadapyaindriyakaśābdapratibhāsayorekasvarūpagrāhitve
+            bhinnāvabhāsadūṣaṇena dūṣitam vicitraśaktitvañca pramāṇānāṃ sākṣātkārādhyavasāyābhyāmapi
+            caritārtham /</p>
+         
+         
+         <p>tato yadi pratyakṣārthapratipādanaṃ śābdena tadvadevāvabhāsaḥ syāt; abhavaṃśca na
+            tadviṣayakhyāpanaṃ kṣamate / nanu vṛkṣaśabdena vṛkṣatvāṃśe codite sattvādyaṃśaniścayanārthamastyādipadaprayoga
+            iti cet? niraṃśatvena pratyakṣasamadhigatasya svalakṣaṇasya ko 'vakāśaḥ padāntareṇa;
+            dharmmāntaravidhiniṣedhayoḥ pramāṇāntareṇa vā / pratyakṣe 'pi pramāṇāntarāpekṣā dṛṣṭe
+            ti cet? bhavatu tasyāniścayātmatvāt anabhyastasvarūpaviṣaye; vikalpastu svayanniścayātmako
+            yatra grāhī tatra kimapareṇa? asti ca śabdaliṅgāntarāpekṣā tato na vastu svarūpagrahaḥ
+            / nanu bhinnā jātyādayo dharmmāḥ parasparaṃ dharmmiṇaśceti jātilakṣaṇaikadharmmadvāreṇa
+            pratītepi śākhini dharmmāntaravattayā na pratītiriti kinna bhinnā bhidhānādhī no dharmāntarasya
+            nīlacaloccaistaratvāderavavodhaḥ / tadetadasaṅgatam; akhaṇḍātmanaḥ svalakṣaṇasya pratyakṣe
+            pratibhāsāt / dṛśyasya dharmmadharmmibhedasya pratyakṣapratikṣiptatvā danyathā sarvvaṃ
+            sarvvatra syādityatiprasaṅgaḥ / kālpanikabhedāśrayastu dharmmadharmmivyavahāra iti
+            prasādhitam śāstre; bhavatu vā paramārthiko dharmmadharmmibhedaḥ / tathāpyanayoḥ samavāyāde
+            rdūṣitatvādupakāralakṣaṇaiva pratyāsattireṣitavyā / evañca yathendriyapratyāsattyā
+            pratyakṣeṇa dharmmipratipattau sakalataddvarmmapratipattiḥ / tathā śabdaliṅgābhyāmapi
+            vācyavācakādi sambandhapratibaddhābhyāṃ dharmmipratipattau niravaśeṣataḍvarmmapratipatti
+            rbhavet; pratyāsattimātrasyāviśeṣāt /</p>
+         
+         
+         <p>yacca vācaspatiḥ; nacaikopādhinā sattve viśiṣṭe tasmin gṛhīte; upādhyanta raviśiṣṭatabgdrahaḥ
+            / svabhāvoṃ hi dravyasya upādhibhirvviśiṣyate / natūpādhayo vā viśeṣyatvaṃ vā tasya
+            svabhāva iti / tadapi plavata eva / nahyabhedādupādhyantaragrahaṇañcamāsañji tam /
+            bhedaṃ puraskṛtyaivopakārakagrahaṇe upakāryyagrahaṇaprasañjanāt / na cāgnidhūmayoḥ
+            kāryyakāraṇabhāva iva svabhāvata eva dharmmadharmmiṇoḥ pratiniyamakalpanamucitam /
+            tayorapi pramāṇāsiddha tvāt / pramāṇasiddhe ca svabhāvopavarṇanamiti nyāyaḥ //</p>
+         
+         
+         <p>yaccātra nyāyabhūṣaṇena sūryyādigrahaṇe tadupakāryyāśeṣa vasturāśigrahaṇaprasañjanamuktam;
+            tadabhiprāyānavagāhana phalam tathā hi tvanmate dharmmadharmmiṇorbhedaḥ upakāralakṣaṇaiva
+            ca pratyāsattiḥ / tadopakārakagrahaṇe samānadeśasyaiva dharmmarūpasyaiva copakāryyasya
+            grahaṇamāsañjitam / tat kathaṃ sūryyo pakāryyasya bhinnadeśasya dravyāntarasya vā
+            dṛṣṭavyabhicārasya grahaṇaprasaṅgaḥ saṅgataḥ / tasmāt ekadharmmadvāreṇāpi vastusvarūpapratipattau
+            sarvvātmapratīteḥ; kva śabdāntareṇa vidhiniṣedhāvakāśaḥ / asti ca, tasmānna svalakṣaṇasya
+            śabdavikalpaliṅgapratibhāsitvamiti sthitam //</p>
+         
+         
+         <p>nāpi sāmānyam śābdapratyayapratibhāsi / saritaḥ pāre gāvaścarantīti gavādiśabdāt sāsrāśṛṅgalāṅgūlādayo
+            'kṣarākāraparikaritāḥ sajātīyabhedāparāmarśanāt sampiṇḍitaprāyāḥ pratibhāsante / na
+            ca tadeva sāmānyam /</p>
+         
+         
+         <p>varṇākṛtyakṣarākāraśrūnyaṅgotvaṃ hi kathyate /</p>
+         
+         
+         <p>tadeva ca sāsrāśṛṅgādimātramakhilavyaktāvatyantavilakṣaṇamapi svalakṣaṇenaikīkriyamāṇam
+            sāmānyamityucyate / tādṛśasya vāhyasyāprāpte rbhrāntirevāsau keśapratibhāsavat / tasmādvāsanāvaśādduḍvereva
+            tadātmanā vivarttoyamastu, asadeva vā tadrūpaṃ khyātu; vyaktaya eva vā sajātīyabhedatiraskāreṇānyathā
+            bhāsantā manubhavavyavadhānāt; smṛtipramoṣo vabhidhīyatām; sarvvathā nirvviṣayaḥ khalvayaṃ
+            sāmānyapratyayaḥ; kva sāmānyavārttā? yat punaḥ sāmānyābhāve sāmānyapratyayasyākasmikatvamuktaṃ
+            tadayuktam / yataḥ pūrvvapiṇḍadaṇḍadarśanasmaraṇasahakāriṇātiricyamānāviśeṣapratyayajanikā
+            sāmagrī nirvviṣayaṃ sāmānyavikalpamutpādayati / tadevanna śābdapratyaye jātiḥ pratibhāti;
+            nāpi pratyakṣe na cānumānato 'pi siddhiḥ; adṛśyatve pratibaddhaliṅgādarśanāt / nāpīndriyavadasyāḥ
+            siddhiḥ / jñānakāryyataḥ kādācitkasyaiva nimittāntarasya siddheḥ / yadāpi piṇḍāntare
+            antarāle vā gobuddherabhāvaṃ darśayet; tadā śāvaleyādisakalagopiṇḍānāmevābhāvādabhāvo
+            go buddherūpapadyamānaḥ kathamarthāntaramākṣipet? gotvādeva gopiṇḍaḥ, anyathā turagopi
+            gopiṇḍaḥ syāt / yadyevaṃ gopiṇḍādeva gotvamanyathā turagatvamapi gotvam syāt / tasmāt
+            kāraṇaparamparāta eva gopiṇḍo gotvaṃ tu bhavatu mā vā / nanu sāmānyapratyayajananasāmarthyaṃ
+            yadyekasmāt piṇḍādabhinnam; tadā vijātīyavyāvṛttaṃ piṇḍāntaramasamarthaṃ / atha bhinnaṃ
+            tadā tadeva sāmānyam nāmni paraṃ vivāda iti cet? abhinnaiva sā śaktiḥ prati vastu;
+            yathātvekaḥ śaktasvabhāvo bhāvaḥ tatha anyopi bhavan kīdṛśandoṣamāvahati? yathā bhavatāṃ
+            jātirekāpi samānadhvaniprasavaheturanyāpi svarūpeṇaiva jātyantaranirapekṣā / tathāsmākaṃ
+            vyaktirapi jātinirapekṣā svarūpeṇaiva bhinnā hetuḥ /</p>
+         
+         
+         <p>yattu trilocanaḥ / aśvatvagotvā dīnāṃ sāmānya viśeṣāṇāṃ svāśraye samavāyaḥ sāmānyam;
+            sāmānya mityabhidhānapratyayayornimittamiti / yadyevaṃ vyaktiṣvapyayameva tathābhidhānapratyayaheturastu
+            / kiṃ sāmānyasvīkāra pramādena /</p>
+         
+         
+         <p>na ca samavāyaḥ sambhavī //</p>
+         
+         
+         <p>
+            iheti buddheḥ samavāyasiddhiriheti dhīśca dvayadarśane syāt /<br />
+            na ca kvacittadviṣaye tvapekṣā svakalpanāmātramatobhyupāyaḥ //
+            </p>
+         
+         
+         <p>etena yeyaṃ pratyayānuvṛttiranuvṛttavastvanuyāyinī kathamatyantabhedinīsu vyaktiṣu
+            vyāvṛttaviṣayapratyayabhāvānupātinīṣu bhavitumarhatītyuhāpravarttanamasya pratyākhyātam
+            / jāṭiṣveva parasparavyāvṛttatayā vyaktīyamānāsvanuvṛttapratyayena vyabhicārāt / yat
+            punaranena viparyyaye vādhakamuktam, abhidhānapratyayānuvṛttiḥ kutaścinnivṛttya kvacideva
+            bhavantī nimittavatī / na cānyannimittamityādi // tanna samyak / anuvṛttamantareṇāpi
+            abhidhānapratyayānuvṛtteratadrūpaparāvṛttasvarūpaviśeṣāt avaśyaṃ svīkārasya sādhitatvāt
+            / tasmāt, tulya bhede yayā jā tiḥ pratyāsattyā prasarpati / kvacinnānyatra saivāstu
+            śabdajñānanibandhanam /</p>
+         
+         
+         <p>yat punaratra nyāyabhūṣaṇenoktaṃ nahyevaṃ bhavati / yayā pratyāsattyā daṇḍasūtrādikaṃ
+            prasarpati kvacinnānyatra saiva pratyāsattiḥ puruṣasphaṭikādiṣu daṇḍisūtritvādivyavahāranibandhanamastu
+            kiṃ daṇḍasūtrādineti / tadasaṅgatam / daṇḍasūtrayohi puruṣasphaṭikapratyāsannayoḥ
+            dṛṣṭayoḥ daṇḍisūtripratyayahetutvaṃ nāpalapyate / sāmānyantu svapne 'pi na dṛṣṭam
+            / tadyadīdaṃ parikalpanīyam tadā varam pratyāsattireva sāmānyapratyayahetuḥ parikalpyatām,
+            kiṃ gurvyāparikalpanayetyabhiprāyā parijñānāt /</p>
+         
+         
+         <p>athedaṃ jātiprasādhakamanumānamabhidhīyate /</p>
+         
+         
+         <p>yadviśiṣṭajñānaṃ tadviśeṣaṇagrahaṇanāntarīyakam / yathā daṇḍijñānam / viśiṣṭajñānañcedaṃ
+            gaurayamityarthataḥ kāryyahetuḥ / viśeṣaṇānubhavakāryyaṃ hi dṛṣṭānte viśiṣṭabuddhiḥ
+            siḍveti / atrānuyogaḥ, viśiṣṭabuddherbhinnaviśeṣaṇagrahaṇanāntarīyakatvaṃ vā sādhyam;
+            viśeṣaṇa mātrānubhavanāntarīyakatvaṃ vā / prathamapakṣe pakṣasya pratyakṣavādhāsādhanāvadhānamanavakāśayati
+            / vastugrāhiṇaḥ pratyakṣasyo bhayapratibhāsābhāvāt / viśiṣṭabuddhitvañca sāmānyam
+            / hetura naikāntikaḥ / bhinnaviśeṣaṇagrahaṇamantareṇāpi darśanāt / yathā svarūpavān
+            ghaṭaḥ / gotvaṃ sāmānyamiti vā / dvitīyapakṣe tu siddhasādhanam / svarūpavān ghaṭa
+            ityādivat gotvajātimā n piṇḍa iti parikalpitam bhedamupādāya viśeṣaṇaviśeṣyabhāvasyeṣṭatvādgovyāvṛttānubhavabhāvitvād
+            gaurayamiti vyavahārasya / tadeva na sāmānyabuddhiḥ / vādhakaṃ ca sāmānyaguṇakarmmādyupā
+            dhicakrasya, kevalavyaktigrāhakaṃ paṭupratyakṣam / dṛśyānupalambho vā prasiddhaḥ /</p>
+         
+         
+         <p>tadevaṃ vidhireva śabdārthaḥ / sa ca vāhyortho budhyākāraśca vivakṣitaḥ, tatra na
+            budhyākārasya tattvataḥ sambṛttyā vā vidhiniṣedhau / svasambedanapratyakṣagamyatvāt
+            / anadhyavasāyācca / nāpi tattvato vāhyasyāpi vidhiniṣedhau tasya śābde pratyaye 'pratibhāsanāt
+            / ataeva sarvvadharmmāṇāntattvato 'nabhilāpyatvaṃ pratibhāsādhyavasāyābhāvāt tasmāt
+            vāhyasyaiva sāmbṛtau vidhiniṣedhau / anyathā samvyavahārahāniprasaṅgāt / tadevaṃ /</p>
+         
+         
+         <p>
+            nākārasya na vāhyasya tattvatovidhisādhanam /<br />
+            vahireva hi saṃvṛttyā saṃvṛtyāpi tu nākṛteḥ //
+            </p>
+         
+         
+         <p>etena yaḍvarmmottaraḥ // āropitasya vāhyatvasya vidhiniṣedhāvityalaukikamanāgamamatārkikīyaṃ
+            kathayati / tadapahastitam /</p>
+         
+         
+         <p>nanvadhyavasāye yadyadhyavaseyaṃ vastu na sphurati tadā tadadhyavasitamiti ko 'rthaḥ?
+            apratibhāse 'pi pravṛttiviṣayīkṛtamiti yo 'rthaḥ / apratibhāsāviśeṣe viṣayāntaraparihāreṇa
+            kathanniyataviṣayā pravṛttiriti cet? ucyate; yadyapi viśvamagṛhītaṃ tathāpi vikalpasya
+            niyatasāmagrīprasūtatvena niyatākāratayā niyataśaktitvāt niyatā eva jalādau pravṛttiḥ
+            / dhūmasya parokṣāgnijñānajananavat /</p>
+         
+         
+         <p>niyataviṣayā hibhāvāḥ pramāṇapariniṣṭhitasvabhāvā na śaktisāṅkaryyaparyyanuyogabhājaḥ
+            / tasmāt tadadhyavasāyitvamākāraviśeṣayogāt tatpravṛttijanakatvam / na ca sādṛśyādāropeṇa
+            pravṛttiṃ brūmaḥ / yenākāre vāhyasya vāhye vā ākārasyāropadvāreṇa dūṣaṇāvakāśaḥ /
+            kintarhi svavāsanāvipākavaśādupajāyamānaiva buḍvirapaśyantyapi vāhyaṃ vāhye vṛttimātano
+            tīti viplutaiva / tadevamanyābhāvaviśiṣṭo vijātivyāvṛttortho vidhiḥ / sa eva cāpohaśabdavācyaḥ
+            śabdānāmarthaḥ pravṛttinivṛttiviṣayaśceti sthitam //</p>
+         
+         
+         <p>atra prayogaḥ / yadvācakaṃ tatsarvvamadhyavasitātadrūpaparāvṛttavastumātragocaram
+            / yatheha kūpe jalamiti vacanam / vācakañcedaṃ gavādiśabdarūpamiti svabhāvahetuḥ /
+            nāyamasiḍvaḥ, pūrvoktena nyāyena pāramārthikavācyavācakabhāvasyābhāve 'pi; adhyavasāyakṛtasya
+            sarvvavyavahāribhiravaśyasvīkarttavyatvāt / anyathā sarvvavyavahārocchedaprasaṅgāt
+            / nāpi viruddhaḥ sapakṣe bhāvāt / na cānaikāntikaḥ; tathāhi śabdānāmadhyavasitavijātivyāvṛttava
+            stumātraviṣayatvamanicchadbhiḥ paraiḥ paramārthato</p>
+         
+         
+         <p>vācyaṃ svalakṣaṇamupādhirupādhiyogaḥ</p>
+         
+         
+         <p>sopādhirastu yadi vā kṛtirastu buddheḥ, gatyantarābhāvāt / aviṣayatve ca vācakatvāyogāt
+            / tatra /</p>
+         
+         
+         <p>ādyantayornna samayaḥ phalaśaktihānermadhyepyupādhivirahāttitayena yuktaḥ //</p>
+         
+         
+         <p>tadevaṃ vācyāntarasyābhāvāt / viṣayavattvalakṣaṇasya vyāpakasya nivṛttau vipakṣato
+            nivarttamānam vācakatvamadhyavasitavāhyaviṣayatvena vyāpyata iti vyāptisiddhiḥ /</p>
+         
+         
+         <p>
+            śabdaistāvanmukhyamākhyāyate 'rtha statrāpohastadguṇatvena gamyaḥ /<br />
+            arthaścaiko 'dhyāsato bhāsato 'nyaḥ sthāpyo vācyastattvato naiva kaścit //
+            </p>
+         
+         
+         <p>apohasiddhiḥ samāptā //</p>
+         
+         
+         <p>kṛtiriyammahāpaṇḍitaratnakīrttipādānām //</p>
+         
+         
+         <p>
+            bhavatvapohe kṛtināmprapañco [va]stusvarūpāsphuraṇantu marmma /<br />
+            tatrādṛḍhe sarvvamayatnaśīrṇaṃ dṛḍhe tu sausthyannanu tāvataiva //
+            </p>
+         
+         
+         <p>
+            sampūrṇarātripraharadvayena kīrtterapoho likhitaḥ sukhena /<br />
+            trailokyadattena parātmahetoḥ [ya]tnādato 'yaṃ parirakṣaṇīyaḥ //
+            </p>
+         
+         </div>
+   </body>
+</html>

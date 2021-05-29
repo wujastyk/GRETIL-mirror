@@ -1,0 +1,656 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Devīkālottarāgama (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Devīkālottarāgama</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_devIkAlottarAgama.xml">sa_devIkAlottarAgama.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Dominic Goodall</p>
+      <p class="noindent"><b>Contribution: </b>Dominic Goodall</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Vrajavallabha Dwivedi: Devīkālottarāgamaḥ : Commentary in Sanskrit by Nirañjanasiddha,
+            edited with Hindi Translation. Varanasi: Shaiva Bharati Shodha Pratishthanam, 2000.
+            (Research Publication Series, 21).</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/saiva/devikaau.htm">devikaau.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Devikalottara-Agama (Devikalottaragama; mula text only!)
+            <br />Based on the edition by Vrajavallabha Dwivedi:
+            <br />Devīkālottarāgamaḥ : Commentary in Sanskrit by Nirañjanasiddha,
+            <br />edited with Hindi Translation.
+            <br />Varanasi: Shaiva Bharati Shodha Pratishthanam, 2000.
+            <br />(Research Publication Series, 21)
+            <br />
+            <br />Input by Dominic Goodall
+            <br />
+            <br />TEXT WITH PADA MARKERS
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         <p id="Dka_1">
+            sarveṣāmapi muktyarthaṃ muktimārgasya darśanam <br />
+            deveśa jñānamācāraṃ kṛpayā kathayasva me //
+             <span class="ref">Dka_1</span></p>
+         
+         īśvara uvāca
+         
+         <p id="Dka_2">
+            jñānācārau varārohe kathayāmi tavādhunā <br />
+            praviśanti yato mokṣaṃ jñānino dhvastakalmaṣam //
+             <span class="ref">Dka_2</span></p>
+         
+         
+         <p id="Dka_3">
+            yeṣāṃ bodhena saṃjātaṃ kālajñānaṃ varānane <br />
+            na teṣāṃ jāyate bodhaḥ śāstrakoṭiśatairapi //
+             <span class="ref">Dka_3</span></p>
+         
+         
+         <p id="Dka_4">
+            ato hi nirbhayo vidvān niḥśaṅko vigataspṛhaḥ <br />
+            jñānotsāhaparo bhūyāt śraddaddhāno nirākulaḥ //
+             <span class="ref">Dka_4</span></p>
+         
+         
+         <p id="Dka_5">
+            nirmamaḥ karuṇopetaḥ sarvabhūtābhayapradaḥ <br />
+            bhajet kālottaraṃ devi mumukṣuryogatatparaḥ //
+             <span class="ref">Dka_5</span></p>
+         
+         
+         <p id="Dka_6">
+            sa brahmā sa śivo viṣṇuḥ sa indraḥ sa ṣaḍānanaḥ <br />
+            sa guruḥ sarvadevāśca sa yogī sa tapodhanaḥ //
+             <span class="ref">Dka_6</span></p>
+         
+         
+         <p id="Dka_7">
+            paṇḍitaḥ sa mahābhāgaḥ kṛtārthaḥ paramārthataḥ <br />
+            caladvāyusamaṃ cittaṃ dhriyate yena niścalam //
+             <span class="ref">Dka_7</span></p>
+         
+         
+         <p id="Dka_8">
+            sa upāyo mimokṣasya sadupāttaguṇastu saḥ <br />
+            sā prajñā tadiha sthairyaṃ tatpuṇyaṃ vyavasāyinām //
+             <span class="ref">Dka_8</span></p>
+         
+         
+         <p id="Dka_9">
+            tadeva tīrthaṃ dānaṃ ca sa tapaśca na saṃśayaḥ <br />
+            yenopāyena badhyeta vāyubhiścalanaṃ manaḥ //
+             <span class="ref">Dka_9</span></p>
+         
+         
+         <p id="Dka_10">
+            citte calati saṃsāro niścalo mokṣa eva tu <br />
+            tasmāccittaṃ sthiraṃ kuryāt prajñayā parayā budhaḥ //
+             <span class="ref">Dka_10</span></p>
+         
+         
+         <p id="Dka_11">
+            ekāntikaṃ sukhaṃ yatra tathāivātyantikaṃ bhavet <br />
+            niṣkarmaṇi pare tattve ko na rajyeta paṇḍitaḥ //
+             <span class="ref">Dka_11</span></p>
+         
+         
+         <p id="Dka_12">
+            nivṛtto viṣayajñānāt niṣkalajñānatatparaḥ <br />
+            anicchannapi medhāvī labhate mokṣamakṣayam //
+             <span class="ref">Dka_12</span></p>
+         
+         
+         <p id="Dka_13">
+            asmitākalayā yuktaṃ caitanyaṃ sakalaṃ smṛtam <br />
+            asmitārahitaṃ cetaś caitanyaṃ śaktirucyate //
+             <span class="ref">Dka_13</span></p>
+         
+         
+         <p id="Dka_14">
+            tathā prakāśitaṃ viśvaṃ śaktidhyānamudāhṛtam <br />
+            sarvālambavinirmuktaṃ niṣkalaṃ jñānamucyate //
+             <span class="ref">Dka_14</span></p>
+         
+         
+         <p id="Dka_15">
+            ahamaṃśena yacchūnyaṃ cinmātrālokamadvayam <br />
+            muktibījaṃ tadākhyātaṃ parayogapravartakam //
+             <span class="ref">Dka_15</span></p>
+         
+         
+         <p id="Dka_16">
+            cakrāṇi nāḍayaḥ padmadevatābījamaṇḍalam <br />
+            rūpamityādikaṃ kiñcid dhyeyaṃ naiva kadācana //
+             <span class="ref">Dka_16</span></p>
+         
+         
+         <p id="Dka_17">
+            kuhakaṃ mantrajālaṃ ca prāṇāyāmādi dhāraṇam <br />
+            sarvametanna kartavyaṃ mokṣamakṣayamicchatā //
+             <span class="ref">Dka_17</span></p>
+         
+         
+         <p id="Dka_18">
+            nātra pūjā namaskāro na japo dhyānameva ca <br />
+            kevalaṃ jñānamityuktaṃ veditavyaṃ na kiñcana //
+             <span class="ref">Dka_18</span></p>
+         
+         
+         <p id="Dka_19">
+            bahirāhitacittānāṃ jāyante bandhahetavaḥ <br />
+            bahiścittaṃ nivāryaiva vindan loke na sīdati //
+             <span class="ref">Dka_19</span></p>
+         
+         
+         <p id="Dka_20">
+            nātra kiñcidbahirnāntaṃ na madhyaṃ nāpyadhaḥ kvacit <br />
+            sarvākāraṃ nirākāraṃ svasaṃvedyaṃ virājate //
+             <span class="ref">Dka_20</span></p>
+         
+         
+         <p id="Dka_21">
+            yadyadālokya yo jantuḥ kurute karmasañcayam <br />
+            tadgatirjāyate yasmān nirālokaṃ tu cintayet //
+             <span class="ref">Dka_21</span></p>
+         
+         
+         <p id="Dka_22">
+            heturnāsti phalaṃ nāsti nāsti karma svabhāvataḥ <br />
+            asadbhūtamidaṃ sarvaṃ nāsti loko na laukikaḥ //
+             <span class="ref">Dka_22</span></p>
+         
+         
+         <p id="Dka_23">
+            nirālambamidaṃ sarvaṃ nirālambaprakāśitam <br />
+            nirālambamidaṃ kṛtvā nirālambo bhaviṣyati //
+             <span class="ref">Dka_23</span></p>
+         
+         
+         <p id="Dka_24">
+            vyomākāraṃ mahāśūnyaṃ vyāpakaṃ yo na bhāvayet <br />
+            saṃsārī sa bhavelloke bījakośakrimiryathā //
+             <span class="ref">Dka_24</span></p>
+         
+         
+         <p id="Dka_25">
+            jñānotpattinimittaṃ tu kriyāścaryāḥ prakīrtitāḥ <br />
+            yogaṃ sālambanaṃ tyaktvā niṣprapañcaṃ vicintayet //
+             <span class="ref">Dka_25</span></p>
+         
+         
+         <p id="Dka_26">
+            pātālāt śaktiparyantaṃ sarvametadabhīpsitam <br />
+            bhagnaṃ yaiḥ śūnyamantreṇa te smṛtāḥ śūnyavedinaḥ //
+             <span class="ref">Dka_26</span></p>
+         
+         
+         <p id="Dka_27">
+            viṣaye lolupaṃ cittaṃ markaṭādapi cañcalam <br />
+            sarvaśūnyapade sthitvā tato nirvāṇameṣyati //
+             <span class="ref">Dka_27</span></p>
+         
+         
+         <p id="Dka_28">
+            sarvatattvādyasambhinnaṃ dehād bhinnaṃ tathaiva ca <br />
+            ahamasmādyasambhinnaṃ caitanyaṃ sarvatomukham //
+             <span class="ref">Dka_28</span></p>
+         
+         
+         <p id="Dka_29">
+            ākāśamiva sarvaṃ tu sabāhyābhyantaraṃ priye <br />
+            parānandamarūpaṃ tu paśyannānandabhāgbhavet //
+             <span class="ref">Dka_29</span></p>
+         
+         
+         <p id="Dka_30">
+            nirindhano yathā vahniḥ svayameva praśāmyati <br />
+            grāhyābhāvānmanastadvat svayameva pralīyate //
+             <span class="ref">Dka_30</span></p>
+         
+         
+         <p id="Dka_31">
+            mohikā mūrcchikā māyā svapnaśceti caturvidhaḥ <br />
+            suṣuptirjāgṛtiścaiva sarvametat parityajet //
+             <span class="ref">Dka_31</span></p>
+         
+         
+         <p id="Dka_32">
+            dehāt sūkṣmagatāt prāṇāc cittād buddherahaṅkṛteḥ <br />
+            sarvasmādbhinna evāhaṃ cintayan labhate citam //
+             <span class="ref">Dka_32</span></p>
+         
+         
+         <p id="Dka_33">
+            sadābhibhūtaye cittaṃ nidrayā smaraṇādinā <br />
+            bodhayitvā prayatnena kuryāt svasthaṃ punaḥ punaḥ //
+             <span class="ref">Dka_33</span></p>
+         
+         
+         <p id="Dka_34">
+            yadā sthiraṃ bhaveccittaṃ cālayanna kathaṃcana <br />
+            na kiñciccintayet tatra sthirameva tu kārayet //
+             <span class="ref">Dka_34</span></p>
+         
+         
+         <p id="Dka_35">
+            āśrayālambanaṃ cittaṃ tadvat kuryānnirāśrayam <br />
+            cañcalaṃ niścalaṃ kuryāt niścalaṃ na tu cālayet //
+             <span class="ref">Dka_35</span></p>
+         
+         
+         <p id="Dka_36">
+            sarvabhūtalaye jāte yadyadvyoma sunirmalam <br />
+            tattadrūpaṃ svakaṃ dhyāyed vyāptaṃ caiva tu nirmalam //
+             <span class="ref">Dka_36</span></p>
+         
+         
+         <p id="Dka_37">
+            tadeva janmasāphalyaṃ pāṇḍityamidameva hi <br />
+            caladvāyusamaṃ cittaṃ niścalaṃ dhriyate hi yat //
+             <span class="ref">Dka_37</span></p>
+         
+         
+         <p id="Dka_38">
+            naivordhvaṃ dhārayeccittaṃ na madhyaṃ nāpyadhaḥ kvacit <br />
+            antarbhāvavinirmuktaṃ sadā kuryānnirāśrayam //
+             <span class="ref">Dka_38</span></p>
+         
+         
+         <p id="Dka_39">
+            nidrāyāṃ bodhayeccittaṃ vikṣiptaṃ śamayet punaḥ <br />
+            pakṣadvayaparityāge samprāpte naiva cālayet //
+             <span class="ref">Dka_39</span></p>
+         
+         
+         <p id="Dka_40">
+            nirāśrayaṃ sadā cittaṃ sarvālambanavarjitam <br />
+            mano 'vasthāvinirmuktaṃ vijñeyaṃ muktilakṣaṇam //
+             <span class="ref">Dka_40</span></p>
+         
+         
+         <p id="Dka_41">
+            sarvālambanaśūnyaṃ ca dhārayitvā mano hṛdi <br />
+            yajjñānaṃ jāyate spaṣṭaṃ tadabhyāsaparo bhavet //
+             <span class="ref">Dka_41</span></p>
+         
+         
+         <p id="Dka_42">
+            ye dhyāyanti paraṃ śūnyaṃ niṣkalaṃ niravasthitam <br />
+            te yānti paramaṃ sthānaṃ janmamṛtyuvivarjitam //
+             <span class="ref">Dka_42</span></p>
+         
+         
+         <p id="Dka_43">
+            devā devyastathā cānye dharmādharmau ca tatphalam <br />
+            āśrayāśrayivijñānaṃ saṃsārasya ca bandhanam //
+             <span class="ref">Dka_43</span></p>
+         
+         
+         <p id="Dka_44">
+            āśrayo dvandvamityuktaṃ dvandvatyāgāt parodayaḥ <br />
+            jīvanmuktastadā yogī dehatyāgād vimucyate //
+             <span class="ref">Dka_44</span></p>
+         
+         
+         <p id="Dka_45">
+            vairāgyeṇa vapustyāgo na vai kāryo manīṣiṇā <br />
+            ārambhataḥ kriyānāśe svayameva vipatsyate //
+             <span class="ref">Dka_45</span></p>
+         
+         
+         <p id="Dka_46">
+            hṛtsaroje hyahaṃrūpā yā citirnirmalācalā <br />
+            ahaṅkāraparityāgāt sā citirmokṣadāyinī //
+             <span class="ref">Dka_46</span></p>
+         
+         
+         <p id="Dka_47">
+            sarvopādhivinirmuktaṃ cidrūpaṃ yannirantaram <br />
+            tacchivo 'hamiti dhyātvā sarvāsaktiṃ visarjayet //
+             <span class="ref">Dka_47</span></p>
+         
+         
+         <p id="Dka_48">
+            deśajātyādisambaddhān varṇāśramasamanvitān <br />
+            bhāvānetān parityajya svabhāvaṃ bhāvayedbudhaḥ //
+             <span class="ref">Dka_48</span></p>
+         
+         
+         <p id="Dka_49">
+            ahameko na me kaścin nāhamanyasya kasyacit <br />
+            na taṃ paśyāmi yasyāhaṃ taṃ na paśyāmi yo mama //
+             <span class="ref">Dka_49</span></p>
+         
+         
+         <p id="Dka_50">
+            ahameva paraṃ brahma jagannātho maheśvaraḥ <br />
+            iti syānniścito mukto baddhaḥ syādanyathā pumān //
+             <span class="ref">Dka_50</span></p>
+         
+         
+         <p id="Dka_51">
+            aśarīraṃ yadātmānaṃ paśyati jñānacakṣuṣā <br />
+            tadā bhavati śāntātmā sarvato vigataspṛhaḥ //
+             <span class="ref">Dka_51</span></p>
+         
+         
+         <p id="Dka_52">
+            yo 'sau sarveṣu śāstreṣu paṭhyate hyaja īśvaraḥ <br />
+            akāyo nirguṇo hyātmā so 'hamasmi na saṃśayaḥ //
+             <span class="ref">Dka_52</span></p>
+         
+         
+         <p id="Dka_53">
+            vijñāptimātro hi sadā viśuddhaḥ sarvatra yasmātsatataṃ vimuktaḥ <br />
+            nādeyaheyo hyahamapratarkyas tasmātsadā brahmamayo viśokaḥ //
+             <span class="ref">Dka_53</span></p>
+         
+         
+         <p id="Dka_54">
+            āmastakaṃ pādatalāvasānaṃ sāntarbahiścarmapaṭāvanaddham <br />
+            tatkṛtsnamevāmṛtarūpamanyac cidrūpamātmānamananyasiddhim //
+             <span class="ref">Dka_54</span></p>
+         
+         
+         <p id="Dka_55">
+            īśo 'hamevāsya carācarasya pitā ca mātā ca pitāmahaśca <br />
+            dhyānaṃ samāsthāya padaṃ caturthaṃ dhyāyanti māmeva vimuktikāmāḥ //
+             <span class="ref">Dka_55</span></p>
+         
+         
+         <p id="Dka_56">
+            brahmādibhirdevamanuṣyanāgair gandharvayakṣāpsarasāṃ gaṇaiśca <br />
+            yajñairanekairahameva pūjyo māmeva sarve pratipūjayanti //
+             <span class="ref">Dka_56</span></p>
+         
+         
+         <p id="Dka_57">
+            tapobhirugrairvividhaiśca dānair māmeva sarve pratipūjayanti <br />
+            bhūtāni cāhaṃ sthirajaṅgamāni yāvanti cānyānyahameva tāni //
+             <span class="ref">Dka_57</span></p>
+         
+         
+         <p id="Dka_58">
+            na sthūlasūkṣmo na ca śūnyarūpo jñānaikarūpo jagadekabandhuḥ <br />
+            nirantaro nirmala īśvaro 'haṃ svapnādyavasthācyutiniṣprapañcaḥ //
+             <span class="ref">Dka_58</span></p>
+         
+         
+         <p id="Dka_59">
+            anādivijñānamajaṃ purāṇaṃ guhāśayaṃ niṣkalamaprapañcam <br />
+            nirañjanaṃ niṣpratimaṃ nirīśam adṛśyamagrāhyamacintyarūpam //
+             <span class="ref">Dka_59</span></p>
+         
+         
+         <p id="Dka_60">
+            sanātanaṃ brahma nirantaraṃ yat pade pade so 'hamiti prapaśyet <br />
+            yo bhāvatastiṣṭhati niṣprakampaḥ sa brahmabhūto 'mṛtatāmupaiti //
+             <span class="ref">Dka_60</span></p>
+         
+         
+         <p id="Dka_61">
+            jñānamevaṃ varārohe kathitaṃ mokṣasiddhaye <br />
+            ācāraṃ kathyamānaṃ tu sāmprataṃ śṛṇu taṃ mayā //
+             <span class="ref">Dka_61</span></p>
+         
+         
+         <p id="Dka_62">
+            na snānaṃ na japaḥ pūjā homo naiva ca sādhanam <br />
+            agnikāryādikāryaṃ ca naitasyāsti maheśvari //
+             <span class="ref">Dka_62</span></p>
+         
+         
+         <p id="Dka_63">
+            niyamo 'pi na tasyāsti kṣetrapīṭhe ca sevanam <br />
+            nārcanaṃ pitṛkāryādi tīrthayātrā vratāni ca //
+             <span class="ref">Dka_63</span></p>
+         
+         
+         <p id="Dka_64">
+            dharmādharmaphalaṃ nāsti na tithirlaukikakriyā <br />
+            santyajetsarvakarmāṇi lokācāraṃ ca sarvaśaḥ //
+             <span class="ref">Dka_64</span></p>
+         
+         
+         <p id="Dka_65">
+            samayācāraniḥśeṣān kṛtyajātaṃ tu bandhanam <br />
+            saṃkalpaṃ ca vikalpaṃ ca ye cānye kuladharmikāḥ //
+             <span class="ref">Dka_65</span></p>
+         
+         
+         <p id="Dka_66">
+            siddhīśca vividhākārāḥ pātālādi rasāyanam <br />
+            pratyakṣeṇāpi labhyeran naiva gṛhṇīta sādhakaḥ //
+             <span class="ref">Dka_66</span></p>
+         
+         
+         <p id="Dka_67">
+            sarve te paśubandhāḥ syur adhomārgapradāyakāḥ <br />
+            etairnāsti parā muktiś cidrūpaṃ vyāpakaṃ vinā //
+             <span class="ref">Dka_67</span></p>
+         
+         
+         <p id="Dka_68">
+            yena kena viśeṣeṇa sarvāvastho 'pi yogadhṛk <br />
+            kṣetrapīṭhe ca sandehād varjayedyadi kautukam //
+             <span class="ref">Dka_68</span></p>
+         
+         
+         <p id="Dka_69">
+            kṛmikīṭapataṅgāśca tathā devi vanaspatīn <br />
+            na nāśayed budho jīvān paramārthamatiryataḥ //
+             <span class="ref">Dka_69</span></p>
+         
+         
+         <p id="Dka_70">
+            na mūlotpāṭanaṃ kuryāt pattracchedaṃ vivarjayet <br />
+            bhūtapīḍāṃ na kurvīta puṣpāṇāṃ ca nikṛntanam //
+             <span class="ref">Dka_70</span></p>
+         
+         
+         <p id="Dka_71">
+            svayaṃpatitapuṣpaistu kartavyaṃ śivapūjanam <br />
+            māraṇoccāṭanādīni vidveṣastambhane tathā //
+             <span class="ref">Dka_71</span></p>
+         
+         
+         <p id="Dka_72">
+            jvarabhūtagrahāveśavaśyākarṣaṇamohanam <br />
+            na kuryāt kṣudrakarmāṇi kāṣṭhapāṣāṇapūjanam //
+             <span class="ref">Dka_72</span></p>
+         
+         
+         <p id="Dka_73">
+            samo 'mitre ca mitre ca samo loṣṭe ca kāñcane <br />
+            abhilāṣo na kartavya indriyārthe kadācana //
+             <span class="ref">Dka_73</span></p>
+         
+         
+         <p id="Dka_74">
+            ātmārāmo bhavedyogī nirbhayo vigataspṛhaḥ <br />
+            samanindāpraśaṃsaśca sarvabhūtasamastathā //
+             <span class="ref">Dka_74</span></p>
+         
+         
+         <p id="Dka_75">
+            samadṛṣṭistu kartavyā yathātmani tathā pare <br />
+            vivādaṃ lokagoṣṭhīṃ ca kalahāśca vivarjayet //
+             <span class="ref">Dka_75</span></p>
+         
+         
+         <p id="Dka_76">
+            śāstragoṣṭhīṃ na kurvīta kubhāṣitasubhāṣitān //
+             <span class="ref">Dka_76</span></p>
+         
+         
+         <p id="Dka_77">
+            īrṣyāṃ paiśunyadambhe ca rāgaṃ mātsaryameva ca <br />
+            kāmakrodhau bhayaṃ śokaṃ tyajetsarvaṃ śanaiḥ śanaiḥ //
+             <span class="ref">Dka_77</span></p>
+         
+         
+         <p id="Dka_78">
+            sarvadvandvavinirmuktaḥ santataṃ janavarjitaḥ <br />
+            anenaiva śarīreṇa sarvajñaḥ san prakāśate //
+             <span class="ref">Dka_78</span></p>
+         
+         
+         <p id="Dka_79">
+            jñānenaiva yathā mokṣas tathā siddhirnirarthikā <br />
+            tathāpi bhogamicchantaḥ siddhimicchanti sādhakāḥ //
+             <span class="ref">Dka_79</span></p>
+         
+         
+         <p id="Dka_80">
+            aṇimādiguṇāvāptir jāyatāṃ vā na jāyatām <br />
+            tathāpi mucyate dehī patiṃ vijñāya nirmalam //
+             <span class="ref">Dka_80</span></p>
+         
+         
+         <p id="Dka_81">
+            pañcabhūtātmako dehaḥ śivastatraiva tiṣṭhati <br />
+            śivādyavaniparyanto loko 'yaṃ śaṅkarātmakaḥ //
+             <span class="ref">Dka_81</span></p>
+         
+         
+         <p id="Dka_82">
+            īdṛśaṃ jñāninaṃ dṛṣṭvā pūjayanti ca ye narāḥ <br />
+            gandhaṃ puṣpaṃ phalaṃ dhūpaṃ snānaṃ vastraṃ ca bhojanam //
+             <span class="ref">Dka_82</span></p>
+         
+         
+         <p id="Dka_83">
+            nivedayanti ye kecid vāṅmanaḥkāyakarmabhiḥ <br />
+            tathaiva te vimucyante muktimārgābhikāṅkṣiṇaḥ //
+             <span class="ref">Dka_83</span></p>
+         
+         
+         <p id="Dka_84">
+            stutinindākarāstasya puṇyapāpe samāpnuyuḥ <br />
+            yajjñānācaraṇaṃ pṛṣṭaṃ tat sarvaṃ kathitaṃ mayā <br />
+            kālajñānaṃ varārohe kimanyat paripṛcchasi //
+             <span class="ref">Dka_84</span></p>
+         
+         
+         <p>iti devīkālottarāgamaḥ parisamāptaḥ</p>
+         </div>
+   </body>
+</html>

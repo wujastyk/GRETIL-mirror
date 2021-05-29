@@ -1,0 +1,427 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Poṣadhasthāpanavastu (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Poṣadhasthāpanavastu</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_poSadhasthApanavastu.xml">sa_poSadhasthApanavastu.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Klaus Wille</p>
+      <p class="noindent"><b>Contribution: </b>Klaus Wille</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>N. Dutt: Gilgit Manuscript, vol. III: Mūlasarvāstivādavinayavastu, part 3 (Srinagar
+            1943), pp. 105-117: Poṣadhasthāpanavastu (second edition: Delhi 1984).</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="hi">highlighted text</span></li>
+         <li><span class="note">remarks</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/vinv14_u.htm">vinv14_u.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Posadhasthapanavastu of the Vinayavastvagama of the Mulasarvastivadin (= Vastu 14
+            of the Vinayavastu)
+            <br />Based on the edition by N. Dutt: Gilgit Manuscript, vol. III: Mūlasarvāstivādavinayavastu,
+            part 3 (Srinagar 1943), pp. 105-117:
+            <br />Poṣadhasthāpanavastu (second edition: Delhi 1984).
+            <br />
+            <br />Input by Klaus Wille, Göttingen
+            <br />
+            <br />ABBREVIATIONS:
+            <br />GBM = Gilgit Buddhist Manuscripts (Facsimile Edition), ed. by Raghu Vira and Lokesh
+            Chandra, 10 pts., New Delhi 1959Ō1974 (Śata-Piṭaka Series 10). (The Vinayavastu manuscript
+            is reproduced in vol. 6) [repr. in 3 parts Delhi 1995. (The Vinayavastu manuscript
+            is reproduced in vol. 2)]
+            <br />
+            <br />MSV III = Gilgit Manuscript, ed. N. Dutt, vol. III, part 3, Srinagar 1943.
+            <br />
+            <br />BOLD for references
+            <br />ITALICS for restored passages
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         <span class="note"><span class="bold">MSV III 105</span></span>
+         
+         <p>poṣadhasthāpanavastu</p>
+         
+         <span class="note"><span class="bold">MSV III 107</span></span>
+         
+         <p class="it">poṣadhasthāpanavastūddānam* /</p>
+         
+         
+         <p>
+            aśuddhapoṣadhād bhikṣur maudgalyāyaṇena nāśitaḥ /<br />
+            tataḥ śāstrāṇi vigarhitvā saṃghena pṛṣṭaḥ poṣadhaḥ //
+            </p>
+         
+         
+         <p>
+            eṣā uddānagāthā caṃpāyāṃ poṣadhasūtre vistareṇa /<br />
+            tac ca poṣadhasūtraṃ madhyamāgame saṃgītanipāte paṭhyate //
+            </p>
+         
+         
+         <p>uddānam* /</p>
+         
+         
+         <p>
+            codanāt smāraṇāc caiva avakāśo 'vacanīyataḥ /<br />
+            avavādaḥ prasthāpanaṃ poṣadhaś ca pravāraṇā //
+            </p>
+         
+         
+         <p>uktaṃ bhagavatā saṃghasthavireṇa tv ardhamāsaṃ prātimokṣasūtroddeśa uddeṣṭavya iti
+            / upadhivārikaḥ saṃghasthavirasya purastāt sthitvā kathayati / sthavira prātimokṣasūtroddeśam
+            uddiśeti / sa kathayati / āyuṣman na (<span class="bold">312r1 = GBM 6.936</span>) śuddhā tāvad bhikṣuparṣat* / ko 'tra sthavireṇāpariśuddho dṛṣṭaḥ / tvam eva tāvat*
+            / katham ahaṃ sthavireṇa dṛṣṭaḥ / divyena cakṣuṣā / hantedānīṃ naṣṭāḥ smaḥ / yatra
+            bhikṣavo divyena cakṣuṣā dṛṣṭvā codayanti smārayanti / ity etat prakaraṇaṃ bhikṣavo
+            bhagavata ārocayanti / bhagavān āha / asaṃvyavahāryaṃ bhikṣavo divyacakṣuḥ / tasmān
+            na bhikṣuṇā divyena cakṣuṣā dṛṣṭvā bhikṣuś codayitavyaḥ smārayitavyaḥ / bhikṣur divyena
+            cakṣuṣā dṛṣṭvā bhikṣuṃ codayati smārayati sātisāro bhavati /</p>
+         
+         
+         <p>yathā divyena cakṣuṣā evaṃ divyena śrotreṇa /</p>
+         
+         
+         <p>punar apy asāv upadhivārikaḥ saṃghasthavirasya purastāt sthitvā kathayati / sthavira
+            prātimokṣasūtroddeśam uddiśeti / sa kathayati / (<span class="bold">MSV III 108</span>) āyuṣmann apariśuddhā tāvad bhikṣuparṣat* / sthavira ko 'trāpariśuddhaḥ / tvam eva
+            tāvat* / sthavira katham nāma tvayā saṃghamadhye mama śirasi muṣṭir nipātitā / aho
+            batāhaṃ tvayā ekānte coditaḥ syām iti / sa tūṣṇīm avasthitaḥ / etat prakaraṇaṃ bhikṣavo
+            bhagavata ārocayanti / bhagavān āha / ekānte codayitavyo na saṃghamadhye / saced ekānte
+            codyamāno na smarati smārayitavyaḥ / smāritaś cet kopam āpadyate / avakāśaḥ kārayitavyaḥ
+            / avakāśaṃ kāryamāṇo 'nyenānyaṃ pratisarati / bhagavān āha / avacanīyaḥ kartavyaḥ
+            / avacanīyaḥ kṛtaḥ / tathāpy anyenānyaṃ pratisarati / bhagavān āha / avavādo 'sya
+            sthāpayitavyaḥ poṣadhaḥ pravāraṇā ca /</p>
+         
+         
+         <p>ekam adhārmikaṃ poṣadhasthāpanam ekaṃ dhārmikam* / dve adhārmike <span class="it">dve dhārmike</span> / trīṇy adhārmikāṇi trīṇi dhārmikāṇi / catvāry adhārmikāṇi catvāri dhārmikāṇi / paṃcādhārmikāṇi
+            paṃca dhārmikāṇi / ṣaḍ adhārmikāṇi ṣaḍ dhārmikāṇi / saptādhārmikāṇi sapta dhārmikāṇi
+            / aṣṭāv adhārmikāṇi aṣṭau dhārmikāṇi / navādhārmikāṇi nava dhārmikāṇi / daśādhārmikāṇi
+            daśa dhārmikāṇi poṣadhasthāpanāni /</p>
+         
+         
+         <p>ekam adhārmikaṃ poṣadhasthāpanam ekaṃ dhārmikam* / adhārmikaṃ katarat* / amūlakena
+            kṛtena poṣadhaṃ sthāpayati adhārmikaṃ poṣadhasthāpanam* / dhārmikaṃ poṣadhasthāpanam
+            <span class="it">katarat*</span> / samūlakena kṛtena (<span class="bold">MSV III 109</span>) poṣadhaṃ sthāpayati dhārmikaṃ poṣadhasthāpanam* / idam ekam adhārmikaṃ poṣadhasthāpanam
+            ekaṃ dhārmikam* /</p>
+         
+         
+         <p>dve adhārmike poṣadhasthāpane dve dhārmike / katame / amūlakenākṛtenāmūlakena kṛtena
+            poṣadhaṃ sthāpayati adhārmikaṃ poṣadhasthāpanam* / samūlakenākṛtena samūlakena kṛtena
+            poṣadhaṃ sthāpayati dhārmikaṃ poṣadhasthāpanam* / ime dve adhārmike poṣadhasthāpane
+            dve dhārmike /</p>
+         
+         
+         <p>trīṇy adhārmikāṇi trīṇi dhārmikāṇi poṣadhasthāpanāni / katamāni / amūlakena kṛtena
+            amūlakenākṛtena amūlakena kṛtākṛtena poṣadhaṃ sthāpayati adhārmikaṃ poṣadhasthāpanam*
+            / samūlakena kṛtena samūlakenākṛtena samūlakena kṛtākṛtena poṣadhaṃ sthāpayati dhārmikaṃ
+            poṣadhasthāpanam* / imāni trīṇy adhārmikāṇi poṣadhasthāpanāni trīṇi dhārmikāṇi /</p>
+         
+         
+         <p>catvāry adhārmikāṇi catvāri dhārmikāṇi poṣadhasthāpanāni / katamāni / amūlikayā śīlavipattyā
+            dṛṣṭivipattyā ācāravipattyā ājīvavipattyā poṣadhaṃ sthāpayaty adhārmikaṃ poṣadhasthāpanam*
+            / (<span class="bold">312v1 = GBM 6.937</span>) samūlikayā śīlavipattyā dṛṣṭivipattyā ācāravipattyā ājīvavipattyā poṣadhaṃ sthāpayati
+            dhārmikaṃ poṣadhasthāpanam* / imāni catvāry adhārmikāṇi poṣadhasthāpanāni catvāri
+            dhārmikāṇi /</p>
+         
+         
+         <p>paṃcādhārmikāṇi paṃca dhārmikāṇi poṣadhasthāpanāni / katamāni / amūlikayā pārājikayā
+            saṃghāvaśeṣayā pāyantikayā pratideśanikayā duṣkṛtayā poṣadhaṃ sthāpayaty adhārmikaṃ
+            poṣadhasthāpanam* / (<span class="bold">MSV III 110</span>) samūlikayā pārājikayā saṃghāvaśeṣayā pāyantikayā pratideśanikayā duṣkṛtayā poṣadhaṃ
+            sthāpayati dhārmikaṃ poṣadhasthāpanam* / imāni paṃcādhārmikāṇi poṣadhasthāpanāni paṃca
+            dhārmikāṇi /</p>
+         
+         
+         <p>ṣaḍ adhārmikāṇi poṣadhasthāpanāni ṣaḍ dhārmikāṇi poṣadhasthāpanāni / katamāni / amūlakena
+            kṛtena amūlakenākṛtena amūlakena kṛtākṛtena / amūlakena kṛtena sāvaśeṣeṇa amūlake<span class="it">nākṛtena sāvaśeṣeṇa amūlake</span>na kṛtākṛtena sāvaśeṣeṇa poṣadhaṃ sthāpayaty adhārmikaṃ poṣadhasthāpanam* / samūlakena
+            kṛtena samūlakenākṛtena samūlakena kṛtākṛtena / <span class="it">samūlakena kṛtena sāvaśeṣeṇa</span> samūlakenākṛtena sāvaśeṣeṇa samūlakena kṛtākṛtena sāvaśeṣeṇa poṣadhaṃ sthāpayati
+            dhārmikaṃ poṣadhasthāpanam* / imāni ṣaḍ adhārmikāṇi poṣadhasthāpanāni ṣaḍ dhārmikāṇi
+            /</p>
+         
+         
+         <p>saptādhārmikāṇi poṣadhasthāpanāni sapta dhārmikāṇi poṣadhasthāpanāni / katamāni /
+            amūlikayā śīlavipattyā dṛṣṭivipattyā ācāravipattyā ājīvavipattyā <span class="it">amūlakena</span> dṛṣṭena śrutena pariśaṃkitena poṣadhaṃ sthāpayaty adhārmikaṃ poṣadhasthāpanam* /
+            samūlakikayā śīlavipattyā dṛṣṭivipattyā ācāravipattyā ājīvavipattyā samūlakena dṛṣṭena
+            śrutena pariśaṃkitena poṣadhaṃ sthāpayati dhārmikaṃ poṣadhasthāpanam* / imāni saptādhārmikāṇi
+            sapta dhārmikāṇi poṣadhasthāpanāni /</p>
+         
+         
+         <p>aṣṭāv adhārmikāṇi aṣṭau dhārmikāṇi poṣadhasthāpanāni / katamāni / amūlikayā pārājikayā
+            saṃghāvaśeṣayā pāyantikayā (<span class="bold">MSV III 111</span>) pratideśanikayā duṣkṛtayā amūlakena dṛṣṭena śrutena pariśaṃkitena poṣadhaṃ sthāpayaty
+            adhārmikaṃ poṣadhasthāpanam* / samūlikayā pārājikayā saṃghāvaśeṣayā pāyantikayā pratideśanikayā
+            duṣkṛtayā samūlakena dṛṣṭena śrutena pariśaṃkitena poṣadhaṃ sthāpayati dhārmikaṃ poṣadhasthāpanam*
+            / imāni aṣṭāv adhārmikāṇi poṣadhasthāpanāni aṣṭau dhārmikāṇi /</p>
+         
+         
+         <p>navādhārmikāṇi nava dhārmikāṇi poṣadhasthāpanāni / katamāni / amūlakena kṛtena amūlakenākṛtena
+            amūlakena kṛtākṛtena / amūlakena kṛtena sāvaśeṣeṇa amūlakenākṛtena sāvaśeṣeṇa amūlakena
+            kṛtākṛtena sāvaśeṣeṇa / amūlakena kṛtena niravaśeṣeṇa amūlakenākṛtena niravaśeṣeṇa
+            amūlakena kṛtākṛtena niravaśeṣeṇa poṣadhaṃ sthāpayaty adhārmikaṃ poṣadhasthāpanam*
+            / samūlakena kṛtena samūlakenākṛtena samūlakena kṛtākṛtena / samūlakena kṛtena sāvaśeṣeṇa
+            samūlakenākṛtena sāvaśeṣeṇa samūlakena kṛtākṛtena sāvaśeṣeṇa / samūlakena kṛtena niravaśeṣeṇa
+            <span class="it">samūlakenākṛtena niravaśeṣeṇa</span> samūlakena kṛtākṛtena niravaśeṣeṇa poṣadhaṃ sthāpayati (<span class="bold">313r1 = GBM 6.938</span>) dhārmikaṃ poṣadhasthāpanam* / imāni navādhārmikāṇi poṣadhasthāpanāni nava dhārmikāṇi
+            /</p>
+         
+         
+         <p>daśādhārmikāṇi daśa dhārmikāṇi poṣadhasthāpanāni / katamāni / pārājiko na bhavati
+            / pārājikakathā na viprakṛtā bhavati / śikṣā na pratyākhyātā bhavati / śikṣāpratyākhyānakathā
+            na (<span class="bold">MSV III 112</span>) na viprakṛtā bhavati / saṃgho na pratyākhyāto bhavati / saṃghapratyākhyānakathā
+            na viprakṛtā bhavati / śīlavipanno <span class="it">na</span> bhavati na dṛṣṭivipanno nācāravipanno nājīvavipannaḥ /</p>
+         
+         
+         <p>kathaṃ pārājiko na bhavati / yair ākārair yair liṅgair yair nimittaiḥ pārājikām āpattim
+            āpadyate taṃ ca bhikṣuḥ paśyati na tair ākārair na tair liṅgair na tair nimittaiḥ
+            pārājikām āpattim āpadyamānam* / sa cādṛṣṭvā aśrutvā apariśaṃkya poṣadhaṃ sthāpayati
+            / adhārmikaṃ poṣadhasthāpanam* / evaṃ pārājiko na bhavati /</p>
+         
+         
+         <p>kathaṃ pārājikakathā na viprakṛtā bhavati / yathāpi tat saṃbahulā bhikṣavaḥ saṃniṣaṇṇā
+            bhavanti saṃnipatitāḥ / sā ca kathā na lajjā bhavati na tanmayā na viprakṛtā / te
+            ca bhikṣavaḥ utthāyāsanebhyo nānā viprakrāmanti / sa cādṛṣṭvā aśrutvā apariśaṃkya
+            ca poṣadhaṃ sthāpayati / adhārmikaṃ poṣadhasthāpanam* / evaṃ pārājikakathā na viprakṛtā
+            bhavati /</p>
+         
+         
+         <p>kathaṃ śikṣā na pratyākhyātā bhavati / yair ākārair yair liṅgair yair nimittaiḥ śikṣāpratyākhyānaṃ
+            kriyate taṃ ca bhikṣuḥ paśyati na tair ākārair na tair liṅgair na tair nimittaiḥ śikṣāpratyākhyānaṃ
+            kurvāṇam* / sa cādṛṣṭvā aśrutvā apariśaṃkya poṣadhaṃ sthāpayati / adhārmikaṃ poṣadhasthāpanam*
+            / evaṃ śikṣā pratyākhyātā na bhavati /</p>
+         
+         
+         <p>kathaṃ śikṣāpratyākhyānakathā na viprakṛtā bhavati / yathāpi tat saṃbahulā bhikṣavaḥ
+            saṃniṣaṇṇā bhavanti saṃnipatitāḥ / sā ca kathā na lajjā bhavati na tanmayā na viprakṛtā
+            bhavati / (<span class="bold">MSV III 113</span>) te ca bhikṣavaḥ utthāyāsanebhyo nānā viprakrāmanti / sa cādṛṣṭvā aśrutvā apariśaṃkya
+            poṣadhaṃ sthāpayati / adhārmikaṃ poṣadhasthāpanam* / <span class="it">evaṃ</span> śikṣāpratyākhyānakathā na viprakṛtā bhavati /</p>
+         
+         
+         <p>kathaṃ saṃgho na pratyākhyāto bhavati / yair ākārair yair liṅgair yair nimittaiḥ saṃghaḥ
+            pratyākhyāyate taṃ ca bhikṣuḥ paśyati na tair ākārair na tair liṅgair na tair nimittaiḥ
+            saṃghapratyākhyānaṃ kurvantam* / sa cādṛṣṭvā aśrutvā apariśaṃkya poṣadhaṃ sthāpayati
+            / adhārmikaṃ poṣadhasthāpanam* / evaṃ saṃgho na pratyākhyāto na bhavati /</p>
+         
+         
+         <p>kathaṃ saṃghapratyākhyānakathā na viprakṛtā bhavati / yathāpi tat saṃbahulā bhikṣavaḥ
+            saṃniṣaṇṇā bhavanti saṃnipatitāḥ / sā ca kathā na lajjā bhavati na tanmayā na viprakṛtā
+            bhavati / te ca bhikṣavaḥ utthāyāsanebhyo nānā viprakrāmanti / sa cādṛṣṭvā aśrutvā
+            apariśaṃkya poṣadhaṃ sthāpayati / adhārmikaṃ poṣadhasthāpanam* / evaṃ saṃghapratyākhyānakathā
+            na viprakṛtā bhavati /</p>
+         
+         
+         <p>kathaṃ na śīlavipanno bhavati / caturṇāṃ pārājikānām a<span class="it">nyatamā</span>nyatamām āpattim āpanno bhavati / tasya ca bhikṣur adṛṣṭvā aśrutvā apariśaṃkya poṣadhaṃ
+            sthāpayati / adhārmikaṃ poṣadhasthāpanam* / evaṃ na śīlavipanno bhavati /</p>
+         
+         
+         <p>kathaṃ na dṛṣṭivipanno bhavati / dvāṣaṣṭer dṛṣṭigatānām anyatarānyatarāṃ dṛṣṭim anabhiniviṣṭo
+            bhavati / tasya ca bhikṣur adṛṣṭvā aśrutvā apariśaṃkya poṣadhaṃ sthāpayati / adhārmikaṃ
+            poṣadhasthāpanam* / evaṃ na dṛṣṭivipanno bhavati /</p>
+         
+         <span class="note"><span class="bold">MSV III 114</span></span>
+         
+         <p>kathaṃ nācāravipanno bhavati / ānulomikaiḥ śikṣānukūlair (<span class="bold">313v1 = GBM 6.939</span>) vacanapathair ucyamānaḥ samyak pratipadyate / tasya ca bhikṣur adṛṣṭvā aśrutvā apariśaṃkya
+            poṣadhaṃ sthāpayati / adhārmikaṃ poṣadhasthāpanam* / evaṃ nācāravipanno bhavati /</p>
+         
+         
+         <p>kathaṃ nājīvavipanno bhavati / ājīvo 'sya pariśuddho bhavati / tasya ca bhikṣur adṛṣṭvā
+            aśrutvā apariśaṃkya poṣadhaṃ sthāpayati / adhārmikaṃ poṣadhasthāpanam* / evaṃ nājīvavipanno
+            bhavati /</p>
+         
+         
+         <p>śuklapakṣe pārājiko bhavati / pārājikakathā viprakṛtā bhavati / śikṣā pratyākhyātā
+            bhavati / śikṣāpratyākhyānakathā viprakṛtā bhavati / saṃghaḥ pratyākhyāto bhavati
+            / saṃghapratyākhyānakathā viprakṛtā bhavati / śīlavipanno bhavati dṛṣṭivipanna ācāravipanna
+            ājīvavipannaḥ /</p>
+         
+         
+         <p>kathaṃ pārājiko bhavati / yair ākārair yair liṅgair yair nimittaiḥ pārājikām āpattim
+            āpadyate / taṃ ca bhikṣuḥ paśyati na tair ākārais tair liṅgais tair nimittaiḥ pārājikām
+            āpattim āpadyamānam* / sa dṛṣṭvā śrutvā pariśaṃkya poṣadhaṃ sthāpayati / dhārmikaṃ
+            poṣadhasthāpanam* / evaṃ pārājiko na bhavati /</p>
+         
+         
+         <p>kathaṃ pārājikakathā viprakṛtā bhavati / yathāpi tat saṃbahulā bhikṣavaḥ saṃniṣaṇṇā
+            bhavanti saṃnipatitāḥ / sā ca kathā lajjā bhavati tanmayā viprakṛtā / te ca bhikṣavas
+            tathā saṃniṣaṇṇā (<span class="bold">MSV III 115</span>) eva / sa ca dṛṣṭvā śrutvā pariśaṃkya poṣadhaṃ sthāpayati / dhārmikaṃ poṣadhasthāpanam*
+            / evaṃ pārājikakathā viprakṛtā bhavati /</p>
+         
+         
+         <p>kathaṃ śikṣā pratyākhyātā bhavati / yair ākārair yair liṅgair yair nimittaiḥ śikṣāpratyākhyānaṃ
+            kriyate taṃ ca bhikṣuḥ paśyati tair ākārais tair liṅgais tair nimittaiḥ śikṣāpratyākhyānaṃ
+            kurvāṇam* / sa ca dṛṣṭvā śrutvā pariśaṃkya poṣadhaṃ sthāpayati / dhārmikaṃ poṣadhasthāpanam*
+            / evaṃ śikṣā pratyākhyātā bhavati /</p>
+         
+         
+         <p>kathaṃ śikṣāpratyākhyānakathā viprakṛtā bhavati / yathāpi tat saṃbahulā bhikṣavaḥ
+            saṃniṣaṇṇā bhavanti saṃnipatitāḥ / sā ca kathā lajjā bhavati tanmayā viprakṛtā bhavati
+            / te ca bhikṣavas tathā saṃniṣaṇṇā eva / sa ca dṛṣṭvā śrutvā pariśaṃkya poṣadhaṃ sthāpayati
+            / dhārmikaṃ poṣadhasthāpanam* / evaṃ śikṣāpratyākhyānakathā viprakṛtā bhavati /</p>
+         
+         
+         <p>kathaṃ saṃgho pratyākhyāto bhavati / yair ākārair yair liṅgair yair nimittaiḥ saṃghaḥ
+            pratyākhyāyate taṃ ca bhikṣuḥ paśyati tair ākārais tair liṅgais tair nimittaiḥ saṃghapratyākhyānaṃ
+            kurvāṇam* / sa ca dṛṣṭvā śrutvā pariśaṃkya poṣadhaṃ sthāpayati / dhārmikaṃ poṣadhasthāpanam*
+            / evaṃ saṃghaḥ pratyākhyāto bhavati /</p>
+         
+         
+         <p>kathaṃ saṃghapratyākhyānakathā viprakṛtā bhavati / yathāpi tat saṃbahulā bhikṣavaḥ
+            saṃniṣaṇṇā bhavanti saṃnipatitāḥ / sā ca kathā lajjā bhavati tanmayā viprakṛtā bhavati
+            / te ca bhikṣavas tathā <span class="it">saṃ</span>niṣaṇṇā eva / sa ca dṛṣṭvā <span class="it">śrutvā</span> pariśaṃkya poṣadhaṃ sthāpayati / dhārmikaṃ poṣadhasthāpanam* / evaṃ saṃghapratyākhyānakathā
+            viprakṛtā bhavati /</p>
+         
+         <span class="note"><span class="bold">MSV III 116</span></span>
+         
+         <p>kathaṃ śīlavipanno bhavati / caturṇāṃ pārājikānām anyatamānyatamām āpattim āpanno
+            bhavati / tasya ca bhikṣur dṛṣṭvā śrutvā pariśaṃkya poṣadhaṃ sthāpayati / dhārmikaṃ
+            poṣadhasthāpanam* / evaṃ śīlavipanno bhavati /</p>
+         
+         
+         <p>kathaṃ dṛṣṭivipanno bhavati / dvāṣaṣṭer dṛṣṭigatānām anyatarānyatarāṃ dṛṣṭim abhiniviṣṭo
+            bhavati / tasya ca bhikṣur dṛṣṭvā śrutvā pariśaṃkya poṣadhaṃ sthāpayati / dhārmikaṃ
+            poṣadhasthāpanam* / (<span class="bold">314r1 = GBM 6.940</span>) evaṃ dṛṣṭivipanno bhavati /</p>
+         
+         
+         <p>katham ācāravipanno bhavati / ānulomikaiḥ śikṣānukūlair vacanapathair ucyamāno na
+            samyak pratipadyate / tasya <span class="it">ca</span> bhikṣur dṛṣṭvā śrutvā pariśaṃkya poṣadhaṃ sthāpayati / dhārmikaṃ poṣadhasthāpanam*
+            / evam ācāravipanno bhavati /</p>
+         
+         
+         <p>katham ājīvavipanno bhavati / ājīvo 'syāpariśuddho bhavati / tasya <span class="it">ca</span> bhikṣur dṛṣṭvā śrutvā pariśaṃkya poṣadhaṃ sthāpayati / dhārmikaṃ poṣadhasthāpanam*
+            / evam ājīvavipanno bhavati /</p>
+         
+         
+         <p>imāni daśādhārmikāṇi daśa dhārmikāṇi poṣadhasthāpanāni / yathā poṣadhasthāpanam evaṃ
+            pravāraṇāsthāpanam* /</p>
+         
+         
+         <p>paṃceme bhikṣavaḥ saṃghāḥ / katame paṃca / alajjisaṃghaḥ eḍa<span class="it">mū</span>kasaṃghaḥ gaṇasaṃghaḥ saṃvṛtisaṃghaḥ paramārthasaṃghaś ca /</p>
+         
+         
+         <p>alajjisaṃghaḥ katamaḥ / yatra sarve bhikṣavo duḥśīlāḥ pāpadharmāṇaḥ / eḍamūkasaṃghaḥ
+            katamaḥ / yatra na sūtradharo na vinayadharo na mātṛkādharaḥ / gaṇasaṃghaḥ katamaḥ
+            / yatra gaṇasaṃbandhena karmāṇi (<span class="bold">MSV III 117</span>) kriyante / saṃvṛtisaṃghaḥ katamaḥ / sarve pṛthagjanakalyāṇakāḥ / paramārthasaṃghaḥ
+            katamaḥ / śaikṣāśaikṣā aṣṭau mahāpuruṣapudgalāḥ / tatra ye pūrvakās trayaḥ saṃghāḥ
+            alajji<span class="it">naḥ</span> saṃghaḥ eḍamūkasaṃghaḥ gaṇasaṃghaś ca labhyam ebhir adharmeṇa karmaṇā kartum* / yo
+            'yaṃ saṃvṛtisaṃgho labhyam anena dharmasaṃjñinā adharmeṇa karmaṇā kartum* / yas tv
+            ayaṃ paramārthasaṃgho na labhyam anenādharmeṇa karmaṇā kartum* /</p>
+         
+         
+         <p>poṣadhasthāpanavastu samāptam* //</p>
+         
+         </div>
+   </body>
+</html>

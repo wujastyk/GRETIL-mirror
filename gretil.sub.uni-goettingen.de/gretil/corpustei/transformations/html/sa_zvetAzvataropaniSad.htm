@@ -1,0 +1,875 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Śvetāśvataropaniṣad (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Śvetāśvataropaniṣad</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_zvetAzvataropaniSad.xml">sa_zvetAzvataropaniSad.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>S. H.</p>
+      <p class="noindent"><b>Contribution: </b>S. H.</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>the electronic text available from Sanskrit Documents (https://sanskritdocuments.org).</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/1_veda/4_upa/svetu_au.htm">svetu_au.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Svetasvatara-Upanisad (Svetasvataropanisad)
+            <br />Based on the electronic text available from "Sanskrit Documents" (http://sanskrit.gde.to).
+            <br />
+            <br />Input by S. H., proofread by John Manetta
+            <br />
+            <br />This GRETIL version has been checked against the edition
+            <br />by V.P. Limaye and R.D. Vadekar (Eighteen Principal Upanisads, vol. 1,
+            <br />Poona 1958), and the electronic version available on TITUS.
+            <br />In cases of divergence, preference has usually been given to the printed
+            <br />edition.
+            <br />
+            <br />TEXT WITH PADA MARKERS
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         <h3>Śvetāśvatara-Upaniṣad (Śvetāśvataropaniṣad)</h3>
+         
+         
+         <p>oṃ brahmavādino vadanti</p>
+         
+         
+         <div id="d1e593">
+            
+            
+            <h3>prathamo 'dhyāyaḥ</h3>
+            
+            
+            <p id="SvetUp_1.1">
+               kiṃkāraṇaṃ brahma kutaḥ sma jātā jīvāmaḥ kena kva ca saṃpratiṣṭhāḥ <br />
+               adhiṣṭhitāḥ kena sukhetareṣu vartāmahe brahmavido vyavasthām //
+                <span class="ref">SvetUp_1.1</span></p>
+            
+            
+            <p id="SvetUp_1.2">
+               kālaḥ svabhāvo niyatir yadṛcchā bhūtāni yoniḥ puruṣeti cintyam <br />
+               saṃyoga eṣāṃ na tv ātmabhāvād ātmā hy anīśaḥ sukhaduḥkhahetoḥ //
+                <span class="ref">SvetUp_1.2</span></p>
+            
+            
+            <p id="SvetUp_1.3">
+               te dhyānayogānugatā apaśyan devātmaśaktiṃ svaguṇair nigūḍhām <br />
+               yaḥ kāraṇāni nikhilāni tāni kālātmayuktāny adhitiṣṭhaty ekaḥ //
+                <span class="ref">SvetUp_1.3</span></p>
+            
+            
+            <p id="SvetUp_1.4">
+               tam ekanemiṃ trivṛtaṃ ṣoḍaśāntaṃ śatārdhāraṃ viṃśatipratyarābhiḥ <br />
+               aṣṭakaiḥ ṣaḍbhir viśvarūpaikapāśaṃ trimārgabhedaṃ dvinimittaikamoham //
+                <span class="ref">SvetUp_1.4</span></p>
+            
+            
+            <p id="SvetUp_1.5">
+               pañcasroto'mbuṃ pañcayonyugravaktrāṃ pañcaprāṇormiṃ pañcabuddhyādimūlāṃ <br />
+               pañcāvartāṃ pañcaduḥkhaughavegāṃ pañcāśadbhedāṃ pañcaparvām adhīmaḥ //
+                <span class="ref">SvetUp_1.5</span></p>
+            
+            
+            <p id="SvetUp_1.6">
+               sarvājīve sarvasaṃsthe bṛhante tasmin haṃso bhrāmyate brahmacakre <br />
+               pṛthag ātmānaṃ preritāraṃ ca matvā juṣṭas tatas tenāmṛtatvam eti //
+                <span class="ref">SvetUp_1.6</span></p>
+            
+            
+            <p id="SvetUp_1.7">
+               udgītam etat paramaṃ tu brahma tasmiṃs trayaṃ svapratiṣṭhākṣaraṃ ca <br />
+               atrāntaraṃ brahmavido viditvā līnā brahmaṇi tatparā yonimuktāḥ //
+                <span class="ref">SvetUp_1.7</span></p>
+            
+            
+            <p id="SvetUp_1.8">
+               saṃyuktam etat kṣaram akṣaraṃ ca vyaktāvyaktaṃ bharate viśvam īśaḥ <br />
+               anīśaś cātmā badhyate bhoktṛbhāvāj jñātvā devaṃ mucyate sarvapāśaiḥ //
+                <span class="ref">SvetUp_1.8</span></p>
+            
+            
+            <p id="SvetUp_1.9">
+               jñājñau dvāv ajāv īśanīśāv ajā hy ekā bhoktṛbhogārthayuktā <br />
+               anantaś cātmā viśvarūpo hy akartā trayaṃ yadā vindate brahmam etat //
+                <span class="ref">SvetUp_1.9</span></p>
+            
+            
+            <p id="SvetUp_1.10">
+               kṣaraṃ pradhānam amṛtākṣaraṃ haraḥ kṣarātmānāv īśate deva ekaḥ <br />
+               tasyābhidhyānād yojanāt tattvabhāvād bhūyaś cānte viśvamāyānivṛttiḥ //
+                <span class="ref">SvetUp_1.10</span></p>
+            
+            
+            <p id="SvetUp_1.11">
+               jñātvā devaṃ sarvapāśāpahāniḥ kṣīnaiḥ kleśair janmamṛtyuprahāṇiḥ <br />
+               tasyābhidhyānāt tṛtīyaṃ dehabhede viśvaiśvaryaṃ kevala āptakāmaḥ //
+                <span class="ref">SvetUp_1.11</span></p>
+            
+            
+            <p id="SvetUp_1.12">
+               etaj jñeyaṃ nityam evātmasaṃsthaṃ nātaḥ paraṃ veditavyaṃ hi kiṃcit <br />
+               bhoktā bhogyaṃ preritāraṃ ca matvā sarvaṃ proktaṃ trividhaṃ brahmam etat //
+                <span class="ref">SvetUp_1.12</span></p>
+            
+            
+            <p id="SvetUp_1.13">
+               vahner yathā yonigatasya mūrtir na dṛśyate naiva ca liṅganāśaḥ <br />
+               sa bhūya evendhanayonigṛhyas tadvobhayaṃ vai praṇavena dehe //
+                <span class="ref">SvetUp_1.13</span></p>
+            
+            
+            <p id="SvetUp_1.14">
+               svadeham araṇiṃ kṛtvā praṇavaṃ cottarāraṇiṃ <br />
+               dhyānanirmathanābhyāsād devaṃ paśyen nigūḍhavat //
+                <span class="ref">SvetUp_1.14</span></p>
+            
+            
+            <p id="SvetUp_1.15">
+               tileṣu tailaṃ dadhanīva sarpir āpaḥ srotaḥsv araṇīṣu cāgniḥ <br />
+               evam ātmā ātmani gṛhyate 'sau satyenainaṃ tapasā yo 'nupaśyati //
+                <span class="ref">SvetUp_1.15</span></p>
+            
+            
+            <p id="SvetUp_1.16">
+               sarvavyāpinam ātmānaṃ kṣīre sarpir ivārpitam <br />
+               ātmavidyātapomūlaṃ tad brahmopaniṣatparaṃ tad brahmopaniṣatparam //
+                <span class="ref">SvetUp_1.16</span></p>
+            
+            </div>
+         
+         <div id="d1e904">
+            
+            
+            <h3>dvitīyo 'dhyāyaḥ</h3>
+            
+            
+            <p id="SvetUp_2.1">
+               yuñjānaḥ prathamaṃ manas tatvāya savitā dhiyaḥ <br />
+               agner jyotir nicāyya pṛthivyā adhy ābharat //
+                <span class="ref">SvetUp_2.1</span></p>
+            
+            
+            <p id="SvetUp_2.2">
+               yuktena manasā vayaṃ devasya savituḥ save <br />
+               suvargeyāya śaktyā % //
+                <span class="ref">SvetUp_2.2</span></p>
+            
+            
+            <p id="SvetUp_2.3">
+               yuktvāya manasā devān suvar yato dhiyā divaṃ <br />
+               bṛhaj jyotiḥ kariṣyataḥ savitā prasuvāti tān //
+                <span class="ref">SvetUp_2.3</span></p>
+            
+            
+            <p id="SvetUp_2.4">
+               yuñjate mana uta yuñjate dhiyo viprā viprasya bṛhato vipaścitaḥ <br />
+               vi hotrā dadhe vayunāvid eka in mahī devasya savituḥ pariṣṭutiḥ //
+                <span class="ref">SvetUp_2.4</span></p>
+            
+            
+            <p id="SvetUp_2.5">
+               yuje vāṃ brahma pūrvyaṃ namobhir vi śloka etu pathyeva sūreḥ <br />
+               śṛṇvanti viśve amṛtasya putrā ā ye dhāmāni diviyāni tasthuḥ //
+                <span class="ref">SvetUp_2.5</span></p>
+            
+            
+            <p id="SvetUp_2.6">
+               agnir yatrābhimathyate vāyur yatrādhirudhyate <br />
+               somo yatrātiricyate tatra saṃjāyate manaḥ //
+                <span class="ref">SvetUp_2.6</span></p>
+            
+            
+            <p id="SvetUp_2.7">
+               savitrā prasavena juṣeta brahma pūrvyam <br />
+               tatra yoniṃ kṛṇavase nahi te pūrtam akṣipat //
+                <span class="ref">SvetUp_2.7</span></p>
+            
+            
+            <p id="SvetUp_2.8">
+               trirunnataṃ sthāpya samaṃ śarīraṃ hṛdīndriyāṇi manasā saṃniveśya <br />
+               brahmoḍupena pratareta vidvān srotāṃsi sarvāṇi bhayāvahāni //
+                <span class="ref">SvetUp_2.8</span></p>
+            
+            
+            <p id="SvetUp_2.9">
+               prāṇān prapīḍyeha sa yuktaceṣṭaḥ kṣīne prāṇe nāsikayocchvasīta <br />
+               duṣṭāśvayuktam iva vāham enaṃ vidvān mano dhārayetāpramattaḥ //
+                <span class="ref">SvetUp_2.9</span></p>
+            
+            
+            <p id="SvetUp_2.10">
+               same śucau śarkarāvahnivālukāvivarjite śabdajalāśrayādibhiḥ <br />
+               mano'nukūle na tu cakṣupīḍane guhānivātāśrayaṇe prayojayet //
+                <span class="ref">SvetUp_2.10</span></p>
+            
+            
+            <p id="SvetUp_2.11">
+               nīhāradhūmārkānalānilānāṃ khadyotavidyutsphaṭikāśaśīnām <br />
+               etāni rūpāṇi puraḥsarāṇi brahmaṇy abhivyaktikarāṇi yoge //
+                <span class="ref">SvetUp_2.11</span></p>
+            
+            
+            <p id="SvetUp_2.12">
+               pṛthvyaptejo'nilakhe samutthite pañcātmake yogaguṇe pravṛtte <br />
+               na tasya rogo na jarā na mṛtyuḥ prāptasya yogāgnimayaṃ śarīram //
+                <span class="ref">SvetUp_2.12</span></p>
+            
+            
+            <p id="SvetUp_2.13">
+               laghutvam ārogyam alolupatvaṃ varṇaprasādaḥ svarasauṣṭhavaṃ ca <br />
+               gandhaḥ śubho mūtrapurīṣam alpaṃ yogapravṛttiṃ prathamāṃ vadanti //
+                <span class="ref">SvetUp_2.13</span></p>
+            
+            
+            <p id="SvetUp_2.14">
+               yathaiva bimbaṃ mṛdayopaliptaṃ tejomayaṃ bhrājate tat sudhāntam <br />
+               tad vātmatattvaṃ prasamīkṣya dehī ekaḥ kṛtārtho bhavate vītaśokaḥ //
+                <span class="ref">SvetUp_2.14</span></p>
+            
+            
+            <p id="SvetUp_2.15">
+               yad ātmatattvena tu brahmatattvaṃ dīpopameneha yuktaḥ prapaśyet <br />
+               ajaṃ dhruvaṃ sarvatattvair viśuddhaṃ jñātvā devaṃ mucyate sarvapāśaiḥ //
+                <span class="ref">SvetUp_2.15</span></p>
+            
+            
+            <p id="SvetUp_2.16">
+               eṣa ha devaḥ pradiśo 'nu sarvāḥ pūrvo ha jātaḥ sa u garbhe antaḥ <br />
+               sa eva jātaḥ sa janiṣyamānaḥ pratyaṅ janās tiṣṭhati sarvatomukhaḥ //
+                <span class="ref">SvetUp_2.16</span></p>
+            
+            
+            <p id="SvetUp_2.17">
+               yo devo agnau yo apsu yo viśvaṃ bhuvanam āviveśa <br />
+               ya oṣadhīṣu yo vanaspatīṣu tasmai devāya namo namaḥ //
+                <span class="ref">SvetUp_2.17</span></p>
+            
+            </div>
+         
+         <div id="d1e1228">
+            
+            
+            <h3>tṛtīyo 'dhyāyaḥ</h3>
+            
+            
+            <p id="SvetUp_3.1">
+               ya eko jālavān īśata īśanībhiḥ sarvāṃl lokān īśata īśanībhiḥ <br />
+               ya evaika udbhave saṃbhave ca ya etad vidur amṛtās te bhavanti //
+                <span class="ref">SvetUp_3.1</span></p>
+            
+            
+            <p id="SvetUp_3.2">
+               eko hi rudro na dvitīyāya tasthe ya imāṃl lokān īśata īśanībhiḥ <br />
+               pratyaṅ janās tiṣṭhati saṃcukocāntakāle saṃsṛjya viśvā bhuvanāni gopāḥ //
+                <span class="ref">SvetUp_3.2</span></p>
+            
+            
+            <p id="SvetUp_3.3">
+               viśvataścakṣur uta viśvatomukho viśvatobāhur uta viśvataspāt <br />
+               saṃ bāhubhyāṃ dhamati saṃ patatrair dyāvābhūmī janayan deva ekaḥ //
+                <span class="ref">SvetUp_3.3</span></p>
+            
+            
+            <p id="SvetUp_3.4">
+               yo devānāṃ prabhavaś codbhavaś ca viśvādhipo rudro maharṣiḥ <br />
+               hiraṇyagarbhaṃ janayāmāsa pūrvaṃ sa no buddhyā śubhayā saṃyunaktu //
+                <span class="ref">SvetUp_3.4</span></p>
+            
+            
+            <p id="SvetUp_3.5">
+               yā te rudra śivā tanūr aghorāpāpakāśinī <br />
+               tayā nas tanuvā śaṃtamayā giriśantābhicākaśīhi //
+                <span class="ref">SvetUp_3.5</span></p>
+            
+            
+            <p id="SvetUp_3.6">
+               yām iṣuṃ giriśanta haste bibharṣy astave <br />
+               śivāṃ giritra tāṃ kuru mā hiṃsīḥ puruṣaṃ jagat //
+                <span class="ref">SvetUp_3.6</span></p>
+            
+            
+            <p id="SvetUp_3.7">
+               tataḥ paraṃ brahma paraṃ bṛhantaṃ yathānikāyaṃ sarvabhūteṣu gūḍhaṃ <br />
+               viśvasyaikaṃ pariveṣṭitāram īśaṃ taṃ jñātvāmṛtā bhavanti //
+                <span class="ref">SvetUp_3.7</span></p>
+            
+            
+            <p id="SvetUp_3.8">
+               vedāham etaṃ puruṣaṃ mahāntam ādityavarṇaṃ tamasaḥ parastāt <br />
+               tam eva viditvāti mṛtyum eti nānyaḥ panthā vidyate 'yanāya //
+                <span class="ref">SvetUp_3.8</span></p>
+            
+            
+            <p id="SvetUp_3.9">
+               yasmāt paraṃ nāparam asti kiṃcid yasmān nāṇīyo na jyāyo 'sti kiṃcit <br />
+               vṛkṣa iva stabdho divi tiṣṭhaty ekas tenedaṃ pūrṇaṃ puruṣeṇa sarvam //
+                <span class="ref">SvetUp_3.9</span></p>
+            
+            
+            <p id="SvetUp_3.10">
+               tato yad uttarataraṃ yad arūpam anāmayam <br />
+               ya etad vidur amṛtās te bhavanti athetare duḥkham evāpiyanti //
+                <span class="ref">SvetUp_3.10</span></p>
+            
+            
+            <p id="SvetUp_3.11">
+               sarvānanaśirogrīvaḥ sarvabhūtaguhāśayaḥ <br />
+               sarvavyāpī sa bhagavāṃs tasmāt sarvagataḥ śivaḥ //
+                <span class="ref">SvetUp_3.11</span></p>
+            
+            
+            <p id="SvetUp_3.12">
+               mahān prabhur vai puruṣaḥ sattvasyaiṣa pravartakaḥ <br />
+               sunirmalām imāṃ prāptim īśāno jyotir avyayaḥ //
+                <span class="ref">SvetUp_3.12</span></p>
+            
+            
+            <p id="SvetUp_3.13">
+               aṅguṣṭhamātraḥ puruṣo 'ntarātmā sadā janānāṃ hṛdaye saṃniviṣṭaḥ <br />
+               hṛdā manīṣā manasābhikḷpto ya etad vidur amṛtās te bhavanti //
+                <span class="ref">SvetUp_3.13</span></p>
+            
+            
+            <p id="SvetUp_3.14">
+               sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt <br />
+               sa bhūmiṃ viśvato vṛtvā atyatiṣṭhad daśāṅgulam //
+                <span class="ref">SvetUp_3.14</span></p>
+            
+            
+            <p id="SvetUp_3.15">
+               puruṣa evedaṃ sarvaṃ yad bhūtaṃ yac ca bhavyam <br />
+               utāmṛtatvasyeśāno yad annenātirohati //
+                <span class="ref">SvetUp_3.15</span></p>
+            
+            
+            <p id="SvetUp_3.16">
+               sarvataḥpāṇipādaṃ tat sarvato'kṣiśiromukhaṃ <br />
+               sarvataḥśrutimal loke sarvam āvṛtya tiṣṭhati //
+                <span class="ref">SvetUp_3.16</span></p>
+            
+            
+            <p id="SvetUp_3.17">
+               sarvendriyaguṇābhāsaṃ sarvendriyavivarjitaṃ <br />
+               sarvasya prabhum īśānaṃ sarvasya śaraṇaṃ suhṛt //
+                <span class="ref">SvetUp_3.17</span></p>
+            
+            
+            <p id="SvetUp_3.18">
+               navadvāre pure dehī haṃso lelāyate bahiḥ <br />
+               vaśī sarvasya lokasya sthāvarasya carasya ca //
+                <span class="ref">SvetUp_3.18</span></p>
+            
+            
+            <p id="SvetUp_3.19">
+               apāṇipādo javano grahītā paśyaty acakṣuḥ sa śṛṇoty akarṇaḥ <br />
+               sa vetti vedyaṃ na ca tasyāsti vettā tam āhur agryaṃ puruṣaṃ mahāntam //
+                <span class="ref">SvetUp_3.19</span></p>
+            
+            
+            <p id="SvetUp_3.20">
+               aṇor aṇīyān mahato mahīyān ātmā guhāyāṃ nihito 'sya jantoḥ <br />
+               tam akratuṃ paśyati vītaśoko dhātuprasādān mahimānam īśam //
+                <span class="ref">SvetUp_3.20</span></p>
+            
+            
+            <p id="SvetUp_3.21">
+               vedāham etam ajaraṃ purāṇaṃ sarvātmānaṃ sarvagataṃ vibhutvāt <br />
+               janmanirodhaṃ pravadanti yasya brahmavādino hi pravadanti nityam //
+                <span class="ref">SvetUp_3.21</span></p>
+            
+            </div>
+         
+         <div id="d1e1636">
+            
+            
+            <h3>caturtho 'dhyāyaḥ</h3>
+            
+            
+            <p id="SvetUp_4.1">
+               ya eko 'varṇo bahudhā śaktiyogād varṇān anekān nihitārtho dadhāti <br />
+               vi caiti cānte viśvam ādau sa devaḥ sa no buddhyā śubhayā saṃyunaktu //
+                <span class="ref">SvetUp_4.1</span></p>
+            
+            
+            <p id="SvetUp_4.2">
+               tad evāgnis tad ādityas tad vāyus tad u candramāḥ <br />
+               tad eva śukraṃ tad brahma tad āpas tat prajāpatiḥ //
+                <span class="ref">SvetUp_4.2</span></p>
+            
+            
+            <p id="SvetUp_4.3">
+               tvaṃ strī tvaṃ pumān asi tvaṃ kumāra uta vā kumārī <br />
+               tvaṃ jīrṇo daṇḍena vañcasi tvaṃ jāto bhavasi viśvatomukhaḥ //
+                <span class="ref">SvetUp_4.3</span></p>
+            
+            
+            <p id="SvetUp_4.4">
+               nīlaḥ pataṅgo harito lohitākṣas taḍidgarbha ṛtavaḥ samudrāḥ <br />
+               anādimāṃs tvaṃ vibhutvena vartase yato jātāni bhuvanāni viśvā //
+                <span class="ref">SvetUp_4.4</span></p>
+            
+            
+            <p id="SvetUp_4.5">
+               ajām ekāṃ lohitaśuklakṛṣṇāṃ bahvīḥ prajāḥ sṛjamānāṃ sarūpāḥ <br />
+               ajo hy eko juṣamāṇo 'nuśete jahāty enāṃ bhuktabhogām ajo 'nyaḥ //
+                <span class="ref">SvetUp_4.5</span></p>
+            
+            
+            <p id="SvetUp_4.6">
+               dvā suparṇā sayujā sakhāyā samānaṃ vṛkṣaṃ pariṣasvajāte <br />
+               tayor anyaḥ pippalaṃ svādv atty anaśnann anyo abhicākaśīti //
+                <span class="ref">SvetUp_4.6</span></p>
+            
+            
+            <p id="SvetUp_4.7">
+               samāne vṛkṣe puruṣo nimagno anīśayā śocati muhyamānaḥ <br />
+               juṣṭaṃ yadā paśyaty anyam īśaṃ asya mahimānam iti vītaśokaḥ //
+                <span class="ref">SvetUp_4.7</span></p>
+            
+            
+            <p id="SvetUp_4.8">
+               ṛco akṣare parame vyoman yasmin devā adhi viśve niṣedhuḥ <br />
+               yas tan na veda kim ṛcā kariṣyati ya it tad vidus ta ime samāsate //
+                <span class="ref">SvetUp_4.8</span></p>
+            
+            
+            <p id="SvetUp_4.9">
+               chandāṃsi yajñāḥ kratavo vratāni bhūtaṃ bhavyaṃ yac ca vedā vadanti <br />
+               asmān māyī sṛjate viśvam etat tasmiṃś cānyo māyayā saṃniruddhaḥ //
+                <span class="ref">SvetUp_4.9</span></p>
+            
+            
+            <p id="SvetUp_4.10">
+               māyāṃ tu prakṛtiṃ vidyān māyinaṃ tu maheśvaraṃ <br />
+               tasyāvayavabhūtais tu vyāptaṃ sarvaṃ idaṃ jagat //
+                <span class="ref">SvetUp_4.10</span></p>
+            
+            
+            <p id="SvetUp_4.11">
+               yo yoniṃ-yonim adhitiṣṭhaty eko yasminn idaṃ saṃ ca vi caiti sarvam <br />
+               tam īśānaṃ varadaṃ devam īḍyaṃ nicāyyemāṃ śāntim atyantam eti //
+                <span class="ref">SvetUp_4.11</span></p>
+            
+            
+            <p id="SvetUp_4.12">
+               yo devānāṃ prabhavaś codbhavaś ca viśvādhiko rudro maharṣiḥ <br />
+               hiraṇyagarbhaṃ paśyata jāyamānaṃ sa no buddhyā śubhayā saṃyunaktu //
+                <span class="ref">SvetUp_4.12</span></p>
+            
+            
+            <p id="SvetUp_4.13">
+               yo devānām adhipo yasmiṃl lokā adhiśritāḥ <br />
+               ya īśe asya dvipadaś catuṣpadaḥ kasmai devāya haviṣā vidhema //
+                <span class="ref">SvetUp_4.13</span></p>
+            
+            
+            <p id="SvetUp_4.14">
+               sūkṣmātisūkṣmaṃ kalilasya madhye viśvasya sraṣṭāram anekarūpaṃ <br />
+               viśvasyaikaṃ pariveṣṭitāraṃ jñātvā śivaṃ śāntim atyantam eti //
+                <span class="ref">SvetUp_4.14</span></p>
+            
+            
+            <p id="SvetUp_4.15">
+               sa eva kāle bhuvanasya goptā viśvādhipaḥ sarvabhūteṣu gūḍhaḥ <br />
+               yasmin yuktā brahmarṣayo devatāś ca tam evaṃ jñātvā mṛtyupāśāṃś chinatti //
+                <span class="ref">SvetUp_4.15</span></p>
+            
+            
+            <p id="SvetUp_4.16">
+               ghṛtāt paraṃ maṇḍam ivātisūkṣmaṃ jñātvā śivaṃ sarvabhūteṣu gūḍhaṃ <br />
+               viśvasyaikaṃ pariveṣṭitāraṃ jñātvā devaṃ mucyate sarvapāśaiḥ //
+                <span class="ref">SvetUp_4.16</span></p>
+            
+            
+            <p id="SvetUp_4.17">
+               eṣa devo viśvakarmā mahātmā sadā janānāṃ hṛdaye saṃniviṣṭaḥ <br />
+               hṛdā manīṣā manasābhikḷpto ya etad vidur amṛtās te bhavanti //
+                <span class="ref">SvetUp_4.17</span></p>
+            
+            
+            <p id="SvetUp_4.18">
+               yadātamas tan na divā na rātrir na san na cāsac chiva eva kevalaḥ <br />
+               tad akṣaraṃ tat savitur vareṇyaṃ prajñā ca tasmāt prasṛtā purāṇī //
+                <span class="ref">SvetUp_4.18</span></p>
+            
+            
+            <p id="SvetUp_4.19">
+               nainam ūrdhvaṃ na tiryañcaṃ na madhye parijagrabhat <br />
+               na tasya pratimā asti yasya nāma mahad yaśaḥ //
+                <span class="ref">SvetUp_4.19</span></p>
+            
+            
+            <p id="SvetUp_4.20">
+               na saṃdṛśe tiṣṭhati rūpam asya na cakṣuṣā paśyati kaścanainaṃ <br />
+               hṛdā hṛdisthaṃ manasā ya enam evaṃ vidur amṛtās te bhavanti //
+                <span class="ref">SvetUp_4.20</span></p>
+            
+            
+            <p id="SvetUp_4.21">
+               ajāta ity evaṃ kaścid bhīruḥ prapadyate <br />
+               rudra yat dakṣiṇaṃ mukham tena māṃ pāhi nityam //
+                <span class="ref">SvetUp_4.21</span></p>
+            
+            
+            <p id="SvetUp_4.22">
+               mā nas toke tanaye mā na āyuṣi mā no goṣu mā no aśveṣu rīriṣaḥ <br />
+               vīrān mā no rudra bhāmito vadhīr haviṣmantaḥ sadam it tvā havāmahe //
+                <span class="ref">SvetUp_4.22</span></p>
+            
+            </div>
+         
+         <div id="d1e2062">
+            
+            
+            <h3>pañcamo 'dhyāyaḥ</h3>
+            
+            
+            <p id="SvetUp_5.1">
+               dve akṣare brahmapare tv anante vidyāvidye nihite yatra gūḍhe <br />
+               kṣaraṃ tv avidyā hy amṛtaṃ tu vidyā vidyāvidye īśate yas tu so 'nyaḥ //
+                <span class="ref">SvetUp_5.1</span></p>
+            
+            
+            <p id="SvetUp_5.2">
+               yo yoniṃ yonim adhitiṣṭhaty eko viśvāni rūpāṇi yonīś ca sarvāḥ <br />
+               ṛṣiṃ prasūtaṃ kapilaṃ yas tam agre jñānair bibharti jāyamānaṃ ca paśyet //
+                <span class="ref">SvetUp_5.2</span></p>
+            
+            
+            <p id="SvetUp_5.3">
+               ekaikaṃ jālaṃ bahudhā vikurvann asmin kṣetre saṃharaty eṣa devaḥ <br />
+               bhūyaḥ sṛṣṭvā patayas tatheśaḥ sarvādhipatyaṃ kurute mahātmā //
+                <span class="ref">SvetUp_5.3</span></p>
+            
+            
+            <p id="SvetUp_5.4">
+               sarvā diśa ūrdhvam adhaś ca tiryak prakāśayan bhrājate yad vānaḍvān <br />
+               evaṃ sa devo bhagavān vareṇyo yonisvabhāvān adhitiṣṭhaty ekaḥ //
+                <span class="ref">SvetUp_5.4</span></p>
+            
+            
+            <p id="SvetUp_5.5">
+               yac ca svabhāvaṃ pacati viśvayoniḥ pācyāṃś ca sarvān pariṇāmayed yaḥ <br />
+               sarvam etad viśvam adhitiṣṭhaty eko guṇāṃś ca sarvān viniyojayed yaḥ //
+                <span class="ref">SvetUp_5.5</span></p>
+            
+            
+            <p id="SvetUp_5.6">
+               tad vedaguhyopaniṣatsu gūḍhaṃ tad brahmā vedate brahmayoniṃ <br />
+               ye pūrvaṃ devā ṛṣayaś ca tad vidus te tanmayā amṛtā vai babhūvuḥ //
+                <span class="ref">SvetUp_5.6</span></p>
+            
+            
+            <p id="SvetUp_5.7">
+               guṇānvayo yaḥ phalakarmakartā kṛtasya tasyaiva sa copabhoktā <br />
+               sa viśvarūpas triguṇas trivartmā prāṇādhipaḥ saṃcarati svakarmabhiḥ //
+                <span class="ref">SvetUp_5.7</span></p>
+            
+            
+            <p id="SvetUp_5.8">
+               aṅguṣṭhamātro ravitulyarūpaḥ saṃkalpāhaṃkārasamanvito yaḥ <br />
+               buddher guṇenātmaguṇena caiva ārāgramātro hy avaro 'pi dṛṣṭaḥ //
+                <span class="ref">SvetUp_5.8</span></p>
+            
+            
+            <p id="SvetUp_5.9">
+               vālāgraśatabhāgasya śatadhā kalpitasya ca <br />
+               bhāgo jīvaḥ sa vijñeyaḥ sa cānantyāya kalpate //
+                <span class="ref">SvetUp_5.9</span></p>
+            
+            
+            <p id="SvetUp_5.10">
+               naiva strī na pumān eṣa na caivāyaṃ napuṃsakaḥ <br />
+               yad yac charīram ādatte tena tena sa yujyate //
+                <span class="ref">SvetUp_5.10</span></p>
+            
+            
+            <p id="SvetUp_5.11">
+               saṃkalpanasparśanadṛṣṭimohair grāsāmbuvṛṣṭyā cātmavivṛddhijanma <br />
+               karmānugāny anukramena dehī sthāneṣu rūpāṇy abhisaṃprapadyate //
+                <span class="ref">SvetUp_5.11</span></p>
+            
+            
+            <p id="SvetUp_5.12">
+               sthūlāni sūkṣmāṇi bahūni caiva rūpāṇi dehī svaguṇair vṛṇoti <br />
+               kriyāguṇair ātmaguṇaiś ca teṣāṃ saṃyogahetur aparo 'pi dṛṣṭaḥ //
+                <span class="ref">SvetUp_5.12</span></p>
+            
+            
+            <p id="SvetUp_5.13">
+               anādyanantaṃ kalilasya madhye viśvasya sraṣṭāram anekarūpaṃ <br />
+               viśvasyaikaṃ pariveṣṭitāraṃ jñātvā devaṃ mucyate sarvapāśaiḥ //
+                <span class="ref">SvetUp_5.13</span></p>
+            
+            
+            <p id="SvetUp_5.14">
+               bhāvagrāhyam anīḍākhyaṃ bhāvābhāvakaraṃ śivaṃ <br />
+               kalāsargakaraṃ devaṃ ye vidus te jahus tanum //
+                <span class="ref">SvetUp_5.14</span></p>
+            
+            </div>
+         
+         <div id="d1e2335">
+            
+            
+            <h3>ṣaṣṭho 'dhyāyaḥ</h3>
+            
+            
+            <p id="SvetUp_6.1">
+               svabhāvam eke kavayo vadanti kālaṃ tathānye parimuhyamānāḥ <br />
+               devasyaiṣa mahimā tu loke yenedaṃ bhrāmyate brahmacakram //
+                <span class="ref">SvetUp_6.1</span></p>
+            
+            
+            <p id="SvetUp_6.2">
+               yenāvṛtaṃ nityam idaṃ hi sarvaṃ jñaḥ kālakālo guṇī sarvavidyaḥ <br />
+               teneśitaṃ karma vivartate ha pṛthivyāptejo'nilakhāni cintyam //
+                <span class="ref">SvetUp_6.2</span></p>
+            
+            
+            <p id="SvetUp_6.3">
+               tat karma kṛtvā vinivartya bhūyas tattvasya tattvena sametya yogam <br />
+               ekena dvābhyāṃ tribhir aṣṭabhir vā kālena caivātmaguṇaiś ca sūkṣmaiḥ //
+                <span class="ref">SvetUp_6.3</span></p>
+            
+            
+            <p id="SvetUp_6.4">
+               ārabhya karmāṇi guṇānvitāni bhāvāṃś ca sarvān viniyojayed yaḥ <br />
+               teṣām abhāve kṛtakarmanāśaḥ karmakṣaye yāti sa tattvato 'nyaḥ //
+                <span class="ref">SvetUp_6.4</span></p>
+            
+            
+            <p id="SvetUp_6.5">
+               ādiḥ sa saṃyoganimittahetuḥ paras trikālād akalo 'pi dṛṣṭaḥ <br />
+               taṃ viśvarūpaṃ bhavabhūtam īḍyaṃ devaṃ svacittastham upāsya pūrvam //
+                <span class="ref">SvetUp_6.5</span></p>
+            
+            
+            <p id="SvetUp_6.6">
+               sa vṛkṣakālākṛtibhiḥ paro 'nyo yasmāt prapañcaḥ parivartate 'yaṃ <br />
+               dharmāvahaṃ pāpanudaṃ bhageśaṃ jñātvātmastham amṛtaṃ viśvadhāma //
+                <span class="ref">SvetUp_6.6</span></p>
+            
+            
+            <p id="SvetUp_6.7">
+               tam īśvarāṇāṃ paramaṃ maheśvaraṃ taṃ devatānāṃ paramaṃ ca daivataṃ <br />
+               patiṃ patīnāṃ paramaṃ parastād vidāma devaṃ bhuvaneśam īḍyam //
+                <span class="ref">SvetUp_6.7</span></p>
+            
+            
+            <p id="SvetUp_6.8">
+               na tasya kāryaṃ karaṇaṃ ca vidyate na tatsamaś cābhyadhikaś ca dṛśyate <br />
+               parāsya śaktir vividhaiva śrūyate svābhāvikī jñānabalakriyā ca //
+                <span class="ref">SvetUp_6.8</span></p>
+            
+            
+            <p id="SvetUp_6.9">
+               na tasya kaścit patir asti loke na ceśitā naiva ca tasya liṅgaṃ <br />
+               sa kāraṇaṃ karaṇādhipādhipo na cāsya kaścij janitā na cādhipaḥ //
+                <span class="ref">SvetUp_6.9</span></p>
+            
+            
+            <p id="SvetUp_6.10">
+               yas tantunābha iva tantubhiḥ pradhānajaiḥ svabhāvataḥ <br />
+               deva ekaḥ svam āvṛṇoti sa no dadhād brahmāpyayam //
+                <span class="ref">SvetUp_6.10</span></p>
+            
+            
+            <p id="SvetUp_6.11">
+               eko devaḥ sarvabhūteṣu gūḍhaḥ sarvavyāpī sarvabhūtāntarātmā <br />
+               karmādhyakṣaḥ sarvabhūtādhivāsaḥ sākṣī cetā kevalo nirguṇaś ca //
+                <span class="ref">SvetUp_6.11</span></p>
+            
+            
+            <p id="SvetUp_6.12">
+               eko vaśī niṣkriyāṇāṃ bahūṇām ekaṃ bījaṃ bahudhā yaḥ karoti <br />
+               tam ātmasthaṃ ye 'nupaśyanti dhīrās teṣāṃ sukhaṃ śāśvataṃ netareṣāṃ //
+                <span class="ref">SvetUp_6.12</span></p>
+            
+            
+            <p id="SvetUp_6.13">
+               nityo nityānāṃ cetanaś cetanānām eko bahūnāṃ yo vidadhāti kāmān <br />
+               tat kāraṇaṃ sāṃkhyayogādhigamyaṃ jñātvā devaṃ mucyate sarvapāśaiḥ //
+                <span class="ref">SvetUp_6.13</span></p>
+            
+            
+            <p id="SvetUp_6.14">
+               na tatra sūryo bhāti na candratārakaṃ nemā vidyuto bhānti kuto 'yam agniḥ <br />
+               tam eva bhāntam anubhāti sarvaṃ tasya bhāsā sarvam idaṃ vibhāti //
+                <span class="ref">SvetUp_6.14</span></p>
+            
+            
+            <p id="SvetUp_6.15">
+               eko haṃso bhuvanasyāsya madhye sa evāgniḥ salile saṃniviṣṭaḥ <br />
+               tam eva viditvāti mṛtyum eti nānyaḥ panthā vidyate 'yanāya //
+                <span class="ref">SvetUp_6.15</span></p>
+            
+            
+            <p id="SvetUp_6.16">
+               sa viśvakṛd viśvavid ātmayonir jñaḥ kālakālo guṇī sarvavidyaḥ <br />
+               pradhānakṣetrajñapatir guṇeśaḥ saṃsāramokṣasthitibandhahetuḥ //
+                <span class="ref">SvetUp_6.16</span></p>
+            
+            
+            <p id="SvetUp_6.17">
+               sa tanmayo hy amṛta īśasaṃstho jñaḥ sarvago bhuvanasyāsya goptā <br />
+               sa īśe asya jagato nityam eva nānyo hetur vidyata īśanāya //
+                <span class="ref">SvetUp_6.17</span></p>
+            
+            
+            <p id="SvetUp_6.18">
+               yo brahmāṇaṃ vidadhāti pūrvaṃ yo vai vedāṃś ca prahiṇoti tasmai <br />
+               taṃ ha devam ātmabuddhiprakāśaṃ mumukṣur vai śaraṇam ahaṃ prapadye //
+                <span class="ref">SvetUp_6.18</span></p>
+            
+            
+            <p id="SvetUp_6.19">
+               niṣkalaṃ niṣkriyaṃ śāntaṃ niravadyaṃ nirañjanam <br />
+               amṛtasya paraṃ setuṃ dagdhendhanam ivānalam //
+                <span class="ref">SvetUp_6.19</span></p>
+            
+            
+            <p id="SvetUp_6.20">
+               yadā carmavad ākāśaṃ veṣṭayiṣyanti mānavāḥ <br />
+               tadā devam avijñāya duḥkhasyānto bhaviṣyati //
+                <span class="ref">SvetUp_6.20</span></p>
+            
+            
+            <p id="SvetUp_6.21">
+               tapaḥprabhāvād devaprasādāt brahma ha śvetāśvataro 'tha vidvān <br />
+               atyāśramibhyaḥ paramaṃ pavitraṃ provāca samyag ṛṣisaṅghajuṣṭam //
+                <span class="ref">SvetUp_6.21</span></p>
+            
+            
+            <p id="SvetUp_6.22">
+               vedānte paramaṃ guhyaṃ purākalpe pracoditam <br />
+               nāpraśāntāya dātavyaṃ nāputrāyāśiṣyāya vā punaḥ //
+                <span class="ref">SvetUp_6.22</span></p>
+            
+            
+            <p id="SvetUp_6.23">
+               yasya deve parā bhaktir yathā deve tathā gurau <br />
+               tasyaite kathitā hy arthāḥ prakāśante mahātmanaḥ prakāśante mahātmanaḥ //
+                <span class="ref">SvetUp_6.23</span></p>
+            </div>
+         
+         </div>
+   </body>
+</html>

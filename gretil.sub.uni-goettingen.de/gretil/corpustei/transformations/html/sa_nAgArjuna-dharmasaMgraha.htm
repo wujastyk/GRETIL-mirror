@@ -1,0 +1,839 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Nāgārjuna: Dharmasaṃgraha (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Nāgārjuna: Dharmasaṃgraha</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-dharmasaMgraha.xml">sa_nAgArjuna-dharmasaMgraha.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>members of the Digital Sanskrit Buddhist Canon Input Project</p>
+      <p class="noindent"><b>Contribution: </b>members of the Digital Sanskrit Buddhist Canon Input Project</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>P.L. Vaidya: Dharmasangraha. Darbhanga : The Mithila Institute, 1961. (Buddhist Sanskrit
+            Texts, 17).</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="hi">highlighted text</span></li>
+         <li><span class="note">remarks</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/buddh/bsa007_u.htm">bsa007_u.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Nagarjuna: Dharmasamgraha (Dharmasangraha)
+            <br />Based on the ed. by P.L. Vaidya: Dharmasangraha.
+            <br />Darbhanga : The Mithila Institute, 1961.
+            <br />(Buddhist Sanskrit Texts, 17)
+            <br />
+            <br />Input by members of the Sanskrit Buddhist Input Project.
+            <br />With kind permission of the Digital Sanskrit Buddhist Canon Project
+            <br />of Nagarjuna Institute, Nepal
+            <br />and University of the West, Rosemead, California, USA
+            <br />(www.uwest.edu/sanskritcanon)
+            <br />Sastra section, text no. 7
+            <br />
+            <br />The transliteration emulates the conventions of Nagari script.
+            <br />Therefore, many word boundaries are not marked by blanks.
+            <br />
+            <br />REFERENCE SYSTEM (added):
+            <br />Vaidya nn = pagination of P.L. Vaidya's edition
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         <span class="note"><span class="bold">Dhs, Vaidya 329</span></span>
+         
+         <p><span class="bold">Dharmasaṃgrahaḥ /</span> (Dhs)</p>
+         
+         
+         <p>// namo ratnatrayāya //</p>
+         
+         
+         <p>
+            ratnatrayaṃ namaskṛtya sarvasattvahitodayam /<br />
+            kathyate mohanāśāya dharmasārasamuccayaḥ //
+            </p>
+         
+         
+         <p>1. tatra prathamaṃ tāvat trīṇi ratnāni / tathadyā - buddho dharmaḥ saṃghaśceti //</p>
+         
+         
+         <p>2. trīṇi yānāni /[tadyathā -] śrāvakayānam, pratyekabuddhayānam, mahāyānaṃ ceti //</p>
+         
+         
+         <p>3. pañca buddhāḥ / tadyathā - vairocanaḥ, akṣobhyaḥ, ratnasaṃbhavaḥ, amitābhaḥ, amoghasiddhiśceti
+            //</p>
+         
+         
+         <p>4. catasro devyaḥ / tadyathā - rocanī, māmakī, pāṇḍurā, tārā ceti //</p>
+         
+         
+         <p>5. pañca rakṣā / tadyathā - pratisarā, sāhasrapramardanī, mārīcī, mantrānusāriṇī,
+            śīlavatī ceti //</p>
+         
+         
+         <p>6. sapta tathāgatāḥ / tadyathā - vipaśyī, śikhī, viśvabhūḥ, krakucchandaḥ, kanakamuniḥ,
+            kāśyapaḥ, śākyamuniśceti //</p>
+         
+         
+         <p>7. catvāro lokapālāḥ / tadyathā - dhṛtarāṣṭraḥ, virūpākṣaḥ, virūḍhakaḥ, kuberaśceti
+            //</p>
+         
+         
+         <p>8. aṣṭau lokapālāḥ / tadyathā - indraḥ, yamaḥ, varaṇaḥ, kuberaḥ, īśānaḥ, agniḥ, nairṛtaḥ,
+            vāyuriti //</p>
+         
+         
+         <p>9. daśa lokapālāḥ / aṣṭalokapālādhikamūrdhvaṃ brahmā adhaḥ kṛṣṇaḥ //</p>
+         
+         
+         <p>10. caturdaśa lokapālāḥ / tadyathā - daśalokapālasakalam, candraḥ, sūryaḥ, pṛthvī,
+            asuraḥ //</p>
+         
+         
+         <p>11. daśa krodhāḥ / tadyathā - yamāntakaḥ, prajñāntakaḥ, padmāntakaḥ, vighnāntakaḥ,
+            acaraṭarkirājaḥ, nīladaṇḍaḥ, mahābalaḥ, uṣṇīṣaḥ, cakravartī, sambharājaśceti //</p>
+         
+         
+         <p>12. aṣṭau bodhisattvāḥ / tadyathā - maitreyaḥ, gaganagañjaḥ, samantabhadraḥ, vajrapāṇiḥ,
+            mañjuśrīḥ, sarvanivaraṇaviṣkambhī, kṣitigarbhaḥ, khagarbhaśceti //</p>
+         
+         
+         <p>13. ṣaḍyoginyaḥ / tadyathā - vajravārāhī, yāminī, saṃcāraṇī, saṃtrāsanī, cāṇḍikā ceti
+            //</p>
+         
+         <span class="note"><span class="bold">Dhs, Vaidya 330</span></span>
+         
+         <p>14. saptavidhā anuttarapūjā / tadyathā - vandanā, pūjanā, pāpadeśanā, anumodanā, adhyeṣaṇā,
+            bodhicittotpādaḥ, pariṇāmanā ceti //</p>
+         
+         
+         <p>15. trīṇi kuśalamūlāni / bodhicittotpādaḥ, āśayaviśuddhiḥ, ahaṃkāramamakāraparityāgaśceti
+            //</p>
+         
+         
+         <p>16. catvāro brahmavihārāḥ / maitrī, karuṇā, muditā, upekṣā ceti //</p>
+         
+         
+         <p>17. ṣaṭ pāramitāḥ / dānapāramitā, śīlapāramitā, kṣāntipāramitā, vīryapāramitā, dhyānapāramitā,
+            prajñāpāramitā ceti //</p>
+         
+         
+         <p>18. daśa pāramitāḥ / ṣaṭpāramitāsakalam, upāyam, praṇidhiḥ, balam, jñānaṃ ceti //</p>
+         
+         
+         <p>19. catvāri saṃgrahavastūnī / dānam, priyavacanam, arthacaryā, samānārthatā ceti //</p>
+         
+         
+         <p>20. pañcābhijñāḥ / divyacakṣuḥ, divyaśrotram, paracittajñānam, pūrvanivāsānusmṛtiḥ,
+            ṛddhiśceti //</p>
+         
+         
+         <p>21. catvāryāryasatyāni / tadyathā - duḥkham, samudayaḥ, nirodhaḥ mārgaśceti //</p>
+         
+         
+         <p>22. pañca skandhāḥ / rūpam, vedanā, saṃjñā, saṃskārā, vijñānaṃ ceti //</p>
+         
+         
+         <p>23. lokottarapañcaskandhāḥ / śīlasamādhiprajñāvimuktivimuktijñānadarśanaskandhā iti
+            //</p>
+         
+         
+         <p>24. dvādaśāyatanāni / cakṣuḥśrotraghrāṇajihvākāyamanaāyatanāni rūpagandhaśabdarasasparśadharmāyatanāni
+            ceti //</p>
+         
+         
+         <p>25. aṣṭādaśa dhātavaḥ // cakṣuḥśrotraghrāṇajihvākāyamanorūpagandhaśabdarasasparśadharmadhātavaḥ
+            cakṣurvijñānaśrotravijñānaghrāṇavijñānajihvāvijñānakāyavijñānamanovijñānaghātavaśceti
+            //</p>
+         
+         
+         <p>26. tatraikādaśa rūpaskandhāḥ // cakṣuḥ, śrotram, ghrāṇam, jihvā, kāyaḥ, rūpam, śabdaḥ,
+            gandhaḥ, rasaḥ, sparśaḥ vijñaptiśceti //</p>
+         
+         
+         <p>27. vedanā trividhā / sukhāḥ, duḥkhā, aduḥkhāsukhā ceti //</p>
+         
+         
+         <p>28. saṃjñāskandhaḥ / nimittodgahaṇātmikā //</p>
+         
+         
+         <p>29. saṃskārā dvividhāḥ / tatra cittasaṃprayuktasaṃskārāḥ, cittaviprayuktasaṃskārāśceti
+            //</p>
+         
+         
+         <p>30. cittasaṃprayuktasaṃskārāścatvāriṃśat / tadyathā - vedanā, saṃjñā, cetanā, chandaḥ,
+            sparśaḥ, matiḥ, smṛtiḥ, manaskāraḥ, adhimokṣaḥ, samādhiḥ, śraddhā, apramādaḥ, prasrabdhiḥ,
+            upekṣā, hrīḥ, apatrapā, alobhaḥ, adveṣaḥ, ahiṃsā, vīryam, mohaḥ, pramādaḥ, kausīdyam,
+            aśrāddhyam, styānam, auddhatyam, ahrīkatā, anapatrapā, krodhaḥ, upanāhaḥ, śāṭhyam,
+            īrṣyā, pradānaḥ, mrakṣaḥ, mātsaryam, māyā, madaḥ, vihiṃsā, vitarkaḥ, vicāraśceti //</p>
+         
+         
+         <p>31. tatra cittaviprayuktasaṃskārāsrayodaśa / prāptiḥ, aprāptiḥ, sabhāgatā, asaṃjñikam,
+            samāptiḥ, jīvitam, jātiḥ, jarā, sthitiḥ, anityatā, nāmakāyaḥ, padakāyaḥ, vyañjanakāyaśceti
+            //</p>
+         
+         
+         <p>32. trīṇyasaṃskṛtāni / tadyathā - ākāśaḥ, pratisaṃkhyānirodhaḥ, apratisaṃkhyānirodhaśceti
+            //</p>
+         
+         
+         <p>33. ṣaḍ viṣayāḥ / tadyathā - rūpam, śabdaḥ, gandhaḥ, rasaḥ, sparśaḥ, dharmaśceti //</p>
+         
+         <span class="note"><span class="bold">Dhs, Vaidya 331</span></span>
+         
+         <p>34. tatra rūpaṃ viṣayasvabhāvam / nīlam, pītam, lohitam, avadātam, haritam, dīrgham,
+            hrasvam, parimaṇḍalam, unnatam, avanatam, sātam, visātam, accham, dhūmaḥ, rajaḥ, mahikā,
+            chāyā, ātapaḥ, ālokaḥ, andhakāraśceti //</p>
+         
+         
+         <p>35. aṣṭāviṃśatividhaḥ śabdaḥ / sapta puruṣavākśabdāḥ, sapta puruṣahastādiśabdāḥ /
+            eta eva(manojñā)manojñabhedenāṣṭāviṃśatiḥ //</p>
+         
+         
+         <p>36. rasaḥ ṣaḍvidhaḥ / tadyathā - madhuraḥ, amlaḥ, lavaṇaḥ, kaṭuḥ, tiktaḥ, kaṣāyaśceti
+            //</p>
+         
+         
+         <p>37. catvāro gandhāḥ / tadyathā - sugandhaḥ, durgandhaḥ, samagandhaḥ, viṣamagandhaśceti
+            //</p>
+         
+         
+         <p>38. ekādaśa spraṣṭavyāni / pṛthvī, āpaḥ, tejaḥ, vāyuḥ, ślakṣṇatvam, karkaśatvam, laghutvam,
+            gurutvam, śītam, jighatsā pipāsā ceti //</p>
+         
+         
+         <p>39. pañca mahābhūtāni / pṛthvī, āpaḥ, tejaḥ, vāyuḥ, ākāśceti //</p>
+         
+         
+         <p>40. pañca bhautikāni / rūpam, śabdaḥ, gandhaḥ, rasaḥ, sparśaśceti //</p>
+         
+         
+         <p>41. viṃśatiḥ śūnyatāḥ / tadyathā - adhyātmaśūnyatā, bahirdhāśūnyatā, adhyātmabahirdhāśūnyatā,
+            śūnyatāśūnyatā, mahāśūnyatā, paramārthaśūnyatā, saṃskṛtaśūnyatā, asaṃskṛtaśūnyatā,
+            atyantaśūnyatā, anavarāgraśūnyatā, anavakāraśūnyatā, prakṛtiśūnyatā, sarvadharmaśūnyatā,
+            lakṣaṇaśūnyatā, alakṣaṇaśūnyatā, bhāvaśūnyatā, abhāvaśūnyatā, svabhāvaśūnyatā, abhāvasvabhāvaśūnyatā,
+            parabhāvaśūnyatā ceti //</p>
+         
+         
+         <p>42. dvādaśāṅgapratītyasamutpādaḥ / avidyā, saṃskārāḥ, vijñānam, nāmarūpam, ṣaḍāyatanam,
+            sparśaḥ, vedanā, tṛṣṇā, upādānam, bhavaḥ, jātiḥ, jarāmaraṇam, śokaparidevaduḥkhadaurmanasyopāyāsāśceti
+            //</p>
+         
+         
+         <p>43. saptatriṃśadbodhipākṣikā dharmāḥ / catvāri smṛtyupasthānāni // 4 // catvāri samyakprahāṇāni
+            // 8 // catvāra ṛddhipādāḥ // 12 // pañcendriyāṇi // 17 // pañca balāni // 22 // sapta
+            bodhyaṅgāni // 29 // āryāṣṭāṅgikamārgaśceti // 37 //</p>
+         
+         
+         <p>44. tatra katamāni smṛtyupasthānāni? tadyathā - kāye kāyānudarśasmṛtyupasthānam, vedanāyāṃ
+            vedanānudarśasmṛtyupasthānam, citte cittānudarśasmṛtyupasthānam, dharme dharmānudarśasmṛtyupasthānam
+            //</p>
+         
+         
+         <p>45. katamāni catvāri samyakprahāṇāni? tadyathā - utpannānāṃ kuśalamūlānāṃ saṃrakṣaṇam
+            / anutpannānāṃ samutpādaḥ / utpannānāmakuśalānāṃ dharmāṇāṃ prahāṇam / anutpannānāṃ
+            punaranutpādaśceti //</p>
+         
+         
+         <p>46. catvāraḥ ṛddhipādāḥ / tadyathā - chandasamādhiprahāṇāya saṃskārasamanvāgata ṛddhipādaḥ
+            / evaṃ cittaṛddhipādaḥ / vīryaṛddhipādaḥ / mīmāṃsāsamādhiprahāṇāya saṃskārasamanvāgataṛddhipādaśceti
+            //</p>
+         
+         <span class="note"><span class="bold">Dhs, Vaidya 332</span></span>
+         
+         <p>47. pañcendriyāṇi / tadyathā - śraddhāsamādhivīryasmṛtiprajñendriyaṃ ceti //</p>
+         
+         
+         <p>48. pañca balāni / śraddhāvīryasmṛtisamādhiprajñābalaṃ ceti //</p>
+         
+         
+         <p>49. sapta bodhyaṅgāni / tadyathā - smṛtisaṃbodhyaṅgam, dharmavicayasaṃbodhyaṅgam,
+            vīryasaṃbodhyaṅgam, prītisaṃbodhyaṅgam, prasrabdhisaṃbodhyaṅgam, samādhisaṃbodhyaṅgam,
+            upekṣāsaṃbodhyaṅgamiti //</p>
+         
+         
+         <p>50. āryāṣṭāṅgikamārgaḥ // samyagdṛṣṭiḥ, samyaksaṃkalpaḥ, samyagvāk, samyakkarmāntaḥ,
+            samyagvyāyāmaḥ, samyaksmṛtiḥ, samyaksamādhiśceti / ete saptatriṃśabdodhipākṣikā dharmāḥ
+            //</p>
+         
+         
+         <p>51. catasraḥ pratisaṃvidaḥ / tadyathā - dharmapratisaṃvit, arthapratisaṃvit, niruktipratisaṃvit,
+            pratibhānapratisaṃvicceti //</p>
+         
+         
+         <p>52. catasro dhāraṇyaḥ / tadyathā - ātmadhāraṇī, granthadhāraṇī, dharmadhāraṇī, mantradhāraṇī
+            ceti //</p>
+         
+         
+         <p>53. catvāri pratiśaraṇāni / tadyathā - arthapratiśaraṇatā na vyañjanapratiśaraṇatā
+            / jñānapratiśaraṇatā na vijñānapratiśaraṇatā / nītārthapratiśaraṇatā na neyārthapratiśaraṇatā
+            / dharmapratiśaraṇatā na pudgalapratiśaraṇatā ceti //</p>
+         
+         
+         <p>54. ṣaḍanusmṛtayaḥ / buddhānusmṛtiḥ, dharmānusmṛtiḥ, saṃghānusmṛtiḥ, tyāgānusmṛtiḥ,
+            śīlānusmṛtiḥ, devānusmṛtiśceti //</p>
+         
+         
+         <p>55. catvāri dharmapadāni / tadyathā - anityāḥ sarvasaṃskārāḥ / duḥkhāḥ sarvasaṃskārāḥ
+            / nirātmānaḥ sarvasaṃskārāḥ / śāntaṃ nirvāṇaṃ ceti //</p>
+         
+         
+         <p>56. daśākuśalāni / tadyathā - prāṇātipātaḥ, adattādānam, kāmamithyācāraḥ, mṛṣāvādaḥ,
+            paiśunyam, pāruṣyam, saṃbhinnapralāpaḥ, abhidhyā, vyāpādaḥ, mithyādṛṣṭiśceti //</p>
+         
+         
+         <p>57. gatayaḥ ṣaṭ / tadyathā - narakaḥ, tiryak, pretaḥ, asuraḥ, manuṣyaḥ, devaśceti
+            //</p>
+         
+         
+         <p>58. ṣaḍ dhātavaḥ / pṛthvī, āpaḥ, tejaḥ, vāyuḥ, ākāśaḥ, vijñānaṃ ceti //</p>
+         
+         
+         <p>59. aṣṭau vimokṣāḥ / tadyathā - rūpī rūpāṇī paśyati śūnyam / ādhyātmārūpasaṃjñī bahirdhārūpāṇi
+            paśyati śūnyam / ākāśānantyāyatanaṃ paśyati śūnyam / vijñānānantyāyatanaṃ paśyati
+            śūnyam / ākiṃcanyāyatanaṃ paśyati śūnyam / naivasaṃjñānāsaṃjñāyatanaṃ paśyati śūnyam
+            / saṃjñāvedayitanirodhaṃ paśyati śūnyaṃ ceti //</p>
+         
+         
+         <p>60. pañcānantaryāṇi / tadyathā - mātṛvadhaḥ, pitṛvadhaḥ arhadvadhaḥ, tathāgataduṣṭacittarudhirotpādaḥ,
+            saṃghabhedaśceti //</p>
+         
+         
+         <p>61. aṣṭau lokadharmāḥ // lābhaḥ, alābhaḥ, sukham, duḥkham, yaśaḥ, ayaśaḥ, nindā, praśaṃsā
+            ceti //</p>
+         
+         
+         <p>62. navāṅgapravacanāni / tadyathā - sūtram, geyam, vyākaraṇam, gāthā, udānam, jātakam,
+            vaipulyam, adbhutadharmaḥ, upadeśaśceti //</p>
+         
+         <span class="note"><span class="bold">Dhs, Vaidya 333</span></span>
+         
+         <p>63. dvādaśa dhūtaguṇāḥ / paiṇḍapātikaḥ, traicīvarikaḥ, khalupaścādbhaktikaḥ, naiṣadyikaḥ,
+            yathāsaṃstarikaḥ, vṛkṣamūlikaḥ, ekāsanikaḥ, ābhyavakāśikaḥ, āraṇyakaḥ, śmāśānikaḥ,
+            pāṃśūkūlikaḥ, nāmantikaśceti //</p>
+         
+         
+         <p>64. daśa bhūmayaḥ / pramuditā, vimalā, prabhākarī, arciṣmatī, sudurjayā, abhimukhī,
+            dūraṃgamā, acalā, sādhumatī, dharmameghā ceti //</p>
+         
+         
+         <p>65. samantaprabhā, nirupamā, jñānavatī / etāḥ sahitāsrayodaśa bhūmayaḥ //</p>
+         
+         
+         <p>66. pañca cakṣūṃṣī / māṃsacakṣuḥ, dharmacakṣuḥ, prajñācakṣuḥ, divyacakṣuḥ, buddhacakṣuśceti
+            //</p>
+         
+         
+         <p>67. ṣaṭ kleśāḥ / rāgaḥ, pratighaḥ, mānaḥ, avidyā, kudṛṣṭiḥ, vicikitsā ceti //</p>
+         
+         
+         <p>68. pañca dṛṣṭayaḥ / satkāyadṛṣṭiḥ, antagrāhadṛṣṭiḥ, mithyādṛṣṭiḥ, dṛṣṭiparāmarśaḥ,
+            śīlaparāmarśaḥ //</p>
+         
+         
+         <p>69. catuviṃśatirupakleśāḥ / tadyathā - krodhaḥ, upanāhaḥ, mrakṣaḥ, pradāśaḥ, īrṣyāḥ,
+            mātsaryam, śāṭhyam, māyā, madaḥ, vihiṃsā, hrīḥ, anapatrapā, styānam, aśrāddhyam, kausīdyam,
+            pramādaḥ, muṣitasmṛtiḥ, vikṣepaḥ, asaṃprajanyam, kaukṛtyam, middham, vitarkaḥ, vicāraśceti
+            //</p>
+         
+         
+         <p>70. pañcāhārāḥ / dhyānāhārāḥ, kavalīkārāhārāḥ, pratyāhārāḥ, sparśāhārāḥ, saṃcetanikāhārāśceti
+            //</p>
+         
+         
+         <p>71. pañca bhayāni / ājīvikābhayam, śokabhayam, maraṇabhayam, durgatibhayam, parṣadasādyabhayaṃ
+            ceti //</p>
+         
+         
+         <p>72. catvāri dhyānāni / tadyathā - savitarkaṃ savicāraṃ vivekajaṃ prītisukhamiti prathamadhyānam
+            / adhyātmapramodanātprītisukhamiti dvitīyam / upekṣāsmṛtisaṃprajanyaṃ sukhamiti tṛtīyam
+            / upekṣāsmṛtipariśuddhiraduḥkhāsukhā vedaneti caturthaṃ dhyānamiti //</p>
+         
+         
+         <p>73. trayo vimokṣāḥ / śūnyatā, animittaḥ, apraṇihitaśceti //</p>
+         
+         
+         <p>74. bodhisattvānāṃ daśa vaśitāḥ / āyurvaśitā, cittavaśitā, pariṣkāravaśitā, dharmavaśitā,
+            ṛddhivaśitā, janmavaśitā, adhimuktivaśitā, praṇidhānavaśitā, karmavaśitā, jñānavaśitā
+            ceti //</p>
+         
+         
+         <p>75. bodhisattvānāṃ daśa balāni / tadyathā - adhimuktibalam,
+            pratisaṃkhyānabalam, bhāvabalam, kṣāntibalam, jñānabalam, prahāṇabalam, samādhibalam,
+            pratibhānabalam, puṇyabalam, pratipattibalaṃ ceti //</p>
+         
+         
+         <p>76. tathāgatasya daśa balāni / tadyathā - sthānāsthānajñānabalam, karmavipākajñānabalam,
+            nānādhātujñānabalam, nānadhimuktijñānabalam, sattvendriyaparāparajñānabalam, sarvatragāminīpratipattijñānabalam,
+            dhyānavimokṣasamādhisamāpattisaṃkleśavyavadānavyutthānajñānabalam, pūrvanivāsānusmṛtijñānabalam,
+            cyutyutpattijñānabalam, āsravakṣayajñānabalaṃ ceti //</p>
+         
+         <span class="note"><span class="bold">Dhs, Vaidya 334</span></span>
+         
+         <p>77. catvāri vaiśāradyāni / tadyathā - abhisaṃbodhivaiśāradyam, āsravakṣayajñānavaiśāradyam,
+            nairvāṇikamārgāvataraṇavaiśāradyam[antarāyikadharmānanyathātvaniścitavyākaraṇavaiśāradyaṃ]
+            ceti //</p>
+         
+         
+         <p>78. pañca mātsaryāṇi / dharmamātsaryam, lābhamātsaryam, āvāsamātsaryam, kuśalamātsaryam,
+            varṇamātsaryaṃ ceti //</p>
+         
+         
+         <p>79. aṣṭādaśāveṇikā buddhadharmāḥ / tadyathā - nāsti tathāgatasya skhalitam / nāsti
+            ravitam / nāsti muṣitasmṛtitā / nāstyasamāhitacittam / nāsti nānātvasaṃjñā / nāstyapratisaṃkhyāyopekṣā
+            / nāsti chandaparihāṇiḥ / nāsti vīryaparihāṇiḥ / nāsti smṛtiparihāṇiḥ / nāsti samādhiparihāṇiḥ
+            / nāsti prajñāparihāṇiḥ / nāsti vimuktiparihāṇiḥ / nāsti vimuktijñānadarśanaparihāṇiḥ
+            / sarvakāyakarmajñānapūrvagamajñānānuparivṛttiḥ / sarvavākkarmajñānapūrvaṃgamajñānānuparivṛttiḥ
+            / sarvamanaskarmajñānapūrvaṃgamajñānānuparivṛttiḥ / atīte 'dhvanyasaṅgamapratihatajñānam
+            / pratyutpanne 'dhvanyasaṅgamapratihatajñānadarśanaṃ ceti //</p>
+         
+         
+         <p>80. catvāro mārāḥ / tadyathā - skandhamāraḥ, kleśamāraḥ, devaputramāraḥ, mṛtyumāraśceti
+            //</p>
+         
+         
+         <p>81. catvāri śraddhāṅgāni / tadyathā - āryasatyam, triratnam, karma, karmaphalaṃ ceti
+            //</p>
+         
+         
+         <p>82. navānupūrvasamādhisamāpattayaḥ / tadyathā - catvāri dhyānāni, catasra ārūpyasamāpattayaḥ,
+            nirodhasamāpattiśceti //</p>
+         
+         
+         <p>83. dvātriṃśallakṣaṇāni / tadyathā - cakrāṅkitapāṇipādatalatā / supratiṣṭhitapāṇipādatalatā
+            / jālābalabaddhā(vanaddhā?)ṅgulipāṇipādatalatā / mṛdutaruṇahastapādatalatā / saptotsadatā
+            / dīrghāṅgulitā / āyatapārṣṇitā / ṛjugātratā / utsaṅgapādatā / urdhvāgraromatā / aiṇejayaṅghatā
+            / pralambabāhutā / koṣagatabastiguhyatā / suvarṇavarṇatā / śuklacchavitā / pradakṣiṇāvartaikaromatā
+            / ūrṇālaṃkṛtamukhatā / siṃhapūrvāntakāyatā / susaṃvṛttaskandhatā / citāntarāṃsatā
+            / rasarasāgratā / nyagrodhaparimaṇḍalatā / uṣṇīṣaśiraskatā / prabhūtajivhatā / siṃhahanutā
+            / śuklahanutā / samadantatā / haṃsavikrāntagāmitā / aviraladantatā / samacatvāriṃśaddantatā
+            / abhinīlanetratā / gopakṣanetratā ceti //</p>
+         
+         
+         <p>84. aśītyanuvyañjanāni / tadyathā - tāmranakhatā / srigdhanakhatā / tuṅganakhatā /
+            chatrāṅgulitā / citrāṅgulitā / anupūrvāṅgulitā / gūḍhaśiratā / nigranthiśiratā / gūḍhagulphatā
+            / aviṣamapādatā / siṃhavikrāntagāmitā / nāgavikrāntagāmitā / haṃsavikrāntagāmitā /
+            vṛṣabhavikrāntagāmitā / pradakṣiṇagāmitā / cārugāmitā / avakragāmitā / vṛttagātratā
+            / mṛṣṭagātratā / anupūrvagātratā / śucigātratā / mṛdugātratā / viśuddhagātratā / paripūrṇavyañjanatā
+            / pṛthucārumaṇḍalagātratā / samakramatā / viśuddhanetratā / sukumāragātratā / adīnagātratā
+            / utsāhagātratā / gambhīrakukṣitā / prasannagātratā / suvibhaktāṅgapratyaṅgatā / vitimiraśuddhālokatā
+            / vṛttakukṣitā / mṛṣṭakukṣitā / abhugnakukṣitā / kṣāmakukṣitā / (<span class="bold">Dhs, Vaidya 335</span>) pradakṣiṇāvartanābhitā / samantaprāsādikatā / śucisamudāratā / vyapagatatilakagātratā
+            / tūlasadṛśasukumārapāṇitā / snigdhapāṇilekhatā / gambhīrapāṇilekhatā / āyatapāṇilekhatā
+            / nātyāyatavacanatā / bimbapratibimboṣṭhatā / mṛdujivhatā / tanujivhatā / raktajihvatā
+            / meghagarjitaghoṣatā / madhuracārumañjusvaratā / vṛttadaṃṣṭratā / tīkṣṇaṃdaṃṣṭratā
+            / śūkladaṃṣṭratā / samadaṃṣṭratā / anupūrvadaṃṣṭratā / tuṅganāsatā / śucināsatā /
+            viśālanayanatā / citrapakṣmatā / sitāsitakamaladalanayanatā / āyatabhrūkatā / śuklabhrūkatā
+            / susnigdhabhrūkatā / pīnāyatabhujalatā / samakarṇatā / anupahatakarṇendriyatā / avimlānalalāṭatā
+            / pṛthulalāṭatā / suparipūrṇottamāṅgatā / bhramarasadṛśakeśatā / citrakeśatā / guḍākeśatā
+            / asaṃmuṇitakeśatā / aparuṣakeśatā / surabhikeśatā / śrīvatsamuktikanandyāvartalakṣitapāṇipādatalatā
+            ceti //</p>
+         
+         
+         <p>85. cakravartināṃ sapta ratnāni / tadyathā - cakraratnam, aśvaratnam, hastiratnam,
+            maṇiratnam, strīratnam, khaṅgaratnam, pariṇāyakaratnaṃ ceti //</p>
+         
+         
+         <p>86. tatra trayo 'dhvānaḥ / tadyathā - atīto 'dhvā, anāgato 'dhvā, pratyutpanno 'dhvā
+            ceti //</p>
+         
+         
+         <p>87. catvāraḥ kalpāḥ / tadyathā - antarakalpāḥ, mahākalpāḥ, śūnyakalpāḥ, sārakalpāśceti
+            //</p>
+         
+         
+         <p>88. catvāri yugāni / tadyathā - kṛtayugam, tretāyugam, dvāparam, kaliyugaṃ ceti //</p>
+         
+         
+         <p>89. lokadvayam / tadyathā - sattvalokaḥ, bhājanalokaśceti //</p>
+         
+         
+         <p>90. catvāro yonayaḥ / tadyathā - aṇḍajaḥ, saṃsvedajaḥ, jarāyujaḥ, upapādukaśceti //</p>
+         
+         
+         <p>91. pañca kaṣāyāḥ / tadyathā - kleśakaṣāyaḥ, dṛṣṭikaṣāyaḥ, sattvakaṣāyaḥ, āyuḥkaṣāyaḥ,
+            kalpakaṣāyaśceti //</p>
+         
+         
+         <p>92. trayaḥ sattvādhyāḥ / tadyathā - pūrvāntakoṭiparijñāyāḥ, aparāntakoṭiparijñāyāḥ,
+            caturmārakoṭiparijñāyāśceti //</p>
+         
+         
+         <p>93. daśa jñānāni / tadyathā - duḥkhajñānam, samudayajñānam, nirodhajñānam, mārgajñānam,
+            dharmajñānam, anvayajñānam, saṃvṛtijñānam, paracittajñānam, kṣayajñānam, anutpādajñānaṃ
+            ceti //</p>
+         
+         
+         <p>94. pañca jñānāni / tadyathā - ādarśanajñānam, samatājñānam, pratyavekṣaṇājñānam,
+            kṛtyānuṣṭhānajñānam, suviśuddhadharmadhātujñānaṃ ceti //</p>
+         
+         
+         <p>95. dve satye / tadyathā - saṃvṛtisatyam, paramārthasatyaṃ ceti //</p>
+         
+         
+         <p>96. caturāryasatyeṣu ṣoḍaśa kṣāntijñānalakṣaṇāḥ / tadyathā - duḥkhe dharmajñānakṣāntiḥ,
+            duḥkhe dharmajñānam, duḥkhe 'nvayajñānakṣāntiḥ, duḥkhe 'nvayajñānam / samudaye dharmajñānakṣāntiḥ,
+            (<span class="bold">Dhs, Vaidya 336</span>) samudaye dharmajñānam, samudaye 'nvayajñānakṣāntiḥ, samudaye 'nvayajñānam / nirodhe
+            dharmajñānakṣāntiḥ, nirodhe dharmajñānam, nirodhe 'nvayajñānakṣāntiḥ, nirodhe 'nvayajñānam
+            / mārge dharmajñānakṣāntiḥ, mārge dharmajñānam, mārge 'nvayajñānakṣāntiḥ, mārge 'nvayajñānaṃ
+            ceti //</p>
+         
+         
+         <p>97. tatra duḥkhasatye catvāra ākārāḥ / tadyathā - anityataḥ, duḥkhataḥ, śūnyataḥ,
+            anātmataśceti //</p>
+         
+         
+         <p>98. samudayasatye catvāra ākārāḥ / tadyathā - hetutaḥ, samudayataḥ, prabhavataḥ, pratyayataśceti
+            //</p>
+         
+         
+         <p>99. nirodhasatye catvāra ākārāḥ / tadyathā - nirodhataḥ, śāntataḥ, praṇītataḥ, niḥsaraṇataśceti
+            //</p>
+         
+         
+         <p>100. mārgasatye catvāra ākārāḥ / tadyathā - mārgataḥ, nyāyataḥ, pratipattitaḥ, nairyāṇika(ta)śceti
+            //</p>
+         
+         
+         <p>101. catvāraḥ samādhayaḥ / tadyathā - ālokasamādhiḥ, vṛtāsamādhiḥ, ekādaśapratiṣṭhasamādhiḥ,
+            ānantaryasamādhiśceti //</p>
+         
+         
+         <p>102. tatrāṣṭau[puruṣa] - pugdalāḥ / tadyathā - srotaāpannaphalapratipannakaḥ, srotaāpannaḥ,
+            sakṛdāgāmiphalapratipannakaḥ, sakṛdāgāmī, anāgāmiphalapratipannakaḥ, anāgāmī, arhatphalapratipannakaḥ,
+            arhaṃśceti //</p>
+         
+         
+         <p>103. tathāṣṭau pratipugdalāḥ / tadyathā - śraddhānusārī, dharmānusārī, srotaāpannaḥ,
+            devakulaṃkulaḥ, manuṣyakulaṃkulaḥ, sakṛdāgāmiphalaḥ, śraddhavimuktirdṛṣṭiprāpta ekavīcīko
+            'nāgāmyantarāparinirvāyī upahatyaparinirvāyī abhisaṃskāraparinirvāyī pluto 'rddhaplutaḥ
+            sarvāstānapluto dṛṣṭadharmasamaḥ kāyasākṣī khaṅgaśceti //</p>
+         
+         
+         <p>104. [tadanu dvādaśākaradharmacakrapravartakaṃ(naṃ) katamat? tadyathā - idaṃ duḥkhamāryasatyamiti
+            bhikṣavaḥ pūrvamanuśrutya teṣu dharmeṣu yoniśo manasiṃgavataḥ(?) cakṣurudapādi / jñānamutpādi
+            cintotpādi / cutrirudapādi / ityekaparicatakaḥ 1 idaṃ duḥkhamārya sa tatra khalvabhijñātaṃ
+            iti bhikṣavaḥ / ityādi pūrvavaditiyaḥ // idaṃ duḥkhasamudayamāryasatvaṃ tava khalvabhijñāya
+            prahīṇamiti hityādi tṛtīyaḥ / tathā idaṃ duḥkhanirodha āryasatyamiti hipratyekaḥ //
+            idaṃ duḥkhanirodhaāryyasatyaṃ tatra khalvabhijñāya śākṣāt kartavyamiti hitya dvitīyaḥ
+            / idaṃ duḥkhanirodhaāryasatya tatra khalu bhijñāya śākṣāt dvitīya / tadyathā idaṃ
+            duḥkhamārgagāminī pratipadāryasatyemiti tyeka // idaṃ duḥkhamokṣagāmini pratipa ityāryyasatyaṃ
+            tatra khalu bhijñāya bhāvayitavyamiti hi bhikṣava ityādi tṛtīyaḥ / parivarta ityeva
+            dvādaśākāradharmacakrapravarttanamiti // ]</p>
+         
+         <span class="note"><span class="bold">Dhs, Vaidya 337</span></span>
+         
+         <p>Ms. C.
+            tadanu dvādaśākāradharmacakrapravartakaḥ / katamat / idaṃ duḥkhamāryasatyamiti bhikṣavaḥ
+            / pūrvamanuśrutya teṣu dharmeṣu yoniśo manasigavataḥ cakṣurudapādi / jñānamutpādi
+            cittotpādi / cutrirutpādi // ityekaparivartaka idaṃ duḥkhamāryasatyaṃ tatra khalvabhijñāya
+            parijñātamiti hi bhikṣavaḥ / pūrvamanuśruya teṣu yoniso manasiṅgarvutaḥ // iti dvitīyaḥ
+            // idamāryasatyaṃ tatra khalvabhijñātaṃ iti bhikṣavaḥ / ityādi pūrvavaditi yaḥ //</p>
+         
+         
+         <p>idaṃ duḥkhasamudayamāryasatyaṃ tava khalvabhijñāya prahīṇamiti hītyādi tṛtīyam //</p>
+         
+         
+         <p>tathā idaṃ duḥkhanirodha āryasatyamiti hi pratyekaḥ // idaṃ duḥkhanirodha āryasatyaṃ
+            tatra khalvabhijñāya sākṣāt kartavyamiti hityādi / dvitīyaḥ / idaṃ duḥkhanirodha āryasatyaṃ
+            tatra khalvabhijñāya sākṣāt kṛtamiti dvitīyaḥ /</p>
+         
+         
+         <p>tathā idaṃ duḥkhamārgagāmini pratipadāryasatyamiti pratyeka / idaṃ duḥkhamokṣagāminī
+            pratipat // ityāryasatyaṃ tatra khalvabhijñāya bhātavyamiti hi bhikṣavaḥ ityādi tṛtīyaḥ
+            / parivartta ityevaṃ dvādaśākāradharmacakrapravartanamiti // //</p>
+         
+         
+         <p>Restored Text.
+            tadatra dvādaśākāradharmacakrapravartakaṃ(naṃ?) katamat? idaṃ duḥkhamāryasatyamiti(me)
+            bhikṣavaḥ pūrvamananuśruteṣu dharmeṣu yoniśo manasikurvataḥ cakṣurudapādi jñānamudapādi
+            vidyodapādi bhūrirudapādītyekaṃ parivartakam / idaṃ duḥkhamāryasatyaṃ tatra khalvabhijñāya
+            parijñātamiti hi (me) bhikṣavaḥ pūrvamananuśruteṣu dharmeṣu yoniśo manasikurvata iti
+            dvitīyam / idaṃ duḥkhamāryasatyaṃ tatra khalvabhijñāya parijñātamiti bhikṣavaḥ ityādi
+            pūrvavaditi tṛtīyam //</p>
+         
+         
+         <p>[tathedaṃ duḥkhasamudayamāryasatyamiti pratyekam / idaṃ duḥkhasamudayamāryasatyaṃ
+            tatra khalvabhijñāya prahātavyamiti dvitīyam /] idaṃ duḥkhasamudayamāryasatyaṃ tatra
+            khalvabhijñāya prahīṇamiti hītyādi tṛtīyam /</p>
+         
+         
+         <p>tathedaṃ duḥkhanirodhamāryasatyamiti hi pratyekam / idaṃ duḥkhanirodhamāryasatyaṃ
+            tatra khalvabhijñāya sākṣātkartavyamiti hītyādi dvitīyam / idaṃ duḥkhanirodhamāryasatyaṃ
+            tatra khalvabhijñāya sākṣātkṛtamiti tṛtīyam //</p>
+         
+         
+         <p>tatheyaṃ duḥkhamārgagāminī pratipadityāryasatyamiti pratyekam / iyaṃ duḥkhamokṣagāminī
+            pratipadityāryasatyaṃ tatra khalvabhivijñāya bhāvayitavyamiti hi bhikṣava ityādi dvitīyam
+            /</p>
+         
+         
+         <p>[idaṃ duḥkhamokṣagāminī pratipadityāryasatyaṃ tatra khalvabhijñāya bhāvitamiti tṛtīyam
+            // ]</p>
+         
+         
+         <p>105. tatra dānaṃ trividham / tadyathā - dharmadānam, āmiṣadānam, maitrīdānaṃ ceti
+            //</p>
+         
+         
+         <p>106. śīlaṃ trividham / tadyathā - saṃbhāraśīlam, kuśalasaṃgrāhaśīlam, sattvārthakriyāśīlaṃ
+            ceti //</p>
+         
+         
+         <p>107. kṣāntistrividhā / tadyathā - dharmanidhyānakṣāntiḥ, duḥkhādhivāsanākṣāntiḥ, paropakāradharmakṣāntiśceti
+            //</p>
+         
+         <span class="note"><span class="bold">Dhs, Vaidya 338</span></span>
+         
+         <p>108. vīryaṃ trividham / tadyathā - saṃnāhavīryam, prayogavīryam, para(ri)niṣṭhāvīryaṃ
+            ceti //</p>
+         
+         
+         <p>109. dhyānaṃ trividham / tadyathā - sadoṣāpakarṣadhyānam, sukhavaihārikadhyānam, aśeṣavaibhūṣitadhyānaṃ
+            ceti //</p>
+         
+         
+         <p>110. prajñā trividhā / tadyathā - śrutamayī, cintāmayī, bhāvanāmayī ceti //</p>
+         
+         
+         <p>111. upāyastrividhaḥ / tadyathā - sarvasattvāvabodhakaḥ, sattvārthābhāvakaḥ, kṣiprasukhābhisaṃbodhiśceti
+            //</p>
+         
+         
+         <p>112. praṇidhānaṃ trividham / tadyathā - susthānaprābandhikam, sattvārthaprabandhikam,
+            buddhakṣetrapariśodhakaṃ ceti //</p>
+         
+         
+         <p>113. balaṃ trividham / tadyathā - karmavyāvartakam, kleśāpakarṣakam, mānapramādādivyāvartakaṃ
+            ceti //</p>
+         
+         
+         <p>114. jñānaṃ trividham / tadyathā - avikalpakam, vikalpasamabhāvabodhakam, satyārthopāyaparokṣaṃ
+            ceti //</p>
+         
+         
+         <p>115. tatrāvaraṇe dve / tadyathā - kleśavaraṇam, jñeyāvaraṇaṃ ceti //</p>
+         
+         
+         <p>116. nairātmyaṃ dvividham / tadyathā - dharmanairātmyam, pugdalanairātmyaṃ ceti //</p>
+         
+         
+         <p>117. saṃbhāro dvividhaḥ / tadyathā - puṇyasaṃbhāraḥ, jñānasaṃbhāraśceti //</p>
+         
+         
+         <p>118. tatra ṣaṭ samādhyāvaraṇāni / tadyathā - kausīdyam, mānam, śāṭhyam, auddhatyam,
+            anābhogaḥ, satyābhogaśceti //</p>
+         
+         
+         <p>119. tatra pratipattyāṣṭau prahāṇasaṃskārāḥ / tadyathā - śraddhā, buddhaḥ(ddhiḥ),
+            vyāyāmaḥ, prasrabdhiḥ, smṛtiḥ, saṃprajanyam, cetanā, upekṣā ceti //</p>
+         
+         
+         <p>120. tatra catvāro dvīpāḥ / tadyathā - pūrvavidehaḥ, jambudvīpaḥ, aparagodāniḥ(nīyaḥ),
+            uttarakurudvīpaśceti //</p>
+         
+         
+         <p>121. aṣṭāvuṣṇanarakāḥ / tadyathā - saṃjīvaḥ, kālasūtraḥ, saṃghātaḥ, rauravaḥ, mahārauravaḥ,
+            tapanaḥ, pratāpanaḥ, avīciśceti //</p>
+         
+         
+         <p>122. aṣṭau śītanarakāḥ / tadyathā - arbudaḥ, nirarbudaḥ, aṭaṭaḥ, apapaḥ, hāhādharaḥ,
+            utpalaḥ, padmaḥ, mahāpadmaśceti //</p>
+         
+         
+         <p>123. sapta pātālāni / tadyathā - dharaṇītalaḥ, acalaḥ, mahācalaḥ, āpaḥ, kāñcanaḥ,
+            saṃjīvaḥ, narakaśceti /</p>
+         
+         
+         <p>124. dvau cakravālau / tadyathā - cakravālamahācakravālau ceti //</p>
+         
+         
+         <p>125. aṣṭāṅgaparvatāḥ / tadyathā - yugaṃdharaḥ, īśādharaḥ, khadirakaḥ, sudarśanaḥ,
+            vinatakaḥ, aśvakarṇaḥ, nemiṃdharagiriḥ, sumeruśceti //</p>
+         
+         
+         <p>126. sapta sāgarāḥ / tadyathā - kṣāraḥ, kṣīraḥ, dadhi, udadhiḥ, ghṛtam, madhuḥ, surā
+            ceti //</p>
+         
+         <span class="note"><span class="bold">Dhs, Vaidya 339</span></span>
+         
+         <p>127. tatra ṣaṭ kāmāvacarā devāḥ / tadyathā - cāturmahārājakāyikāḥ, trāyastriṃśāḥ,
+            tuṣitāḥ, yāmāḥ, nirmāṇaratayaḥ, paranirmitavaśavartinaśceti //</p>
+         
+         
+         <p>128. aṣṭādaśa rūpāvacarā devāḥ / tadyathā - brahmakāyikāḥ, brahmapurohitāḥ, brahmapārṣadyāḥ,
+            mahābrahmāṇaḥ, parīttābhāḥ, apramāṇābhāḥ, ābhāsvarāḥ, parīttaśubhāḥ, śubhakṛtsnāḥ,
+            anabhrakāḥ, puṇyaprasavāḥ, bṛhatphalāḥ, asaṃjñisattvāḥ, avṛhāḥ, atapāḥ, sudṛśāḥ, sudarśanāḥ,
+            akaniṣṭhāśceti //</p>
+         
+         
+         <p>129. catvāro 'rūpāvacarā devāḥ / ākāśānantyāyatanopagāḥ, vijñānānantyāyatanopagāḥ,
+            ākiṃcanyāyatanopagāḥ, naivasaṃjñānāsaṃjñāyatanopagāśceti //</p>
+         
+         
+         <p>130. trividhā ālaṅghanāḥ / tadyathā - satyālaṅghanā, dharmālaṅghanā, anālaṅghanā ceti
+            //</p>
+         
+         
+         <p>131. trividhā mahāmaitrī / tadyathā - satyālaṅgha(mba)nā, dharmalaṅgha(rmālamba)nā,
+            anālaṅgha(mba)nā ceti //</p>
+         
+         
+         <p>132. trividhaṃ karma / tadyathā - dṛṣṭadharmavedanīyam, utpadyavedanīyam, aparavedanīyaṃ
+            ceti //</p>
+         
+         
+         <p>133. trividhaṃ prātihāryam / tadyathā - ṛddhiprātihāryam, ādeśanāprātihāryam, anuśāsanīprātihāryaṃ
+            ceti //</p>
+         
+         
+         <p>134. aṣṭāvakṣaṇāḥ / tadyathā - narakopapattiḥ, tiryagupapattiḥ, yamalokopapattiḥ,
+            pratyantajanapadopapattiḥ, dīrghāyuṣadevopapattiḥ, indriyavikalatā, mithyādṛṣṭiḥ,
+            cittotpādavirāgitatā ceti //</p>
+         
+         
+         <p>135. trividhā vikalpāḥ / tadyathā - anusmaraṇavikalpaḥ, saṃtirana(tīraṇa)vikalpaḥ,
+            sahajavikalpaśceti //</p>
+         
+         
+         <p>136. catvāraḥ samādhayaḥ / tadyathā - śūraṃgamaḥ, gaganagañjaḥ vimalaprabhaḥ, siṃhavikrīḍitaśceti
+            /</p>
+         
+         
+         <p>137. caturdaśāvyākṛtavastūni / tadyathā - śāśvato lokaḥ, aśāśvato lokaḥ, śāśvataścāśāśvataśca,
+            naiva śāśvato nāśāśvataśca / antavāṃllokaḥ, anantavāṃllokaḥ, antavāṃścānantavāṃllokaśca,
+            naivāntavānnānantavāṃśca / bhavati tathāgataḥ paraṃ maraṇāt, na bhavati tathāgataḥ
+            paraṃ maraṇāt, bhavati na ca bhavati ca tathāgataḥ paraṃ maraṇāt, naiva bhavati na
+            bhavati tathāgataḥ paraṃ maraṇāt / sa jīvastaccharīram, anyo jīvo 'nyaccharīraṃ ceti
+            //</p>
+         
+         
+         <p>138. trīṇi kuśalamūlāni / tadyathā - adveṣaḥ, alobhaḥ, amohaśceti //</p>
+         
+         
+         <p>139. etadviparyayāntrīṇyakuśalamūlāni / tadyathā - lobhaḥ, mohaḥ, dveṣaśceti //</p>
+         
+         
+         <p>140. tisraḥ śikṣāḥ / tadyathā - adhicittaśikṣā, adhiśīlaśikṣā, adhiprajñāśikṣā ceti
+            //</p>
+         
+         
+         <p>iti nāgārjunapādaviracito 'yaṃ dharmasaṃgrahaḥ samāptaḥ //</p>
+         
+         </div>
+   </body>
+</html>

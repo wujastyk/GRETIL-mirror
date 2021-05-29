@@ -1,0 +1,2369 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Poṣadhavastu (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Poṣadhavastu</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_poSadhavastu.xml">sa_poSadhavastu.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Klaus Wille</p>
+      <p class="noindent"><b>Contribution: </b>Klaus Wille</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Hai-yan Hu-von Hinüber: Posadhavastu, Vorschriften für die buddhistische Beichtfeier
+            im Vinaya der Mulasarvastivadins, Reinbek 1994 (Studien zur Indologie und Iranistik,
+            Monographie 13). = Poṣ-v; Cf. Gilgit Manuscript, ed. N. Dutt, vol. III: Mulasarvastivadavinayavastu,
+            part IV (Calcutta 1950), pp. 69-116: Posadhavastu; dto.: second edition, Delhi 1984.
+            GBM = Gilgit Buddhist Manuscripts (Facsimile Edition), ed. by Raghu Vira and Lokesh
+            Chandra, 10 pts., New Delhi 1959Ō1974 (Sata-Pitaka Series 10). (Some parts of the
+            folios of the Anavaptagathas of the Bhaisajyavastu and some Prajnaparamita texts are
+            not reproduced); dto.: repr. in 3 parts Delhi 1995. (The Vinayavastu manuscript is
+            reproduced in vol. 2; the folios 43-53 of the Stein collection [Pravrajyāvastu/Poṣadhavastu]
+            are not reproduced anymore).</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="hi">highlighted text</span></li>
+         <li><span class="note">remarks</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/vinv02_u.htm">vinv02_u.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Posadhavastu of the Vinayavstvagama of the Mulasarvastivadin (Vastu 2 im Vinayavastu)
+            <br />Based on the edition by Hai-yan Hu-von Hinüber: Posadhavastu, Vorschriften für die
+            buddhistische Beichtfeier im Vinaya der Mulasarvastivadins, Reinbek 1994 (Studien
+            zur Indologie und Iranistik, Monographie 13). = Poṣ-v
+            <br />
+            <br />Cf. Gilgit Manuscript, ed. N. Dutt, vol. III: Mulasarvastivadavinayavastu, part IV
+            (Calcutta 1950), pp. 69-116: Posadhavastu
+            <br />dto.: second edition, Delhi 1984.
+            <br />
+            <br />GBM = Gilgit Buddhist Manuscripts (Facsimile Edition), ed. by Raghu Vira and Lokesh
+            Chandra, 10 pts., New Delhi 1959Ō1974 (Sata-Pitaka Series 10). (Some parts of the
+            folios of the Anavaptagathas of the Bhaisajyavastu and some Prajnaparamita texts are
+            not reproduced)
+            <br />
+            <br />dto.: repr. in 3 parts Delhi 1995. (The Vinayavastu manuscript is reproduced in vol.
+            2; the folios 43-53 of the Stein collection [Pravrajyāvastu/Poṣadhavastu] are not
+            reproduced anymore)
+            <br />
+            <br />Input by K. Wille (Göttingen, Germany)
+            <br />
+            <br />BOLD for references
+            <br />ITALICS for restored passages
+            <br />{...} = emendation
+            <br />* = virama
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>Poṣadhavastu</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 256</span></span>
+         
+         
+         <p>Poṣ-v 1. (<span class="bold">53v = GBM 6.707</span>) piṇḍoddānam* ||</p>
+         
+         
+         <p>tīrthikā<span class="it">ḥ</span> kapphiṇa āvāso
+            bhikṣupeyālapaścimam* || ||</p>
+         
+         
+         <p>Poṣ-v 2. uddānam* ||</p>
+         
+         
+         <p>tīrthikāḥ poṣadham āhuḥ kiṃ na poṣadhaḥ kriyate <span class="it">|</span>
+            visaṃkete na niṣīdanti kutra poṣadham uddiśet* || ||</p>
+         
+         
+         <p>Poṣ-v 3.1. bhagavān rājagṛhe viharati veṇuvane kalandakanivāpe |</p>
+         
+         
+         <p>Poṣ-v 3.2. tena khalu samayena <span class="it">saṃbahulā</span> rājagṛhīyakā upāsakā divādivaṃ evodyuktā abhūvan bhagavantaṃ darśanāyopasaṃkramituṃ
+            paryupāsanāyai |</p>
+         
+         
+         <p>Poṣ-v 3.3. atha <span class="it">saṃbahulānāṃ</span> rājagṛhīyakānām upāsakānām etad abhavat* atiprātas tāvad asmākaṃ bhagavantaṃ darśanāyopasaṃkramituṃ
+            paryupāsanāyai | pratisaṃlīno bhagavān pratisaṃlīnāś ca manobhāvanīyāś ca bhikṣavo
+            yan nu vayaṃ yenānyatīrthikaparivrājakānām ārāmas tenopasaṃkramema |</p>
+         
+         
+         <p>Poṣ-v 3.4. atha saṃbahulā rājagṛhīyakā upāsakā yenānyatīrthikaparivrājakānām ārāmas
+            tenopasaṃkrāntā upasaṃkramyānyatīrthikaparivrājakais sārdhaṃ saṃmukhaṃ saṃmodanīṃ
+            saṃrañjanīṃ vividhāṃ kathāṃ vyatisāryaikānte niṣaṇṇāḥ <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 258</span></span>
+         
+         <p>Poṣ-v 3.5. athānyatamas tīrthyas tīrthyān idam avocat* kin nu bhavant<span class="it">o 'smāk</span>am eva niṣadyā kriyā poṣadhaś ca prajñāyate āhosvic chramaṇānām api śākyaputrīyāṇāṃ
+            <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 3.6. athānyatamas tīrthyas tīrthyān idam avocat* asmākam eva bhavanto niṣadyā
+            kriyā poṣadhaś ca prajñāyate na tv eva śramaṇānāṃ śākyaputrīyāṇāṃ |</p>
+         
+         
+         <p>Poṣ-v 3.7. atha saṃbahulā rājagṛhīyakā upāsakāḥ saṃbahulānām anyatīrthikaparivrājakānāṃ
+            bhāṣitaṃ nābhinandanti na pratikrośanti anabhinandyāpratikrośya utthāyāsanebhyaḥ prakrāntāḥ
+            |</p>
+         
+         
+         <p>Poṣ-v 3.8. te yena bhagavāṃs tenopasaṃkrāntāḥ upasaṃkramya bhagavataḥ pādau śirasā
+            vanditvaikānte niṣaṇṇāḥ <span class="it">|</span> ekāntaniṣaṇṇā rājagṛhīyakā upāsakā yāvān evaiṣām abhūt saṃbahulair anyatīrthikaparivrājakais
+            sārdham antarākathāsamudāhāras tat sarvaṃ bhagavato vistareṇārocayanti <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 3.9. evaṃ cāhur aho bata bhagavān asmākam api niṣadyā<span class="it">ṃ</span> kriyā<span class="it">ṃ</span> poṣadhaṃ ca prajñapayed anukaṃpām upādāya |</p>
+         
+         
+         <p>Poṣ-v 3.10. adhivāsayati bhagavān saṃbahulānāṃ rājagṛhīyakānām upāsakānāṃ tūṣṇīṃbhāvena
+            |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 260</span></span>
+         
+         <p>Poṣ-v 3.11. atha saṃba<span class="it">hu</span>lā rājagṛhīyakā upāsakā bhagavataḥ tūṣṇīṃbhāvenādhivāsanāṃ viditvā bhagavato bhāṣitam
+            abhinandyānumodya bhagavato 'ntikāt prakrāntaḥ |</p>
+         
+         
+         <p>Poṣ-v 4. tatra bhagavān bhikṣūn āmantrayate sma | tasmād anujānāmi bhikṣubhir adyāgreṇa
+            niṣadyā kriyā poṣadhaś ca pratijāgartavyaḥ |</p>
+         
+         
+         <p>Poṣ-v 5.1. uktaṃ bhagavatā adyāgreṇa bhikṣubhir niṣadyā kriyā poṣadhaś ca pratijāgartavya
+            iti | te na jānanti kā niṣadyā kā kriyā kaḥ poṣadha iti | etat prakaraṇaṃ bhikṣavo
+            bhagavata ārocayanti |</p>
+         
+         
+         <p>Poṣ-v 5.2. bhagavān āha | niṣadyā ucyate yogaḥ <span class="it">|</span> eta yūyaṃ bhikṣava imam eva kāyam ūrdhvaṃ pādatalād adhaḥ keśamastakāt tvakparyantaṃ
+            yathāsthitaṃ yathāpraṇihitaṃ pūrṇaṃ nānāprakārasyāśuceḥ pratyavekṣadhvaṃ | santy asmin
+            kāye keśā romāṇi nakhā dantā rajo malaṃ tvaṅ māṃsam asthi snāyu sirā vṛkkā hṛdayaṃ
+            plīhā klomaka āntrāṇy antraguṇāny āmāśayaḥ pakvāśaya audaryakaṃ yakṛt purīṣam aśru
+            svedaḥ kheṭaś śiṃghāṇako vasā lasīkā majjā medaḥ pittaṃ śleṣmā pūyaḥ śoṇitaṃ mastakaṃ
+            (<span class="bold">54r = GBM 6.1058</span>) <span class="it">mastakaluṅgaṃ mūtraṃ</span> ca iti |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 262</span></span>
+         
+         <p>Poṣ-v 6.1. uktaṃ bhagavatā yogo vāhayitavya iti bhikṣavo gocarāya prasṛtā api yogaṃ
+            vāhayanti | te bhrāntena hastinā sārdhaṃ samāgaccha<span class="it">nt</span>i <span class="it">bhrāntenāśvena bhrāntena padātikena ca sārdhaṃ samāgacchanti nipatanti | aśrāddhā
+               avasphaṇḍayanti | āryāḥ kiṃ na paśyatheti |</span> t<span class="it">e</span> kathayanti | yogaṃ vāhayāmaḥ | etat prakaraṇaṃ bhikṣavo bha<span class="it">ga</span>vata ārocayanti |</p>
+         
+         
+         <p>bhagavān āha | na gocarāya prasṛtena yogo vāhayit<span class="it">avyaḥ</span> |</p>
+         
+         
+         <p>Poṣ-v 6.2. <span class="it">te dvārakoṣṭhake yogaṃ vāhayanti | pracālayanti ca | aśrāddhā avasphaṇḍayanti | etat
+               prakaraṇaṃ bhikṣavo bhaga</span>vata ārocayanti |</p>
+         
+         
+         <p>bhagavān āha | na dvārakoṣṭhake yogo vāhayitavyaḥ |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 264</span></span>
+         
+         <p>Poṣ-v 6.3. te prāsāde vāhayanti | sa evādīnavo bhavati |</p>
+         
+         
+         <p>bhagavān āha | na bhikṣuṇ<span class="it">ā prāsāde yogo vāhayi</span>tavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 6.4. <span class="it">te</span> l<span class="it">a</span>y<span class="it">a</span>n<span class="it">e</span> v<span class="it">āhayanti | dhyāyināṃ kaṇṭakaśabdena cittaikāgryaṃ na labhante | etat prakaraṇaṃ bhikṣavo
+               bhaga</span>vata ārocayanti |</p>
+         
+         
+         <p>bhagavān āha | na layane yogo vāhayitavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 6.5. te araṇye bhāvayanti | coradhūrtasiṃhavyāghradv<span class="it">ī</span>p<span class="it">ī</span>nāṃ gamyā bhavanti <span class="it">|</span> etat p<span class="it">rakaraṇaṃ bhikṣavo bhagavata ārocayanti |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | nāraṇye yogo bhāvayitavyaḥ |</span></p>
+         
+         
+         <p>Poṣ-v 6.6. <span class="it">te grāmasa</span>mīpe sa<span class="it">mā</span>gatya bhāvayanti | aśrāddhā avasphaṇḍayanti | etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti
+            |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 266</span></span>
+         
+         <p>bhagavān āha | sa pradeśaḥ śākhābhir vā kiṭakair vā veṣṭayi<span class="it">tavyaḥ |</span></p>
+         
+         
+         <p>Poṣ-v 6.7. <span class="it">veṣṭito bhavati | aśrāddhā avasphaṇḍayanti | āryāḥ kim iyaṃ vāṭiḥ karkaṭikāyā vā mūlasya
+               vā bhavati |</span> etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti |</p>
+         
+         
+         <p>bhagavān āha | sa pradeśaḥ kanthābhir vā parikhābhir vā <span class="it">veṣṭayitavyaḥ |</span></p>
+         
+         
+         <p>Poṣ-v 6.8. veṣṭito bhavati | aśrāddhā avas<span class="it">phaṇḍayanti | āryāḥ kim iyaṃ vāṭir mātuluṅgasya vā dāḍimasya vā bhavati | te kathayanti
+               yogaṃ vāhayāmaḥ | etat prakaraṇaṃ bhikṣavo bha</span>gavata ārocayanti |</p>
+         
+         
+         <p>bhagavān āha | tasmād anujānāmi prahāṇaśālā māpayitavyā |</p>
+         
+         
+         <p>Poṣ-v 7. uktaṃ bhagavatā prahāṇaśālā <span class="it">māpa</span>y<span class="it">i</span>tav<span class="it">y</span>e<span class="it">ti | te na jānanti kīdṛśā prahāṇaśālā | etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti
+               |</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 268</span></span>
+         
+         <p><span class="it">bhagavān āha | dve prahāṇaśāle | khu</span>ḍḍalikā mahantikā ca | khuḍḍalikā dve layane | madhye suruṃgā | mahantikā daśalayanikā
+            dvādaśalayanikā vā |</p>
+         
+         
+         <p>Poṣ-v 8.1. bhikṣa<span class="it">vo</span> layanaṃ kṛtv<span class="it">ā dvāraṃ na yathāgrāhyaṃ muṃcanti |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | dvāraṃ moktavyaṃ |</span></p>
+         
+         
+         <p>Poṣ-v 8.2. <span class="it">bhikṣavo kavāṭikāṃ na dadanti |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | kavāṭikā dātavyā |</span></p>
+         
+         
+         <p>Poṣ-v 8.3. <span class="it">duḥkham udghā</span>ṭyate |</p>
+         
+         
+         <p>bhagavān āha| āyāmapaṭako dātavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 8.4. śabdaṃ karoti |</p>
+         
+         
+         <p>bhagavān āha | adhastāc carmakhaṇḍako dātavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 8.5 duḥkhaṃ badhyate |</p>
+         
+         
+         <p>bhagavān āha | + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + (<span class="bold">54r10</span>)</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 270</span></span>
+         
+         <p>Poṣ-v 9.1. <span class="it">andhakāro bhavati |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | vātāya</span>no moktavyaḥ |</p>
+         
+         
+         <p>Poṣ-v 9.2. adhastān muṃcanti | coradhūrtasiṃhavyāghrāṇāṃ gamyā bhavanti |</p>
+         
+         
+         <p>bhagavān āha | nādhastān moktavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 9.3. upariṣṭān muṃcanti | sa evā<span class="it">d</span>ī<span class="it">navo bhavati |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | nopariṣṭān moktavyaḥ | dvau bhāgau chorayitavyā | chorayitvā tṛtīye</span> (<span class="bold">54v = GBM 6.1057</span>) <span class="it">bhāge moktavye |</span></p>
+         
+         
+         <p>Poṣ-v 9.4. <span class="it">ta upariṣṭād dvau bhāgau</span> ch<span class="it">o</span>r<span class="it">a</span>yitvā adhastān muṃcanti |</p>
+         
+         
+         <p>bhagavān āha | adhastād dvau bhāgau cchorayitvā upariṣṭāt tṛtīye bhāge moktavyaḥ |</p>
+         
+         
+         <p>Poṣ-v 9.5. bhikṣavo bahirvistīrṇ<span class="it">am antaḥsaṃvṛtaṃ kurvanti |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | vātāyanaḥ sāgarākāra iva moktavyaḥ | bahiḥsaṃvṛto antarvistīrṇaḥ |</span></p>
+         
+         
+         <p>Poṣ-v 9.6. <span class="it">kākakalantakakapotāḥ praviśanti |</span></p>
+         
+         
+         <p>bhagavān āha | jālavātāyanaṃ kartavyaḥ <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 272</span></span>
+         
+         <p>Poṣ-v 9.7. tryaṃbukatrailāṭāḥ praviśanti |</p>
+         
+         
+         <p>bhagavān āha | kavāṭikā dātavyā |</p>
+         
+         
+         <p>Poṣ-v 9.8. vātenodghāṭyate |</p>
+         
+         
+         <p class="it">bhagavān āha | ... dātavyāḥ |</p>
+         
+         
+         <p>Poṣ-v 9.9. <span class="it">duḥkhaṃ badhyate |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | ... dātavyaḥ |</span></p>
+         
+         
+         <p>Poṣ-v 9.10. <span class="it">duḥkham udghāṭyate |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | ajapadakadaṇḍakāṃ kṛtvā ... badhayitavyā</span> | ajapadakadaṇḍakair udghāṭayitavyā |</p>
+         
+         
+         <p>Poṣ-v 10.1. tatrāsanena kāryam* |</p>
+         
+         
+         <p>bhagavān āha | mṛnmayāny āsanāni kartavyāni |</p>
+         
+         
+         <p>Poṣ-v 10.2. khakkhaṭā bhavanti |</p>
+         
+         
+         <p>bhagavān āha <span class="it">| pīṭhikā kartavyā |</span></p>
+         
+         
+         <p>Poṣ-v 10.3. <span class="it">uktaṃ bhagavatā pīṭhikā kartavyeti | te na jānanti kīdṛśā pīṭhiketi |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha |</span> + + + + + + + + + + + + + + + kā kartavyā | tataḥ paścād vānair dātavyā |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 274</span></span>
+         
+         <p>Poṣ-v 10.4. te na jānate kati vāṇa iti |</p>
+         
+         
+         <p>bhagavān āha | paṃca vāṇāḥ | muṃjaśāṇavālvajo p<span class="it">aṭaḥ sūkṣṃo vetraḥ |</span></p>
+         
+         
+         <p>Poṣ-v 10.5. <span class="it">khakkhaṭā bhavanti |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | tūlikāḥ prāstārayitavyāḥ |</span></p>
+         
+         
+         <p>Poṣ-v 10.6. <span class="it">uktaṃ bhagavatā tulikāḥ prāstārayitavyāḥ | te na jānate</span> kīdṛśā tūliketi |</p>
+         
+         
+         <p>bhagavān āha | dairghe catvāro hastāḥ tiryag dve | dvipuṭāṃ kṛtvā sīvayitavyāḥ <span class="it">|</span> tataḥ paścāt tūlikena pūrayita<span class="it">vyāḥ |</span></p>
+         
+         
+         <p>Poṣ-v 10.7. te na jā<span class="it">nate kati tūlikānīti |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | paṃca tūlikāni | arkakāśikairakābakaśālmalītūlikāni</span> | aparāṇy api paṃca tūlāni | ūrṇā śanaḥ karpāso nantakāni pāṃsutūlāni <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 10.8. pūritā bhavanti | sarvan tat tūlam ekaṃ pradeśaṃ gacchati |</p>
+         
+         
+         <p>bhagavān āha | <span class="it">sūtreṇāntarā kākapadakā dātavyā |</span> {Cf. SHT VIII (Erg.) 1033r1: <span class="it">sūtreṇā</span>ntarā kākapadakā dātavyā}</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 276</span></span>
+         
+         <p>Poṣ-v 11.1. <span class="it">niṣadya pracālayanti |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha |</span> ghaṭir {Cf. SHT VIII (Erg.) 1033r1} <span class="it">dhārayitavyā |</span></p>
+         
+         
+         <p>Poṣ-v 11.2. <span class="it">sā</span> patati |</p>
+         
+         
+         <p><span class="it">bhagavān āha |</span> sūtrake baddhvā karṇe paribadhya dhārayitavyā |</p>
+         
+         
+         <p>Poṣ-v 11.3. tathāpi pracālayanti |</p>
+         
+         
+         <p>bhagavān āha | yaṣṭiḥ sārayitavyā |</p>
+         
+         
+         <p>Poṣ-v 11.4. bhikṣavaḥ kalamacchedyā kurvanti | vraṇaṃ karoti |</p>
+         
+         
+         <p>bhaga<span class="it">vān āha |</span> + + <span class="it">chedyā kartavyā |</span></p>
+         
+         
+         <p>Poṣ-v 11.5. <span class="it">tathāpi hanti |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | nantakair veṣṭitvā mandaṃ sāra</span>yitavyaṃ |</p>
+         
+         
+         <p>Poṣ-v 11.6. tathāpi pracālayanti |</p>
+         
+         
+         <p>bhagavān āha | kandusakaḥ kṣeptavyaḥ |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 278</span></span>
+         
+         <p>Poṣ-v 11.7. bhikṣavo 'ndhakāre kṣipanti <span class="it">|</span> sa na paśyati |</p>
+         
+         
+         <p>bhagavān āha | sūtrakair baddhvā kṣeptavyaḥ <span class="it">tato 'pi pratika</span>rṣitavyaḥ {Cf. SHT VIII (Erg.) 1033r4: tataḥ paścāt punar ākarṣitavyaḥ} <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 11.8. tathāpi prac<span class="it">ālayanti |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | puro dīpaḥ sthāpayitavyaḥ |</span></p>
+         
+         
+         <p>Poṣ-v 11.9. <span class="it">tathāpi pracālayanti |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | ekapādo</span> 'v<span class="it">a</span>tārayitavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 11.10. tathāpi pracālayanti |</p>
+         
+         
+         <p>bhagavān āha | dvitīyaḥ pādo 'vatārayitavyaḥ |</p>
+         
+         
+         <p>Poṣ-v 11.11. tathāpi pracālayanti |</p>
+         
+         
+         <p>bhagavān āha | utthāya caṃkr<span class="it">amitavyaṃ |</span></p>
+         
+         
+         <p>Poṣ-v 12.1. <span class="it">bhikṣavaś ... |</span>{Cf. SHT VIII (Erg.) 1033v1: <span class="it">bhikṣavaḥ caṃkramanti + + + + + kān dhārikāṃ baddhavy.</span>}</p>
+         
+         
+         <p class="it">bhagavān āha | ... |</p>
+         
+         
+         <p>Poṣ-v 12.2. <span class="it">hastena dhārayanti |
+               bhagavān āha | ... dhārayantaś ca</span>ṃkramitavyaṃ |</p>
+         
+         
+         <p>Poṣ-v 12.3. sopānatkāś caṃkramante | śabdaṃ kurvanti |</p>
+         
+         
+         <p>bhagavān āha | na sopānatkena caṃkramitavyaṃ |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 280</span></span>
+         
+         <p>Poṣ-v 12.4. pāṃsunā pādau naśyete |</p>
+         
+         
+         <p>bhagavān āha | kālak<span class="it">uthaḥ</span> pr<span class="it">āstārayitavyaḥ |</span></p>
+         
+         
+         <p>Poṣ-v 12.5. <span class="it">snigdhaṃ bhavati |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | prāhāṇikasyāhaṃ bhikṣavo bhikṣor āsamudācārikāṃ dharmāṃ prajñapayiṣyāmi
+               | prāhā</span>ṇikena (<span class="bold">55r = GBM 6.708</span>) bhikṣuṇā tṛtīye tṛtīye divase pādau prakṣālayitavyau |</p>
+         
+         
+         <p>prāhāṇiko bhikṣuḥ yathāprajñaptān āsamudācārikāṃ dharmāṃ na samādāya vartate | sātisāro
+            bhavati |</p>
+         
+         
+         <p>Poṣ-v 13.1. te tatra na māpayanti |</p>
+         
+         
+         <p>bhagavān āha | upariṣṭā<span class="it">d</span> dvitīyaṃ puraṃ kartavya<span class="it">ṃ |</span></p>
+         
+         
+         <p>Poṣ-v 13.2. <span class="it">duḥkhaṃ abhirūhyate |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | sopānapaṅktayaḥ ka</span>rtavyāḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 13.3. prapātaṃ bhavati |</p>
+         
+         
+         <p>bhagavān āha | vedikā parikṣeptavyā <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 13.4. tat kaṃpate |</p>
+         
+         
+         <p>bhagavān āha | lohakaṇṭakaiḥ kīlayitavyā <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 13.5. tathāpi na māpayanti |</p>
+         
+         
+         <p>bhagavān āha | bahir vā layanapaṅktiḥ kartavyā |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 282</span></span>
+         
+         <p>Poṣ-v 13.6. te 'pi siddhāni dvārāṇi kurvanti | te p<span class="it">arasparam abhilokayanti |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | vyastāni dvā</span>rāṇi kartavyāni |</p>
+         
+         
+         <p>Poṣ-v 14. te tatra pracālayanti |</p>
+         
+         
+         <p>bhagavān āha | dvāramūle paṭikāṃ vā paṭakaṃ vālaṃbayitvā śayitavyam* nātra kaukṛtyaṃ
+            karaṇīyaṃ |</p>
+         
+         
+         <p>Poṣ-v 15. te tato gatā bhavanti | na punar āgacchanti |</p>
+         
+         
+         <p>bhagavān āha | prahāṇapratijāgrako bhikṣus saṃmanta<span class="it">vyaḥ |</span></p>
+         
+         
+         <p>Poṣ-v 16.1. <span class="it">paṃcabhir dharmaiḥ samanvāgataḥ prahāṇaprati</span>jāgrako bhikṣuḥ asaṃmato na saṃmantavyaḥ <span class="it">|</span> saṃmataś cāvakāśayitavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>katamaiḥ paṃcabhiḥ <span class="it">|</span> chandād gacchati dveṣān mohād bhayād gacchati | jāgṛtā<span class="it">m a</span>jāgṛtāṃ prahāṇaṃ na jānāti |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 284</span></span>
+         
+         <p>ebhiḥ paṃcabhir dharmais samanvāgataḥ prahāṇapra<span class="it">tijāgrako bhikṣur asaṃmato na saṃmantavyaḥ |</span> saṃmataś cāvakāśayitavyaḥ |</p>
+         
+         
+         <p>Poṣ-v 16.2. paṃcabhir dharmais samanvāgataḥ prahāṇapratijāgrako bhikṣuḥ asaṃmatas
+            saṃmantavyaḥ <span class="it">|</span> saṃmataś ca nāvakāśayitavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>katamaiḥ paṃcabhiḥ <span class="it">|</span> na cchandād gacchati na dveṣān na mohān na bhayād gacchati | pratijāgṛt<span class="it">ām apratijāgṛtāñ ca prahāṇaṃ jānāti |</span></p>
+         
+         
+         <p><span class="it">ebhiḥ</span> paṃcabhir dharmaiḥ samanvāgataḥ prahāṇapratijāgrako bhikṣur asaṃmataḥ saṃmantavyaḥ
+            <span class="it">|</span> saṃmataś ca nāvakāśayitavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 17.1. evaṃ ca punaḥ saṃmantavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 17.2. śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūṃ samanuyujya
+            sarvasaṃ<span class="it">ghe sanniṣaṇṇe sannipatita ekena bhikṣuṇā pṛṣṭavyaṃ |</span></p>
+         
+         
+         <p>utsahasi tvam evaṃnāmā saṃghasya prahāṇaṃ pratijāgartuṃ |</p>
+         
+         
+         <p>tena vaktavyam utsahe |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 286</span></span>
+         
+         <p>Poṣ-v 17.3. tataḥ paścād ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ |</p>
+         
+         
+         <p>Poṣ-v 17.4. śṛṇotu bhadantāḥ saṃghaḥ <span class="it">|</span></p>
+         
+         
+         <p>ayam evaṃnāmā prahāṇapratijāgrako bhikṣuḥ utsahate saṃghasya prahā<span class="it">ṇaṃ pratijāgartuṃ |</span></p>
+         
+         
+         <p><span class="it">sacet saṃghasya prāptakālaṃ kṣametānu</span>jānīyāt saṃgho yat saṃgha evaṃnāmānaṃ prahāṇapratijāgrakaṃ saṃmanyeta | evaṃnāmā prahāṇapratijāgrako
+            bhikṣuḥ saṃghasya prahāṇaṃ pratijāgariṣyati <span class="it">|</span></p>
+         
+         
+         <p>eṣā jñaptiḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 17.5. evaṃ ca karma kartavyaṃ |</p>
+         
+         
+         <p>śṛṇotu bhadantāḥ saṃghaḥ <span class="it">|</span></p>
+         
+         
+         <p>a. e<span class="it">vaṃnāmā prahāṇapratijāgrako bhikṣur utsahate saṃghasya pra</span>hāṇaṃ pratijāgartuṃ |</p>
+         
+         
+         <p>b. tat saṃgha evaṃnāmānaṃ prahāṇapratijāgrakaṃ bhikṣuṃ saṃmanyeta | ayam evaṃnāmā
+            prahāṇapratijāgrako bhikṣuḥ saṃghasya prahāṇaṃ pratijāgariṣyati <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 288</span></span>
+         
+         <p>c. yeṣām āyuṣmatāṃ kṣamate evaṃnāmānaṃ prahāṇapra<span class="it">t</span>i<span class="it">jāgrakaṃ bhikṣuṃ saṃmantuṃ yad evaṃnāmā prahāṇapratijāgrako</span> bh<span class="it">i</span>kṣuḥ saṃghasya prahāṇaṃ pratijāgariṣyati sa tūṣṇīṃ <span class="it">|</span> na kṣamate bhāṣatāṃ <span class="it">|</span></p>
+         
+         
+         <p>d. saṃmataḥ saṃghena evaṃnāmā prahāṇapratijāgrako bhikṣuḥ <span class="it">|</span> ayam evaṃnāmā prahāṇapratijāgrako bhikṣuḥ saṃghasya prahāṇaṃ pratijāgariṣyati | <span class="it">kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam</span> (<span class="bold">55v = GBM 6.709</span>) <span class="it">etad dhārayā</span>mi |</p>
+         
+         
+         <p>Poṣ-v 18. prahāṇapratijāgrakasyāhaṃ bhikṣor āsamudācārikān dharmān prajñapayiṣyāmi
+            |</p>
+         
+         
+         <p>prahāṇapratijāgrakena bhikṣuṇā prahāṇaśālā sektavyā | saṃmārjitavyā | sukumārī gomayakārṣī
+            anupradātavyā | varcakuṭī prasāvakuṭī ca <span class="it">saṃskarayitavyā sektavyā saṃmārjitavyā | sukumārī gomaya</span>kārṣī (<span class="bold">Poṣ-v 290</span>) anupradātavyā | patravaibhaṅgukā sthāpayitavyā | mṛttikāpānīyaṃ sthāpayitavyaṃ |</p>
+         
+         
+         <p>Poṣ-v 19.1. sa teṣām ekaikaṃ gatvā śabdāpayati |</p>
+         
+         
+         <p>bhagavān āha | naikaikaḥ śabdāpayitavyaḥ <span class="it">|</span> gaṇḍī ākoṭayitavyā |</p>
+         
+         
+         <p>Poṣ-v 19.2. tena vistareṇa gaṇḍī dattā | yā<span class="it">vad</span> + + + + + + + + + + + + + + + + + + sannahyāgatāḥ <span class="it">|</span> āryāḥ kiṃ corāḥ patitāḥ <span class="it">|</span></p>
+         
+         
+         <p>te kathayanti <span class="it">|</span> bhavanto na caurāḥ patitā api tu prahāṇaṃ pratijāgarīma |</p>
+         
+         
+         <p>te kathayanti <span class="it">|</span> āryā viheṭhaṃ pratijāgṛtha | kuto 'tra prahāṇam*</p>
+         
+         
+         <p>etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti <span class="it">|</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | gaṇḍī na vistareṇa dātavyā |</span></p>
+         
+         
+         <p>Poṣ-v 19.3. e<span class="it">vam a</span>tr<span class="it">a</span> p<span class="it">aṃ</span>c<span class="it">a</span> g<span class="it">a</span>ṇḍyaḥ <span class="it">|</span> sārvasaṃghikā | karmagaṇḍī | aṃsagaṇḍī | prahāṇagaṇḍī | āpadgaṇḍī ca |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 292</span></span>
+         
+         <p>tatra sārvasaṃghikā tidroghumāḥ tisraḥ prahārāḥ <span class="it">|</span> karmagaṇḍī tidroghumā dve prahāre | a<span class="it">ṃ</span>sagaṇḍī muṇḍikā | prahāṇagaṇḍī kha<span class="it">kkharaṃ | āpadgaṇḍī yāvat tuṣṭaṃ |</span></p>
+         
+         
+         <p>Poṣ-v 20. <span class="it">te 'vaśiṣṭāyāṃ ve</span>lāyāṃ yathāsukhaṃ kurvanti |</p>
+         
+         
+         <p>bhagavān āha | kālaṃ jñātvā yathāsukhaṃ kartavyam* ye saṃghalābhinas te snātvā saṃghe
+            'vatariṣyaṃti | ye piṇḍapātikās te hastapādau prakṣālya grāmaṃ piṇḍāya pravekṣyanti
+            <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 21.1 ta evam eva yathāsukhaṃ kurvanti <span class="it">|</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | evam eva yathāsukhaṃ na karta</span>vyaṃ | tṛdaṇḍako bhāṣitavyaḥ <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 294</span></span>
+         
+         <p>Poṣ-v 21.2. atimahāntaṃ bhāṣante |</p>
+         
+         
+         <p>bhagavān āha | nātimahān bhāṣitavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 21.3. te tv alpaṃ bhāṣante |</p>
+         
+         
+         <p>bhagavān āha | nātyalpo bhāṣitavyaḥ <span class="it">|</span> api tu parimaṇḍalo bhāṣitavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 22.1. dakṣiṇā<span class="it">n</span> nādiśanti |</p>
+         
+         
+         <p>bhagavā<span class="it">n āha | dakṣinādeṣṭavyā |</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 296</span></span>
+         
+         <p>Poṣ-v 22.2. <span class="it">uktaṃ bhagavatā dakṣi</span>ṇādeṣṭavyeti | te na jānate kenādeṣṭavyeti |</p>
+         
+         
+         <p>bhagavān āha | saṃghasthavireṇa bhikṣuṇā ādeṣṭavyeti |</p>
+         
+         
+         <p>Poṣ-v 22.3. te mahatīn dakṣiṇām ādiśanti |</p>
+         
+         
+         <p>bhagavān āha | na mahatī dakṣiṇā ādeṣṭavyā |</p>
+         
+         
+         <p>Poṣ-v 22.4. atyalpām ādiśanti |</p>
+         
+         
+         <p>bhagavā<span class="it">n āha | nātyalpā dakṣiṇādeṣṭavyā | api</span> tu parimaṇḍalā dakṣiṇā ādeṣṭavyeti |</p>
+         
+         
+         <p>Poṣ-v 23.1. prahāṇapratijāgrako bhikṣuḥ sarvapṛṣṭhata āgacchati | sarvāgrato gacchati
+            |</p>
+         
+         
+         <p>bhagavān āha | prahāṇapratijāgrakena bhikṣuṇā sarvapṛṣṭhato gantavyaṃ | sarvāgrata
+            āgantavyaṃ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 23.2. sacet tadrūpaḥ pra<span class="it">tyayo bhavati tena rahogate pradeśe 'pāva</span>raṇīṃ gopayitvā vaktavyaṃ |</p>
+         
+         
+         <p>āyuṣmān amuṣmin pradeśe mayā apāvaraṇī gopitā <span class="it">|</span> udghāṭya pravekṣyase |</p>
+         
+         
+         <p>Poṣ-v 23.3. prahāṇapratijāgrako bhikṣur yathāprajñaptān āsamudācārikān dharmān asamādāya
+            vartate sātisāro bhavati |</p>
+         
+         
+         <p>Poṣ-v 24. iya<span class="it">m ucyate niṣadyā |</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 298</span></span>
+         
+         <p>Poṣ-v 25. <span class="it">kriyā katamā |</span></p>
+         
+         
+         <p><span class="it">saṃghena jñaptir jña</span>ptidvitīyaṃ jñapticaturthaṃ karma | iyam ucyate kriyā |</p>
+         
+         
+         <p>Poṣ-v 26. poṣadhaḥ katamaḥ <span class="it">|</span></p>
+         
+         
+         <p>yo vo mayā bhikṣavo prātimokṣasūtroddeśa uddiṣṭaḥ sa vo 'dyāgreṇānvardhamāsam uddeṣṭavyaḥ
+            <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 27. uktaṃ bhagavatā anvardhamāsaṃ prātimokṣasūtroddeśa ud<span class="it">d</span>e<span class="it">ṣṭavya iti | te na jānate kenoddeṣṭavya iti |</span> (<span class="bold">56r = GBM 6.710</span>)</p>
+         
+         
+         <p>bhagavān āha | saṃghasthavireṇānvardhamāsaṃ prātimokṣasūtroddeśa uddeṣṭavya iti |</p>
+         
+         
+         <p>Poṣ-v 28.1. uktaṃ bhagavatā saṃghasthavireṇānvardhamāsaṃ prātimokṣasūtroddeśa uddeṣṭavya
+            iti | bhikṣavas tasya layanaṃ gacchanti | te tatra na māpayanti | etat prakaraṇaṃ
+            bhikṣavo bhagavata ārocayanti |</p>
+         
+         
+         <p>bhagavān āha | na layane uddeṣṭavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 28.2. te prāsāde uddiśanti | tatrāpi na māpayanti |</p>
+         
+         
+         <p>bhagavān āha | saṃghasya poṣadhāmukhaṃ saṃmantavyaṃ |</p>
+         
+         
+         <p>Poṣ-v 29. uktaṃ bhagavatā saṃghasya poṣadhāmukhaṃ saṃmantavya<span class="it">m</span> iti | te na jānate kutra saṃmantavya<span class="it">m</span> iti |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 300</span></span>
+         
+         <p>bhagavān āha | yad vastu sarvākārapariniṣṭhitam antaḥsīmaṃ bahirvyāmopa<span class="it">vi</span>cāraṃ saṃghasya poṣadhāmukham abhirucitaṃ tat saṃghe<span class="it">na</span> saṃmantavyaṃ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 30.1. evaṃ ca punaḥ saṃmantavyaṃ |</p>
+         
+         
+         <p>Poṣ-v 30.2. śayanāsana<span class="it">pra</span>jñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn samanuyujya sarvasaṃghe sanniṣaṇṇe
+            sannipatite ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ |</p>
+         
+         
+         <p>Poṣ-v 30.3. śṛṇotu bhadantāḥ saṃghaḥ <span class="it">|</span></p>
+         
+         
+         <p>idaṃ vastu sarvākārapariniṣṭhitam antaḥsīmaṃ bahirvyāmopavicāraṃ saṃghasya poṣadhāmukham
+            abhirucitaṃ <span class="it">|</span></p>
+         
+         
+         <p>sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃghaḥ yat saṃgha idaṃ vastu sarvākārapariniṣṭhitam
+            antaḥsīmaṃ bahirvyāmopavicāraṃ saṃghasya poṣadhāmukhaṃ saṃmanyeta |</p>
+         
+         
+         <p>eṣā jñaptiḥ |</p>
+         
+         
+         <p>Poṣ-v 30.4. evaṃ ca karma kartavyaṃ <span class="it">|</span></p>
+         
+         
+         <p>śṛṇotu bhadantāḥ saṃghaḥ <span class="it">|</span></p>
+         
+         
+         <p>a. idaṃ vastu sarvākārapariniṣṭhitam antaḥsīmaṃ bahirvyāmopavicāraṃ saṃghasya poṣadhāmukham
+            abhirucitaṃ <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 302</span></span>
+         
+         <p>b. tat saṃgha idaṃ vastu sarvākārapariniṣṭhitam antaḥsīmaṃ bahirvyāmopavicāraṃ saṃghasya
+            poṣadhāmukhaṃ saṃmanyate |</p>
+         
+         
+         <p>c. yeṣām āyuṣmatāṃ kṣamate idaṃ vastu sarvākārapariniṣṭhitam antaḥsīmaṃ bahirvyāmopavicāraṃ
+            saṃghasya poṣadhāmukhaṃ saṃmantuṃ sa tūṣṇīṃ | na kṣamate bhāṣatāṃ |</p>
+         
+         
+         <p>d. saṃmataḥ saṃghena idaṃ vastu sarvākārapariniṣṭhitam antaḥsīmaṃ bahirvyāmopavicāraṃ
+            saṃghasya poṣadhāmukhaṃ <span class="it">|</span> kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam etad dhārayāmi |</p>
+         
+         
+         <p>Poṣ-v 31.1. yatra saṃghena poṣadhāmukhaṃ saṃmataṃ bhavati tatra bhikṣubhir niṣadya
+            poṣadhaḥ kartavyaḥ pravāraṇā jñaptir jñaptidvitīyaṃ jñapticaturthaṃ karma kartavyaṃ
+            |</p>
+         
+         
+         <p>Poṣ-v 31.2. vyagrāḥ kurvanti sātisārā bhavanti || ||</p>
+         
+         
+         <p>Poṣ-v 32. uddānam* ||</p>
+         
+         
+         <p>
+            kapphiṇena kṛtā sīmā cīvaraṃ tatra saṃmataṃ |<br />
+            abaddhasīme āvāse 'bhinirhāro 'bhisaṃhāraḥ |<br />
+            karma ca prātimokṣaś ca mukhāṃ paṃca samudditāḥ || ||
+            </p>
+         
+         <span class="note"><span class="bold">Poṣ-v 304</span></span>
+         
+         <p>Poṣ-v 33.1. rājagṛhe nidānam* ||</p>
+         
+         
+         <p>Poṣ-v 33.2. tena khalu samayenāyuṣmān brāhmaṇakapphiṇo rājagṛhe viharati senikāguhāyām
+            ekapoṣadhāvāsasaṃvāsa<span class="it">sa</span>ṃvṛttyā saṃghasya |</p>
+         
+         
+         <p>Poṣ-v 33.3 atha saṃbahulā bhikṣavas tad eva poṣadhe paṃcadaśyāṃ poṣadhāmukhe sanniṣaṇṇā<span class="it">ḥ</span> sannipatitā yadbhūyasā āyuṣmantaṃ brāhmaṇakapphiṇam āgamayamānāḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 33.4. athāyuṣmato brāhmaṇakapphiṇasyaitad abhavat*</p>
+         
+         
+         <p>adya saṃghasya poṣadhaḥ pāṃcadaśikaḥ mamāpi kapphiṇasya bhikṣoḥ poṣadhaḥ pāṃcadaśikaḥ
+            <span class="it">|</span></p>
+         
+         
+         <p>kin nu gaccheyaṃ saṃghasya poṣadhāmukham āhosvin na gaccheyaṃ saṃghasya poṣadhāmukhaṃ
+            <span class="it">|</span> (<span class="bold">56v = GBM 6.711</span>)</p>
+         
+         
+         <p>kin nu pratyanubhaveyaṃ saṃghena sārdhaṃ poṣadham āhosvin na pratyanubhaveyaṃ |</p>
+         
+         
+         <p><span class="it">kin nu gaccheyaṃ</span> saṃghasya saṃghakṛtyeṣu saṃghakaraṇīyeṣu āhosvin na gaccheyaṃ |</p>
+         
+         
+         <p>kin nu pratyanubhaveyaṃ saṃghena sārdhaṃ saṃghakṛtyāni saṃghakaraṇīyāny āhosvin na
+            pratyanubhaveyaṃ |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 306</span></span>
+         
+         <p>Poṣ-v 33.5. uktaṃ ca bhagavatā</p>
+         
+         
+         <p>śuddhasya hi sadā phalgu sadā śuddhasya poṣadhaḥ <span class="it">|</span>
+            śucikarmaṇo hi śuddhasya tasya saṃpadyate vratam <span class="it">||</span> iti |</p>
+         
+         
+         <p>Poṣ-v 33.6. śuddho 'ham asmi paramayā śuddhyā samanvāgataḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 34.1. atha bhagavān āyuṣmato brāhmaṇakapphiṇasya cetasā cittam ājñāya veṇuvane
+            'ntarhitaḥ senikāguhāyāṃ pratyaṣṭhāt* āyuṣmato brāhmaṇakapphiṇasya purata evaṃ cāha
+            |</p>
+         
+         
+         <p>Poṣ-v 34.2. nanu te kapphiṇa ekākino rahogatasya pratisaṃlīnasyaivaṃ cetasi cetaḥparivitarka
+            udapādi |</p>
+         
+         
+         <p>adya saṃghasya poṣadhaḥ pāṃcadaśikaḥ mamāpi kapphiṇasya bhikṣoḥ poṣadhaḥ pāṃcadaśikaḥ
+            pūrvavad yāvat* tasya saṃpadyate vratam iti <span class="it">|</span> śuddho 'ham asmi paramayā śuddhyā samanvāgata iti |</p>
+         
+         
+         <p>evaṃ bhadanta |</p>
+         
+         
+         <p>Poṣ-v 34.3 tvaṃ tāvat kapphiṇa na gamiṣyasi saṃghasya poṣadhāmukhaṃ ko 'nyo gamiṣyati
+            |</p>
+         
+         
+         <p>tvaṃ na pratyanubhaviṣyasi saṃghena sārdhaṃ poṣadhaṃ ko 'nyaḥ pratyanubhaviṣyati |</p>
+         
+         
+         <p>tvaṃ na gamiṣyasi saṃghasya saṃghakṛtyeṣu saṃ<span class="it">gha</span>karaṇīyeṣu ko 'nyo gamiṣyati |</p>
+         
+         
+         <p>tvaṃ na pratyanubhaviṣyasi saṃghena sārdhaṃ saṃghakṛtyāni saṃghakaraṇīyāni ko 'nyaḥ
+            pratyanubhaviṣyati |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 308</span></span>
+         
+         <p>Poṣ-v 34.4. gaccha tvaṃ kapphiṇa saṃghasya poṣadhāmukhaṃ mā na gaccha <span class="it">|</span></p>
+         
+         
+         <p>pratyanubhava tvaṃ saṃghena sārdhaṃ poṣadhaṃ mā na pratyanubhava |</p>
+         
+         
+         <p>gaccha tvaṃ kapphiṇa saṃghasya saṃghakṛtyeṣu saṃghakaraṇīyeṣu mā na gaccha <span class="it">|</span></p>
+         
+         
+         <p>pratyanubhava tvaṃ saṃghena sārdhaṃ saṃghakṛtyāni saṃghakaraṇīyāni mā na pratyanubhava
+            |</p>
+         
+         
+         <p>Poṣ-v 34.5. atha bhagavān āyuṣmantaṃ brāhmaṇakapphiṇa ādāya yena poṣadhāmukhaṃ tenopasaṃkrāntaḥ
+            <span class="it">|</span> upasaṃkramya purastād bhikṣusaṃghasya prajñapta evāsane niṣannaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 35. niṣadya bhagavān bhikṣūn āmantrayate sma | tasmāt tarhi bhikṣavo 'nujānāmi
+            bhikṣubhir ekapoṣadhāvāsasaṃvṛtyā{Or <span class="it">ekapoṣadhāvāsasaṃvṛttyā</span>} mahatī sīmā baddhavyā |</p>
+         
+         
+         <p>Poṣ-v 36.1 uktaṃ bhagavatā ekapoṣadhāvāsasaṃvṛtyā mahatī sīmā baddhavyeti | bhikṣavo
+            na jānate kathaṃ baddhavyeti |</p>
+         
+         
+         <p>bhagavān āha | pūrvaṃ tāvad āvāsikanaivāsikair bhikṣubhir mahatyā<span class="it">ḥ</span> sīmāyāś caturdiśaṃ sthāvaraṇimittāni saṃlakṣayitavyāni |</p>
+         
+         
+         <p>pūrvasyān diśi kuḍyanimittaṃ vā vṛkṣanimittaṃ vā śailanimittaṃ vā prākāranimittaṃ
+            vā prāgbhāranimittaṃ vā <span class="it">|</span></p>
+         
+         
+         <p>dakṣiṇasyāṃ paścimāyām uttarasyān diśi kuḍyanimittaṃ vā vṛkṣanimittaṃ vā śailanimittaṃ
+            vā prākāranimittaṃ vā prāgbhāranimittaṃ vā <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 310</span></span>
+         
+         <p>Poṣ-v 36.2. tataḥ paścāc chayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn
+            samanuyujya sarvasaṃghe sanniṣaṇṇe sannipatite āvāsikanaivāsikair bhikṣubhir mahatyā<span class="it">ḥ</span> sīmāyāś caturdiśaṃ sthāvarāṇi nimittāni parikīrtayitavyāni <span class="it">|</span></p>
+         
+         
+         <p>pūrvasyāṃ diśi kuḍyanimittaṃ vā vṛkṣanimittaṃ vā śailanimittaṃ vā prākāranimittaṃ
+            vā prāgbhāranimittaṃ vā <span class="it">|</span></p>
+         
+         
+         <p>dakṣiṇasyān diśi paścimāyām uttarasyāṃ diśi kuḍyanimittaṃ vā vṛkṣanimittaṃ vā <span class="it">śailanimittaṃ vā</span> prākāranimittaṃ vā prāgbhāranimittaṃ vā <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 37.1. tataḥ paścād ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ |</p>
+         
+         
+         <p>Poṣ-v 37.2. śṛṇotu (<span class="bold">57r = GBM 6.712</span>) bhadantāḥ saṃgho <span class="it">|</span></p>
+         
+         
+         <p>'sminn āvāse āvāsikanaivāsikair bhikṣubhir mahatyā<span class="it">ḥ</span> sīmāyāś caturdiśaṃ sthāvarāṇi nimittāni parikīrtitāni |</p>
+         
+         
+         <p>pūrvasyān diśi kuḍyanimittaṃ vā vṛkṣanimittaṃ vā śailanimittaṃ vā prākāranimittaṃ
+            vā prāgbhāranimittaṃ vā <span class="it">|</span></p>
+         
+         
+         <p>dakṣiṇasyāṃ paścimāyām uttarasyān diśi <span class="it">kuḍyanimittaṃ vā vṛkṣanimittaṃ vā śailanimittaṃ vā prākāranimittaṃ vā prāgbhāranimittaṃ
+               vā |</span></p>
+         
+         
+         <p>sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃgha eṣāṃ nimittānāṃ arvāg
+            ekapoṣadhāvāsasaṃvāsasaṃvṛttyā mahatīṃ sīmāṃ (<span class="bold">Poṣ-v 312</span>) badhnīyād yāvac cāraṇyaṃ yāvac ca śayanāsanaṃ sthāpayitvā grāmaṃ ca grāmopavicāraṃ
+            ca <span class="it">|</span></p>
+         
+         
+         <p>eṣā jñaptiḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 37.3. evaṃ ca karma kartavyaṃ <span class="it">|</span></p>
+         
+         
+         <p>śṛṇotu bhadantāḥ saṃgho <span class="it">|</span></p>
+         
+         
+         <p>a. 'sminn āvāse āvāsikanaivāsikair bhikṣubhir mahatyā<span class="it">ḥ</span> sīmāyāś caturdiśaṃ sthāvarāṇi nimittāni parikīrtitāni <span class="it">|</span></p>
+         
+         
+         <p>pūrvasyān diśi kuḍyanimittaṃ vā vṛkṣanimittaṃ vā śailanimittaṃ vā <span class="it">prākāranimittaṃ vā</span> prāgbhāranimittaṃ vā <span class="it">|</span></p>
+         
+         
+         <p>dakṣiṇasyāṃ paścimāyām uttarasyān diśi kuḍyanimittaṃ vā vṛkṣanimittaṃ vā <span class="it">śailanimittaṃ vā</span> prākāranimittaṃ vā prāgbhāranimittaṃ vā <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 314</span></span>
+         
+         <p>b. tat saṃghas teṣāṃ <span class="it">nimittānām</span> arvāg ekapoṣadhāvāsasaṃvṛttyā mahatī<span class="it">ṃ</span> sīmāṃ badhnāti | yāvac cāraṇyaṃ yāvac ca śayanāsanaṃ sthāpayitvā grāmaṃ ca grāmopavicāraṃ
+            ca <span class="it">|</span></p>
+         
+         
+         <p>c. yeṣām āyuṣmatāṃ kṣamate eṣāṃ nimittānāṃ arvāg ekapoṣadhāvāsasaṃvṛttyā saṃghasya
+            mahatīṃ sīmāṃ baddhuṃ yāvac cāraṇyaṃ yāvac ca śayanāsanaṃ sthāpayitvā grāmaṃ ca grāmopavicāraṃ
+            ca sa tūṣṇīṃ <span class="it">|</span> na kṣamate bhāṣatāṃ <span class="it">|</span></p>
+         
+         
+         <p>d. baddhā saṃghena eṣāṃ nimittānāṃ arvāg ekapoṣadhāvāsasaṃvṛttyā saṃghasya mahatī
+            sīmā yāvac cāraṇyaṃ yāvac ca śayanāsanaṃ sthāpayitvā grāmaṃ ca grāmopavicāraṃ ca <span class="it">|</span> kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam etad dhārayāmi |</p>
+         
+         
+         <p>Poṣ-v 38.1. yatra saṃghena mahatī sīmā baddhā bhavati tatra bhikṣubhir niṣadya poṣadhaḥ
+            kartavyaḥ pravāraṇā <span class="it">jñaptir</span> jñaptidvitīyaṃ jñapticaturthaṃ karma kartavyaṃ |</p>
+         
+         
+         <p>Poṣ-v 38.2. vyagrāḥ kurvanti sātisārā bhavanti |</p>
+         
+         
+         <p>Poṣ-v 39. bhikṣavas tricīvaraṃ gṛhītvā divāvihāraṃ gacchanti | khedam āpadyante |
+            etat prakaraṇaṃ bhikṣavo ārocayanti |</p>
+         
+         
+         <p>bhagavān āha | mahatyā<span class="it">ḥ</span> sīmāyā arvāk sarveṣāṃ bhikṣūṇāṃ cīvarakāṇām avipravāsasaṃvṛtir dātavyā |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 316</span></span>
+         
+         <p>Poṣ-v 40.1. evaṃ ca punar dātavyā <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 40.2. śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn samanuyujya
+            sarvasaṃghe sanniṣaṇṇe sannipatite ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ |</p>
+         
+         
+         <p>Poṣ-v 40.3. śṛṇotu bhadantāḥ saṃgho <span class="it">|</span></p>
+         
+         
+         <p>'sminn āvāse samagreṇa saṃghena ekapoṣadhāvāsasaṃvāsasaṃvṛtyā saṃghasya mahatī sīmā
+            baddhā |</p>
+         
+         
+         <p>sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃghaḥ mahatyā<span class="it">ḥ</span> sīmāyā arvāk sarveṣāṃ bhikṣūṇāṃ cīvarakāṇāṃ avipravāsasaṃvṛtiṃ dadyād iti <span class="it">|</span></p>
+         
+         
+         <p>eṣā jñaptiḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 40.4. evaṃ <span class="it">ca</span> karma kartavyaṃ <span class="it">|</span></p>
+         
+         
+         <p>śṛṇotu bhadantāḥ saṃghaḥ <span class="it">|</span></p>
+         
+         
+         <p>a. asminn āvāse samagreṇa saṃghenaikapoṣadhāvāsasaṃvāsasaṃvṛttyā saṃghasya mahatī
+            sīmā baddhā |</p>
+         
+         
+         <p>b. tat saṃgho mahatyāḥ sīmāyāḥ <span class="it">arvāk</span> sarveṣāṃ bhikṣūṇāṃ cīvarakāṇāṃ avipravāsasaṃvṛtiṃ dadāti |</p>
+         
+         
+         <p>c. yeṣām āyuṣmatāṃ kṣamate mahatyāḥ sīmāyāḥ <span class="it">arvāk</span> sarveṣāṃ bhikṣūṇāṃ cīvarakāṇāṃ avipravāsasaṃvṛtiṃ dātuṃ te tūṣṇīṃ <span class="it">|</span> na kṣamate bhāṣa<span class="it">n</span>tām*</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 318</span>) (<span class="bold">57v = GBM 6.713</span></span>
+         
+         
+         <p>d. <span class="it">dattā</span> saṃghena mahatyāḥ sīmāyāḥ <span class="it">arvāk</span> sarveṣāṃ bhikṣūṇāṃ cīvarakāṇām avipravāsasaṃvṛtiḥ <span class="it">|</span> kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam etad dhārayāmi |</p>
+         
+         
+         <p>Poṣ-v 41. yatra saṃghena mahatyā<span class="it">ḥ</span> sīmāyā arvāg bhikṣūṇāṃ cīvarakāṇāṃ avipravāsasaṃvṛttir dattā bhavati | <span class="it">tatra</span> bhikṣūṇāṃ sāntarottareṇa gantavyaṃ <span class="it">|</span> nātra kaukṛtyaṃ karaṇīyaṃ |</p>
+         
+         
+         <p>Poṣ-v 42.1. bhikṣūṇāṃ caturvargakaraṇīyāni karmāṇi bhavanti <span class="it">|</span> paṃcavargakaraṇīyāṇi daśavargakaraṇīyāni karmāṇi bhavanti |</p>
+         
+         
+         <p>Poṣ-v 42.2. te sarvasaṃghaṃ sannipātayanti | bhikṣūṇāṃ kuśalapakṣaparihāṇir bhavati
+            <span class="it">|</span> etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti |</p>
+         
+         
+         <p>bhagavān āha | khuḍḍalikā sīmā baddhavyā | saṃmantavyo maṇḍalaka <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 320</span></span>
+         
+         <p>Poṣ-v 43. evaṃ ca punar baddhavyā <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 44.1. pūrvaṃ tāvan mahatī sīmā moktavyā <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 44.2. evaṃ ca punar moktavyā |</p>
+         
+         
+         <p>Poṣ-v 44.3. śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn samanuyujya
+            sarvasaṃghe sanniṣaṇṇe sannipatite ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ |</p>
+         
+         
+         <p>Poṣ-v 44.4. śṛṇotu bhadantāḥ saṃghaḥ <span class="it">|</span></p>
+         
+         
+         <p>yāvad evāsminn āvāse samagreṇa saṃghena ekapoṣadhāvāsasaṃvāsasaṃvṛtyā mahatī sīmā
+            baddhā <span class="it">|</span></p>
+         
+         
+         <p>sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃghaḥ mahatīṃ sīmāṃ muṃcīta
+            {for <span class="it">muṃceta</span>} <span class="it">|</span></p>
+         
+         
+         <p>eṣā jñaptiḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 44.5. evaṃ ca karma kartavyaṃ <span class="it">|</span></p>
+         
+         
+         <p>śṛṇotu bhadantāḥ saṃghaḥ <span class="it">|</span></p>
+         
+         
+         <p>a. yāvad evāsminn āvāse samagreṇa saṃghena ekapoṣadhāvāsasaṃvāsasaṃvṛtyā mahatī sīmā
+            baddhā <span class="it">|</span></p>
+         
+         
+         <p>b. tat saṃgho ma<span class="it">ha</span>tīṃ sīmāṃ muṃcati <span class="it">|</span></p>
+         
+         
+         <p>c. yeṣām āyuṣmatāṃ kṣamate mahatīṃ sīmāṃ moktuṃ te tūṣṇīṃ <span class="it">|</span> na kṣamate bhāṣantāṃ <span class="it">|</span></p>
+         
+         
+         <p>d. iyaṃ prathamā karmavācanā dvitīyā tṛtīyā karmavācanā |</p>
+         
+         
+         <p>e. muktā saṃghena mahatī sīmā <span class="it">|</span> kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam etad dhārayāmaḥ {for <span class="it">dhārayāmi</span>?} <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 322</span></span>
+         
+         <p>Poṣ-v 45.1. tataḥ paścād āvāsikanaivāsikair bhikṣubhiḥ khuḍḍalikāyāḥ sīmāyāś caturdiśaṃ
+            sthāvarāṇi nimittāni saṃlakṣayitavyāni |</p>
+         
+         
+         <p>pūrvasyāṃ diśi kuḍyanimittaṃ vā vṛkṣanimittaṃ vā śailanimittaṃ vā prākāranimittaṃ
+            vā prāgbhāranimittaṃ vā mā<span class="it">r</span>ṣṭīkā vā ka<span class="it">ḍ</span>ḍhitavyā śilā vā ucchrepayitavyā kīlako <span class="it">vā</span> nikhantavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>dakṣiṇasyāṃ paścimāyām uttarasyāṃ diśi kuḍyanimittaṃ vā vṛkṣanimittaṃ vā śailanimittaṃ
+            vā prākāranimittaṃ vā prāgbhāranimittaṃ vā mā<span class="it">r</span>ṣṭīkā vā ka<span class="it">ḍ</span>ḍhitavyā śilā vā ucchrepayitavyā kīlako vā nikhantavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 45.2. tataḥ paścāc chayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn
+            samanuyujya sarvasaṃghe sanniṣaṇṇe sannipatite āvāsikanaivāsikair bhikṣubhiḥ khuḍḍalikāyāḥ
+            sīmāyāś caturdiśaṃ sthāvarāṇi nimittāni parikīrtayitavyāni <span class="it">|</span></p>
+         
+         
+         <p>pūrvasyāṃ diśi kuḍyanimittaṃ vā vṛkṣanimittaṃ vā <span class="it">śailanimittaṃ vā</span> prākāranimittaṃ vā prāgbhāranimittaṃ vā mā<span class="it">r</span>ṣṭīkā vā ka<span class="it">ḍ</span>ḍhitā śilā vā ucchrepitā kīlako <span class="it">vā</span> nikhātaḥ <span class="it">|</span></p>
+         
+         
+         <p>dakṣiṇasyāṃ paścimāyām uttarasyāṃ diśi kuḍyanimittaṃ vā vṛkṣanimittaṃ vā śailanimittaṃ
+            vā prākāranimittaṃ vā prāgbhāranimittaṃ vā mā<span class="it">r</span>ṣṭīkā vā ka<span class="it">ḍ</span>ḍhitā śilā <span class="it">vā</span> ucchrepitā kīlako vā nikhātaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 46.1. tataḥ paścād ekena bhikṣuṇā jñaptiṃ kṛtvā karma kartavyaṃ |</p>
+         
+         
+         <p>Poṣ-v 46.2. śṛṇotu bhadantāḥ saṃghaḥ <span class="it">|</span></p>
+         
+         
+         <p>yāvad evāsminn āvāse āvāsikanaivāsikair bhikṣubhiḥ khuḍḍalikā<span class="it">yāḥ</span> (<span class="bold">58r = GBM 6.714</span>) sīmāyāḥ caturdiśaṃ sthāvarāṇi nimittāni parikīrtitāni <span class="it">|</span></p>
+         
+         
+         <p>pūrvasyān diśi kuḍyanimittaṃ vā vṛkṣanimittaṃ vā śailanimittaṃ vā prākāranimittaṃ
+            vā prāgbhāranimittaṃ vā mārṣṭīkā vā ka<span class="it">ḍ</span>ḍhitā śilā vā ucchrepitā kīlako vā nikhātaḥ <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 324</span></span>
+         
+         <p class="it">dakṣiṇasyāṃ paścimāyām uttarasyāṃ diśi kuḍyanimittaṃ vā vṛkṣanimittaṃ vā śailanimittaṃ
+            vā prākāranimittaṃ vā prāgbhāranimittaṃ vā mārṣṭīkā vā kaḍḍhitā śilā vā ucchrepitā
+            kīlako vā nikhātaḥ |</p>
+         
+         
+         <p>sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃgha eṣāṃ <span class="it">nimittānāṃ</span> arvāk khuḍḍalikāṃ sīmāṃ badhnīyāt saṃmanyeta maṇḍalakaṃ <span class="it">|</span></p>
+         
+         
+         <p>eṣā jñaptiḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 46.3. evaṃ ca karma kartavyaṃ |</p>
+         
+         
+         <p>śṛṇotu bhadantāḥ saṃghaḥ <span class="it">|</span></p>
+         
+         
+         <p>a. yāvad evāsminn āvāse āvāsikanaivāsikair bhikṣubhiḥ khuḍḍalikāyāḥ sīmāyāś caturdiśaṃ
+            sthāvarāṇi nimittāni parikīrtitāni <span class="it">|</span></p>
+         
+         
+         <p>pūrvasyān diśi kuḍyanimittaṃ vā vṛkṣanimittaṃ vā śailanimittaṃ vā prākāranimittaṃ
+            vā prāgbhāranimittaṃ vā mārṣṭīkā vā ka<span class="it">ḍ</span>ḍhitā śilā vā ucchrepitā kīlako vā nikhātaḥ <span class="it">|</span></p>
+         
+         
+         <p>dakṣiṇasyāṃ paścimāyām uttarasyān diśi kuḍyanimittaṃ vā vṛkṣanimittaṃ vā śailanimittaṃ
+            vā prākāranimittaṃ vā prāgbhāranimittaṃ vā mārṣṭīkā vā ka<span class="it">ḍ</span>ḍhitā śilā vā ucchrepitā <span class="it">kīlako vā nikhātaḥ |</span></p>
+         
+         
+         <p>b. tat saṃgha eṣāṃ <span class="it">nimittānām</span> arvāk khuḍḍālikāṃ sīmāṃ badhnāti <span class="it">|</span> saṃmanyati maṇḍalakaṃ <span class="it">|</span></p>
+         
+         
+         <p>c. yeṣām āyuṣmatāṃ kṣamate eṣāṃ <span class="it">nimittānām</span> arvāk khuḍḍalikāṃ sīmāṃ baddhuṃ <span class="it">maṇḍalakaṃ sammantuṃ</span> sa tūṣṇīṃ | na kṣamate bhāṣatāṃ <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 326</span></span>
+         
+         <p>d. baddhā saṃghena eṣā<span class="it">ṃ</span> nimittānām arvāk khuḍḍalikā sīmā <span class="it">|</span> saṃmato maṇḍalakaḥ <span class="it">|</span> kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam etad dhārayāmi |</p>
+         
+         
+         <p>Poṣ-v 47.1. tataḥ paścān mahatī sīmā baddhavyā |</p>
+         
+         
+         <p>Poṣ-v 47.2. evaṃ ca punar baddhavyā |</p>
+         
+         
+         <p>Poṣ-v 47.3. pūrvaṃ tāvat* mahatyāḥ sīmāyā āvāsikanaivāsikair bhikṣubhiś caturdiśaṃ
+            sthāvarāṇi nimittāni saṃlakṣayitavyāni <span class="it">|</span></p>
+         
+         
+         <p>pūrvavad vistareṇa vācyam* |</p>
+         
+         
+         <p>Poṣ-v 48.1 tataḥ paścān mahatyāḥ sīmāyā arvāg bhikṣūṇāṃ cīvarakāṇām avipravāsasaṃvṛtir
+            dātavyā |</p>
+         
+         
+         <p>Poṣ-v 48.2. evaṃ ca punar dātavyā <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 48.3. śayanāsanaprajñaptiṃ kṛtvā pūrvavat* vistareṇa |</p>
+         
+         
+         <p>Poṣ-v 49.1. āyuṣmān upālī buddhaṃ bhagavantaṃ pṛcchati |</p>
+         
+         
+         <p>abaddhasīme bhadantāvāse kā sīmā |</p>
+         
+         
+         <p>kuḍyāntaram upāliṃ sāmantakena <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 328</span></span>
+         
+         <p>Poṣ-v 49.2. ye kuḍyasyābhyantare bhikṣavaḥ prativasanti tair ekadhye niṣadya poṣadhaḥ
+            kartavyaḥ pravāraṇā jñaptiḥ jñaptidvitīyaṃ jñapticarturthaṃ karma kartavyaṃ |</p>
+         
+         
+         <p>Poṣ-v 49.3. vyagrāḥ kurvanti sātisārā bhavanti |</p>
+         
+         
+         <p>Poṣ-v 50.1. āyuṣmān upālī buddhaṃ bhagavantaṃ pṛcchati |</p>
+         
+         
+         <p>agrāmake bhadantāraṇyāyatane kā sīmā |</p>
+         
+         
+         <p>krośam upāliṃ sāmantakena <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 50.2. ye krośasyābhyantare bhikṣavaḥ prativasanti sarvais tair ekadhye niṣadya
+            poṣadhaḥ pravāraṇā vistareṇa |</p>
+         
+         
+         <p>Poṣ-v .50.3. vyagrāḥ kurvanti sātisārā bhavanti |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 330</span></span>
+         
+         <p>Poṣ-v 51. āyuṣmān upālī buddhaṃ bhagavantaṃ pṛ<span class="it">ccha</span>ti |</p>
+         
+         
+         <p>labhyaṃ bhadanta ekayā jñaptyā ekena karmakārakeṇa ekayā karmavācanayā sāntarbahirmukhīṃ
+            sīmām abhi<span class="it">saṃ</span>hartuṃ vā abhinirhartuṃ vā |</p>
+         
+         
+         <p>labhyaṃ upāliṃ | tatrāyam abhisaṃhāraḥ saṃkocaḥ <span class="it">|</span> tatrāyam abhinirhāraḥ vistāraḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 52. evaṃ ca punar baddhavyā <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 53.1. pūrvaṃ tāvan mahatī sīmā moktavyā | khuḍḍalikā sīmā moktavyā | pratiprasraṃbhitavyo
+            maṇḍalakaḥ <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 332</span></span>
+         
+         <p>Poṣ-v 53.2. evaṃ ca punar moktavyā <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 53.3. śayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn samanuyujya
+            sarvasaṃghe sanniṣaṇṇe sannipatite ubhayataḥsīmāyāṃ saṃghaṃ sthāpayitvā karmakārakeṇa
+            (<span class="bold">58v = GBM 6.715</span>) bhikṣuṇā ubhe sīme kāṣṭhena vā daṇḍena vā kiṭ<span class="it">ak</span>ena vā kiliṃjena vā avaṣṭabhya (<span class="bold">Poṣ-v 334</span>) jñaptiṃ kṛtvā karma kartavyaṃ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 53.4. śṛṇotu bhadantāḥ saṃghaḥ <span class="it">|</span></p>
+         
+         
+         <p>yāvad evāsminn āvāse samagreṇa saṃghena ekapoṣadhāvāsasaṃvāsasaṃvṛtyā mahatī sīmā
+            baddhā <span class="it">|</span> khuḍḍalikā sīmā baddhā <span class="it">|</span> saṃmato maṇḍalakaḥ <span class="it">|</span></p>
+         
+         
+         <p>sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃghaḥ yat saṃghaḥ mahatīṃ sīmāṃ muṃcīta
+            {for <span class="it">muṃceta</span>} <span class="it">|</span> khuḍḍalikāṃ sīmāṃ muṃcīta <span class="it">|</span> pratiprasraṃbheta maṇḍalakaṃ <span class="it">|</span></p>
+         
+         
+         <p>eṣā jñaptiḥ |</p>
+         
+         
+         <p>Poṣ-v 53.5. evaṃ ca karma kartavyaṃ <span class="it">|</span></p>
+         
+         
+         <p>śṛṇotu bhadantāḥ saṃghaḥ <span class="it">|</span></p>
+         
+         
+         <p>a. yāvad evāsminn āvāse samagreṇa saṃghena ekapoṣa<span class="it">dhāvāsa</span>saṃvāsasaṃvṛtyā mahatī sīmā baddhā <span class="it">|</span> khuḍḍalikā sīmā baddhā <span class="it">|</span> saṃmato maṇḍalakaḥ <span class="it">|</span></p>
+         
+         
+         <p>b. tat saṃghaḥ mahatīṃ sīmāṃ muṃcati <span class="it">|</span> khuḍḍalikāṃ sīmāṃ muṃcati | pratiprasraṃbhayati maṇḍalakaṃ <span class="it">|</span></p>
+         
+         
+         <p>c. yeṣām āyuṣmatāṃ kṣamate mahatīṃ sīmāṃ moktuṃ <span class="it">| khuḍḍalikāṃ sīmāṃ moktuṃ |</span> pratiprasrabdhuṃ maṇḍalakaṃ sa tūṣṇīṃ <span class="it">|</span> na kṣamate bhāṣantāṃ <span class="it">|</span></p>
+         
+         
+         <p>d. iyaṃ prathamā karmavācanā dvitīyā tṛtīyā karmavācanā |</p>
+         
+         
+         <p>e. muktā saṃghena mahatī sīmā <span class="it">|</span> muktā khuḍḍalikā sīmā <span class="it">|</span> pratiprasrabdho maṇḍalakaḥ <span class="it">|</span> kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇīm evam etad dhā<span class="it">rayā</span>mi |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 336</span></span>
+         
+         <p>Poṣ-v 54. tatra yadīcchanti vistārayitavyāḥ <span class="it">|</span> nocet saṃkocayitavyāḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 55.1. tataḥ paścād āvāsikanaivāsikair bhikṣubhiḥ khuḍḍalikāyā<span class="it">ḥ</span> sīmāyāś caturdiśaṃ sthāvarāṇi nimittāni saṃlakṣayitavyāni |</p>
+         
+         
+         <p>pūrvasyāṃ diśi kuḍyanimittaṃ vā vṛkṣanimittaṃ vā śailanimittaṃ vā prākāranimittaṃ
+            vā prāgbhāranimittaṃ vā mārṣṭīkā vā ka<span class="it">ḍ</span>ḍhitavyā śilā vā ucchrepayitavyā kīlako vā nikhantavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>yathā pūrvasyāṃ diśy evaṃ dakṣiṇasyāṃ paścimāyām uttarasyāṃ diśi <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 55.2. tataḥ paścāc chayanāsanaprajñaptiṃ kṛtvā gaṇḍīm ākoṭya pṛṣṭavācikayā bhikṣūn
+            samanuyujya sarvasaṃghe sanniṣaṇṇe sannipatite āvāsikanaivāsikair bhikṣubhiḥ khuḍḍalikāyāḥ
+            sīmāyāś caturdiśaṃ sthāvaranimittāni parikīrtayitavyāni <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 338</span></span>
+         
+         <p>pūrvavad yāvat kīlako <span class="it">vā</span> nikhātaḥ <span class="it">|</span>
+            Poṣ-v 56. mahatyāḥ sīmāyāś caturdiśaṃ sthāvarāṇi nimittāni parikīrtayitavyāni |</p>
+         
+         
+         <p>pūrvavad yāvat prāgbhāranimittaṃ vā |</p>
+         
+         
+         <p>Poṣ-v 57.1. tataḥ paścād ubhayataḥsīmāyāṃ saṃghaṃ sthāpayitvā karmakārakeṇa bhikṣuṇā
+            ubhe sīme kāṣṭhena vā daṇḍena vā kiṭakena vā kiliṃjena vā avaṣṭabhya jñaptiṃ kṛtvā
+            karma kartavyaṃ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 57.2. śṛṇotu bhadantāḥ saṃghaḥ <span class="it">|</span></p>
+         
+         
+         <p>yāvad evāsminn āvāse āvāsikanaivāsikair bhikṣubhiḥ khuḍḍalikāyāḥ sīmāyāś caturdiśaṃ
+            sthāvaranimittāni parikīrtitāni |</p>
+         
+         
+         <p>pūrvavad yāvat kīlako <span class="it">vā</span> nikhātaḥ <span class="it">|</span></p>
+         
+         
+         <p>mahatyā<span class="it">ḥ</span> sīmāyāś caturdiśaṃ sthāvarāṇi nimittāni parikīrtitāni <span class="it">|</span></p>
+         
+         
+         <p>pūrvavad yāvat prāgbhāranimittaṃ vā |</p>
+         
+         
+         <p>sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃghaḥ eṣām <span class="it">āghaṭanānām</span> arvak khuḍḍalikāṃ sīmāṃ badhnīyāt saṃmanyeta maṇḍalakaṃ <span class="it">|</span> teṣām āghaṭanānām arvāg ekapoṣadhāvāsasaṃvāsasaṃvṛtyā (<span class="bold">Poṣ-v 340</span>) mahatī<span class="it">ṃ</span> sīmā<span class="it">ṃ</span> badhnīyāt* yāvac cāraṇyaṃ yāvac ca śayanāsanaṃ sthāpayitvā grāmaṃ ca grāmopavicāraṃ
+            ca <span class="it">|</span></p>
+         
+         
+         <p>eṣā jñaptiḥ | (<span class="bold">59r = GBM 6.716</span>)</p>
+         
+         
+         <p>Poṣ-v 57.3. evaṃ <span class="it">ca</span> karma kartavyaṃ <span class="it">|</span></p>
+         
+         
+         <p>śṛṇotu bhadantāḥ saṃghaḥ <span class="it">|</span></p>
+         
+         
+         <p>a. yāvad evāsminn āvāse āvāsikanaivāsikair bhikṣubhiḥ khuḍḍalikāyāḥ sīmāyāś caturdiśaṃ
+            sthāvarāṇi nimittāni parikīrtitāni <span class="it">|</span></p>
+         
+         
+         <p>pūrvavad yāvat kīlako <span class="it">vā</span> nikhātaḥ <span class="it">|</span></p>
+         
+         
+         <p>mahatyāḥ sīmāyāś caturdiśaṃ sthāvarāṇi nimi<span class="it">ttā</span>ni parikīrtitāni <span class="it">|</span></p>
+         
+         
+         <p>pū<span class="it">rva</span>vad yāvat prāgbhāranimittaṃ vā <span class="it">|</span></p>
+         
+         
+         <p>b. tat saṃgha eṣām āghaṭanānām arvā<span class="it">k</span> khuḍḍalikāṃ sīmāṃ badhnāti | saṃmanyate maṇḍalakaṃ <span class="it">|</span> teṣām āghaṭanānām arvāg ekapoṣadhāvāsasaṃvāsasaṃvṛttyā mahatīṃ sīmāṃ badhnāti | yāvac
+            cāraṇyaṃ yāvac ca śayanāsanaṃ sthāpayitvā grāmaṃ ca grāmopavicāraṃ ca <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 342</span></span>
+         
+         <p>c. yeṣām āyuṣmatāṃ kṣamate eṣām āghaṭanānām arvāk khuḍḍalikāṃ sīmāṃ baddhuṃ saṃmatuṃ
+            maṇḍalakaṃ teṣām āghaṭanānām arvāg ekapoṣadhāvāsasaṃvāsasaṃvṛtyā mahatī<span class="it">ṃ</span> sīmāṃ baddhuṃ <span class="it">yāvac cāraṇyaṃ yāvac ca śayanāsanaṃ</span> sthāpayitvā grāmaṃ ca grāmopavicāraṃ ca te tūṣṇīṃ <span class="it">|</span> na kṣamate bhāṣantāṃ <span class="it">|</span></p>
+         
+         
+         <p>e. baddhā saṃghena eṣām āghaṭanānāṇ <span class="it">arvāk</span> khuḍḍalikā sīmā <span class="it">|</span> saṃmato maṇḍalakaḥ <span class="it">| baddhā</span> teṣām āghaṭanānām arvāg ekapoṣadhāvāsasaṃvāsasaṃvṛtyā mahatī sīmā yāvac cāraṇyaṃ
+            yāvac ca śayanāsanaṃ sthāpayitvā grāmaṃ ca grāmopavicāraṃ ca <span class="it">|</span> kṣāntam anujñātaṃ saṃghena yasmāt tūṣṇ<span class="it">ī</span>m evam etad dhārayāmi |</p>
+         
+         
+         <p>Poṣ-v 58. tataḥ paścāt khuḍḍalikāyāḥ sīmāyā nirgatya mahatyāḥ sīmāyāḥ śayanāsanaprajñaptiṃ
+            kṛtvā bhikṣūṇāṃ cīvarakāṇām avipravāsasaṃvṛtir dātavyā <span class="it">|</span></p>
+         
+         
+         <p>pūrvavad yāvat*</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 344</span></span>
+         
+         <p>Poṣ-v 59. āyuṣmān upālī buddhaṃ bhagavantaṃ pṛcchati |</p>
+         
+         
+         <p>kati bhadanta poṣadhakarmāṇi |</p>
+         
+         
+         <p>catvāry upāliṃ |</p>
+         
+         
+         <p>a. adharmeṇa kurvanti vyagrāḥ <span class="it">|</span></p>
+         
+         
+         <p>b. adharmeṇa samagrāḥ <span class="it">|</span></p>
+         
+         
+         <p>c. dharmeṇa vyagrāḥ <span class="it">|</span></p>
+         
+         
+         <p>d. dharmeṇa samagrāḥ <span class="it">|</span></p>
+         
+         
+         <p>tatraikaṃ dhārmikaṃ poṣadhakarma yad idaṃ dharmeṇa kurvanti samagrāḥ ||</p>
+         
+         
+         <p>Poṣ-v 60. āyuṣmān upālī buddhaṃ bhagavantaṃ pṛcchati |</p>
+         
+         
+         <p>kati bhadanta prātimokṣasūtroddeśāḥ |</p>
+         
+         
+         <p>paṃcopāliṃ |</p>
+         
+         
+         <p>a. jñaptiṃ kṛtvā nidānam uddiśya avaśiṣṭaṃ śrutena śrāvayanti | uddiṣṭaḥ prātimokṣaḥ
+            kṛtaḥ saṃghena poṣadhaḥ <span class="it">|</span></p>
+         
+         
+         <p>b. jñaptiṃ kṛtvā nidānam uddiśya catvāraḥ pārājikān dharmān uddiśya avaśiṣṭaṃ śrutena
+            śrāvayanti | uddiṣṭaḥ prātimokṣaḥ kṛtaḥ saṃghena poṣadhaḥ <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 346</span></span>
+         
+         <p>c. jñaptiṃ kṛtvā nidānam uddiśya catvāraḥ pārājikān dharmān uddiśya trayodaśa saṃghāvaśeṣā<span class="it">n</span> dharmān uddiśya avaśiṣṭaṃ śrutena śrāvayanti | uddiṣṭaḥ prātimokṣaḥ kṛtaḥ saṃghena
+            poṣadhaḥ <span class="it">|</span></p>
+         
+         
+         <p>d. jñaptiṃ kṛtvā nidānam uddiśya catvāraḥ pārājikān dharmān uddiśya trayodaśa saṃghāvaśeṣān
+            dharmān u<span class="it">ddiśya</span> dvāv aniyatau dharmāv uddiśya avaśiṣṭaṃ śrutena śrāvayanti | uddiṣṭaḥ prātimokṣaḥ
+            kṛtaḥ saṃghena poṣadhaḥ <span class="it">|</span></p>
+         
+         
+         <p>e. vistareṇa prātimokṣasūtroddeśa eva pañcamaḥ || ||</p>
+         
+         
+         <p>Poṣ-v 61. uddānam |</p>
+         
+         
+         <p>āvāsavarṣāgantukacārikā kuru poṣadha<span class="it">ṃ |</span>
+            rātriś caivātikrāmati cittotpādena poṣadhaḥ || ||</p>
+         
+         
+         <p>Poṣ-v 62.1. yathāpi tad anyatarasminn āvāse saṃbahulā bhikṣavaḥ prativasanti <span class="it">|</span></p>
+         
+         
+         <p>teṣām evaṃ bhavati | amukasya bhikṣor <span class="it">ud</span>diśyate prātimokṣa amukasya bhikṣor <span class="it">ud</span>diśyate prātimokṣa iti <span class="it">|</span></p>
+         
+         
+         <p>teṣāṃ tad eva poṣadhe pañcadaśyāṃ na kasyacid bhikṣor uddiśyate prātimokṣaḥ <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 348</span></span>
+         
+         <p><span class="it">bhagavān āha | sa</span> tair bhikṣubhiḥ (<span class="bold">59v = GBM 6.717</span>) bhikṣuḥ paryeṣitavyaḥ vastuparihāreṇa śayanāsanaparihāreṇa <span class="it">karmaparihāreṇa</span> lābhaparihāreṇopasthāyakaparihāreṇa yasya bhikṣor <span class="it">ud</span>diśyate prātimokṣaḥ <span class="it">|</span></p>
+         
+         
+         <p>sacet saṃpadyate ity evaṃ kuśalaṃ <span class="it">|</span> nocet saṃpadyate na tair bhikṣubhis tasminn āvāse anyat poṣadham āgamayi<span class="it">tav</span>yaṃ ā<span class="it">gamayanti sātisā</span>rā bhavanti ||</p>
+         
+         
+         <p>Poṣ-v 62.2. yathāpi tad anyatarasminn āvāse saṃbahulā bhikṣavaḥ pūrvikāṃ varṣām upagantukāmā
+            bhavanti <span class="it">|</span></p>
+         
+         
+         <p>teṣām evaṃ bhavaty <span class="it">|</span> amukasya bhikṣor uddiśyate prātimokṣa <span class="it">amukasya bhikṣor uddiśyate prātimokṣa</span> iti <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 350</span></span>
+         
+         <p>teṣāṃ tad eva poṣadhe pañcadaśyāṃ na kasyacid bhikṣor <span class="it">ud</span>diśyate prātimokṣaḥ <span class="it">|</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | sa</span> tair bhikṣubhir bhikṣuḥ paryeṣi<span class="it">tavyo</span> vastuparihāreṇa śayanāsanaparihāreṇa karmaparihāreṇa l<span class="it">ā</span>bhaparihāreṇa upasthāyakaparihāreṇa yasya bhikṣor <span class="it">ud</span>diśyate prātimokṣaḥ <span class="it">|</span></p>
+         
+         
+         <p>sacet saṃpadyate 'ty evaṃ kuśalaṃ <span class="it">|</span> nocet saṃpadyate na tair bhikṣubhis tasminn āvāse pūrvikāṃ varṣām upagantavyaṃ <span class="it">|</span> upagacchanti sātisārā bhavanti ||</p>
+         
+         
+         <p>Poṣ-v 62.3. yathāpi tad anyatamasminn āvāse saṃbahulā bhikṣavaḥ pūrvikāṃ varṣām upagantukāmā
+            bhavanti <span class="it">|</span></p>
+         
+         
+         <p><span class="it">teṣām evaṃ bhavati |</span> amukasya bhikṣor uddiśyate prātimokṣa amukasya bhikṣor uddiśyate prātimokṣa iti |</p>
+         
+         
+         <p>teṣāṃ tad eva poṣadhe pañcadaśyāṃ na kasyacid bhikṣor uddiśyate prātimokṣaḥ |</p>
+         
+         
+         <p><span class="it">bhagavān āha |</span> sa tair bhikṣubhir bhikṣuḥ paryeṣitavyaḥ vastuparihāreṇa <span class="it">śayanāsanaparihāreṇa</span> karmaparihāreṇa lābhaparihāreṇopasthāyakaparihāreṇa yasya bhikṣor uddiśyate prātimokṣaḥ
+            <span class="it">|</span></p>
+         
+         
+         <p>sacet saṃpadyate 'ty evaṃ kuśalaṃ <span class="it">|</span> nocet saṃpadyate na tair bhikṣubhis tasminn ā<span class="it">vā</span>se pūrvikāṃ varṣām vastavyaṃ | vasanti sātisārā bhavanti |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 352</span></span>
+         
+         <p>Poṣ-v 62.4 yathāpi tad anyatamasminn āvāse saṃbahulā bhikṣavaḥ paścimikāṃ varṣām upagantukāmā
+            bhavanti <span class="it">|</span></p>
+         
+         
+         <p>teṣām evaṃ bhavaty <span class="it">|</span> amukasya bhikṣor uddiśyate prātimokṣa amukasya bhikṣor uddiśyate prātimokṣa iti |</p>
+         
+         
+         <p>teṣāṃ tad eva poṣadhe pañcadaśyāṃ na kasyacid bhikṣor <span class="it">ud</span>diśy<span class="it">ate prātimokṣaḥ |</span></p>
+         
+         
+         <p><span class="it">bhagavān āha | sa</span> tair bhikṣubhir bhikṣuḥ paryeṣitavyaḥ vastuparihāreṇa śayanāsanaparihāreṇa karmaparihāreṇa
+            lābhaparihāreṇopasthāyakaparihāreṇa yasya bhikṣor <span class="it">ud</span>diśyate prātimokṣaḥ <span class="it">|</span></p>
+         
+         
+         <p>sacet saṃpadyate 'ty evaṃ kuśalaṃ <span class="it">|</span> nocet saṃpadyate na tai<span class="it">r bh</span>i<span class="it">kṣubhis tasminn ā</span>vāse paścimikāṃ varṣām upagantavyaṃ | upagacchanti sātisārā bhavanti |</p>
+         
+         
+         <p>Poṣ-v 62.5 yathāpi tad anyatamasminn āvāse saṃbahulā bhikṣavaḥ paścimikāṃ varṣām upagantā
+            bhavanti <span class="it">|</span></p>
+         
+         
+         <p>teṣām evaṃ bhavati | amukasya bhikṣor <span class="it">ud</span>diśyate prātimokṣaḥ amukasya bhikṣor uddiśyate prāti<span class="it">mo</span>kṣ<span class="it">a</span> iti <span class="it">|</span></p>
+         
+         
+         <p>teṣā<span class="it">ṃ</span> tad eva poṣadhe paṃcadaśyāṃ na kasyacid bhikṣor uddiśyate prātimokṣaḥ <span class="it">|</span></p>
+         
+         
+         <p><span class="it">bhagavān āha |</span> tair bhikṣubhiḥ tasminn āvāse dvau māsau pratisaṃkhyāya vastavyam* dvayor māsayor
+            atyayād bhikṣuḥ paryeṣitavyaḥ vastuparihāreṇa śayanāsanaparihāreṇa karmaparihāreṇa
+            lābhaparihāreṇopasthāyakaparihāreṇa yasya bhikṣor uddiśyate prātimokṣaḥ <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 354</span></span>
+         
+         <p>sacet saṃpadyate ity evaṃ kuśalaṃ <span class="it">|</span> nocet saṃpadyate na tair bhikṣubhir asminn āvāse anyaṃ poṣadhaṃ āgamayitavyaḥ <span class="it">|</span> āgamayanti sātisārā bhavanti || ||</p>
+         
+         
+         <p>Poṣ-v 63.1 āyuṣmān upālī buddhaṃ bha<span class="it">ga</span>vantaṃ pṛcchati | (<span class="bold">60r = GBM 6.718</span>)</p>
+         
+         
+         <p>yathāpi tad bhadanta naivāsikā bhikṣavaḥ śṛṇvanti āgantukā bhikṣava āgacchanti sūtradharā
+            vinayadharā mātṛkādharā iti <span class="it">|</span> tais teṣāṃ kathaṃ pratipattavyaṃ |</p>
+         
+         
+         <p>tair upāliṃ bhikṣubhiḥ sūtradharavinayadharamātṛkādharāṇāṃ bhikṣūṇām arthāya ardhatṛtīyāni
+            yojanāni chatradhvajapatākābhiḥ pratyudgantavyaṃ <span class="it">|</span></p>
+         
+         
+         <p>sacet saṃpadyate 'ty evaṃ kuśalaṃ <span class="it">|</span> nocet saṃpadyate paṃca krośāni chatradhvajapatākābhiḥ pratyudgantavyaṃ |</p>
+         
+         
+         <p>sacet saṃpadyate 'ty evaṃ kuśalaṃ <span class="it">|</span> nocet saṃpadyate trīṅ krośān ardhakrośam antataḥ pariṣaṇḍām api chatradhvajapatākābhiḥ
+            pratyudgantavyaṃ |</p>
+         
+         
+         <p>sacet saṃpadyate 'ty evaṃ kuśalaṃ <span class="it">|</span> nocet saṃpadyate snātraṃ kartavyaṃ saṃghe snehalābhaḥ kartavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 63.2. teṣāṃ vastuparihāra<span class="it">ḥ</span> śayanāsanaparihāraḥ karmaparihāraḥ lābhaparihāra upasthāyakaparihāro dātavyaḥ <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 356</span></span>
+         
+         <p>Poṣ-v 63.3 sacet tatra kaścid evaṃ vadet <span class="it">|</span> sāmānikāyāṃ āyuṣmantaḥ pravrajyāyāṃ kasmād ete bhikṣavo 'rhanti na vayam iti <span class="it">|</span> sa idaṃ syād vacanīyaḥ <span class="it">|</span> atītaśāstrake āyuṣman pravacane eṣa śāstā eṣa pratisaraṇaṃ yad uta sūtravinayamātṛkā<span class="it">ś</span> ceti <span class="it">|</span> sa caiṣam āyuṣmatāṃ vistareṇoddiṣṭaḥ pravṛttaś ceti | tasmād ete 'rhanti na tvam
+            iti |</p>
+         
+         
+         <p>Poṣ-v 64.1. yathāpi tad eva poṣadhe paṃcadaśyāṃ sārdhaṃvihāryantevāsikā bhikṣavo janapadacārikāṃ
+            cartukāmā bhavanti |</p>
+         
+         
+         <p>teṣām ācāryopādhyāyair na kenacit prakāreṇāvalokanā dātavyā <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 64.2. sacet <span class="it">tad</span>rūpaḥ pratyayo bhavati vaktavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>āyuṣmann amuka āvāsaḥ sasthaviraḥ saprātimokṣaḥ <span class="it">|</span></p>
+         
+         
+         <p>sacet tatroktā anyatrāvataranti sātisārā bhavanti |</p>
+         
+         
+         <p>Poṣ-v 65.1. atha bhagavāṃs tad eva poṣadhe paṃcadaśyāṃ purastād bhikṣusaṃghasya prajñapta
+            evāsane niṣaṇṇaḥ <span class="it">|</span> niṣadya bhagavān bhikṣūn āmantrayate sma |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 358</span></span>
+         
+         <p>nirgacchati bhikṣavo rātriḥ <span class="it">|</span> kuruta bhikṣavaḥ poṣadhaṃ |</p>
+         
+         
+         <p>Poṣ-v 65.2. athānyatamo bhikṣur utthāyāsanād ekāṃsam uttarāsaṃgaṃ kṛtvā yena bhagavāṃs
+            tenāñjaliṃ praṇamayya bhagavantam idam avocat*</p>
+         
+         
+         <p>anyatamasmiṃ bhadantāvāse bhikṣur ābādhiko duḥkhito bāḍhaglānaḥ <span class="it">|</span> tasyāsmābhiḥ kathaṃ pratipattavyaṃ |</p>
+         
+         
+         <p>bhagavān āha | pāriśuddhir asyānayitavyā <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 65.3. uktaṃ bhagavatā pāriśuddhir asyānayitavyeti | bhikṣavo na jānate katham
+            ānayitavyeti |</p>
+         
+         
+         <p>bhagavān āha | ekasya ekena dvābhyām ekena saṃbahulānāṃ yāvatāṃ vā śaknoti saṃghamadhye
+            nāmānaṃ parikīrtayituṃ |</p>
+         
+         
+         <p>Poṣ-v 66.1. pāriśuddhidāyakasyāhaṃ bhikṣava <span class="it">bhikṣor</span> āsamudācārikān dharmān prajñapa<span class="it">yiṣyāmi |</span></p>
+         
+         
+         <p>Poṣ-v 66.2. <span class="it">pāriśuddhidāyakena bhi</span>kṣuṇaikāṃ<span class="it">sam uttarāsa</span>ṃ<span class="it">ga</span>ṃ k<span class="it">ṛtv</span>ā upānahāv avamucya yathāvṛddhikayā sāmīcīṃ kṛtvā utkuṇḍakena (<span class="bold">Poṣ-v 360</span>) sthitvā añjaliṃ pragṛhya idaṃ syād vacanīyaṃ <span class="it">|</span></p>
+         
+         
+         <p>samanvāharāyuṣmann adya saṃghasya poṣadhaḥ pāṃcadaśikaḥ mamāpy evaṃnāmo bhikṣoḥ poṣadhaḥ
+            pāñca<span class="it">daśikaḥ so 'ham evaṃnāmā bhikṣuḥ pariśuddham antarāyikair dharmair āt</span>m<span class="it">ā</span>n<span class="it">a</span>ṃ vadāmi | poṣadhe me pāriśuddhim ārocayāmy ārocitāṃ ca pravedayāmi |</p>
+         
+         
+         <p>evaṃ dvir apy evaṃ trir api |</p>
+         
+         
+         <p>Poṣ-v 66.3. pāriśuddhidāyako bhikṣuḥ sacet kāyavijñaptyā pāriśuddhin dadāti <span class="it">|</span> dattā pāriśuddhir vaktavyā | vāgvij<span class="it">ñaptyā</span> (<span class="bold">60v = GBM 6.719</span>) <span class="it">dadāti | dattā pāriśuddhir vaktavyā | kāyavijñaptyā ca vāgvijñaptyā ca da</span>dāti <span class="it">|</span> dattā pāriśuddhir vaktavyā |</p>
+         
+         
+         <p>Poṣ-v 66.4. na kāyavijñaptyā na vāgvijñaptyā dadāti | sarvasaṃghena vā tatra gantavyaṃ
+            | sa vā bhikṣuḥ saṃghamadhye 'vatārayitavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 66.5. na sarvasaṃghas tatra gacchati | taṃ ca bhikṣuṃ saṃghe nāvatārayiṣyanti
+            <span class="it">|</span> vya<span class="it">grāḥ kurvanti sātisārā bhavanti |</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 362</span></span>
+         
+         <p>Poṣ-v 66.6 <span class="it">pāriśud</span>dh<span class="it">idā</span>y<span class="it">a</span>k<span class="it">o bh</span>i<span class="it">kṣ</span>u<span class="it">r</span> y<span class="it">a</span>th<span class="it">ā</span>pr<span class="it">a</span>jñ<span class="it">a</span>ptān āsamudācārikāṃ dharmāṃ na samādāya vartate sātisāro bhavati |</p>
+         
+         
+         <p>Poṣ-v 67.1. pāriśuddhigrāhakasyāhaṃ <span class="it">bhikṣava</span> bhikṣor āsamudācārikān dharmān prajñapayiṣyāmi |</p>
+         
+         
+         <p>Poṣ-v 67.2. pāriśuddhigrāhakeṇa bhikṣuṇā pāriśuddhiṃ gṛhītvā na dhāvitavyaṃ <span class="it">|</span> na dravitavya<span class="it">ṃ |</span> na la<span class="it">ṃ</span>gh<span class="it">atav</span>y<span class="it">aṃ na</span> + .. <span class="it">laṃ</span>gh<span class="it">a</span>yitavyā <span class="it">|</span> na pariṣaṇḍā laṃghayitavyā <span class="it">|</span> noparivihāyasā sthātavyaṃ <span class="it">|</span> na bahiḥ sīmā<span class="it">ṃ</span> gantavyaṃ <span class="it">|</span> naikena pādena dvau niśreṇapadakāv abhiruhitavyau | naikena pādena dvau sopānakaḍevarāv
+            abhiruhitavyau <span class="it">|</span> na svapitavyaṃ <span class="it">|</span> na samāpattavyaṃ |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 364</span></span>
+         
+         <p>Poṣ-v 67.3. svapiti samāpadyate dvābhyāṃ kāraṇābhyāṃ garhyo bhavati yac cālajjitvena
+            yac ca vaitarikatvena |</p>
+         
+         
+         <p>Poṣ-v 67.4. yadā saṃghasthaviraḥ kathayaty anāgamanāyāyuṣmantaś chandaṃ ca pāriśuddiṃ
+            cārocayata <span class="it">|</span> ārocitāṃ ca pravedayatheti | tenāntarikassa {for tenāntarikasya} bhikṣoḥ purataḥ
+            sthitvā vaktavyaṃ <span class="it">|</span></p>
+         
+         
+         <p>samanvāhara āyuṣmann amuṣminn āvāse bhikṣur ābādhiko duḥkhito bāḍhaglānaḥ <span class="it">|</span> adya saṃghasya poṣadhaḥ pāñcadaśikas tasyāpi bhikṣoḥ poṣadhaḥ pāñcadaśikaḥ so 'yam
+            evaṃnāmā bhikṣuḥ pariśuddham antarāyikair dharmair ātmānaṃ vedayati <span class="it">|</span> poṣadhe 'sya pāriśuddhim ārocayāmy ārocitāṃ ca pravedayāmi |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 366</span></span>
+         
+         <p>Poṣ-v 67.5. pāriśuddhigrāhako bhikṣur āsamudācārikān dharmān na samādāya vartate sātisāro
+            bhavati |</p>
+         
+         
+         <p>Poṣ-v 68.1. āyuṣmān upālī buddhaṃ bhagavantaṃ pṛcchati |</p>
+         
+         
+         <p>pāriśuddhigrāhakas tāvad bhadanta bhikṣuḥ pāriśuddhiṃ gṛhītvā tatraivocchidya kālaṃ
+            kuryād ānītā pāriśuddhir vaktavyā | anānītā |</p>
+         
+         
+         <p>anānītā upāliṃ punar apy ānayitavyā |</p>
+         
+         
+         <p>Poṣ-v 68.2. āgārikatvaṃ pratijānāti śramaṇoddeśatvaṃ śaṇṭhakatvaṃ paṇḍakatvaṃ bhikṣuṇīdūṣakatvaṃ
+            mātṛghātakatvaṃ pitṛghātakatvam (<span class="bold">Poṣ-v 368</span>) arhadghātakatvaṃ saṃghabhedakatvaṃ tathāgatasyāntike duṣṭacittarudhirotpādakatvaṃ
+            tīrthikatvaṃ tīrthikāvakrāntakatvaṃ steyasaṃvāsikatvaṃ nānāsaṃvāsikatvam asaṃvāsikatvaṃ
+            pratijānāti <span class="it">|</span> ānītā pāriśuddhir vaktavyā <span class="it">|</span> anānītā |</p>
+         
+         
+         <p>anānītā upāliṃ punar apy ānayitavyā |</p>
+         
+         
+         <p>Poṣ-v 68.3. pāriśuddhigrāhakas tāvad bhadanta bhikṣuḥ pāriśuddhiṃ gṛhītvā saṃghamadhye
+            prāptaḥ kālaṃ kuryād ānītā pāriśuddhir vaktavyā <span class="it">|</span> anānītā |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 370</span></span>
+         
+         <p>anānītā upāliṃ punar apy ānayitavyā |</p>
+         
+         
+         <p>Poṣ-v 68.4. āgārikatvaṃ pratijānāti pūrvavad yāvad asaṃvāsikatvaṃ pratijānāti <span class="it">|</span> ānītā pāriśuddhir vaktavyā <span class="it">|</span> anānītā |</p>
+         
+         
+         <p>anānītā upāliṃ punar apy ānayitavyā | ||</p>
+         
+         
+         <p>Poṣ-v 69.1.a. āyuṣmān upālī buddhaṃ bhagavantaṃ pṛcchati |</p>
+         
+         
+         <p>yasmin bhadantāvāse eko bhikṣuḥ prativasati <span class="it">|</span> tena tad eva poṣadhe paṃcadaśyāṃ kathaṃ pratipattavyaṃ |</p>
+         
+         
+         <p>tenopāliṃ bhikṣuṇā vihāraḥ sektavyaḥ saṃmārjitavyaḥ | sukumārī gomayakārṣī anupradātavyā
+            | siṃhāsanaṃ prajñapayitavyaṃ <span class="it">|</span> āsanaprajñaptiḥ kartavyā | dharmaśravaṇaṃ dātavyaṃ |</p>
+         
+         
+         <p>tataḥ paścād uccatarake (<span class="bold">fol. 61, 62 and 63 are lost</span>)</p>
+         
+         
+         <p>(<span class="bold">Poṣ-v 458</span>) Poṣ-v 85.1.b. (<span class="bold">64r = GBM 6.730</span>) <span class="it">s</span>ūtr<span class="it">o</span>dd<span class="it">e</span>śam uddiśanti |</p>
+         
+         
+         <p>tataḥ paścān naivāsikā bhikṣava āgacchanty alpatarakāḥ <span class="it">|</span> tair yathāgatā niṣadya taiḥ sārdhaṃ poṣadhaḥ kartavyaḥ <span class="it">|</span> prātimokṣasūtroddeśa uddeṣṭavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>pūrvakā bhikṣavo na sātisārāḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 85.2. yathāpi tad tad eva poṣadhe pañcadaśyāṃ naivāsikā bhikṣavaḥ sanniṣaṇṇāḥ
+            sannipatitā bhavanti catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p>teṣāṃ naivaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakā iti | te dharmasaṃjñinaḥ samagrasaṃjñinaḥ jñaptiṃ kṛtvā
+            poṣadhaṃ kurvanti <span class="it">|</span> prātimokṣasūtroddeśam uddiśanti |</p>
+         
+         
+         <p>uddiṣṭaḥ prātimokṣaḥ kṛtaḥ saṃghena poṣadhaḥ <span class="it">|</span> avyutthitā sā parṣad a<span class="it">vi</span>prakrāntāś ca bhikṣavaḥ <span class="it">|</span></p>
+         
+         
+         <p>tataḥ paścān naivāsikā bhikṣava āgacchanty alpatarakāḥ <span class="it">|</span> tais teṣām arthāya punar api jñaptiṃ kṛtvā poṣadhaḥ kartavyaḥ <span class="it">|</span> prātimokṣasūtroddeśa uddeṣṭavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>pūrvakā bhikṣavo na sātisāraḥ ||</p>
+         
+         
+         <p>Poṣ-v 85.3. yathāpi tad tad eva poṣadhe paṃcadaśyāṃ naivāsikā bhikṣavaḥ sanniṣaṇṇāḥ
+            sannipatitāḥ <span class="it">bhavanti</span> catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p>teṣāṃ naivaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakāḥ <span class="it">|</span> te dharmasaṃjñinaḥ samagrasaṃjñinaḥ jñaptiṃ kṛtvā poṣadhaṃ kurvanti <span class="it">|</span> prātimokṣasūtroddeśam uddiśanti |</p>
+         
+         
+         <p>uddiṣṭaḥ prātimokṣaḥ kṛtaḥ saṃghena poṣadhaḥ <span class="it">|</span> vyutthitā sā parṣat* ekatyā bhikṣavo viprakrāntāḥ <span class="it">ekatyā aviprakrāntāḥ |</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 460</span></span>
+         
+         <p>tataḥ paścān naivāsikā bhikṣava āgacchanty alpatarakāḥ <span class="it">|</span> te yadi tāvat sāmagrīm ārāgayanti punar api tais teṣām arthāya jñaptiṃ kṛtvā poṣadhaḥ
+            kartavyaḥ <span class="it">|</span> prātimokṣasūtroddeśa uddeṣṭavyaḥ <span class="it">|</span> nocet ārāgayanti tair maṇḍalakaṃ gatvā poṣadhaḥ kartavyaḥ <span class="it">| prātimokṣasūtroddeśa uddeṣṭavyaḥ |</span></p>
+         
+         
+         <p>pūrvakā bhikṣavo na sātisāraḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 85.4. yathāpi tad tad eva poṣadhe pañcadaśyāṃ naivāsikā bhikṣavaḥ sanniṣaṇṇāḥ
+            sannipatitāḥ <span class="it">bhavanti</span> catvāro vā uttare vā |</p>
+         
+         
+         <p>teṣāṃ naivaṃ bhavati | santi bhikṣavo ye 'nāgatakāḥ <span class="it">|</span> te dharmasaṃjñinaḥ samagrasaṃjñinaḥ jñaptiṃ kṛtvā poṣadhaṃ kurvanti <span class="it">|</span> prātimokṣasūtroddeśam uddiśanti |
+            uddiṣṭaḥ prātimokṣaḥ kṛtaḥ saṃghena poṣadhaḥ <span class="it">|</span> vyutthitā sā parṣat* viprakrāntāś ca bhikṣavaḥ <span class="it">|</span></p>
+         
+         
+         <p>tataḥ paścān naivāsikā bhikṣava āgacchanty alpatarakā<span class="it">ḥ |</span> tair maṇḍalakaṃ gatvā poṣadhaḥ kartavyaḥ <span class="it">|</span> prātimokṣasūtroddeśa uddeṣṭavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>pūrvakā bhikṣavo na sātisāraḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 86. yathā naivāsikaiḥ sanniṣaṇṇaiḥ sannipatitaiḥ naivāsikā āgacchanty alpāḥ
+            <span class="it">|</span></p>
+         
+         
+         <p><span class="it">evaṃ</span> samakāḥ <span class="it">|</span></p>
+         
+         
+         <p>āgantukā āgacchanty alpāḥ <span class="it">|</span> samakāḥ <span class="it">|</span></p>
+         
+         
+         <p>āgantukanaivāsikā āgacchanty alpāḥ <span class="it">|</span> samakāḥ <span class="it">|</span></p>
+         
+         
+         <p><span class="it">āgantukaiḥ sanniṣaṇṇaiḥ sannipatitair āgantukā āgacchanty alpāḥ | samakāḥ |</span></p>
+         
+         
+         <p><span class="it">naivāsikā āgacchanty alpāḥ | samakāḥ |</span></p>
+         
+         
+         <p><span class="it">āgantukanaivāsikā āgacchanty alpāḥ | samakāḥ |</span></p>
+         
+         
+         <p>āgantukanaivāsikaiḥ sanniṣaṇṇaiḥ sannipatitaiḥ āgantukanaivāsikā āgacchanty alpāḥ
+            <span class="it">|</span> samakāḥ <span class="it">|</span></p>
+         
+         
+         <p>naivāsikā āgacchanty alpāḥ <span class="it">|</span> samakāḥ <span class="it">|</span></p>
+         
+         
+         <p>āgantukā āgacchaṃty alpāḥ <span class="it">|</span> samakāḥ || ||</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 462</span></span>
+         
+         <p>Poṣ-v 87. antaroddānaṃ ||</p>
+         
+         
+         <p><span class="it">yathā</span>gantyā <span class="it">ca</span> jñaptiś <span class="it">ca |</span></p>
+         
+         <p><span class="it">sāma</span>grī maṇḍalakaś ca || ||{MS: <span class="it">piṇḍodānam* || gantṛjñaptiṃ śrīmaṇḍalakaś ca</span>}</p>
+         
+         
+         <p>Poṣ-v 88.1. yathāpi tad tad eva poṣadhe pañcadaśyāṃ naivāsikā bhikṣavaḥ sanniṣaṇṇā
+            bhavanti sannipatitāś catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p>teṣāṃ naivaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakāḥ <span class="it">|</span> te dharmasaṃjñinaḥ samagrasaṃjñinaḥ jñaptiṃ kṛtvā poṣadhaṃ kurvanti <span class="it">|</span> prātimokṣasūtroddeśam uddiśanti |</p>
+         
+         
+         <p>tataḥ paścān naivāsikā bhikṣava āgacchanty bahutarakāḥ <span class="it">|</span> taiḥ punar api jñaptiṃ kṛtvā poṣadhaḥ kartavyaḥ | prātimokṣasūtroddeśa uddeṣṭavyaḥ
+            <span class="it">|</span></p>
+         
+         
+         <p>pūrvakā bhikṣavo na sātisāraḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 88.2. yathāpi tad tad eva poṣadhe pañcadaśyāṃ naivāsikā bhikṣavaḥ sanniṣaṇṇā
+            bhavanti sannipatitāś (<span class="bold">64r = GBM 6.731</span>) catvāro <span class="it">vā</span> uttare vā <span class="it">|</span></p>
+         
+         
+         <p>teṣāṃ naivaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakā <span class="it">|</span> te dharmasaṃjñinaḥ samagrasaṃjñinaḥ jñaptiṃ kṛtvā poṣadhaṃ kurvanti | prātimokṣasūtroddeśam
+            uddiśanti |</p>
+         
+         
+         <p>uddiṣṭaḥ prātimokṣaḥ kṛtaḥ saṃghena poṣadhaḥ <span class="it">|</span> avyutthitā sā parṣad aviprakrāntāś ca bhikṣavaḥ <span class="it">|</span></p>
+         
+         
+         <p>tataḥ paścān naivāsikā bhikṣava āgacchanti bahutarakāḥ <span class="it">|</span> taiḥ punar api jñaptiṃ kṛtvā poṣadhaḥ kartavyaḥ <span class="it">|</span> prātimokṣasūtroddeśa uddeṣṭavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>pūrvakā bhikṣavo na sātisāraḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 88.3. yathāpi tad tad eva poṣadhe pañcadaśyāṃ naivāsikā bhikṣavaḥ sanniṣaṇṇā
+            bhavanti sannipatitāḥ catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p>teṣāṃ naivaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakāḥ <span class="it">|</span> te dharmasaṃjñinaḥ samagrasaṃjñino jñaptiṃ kṛtvā poṣadhaṃ kurvanti <span class="it">|</span> prātimokṣasūtroddeśam uddiśanti |</p>
+         
+         
+         <p>uddiṣṭaḥ prātimokṣaḥ kṛtaḥ saṃghena poṣadhaḥ <span class="it">|</span> vyutthitā sā parṣad ekatyā bhikṣavo viprakrāntāḥ ekatyā aviprakrāntāḥ <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 464</span></span>
+         
+         <p>tataḥ paścān naivāsikā bhikṣava āgacchanti bahutarakāḥ <span class="it">|</span> taiḥ punar api jñaptiṃ kṛtvā poṣadhaḥ kartavyaḥ <span class="it">|</span> prātimokṣasūtroddeśa uddeṣṭavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>pūrvikā bhikṣavo na sātisāraḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 88.4. yathāpi tad tad eva poṣadhe pañcadaśyāṃ naivāsikā bhikṣavaḥ sanniṣaṇṇā
+            bhavanti sannipatitāś catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p>teṣāṃ naivaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakās <span class="it">|</span> te dharmasaṃjñinaḥ samagrasaṃjñinaḥ jñaptiṃ kṛtvā poṣadhaṃ kurvanti <span class="it">|</span> prātimokṣasūtroddeśam uddiśanti <span class="it">|</span></p>
+         
+         
+         <p>uddiṣṭaḥ prātimokṣaḥ kṛtaḥ saṃghena poṣadhaḥ <span class="it">|</span> vyutthitā sā parṣad viprakrāntā bhikṣavaḥ <span class="it">|</span></p>
+         
+         
+         <p>tataḥ paścān naivāsikā bhikṣava āgacchanti bahutarakāḥ <span class="it">|</span> punar api jñaptiṃ kṛtvā poṣadhaḥ kartavyaḥ <span class="it">|</span> prātimokṣasūtroddeśa uddeṣṭavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>pūrvakā bhikṣavo na sātisārāḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 89. yathā naivāsikaiḥ sanniṣaṇṇaiḥ sannipatitaiḥ naivāsikā bhikṣava āgacchanti
+            bahutarakāḥ <span class="it">|</span></p>
+         
+         
+         <p>evam āgantukā āgacchanti bahutarakāḥ <span class="it">|</span></p>
+         
+         
+         <p>āgantukanaivāsikā āgacchanti bahutarakāḥ <span class="it">|</span></p>
+         
+         
+         <p>āgantukaiḥ sanniṣaṇṇaiḥ sannipatitair āgantukā āgacchanti bahutarakāḥ <span class="it">|</span></p>
+         
+         
+         <p><span class="it">naivāsikā āgacchanti bahutarakāḥ |</span></p>
+         
+         
+         <p>āgantukanaivāsikā āgacchanti bahutarakāḥ <span class="it">|</span></p>
+         
+         
+         <p>āgantukanaivāsikaiḥ sanniṣaṇṇai<span class="it">ḥ</span> sannipatitaiḥ āgantukanaivāsi<span class="it">kā</span> āgacchanti bahutarakāḥ <span class="it">|</span></p>
+         
+         
+         <p><span class="it">naivāsikā āgacchanti bahutarakāḥ |</span></p>
+         
+         
+         <p><span class="it">āvāsikā āgacchaṃti bahutarakāḥ |</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 466</span></span>
+         
+         <p>Poṣ-v 90.1. naivāsikānāṃ paṃcadaśī āgantukānāṃ caturdaśī vā pratipad vā alpatarakā<span class="it">ṇā</span>m <span class="it">|</span></p>
+         
+         
+         <p>anuvartitavyam āgantukaiḥ naivāsikānāṃ bahutarakāṇāṃ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 90.2. naivāsikānāṃ paṃcadaśī āgantukānāṃ caturdaśī vā pratipad vā samakānām
+            <span class="it">|</span></p>
+         
+         
+         <p>anuvartitavyam āgantukair naivāsikānāṃ samakānām*</p>
+         
+         
+         <p>Poṣ-v 90.3. <span class="it">naivāsikānāṃ paṃcadaśy</span> ā<span class="it">ga</span>ntukānāṃ caturdaśī <span class="it">vā</span> pratipad vā bahutarakāṇāṃ <span class="it">|</span></p>
+         
+         
+         <p>anuvartitavyaṃ naivāsikair āgantukānāṃ bahutarakāṇāṃ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 90.4. āgantukānāṃ paṃcadaśī naivāsikānāṃ caturdaśī <span class="it">vā</span> pratipad vā alpatarakāṇām <span class="it">|</span></p>
+         
+         
+         <p>anuvartitavyaṃ naivāsikair āgantukānāṃ bahutarakāṇāṃ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 90.5. āgantukānāṃ pañcadaśī naivāsikānāṃ caturdaśī vā pratipad vā samakānām
+            <span class="it">|</span></p>
+         
+         
+         <p>anuvartitavyaṃ āgantukair naivāsikānāṃ samakānāṃ |</p>
+         
+         
+         <p>Poṣ-v 90.6. āgantukānāṃ paṃcadaśī naivāsikānāṃ caturdaśī <span class="it">vā</span> pratipad vā bahutarakāṇām <span class="it">|</span></p>
+         
+         
+         <p>anuvartitavyam āgantukair naivāsikānāṃ bahutarakāṇāṃ <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 468</span></span>
+         
+         <p>Poṣ-v 91.1. yathāpi tad tad eva poṣadhe paṃcadaśyāṃ naivāsikā bhikṣavaḥ san<span class="it">n</span>iṣaṇṇāḥ (<span class="bold">65r = GBM 6.720</span>) <span class="it">bhavanti</span> sannipatitāḥ catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p>tatra te paśyanti āgantukākārāṇi <span class="it">āgantukaliṅgāny</span> āgantukanimittāni tadyathā anyādakaṃ pātra<span class="it">ṃ</span> cīvaraṃ yaṣṭi<span class="it">ṃ</span> visikāṃ kuṇḍī<span class="it">ṃ</span> tumbaka<span class="it">ṃ</span> kholāṃ pūlān upānahau <span class="it">|</span></p>
+         
+         
+         <p>teṣām evaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakā iti <span class="it">|</span> ye 'nāgatakā <span class="it">bhikṣavo</span> naśyantu te <span class="it">|</span> ata eva bhavantu hirug <span class="it">|</span> (<span class="bold">Poṣ-v 470</span>) bhavantu dūre<span class="it">ṇa |</span> pareṇa bhavantu <span class="it">|</span></p>
+         
+         
+         <p>te bhedārthino bhedapariṣkārā jñaptiṃ kṛtvā poṣadhaṃ kurvanti <span class="it">|</span> prātimokṣasūtroddeśam uddiśanti <span class="it">|</span></p>
+         
+         
+         <p>tataḥ paścād āgantukā bhikṣava āgacchanty alpata<span class="it">ra</span>kāḥ <span class="it">|</span> taiḥ punar api jñaptiṃ kṛtvā poṣadhaḥ kartavyaḥ <span class="it">|</span> prātimokṣasūtroddeśa uddeṣṭavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>pūrvikā bhikṣava āpadyante sthūlātyayāṃ bhedasāmantakā<span class="it">ḥ</span> |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 472</span></span>
+         
+         <p>Poṣ-v 91.2. yathāpi tad tad eva poṣadhe paṃcadaśyāṃ naivāsikā bhikṣavaḥ sanniṣaṇṇā
+            bhavanti sannipatitāś catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p>te tatra paśyanti āgantukākārāṇy āgantukaliṃgāny āgantukanimittā<span class="it">ni</span> tadyathā anyādakaṃ pātraṃ cīvaraṃ yaṣṭi<span class="it">ṃ</span> visikāṃ kuṇḍīṃ tuṃbakaṃ kholā<span class="it">ṃ</span> pūlān upānahau <span class="it">|</span></p>
+         
+         
+         <p>teṣām evaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakā <span class="it">|</span> bhikṣavo ye 'nāgatakā na kalpayaty asmākaṃ tair vinā jñaptiṃ kṛtvā poṣadhaṃ kartuṃ
+            | prātimokṣasūtroddeśam uddeṣṭuṃ |</p>
+         
+         
+         <p>te adharmasaṃjñino vyagrasaṃjñinaḥ jñaptiṃ kṛtvā poṣadhaṃ kurvanti | prātimokṣasūtroddeśam
+            uddiśanti |</p>
+         
+         
+         <p>tataḥ paścād āgantukā bhikṣava āgacchaṃty alpatarakāḥ <span class="it">|</span> taiḥ punar api jñapti<span class="it">ṃ</span> kṛtvā poṣadhaṃ kartavyaḥ <span class="it">|</span> prātimokṣasutroddeśa uddeṣṭavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>pūrvikā bhikṣavaḥ sātisārāḥ <span class="it">|</span> vyagrasāmantakā<span class="it">ḥ</span> |</p>
+         
+         
+         <p>Poṣ-v 91.3. yathāpi tad tad eva poṣadhe paṃcadaśyāṃ naivāsikā bhikṣavaḥ sanniṣaṇṇā
+            bhavanti sannipatitāḥ catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p>te tatra paśyanty āgantukākārāṇy āgantukaliṃgāny āgantukanimittāni tadyathānyānakaṃ
+            {tadyathānyādakaṃ} pātraṃ cīvaraṃ yaṣṭiṃ visikāṃ kuṇḍī<span class="it">ṃ</span> tuṃbakaṃ kholā<span class="it">ṃ</span> pūlān upānahau <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 474</span></span>
+         
+         <p>teṣām evaṃ bhavati | santi bhikṣavo ye 'nāgatakā iti <span class="it">|</span> ye 'nāgatakā <span class="it">bhikṣavaḥ</span> kalpaty asmākaṃ tair vinā jñaptiṃ kṛtvā poṣadhaṃ kartuṃ <span class="it">|</span> prātimokṣasūtroddeśam uddeṣṭuṃ <span class="it">|</span></p>
+         
+         
+         <p>te kalpārthinaḥ kalpapariṣkārā yāvat tāvan mārgitvā jñaptiṃ kṛtvā poṣadhaṃ kurvanti
+            <span class="it">|</span> prātimokṣasūtroddeśam uddiśaṃti <span class="it">|</span></p>
+         
+         
+         <p>tataḥ paścād āgantukā bhikṣava āgacchaṃty alpatarakāḥ <span class="it">|</span> taiḥ punar api jñapti<span class="it">ṃ</span> kṛtvā poṣadhaḥ kartavyaḥ | prātimokṣasūtroddeśa uddeṣṭavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>pūrvikā bhikṣavaḥ sātisārā<span class="it">ḥ |</span> kalpasāmantakāḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 91.4. yathāpi tad tad eva poṣadhe paṃcadaśyāṃ naivāsikā bhikṣavaḥ sanniṣaṇṇā
+            bhavaṃti sannipatitāś catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p>te tatra paśyaṃty āgantukākārāṇy āgantukaliṃgāny āgantukanimittāni tadyathā anyādakaṃ
+            pātra<span class="it">ṃ</span> cīvaraṃ yaṣṭiṃ visikāṃ kuṇḍīṃ tuṃbakaṃ kholā<span class="it">ṃ</span> pūlān upānahau <span class="it">|</span></p>
+         
+         
+         <p>teṣām evaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakā iti <span class="it">|</span> ye 'nāgatakā <span class="it">bhikṣavo</span> na kalpaty asmākaṃ tair vinā jñaptiṃ kṛtvā poṣadhaṃ kartuṃ | prātimokṣasūtroddeśam
+            uddeṣṭuṃ <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 476</span></span>
+         
+         <p>te tān adhyāśayena mārgayitvā na labhavaṃti <span class="it">|</span> te jñapti<span class="it">ṃ</span> kṛtvā poṣadhaṃ kurvanti <span class="it">|</span> prātimokṣasūtroddeśam uddiśaṃti <span class="it">|</span></p>
+         
+         
+         <p>tataḥ paścād āgantukā bhikṣava āgacchaṃty alpatarakāḥ <span class="it">|</span> taiḥ punar api jñaptiṃ (<span class="bold">65v = GBM 6.721</span>) kṛtvā poṣadhaḥ kartavyaḥ | prātimokṣasūtroddeśa uddeṣṭavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>pūrvakā bhikṣavo na sātisārāḥ ||</p>
+         
+         
+         <p>Poṣ-v 91.5. yathāpi tad tad eva poṣadhe paṃcadaśyāṃ naivāsikā bhikṣavaḥ sanniṣaṇṇā
+            bhavanti sannipatitāś catvāro vā uttare vā |</p>
+         
+         
+         <p>te tatra paśyanty āgantukākārāṇy āgantukaliṃgāny āgantukanimittāni tadyathā anyādakaṃ
+            pātraṃ cīvaraṃ yaṣṭiṃ ca visikāṃ kuṇḍī<span class="it">ṃ</span> tuṃbakaṃ kholāṃ pūlān upānahau <span class="it">|</span></p>
+         
+         
+         <p>teṣām evaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakā iti <span class="it">|</span> ye 'nāgatakā <span class="it">bhikṣavo</span> na kalpaty asmākaṃ tair vinā jñaptiṃ kṛtvā poṣadhaṃ kartuṃ <span class="it">|</span> prātimokṣasūtroddeśam uddeṣṭuṃ |</p>
+         
+         
+         <p>te tān adhyāśayena mārganti <span class="it">|</span> te tān adhyāśayena mārgitvā labhante | <span class="it">te</span> taiḥ sārdhaṃ niṣadya <span class="it">jñaptiṃ kṛtvā</span> poṣadhaṃ kurvanti <span class="it">|</span> prātimokṣasūtroddeśam uddiśanti |</p>
+         
+         
+         <p>pūrvakā bhikṣavo na sātisārāḥ || ||</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 478</span></span>
+         
+         <p>Poṣ-v 92.1. yathāpi tad tad eva poṣadhe pañcadaśyāṃ naivāsikā bhikṣavaḥ sanniṣaṇṇā
+            bhavanti sannipatitā<span class="it">ḥ</span> catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p>te tatra śṛṇvanty āgantukākārāṇi āgantu<span class="it">ka</span>liṃgāny āgantukanimittāni tadyathā yaṣṭiśabdaṃ padaśabdaṃ utkāsanaśabdaṃ āgantukānāṃ
+            ca bhikṣūṇāṃ svaraguptiṃ <span class="it">|</span></p>
+         
+         
+         <p>teṣām evaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakāḥ <span class="it">| ye 'nāgatakā bhikṣavo</span> naśyantu te <span class="it">|</span> ata eva bhavantu hirug <span class="it">|</span> bhavantu <span class="it">dūreṇa | pareṇa bhavantu |</span></p>
+         
+         
+         <p><span class="it">te</span> bhedārthino bhedapariṣkārā jñaptiṃ kṛtvā poṣadhaṃ kurvanti <span class="it">|</span> prātimokṣasūtroddeśam uddiśanti <span class="it">|</span></p>
+         
+         
+         <p>tataḥ paścād āgantukā bhikṣava āgacchanty alpatarakās <span class="it">|</span> taiḥ punar api jñaptiṃ kṛtvā poṣadhaḥ kartavyaḥ <span class="it">|</span> prātimokṣasūtroddeśa uddeṣṭavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>pūrvikā bhikṣava āpadyante sthūlātyayām* || bhedasāmantakāḥ |</p>
+         
+         
+         <p>Poṣ-v 92.2. yathāpi tad tad eva poṣadhe pañcadaśyāṃ naivāsikā bhikṣavaḥ sanniṣaṇṇā
+            bhavanti sannipatitāś catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p>te tatra śṛṇvanty āgantukākārāṃ pūrvavad yāvat te tān adhyā<span class="it">śa</span>yena mārganti labhanti <span class="it">|</span> te taiḥ sārdhaṃ niṣadya <span class="it">jñaptiṃ kṛtvā</span> poṣadhaṃ kurvanti <span class="it">|</span> prātimokṣasūtroddeśam uddiśanti |</p>
+         
+         
+         <p>pūrvakā bhikṣavo na sātisārāḥ ||</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 480</span></span>
+         
+         <p>Poṣ-v 93. yathā naivāsikaiḥ sanniṣaṇṇaiḥ sannipatitaiḥ āgantukā āgacchanty alpāḥ <span class="it">|</span></p>
+         
+         
+         <p>evaṃ samakā <span class="it">|</span> bahutarakāḥ |</p>
+         
+         
+         <p>Poṣ-v 94.1. yathāpi tad tad eva poṣadhe pañcadaśyāṃ āgantukā bhikṣavaḥ sanniṣaṇṇā
+            <span class="it">bhavanti</span> sannipatitāś catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p><span class="it">te</span> tatra paśyanti naivāsikākārāṇi naivāsikaliṃgāny naivāsikanimittāni tadyathā
+            vihāraṃ siktaṃ saṃmṛṣṭaṃ <span class="it">|</span> sukumārī<span class="it">ṃ</span> gomayakārṣīm anupradattā<span class="it">ṃ |</span> śayanāsanaprajñaptiṃ kṛtāṃ <span class="it">|</span> tailapradyotān ādīptāṃs <span class="it">|</span></p>
+         
+         
+         <p>teṣām evaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakāḥ iti <span class="it">|</span> ye 'nāgatakā <span class="it">bhikṣavo</span> naśyantu <span class="it">te |</span> ata eva bhavantu hirug <span class="it">|</span> bhavantu dūreṇa <span class="it">|</span> pareṇa bhavantu |</p>
+         
+         
+         <p>te bhedārthino bhedapariṣkārā jñaptiṃ kṛtvā poṣadhaṃ kurvanti <span class="it">|</span> prātimokṣasūtroddeśam uddiśaṃti <span class="it">|</span></p>
+         
+         
+         <p>tataḥ paścān naivāsikā bhikṣava āgacchanty alpatarakāḥ <span class="it">|</span> taiḥ punar api jñaptiṃ kṛtvā poṣadhaḥ kartavyaḥ <span class="it">|</span> prātimokṣasūtroddeśa uddeṣṭavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>pūrvakā bhikṣava āpadyaṃte sthūlātyayāṃ <span class="it">|</span> te bhedasāmantakā<span class="it">ḥ</span> |</p>
+         
+         
+         <p>Poṣ-v 94.2. yathāpi tad tad eva poṣadhe paṃcadaśyāṃ āgantukā bhikṣavaḥ sanniṣaṇṇā
+            bhavanti sannipatitāḥ catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p>te tatra paśyaṃti naivāsikākārāṇi nai<span class="it">vāsi</span>kaliṃgāny naivāsikanimittāni tadyathā
+            vihāraṃ siktaṃ saṃmṛ<span class="it">ṣṭa</span>ṃ <span class="it">|</span> s<span class="it">u</span>kumārī<span class="it">ṃ</span> gomayakārṣīm (<span class="bold">66r = GBM 6.722</span>) anupradattāṃ <span class="it">|</span> śayanāsanaprajñaptiṃ kṛtāṃ <span class="it">| tailapradyotān ādīptāṃ |</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 482</span></span>
+         
+         <p>teṣām evaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakāḥ iti <span class="it">|</span> ye 'nāgatakā bhikṣavaḥ na kalpaty asmākaṃ tair vinā jñaptiṃ kṛtvā poṣadhaṃ kartuṃ
+            | prātimokṣasūtroddeśam uddeṣṭuṃ <span class="it">|</span></p>
+         
+         
+         <p>te adharmasaṃjñino vyagrasaṃjñinaḥ jñaptiṃ kṛtvā poṣadhaṃ kurvanti <span class="it">|</span> prātimokṣasūtroddeśam uddiśanti <span class="it">|</span></p>
+         
+         
+         <p>tataḥ paścān naivāsikā bhikṣava āgacchaṃty alpatarakāḥ <span class="it">|</span> taiḥ punar api jñaptiṃ kṛtvā poṣadhaḥ kartavyaḥ <span class="it">|</span> prātimokṣasūtroddeśa uddeṣṭavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>pūrvakā bhikṣava sātisārā bhavanti <span class="it">|</span> vyagrasāmantakāḥ |</p>
+         
+         
+         <p>Poṣ-v 94.3. yathāpi tad tad eva poṣadhe paṃcadaśyāṃ āgantukā bhikṣavaḥ sanniṣaṇṇā
+            bhavanti sannipatitāś catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p><span class="it">te</span> tatra paśyanti naivāsikākārāṇi naivāsikaliṃgāny naivāsikanimittāni tadyathā
+            vihāraṃ siktaṃ saṃmṛṣṭaṃ <span class="it">|</span> sukumārī<span class="it">ṃ</span> gomayakārṣīm anupradattāṃ <span class="it">|</span> śayanāsanaprajñaptiṃ kṛtāṃ <span class="it">|</span> tailapradyotān ādīpitāṃs <span class="it">|</span></p>
+         
+         
+         <p>teṣām evaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakāḥ iti <span class="it">|</span> ye 'nāgatakā <span class="it">bhikṣavo</span> kalpaty asmākaṃ tair vinā jñaptiṃ kṛtvā poṣadhaṃ kartuṃ <span class="it">|</span> prātimokṣasūtroddeśam uddeṣṭuṃ |</p>
+         
+         
+         <p>te kalpārthinaḥ kalpapariṣkārā yāvat tāvan mārgitvā jñaptiṃ kṛtvā poṣadhaṃ kurvanti
+            <span class="it">|</span> prātimokṣasūtroddeśam uddiśaṃti <span class="it">|</span></p>
+         
+         
+         <p>tataḥ paścān naivāsikā bhikṣava āgacchanty alpatarakāḥ <span class="it">|</span> taiḥ punar api jñaptiṃ kṛtvā poṣadhaḥ kartavyaḥ <span class="it">|</span> prātimokṣasūtroddeśa uddeṣṭavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>pūrvakā bhikṣava sātisārāḥ kalpasāmantakāḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 94.4. yathāpi tad tad eva poṣadhe pañcadaśyāṃ āgantukā bhikṣavaḥ sanniṣaṇṇā
+            <span class="it">bhavanti</span> sannipatitāḥ catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p>te tatra paśyanti naivāsikākārāṇi naivāsikaliṃgāny naivāsikanimittāni tadyathā
+            vihāraṃ siktaṃ saṃmṛṣṭaṃ <span class="it">|</span> sukumārī<span class="it">ṃ</span> gomayakārṣīm (<span class="bold">Poṣ-v 484</span>) anupradattāṃ <span class="it">|</span> śayanāsanaprajñaptiṃ kṛtāṃ <span class="it">|</span> tailapradyotān ā<span class="it">dī</span>pitāṃs <span class="it">|</span></p>
+         
+         
+         <p>teṣām evaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakāḥ iti <span class="it">|</span> ye 'nāgatakā <span class="it">bhikṣavo</span> na kalpaty asmākaṃ tair vinā jñaptiṃ kṛtvā poṣadhaṃ kartuṃ <span class="it">|</span> prātimokṣasūtroddeśam uddeṣṭuṃ <span class="it">|</span></p>
+         
+         
+         <p><span class="it">te</span> tān adhyāśayena mārganti <span class="it">|</span> te tān adhyāśayena mārgitvā na labhanti <span class="it">| te</span> jñaptiṃ kṛtvā poṣadhaṃ kurvanti <span class="it">|</span> prātimokṣasūtroddeśam uddiśanti <span class="it">|</span></p>
+         
+         
+         <p>tataḥ paścān naivāsikā bhikṣava āgacchaṃty alpatarakāḥ <span class="it">|</span> taiḥ punar api jñaptiṃ kṛtvā poṣadhaḥ kartavyaḥ <span class="it">|</span> prātimokṣasūtroddeśa uddeṣṭavyaḥ <span class="it">|</span></p>
+         
+         
+         <p>pūrvakā bhikṣavo na sātisārāḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 94.5. yathāpi tad tad eva poṣadhe pañcadaśyāṃ āgantukā bhikṣavaḥ sanniṣaṇṇā
+            bhavanti sannipatitāś catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p>te tatra paśyanti naivāsikākārāṇi <span class="it">naivāsikaliṃgāni</span> naivāsikanimittāni tadyathā
+            vihāraṃ siktaṃ saṃmṛṣṭaṃ <span class="it">|</span> sukumārī<span class="it">ṃ</span> gomayakārṣīm anupradattāṃ <span class="it">|</span> śayanāsanaprajñaptiṃ kṛtāṃ <span class="it">|</span> tailapradyotān ādīpitāṃs <span class="it">|</span></p>
+         
+         
+         <p>teṣām evaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakāḥ iti <span class="it">|</span> ye 'nāgatakā <span class="it">bhikṣavo</span> na kalpaty asmākaṃ tair vinā jñaptiṃ kṛtvā poṣadhaṃ kartuṃ <span class="it">|</span> prātimokṣasūtroddeśam uddeṣṭuṃ <span class="it">|</span></p>
+         
+         
+         <p><span class="it">te</span> tān adhyāśayena mārganti <span class="it">|</span> te tān adhyāśayena mārgitvā labhanti <span class="it">| te</span> taiḥ sārdhaṃ niṣadya jñaptiṃ kṛtvā poṣadhaṃ kurvanti <span class="it">|</span> prātimokṣasūtroddeśam uddiśanti <span class="it">|</span></p>
+         
+         
+         <p>pūrvakā bhikṣavo na sātisārāḥ |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 486</span></span>
+         
+         <p>Poṣ-v 95. (<span class="bold">66v = GBM 6.723</span>) yathāpi tad tad eva poṣadhe paṃcadaśyāṃ āgantukā bhikṣavaḥ sanniṣaṇṇā bhavanti sannipatitāś
+            catvāro vā uttare vā <span class="it">|</span></p>
+         
+         
+         <p><span class="it">te</span> tatra śṛṇvanti naivāsikākārāṇi naivāsikaliṃgāni naivāsikanimittāni <span class="it">tadyathā</span> yaṣṭiśabdaṃ padaśabdaṃ utkāsanaśabdaṃ tāḍakaśabdaṃ kuṃcikāsabdaṃ naivāsikānāṃ ca
+            bhikṣūṇāṃ svaraguptiṃ <span class="it">|</span></p>
+         
+         
+         <p>teṣām evaṃ bhavati <span class="it">|</span> santi bhikṣavo ye 'nāgatakāḥ <span class="it">|</span> ye 'nāgatakā <span class="it">bhikṣavo naśyantu te |</span> ata eva bhavantu hi<span class="it">ru</span>g <span class="it">|</span> bhavantu dūreṇa <span class="it">|</span> pareṇa <span class="it">bhavantu |</span></p>
+         
+         
+         <p><span class="it">te</span> bhedārthino bhedapariṣkārā jñaptiṃ kṛtvā poṣadhaṃ kurvanti | prātimokṣasūtroddeśam
+            uddiśanti <span class="it">|</span></p>
+         
+         
+         <p>pūrvavad yāvat te tān adhyāśayena mārganti <span class="it">|</span> adhyāśayena mārgitvā labhanti <span class="it">|</span> te taiḥ sārdhaṃ niṣadya <span class="it">jñaptiṃ kṛtvā</span> poṣadhaṃ kurvanti <span class="it">|</span> prātimokṣasūtroddeśam uddiśanti |</p>
+         
+         
+         <p>pūrvakā bhikṣavo na sātisārāḥ |</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 488</span></span>
+         
+         <p>Poṣ-v 96. yathāgantukaiḥ sanniṣaṇṇaiḥ sannipatitair naivāsikā āgacchaṃty alpāḥ <span class="it">|</span></p>
+         
+         
+         <p>evaṃ samakāḥ <span class="it">|</span> bahutarakāḥ ||</p>
+         
+         
+         <p>Poṣ-v 97. antaroddānam* ||</p>
+         
+         
+         <p>bhedo vimatir vyagraḥ kalpā <span class="it">|</span>
+            na labhanti labhanti ca ||</p>
+         
+         
+         <p>Poṣ-v 98.1 gantavyaṃ bhikṣuṇā tad eva poṣadhe pañcadaśyāṃ sabhikṣukād āvāsāt sabhikṣukam
+            āvāsaṃ yatra bkikṣavo bhavanti pariśuddhāḥ samānadṛṣṭayaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 98.2. na gantavyaṃ bhikṣuṇā tad eva poṣadhe pañcadaśyāṃ sabhikṣukād āvāsāt sabhikṣukam
+            āvāsaṃ yatra bkikṣavo bhavanti kalahakārakā bhaṇḍanakārakā vivādakārakā vigrahakārakā
+            ādhikaraṇikāḥ <span class="it">sthāpayitvā āpatsu vā sarvasaṃghena tatra |</span></p>
+         
+         
+         <p>Poṣ-v 98.3 gantavyaṃ bhikṣuṇā tad eva poṣadhe pañcadaśyāṃ sabhikṣukād āvāsāt sabhikṣukam
+            āvāsaṃ <span class="it">anāvāsaṃ</span> yatra bhikṣavo bhavanti pariśuddhāḥ samānadṛṣṭayaḥ <span class="it">|</span></p>
+         
+         <span class="note"><span class="bold">Poṣ-v 490</span></span>
+         
+         <p>Poṣ-v 98.4. na gantavyaṃ bhikṣuṇā tad eva poṣadhe pañcadaśyāṃ sabhikṣukād āvāsāt sabhikṣukam
+            āvāsaṃ sabhikṣukam anāvasaṃ yatra bkikṣavo bhavanti kalahakārakā bhaṇḍanakārakā vigrahakārakā
+            vivādakārakā ādhikaraṇikāḥ <span class="it">sthāpayitvā āpatsu vā sarvasaṃghena tatra</span> |</p>
+         
+         
+         <p>Poṣ-v 98.5. gantavyaṃ bhikṣuṇā tad eva poṣadhe pañcadaśyāṃ sabhikṣukād āvāsād anāvāsāt
+            sabhikṣukam āvāsaṃ sabhikṣukam anāvāsaṃ sabhikṣukam avāsānāvāsaṃ yatra bhikṣavo bhavanti
+            pariśuddhāḥ samānadṛṣṭayaḥ <span class="it">|</span></p>
+         
+         
+         <p>Poṣ-v 98.6. na gantavyaṃ bhikṣuṇā tad eva poṣadhe pañcadaśyāṃ sabhikṣukād āvāsād a<span class="it">nāvāsāt sa</span>bhikṣukam āvāsaṃ sabhikṣukam anāvasaṃ sabhikṣukam āvāsānāvāsaṃ <span class="it">yatra bkikṣavo bhavanti kalahakārakā bhaṇḍanakārakā vigrahakārakā vivādakārakā ādhikaraṇikāḥ
+               |</span> sthāpayitvā āpadāsu vā sarvasaṃghena tatra ||</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 492</span></span>
+         
+         <p>Poṣ-v 98.7. gantavyaṃ bhikṣuṇā tad eva poṣadhe pañcadaśyāṃ sabhikṣukād āvāsād abhikṣukam
+            āvāsaṃ sabhikṣukam anāvāsaṃ sabhikṣukam āvāsam anāvāsaṃ yatra gatvā sparśo bhavati
+            kāyena vā cittena vā ||</p>
+         
+         
+         <p>Poṣ-v 98.8. na gantavyaṃ bhikṣuṇā tad eva poṣadhe pañcadaśyāṃ sabhikṣukād āvāsād abhikṣukam
+            āvāsaṃ sabhikṣukam anāvāsaṃ sabhikṣukam avāsānāvāsaṃ sthāpayitvā āpatsu <span class="it">vā</span> sarvasaṃghena vā ||</p>
+         
+         
+         <p>Poṣ-v 98.9. gantavyaṃ bhikṣuṇā tad eva poṣadhe pañcadaśyāṃ sabhikṣukād āvāsād abhikṣukam
+            anāvāsaṃ sabhikṣukam āvāsānāvāsaṃ yatra gatvā sparśo bhavati kāyena vā cittena vā
+            ||</p>
+         
+         <span class="note"><span class="bold">Poṣ-v 494</span></span>
+         
+         <p>Poṣ-v 98.10. na gantavyaṃ bhikṣuṇā tad eva poṣadhe pañcadaśyāṃ sabhikṣukād āvāsād
+            abhikṣukam āvāsaṃ abhikṣukam anāvāsaṃ abhikṣukam avāsānāvāsaṃ sthāpayitvā āpadāsu
+            vā sarvasaṃghena vā ||</p>
+         
+         
+         <p>Poṣ-v 98.11. gantavyaṃ bhikṣuṇā tad eva poṣadhe pañcadaśyāṃ sabhikṣukād āvāsād anāvāsād
+            abhikṣukam āvāsaṃ abhikṣukam āvāsānāvāsaṃ yatra gatvā sparśo bhavati (<span class="bold">67r</span>) <span class="it">kāyena vā cittena vā ||</span></p>
+         
+         
+         <p>folios 67 and 68 are lost.</p>
+         
+         </div>
+   </body>
+</html>

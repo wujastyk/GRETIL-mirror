@@ -1,0 +1,4207 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Yāmuna: Saṃvitsiddhi (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Yāmuna: Saṃvitsiddhi</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_yAmuna-saMvitsiddhi-alt.xml">sa_yAmuna-saMvitsiddhi-alt.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Sadanori Ishitobi</p>
+      <p class="noindent"><b>Contribution: </b>Sadanori Ishitobi</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="analysis">analysis</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/vedanta/yamss_au.htm">yamss_au.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Yamuna: Samvitsiddhi
+            <br />
+            <br />Input by Sadanori ISHITOBI
+            <br />
+            <br />ANALYTIC TEXT (BHELA conventions)
+            <br />(Revised GRETIL version)
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_1">
+                  ekam evādvitīyaṃ tad brahmety upaniṣadvacaḥ <br />
+                  brahmaṇo 'nyasya sadbhāvaṃ nanu tat pratiṣedhati //
+                   <span class="ref">YSsi_1</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ekam eva advitīyaṃ tad brahma ity upaniṣad-vacaḥ 
+                  brahmaṇo 'nyasya sad-bhāvaṃ nanu tat pratiṣedhati //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_2">
+                  atra brūmo 'dvitīyoktau samāsaḥ ko vivakṣitaḥ <br />
+                  kiṃsvit tatpuruṣaḥ kiṃ vā bahuvrīhir athocyatām //
+                   <span class="ref">YSsi_2</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  atra brūmo 'dvitīya-uktau samāsaḥ ko vivakṣitaḥ 
+                  kiṃsvit tatpuruṣaḥ kiṃ vā bahuvrīhir atha ucyatām //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_3">
+                  pūrvasminn uttaras tāvat pradhānyena vivakṣyate <br />
+                  padārthas tatra tad brahma tato'nyat sadṛśaṃ tu vā //
+                   <span class="ref">YSsi_3</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  pūrvasminn uttaras tāvat pradhānyena vivakṣyate 
+                  padārthas tatra tad brahma tato'nyat sadṛśaṃ tu vā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_4">
+                  tadviruddham atho vā syāt triṣv apy anyan na bādhate <br />
+                  anyatve sadṛśatve vā dvitīyaṃ sidhyati dhruvam //
+                   <span class="ref">YSsi_4</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tad-viruddham atho vā syāt triṣv apy anyan na bādhate 
+                  anyatve sadṛśatve vā dvitīyaṃ sidhyati dhruvam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_5">
+                  viruddhatve dvitīyena tṛtīyaṃ prathamaṃ tu vā <br />
+                  brahma prāpnoti yasmāt tad dvitīyena virudhyate //
+                   <span class="ref">YSsi_5</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  viruddhatve dvitīyena tṛtīyaṃ prathamaṃ tu vā 
+                  brahma prāpnoti yasmāt tad dvitīyena virudhyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_6">
+                  ataḥ saprathamāḥ sarve tṛtīyādyartharāśayaḥ <br />
+                  dvitīyena tathā spṛṣṭvā svārthās tiṣṭhanty abādhitāḥ //
+                   <span class="ref">YSsi_6</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ataḥ saprathamāḥ sarve tṛtīya-ādy-arthara-āśayaḥ 
+                  dvitīyena tathā spṛṣṭvā svārthās tiṣṭhanty abādhitāḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_7">
+                  nanu nañ brahmaṇo 'nyasya sarvasyaiva niṣedhakam <br />
+                  dvitīyagrahaṇaṃ yasmāt sarvasyaivopalakṣaṇam //
+                   <span class="ref">YSsi_7</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nanu nañ brahmaṇo 'nyasya sarvasya eva niṣedhakam 
+                  dvitīya-grahaṇaṃ yasmāt sarvasya eva upalakṣaṇam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_8">
+                  naivaṃ niṣedho na hy asmād dvitīyasyāvagamyate <br />
+                  tato 'nyat tadviruddhaṃ vā sadṛśaṃ vātra vakti saḥ //
+                   <span class="ref">YSsi_8</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na evaṃ niṣedho na hy asmād dvitīyasya avagamyate 
+                  tato 'nyat tad-viruddhaṃ vā sadṛśaṃ va ātra vakti saḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_9">
+                  dvitīyaṃ yasya naivāsti tad brahmeti vivakṣite <br />
+                  satyādilakṣaṇoktīnām apalakṣaṇatā bhavet //
+                   <span class="ref">YSsi_9</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  dvitīyaṃ yasya na eva asti tad brahma iti vivakṣite 
+                  satya-ādi-lakṣaṇa-uktīnām apalakṣaṇatā bhavet //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_10">
+                  advitīye dvitīyārthanāstitāmātragocare <br />
+                  svaniṣṭhatvān nañarthasya na syād brahmapadānvayaḥ //
+                   <span class="ref">YSsi_10</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  advitīye dvitīya-arthana-astitā-mātra-gocare 
+                  sva-niṣṭhatvān nañ-arthasya na syād brahma-pada-anvayaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_11">
+                  dvitīyaśūnyatā tatra brahmaṇo na viśeṣaṇam <br />
+                  viśeṣaṇe vā tad brahama tṛtīyaṃ prathamaṃ tu vā //
+                   <span class="ref">YSsi_11</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  dvitīya-śūnyatā tatra brahmaṇo na viśeṣaṇam 
+                  viśeṣaṇe vā tad brahama tṛtīyaṃ prathamaṃ tu vā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_12">
+                  prasaktaṃ pūrvavat sarvaṃ bahuvrīhau samasyati <br />
+                  brahmaṇaḥ prathamā ye ca tṛtīyādyā jagattraye //
+                   <span class="ref">YSsi_12</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  prasaktaṃ pūrvavat sarvaṃ bahuvrīhau samasyati 
+                  brahmaṇaḥ prathamā ye ca tṛtīya ādyā jagat-traye //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_13">
+                  brahma praty advitīyatvāt svasthās tiṣṭhanty abādhitāḥ <br />
+                  kiñ ca tatra bahuvrīhau samāse saṃśrite sati //
+                   <span class="ref">YSsi_13</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  brahma praty advitīyatvāt sva-sthās tiṣṭhanty abādhitāḥ 
+                  kiñ ca tatra bahuvrīhau samāse saṃśrite sati //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_14">
+                  vṛttyarthasya nañarthasya na padārthāntarānvayaḥ <br />
+                  saty arthāntarasambandhe ṣaṣṭhī yasyeti yujyate //
+                   <span class="ref">YSsi_14</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  vṛtty-arthasya nañ-arthasya na pada-artha-antara-anvayaḥ 
+                  saty artha-antara-sambandhe ṣaṣṭhī yasya iti yujyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_15">
+                  dvitīyavastunāstitvaṃ na brahma na viśeṣaṇam <br />
+                  asattvān na hy asad brahma bhaven nāpi viśeṣaṇam //
+                   <span class="ref">YSsi_15</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  dvitīya-vastu-na-astitvaṃ na brahma na viśeṣaṇam 
+                  asattvān na hy asad brahma bhaven na api viśeṣaṇam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_16">
+                  tasmāt prapañcasadbhāvo nādvaitaśrutibādhitaḥ <br />
+                  svapramāṇabalāt siddhaḥ śrutyā cāpy anumoditaḥ //
+                   <span class="ref">YSsi_16</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tasmāt prapañca-sad-bhāvo na advaita-śruti-bādhitaḥ 
+                  sva-pramāṇa-balāt siddhaḥ śrutyā ca apy anumoditaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_17">
+                  tenādvitīyaṃ brahmeti śruter artho 'yam ucyate <br />
+                  dvitīyagaṇanāyogyo nāsīd asti bhaviṣyati //
+                   <span class="ref">YSsi_17</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tena advitīyaṃ brahma iti śruter artho 'yam ucyate 
+                  dvitīya-gaṇana-ayogyo nā asīd asti bhaviṣyati //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_18">
+                  samo vābhyadhiko vāsya yo dvitīyas tu guṇyate <br />
+                  yato 'sya vibhavavyūhakalāmātram idaṃ jagat //
+                   <span class="ref">YSsi_18</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  samo va ābhyadhiko va āsya yo dvitīyas tu guṇyate 
+                  yato 'sya vibhava-vyūhakalā-mātram idaṃ jagat //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_19">
+                  dvitīyavāgāspadatāṃ pratipadyeta tatkatham <br />
+                  yathā colanṛpaḥ samrāḍadvitīyo 'dya bhūtale //
+                   <span class="ref">YSsi_19</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  dvitīya-vāg-āspadatāṃ pratipadyeta tat-katham 
+                  yathā cola-nṛpaḥ samrāḍadvitīyo 'dya bhūtale //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_20">
+                  iti tattulyanṛpatinivāraṇaparaṃ vacaḥ <br />
+                  na tu tadbhṛtyatatputrakalatrādiniṣedhakam //
+                   <span class="ref">YSsi_20</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  iti tat-tulya-nṛpatinivāraṇa-paraṃ vacaḥ 
+                  na tu tad-bhṛtya-tat-putrakalatra-ādi-niṣedhakam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_21">
+                  tathā surāsuranarabrahmabrahmāṇḍakoṭayaḥ <br />
+                  kleśakarmavipākādyair aspṛṣṭasyākhileśituḥ //
+                   <span class="ref">YSsi_21</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tathā sura-asura-narabrahma-brahma-aṇḍa-koṭayaḥ 
+                  kleśa-karma-vipāka-ādyair aspṛṣṭasya akhila-īśituḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_22">
+                  jñānādiṣāṇguṇyanidher acintyavibhavasya tāḥ <br />
+                  viṣṇor vibhūtimahimasamudradrapsavipraṣaḥ //
+                   <span class="ref">YSsi_22</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  jñāna-ādi-ṣāṇguṇya-nidher acintya-vibhavasya tāḥ 
+                  viṣṇor vibhūti-mahimasamudra-drapsa-vipraṣaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_23">
+                  kaḥ khalv aṅgulibhaṅgena samudrān saptasaṅkhyayā <br />
+                  gaṇayan gaṇayed ūrmiphenabudbudavipruṣaḥ //
+                   <span class="ref">YSsi_23</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kaḥ khalv aṅguli-bhaṅgena samudrān sapta-saṅkhyayā 
+                  gaṇayan gaṇayed ūrmiphena-budbuda-vipruṣaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_24">
+                  yathaika eva savitā na dvitīyo nabhaḥsthale <br />
+                  ityuktyā na hi sāvitrā niṣidhyante 'tra raśmayaḥ //
+                   <span class="ref">YSsi_24</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yatha aika eva savitā na dvitīyo nabhaḥ-sthale 
+                  ity-uktyā na hi sāvitrā niṣidhyante 'tra raśmayaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_25">
+                  yathā pradhānasaṅkhyeyasaṅkhyāyāṃ naiva gaṇyate <br />
+                  saṅkhyā pṛthaksatī tatra saṅkhyeyānyapadārthavat //
+                   <span class="ref">YSsi_25</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yathā pradhāna-saṅkhyeyasaṅkhyāyāṃ na eva gaṇyate 
+                  saṅkhyā pṛthak-satī tatra saṅkhyeya anya-padārthavat //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_p15789">tathā <span class="ref">(YSsi_p15789)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  tathā
+                  </p>
+            </div>
+         </div>
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_26">
+                  pādo 'sya viśvā bhūtāni tripādasyāmṛtaṃ divi <br />
+                  iti bruvan jagat sarvam itthambhāve nyaveśayat //
+                   <span class="ref">YSsi_26</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  pādo 'sya viśvā bhūtāni tri-pādasya amṛtaṃ divi 
+                  iti bruvan jagat sarvam ittham-bhāve nyaveśayat //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_p16082">tathā <span class="ref">(YSsi_p16082)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  tathā
+                  </p>
+            </div>
+         </div>
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_27">
+                  etāvān asya mahimā tato jyāyastaro hi saḥ <br />
+                  yatrānyan na vijānāti sa bhūmod aram antaram <br />
+                  kurute 'sya bhayaṃ vyaktam ityādiśrutayaḥ parāḥ //
+                   <span class="ref">YSsi_27</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  etāvān asya mahimā tato jyāyastaro hi saḥ 
+                  yatra anyan na vijānāti sa bhūma ud aram antaram 
+                  kurute 'sya bhayaṃ vyaktam ity-ādi-śrutayaḥ parāḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_28">
+                  meror ivāṇur yasyedaṃ brahmāṇḍam akhilaṃ jagat <br />
+                  ityādikāḥ samastasya taditthambhāvatāparāḥ //
+                   <span class="ref">YSsi_28</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  meror iva aṇur yasya idaṃ brahma-aṇḍam akhilaṃ jagat 
+                  ity-ādikāḥ samastasya tad-ittham-bhāvatā-parāḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_29">
+                  vācārambhaṇamātraṃ tu jagat sthāvarajaṅgamam <br />
+                  vikārajātaṃ, kūṭasthaṃ mūlakāraṇam eva sat //
+                   <span class="ref">YSsi_29</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  vāc-ārambhaṇa-mātraṃ tu jagat sthāvara-jaṅgamam 
+                  vikāra-jātaṃ, kūṭa-sthaṃ mūla-kāraṇam eva sat //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_30">
+                  ananyat kāraṇāt kāryaṃ pāvakād visphuliṅgavat <br />
+                  mṛttikālohabījādinānādṛṣṭāntavistaraiḥ //
+                   <span class="ref">YSsi_30</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ananyat kāraṇāt kāryaṃ pāvakād visphuliṅgavat 
+                  mṛttikā-loha-bīja-ādinānā-dṛṣṭānta-vistaraiḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_31">
+                  nāśakad dagdham analas tṛṇaṃ majjayituṃ jalam <br />
+                  na vāyuś calituṃ śaktaḥ tacchaktyāpy āyanād ṛte //
+                   <span class="ref">YSsi_31</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nāśakad dagdham analas tṛṇaṃ majjayituṃ jalam 
+                  na vāyuś calituṃ śaktaḥ tac-chaktya āpy āyanād ṛte //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_32">
+                  ekapradhānavijñānād vijñātam akhilaṃ bhavet <br />
+                  ityādivedavacanatanmūlāptāgamair api //
+                   <span class="ref">YSsi_32</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  eka-pradhāna-vijñānād vijñātam akhilaṃ bhavet 
+                  ity-ādi-veda-vacanatan-mūla-āpta-āgamair api //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_33">
+                  brahmātmanātmalābho 'yaṃ prapañcaś cidacinmayaḥ <br />
+                  iti pramīyate brāmhī vibhūtir na niṣidhyate //
+                   <span class="ref">YSsi_33</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  brahma-ātmanā ātma-lābho 'yaṃ prapañcaś cid-acin-mayaḥ 
+                  iti pramīyate brāmhī vibhūtir na niṣidhyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_34">
+                  tanniṣedhe samasta tasya mithyātvāl lokavedayoḥ <br />
+                  vyavahārās tu lupyeran tathā syād brahmadhīr api //
+                   <span class="ref">YSsi_34</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tan-niṣedhe samasta tasya mithyātvāl loka-vedayoḥ 
+                  vyavahārās tu lupyeran tathā syād brahma-dhīr api //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_35">
+                  vyāvahārikasatyatvān mṛṣātve 'py aviruddhatā <br />
+                  pratyakṣāder iti mataṃ prāg eva samadūduṣam //
+                   <span class="ref">YSsi_35</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  vyāvahārika-satyatvān mṛṣātve 'py aviruddhatā 
+                  pratyakṣa-āder iti mataṃ prāg eva samadūduṣam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_36">
+                  ataś copaniṣañjātabrahmādvaitadhiyā jagat <br />
+                  na bādhyate vibhūtitvād brahmaṇaś cetyavasthitam //
+                   <span class="ref">YSsi_36</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ataś ca upaniṣañ-jātabrahma-advaita-dhiyā jagat 
+                  na bādhyate vibhūtitvād brahmaṇaś ca ity-avasthitam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_37">
+                  nanu sattve prapañcasya nāstīti pratyayaḥ katham <br />
+                  asattve vā kathaṃ tasminn astīti pratyayo bhavet //
+                   <span class="ref">YSsi_37</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nanu sattve prapañcasya na asti iti pratyayaḥ katham 
+                  asattve vā kathaṃ tasminn astīti pratyayo bhavet //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_38">
+                  sadasattvaṃ tathaikasya viruddhatvād asambhavi <br />
+                  sadasatpratyayaprāptaviruddhadvandvasaṅgame //
+                   <span class="ref">YSsi_38</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sad-asattvaṃ tatha aikasya viruddhatvād asambhavi 
+                  sad-asat-pratyaya-prāptaviruddha-dvandva-saṅgame //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_39">
+                  tayor anyatarārthasya niścayābhāvahetutaḥ <br />
+                  sadasattvaṃ prapañcasya jainās tu pratipedire //
+                   <span class="ref">YSsi_39</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tayor anyatara-arthasya niścaya-abhāva-hetutaḥ 
+                  sad-asattvaṃ prapañcasya jainās tu pratipedire //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_40">
+                  sattvaprāptiṃ puraskṛtya nāstīti pratyayodayāt <br />
+                  sadā sattvaṃ prapañcasya sāṅkhyās tu pratipādire //
+                   <span class="ref">YSsi_40</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sattva-prāptiṃ puraskṛtya na asti iti pratyaya-udayāt 
+                  sadā sattvaṃ prapañcasya sāṅkhyās tu pratipādire //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_41">
+                  sadasatpratyayaprāptaviruddhadvandvasaṅkaṭe <br />
+                  virodhaparihārārthaṃ sattvāsattvāṃśabhaṅgataḥ <br />
+                  sadasadbhyām anirvācyaṃ prapañcaṃ kecid ūcire //
+                   <span class="ref">YSsi_41</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sad-asat-pratyaya-prāptaviruddha-dvandva-saṅkaṭe 
+                  virodha-parihāra-arthaṃ sattva-asattva-aṃśa-bhaṅgataḥ 
+                  sad-asadbhyām anirvācyaṃ prapañcaṃ kecid ūcire //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_42">
+                  sattvāsattve vibhāgena deśakālādibhetataḥ <br />
+                  ghaṭāder iti manvānā vyavasthām apare jaguḥ //
+                   <span class="ref">YSsi_42</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sattva-asattve vibhāgena deśa-kāla-ādi-bhetataḥ 
+                  ghaṭa-āder iti manvānā vyavasthām apare jaguḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_43">
+                  tad evaṃ vādisammardāt saṃśaye samupasthite <br />
+                  nirṇayaḥ kriyate tatra mīmaṃsakamatena tu //
+                   <span class="ref">YSsi_43</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tad evaṃ vādi-sammardāt saṃśaye samupasthite 
+                  nirṇayaḥ kriyate tatra mīmaṃsaka-matena tu //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_44">
+                  ghaṭasvarūpe nāstitvam astitvaṃ yady abūbudhat <br />
+                  syād eva yugapatsattvam asattvaṃ ca ghatādiṣu //
+                   <span class="ref">YSsi_44</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ghaṭa-svarūpe na-astitvam astitvaṃ yady abūbudhat 
+                  syād eva yugapat-sattvam asattvaṃ ca ghata-ādiṣu //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_45">
+                  idānīm idam atrāsti nāstītyevaṃvidhā yataḥ <br />
+                  deśakāladaśābhedād asti nāstīti no dhiyaḥ //
+                   <span class="ref">YSsi_45</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  idānīm idam atra asti na asti ity-evaṃ-vidhā yataḥ 
+                  deśa-kāla-daśa-abhedād asti nāsti iti no dhiyaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_46">
+                  ato deśādibhedena sadasattvaṃ ghaṭādiṣu <br />
+                  vyavasthitaṃ nirastatvād vādasyeha na sambhavaḥ //
+                   <span class="ref">YSsi_46</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ato deśa-ādi-bhedena sad-asattvaṃ ghaṭa-ādiṣu 
+                  vyavasthitaṃ nirastatvād vādasya iha na sambhavaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_47">
+                  nanu deśādisambandhaḥ sata evopapadyate <br />
+                  na deśakālasambandhād asataḥ sattvam iṣyate //
+                   <span class="ref">YSsi_47</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nanu deśa-ādi-sambandhaḥ sata eva upapadyate 
+                  na deśa-kāla-sambandhād asataḥ sattvam iṣyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_48">
+                  sambandho dvyāśrayas tasmāt sataḥ sattvaṃ sadā bhavet <br />
+                  asataḥ kārakaiḥ sattvaṃ janmanetyatidurghaṭam //
+                   <span class="ref">YSsi_48</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sambandho dvy-āśrayas tasmāt sataḥ sattvaṃ sadā bhavet 
+                  asataḥ kārakaiḥ sattvaṃ janmana īty-atidurghaṭam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_49ab">
+                  ādyantavān prapañco 'taḥ satkakṣāntarniveśyate 
+                   <span class="ref">YSsi_49ab</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ādy-antavān prapañco 'taḥ sat-kakṣa-antarniveśyate 
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_p22187">uktaṃ ca <span class="ref">(YSsi_p22187)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  uktaṃ ca
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_49cf">
+                  "ādāv ante ca yan nāsti nāsti madhye 'pi tat tathā" <br />
+                  ato niścitasadbhāvaḥ sadā sann abhyupeyatām //
+                   <span class="ref">YSsi_49cf</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  "ādāv ante ca yan na asti na asti madhye 'pi tat tathā" 
+                  ato niścita-sad-bhāvaḥ sadā sann abhyupeyatām //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_p22491">iti <span class="ref">(YSsi_p22491)</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  iti
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_50">
+                  asataḥ sarvadāsattvaṃ janyayogāt khapuṣpavat <br />
+                  asattve na viśeṣo 'sti prāgatyantāsator iha //
+                   <span class="ref">YSsi_50</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  asataḥ sarvada āsattvaṃ janya-yogāt kha-puṣpavat 
+                  asattve na viśeṣo 'sti prāg-atyanta-asator iha //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_51">
+                  śvetaketum upādāya tat tvam ity api yac chrutam <br />
+                  ṣaṣṭhaprapāṭake tasya kuto mukhyārthasambhavaḥ //
+                   <span class="ref">YSsi_51</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  śvetaketum upādāya tat tvam ity api yac chrutam 
+                  ṣaṣṭha-prapāṭake tasya kuto mukhya-artha-sambhavaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_52">
+                  kārpaṇyaśokaduḥkhārtaś cetanas tvaṃpadoditaḥ <br />
+                  sarvajñas satyasaṅkalpo nissīmasukhasāgaraḥ <br />
+                  tatpadārthas tayor aikyaṃ tejas timiravat katham //
+                   <span class="ref">YSsi_52</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kārpaṇya-śoka-duḥkha-ārtaś cetanas tvaṃ-pada-uditaḥ 
+                  sarva-jñas satya-saṅkalpo nissīma-sukha-sāgaraḥ 
+                  tat-pada-arthas tayor aikyaṃ tejas timiravat katham //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_53">
+                  tvamarthasthe taṭasthe vā (tadarthasthe vibhedake) <br />
+                  guṇe tattvaṃpadaśrutyor aikārthyaṃ dūravāritam //
+                   <span class="ref">YSsi_53</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tvam-artha-sthe taṭa-sthe vā (tad-artha-sthe vibhedake) 
+                  guṇe tat-tvaṃ-pada-śrutyor aikārthyaṃ dūra-vāritam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_54">
+                  ajñatvasarvaveditvaduḥkhitvasukhitādike <br />
+                  viśeṣaṇe vā ciddhātor atha vāpy upalakṣaṇe <br />
+                  viruddhaguṇasaṅkrānter bhedaḥ syāt tvaṃtadarthayoḥ //
+                   <span class="ref">YSsi_54</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ajñatva-sarva-veditvaduḥkhitva-sukhitā-ādike 
+                  viśeṣaṇe vā cid-dhātor atha va āpy upalakṣaṇe 
+                  viruddha-guṇa-saṅkrānter bhedaḥ syāt tvaṃ-tad-arthayoḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_55">
+                  vācyaikadeśabhaṅgena cidekavyaktiniṣṭhatā <br />
+                  so 'yaṃ gaur itivat tattvaṃ padayor ity apeśalam //
+                   <span class="ref">YSsi_55</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  vācya-eka-deśa-bhaṅgena cid-eka-vyakti-niṣṭhatā 
+                  so 'yaṃ gaur itivat tattvaṃ padayor ity apeśalam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_56">
+                  deśakāladaśābhedād ekasminn api dharmiṇi <br />
+                  viruddhadvandvasaṅkrānteḥ so 'yaṃ gaur iti yujyate //
+                   <span class="ref">YSsi_56</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  deśa-kāla-daśā-bhedād ekasminn api dharmiṇi 
+                  viruddha-dvandva-saṅkrānteḥ so 'yaṃ gaur iti yujyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_57">
+                  svaprakāśasya ciddhātor viruddhadvandvasaṅgatau <br />
+                  na vyavasthāpakaṃ kiñcid deśakāladaśādike //
+                   <span class="ref">YSsi_57</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sva-prakāśasya cid-dhātor viruddha-dvandva-saṅgatau 
+                  na vyavasthāpakaṃ kiñcid deśa-kāla-daśā-ādike //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_58">
+                  nirdhūtanikhiladvandvasvaprakāśe cidātmani <br />
+                  dvaitānarthabhramābhāvāc chāstraṃ nirviṣayaṃ bhavet //
+                   <span class="ref">YSsi_58</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nirdhūta-nikhila-dvandvasva-prakāśe cid-ātmani 
+                  dvaita-anartha-bhrama-abhāvāc chāstraṃ nirviṣayaṃ bhavet //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_59">
+                  etena satyakāmatvajagatkāraṇatādayaḥ <br />
+                  mā(yopādhau pare) 'dhyastāḥ śokamohādayaḥ punaḥ //
+                   <span class="ref">YSsi_59</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  etena satya-kāmatvajagat-kāraṇatā-ādayaḥ 
+                  mā(yā-upādhau pare) 'dhyastāḥ śoka-moha-ādayaḥ punaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_60">
+                  avidyopādhike jīve vināśe neti yan matam <br />
+                  kṣudrabrahmavidām etan mataṃ prāg eva dūṣitam //
+                   <span class="ref">YSsi_60</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  avidya-upādhike jīve vināśe na iti yan matam 
+                  kṣudra-brahma-vidām etan mataṃ prāg eva dūṣitam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_61">
+                  cidsvarūpe viśiṣṭe vā māyāvidyādyupādhayaḥ <br />
+                  pūrvasmin sarvasāaṅkaryaṃ parajīvāvibhāgataḥ //
+                   <span class="ref">YSsi_61</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  cid-svarūpe viśiṣṭe vā māyā-avidyā-ādy-upādhayaḥ 
+                  pūrvasmin sarva-sāaṅkaryaṃ para-jīva-avibhāgataḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_62">
+                  uttarasminn api tathā viśiṣṭam api cid yadi <br />
+                  citsvarūpaṃ hi nirbhedaṃ māyāvidyādyupādhibhiḥ <br />
+                  vibhinnam iva vibhrāntaṃ viśiṣṭaṃ ca ... (mataṃ tava) //
+                   <span class="ref">YSsi_62</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  uttarasminn api tathā viśiṣṭam api cid yadi 
+                  cit-svarūpaṃ hi nirbhedaṃ māyā-avidyā-ādy-upādhibhiḥ 
+                  vibhinnam iva vibhrāntaṃ viśiṣṭaṃ ca ... (mataṃ tava) //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_63">
+                  taṭasthāvasthitā dharmāḥ svarūpaṃ na spṛśanti kim <br />
+                  na hi daṇḍiśiraśchedād devadatto na hiṃsitaḥ //
+                   <span class="ref">YSsi_63</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  taṭa-stha-avasthitā dharmāḥ svarūpaṃ na spṛśanti kim 
+                  na hi daṇḍi-śiraś-chedād devadatto na hiṃsitaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_64">
+                  acidaṃśavyapohena cidekapariśeṣatā <br />
+                  atas tat tvam asīty āder arthe ity apy asundaram //
+                   <span class="ref">YSsi_64</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  acid-aṃśa-vyapohena cid-eka-pariśeṣatā 
+                  atas tat tvam asi ity āder arthe ity apy asundaram //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_65">
+                  abrahmānātmatābhāve pratyak cit pariśiṣyate <br />
+                  tattvaṃpadadvayaṃ jīvaparatādātmyagocaram <br />
+                  tanmukhyavṛtti tādātmyam api vastudvayāśrayam //
+                   <span class="ref">YSsi_65</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  abrahma-anātmatā-abhāve pratyak cit pariśiṣyate 
+                  tat-tvaṃ-pada-dvayaṃ jīvapara-tādātmya-gocaram 
+                  tan-mukhya-vṛtti tādātmyam api vastu-dvaya-āśrayam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_66">
+                  bhedābhedavikalpas tu yat tvayā paricoditaḥ <br />
+                  abhedābhedino 'satye bandhe sati nirarthakaḥ //
+                   <span class="ref">YSsi_66</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  bheda-abheda-vikalpas tu yat tvayā paricoditaḥ 
+                  abheda-abhedino 'satye bandhe sati nirarthakaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_67">
+                  abhedo bhedamardī tu svāśrayībhūtavastunoḥ <br />
+                  bhedaḥ parasparānātmyaṃ bhāvānām evam etayoḥ //
+                   <span class="ref">YSsi_67</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  abhedo bheda-mardī tu sva-āśrayī-bhūta-vastunoḥ 
+                  bhedaḥ paraspara-anātmyaṃ bhāvānām evam etayoḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_68">
+                  svarūpam abhyupetyaiva bhedābhedavikalpayoḥ <br />
+                  (bādhanaṃ) tena vāgabādhā virodhena nigṛhyase //
+                   <span class="ref">YSsi_68</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  svarūpam abhyupetya eva bheda-abheda-vikalpayoḥ 
+                  (bādhanaṃ) tena vāg-abādhā virodhena nigṛhyase //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_69">
+                  bhinnābhinnatvasambandhasadasattvavikalpanam <br />
+                  pratyakṣānubhavāpārataṃ kevalaṃ kaṇṭhaśoṣaṇam //
+                   <span class="ref">YSsi_69</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  bhinna-abhinnatva-sambandhasad-asattva-vikalpanam 
+                  pratyakṣa-anubhava-apārataṃ kevalaṃ kaṇṭha-śoṣaṇam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_70">
+                  nīle nīlamatir yādṛgutpale nīladhīr hi sā <br />
+                  nīlam utpalam evedam iti sākṣāccakāsti naḥ //
+                   <span class="ref">YSsi_70</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nīle nīla-matir yādṛgutpale nīla-dhīr hi sā 
+                  nīlam utpalam eva idam iti sākṣāc-cakāsti naḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_71">
+                  yathā viditasaṃyogasambandhe 'py akṣagocare <br />
+                  bhedābhedādidustarkavikalpādhānavibhramaḥ //
+                   <span class="ref">YSsi_71</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yathā vidita-saṃyogasambandhe 'py akṣa-gocare 
+                  bheda-abheda-ādi-dustarkavikalpa-ādhāna-vibhramaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_72">
+                  tadvat tādātmyasambandhe śrutipratyakṣamūlake <br />
+                  śrutidaṇḍena dustarkavikalpabhramavāraṇam //
+                   <span class="ref">YSsi_72</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tadvat tādātmya-sambandhe śruti-pratyakṣa-mūlake 
+                  śruti-daṇḍena dustarkavikalpa-bhrama-vāraṇam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_73">
+                  nirdoṣāpauruṣeyī ca śrutir atyartham ādarāt <br />
+                  asakṛttattvam ity āha tādātmyaṃ brahmajīvayoḥ //
+                   <span class="ref">YSsi_73</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nirdoṣa āpauruṣeyī ca śrutir atyartham ādarāt 
+                  asakṛt-tat-tvam ity āha tādātmyaṃ brahma-jīvayoḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_74">
+                  brahmānandahradāntaḥsthoḥ muktātmā sukham edhate <br />
+                  phale ca phalino 'bhāvān mokṣasyāpuruṣārthatā <br />
+                  ekaśeṣe hi ciddhātoḥ kasya mokṣaḥ phalaṃ bhavet //
+                   <span class="ref">YSsi_74</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  brahma-ānanda-hrada-antaḥsthoḥ mukta-ātmā sukham edhate 
+                  phale ca phalino 'bhāvān mokṣasya apuruṣa-arthatā 
+                  eka-śeṣe hi cid-dhātoḥ kasya mokṣaḥ phalaṃ bhavet //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_75">
+                  kiñ ca prapañcarūpeṇa kā nu saṃvid vivartate <br />
+                  na tāvad ghaṭadhīs tasyām asatyām api darśanāt //
+                   <span class="ref">YSsi_75</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kiñ ca prapañca-rūpeṇa kā nu saṃvid vivartate 
+                  na tāvad ghaṭa-dhīs tasyām asatyām api darśanāt //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_76">
+                  na hi tasyām ajātāyāṃ naṣṭāyāṃ vākhilaṃ jagat <br />
+                  nāstīti śakyate vaktum uktau pratyakṣabadhanāt <br />
+                  nāpy anyasaṃvit tannāśe 'py anyeṣām upalambhanāt //
+                   <span class="ref">YSsi_76</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na hi tasyām ajātāyāṃ naṣṭāyāṃ va ākhilaṃ jagat 
+                  na asti iti śakyate vaktum uktau pratyakṣa-badhanāt 
+                  na apy anya-saṃvit tan-nāśe 'py anyeṣām upalambhanāt //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_77">
+                  nanu saṃvidabhinnaikā na tasyām asti bhedadhīḥ <br />
+                  ghaṭādayo hi bhidyante na tu sā cit prakāśanāt //
+                   <span class="ref">YSsi_77</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nanu saṃvid-abhinna aikā na tasyām asti bheda-dhīḥ 
+                  ghaṭa-ādayo hi bhidyante na tu sā cit prakāśanāt //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_78">
+                  ghaṭadhīḥ paṭasaṃvittisamaye nāvabhāti cet <br />
+                  naivaṃ, ghaṭo hi nābhāti sā sphuraty eva tu sphuṭam //
+                   <span class="ref">YSsi_78</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ghaṭa-dhīḥ paṭa-saṃvittisamaye na avabhāti cet 
+                  na evaṃ, ghaṭo hi nā abhāti sā sphuraty eva tu sphuṭam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_79">
+                  ghaṭavyāvṛttasaṃvittir atha na sphuratīti cet <br />
+                  tadvyāvṛttipadenāpi kiṃ saivoktātha vetarat <br />
+                  saiva ced bhāsate 'nyac cen na brūhas tasya bhāsanam //
+                   <span class="ref">YSsi_79</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ghaṭa-vyāvṛtta-saṃvittir atha na sphurati iti cet 
+                  tad-vyāvṛtti-padena api kiṃ sa aiva ukta ātha va ītarat 
+                  sa aiva ced bhāsate 'nyac cen na brūhas tasya bhāsanam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_80">
+                  kiñ cāsyāḥ svaprakāśāyā nīrūpāyā na hi svataḥ <br />
+                  ṛte viṣayanānātvān nānātvāvagrahabhramaḥ //
+                   <span class="ref">YSsi_80</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kiñ ca asyāḥ sva-prakāśāyā nīrūpāyā na hi svataḥ 
+                  ṛte viṣaya-nānātvān nānātva-avagraha-bhramaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_81">
+                  na vastu vastudharmo vā na pratyakṣo na laukikaḥ <br />
+                  ghaṭādivedyabhedo 'pi kevalaṃ bhramalakṣaṇaḥ //
+                   <span class="ref">YSsi_81</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na vastu vastu-dharmo vā na pratyakṣo na laukikaḥ 
+                  ghaṭa-ādi-vedya-bhedo 'pi kevalaṃ bhrama-lakṣaṇaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_82">
+                  yadā, tadā tadāyato dhībhedāvagrahodayaḥ <br />
+                  kutaḥ, kutastarāṃ tasya paramārthatvasambandhaḥ //
+                   <span class="ref">YSsi_82</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yadā, tadā tad-āyato dhī-bheda-avagraha-udayaḥ 
+                  kutaḥ, kutastarāṃ tasya parama-arthatva-sambandhaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_83">
+                  kiñ ca svayaṃprakāśasya svato vā parato 'pi vā <br />
+                  prāgabhāvādisiddhiḥ syāt, svatas tāvan na yujyate //
+                   <span class="ref">YSsi_83</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kiñ ca svayaṃ-prakāśasya svato vā parato 'pi vā 
+                  prāg-abhāva-ādi-siddhiḥ syāt, svatas tāvan na yujyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_84">
+                  svasmin sati viruddhatvād abhāvasyānavasthiteḥ <br />
+                  svanimittaprakāśasya svasyābhāve 'py asambhavāt <br />
+                  ananyagocaratvena cito na parato 'pi ca //
+                   <span class="ref">YSsi_84</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  svasmin sati viruddhatvād abhāvasya anavasthiteḥ 
+                  sva-nimitta-prakāśasya svasya abhāve 'py asambhavāt 
+                  ananya-gocaratvena cito na parato 'pi ca //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_85">
+                  kiñ ca vedyasya bhedāder na ciddharmatvasambhavaḥ <br />
+                  rūpādivat, ataḥ saṃvidadvitīyā svayaṃprabhā //
+                   <span class="ref">YSsi_85</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kiñ ca vedyasya bheda-āder na cid-dharmatva-sambhavaḥ 
+                  rūpa-ādivat, ataḥ saṃvidadvitīyā svayaṃ-prabhā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_86">
+                  atas tadbhedam āśritya yadvilakṣaṇādijalpitam <br />
+                  tadavidyā+vilāso 'yam iti brahmavido viduḥ //
+                   <span class="ref">YSsi_86</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  atas tad-bhedam āśritya yad-vilakṣaṇa-ādi-jalpitam 
+                  tad-avidyā+vilāso 'yam iti brahma-vido viduḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_87">
+                  hanta brahmopadeśo 'yaṃ śraddadhāneṣu śobhate <br />
+                  vayam aśraddadhānāḥ so ye yuktiṃ prārthayāmahe //
+                   <span class="ref">YSsi_87</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  hanta brahma-upadeśo 'yaṃ śraddadhāneṣu śobhate 
+                  vayam aśraddadhānāḥ so ye yuktiṃ prārthayāmahe //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_88">
+                  pratipramātṛviṣayaṃ parasparavilakṣaṇāḥ <br />
+                  aparokṣaṃ prakāśante sukhaduḥkhādivad dhiyaḥ //
+                   <span class="ref">YSsi_88</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  pratipramātṛ-viṣayaṃ paraspara-vilakṣaṇāḥ 
+                  aparokṣaṃ prakāśante sukha-duḥkha-ādivad dhiyaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_89">
+                  sambandhivyaṅgyabhedasya saṃyogecchādikasya naḥ <br />
+                  na hi bhedaḥ svato nāsti nāpratyakṣaś ca saṃataḥ //
+                   <span class="ref">YSsi_89</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sambandhi-vyaṅgya-bhedasya saṃyoga-icchā-ādikasya naḥ 
+                  na hi bhedaḥ svato na asti na apratyakṣaś ca saṃataḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_90">
+                  yadi sarvagatā nityā saṃvid evābhyupeyate <br />
+                  tataḥ sarvaṃ sadā bhāyāt, na vā kiñcit kadācana //
+                   <span class="ref">YSsi_90</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yadi sarva-gatā nityā saṃvid eva ābhyupeyate 
+                  tataḥ sarvaṃ sadā bhāyāt, na vā kiñcit kadācana //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_91">
+                  tadānīṃ na hi vedyasya sannnidhītarakāritā <br />
+                  vyavasthā ghaṭate, vitter vyomavad vaibhavāśrayāt //
+                   <span class="ref">YSsi_91</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tadānīṃ na hi vedyasya sannnidhi-itara-kāritā 
+                  vyavasthā ghaṭate, vitter vyomavad vaibhava-āśrayāt //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_92">
+                  nāpi kāraṇabhedena. nityāyās tadabhāvataḥ <br />
+                  na ca svarūpanānātvāt, tad ekatvaparigrahāt //
+                   <span class="ref">YSsi_92</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na api kāraṇa-bhedena. nityāyās tad-abhāvataḥ 
+                  na ca svarūpa-nānātvāt, tad ekatva-parigrahāt //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_93">
+                  tataś ca badhirāndhādeḥ śabdādigrahaṇaṃ bhavet <br />
+                  guruśiṣyādibhedaś ca nirnimittaḥ prasajyate //
+                   <span class="ref">YSsi_93</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tataś ca badhira-andha-ādeḥ śabda-ādi-grahaṇaṃ bhavet 
+                  guru-śiṣya-ādi-bhedaś ca nirnimittaḥ prasajyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_94">
+                  nanu naḥ saṃvido bhinnaṃ sarvaṃ nāma na kiñcana <br />
+                  ataḥ sarvaṃ sadā bhāyād ityakaṇḍe 'nuyujyate //
+                   <span class="ref">YSsi_94</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nanu naḥ saṃvido bhinnaṃ sarvaṃ nāma na kiñcana 
+                  ataḥ sarvaṃ sadā bhāyād ity-akaṇḍe 'nuyujyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_95">
+                  idam ākhyāhi bho kiṃ nu nīlādir na prakāśate <br />
+                  prakāśamāno nīlādiḥ saṃvido vā na bhidyate //
+                   <span class="ref">YSsi_95</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  idam ākhyāhi bho kiṃ nu nīla-ādir na prakāśate 
+                  prakāśamāno nīla-adiḥ saṃvido vā na bhidyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_96">
+                  ādau pratītisubhago nivāho lokavedayoḥ <br />
+                  yataḥ padapadārthādi na kiñcid avabhāsate //
+                   <span class="ref">YSsi_96</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ādau pratīti-subhago nivāho loka-vedayoḥ 
+                  yataḥ pada-padārtha-ādi na kiñcid avabhāsate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_97">
+                  dvitīye saṃvido 'dvaitaṃ vyāhanyeta samīhitam <br />
+                  yady ayaṃ vividhākāraprapañcaḥ saṃvidātmakaḥ <br />
+                  sāpi saṃvit tad ātmeti yato nānā prasajyate //
+                   <span class="ref">YSsi_97</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  dvitīye saṃvido 'dvaitaṃ vyāhanyeta samīhitam 
+                  yady ayaṃ vividha-ākāraprapañcaḥ saṃvid-ātmakaḥ 
+                  sa āpi saṃvit tad ātma īti yato nānā prasajyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_98">
+                  na cāvidyāvilāsatvād bhedābhedānirūpaṇā <br />
+                  sā hi nyāyānalaspṛṣṭā jātuṣābharaṇāyate //
+                   <span class="ref">YSsi_98</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na ca avidyā-vilāsatvād bheda-abheda-anirūpaṇā 
+                  sā hi nyāya-anala-spṛṣṭā jātuṣa ābharaṇāyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_99">
+                  tathā hi yady avidyeyaṃ vidyābhāvātmikeṣyate <br />
+                  nirupākhyasvabhāvatvāt sā na kiñcin niyacchati //
+                   <span class="ref">YSsi_99</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tathā hi yady avidya īyaṃ vidyā-abhāva-ātmika īṣyate 
+                  nirupākhya-svabhāvatvāt sā na kiñcin niyacchati //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_100">
+                  arthāntaram avidyā cet sādhvī bhedāirūpaṇā <br />
+                  arthānarthāntaratvādivikalpo 'syā na yujyate <br />
+                  vidyāto 'rthāntaraṃ cāsāv iti suvyāhṛtaṃ vacaḥ //
+                   <span class="ref">YSsi_100</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  artha-antaram avidyā cet sādhvī bheda-airūpaṇā 
+                  artha-anartha-antaratva-ādivikalpo 'syā na yujyate 
+                  vidyāto 'rtha-antaraṃ ca asāv iti suvyāhṛtaṃ vacaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_101">
+                  athārthāntarabhāvo 'pi tasyās te bhrāntikalpitaḥ <br />
+                  hantaivaṃ saty avidyaiva vidyā syāt paramārthataḥ //
+                   <span class="ref">YSsi_101</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  atha artha-antara-bhāvo 'pi tasyās te bhrānti-kalpitaḥ 
+                  hanta evaṃ saty avidya aiva vidyā syāt parama-arthataḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_102">
+                  kiñ ca śuddhājaḍā saṃvit, avidyeyaṃ tu nesṛśī <br />
+                  tat kena hetunā seyam anyaiva na nirūpyate //
+                   <span class="ref">YSsi_102</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kiñ ca śuddha-ajaḍā saṃvit, avidya īyaṃ tu nā isṛśī 
+                  tat kena hetunā sa īyam anya aiva na nirūpyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_103">
+                  api ceyam avidyā te yadabhāvādirūpiṇī <br />
+                  sā vidyā kiṃ nu saṃvittir vedyaṃ vā veditātha vā //
+                   <span class="ref">YSsi_103</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  api ca iyam avidyā te yad-abhāva-ādi-rūpiṇī 
+                  sā vidyā kiṃ nu saṃvittir vedyaṃ vā vedita ātha vā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_104">
+                  vedyatve veditṛtve ca nāsyās tābhyāṃ nivartanam <br />
+                  na hi jñānād ṛte 'jñānam anyatas te nivartate <br />
+                  saṃvid eveti cet tasyā nanu bhavād asambhavaḥ //
+                   <span class="ref">YSsi_104</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  vedyatve veditṛtve ca na asyās tābhyāṃ nivartanam 
+                  na hi jñānād ṛte 'jñānam anyatas te nivartate 
+                  saṃvid eva iti cet tasyā nanu bhavād asambhavaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_105">
+                  kiñceyaṃ tadviruddhā vā, na tasyāḥ kvāpi sambhavaḥ <br />
+                  yato 'khilaṃ jagadvyāptaṃ vidyayaivādvitīyayā //
+                   <span class="ref">YSsi_105</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kiñca iyaṃ tad-viruddhā vā, na tasyāḥ kva api sambhavaḥ 
+                  yato 'khilaṃ jagad-vyāptaṃ vidyaya aiva advitīyayā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_106">
+                  abhāvo 'nyo viruddho vā saṃvido 'pi yad īṣyate <br />
+                  tadānīṃ saṃvid advaitapratijñāṃ dūratas tyaja //
+                   <span class="ref">YSsi_106</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  abhāvo 'nyo viruddho vā saṃvido 'pi yad īṣyate 
+                  tadānīṃ saṃvid advaitapratijñāṃ dūratas tyaja //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_107">
+                  kiñ cāsau kasya? jīvasya, ko jīvo yasya seti cet <br />
+                  nanv evam asamādhānam anyonyāśrayaṇaṃ bhavet //
+                   <span class="ref">YSsi_107</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kiñ ca asau kasya? jīvasya, ko jīvo yasya sa īti cet 
+                  nanv evam asamādhānam anyonya-āśrayaṇaṃ bhavet //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_108">
+                  na tu jīvād avidyā syāt, na ca jīvas tayā vinā <br />
+                  na vījāṅkuratulyatvaṃ jīvotpatter ayogataḥ //
+                   <span class="ref">YSsi_108</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na tu jīvād avidyā syāt, na ca jīvas tayā vinā 
+                  na vīja-aṅkura-tulyatvaṃ jīva-utpatter ayogataḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_109">
+                  brahmaṇaś cen na sarvajñaṃ kathaṃ tad baṃbhramīti te(bhoḥ) <br />
+                  avidyākṛtadehātmapratyayādhīnatā na te <br />
+                  brahmasarvajñabhāvasya, tatsvābhāvikatāśruteḥ //
+                   <span class="ref">YSsi_109</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  brahmaṇaś cen na sarva-jñaṃ kathaṃ tad baṃbhrami iti te(bhoḥ) 
+                  avidyā-kṛta-deha-ātmapratyaya-adhīnatā na te 
+                  brahma-sarva-jña-bhāvasya, tat-svābhāvikatā-śruteḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_110">
+                  bhedāvabhāsagabhatvād atha sarvajñatā mṛṣā <br />
+                  tata evāmṛṣā kasmān na svāc chabdāntarādivat //
+                   <span class="ref">YSsi_110</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  bheda-avabhāsa-gabhatvād atha sarva-jñatā mṛṣā 
+                  tata eva amṛṣā kasmān na svāc chabda-antara-ādivat //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_111">
+                  yathā śabdāntarābhyāsasañkhyādyāḥ śāstrabhedakāḥ <br />
+                  bhedāvabhāsagarbhāś ca yathārthāḥ, tādṛśī na kim //
+                   <span class="ref">YSsi_111</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yathā śabda-antara-abhyāsasañkhyā-ādyāḥ śāstra-bhedakāḥ 
+                  bheda-avabhāsa-garbhāś ca yathā-arthāḥ, tādṛśī na kim //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_112">
+                  sarvajñe nityamukte 'pi yady ajñānasya sambhavaḥ <br />
+                  tejasīva tamas tasmān na nivarteta kenacit //
+                   <span class="ref">YSsi_112</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sarva-jñe nitya-mukte 'pi yady ajñānasya sambhavaḥ 
+                  tejasi īva tamas tasmān na nivarteta kenacit //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_113">
+                  sarvajñatvādivacanaprāmāṇyaṃ vyāvahārikam <br />
+                  tāttvikaṃ tu pramāṇatvam advaitavacasām iti <br />
+                  niyāmakaṃ na paśyāmo nirbandhāt tāvakād ṛte //
+                   <span class="ref">YSsi_113</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sarva-jñatva-ādi-vacanaprāmāṇyaṃ vyāvahārikam 
+                  tāttvikaṃ tu pramāṇatvam advaita-vacasām iti 
+                  niyāmakaṃ na paśyāmo nirbandhāt tāvakād ṛte //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_114">
+                  āśrayapratiyogitve parasparavirodhinī <br />
+                  kathaṃ vaikarasaṃ brahma sad iti pratipadyate //
+                   <span class="ref">YSsi_114</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  āśraya-pratiyogitve paraspara-virodhinī 
+                  kathaṃ va aika-rasaṃ brahma sad iti pratipadyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_115">
+                  pratyaktvenāśrayo brahmarūpeṇa pratiyogi cet <br />
+                  rūpabhedaḥ kṛtasya 'yaṃ yady avidyāprasādajaḥ <br />
+                  nanu sāpi tadāyattety anyonyāśrayaṇaṃ punaḥ //
+                   <span class="ref">YSsi_115</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  pratyaktvenā aśrayo brahmarūpeṇa pratiyogi cet 
+                  rūpa-bhedaḥ kṛtasya 'yaṃ yady avidyā-prasāda-jaḥ 
+                  nanu sa āpi tad-āyatta īty anyonya-āśrayaṇaṃ punaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_116">
+                  avastutvād avidyāyāḥ ...(nedaṃ tadrūpaṇaṃ yadi) <br />
+                  vastuno dūṣaṇatvena tvayā kvedaṃ nirīkṣitam //
+                   <span class="ref">YSsi_116</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  avastutvād avidyāyāḥ ...(na idaṃ tad-rūpaṇaṃ yadi) 
+                  vastuno dūṣaṇatvena tvayā kva idaṃ nirīkṣitam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_117">
+                  (svasādhyasya puraskārād) doṣo 'nyonyasamāśrayaḥ <br />
+                  na vastutvād avastutvād ity ato nedam uttaram //
+                   <span class="ref">YSsi_117</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  (sva-sādhyasya puraskārād) doṣo 'nyonya-samāśrayaḥ 
+                  na vastutvād avastutvād ity ato na idam uttaram //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_118">
+                  kiñcāvidyā na cet ... (vastu vyavaharyaṃ kathaṃ bhavet) <br />
+                  (na cāsadvyoma)puṣpādivyavahāravad iṣyate //
+                   <span class="ref">YSsi_118</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kiñca avidyā na cet ... (vastu vyavaharyaṃ kathaṃ bhavet) 
+                  (na ca asad-vyoma)puṣpa-ādivyavahāravad iṣyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_119">
+                  nāpy avastv iti co(ktau tu vastutvaṃ sidhyati dhruvam) <br />
+                  (niṣidhyate) samastena nañā vastv iti cen (matam) //
+                   <span class="ref">YSsi_119</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na apy avastv iti co(ktau tu vastutvaṃ sidhyati dhruvam) 
+                  (niṣidhyate) samastena nañā vastv iti cen (matam) //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_120">
+                  samastena nañā vastu prathamaṃ yanniṣidhyate <br />
+                  pratiprasūtaṃ vyastena punas tad iti vastutā //
+                   <span class="ref">YSsi_120</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  samastena nañā vastu prathamaṃ yan-niṣidhyate 
+                  pratiprasūtaṃ vyastena punas tad iti vastutā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_121">
+                  ato na vastu nā(vastu na sadvacyaṃ na cāpy asat) <br />
+                  (bhedo) na kaś cakāstīti (vivakṣīr mā) sma jātucit //
+                   <span class="ref">YSsi_121</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ato na vastu nā(vastu na sad-vacyaṃ na ca apy asat) 
+                  (bhedo) na kaś cakāsti iti (vivakṣīr mā) sma jātu-cit //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_122">
+                  kiñca prapañcanirvāhajananī yeyam āśritā <br />
+                  avidyā sā kim ekaiva naikā vā tad idaṃ vada <br />
+                  tadāśrayaś ca saṃsārī tathaiko naika eva vā //
+                   <span class="ref">YSsi_122</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kiñca prapañca-nirvāhajananī ya īyam āśritā 
+                  avidyā sā kim eka eva na ekā vā tad idaṃ vada 
+                  tad-āśrayaś ca saṃsārī tatha aiko na eka eva vā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_123">
+                  sā ced ekā, tatas saikā śukasya brahmavidyayā <br />
+                  pūrvam eva nirasteti vyarthas te muktaye śramaḥ //
+                   <span class="ref">YSsi_123</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sā ced ekā, tatas sa aikā śukasya brahma-vidyayā 
+                  pūrvam eva nirasta īti vyarthas te muktaye śramaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_124">
+                  syān mataṃ naiva te santi vāmadevaśukādayaḥ <br />
+                  yadvidyayā nirastatvān nādyāvidyeti codyate //
+                   <span class="ref">YSsi_124</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  syān mataṃ na eva te santi vāmadeva-śuka-ādayaḥ 
+                  yad-vidyayā nirastatvān na adya avidya īti codyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_125">
+                  muktāmuktādibhedo hi kalpito madavidyayā <br />
+                  dṛśyatvān māmakasvapnadṛśyabhedaprapañcavat //
+                   <span class="ref">YSsi_125</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  mukta-amukta-ādi-bhedo hi kalpito mad-avidyayā 
+                  dṛśyatvān māmaka-svapnadṛśya-bheda-prapañcavat //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_126">
+                  yat punar brahmavidyātas teṣāṃ muktir abhūd iti <br />
+                  vākyaṃ tatsvāpnamuktyuktiyuktyā pratyūhyatām iti //
+                   <span class="ref">YSsi_126</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yat punar brahma-vidyātas teṣāṃ muktir abhūd iti 
+                  vākyaṃ tat-svāpna-mukty-uktiyuktyā pratyūhyatām iti //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_127">
+                  nanv īdṛśānumānena svāvidyāparikalpitam <br />
+                  prapañcaṃ sādhayaty anyaḥ kathaṃ praty ucyate tvayā //
+                   <span class="ref">YSsi_127</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nanv īdṛśa-anumānena sva-avidyā-parikalpitam 
+                  prapañcaṃ sādhayaty anyaḥ kathaṃ praty ucyate tvayā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_128">
+                  tvad avidyānimittatve yo hetus te vivakṣitaḥ <br />
+                  sa eva hetus tasyāpi bhavet sarajñasiddhivat //
+                   <span class="ref">YSsi_128</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tvad avidyā-nimittatve yo hetus te vivakṣitaḥ 
+                  sa eva hetus tasya api bhavet sara-jña-siddhivat //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_129">
+                  ity anyonyaviruddhoktivyāhate bhavatāṃ mate <br />
+                  mukham astīti yat kiñcit pralapann iva lakṣyase //
+                   <span class="ref">YSsi_129</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ity anyonya-viruddha-uktivyāhate bhavatāṃ mate 
+                  mukham asti iti yat kiñcit pralapann iva lakṣyase //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_130">
+                  yathā ca svāpnamuktyuktisadṛśī tadvimuktibhīḥ <br />
+                  tathaiva bhavato 'pīti vyartho mokṣāya te śramaḥ //
+                   <span class="ref">YSsi_130</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yathā ca svāpna-mukty-uktisadṛśī tad-vimukti-bhīḥ 
+                  tatha aiva bhavato 'pi iti vyartho mokṣāya te śramaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_131">
+                  yathā teṣām abhūtaiva purastād ātmavudyayā <br />
+                  muktir bhūtocyate tadvat parastād ātmavidyayā //
+                   <span class="ref">YSsi_131</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yathā teṣām abhūta eva purastād ātma-vudyayā 
+                  muktir bhūta ūcyate tadvat parastād ātma-vidyayā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_132">
+                  abhāviny eva sā mithyā bhāvinīty apadiśyatām <br />
+                  santi ca svapnadṛṣṭāni dṛṣṭāntavacanāni te //
+                   <span class="ref">YSsi_132</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  abhāviny eva sā mithyā bhāvini ity apadiśyatām 
+                  santi ca svapna-dṛṣṭāni dṛṣṭānta-vacanāni te //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_133">
+                  nanu nedam aniṣṭaṃ me yan muktir na bhaviṣyati <br />
+                  ātmano nityamuktatvān nityasiddhaiva sā yataḥ //
+                   <span class="ref">YSsi_133</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nanu na idam aniṣṭaṃ me yan muktir na bhaviṣyati 
+                  ātmano nitya-muktatvān nitya-siddha aiva sā yataḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_134">
+                  tad idaṃ śāntikarmādau vetālavāhanaṃ bhavet <br />
+                  yenaivaṃ sutarāṃ vyartho brahmavidyārjanaśramaḥ //
+                   <span class="ref">YSsi_134</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tad idaṃ śānti-karma-ādau vetāla-vāhanaṃ bhavet 
+                  yena evaṃ sutarāṃ vyartho brahma-vidyā-arjana-śramaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_135">
+                  avidyāpratibaddhatvād atha sā nityasaty api <br />
+                  asatīveti tadvyaktir vidyāphalam upeyate //
+                   <span class="ref">YSsi_135</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  avidyā-pratibaddhatvād atha sā nitya-saty api 
+                  asati iva iti tad-vyaktir vidyā-phalam upeyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_136">
+                  hastastham eva hemādi vismṛtaṃ mṛgyate yathā <br />
+                  yathā tad eva hastastham avagamyopaśāmyati //
+                   <span class="ref">YSsi_136</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  hasta-stham eva hema-ādi vismṛtaṃ mṛgyate yathā 
+                  yathā tad eva hasta-stham avagamya upaśāmyati //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_137">
+                  tathaiva nityasiddhātmasvarūpānavabodhataḥ <br />
+                  saṃsāriṇas tathābhāvo vyajyate brahmavidyayā //
+                   <span class="ref">YSsi_137</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tatha aiva nitya-siddha-ātmasvarūpa-anavabodhataḥ 
+                  saṃsāriṇas tathā-bhāvo vyajyate brahma-vidyayā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_138">
+                  hanta keyam abhivyaktir yā vidyāphalam iṣyate <br />
+                  svaprakāśasya cidchātor yā svarūpapade sthitā //
+                   <span class="ref">YSsi_138</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  hanta ka īyam abhivyaktir yā vidyā-phalam iṣyate 
+                  sva-prakāśasya cid-chātor yā svarūpa-pade sthitā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_139">
+                  saṃvit kiṃ saiva kiṃ vāhaṃ brahmāstītīti kīdṛśī <br />
+                  yadi svarūpasaṃvit sā, nityaiveti na tatpjhalam //
+                   <span class="ref">YSsi_139</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  saṃvit kiṃ sa aiva kiṃ va āhaṃ brahma asti iti iti kīdṛśī 
+                  yadi svarūpa-saṃvit sā, nitya aiva iti na tat-pjhalam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_140">
+                  atha brahmāham asmīti saṃvittir vyaktir iṣyate <br />
+                  nanu te brahmavidyā sā saiva tasyāḥ phalaṃ katham //
+                   <span class="ref">YSsi_140</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  atha brahma aham asmi iti saṃvittir vyaktir iṣyate 
+                  nanu te brahma-vidyā sā sa aiva tasyāḥ phalaṃ katham //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_141">
+                  kiñ ca sā tat tvam asy ādivākyajanyā bhavan mate <br />
+                  utpattimaty anityeti muktasyāpi bhayaṃ bhavet //
+                   <span class="ref">YSsi_141</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kiñ ca sā tat tvam asy ādivākya-janyā bhavan mate 
+                  utpattimaty anitya īti muktasya api bhayaṃ bhavet //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_142">
+                  api ca vyavahārajñāḥ sati puṣkalakāreṇa <br />
+                  kāryaṃ na jāyate yena tam āhuḥ pratibandhakam //
+                   <span class="ref">YSsi_142</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  api ca vyavahāra-jñāḥ sati puṣkala-kāreṇa 
+                  kāryaṃ na jāyate yena tam āhuḥ pratibandhakam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_143">
+                  iha kiṃ tad yad utpattum upakrāntaṃ svahetutaḥ <br />
+                  avidyāpratibaddhatvād utpattiṃ na prapadyate //
+                   <span class="ref">YSsi_143</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  iha kiṃ tad yad utpattum upakrāntaṃ sva-hetutaḥ 
+                  avidyā-pratibaddhatvād utpattiṃ na prapadyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_144">
+                  na muktir nityasiddhatvāt, na brahmāsmīti dhīr api <br />
+                  na hi brahmāham asmīti saṃvitpuṣkalakāraṇam <br />
+                  saṃsāriṇas tadāstīti kathaṃ sā pratibadhyate //
+                   <span class="ref">YSsi_144</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na muktir nitya-siddhatvāt, na brahma asmi iti dhīr api 
+                  na hi brahma āham asmi iti saṃvit-puṣkala-kāraṇam 
+                  saṃsāriṇas tada āsti iti kathaṃ sā pratibadhyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_145">
+                  yataḥ sā kāraṇābhāvād idānīṃ nopajāyate <br />
+                  na punaḥ pratibaddhatvād asthāne tena tadvacaḥ //
+                   <span class="ref">YSsi_145</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yataḥ sā kāraṇa-abhāvād idānīṃ na upajāyate 
+                  na punaḥ pratibaddhatvād asthāne tena tad-vacaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_146">
+                  kiñ caiko jīva ity etad vastusthityā na yujyate <br />
+                  avidyātatsamāśleṣajīvatvādi mṛṣā hi te //
+                   <span class="ref">YSsi_146</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kiñ ca eko jīva ity etad vastu-sthityā na yujyate 
+                  avidyā-tat-samāśleṣajīvatva-ādi mṛṣā hi te //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_147">
+                  prātibhāsikam ekatvaṃ pratibhāsaparāhatam <br />
+                  yato naḥ pratibhāsante saṃsarantaḥ sahasraśaḥ //
+                   <span class="ref">YSsi_147</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  prātibhāsikam ekatvaṃ pratibhāsa-parāhatam 
+                  yato naḥ pratibhāsante saṃsarantaḥ sahasraśaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_148">
+                  āsaṃsarasamucchedaṃ vyavahārāś ca tatkṛtāḥ <br />
+                  abādhitāḥ pratīyante svapnavṛttivilakṣaṇāḥ //
+                   <span class="ref">YSsi_148</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ā-saṃsara-samucchedaṃ vyavahārāś ca tatkṛtāḥ 
+                  abādhitāḥ pratīyante svapna-vṛtti-vilakṣaṇāḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_149">
+                  tena yauktikam ekatvam api yuktiparāhatam <br />
+                  pravṛttibhedānumitā viruddhamitivṛttayaḥ <br />
+                  tattatsvātmavad anye 'pi dehino 'śakyanihnavāḥ //
+                   <span class="ref">YSsi_149</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tena yauktikam ekatvam api yukti-parāhatam 
+                  pravṛtti-bheda-anumitā viruddha-miti-vṛttayaḥ 
+                  tat-tat-sva-ātmavad anye 'pi dehino 'śakya-nihnavāḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_150">
+                  yathānumeyād vahnyāder a(ā)numānā vilakṣaṇāḥ <br />
+                  pratyakṣaṃ te (kṣyante) tathānyebhyo jīvebhyo na pṛthak katham //
+                   <span class="ref">YSsi_150</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yatha ānumeyād vahny-āder a(ā)numānā -vilakṣaṇāḥ 
+                  pratyakṣaṃ te (kṣyante) tatha ānyebhyo jīvebhyo na pṛthak katham //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_151">
+                  na cec ceṣṭāviśeṣeṇa paro boddhānumīyate <br />
+                  vyavahāro 'valupyeta sarvo laukikavaidikaḥ //
+                   <span class="ref">YSsi_151</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na cec ceṣṭā-viśeṣeṇa paro boddha ānumīyate 
+                  vyavahāro 'valupyeta sarvo laukika-vaidikaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_152">
+                  na caupādhikabhedena meyamātṛvibhāgadhīḥ <br />
+                  svaśarīre 'pi tatprāpteḥ śiraḥpāṇyādibhedataḥ //
+                   <span class="ref">YSsi_152</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na cā opādhika-bhedena meya-mātṛ-vibhāga-dhīḥ 
+                  sva-śarīre 'pi tat-prāpteḥ śiraḥ-pāṇy-ādi-bhedataḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_153">
+                  yathā tatra śiraḥpāṇipādādau vedanodaye <br />
+                  anusandhānamekatve, tathā sarvatra te bhavet //
+                   <span class="ref">YSsi_153</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yathā tatra śiraḥ-pāṇipāda-ādau vedanā-udaye 
+                  anusandhānamekatve, tathā sarvatra te bhavet //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_154">
+                  prāyaṇām narakakleśāt prasūtivyasanād api <br />
+                  cirātivṛttāḥ prāgjanmabhogā na smṛtigocarāḥ //
+                   <span class="ref">YSsi_154</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  prāyaṇām naraka-kleśāt prasūti-vyasanād api 
+                  cira-ativṛttāḥ prāg-janmabhogā na smṛti-gocarāḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_155">
+                  yugapajjāyamāneṣu (sukhaduḥkhādiṣu sphuṭaḥ) <br />
+                  āśrayāsaṅkaras tatra katham aikārthyavibhramaḥ //
+                   <span class="ref">YSsi_155</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yugapaj-jāyamāneṣu (sukha-duḥkha-ādiṣu sphuṭaḥ) 
+                  āśraya-asaṅkaras tatra katham aikārthya-vibhramaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_156">
+                  na ca prātisvikāvidyākalpitasvasvadṛśyakaiḥ <br />
+                  jīvair anekair apy eṣā lokayātropapadyate //
+                   <span class="ref">YSsi_156</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na ca prātisvika-avidyākalpita-sva-sva-dṛśyakaiḥ 
+                  jīvair anekair apy eṣā loka-yātra ūpapadyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_157">
+                  paravartānabhijñās te svasvasvapnaikadarśinaḥ <br />
+                  kathaṃ pravartayeyus tāṃ saṅgādyekanibandhanām //
+                   <span class="ref">YSsi_157</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  para-varta ānabhijñās te sva-sva-svapna-eka-darśinaḥ 
+                  kathaṃ pravartayeyus tāṃ saṅga-ādy-eka-nibandhanām //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_158">
+                  kiṅ ca svayaṃprakāśatvavibhutvaikatvanityatāḥ <br />
+                  tvadabhyupetā bādheran saṃvidas te 'dvitīyatām //
+                   <span class="ref">YSsi_158</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kiṅ ca svayaṃ-prakāśatvavibhutva-ekatva-nityatāḥ 
+                  tvad-abhyupetā bādheran saṃvidas te 'dvitīyatām //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_159">
+                  saṃvid eva na te dharmāḥ, siddhāyām api saṃvidi <br />
+                  vivādadarśanāt teṣu; tardrūpāṇāṃ ca bhedataḥ //
+                   <span class="ref">YSsi_159</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  saṃvid eva na te dharmāḥ, siddhāyām api saṃvidi 
+                  vivāda-darśanāt teṣu; tardrūpāṇāṃ ca bhedataḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_160">
+                  na ca te bhrāntisiddhās te yenādvaitāvirodhinaḥ <br />
+                  tattvāvedakavedāntavākyasiddhā hi te guṇāḥ //
+                   <span class="ref">YSsi_160</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na ca te bhrānti-siddhās te yena advaita-avirodhinaḥ 
+                  tattva-āvedaka-vedāntavākya-siddhā hi te guṇāḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_161">
+                  ānandasvaprakāśatvanityatvamahimādy atha <br />
+                  brahmasvarūpam eveṣṭaṃ, tatrāpīdaṃ vivicyatām //
+                   <span class="ref">YSsi_161</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ānanda-sva-prakāśatvanityatva-mahima-ādy atha 
+                  brahma-svarūpam eva iṣṭaṃ, tatra api idaṃ vivicyatām //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_162">
+                  brahmeti yāvan nirdiṣṭaṃ tanmātraṃ kiṃ sukhādayaḥ <br />
+                  atha vā tasya te, yad vā ta eva brahmasaṃjñinaḥ //
+                   <span class="ref">YSsi_162</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  brahma iti yāvan nirdiṣṭaṃ tan-mātraṃ kiṃ sukha-ādayaḥ 
+                  atha vā tasya te, yad vā ta eva brahma-saṃjñinaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_163">
+                  ādye tattatpadāmnānavaiyarthyaṃ vedalokayoḥ <br />
+                  pūrvoktanītyā bhedaś ca, jagajjanmādikāraṇam //
+                   <span class="ref">YSsi_163</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ādye tat-tat-pada-āmnānavaiyarthyaṃ veda-lokayoḥ 
+                  pūrva-ukta-nītyā bhedaś ca, jagaj-janma-ādi-kāraṇam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_164">
+                  abhyupetyaiva hi brahma vivādās teṣu vadinām <br />
+                  dvitīye saiva tair eva brahmaṇaḥ sadvitīyatā //
+                   <span class="ref">YSsi_164</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  abhyupetya eva hi brahma vivādās teṣu vadinām 
+                  dvitīye sa aiva tair eva brahmaṇaḥ sa-dvitīyatā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_165">
+                  tṛtīye brahma bhidyeta tanmātratvāt pade pade <br />
+                  tatsamūho 'tha vā brahma taruvṛndavanādivat //
+                   <span class="ref">YSsi_165</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tṛtīye brahma bhidyeta tan-mātratvāt pade pade 
+                  tat-samūho 'tha vā brahma taru-vṛnda-vana-ādivat //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_166">
+                  prakarṣaś ca prakāśaś ca bhinnāv evārkavartinau <br />
+                  tena na kvāpi vākyārtho vibhāgo 'sti nidarśanam //
+                   <span class="ref">YSsi_166</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  prakarṣaś ca prakāśaś ca bhinnāv eva arka-vartinau 
+                  tena na kva api vākya-artho vibhāgo 'sti nidarśanam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_167">
+                  jāḍyaduḥkhādyapohena yady ekatraiva vartitā <br />
+                  jñanānandādiśabdānāṃ na satas sadvitīyatā //
+                   <span class="ref">YSsi_167</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  jāḍya-duḥkha-ādy-apohena yady ekatra eva vartitā 
+                  jñana-ānanda-ādi-śabdānāṃ na satas sa-dvitīyatā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_168">
+                  apohāḥ kiṃ na santy eva, santo vā, nobhaye 'pi vā <br />
+                  sattve sat sadvitīyaṃ syāj jaḍādyātmakatetare (tā pare) //
+                   <span class="ref">YSsi_168</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  apohāḥ kiṃ na santy eva, santo vā, na ubhaye 'pi vā 
+                  sattve sat sa-dvitīyaṃ syāj jaḍa-ādy-ātmakata ītare (tā pare) //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_169">
+                  sadasadvyatirekoktiḥ pūrvam eva parākṛtā <br />
+                  tathātve ca ghaṭādibhyo brahmāpi na viśiṣyate //
+                   <span class="ref">YSsi_169</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sad-asad-vyatireka-uktiḥ pūrvam eva parākṛtā 
+                  tathātve ca ghaṭa-ādibhyo brahma api na viśiṣyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_170">
+                  kiñ cāpohyajaḍatvādiviruddhārthāsāmarpaṇe <br />
+                  naiva tattadapohyate tadekārthaiḥ padair iva //
+                   <span class="ref">YSsi_170</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kiñ ca apohya-jaḍatva-ādiviruddha-artha-asāmarpaṇe 
+                  na eva tat-tad-apohyate tad-eka-arthaiḥ padair iva //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_171">
+                  pratiyogini dṛśye tu yā bhāvāntaramātradhīḥ <br />
+                  saivābhāva itīhāpi sadbhis te sadvitīyatā //
+                   <span class="ref">YSsi_171</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  pratiyogini dṛśye tu yā bhāva-antara-mātra-dhīḥ 
+                  sa aiva abhāva iti iha api sadbhis te sa-dvitīyatā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_172">
+                  bhūtabhautikabhedānāṃ sadasadvyatirrekitā <br />
+                  kuto 'vasīyate kiṃ nu pratyakṣāder utāgamāt //
+                   <span class="ref">YSsi_172</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  bhūta-bhautika-bhedānāṃ sad-asad-vyatirrekitā 
+                  kuto 'vasīyate kiṃ nu pratyakṣa-ader utā agamāt //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_173">
+                  pratyakṣādīni mānāni svaṃ svam arthaṃ yathāyatham <br />
+                  vyavacchindanti jāyanta iti yāvat svasākṣikam //
+                   <span class="ref">YSsi_173</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  pratyakṣa-ādīni mānāni svaṃ svam arthaṃ yathā-yatham 
+                  vyavacchindanti jāyanta iti yāvat sva-sākṣikam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_174">
+                  yathāgrataḥ sthite nīle nīlimānyakathā na, dhīḥ <br />
+                  ekākārā, na hi tayā sphaṭike dhavale matiḥ //
+                   <span class="ref">YSsi_174</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yatha āgrataḥ sthite nīle nīlimānya-kathā na, dhīḥ 
+                  eka-ākārā, na hi tayā sphaṭike dhavale matiḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_175">
+                  kṣīre madhuradhīr yadṛk, naiva nimbakaṣāyadhīḥ <br />
+                  vyavahārāś ca niyataḥ sarve laukikavaidikāḥ //
+                   <span class="ref">YSsi_175</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kṣīre madhura-dhīr yadṛk, na eva nimba-kaṣāya-dhīḥ 
+                  vyavahārāś ca niyataḥ sarve laukika-vaidikāḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_176">
+                  satyaṃ pratītir asaty asyā mūlaṃ nāstīti cen na tat <br />
+                  sā ced asti tasyā mūlaṃ kalpyatāṃ kāryabhūtayā //
+                   <span class="ref">YSsi_176</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  satyaṃ pratītir asaty asyā mūlaṃ na asti iti cen na tat 
+                  sā ced asti tasyā mūlaṃ kalpyatāṃ kārya-bhūtayā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_177">
+                  kḷpaṃ cendriyaliṅgādi tadbhāvānuvidhānataḥ <br />
+                  yaugapadyakramāyogādyavacchedavidhānayoḥ //
+                   <span class="ref">YSsi_177</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kḷpaṃ ca indriya-liṅga-ādi tad-bhāva-anuvidhānataḥ 
+                  yaugapadya-krama-ayoga-ādyavaccheda-vidhānayoḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_178">
+                  aikyāyogāc ca bhedo na pratyakṣa iti yo bhramaḥ <br />
+                  bhedetaretarābhāvavivekāgrahaṇena saḥ //
+                   <span class="ref">YSsi_178</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  aikya-ayogāc ca bhedo na pratyakṣa iti yo bhramaḥ 
+                  bheda-itaretara-abhāvaviveka-agrahaṇena saḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_179">
+                  svarūpam eva bhāvābāṃ pratyakṣeṇa pariśurat <br />
+                  bhedavyāhārahetuḥ syāt pratiyogivyapekṣayā //
+                   <span class="ref">YSsi_179</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  svarūpam eva bhāvābāṃ pratyakṣeṇa pariśurat 
+                  bheda-vyāhāra-hetuḥ syāt pratiyogi-vyapekṣayā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_180">
+                  yathā tanmātradhīr nānānāstivyāhārasādhanī <br />
+                  hlasvadīrghatvabhedā vā yathaikatra ṣaḍaṅgule //
+                   <span class="ref">YSsi_180</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yathā tan-mātra-dhīr nānānāsti-vyāhāra-sādhanī 
+                  hlasva-dīrghatva-bhedā vā yatha aikatra ṣaḍ-aṅgule //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_181">
+                  evaṃ vyavasthitānekaprakārākāravattayā <br />
+                  pratyakṣasya prapañcasya tadbhāvo 'śakyanihnavaḥ //
+                   <span class="ref">YSsi_181</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  evaṃ vyavasthita-anekaprakāra-ākāravattayā 
+                  pratyakṣasya prapañcasya tad-bhāvo 'śakya-nihnavaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_182">
+                  āgamaḥ kāryaniṣṭhatvād īdṛśe 'rthe na tu pramā <br />
+                  prāmāṇye 'py anvayāyogyapadārthatvān na bodhakaḥ //
+                   <span class="ref">YSsi_182</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  āgamaḥ kārya-niṣṭhatvād īdṛśe 'rthe na tu pramā 
+                  prāmāṇye 'py anvaya-ayogyapada-arthatvān na bodhakaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_183">
+                  nāsat pratīteḥ, bādhāc ca na sad ity api yan na tat <br />
+                  pratīter eva sat kiṃ na bādhān nāsat kuto jagat ? <br />
+                  tasmād avidyayaiveyam avidyā bhavatāśritā //
+                   <span class="ref">YSsi_183</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na asat pratīteḥ, bādhāc ca na sad ity api yan na tat 
+                  pratīter eva sat kiṃ na bādhān na asat kuto jagat ? 
+                  tasmād avidyaya aiva iyam avidyā bhavatā āśritā //
+                  
+                  </p>
+               <p class="analysis">
+                  
+                  sarvāṇy eva pramāṇāni svaṃ svam arthaṃ yathā-uditam 
+                  asato 'rtha-antarebhyaś ca vyavacchindanti bhānti naḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_184">
+                  kiñ ca bhedaprapañcasya dharmo mithyātvalakṣaṇaḥ <br />
+                  mithyā vā paramārtho vā nādyaḥ kalpo 'yam añjasā //
+                   <span class="ref">YSsi_184</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kiñ ca bheda-prapañcasya dharmo mithyātva-lakṣaṇaḥ 
+                  mithyā vā parama-artho vā na adyaḥ kalpo 'yam añjasā //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_185">
+                  tanmithyātve prapañcasya satyatvaṃ durapahnavam <br />
+                  pāramārthye 'pi tenaiva tavādvaitaṃ vihanyate //
+                   <span class="ref">YSsi_185</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tan-mithyātve prapañcasya satyatvaṃ durapahnavam 
+                  pāramārthye 'pi tena eva tava advaitaṃ vihanyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_183">
+                  sarvāṇy eva pramāṇāni svaṃ svam arthaṃ yathoditam <br />
+                  asato 'rthāntarebhyaś ca vyavacchindanti bhānti naḥ //
+                   <span class="ref">YSsi_183</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na asat pratīteḥ, bādhāc ca na sad ity api yan na tat 
+                  pratīter eva sat kiṃ na bādhān na asat kuto jagat ? 
+                  tasmād avidyaya aiva iyam avidyā bhavatā āśritā //
+                  
+                  </p>
+               <p class="analysis">
+                  
+                  sarvāṇy eva pramāṇāni svaṃ svam arthaṃ yathā-uditam 
+                  asato 'rtha-antarebhyaś ca vyavacchindanti bhānti naḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_187">
+                  tathā hīha ghaṭo 'stīti yeyaṃ dhīr upajāyate <br />
+                  sā tadā tasya nābhāvaṃ paṭatvaṃ vānumanyate //
+                   <span class="ref">YSsi_187</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tathā hi iha ghaṭo 'sti iti ya īyaṃ dhīr upajāyate 
+                  sā tadā tasya na abhāvaṃ paṭatvaṃ va ānumanyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_188">
+                  nanv astīti yad uktaṃ kiṃ tanmātraṃ ghaṭa ity api <br />
+                  arthāntaraṃ vā, tanmātre sadadvaitaṃ prasajyate <br />
+                  arthāntaratve siddhaṃ tat sadasadbhyāṃ vilakṣaṇam //
+                   <span class="ref">YSsi_188</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nanv asti iti yad uktaṃ kiṃ tan-mātraṃ ghaṭa ity api 
+                  artha-antaraṃ vā, tan-mātre sad-advaitaṃ prasajyate 
+                  artha-antaratve siddhaṃ tat sad-asadbhyāṃ vilakṣaṇam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_189">
+                  yady evam asti brahmeti brahmaupaniṣadaṃ matam <br />
+                  ghaṭavat sadasattvābhyām anirvācyaṃ tavāpatet //
+                   <span class="ref">YSsi_189</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yady evam asti brahmeti brahmaupaniṣadaṃ matam 
+                  ghaṭavat sad-asattvābhyām anirvācyaṃ tavā apatet //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_190">
+                  ānandasatyajñānādinirdeśair eva vaidikaiḥ <br />
+                  brahmaṇo 'py atathābhāvas tvayaivaivaṃ samarthitaḥ //
+                   <span class="ref">YSsi_190</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ānanda-satya-jñāna-ādinirdeśair eva vaidikaiḥ 
+                  brahmaṇo 'py atathā-bhāvas tvaya aiva evaṃ samarthitaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_191">
+                  sadasadvyatirekoktiḥ prapañcasya ca hīyate <br />
+                  yad yathā kiñcid ucyeta tatsarvasya tathā bhavet //
+                   <span class="ref">YSsi_191</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sad-asad-vyatireka-uktiḥ prapañcasya ca hīyate 
+                  yad yathā kiñcid ucyeta tat-sarvasya tathā bhavet //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_192">
+                  tasmād astīti saṃvittir jāyamānā ghaṭādiṣu <br />
+                  tattatpadārthasaṃsthānapāramārthyāvabodhinī //
+                   <span class="ref">YSsi_192</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tasmād asti iti saṃvittir jāyamānā ghaṭa-ādiṣu 
+                  tat-tat-pada-artha-saṃsthānapāramārthya-avabodhinī //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_193">
+                  sajātīyavijātīyavyavacchedanibandhanaiḥ <br />
+                  svaiḥ svair vyavasthitai rūpaiḥ padārthānāṃ tu yā sthitiḥ <br />
+                  sā sattā na svatantrānyā tatrādvaitakathā katham //
+                   <span class="ref">YSsi_193</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  sajātīya-vijātīyavyavaccheda-nibandhanaiḥ 
+                  svaiḥ svair vyavasthitai rūpaiḥ pada-arthānāṃ tu yā sthitiḥ 
+                  sā sattā na sva-tantra ānyā tatra advaita-kathā katham //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_194">
+                  na ca nānāvidhākārapratītiḥ śakyanihnavā <br />
+                  na vedyaṃ vittidharmaḥ syād iti yatprāgudīritam //
+                   <span class="ref">YSsi_194</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  na ca nānā-vidha-ākārapratītiḥ śakya-nihnavā 
+                  na vedyaṃ vitti-dharmaḥ syād iti yat-prāg-udīritam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_195">
+                  tenāpi sādhitaṃ kiñcit saṃvido 'sti na vā tvayā <br />
+                  asti cet pakṣapātaḥ syān na cet te viphalaḥ śramaḥ //
+                   <span class="ref">YSsi_195</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tena api sādhitaṃ kiñcit saṃvido 'sti na vā tvayā 
+                  asti cet pakṣa-pātaḥ syān na cet te viphalaḥ śramaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_196">
+                  ataḥ svarasavispaṣṭadṛṣṭabhedās tu saṃvidaḥ <br />
+                  (yathāvasthāyibhir bāhyai)r naikyaṃ yānti ghaṭādibhiḥ //
+                   <span class="ref">YSsi_196</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  ataḥ sva-rasa-vispaṣṭadṛṣṭabhedās tu saṃvidaḥ 
+                  (yathā-avasthāyibhir bāhyai)r na ekyaṃ yānti ghaṭa-ādibhiḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_197">
+                  sahopalambhaniyamo na khalv ekaikasaṃvidā <br />
+                  na ced asti sasāmānyaṃ sarvaṃ saṃvedanāspadam //
+                   <span class="ref">YSsi_197</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  saha-upalambha-niyamo na khalv eka-eka-saṃvidā 
+                  na ced asti sa-sāmānyaṃ sarvaṃ saṃvedana-āspadam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_198">
+                  sahopalambhaniyamān nānyo 'rthaḥ saṃvido bhavet <br />
+                  yad etad aparādhīnasvaprakāśaṃ tad eva hi <br />
+                  svayamprakāśatāśabdam iti bṛddhāḥ pracakṣate //
+                   <span class="ref">YSsi_198</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  saha-upalambha-niyamān na anyo 'rthaḥ saṃvido bhavet 
+                  yad etad apara-adhīnasva-prakāśaṃ tad eva hi 
+                  svayam-prakāśatā-śabdam iti bṛddhāḥ pracakṣate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_199">
+                  yasminn abhāsamāne 'pi yo nāmārtho na bhāsate <br />
+                  nāsāv arthāntaras tasmān mithyendur iva candrataḥ //
+                   <span class="ref">YSsi_199</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yasminn abhāsamāne 'pi yo nāma artho na bhāsate 
+                  na asāv artha-antaras tasmān mithya īndur iva candrataḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_200">
+                  abhāsamāne vijñāne na cātmārthāvabhāsanam <br />
+                  iti saṃvidvivartatvaṃ prapañcaḥ sphuṭam añcati //
+                   <span class="ref">YSsi_200</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  abhāsamāne vijñāne na cā atma-artha-avabhāsanam 
+                  iti saṃvid-vivartatvaṃ prapañcaḥ sphuṭam añcati //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_201">
+                  (maivaṃ smārthān paribhavaḥ) pratyakṣeṇa balīyasā <br />
+                  saṃrakṣyamāṇabhedās te nānumānānuvartinaḥ //
+                   <span class="ref">YSsi_201</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  (ma aivaṃ smārthān paribhavaḥ) pratyakṣeṇa balīyasā 
+                  saṃrakṣyamāṇa-bhedās te na anumāna-anuvartinaḥ //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_202">
+                  tathā hīdam ahaṃ vedmīty anyonyānātmanā sphuṭam <br />
+                  trayaṃ sākṣāc cakāstīti sarveṣām atmasākṣikam //
+                   <span class="ref">YSsi_202</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tathā hi idam ahaṃ vedmi ity anyonya-anātmanā sphuṭam 
+                  trayaṃ sākṣāc cakāsti iti sarveṣām atma-sākṣikam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_203">
+                  pratyakṣapratipakṣaṃ ca nānumānaṃ pravartate <br />
+                  na hi vahner anuṣṇatvaṃ dravyatvād anumīyate //
+                   <span class="ref">YSsi_203</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  pratyakṣa-pratipakṣaṃ ca na anumānaṃ pravartate 
+                  na hi vahner anuṣṇatvaṃ dravyatvād anumīyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_204">
+                  kiñ ca hetur viruddho 'yaṃ sahabhāvo dvayor yataḥ <br />
+                  tavāpi na hi saṃvitiḥ svātmanā saha bhāsate //
+                   <span class="ref">YSsi_204</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  kiñ ca hetur viruddho 'yaṃ saha-bhāvo dvayor yataḥ 
+                  tava api na hi saṃvitiḥ sva-ātmanā saha bhāsate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_205">
+                  nīlādyupaplavāpetasvacchacinmātrasantatiḥ <br />
+                  svāpādau bhāsate, naivam arthaḥ saṃvedanāt pṛthak <br />
+                  tena saṃvedanaṃ satyaṃ aṃvedyo 'rthas tv asann iti //
+                   <span class="ref">YSsi_205</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  nīla-ādy-upaplava-apetasvaccha-cin-mātra-santatiḥ 
+                  svāpa-ādau bhāsate, na evam arthaḥ saṃvedanāt pṛthak 
+                  tena saṃvedanaṃ satyaṃ aṃvedyo 'rthas tv asann iti //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_206">
+                  tad etad aparāmṛṣṭasvavāgbādhasya jalpitam <br />
+                  ahopalambhaniyamo yenaivaṃ sati hīyate //
+                   <span class="ref">YSsi_206</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  tad etad aparāmṛṣṭasva-vāg-bādhasya jalpitam 
+                  aha-upalambha-niyamo yena evaṃ sati hīyate //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         
+         <div class="row">
+            <div class="column">
+               <p id="YSsi_207">
+                  yasmād ṛte yad ābhāti bhāti (ta)smād ṛte 'pi tat <br />
+                  ghaṭād ṛte 'pi nirbhātaḥ paṭād iva ghaṭaḥ svayam //
+                   <span class="ref">YSsi_207</span></p>
+            </div>
+            <div class="column">
+               <p class="analysis">
+                  
+                  yasmād ṛte yad ābhāti bhāti (ta)smād ṛte 'pi tat 
+                  ghaṭād ṛte 'pi nirbhātaḥ paṭād iva ghaṭaḥ svayam //
+                  
+                  </p>
+            </div>
+         </div>
+         
+         
+         </div>
+   </body>
+</html>

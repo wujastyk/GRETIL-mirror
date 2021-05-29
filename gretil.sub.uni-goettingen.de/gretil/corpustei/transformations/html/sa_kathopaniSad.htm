@@ -1,0 +1,943 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Kathopaniṣad (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Kathopaniṣad</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_kathopaniSad.xml">sa_kathopaniSad.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>the Vienna University Student Team</p>
+      <p class="noindent"><b>Contribution: </b>the Vienna University Student Team</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Olivelle, Patrick: The Early Upaniṣads. Annotated Text and Translation. New York :
+            1998, pp. 374-402.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/1_veda/4_upa/kathop_u.htm">kathop_u.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Katha-Upanisad
+            <br />
+            <br />Based on Olivelle, Patrick: The Early Upaniṣads. Annotated Text and Translation. New
+            York : 1998, pp. 374-402.
+            <br />
+            <br />Input and proofreading by the Vienna University Student Team (SoSe 2016)
+            <br />[GRETIL-Version vom 09.11.2016]
+            <br />
+            <br />STRUCTURE OF REFERENCES:
+            <br />KaU_n.nn = Kaṭhopaniṣat_Vallī.Verse/Section
+            <br />
+            <br />ADDITIONAL NOTE
+            <br />The distinction between anusvāra and anunāsika
+            <br />has been dropped in accordance with GRETIL's character list
+            <br />in order to ensure searchability across multiple files.
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>kaṭhopaniṣat</p>
+         
+         
+         <p>
+            uśan ha vai vājaśravasaḥ sarvavedasaṃ dadau /<br />
+            tasya ha naciketā nāma putra āsa // KaU_1.1 //
+            </p>
+         
+         
+         <p>
+            taṃ ha kumāraṃ santaṃ dakṣiṇāsu nīyamānāsu śraddhāviveśa /<br />
+            so 'manyata // KaU_1.2 //
+            </p>
+         
+         
+         <p>
+            pītodakā jagdhatṛṇā dugdhadohā nirindriyāḥ /<br />
+            anandā nāma te lokās tān sa gacchati tā dadat // KaU_1.3 //
+            </p>
+         
+         
+         <p>
+            sa hovāca pitaraṃ tata kasmai māṃ dāsyasīti /<br />
+            dvitīyaṃ tṛtīyam /<br />
+            taṃ hovāca mṛtyave tvā dadāmīti // KaU_1.4 //
+            </p>
+         
+         
+         <p>
+            bahūnām emi prathamo bahūnām emi madhyamaḥ /<br />
+            kiṃ svid yamasya kartavyaṃ yan mayādya kariṣyati // KaU_1.5 //
+            </p>
+         
+         
+         <p>
+            anupaśya yathā pūrve pratipaśya tathāpare /<br />
+            sasyam iva martyaḥ pacyate sasyam ivājāyate punaḥ // KaU_1.6 //
+            </p>
+         
+         
+         <p>
+            vaiśvānaraḥ praviśati atithir brāhmaṇo gṛhān /<br />
+            tasyaitāṃ śāntiṃ kurvanti hara vaivasvatodakam // KaU_1.7 //
+            </p>
+         
+         
+         <p>
+            āśāpratīkṣe saṃgataṃ sūnṛtāṃ ca iṣṭāpūrte putrapaśūṃś ca sarvān /<br />
+            etad vṛṅkte puruṣasyālpamedhaso yasyānaśnan vasati brāhmaṇo gṛhe // KaU_1.8 //
+            </p>
+         
+         
+         <p>
+            tisro rātrīr yad avatsīr gṛhe me anaśnan brahmann atithir namasyaḥ /<br />
+            namas te 'stu brahman svasti me 'stu tasmāt prati trīn varān vṛṇīṣva // KaU_1.9 //
+            </p>
+         
+         
+         <p>
+            śāntasaṅkalpaḥ sumanā yathā syād vītamanyur gautamo mābhi mṛtyo /<br />
+            tvatprasṛṣṭaṃ mābhivadet pratīta etat trayāṇāṃ prathamaṃ varaṃ vṛṇe // KaU_1.10 //
+            </p>
+         
+         
+         <p>
+            yathā purastād bhavitā pratīta auddālakir āruṇir matprasṛṣṭaḥ /<br />
+            sukhaṃ rātrīḥ śayitā vītamanyus tvāṃ dadṛśivān mṛtyumukhāt pramuktam // KaU_1.11 //
+            </p>
+         
+         
+         <p>
+            svarge loke na bhayaṃ kiṃcanāsti na tatra tvaṃ na jarayā bibheti /<br />
+            ubhe tīrtvā aśanāyāpipāse śokātigo modate svargaloke // KaU_1.12 //
+            </p>
+         
+         
+         <p>
+            sa tvam agniṃ svargyam adhyeṣi mṛtyo prabrūhi taṃ śraddadhānāya mahyam /<br />
+            svargalokā amṛtatvaṃ bhajanta etad dvitīyena vṛṇe vareṇa // KaU_1.13 //
+            </p>
+         
+         
+         <p>
+            pra te bravīmi tad u me nibodha svargyam agniṃ naciketaḥ prajānan /<br />
+            anantalokāptim atho pratiṣṭhāṃ viddhi tvam etaṃ nihitaṃ guhāyām // KaU_1.14 //
+            </p>
+         
+         
+         <p>
+            lokādim agniṃ tam uvāca tasmai yā iṣṭakā yāvatīr vā yathā vā /<br />
+            sa cāpi tat pratyavadad yathoktam athāsya mṛtyuḥ punar āha tuṣṭaḥ // KaU_1.15 //
+            </p>
+         
+         
+         <p>
+            tam abravīt prīyamāṇo mahātmā varaṃ tavehādya dadāmi bhūyaḥ /<br />
+            tavaiva nāmnā bhavitāyam agniḥ sṛṅkāṃ cemām anekarūpāṃ gṛhāṇa // KaU_1.16 //
+            </p>
+         
+         
+         <p>
+            triṇāciketas tribhir etya sandhiṃ trikarmakṛt tarati janmamṛtyū /<br />
+            brahmajajñaṃ devam īḍyaṃ viditvā nicāyyemāṃ śāntim atyantam eti // KaU_1.17 //
+            </p>
+         
+         
+         <p>
+            triṇāciketas trayam etad viditvā ya evaṃ vidvāṃś cinute nāciketam /<br />
+            sa mṛtyupāśān purataḥ praṇodya śokātigo modate svargaloke // KaU_1.18 //
+            </p>
+         
+         
+         <p>
+            eṣa te 'gnir naciketaḥ svargyo yam avṛṇīthā dvitīyena vareṇa /<br />
+            etam agniṃ tavaiva pravakṣyanti janāsas tṛtīyaṃ varaṃ naciketo vṛṇīṣva // KaU_1.19
+            //
+            </p>
+         
+         
+         <p>
+            yeyaṃ prete vicikitsā manuṣye astīty eke nāyam astīti caike /<br />
+            etad vidyām anuśiṣṭas tvayāhaṃ varāṇām eṣa varas tṛtīyaḥ // KaU_1.20 //
+            </p>
+         
+         
+         <p>
+            devair atrāpi vicikitsitaṃ purā na hi sujñeyam aṇur eṣa dharmaḥ /<br />
+            anyaṃ varaṃ naciketo vṛṇīṣva mā moparotsīr ati mā sṛjainam // KaU_1.21 //
+            </p>
+         
+         
+         <p>
+            devair atrāpi vicikitsitaṃ kila tvaṃ ca mṛtyo yan na sujñeyam āttha /<br />
+            vaktā cāsya tvādṛg anyo na labhyo nānyo varas tulya etasya kaścit // KaU_1.22 //
+            </p>
+         
+         
+         <p>
+            śatāyuṣaḥ putrapautrān vṛṇīṣva bahūn paśūn hastihiraṇyam aśvān /<br />
+            bhūmer mahad āyatanaṃ vṛṇīṣva svayaṃ ca jīva śarado yāvad icchasi // KaU_1.23 //
+            </p>
+         
+         
+         <p>
+            etat tulyaṃ yadi manyase varaṃ vṛṇīṣva vittaṃ cirajīvikāṃ ca /<br />
+            mahābhūmau naciketas tvam edhi kāmānāṃ tvā kāmabhājaṃ karomi // KaU_1.24 //
+            </p>
+         
+         
+         <p>
+            ye ye kāmā durlabhā martyaloke sarvān kāmāṃś chandataḥ prārthayasva /<br />
+            imā rāmāḥ sarathāḥ satūryā na hīdṛśā lambhanīyā manuṣyaiḥ /<br />
+            ābhir matprattābhiḥ paricārayasva naciketo maraṇaṃ mānuprākṣīḥ // KaU_1.25 //
+            </p>
+         
+         
+         <p>
+            śvobhāvā martyasya yad antakaitat sarvendriyāṇāṃ jarayanti tejaḥ /<br />
+            api sarvaṃ jīvitam alpam eva tavaiva vāhās tava nṛtyagīte // KaU_1.26 //
+            </p>
+         
+         
+         <p>
+            na vittena tarpaṇīyo manuṣyo lapsyāmahe vittam adrākṣma cet tvā /<br />
+            jīviṣyāmo yāvad īśiṣyasi tvaṃ varas tu me varaṇīyaḥ sa eva // KaU_1.27 //
+            </p>
+         
+         
+         <p>
+            ajīryatām amṛtānām upetya jīryan martyaḥ kvadhaḥsthaḥ prajānan /<br />
+            abhidhyāyan varṇaratipramodān atidīrghe jīvite ko rameta // KaU_1.28 //
+            </p>
+         
+         
+         <p>
+            yasminn idaṃ vicikitsanti mṛtyo yat sāmparāye mahati brūhi nas tat /<br />
+            yo 'yaṃ varo gūḍham anupraviṣṭo nānyaṃ tasmān naciketā vṛṇīte // KaU_1.29 //
+            </p>
+         
+         
+         <p>// iti prathamā vallī //</p>
+         
+         
+         <p>
+            anyac chreyo 'nyad utaiva preyas te ubhe nānārthe puruṣaṃ sinītaḥ /<br />
+            tayoḥ śreya ādadānasya sādhu bhavati hīyate 'rthād ya u preyo vṛṇīte // KaU_2.1 //
+            </p>
+         
+         
+         <p>
+            śreyaś ca preyaś ca manuṣyam etas tau saṃparītya vivinakti dhīraḥ /<br />
+            śreyo hi dhīro 'bhi preyaso vṛṇīte preyo mando yogakṣemād vṛṇīte // KaU_2.2 //
+            </p>
+         
+         
+         <p>
+            sa tvaṃ priyān priyarūpāṃś ca kāmān abhidhyāyan naciketo 'tyasrākṣīḥ /<br />
+            naitāṃ sṛṅkāṃ vittamayīm avāpto yasyāṃ majjanti bahavo manuṣyāḥ // KaU_2.3 //
+            </p>
+         
+         
+         <p>
+            dūram ete viparīte viṣūcī avidyā yā ca vidyeti jñātā /<br />
+            vidyābhīpsinaṃ naciketasaṃ manye na tvā kāmā bahavo 'lolupanta // KaU_2.4 //
+            </p>
+         
+         
+         <p>
+            avidyāyām antare vartamānāḥ svayaṃ dhīrāḥ paṇḍitaṃ manyamānāḥ /<br />
+            dandramyamāṇāḥ pariyanti mūḍhā andhenaiva nīyamānā yathāndhāḥ // KaU_2.5 //
+            </p>
+         
+         
+         <p>
+            na sāmparāyaḥ pratibhāti bālaṃ pramādyantaṃ vittamohena mūḍham /<br />
+            ayaṃ loko nāsti para iti mānī punaḥ punar vaśam āpadyate me // KaU_2.6 //
+            </p>
+         
+         
+         <p>
+            śravaṇāyāpi bahubhir yo na labhyaḥ śṛṇvanto 'pi bahavo yaṃ na vidyuḥ /<br />
+            āścaryo vaktā kuśalo 'sya labdhā āścaryo jñātā kuśalānuśiṣṭaḥ // KaU_2.7 //
+            </p>
+         
+         
+         <p>
+            na nareṇāvareṇa prokta eṣa suvijñeyo bahudhā cintyamānaḥ /<br />
+            ananyaprokte gatir atra nāsty aṇīyān hy atarkyam aṇupramāṇāt // KaU_2.8 //
+            </p>
+         
+         
+         <p>
+            naiṣā tarkeṇa matir āpaneyā proktānyenaiva sujñānāya preṣṭha /<br />
+            yāṃ tvam āpaḥ satyadhṛtir batāsi tvādṛṅ no bhūyān naciketaḥ preṣṭā // KaU_2.9 //
+            </p>
+         
+         
+         <p>
+            jānāmy ahaṃ śevadhir ity anityaṃ na hy adhruvaiḥ prāpyate hi dhruvaṃ tat /<br />
+            tato mayā nāciketaś cito 'gnir anityair dravyaiḥ prāptavān asmi nityam // KaU_2.10
+            //
+            </p>
+         
+         
+         <p>
+            kāmasya āptiṃ jagataḥ pratiṣṭhāṃ krator anantyam abhayasya pāram /<br />
+            stomamahad urugāyaṃ pratiṣṭhāṃ dṛṣṭvā dhṛtyā dhīro naciketo 'tyasrākṣīḥ // KaU_2.11
+            //
+            </p>
+         
+         
+         <p>
+            taṃ durdarśaṃ gūḍham anupraviṣṭaṃ guhāhitaṃ gahvareṣṭhaṃ purāṇam /<br />
+            adhyātmayogādhigamena devaṃ matvā dhīro harṣaśokau jahāti // KaU_2.12 //
+            </p>
+         
+         
+         <p>
+            etac chrutvā saṃparigṛhya martyaḥ pravṛhya dharmyam aṇum etam āpya /<br />
+            sa modate modanīyaṃ hi labdhvā vivṛtaṃ sadma naciketasaṃ manye // KaU_2.13 //
+            </p>
+         
+         
+         <p>
+            anyatra dharmād anyatrādharmād anyatrāsmāt kṛtākṛtāt /<br />
+            anyatra bhūtāc ca bhavyāc ca yat tat paśyasi tad vada // KaU_2.14 //
+            </p>
+         
+         
+         <p>
+            sarve vedā yat padam āmananti tapāṃsi sarvāṇi ca yad vadanti /<br />
+            yad icchanto brahmacaryaṃ caranti tat te padaṃ saṃgraheṇa bravīmi //
+            </p>
+         
+         
+         <p>om ity etat // KaU_2.15 //</p>
+         
+         
+         <p>
+            etad dhy evākṣaraṃ brahma etad dhy evākṣaraṃ param /<br />
+            etad dhy evākṣaraṃ jñātvā yo yad icchati tasya tat // KaU_2.16 //
+            </p>
+         
+         
+         <p>
+            etad ālambanaṃ śreṣṭham etad ālambanaṃ param /<br />
+            etad ālambanaṃ jñātvā brahmaloke mahīyate // KaU_2.17 //
+            </p>
+         
+         
+         <p>
+            na jāyate mriyate vā vipaścin nāyaṃ kutaścin na babhūva kaścit /<br />
+            ajo nityaḥ śāśvato 'yaṃ purāṇo na hanyate hanyamāne śarīre // KaU_2.18 //
+            </p>
+         
+         
+         <p>
+            hantā cen manyate hantuṃ hataś cen manyate hatam /<br />
+            ubhau tau na vijānīto nāyaṃ hanti na hanyate // KaU_2.19 //
+            </p>
+         
+         
+         <p>
+            aṇor aṇīyān mahato mahīyān ātmāsya jantor nihito guhāyām /<br />
+            tam akratuḥ paśyati vītaśoko dhātuprasādān mahimānam ātmanaḥ // KaU_2.20 //
+            </p>
+         
+         
+         <p>
+            āsīno dūraṃ vrajati śayāno yāti sarvataḥ /<br />
+            kas taṃ madāmadaṃ devaṃ mad anyo jñātum arhati // KaU_2.21 //
+            </p>
+         
+         
+         <p>
+            aśarīraṃ śarīreṣu anavastheṣv avasthitam /<br />
+            mahāntaṃ vibhum ātmānaṃ matvā dhīro na śocati // KaU_2.22 //
+            </p>
+         
+         
+         <p>
+            nāyam ātmā pravacanena labhyo na medhayā na bahunā śrutena /<br />
+            yam evaiṣa vṛṇute tena labhyas tasyaiṣa ātmā vivṛṇute tanūṃ svām // KaU_2.23 //
+            </p>
+         
+         
+         <p>
+            nāvirato duścaritān nāśānto nāsamāhitaḥ /<br />
+            nāśāntamānaso vāpi prajñānenainam āpnuyāt // KaU_2.24 //
+            </p>
+         
+         
+         <p>
+            yasya brahma ca kṣatraṃ ca ubhe bhavata odanaḥ /<br />
+            mṛtyur yasyopasecanaṃ ka itthā veda yatra saḥ // KaU_2.25 //
+            </p>
+         
+         
+         <p>// iti dvitīyā vallī //</p>
+         
+         
+         <p>
+            ṛtaṃ pibantau sukṛtasya loke guhāṃ praviṣṭau parame parārdhe /<br />
+            chāyātapau brahmavido vadanti pañcāgnayo ye ca triṇāciketāḥ // KaU_3.1 //
+            </p>
+         
+         
+         <p>
+            yaḥ setur ījānānām akṣaraṃ brahma yat param /<br />
+            abhayaṃ titīrṣatāṃ pāraṃ nāciketaṃ śakemahi // KaU_3.2 //
+            </p>
+         
+         
+         <p>
+            ātmānaṃ rathinaṃ viddhi śarīraṃ ratham eva tu /<br />
+            buddhiṃ tu sārathiṃ viddhi manaḥ pragraham eva ca // KaU_3.3 //
+            </p>
+         
+         
+         <p>
+            indriyāṇi hayān āhur viṣayāṃs teṣu gocarān /<br />
+            ātmendriyamanoyuktaṃ bhoktety āhur manīṣiṇaḥ // KaU_3.4 //
+            </p>
+         
+         
+         <p>
+            yas tv avijñānavān bhavaty ayuktena manasā sadā /<br />
+            tasyendriyāṇy avaśyāni duṣṭāśvā iva sāratheḥ // KaU_3.5 //
+            </p>
+         
+         
+         <p>
+            yas tu vijñānavān bhavati yuktena manasā sadā /<br />
+            tasyendriyāṇi vaśyāni sadaśvā iva sāratheḥ // KaU_3.6 //
+            </p>
+         
+         
+         <p>
+            yas tv avijñānavān bhavaty amanaskaḥ sadāśuciḥ /<br />
+            na sa tat padam āpnoti saṃsāraṃ cādhigacchati // KaU_3.7 //
+            </p>
+         
+         
+         <p>
+            yas tu vijñānavān bhavati samanaskaḥ sadā śuciḥ /<br />
+            sa tu tat padam āpnoti yasmād bhūyo na jāyate // KaU_3.8 //
+            </p>
+         
+         
+         <p>
+            vijñānasārathir yas tu manaḥ pragrahavān naraḥ /<br />
+            so 'dhvanaḥ pāram āpnoti tad viṣṇoḥ paramaṃ padam // KaU_3.9 //
+            </p>
+         
+         
+         <p>
+            indriyebhyaḥ parā hy arthā arthebhyaś ca paraṃ manaḥ /<br />
+            manasas tu parā buddhir buddher ātmā mahān paraḥ // KaU_3.10 //
+            </p>
+         
+         
+         <p>
+            mahataḥ param avyaktam avyaktāt puruṣaḥ paraḥ /<br />
+            puruśān na paraṃ kiṃcit sā kāṣṭhā sā parā gatiḥ // KaU_3.11 //
+            </p>
+         
+         
+         <p>
+            eṣa sarveṣu bhūteṣu gūḍho 'tmā na prakāśate /<br />
+            dṛṣyate tv agryayā buddhyā sūkṣmayā sūkṣmadarśibhiḥ // KaU_3.12 //
+            </p>
+         
+         
+         <p>
+            yacched vāṅmanasī prājñas tad yacchej jñāna ātmani /<br />
+            jñānam ātmani mahati niyacchet tad yacchec chānta ātmani // KaU_3.13 //
+            </p>
+         
+         
+         <p>
+            uttiṣṭhata jāgrata prāpya varān nibodhata /<br />
+            kṣurasya dhārā niśitā duratyayā durgaṃ pathas tat kavayo vadanti // KaU_3.14 //
+            </p>
+         
+         
+         <p>
+            aśabdam asparśam arūpam avyayaṃ tathārasaṃ nityam agandhavac ca yat /<br />
+            anādy anantaṃ mahataḥ paraṃ dhruvaṃ nicāyya tan mṛtyumukhāt pramucyate // KaU_3.15
+            //
+            </p>
+         
+         
+         <p>
+            nāciketam upākhyānaṃ mṛtyuproktaṃ sanātanam /<br />
+            uktvā śrutvā ca medhāvī brahmaloke mahīyate // KaU_3.16 //
+            </p>
+         
+         
+         <p>
+            ya imaṃ paramaṃ guhyaṃ śrāvayed brahmasaṃsadi /<br />
+            prayataḥ śrāddhakāle vā tad ānantyāya kalpate /<br />
+            tad ānantyāya kalpata iti // KaU_3.17 //
+            </p>
+         
+         
+         <p>// iti tṛtīyā vallī //</p>
+         
+         
+         <p>
+            parāñci khāni vyatṛṇat svayaṃbhūs tasmāt parāṅ paśyati nāntarātman /<br />
+            kaścid dhīraḥ pratyag ātmānam aikṣad āvṛttacakṣur amṛtatvam icchan // KaU_4.1 //
+            </p>
+         
+         
+         <p>
+            parācaḥ kāmān anuyanti bālās te mṛtyor yanti vitatasya pāśam /<br />
+            atha dhīrā amṛtatvaṃ viditvā dhruvam adhruveṣv iha na prārthayante // KaU_4.2 //
+            </p>
+         
+         
+         <p>
+            yena rūpaṃ rasaṃ gandhaṃ śabdān sparśīṃś ca maithunān /<br />
+            etenaiva vijānāti kim atra pariśiṣyate //
+            </p>
+         
+         
+         <p>etad vai tat // KaU_4.3 //</p>
+         
+         
+         <p>
+            svapnāntaṃ jāgaritāntaṃ cobhau yenānupaśyati /<br />
+            mahāntaṃ vibhum ātmānaṃ matvā dhīro na śocati // KaU_4.4 //
+            </p>
+         
+         
+         <p>
+            ya imaṃ madhvadaṃ veda ātmānaṃ jīvam antikāt /<br />
+            īśānaṃ bhūtabhavyasya na tato vijugupsate //
+            </p>
+         
+         
+         <p>etad vai tat // KaU_4.5 //</p>
+         
+         
+         <p>
+            yaḥ pūrvaṃ tapaso jātam adbhyaḥ pūrvam ajāyata /<br />
+            guhāṃ praviśya tiṣṭhantaṃ yo bhūtebhir vyapaśyata //
+            </p>
+         
+         
+         <p>etad vai tat // KaU_4.6 //</p>
+         
+         
+         <p>
+            yā prāṇena saṃbhavati aditir devatāmayī /<br />
+            guhāṃ praviśya tiṣṭhantīṃ yā bhūtebhir vyajāyata //
+            </p>
+         
+         
+         <p>etad vai tat // KaU_4.7 //</p>
+         
+         
+         <p>
+            araṇyor nihito jātavedā garbha iva subhṛto garbhiṇībhiḥ /<br />
+            divediva īḍyo jāgṛvadbhir haviṣmadbhir manuṣyebhir agniḥ //
+            </p>
+         
+         
+         <p>etad vai tat // KaU_4.8 //</p>
+         
+         
+         <p>
+            yataś codeti sūryo astaṃ yatra ca gacchati /<br />
+            taṃ devāḥ sarve arpitās tad u nātyeti kaścana //
+            </p>
+         
+         
+         <p>etad vai tat // KaU_4.9 //</p>
+         
+         
+         <p>
+            yad eveha tad amutra yad amutra tad anv iha /<br />
+            mṛtyoḥ sa mṛtyum āpnoti ya iha nāneva paśyati // KaU_4.10 //
+            </p>
+         
+         
+         <p>
+            manasaivedam āptavyaṃ neha nānāsti kiṃcana /<br />
+            mṛtyoḥ sa mṛtyuṃ gacchati ya iha nāneva paśyati // KaU_4.11 //
+            </p>
+         
+         
+         <p>
+            aṅguṣṭhamātraḥ puruṣo madhya ātmani tiṣṭhati /<br />
+            īśāno bhūtabhavyasya na tato vijugupsate //
+            </p>
+         
+         
+         <p>etad vai tat // KaU_4.12 //</p>
+         
+         
+         <p>
+            aṅguṣṭhamātraḥ puruṣo jyotir iva adhūmakaḥ /<br />
+            īśāno bhūtabhavyasya sa evādya sa u śvaḥ //
+            </p>
+         
+         
+         <p>etad vai tat // KaU_4.13 //</p>
+         
+         
+         <p>
+            yathodakaṃ durge vṛṣṭaṃ parvateṣu vidhāvati /<br />
+            evaṃ dharmān pṛthak paśyaṃs tān evānu vidhāvati // KaU_4.14 //
+            </p>
+         
+         
+         <p>
+            yathodakaṃ śuddhe śuddham āsiktaṃ tādṛg eva bhavati /<br />
+            evaṃ muner vijānata ātmā bhavati gautama // KaU_4.15 //
+            </p>
+         
+         
+         <p>// iti caturthī vallī //</p>
+         
+         
+         <p>
+            puram ekādaśadvāram ajasyāvakracetasaḥ /<br />
+            anuṣṭhāya na śocati vimuktaś ca vimucyate //
+            </p>
+         
+         
+         <p>etad vai tat // KaU_5.1 //</p>
+         
+         
+         <p>
+            haṃsaḥ śuciṣad vasur antarikṣasad dhotā vediṣad atithir duroṇasat /<br />
+            nṛṣad varasad ṛtasad vyomasad abjā gojā ṛtajā adrijā ṛtaṃ bṛhat // KaU_5.2 //
+            </p>
+         
+         
+         <p>
+            ūrdhvaṃ prāṇam unnayati apānaṃ pratyag asyati /<br />
+            madhye vāmanam āsīnaṃ viśve devā upāsate // KaU_5.3 //
+            </p>
+         
+         
+         <p>
+            asya visraṃsamānasya śarīrasthasya dehinaḥ /<br />
+            dehād vimucyamānasya kim atra pariśiṣyate //
+            </p>
+         
+         
+         <p>etad vai tat // KaU_5.4 //</p>
+         
+         
+         <p>
+            na prāṇena nāpānena martyo jīvati kaścana /<br />
+            itareṇa tu jīvanti yasminn etāv upāśritau // KaU_5.5 //
+            </p>
+         
+         
+         <p>
+            hanta ta idaṃ pravakṣyāmi guhyaṃ brahma sanātanam /<br />
+            yathā ca maraṇaṃ prāpya ātmā bhavati gautama // KaU_5.6 //
+            </p>
+         
+         
+         <p>
+            yonim anye prapadyante śarīratvāya dehinaḥ /<br />
+            sthāṇum anye 'nusaṃyanti yathākarma yathāśrutam // KaU_5.7 //
+            </p>
+         
+         
+         <p>
+            ya eṣa supteṣu jāgarti kāmaṃ kāmaṃ puruṣo nirmimāṇaḥ /<br />
+            tad eva śukraṃ tad brahma tad evāmṛtam ucyate /<br />
+            tasmiṃl lokāḥ śritāḥ sarve tad u nātyeti kaścana //
+            </p>
+         
+         
+         <p>etad vai tat // KaU_5.8 //</p>
+         
+         
+         <p>
+            agnir yathaiko bhuvanaṃ praviṣṭo rūpaṃ rūpaṃ pratirūpo babhūva /<br />
+            ekas tathā sarvabhūtāntarātmā rūpaṃ rūpaṃ pratirūpo bahiś ca // KaU_5.9 //
+            </p>
+         
+         
+         <p>
+            vāyur yathaiko bhuvanaṃ praviṣṭo rūpaṃ rūpaṃ pratirūpo babhūva /<br />
+            ekas tathā sarvabhūtāntarātmā rūpaṃ rūpaṃ pratirūpo bahiś ca // KaU_5.10 //
+            </p>
+         
+         
+         <p>
+            sūryo yathā sarvalokasya cakṣur na lipyate cākṣuṣair bāhyadoṣaiḥ /<br />
+            ekas tathā sarvabhūtāntarātmā na lipyate lokaduḥkhena bāhyaḥ // KaU_5.11 //
+            </p>
+         
+         
+         <p>
+            eko vaśī sarvabhūtāntarātmā ekaṃ rūpaṃ bahudhā yaḥ karoti /<br />
+            tam ātmasthaṃ ye 'nupaśyanti dhīrās teṣāṃ sukhaṃ śāśvataṃ netareṣām // KaU_5.12 //
+            </p>
+         
+         
+         <p>
+            nityo 'nityānāṃ cetanaś cetanānām eko bahūnāṃ yo vidadhāti kāmān /<br />
+            tam ātmasthaṃ ye 'nupaśyanti dhīrās teṣaṃ śāntiḥ śāśvatī netareṣām // KaU_5.13 //
+            </p>
+         
+         
+         <p>
+            tad etad iti manyante 'nirdeśyaṃ paramaṃ sukham /<br />
+            kathaṃ nu tad vijānīyāṃ kim u bhāti vibhāti vā // KaU_5.14 //
+            </p>
+         
+         
+         <p>
+            na tatra sūryo bhāti na candratārakaṃ nemā vidyuto bhānti kuto 'yam agniḥ /<br />
+            tam eva bhāntam anu bhāti sarvaṃ tasya bhāsā sarvam idaṃ vibhāti // KaU_5.15 //
+            </p>
+         
+         
+         <p>// iti pañcamī vallī //</p>
+         
+         
+         <p>
+            ūrdhvamūlo avākśākha eṣo 'śvatthaḥ sanātanaḥ /<br />
+            tad eva śukraṃ tad brahma tad evāmṛtam ucyate /<br />
+            tasmiṃl lokāḥ śritāḥ sarve tad u nātyeti kaścana //
+            </p>
+         
+         
+         <p>etad vai tat // KaU_6.1 //</p>
+         
+         
+         <p>
+            yad idaṃ kiṃca jagat sarvaṃ prāṇa ejati niḥsṛtam /<br />
+            mahad bhayaṃ vajram udyataṃ ya etad vidur amṛtās te bhavanti // KaU_6.2 //
+            </p>
+         
+         
+         <p>
+            bhayād asyāgnis tapati bhayāt tapati sūryaḥ /<br />
+            bhayād indraś ca vāyuś ca mṛtyur dhāvati pañcamaḥ // KaU_6.3 //
+            </p>
+         
+         
+         <p>
+            iha ced aśakad boddhuṃ prākśarīrasya visrasaḥ /<br />
+            tataḥ sargeṣu lokeṣu śarīratvāya kalpate // KaU_6.4 //
+            </p>
+         
+         
+         <p>
+            yathādarśe tathātmani yathā svapne tathā pitṛloke /<br />
+            yathāpsu parīva dadṛśe tathā gandharvaloke chāyātapayor iva brahmaloke // KaU_6.5
+            //
+            </p>
+         
+         
+         <p>
+            indriyāṇāṃ pṛthagbhāvam udayāstamayau ca yat /<br />
+            pṛthag utpadyamānānāṃ matvā dhīro na śocati // KaU_6.6 //
+            </p>
+         
+         
+         <p>
+            indriyebhyaḥ paraṃ mano manasaḥ sattvam uttamam /<br />
+            sattvād adhi mahānātmā mahato 'vyaktam uttamam // KaU_6.7 //
+            </p>
+         
+         
+         <p>
+            avyaktāt tu paraḥ puruṣo vyāpako 'liṅga eva ca /<br />
+            yaṃ jñātvā mucyate jantur amṛtatvaṃ ca gacchati // KaU_6.8 //
+            </p>
+         
+         
+         <p>
+            na saṃdṛśe tiṣṭhati rūpam asya na cakṣuṣā paśyati kaścanainam /<br />
+            hṛdā manīṣā manasābhikḷpto ya etad vidur amṛtās te bhavanti // KaU_6.9 //
+            </p>
+         
+         
+         <p>
+            yadā pañcāvatiṣṭhante jñānāni manasā saha /<br />
+            buddhiś ca na viceṣṭati tām āhuḥ paramāṃ gatim // KaU_6.10 //
+            </p>
+         
+         
+         <p>
+            tāṃ yogam iti manyante sthirām indriyadhāraṇām /<br />
+            apramattas tadā bhavati yogo hi prabhavāpyayau // KaU_6.11 //
+            </p>
+         
+         
+         <p>
+            naiva vācā na manasā prāptuṃ śakyo na cakṣuṣā /<br />
+            astīti bruvato 'nyatra kathaṃ tad upalabhyate // KaU_6.12 //
+            </p>
+         
+         
+         <p>
+            astīty evopalabdhavyas tattvabhāvena cobhayoḥ /<br />
+            astīty evopalabdhasya tattvabhāvaḥ prasīdati // KaU_6.13 //
+            </p>
+         
+         
+         <p>
+            yadā sarve pramucyante kāmā ye 'sya hṛdi śritāḥ /<br />
+            atha martyo 'mṛto bhavaty atra brahma samaśnute // KaU_6.14 //
+            </p>
+         
+         
+         <p>
+            yadā sarve prabhidyante hṛdayasyeha granthayaḥ /<br />
+            atha martyo 'mṛto bhavaty etāvad dhy anuśāsanam // KaU_6.15 //
+            </p>
+         
+         
+         <p>
+            śataṃ caikā ca hṛdayasya nāḍyas tāsāṃ mūrdhānam abhiniḥsṛtaikā /<br />
+            tayordhvam āyann amṛtatvam eti viṣvaṅṅ anyā utkramaṇe bhavati // KaU_6.16 //
+            </p>
+         
+         
+         <p>
+            aṅguṣṭhamātraḥ puruṣo 'ntarātmā sadā janānāṃ hṛdaye saṃniviṣṭaḥ /<br />
+            taṃ svāc charīrāt pravṛhen muñjād iveṣīkāṃ dhairyeṇa /<br />
+            taṃ vidyāc chukram amṛtaṃ taṃ vidyāc chukram amṛtam iti // KaU_6.17 //
+            </p>
+         
+         
+         <p>
+            mṛtyuproktāṃ naciketo 'tha labdhvā vidyām etāṃ yogavidhiṃ ca kṛtsnam /<br />
+            brahmaprāpto virajo 'bhūd vimṛtyur anyo 'py evaṃ yo vid adhyātmam eva // KaU_6.18
+            //
+            </p>
+         
+         
+         <p>// iti ṣaṣṭhī vallī //</p>
+         
+         
+         <p>// iti kaṭhopaniṣat //</p>
+         
+         </div>
+   </body>
+</html>

@@ -1,0 +1,2599 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Vīṇāśikhatantra (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Vīṇāśikhatantra</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vINAzikhatantra.xml">sa_vINAzikhatantra.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Somadeva Vasudeva</p>
+      <p class="noindent"><b>Contribution: </b>Somadeva Vasudeva</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>T. Goudriaan, Delhi 1985.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="note">remarks</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/saiva/vinst_au.htm">vinst_au.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Vinasikhatantra
+            <br />Based on the edition by T. Goudriaan, Delhi 1985.
+            <br />
+            <br />Input by Somadeva Vasudeva
+            <br />
+            <br />TEXT WITH PADA MARKERS:
+            <br />
+            <br />For a four-pada verse:
+            <br />........ $ ........ &amp;
+            <br />........ % ........ //
+            <br />
+            <br />For a six-pada verse:
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <h3>vīṇāśikhatantra</h3>
+         
+         
+         <p>oṃ namo mahābhairavāya</p>
+         
+         
+         <p id="VT_1">
+            kailāsaśikhare ramye nānāratnopaśobhite <br />
+            nānādrumalatākīrṇe siddhacāraṇasevite //
+             <span class="ref">VT_1</span></p>
+         
+         
+         <p id="VT_2">
+            tatra devaḥ suraśreṣṭhaḥ krīḍate umayā saha <br />
+            stūyamāno mahāsiddhair mahākālādibhir gaṇaiḥ //
+             <span class="ref">VT_2</span></p>
+         
+         
+         <p id="VT_3">
+            ṛṣibhiś ca mahābhāgair bhṛgvādyaiḥ surasattamaiḥ <br />
+            teṣāṃ madhye samutthāya devī vacanam abravīt //
+             <span class="ref">VT_3</span></p>
+         
+         
+         <p id="VT_4">
+            śrutaṃ sammohanaṃ tantraṃ tathā nayottaraṃ mahat <br />
+            śiraśchedaṃ ca deveśa tvatprasādāt sudurlabham //
+             <span class="ref">VT_4</span></p>
+         
+         
+         <p id="VT_5">
+            vratasādhyāni caitāni yāgasādhyāni vai punaḥ <br />
+            anyasārā yato loke prāyo draviṇavarjitāḥ //
+             <span class="ref">VT_5</span></p>
+         
+         
+         <p id="VT_6">
+            ebhyo 'pi cottaraṃ yasmāt kevalaṃ jñānasiddhidam <br />
+            sarvakāmapradaṃ deva yathāvad bījapañcakaṃ //
+             <span class="ref">VT_6</span></p>
+         
+         
+         <p id="VT_7">
+            uttaraṃ hṛdayaṃ hy eṣāṃ bhaktāya dātum arhasi //
+             <span class="ref">VT_7</span></p>
+         
+         śrī īśvara uvāca
+         
+         
+         <p id="VT_8">
+            yan na kasyacid ākhyātaṃ śukrādīnāṃ ca yoginām <br />
+            subhaktasya vinītasya gopitaṃ vai guhasya ca //
+             <span class="ref">VT_8</span></p>
+         
+         
+         <p id="VT_9">
+            catuḥṣaṣṭiḥ samākhyātāḥ śiṣyās tantreṣu ye mayā <br />
+            teṣām api na cākhyātaṃ brahmaviṣṇupuraḥsaraiḥ //
+             <span class="ref">VT_9</span></p>
+         
+         
+         <p id="VT_10">
+            tad ahaṃ sampravakṣyāmi cintāratnam ivāparam <br />
+            tantraṃ vīṇāśikhaṃ nāma nirvyājenāśusiddhidam //
+             <span class="ref">VT_10</span></p>
+         
+         
+         <p id="VT_11">
+            devītumburusaṃyuktaṃ vīṇādhārasusaṃsthitam <br />
+            śikhāyogena iṣyante tena vīṇāśikhā smṛtā //
+             <span class="ref">VT_11</span></p>
+         
+         
+         <p id="VT_12">
+            yāgam ādau pravakṣyāmi tantrasāraṃ sudurlabham <br />
+            tenaiva varadā devyo nityaṃ devi bhavanti hi //
+             <span class="ref">VT_12</span></p>
+         
+         
+         <p id="VT_13">
+            gṛhayāgam idaṃ devi yo jānātīha sādhakaḥ <br />
+            vratahomād ṛte cāsmin susiddhiṃ labhate param //
+             <span class="ref">VT_13</span></p>
+         
+         
+         <p id="VT_14">
+            śiṣyāṇām āditaḥ kuryād yāgaṃ kṛtvā parigraham <br />
+            nānyathā darśayet tantraṃ na cāsau siddhim āpnuyāt //
+             <span class="ref">VT_14</span></p>
+         
+         
+         <p id="VT_15">
+            caturthyām atha pañcamyāṃ navamyām ekādaśīṣu ca <br />
+            grahaṇe vāpi kartavyā sarvadā cārkasomayoḥ //
+             <span class="ref">VT_15</span></p>
+         
+         
+         <p id="VT_16">
+            caturthyāṃ yajanaṃ śreṣṭhaṃ saubhāgyakaraṇaṃ mahat <br />
+            śrīkāmo yajanaṃ kuryāt pañcamyāṃ susamāhitaḥ //
+             <span class="ref">VT_16</span></p>
+         
+         
+         <p id="VT_17">
+            saṃgrāme vijayārthī vā pararāṣṭravimardanam <br />
+            navamyāṃ pārthivaṃ yāgaṃ kurvīta bhaginīpriyam //
+             <span class="ref">VT_17</span></p>
+         
+         
+         <p id="VT_18">
+            ekādaśyāṃ yajed yas tu śivaloke mahīyate <br />
+            sugupte nirjane deśe saridvāpītaṭe 'pi vā //
+             <span class="ref">VT_18</span></p>
+         
+         
+         <p id="VT_19">
+            kṛtvādau bhūmisaṃśuddhiṃ sāvitryā deśikottamaḥ <br />
+            kṛtvā pūjāṃ prakurvīta śiṣyāṇām adhivāsanam //
+             <span class="ref">VT_19</span></p>
+         
+         
+         <p id="VT_20">
+            carukaṃ sādhane paścāt sāvitryā dāpayed budhaḥ <br />
+            śiṣyāṇāṃ dantakāṣṭhaṃ ca sakṣīraṃdvādaśāṅgulam //
+             <span class="ref">VT_20</span></p>
+         
+         
+         <p id="VT_21">
+            ācamya śiṣyam āhūya pañcatattvapariṣkṛtam <br />
+            sāvitryā prokṣayed bhūyas tattvajaptaṃ yathoditam //
+             <span class="ref">VT_21</span></p>
+         
+         
+         <p id="VT_22">
+            pramārjayetkuśāgreṇa tasyāṅgāni samālabhet <br />
+            ālabhyaiva tu sāvitryā kṣālayet sakalaṃ kramāt //
+             <span class="ref">VT_22</span></p>
+         
+         
+         <p id="VT_23">
+            yāgabhūmau svaśiṣyāṃs tu svapec ca kuśasaṃstare <br />
+            rakṣāṃ sadā śatair bījaiḥ kṛtvā dhyātvā ca tāḥ kramāt //
+             <span class="ref">VT_23</span></p>
+         
+         
+         <p id="VT_24">
+            tataḥ prabhāte vimale mukhaṃ prakṣālya sādhakaḥ <br />
+            iṣṭāniṣṭāṃ gurau ceṣṭāṃ praṇipatya nivedayet //
+             <span class="ref">VT_24</span></p>
+         
+         
+         <p id="VT_25">
+            iṣṭāniṣṭān viditvā tu deśikaḥ sādhakasya tu <br />
+            ādau deśe same bhūmau vivikte śalyavarjite //
+             <span class="ref">VT_25</span></p>
+         
+         
+         <p id="VT_26">
+            maṇḍalaṃ saṃlikhet prājño yathāvad vidhipūrvakam <br />
+            caturhastaṃ caturdvāram athavā caikahastakam //
+             <span class="ref">VT_26</span></p>
+         
+         
+         <p id="VT_27">
+            maṇḍalam saṃlikhed divyam śālicūrṇena sūjjvalam <br />
+            tatra madhye likhet padmaṃ catuḥpattraṃ sakarṇikam //
+             <span class="ref">VT_27</span></p>
+         
+         
+         <p id="VT_28">
+            śvetāsṛ kpītakṛ ṣṇāni kamalasya dalāni tu <br />
+            prāg ārabhya yathānyāyaṃ saumyeśāntāni lekhayet //
+             <span class="ref">VT_28</span></p>
+         
+         
+         <p id="VT_29">
+            karṇikāṃ ca tathā madhye śabalāṃ deśikottamaḥ <br />
+            caturmūrtiṃ caturvarṇaṃ svena bijena tumburum //
+             <span class="ref">VT_29</span></p>
+         
+         
+         <p id="VT_30">
+            caturvarṇam īśvaraṃ dhyāyen niviṣṭam karṇikodare <br />
+            tataḥ sitāṃ svabījena jayāṃ prāgdale vinyaset //
+             <span class="ref">VT_30</span></p>
+         
+         
+         <p id="VT_31">
+            bandhūkakusumaprakhyāṃ vijayāṃ dakṣiṇe dale <br />
+            svacchacāmīkaraprakhyām ajitāṃ paścime dale //
+             <span class="ref">VT_31</span></p>
+         
+         
+         <p id="VT_32">
+            bhinnāñjanacayaprakhyām uttare cāparājitām <br />
+            vinyasya pūjāṃ kurvīta svaiḥ svair bījair yathākramam //
+             <span class="ref">VT_32</span></p>
+         
+         
+         <p id="VT_33">
+            puṣpadhūpaiś ca balibhir yathākālāntaraiḥ śubhaiḥ <br />
+            sadvitānapatākāḍhyaṃ sragmālālaṃkṛtaṃ puram //
+             <span class="ref">VT_33</span></p>
+         
+         
+         <p id="VT_34">
+            pradīptadīpakair dikṣu samantād avabhāsitam <br />
+            nānābhakṣyānnapānaiś ca svādubhir vyañjanais tathā //
+             <span class="ref">VT_34</span></p>
+         
+         
+         <p id="VT_35">
+            phalair nānāvidhaiś caiva paritaḥ paryavasthitaiḥ <br />
+            kalaśair vāripūrṇaiś ca daśadikṣu vyavasthitaiḥ //
+             <span class="ref">VT_35</span></p>
+         
+         
+         <p id="VT_36">
+            cūtapallavasaṃvītaiḥ sragmālālaṃkṛtaiḥ śubhaiḥ <br />
+            evaṃ yaṣṭvā yathānyāyaṃ śiṣyān āprokṣya vāriṇā //
+             <span class="ref">VT_36</span></p>
+         
+         
+         <p id="VT_37">
+            sāvitryā mukham āsādya vāsasā sakalīkṛtān <br />
+            svaiḥ svair bījair nyaset puṣpān śiṣyāṇāṃ karayor dvayoḥ //
+             <span class="ref">VT_37</span></p>
+         
+         
+         <p id="VT_38">
+            jayāt praveśayen māyāṃ maṇḍalaṃ deśikottamaḥ <br />
+            praveśya tatra śiṣyaṃ tu dvitricatuḥpañca eva vā //
+             <span class="ref">VT_38</span></p>
+         
+         
+         <p id="VT_39">
+            tato 'gnikāryaṃ kurvīta maṇḍalāt paścime bahiḥ <br />
+            ullikhyoddhṛtya sāvitryā kuśān saṃstīrya sarvataḥ //
+             <span class="ref">VT_39</span></p>
+         
+         
+         <p id="VT_40">
+            astrabījena cābhyukṣya gandhatoyena deśikaḥ <br />
+            vahnim ādāya tenaiva sāvitryā pūjayet tataḥ //
+             <span class="ref">VT_40</span></p>
+         
+         
+         <p id="VT_41">
+            tatas tattvatrayaṃ nyasya vahner eva yathākramam <br />
+            niruddhamāyātasmāttam aṅkuśena nirodhayet //
+             <span class="ref">VT_41</span></p>
+         
+         
+         <p id="VT_42">
+            māyayācchādayet paścād astreṇaiva prabodhayet <br />
+            homadravyasya sarvasya kuryāt tenaiva śodhanam //
+             <span class="ref">VT_42</span></p>
+         
+         
+         <p id="VT_43">
+            tataś ca sarpiṣo homaṃ vidhivat kārayed budhaḥ <br />
+            svabījair eva tad dhutvā dīkṣāṃ śiṣyasya kārayet //
+             <span class="ref">VT_43</span></p>
+         
+         
+         <p id="VT_44">
+            saṃyojya vidhivad bījair mahābhūteṣu pañcasu <br />
+            sakale tattvaṃ saṃyojya pariṣṭhāpya pare 'dhvani //
+             <span class="ref">VT_44</span></p>
+         
+         
+         <p id="VT_45">
+            niyoktavyaṃ tatas tatra yatrāsavāṃsvaraparam? <br />
+            eṣā dīkṣā ya thānyāyaṃ bhuktimuktiphalapradā //
+             <span class="ref">VT_45</span></p>
+         
+         
+         <p id="VT_46">
+            tair eva pañcabhis tattvaṃ sakale sakalātmikā <br />
+            niṣkale niṣkalā proktā sādhikārādhvanaḥ purā //
+             <span class="ref">VT_46</span></p>
+         
+         
+         <p id="VT_47">
+            dīkṣayitvā tataḥ śiṣyān sādhikārapare sthitān <br />
+            abhiṣicya svabījais tu bījān tebhyaḥ pradāpayet //
+             <span class="ref">VT_47</span></p>
+         
+         
+         <p id="VT_48">
+            nivedya samayān tasya hṛnmudrāṅgulidarśanāt <br />
+            anujñāṃ sādhakendrasya tasya dadyān mahātmanā //
+             <span class="ref">VT_48</span></p>
+         
+         
+         <p id="VT_49">
+            tataḥ svavidyānaivedyaṃ bhakṣayet sādhakottamaḥ <br />
+            devyaḥ prītā bhavanty eva avaśiṣṭaṃ jale kṣipet //
+             <span class="ref">VT_49</span></p>
+         
+         
+         <p id="VT_50">
+            ācāryaṃ pūjayed bhaktyā sarvasvenāpare vidhā? <br />
+            praṇāmaiḥ śaktidānaiś ca yena vā tuṣyate guruḥ //
+             <span class="ref">VT_50</span></p>
+         
+         
+         <p id="VT_51">
+            sragvī sitoṣṇīṣī caiva sarvālaṃkārabhūṣitaḥ <br />
+            uccāsanasthaḥ prāgvaktraḥ kalpayet koṣamaṇḍale //
+             <span class="ref">VT_51</span></p>
+         
+         
+         <p id="VT_52">
+            gośakṛdbhasmaliptas tu śucau janavivarjite <br />
+            susame bhūmideśe tu prastāraṃ prastarec chuciḥ //
+             <span class="ref">VT_52</span></p>
+         
+         
+         <p id="VT_53">
+            caturasram ataḥ kṛtvā prastārarekham ujjvalam <br />
+            kuryād ekonapañcāśat koṣṭhakān tu samān śubhān //
+             <span class="ref">VT_53</span></p>
+         
+         
+         <p id="VT_54">
+            śatārdhārdhāsanāsīnaṃ pañcavargāntabindukam <br />
+            śikhāsambhinnamūrdhāntaṃ kaṣākhyaṃ madhyakoṣṭhake //
+             <span class="ref">VT_54</span></p>
+         
+         
+         <p id="VT_55">
+            vidigdikṣaṃsthakoṣṭheṣu tatpārśve bahir aṣṭasu <br />
+            yaśavargān nyased devi aiśānyādiṣu tatkramāt //
+             <span class="ref">VT_55</span></p>
+         
+         
+         <p id="VT_56">
+            āgneyādiṣu koṣṭheṣu napuṃsakacatuṣṭayam <br />
+            aiśānyādikramād devi bījadvādaśakaṃ nyaset //
+             <span class="ref">VT_56</span></p>
+         
+         
+         <p id="VT_57">
+            tṛtīyapaṭktikoṣṭheṣu caturthe pañcaviṃśakam <br />
+            aiśānyādiṣu koṣṭheṣu bījāni kramaśo nyaset //
+             <span class="ref">VT_57</span></p>
+         
+         
+         <p id="VT_58">
+            prastāram evaṃ prastārya svaravarṇaṃ ca śobhane <br />
+            bījaṣoḍaśakaṃ caiva proddharet tu yathākramam //
+             <span class="ref">VT_58</span></p>
+         
+         
+         <p id="VT_59">
+            kādipaṭktiṃ purākṛtya kramād vyastasamastakam <br />
+            koṣṭhaikādaśabījena saṃyuktaṃ pañcaviṃśakam //
+             <span class="ref">VT_59</span></p>
+         
+         
+         <p id="VT_60">
+            ātmatattvam iti khyātaṃ vidyākhyaṃ catustriṃśakam <br />
+            śivatattvaṃ tu deveśi triṃśakoṣṭheṣu saṃyutam //
+             <span class="ref">VT_60</span></p>
+         
+         
+         <p id="VT_61">
+            tattvatritayam etad dhi nyāsaṃ ca samudāhṛtam <br />
+            binduyuktāny aśesāṇi nyastavyāni yathākramam //
+             <span class="ref">VT_61</span></p>
+         
+         
+         <p id="VT_62">
+            atra-siddhiḥ sthitā devi vijñeyā sādhakottamaiḥ <br />
+            pañcaviṃśatikoṣṭhasthaṃ prathamaṃ bījam ucyate //
+             <span class="ref">VT_62</span></p>
+         
+         
+         <p id="VT_63">
+            dvisaptakoṣṭhakaṃ bījaṃ dvitīyaṃ samudāhṛtam <br />
+            tṛtīyam aṣṭakoṣṭhasthaṃ binduyoniḥ caturthakam //
+             <span class="ref">VT_63</span></p>
+         
+         
+         <p id="VT_64">
+            caturviṃśatikoṣṭhasthaṃ pañcamaṃ bījam ucyate <br />
+            bījāni devadevīnāṃ nirṇītāni yathākramam //
+             <span class="ref">VT_64</span></p>
+         
+         
+         <p id="VT_65">
+            kālabaddhānilair bījaiḥ kalāyatheṣṭhayā yutam <br />
+            <span class="note">em. Sanderson: kālavahnyanilair bījaiḥ kalayā ṣaṣṭhayā yutam</span>
+            ardhendu binduśikhayā saṃnibhāni krameṇa tu //
+            <span class="note">em. Sanderson: ardhendubinduśikhayā saṃbhinnāni yathākramam</span>
+             <span class="ref">VT_65</span></p>
+         
+         
+         <p id="VT_66">
+            bījapañcakam uddhṛtya kathitaṃ devi te kramāt <br />
+            kūṭasthās tu smṛtā bījāḥ pañca caiva varānane //
+             <span class="ref">VT_66</span></p>
+         
+         
+         <p id="VT_67">
+            bījapañcakam abhyasya sarvakāmaphalapradam <br />
+            yajanaṃ sampravakṣyāmi sarvasiddhipradāyakam //
+             <span class="ref">VT_67</span></p>
+         
+         
+         <p id="VT_68">
+            karasaṃskāram ādau tu kṛtvānena krameṇa tu <br />
+            vakṣyamāṇena cānena digbandhaśodhyam eva hi //
+             <span class="ref">VT_68</span></p>
+         
+         
+         <p id="VT_69">
+            saṃhārāstreṇa digbandhaḥ prāṇāyāmapuraḥsaraḥ <br />
+            prāṇāyāmais tribhir devi ātmānaṃ tu viśodhayet //
+             <span class="ref">VT_69</span></p>
+         
+         
+         <p id="VT_70">
+            niṣkramya recayed vāyuṃ navaṃ cākṛṣya pūrayet <br />
+            nirodhe kumbhakaḥ proktaḥ prāṇāyāmaṃ prakīrtitam //
+             <span class="ref">VT_70</span></p>
+         
+         
+         <p id="VT_71">
+            dhyātvā kālāgnibījaṃ tu yugāntānalasaprabham <br />
+            nyaset pādatale mantrī jvālāmālākulaṃ mahat //
+             <span class="ref">VT_71</span></p>
+         
+         
+         <p id="VT_72">
+            nirdahec cātmadehaṃ tu vāriṇāplāvayet tataḥ <br />
+            dagdhvā tu prākṛtaṃdehaṃ bhasmakūṭam iva sthitam //
+             <span class="ref">VT_72</span></p>
+         
+         
+         <p id="VT_73">
+            tataś cāmṛtadhārābhir vidyādehaṃ vicintayet <br />
+            sravantaṃ mūrdhni paramaṃ praṇavaṃ ca adhomukham //
+             <span class="ref">VT_73</span></p>
+         
+         
+         <p id="VT_74">
+            vāruṇāmṛtasaṃyuktaṃ śuddhasphaṭikanirmalam <br />
+            kaṣākhyaṃ yat smṛtaṃ bījaṃ rephadvayasamāyutam //
+             <span class="ref">VT_74</span></p>
+         
+         
+         <p id="VT_75">
+            adha oṃkārasaṃyuktaṃ ūrdhvaṃ bindukabhūṣitam <br />
+            anenaiva tu bījena śikhayā bhinnamastakam //
+             <span class="ref">VT_75</span></p>
+         
+         
+         <p id="VT_76">
+            dhāraṇāyogamārgeṇa nirdahet sādhakottamaḥ <br />
+            dehaṃ saṃśodhayen mantrī ghorapāpaṃ tu kalmaṣam //
+             <span class="ref">VT_76</span></p>
+         
+         
+         <p id="VT_77">
+            nyāsam ālabhanaṃ kuryād bhaven mantrātmavigrahaḥ <br />
+            digbandhabhūmiṃ saṃśodhya cakraśuddhyartham eva ca //
+             <span class="ref">VT_77</span></p>
+         
+         
+         <p id="VT_78">
+            saṃhārāstreṇa kurvīta vighnoccāṭanam eva ca <br />
+            hastau saṃśodhayet paścād vidhir eṣa prakīrtitaḥ //
+             <span class="ref">VT_78</span></p>
+         
+         
+         <p id="VT_79">
+            kṛtvā tu vidhivan mantrī tataḥ karma samārabhet <br />
+            āmaṇibandhanāt pūrvaṃ bharamākhāś ? ca vinyaset //
+             <span class="ref">VT_79</span></p>
+         
+         
+         <p id="VT_80">
+            aṭguṣṭhādikaniṣṭhāntaṃ nyased vai bījapañcakam <br />
+            aṭguṣṭhād ye tu ye parvā karayor ubhayor api //
+             <span class="ref">VT_80</span></p>
+         
+         
+         <p id="VT_81">
+            ātmatattvaṃ nyasenmūrdhni vidyātattvaṃ dvitīyake <br />
+            śivaṃ dadyāt tṛtīyeṣu sarvasiddhiṣu bhāmini //
+             <span class="ref">VT_81</span></p>
+         
+         
+         <p id="VT_82">
+            adhastād ātmatattvaṃ tu vidyātattvaṃ tu madhyataḥ <br />
+            śivatattvaṃ nyasen mūrdhni haste dehe punaḥ kramāt //
+             <span class="ref">VT_82</span></p>
+         
+         
+         <p id="VT_83">
+            evaṃ tattvatrayaṃ nyasya tathā kūṭākṣarāṇi tu <br />
+            bhūyaś cottarabījāni vinyaset tu varānane //
+             <span class="ref">VT_83</span></p>
+         
+         
+         <p id="VT_84">
+            astraṃ caiva tu vinyasya visphuliṭgasamaprabham <br />
+            māyayācchādayitvā tu aṭkuśena nirodhayet //
+             <span class="ref">VT_84</span></p>
+         
+         
+         <p id="VT_85">
+            yonimudrāṃ tato baddhvā kuryāt [tu] sakalāṃ tanum <br />
+            etad ālabhanaṃ caiva tava devi prakīrtitam //
+             <span class="ref">VT_85</span></p>
+         
+         
+         <p id="VT_86">
+            aṭguṣṭhau grathitau kṛtvā karayor ubhayor api <br />
+            tarjanīṃ vāmahaste tu prasāryākuñcayed budhaḥ //
+             <span class="ref">VT_86</span></p>
+         
+         
+         <p id="VT_87">
+            eṣā nirodhanī proktā mudreyam aṭkuśasya tu <br />
+            vaśyākarṣaṇakāryeṣu prayojyā sādhakottamaiḥ //
+             <span class="ref">VT_87</span></p>
+         
+         
+         <p id="VT_88">
+            tarjanī madhyamā caiva anāmā dakṣiṇasya tu <br />
+            vāme trīṇi samākramya aṭguṣṭhau ca susaṃsthitau //
+             <span class="ref">VT_88</span></p>
+         
+         
+         <p id="VT_89">
+            adhastāt sarvataḥ proktā dakṣiṇā tu kaniṣṭhikā <br />
+            tarjanyaṭguṣṭhayor madhye yonimudrā prakīrtitā //
+             <span class="ref">VT_89</span></p>
+         
+         
+         <p id="VT_90">
+            ādyaṃ mūrdhni tato bījaṃ dvitīyaṃ mukhamaṇḍale <br />
+            kaṭyūrdhve ca tataś cānyaṃ caturthaṃ jānutaḥ kaṭim //
+             <span class="ref">VT_90</span></p>
+         
+         
+         <p id="VT_91">
+            āpādajānunī cānyaṃ prasṛtaiś ca karaiḥ kramāt <br />
+            evaṃ bījena dehas tu mucyate nātra saṃśayaḥ //
+             <span class="ref">VT_91</span></p>
+         
+         
+         <p id="VT_92">
+            vajropalamahāvarṣaṃ coradaṃṣṭrībhayāvaham <br />
+            mucyate ca sadā rogair mṛtyurūpair durāsadaiḥ //
+             <span class="ref">VT_92</span></p>
+         
+         
+         <p id="VT_93">
+            ahigaraviṣaśastrajvarakuṣṭhakṣayādibhiḥ <br />
+            mucyate nātra saṃdeho yo 'pi syāt pātakī naraḥ //
+             <span class="ref">VT_93</span></p>
+         
+         
+         <p id="VT_94">
+            upalipya śubhe deśe pracchanne janavarjite <br />
+            pūrvavad dhastamātraṃ tu likhitvā maṇḍalaṃ śubham //
+             <span class="ref">VT_94</span></p>
+         
+         
+         <p id="VT_95">
+            catuḥpattraṃ tu tatrābjaṃ sarvavarṇitakarṇikām <br />
+            sitaraktapītakṛṣṇāṃ pūrvādidalasaṃsthitām //
+             <span class="ref">VT_95</span></p>
+         
+         
+         <p id="VT_96">
+            jayādyaṃ vinyasen mantrī tumburuṃ karṇikopari <br />
+            padmāsanopaviṣṭaṃ tu varadānodyatakaram //
+             <span class="ref">VT_96</span></p>
+         
+         
+         <p id="VT_97">
+            caturvaktramaṣṭabhujaṃ catuṣkāyaṃ trilocanam <br />
+            nāgayajñopavītaṃtu śūlapāṇiṃ gadādharam //
+             <span class="ref">VT_97</span></p>
+         
+         
+         <p id="VT_98">
+            mukuṭena vicitreṇa śaśāṅkadhṛtaśekharam <br />
+            śaktīnāṃ tu priyaṃ devaṃ pāśāṅkuśakaraprabham //
+             <span class="ref">VT_98</span></p>
+         
+         
+         <p id="VT_99">
+            divyāmbarātapatreṇa divyasragbandhalepanam <br />
+            devadevaṃ sadā dhyāyet sūryakoṭisamaprabham //
+             <span class="ref">VT_99</span></p>
+         
+         
+         <p id="VT_100">
+            kṣīrodaphalasaṃkāśāṃ vyāghrayajñopavītinīm <br />
+            pretārūḍhāṃ caturvaktrāṃ gadākheṭakadhāriṇīm //
+             <span class="ref">VT_100</span></p>
+         
+         
+         <p id="VT_101">
+            divyāmbarātapatreṇa hārakeyūrabhūṣitām <br />
+            devadevīṃ jayāṃ dhyāyed dīpyamānāṃ svatejasā //
+             <span class="ref">VT_101</span></p>
+         
+         
+         <p id="VT_102">
+            devasyābhimukho mantrī sasmitotphullalocanām <br />
+            dāḍimīkusumaprakhyāṃ suragopakasaprabhām //
+             <span class="ref">VT_102</span></p>
+         
+         
+         <p id="VT_103">
+            cāpodyatakarāṃ ghorāṃ matsyamāṃsasurāpriyām <br />
+            ulūke saṃsthitāṃ devīṃ hārakeyūrabhūṣitām //
+             <span class="ref">VT_103</span></p>
+         
+         
+         <p id="VT_104">
+            raktāmbarātapatreṇa vijayāṃ siddhidāṃ smaret <br />
+            dhātucāmīkaraprakhyāṃ pītamālyāmbarapriyām //
+             <span class="ref">VT_104</span></p>
+         
+         
+         <p id="VT_105">
+            ghaṇṭākhaṭvāṅgadharīṃ devīm aśvārūḍhāṃ mahābalām <br />
+            sūryāyutapratīkāśīṃ sarvābharaṇabhūṣitām //
+             <span class="ref">VT_105</span></p>
+         
+         
+         <p id="VT_106">
+            jayantīṃ dhyāyati kṣipraṃ siddhim āpnoti puṣkalām <br />
+            bhinnāñjanasamaprakhyāṃ śarvarītimiraprabhām //
+             <span class="ref">VT_106</span></p>
+         
+         
+         <p id="VT_107">
+            kṛṣṇakauśeyasaṃvītāṃ muktikāmaṇibhūṣitām <br />
+            divyaṃ vimānam ārūḍhāṃ gadākheṭakadhāriṇīm //
+             <span class="ref">VT_107</span></p>
+         
+         
+         <p id="VT_108">
+            mahārāvādinirghoṣaiś cintayed aparājitām <br />
+            gāyatrīṃ vā japantīṃ ca sphāṭikamaṇibhūṣitām //
+             <span class="ref">VT_108</span></p>
+         
+         
+         <p id="VT_109">
+            ṛgyajussāmātharvākhyaṃ gāyantīṃ vā tathaiva ca <br />
+            sāvitrīṃ divyarūpāṃ tūpaniṣadgāyane ratām //
+             <span class="ref">VT_109</span></p>
+         
+         
+         <p id="VT_110">
+            devīnām agrasaṃsthaṃ kṛtabhṛkuṭimukhaṃ cintayed aṅkuśākhyaṃ <br />sampṛṣṭhe cāstrarājaṃ prakaṭitasumahāsṛkvaṇīlelihānam <br />
+            saṃkruddhaṃ bhīṣayantaṃ nararudhiravasādigdhadāntākalālaṃ <br />....... ....... ....... //
+             <span class="ref">VT_110</span></p>
+         
+         
+         <p id="VT_111">
+            evaṃ dhyātvā viśālākṣi tataḥ pūjā pravartate <br />
+            bhakṣyabhojyavidhānaiś ca gandhapuṣpādibhiḥ kramāt //
+             <span class="ref">VT_111</span></p>
+         
+         
+         <p id="VT_112">
+            pūjayet kūṭamadhyasthaṃ tatra madhye vidhānataḥ <br />
+            bhūr evāyaṃ pādapadmair hṛdi vāmakare 'thavā //
+             <span class="ref">VT_112</span></p>
+         
+         
+         <p id="VT_113">
+            manasā pūjayen nityaṃ siddhikāmaḥ samāhitaḥ <br />
+            mahāśaṅkhamayaṃ kuryād athavā kacchapasya tu //
+             <span class="ref">VT_113</span></p>
+         
+         
+         <p id="VT_114">
+            sauvarṇaṃ rajataṃ tāmraṃ kulaṃ bhavati siddhidam <br />
+            gandhamaṇḍalake vāpi athavā bhasmamaṇḍale //
+             <span class="ref">VT_114</span></p>
+         
+         
+         <p id="VT_115">
+            siddhārthamaṇḍale vāpi athavā hṛdi maṇḍale <br />
+            kusumbhamaṇḍale vāpi puṣpamaṇḍalake 'pi vā //
+             <span class="ref">VT_115</span></p>
+         
+         
+         <p id="VT_116">
+            nāgakeśarajobhir vā likhitvā maṇḍalaṃ śubham <br />
+            muktidā siddhidā hy evaṃ bhavantīty avicāraṇāt //
+             <span class="ref">VT_116</span></p>
+         
+         
+         <p id="VT_117">
+            sampūjya ca yathānyāyaṃ gandhapuṣpādi yojayet <br />
+            darśayed yonimudrāṃ tu kāle karmāṇi kārayet //
+             <span class="ref">VT_117</span></p>
+         
+         
+         <p id="VT_118">
+            samutpanneṣu kāryeṣu prāṇadraviṇahāriṣu <br />
+            pūjitāḥ sādhakaṃ devyaḥ parirakṣanti putravat //
+             <span class="ref">VT_118</span></p>
+         
+         śrīdevy uvāca
+         
+         
+         <p id="VT_119">
+            atrāpi yāgam evoktaṃ viśeṣaḥ ko 'paraḥ prabho <br />
+            yathā tu abhyāsamātreṇa siddhir bhavati kāmadā //
+             <span class="ref">VT_119</span></p>
+         
+         
+         <p id="VT_120">
+            kevalaṃ smaraṇād eva tathā tvaṃ vaktum arhasi <br />
+            praṇayasva prasādaś ca yadi cāsti maheśvara //
+             <span class="ref">VT_120</span></p>
+         
+         śrī īśvara uvāca
+         
+         
+         <p id="VT_121">
+            śṛṇuṣvaikamanā bhadre prākṛtaṃ tapasaḥ phalam <br />
+            praṇayād atulaṃ vāpi rahasyaṃ paramaṃ padam //
+             <span class="ref">VT_121</span></p>
+         
+         
+         <p id="VT_122">
+            uttarottarayogena tantraṃ te kathitaṃ mayā <br />
+            atrāntaram idaṃ jñānaṃ śrutvā bhavati nirvṛtiḥ //
+             <span class="ref">VT_122</span></p>
+         
+         
+         <p id="VT_123">
+            prastārya pūrvavad varṇaṃ proddhared bījapañcakam <br />
+            pūrvavat kramayogena sarvakāmaprasiddhaye //
+             <span class="ref">VT_123</span></p>
+         
+         
+         <p id="VT_124">
+            ādau dvātriṃśakaṃ bījaṃ yuktam ekonaviṃśati <br />
+            catustriṃśaṃ tato 'dhastād devadevaṃ prakalpayet //
+             <span class="ref">VT_124</span></p>
+         
+         
+         <p id="VT_125">
+            jayā saptadaśaṃ bījaṃ yuktam ekādaśena tu <br />
+            tad eva vijayākhyātā kiṃ tu yuktaṃ na kena cit //
+             <span class="ref">VT_125</span></p>
+         
+         
+         <p id="VT_126">
+            pañcaviṃśac chikhābhāji yuktam ekādaśena tu <br />
+            ajitāyāḥ samuddiṣṭaṃ caturthyāḥ śṛṇu sāmpratam //
+             <span class="ref">VT_126</span></p>
+         
+         
+         <p id="VT_127">
+            varṇaikādaśasaṃyuktaṃ śambhusthaṃ pañcaviṃśakam <br />
+            guhyam etat samuddiṣṭaṃ praṣṭavyaṃ nānyataḥ param //
+             <span class="ref">VT_127</span></p>
+         
+         
+         <p id="VT_128">
+            sarvakāmapradaṃ devi etad vai bījapañcakam <br />
+            uttaraṃ hṛdayaṃ hyetat sarvatantreṣu cottaram //
+             <span class="ref">VT_128</span></p>
+         
+         
+         <p id="VT_129">
+            yāni kāni ca karmāṇi sarvāṇy etais tu kārayet <br />
+            pañcaviṃśatikoṣasthaṃ yuktaṃ vai ṣoḍaśena tu //
+             <span class="ref">VT_129</span></p>
+         
+         
+         <p id="VT_130">
+            astram etat samuddiṣṭam asmiṃs tantre ca suvrate <br />
+            punar etadbījayuktaṃ viṃśakena samanvitam //
+             <span class="ref">VT_130</span></p>
+         
+         
+         <p id="VT_131">
+            māyā hy eṣā samuddiṣṭā śivasyānantarūpiṇī <br />
+            ādikoṣṭhakabījaṃ tu adhastāṣṭādaśasaṃyutam //
+             <span class="ref">VT_131</span></p>
+         
+         
+         <p id="VT_132">
+            aṣṭatriṃśatikoṣasthaṃ tasyopari niyojayet <br />
+            aṅkuśoddharaṇaṃ hy etad devīnāṃ saṃnirodhane //
+             <span class="ref">VT_132</span></p>
+         
+         
+         <p id="VT_133">
+            bindupuñjasametā hi nyastavyā tu yathākramam <br />
+            pañcaviṃśatikoṣasthaṃ tad eva paramākṣaram //
+             <span class="ref">VT_133</span></p>
+         
+         
+         <p id="VT_134">
+            navatriṃśasamāyuktaṃ bījaṃ gāyatrisaṃjñakam <br />
+            etad bījavaraṃ divyaṃ yojyam ālabhanādike //
+             <span class="ref">VT_134</span></p>
+         
+         
+         <p id="VT_135">
+            catustriṃśatikoṣasthaṃ pañcaviṃśatiyojitam <br />
+            sarvakarmasamuddiṣṭaṃ bījaṃ sāvitrisaṃjñitam //
+             <span class="ref">VT_135</span></p>
+         
+         
+         <p id="VT_136">
+            ardhenduśikhayā devi lāñchitāni tu pūrvavat <br />
+            prayogaṃ cāsya vakṣyāmi siddhir yenāśu jāyate //
+             <span class="ref">VT_136</span></p>
+         
+         
+         <p id="VT_137">
+            prayogaṃ kāraṇaṃ devi granthaśāstram akāraṇam <br />
+            sarvatra sulabhaṃ śāstraṃ prayogaṃ tu sudurlabham //
+             <span class="ref">VT_137</span></p>
+         
+         
+         <p id="VT_138">
+            prayogarahitā mantrā naiva siddhipradāḥ smṛtāḥ <br />
+            hṛtpadme yogavinyāsaṃ dhyātvā vai bījapañcakam <br />
+            gatiṃ devaṃ tu vijñāya tataḥ karma samārabhet //
+             <span class="ref">VT_138</span></p>
+         
+         śrīdevy uvāca
+         
+         
+         <p id="VT_139">
+            kīdṛśaḥ sa bhaved devo gatis tasya tu kīdṛśī <br />
+            dehasthaṃ tu kathaṃ vidyād vaktum arhasi śaṅkara //
+             <span class="ref">VT_139</span></p>
+         
+         śrī īśvara uvāca
+         
+         
+         <p id="VT_140">
+            meḍhranābhyantare devi kandamūlākṛtir bhavet <br />
+            dvāsaptatisahasrāṇi nāḍīr ādhārasaṃsthitāḥ //
+             <span class="ref">VT_140</span></p>
+         
+         
+         <p id="VT_141">
+            nābhideśe sthito granthis tatra padmaṃ vyavasthitam <br />
+            karṇikā padmamadhyasya tatra sādhyaṃ vyavasthitam //
+             <span class="ref">VT_141</span></p>
+         
+         
+         <p id="VT_142">
+            karṇikāsuṣirānte tu yā kalā cordhvagāminī <br />
+            tasyā madhye sthito devaḥ sa tu dīpaśikhopamaḥ //
+             <span class="ref">VT_142</span></p>
+         
+         
+         <p id="VT_143">
+            śuddhasphaṭikasaṃkāśaṃ visphuliṅgārkasaṃnibham <br />
+            vārimārutasaṃkīrṇaṃ vālāgraśatabhāgakam //
+             <span class="ref">VT_143</span></p>
+         
+         
+         <p id="VT_144">
+            vāyuvāhanam ārūḍhaṃ śabdātītam anāmayam <br />
+            sampratyayaṃ tu gamyo 'sau vahate dehamadhyataḥ //
+             <span class="ref">VT_144</span></p>
+         
+         
+         <p id="VT_145">
+            iḍāmadhyagato vāpi piṅgalāntargato 'pi vā <br />
+            suṣumnāntargataś caiva viṣuvaṃ samudāhṛtam //
+             <span class="ref">VT_145</span></p>
+         
+         
+         <p id="VT_146">
+            iḍā tu vāmajā proktā dakṣiṇe piṅgalā smṛtā <br />
+            anayor madhye suṣumnā tu sṛṣṭisaṃhārakārikā //
+             <span class="ref">VT_146</span></p>
+         
+         
+         <p id="VT_147">
+            iḍā śāntikapuṣṭyarthe mṛtyūccāṭana piṅgalā <br />
+            suṣumnā mokṣadā caiva jīvamārgānusāriṇī //
+             <span class="ref">VT_147</span></p>
+         
+         
+         <p id="VT_148">
+            piṅgalāntargataṃ dhyātvā raktavarṇaṃ vicintayet <br />
+            māraṇoccāṭanādīni tataḥ karmāṇi kārayet //
+             <span class="ref">VT_148</span></p>
+         
+         
+         <p id="VT_149">
+            amṛtāntargataṃ jñātvā dhyāyet tuhinasaṃnibham <br />
+            śāntipuṣṭivaśākarṣaṃ tadā karmāṇi kārayet //
+             <span class="ref">VT_149</span></p>
+         
+         
+         <p id="VT_150">
+            vratayogādisaṃsiddhiṃ mūlamantreṣu kārayet <br />
+            tad atra japamātreṇa mantrī sādhayate kṣaṇāt //
+             <span class="ref">VT_150</span></p>
+         
+         
+         <p id="VT_151">
+            aprasūtā mṛtā yoṣit prāptayauvanam eva ca <br />
+            tasyāḥ pāṃśulikāṃ gṛhya vāmabhāge vicakṣaṇaḥ //
+             <span class="ref">VT_151</span></p>
+         
+         
+         <p id="VT_152">
+            likhen nāmākṣaraṃ tatra devīnām kūṭasaṃsthitam <br />
+            vāmāṅgojjvalaraktena sādhakaḥ saṃyatavrataḥ //
+             <span class="ref">VT_152</span></p>
+         
+         
+         <p id="VT_153">
+            striyaṃ caiva likhet tatra gavāṃ rocanayā punaḥ <br />
+            anulomair vihanyas tu vāmapādena cākramet //
+             <span class="ref">VT_153</span></p>
+         
+         
+         <p id="VT_154">
+            tatkṣaṇād ānayec chīghraṃ yā strī dvādaśayojanāt <br />
+            puruṣasya tathā proktaṃ dakṣiṇāṅge tu kārayet //
+             <span class="ref">VT_154</span></p>
+         
+         
+         <p id="VT_155">
+            athābhicārakaṃ kuryāt samidhānāṃ tathāsthibhiḥ <br />
+            rājikāviṣaraktāktaṃ śmaśāne homam ārabhet //
+             <span class="ref">VT_155</span></p>
+         
+         
+         <p id="VT_156">
+            nagno muktaśikho bhūtvā kapālatrayasaṃsthitaḥ <br />
+            samidhāṣṭaśataṃ homaṃ rātrau kuryād vicakṣaṇaḥ //
+             <span class="ref">VT_156</span></p>
+         
+         
+         <p id="VT_157">
+            homānte tu tataḥ śakraṃ kṛṣṇavarṇam vicintayet <br />
+            triśūlena vinirbhinnaṃ daṇḍena tāḍitaṃ śiraḥ //
+             <span class="ref">VT_157</span></p>
+         
+         
+         <p id="VT_158">
+            sādhako ghorarūpeṇa kruddhaḥ saṃraktalocanaḥ <br />
+            saptāhān nāśayed indraṃ kiṃ punar mānuṣādikam //
+             <span class="ref">VT_158</span></p>
+         
+         
+         <p id="VT_159">
+            tyaktena tu kusumbhena śatenāṣṭottareṇa tu <br />
+            trisandhyaṃ dhārayed rātrau agnikāryaṃ tu kārayet //
+             <span class="ref">VT_159</span></p>
+         
+         
+         <p id="VT_160">
+            sādhyaṃ tu sādhakaś caiva raktavarṇaṃ vicintayet <br />
+            homānte tu dhyāyet sādhyaṃ vihvalaṃ ca sammūrchitam //
+             <span class="ref">VT_160</span></p>
+         
+         
+         <p id="VT_161">
+            aṅkuśena hato mūrdhni māyāpāśena veṣṭitam <br />
+            rājānaṃ rājapatnīṃ vā saptāhād vaśam ānayet //
+             <span class="ref">VT_161</span></p>
+         
+         
+         <p id="VT_162">
+            gṛhītvā tu mahāmāṃsaṃ dadhimadhvājyasaṃyutam <br />
+            āhutyaṣṭasahasreṇa sadyotkarṣaṇam uttamam //
+             <span class="ref">VT_162</span></p>
+         
+         
+         <p id="VT_163">
+            ātmanaḥ sādhyabījaṃ ca pañcadevyā catuṣṭayam <br />
+            nāḍīmadhyagataṃ dhyātvā ekīkṛtya vicakṣaṇaḥ //
+             <span class="ref">VT_163</span></p>
+         
+         
+         <p id="VT_164">
+            nāḍīmārgānusāreṇa praveśya sādhyavigraham <br />
+            anenaiva prayogeṇa trailokyaṃ vaśam ānayet //
+             <span class="ref">VT_164</span></p>
+         
+         
+         <p id="VT_165">
+            ata uccāṭanaṃ kuryāc chatrūṇāṃ baladarpitām <br />
+            śuṣkāṇi nimbapattrāṇi dhvajāgrāṇi tathaiva ca //
+             <span class="ref">VT_165</span></p>
+         
+         
+         <p id="VT_166">
+            nṛvālaṃ citibhasmaṃ ca kākapakṣāgrapicchakam <br />
+            kaṭutailaviṣaṃ raktaṃ tenāloḍya tu homayet //
+             <span class="ref">VT_166</span></p>
+         
+         
+         <p id="VT_167">
+            caṇḍālāgniṃ samāhṛtya citikāṣṭhaṃ samindhayet <br />
+            uccāṭayet trirātreṇa tyaktabandhusuhṛjjanān //
+             <span class="ref">VT_167</span></p>
+         
+         
+         <p id="VT_168">
+            vāmahastatale candraṃ dhyātvā sampūrṇamaṇḍalam <br />
+            bījapañcakasaṃyuktaṃ yasya taṃ darśayet karam //
+             <span class="ref">VT_168</span></p>
+         
+         
+         <p id="VT_169">
+            darśanād vaśam āyānti ye 'pi hantuṃ samudyatāḥ <br />
+            yaṃ yaṃ spṛśati hastena dāsatvam upagacchati //
+             <span class="ref">VT_169</span></p>
+         
+         
+         <p id="VT_170">
+            dakṣiṇe 'py eva vai haste vinyased ravimaṇḍalam <br />
+            yaṃ spṛśed darśayed yaṃ tu vidviṣṭāḥ suhṛdāny api //
+             <span class="ref">VT_170</span></p>
+         
+         
+         <p id="VT_171">
+            nimbasthavāyasaṃ gṛhya śvapākenāvatāritam <br />
+            bījair etair viparyastais tailābhyaktaṃ citāhutam //
+             <span class="ref">VT_171</span></p>
+         
+         
+         <p id="VT_172">
+            tad bhasma viṣaraktāktaṃ kṛṣṇānte raktavāsasaḥ <br />
+            parijapya sahasraṃ tu vilomair bījapañcakaiḥ //
+             <span class="ref">VT_172</span></p>
+         
+         
+         <p id="VT_173">
+            yaṃ spṛśed bhasmanā tena kākavad bhramate mahīm <br />
+            vidviṣṭaḥ sarvalokānāṃ yadi śakrasamo bhavet //
+             <span class="ref">VT_173</span></p>
+         
+         
+         <p id="VT_174">
+            yathātmani tathā sādhye bījaṣoḍaśakaṃ nyaset <br />
+            javāpuṣpasamaprakhyau dvāv etau paricintayet //
+             <span class="ref">VT_174</span></p>
+         
+         
+         <p id="VT_175">
+            jātīhiṅgulakapakṣau lākṣārasasamaprabhau <br />
+            padmasampuṭamadhyasthau ubhau tau sādhyasādhakau //
+             <span class="ref">VT_175</span></p>
+         
+         
+         <p id="VT_176">
+            aṅkuśaṃ sādhyaguhye tu daṇḍaṃ cātmani guhyataḥ <br />
+            kusumbharaktasaṃkāśau māyātantvabhiveṣṭitau //
+             <span class="ref">VT_176</span></p>
+         
+         
+         <p id="VT_177">
+            pañcarātraṃ trirātraṃ vā niḥśabdo dhyānapāragaḥ <br />
+            vaśam ānayate kṣipraṃ nṛpatiṃ mānagarvitam //
+             <span class="ref">VT_177</span></p>
+         
+         
+         <p id="VT_178">
+            dvijayoṣin mṛtā yā tu tasyā gṛhyaṃ tu karpaṭam <br />
+            kṛṣṇacaturdaśyāṃ gṛhītvā cityaṅgārais tadudbhavaiḥ //
+             <span class="ref">VT_178</span></p>
+         
+         
+         <p id="VT_179">
+            bījair vidarbhitaṃ nāma yasya yasya ca veśmani <br />
+            nikhanyate sa vai kṣipraṃ prayāti yamasādanam //
+             <span class="ref">VT_179</span></p>
+         
+         
+         <p id="VT_180">
+            tato vidyāvrataślāghī kīrtyādibhir alaṃkṛtaḥ <br />
+            sādhyate 'nena prayogeṇa mriyate cāvikalpataḥ //
+             <span class="ref">VT_180</span></p>
+         
+         
+         <p id="VT_181">
+            gavāṃ rocanayā caiva yasya nāma vidarbhitam <br />
+            bījair etaiḥ samāyuktair ālikhya prakṣiped budhaḥ //
+             <span class="ref">VT_181</span></p>
+         
+         
+         <p id="VT_182">
+            pātraṃ madhvājyasampūrṇaṃ śatam āvartayed drutam <br />
+            mumukṣor api tasyāstraṃ śāntipuṣṭiś ca jāyate //
+             <span class="ref">VT_182</span></p>
+         
+         
+         <p id="VT_183">
+            śatajapto jalenāpi tato vā mucyate sadā <br />
+            vyādhighātasamidbhis tu vyādhinātyantapīḍitaḥ //
+             <span class="ref">VT_183</span></p>
+         
+         
+         <p id="VT_184">
+            aṣṭottaraśatenaiva āhutīnāṃ na saṃśayaḥ <br />
+            kṣīrāktena tu deveśi rogī rogād vimucyate //
+             <span class="ref">VT_184</span></p>
+         
+         
+         <p id="VT_185">
+            juhoti yas tu satataṃ dravyaṃ tasya gṛhe tu yat <br />
+            kurvanto 'pi vyayaṃ nityam akṣayatvaṃ ca gacchati //
+             <span class="ref">VT_185</span></p>
+         
+         
+         <p id="VT_186">
+            nityaṃ kālajapenāpi sarveṣāṃ jāyate priyaḥ <br />
+            tejasvī balasampanno nāpy asau pīḍyate bhayaiḥ //
+             <span class="ref">VT_186</span></p>
+         
+         
+         <p id="VT_187">
+            śrīkāmaḥ śrīphalaṃ juhyāt padmaṃ cājyamadhuplutam <br />
+            lakṣaikena mahāvitto mantrī lakṣadvayena tu //
+             <span class="ref">VT_187</span></p>
+         
+         
+         <p id="VT_188">
+            lakṣatrayeṇa pṛthvīśo nirjitārir bhaved dhruvam <br />
+            sarvakāmas tilaṃ juhyāt prāpnuyāt tu na saṃśayaḥ //
+             <span class="ref">VT_188</span></p>
+         
+         
+         <p id="VT_189">
+            lakṣeṇaikena deveśi sādhakaḥ sa jitendriyaḥ <br />
+            tyaktena naramāṃsena chāgasya piśitena vā //
+             <span class="ref">VT_189</span></p>
+         
+         
+         <p id="VT_190">
+            lakṣamātrahutenāśu yad iṣṭaṃ tad avāpnuyāt <br />
+            kṛṣṇāgopayasā sārdhaṃ nṛmāṃsaṃ taṇḍulānvitam //
+             <span class="ref">VT_190</span></p>
+         
+         
+         <p id="VT_191">
+            pāyasaṃ śavavaktre tu juhuyāt tāvatandritaḥ <br />
+            yāvad uttiṣthate pretaḥ kiṃ karomīti so 'bravīt //
+             <span class="ref">VT_191</span></p>
+         
+         
+         <p id="VT_192">
+            mārgitavyaṃ yad iṣtaṃ tu labhanīyaṃ yaśasvini <br />
+            guḍikāñjanapādukaṃ khanyaṃ vā rājyam eva ca //
+             <span class="ref">VT_192</span></p>
+         <span class="note">em.: guḍikāñcanapādūṃ ? ca Ed</span>
+         
+         
+         <p id="VT_193">
+            vidhānaṃ śakranāśaṃ ca pādaleparasāyanam <br />
+            eteṣāṃ prārthitaṃ caikaṃ dattvāgacchati nānyathā //
+             <span class="ref">VT_193</span></p>
+         
+         
+         <p id="VT_194">
+            uddhatā yā mṛtā yoṣit tasyā gṛhyāṅgulīyakam <br />
+            abhimantrya imair bījair anulomaiḥ śatena tu //
+             <span class="ref">VT_194</span></p>
+         
+         
+         <p id="VT_195">
+            aṣtādhikena mantrajñaḥ sādhyanāma vidarbhayet <br />
+            yasyā dadāti tadvad āste striyāyāḥ sādhakottamaḥ //
+             <span class="ref">VT_195</span></p>
+         
+         
+         <p id="VT_196">
+            ākarṣyati tāṃ kṣipraṃ yadi syād urvaśīsamā <br />
+            yojanānāṃ śatasyāpi dūreṇāpi samarpitam //
+             <span class="ref">VT_196</span></p>
+         
+         
+         <p id="VT_197">
+            puruṣasya bhaved devi uddhatasya yaśasvini <br />
+            kākamāṃsaṃ gṛhītvā tu nimbatailasamāyutam //
+             <span class="ref">VT_197</span></p>
+         
+         
+         <p id="VT_198">
+            śmaśānāgniṃ samādhāya śigrukāṣṭhena sādhayet <br />
+            juhuyāt saptarātraṃ tu yasya nāmnā tu sādhakaḥ //
+             <span class="ref">VT_198</span></p>
+         
+         
+         <p id="VT_199">
+            vidviṣto dṛśyate loke eṣa vidveṣaṇaṃ param <br />
+            ato 'nyat sampravakṣyāmi rahasyam idam adbhutam //
+             <span class="ref">VT_199</span></p>
+         
+         
+         <p id="VT_200">
+            yad viditvā maheśāni siddhim āpnoti puṣkalām <br />
+            svakāle samprayogeṇa siddhis tantreṣu kīrtitā //
+             <span class="ref">VT_200</span></p>
+         
+         
+         <p id="VT_201">
+            tataḥ svakālaṃ kurvīta svāni karmāṇi sādhakaḥ <br />
+            sādhyahṛtpadmasaṃsthaṃ tu dhyātvādau bījapañcakam //
+             <span class="ref">VT_201</span></p>
+         
+         
+         <p id="VT_202">
+            kurvīta manasā pūjām itāyāpravato ? padā <br />
+            māyayācchādayet paścāt sādhyam antobahiryutam //
+             <span class="ref">VT_202</span></p>
+         
+         
+         <p id="VT_203">
+            māyākamalanālena sādhyam āveṣtam ānayet <br />
+            tataḥ svātmīkam ānīya māyātattvaślathīkṛtam //
+             <span class="ref">VT_203</span></p>
+         
+         
+         <p id="VT_204">
+            pun as tat sthāpayitvā tu sammukhaḥ sādhakottamaḥ <br />
+            nyastavyaṃ tu yad ādau tu ? sādhye vai bījapañcakam //
+             <span class="ref">VT_204</span></p>
+         
+         
+         <p id="VT_205">
+            māyāveṣtitaṃ tan mantrī japed aṣṭaśataṃ tataḥ <br />
+            sādhyanāmākṣaropetaṃ tatprabuddhāsane sthitam //
+             <span class="ref">VT_205</span></p>
+         
+         
+         <p id="VT_206">
+            evaṃ devi tataḥ śīghraṃ dhvastajānuśiroruhaḥ <br />
+            ākṛṣto vidhinānena sādhyaḥ kiṃkarito mahān //
+             <span class="ref">VT_206</span></p>
+         
+         
+         <p id="VT_207">
+            ataḥ paraṃ pravakṣyāmi baddhe ruddhe 'pi mokṣaṇam <br />
+            yathā saṃharate śakraṃ tatprayogam idaṃ śṛṇu //
+             <span class="ref">VT_207</span></p>
+         
+         
+         <p id="VT_208">
+            sādhyahṛtkamalāntaḥsthaṃ dhyātvaivaṃ bījapañcakam <br />
+            kurvīta pūrvavat pūjāṃ suṣumnāyāganirgadā ? //
+             <span class="ref">VT_208</span></p>
+         
+         
+         <p id="VT_209">
+            saṃhārāstraṃ tato mantrī tumburuṃ mūrdhni vinyaset <br />
+            devīnāṃ ca tatas tena sādhyam āvṛtya yogavit //
+             <span class="ref">VT_209</span></p>
+         
+         
+         <p id="VT_210">
+            tatra yo mūrdhni tenaiva jvalitānalavarcasā <br />
+            dṛṣtvā taṃ manasā bhūyo mūrcchitaṃ bhuvi vihvalam //
+             <span class="ref">VT_210</span></p>
+         
+         
+         <p id="VT_211">
+            hṛdi baddhvāṅkuśenaiva ānayed ātmano 'ntikam <br />
+            tatas tvadhomukhaṃ sthāpya pīḍitaṃ chardayed asṛk //
+             <span class="ref">VT_211</span></p>
+         
+         
+         <p id="VT_212">
+            paścāt tu hṛdaye tasya nyastavyaṃ bījapañcakam <br />
+            proddhṛtya sādhyanāmaivaṃ saṃhārāstravidarbhitam //
+             <span class="ref">VT_212</span></p>
+         
+         
+         <p id="VT_213">
+            evaṃ vigatarakṣaṃ tu syāpyudgataṃ tu ? tataḥ <br />
+            japed aṣṭasahasraṃ tu jvālāmālābhir āvṛtam //
+             <span class="ref">VT_213</span></p>
+         
+         
+         <p id="VT_214">
+            tatas tu karmaṇānena tenaiva tu vidhānataḥ <br />
+            sādhyaḥ prayāti nidhanaṃ mṛtyur āntima ? kampayet //
+             <span class="ref">VT_214</span></p>
+         
+         
+         <p id="VT_215">
+            ity etat kathitaṃ devi samāsādyaṃ tu pūrvaśaḥ <br />
+            yathā saṃharate śakraṃ baddhe ruddhe 'tha mokṣaṇāt //
+             <span class="ref">VT_215</span></p>
+         
+         
+         <p id="VT_216">
+            krodhena mahatā dīptaḥ prayogam idam ārabhet <br />
+            suṣumnāyāṃ yadā devaḥ svayaṃcāreṇa vartate //
+             <span class="ref">VT_216</span></p>
+         
+         
+         <p id="VT_217">
+            suṣumnāntargataṃ dhyātvā raktavarṇaṃ vicintayet <br />
+            vidveṣoccāṭanādīni tataḥ karmāṇi kārayet //
+             <span class="ref">VT_217</span></p>
+         
+         
+         <p id="VT_218">
+            bījapañcakadevasya vargāntarayutasya ca <br />
+            varṇāntayāgam ekānte sadā gopitaṃ tan mayā //
+             <span class="ref">VT_218</span></p>
+         
+         
+         <p id="VT_219">
+            tadā tu sarvakāryāṇāṃ siddhaye śṛṇu suvrate <br />
+            kusumbharajasāloḍyaṃ śālīnāṃ piṣṭakena ca //
+             <span class="ref">VT_219</span></p>
+         
+         
+         <p id="VT_220">
+            bhasmanā candanenāpi nāgakeśarajena vā <br />
+            sugandhaiś ca vicitraiś ca likhec ca susamāhitaḥ //
+             <span class="ref">VT_220</span></p>
+         
+         
+         <p id="VT_221">
+            vargātītasya garbhe tu nyaset padmaṃ caturdalam <br />
+            tatra sabhrātṛkā devyaḥ pūjayed bījapañcake //
+             <span class="ref">VT_221</span></p>
+         
+         
+         <p id="VT_222">
+            evaṃ pūjitamātrās tu sarvadāsarvakāmadāḥ <br />
+            bhavanti niyataṃ[nityaṃ] dharmakāmārthamokṣadāḥ //
+             <span class="ref">VT_222</span></p>
+         
+         
+         <p id="VT_223">
+            yāgam evaṃ ca kṛtvānte tato lakṣatrayaṃ japet <br />
+            tataḥ siddhim avāpnoti brahmaghno 'pi hi nānyathā //
+             <span class="ref">VT_223</span></p>
+         
+         
+         <p id="VT_224">
+            manasā cintitaṃ kāmaṃ tadā prabhṛtim āpnuyāt <br />
+            ataḥ paraṃ pravakṣyāmi japasya vidhim uttamam //
+             <span class="ref">VT_224</span></p>
+         
+         
+         <p id="VT_225">
+            ekāsanasthito mantrī yāgaṃ kṛtvā vidhānavit <br />
+            ekacittaḥ prasannātmā vāmahastākṣasūtradhṛk //
+             <span class="ref">VT_225</span></p>
+         
+         
+         <p id="VT_226">
+            japakarma sadākuryād viśeṣam aparaṃ śṛṇu <br />
+            vaśyakāmo japaṃ kuryād anulomair vidarbhitam //
+             <span class="ref">VT_226</span></p>
+         
+         
+         <p id="VT_227">
+            bījair etair yathānyāyaṃ sādhyanāmākṣarānvitaiḥ <br />
+            kālaṃ tatra vijānīyāt kālasiddhiḥ pravartate //
+             <span class="ref">VT_227</span></p>
+         
+         
+         <p id="VT_228">
+            māraṇe pratilomais tu sādhyanāma tu pūrvataḥ <br />
+            vidveṣe 'pi vilomais tu phaṭkārāntaṃ prayojayet //
+             <span class="ref">VT_228</span></p>
+         
+         
+         <p id="VT_229">
+            māraṇe pratilomais tu hūṃphatkārānta dyan ? takaiḥ <br />
+            oṃ svāhā namo 'ntais tu vaśyākarṣaṇakarmasu //
+             <span class="ref">VT_229</span></p>
+         
+         
+         <p id="VT_230">
+            homayed evam evaṃ tu sarvaṃ kuryād vicakṣaṇaḥ <br />
+            namaskāro japasyānte svāhā home prakīrtitam //
+             <span class="ref">VT_230</span></p>
+         
+         
+         <p id="VT_231">
+            svaśoṇitāktaṃ laśunaṃ māraṇe pratihomayet <br />
+            uccātane kākapakṣaṃ vaśye jātiṃ tu homayet //
+             <span class="ref">VT_231</span></p>
+         
+         
+         <p id="VT_232">
+            vidveṣe śleṣa śigruṃ ca homayed avicāraṇāt <br />
+            ākarṣaṇe bakulapuṣpaṃ homayec ca vicakṣaṇaḥ //
+             <span class="ref">VT_232</span></p>
+         
+         
+         <p id="VT_233">
+            sarve yāgasamuddiṣtāḥ kālajñasya yaśasvini <br />
+            yena kālaṃ ca vai jñātaṃ tena jñātaḥ sadāśivaḥ //
+             <span class="ref">VT_233</span></p>
+         
+         
+         <p id="VT_234">
+            sadāśive parijñāte siddhiṃ śāmyanti sādhakāḥ <br />
+            kālatattvaṃ ca vijñeyaṃ tattvātsiddhiḥ pravartate //
+             <span class="ref">VT_234</span></p>
+         
+         
+         <p id="VT_235">
+            tattvahīnā na sidhyanti prayatnenāpi sādhakāḥ <br />
+            tasmāt sarvaprayatnena kālatattvaṃ vidur budhāḥ //
+             <span class="ref">VT_235</span></p>
+         
+         
+         <p id="VT_236">
+            kriyākālaṃ ca vai śūnyaṃ na sidhyantīha sādhakāḥ <br />
+            tasmāt kriyāṃ ca kālaṃ ca asaṃjñeyaṃ prayatnataḥ //
+             <span class="ref">VT_236</span></p>
+         
+         śrīdevy uvāca
+         
+         
+         <p id="VT_237">
+            sa kālaś ca kathaṃ jñeyo yo 'sāv uktas tvayā prabho <br />
+            kālahīnānṛtaṃ manye sarvam eva ca śaṅkara //
+             <span class="ref">VT_237</span></p>
+         
+         śrī īśvara uvāca
+         
+         
+         <p id="VT_238">
+            śṛṇu devi paraṃ guhyaṃ kālatattvātmavigraham <br />
+            yaj jñātvā tu sukhenaiva siddhir bhavati mantriṇām //
+             <span class="ref">VT_238</span></p>
+         
+         
+         <p id="VT_239">
+            ayutaṃ dve ca vijñeyāḥ ṣoḍaśaiva śatāni ca <br />
+            caturviṃśatisaṃkrāntyā dvādaśāṅgulagatāgate //
+             <span class="ref">VT_239</span></p>
+         
+         
+         <p id="VT_240">
+            śarīre tu yathā devi sthitaṃ sakalaniṣkalam <br />
+            tathā haṃsaṃ pravakṣyāmi sādhakānāṃ hitāya vai //
+             <span class="ref">VT_240</span></p>
+         
+         
+         <p id="VT_241">
+            pādau pāyur upastham ca hastau vāgindriyas tathā <br />
+            śrotratvakcakṣuṣā jihvā nāsikā ca tathāparā //
+             <span class="ref">VT_241</span></p>
+         
+         
+         <p id="VT_242">
+            pṛthvy āpas tathā tejo vāyur ākāśam eva ca <br />
+            śabdaḥ sparśaś ca rūpaṃ ca raso gandhas tathaiva ca //
+             <span class="ref">VT_242</span></p>
+         
+         
+         <p id="VT_243">
+            mano buddhir ahaṃkāro avyaktam puruṣas tathā <br />
+            pañcaviṃśatitattvāni śarīre tu vidur budhāḥ //
+             <span class="ref">VT_243</span></p>
+         
+         
+         <p id="VT_244">
+            ebhir ādhārabhūtais tu ādheyo dhyāyate sadā <br />
+            ādhāraṃ puram ity uktaṃ puruṣaś cādheya ucyate //
+             <span class="ref">VT_244</span></p>
+         
+         
+         <p id="VT_245">
+            hṛtpadme karṇikāvastha ūrdhvagāmī sadātmakaḥ <br />
+            niṣkalasya tu devasya punar ādhārasaṃsthitiḥ //
+             <span class="ref">VT_245</span></p>
+         
+         
+         <p id="VT_246">
+            tatpuruṣam ādhārādheyaṃ niṣkalaṃ paramaṃ śivam <br />
+            ṣatkauśikaśarīraṃ tu tattvānāṃ pañcaviṃśatiḥ //
+             <span class="ref">VT_246</span></p>
+         
+         
+         <p id="VT_247">
+            daśavāyusamāyuktaṃ nāḍībhir vyāpitaṃ puram <br />
+            śarīraṃ triguṇaṃ caiva sarvadaivatasaṃyutam //
+             <span class="ref">VT_247</span></p>
+         
+         
+         <p id="VT_248">
+            anenādhiṣthitaṃ devi cakravat parivartate <br />
+            yathā tāragaṇaṃ sarvaṃ grahanakṣatramaṇḍalam //
+             <span class="ref">VT_248</span></p>
+         
+         
+         <p id="VT_249">
+            dhruvādhiṣthitaṃ tat sarvam acalaṃ parivartate <br />
+            tadvac charīraṃ devasya sarvabījagaṇaṃ hi yat //
+             <span class="ref">VT_249</span></p>
+         
+         
+         <p id="VT_250">
+            śivenādhiṣthitaṃ jñātvā tantre siddhim avāpnuyāt <br />
+            trikubjikutilākārā ṣaṣṭhasvarasamanvitā //
+             <span class="ref">VT_250</span></p>
+         
+         
+         <p id="VT_251">
+            śaktir binduvinirbhinnā dehasthā sakalātmakā <br />
+            asyās tejaḥśikhā sūkṣmā mṛṇālatantusaṃnibhā //
+             <span class="ref">VT_251</span></p>
+         
+         
+         <p id="VT_252">
+            jyotirūpā ca sā jñeyā tasyānte tu punaḥ śivaḥ <br />
+            akārādikṣakārāntam ābrahmabhuvanaṃ jagat //
+             <span class="ref">VT_252</span></p>
+         
+         
+         <p id="VT_253">
+            asmiṃś codpadyate sarvaṃ tatraiva pralayaṃ bhavet <br />
+            eṣa devaḥ paraḥ sūkṣma ādhārādheyasaṃsthitaḥ //
+             <span class="ref">VT_253</span></p>
+         
+         
+         <p id="VT_254">
+            ayane viṣuve caiva āgneyāmṛtakāraṇam <br />
+            yadā vāruṇamārgastha iḍāmadhyagato bhavet //
+             <span class="ref">VT_254</span></p>
+         
+         
+         <p id="VT_255">
+            himakundendusaṃkāśo vijñeyaḥ śucikarmaṇi <br />
+            dvādaśādityasaṃkāśaḥ piṅgalāntargato yadā //
+             <span class="ref">VT_255</span></p>
+         
+         
+         <p id="VT_256">
+            aruṇānalasaṃkāśaṃ raudrakarmaṇi yojayet <br />
+            suṣumnāyāṃ yadā deva upaśānto vahaty asau //
+             <span class="ref">VT_256</span></p>
+         
+         
+         <p id="VT_257">
+            mokṣamārgam idaṃ devi jyotīrūpaṃ parāparam <br />
+            eṣa devo gatiś caiva kālatattvātmavigrahaḥ //
+             <span class="ref">VT_257</span></p>
+         
+         
+         <p id="VT_258">
+            sādhakasya hitārthāya paramārtham udāhṛtam <br />
+            etatsarvaṃ samākhyātaṃ kālatattvātmavigraham //
+             <span class="ref">VT_258</span></p>
+         
+         
+         <p id="VT_259">
+            trisaṃsthe tu samāsena sarvatantreṣu siddhidam <br />
+            nāḍīsaṃsthaṃ yathā karma kurute mantriṇaḥ sadā //
+             <span class="ref">VT_259</span></p>
+         
+         
+         <p id="VT_260">
+            tad ahaṃ sampravakṣyāmi śṛṇu tvaṃ ca varānane <br />
+            iḍā ca piṅgalā caiva nāḍyau dve samudāhṛte //
+             <span class="ref">VT_260</span></p>
+         
+         
+         <p id="VT_261">
+            yato nityaṃ cared devaḥ kramaśaś ca nivartate <br />
+            tāny ātmavatakarmāṇi prayuktaṃ kurute prabhuḥ //
+             <span class="ref">VT_261</span></p>
+         
+         
+         <p id="VT_262">
+            sa eva kurute karma bījanāḍīprayogataḥ <br />
+            ayaṃ kālaḥ samākhyātas tṛtvedaya ? samanvitaḥ //
+             <span class="ref">VT_262</span></p>
+         
+         
+         <p id="VT_263">
+            dehastham kathitaṃ devi ṛtuyuktas tu sādhakaḥ <br />
+            jñātvā kālaṃ ca tattvaṃ tu tataḥ karma samārabhet //
+             <span class="ref">VT_263</span></p>
+         
+         
+         <p id="VT_264">
+            śāntikaṃ pauṣtikaṃ cāpi vidveṣoccāṭanaṃ tathā <br />
+            vaśyākarṣaṇakaṃ kuryād yadi kālaṃ vijānate //
+             <span class="ref">VT_264</span></p>
+         
+         
+         <p id="VT_265">
+            saumyāni saumyakāle tu raudre raudrāṇi kārayet <br />
+            anyakālakṛtaṃ karma vṛthā bhavati sādhake //
+             <span class="ref">VT_265</span></p>
+         
+         
+         <p id="VT_266">
+            tasmāt sarvaprayatnena kāle karmāṇi kārayet <br />
+            svaraktaṃ gocanaṃ caiva tathā sindūram eva ca //
+             <span class="ref">VT_266</span></p>
+         
+         
+         <p id="VT_267">
+            kusumbharajaḥsammiśraṃ dadhimadhvājyasaṃyutam <br />
+            khadirai raktasamidhair athavā raktacandanaiḥ //
+             <span class="ref">VT_267</span></p>
+         
+         
+         <p id="VT_268">
+            atra digdhvā hunen mantrī saptāhād vaśam ānayet <br />
+            pratimāṃ lavaṇamayīṃ kṛtvā śatābhimantritāṃ budhaḥ //
+             <span class="ref">VT_268</span></p>
+         
+         
+         <p id="VT_269">
+            pādau prabhṛti hotavyaṃ yāvad aṣṭaśataṃ bhavet <br />
+            trisandhyām ekacittas tu amoghavaśyatāṃ nayet //
+             <span class="ref">VT_269</span></p>
+         
+         
+         <p id="VT_270">
+            saikthīṃ tu pratimāṃ kṛtvā tryūṣaṇena tu lepayet <br />
+            pratimāsu susampūrṇaṃ kaṇṭakair madanodbhavaiḥ //
+             <span class="ref">VT_270</span></p>
+         
+         
+         <p id="VT_271">
+            vidarbhya pādau guhyaṃ ca lalātaṃ ca vicakṣaṇaḥ <br />
+            kucayugme ca devīnām agrato nikhaneta tu //
+             <span class="ref">VT_271</span></p>
+         
+         
+         <p id="VT_272">
+            adhomukhāṃ viliptāṅgāṃ rājikālavaṇena tu <br />
+            vāmanāsikaraktena nāmamantrair vidarbhitām //
+             <span class="ref">VT_272</span></p>
+         
+         
+         <p id="VT_273">
+            likhitvā hṛdaye kuryād vahniṃ prajvālya copari <br />
+            rājikālavaṇaṃ caiva hotavyāṣtaśataṃ budhaḥ //
+             <span class="ref">VT_273</span></p>
+         
+         
+         <p id="VT_274">
+            trisandhyām eva saptāhāt trailokyaṃ vaśam ānayet <br />
+            kulālakaranirmuktamṛdā pratimayīkṛtā //
+             <span class="ref">VT_274</span></p>
+         
+         
+         <p id="VT_275">
+            tenaiva kaṇtakair viddhvā svasthānasthais tu mantriṇaḥ <br />
+            bhage vā athavā liṅge sanmantrāṇy aṣṭaśatāni tu //
+             <span class="ref">VT_275</span></p>
+         
+         
+         <p id="VT_276">
+            sūtrayed guhyadeśe tu gṛṇan mantraṃ tu sarvadā <br />
+            saptāhād ānayed vaśyaṃ striyaṃ vā puruṣam api vā //
+             <span class="ref">VT_276</span></p>
+         
+         
+         <p id="VT_277">
+            mānuṣāsthimayaṃ kīlaṃ kṛtvā tu caturaṅgulam <br />
+            kṣīravṛkṣaṃ bhage likhya liṅgaṃ vā kīlayet tataḥ //
+             <span class="ref">VT_277</span></p>
+         
+         
+         <p id="VT_278">
+            ṣaṇḍilas tu bhavet sādhya ārdrayogo na saṃśayaḥ <br />
+            uddhṛtena bhaven mokṣaṃ nātra kāryā vicāraṇā //
+             <span class="ref">VT_278</span></p>
+         
+         
+         <p id="VT_279">
+            madhūkā śvetapadmaṃ ca rocanā nāgakeśaram <br />
+            tagaraṃ caiva sūkṣmelam añjanaṃ samabhāgikam //
+             <span class="ref">VT_279</span></p>
+         
+         
+         <p id="VT_280">
+            kanyayā piṣitaṃ kṛtvā yāgaṃ kṛtvā yathoditam <br />
+            sahasrāṣtādhikaṃ japtvā japena yajane tataḥ //
+             <span class="ref">VT_280</span></p>
+         
+         
+         <p id="VT_281">
+            sarvalokeṣu dṛśyante kāmadevasamo 'pi tat <br />
+            vicareta mahīṃ kṛtsnāṃ nātra kāryā vicāraṇā //
+             <span class="ref">VT_281</span></p>
+         
+         
+         <p id="VT_282">
+            mañjiṣthā kunduruś caiva haridre dve tu pīṣayet <br />
+            piṣtvā pūrvavidhānena tato guhyaṃ pralepayet //
+             <span class="ref">VT_282</span></p>
+         
+         
+         <p id="VT_283">
+            pravṛtte maithune kāle patir dāsaṃ kariṣyati <br />
+            meṣalocanamūlaṃ tu kambalyā kṣīrasādhitam //
+             <span class="ref">VT_283</span></p>
+         
+         
+         <p id="VT_284">
+            śmaśāne sādhayen mantrī rātrau kāṣṭhais tadudbhavaiḥ <br />
+            kapālair guṇḍayed aṅgaṃ raktavāsoparicchadam //
+             <span class="ref">VT_284</span></p>
+         
+         
+         <p id="VT_285">
+            udvartano 'bhayo hy eṣa vajravat syāṅkuśopamaḥ <br />
+            bhakṣayed deśayet kaṃcit kāmāṅkuśavinirgataḥ //
+             <span class="ref">VT_285</span></p>
+         
+         
+         <p id="VT_286">
+            puruṣo vaśam āyāti strī vā madanagarvitā <br />
+            vālmīkamṛttikāṃ gṛhya balīvardaṃ tu kārayet //
+             <span class="ref">VT_286</span></p>
+         
+         
+         <p id="VT_287">
+            kanyākartitasūtreṇa tasya nāsāṃ pravedhayet <br />
+            athavā padmasūtreṇa raktacandanalepitam //
+             <span class="ref">VT_287</span></p>
+         
+         
+         <p id="VT_288">
+            raktapuṣpaiḥ samabhyarcya sarvārṇavaṃ samānayet <br />
+            sādhyasya vilikhen nāma svaraktena vṛṣodare //
+             <span class="ref">VT_288</span></p>
+         
+         
+         <p id="VT_289">
+            śrīvṛkṣakotare sthāpya sādhyam evaṃ vaśīkuru <br />
+            anenaiva mṛdā meṣaṃ kārayen mantravit sadā //
+             <span class="ref">VT_289</span></p>
+         
+         
+         <p id="VT_290">
+            meṣasūtreṇa vai nāsāṃ vedhayet pūrvavac chuciḥ <br />
+            devīnām agrataḥ sthāpya tasya nāsāṃ pracālayet //
+             <span class="ref">VT_290</span></p>
+         
+         
+         <p id="VT_291">
+            yaṃ yaṃ vijñāpayet kāmaṃ taṃ taṃ prāpnoti sādhakaḥ <br />
+            ete yogavarā devi mayā tava udāhṛtāḥ //
+             <span class="ref">VT_291</span></p>
+         
+         
+         <p id="VT_292">
+            varṇānām udare yāgaṃ sarvakāmaprasiddhidam <br />
+            evam eva magarbhasthaṃ māraṇe samprayojayet //
+             <span class="ref">VT_292</span></p>
+         
+         
+         <p id="VT_293">
+            gavāṃ rocanayā likhya evam eva prayojayet <br />
+            sodaremūkatāṃ kuryād vāgīśam api mūkayet //
+             <span class="ref">VT_293</span></p>
+         
+         
+         <p id="VT_294">
+            nit yam ākarṣayet proktam ākārodare pūjitā <br />
+            mahāpuruṣavarastrīṇāṃ japamānā tu kīrtanāt //
+             <span class="ref">VT_294</span></p>
+         
+         
+         <p id="VT_295">
+            jñānāṅkuśagatā pūjā kṣipraṃ prāyeṣu vastuṣu <br />
+            unmaneṣv atha ghoreṣu sākāreṇa tu sādhayet //
+             <span class="ref">VT_295</span></p>
+         
+         
+         <p id="VT_296">
+            ekārodarayāgena bhavaty arthapradāyikā <br />
+            vakāramadhyagā caiva vaśīkaraṇakarmaṇi //
+             <span class="ref">VT_296</span></p>
+         
+         
+         <p id="VT_297">
+            dharmārthamokṣadā caiva puṣṭitejovivardhanī <br />
+            bhavati niyatā devi haṃsamadhyeṣu pūjitam //
+             <span class="ref">VT_297</span></p>
+         
+         
+         <p id="VT_298">
+            bhañjane yadi sainyānāṃ bhakārajathare sthitam <br />
+            bhavati niyatā kṣipraṃ kṣemanābhigarīyasī //
+             <span class="ref">VT_298</span></p>
+         
+         
+         <p id="VT_299">
+            māraṇe tu prayoktavyaṃ phatkārānte vyavasthitā <br />
+            vidveṣaṃ tu prayacchanti jakārajatharesthitā //
+             <span class="ref">VT_299</span></p>
+         
+         
+         <p id="VT_300">
+            śatrukulocchādaṃ kuryāt hūṃ phatkārānte vyavasthitā <br />
+            svalpaprāyeṣu kāryeṣu yakārajatharodare //
+             <span class="ref">VT_300</span></p>
+         
+         
+         <p id="VT_301">
+            dehanyāsaṃ punar vakṣye abhedyaṃ parameśvari <br />
+            vinyasya karaṇān sākṣān mahābhūteṣu pañcasu //
+             <span class="ref">VT_301</span></p>
+         
+         
+         <p id="VT_302">
+            dehe tattvatrayaṃ nyasya prāṇāyāmapuraḥsaraḥ <br />
+            śarīre vinyased devi pūrvam uktakrameṇa tu //
+             <span class="ref">VT_302</span></p>
+         
+         
+         <p id="VT_303">
+            māyayācchādayitvā tu aṅkuśena nirodhayet <br />
+            yoniṃ baddhvā tataḥ paścāt sādhakaḥ susamāhitaḥ //
+             <span class="ref">VT_303</span></p>
+         
+         
+         <p id="VT_304">
+            svadehe namasā mantrī kalpoktena tu karmaṇā <br />
+            kuryāt sarvāṇi kāryāṇi tataḥ siddhir na saṃśayaḥ //
+             <span class="ref">VT_304</span></p>
+         
+         
+         <p id="VT_305">
+            nayottarāditantreṣu kalpoktaṃ karma kārayet <br />
+            athavādaśalakṣāṇi japed yas tu vidhānataḥ //
+             <span class="ref">VT_305</span></p>
+         
+         
+         <p id="VT_306">
+            tataḥ sabhrātṛkā devyaḥ sādhakasyāgrataḥ sthitāḥ <br />
+            varam iṣtaṃ prayacchanti trayātītaṃ padaṃ hi yat //
+             <span class="ref">VT_306</span></p>
+         
+         
+         <p id="VT_307">
+            bījapañcakam etad dhi na deyaṃ yasya kasyacit <br />
+            vargāntanirguṇākrāntaṃ samyag vai bījapañcakam //
+             <span class="ref">VT_307</span></p>
+         
+         
+         <p id="VT_308">
+            evam eva purā kṛtvā jñātvaivaṃ hi vidhānataḥ <br />
+            bījāni bījayet prājñaḥ tataḥ karma samārabhet //
+             <span class="ref">VT_308</span></p>
+         
+         
+         <p id="VT_309">
+            evaṃ vidhānavid yas tu hīno vā sarvalakṣaṇaiḥ <br />
+            api pātakasaṃyuktaḥ sa siddhiphalabhāg bhavet //
+             <span class="ref">VT_309</span></p>
+         
+         
+         <p id="VT_310">
+            vargāntanirguṇākhyasya asyāpi paramaṃ smṛtam <br />
+            hṛdayaṃ devadevīnām ekākṣaram ataḥ param //
+             <span class="ref">VT_310</span></p>
+         
+         
+         <p id="VT_311">
+            yatra sabhrātṛkā devyaḥ kūṭadehā vyavasthitāḥ <br />
+            nātaḥ parataro mantras triṣu lokeṣu vidyate //
+             <span class="ref">VT_311</span></p>
+         
+         
+         <p id="VT_312">
+            gopitavyaṃ prayatnena tantrasāraṃ sudurlabham <br />
+            mamāpi gopitaṃ devi sarvajñenāpi sarvadā //
+             <span class="ref">VT_312</span></p>
+         
+         
+         <p id="VT_313">
+            niścayaṃ mama baddhvānta ? yac ca devena bhāṣitam <br />
+            tvayāpi caivam evaṃ hi rakṣaṇīyaṃ prayatnataḥ //
+             <span class="ref">VT_313</span></p>
+         
+         
+         <p id="VT_314">
+            cintāratnam idaṃ guhyaṃ vratasādhanavarjitam <br />
+            anusmaraṇāmātreṇa samyagjñāya krameṇa tu //
+             <span class="ref">VT_314</span></p>
+         
+         
+         <p id="VT_315">
+            varṇayāgakrameṇaiva pūrvoktena yathākramam <br />
+            sidhyate nātra saṃdehaḥ sarvakāmas tu mantriṇām //
+             <span class="ref">VT_315</span></p>
+         
+         
+         <p id="VT_316">
+            śāntikaṃ pauṣtikaṃ caiva vidveṣoccāṭanaṃ tathā <br />
+            vaśyākarṣas tathā nāśaṃ sarvaṃ sidhyati sādhake //
+             <span class="ref">VT_316</span></p>
+         
+         
+         <p id="VT_317">
+            śukreṇa sarvatobhadre mahāsammohane tathā <br />
+            nirmathya kathito devi dadhno ghṛtam ivoddhṛtam //
+             <span class="ref">VT_317</span></p>
+         
+         
+         <p id="VT_318">
+            parīkṣya guruṇā śiṣyaṃ gurudevāgnipūjakam <br />
+            tasya deyam idaṃ tantraṃ na ca nāstikanindake //
+             <span class="ref">VT_318</span></p>
+         
+         
+         <p id="VT_319">
+            na dīkṣitā na sidhyanti sthitāḥ kalpaśatair api <br />
+            svayaṃgṛhītamantrāś ca nāstikā vedanindakāḥ //
+             <span class="ref">VT_319</span></p>
+         
+         
+         <p id="VT_320">
+            samayebhyaḥ paribhraṣtās tathā tantravidūṣakāḥ <br />
+            gurūṇāṃ viheṭhanaparās tantrasāravilopakāḥ //
+             <span class="ref">VT_320</span></p>
+         
+         
+         <p id="VT_321">
+            yoginībhiḥ sadā bhraṣṭāḥ kathyante dharmalopakāḥ <br />
+            iti tathyaṃ mahādevi surāsuranamaskṛtam //
+             <span class="ref">VT_321</span></p>
+         
+         
+         <p id="VT_322">
+            sāram etad dhi tantrasya tasya tatsthaṃ mahānaye <br />
+            ājñā bhagavataś caiva śivasya paramātmanaḥ //
+             <span class="ref">VT_322</span></p>
+         
+         śrīdevy uvāca
+         
+         
+         <p id="VT_323">
+            śrutaṃ mayā mahādeva vīṇāsadbhāvam uttamam <br />
+            tantraṃ vīṇāśikhaṃ nāma durlabhaṃ tridaśeṣv api //
+             <span class="ref">VT_323</span></p>
+         
+         
+         <p id="VT_324">
+            vargāntanirguṇākhyasya asyāpi paramaṃ ca yat <br />
+            ekākṣaraṃ paraṃ guhyaṃ bhuktimuktipradāyakam //
+             <span class="ref">VT_324</span></p>
+         
+         
+         <p id="VT_325">
+            gopitaṃ tu tvayā deva sārabhūtaṃ maheśvara <br />
+            tapasā durdharāllabdhaṃ yac ca jñānaṃ śivodbhavam //
+             <span class="ref">VT_325</span></p>
+         
+         
+         <p id="VT_326">
+            prasādaṃ kuru deveśa yatra siddhir dhruvaṃ sthitā <br />
+            prāpte kaliyuge ghore saṃkate bahupātake //
+             <span class="ref">VT_326</span></p>
+         
+         
+         <p id="VT_327">
+            sarvasrotaḥprapannānām āśu siddhir yathā nṛṇām <br />
+            prasādaṃ kuru deveśa kaḥ parampārate mama //
+             <span class="ref">VT_327</span></p>
+         
+         
+         <p id="VT_328">
+            alpaprajñāḥ kumatayo bahuvyākulacetasā <br />
+            tantraṃ naivādhigacchanti na caiva bahudhā śrutam //
+             <span class="ref">VT_328</span></p>
+         
+         
+         <p id="VT_329">
+            iti deva tvayā pūrvaṃ kathitaṃ guruṇātmanā <br />
+            asmākam api saṃkṣepāt kathayasva maheśvara //
+             <span class="ref">VT_329</span></p>
+         
+         śrī īśvara uvāca
+         
+         
+         <p id="VT_330">
+            aho svabhāvaprakṛte kimpraśnāsi punaḥ 'punaḥ <br />
+            yan mayā kathitaṃ pūrvaṃ tad gṛhāṇa subhāṣitam //
+             <span class="ref">VT_330</span></p>
+         
+         śrīdevy uvāca
+         
+         
+         <p id="VT_331">
+            na bhūyaḥ paripṛcchāmi praśnam ekā garīyasī <br />
+            vāram ekaṃ kuru vyaktaṃ prasādaṃ sūkṣmagocaram //
+             <span class="ref">VT_331</span></p>
+         
+         śrī īśvara uvāca
+         
+         
+         <p id="VT_332">
+            śṛṇu devi prayatnena sūkṣmāt sūkṣmataraṃ mahat <br />
+            prayogaṃ sarvatantrāṇām uttaraṃ sarvasiddhaye //
+             <span class="ref">VT_332</span></p>
+         
+         
+         <p id="VT_333">
+            yena saṃsmṛtamātreṇa siddhir hastatale sthitā <br />
+            nāyāso na vrataś caiva na tapaś ca maheśvari //
+             <span class="ref">VT_333</span></p>
+         
+         
+         <p id="VT_334">
+            nāgnikarma na caivārcā smaraṇāt siddhidaḥ smṛtaḥ <br />
+            śṛṇuṣvaikākṣaraṃ devi sadbhāvaparasaṃhitam //
+             <span class="ref">VT_334</span></p>
+         
+         
+         <p id="VT_335">
+            śarīraṃ tattvarājānaṃ jātavedasi saṃsthitam <br />
+            śikhāyāṃ saṃsthito devo bindudevī jayā smṛtā //
+             <span class="ref">VT_335</span></p>
+         
+         
+         <p id="VT_336">
+            yaścātrordhvaṃ bhaved devi saukaraḥ parikīrtitaḥ <br />
+            tantudevaṃ vijānīyān makāraṃ bindudevatām //
+             <span class="ref">VT_336</span></p>
+         
+         
+         <p id="VT_337">
+            evaṃ tu pañcadhā devi tattvarājaṃ tu kīrtitam <br />
+            caturviṃśatikoṣthe tu yo mantranāyakaḥ smṛtaḥ //
+             <span class="ref">VT_337</span></p>
+         
+         
+         <p id="VT_338">
+            tattvarāja iti khyāta ūnaviṃśaty adhaḥ smṛtaḥ <br />
+            viṃśakena svareṇaiva bindumūrdhnā tu pīḍitam //
+             <span class="ref">VT_338</span></p>
+         
+         
+         <p id="VT_339">
+            eṣa ekākṣaraḥ proktas tvatpriyārthaṃ varānane <br />
+            suṣiraṃ tattvarājānaṃ jātavedasi saṃsthitam //
+             <span class="ref">VT_339</span></p>
+         
+         
+         <p id="VT_340">
+            viṣṇor upari dīptena japel lakṣatrayaṃ budhaḥ <br />
+            ākarṣayed drumāṇy eṣa mṛgapakṣisarīsṛpān //
+             <span class="ref">VT_340</span></p>
+         
+         
+         <p id="VT_341">
+            mānuṣāṇāṃ tu kā cintā ākarṣaṇavidhiṃ prati <br />
+            ekādaśamaḥ saṃyuktas tattvarājena śobhane //
+             <span class="ref">VT_341</span></p>
+         
+         
+         <p id="VT_342">
+            śirasā bindubhinnena hṛdi caiṣa nigadyate <br />
+            saptaviṃśa śiraḥ proktaṃ triṃśamas tu śikhā bhavet //
+             <span class="ref">VT_342</span></p>
+         
+         
+         <p id="VT_343">
+            ūnacatvāriṃśatir devi tattvo 'yaṃ kavacaḥ smṛtaḥ <br />
+            ṣoḍaśasvarasaṃyuktam etad astraṃ prakīrtitam //
+             <span class="ref">VT_343</span></p>
+         
+         
+         <p id="VT_344">
+            netraṃ tu kathitaṃ devi viṃśatyakṣarayojitam <br />
+            eṣa ekākṣaro devi ṣaḍaṅgaḥ samudāhṛtaḥ //
+             <span class="ref">VT_344</span></p>
+         
+         
+         <p id="VT_345">
+            haṃso māyāyukto devi nārācāstravidarbhitaḥ <br />
+            savisarganayapadaṃ bījāntasthaṃ(?) ū ī siddhikarī nṛṇām(?) //
+             <span class="ref">VT_345</span></p>
+         
+         
+         <p id="VT_346">
+            ha ra tra vṛddhiṃ karoti .... .... <br />
+            māyāṅkuśanirodhās te sarvamantragaṇādayaḥ //
+             <span class="ref">VT_346</span></p>
+         
+         
+         <p id="VT_347">
+            kramaśo yojayen mantri yadīcched dīrgham ātmani <br />
+            sarvam etat parityajya kuryān mantraparigraham //
+             <span class="ref">VT_347</span></p>
+         
+         
+         <p id="VT_348">
+            ātmātīndriyādhārāṇāṃ kṛtvā kartavyaṃ muhur muhuḥ <br />
+            padārthavidhisaṃyuktaṃ yan mayā gaditaṃ purā //
+             <span class="ref">VT_348</span></p>
+         
+         
+         <p id="VT_349">
+            tad anena prayogeṇa kartavyaṃ siddhim icchatā <br />
+            dhyāyet sindūrasadṛśaṃ vaśyākarṣaṇakarmaṇi //
+             <span class="ref">VT_349</span></p>
+         
+         
+         <p id="VT_350">
+            māraṇe kṛṣṇavarṇaṃ tu vidveṣe vāmarūpakam <br />
+            uccāte dhūmravarṇaṃ tu śvetaṃ caiva puṣṭyarthinā //
+             <span class="ref">VT_350</span></p>
+         
+         
+         <p id="VT_351">
+            mayūragrīvasadṛśaṃ stambhane cintayet sadā <br />
+            sarvavarṇadharaṃ caiva sarvakāmikam eva ca //
+             <span class="ref">VT_351</span></p>
+         
+         
+         <p id="VT_352">
+            sarvendriyāṇāṃ kurvīta upahāre mahādhipe <br />
+            hṛtpadmakarṇikordhvaṃ tu suṣiraṃ tatra cintayet //
+             <span class="ref">VT_352</span></p>
+         
+         
+         <p id="VT_353">
+            sphuliṅgaṃ karṇikārūpaṃ nirdhūmatejarūpiṇam <br />
+            dhūmajvālāvinirmuktaṃ sūryakoṭisamaprabham //
+             <span class="ref">VT_353</span></p>
+         
+         
+         <p id="VT_354">
+            tasyordhve tu śikhā sūkṣmā nirmalā sphātikopamā <br />
+            nityaṃ sā sevyate yuktair yogibhir niṣkalā parā //
+             <span class="ref">VT_354</span></p>
+         
+         
+         <p id="VT_355">
+            ūrṇātantusamākārā ūrdhvasrotā nirupamā <br />
+            tatra madhye gataṃ paśyed devyā guhyottarambhavā //
+             <span class="ref">VT_355</span></p>
+         
+         
+         <p id="VT_356">
+            vālāgraśatabhāgākhyāvīṇādhārāsusaṃsthitā <br />
+            dhyāyeta nityaṃ yogīndraḥ sūkṣmaguhyasamudbhavām //
+             <span class="ref">VT_356</span></p>
+         
+         
+         <p id="VT_357">
+            kṛtvā pūrvaṃ tu vinyāsaṃ sakalābāhyasaṃsthitam <br />
+            evaṃ varṇavibhāgaṃ tu jñātvā siddhim avāpnuyāt //
+             <span class="ref">VT_357</span></p>
+         
+         
+         <p id="VT_358">
+            vaśyākarṣaṇakarmāṇi vācayā sa kariṣyati <br />
+            vīṇāśikhāyāḥ sarvasvaṃ cintāratnam ivāparam //
+             <span class="ref">VT_358</span></p>
+         
+         
+         <p id="VT_359">
+            etad bījavaraṃ prāpya yathepsasi tathā kuru <br />
+            ājñā bhagavataś caiṣā sarvadāvyabhicāriṇī //
+             <span class="ref">VT_359</span></p>
+         
+         
+         <p id="VT_360">
+            dhyātavyā sā prayatnena yadīcchet siddhim ātmanaḥ <br />
+            yajanaṃ yājanaṃ caiva saṃyogaṃ ca layaṃ tathā //
+             <span class="ref">VT_360</span></p>
+         
+         
+         <p id="VT_361">
+            samayākṣarabījaṃ ca akṣarākṣarayojitam <br />
+            rakṣaṇīyaṃ tvayā bhadre prayatnena suniścalam //
+             <span class="ref">VT_361</span></p>
+         
+         
+         <p id="VT_362">
+            etad guhyaṃ samākhyātaṃ tava snehād vicakṣaṇi <br />
+            etaj jñātvā tu mantrajñaḥ śivasāyujyatāṃ vrajet //
+             <span class="ref">VT_362</span></p>
+         <span class="note">em: #sāyojyatāṃ Ed</span>
+         
+         
+         <p id="VT_363">
+            evaṃ vilayatāṃ yāti vidhinānena yoṣitām <br />
+            amalīkṛtadehas tu vidhinānena sādhakaḥ //
+             <span class="ref">VT_363</span></p>
+         
+         
+         <p id="VT_364">
+            amalīkṛtaṃ tanmantraṃ hṛccakre viniyojayet <br />
+            somamaṇḍalamadhyasthaṃ dhyāyet kundendusaprabham //
+             <span class="ref">VT_364</span></p>
+         
+         
+         <p id="VT_365">
+            amṛtena tu siñcanti lāntīsagatilitena ? tu <br />
+            evam āpyāyito mantraḥ sarvasiddhiprado bhavet //
+             <span class="ref">VT_365</span></p>
+         
+         
+         <p id="VT_366">
+            evam āpyāyanaṃ kṛtvā bindumadhyevicakṣaṇaḥ <br />
+            aṣṭottarasahasraṃ tu mantrāṇāṃ mantravij japet //
+             <span class="ref">VT_366</span></p>
+         
+         
+         <p id="VT_367">
+            paramīkaraṇaṃ hy etan mantrasyāpyāyanaṃ smṛtam <br />
+            śivībhūtas tu mantro vai sādhayed akhilaṃ jagat //
+             <span class="ref">VT_367</span></p>
+         
+         
+         <p id="VT_368">
+            sūryacakraniruddhaṃ tu śirasi samavasthitam <br />
+            japet hūṃkārasahitaṃ bodhanaṃ parikīrtitam //
+             <span class="ref">VT_368</span></p>
+         
+         
+         <p id="VT_369">
+            ādityacakramadhyasthaṃ vahninā saṃnirodhitam <br />
+            nirdahate mantraṃ devi yadā karma na kurvati //
+             <span class="ref">VT_369</span></p>
+         
+         
+         <p id="VT_370">
+            śikhāmadhyagataṃ dhyātvā sahasraṃ parivartayet <br />
+            mantram evaṃ samuddiṣtaṃ guhyaśaktipradīpanam //
+             <span class="ref">VT_370</span></p>
+         
+         
+         <p id="VT_371">
+            dahanaṃ cāgninā kāryaṃ hūṃkāreṇa prabodhayet <br />
+            dīpanaṃ tu śikhāmadhye mantrāṇāṃ mantravādinām //
+             <span class="ref">VT_371</span></p>
+         
+         
+         <p id="VT_372">
+            amalīkurutesūryaś candreṇāpyāyanaṃ smṛtam <br />
+            śivīkurvīta bindusthaṃ mantrī mantraṃ tu yogavit //
+             <span class="ref">VT_372</span></p>
+         
+         
+         <p id="VT_373">
+            evaṃ mantraviśuddhas tu candrasūryasamanvitam <br />
+            dīpanaṃ śaktinā nityaṃ japen mantrī samāhitaḥ //
+             <span class="ref">VT_373</span></p>
+         
+         
+         <p id="VT_374">
+            amṛtodbhavakāle tu mantrī yatnena niścayāt <br />
+            vaśam ānayate kṣipraṃ viśvaṃ manata ? saṃśayaḥ //
+             <span class="ref">VT_374</span></p>
+         
+         
+         <p id="VT_375">
+            yāvatī māyā mantrāṇāṃ sarveṣāṃ kathitā mayā <br />
+            vidhir atra krame cāyaṃ paścād vakṣye jape vidhim //
+             <span class="ref">VT_375</span></p>
+         
+         
+         <p id="VT_376">
+            yajanakāle samprāpte ekacittaḥ samāhitaḥ <br />
+            hṛtpadme karṇikāsīnadevatārpitamānasaḥ //
+             <span class="ref">VT_376</span></p>
+         
+         
+         <p id="VT_377">
+            śikhābinduṃ vinirdhārya tanmantraṃ hṛdi saṃsthitam <br />
+            putavarṇavidhānaṃ syād akṛtoccāranisvanam //
+             <span class="ref">VT_377</span></p>
+         
+         
+         <p id="VT_378">
+            svasthacitto hy asammūḍha alākūrdhvasthitātmanaḥ <br />
+            avicchinnaṃ drutaṃ caiva avilambitam eva ca //
+             <span class="ref">VT_378</span></p>
+         
+         
+         <p id="VT_379">
+            tāvan mantrī japen mantraṃ yāvac cittaṃ na khidyate <br />
+            alabhya mama mantraṃ syād drutaṃ kālasya sidhyati //
+             <span class="ref">VT_379</span></p>
+         
+         
+         <p id="VT_380">
+            japaṃ kṛtvā tu medhāvī nānyam etat samarpayet <br />
+            mantrī kurvīta yatnena yathārthatvaṃ nibodhata //
+             <span class="ref">VT_380</span></p>
+         
+         
+         <p id="VT_381">
+            prathame vāyavī proktā dvitīyā tv analā smṛtā <br />
+            tṛtīyā caiva māhendrī vāruṇī tu tathāpare //
+             <span class="ref">VT_381</span></p>
+         
+         
+         <p id="VT_382">
+            oṃkārapūrvato mantraṃ namaskārāntayojitam <br />
+            bījapiṇḍaṃ tu madhyasthaṃ mudrāyuktaṃ sadā yajet //
+             <span class="ref">VT_382</span></p>
+         
+         
+         <p id="VT_383">
+            kṣipram arthas tathā karma bhuktibhogaṃ sudurlabham <br />
+            sādhayen manasā sarvaṃ bījamudrāprayogataḥ //
+             <span class="ref">VT_383</span></p>
+         
+         
+         <p id="VT_384">
+            hūṃkāram adito nyastam namaskārāntavyavasthitam <br />
+            uccātayet sarvaduṣtān daityabhūtagrahāṃs tathā //
+             <span class="ref">VT_384</span></p>
+         
+         
+         <p id="VT_385">
+            oṃkārayojitasyādau svāhākārāvasānataḥ <br />
+            agnikāryaprayogo 'yaṃ kṣipram arthaṃ prasādhayet //
+             <span class="ref">VT_385</span></p>
+         
+         
+         <p id="VT_386">
+            oṃkārasamputaṃ piṇḍaṃ rakāreṇa tu dīpakam <br />
+            sādhayen manasā dhyātvā kāmārthaś ca yathepsitam //
+             <span class="ref">VT_386</span></p>
+         
+         
+         <p id="VT_387">
+            suptaṃ bodhayate mantrī śīghraṃ siddhim avāpnuyāt <br />
+            oṃkāraś ca rakāraś ca phaṭkāraś caiva madhyataḥ //
+             <span class="ref">VT_387</span></p>
+         
+         
+         <p id="VT_388">
+            madhye vargāntapiṇḍas tu karma kuryād yathepsitam <br />
+            hūṃkāram ādau ante ca hakāraś cādimadhyataḥ //
+             <span class="ref">VT_388</span></p>
+         
+         
+         <p id="VT_389">
+            japan tu bodhayen mantrī api suptam acetanam <br />
+            hūṃkāraś ca rakāraś ca phaṭkāram ādimadhyataḥ //
+             <span class="ref">VT_389</span></p>
+         
+         
+         <p id="VT_390">
+            kruddhas tu jāpayen mantrī yadākarma na kurvati <br />
+            oṃkārasamputaṃ kṛtvā namaskārāntayojitam //
+             <span class="ref">VT_390</span></p>
+         
+         
+         <p id="VT_391">
+            japet piṇḍākṣaraṃ mantrī sarvasiddhikaraṃ param <br />
+            śāntikapauṣtikaṃ karma śubheṣu aśubheṣu ca //
+             <span class="ref">VT_391</span></p>
+         
+         
+         <p id="VT_392">
+            kṣipram āvāhane siddhir homabījaprayogataḥ <br />
+            homayet phalabījāni dhānyabījatṛṇāni ca //
+             <span class="ref">VT_392</span></p>
+         
+         
+         <p id="VT_393">
+            payasā vāpi śuddhena homakarma hy udāhṛtam <br />
+            madhunā ghṛtasaṃyuktaṃ tilaṃ juhyād vicakṣaṇi //
+             <span class="ref">VT_393</span></p>
+         
+         
+         <p id="VT_394">
+            sādhayet sarvakarmāṇi vaṣatkṛtaṃ japiṣyati <br />
+            sarveṣāṃ guhyamantrāṇāṃ bījamudrāṃ prayojayet //
+             <span class="ref">VT_394</span></p>
+         
+         
+         <p id="VT_395">
+            aprakāśyam idaṃ guhyaṃ śivavaktrād viniḥsṛtam <br />
+            yas tv idaṃ dhyāyate nityaṃ pūjayen manasā japet //
+             <span class="ref">VT_395</span></p>
+         
+         
+         <p id="VT_396">
+            sa bhuṅkte vipulān bhogān īśānāntapadaṃ labhet //
+             <span class="ref">VT_396</span></p>
+         
+         
+         <p>vīṇāśikhā sārdhaśatatrayaṃ yāmalatantraṃ samāptam iti</p>
+         
+         <span class="note">Verse 375 in Ed. has only 2 pādas</span>
+         
+         
+         
+         <h3>Appendices :</h3>
+         
+         A:
+         hūṃkārādau svāhānte ākarṣaṇe
+         oṃkārādau vauṣat ante śāntike
+         oṃkārādau su vaṣaḍ ante pauṣtike
+         oṃkārādau vaṣaḍante 'mṛtīkaraṇe
+         phat phat māraṇe
+         oṃ kṣraṃ saṃhārāstra
+         
+         B:
+         kṣa puruṣa/prakṛti buddhi/ahaṅkāra manaḥ
+         ja śabdasparśarasarūpagandha tanmātraṃ
+         bha pṛthivī āpa teja vāyu ākāśa pañcamahābhūta
+         /ma/śrotratvaccakṣurjihvāghrāṇa buddhīndriya
+         ha/vākpāṇipādapāyūpastha karmendriya
+         
+         C:
+         jaya brāhmani bhūmi
+         vijaya kṣatrāṇi / āpa
+         ajita / vaisani / teja
+         aparājita sūdrani / vāyu
+         tumburu akāśa śūnya nirguṇa
+         
+         D:
+         kṣakāraḥ puruṣaḥ sākṣāt makāraḥ prakṛtiḥ smṛtā
+         mahān hakāram ity āhur ahaṃkāras tu ya smṛtaḥ
+         oṃkāras tu manaḥ proktaṃ kathitaṃ devi te kramāt
+         
+         Colophon :
+         vīṇāśikhaṃ vāmatantraṃ sampūrṇam śubham astu
+         
+         </div>
+   </body>
+</html>

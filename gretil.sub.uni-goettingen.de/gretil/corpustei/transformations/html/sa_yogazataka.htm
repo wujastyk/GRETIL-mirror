@@ -1,0 +1,876 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Yogaśataka (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Yogaśataka</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_yogazataka.xml">sa_yogazataka.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Klaus Wille</p>
+      <p class="noindent"><b>Contribution: </b>Klaus Wille</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Heinz Helmuth Michael Schmidt: Das Yogaśata : Ein Zeugnis altindischer Medizin, Sanskrit
+            und Tibetisch, Bonn 1978 (Diss.).</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/7_ayur/yogasatu.htm">yogasatu.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Yogasataka = Yś
+            <br />Based on the ed. Heinz Helmuth Michael Schmidt: Das Yogaśata : Ein Zeugnis altindischer
+            Medizin, Sanskrit und Tibetisch, Bonn 1978 (Diss.).
+            <br />
+            <br />Input by Klaus Wille
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>oṃ namaḥ sarvajñāya //</p>
+         
+         
+         <p>oṃ namo dhanvantarāye //</p>
+         
+         
+         <p>
+            kṛtsnasya tantrasya gṛhītadhāmnaś cikitsitād viprasṛtasya dūram /<br />
+            vidagdhavaidyapratipūjitasya kariṣyate yogaśatasya bandhaḥ // Yś_1 //
+            </p>
+         
+         
+         <p>
+            parīkṣya hetvāmayalakṣaṇāni cikitsitajñena cikitsikena /<br />
+            nirāmadehasya hi bhaiṣajāni bhavanti yuktāny amṛtopamāni // Yś_2 //
+            </p>
+         
+         
+         <p>
+            chinnodbhavāmbudharadhanvayavāsaviśvair duḥsparśaparpaṭakameghakirātatiktaiḥ /<br />
+            mustāṭarūṣakamahauṣadhadhanvayāsaiḥ kvāthaṃ pibed anilapittakaphajvareṣu // Yś_3 //
+            </p>
+         
+         
+         <p>
+            kṣudrāmṛtānāgarapuṣkarāhvayaiḥ kṛtaḥ kaṣāyaḥ kaphamārutottare /<br />
+            saśvāsakāsārucipārśvarukkare jvare tridoṣaprabhave 'pi śasyate // Yś_4 //
+            </p>
+         
+         
+         <p>
+            āragvadhagranthikamustatiktāharītakībhiḥ kvathitaḥ kaṣāyaḥ /<br />
+            sāme saśūle kaphavātayukte jvare hito dīpanapācanaś ca // Yś_5 //
+            </p>
+         
+         
+         <p>
+            drākṣābhayāparpaṭakābdatiktākvāthaṃ saśamyākaphalaṃ vidadhyāt /<br />
+            pralāpamūrchābhramadāhamohatṛṣṇānvite pittabhave jvare tu // Yś_6 //
+            </p>
+         
+         
+         <p>
+            nidigdhikānāgarakāmṛtānāṃ kvāthaṃ piben miśritapippalīkam /<br />
+            jīrṇajvarārocakakāsaśūlaśvāsāgnimāndyārditapīnaseṣu // Yś_7 //
+            </p>
+         
+         
+         <p>
+            durālabhāparpaṭakapriyaṅgubhūnimbavāsākaṭurohiṇīnām /<br />
+            kvāthaṃ pibec charkarayāvagāḍhaṃ tṛṣṇāśrapittajvaradāhayuktaḥ // Yś_8 //
+            </p>
+         
+         
+         <p>
+            phalatrikaṃ dāruniśāviśālāmustaṃ ca niṣkvāthya niśāṃśakalkam /<br />
+            pibet kaṣāyaṃ madhusaṃprayuktaṃ sarvaprameheṣu samutthiteṣu // Yś_9 //
+            </p>
+         
+         
+         <p>
+            savatsakaḥ sātiviṣaḥ sabilvaḥ sodīcyamustaś ca kṛtaḥ kaṣāyaḥ /<br />
+            sāme saśūle ca saśoṇite ca cirapravṛtte 'pi hito 'tisāre // Yś_10 //
+            </p>
+         
+         
+         <p>
+            śuṇṭhīṃ samustātiviṣāguḍūcīṃ pibej jalena kvathitāṃ samāṃśām /<br />
+            mandānalatve satatāmayānām āmānubandhe grahaṇīgade ca // Yś_11 //
+            </p>
+         
+         
+         <p>
+            punarnavādārvyabhayāguḍūcīḥ pibet samūtrā mahiṣākṣayuktāḥ /<br />
+            tvagdoṣaśophodarapāṇḍurogasthaulyaprasekordhvakaphāmayeṣu // Yś_12 //
+            </p>
+         
+         
+         <p>
+            mustākhuparṇīphaladāruśigrukvāthaḥ sakṛṣṇākṛmiśatrukalkaḥ /<br />
+            mārgadvayenāpi cirapravṛttān kṛmīn nihanyāt kṛmijāṃś ca rogān // Yś_13 //
+            </p>
+         
+         
+         <p>
+            elopakulyāmadhukāśmabhedakauntīśvadaṃṣṭrāvṛṣakorubūkaiḥ /<br />
+            śṛtaṃ pibed aśmajatupradhānaṃ saśarkare sāśmarimūtrakṛcchre // Yś_14 //
+            </p>
+         
+         
+         <p>
+            elāśmabhedakaśilājatupippalīnāṃ cūrṇāni taṇḍulajalair lulitāni pītvā /<br />
+            yad vā guḍena sahitāny avalehyamānāny āsannamṛtyur api jīvati mūtrakṛcchrī // Yś_15
+            //
+            </p>
+         
+         
+         <p>
+            harītakīgokṣurarājavṛkṣapāṣāṇabhiddhanvayavāsakānām /<br />
+            kvāthaṃ piben mākṣikasaṃprayuktaṃ kṛcchre sadāhe saruje vibandhe // Yś_16 //
+            </p>
+         
+         
+         <p>
+            vāsāguḍūcīcaturaṅgulānām eraṇḍatailena pibet kaṣāyam /<br />
+            krameṇa sarvāṅgajam apy aśeṣaṃ jayed asṛgvātabhavaṃ vikāram // Yś_17 //
+            </p>
+         
+         
+         <p>
+            rasāñjanaṃ taṇḍulakasya mūlaṃ kṣaudrānvitaṃ taṇḍulatoyapītam /<br />
+            asṛgdaraṃ sarvabhavaṃ nihanti śvāsaṃ ca bhārgī saha nāgareṇa // Yś_18 //
+            </p>
+         
+         
+         <p>
+            eraṇḍabilvabṛhatīdvayamātuluṅgapāṣāṇabhittrikaṭamūlakṛtaṃ kaṣāyaḥ /<br />
+            sakṣārahiṅgulavaṇoruhutailamiśraḥ śroṇyaṃsameḍhrahṛdayastanarukṣu peyaḥ // Yś_19 //
+            </p>
+         
+         
+         <p>
+            hiṅgūgragandhāviḍaśuṇṭhyajājīharītakīpuṣkaramūlakuṣṭham /<br />
+            bhāgottaraṃ cūrṇitam etad iṣṭaṃ gulmodarājīrṇavisūcikāsu // Yś_20 //
+            </p>
+         
+         
+         <p>
+            cūrṇaṃ samaṃ rucakahiṅgumahauṣadhānām śuṇṭhyambunā kaphasamīraṇasaṃbhavāsu /<br />
+            hṛtpārśvapṛṣṭhajaṭharārtivisūcikāsu peyaṃ tathā yavarasena ca viḍvibandhe // Yś_21
+            //
+            </p>
+         
+         
+         <p>
+            pūtīkapatragajacirbhiṭacavyavahni vyoṣaṃ ca saṃstaracitaṃ lavaṇopadhānam /<br />
+            dagdhvā vicūrṇya dadhimastuyutaṃ prayojyaṃ gulmodaraśvayathupāṇḍugudodbhaveṣu // Yś_22
+            //
+            </p>
+         
+         
+         <p>
+            dviruttarā hiṅgu vacā sakuṣṭhā suvarcikā ceti viḍaṃ ca cūrṇam /<br />
+            uṣṇāmbunānāhavisūcikārtihṛdrogagulmordhvasamīraṇaghnam // Yś_23 //
+            </p>
+         
+         
+         <p>
+            śṛṅgīkaṭutrikaphalatrayakaṇṭakārībhārgīsapuṣkarajaṭā lavaṇāni pañca /<br />
+            cūrṇaṃ pibed aśiśireṇa jalena hikkāśvāsordhvavātakasanārucipīnaseṣu // Yś_24 //
+            </p>
+         
+         
+         <p>
+            nādeyīkuṭajārkaśigrubṛhatīsnugbilvabhallātaka-<br />
+            vyāghrīkiṃśukapāribhadrakajaṭāpāmārganīpāgnikān /<br />
+            vāsāmuṣkakapāṭalāḥ salavaṇā dagdhvā rasaṃ pācitaṃ<br />
+            hiṅgvādiprativāpam etad ucitaṃ gulmodaraplīhiṣu // Yś_25 //
+            </p>
+         
+         
+         <p>
+            cavyamlavetasakaṭutrikatittiḍīkatālīsajīrakatugādahanaiḥ samāṃśaiḥ /<br />
+            cūrṇaṃ guḍapramṛditaṃ trisugandhiyuktaṃ vaisvaryapīnasakaphāruciṣu praśastam // Yś_26
+            //
+            </p>
+         
+         
+         <p>
+            tālīsacavyamaricaṃ sadṛśaṃ dviraṃśaṃ mūlaṃ tugāṃ magadhajāṃ triguṇāṃ ca śuṇṭhīm /<br />
+            kṛtvā guḍatriguṇitāṃ guḍikāṃ sugandhāṃ kāsāgnimāndyagudajajvararukṣu dadyāt // Yś_27
+            //
+            </p>
+         
+         
+         <p>
+            suṇṭhīkaṇāmaricanāgadalatvagelaṃ cūrṇīkṛtaṃ kramavivardhitam ūrdhvam antyāt /<br />
+            khāded idaṃ samasitaṃ gudajāgnimāndyagulmāruciśvasanakaṇṭhahṛdāmayeṣu // Yś_28 //
+            </p>
+         
+         
+         <p>
+            sindhūtthahiṅgutriphalāyavānīvyoṣair guḍāṃśair guḍikāṃ prakuryāt /<br />
+            tair bhakṣitais tṛptim avāpnuvan na bhuñjīta mandāgnir api prabhūtam // Yś_29 //
+            </p>
+         
+         
+         <p>
+            ayastilatryūṣaṇakolabhāgaiḥ sarvaiḥ samaṃ mākṣikadhātucūrṇam /<br />
+            tair modakaḥ kṣaudrayuto 'nutakraḥ pāṇḍvāmaye dūragate 'pi śastaḥ // Yś_30 //
+            </p>
+         
+         
+         <p>
+            guḍena śuṇṭhīm athavopakulyāṃ pathyātṛtīyām atha dāḍimaṃ ca /<br />
+            āmeṣv ajīrṇeṣu gudāmayeṣu varcovibandheṣu ca nityam adyāt // Yś_31 //
+            </p>
+         
+         
+         <p>
+            harītakīnāgaramustacūrṇaṃ guḍena sārdhaṃ guṭikā vidheyā /<br />
+            nivārayaty āsyavidhāriteyaṃ śvāsaṃ pravṛddhaṃ prabalaṃ ca kāsam // Yś_32 //
+            </p>
+         
+         
+         <p>
+            vaṭaprarohaṃ madhu kuṣṭham utpalaṃ salājacūrṇaṃ guḍikāṃ prakalpayet /<br />
+            susaṃhitā sā vadanena dhāritā tṛṣṇāṃ pravṛddhām api hanti satvaram // Yś_33 //
+            </p>
+         
+         
+         <p>
+            manaḥśilāmāgadhikoṣaṇānāṃ cūrṇaṃ kapitthāmlarasena yuktam /<br />
+            lājaiḥ samāṃśair madhunāvalīḍhaṃ chardiṃ prasaktām asakṛn nihanti // Yś_34 //
+            </p>
+         
+         
+         <p>
+            dūrvāraso dāḍimapuṣpajo vā ghrāṇapravṛtte 'sṛji nasyam uktam /<br />
+            stanyena vālaktarasena vāpi viṇ makṣikānāṃ ca nihanti hikkām // Yś_35 //
+            </p>
+         
+         
+         <p>
+            dhātrīrasaḥ sarjarasaḥ sapākyaḥ sauvīrapiṣṭaś ca tadāsutaś ca /<br />
+            bhavanti sidhmāni yathā na bhūyas tathaivam udvartanakaṃ karoti // Yś_36 //
+            </p>
+         
+         
+         <p>
+            dūrvābhayāsaindhavacakramardakuṭherakāḥ kāñjikatakrapiṣṭāḥ /<br />
+            tribhiḥ pralepair api baddhamūlāṃ dadruṃ ca kaṇḍuṃ ca vināśayanti // Yś_37 //
+            </p>
+         
+         
+         <p>
+            gaṇḍīrikacitrakamārkavārkakuṣṭhadrumatvaglavaṇaiḥ samūtraiḥ /<br />
+            tailaṃ pacen maṇḍalakuṣṭhadadruduṣṭavraṇāruk kiṭimāpahāri // Yś_38 //
+            </p>
+         
+         
+         <p>
+            sindūraguggulurasāñjanasikthatutthais tulyāṃśakaiḥ kaṭukatailam idaṃ vipakvam /<br />
+            kacchūṃ sravatpiṭakikām athavāpi śuṣkām abhyañjanena sakṛd uddharati prasahya // Yś_39
+            //
+            </p>
+         
+         
+         <p>
+            suvarcikānāgarakuṣṭhamūrvālākṣāniśālohitayaṣṭikābhiḥ /<br />
+            tailaṃ jvare ṣaḍguṇatakrasiddham abhyañjanāc chītavidāhanut syāt // Yś_40 //
+            </p>
+         
+         
+         <p>
+            sarpir guḍūcīvṛṣakaṇṭakārīkvāthena kalkena ca siddham etat /<br />
+            peyaṃ purāṇajvarakāsaśūlaśvāsāgnimāndyagrahaṇīgadeṣu // Yś_41 //
+            </p>
+         
+         
+         <p>
+            vṛṣakhadirapaṭolapatranimbatvagamṛtatāmalakīkaṣāyakalkaiḥ /<br />
+            ghṛtam abhinavam etad āśu siddhaṃ jayati visarpamadāśrakuṣṭhagulmān // Yś_42 //
+            </p>
+         
+         
+         <p>
+            tvaṅmāṃsaśoṇitagatair doṣaiḥ prakupitair janitaḥ<br />
+            sarvāṅgaśārīraśoṣaviśeṣo visarpaḥ /<br />
+            mado madyātmo madyapānajanitavikāraḥ // Yś_43 //
+            </p>
+         
+         
+         <p>
+            amṛtāpaṭolapicumardadhāvanītriphalākarañjavṛṣakalkavāribhiḥ /<br />
+            ghṛtam uttamaṃ vidhivipakvam ādṛtaḥ prapibann idaṃ jayati kuṣṭham āturaḥ // Yś_44
+            //
+            </p>
+         
+         
+         <p>
+            khaṇḍān kuṣmāṇḍakānām atha pacanavidhisvinnaśuṣkājyabhṛṣṭān<br />
+            nyasyet khaṇḍe vipakve samaricamagadhāśuṇṭhyajājītrigandhān /<br />
+            leho 'yaṃ bālavṛddhānilarudhirakṛśastrīprasaktakṣatānāṃ<br />
+            tṛṣṇākāsāsrapittaśvasanagudarujācharditānāṃ ca śastaḥ // Yś_45 //
+            </p>
+         
+         
+         <p>
+            vipācya mūtrāmblamadhūni dantīpiṇḍītakṛṣṇāviḍadhūmakuṣṭhaiḥ /<br />
+            vartiṃ karāṅguṣṭhanibhāṃ ghṛtāktāṃ gude rujānāhaharīṃ vidadhyāt // Yś_46 //
+            </p>
+         
+         
+         <p>
+            saśarkaraṃ kuṅkumam ājyabhṛṣṭaṃ nasyaṃ vidheyaṃ pavanāsṛgutthe /<br />
+            bhrūkarṇaśaṅkhākṣiśiro'rdhaśūle dinābhivṛddhiprabhave ca roge // Yś_47 //
+            </p>
+         
+         
+         <p>
+            pathyākṣadhātrīphalamadhyabījais tridvyekabhāgair vidadhīta vartim /<br />
+            tayāñjayed aśrum atipravṛddham akṣṇor haret kaṣṭam api prakopam // Yś_48 //
+            </p>
+         
+         
+         <p>
+            harītakīsaindhavatārkṣyaśailaiḥ sagairikaiḥ svacchajalaprapiṣṭaiḥ /<br />
+            bahiṣpralepaṃ nayanasya kuryāt sarvākṣirogopaśamārtham etat // Yś_49 //
+            </p>
+         
+         
+         <p>
+            sasaindhavaṃ lodhram athājyabhṛṣṭaṃ sauvīrapiṣṭaṃ sitavastrabaddham /<br />
+            āścyotanaṃ tan nayanasya kuryāt sadāhakaṇḍūṃ ca rujaṃ nihanyāt // Yś_50 //
+            </p>
+         
+         
+         <p>
+            hanty arjunaṃ śarkarayābdhipheno naktāndhatāṃ gośakṛtā ca kṛṣṇā /<br />
+            rasāñjanaṃ vyoṣayutaṃ ca pillaṃ tāpīsamutthaṃ madhunā ca śukram // Yś_51 //
+            </p>
+         
+         
+         <p>
+            puṣpākhyatārkṣyasasitodadhiphenaśaṅkhasindhūtthagairikaśilāmaricaiḥ samāṃśaiḥ /<br />
+            piṣṭais tu mākṣikarasena rasakriyeyaṃ hanty armakācatimirārjunavartmarogān // Yś_52
+            //
+            </p>
+         
+         
+         <p>
+            mustośīrarajoyavāsamaricāḥ sindhūdbhavaṃ kaṭphalaṃ<br />
+            dārvītutthakaśaṅkhaphenanaladaṃ kālānusāry añjanam /<br />
+            tulyaṃ cūrṇitam āyase vinihitaṃ kṣaudrānvitaṃ śasyate<br />
+            kaṇḍvarmāmayaraktarājitimire pillopadeheṣu ca // Yś_53 //
+            </p>
+         
+         
+         <p>
+            mañjiṣṭhāmadhukotpalodadhikaphatvaksevyagorocanā-<br />
+            māṃsīcandanaśaṅkhapatragirimṛttālīsapuṣpāñjanaiḥ /<br />
+            sarvair eva samāṃśam añjanam idaṃ śastaṃ sadā cakṣuṣaḥ<br />
+            kaṇḍūtkledamalāśruśoṇitarujāpillārmaśukrāpaham // Yś_54 //
+            </p>
+         
+         
+         <p>
+            kvāthaḥ samustātiviṣendradārukaliṅgapāṭhākaṭurohiṇīnām /<br />
+            gomūtrasiddho madhunā ca yuktaḥ peyo galavyādhiṣu sarvajeṣu // Yś_55 //
+            </p>
+         
+         
+         <p>
+            yavāgrajaṃ tejavatīṃ sapāṭhāṃ rasāñjanaṃ dāruniśāṃ sakṛṣṇām /<br />
+            kṣaudreṇa kuryād guṭikāṃ mukhena tāṃ dhārayet sarvagalāmayeṣu // Yś_56 //
+            </p>
+         
+         
+         <p>
+            dārvīguḍūcīsumanāpravālādrākṣāyavāsatriphalākaṣāyaḥ /<br />
+            kṣaudreṇa yuktaḥ kavalagraho 'yaṃ mukhasya pākaṃ śamayaty udīrṇam // Yś_57 //
+            </p>
+         
+         
+         <p>
+            kuṣṭhaṃ dārvī lodhram abdaṃ samaṅgā pāṭhā tiktā tejanī pītikā ca /<br />
+            cūrṇaṃ śastaṃ gharṣaṇaṃ tad dvijānāṃ raktasrāvaṃ hanti kaṇḍūrujaṃ ca // Yś_58 //
+            </p>
+         
+         
+         <p>
+            sauvīraśuktārdrakamātuluṅgamāṃsai rasair guggulusaindhavaś ca /<br />
+            paktvā tu tailaṃ kaṭukaṃ niṣiñcet tat karṇayoḥ karṇarujopaśāntyai // Yś_59 //
+            </p>
+         
+         
+         <p>
+            vāsānimbapaṭolaparpaṭaphalaśrīcavyadārvyambudaiḥ<br />
+            tiktośiradurālabhātrikaṭukatrāyantikācandanaiḥ /<br />
+            sarpiḥ siddham athordhvajatruvikṛtighrāṇākṣiśūlādiṣu<br />
+            tvagdoṣajvaravidradhivraṇarujāśukreṣu vai ceṣyate // Yś_60 //
+            </p>
+         
+         
+         <p>
+            dārvīparpaṭanimbavatsakakaṇāduḥsparśayaṣṭīvṛṣās<br />
+            trāyantītriphalāpaṭolakaṭukābhūnimbaraktāmbudāḥ /<br />
+            eṣāṃ kalkakaṣāyasādhitam idaṃ sarpiḥ praśastaṃ dṛśaḥ<br />
+            pittāsṛkprabhaveṣu śukratimireṣūrdhveṣu ca vyādhiṣu // Yś_61 //
+            </p>
+         
+         
+         <p>
+            śuklairaṇḍān mūlam athogrā śatapuṣpā puṣpodbhūtaṃ yac ca bṛhatyās tagaraṃ ca /<br />
+            tailaṃ siddhaṃ taiḥ sapayaskais timiraghnaṃ nasyaṃ śreṣṭhaṃ vyādhiṣu cordhveṣv apareṣu
+            // Yś_62 //
+            </p>
+         
+         
+         <p>
+            kvāthe muṣkakabhasmano 'nalaśikhādagdhaṃ kṣipec chaṅkhakaṃ<br />
+            tat tenaiva punar jalena vipacet kṣāraṃ sa taile vidhiḥ /<br />
+            yuñjyāt tad vraṇaduṣṭiṣu vraṇarujāsv arśassu nāḍīṣu ca<br />
+            tvagdoṣeṣu bhagaṃdareṣu vividhe kaṇṭhāmaye ca sthire // Yś_63 //
+            </p>
+         
+         
+         <p>
+            niśāsayaṣṭīmadhupadmakotpalaiḥ priyaṅgukāsāvaralodhracandanaiḥ /<br />
+            vipācya tailaṃ payasā prayojayet kṣateṣu saṃropaṇadāhanāśanam // Yś_64 //
+            </p>
+         
+         
+         <p>
+            jātīnimbapaṭolapatrakaṭukādārvīniśāsārivā-<br />
+            mañjiṣṭhābhayasikthatutthamadhukair naktāhvabījaiḥ samaiḥ /<br />
+            sarpiḥ siddham anena sūkṣmavadanā marmāśritāḥ srāvino<br />
+            gambhīrāḥ sarujā vraṇāḥ sagatikāḥ śudhyanti rohanti ca // Yś_65 //
+            </p>
+         
+         
+         <p>
+            śirīṣapuṣpaṃ svarasena bhāvitaṃ sahasrakṛtvo maricaṃ sitāhvayam /<br />
+            prayojayed añjanapānanāvanair vimohitānām api sarpadaṃśinām // Yś_66 //
+            </p>
+         
+         
+         <p>
+            mayūrapittena tu taṇḍulīyakaṃ kākāṇḍayuktaṃ prapibed analpam /<br />
+            viṣāṇi saṃstāvarajaṅgamāni sopadravāṇy apy acireṇa hanti // Yś_67 //
+            </p>
+         
+         
+         <p>
+            tailaṃ tilānāṃ palalaṃ guḍaṃ ca kṣīraṃ tathārkaṃ samam eva pītam /<br />
+            ālarkam ugraṃ viṣam āśu hanti sadyodbhavaṃ vāyur ivābhravṛndam // Yś_68 //
+            </p>
+         
+         
+         <p>
+            āgāradhūmo mahiṣākṣayuktaḥ savājigandhāghṛtataṇḍulīyakaḥ /<br />
+            gomūtrapiṣṭo hy agado nihanti viṣāṇi saṃsthāvarajaṅgamāni // Yś_69 //
+            </p>
+         
+         
+         <p>
+            māṃsīsevyālakauntījalajaladaśilārocanāpadmakeśī-<br />
+            spṛkkācaṇḍāharidrāgadasitapalitāsṛglatāpadmakailāḥ /<br />
+            tulyā gaurāṣṭabhāgāś caturibhakusumā vartayaḥ sarvabhogyāḥ<br />
+            kṛtyālakṣmīpiśācajvaraviṣam agadā ghnanti candrodayākhyāḥ // Yś_70 //
+            </p>
+         
+         
+         <p>
+            siddhārthatriphalāśirīṣakaṭabhīśvetākarañjāmṛtā-<br />
+            mañjiṣṭhārajanīdvayatrikaṭukaṃ śyāmā vacā hiṅgu ca /<br />
+            śastaṃ chāgalamūtrapiṣṭam agadaṃ sarvagrahotsādanaṃ<br />
+            kṛtyonmādapiśācarākṣasaharaṃ pānādibhiḥ sevitam // Yś_71 //
+            </p>
+         
+         
+         <p>
+            karpāsāsthimayūrapatrabṛhatīnirmālyapiṇḍītakais<br />
+            tvagvāṃśīvṛṣadaṃśaviṭtuṣavacākeśāhinirmocakaiḥ /<br />
+            gośṛṅgīdvipadantahiṅgumaricais tulyaiś ca dhūpaḥ kṛtaḥ<br />
+            skandonmādapiśācarākṣasasurāveśajvaraghnaḥ smṛtaḥ // Yś_72 //
+            </p>
+         
+         
+         <p>
+            trikaṭukadalakuṅkumagranthikakṣārasiṃhīniśākuṣṭhasiddhārthayugmāmbuśakrāhvayaiḥ<br />
+            sitalaśunaphalatrikośīratiktāvacātutthayaṣṭībalālohitākhyāśilāpadmakaiḥ /<br />
+            dadhitagaramadhūkasārapriyāhvāviṣākhyāviṣātārkṣyaśailaiḥ sacavyāmaraiḥ kalkitaiḥ<br />
+            ghṛtam anavam aśeṣamūtrāmbusiddhaṃ smṛtaṃ bhūtarāvaṃ tu pānena tat syād grahaghnaṃ
+            param // Yś_73 //
+            </p>
+         
+         
+         <p>natamadhukakarañjalākṣāpaṭolīsamaṅgāvacāpāṭalīhiṅgusiddhārthasiṃhīniśāyuglatārohiṇī-
+            phalakhadirakaṭutrikākāṇḍadārukrimighnājagandhāmarāṅkollakośātakīśigrunimbāmbudendrāhvayaiḥ
+            /
+            
+            <p>
+               gadaśukatarupuṣpabījāmbuyaṣṭyadrikarṇīnikumbhāgnibilvaiḥ<br />
+               samaiḥ kalkitair mūtravargeṇa siddhaṃ ghṛtaṃ<br />
+               vidhivinihitam āśu sarvaiḥ kramair yojitaṃ hanti sarvagrahonmādakuṣṭhajvarāṃs tan
+               mahābhūtarāvaṃ smṛtam // Yś_74 //
+               </p>
+         </p>
+         
+         
+         <p>
+            dārvī haridrā kuṭajasya bījaṃ siṃhī ca yaṣṭīmadhukaṃ ca tulyam /<br />
+            kvāthaḥ śiśoḥ stanyakṛte ca doṣe sarvātisāreṣu ca sarvajeṣu // Yś_75 //
+            </p>
+         
+         
+         <p>
+            bilvaṃ ca puṣpāṇi ca dhātakīnāṃ jalaṃ salodhraṃ gajapippalī ca /<br />
+            kvāthāvalehau madhunā vimiśrau bāleṣu yojyāv atisāriteṣu // Yś_76 //
+            </p>
+         
+         
+         <p>
+            śṛṅgīṃ sakṛṣṇātiviṣāṃ vicūrṇya lehaṃ vidadhyān madhunā śiśūnām /<br />
+            kāsajvaracchardibhir arditānāṃ samākṣikāṃ cātiviṣām athaikām // Yś_77 //
+            </p>
+         
+         
+         <p>
+            dhātrīcūrṇasya kaṃsaṃ svarasaparigataḥ kṣaudrasarpiḥ samāṃśaṃ<br />
+            kṛṣṇāmānīsitāṣṭaprasṛtayutam idaṃ sthāpitaṃ bhasmarāśau /<br />
+            varṣānte tat samaśnan bhavati vipalito rūpavarṇaprabhāvī<br />
+            nirvyādhir buddhimedhāsmṛtivacanabalasthairyasattvair upetaḥ // Yś_78 //
+            </p>
+         
+         
+         <p>
+            yaṣṭītugāsaindhavapippalībhiḥ saśarkarābhis triphalā prayuktā /<br />
+            āyuḥpradā vṛṣyatamātimedhyā bhavej jarāvyādhivināśanī ca // Yś_79 //
+            </p>
+         
+         
+         <p>
+            cūrṇaṃ śvadaṃṣṭrāmalakāmṛtānāṃ lihet sasarpir madhunā ca yuktam /<br />
+            vṛṣyaḥ sthiraḥ śāntavikāraduḥkhaḥ samāśataṃ jīvati kṛṣṇakeśaḥ // Yś_80 //
+            </p>
+         
+         
+         <p>
+            nimbasya tailaṃ prakṛtistham evaṃ nasyāṃ niṣiktaṃ vidhinā yathāvat /<br />
+            māsena tat kṣīraghṛtopayojyaṃ jarāprabhūtaṃ palitaṃ nihanti // Yś_81 //
+            </p>
+         
+         
+         <p>
+            gokṣurakaḥ kṣurakaḥ śatamūlī vānari nāgabalātibalā ca /<br />
+            cūrṇam idaṃ payasā niśi peyaṃ yasya gṛhe pramadāśatam asti // Yś_82 //
+            </p>
+         
+         
+         <p>
+            madhukāṃ madhunā ghṛtena ca pralihan kṣīram anuprayojayet /<br />
+            labhate ca na dhātusaṃkṣayaṃ pramadānāṃ ca śataṃ ca gacchati // Yś_83 //
+            </p>
+         
+         
+         <p>
+            yaṣṭīkaṣāyaṃ lavaṇāgrayuktaṃ kaliṅgakṛṣṇāphalakalkamiśram /<br />
+            sakṣaudram etad vamanaṃ prayojyaṃ ghrāṇāsyakaṇṭhaśravaṇāmayeṣu // Yś_84 //
+            </p>
+         
+         
+         <p>
+            harītakībhiḥ kvathitaṃ suvīraṃ dantyaṅghrikṛṣṇāviḍacūrṇayuktam /<br />
+            virecanaṃ sorubutailam etan niratyayaṃ yojyam athāmayaghnam // Yś_85 //
+            </p>
+         
+         
+         <p>
+            rāsnārāṭhaphalatrayāmṛtalatāyukpañcamūlībalā-<br />
+            māṃsakvāthayutaḥ satailalavaṇakṣaudrāṃśasarpirguḍaḥ /<br />
+            puṣpāhvāghanakuṣṭhabilvaphalinīkṛṣṇāvacākalkito<br />
+            vastiḥ kāñjikadugdhamūtrasahito vātāmayebhyo hitaḥ // Yś_86 //
+            </p>
+         
+         
+         <p>
+            tailaṃ balākvathitakalkasugandhigarbhasiddhaṃ payodadhituṣodakamastucukraiḥ /<br />
+            tadvat sahācarasaraṇyamṛtāvarībhiḥ pratyekapakvam anuvāsasamīraṇaghnam // Yś_87 //
+            </p>
+         
+         
+         <p>
+            nasyaṃ vidadhyād guḍanāgaraṃ vā sasaindhavāṃ māgadhikām athovā /<br />
+            ghrāṇāsyamanyāhanubāhupṛṣṭhaśirokṣikaṇṭhaśravaṇāmayeṣu // Yś_88 //
+            </p>
+         
+         
+         <p>
+            śreṣṭhaḥ parpaṭako jvareṣu vihitas tṛṣṇāsu pañcāmliko<br />
+            lājā cchardiṣu vastijeṣu girijo meheṣu dhātrīrasaḥ /<br />
+            rāsnā vātagadeṣu mūtram udare plīhāmaye pippalī<br />
+            saṃdhāne kṛmihā viṣe śukataruḥ śophe tathā gugguluḥ // Yś_89 //
+            </p>
+         
+         
+         <p>
+            vṛṣo 'śrapitte kuṭajo 'tisāre bhallātam arśassu gareṣu hema /<br />
+            sthūleṣu dāruḥ kṛmiṣu krimighnaṃ harītakī pāṇḍugadeṣu śasyate // Yś_90 //
+            </p>
+         
+         
+         <p>
+            akṣyāmayeṣu triphalā vadanti śūleṣu sarveṣu tathā rasonam /<br />
+            kuṣṭheṣu nityaṃ khadirasya sāraṃ sarveṣu kāseṣu nidigdhikāṃ ca // Yś_91 //
+            </p>
+         
+         
+         <p>
+            śaṃsanti vājīkaraṇe śvadaṃṣṭrām uraḥkṣate nāgabalā balāṃ ca /<br />
+            rasāyaneṣv āmalakaṃ sadevagraheṣu rogeṣu śilāhvayaṃ ca // Yś_92 //
+            </p>
+         
+         
+         <p>
+            ity ete vidhivihitāḥ prasiddhayogāḥ siddhyarthaṃ vinigaditā bhiṣagvarāṇām /<br />
+            dṛṣṭvaitān katham acikitsako 'pi yuñjyād ity arthaṃ punar api vakṣyate 'tra kiṃcit
+            // Yś_93 //
+            </p>
+         
+         
+         <p>
+            saṃdhāraṇānaśanajāgaraṇoccabhāṣāvyāyāmayānakaṭutiktakaṣāyarūkṣaiḥ /<br />
+            cintāvyavāyabhayalaṅghanaśokaśītair vāyuḥ prakopam upayāti ghanāgame ca // Yś_94 //
+            </p>
+         
+         
+         <p>
+            kaṭvāmlamadyalavaṇoṣṇavidāhitīkṣṇakrodhānalātapapariśramaśuṣkaśākaiḥ /<br />
+            kṣārādyajīrṇaviṣamāśanabhojanaś ca pittaṃ prakopam upayāti ghanātyaye ca // Yś_95
+            //
+            </p>
+         
+         
+         <p>
+            svapnād divā madhuraśītalamatsamāṃsagurvāmlapicchalatilekṣupayovikāraiḥ /<br />
+            snigdhātitṛptilavaṇodakapānabhakṣaiḥ śleṣmā prakopam upayāti tathā vasante // Yś_96
+            //
+            </p>
+         
+         
+         <p>
+            ity evam ete kramaśo dviśo vā doṣāḥ pravṛddhā yugapat trayo vā /<br />
+            kurvanti rogān vividhān śarīre saṃkhyātu saṃjnāvigatān anekān // Yś_97 //
+            </p>
+         
+         
+         <p>
+            pāruṣyasaṃkocanatodaśūlaśyāmatvam aṅgavyathabhaṅgaceṣṭān /<br />
+            suptatvaśītatvakharatvaśoṣān karmāṇi vāyoḥ pravadanti tajjñāḥ // Yś_98 //
+            </p>
+         
+         
+         <p>
+            parisravasvedavidāharāgadaurgandhisaṃkledavipākakopān /<br />
+            pralāpamūrchabhramapītabhāvān pittasya karmāṇi vadanti tajjñāḥ // Yś_99 //
+            </p>
+         
+         
+         <p>
+            śvetatvaśītatvagurutvakaṇḍūsnehopadehastimitatvalepān /<br />
+            utsekasaṃghātacirakriyāś ca kaphasya karmāṇi vadanti tajjnāḥ // Yś_100 //
+            </p>
+         
+         
+         <p>
+            etāni liṅgāni ca tatkṛtānāṃ sarvāmayānām api naikanāmnām /<br />
+            kaścid bhavet prāptiviśeṣa eṣāṃ saṃjñāntaraṃ yena tu saṃprayānti // Yś_101 //
+            </p>
+         
+         
+         <p>
+            ālasyatandrāhṛdayāviśuddhidoṣāpravṛttikṣudabhāvamūtraiḥ /<br />
+            gurūdaratvārucisuptatābhir āmānvitaṃ vyādhim udāharanti // Yś_102 //
+            </p>
+         
+         
+         <p>
+            snigdhoṣṇasthiravṛṣyabalyalavaṇasvādvamlatailātapa-<br />
+            snānābhyañjanavastimāṃsamadirāsaṃvāhanonmardanaiḥ /<br />
+            snehasvedanirūhanasyaśamanasnehopanāhādikaṃ<br />
+            pānāhāravihārabheṣajam idaṃ vātapraśāntim nayet // Yś_103 //
+            </p>
+         
+         
+         <p>
+            tiktasvādukaṣāyaśītapavanacchāyāniśāvījanaṃ<br />
+            jyotsnābhūgṛhayantravārijaladastrīgātrasaṃsparśanam /<br />
+            sarpiḥkṣīravirekasekarudhirasrāvapradehādikaṃ<br />
+            pānāhāravihārabheṣajam idaṃ pittaṃ praśāntiṃ nayet // Yś_104 //
+            </p>
+         
+         
+         <p>
+            rūkṣakṣārakaṣāyatiktakaṭukavyāyāmaniṣṭīvanaṃ<br />
+            strīsevādhvaniyuddhajāgarajalakrīḍāpadāghātanam /<br />
+            dhūmātyuṣṇaśirovirekavamanasvedopavāsādikaṃ<br />
+            pānāhāravihārabhaiṣajam idaṃ śleṣmānam ugraṃ jayet // Yś_105 //
+            </p>
+         
+         
+         <p>
+            āmaṃ jayel laṅghanakolapeyālaghvannasūpodakatiktayūṣaiḥ /<br />
+            virūkṣaṇasvedanapācanaiś ca saṃśodhanair ūrdhvam adhas tathā ca // Yś_106 //
+            </p>
+         
+         
+         <p>
+            hemantavarṣāśiśireṣu vāyoḥ pittasya toyāntanidāghayoś ca /<br />
+            kaphasya kopaḥ kusumāgame ca kurvanti tad vai vihitaṃ yathaiṣām // Yś_107 //
+            </p>
+         
+         
+         <p>
+            kaphasya kope vamanaṃ sanasyaṃ virecanaṃ pittabhave vikāre /<br />
+            vātātmake vastim udāharanti saṃsargaje 'pi vyatimiśram etat // Yś_108 //
+            </p>
+         
+         
+         <p>
+            vāto 'mlatailalavaṇair madhurānnapānaiḥ pittaṃ tathā madhuratiktakaṣāyaśītaiḥ /<br />
+            śleṣmāpi tiktakaṭurūkṣakaṣāyatīkṣṇair āmaṃ praśāntim upayānty apatarpaṇena // Yś_109
+            //
+            </p>
+         
+         
+         <p>
+            buddhvaitad anyad api yat tad anuktam atra yuktyā svayaṃ samadhigamya yathānurūpam
+            /<br />
+            rogeṣu bheṣajam analpamatir vidadhyāc chāstraṃ hi kiṃcid upadeśalavaṃ karoti // Yś_110
+            //
+            </p>
+         
+         
+         <p>
+            guṇādhikaṃ yogaśataṃ nibadhya prāptaṃ mayā puṇyam anuttaraṃ yat /<br />
+            nānāprakārāmayanīḍabhūtaṃ kṛtsnaṃ jagat tena bhavatv arogam // Yś_111 //
+            </p>
+         
+         </div>
+   </body>
+</html>

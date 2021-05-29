@@ -1,0 +1,730 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Karatoyāmāhātmya (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Karatoyāmāhātmya</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_karatoyAmAhAtmya.xml">sa_karatoyAmAhAtmya.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Arlo Griffiths</p>
+      <p class="noindent"><b>Contribution: </b>Arlo Griffiths</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>included as Appendix I in: Prabhas Chandra Sen: Mahasthan and Its Environs, Rajshahi,
+            Bengal : Varendra Research Society 1929 (Varendra Research Society's Monographs, 2).</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <h4>Interpretive markup:</h4>
+      <ul class="dash">
+         <li><span class="note">remarks</span></li>
+      </ul>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/saiva/karatoau.htm">karatoau.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Karatoyamahatmya
+            <br />Based on the edition included as Appendix I in:
+            <br />Prabhas Chandra Sen: Mahasthan and Its Environs,
+            <br />Rajshahi, Bengal : Varendra Research Society 1929
+            <br />(Varendra Research Society's Monographs, 2)
+            <br />
+            <br />Input by Arlo Griffiths
+            <br />(typed with some normalizations and corrections)
+            <br />
+            <br />TEXT WITH PADA MARKERS
+            <br />
+            <br />PREAMBLE
+            <br />This work is said to be included in a larger work the Uttara-Pauṇḍra-khaṇḍa, was first
+            published in 1298 B.S. (1891 A.D.) with a Bengali translation, by Pandit Rajachandra
+            Nyayapanchanan. It consists of two parts: verses 1 to 60, Paundra-khsetra-māhātmyam
+            and verses 61 to 85, Karatoyā-māhātmyam. The text is printed here from that edition.
+            <br />Verse 41 of this work is quoted in Sarvānanda's Tikā sarvasva (1159 A.D.) in the tikā
+            of sloka 32 in vārivarga; verses 41 and 64, in the Smritichandrikā of Devanabhaṭṭa
+            who is quoted by Hemādri (12th century); verse 41, in the Vyākhyāsudhā of Bhanuji
+            Dikshit son of Bhattoji Dikshit; verse 63, in Smritiratnakar of Vedāchārya who quotes
+            Bhavadeva and Jimutavahana and is quoted by Raghunandanda.
+            <br />
+            <br />NOTE:
+            <br />For the above information I am indebted to Mr. Subodh Chandra Banerjee M. A. of the
+            Dacca University Manuscript Library which is in possession of manuscripts of the Karatoya-mahatmyam
+            and the other works referred to. No copy of the Uttara-pauṇḍra-khaṇḍa has come to
+            light yet.
+            <br />
+            <br />Verse 63 is quoted in the Tithi-viveka of Sulapāni (first quarter of the 15th century);
+            verses 30 and 37 in the Kṛitya-chintāmani of Vāchaspati Miśra of Mithila (second half
+            of the 15th century) and verses 33 and 63 in the Amāvāsyā-prakaraṇa of the Tithitattva
+            of Raghunandanda (first half of the 16th century).
+            <br />
+            <br />__________________________________
+            <br />
+            <br /> ITALICS for comments
+            <br />§ marks interlocutors
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         <h3>atha karatoyāmāhātmyam ||</h3>
+         
+         śrīpārvaty uvāca |
+         
+         <p id="KtoM_01">
+            aparaṃ kathyatāṃ deva nadīnāṃ ca viśeṣataḥ <br />
+            pauṇḍrakṣetrasya māhātmyaṃ na śrutaṃ vistarāt prabho //
+             <span class="ref">KtoM_01</span></p>
+         
+         
+         <p id="KtoM_02">
+            kadotpattiḥ kathaṃ tasyāḥ kasmāc caiva viśeṣaṭaḥ <br />
+            śrotum icchāmi bhūteśa yadi syān mayy anugrahaḥ //
+             <span class="ref">KtoM_02</span></p>
+         
+         
+         <p id="KtoM_03">
+            kena prākāśitā sā ca nadī karajalā bhuvi <br />
+            kathaṃ vā plāvitaṃ kṣetraṃ śubhaṃ pauṇḍram anuttamam //
+             <span class="ref">KtoM_03</span></p>
+         
+         īśvara uvāca |
+         
+         <p id="KtoM_04">
+            pāṇigrahaṇakāle te devi himavatā jalam <br />
+            saṃpradattaṃ matkarāc ca nirgataṃ karajā bhuvi //
+             <span class="ref">KtoM_04</span></p>
+         
+         
+         <p id="KtoM_05">
+            puraiva kathitaṃ sarvaṃ pauṇḍrasya ca sureśvari <br />
+            tatraiva kathitaṃ tubhyaṃ karatoyāphalaṃ yathā //
+             <span class="ref">KtoM_05</span></p>
+         
+         
+         <p id="KtoM_06">
+            adhunāpi yathā tāsāṃ nadīnāṃ ca viśeṣataḥ <br />
+            kalipāpaharā puṇyā bhārgavena prakāśitā //
+             <span class="ref">KtoM_06</span></p>
+         
+         
+         <p id="KtoM_07">
+            matputro 'pi guhas tatra tiṣṭhaty eva hi sarvadā <br />
+            yatrāste bhagavān viṣṇur garuḍāsana īśvaraḥ //
+             <span class="ref">KtoM_07</span></p>
+         
+         
+         <p id="KtoM_08">
+            sarvadā sarvabhāvena pauṇḍre nārāyaṇo hariḥ <br />
+            puṣkaraṃ na tyajet brahmā nāhaṃ vārāṇasīṃ tyaje //
+             <span class="ref">KtoM_08</span></p>
+         
+         
+         <p id="KtoM_09">
+            śrīpauṇḍravardhanaṃ kṣetraṃ naiva muñcati keśavaḥ <br />
+            dharitryā nābhikamalaṃ pūtaṃ karajalair mama //
+             <span class="ref">KtoM_09</span></p>
+         
+         sūta uvāca |
+         
+         <p id="KtoM_10">
+            śṛṇudhvaṃ munayaḥ sarve yad uktaṃ bhārgavena vai <br />
+            śrutvā śaṅkarato vākyaṃ saṃvādam ubhayor api //
+             <span class="ref">KtoM_10</span></p>
+         
+         
+         <p id="KtoM_11">
+            putravātsalyabhāvena bhārgavāya prakāśitam <br />
+            sa eva bhārgavaḥ śrīmān ṛṣibhyo 'py aprakāśayat //
+             <span class="ref">KtoM_11</span></p>
+         
+         
+         <p id="KtoM_12">
+            namas tasmai munīndrāya dānavendraniṣūdane <br />
+            śrīcakrapāṇaye tubhyaṃ brahmaviṣṇuśivātmane //
+             <span class="ref">KtoM_12</span></p>
+         
+         
+         <p id="KtoM_13">
+            ekaḥ paraśumātreṇa nihatya kṣatriyān yudhi <br />
+            cakre niḥkṣatriyāṃ pṛthvīm ekaviṃśativārataḥ //
+             <span class="ref">KtoM_13</span></p>
+         
+         
+         <p id="KtoM_14">
+            tataḥ paraśurāmeti pṛthivyāṃ khyātavikramaḥ <br />
+            jāmadagnyo mahāvīryas tretādye yasya saṃsthitiḥ //
+             <span class="ref">KtoM_14</span></p>
+         
+         
+         <p id="KtoM_15">
+            sarvajñaḥ suvrataḥ śuddhaḥ sarvācāravidhāyakaḥ <br />
+            kautukākṛṣtahṛdayaḥ pṛthivyāṃ paramo hariḥ //
+             <span class="ref">KtoM_15</span></p>
+         
+         
+         <p id="KtoM_16">
+            pauṇḍre koṭiśilādvīpe mahāpuṇye suviśrute <br />
+            karatoyāsarinnīraṃ śarīrādyantapāvanam <br />
+            bhaktimuktiphalārthāya yenākāri dvijārpaṇam //
+             <span class="ref">KtoM_16</span></p>
+         
+         
+         <p id="KtoM_17">
+            adbhutā kāritā sṛṣṭiḥ kanakasya dinatrayam <br />
+            skandagovindayor madhye bhūmiḥ saṃskṛtavedikā //
+             <span class="ref">KtoM_17</span></p>
+         
+         
+         <p id="KtoM_18">
+            vedīmadhyottare pārśve devī kālañjarī sthitā <br />
+            taddakṣiṇe 'rpitā devī koṭīśvarīti viśrutā //
+             <span class="ref">KtoM_18</span></p>
+         
+         
+         <p id="KtoM_19">
+            nairṛte liṅgakoṭyaś ca vasanti bhṛguṇārpitāḥ <br />
+            vāraṇe vijayā caṇḍī uttare bhūtikeśvaraḥ //
+             <span class="ref">KtoM_19</span></p>
+         
+         
+         <p id="KtoM_20">
+            tatkuṇḍe sutithau snātvā naraḥ pāpāt pramucyate <br />
+            bhūtikeśvaradevasya dakṣiṇe sūryamaṇḍapam //
+             <span class="ref">KtoM_20</span></p>
+         
+         
+         <p id="KtoM_21">
+            vedīmadhye 'rpito yūpaḥ saṃśleṣād vardhate nṛṇām <br />
+            govindamaṇḍapāt pūrvaṃ kuṇḍaṃ kuṇḍaṃ viṣṇuvinirmitam //
+             <span class="ref">KtoM_21</span></p>
+         
+         
+         <p id="KtoM_22">
+            skandamaṇḍapavāyavye sabhā rāmasya cādbhutā <br />
+            sapādalakṣaṃ viprāṇāṃ yatrāste 'dbhutakarmaṇām //
+             <span class="ref">KtoM_22</span></p>
+         
+         
+         <p id="KtoM_23">
+            prabhāvāt tapaso devi munīndrasya mahātmanaḥ <br />
+            tatsabhā vāyukoṇe ca gartam īśvaranirmitam //
+             <span class="ref">KtoM_23</span></p>
+         
+         
+         <p id="KtoM_24">
+            ādyaṃ bhuvo bhavanaṃ lakṣasapādavipraiḥ skandādiviṣṇubalabhadraśivādidevaiḥ <br />
+            adhyāsitaṃ karajalāmbuvidhūtapāpaṃ śrīpauṇḍravardhanapuraṃ śirasā namāmi //
+             <span class="ref">KtoM_24</span></p>
+         
+         
+         <p id="KtoM_25">
+            karajāpaścime bhāge sadā vahati jāhnavī <br />
+            pūrvabhāge tu karajā pādonā jāhnavī jalā //
+             <span class="ref">KtoM_25</span></p>
+         
+         
+         <p id="KtoM_26">
+            karatoyāpaścime tīre lohinī yatra mṛttikā <br />
+            muktikṣetraṃ samākhyātaṃ mahāpātakanāśanam //
+             <span class="ref">KtoM_26</span></p>
+         
+         
+         <p id="KtoM_27">
+            karatoyānadīṃ prāpya trirātropoṣito naraḥ <br />
+            aśvamedham avāpnoti śakralokaṃ ca gacchati <br />
+            atraiva jñānam āsādya harisāyujyam āpnuyāt //
+             <span class="ref">KtoM_27</span></p>
+         
+         <span class="note">COMM.: e. atraiva: corr., atrava ed. Cf. vs. 46.</span>
+         
+         
+         <p id="KtoM_28">
+            karatoyāṃ samāsādya ye tyajanti kalevaram <br />
+            teṣāṃ muktir na sandeho yāvad indrāś caturdaśa //
+             <span class="ref">KtoM_28</span></p>
+         
+         
+         <p id="KtoM_29">
+            na mānuṣās te te devā nadīs tisraḥ pibanti ye <br />
+            devikāṃ karatoyāṃ ca vipāśāṃ pāpanāśinīm //
+             <span class="ref">KtoM_29</span></p>
+         
+         
+         <p id="KtoM_30">
+            skandagovindayor madhye somavāre kuhūtithau <br />
+            prātar maunena yaḥ snāyāt kulakoṭīḥ samuddharet //
+             <span class="ref">KtoM_30</span></p>
+         
+         
+         <p id="KtoM_31">
+            kiyanto reṇavaḥ pṛthvyāṃ kiyān ākāśasaṃbhavaḥ <br />
+            māhātmyaṃ karatoyāyā vaktuṃ naiva hi śakyate //
+             <span class="ref">KtoM_31</span></p>
+         
+         
+         <p id="KtoM_32">
+            puruṣottame mahājyaiṣṭhīsamaye darśanāt phalam <br />
+            karatoyāmbhasi snātvā yat tat phalam avāpnuyāt //
+             <span class="ref">KtoM_32</span></p>
+         
+         
+         <p id="KtoM_33">
+            karatoyājalaṃ prāpya yadi somayutā kuhūḥ <br />
+            aruṇodayavelāyāṃ sūryagrahaśataiḥ samā //
+             <span class="ref">KtoM_33</span></p>
+         
+         
+         <p id="KtoM_34">
+            śilādvīpaṃ samāsādya tac ca koṭiguṇaṃ bhavet <br />
+            tad eva koṭiguṇitaṃ pauṣārke ca yadaiva sā //
+             <span class="ref">KtoM_34</span></p>
+         
+         
+         <p id="KtoM_35">
+            vārāṇasyāṃ kurukṣetre yat puṇyaṃ rāhudarśane <br />
+            śilādvīpaṃ samāsādya tac ca koṭiguṇaṃ bhavet //
+             <span class="ref">KtoM_35</span></p>
+         
+         
+         <p id="KtoM_36">
+            pauṣe vā māghamāse vā yadi somayutā kuhūḥ <br />
+            vyatipātena yogena koṭikoṭiguṇaṃ bhavet //
+             <span class="ref">KtoM_36</span></p>
+         
+         
+         <p id="KtoM_37">
+            cāpārke mūlasaṃyukte yadi somayutā kuhūḥ /<br />
+            nārāyaṇīti vikhyātā trikoṭikulam uddharet //
+             <span class="ref">KtoM_37</span></p>
+         
+         
+         <p id="KtoM_38">
+            vārāṇasyāṃ kṛtā pūjā saṃpūrṇaphaladāyinī <br />
+            tato 'pi dviguṇā proktā karatoyānadījale //
+             <span class="ref">KtoM_38</span></p>
+         
+         <span class="note">COMM.: b. saṃpūrṇa-: corr., samparṇa- ed.</span>
+         
+         
+         <p id="KtoM_39">
+            dvārāvatyāṃ ca gaṇḍakyāṃ prayāge puṣkare tathā <br />
+            badaryākhye kurukṣetre yā pūjā phaladāyinī <br />
+            tataś caturguṇā proktā karatoyānadījale //
+             <span class="ref">KtoM_39</span></p>
+         
+         
+         <p id="KtoM_40">
+            karatoyājale devi viṣṇupūjā viśeṣataḥ <br />
+            tato 'pi phalabāhulyaṃ śivaśaktyoḥ prapūjanāt //
+             <span class="ref">KtoM_40</span></p>
+         
+         
+         <p id="KtoM_41">
+            ādau karkaṭake devi tryahaṃ gaṅgā rajasvalā <br />
+            sarvā raktavahā nadyaḥ karatoyāmbuvāhinī //
+             <span class="ref">KtoM_41</span></p>
+         
+         
+         <p id="KtoM_42">
+            iyaṃ śrīsundarī devi sadānīravahā smṛtā <br />
+            ye kurvanti sadā snānaṃ tarpayanti ca ye sadā <br />
+            kiṃ bahūktena deveśi muktis teṣāṃ kare sthitā //
+             <span class="ref">KtoM_42</span></p>
+         
+         
+         <p id="KtoM_43">
+            aho jalasya māhātmyaṃ mamaiva karasaṃbhavaṃ <br />
+            nṛṇāṃ pāpaharaṃ puṇyaṃ snānapānāc ca muktidam //
+             <span class="ref">KtoM_43</span></p>
+         
+         
+         <p id="KtoM_44">
+            karatoyānadītīre vāso vā kriyate yadi <br />
+            vārāṇasīsamo vāsaḥ pātakān mucyate naraḥ //
+             <span class="ref">KtoM_44</span></p>
+         
+         
+         <p id="KtoM_45">
+            karajāyās tīre devapūjā sarvārthasādhikā <br />
+            anyatra pūjanād devi saṃdeho nāsti sundari //
+             <span class="ref">KtoM_45</span></p>
+         
+         
+         <p id="KtoM_46">
+            kāratoyena toyena udarasthena ye mṛtāḥ <br />
+            teṣāṃ muktir na saṃdeho yāvad indrāś caturdaśa <br />
+            tatraiva jñānam āsādya muktiḥ syāt kevalāmalā //
+             <span class="ref">KtoM_46</span></p>
+         
+         
+         <p id="KtoM_47">
+            gaṅgāyāḥ karajāyāś ca jalam atreti sundari <br />
+            sarvapāpaharaṃ puṇyaṃ bhuvi pāvanam uttamam //
+             <span class="ref">KtoM_47</span></p>
+         
+         
+         <p id="KtoM_48">
+            asthikeśādayo yasya karajāyāṃ tapodhane <br />
+            patanti tasya svargaḥ syād yāvad indrāś caturdaśa //
+             <span class="ref">KtoM_48</span></p>
+         
+         
+         <p id="KtoM_49">
+            karatoyāpaścime tīre sadā vahati jāhnavī <br />
+            viśeṣo lohinī yatra mṛttikā muktidāyinī //
+             <span class="ref">KtoM_49</span></p>
+         
+         
+         <p id="KtoM_50">
+            karatoyāpaścime tīre lohinī yatra mṛttikā <br />
+            muktikṣetraṃ samākhyātaṃ mahāpātakanāśanam //
+             <span class="ref">KtoM_50</span></p>
+         
+         
+         <p id="KtoM_51">
+            karatoyājalaṃ puṇyaṃ pāvanaṃ bhuvi durlabham <br />
+            saṃpūrṇamāghamāsaṃ tu snātvā viṣṇupuraṃ vrajet //
+             <span class="ref">KtoM_51</span></p>
+         
+         
+         <p id="KtoM_52">
+            karatoyānadītīre vedapūjāpārāyaṇaḥ <br />
+            viprabhojanamātreṇa hy aśvamedhaphalaṃ labhet //
+             <span class="ref">KtoM_52</span></p>
+         
+         
+         <p id="KtoM_53">
+            viśeṣaḥ pauṇḍranagare koṭikoṭiguṇaṃ bhavet <br />
+            vipraikabhojanād eva sarvayajñaphalaṃ labhet //
+             <span class="ref">KtoM_53</span></p>
+         
+         
+         <p id="KtoM_54">
+            japahomais tathā dānapūjāśrāddhakriyādibhiḥ <br />
+            koṭikoṭiguṇaṃ tatra pauṇḍrakṣetre ca sundari //
+             <span class="ref">KtoM_54</span></p>
+         
+         <span class="note">COMM.: b. -kriyādibhiḥ: corr., -kniyādibhiḥ ed.</span>
+         
+         
+         <p id="KtoM_55">
+            karatoyāmṛdā ye ca tilakaṃ dhārayanti vai <br />
+            viṣṇurūpadharāḥ pāpān muñcanti nātra saṃśayaḥ //
+             <span class="ref">KtoM_55</span></p>
+         
+         
+         <p id="KtoM_56">
+            skandagivindayor madhye guptā vārāṇasī purī <br />
+            tatrārohaṇamātreṇa naro nārāyaṇo bhavet //
+             <span class="ref">KtoM_56</span></p>
+         
+         
+         <p id="KtoM_57">
+            pañcakrośam idaṃ kṣetraṃ samantāt parikīrtitam <br />
+            tadantargatam etat tu krośamātraṃ maheśvari <br />
+            atiguhyatamaṃ kṣetraṃ yatrāste bhārgavo muniḥ //
+             <span class="ref">KtoM_57</span></p>
+         
+         
+         <p id="KtoM_58">
+            paśor jñānaṃ kathayati guhas tadgṛhe tāmracūḍo dairghī haimī ghaṭitasurabhir yaṣṭivṛddhiḥ śilāsthiḥ <br />
+            kheṣu chhattraṃ na phaṇati phaṇī dvisvaro jīvalokaḥ kūpo dvīpaḥ kanakapatanaṃ pauṇḍrakṣetre 'dbhutāni //
+             <span class="ref">KtoM_58</span></p>
+         
+         
+         <p id="KtoM_59">
+            proccā bhūmir bhavati taruṇaḥ snānataḥ kāmyakuṇḍe bhogo yajño bhramaṇanaṭanaṃ tatra vākyaṃ hi vedaḥ <br />
+            itthaṃ rāmo racayati padaṃ lakṣaṇānyūnaviṃśāny asmāt khyātaṃ sakalajagatāṃ śrīmahāsthānam etat //
+             <span class="ref">KtoM_59</span></p>
+         
+         
+         <p id="KtoM_60">
+            snānād yatra nihanti pāpanicayaṃ śrīpāṇitoyā nadī yasyāṃ saṃsthitamānuṣāsthi sakalaṃ prāpnoti pāṣāṇatām <br />
+            devas tārakamārako 'pi nitarāṃ jñānaṃ dadāty adbhutaṃ kaupaṃ yat paya eva tailavipulaṃ pauṇḍraṃ puraḥ pātu vaḥ //
+             <span class="ref">KtoM_60</span></p>
+         
+         <span class="note">COMM.: c. adbhutaṃ: corr., adbhūtaṃ ed.</span>
+         
+         
+         <p>ity uttarapauṇḍrakhaṇḍe pauṇḍrakṣetramāhātmyam ||</p>
+         
+         sūta uvāca |
+         
+         <p id="KtoM_61">
+            śṛṇudhvaṃ munayaḥ sarve māhātmyaṃ tajjalasya ca <br />
+            bāhudāyāś ca tīre 'smin jalaṃ sarvamalāpaham //
+             <span class="ref">KtoM_61</span></p>
+         
+         
+         <p id="KtoM_62">
+            gaṅgā vā karatoyā vā viśeṣo nātra vidyate <br />
+            haramūrdhni sthitā gaṅgā sāparā karanirgatā //
+             <span class="ref">KtoM_62</span></p>
+         
+         
+         <p id="KtoM_63">
+            karatoye sadānīre saricchreṣṭhe suviśrute <br />
+            pauṇḍrān plāvayase nityaṃ pāpaṃ hara karodbhave <br />
+            mantreṇānena vai snāyāt karatoyājale śubhe //
+             <span class="ref">KtoM_63</span></p>
+         
+         
+         <p id="KtoM_64">
+            tattulyarūpāsti nadī na kā cid rajovihīnā taruṇo yato 'si <br />
+            dhanyāsi puṇyāsi saridvarāsi śrīkaṇṭhapāṇiprabhave namas te //
+             <span class="ref">KtoM_64</span></p>
+         
+         
+         <p id="KtoM_65">
+            snānād iyaṃ karajalā duritāni hanti jñānaṃ dadāti bhagavān iha tārakāriḥ //
+             <span class="ref">KtoM_65</span></p>
+         
+         <span class="note">COMM.: verse incomplete?</span>
+         
+         
+         <p id="KtoM_66">
+            bāhudā bāhudānāc ca likhitasya muneḥ purā <br />
+            sadānīrā mahāpuṇyā śītavāhinikā śubhā //
+             <span class="ref">KtoM_66</span></p>
+         
+         
+         <p id="KtoM_67">
+            ṛṣayo munayaś caiva mārkaṇḍeyo mahāmuniḥ <br />
+            aśvatthāmā kapivaro vāsudevaḥ svayaṃ vibhuḥ //
+             <span class="ref">KtoM_67</span></p>
+         
+         
+         <p id="KtoM_68">
+            caturmukhaḥ pañcamukhaḥ karimukhaś ca ṣaṇmukhaḥ <br />
+            sarve te paścime bhāge karatoyāsarittaṭe //
+             <span class="ref">KtoM_68</span></p>
+         
+         
+         <p id="KtoM_69">
+            tiṣṭhanti tapaso hetoḥ sadānīrājalārthinaḥ <br />
+            rajohīnā mahāpuṇyā viśeṣaḥ siṃhabhāskare //
+             <span class="ref">KtoM_69</span></p>
+         
+         
+         <p id="KtoM_70">
+            karatoyāsarinnīraprāptimātreṇa sundari <br />
+            snānatarpaṇam āvaśyaṃ tadāpāraṃ vidhīyate //
+             <span class="ref">KtoM_70</span></p>
+         
+         
+         <p id="KtoM_71">
+            asnātvā gacchataḥ pāraṃ pūrvadharmakṣayo bhavet <br />
+            snātvā pītvā tathā nīraṃ pārāvāre na dūṣayet //
+             <span class="ref">KtoM_71</span></p>
+         
+         
+         <p id="KtoM_72">
+            pauṇḍrakṣetraṃ mahāpuṇyaṃ plāvitaṃ karasaṃbhavaiḥ <br />
+            tajjalasnānamātreṇa viṣṇuprītivivardhanam //
+             <span class="ref">KtoM_72</span></p>
+         
+         
+         <p id="KtoM_73">
+            pauṇḍrakṣetrād uttare ca yojanadvayam antarā <br />
+            tatrāste caṇḍikā devī lohinī yatra mṛttikā //
+             <span class="ref">KtoM_73</span></p>
+         
+         
+         <p id="KtoM_74">
+            taddhāre prārthanāmātrāt turagān bhavanāni ca <br />
+            dadāti caṇḍikā devī karatoyāsarittaṭe <br />
+            aho kṣetrasya māhātmyād brahmahatyāṃ vyapohati //
+             <span class="ref">KtoM_74</span></p>
+         
+         <span class="note">COMM.: a. taddhāre: is this the intended reading? Or taddhari? The printing is unclear.</span>
+         
+         
+         <p id="KtoM_75">
+            cāṇḍālāntyajasaṃspṛṣṭaṃ tīrthatoyaṃ na pāvanam <br />
+            vihāya karajāgaṅgānarmadāyamunājalam //
+             <span class="ref">KtoM_75</span></p>
+         
+         
+         <p id="KtoM_76">
+            bhāṇḍānītajalenāpi snānaṃ kurvanti ye narāḥ <br />
+            pāpaughān aviśeṣeṇa muñcanti nātra saṃśayaḥ //
+             <span class="ref">KtoM_76</span></p>
+         
+         
+         <p id="KtoM_77">
+            karatoyājale jñānā(a)jñānataḥ snāti yo naraḥ <br />
+            brahmalokam avāpnoti dinapāpān vinaśya vai //
+             <span class="ref">KtoM_77</span></p>
+         
+         
+         <p id="KtoM_78">
+            ajñānenāpi karajājalaṃ ye manujāḥ sakṛt <br />
+            durvṛttāḥ pāparahitā prapibanti bhavanti te //
+             <span class="ref">KtoM_78</span></p>
+         
+         
+         <p id="KtoM_79">
+            atraiva pauṇḍranagare puruṣārthasiddhir vārāṇasī vyasanam eva paraṃ narāṇām <br />
+            tatraiva viṣṇunilayaṃ sakalaṃ ca yajño jñānaṃ samādhivividhaṃ japasādhyasiddhiḥ //
+             <span class="ref">KtoM_79</span></p>
+         
+         
+         <p id="KtoM_80">
+            kṛṣṇaveṇī tāmraparṇī sarayūr gaṇḍakī tathā <br />
+            viṣṇupādodbhavā puṇyā yamunā ca sarasvatī //
+             <span class="ref">KtoM_80</span></p>
+         
+         
+         <p id="KtoM_81">
+            kāverī kauśikī candrabhāgā ca ciravallabhī <br />
+            svarṇā campā vetravatī tathātreyī punarbhavā //
+             <span class="ref">KtoM_81</span></p>
+         
+         
+         <p id="KtoM_82">
+            vipāpā ca vipāśā ca citrā citrotpalā tathā <br />
+            gotamī gomukhī revā tathā cirasarasvatī //
+             <span class="ref">KtoM_82</span></p>
+         
+         
+         <p id="KtoM_83">
+            pṛthvyāṃ vasantyaḥ saritaḥ sarvās toyacayāḥ priye <br />
+            āsāṃ nadīnāṃ ca jalaṃ sadaiva ca karāmbhasi //
+             <span class="ref">KtoM_83</span></p>
+         
+         
+         <p id="KtoM_84">
+            pauṇḍradvīpe paṭhitvemaṃ śrīvīro bhārgavo muniḥ <br />
+            pauṇḍrān pradakṣiṇīkṛtya mucyate brahmahatyayā //
+             <span class="ref">KtoM_84</span></p>
+         
+         
+         <p id="KtoM_85">
+            karatoyāmahātīrthamāhātmyaṃ yaḥ paṭhec chuciḥ <br />
+            trisandhyam ekasandhyaṃ vā śṛṇuyād vāpi yo naraḥ //
+             <span class="ref">KtoM_85</span></p>
+         
+         
+         <p id="KtoM_85*">
+            tasyeha bhogān sakalān bhuktvā tadgatamānasaḥ <br />
+            pretya yāti paraṃ sthānaṃ sarvāmalanivāraṇam //
+             <span class="ref">KtoM_85*</span></p>
+         
+         <span class="note">COMM.: In this GRETIL version verse 85 had to be divided for technical reasons; it
+            should be read as one verse.</span>
+         
+         
+         <p>ity uttarapauṇḍrakhaṇḍe sūtaśaunakasaṃvāde paraśurāmaviracitaṃ karatoyāmāhātmyaṃ samāptam
+            |</p>
+         
+         </div>
+   </body>
+</html>

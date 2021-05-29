@@ -1,0 +1,928 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Candragomin: Śiṣyalekha (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Candragomin: Śiṣyalekha</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_candragomin-ziSyalekha.xml">sa_candragomin-ziSyalekha.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>members of the Digital Sanskrit Buddhist Canon Input Project</p>
+      <p class="noindent"><b>Contribution: </b>members of the Digital Sanskrit Buddhist Canon Input Project</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>I. Minaev: "Poslanie k uceniku", in: Zapiski Vostocnago Otdelenija Russkago Archeologiceskago
+            Obscestva, 4 (1889), pp. 29-52.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/cansisyu.htm">cansisyu.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Candragomin: Sisyalekha = Śl
+            <br />Based on the ed. by I. Minaev: "Poslanie k uceniku",
+            <br />in: Zapiski Vostocnago Otdelenija Russkago Archeologiceskago Obscestva, 4 (1889),
+            pp. 29-52.
+            <br />
+            <br />[SEE ALSO <a href="http://resolver.sub.uni-goettingen.de/purl/?gr_elib-161">the facsimiles of I. Minaev's edition (1889)</a> in the <a href="http://www.sub.uni-goettingen.de/ebene_1/fiindolo/gr_elib.htm">GRETIL e-library</a>]
+            <br />
+            <br />Input by members of the Sanskrit Buddhist Input Project.
+            <br />With kind permission of the Digital Sanskrit Buddhist Canon Project
+            <br />of Nagarjuna Institute, Nepal
+            <br />and University of the West, Rosemead, California, USA
+            <br />(www.uwest.edu/sanskritcanon)
+            <br />Version: 2009-04-23 17:06:18
+            <br />Proof Reader: Milan Shakya
+            <br />
+            <br />The transliteration emulates the conventions of Nagari script.
+            <br />Therefore, many word boundaries are not marked by blanks.
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>om namo ratnatrayāya ||</p>
+         
+         
+         <p>
+            pūrvāvadānacariteṣu suduṣkareṣu gīteṣu yasya surakiṃnarasundarībhiḥ |<br />
+            adyāpi candrakiraṇairiva saṃkucanti mārāṅganāvadanapaṅkajakānanāni || Śl_1 ||
+            </p>
+         
+         
+         <p>
+            saubhāgyahṛdyavapuṣaḥ paramādbhutasya yasyālpapuṇyajanadurlabhadarśanasya |<br />
+            saṃpāditābhimatalokamanorathasya cintāmaṇeriva parārtharasaikavṛttiḥ || Śl_2 ||
+            </p>
+         
+         
+         <p>
+            yaḥ sarvadā parasukhaikaraso babhūva duḥkhena duḥkhamagamatparamaṃ pareṣām |<br />
+            atyarthamāhitamahākaruṇāguṇasya yasyātmaduḥkhasukhamantaritaṃ tadeva || Śl_3 ||
+            </p>
+         
+         
+         <p>
+            vicchi x māvayasi yasya śiraḥ parārtha x x x sannayanapaṅkajatāmavāpa |<br />
+            svārthaṃ puna x x x x x sitātapatrā pṛthvī babhūva niśiteva kṛpāṇadhārā || Śl_4 ||
+            </p>
+         
+         
+         <p>
+            lokopakāranirataprakaṭodayena śulka x x x x x x guṇojjvalena |<br />
+            doṣāndhakārabhidureṇa manorameṇa yenoditena śaśineva jagatprakāśam || Śl_5 ||
+            </p>
+         
+         
+         <p>
+            cūḍāvibhūṣaṇamivottamaratnakalpamūḍhaṃ śirobhirurubhiḥ phaṇināṃ x x x |<br />
+            yacchāsanaṃ śubhamakhaṇḍaviśuddhavṛttaṃ pātālamūrdhani layatimiraṃ pramārṣṭi || Śl_6
+            ||
+            </p>
+         
+         
+         <p>
+            dharmāmbuvāha iva yo 'bhyudito hitāya dharmāmṛtaṃ jalamivaikarasaṃ vavarṣa |<br />
+            tāpāpa x x x x x x x x x x x x yadanekarasa x x x x x x x x x x x x x x || Śl_7 ||
+            </p>
+         
+         
+         <p>
+            vistīrṇanimnavimalaprakaṭāśrayeṣu pātreṣu sarvaparimardasaheṣu yeṣu |<br />
+            tatsaṃsthitaṃ bhavati sarvajanopakāraṃ x x x x x x x x x x x x x x || Śl_8 ||
+            </p>
+         
+         
+         <p>
+            tajjāgaraṃ maraṇajanmajarāpahāri ye nāpnuvanti na pibanti na dhārayanti |<br />
+            te māhitā bahulamohamahāmadena x x x x x x x x x dhamādriyante || Śl_9 ||
+            </p>
+         
+         
+         <p>
+            cakṣuryadekamamalaṃ jagato 'khilasya sādhāraṇaṃ tribhuvanasya yadekadīpaḥ |<br />
+            tacchāsanaṃ samadhigamya yadutsṛjanti mohasya tadvilasitaṃ paramādbhutasya || Śl_10
+            ||
+            </p>
+         
+         
+         <p>
+            śikṣā x x x viditeṣviva bodhisaudhasopānapaddhatipadeṣu padaṃ dadhānāḥ |<br />
+            tuṅgāṃ prayānti padavīmanivartamānā bhūmiṃ nijāmavataranti vivartamānāḥ || Śl_11 ||
+            </p>
+         
+         
+         <p>
+            janmārṇavaṃ paramadustaramuttitīrṣuḥ śīlaplavaṃ ka iha hastagataṃ jahāti |<br />
+            kāntāramadhyapatitaḥ kathamāryasārthādbhraṣṭo na śocati ciraṃ supathānabhijñaḥ ||
+            Śl_12 ||
+            </p>
+         
+         
+         <p>
+            saṃsārabhūdharadarījaṭharaprapātādutthātumudyataparāḥ paramāndhakārāt |<br />
+            muñcanti ye jinaguṇāvalimantarāle vegena te viṣamapātamadhaḥ patanti || Śl_13 ||
+            </p>
+         
+         
+         <p>
+            ekākino 'pi manasā niyamaṃ prakalpya ye karmaṇā samuditena samunnayanti |<br />
+            te sādhavo bhuvanamaṇḍalamaulibhūtāstaireva yānti gurutāṃ guravaḥ suśiṣyaiḥ || Śl_14
+            ||
+            </p>
+         
+         
+         <p>
+            labdhvā guṇaughajananīṃ jananīmivāryāmatyantaśuddahṛdayāmanuvartamānāḥ |<br />
+            tejasvinaḥ sukhamasūnapi saṃtyajanti satyasthitivyasanino na punaḥ pratijñām || Śl_15
+            ||
+            </p>
+         
+         
+         <p>
+            tiṣṭhantu tāvadiha sarvajanāpavādāḥ sarvāśca pāpagatayo nirayāśca ghorāḥ |<br />
+            sadyo jahāti sahajāṃ prakṛtiṃ yadeṣa duḥkhaṃ tataḥ kimaparaṃ bhuvi sajjanasya || Śl_16
+            ||
+            </p>
+         
+         
+         <p>
+            yaḥ prapya nāvamiva dharmamayīṃ viśālāṃ bhūyo jahāti padavīṃ munibhiḥ praklṛptām |<br />
+            saṃsārasāgaravivartananartaneṣu cetaḥspṛhā taralitā niyamena tasya || Śl_17 ||
+            </p>
+         
+         
+         <p>
+            saṃsāracakramaniśaṃ parivartamānamāruhya yaḥ sukhamavaiti vivartamānaḥ |<br />
+            so 'vaśyameva tarivaśaṃ masaḥ krameṇa sarvāḥ samāśca visamāśca gatīḥ prayāti || Śl_18
+            ||
+            </p>
+         
+         
+         <p>
+            atyugragandhamaśuciprakaroparuddhamatyantasaṃkaṭamupoḍhaghanāndhakāram |<br />
+            āviśya garbhanilayaṃ nirayaṃ yathaiva duḥkhaṃ mahatsa sahate paripiṇḍatāṅgaḥ || Śl_19
+            ||
+            </p>
+         
+         
+         <p>
+            kālakramena sa tato dṛḍhatailayantraniṣpīḍyamāna iva yāti bhuvaṃ kathaṃcit |<br />
+            sadyastathāpi yadayaṃ na jahāti jīvaṃ duḥkhopabhogagatidurlabhi tattadeva || Śl_20
+            ||
+            </p>
+         
+         
+         <p>
+            tatra sthitaṃ tamaśucau parivartamānamārdrolbaveṣṭitatanuṃ bahalogragandham |<br />
+            pūrvasmṛtivraṇamivolbaṇadoṣapākaṃ bhinnaṃ jahāti ghṛṇayeva nipīḍyamānaḥ || Śl_21 ||
+            </p>
+         
+         
+         <p>
+            sarvopacāravivaśaṃ śithilākulāṅgamutsṛjya bālyamupajātakaṇairabhāvaḥ |<br />
+            tuṅgeṣu yauvanagirīndradarītaṭeṣu mohāyate viṣayadṛṣṭiviṣālayeṣu || Śl_22 ||
+            </p>
+         
+         
+         <p>
+            sa tato'pi patatyacetanaḥ patito naiva jahāti vikriyām |<br />
+            ajarāmaramātmavigrahaṃ lalitaṃ manyata evaṃ bāliśaḥ || Śl_23 ||
+            </p>
+         
+         
+         <p>
+            sa vihāya munīndrasevitaṃ supathaṃ yātyapathena mohitaḥ |<br />
+            rabhasena parāṃ vicūrṇayan gajavajjātamado niraṅkuśaḥ || Śl_24 ||
+            </p>
+         
+         
+         <p>
+            atha tasya balādanicchataḥ śirasi nyastapadā sunirdayam |<br />
+            niśitaṃ palitāṅkuśaṃ jarā kariṇo hastipakīva yacchati || Śl_25 ||
+            </p>
+         
+         
+         <p>
+            sa tathāpi vijihyaceṣṭitaḥ kuśalenāpi bhayādivojjhitaḥ |<br />
+            sukṛtāni karoti mohitaḥ śaravatsvātmavadhāya puṣpitaḥ || Śl_26 ||
+            </p>
+         
+         
+         <p>
+            atha taṃ prahasannivāntakaḥ palitaughairdarśanairivolbaṇaiḥ |<br />
+            śirasi grasituṃ pravartate nirupāyapraśamo jarārujaḥ || Śl_27 ||
+            </p>
+         
+         
+         <p>
+            vidalanti tato 'sya sanvayo matirutkrāmati hīyate gatiḥ |<br />
+            kṣayameti vapuḥ pariślaṣaṃ niyataṃ vardhata eva jīvitāśā || Śl_28 ||
+            </p>
+         
+         
+         <p>
+            kramaśaśca nimīlitendriyo hataśaktirviṣayeṣu lālasaḥ |<br />
+            upagacchati yāmayaṃ daśāṃ narake sā yadi bhīma eva saḥ || Śl_29 ||
+            </p>
+         
+         
+         <p>
+            kathamevamidaṃ mayā kṛtaṃ kathamevaṃ na kṛtaṃ hatā gatiḥ |<br />
+            kathamevamayaṃ mayāstakaḥ śirasi nyastapado na lakṣitaḥ || Śl_30 ||
+            </p>
+         
+         
+         <p>
+            iti x x x cittamādhibhiḥ kukṛtaiḥ śokamayairupadrutaḥ |<br />
+            vyadhitena savāṣpavāriṇā karuṇaṃ bandhujanena vīkṣitaḥ || Śl_31 ||
+            </p>
+         
+         
+         <p>
+            vinipīḍitamarmabandhanastimiraṃ ghorataraṃ viśanniva |<br />
+            vijahāti nijaṃ kaḍevaraṃ dayitaṃ yatnapareṇa rakṣitam || Śl_32 ||
+            </p>
+         
+         
+         <p>
+            sa virauti gṛhītamūrdhajo yamadūtairdṛḍhapāśasaṃyataḥ |<br />
+            na śṛṇoti jano 'sya bhāṣitaṃ svakṛtākrandaravādivākulaḥ || Śl_33 ||
+            </p>
+         
+         
+         <p>
+            prastāraśailasaridantaradurgameṣu mārgeṣu tīkṣṇatarakaṇṭakasaṃkaṭeṣu |<br />
+            ghoraiḥ kṛtāntapuruṣairyamadaṇḍaghātamākṛṣyate galaniṣevitakālapāśaḥ || Śl_34 ||
+            </p>
+         
+         
+         <p>
+            dūrānnirīkṣya vimalaṃ salilaṃ pipāsurabhyeti gāḍhatṛṣito yadayaṃ tadeva |<br />
+            keśaughaśaivalavimiśritapūtipūyapaṅkāpaṅkitaṃ kṣatajavaṃ jalatā prayāti || Śl_35 ||
+            </p>
+         
+         
+         <p>
+            velānilākulitaśīkaraśītasānumānīlacandanataruṃ malayaṃ prayāti |<br />
+            so 'pyasya caṇḍavanadāvaśikhāvalīḍhaśīrṇolmukaprakaradanturatāṃ prayāti || Śl_36 ||
+            </p>
+         
+         
+         <p>
+            yadyeti vārinidhimudvatabhīmalolakallolabhedajanitolvaṇaphenahāsam |<br />
+            so 'pyasya taptaviṣadāruṇasaikatābhravibhrāntakarkaśamarunmarutāṃ prayāti || Śl_37
+            ||
+            </p>
+         
+         
+         <p>
+            tatra sthitasya jaladāgamaśaṃsino 'sya sāṅgāradhūmakuliśopalavisphuliṅgam |<br />
+            vidyullatākanakarājipiśaṅgamaṅge nārācavarṣamabhivarṣati vārivahaḥ || Śl_38 ||
+            </p>
+         
+         
+         <p>
+            tāpārditasya dahanaṃ tu hitānilo 'pi śītārditasya dahano 'pi karoti śītam |<br />
+            atyugrakarmapariṇāmavimohitasya viśvaṃ tadāsya viparītamidaṃ vibhāti || Śl_39 ||
+            </p>
+         
+         
+         <p>
+            śūcīmukhasya bahuyojanabhīmakukṣerārtasya vāripibato 'pi mahāsamudre |<br />
+            aprāpta eva pṛthukaṇṭhadarīprapātaśleṣmoṣmaṇā jalalavaḥ pariśoṣameti || Śl_40
+            </p>
+         
+         <p>
+            cañcacchaṭānika x pīvarasārameyadaṃṣṭrāṅkurāgrakuliśakṣatacūrṇitāṅgaḥ |<br />
+            kṣārāmbupūrṇataravaitaraṇītaṭeṣu niṣkṛṣyate viṣamakoṭiśitopaleṣu || Śl_41 ||
+            </p>
+         
+         
+         <p>
+            dhāvañjavena niśitakṣurasaṃstareṣu vicchinnamūrtirasipattralatāvaneṣu |<br />
+            kūpe patatyaśaraṇaḥ śitaśūlaśaktiprāsāsihāsanijitāntakavaktrarandhe || Śl_42 ||
+            </p>
+         
+         
+         <p>
+            tīvrātapakvaṣitaduḥsahākhinnadeho vṛkṣānnirīkṣya ghananīladalānupaiti |<br />
+            tatpattraśastraśatapātavibhinnamūrtistatraiva tiṣṭhati ciraṃ virutaikabandhuḥ || Śl_43
+            ||
+            </p>
+         
+         
+         <p>
+            paryantanirgataśikhāśatavisphuliṅgamālākulajvalitamaṇḍanamaṇḍitābhiḥ |<br />
+            premāntarapraṇayanirdayamaṅganābhirāliṅgyate krakacakarkaśavigrahābhiḥ || Śl_44 ||
+            </p>
+         
+         
+         <p>
+            śailābhabhīṣaṇavisaṃkaṭameṣayūthasaṃghaṭṭacūrṇitaviśīrṇasamastagātraḥ |<br />
+            āpātavātalavaśaityasamarpitāsuḥ saṃcūrṇyate punarasau śataśastathaiva || Śl_45 ||
+            </p>
+         
+         
+         <p>
+            uttrāsito mukharakhaḍgaśivāsahasrairārohati drutapadaṃ punareva raudrān |<br />
+            tāṃ kūṭaśālmalimadhomukhakaṇṭhakaughanirbhidyamānavapurarpitagāḍhaśalyaḥ || Śl_46
+            ||
+            </p>
+         
+         
+         <p>
+            mṛtyoḥ karāntagalitairiva kālapāśairāśīviṣairdhṛtaphaṇairdṛḍhasaṃyatasya |<br />
+            utpāṭayanti nayane sphurataḥ prasahya tatra sthitasya bakavāyasakaṅkagṛdhrāḥ || Śl_47
+            ||
+            </p>
+         
+         
+         <p>
+            teṣāṃ mukhaiḥ kuliśakoṭinibhaiḥ prasahya nidrāyamānavapureṣa kṛtārtanādaḥ |<br />
+            lohonmukhapracurapīvaratīkṣṇaśaṅkunirbhinnamūrtiravarohati naṣṭacetāḥ || Śl_48 ||
+            </p>
+         
+         
+         <p>
+            ādīptaśūlaśitaśalyavibhinnadehāstatraiva kecidavaroḍhumaśaknuvantaḥ |<br />
+            ghorairyadā niśitaśastramukhairayobhirākṛṣyamāṇavisaradgalitāntrasūtrāḥ || Śl_49 ||
+            </p>
+         
+         
+         <p>
+            kecitpatanti viṣameṣū girestaṭeṣu kecitparikvaṣitatailakaṭāhakukṣau |<br />
+            uttaptavālukabhuvaṃ visṛtasphuliṅgāmenya viśanti padasaṅgamanāpnuvantaḥ || Śl_50 ||
+            </p>
+         
+         
+         <p>
+            eke punaḥ simisimāyitamūkṣmajantusaṃghātajarjaritasūnavipūtikāyāḥ |<br />
+            saṃcālamātramapi hartumaśaknuvanto jīvanti karmamayapāśanibaddhajīvāḥ || Śl_51 ||
+            </p>
+         
+         
+         <p>
+            asthīnyapi praṇayatā rahitopamena śītena jarjaritavepitapiṇḍitāṅgāḥ |<br />
+            utpannabhinnapiṭakā śatajātajantujagdhakṣataśrutasamajjavaśālaśīkāḥ || Śl_52 ||
+            </p>
+         
+         
+         <p>
+            saṃdaṣṭalagnadaśanāstanulomakeśāḥ saṃghaṭṭitavyadhitalocanakarṇakaṇṭhāḥ |<br />
+            ā cetaso jaḍataratvamupetakāyāstiṣṭhanti śītanarakeṣu bhṛśaṃ nadantaḥ || Śl_53 ||
+            </p>
+         
+         
+         <p>
+            vikīrṇabahalogragandhakaṭudhūmadhūmrāntaraṃ vijṛmbhitaśikhākaraprakararudradigmaṇḍalam
+            |<br />
+            sitāsthisakalāṭalīracitabhūṣaṇaṃ bhīṣaṇaṃ pravṛttamiva bhairavaṃ sasujacarma hāhāravam
+            || Śl_54 ||
+            </p>
+         
+         
+         <p>
+            caṭacchaḍhaditi kvacitsphuradurusphuliṅgākulaṃ chamacchamaditi kṣaṇasthagitajṛmbhitaṃ
+            medasi |<br />
+            kaṭatkaṭaditi kvaṇantamuraso 'sthirandhrāntare patanti narakānalaṃ vijitakalpakālānalam
+            || Śl_55 ||
+            </p>
+         
+         
+         <p>
+            purāṇatṛṇajarjarajvalitaparśukā x x x x x x x x latālavo dhagiti vāntadīptārciṣaḥ
+            |<br />
+            sphuṭajjaṭharaniḥsṛtaprasaradantrasaṃtrāsitāḥ vimuktagurughargharadhvanitamātraśeṣakriyāḥ
+            || Śl_56 ||
+            </p>
+         
+         
+         <p>
+            nirīkṣya vivarāntaraṃ muhurapāvṛtaṃ dūrataḥ prayānti kathamapyamī pramataduḥkhamokṣāśrayāḥ
+            |<br />
+            yadā tadapi ghaṭṭitaṃ bhavati karmapaṭṭairdṛḍhaistadā viphalavāñchitāḥ kimapi yānti
+            duḥkhāntaram || Śl_57 ||
+            </p>
+         
+         
+         <p>
+            jvalanniśitatomaraprakaravarṣaṇānantaraṃ dravīkṛtamayorasaṃ dahanaraśmimālākulam |<br />
+            pibanti galadasravo narakapāladaṇḍāhatā mukhaśravaṇanāsikāvivaralabdhadhūmodgamāḥ
+            || Śl_58 ||
+            </p>
+         
+         
+         <p>
+            ādagdhavisphuṭitanetraśiraḥ kapālamastiṣkadīpitapiśaṅgaśikhākalāpaḥ |<br />
+            śuṣkendhanaprakaranirdayatāmupaiti śokāgnikoṣa iva gātracayeṣu teṣām || Śl_59 ||
+            </p>
+         
+         
+         <p>
+            te jantavo girinadījalalolajīvā auṣṭhyaṃ tadeva narakeṣu ta eva cāgniḥ |<br />
+            karmāṇi tatkhalu tathā pariṇāmayanti sarvaṃ yathā paramadāruṇamāvibhāti || Śl_60 ||
+            </p>
+         
+         
+         <p>
+            ātmīyakarmavivaśākulaveṣṭitasya muktasya pāpanilayānnirayāṃ kathaṃcit |<br />
+            lokeṣvanantagatibhedabhayākuleṣu mānuṣyakaṃ paramadurlabhameva jantoḥ || Śl_61 ||
+            </p>
+         
+         
+         <p>
+            mleccheṣu vā narakapālasamavrateṣu tiryakṣu vā kṛtaparasparabhakṣaṇeṣu |<br />
+            jātiṃ labheta yadi tatra tadeva śīlamāsevate patati yena punaḥ prapātam || Śl_62 ||
+            </p>
+         
+         
+         <p>
+            yatprāpya janmajaladherapi yānti pāramāropayanti śivamuttamabodhibījam |<br />
+            cintāmaṇerapi samabhyadhikaṃ guṇaughairmānuṣyakaṃ ka iha tadviphalīkaroti || Śl_63
+            ||
+            </p>
+         
+         
+         <p>
+            atyantadurlabhamupetya manuṣyabhāvaṃ yadvāñchitaṃ tadabhivāñchitameva kuryāt |<br />
+            caṇḍānilākulitadīpaśikhācalasya na hyāyuṣaḥ kṣaṇamapi sthitiniścayo'sti || Śl_64 ||
+            </p>
+         
+         
+         <p>
+            śvaḥ kāryametadidamadya paraṃ muhūrtādetatkṣaṇāditi janena vicintyamāne |<br />
+            tiryagnirīkṣaṇapiśaṅgitakāladaṇḍaḥ śaṅke hasatyasahanaḥ kupitaḥ kṛtāntaḥ || Śl_65
+            ||
+            </p>
+         
+         
+         <p>
+            āyāti phullakusumaḥ kusumāgamo 'yameṣā śaśāṅkatilakā śaradāgateti |<br />
+            sarvaḥ prahṛṣyati jano na punarmamaitadāyuḥ prahīṇamiti yāti paraṃ viṣādam || Śl_66
+            ||
+            </p>
+         
+         
+         <p>
+            āsannapīnaśaśimaṇḍalamaṇḍanāsu viśrāntavāriguruvāridamekhalāsu |<br />
+            niḥsaṅgamāsu giriśṛṅgavanasthalīṣu dhanyā nayantyanilacañcalaśīlamāyuḥ || Śl_67 ||
+            </p>
+         
+         
+         <p>
+            kiṃ sā ratirbhavati nandanabhūmikāsu divyāṅganājaghanapṛṣṭhaśilātalāsu |<br />
+            yā mugdhamugdhaharaṇīgaṇasevitāsu niḥsaṅgacārusubhagāsu vanasthalīṣu || Śl_68 ||
+            </p>
+         
+         
+         <p>
+            divyāṅganāparimalāvilaye nibhinnasaṃtānakastavakahāsavitaṇvanīṣu |<br />
+            kiṃ sā ratiḥ surasaritsu viviktaramyatīrāsu yā śucijalāsu vane nadīṣu || Śl_69 ||
+            </p>
+         
+         
+         <p>
+            viśālāḥ śailānāṃ viratajanasaṃpātasubhagā guhā gāḍhābhogā haritavanalekhāparikarāḥ
+            |<br />
+            sarittīrāsannā surajamadhurairnirjanaravairna gamyāḥ kleśāgnerayamiti vadantīva pathikān
+            || Śl_70 ||
+            </p>
+         
+         
+         <p>
+            māyāmarīcidakacandrataraṃgakalpāḥ kāmā jinena gaditā vibhavāḥ striyaśca |<br />
+            svapnāntadurlabhitavibhramavipralabdhā bālāḥ patanti nirayeṣvapi yeṣu saktāḥ || Śl_71
+            ||
+            </p>
+         
+         
+         <p>
+            āpātamātramadhurā viṣayā viṣaśca ghorā viṣākakaṭukā viṣayā viṣaśca |<br />
+            mohāndhakāragahanā viṣayā viṣaśca durvāravegacapalā viṣayā viṣaśca || Śl_72 ||
+            </p>
+         
+         
+         <p>
+            kāmā viṣaśca viṣayāśca nirūpyamānāḥ śreyo viṣaṃ na viṣayā viṣamasvabhāvāḥ |<br />
+            ekatra janmani viṣaṃ viṣatāṃ prayāti janmāntare 'pi viṣayā viṣatāṃ prayānti || Śl_73
+            ||
+            </p>
+         
+         
+         <p>viṣasya viṣayāṇāṃ ca dūramatyantagocaram | upayuktaṃ viṣaṃ hanti viṣayāḥ smaraṇādapi
+            || Śl_74 ||</p>
+         
+         
+         <p>
+            saṃsṛṣṭaṃ vrajati viṣaṃ viṣeṇa śāntiṃ sanmantrairagadadharaiśca sādhyamānam |<br />
+            yuktaṃ vā bhavati viṣaṃ hitāya nṝṇāṃ na tvevaṃ viṣayamahāviṣaṃ kadācit || Śl_75 ||
+            </p>
+         
+         
+         <p>
+            yadvadvṛṣo viṣamakūpataṭāntatrūḍho dūrvāpravālalavalālasamānasaḥ san |<br />
+            śvabhre patatyatha ca nāstu ta eva lābhastadvatsukhānvitamatiḥ khalu jīvalokaḥ ||
+            Śl_76 ||
+            </p>
+         
+         
+         <p>
+            mandākinījalarayākulitālakābhiḥ krīḍāvihāramanubhūya sahāpsarobhiḥ |<br />
+            bhūyo bhramanti kharavaitaraṇe taraṃgasaṃparkajarjaritadāruṇaduḥkhabhājaḥ || Śl_77
+            ||
+            </p>
+         
+         
+         <p>
+            āstīrṇakalpatarupallvasaṃstareṣu kāntāsakhāḥ suravaneṣu makhaṃ vihṛtya |<br />
+            bhūyo bhramanti niśitākulaśastrapātavicchinnagātramasipattravanasthalīṣu || Śl_78
+            ||
+            </p>
+         
+         
+         <p>
+            sparśe sukhāsu padapātanatonnatāsu merornitambapadavīṣu ciraṃ vihṛtya |<br />
+            uttaptasaikatakukūlakṛśānurāśiṃ saṃsīryamāṇacaraṇorubhujo bhramanti || Śl_79 ||
+            </p>
+         
+         
+         <p>
+            gatvā divaṃ mukharabhāsurakiṅkanīkahārāvalīnikaradanturitairvimānaiḥ |<br />
+            ghoraṃ sthirāśrayamameyamanantapāramandhaṃ tamaḥ punaradhaḥśirasā patanti || Śl_80
+            ||
+            </p>
+         
+         
+         <p>
+            śakro 'pi yatra surakiṃnaranāgayakṣamauliprabhāprakarapiñjarapādapīṭhaḥ |<br />
+            karmānilākulagatiḥ kugatiḥ prayāti ko nāma tatra puruṣo na bhayaṃ bhajeta || Śl_81
+            ||
+            </p>
+         
+         
+         <p>
+            pramlāyamānakusumāḥ śru x x x digdhā mlānāmbarāḥ karuṇadīkṣitabandhuvargāḥ |<br />
+            duḥkhaṃ paraṃ yadamarā maraṇe vrajanti tanmānavā na jalabudbudalolajīvāḥ || Śl_82
+            ||
+            </p>
+         
+         
+         <p>
+            duḥkhāgniprakaranirodhabhairave 'sminyaloke vahati janaḥ sukhābhimānam |<br />
+            tanmatyorvadanamapāvṛtaṃ viśālaṃ tadbījaṃ punarapi janmapādapasya || Śl_83 ||
+            </p>
+         
+         
+         <p>
+            taṃ tṛṣṇāmayadṛḍhadīrghatantubaddhaṃ paryastapraṇihitabhīmakāladaṇḍam |<br />
+            sattvānāṃ bhavajaladhau pariplutānāṃ matsyanāṃ baḍiśamivāntakena dattam || Śl_84 ||
+            </p>
+         
+         
+         <p>
+            kumbhīpākakvathitakalilāduṣṇasaṃrambhavegātkṛtvodgrīvaṃ kṣaṇamapi sukhaṃ labdhaniśvāsamokṣāḥ
+            |<br />
+            krodhāpūrṇaiḥ subahubhirayomudgaraistāḍyamānā manyate taṃ paramiva sukhaṃ nārakā yadvadeva
+            || Śl_85 ||
+            </p>
+         
+         
+         <p>
+            tadvadduḥkhairaniśamavaśo dāruṇaiḥ pīḍyamānastāvatkālaṃ jaraṇamaṇarakṣobhamuktaḥ kathaṃcit
+            |<br />
+            mandībhūte kṣaṇamapi nije duḥsahe duḥkhavahnau sarvo lokastanusukhalavagrāmatṛṣṇāṃ
+            karoti || Śl_86 ||
+            </p>
+         
+         
+         <p>
+            yāvadyāvajjagati sakale jāyate saukhyasaṃjñā tāvattāvadbahutaraśikho jāyate rāgabahniḥ
+            |<br />
+            yāvadyāvadvisarati śubhā bhāvanā bhāvyamānā tāvattāvadbahalataratāmeti mohāndhakāram
+            || Śl_87 ||
+            </p>
+         
+         
+         <p>
+            yāvadyāvanniyatamaśubhā bhāvanā yāti vṛddhim |<br />
+            tāvattāvattaralataratamiti mohāndhakāram || Śl_88 ||
+            </p>
+         
+         
+         <p>
+            durgandhipūtivikṛtairaravindamindumindīvaraṃ ca tulayanti yadāṅganāṅgaiḥ |<br />
+            tasyānṛtasya phalamugramidaṃ kavīnāṃ tāsveva garbhanilayaṃ padamī viśanti || Śl_89
+            ||
+            </p>
+         
+         
+         <p>
+            kā saugatirjagati yā śataśo na yātā kiṃ tatsukhaṃ yadaśakṛnna purānubhūtam |<br />
+            kāstāḥ śriyaścapalacāmaracāruhāsāḥ prāptā na yāstadapi vardhata eva rāgaḥ || Śl_90
+            ||
+            </p>
+         
+         
+         <p>
+            nadyo na tā na vihṛtaṃ pulineṣu yāsāṃ sthānaṃ na tajjagati yatra kṛto na vāsaḥ |<br />
+            vyomnāpi tanna padamasti na yatra yātaṃ duṣpūraṇastadapi vardhata eva rāgaḥ || Śl_91
+            ||
+            </p>
+         
+         
+         <p>
+            duḥkhaṃ na tadyadasakṛnna purānubhūtaṃ kāmā na te jagati yairiha tṛptirāsīt |<br />
+            sattvo na so 'sti jaṭhare śayitaṃ na yasya saṃsāriṇastadapi nāsti kathaṃ virāgaḥ ||
+            Śl_92 ||
+            </p>
+         
+         
+         <p>
+            atyāyate jagati janmaparigrahe 'sminduḥkhe sukhe ca bahuśaḥ parivartamānaḥ |<br />
+            nāsau jano jagati yo na babhūva bandhurdveṣoragastadapi tiṣṭhati bhīmabhogaḥ || Śl_93
+            ||
+            </p>
+         
+         
+         <p>
+            yaiḥ sārdhametya hasitaṃ lalitaṃ pragītamekatra pītamaśitaṃ ca kṛtāśca goṣṭhyaḥ |<br />
+            kālakrameṇa gamitāḥ kati ke 'pi ramyā nītāḥ samāśca viṣamāśca daśāḥ kathaṃcit || Śl_94
+            ||
+            </p>
+         
+         
+         <p>
+            tānārjavaṃ javavivartanadṛṣṭanaṣṭānāvartamadhyapatitāniva vīkṣyamāṇaḥ |<br />
+            saṃsārasāgaragatānapahāya bandhūnekaḥ prayāti yadi nāsti tataḥ kṛtaghnaḥ || Śl_95
+            ||
+            </p>
+         
+         
+         <p>
+            aṅkasthitena śiśunā vivaśena yāsāṃ pītaḥ payodhararasaṃ praṇayānuyātaḥ |<br />
+            tanniṣphalapracuradurlalitaikabhājaḥ ko nāma dasyurapi hātumihotsaheta || Śl_96 ||
+            </p>
+         
+         
+         <p>
+            yā saṃsthito 'yamudare 'pi kṛtāvakāśo yāḥ snehaviklavadhiyaḥ ślathamenamūhuḥ |<br />
+            tā duḥkhitā aśaraṇāḥ kṛpaṇā vihāya ko nāma śatrurapi gantumihotsaheta || Śl_97 ||
+            </p>
+         
+         
+         <p>
+            vikīrṇe duḥkhaughairjagati vivaśe 'sminnaśaraṇe parārthe yadduḥkhaṃ tadiha sukhamāhuḥ
+            supuruṣāḥ |<br />
+            kṣaṇaṃ kṣuttṛṣṇoṣṇaśramavigamaramyānarucaḥ paraṃ kṛtvā teṣāmapi yadiha ka ivāsya pratisamaḥ
+            || Śl_98 ||
+            </p>
+         
+         
+         <p>
+            na sāramyairyā naiva ca nṛpatilakṣmīparikarairna dārairnāpatyairna surabhavane nāsuragatau
+            |<br />
+            kathaṃcitsaṃprāpyaṃ x viṣayasukhaṃ bhogaparamairlabhante yā prītiṃ parahitasukhādhānaniratāḥ
+            || Śl_99 ||
+            </p>
+         
+         
+         <p>
+            svayaṃ ghāsagrāsaṃ paśurapi karotyeva sulabhaṃ yadṛcchā labdhaṃ vā pibati salilaṃ
+            gāḍhatṛṣitaḥ |<br />
+            parasyārtha kartuṃ yadiha puruṣo 'yaṃ prayatate tadasya svaṃ tejaḥ sukhamidamaho pauruṣamidam
+            || Śl_100 ||
+            </p>
+         
+         
+         <p>
+            yadālokaṃ kuvan bhramati raviraśrāntaturagaḥ sadālokaṃ dhatte yadagaṇitabhārā vasumatī
+            |<br />
+            na sa svārthaḥ kaścitprakṛtiriyameva mahatāṃ yadete lokānāṃ hitasukharasaikāntarasikāḥ
+            || Śl_101 ||
+            </p>
+         
+         
+         <p>
+            avidyādhūmrāndhabhramaparigatavyākulagatipradīpte duḥkhāgnau patitamavaśaṃ vīkṣya
+            bhuvanam |<br />
+            sphuradvahnijvālā pramathitaśiroveṣṭananibhā yātante ye 'trādbhuta iha puruṣāste sukṛtinaḥ
+            || Śl_102 ||
+            </p>
+         
+         
+         <p>
+            avīciṃ gāhante hutavahaśikhāpūritamapi prasarpadromāñcā himanikaracandrāṃśuśiśiram
+            |<br />
+            parārthe x x x sphuṭanalinahāsāpi nalinī karotyeṣāṃ tāpaṃ hutavahaśikhāsaṃhatiriva
+            || Śl_103 ||
+            </p>
+         
+         
+         <p>
+            parahitakaraṇāya baddhakakṣāḥ sukhamasipattravane vasanti santaḥ |<br />
+            na punaramarasundarīsahāyāḥ kṣaṇamapi nandanakānane ramante || Śl_104 ||
+            </p>
+         
+         
+         <p>
+            aśaraṇajanatāraṇāya tīrṇāḥ punarapi vaitaraṇīṃ taranti dhīrāḥ |<br />
+            na tu gaganasarittaraṃgabhaṅgavyatikarasaṅgasukhaṃ svayaṃ bhajante || Śl_105 ||
+            </p>
+         
+         
+         <p>
+            iti sucaritaratnaṃ bhūṣaṇaṃ bhūṣaṇānāṃ śivamamṛtamudāraṃ bhāsuraṃ bhāsurāṇām |<br />
+            asulabhamakṛtajñairnandanaṃ nandanānāṃ bhaja samasukhahetuṃ maṅgalaṃ maṅgalānām ||
+            Śl_106 ||
+            </p>
+         
+         
+         <p>
+            sugatavacanapuṣpaṃ sarvadā sevanīyaṃ phalati phalamudāraṃ puṣpameva drumāṇām |<br />
+            sugatavacanapuṣpādartharāśirniṣevyo madhuni mudhakarāṇāṃ yasya vāñchāprakarṣam ||
+            Śl_107 ||
+            </p>
+         
+         
+         <p>
+            visṛja viṣayānnītyākīrṇāṃ kṣaṇavyayasaṅgino bhaja samasukhaṃ sākāṅkṣaṃ kṛtāntabhayojjhitam
+            |<br />
+            vikara timiraṃ mohavyājaṃ vimokṣayathārgalaṃ na khalu suciraṃ nidrāyante sadaśvakiśorakāḥ
+            || Śl_108 ||
+            </p>
+         
+         
+         <p>
+            vinayavisaro vīryaskandhaḥ kṣamādamapallavaḥ śamathakusumaḥ prajñāśākhaḥ pradānaghanacchadaḥ
+            |<br />
+            praṇidhiśikharaḥ śīlacchāyaḥ praśāntiphalaprado bhava bhava marau tāpārtānāṃ tvamekamahādrumaḥ
+            || Śl_109 ||
+            </p>
+         
+         
+         <p>
+            bahujanahito mābhairvādapradānamahāsvanaḥ pṛthutaraśodhārāsāraḥ kṛpānilacoditaḥ |<br />
+            praśamitarajaḥ śīlacchāyāvibhūṣitabhūtalo bhava bhava marau tāpārtānāṃ tvamekamahāghanaḥ
+            || Śl_110 ||
+            </p>
+         
+         
+         <p>
+            prakaṭavipulaṃ paṅkāgādhaḥ prasannatarāśrayaḥ satataśiśiro jālavyālapramādavivarjitaḥ
+            |<br />
+            prakṛtisubhagastṛṣṇācchedāvimardabharakṣamo bhava bhava marau tāpārtānāṃ tvamekamahāhradaḥ
+            || Śl_111 ||
+            </p>
+         
+         
+         <p>
+            iti nigadatā yadupārjitaṃ puṇyaṃ mayā kiyatsugatacarite kṛtvā śraddhāmanena jano 'khilaḥ
+            |<br />
+            satatasukhito ramyābhogaḥ samṛddhamanorathaḥ parahitarataḥ sarvajñatvaṃ prayātu tataḥ
+            śanaiḥ || Śl_112 ||
+            </p>
+         
+         
+         <p>
+            karatalasamāḥ spaṣṭālokāḥ praśāntakṛśānavaḥ sthalakamalinīpattracchannā bisāṅkuradanturāḥ
+            |<br />
+            śucisurabhayaḥ sphullāmbhojairvibhūṣitabhūmayo dadhatu narakāḥ sphītāṃ śobhāṃ saśīkaravāyavaḥ
+            || Śl_113 ||
+            </p>
+         
+         
+         <p>
+            vijitaṃvirutamārānīkāḥ kṛtābhayaghoṣaṇā gaganasalilakrīḍā ramyā sameta narāmarāḥ |<br />
+            jananamaraṇakleśāyāsaprabandhavighātino diśi diśi sadā buddhotpādā bhavantu samīhitāḥ
+            || Śl_114 ||
+            </p>
+         
+         
+         <p>
+            bhavatu jagatāṃ dharmāmodaḥ prabandhamahotsavaḥ suciraguṇitā mṛtyorbandhyā bhavantu
+            manorathāḥ |<br />
+            munijanakathāgoṣṭhībandhaiḥ samāvṛtavarṣibhiḥ satataśiśiraḥ subhagacandrālokaḥ prayātu
+            kṛtārthatām || Śl_115 ||
+            </p>
+         
+         
+         <p>|| iti śiṣyalekhanāma dharmakāvyaṃ samāptam ||</p>
+         
+         
+         <p>| kṛtirācāryacandragomipādasya ||</p>
+         
+         </div>
+   </body>
+</html>

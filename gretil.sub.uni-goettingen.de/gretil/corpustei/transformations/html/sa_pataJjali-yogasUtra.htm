@@ -1,0 +1,748 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Patañjali: Yogasūtra (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Patañjali: Yogasūtra</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_pataJjali-yogasUtra.xml">sa_pataJjali-yogasUtra.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Philipp A. Maas</p>
+      <p class="noindent"><b>Contribution: </b>Philipp A. Maas</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>Kāśinātha Śāstrī Āgāśe: Vācaspatimiśraviracitaṭīkāsaṃvalitavyāsabhāṣyasametāni Pātañjalayogasūtrāṇi,
+            tathā bhojadevaviracitarājamārtaṇḍābhidhavṛttisametāni pātañjalayogasūtrāṇi. sūtrapāṭhasūtravarṇānukramasūcībhyāṃ
+            ca sanāthīkṛtāni ...</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/yoga/patyog_u.htm">patyog_u.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Patanjali: Yogasutra
+            <br />Based on the edition by Kāśinātha Śāstrī Āgāśe: Vācaspatimiśraviracitaṭīkāsaṃvalitavyāsabhāṣyasametāni
+            Pātañjalayogasūtrāṇi, tathā bhojadevaviracitarājamārtaṇḍābhidhavṛttisametāni pātañjalayogasūtrāṇi.
+            sūtrapāṭhasūtravarṇānukramasūcībhyāṃ ca sanāthīkṛtāni ...
+            <br />Pune : Ānandāśramamudraṇālaya 1904 (Ānandāśrama Sanskrit Series, 47).
+            <br />
+            <br />Input and proof reading by Philipp A. Maas
+            <br />
+            <br />Sutras extracted from the commented version (see separate file)
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p>atha yogānuśāsanam || YS_1.1 ||</p>
+         
+         
+         <p>yogaś cittavṛttinirodhaḥ || YS_1.2 ||</p>
+         
+         
+         <p>tadā draṣṭuḥ svarūpe 'vasthānam || YS_1.3 ||</p>
+         
+         
+         <p>vṛttisārūpyam itaratra || YS_1.4 ||</p>
+         
+         
+         <p>vṛttayaḥ pañcatayyaḥ kliṣṭākliṣṭāḥ || YS_1.5 ||</p>
+         
+         
+         <p>pramāṇaviparyayavikalpanidrāsmṛtayaḥ || YS_1.6 ||</p>
+         
+         
+         <p>pratyakṣānumānāgamāḥ pramāṇāni || YS_1.7 ||</p>
+         
+         
+         <p>viparyayo mithyājñānam atadrūpapratiṣṭham || YS_1.8 ||</p>
+         
+         
+         <p>śabdajñānānupātī vastuśūnyo vikalpaḥ || YS_1.9 ||</p>
+         
+         
+         <p>abhāvapratyayālambanā vṛttir nidrā || YS_1.10 ||</p>
+         
+         
+         <p>anubhūtaviṣayāsaṃpramoṣaḥ smṛtiḥ || YS_1.11 ||</p>
+         
+         
+         <p>abhyāsavairāgyābhyāṃ tannirodhaḥ || YS_1.12 ||</p>
+         
+         
+         <p>tatra sthitau yatno 'bhyāsaḥ || YS_1.13 ||</p>
+         
+         
+         <p>sa tu dīrghakālanairantaryasatkārāsevito dṛḍhabhūmiḥ || YS_1.14 ||</p>
+         
+         
+         <p>dṛṣṭānuśravikaviṣayavitṛṣṇasya vaśīkārasaṃjñā vairāgyam || YS_1.15 ||</p>
+         
+         
+         <p>tat paraṃ puruṣakhyāter guṇavaitṛṣṇyam || YS_1.16 ||</p>
+         
+         
+         <p>vitarkavicārānandāsmitārūpānugamāt saṃprajñātaḥ || YS_1.17 ||</p>
+         
+         
+         <p>virāmapratyayābhyāsapūrvaḥ saṃskāraśeṣo 'nyaḥ || YS_1.18 ||</p>
+         
+         
+         <p>bhavapratyayo videhaprakṛtilayānām || YS_1.19 ||</p>
+         
+         
+         <p>śraddhāvīryasmṛtisamādhiprajñāpūrvaka itareṣām || YS_1.20 ||</p>
+         
+         
+         <p>tīvrasaṃvegānām āsannaḥ || YS_1.21 ||</p>
+         
+         
+         <p>mṛdumadhyādhimātratvāt tato 'pi viśeṣaḥ || YS_1.22 ||</p>
+         
+         
+         <p>īśvarapraṇidhānād vā || YS_1.23 ||</p>
+         
+         
+         <p>kleśakarmavipākāśayair aparāmṛṣṭaḥ puruṣaviśeṣa īśvaraḥ || YS_1.24 ||</p>
+         
+         
+         <p>tatra niratiśayaṃ sarvajñabījam || YS_1.25 ||</p>
+         
+         
+         <p>pūrveṣām api guruḥ kālenānavacchedāt || YS_1.26 ||</p>
+         
+         
+         <p>tasya vācakaḥ praṇavaḥ || YS_1.27 ||</p>
+         
+         
+         <p>tajjapas tadarthabhāvanam || YS_1.28 ||</p>
+         
+         
+         <p>tataḥ pratyakcetanādhigamo 'py antarāyābhāvaś ca || YS_1.29 ||</p>
+         
+         
+         <p>vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni
+            cittavikṣepās te 'ntarāyāḥ || YS_1.30 ||</p>
+         
+         
+         <p>duḥkhadaurmanasyāṅgamejayatvaśvāsapraśvāsā vikṣepasahabhuvaḥ || YS_1.31 ||</p>
+         
+         
+         <p>tatpratiṣedhārtham ekatattvābhyāsaḥ || YS_1.32 ||</p>
+         
+         
+         <p>maitrīkaruṇāmuditopekṣāṇāṃ sukhaduḥkhapuṇyāpuṇyaviṣayāṇāṃ bhāvanātaś cittaprasādanam
+            || YS_1.33 ||</p>
+         
+         
+         <p>pracchardanavidhāraṇābhyāṃ vā prāṇasya || YS_1.34 ||</p>
+         
+         
+         <p>viṣayavatī vā pravṛttir utpannā manasaḥ sthitinibandhanī || YS_1.35 ||</p>
+         
+         
+         <p>viśokā vā jyotiṣmatī || YS_1.36 ||</p>
+         
+         
+         <p>vītarāgaviṣayaṃ vā cittam || YS_1.37 ||</p>
+         
+         
+         <p>svapnanidrājñānālambanaṃ vā || YS_1.38 ||</p>
+         
+         
+         <p>yathābhimatadhyānād vā || YS_1.39 ||</p>
+         
+         
+         <p>paramāṇuparamamahattvānto 'sya vaśīkāraḥ || YS_1.40 ||</p>
+         
+         
+         <p>kṣīṇavṛtter abhijātasyeva maṇer grahītṛgrahaṇagrāhyeṣu tatsthatadañjanatā samāpattiḥ
+            || YS_1.41 ||</p>
+         
+         
+         <p>tatra śabdārthajñānavikalpaiḥ saṃkīrṇā savitarkā samāpattiḥ || YS_1.42 ||</p>
+         
+         
+         <p>smṛtipariśuddhau svarūpaśūnyevārthamātranirbhāsā nirvitarkā || YS_1.43 ||</p>
+         
+         
+         <p>etayaiva savicārā nirvicārā ca sūkṣmaviṣayā vyākhyātā || YS_1.44 ||</p>
+         
+         
+         <p>sūkṣmaviṣayatvaṃ cāliṅgaparyavasānam || YS_1.45 ||</p>
+         
+         
+         <p>tā eva sabījaḥ samādhiḥ || YS_1.46 ||</p>
+         
+         
+         <p>nirvicāravaiśāradye 'dhyātmaprasādaḥ || YS_1.47 ||</p>
+         
+         
+         <p>ṛtaṃbharā tatra prajñā || YS_1.48 ||</p>
+         
+         
+         <p>śrutānumānaprajñābhyām anyaviṣayā viśeṣārthatvāt || YS_1.49 ||</p>
+         
+         
+         <p>tajjaḥ saṃskāro 'nyasaṃskārapratibandhī || YS_1.50 ||</p>
+         
+         
+         <p>tasyāpi nirodhe sarvanirodhān nirbījaḥ samādhiḥ || YS_1.51 ||</p>
+         
+         
+         <p>tapaḥsvādhyāyeśvarapraṇidhānāni kriyāyogaḥ || YS_2.1 ||</p>
+         
+         
+         <p>samādhibhāvanārthaḥ kleśatanūkaraṇārthaś ca || YS_2.2 ||</p>
+         
+         
+         <p>avidyāsmitārāgadveṣābhiniveśāḥ kleśāḥ || YS_2.3 ||</p>
+         
+         
+         <p>avidyā kṣetram uttareṣāṃ prasuptatanuvicchinnodārāṇām || YS_2.4 ||</p>
+         
+         
+         <p>anityāśuciduḥkhānātmasu nityaśucisukhātmakhyātir avidyā || YS_2.5 ||</p>
+         
+         
+         <p>dṛgdarśanaśaktyor ekātmatevāsmitā || YS_2.6 ||</p>
+         
+         
+         <p>sukhānuśayī rāgaḥ || YS_2.7 ||</p>
+         
+         
+         <p>duḥkhānuśayī dveṣaḥ || YS_2.8 ||</p>
+         
+         
+         <p>svarasavāhī viduṣo 'pi tathā rūḍho 'bhiniveśaḥ || YS_2.9 ||</p>
+         
+         
+         <p>te pratiprasavaheyāḥ sūkṣmāḥ || YS_2.10 ||</p>
+         
+         
+         <p>dhyānaheyās tadvṛttayaḥ || YS_2.11 ||</p>
+         
+         
+         <p>kleśamūlaḥ karmāśayo dṛṣṭādṛṣṭajanmavedanīyaḥ || YS_2.12 ||</p>
+         
+         
+         <p>sati mūle tadvipāko jātyāyurbhogāḥ || YS_2.13 ||</p>
+         
+         
+         <p>te hlādaparitāpaphalāḥ puṇyāpuṇyahetutvāt || YS_2.14 ||</p>
+         
+         
+         <p>pariṇāmatāpasaṃskāraduḥkhair guṇavṛttivirodhāc ca duḥkham eva sarvaṃ vivekinaḥ ||
+            YS_2.15 ||</p>
+         
+         
+         <p>heyaṃ duḥkham anāgatam || YS_2.16 ||</p>
+         
+         
+         <p>draṣṭṛdṛśyayoḥ saṃyogo heyahetuḥ || YS_2.17 ||</p>
+         
+         
+         <p>prakāśakriyāsthitiśīlaṃ bhūtendriyātmakaṃ bhogāpavargārthaṃ dṛśyam || YS_2.18 ||</p>
+         
+         
+         <p>viśeṣāviśeṣaliṅgamātrāliṅgāni guṇaparvāṇi || YS_2.19 ||</p>
+         
+         
+         <p>draṣṭā dṛśimātraḥ śuddho 'pi pratyayānupaśyaḥ || YS_2.20 ||</p>
+         
+         
+         <p>tadartha eva dṛśyasyātmā || YS_2.21 ||</p>
+         
+         
+         <p>kṛtārthaṃ prati naṣṭam apy anaṣṭaṃ tadanyasādhāraṇatvāt || YS_2.22 ||</p>
+         
+         
+         <p>svasvāmiśaktyoḥ svarūpopalabdhihetuḥ saṃyogaḥ || YS_2.23 ||</p>
+         
+         
+         <p>tasya hetur avidyā || YS_2.24 ||</p>
+         
+         
+         <p>tadabhāvāt saṃyogābhāvo hānaṃ taddṛśeḥ kaivalyam || YS_2.25 ||</p>
+         
+         
+         <p>vivekakhyātir aviplavā hānopāyaḥ || YS_2.26 ||</p>
+         
+         
+         <p>tasya saptadhā prāntabhūmiḥ prajñā || YS_2.27 ||</p>
+         
+         
+         <p>yogāṅgānuṣṭhānād aśuddhikṣaye jñānadīptir ā vivekakhyāteḥ || YS_2.28 ||</p>
+         
+         
+         <p>yamaniyamāsanaprāṇāyāmapratyāhāradhāraṇādhyānasamādhayo 'ṣṭāv aṅgāni || YS_2.29 ||</p>
+         
+         
+         <p>ahiṃsāsatyāsteyabrahmacaryāparigrahā yamāḥ || YS_2.30 ||</p>
+         
+         
+         <p>jātideśakālasamayānavacchinnāḥ sārvabhaumā mahāvratam || YS_2.31 ||</p>
+         
+         
+         <p>śaucasaṃtoṣatapaḥsvādhyāyeśvarapraṇidhānāni niyamāḥ || YS_2.32 ||</p>
+         
+         
+         <p>vitarkabādhane pratipakṣabhāvanam || YS_2.33 ||</p>
+         
+         
+         <p>vitarkā hiṃsādayaḥ kṛtakāritānumoditā lobhakrodhamohapūrvakā mṛdumadhyādhimātrā duḥkhājñānānantaphalā
+            iti pratipakṣabhāvanam || YS_2.34 ||</p>
+         
+         
+         <p>ahiṃsāpratiṣṭhāyāṃ tatsaṃnidhau vairatyāgaḥ || YS_2.35 ||</p>
+         
+         
+         <p>satyapratiṣṭhāyāṃ kriyāphalāśrayatvam || YS_2.36 ||</p>
+         
+         
+         <p>asteyapratiṣṭhāyāṃ sarvaratnopasthānam || YS_2.37 ||</p>
+         
+         
+         <p>brahmacaryapratiṣṭhāyāṃ vīryalābhaḥ || YS_2.38 ||</p>
+         
+         
+         <p>aparigrahasthairye janmakathaṃtāsaṃbodhaḥ || YS_2.39 ||</p>
+         
+         
+         <p>śaucāt svāṅgajugupsā parair asaṃsargaḥ || YS_2.40 ||</p>
+         
+         
+         <p>sattvaśuddhisaumanasyaikāgryendriyajayātmadarśanayogyatvāni ca || YS_2.41 ||</p>
+         
+         
+         <p>saṃtoṣād anuttamaḥ sukhalābhaḥ || YS_2.42 ||</p>
+         
+         
+         <p>kāyendriyasiddhir aśuddhikṣayāt tapasaḥ || YS_2.43 ||</p>
+         
+         
+         <p>svādhyāyād iṣṭadevatāsaṃprayogaḥ || YS_2.44 ||</p>
+         
+         
+         <p>samādhisiddhir īśvarapraṇidhānāt || YS_2.45 ||</p>
+         
+         
+         <p>sthirasukham āsanam || YS_2.46 ||</p>
+         
+         
+         <p>prayatnaśaithilyānantasamāpattibhyām || YS_2.47 ||</p>
+         
+         
+         <p>tato dvandvānabhighātaḥ || YS_2.48 ||</p>
+         
+         
+         <p>tasmin sati śvāsapraśvāsayor gativicchedaḥ prāṇāyāmaḥ || YS_2.49 ||</p>
+         
+         
+         <p>bāhyābhyantarastambhavṛttir deśakālasaṃkhyābhiḥ paridṛṣṭo dīrghasūkṣmaḥ || YS_2.50
+            ||</p>
+         
+         
+         <p>bāhyābhyantaraviṣayākṣepī caturthaḥ || YS_2.51 ||</p>
+         
+         
+         <p>tataḥ kṣīyate prakāśāvaraṇam || YS_2.52 ||</p>
+         
+         
+         <p>dhāraṇāsu ca yogyatā manasaḥ || YS_2.53 ||</p>
+         
+         
+         <p>svaviṣayāsaṃprayoge cittasvarūpānukāra ivendriyāṇāṃ pratyāhāraḥ || YS_2.54 ||</p>
+         
+         
+         <p>tataḥ paramā vaśyatendriyāṇām || YS_2.55 ||</p>
+         
+         
+         <p>deśabandhaś cittasya dhāraṇā || YS_3.1 ||</p>
+         
+         
+         <p>tatra pratyayaikatānatā dhyānam || YS_3.2 ||</p>
+         
+         
+         <p>tad evārthamātranirbhāsaṃ svarūpaśūnyam iva samādhiḥ || YS_3.3 ||</p>
+         
+         
+         <p>trayam ekatra saṃyamaḥ || YS_3.4 ||</p>
+         
+         
+         <p>tajjayāt prajñālokaḥ || YS_3.5 ||</p>
+         
+         
+         <p>tasya bhūmiṣu viniyogaḥ || YS_3.6 ||</p>
+         
+         
+         <p>trayam antaraṅgaṃ pūrvebhyaḥ || YS_3.7 ||</p>
+         
+         
+         <p>tad api bahiraṅgaṃ nirbījasya || YS_3.8 ||</p>
+         
+         
+         <p>vyutthānanirodhasaṃskārayor abhibhavaprādurbhāvau nirodhakṣaṇacittānvayo nirodhapariṇāmaḥ
+            || YS_3.9 ||</p>
+         
+         
+         <p>tasya praśāntavāhitā saṃskārāt || YS_3.10 ||</p>
+         
+         
+         <p>sarvārthataikāgratayoḥ kṣayodayau cittasya samādhipariṇāmaḥ || YS_3.11 ||</p>
+         
+         
+         <p>tataḥ punaḥ śāntoditau tulyapratyayau cittasyaikāgratāpariṇāmaḥ || YS_3.12 ||</p>
+         
+         
+         <p>etena bhūtendriyeṣu dharmalakṣaṇāvasthāpariṇāmā vyākhyātāḥ || YS_3.13 ||</p>
+         
+         
+         <p>śāntoditāvyapadeśyadharmānupātī dharmī || YS_3.14 ||</p>
+         
+         
+         <p>kramānyatvaṃ pariṇāmānyatve hetuḥ || YS_3.15 ||</p>
+         
+         
+         <p>pariṇāmatrayasaṃyamād atītānāgatajñānam || YS_3.16 ||</p>
+         
+         
+         <p>śabdārthapratyayānām itaretarādhyāsāt saṃkaras tatpravibhāgasaṃyamāt sarvabhūtarutajñānam
+            || YS_3.17 ||</p>
+         
+         
+         <p>saṃskārasākṣātkaraṇāt pūrvajātijñānam || YS_3.18 ||</p>
+         
+         
+         <p>pratyayasya paracittajñānam || YS_3.19 ||</p>
+         
+         
+         <p>na ca tat sālambanaṃ tasyāviṣayībhūtatvāt || YS_3.20 ||</p>
+         
+         
+         <p>kāyarūpasaṃyamāt tadgrāhyaśaktistambhe cakṣuḥprakāśāsaṃprayoge 'ntardhānam || YS_3.21
+            ||</p>
+         
+         
+         <p>sopakramaṃ nirupakramaṃ ca karma tatsaṃyamād aparāntajñānam ariṣṭebhyo vā || YS_3.22
+            ||</p>
+         
+         
+         <p>maitryādiṣu balāni || YS_3.23 ||</p>
+         
+         
+         <p>baleṣu hastibalādīni || YS_3.24 ||</p>
+         
+         
+         <p>pravṛttyālokanyāsāt sūkṣmavyavahitaviprakṛṣṭajñānam || YS_3.25 ||</p>
+         
+         
+         <p>bhuvanajñānaṃ sūrye saṃyamāt || YS_3.26 ||</p>
+         
+         
+         <p>candre tārāvyūhajñānam || YS_3.27 ||</p>
+         
+         
+         <p>dhruve tadgatijñānam || YS_3.28 ||</p>
+         
+         
+         <p>nābhicakre kāyavyūhajñānam || YS_3.29 ||</p>
+         
+         
+         <p>kaṇṭhakūpe kṣutpipāsānivṛttiḥ || YS_3.30 ||</p>
+         
+         
+         <p>kūrmanāḍyāṃ sthairyam || YS_3.31 ||</p>
+         
+         
+         <p>mūrdhajyotiṣi siddhadarśanam || YS_3.32 ||</p>
+         
+         
+         <p>prātibhād vā sarvam || YS_3.33 ||</p>
+         
+         
+         <p>hṛdaye cittasaṃvit || YS_3.34 ||</p>
+         
+         
+         <p>sattvapuruṣayor atyantāsaṃkīrṇayoḥ pratyayāviśeṣo bhogaḥ parārthāt svārthasaṃyamāt
+            puruṣajñānam || YS_3.35 ||</p>
+         
+         
+         <p>tataḥ prātibhaśrāvaṇavedanādarśāsvādavārtā jāyante || YS_3.36 ||</p>
+         
+         
+         <p>te samādhāv upasargā vyutthāne siddhayaḥ || YS_3.37 ||</p>
+         
+         
+         <p>bandhakāraṇaśaithilyāt pracārasaṃvedanāc ca cittasya paraśarīrāveśaḥ || YS_3.38 ||</p>
+         
+         
+         <p>udānajayāj jalapaṅkakaṇṭakādiṣv asaṅga utkrāntiś ca || YS_3.39 ||</p>
+         
+         
+         <p>samānajayāj jvalanam || YS_3.40 ||</p>
+         
+         
+         <p>śrotrākāśayoḥ saṃbandhasaṃyamād divyaṃ śrotram || YS_3.41 ||</p>
+         
+         
+         <p>kāyākāśayoḥ saṃbandhasaṃyamāl laghutūlasamāpatteś cākāśagamanam || YS_3.42 ||</p>
+         
+         
+         <p>bahir akalpitā vṛttir mahāvidehā tataḥ prakāśāvaraṇakṣayaḥ || YS_3.43 ||</p>
+         
+         
+         <p>sthūlasvarūpasūkṣmānvayārthavattvasaṃyamād bhūtajayaḥ || YS_3.44 ||</p>
+         
+         
+         <p>tato 'ṇimādiprādurbhāvaḥ kāyasaṃpat taddharmānabhighātaś ca || YS_3.45 ||</p>
+         
+         
+         <p>rūpalāvaṇyabalavajrasaṃhananatvāni kāyasaṃpat || YS_3.46 ||</p>
+         
+         
+         <p>grahaṇasvarūpāsmitānvayārthavattvasaṃyamād indriyajayaḥ || YS_3.47 ||</p>
+         
+         
+         <p>tato manojavitvaṃ vikaraṇabhāvaḥ pradhānajayaś ca || YS_3.48 ||</p>
+         
+         
+         <p>sattvapuruṣānyatākhyātimātrasya sarvabhāvādhiṣṭhātṛtvaṃ sarvajñātṛtvaṃ ca || YS_3.49
+            ||</p>
+         
+         
+         <p>tadvairāgyād api doṣabījakṣaye kaivalyam || YS_3.50 ||</p>
+         
+         
+         <p>sthānyupanimantraṇe saṅgasmayākaraṇaṃ punar aniṣṭaprasaṅgāt || YS_3.51 ||</p>
+         
+         
+         <p>kṣaṇatatkramayoḥ saṃyamād vivekajaṃ jñānam || YS_3.52 ||</p>
+         
+         
+         <p>jātilakṣaṇadeśair anyatānavacchedāt tulyayos tataḥ pratipattiḥ || YS_3.53 ||</p>
+         
+         
+         <p>tārakaṃ sarvaviṣayaṃ sarvathāviṣayam akramaṃ ceti vivekajaṃ jñānam || YS_3.54 ||</p>
+         
+         
+         <p>sattvapuruṣayoḥ śuddhisāmye kaivalyam iti || YS_3.55 ||</p>
+         
+         
+         <p>janmauṣadhimantratapaḥsamādhijāḥ siddhayaḥ || YS_4.1 ||</p>
+         
+         
+         <p>jātyantarapariṇāmaḥ prakṛtyāpūrāt || YS_4.2 ||</p>
+         
+         
+         <p>nimittam aprayojakaṃ prakṛtīnāṃ varaṇabhedas tu tataḥ kṣetrikavat || YS_4.3 ||</p>
+         
+         
+         <p>nirmāṇacittāny asmitāmātrāt || YS_4.4 ||</p>
+         
+         
+         <p>pravṛttibhede prayojakaṃ cittam ekam anekeṣām || YS_4.5 ||</p>
+         
+         
+         <p>tatra dhyānajam anāśayam || YS_4.6 ||</p>
+         
+         
+         <p>karmāśuklākṛṣṇaṃ yoginas trividham itareṣām || YS_4.7 ||</p>
+         
+         
+         <p>tatas tadvipākānuguṇānām evābhivyaktir vāsanānām || YS_4.8 ||</p>
+         
+         
+         <p>jātideśakālavyavahitānām apy ānantaryaṃ smṛtisaṃskārayor ekarūpatvāt || YS_4.9 ||</p>
+         
+         
+         <p>tāsām anāditvaṃ cāśiṣo nityatvāt || YS_4.10 ||</p>
+         
+         
+         <p>hetuphalāśrayālambanaiḥ saṃgṛhītatvād eṣām abhāve tadabhāvaḥ || YS_4.11 ||</p>
+         
+         
+         <p>atītānāgataṃ svarūpato 'sty adhvabhedād dharmāṇām || YS_4.12 ||</p>
+         
+         
+         <p>te vyaktasūkṣmā guṇātmānaḥ || YS_4.13 ||</p>
+         
+         
+         <p>pariṇāmaikatvād vastutattvam || YS_4.14 ||</p>
+         
+         
+         <p>vastusāmye cittabhedāt tayor vibhaktaḥ panthāḥ || YS_4.15 ||</p>
+         
+         
+         <p>na caikacittatantraṃ vastu tadapramāṇakaṃ tadā kiṃ syāt || YS_4.16 ||</p>
+         
+         
+         <p>taduparāgāpekṣitvāc cittasya vastu jñātājñātam || YS_4.17 ||</p>
+         
+         
+         <p>sadā jñātāś cittavṛttayas tatprabhoḥ puruṣasyāpariṇāmitvāt || YS_4.18 ||</p>
+         
+         
+         <p>na tat svābhāsaṃ dṛśyatvāt || YS_4.19 ||</p>
+         
+         
+         <p>ekasamaye cobhayānavadhāraṇam || YS_4.20 ||</p>
+         
+         
+         <p>cittāntaradṛśye buddhibuddher atiprasaṅgaḥ smṛtisaṃkaraś ca || YS_4.21 ||</p>
+         
+         
+         <p>citer apratisaṃkramāyās tadākārāpattau svabuddhisaṃvedanam || YS_4.22 ||</p>
+         
+         
+         <p>draṣṭṛdṛśyoparaktaṃ cittaṃ sarvārtham || YS_4.23 ||</p>
+         
+         
+         <p>tad asaṃkhyeyavāsanābhiś citram api parārthaṃ saṃhatyakāritvāt || YS_4.24 ||</p>
+         
+         
+         <p>viśeṣadarśina ātmabhāvabhāvanānivṛttiḥ || YS_4.25 ||</p>
+         
+         
+         <p>tadā vivekanimnaṃ kaivalyaprāgbhāraṃ cittam || YS_4.26 ||</p>
+         
+         
+         <p>tacchidreṣu pratyayāntarāṇi saṃskārebhyaḥ || YS_4.27 ||</p>
+         
+         
+         <p>hānam eṣāṃ kleśavad uktam || YS_4.28 ||</p>
+         
+         
+         <p>prasaṃkhyāne 'py akusīdasya sarvathā vivekakhyāter dharmameghaḥ samādhiḥ || YS_4.29
+            ||</p>
+         
+         
+         <p>tataḥ kleśakarmanivṛttiḥ || YS_4.30 ||</p>
+         
+         
+         <p>tadā sarvāvaraṇamalāpetasya jñānasyānantyāj jñeyam alpam || YS_4.31 ||</p>
+         
+         
+         <p>tataḥ kṛtārthānāṃ pariṇāmakramasamāptir guṇānām || YS_4.32 ||</p>
+         
+         
+         <p>kṣaṇapratiyogī pariṇāmāparāntanirgrāhyaḥ kramaḥ || YS_4.33 ||</p>
+         
+         
+         <p>puruṣārthaśūnyānāṃ guṇānāṃ pratiprasavaḥ kaivalyaṃ svarūpapratiṣṭhā vā citiśaktir
+            iti || YS_4.34 ||</p>
+         
+         </div>
+   </body>
+</html>

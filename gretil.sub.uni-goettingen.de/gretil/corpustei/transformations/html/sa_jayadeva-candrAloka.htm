@@ -1,0 +1,1911 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Jayadeva: Candrāloka (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Jayadeva: Candrāloka</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_jayadeva-candrAloka.xml">sa_jayadeva-candrAloka.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Réginald Beyaert</p>
+      <p class="noindent"><b>Contribution: </b>Réginald Beyaert</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>the thesis by Réginald Beyaert (forthcoming).</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/5_poetry/1_alam/jaycndau.htm">jaycndau.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Jayadeva (alias Piyusavarsa): Candraloka
+            <br />Based on the thesis by Réginald Beyaert (forthcoming)
+            <br />
+            <br />Input by Réginald Beyaert, revised by Pierre-Sylvain Filliozat
+            <br />
+            <br />STRUCTURE OF REFERENCES:
+            <br />JCand_nn.nn = JayadevaCandrāloka_mayūkha.verse
+            <br />
+            <br />TEXT WITH PADA MARKERS
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <h3>pīyuṣavarṣaśrījayadevakavikṛtaḥ
+            <br />candrālokaḥ</h3>
+         
+         
+         <p id="JCand_1.1">
+            uccairasyati mandatāmarasatāṃ jāgratkalaṅkairavadhvaṃsaṃ hastayate ca yā sumanasām ullāsinī mānase <br />
+            dhṛṣṭodyanmadanāśanārcir amalā lokatrayīdarśikā sā netratritayīva khaṇḍaparaśor vāgdevatā dīvyatu //
+             <span class="ref">JCand_1.1</span></p>
+         
+         
+         <p id="JCand_1.2">
+            haṃ ho cinmayacittacandramaṇayaḥ saṃvardhayadhvaṃ rasān re re svairiṇi nirvicārakavite māsmat prakāśībhava <br />
+            ullāsāya vicāravīcinicayālaṅkāravārām nidheś candrālokamayaṃ svayaṃ vitanute pīyūṣavarṣaḥ kṛtī //
+             <span class="ref">JCand_1.2</span></p>
+         
+         
+         <p id="JCand_1.3">
+            yuktyāsvādyalasadrasaikavasatiḥ sāhityasārasvatakṣīrāmbhodhir agādhatām upadadhat sevyaḥ samāśrīyatām <br />
+            śrīr asmād upadeśakauśalamayaṃ pīyūṣam asmājjagaj jāgradbhāsurapadmakeśarayaśaḥśītāṃśur asmād budhāḥ //
+             <span class="ref">JCand_1.3</span></p>
+         
+         
+         <p id="JCand_1.4">
+            taṃ pūrvācāryasūryoktijyotiḥ stomodgamaṃ stumaḥ <br />
+            yaṃ prastūya prakāśante madguṇās trasareṇavaḥ //
+             <span class="ref">JCand_1.4</span></p>
+         
+         
+         <p id="JCand_1.5">
+            nāśaṅkanīyam eteṣāṃ matam etena dūṣyate <br />
+            kiṃ tu cakṣur mṛgākṣīṇāṃ kajjaleneva bhūṣyate //
+             <span class="ref">JCand_1.5</span></p>
+         
+         
+         <p id="JCand_1.6">
+            pratibhaiva śrutābhyāsasahitā kavitāṃ prati <br />
+            hetur mṛdambusambaddhā bījamālā latāmiva //
+             <span class="ref">JCand_1.6</span></p>
+         
+         
+         <p id="JCand_1.7">
+            nirdoṣā lakṣaṇavatī sarītir guṇabhūṣaṇā <br />
+            sālaṃkārarasānekavṛttir vāk kāvyanāmabhāk //
+             <span class="ref">JCand_1.7</span></p>
+         
+         
+         <p id="JCand_1.8">
+            aṅgīkaroti yaḥ kāvyaṃ śabdārthāv analaṃkṛtī <br />
+            asau na manyate kasmād anuṣṇam analaṃ kṛtī //
+             <span class="ref">JCand_1.8</span></p>
+         
+         
+         <p id="JCand_1.9">
+            vibhaktyutpattaye yogyaḥ śāstrīyaḥ śabda iṣyate <br />
+            rūḍhayaugikatanmiśraiḥ prabhedaiḥ sa punas tridhā //
+             <span class="ref">JCand_1.9</span></p>
+         
+         
+         <p id="JCand_1.10">
+            avyaktayoganiryogayogābhāsais tridhādimaḥ <br />
+            te ca vṛkṣādibhūvādimaṇḍapādyā yathākramam //
+             <span class="ref">JCand_1.10</span></p>
+         
+         
+         <p id="JCand_1.11">
+            śuddhatanmūlasaṃbhinnaprabhedair yaugikas tridhā <br />
+            te ca bhrāntisphuratkāntikaunteyādisvarūpiṇaḥ //
+             <span class="ref">JCand_1.11</span></p>
+         
+         
+         <p id="JCand_1.12">
+            tanmiśro 'nyonyasāmānyaviśeṣaparivartanāt <br />
+            nīradhiḥ paṅkajaṃ saudhaḥ sāgaro bhūruhaḥ śaśī //
+             <span class="ref">JCand_1.12</span></p>
+         
+         
+         <p id="JCand_1.13">
+            kṣīranīradhir ākāśapaṅkajaṃ tena siddhayati <br />
+            vibhaktyantaṃ padaṃ vākyaṃ tadvyūho 'rthasamāptitaḥ //
+             <span class="ref">JCand_1.13</span></p>
+         
+         
+         <p id="JCand_1.14">
+            yuktārthatāṃ tāṃ ca vinā khaṇḍavākyaṃ sa iṣyate <br />
+            vākyaṃ ca khaṇḍavākyaṃ ca padam ekam api kvacit //
+             <span class="ref">JCand_1.14</span></p>
+         
+         
+         <p id="JCand_1.15">
+            dhūmavattvād iti yathā devety āmantraṇaṃ yathā <br />
+            vākyāny ekārthaviśrāntāny āhur vākyakadambakam //
+             <span class="ref">JCand_1.15</span></p>
+         
+         
+         <p id="JCand_1.16">
+            mahādevaḥ satrapramukhamakhavidyaikacaturaḥ sumitrā tadbhaktipraṇihitamatir yasya pitarau <br />
+            anenāsāv ādyaḥ sukavijayadevena racite ciraṃ candrāloke sukhayatu mayūkhaḥ sumanasaḥ //
+             <span class="ref">JCand_1.16</span></p>
+         
+         
+         <p id="JCand_2.1">
+            syāc ceto viśatā yena sakṣatā ramaṇīyatā <br />
+            śabde 'rthe ca kṛtonmeṣaṃ doṣam udghoṣayanti tam //
+             <span class="ref">JCand_2.1</span></p>
+         
+         
+         <p id="JCand_2.2">
+            bhavec chrutikaṭur varṇaḥ śravaṇodvejane paṭuḥ <br />
+            saṃvidrate vyākaraṇaviruddhaṃ cyutasaṃskṛti //
+             <span class="ref">JCand_2.2</span></p>
+         
+         
+         <p id="JCand_2.3">
+            aprayuktaṃ daivatādiśabde puṃlliṅgatādikam <br />
+            asamarthaṃ tu hantyādeḥ prayogo gamanādiṣu //
+             <span class="ref">JCand_2.3</span></p>
+         
+         
+         <p id="JCand_2.4">
+            sa hanti hanta kāntāre kāntaḥ kuṭilakuntalaḥ <br />
+            nihatārthaṃ lohitādau śoṇitādiprayogataḥ //
+             <span class="ref">JCand_2.4</span></p>
+         
+         
+         <p id="JCand_2.5">
+            vyanakty anucitārthaṃ yat padam āhus tadeva tat <br />
+            iyam adbhutaśākhyagrakelikautukavānarī //
+             <span class="ref">JCand_2.5</span></p>
+         
+         
+         <p id="JCand_2.6">
+            nirarthakaṃ tuhītyādi pūraṇaikaprayojanam <br />
+            arthe vidadhadityādau dadhadādyam avācakam //
+             <span class="ref">JCand_2.6</span></p>
+         
+         
+         <p id="JCand_2.7">
+            dhatte nabhastalaṃ bhāsvān aruṇaṃ taruṇaiḥ karaiḥ <br />
+            ekākṣaraṃ vinā bhūbhrūkṣmādikaṃ khatalādivat //
+             <span class="ref">JCand_2.7</span></p>
+         
+         
+         <p id="JCand_2.8">
+            aślīlaṃ trividhaṃ vrīḍājugupsāmaṅgalātmanā <br />
+            āhlādasādhanaṃ vāyuḥ kāntānāśe bhavet katham //
+             <span class="ref">JCand_2.8</span></p>
+         
+         
+         <p id="JCand_2.9">
+            syād dvyartham iha sandigdhaṃ nadyāṃ yānti patatriṇaḥ <br />
+            syād apratītaṃ śāstraikagamyaṃ vītānumādivat //
+             <span class="ref">JCand_2.9</span></p>
+         
+         
+         <p id="JCand_2.10">
+            śithilaṃ śayane lilye maccitaṃ te śaśiśriyi <br />
+            mastapiṣṭakaṭīloṣṭagallādi grāmyam ucyate //
+             <span class="ref">JCand_2.10</span></p>
+         
+         
+         <p id="JCand_2.11">
+            neyārthaṃ lakṣaṇātyantaprasarād amanoharam <br />
+            himāṃśor hāradhikkārajāgare yāmikāḥ karāḥ //
+             <span class="ref">JCand_2.11</span></p>
+         
+         
+         <p id="JCand_2.12">
+            kliṣṭam artho yadīyo 'rthaśreṇiniḥśreṇim ṛcchati <br />
+            haripriyāpitṛvadhūpravāhapratimaṃ vacaḥ //
+             <span class="ref">JCand_2.12</span></p>
+         
+         
+         <p id="JCand_2.13">
+            avimṛṣṭavidheyāṃśaḥ samāsapihite vidhau <br />
+            viśanti viśikhaprāyāḥ kaṭākṣāḥ kāmināṃ hṛdi //
+             <span class="ref">JCand_2.13</span></p>
+         
+         
+         <p id="JCand_2.14">
+            aparādhīna ityādi viruddhamatikṛn matam <br />
+            anyasaṅgatam uttuṅgahāraśobhipayodharau //
+             <span class="ref">JCand_2.14</span></p>
+         
+         
+         <p id="JCand_2.15">
+            rasādyanucite varṇe pratikūlākṣaraṃ viduḥ <br />
+            na mām aṅgada jānāsi rāvaṇaṃ raṇadāruṇam //
+             <span class="ref">JCand_2.15</span></p>
+         
+         
+         <p id="JCand_2.16">
+            yasminn upahato lupto visarga iha tat tathā <br />
+            kusandhiḥ paṭav āgaccha visandhir nṛpatī imau //
+             <span class="ref">JCand_2.16</span></p>
+         
+         
+         <p id="JCand_2.17">
+            hatavṛttam anukto 'pi chandodoṣaś cakāsti cet <br />
+            viśālalocane! paśyā-mbaraṃ tārātaraṅgitam //
+             <span class="ref">JCand_2.17</span></p>
+         
+         
+         <p id="JCand_2.18">
+            nyūnaṃ tvatkhaḍgasaṃbhūtayaśaḥpuṣpaṃ nabhastaṭam <br />
+            adhikaṃ bhavataḥ śatrūn daśaty asilatāphaṇī //
+             <span class="ref">JCand_2.18</span></p>
+         
+         
+         <p id="JCand_2.19">
+            kathitaṃ punaruktā vāk śyāmābjaśyāmalocanā <br />
+            vikṛtaṃ dūravivṛtair aiyaruḥ kuñjarāḥ puram //
+             <span class="ref">JCand_2.19</span></p>
+         
+         
+         <p id="JCand_2.20">
+            patatprakarṣaṃ hīnānuprāsāditve yathottaram <br />
+            gambhīrārambhadambholipāṇir eṣaḥ samāgataḥ //
+             <span class="ref">JCand_2.20</span></p>
+         
+         
+         <p id="JCand_2.21">
+            samāptapunarāttaṃ syād eṣa pīyūṣabhājanam <br />
+            netrānandī tuṣārāṃśur udety ambudhibāndhavaḥ //
+             <span class="ref">JCand_2.21</span></p>
+         
+         
+         <p id="JCand_2.22">
+            ardhāntarapadāpekṣi krīḍānṛtyeṣu sasmitam <br />
+            moghārambhaṃ stumaḥ śambhum ardharambhoruvigraham //
+             <span class="ref">JCand_2.22</span></p>
+         
+         
+         <p id="JCand_2.23">
+            abhavanmatayogaḥ syān na ced abhimato 'nvayaḥ <br />
+            yena baddho 'mbudhir yasya rāmasyānucarā vayam //
+             <span class="ref">JCand_2.23</span></p>
+         
+         
+         <p id="JCand_2.24">
+            dviṣāṃ sampadam ācchidya yaḥ śatrūn samapūrayat <br />
+            asthānasthasamāsaṃ na vidvajjanamanoramam //
+             <span class="ref">JCand_2.24</span></p>
+         
+         
+         <p id="JCand_2.25">
+            mithaḥ pṛthagvākyapadaiḥ saṃkīrṇaṃ yat tad eva tat <br />
+            vaktreṇa bhrājate rātriḥ kāntā candreṇa rājate //
+             <span class="ref">JCand_2.25</span></p>
+         
+         
+         <p id="JCand_2.26">
+            brahmāṇḍaṃ tvadyaśaḥpūragarbhitaṃ bhūmibhūṣaṇa <br />
+            ākarṇaya payaḥpūrṇasuvarṇakalaśāyate //
+             <span class="ref">JCand_2.26</span></p>
+         
+         
+         <p id="JCand_2.27">
+            bhagnaprakramam ārabdhaśabdanirvāhahīnatā <br />
+            akramaḥ kṛṣṇa pūjyante tvām anabhyarcya devatāḥ //
+             <span class="ref">JCand_2.27</span></p>
+         
+         
+         <p id="JCand_2.28">
+            amatārthāntaraṃ mukhye 'mukhyenārthe virodhakṛt <br />
+            tyaktahāram uraḥkṛtvā śokenāliṅgitāṅganā //
+             <span class="ref">JCand_2.28</span></p>
+         
+         
+         <p id="JCand_2.29">
+            apuṣṭārtho viśeṣye cen na viśeṣo viśeṣaṇāt <br />
+            viśanti hṛdayaṃ kāntākaṭākṣāḥ khañjanatviṣaḥ //
+             <span class="ref">JCand_2.29</span></p>
+         
+         
+         <p id="JCand_2.30">
+            kaṣṭaḥ spaṣṭāvabodhārtham akṣamo vācyasannibhaḥ <br />
+            vyāhataś cedvirodhaḥ syān mithaḥ pūrvāparārthayoḥ //
+             <span class="ref">JCand_2.30</span></p>
+         
+         
+         <p id="JCand_2.31">
+            sahasrapatramitraṃ te vaktraṃ kenopamīyate <br />
+            kutastatropamā yatra punaruktaḥ sudhākaraḥ //
+             <span class="ref">JCand_2.31</span></p>
+         
+         
+         <p id="JCand_2.32">
+            duṣkramagrāmyasandigdhās trayo doṣāḥ kramād amī <br />
+            tvadbhaktaḥ kṛṣṇa! gaccheyaṃ narakaṃ svargam eva vā //
+             <span class="ref">JCand_2.32</span></p>
+         
+         
+         <p id="JCand_2.33">
+            ekaṃ me cumbanaṃ dehi tava dāsyāmi kañcukam <br />
+            brūta kiṃ sevyatāṃ candramukhīcandrakirīṭayoḥ //
+             <span class="ref">JCand_2.33</span></p>
+         
+         
+         <p id="JCand_2.34">
+            anaucityaṃ kīrtilatāṃ taraṅgayati yaḥ sadā <br />
+            prasiddhyā vidyayā vāpi viruddhaṃ dvividhaṃ matam //
+             <span class="ref">JCand_2.34</span></p>
+         
+         
+         <p id="JCand_2.35">
+            nyasteyaṃ paśya kandarpapratāpadhavaladyutiḥ <br />
+            ketakī śekhare śambhor dhatte candrakalātulām //
+             <span class="ref">JCand_2.35</span></p>
+         
+         
+         <p id="JCand_2.36">
+            sāmānyaparivṛttiḥ syāt kuṇḍalacchavivigrahā <br />
+            viśeṣaparivṛttiḥ syād vanitā mama cetasi //
+             <span class="ref">JCand_2.36</span></p>
+         
+         
+         <p id="JCand_2.37">
+            tathā sahacarācāruviruddhānyonyasaṃgatī <br />
+            dhvāṅkṣāḥ santaś ca tanayaṃ svaṃ paraṃ ca na jānate //
+             <span class="ref">JCand_2.37</span></p>
+         
+         
+         <p id="JCand_2.38">
+            sarojanetra putrasya mukhendum avalokaya <br />
+            pālayiṣyati te gotram asau narapurandaraḥ //
+             <span class="ref">JCand_2.38</span></p>
+         
+         
+         <p id="JCand_2.39">
+            pade tadaṃśe vākyāṃśe vākye vākyakadambake <br />
+            yathānusāram abhyūhed doṣān śabdārthasaṃbhavān //
+             <span class="ref">JCand_2.39</span></p>
+         
+         
+         <p id="JCand_2.40">
+            doṣam āpatitaṃ svānte prasarantaṃ viśṛṅkhalam <br />
+            nivārayati yas tredhā doṣāṅkuśam uśanti tam //
+             <span class="ref">JCand_2.40</span></p>
+         
+         
+         <p id="JCand_2.41">
+            doṣe guṇatvaṃ tanute doṣatvaṃ vā nirasyati <br />
+            bhavantam athavā doṣaṃ nayaty atyājyatāmasau //
+             <span class="ref">JCand_2.41</span></p>
+         
+         
+         <p id="JCand_2.42">
+            mukhaṃ candraśriyaṃ dhatte śvetaśmaśrukarāṅkuraiḥ <br />
+            atra hāsyarasoddeśe grāmyatvaṃ guṇatāṃ gatam //
+             <span class="ref">JCand_2.42</span></p>
+         
+         
+         <p id="JCand_2.43">
+            tava dugdhābdhisaṃbhūteḥ kathaṃ jātā kalāṅkitā <br />
+            kavīnāṃ samayād vidyāviruddho 'doṣatāṃ gataḥ //
+             <span class="ref">JCand_2.43</span></p>
+         
+         
+         <p id="JCand_2.44">
+            dadhāra gaurī hṛdaye devaṃ himakarāṅkitam <br />
+            atra śleṣodayān naiva tyājyaṃ hīti nirarthakam //
+             <span class="ref">JCand_2.44</span></p>
+         
+         
+         <p id="JCand_2.45">
+            mahādevaḥ satrapramukhamakhavidyaikacaturaḥ sumitrā tadbhaktipraṇihitamatir yasya pitarau <br />
+            dvitīyas tenāsau sukavijayadevena racite ciraṃ candrāloke sukhayatu mayūkhaḥ sumanasaḥ //
+             <span class="ref">JCand_2.45</span></p>
+         
+         
+         <p id="JCand_3.1">
+            alpākṣarā vicitrārthakhyātir akṣarasaṃhatiḥ <br />
+            uṣākāntenānugataḥ śūraḥ śaurir ayaṃ punaḥ //
+             <span class="ref">JCand_3.1</span></p>
+         
+         
+         <p id="JCand_3.2">
+            śobhā khyātāpi yaddoṣo guṇakīrtyā niṣidhyate <br />
+            mudhā nindanti saṃsāraṃ kaṃsārir yatra pūjyate //
+             <span class="ref">JCand_3.2</span></p>
+         
+         
+         <p id="JCand_3.3">
+            abhimāno vicāraś ced ūhitārthaniṣedhakṛt <br />
+            indur yadi kathaṃ tīvraḥ sūryo yadi kathaṃ niśi //
+             <span class="ref">JCand_3.3</span></p>
+         
+         
+         <p id="JCand_3.4">
+            hetus tyaktvā bahūn pakṣān yuktyaikasyāvadhāraṇam <br />
+            nendur nārko 'yam aurvāgniḥ sāgarād utthito dahan //
+             <span class="ref">JCand_3.4</span></p>
+         
+         
+         <p id="JCand_3.5">
+            pratiṣedhaḥ prasiddhānāṃ kāraṇānām anādaraḥ <br />
+            na yuddhena bhruvoḥ spande-naiva vīrā nipātitāḥ //
+             <span class="ref">JCand_3.5</span></p>
+         
+         
+         <p id="JCand_3.6">
+            niruktaṃ syān nirvacanaṃ nāmnaḥ satyaṃ tathānṛtam <br />
+            īdṛśaiś caritai rājan satyaṃ doṣākaro bhavān //
+             <span class="ref">JCand_3.6</span></p>
+         
+         
+         <p id="JCand_3.7">
+            syān mithyādhyavasāyaś ced asatī sādhyasādhane <br />
+            candrāṃśusūtragrathitāṃ nabhaḥpuṣpasrajaṃ vaha //
+             <span class="ref">JCand_3.7</span></p>
+         
+         
+         <p id="JCand_3.8">
+            siddhiḥ khyāteṣu cen nāma kīrtyate tulyatoktaye <br />
+            yuvām eveha vikhyātau tvaṃ balair jaladhir jalaiḥ //
+             <span class="ref">JCand_3.8</span></p>
+         
+         
+         <p id="JCand_3.9">
+            yuktir viśeṣasiddhiś ced vicitrārthāntarānvayāt <br />
+            navas tvaṃ nīradaḥ ko 'pi svarṇair varṣasi yan muhuḥ //
+             <span class="ref">JCand_3.9</span></p>
+         
+         
+         <p id="JCand_3.10">
+            kāryaṃ phalopalambhaś ced vyāpārād vastuto 'tha vā <br />
+            asāv udeti śītāṃśur mānacchedāya subhruvām //
+             <span class="ref">JCand_3.10</span></p>
+         
+         
+         <p id="JCand_3.11">
+            ityādi lakṣaṇaṃ bhūri kāvyasyāhur maharṣayaḥ <br />
+            svarṇabhrājiṣṇubhālatvaprabhṛtīva mahībhujaḥ //
+             <span class="ref">JCand_3.11</span></p>
+         
+         
+         <p id="JCand_3.12">
+            mahādevaḥ satrapramukhamakhavidyaikacaturaḥ sumitrā tadbhaktipraṇihitamatir yasya pitarau <br />
+            tṛtīyas tenāsau sukavijayadevena racite ciraṃ candrāloke sukhayatu mayūkhaḥ sumanasaḥ //
+             <span class="ref">JCand_3.12</span></p>
+         
+         
+         <p id="JCand_4.1">
+            śleṣo vighaṭamānārthaghaṭamānatvavarṇanam <br />
+            sa tu śābdaḥ sajātīyaiḥ śabdair bandhaḥ sukhāvahaḥ //
+             <span class="ref">JCand_4.1</span></p>
+         
+         
+         <p id="JCand_4.2">
+            ullasattanutāṃ nīte 'nante pulakakaṇṭakaiḥ <br />
+            bhītayā mānavatyaiva śriyāśliṣṭaṃ hariṃ stumaḥ //
+             <span class="ref">JCand_4.2</span></p>
+         
+         
+         <p id="JCand_4.3">
+            yasmād antaḥsthitaḥ sarvaḥ svayam artho 'vabhāsate <br />
+            salilasyeva sūktasya sa prasāda iti smṛtaḥ //
+             <span class="ref">JCand_4.3</span></p>
+         
+         
+         <p id="JCand_4.4">
+            samatālpasamāsatvaṃ varṇādyais tulyatātha vā <br />
+            śyāmalā komalā bālā ramaṇaṃ śaraṇaṃ gatā //
+             <span class="ref">JCand_4.4</span></p>
+         
+         
+         <p id="JCand_4.5">
+            samādhir arthamahimā lasadghanarasātmanā <br />
+            syād antarviśatā yena gātramaṅkuritaṃ satām //
+             <span class="ref">JCand_4.5</span></p>
+         
+         
+         <p id="JCand_4.6">
+            mādhuryaṃ punaruktasya vaicitryaṃ cārutāvaham <br />
+            vayasya paśya paśyāsyāś cañcalaṃ locanāñcalam //
+             <span class="ref">JCand_4.6</span></p>
+         
+         
+         <p id="JCand_4.7">
+            ojaḥ syāt prauḍhir arthasya saṃkṣepo vātibhūyasaḥ <br />
+            ripuṃ hatvā yaśaḥ kṛtvā tvadasiḥ kośam āviśat //
+             <span class="ref">JCand_4.7</span></p>
+         
+         
+         <p id="JCand_4.8">
+            saukumāryam apāruṣyaṃ paryāyaparivartanāt <br />
+            sa kathāśeṣatāṃ yātaḥ samāliṅgya marutsakham //
+             <span class="ref">JCand_4.8</span></p>
+         
+         
+         <p id="JCand_4.9">
+            udāratā tu vaidagdhyam agrāmyatvāt pṛthaṅmatā <br />
+            mānaṃ muñca priye kiṃcil locanāntam udañcaya //
+             <span class="ref">JCand_4.9</span></p>
+         
+         
+         <p id="JCand_4.10">
+            śṛṅgāre ca prasāde ca kāntyarthavyaktisaṃgrahaḥ <br />
+            amī daśa guṇāḥ kāvye puṃsi śauryādayo yathā //
+             <span class="ref">JCand_4.10</span></p>
+         
+         
+         <p id="JCand_4.11">
+            tilakādyam iva strīṇāṃ vidagdhahṛdayaṅgamam <br />
+            vyatiriktam alaṅkāraṃ prakṛter bhūṣaṇaṃ girām //
+             <span class="ref">JCand_4.11</span></p>
+         
+         
+         <p id="JCand_4.12">
+            vicitralakṣaṇo nyāso nirvāhaḥ prauḍhir aucitī <br />
+            śāstrāntararahasyoktiḥ saṃgraho dik pradarśitā //
+             <span class="ref">JCand_4.12</span></p>
+         
+         
+         <p id="JCand_4.13">
+            mahādevaḥ satrapramukhamakhavidyaikacaturaḥ sumitrā tadbhaktipraṇihitamatir yasya pitarau <br />
+            caturthas tenāsau sukavijayadevena racite ciraṃ candrāloke sukhayatu mayūkhaḥ sumanasaḥ //
+             <span class="ref">JCand_4.13</span></p>
+         
+         
+         <p id="JCand_5.1">
+            śabdārthayoḥ prasiddhyā vā kaveḥ prauḍhivaśena vā <br />
+            hārādivad alaṅkāraḥ sanniveśo manoharaḥ //
+             <span class="ref">JCand_5.1</span></p>
+         
+         
+         <p id="JCand_5.2">
+            svaravyañjanasaṃdohavyūhāmandohadohadā <br />
+            gaur jagajjāgradutsekā chekānuprāsabhāsurā //
+             <span class="ref">JCand_5.2</span></p>
+         
+         
+         <p id="JCand_5.3">
+            āvṛttavarṇasampūrṇaṃ vṛttyanuprāsavad vacaḥ <br />
+            amandānandasandohasvacchandāspadamandiram //
+             <span class="ref">JCand_5.3</span></p>
+         
+         
+         <p id="JCand_5.4">
+            lāṭānuprāsabhūr bhinnā-bhiprāyā punaruktatā <br />
+            yatra syān na punaḥ śatror garjitaṃ taj jitaṃ jitam //
+             <span class="ref">JCand_5.4</span></p>
+         
+         
+         <p id="JCand_5.5">
+            ślokasyārdhe tadardhe vā varṇāvṛttir yadi dhruvā <br />
+            tadā matā matimatāṃ sphuṭānuprāsatā satām //
+             <span class="ref">JCand_5.5</span></p>
+         
+         
+         <p id="JCand_5.6">
+            upameyopamānādāv arthānuprāsa iṣyate <br />
+            candanaṃ khalu govindacaraṇadvandvavandanam //
+             <span class="ref">JCand_5.6</span></p>
+         
+         
+         <p id="JCand_5.7">
+            punaruktapratīkāśaṃ punaruktārthasannibham <br />
+            aṃśukāntaṃ śaśī kurvann ambarāntam upaity asau //
+             <span class="ref">JCand_5.7</span></p>
+         
+         
+         <p id="JCand_5.8">
+            āvṛttavarṇastabakaṃ stavakandāṅkuraṃ kaveḥ <br />
+            yamakaṃ prathamā dhuryamādhuryavacaso viduḥ //
+             <span class="ref">JCand_5.8</span></p>
+         
+         
+         <p id="JCand_5.9">
+            kāvyavitpravaraiścitraṃ khaḍgabandhādi lakṣyate <br />
+            teṣv ādyam ucyate ślokadvayīsajjanarañjikā //
+             <span class="ref">JCand_5.9</span></p>
+         
+         
+         <p id="JCand_5.10">
+            kāminīva bhavet khaḍgalekhā cārukarālikā <br />
+            kāśmīrasekā raktāṅgī śatrukaṇṭhāntikāśritā //
+             <span class="ref">JCand_5.10</span></p>
+         
+         
+         <p id="JCand_5.11">
+            upamā yatra sādṛśyalakṣmīr ullasati dvayoḥ <br />
+            hṛdaye khelator uccais tanvaṅgīstanayoriva //
+             <span class="ref">JCand_5.11</span></p>
+         
+         
+         <p id="JCand_5.12">
+            upamānopameyatve yatraikasyaiva jāgṛtaḥ <br />
+            indur indurivetyādau bhaved evam ananvayaḥ //
+             <span class="ref">JCand_5.12</span></p>
+         
+         
+         <p id="JCand_5.13">
+            paryāyeṇa dvayos tac ced upameyopamā matā <br />
+            dharmo 'rtha iva pūrṇaśrīr artho dharma iva tvayi //
+             <span class="ref">JCand_5.13</span></p>
+         
+         
+         <p id="JCand_5.14">
+            vikhyātasyopamānasya yatra syād upameyatā <br />
+            indur mukham ivetyādau syāt pratīpopamā tadā //
+             <span class="ref">JCand_5.14</span></p>
+         
+         
+         <p id="JCand_5.15">
+            upamāne tu līlādipadāḍhye lalitopamā <br />
+            tvannetrayugalaṃ dhatte līlāṃ nīlāmbujanmanoḥ //
+             <span class="ref">JCand_5.15</span></p>
+         
+         
+         <p id="JCand_5.16">
+            anekasyārthayugmasya sādṛśyaṃ stabakopamā <br />
+            śrito 'smi caraṇau viṣṇor bhṛṅgas tāmarasaṃ yathā //
+             <span class="ref">JCand_5.16</span></p>
+         
+         
+         <p id="JCand_5.17">
+            syāt saṃpūrṇopamā yatra dvayor api vidheyatā <br />
+            padmānīva vinidrāṇi netrāṇy āsann aharmukhe //
+             <span class="ref">JCand_5.17</span></p>
+         
+         
+         <p id="JCand_5.18">
+            yatropamānacitreṇa sarvathāpy uparajyate <br />
+            upameyamayī bhittis tatra rūpakam iṣyate //
+             <span class="ref">JCand_5.18</span></p>
+         
+         
+         <p id="JCand_5.19">
+            samānadharmayuksādhyāropāt sopādhirūpakam <br />
+            utsiktakṣitibhṛllakṣyapakṣacchedapurandaraḥ //
+             <span class="ref">JCand_5.19</span></p>
+         
+         
+         <p id="JCand_5.20">
+            pṛthakkathitasādṛśyaṃ dṛśyaṃ sādṛśyarūpakam <br />
+            ullasatpañcaśākhas te rājate bhujabhūruhaḥ //
+             <span class="ref">JCand_5.20</span></p>
+         
+         
+         <p id="JCand_5.21">
+            syād aṅgayaṣṭirityevaṃvidham ābhāsarūpakam <br />
+            aṅgayaṣṭidhanurvallītyādi rūpitarūpakam //
+             <span class="ref">JCand_5.21</span></p>
+         
+         
+         <p id="JCand_5.22">
+            pariṇāmo 'nayor yasminn abhedaḥ paryavasyati <br />
+            kāntena pṛṣṭā rahasi maunam evottaraṃ dadau //
+             <span class="ref">JCand_5.22</span></p>
+         
+         
+         <p id="JCand_5.23">
+            bahubhirbahudhollekhād ekasyollekhitā matā <br />
+            strībhiḥ kāmaḥ priyaiś candraḥ kālaḥ śatrubhir aikṣi saḥ //
+             <span class="ref">JCand_5.23</span></p>
+         
+         
+         <p id="JCand_5.24">
+            atathyam āropayituṃ tathyāpāstir apahnutiḥ <br />
+            nāyaṃ sudhāṃśuḥ kiṃ tarhi vyomagaṅgāsaroruham //
+             <span class="ref">JCand_5.24</span></p>
+         
+         
+         <p id="JCand_5.25">
+            paryastāpahnutir yatra dharmamātraṃ niṣidhyate <br />
+            nāyaṃ sudhāṃśuḥ kiṃ tarhi sudhāṃśuḥ preyasīmukham //
+             <span class="ref">JCand_5.25</span></p>
+         
+         
+         <p id="JCand_5.26">
+            bhrāntāpahnutir anyasya śaṅkayā tathyanirṇaye <br />
+            tāpaṃ tanoti sotkampaṃ jvaraḥ kiṃ na sakhi smaraḥ //
+             <span class="ref">JCand_5.26</span></p>
+         
+         
+         <p id="JCand_5.27">
+            chekāpahnutir anyasya śaṅkayā tathyanihnave <br />
+            prajalpan matpade lagnaḥ kāntaḥ kiṃ na hi nūpuraḥ //
+             <span class="ref">JCand_5.27</span></p>
+         
+         
+         <p id="JCand_5.28">
+            kaitavāpahnutir vyakte vyājādyair nihnave padaiḥ <br />
+            niryānti smaranārācāḥ kāntādṛkpātakaitavāt //
+             <span class="ref">JCand_5.28</span></p>
+         
+         
+         <p id="JCand_5.29">
+            utprekṣonnīyate yatra hetvādir nihnutiṃ vinā <br />
+            tvanmukhaśrīkṛte nūnaṃ padmair vairāyate śaśī //
+             <span class="ref">JCand_5.29</span></p>
+         
+         
+         <p id="JCand_5.30">
+            ivādikapadābhāve gūḍhotprekṣāṃ pracakṣate <br />
+            yatkīrtir vibhramaśrāntā viveśa svarganimnagām //
+             <span class="ref">JCand_5.30</span></p>
+         
+         
+         <p id="JCand_5.31">
+            syāt smṛtibhrāntisaṃdehais tad evālaṃkṛtitrayam <br />
+            paṅkajaṃ paśyatas tasyā mukhaṃ me gāhate manaḥ //
+             <span class="ref">JCand_5.31</span></p>
+         
+         
+         <p id="JCand_5.32">
+            ayaṃ pramattamadhupas tvanmukhaṃ veda paṅkajam <br />
+            paṅkajaṃ vā sudhāṃśur vety asmākaṃ tu na nirṇayaḥ //
+             <span class="ref">JCand_5.32</span></p>
+         
+         
+         <p id="JCand_5.33">
+            mīlitaṃ bahusādṛśyād bhedavac cen na lakṣyate <br />
+            raso nālakṣi lākṣāyāś caraṇe sahajāruṇe //
+             <span class="ref">JCand_5.33</span></p>
+         
+         
+         <p id="JCand_5.34">
+            sāmānyaṃ yadi sādṛśyād bheda eva na lakṣyate <br />
+            padmākarapraviṣṭānāṃ mukhaṃ nālakṣi subhruvām //
+             <span class="ref">JCand_5.34</span></p>
+         
+         
+         <p id="JCand_5.35">
+            hetoḥ kuto 'pi vaiśiṣṭyāt sphūrtir unmīlitaṃ matam <br />
+            lakṣitāny udite candre padmāni ca mukhāni ca //
+             <span class="ref">JCand_5.35</span></p>
+         
+         
+         <p id="JCand_5.36">
+            anumānaṃ ca kāryādeḥ kāraṇādyavadhāraṇam <br />
+            asti kiñcid yadanayā māṃ vilokya smitaṃ manāk //
+             <span class="ref">JCand_5.36</span></p>
+         
+         
+         <p id="JCand_5.37">
+            arthāpattiḥ svayaṃ sidhyet padārthāntaravarṇanam <br />
+            sa jitas tvanmukhenenduḥ kā vārtā sarasīruhām //
+             <span class="ref">JCand_5.37</span></p>
+         
+         
+         <p id="JCand_5.38">
+            syāt kāvyaliṅgaṃ vāgartho nūtanārthasamarthakaḥ <br />
+            jito 'si manda kandarpa maccitte 'sti trilocanaḥ //
+             <span class="ref">JCand_5.38</span></p>
+         
+         
+         <p id="JCand_5.39">
+            alaṅkāraḥ parikaraḥ sābhiprāye viśeṣaṇe <br />
+            sudhāṃśukalitottaṃsas tāpaṃ haratu vaḥ śivaḥ //
+             <span class="ref">JCand_5.39</span></p>
+         
+         
+         <p id="JCand_5.40">
+            sābhiprāye viśeṣye tu bhavet parikarāṅkuraḥ <br />
+            caturṇāṃ puruṣārthānāṃ dātā devaś caturbhujaḥ //
+             <span class="ref">JCand_5.40</span></p>
+         
+         
+         <p id="JCand_5.41">
+            akramātiśayoktiś ced yugapat kāryakāraṇe <br />
+            āliṅganti samaṃ deva jyāṃ śarāś ca parāś ca te //
+             <span class="ref">JCand_5.41</span></p>
+         
+         
+         <p id="JCand_5.42">
+            atyantātiśayoktis tatpaurvāparyavyatikrame <br />
+            agre māno gataḥ paścād anunītā priyeṇa sā //
+             <span class="ref">JCand_5.42</span></p>
+         
+         
+         <p id="JCand_5.43">
+            capalātiśayoktis tu kārye hetuprasaktije <br />
+            yāmīti priyapṛṣṭāyā valayo 'bhavad ūrmikā //
+             <span class="ref">JCand_5.43</span></p>
+         
+         
+         <p id="JCand_5.44">
+            sambandhātiśayoktiḥ syāt tadabhāve 'pi tadvacaḥ <br />
+            paśya saudhāgrasaṃsaktaṃ vibhāti vidhumaṇḍalam //
+             <span class="ref">JCand_5.44</span></p>
+         
+         
+         <p id="JCand_5.45">
+            bhedakātiśayoktiś ced ekasyaivānyatocyate <br />
+            aho anyaiva lāvaṇyalīlā bālākucasthale //
+             <span class="ref">JCand_5.45</span></p>
+         
+         
+         <p id="JCand_5.46">
+            rūpakātiśayoktiś ced rūpyaṃ rūpakamadhyagam <br />
+            paśya nīlotpaladvandvān niḥsaranti śitāḥ śarāḥ //
+             <span class="ref">JCand_5.46</span></p>
+         
+         
+         <p id="JCand_5.47">
+            prauḍhoktis tadaśaktasya tacchaktatvāvakalpanam <br />
+            kalindajātīraruhāḥ śyāmalāḥ saraladrumāḥ //
+             <span class="ref">JCand_5.47</span></p>
+         
+         
+         <p id="JCand_5.48">
+            sambhāvanaṃ yadītthaṃ syād ity ūhonyaprasiddhaye <br />
+            siktaṃ sphaṭikakumbhāntaḥsthitiśvetīkṛtair jalaiḥ <br />
+            mauktikaṃ cel latāṃ sūte tatpuṣpais te samaṃ yaśaḥ //
+             <span class="ref">JCand_5.48</span></p>
+         
+         
+         <p id="JCand_5.49">
+            vāñchitād adhikaprāptir ayatnena praharṣaṇam <br />
+            dīpam uddyotayed yāvat tāvad abhyudito raviḥ //
+             <span class="ref">JCand_5.49</span></p>
+         
+         
+         <p id="JCand_5.50">
+            iṣyamāṇaviruddhārthasamprāptis tu viṣādanam <br />
+            dīpam uddyotayed yāvat tāvan nirvāṇa eva saḥ //
+             <span class="ref">JCand_5.50</span></p>
+         
+         
+         <p id="JCand_5.51">
+            kriyādibhir anekasya tulyatā tulyayogitā <br />
+            saṅkucanti sarojāni svairiṇīvadanāni ca <br />
+            prācīnācalacūḍāgracumbibimbe sudhākare //
+             <span class="ref">JCand_5.51</span></p>
+         
+         
+         <p id="JCand_5.52">
+            prastutāprastutānāṃ ca tulyatve dīpakaṃ matam <br />
+            medhāṃ budhaḥ sudhām indur bibharti vasudhāṃ bhavān //
+             <span class="ref">JCand_5.52</span></p>
+         
+         
+         <p id="JCand_5.53">
+            āvṛtte dīpakapade bhaved āvṛttidīpakam <br />
+            dīptyāgnir bhāti bhātīnduḥ kāntyā bhāti ravis tviṣā //
+             <span class="ref">JCand_5.53</span></p>
+         
+         
+         <p id="JCand_5.54">
+            vākyayor arthasāmānye prativastūpamā matā <br />
+            tāpena bhrājate sūraḥ śūraś cāpena rājate //
+             <span class="ref">JCand_5.54</span></p>
+         
+         
+         <p id="JCand_5.55">
+            ced bimbapratibimbatvaṃ dṛṣṭāntas tadalaṃkṛtiḥ <br />
+            syān mallapratimallatve saṅgrāmoddhāmahuṃkṛtiḥ //
+             <span class="ref">JCand_5.55</span></p>
+         
+         
+         <p id="JCand_5.56">
+            dṛṣṭāntaś ced bhavanmūrtis tan mṛṣṭā daivadurlipiḥ <br />
+            jātā cet prāk prabhā bhānos tarhi yātā vibhāvarī //
+             <span class="ref">JCand_5.56</span></p>
+         
+         
+         <p id="JCand_5.57">
+            vākyārthayoḥ sadṛśayor aikyāropo nidarśanā <br />
+            yā dātuḥ saumyatā seyaṃ sudhāṃśor akalaṅkatā //
+             <span class="ref">JCand_5.57</span></p>
+         
+         
+         <p id="JCand_5.58">
+            vyatireko viśeṣaś ced upamānopameyayoḥ <br />
+            śailā ivonnatāḥ santaḥ kiṃ tu prakṛtikomalāḥ //
+             <span class="ref">JCand_5.58</span></p>
+         
+         
+         <p id="JCand_5.59">
+            sahoktiḥ sahabhāvaś ced bhāsate janarañjanaḥ <br />
+            digantam agamad yasya kīrtiḥ pratyarthibhiḥ saha //
+             <span class="ref">JCand_5.59</span></p>
+         
+         
+         <p id="JCand_5.60">
+            vinoktiś ced vinā kiṃcit prastutaṃ hīnam ucyate <br />
+            vidyā hṛdyāpi sāvadyā binā vinayasampadam //
+             <span class="ref">JCand_5.60</span></p>
+         
+         
+         <p id="JCand_5.61">
+            samāsoktiḥ parisphūrtiḥ prastute 'prastutasya cet <br />
+            ayam aindrīmukhaṃ paśya raktaś cumbati candramāḥ //
+             <span class="ref">JCand_5.61</span></p>
+         
+         
+         <p id="JCand_5.62">
+            khaṇḍaśleṣaḥ padānāṃ ced ekaikaṃ pṛthagarthatā <br />
+            ucchaladbhūrikīlālaḥ śuśubhe vāhinīpatiḥ //
+             <span class="ref">JCand_5.62</span></p>
+         
+         
+         <p id="JCand_5.63">
+            bhaṅgaśleṣaḥ padastomasy-aiva cet pṛthagarthatā <br />
+            ajarāmaratā kasya nāyodhyeva purī priyā //
+             <span class="ref">JCand_5.63</span></p>
+         
+         
+         <p id="JCand_5.64">
+            arthaśleṣo 'rthamātrasya yady anekārthasaṃśrayaḥ <br />
+            kuṭilāḥ śyāmalā dīrghā kaṭākṣāḥ kuntalāś ca te //
+             <span class="ref">JCand_5.64</span></p>
+         
+         
+         <p id="JCand_5.65">
+            aprastutapraśaṃsā syāt sā yatra prastutānugā <br />
+            kāryakāraṇasāmānyaviśeṣāder asau matā //
+             <span class="ref">JCand_5.65</span></p>
+         
+         
+         <p id="JCand_5.66">
+            kamalaiḥ kamalāvāsaiḥ kiṃ kiṃ nāsādi sundaram <br />
+            apy ambudheḥ paraṃ pāraṃ prayānti vyavasāyinaḥ //
+             <span class="ref">JCand_5.66</span></p>
+         
+         
+         <p id="JCand_5.67">
+            bhaved arthāntaranyaso 'nuṣaktārthāntarābhidhā <br />
+            hanūmān abdhim atarad duṣkaraṃ kiṃ mahātmanām //
+             <span class="ref">JCand_5.67</span></p>
+         
+         
+         <p id="JCand_5.68">
+            yasmin viśeṣasāmānyaviśeṣāḥ sa vikasvaraḥ <br />
+            sa na jigye mahānto hi durdharṣāḥ kṣmādharā iva //
+             <span class="ref">JCand_5.68</span></p>
+         
+         
+         <p id="JCand_5.69">
+            kāryādyaiḥ prastutair uktaiḥ paryāyoktiṃ pracakṣate <br />
+            tṛṇāny aṅkurayāmāsa vipakṣanṛpasadmasu //
+             <span class="ref">JCand_5.69</span></p>
+         
+         
+         <p id="JCand_5.70">
+            uktir vyājastutir nindāstutibhyāṃ stutinindayoḥ <br />
+            kaste viveko nayasi svargaṃ pātakino 'pi yat //
+             <span class="ref">JCand_5.70</span></p>
+         
+         
+         <p id="JCand_5.71">
+            ākṣepas tu prayuktasya pratiṣedho vicāraṇāt <br />
+            candra saṃdarśayātmānam athavāsti priyāmukham //
+             <span class="ref">JCand_5.71</span></p>
+         
+         
+         <p id="JCand_5.72">
+            gūḍhākṣepo vidhau vyakte niṣedhe cāsphuṭe sati <br />
+            hara sītāṃ sukhaṃ, kiṃ tu cintayāntakaḍhaukanam //
+             <span class="ref">JCand_5.72</span></p>
+         
+         
+         <p id="JCand_5.73">
+            virodho 'nupapattiś ced guṇadravyakriyādiṣu <br />
+            amandacandanasyandaḥ svacchandaṃ dandahīti mām //
+             <span class="ref">JCand_5.73</span></p>
+         
+         
+         <p id="JCand_5.74">
+            śleṣādibhūr virodhaś ced virodhābhāsatā matā <br />
+            apy andhakāriṇānena jagad etat prakāśate //
+             <span class="ref">JCand_5.74</span></p>
+         
+         
+         <p id="JCand_5.75">
+            asaṃbhavo 'rthaniṣpattāv asaṃbhāvyatvavarṇanam <br />
+            ko veda gopaśiśukaḥ śailam utpāṭayiṣyati //
+             <span class="ref">JCand_5.75</span></p>
+         
+         
+         <p id="JCand_5.76">
+            vibhāvanā vināpi syāt kāraṇaṃ kāryajanma cet <br />
+            paśya lākṣārasāsiktaṃ raktaṃ tvaccaraṇadvayam //
+             <span class="ref">JCand_5.76</span></p>
+         
+         
+         <p id="JCand_5.77">
+            viśeṣoktir anutpattiḥ kāryasya sati kāraṇe <br />
+            namantam api dhīmantaṃ na laṅghayati kaścana //
+             <span class="ref">JCand_5.77</span></p>
+         
+         
+         <p id="JCand_5.78">
+            ākhyāte bhinnadeśatve kāryahetvor asaṃgatiḥ <br />
+            tvadbhaktānāṃ namaty aṅgaṃ bhaṅgam eti bhavaklamaḥ //
+             <span class="ref">JCand_5.78</span></p>
+         
+         
+         <p id="JCand_5.79">
+            viṣamaṃ yady anaucityād anekānvayakalpanam <br />
+            kvātitīvraviṣāḥ sarpāḥ kvāsau candanabhūruhaḥ //
+             <span class="ref">JCand_5.79</span></p>
+         
+         
+         <p id="JCand_5.80">
+            samam aucityato 'nekavastusambandhavarṇanam <br />
+            anurūpaṃ kṛtaṃ sadma hāreṇa kucamaṇḍalam //
+             <span class="ref">JCand_5.80</span></p>
+         
+         
+         <p id="JCand_5.81">
+            vicitraṃ cet prayatnaḥ syād viparītaphalapradaḥ <br />
+            namanti santas trailokyād api labdhuṃ samunnatim //
+             <span class="ref">JCand_5.81</span></p>
+         
+         
+         <p id="JCand_5.82">
+            adhikaṃ bodhyam ādhārād ādheyādhikavarṇanam <br />
+            yayā vyāptaṃ jagat tasyāṃ vāci mānti na te guṇāḥ //
+             <span class="ref">JCand_5.82</span></p>
+         
+         
+         <p id="JCand_5.83">
+            anyonyaṃ nāma yatra syād upakāraḥ parasparam <br />
+            triyāmā śaśinā bhāti śaśī bhāti triyāmayā //
+             <span class="ref">JCand_5.83</span></p>
+         
+         
+         <p id="JCand_5.84">
+            viśeṣaḥ khyātam ādhāraṃ vināpy ādheyavarṇanam <br />
+            gate 'pi sūrye dīpasthās tamaś chindanti tatkarāḥ //
+             <span class="ref">JCand_5.84</span></p>
+         
+         
+         <p id="JCand_5.85">
+            syād vyāghāto 'nyathākāri vastv anyakriyam ucyate <br />
+            yair jagat prīyate hanti tair eva kusumāyudhaḥ //
+             <span class="ref">JCand_5.85</span></p>
+         
+         
+         <p id="JCand_5.86">
+            gumphaḥ kāraṇamālā syād yathāprākprāntakāraṇaiḥ <br />
+            nayena śrīḥ śriyā tyāgas tyāgena vipulaṃ yaśaḥ //
+             <span class="ref">JCand_5.86</span></p>
+         
+         
+         <p id="JCand_5.87">
+            gṛhītamuktarītyarthaśreṇir ekāvalī matā <br />
+            netre karṇāntaviśrānte karṇau dormūladolinau //
+             <span class="ref">JCand_5.87</span></p>
+         
+         
+         <p id="JCand_5.88">
+            dīpakaikāvalīyogān mālādīpakam ucyate <br />
+            smareṇa hṛdaye tasyās tena tvayi kṛtā sthitiḥ //
+             <span class="ref">JCand_5.88</span></p>
+         
+         
+         <p id="JCand_5.89">
+            sāro nāma padotkarṣaḥ sāratāyā yathottaram <br />
+            sāraṃ sārasvataṃ tatra kāvyaṃ tatra śivastavaḥ //
+             <span class="ref">JCand_5.89</span></p>
+         
+         
+         <p id="JCand_5.90">
+            udārasāraś ced bhāti bhinno 'bhinnatayā guṇaḥ <br />
+            madhuraṃ madhu pīyūṣaṃ tasmāt tasmāt kaver vacaḥ //
+             <span class="ref">JCand_5.90</span></p>
+         
+         
+         <p id="JCand_5.91">
+            yathāsaṃkhyaṃ dvidhārthāś cet kramādekaikamanvitāḥ <br />
+            śatruṃ mitraṃ dviṣatpakṣaṃ jaya rañjaya bhañjaya //
+             <span class="ref">JCand_5.91</span></p>
+         
+         
+         <p id="JCand_5.92">
+            paryāyaś ced anekatra syād ekasya samanvayaḥ <br />
+            padmaṃ muktvā gatā candraṃ kāminīvadanopamā //
+             <span class="ref">JCand_5.92</span></p>
+         
+         
+         <p id="JCand_5.93">
+            parivṛttir vinimayo nyūnābhyadhikayor mithaḥ <br />
+            jagrāhaikaṃ śaraṃ muktvā kaṭākṣān śatruyoṣitām //
+             <span class="ref">JCand_5.93</span></p>
+         
+         
+         <p id="JCand_5.94">
+            parisaṃkhyā niṣidhyaikam anyasmin vastuyantraṇam <br />
+            snehakṣayaḥ pradīpeṣu svānteṣu na natabhruvām //
+             <span class="ref">JCand_5.94</span></p>
+         
+         
+         <p id="JCand_5.95">
+            vikalpas tulyabalayor virodhaś cāturīyutaḥ <br />
+            kāntācitte 'dhare vāpi kuru tvaṃ vītarāgatām //
+             <span class="ref">JCand_5.95</span></p>
+         
+         
+         <p id="JCand_5.96">
+            bhūyasām ekasambandhabhājāṃ gumphaḥ samuccayaḥ <br />
+            naśyanti paścāt paśyanti bhraśyanti ca tava dviṣaḥ //
+             <span class="ref">JCand_5.96</span></p>
+         
+         
+         <p id="JCand_5.97">
+            samādhiḥ kāryasaukaryaṃ kāraṇāntarasannidheḥ <br />
+            utkaṇṭhitāṃ ca kalayan jagāmāstaṃ ca bhānumān //
+             <span class="ref">JCand_5.97</span></p>
+         
+         
+         <p id="JCand_5.98">
+            pratyanīkaṃ balavataḥ śatroḥ pakṣe parākramaḥ <br />
+            jaitranetrānugau karṇāv utpalābhyām adhaḥkṛtau //
+             <span class="ref">JCand_5.98</span></p>
+         
+         
+         <p id="JCand_5.99">
+            pratīpam upamānasya hīnatvam upameyataḥ <br />
+            dṛṣṭaṃ ced vadanaṃ tasyāḥ kiṃ padmena kimindunā //
+             <span class="ref">JCand_5.99</span></p>
+         
+         
+         <p id="JCand_5.100">
+            ullāso 'nyamahimnā ced doṣo hy anyatra varṇyate <br />
+            tad abhāgyaṃ dhanasyaiva yan nāśrayati sajjanam //
+             <span class="ref">JCand_5.100</span></p>
+         
+         
+         <p id="JCand_5.101">
+            tadguṇaḥ svaguṇatyāgād anyataḥ svaguṇodayaḥ <br />
+            padmarāgāruṇaṃ nāsāmauktikaṃ te 'dharaśritam //
+             <span class="ref">JCand_5.101</span></p>
+         
+         
+         <p id="JCand_5.102">
+            punaḥ svaguṇasamprāptir vijñeyā pūrvarūpatā <br />
+            harakaṇṭhāṃśulipto 'pi śeṣas tvadyaśasā sitaḥ //
+             <span class="ref">JCand_5.102</span></p>
+         
+         
+         <p id="JCand_5.103">
+            yadvastuno 'nyathā rūpaṃ tathā syāt pūrvarūpatā <br />
+            dīpe nirvāpite hy āsīt kāñcīratnair aharmahaḥ //
+             <span class="ref">JCand_5.103</span></p>
+         
+         
+         <p id="JCand_5.104">
+            saṅgatānyaguṇānaṅgīkāram āhur atadguṇam <br />
+            viśann api raver madhyaṃ śīta eva sadā śaśī //
+             <span class="ref">JCand_5.104</span></p>
+         
+         
+         <p id="JCand_5.105">
+            prāksiddhasvaguṇotkarṣo 'nuguṇaḥ parasannidheḥ <br />
+            karṇotpalāni dadhate kaṭākṣairapi nīlatām //
+             <span class="ref">JCand_5.105</span></p>
+         
+         
+         <p id="JCand_5.106">
+            avajñā varṇyate vastu guṇadoṣākṣamaṃ yadi <br />
+            mlāyanti yadi padmāni kā hānir amṛtadyuteḥ //
+             <span class="ref">JCand_5.106</span></p>
+         
+         
+         <p id="JCand_5.107">
+            praśnottaraṃ krameṇoktau syūtam uttaram uttaram <br />
+            yatrāsau vetasī pāntha tatrāsau sutarā sarit //
+             <span class="ref">JCand_5.107</span></p>
+         
+         
+         <p id="JCand_5.108">
+            pihitaṃ paravṛttāntajñātur anyasya ceṣṭitam <br />
+            priye gṛhāgate prātaḥ kāntā talpam akalpayat //
+             <span class="ref">JCand_5.108</span></p>
+         
+         
+         <p id="JCand_5.109">
+            vyājoktiḥ śaṅkamānasya chadmanā vastugopanam <br />
+            sakhi paśya gṛhārāmaparāgair asmi dhūsarā //
+             <span class="ref">JCand_5.109</span></p>
+         
+         
+         <p id="JCand_5.110">
+            vakroktiḥ śleṣakākubhyāṃ vācyārthāntarakalpanam <br />
+            muñca mānaṃ dinaṃ prāptaṃ manda nandī harāntike //
+             <span class="ref">JCand_5.110</span></p>
+         
+         
+         <p id="JCand_5.111">
+            svābhāvoktiḥ svabhāvasya jātyādiṣu ca varṇanam <br />
+            kuraṅgair uttaraṅgākṣi stabdhakarṇair udīkṣyate //
+             <span class="ref">JCand_5.111</span></p>
+         
+         
+         <p id="JCand_5.112">
+            bhāvikaṃ bhūtabhāvyarthasākṣād darśanavarṇanam <br />
+            alaṃ vilokayādyāpi yuddhyante 'tra surāsurāḥ //
+             <span class="ref">JCand_5.112</span></p>
+         
+         
+         <p id="JCand_5.113">
+            deśātmaviprakṛṣṭasya darśanaṃ bhāvikacchaviḥ <br />
+            tvaṃ vasan hṛdaye tasyāḥ sākṣāt pañceṣur īkṣyase //
+             <span class="ref">JCand_5.113</span></p>
+         
+         
+         <p id="JCand_5.114">
+            udāttam ṛddheś caritaṃ ślāghyaṃ cānyopalakṣaṇam <br />
+            sānau yasyābhavad yuddhaṃ tad dhūrjaṭikirīṭinoḥ //
+             <span class="ref">JCand_5.114</span></p>
+         
+         
+         <p id="JCand_5.115">
+            atyuktir adbhutātathyaśauryaudāryādivarṇanam <br />
+            tvayi dātari rājendra yācakāḥ kalpaśākhinaḥ //
+             <span class="ref">JCand_5.115</span></p>
+         
+         
+         <p id="JCand_5.116">
+            rasabhāvatadābhāsabhāvaśāntinibandhanāḥ <br />
+            rasavatpreyaūrjasvisamāhitamayābhidhāḥ //
+             <span class="ref">JCand_5.116</span></p>
+         
+         
+         <p id="JCand_5.117">
+            bhāvānāmudayaḥ sandhiḥ śabalatvam iti trayaḥ <br />
+            alaṅkārān imān sapta kecid āhur manīṣiṇaḥ //
+             <span class="ref">JCand_5.117</span></p>
+         
+         
+         <p id="JCand_5.118">
+            śuddhir ekapradhānatvaṃ tathā saṃsṛṣṭisaṃkarau <br />
+            eteṣām eva vinyāsān nālaṅkārāntarāṇy amī //
+             <span class="ref">JCand_5.118</span></p>
+         
+         
+         <p id="JCand_5.119">
+            sarveṣāṃ ca pratidvandvapraticchandabhidābhṛtām <br />
+            upādhiḥ kvacid udbhinnaḥ syād anyatrāpi saṃbhavāt //
+             <span class="ref">JCand_5.119</span></p>
+         
+         
+         <p id="JCand_5.120">
+            mālā paraṃparā caiṣāṃ bhūyasām anukūlake <br />
+            manuṣye bhavataḥ kvāpi hy alaṅkārāṅgatāṃ gate //
+             <span class="ref">JCand_5.120</span></p>
+         
+         
+         <p id="JCand_5.121">
+            śabde padārthe vākyārthe vākyārthastabake tathā <br />
+            ete bhavanti vinyāsāḥ svabhāvātiśayātmakāḥ //
+             <span class="ref">JCand_5.121</span></p>
+         
+         
+         <p id="JCand_5.122">
+            kasyāpy atiśayasyokter ity anvarthavicāraṇāt <br />
+            prāyeṇāmī hy alaṃkārā bhinnā nātiśayoktitaḥ //
+             <span class="ref">JCand_5.122</span></p>
+         
+         
+         <p id="JCand_5.123">
+            alaṃkārapradhāneṣu dadhāneṣv api sāmyatām <br />
+            vailakṣaṇyaṃ prativyakti pratibhāti mukheṣviva //
+             <span class="ref">JCand_5.123</span></p>
+         
+         
+         <p id="JCand_5.124">
+            alaṃkāreṣu tathyeṣu yady anāsthā manīṣiṇām <br />
+            tad arvācīnabhedeṣu nāmnāṃ nāmnāya iṣyatām //
+             <span class="ref">JCand_5.124</span></p>
+         
+         
+         <p id="JCand_5.125">
+            mahādevaḥ satrapramukhamakhavidyaikacaturaḥ sumitrā tadbhaktipraṇihitamatir yasya pitarau <br />
+            caturthaḥ saikoyam sukavijayadevena racite ciraṃ candrāloke sukhayatu mayūkhaḥ sumanasaḥ //
+             <span class="ref">JCand_5.125</span></p>
+         
+         
+         <p id="JCand_6.1">
+            ālambanoddīpanātmā vibhāvaḥ kāraṇaṃ dvidhā <br />
+            kāryo 'nubhāvo bhāvaś ca sahāyo vyabhicāry api //
+             <span class="ref">JCand_6.1</span></p>
+         
+         
+         <p id="JCand_6.2">
+            galadvedyāntarodbhedo hṛdayeṣv ajaḍātmanām <br />
+            milan malayajālepa ivāhlādaṃ vikāsayan //
+             <span class="ref">JCand_6.2</span></p>
+         
+         
+         <p id="JCand_6.3">
+            kāvye nāṭye ca kārye ca vibhāvādyair vibhāvitaḥ <br />
+            āsvādyamānaikatanuḥ sthāyī bhāvo rasaḥ smṛtaḥ //
+             <span class="ref">JCand_6.3</span></p>
+         
+         
+         <p id="JCand_6.4">
+            ratyākhyasthāyibhāvātmā vallabhādivibhāvitaḥ <br />
+            ālasyerṣyājugupsābhyo vinā saṃcāribhir yutaḥ //
+             <span class="ref">JCand_6.4</span></p>
+         
+         
+         <p id="JCand_6.5">
+            anubhāvaiḥ kaṭākṣādyair unmādādyair yathākramam <br />
+            sambhogo vipralambhaś ca śṛṅgāro dvividho mataḥ //
+             <span class="ref">JCand_6.5</span></p>
+         
+         
+         <p id="JCand_6.6">
+            hāsasthāyī raso hāsyo vibhāvadyair yathākramam <br />
+            vairūpyaphullagaṇḍatvā-vahitthādyaiḥ samanvitaḥ //
+             <span class="ref">JCand_6.6</span></p>
+         
+         
+         <p id="JCand_6.7">
+            abhīṣṭaviprayogāśrupātaglānyādibhiḥ kramāt <br />
+            vibhāvādyair yutaḥ śokasthāyī syāt karuṇo rasaḥ //
+             <span class="ref">JCand_6.7</span></p>
+         
+         
+         <p id="JCand_6.8">
+            krodhasthāyī raso raudro vibhāvādyaiḥ samanvitaḥ <br />
+            mātsaryahastaniṣpeṣasaṃmohādyair yathākramam //
+             <span class="ref">JCand_6.8</span></p>
+         
+         
+         <p id="JCand_6.9">
+            utsāhākhyasthāyibhāvaḥ prabhāvādivibhāvabhūḥ <br />
+            vīro 'nubhāvaiḥ sthairyādyair bhāvair garvādibhiryutaḥ //
+             <span class="ref">JCand_6.9</span></p>
+         
+         
+         <p id="JCand_6.10">
+            vyāghrādibhir vibhāvais tu vepitādyanubhāvabhṛt <br />
+            bhāvair mohādibhir yukto bhayasthāyī bhayānakaḥ //
+             <span class="ref">JCand_6.10</span></p>
+         
+         
+         <p id="JCand_6.11">
+            sthāyī jugupsā bībhatso vibhāvādyā yathākramam <br />
+            aniṣṭekṣaṇaniṣṭhīvamohādyā yatra saṃmatāḥ //
+             <span class="ref">JCand_6.11</span></p>
+         
+         
+         <p id="JCand_6.12">
+            adbhuto vismayasthāyī māyādikavibhāvabhūḥ <br />
+            romāñcādyanubhāvo 'yaṃ stambhādivyabhicārikaḥ //
+             <span class="ref">JCand_6.12</span></p>
+         
+         
+         <p id="JCand_6.13">
+            nirvedasthāyikaḥ śāntaḥ satsaṅgādivibhāvabhūḥ <br />
+            kṣamādikānubhāvo 'yaṃ stambhādivyabhicārikaḥ //
+             <span class="ref">JCand_6.13</span></p>
+         
+         
+         <p id="JCand_6.14">
+            ratir devādiviṣayā santi ca vyabhicāriṇaḥ <br />
+            vedyamānā nigadyante bhāvāḥ sāhityavedibhiḥ //
+             <span class="ref">JCand_6.14</span></p>
+         
+         
+         <p id="JCand_6.15">
+            nirvedaglāniśaṅkākhyās tathāsūyāmadaśramāḥ <br />
+            ālasyaṃ caiva dainyaṃ ca cintā mohaḥ smṛtir dhṛtiḥ //
+             <span class="ref">JCand_6.15</span></p>
+         
+         
+         <p id="JCand_6.16">
+            vrīḍā capalatā harṣa āvego jaḍatā tathā <br />
+            garvo viṣāda autsukyaṃ nidrāpasmāra eva ca //
+             <span class="ref">JCand_6.16</span></p>
+         
+         
+         <p id="JCand_6.17">
+            suptaṃ prabodho 'marṣaś cāpy avahittham athogratā <br />
+            matir vyādhis tathonmādas tathā maraṇam eva ca //
+             <span class="ref">JCand_6.17</span></p>
+         
+         
+         <p id="JCand_6.18">
+            trāsaś caiva vitarkaś ca vijñeyā vyabhicāriṇaḥ <br />
+            trayastriṃśad ime bhāvāḥ samākhyātās tu nāmataḥ //
+             <span class="ref">JCand_6.18</span></p>
+         
+         
+         <p id="JCand_6.19">
+            sarvasādhāraṇapremapraśrayādisvarūpayā <br />
+            anaucityā rasābhāsā bhāvābhāsāś ca kīrtitāḥ //
+             <span class="ref">JCand_6.19</span></p>
+         
+         
+         <p id="JCand_6.20">
+            bhāvasya śāntir udayaḥ sandhiḥ śabalatā tathā <br />
+            kāvyasya kāñcanasyeva kuṅkumaṃ kāntisaṃpade //
+             <span class="ref">JCand_6.20</span></p>
+         
+         
+         <p id="JCand_6.21">
+            āturyam āsaptamaṃ ca yatheṣṭair aṣṭamādibhiḥ <br />
+            samāsaḥ syāt padair na syāt samāsaḥ sarvathāpi ca //
+             <span class="ref">JCand_6.21</span></p>
+         
+         
+         <p id="JCand_6.22">
+            pāñcālikī ca lāṭīyā gauḍīyā ca yathārasam <br />
+            vaidarbhī ca yathāsaṃkhyaṃ catasro rītayaḥ smṛtāḥ //
+             <span class="ref">JCand_6.22</span></p>
+         
+         
+         <p id="JCand_6.23">
+            madhurāyāṃ samākrāntā vargasthāḥ pañcamair nijaiḥ <br />
+            lakāraś ca lasaṃyukto hrasvavyavahitau raṇau //
+             <span class="ref">JCand_6.23</span></p>
+         
+         
+         <p id="JCand_6.24">
+            rephākrāntā vargyayaṇāṣ ṭavargāt pañcamād ṛte <br />
+            kapākrāntas tavargaḥ syāt prauḍhāyāṃ ca kamūrdhatā //
+             <span class="ref">JCand_6.24</span></p>
+         
+         
+         <p id="JCand_6.25">
+            sarvair ūrdhvaiḥ sakārasya sarvai rephasya sarvathā <br />
+            rahor dvedhā tu saṃyogaḥ paruṣāyāṃ śaṣau svataḥ //
+             <span class="ref">JCand_6.25</span></p>
+         
+         
+         <p id="JCand_6.26">
+            lakāro 'nyair asaṃyukto laghavo ghabhadhā rasau <br />
+            lalitāyāṃ tathā śeṣā bhadrāyām iti vṛttayaḥ //
+             <span class="ref">JCand_6.26</span></p>
+         
+         
+         <p id="JCand_6.27">
+            aṅgabhaṅgollasallīlā taruṇī smaratoraṇam <br />
+            tarkakarkaśapūrṇoktiprāptotkaṭadhiyāṃ vṛthā //
+             <span class="ref">JCand_6.27</span></p>
+         
+         
+         <p id="JCand_6.28">
+            vīpsotsarpanmukhāgrārdraṃ barhī jahre kṛśas tṛṣam <br />
+            lalanā rabhasaṃ dhatte ghanāṭope mahīyasi //
+             <span class="ref">JCand_6.28</span></p>
+         
+         
+         <p id="JCand_6.29">
+            mahādevaḥ satrapramukhamakhavidyaikacaturaḥ sumitrā tadbhaktipraṇihitamatir yasya pitarau <br />
+            mayūkhastenāsau sukavijayadevena racite ciraṃ candrāloke sukhayatu mahati ṛtusaṃkhyaḥ //
+             <span class="ref">JCand_6.29</span></p>
+         
+         
+         <p id="JCand_7.1">
+            vṛttibhedais tribhir yuktā srotobhiriva jāhnavī <br />
+            bhāratī bhāti gambhīrā kuṭilā saralā kvacit //
+             <span class="ref">JCand_7.1</span></p>
+         
+         
+         <p id="JCand_7.2">
+            sāṃmukhyaṃ vidadhānāyāḥ sphuṭam arthāntare giraḥ <br />
+            kaṭākṣa iva lolākṣyā vyāpāro vyañjanātmakaḥ //
+             <span class="ref">JCand_7.2</span></p>
+         
+         
+         <p id="JCand_7.3">
+            avivakṣitavācyasya dvau bhedau vācyam eva cet <br />
+            arthāntire saṃkramitam atyantaṃ vā tiraskṛtam //
+             <span class="ref">JCand_7.3</span></p>
+         
+         
+         <p id="JCand_7.4">
+            dvau vivakṣitavācyasya lakṣyālakṣyakramātmakau <br />
+            catvāriṃśadyutaikena bhedāḥ ṣaṭ cānayoḥ kramāt //
+             <span class="ref">JCand_7.4</span></p>
+         
+         
+         <p id="JCand_7.5">
+            tridhā śabdārthatadyugmaśaktijanmā sphuṭakramāt <br />
+            rasabhāvatadābhāsapramukhas tv asphuṭakramāt //
+             <span class="ref">JCand_7.5</span></p>
+         
+         
+         <p id="JCand_7.6">
+            vastvalaṅkārayor vyakter bhedau dvau śabdaśaktijau <br />
+            arthaśaktisamutthasya bhedā dvādaśa tad yathā //
+             <span class="ref">JCand_7.6</span></p>
+         
+         
+         <p id="JCand_7.7">
+            catvāro vastv alaṃkāram alaṃkāras tu vastu yat <br />
+            alaṃkāram alaṃkāro vastu vastu vyanakti tat //
+             <span class="ref">JCand_7.7</span></p>
+         
+         
+         <p id="JCand_7.8">
+            vaktuḥ kavinibaddhasya kaver vā prauḍhinirmitaḥ <br />
+            svasiddho vā vyañjako 'rthaś catvāras triguṇās tataḥ //
+             <span class="ref">JCand_7.8</span></p>
+         
+         
+         <p id="JCand_7.9">
+            śabdārthobhayabhūr ekaḥ sa ca vākyaikasaṃśrayaḥ <br />
+            padaikadeśe racanāvarṇavākyapadeṣv api //
+             <span class="ref">JCand_7.9</span></p>
+         
+         
+         <p id="JCand_7.10">
+            prabandhe ceti ṣoḍhāsau rasādyākhyo 'sphuṭakramaḥ <br />
+            eṣu saptadaśasv ekaṃ parityajyāsphuṭakramam //
+             <span class="ref">JCand_7.10</span></p>
+         
+         
+         <p id="JCand_7.11">
+            ye ṣoḍaśādyā dviguṇās te syur vākyapadāśrayāt <br />
+            prabandhe 'pi dvādaśa syur arthaśaktibhuvo bhidaḥ //
+             <span class="ref">JCand_7.11</span></p>
+         
+         
+         <p id="JCand_7.12">
+            dvātriṃśad dvādaśaikaḥ ṣaṭ sarvasaṃkalitadhvaneḥ <br />
+            bhedāḥ syur ekapañcāśat saṃbhinnās tu sahasraśaḥ //
+             <span class="ref">JCand_7.12</span></p>
+         
+         
+         <p id="JCand_7.13">
+            vaktṛsyūtaṃ bodhayituṃ vyaṅgyaṃ vaktur abhīpsitam <br />
+            svāṅkuritam atadrūpaṃ svayam ullasitaṃ giraḥ //
+             <span class="ref">JCand_7.13</span></p>
+         
+         
+         <p id="JCand_7.14">
+            kaścit sādhāraṇaḥ kaścid āmantrya pratibodhitaḥ <br />
+            kaścit taṭasthaḥ kaścic ca bodhitapratibodhitaḥ //
+             <span class="ref">JCand_7.14</span></p>
+         
+         
+         <p id="JCand_7.15">
+            ityevaṃ boddhṛvaicitryād vaktṛsyūtaṃ caturvidham <br />
+            upekṣānihnavābhyāṃ ca dvidhā svāṅkuritaṃ matam //
+             <span class="ref">JCand_7.15</span></p>
+         
+         
+         <p id="JCand_7.16">
+            bhūtādikālabhedena nihnavaḥ syād anekadhā <br />
+            anenāpi prabhedena vyaktivallī vijṛmbhate //
+             <span class="ref">JCand_7.16</span></p>
+         
+         
+         <p id="JCand_7.17">
+            nānāprabhedā niyatā kvacit prakaraṇādinā <br />
+            arthe 'rtham anyaṃ yaṃ vakti tad vācyavyaṅgyam iṣyate //
+             <span class="ref">JCand_7.17</span></p>
+         
+         
+         <p id="JCand_7.18">
+            mahādevaḥ satrapramukhamakhavidyaikacaturaḥ sumitrā tadbhaktipraṇihitamatir yasya pitarau <br />
+            mayūkhastenāsau sukavijayadevena racite ciraṃ candrāloke sukhayatu mahati munisaṃkhyaḥ //
+             <span class="ref">JCand_7.18</span></p>
+         
+         
+         <p id="JCand_8.1">
+            yad vyajyamānaṃ manasaḥ staimityāya sa no dhvaniḥ <br />
+            anyathā tu guṇībhūtavyaṅgyam āpatitaṃ tridhā //
+             <span class="ref">JCand_8.1</span></p>
+         
+         
+         <p id="JCand_8.2">
+            vyaktir eva kvacid vyaṅgyaḥ kvacid arthasvabhāvataḥ <br />
+            kvacic cārutarasyāgre sa vimuñcati cārutām //
+             <span class="ref">JCand_8.2</span></p>
+         
+         
+         <p id="JCand_8.3">
+            agūḍhaṃ kalayed arthā-ntarasaṃkramitādikam <br />
+            vismṛtaḥ kim apāṃnātha sa tvayā kumbhasaṃbhavaḥ //
+             <span class="ref">JCand_8.3</span></p>
+         
+         
+         <p id="JCand_8.4">
+            aparasya rasādeś ced aṅgamanyad rasādikam <br />
+            hā hā! matkucakāśmīraliptaṃ bhinnam uraḥ śaraiḥ //
+             <span class="ref">JCand_8.4</span></p>
+         
+         
+         <p id="JCand_8.5">
+            tathā vācyasya siddhyaṅgaṃ naur artho vāridher yathā <br />
+            saṃśritya taraṇiṃ dhīrās taranti vyādhivāridhīn //
+             <span class="ref">JCand_8.5</span></p>
+         
+         
+         <p id="JCand_8.6">
+            asphuṭaṃ stanayor atra kokasādṛśyavan matam <br />
+            kuṅkumāktaṃ stanadvandvaṃ mānasaṃ mama gāhate //
+             <span class="ref">JCand_8.6</span></p>
+         
+         
+         <p id="JCand_8.7">
+            saṃdigdhaṃ yadi saṃdeho dairghyādyutpalayoriva <br />
+            saṃprāpte nayane tasyāḥ śravaṇottaṃsabhūmikām //
+             <span class="ref">JCand_8.7</span></p>
+         
+         
+         <p id="JCand_8.8">
+            tulyaprādhānyam indutvam iva vācyena sāmyabhṛt <br />
+            kānte tvadānanarucā glānim eti saroruham //
+             <span class="ref">JCand_8.8</span></p>
+         
+         
+         <p id="JCand_8.9">
+            asundaraṃ yadi vyaṅgyaṃ syād vācyād amanoharam <br />
+            sarasyāmīladambhoje cakraḥ kāntāṃ vilokate //
+             <span class="ref">JCand_8.9</span></p>
+         
+         
+         <p id="JCand_8.10">
+            kākusthaṃ praṇato 'mbhodhir adya mādyatu rāvaṇaḥ <br />
+            ity aṣṭadhā guṇībhūtavyaṅgyam aṅgīkṛtaṃ budhaiḥ //
+             <span class="ref">JCand_8.10</span></p>
+         
+         
+         <p id="JCand_8.11">
+            mahādevaḥ satrapramukhamakhavidyaikacaturaḥ sumitrā tadbhaktipraṇihitamatir yasya pitarau <br />
+            mayūkhastenāsau sukavijayadevena racite ciraṃ candrāloke mahati vasusaṃkhyaḥ sukhayatu //
+             <span class="ref">JCand_8.11</span></p>
+         
+         
+         <p id="JCand_9.1">
+            mukhyārthasyāvivakṣāyāṃ pūrvārvācī ca rūḍhitaḥ <br />
+            prayojanāc ca saṃbaddhaṃ vadantī lakṣaṇā matā //
+             <span class="ref">JCand_9.1</span></p>
+         
+         
+         <p id="JCand_9.2">
+            lakṣaṇīyasvaśabdasya mīlanāmīlanād dvidhā <br />
+            lakṣaṇā sā tridhā siddhasādhyasādhyāṅgabhedataḥ //
+             <span class="ref">JCand_9.2</span></p>
+         
+         
+         <p id="JCand_9.3">
+            sphuṭāsphuṭaprabhedena prayojanam api dvidhā <br />
+            viduḥ sphuṭaṃ taṭasthatvād arthagatvād dvidhā budhāḥ //
+             <span class="ref">JCand_9.3</span></p>
+         
+         
+         <p id="JCand_9.4">
+            asphuṭaṃ cārthaniṣṭhatvāt taṭasthatvād api dvidhā <br />
+            lakṣyalakṣakaniṣṭhatvād arthasaṃstham api dvidhā //
+             <span class="ref">JCand_9.4</span></p>
+         
+         
+         <p id="JCand_9.5">
+            lakṣakasthaṃ sphuṭaṃ yatra sā vicakṣaṇalakṣaṇā <br />
+            asphuṭatvaṃ taṭasthatvaṃ lakṣyasthatvam amuṣya ca //
+             <span class="ref">JCand_9.5</span></p>
+         
+         
+         <p id="JCand_9.6">
+            anyās tisra iti vyaktā śaktitaḥ sā caturvidhā <br />
+            indur evaiṣa tadvaktram utkarṣo lakṣyate mukhe //
+             <span class="ref">JCand_9.6</span></p>
+         
+         
+         <p id="JCand_9.7">
+            pradīpaṃ vardhayetyatra taṭasthaṃ maṅgalodayaḥ <br />
+            paṭo 'yaṃ dagdha ityādau sphuṭaṃ nāsti prayojanam //
+             <span class="ref">JCand_9.7</span></p>
+         
+         
+         <p id="JCand_9.8">
+            amṛtaṃ sūktam ityādau lakṣyastham atihṛdyatā <br />
+            ābhimukhyāt saṃnidhānāt tathākārapratītitaḥ //
+             <span class="ref">JCand_9.8</span></p>
+         
+         
+         <p id="JCand_9.9">
+            kāryakāraṇabhāvāt sā vācyavācakabhāvataḥ <br />
+            ityevamādeḥ saṃbandhāt kiṃcānyasmāc catuṣṭayāt //
+             <span class="ref">JCand_9.9</span></p>
+         
+         
+         <p id="JCand_9.10">
+            sādṛśyāt samavāyāt sā vaiparītyāt kriyānvayāt <br />
+            sāropādhyavasānākhye gauṇaśuddhe pṛthak pṛthak //
+             <span class="ref">JCand_9.10</span></p>
+         
+         
+         <p id="JCand_9.11">
+            gauṇaṃ sāropam uddiṣṭam indur mukham itīdṛśam <br />
+            gauṇaṃ sādhyavasānaṃ syād indur evedam īdṛśam //
+             <span class="ref">JCand_9.11</span></p>
+         
+         
+         <p id="JCand_9.12">
+            śuddhaṃ sāropam uddiṣṭam āyur ghṛtam itīdṛśam <br />
+            śuddhaṃ sādhyavasānaṃ syād āyur evedam īdṛśam //
+             <span class="ref">JCand_9.12</span></p>
+         
+         
+         <p id="JCand_9.13">
+            upādānārpaṇadvāre dve cānye iti ṣaḍvidhā <br />
+            kuntā viśanti gaṅgāyāṃ ghoṣo nivasatīti ca //
+             <span class="ref">JCand_9.13</span></p>
+         
+         
+         <p id="JCand_9.14">
+            lakṣyalakṣakavaiśiṣṭyavaiśiṣṭyād dvividhā punaḥ <br />
+            sarasaṃ kāvyam amṛtaṃ vidyā sthirataraṃ dhanam //
+             <span class="ref">JCand_9.14</span></p>
+         
+         
+         <p id="JCand_9.15">
+            tathā sahetur atathā-bhedabhinnā ca kutracit <br />
+            saundaryeṇaiṣa kandarpaḥ sā ca mūrtimatī ratiḥ //
+             <span class="ref">JCand_9.15</span></p>
+         
+         
+         <p id="JCand_9.16">
+            śabde padārthe vākyārthe saṃkhyāyāṃ kārake tathā <br />
+            liṅge ceyam alaṅkārā-ṅkurabījatayā sthitā //
+             <span class="ref">JCand_9.16</span></p>
+         
+         
+         <p id="JCand_9.17">
+            mahādevaḥ satrapramukhamakhavidyaikacaturaḥ sumitrā tadbhaktipraṇihitamatir yasya pitarau <br />
+            mayūkhastenāsau sukavijayadevena racite ciraṃ candrāloke mahati navasaṃkhyaḥ sukhayatu //
+             <span class="ref">JCand_9.17</span></p>
+         
+         
+         <p id="JCand_10.1">
+            dharmaṃ kaṃcit puraskṛtya prāyaḥ śabdaḥ pravartate <br />
+            yayārthaṃ spaṣṭam ācaṣṭe śabdas tām abhidhāṃ viduḥ //
+             <span class="ref">JCand_10.1</span></p>
+         
+         
+         <p id="JCand_10.2">
+            jātyā guṇena kriyayā vastuyogena saṃjñayā <br />
+            nirdeśena tathā prāhuḥ ṣaḍvidhām abhidhāṃ budhāḥ //
+             <span class="ref">JCand_10.2</span></p>
+         
+         
+         <p id="JCand_10.3">
+            gaur nīlaḥ pācako daṇḍī ḍitthaḥ kaṃsa iti kramāt <br />
+            kaṃ saṃhinasti kaṃsārir naraṃ ca kaṃ samāśritam //
+             <span class="ref">JCand_10.3</span></p>
+         
+         
+         <p id="JCand_10.4">
+            na yogāder āyatanaṃ na saṅketaniketanam <br />
+            vṛttyā nirdeśaśabdo 'yaṃ mukhyayā svābhidheyayā //
+             <span class="ref">JCand_10.4</span></p>
+         
+         
+         <p id="JCand_10.5">
+            pīyūṣavarṣaprabhavaṃ candrālokamanoharam <br />
+            sudhānidhānam āsādya śrayadhvaṃ vibudhā mudam //
+             <span class="ref">JCand_10.5</span></p>
+         
+         
+         <p id="JCand_10.6">
+            jayanti yājñikaśrīmanmahādevāṅgajanmanaḥ <br />
+            sūktipīyūṣavarṣasya jayadevakaver giraḥ //
+             <span class="ref">JCand_10.6</span></p>
+         
+         
+         <p id="JCand_10.7">
+            mahādevaḥ satrapramukhamakhavidyaikacaturaḥ sumitrā tadbhaktipraṇihitamatir yasya pitarau <br />
+            mayūkhas tenāsau sukavijayadevena racite ciraṃ candrāloke mahati daśasaṃkhyaḥ sukhayatu //
+             <span class="ref">JCand_10.7</span></p>
+         
+         </div>
+   </body>
+</html>

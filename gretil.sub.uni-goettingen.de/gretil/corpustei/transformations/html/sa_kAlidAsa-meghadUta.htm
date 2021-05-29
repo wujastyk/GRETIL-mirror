@@ -1,0 +1,815 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Kālidāsa: Meghadūta (GRETIL)
+	</title>
+      <style>@font-face {
+    font-family: LinuxLibertineDisplay0Regular, times, serif;
+    src: url(fonts/LinLibertine_DR.woff);
+}
+* {box-sizing: border-box;}
+body {background-color: #FFFFFF; font-family: 'LinuxLibertineDisplayORegular'; font-weight: normal; font-style: normal; font-size: 18px; padding: 20px 100px 20px; width: 1600px;}
+
+ul {list-style: circle;}
+
+ul.dash {list-style: none; margin-left: .5em; padding-left: .5em;}
+ul.dash > li:before {display: inline-block; content: "–"; width: 1em; margin-left: 0em;}
+
+a:link {color: black; text-decoration: underline;}
+a:visited {color: black; text-decoration: underline;}
+a:hover {color: black; text-decoration: none;}
+a:active {color: black; text-decoration: underline;}
+
+p {padding-left: .5em; padding-right: .5em;}
+
+h4 {margin-bottom: 0px;}
+mark {background-color: #FFFFCC;}
+q:before {content: "»";}
+q:after {content: "«";}
+
+.noindent {padding: 0px;}
+.comm {padding-left: 1em; padding-right: 1em;}
+.app {width: 80%; text-align: right; font-size: 14px; padding-left: 1em;}
+.lem {display:inline-block;}
+.ref {font-size: 14px; padding: inherit;}
+.lb {font-weight: bold; font-size: 14px;}
+.lb:before {content: "["}
+.lb:after {content: "]"}
+.pb {font-weight: bold; font-size: 14px;}
+.pb:before {content: " ["}
+.pb:after {content: "] "}
+.note {font-weight: bold; font-size: 14px;}
+.note:before {content: " ["}
+.note:after {content: "] "}
+.subhead {font-weight: bold; font-size: 14px;}
+.appnote {font-size: 14px;}
+.appnote:before {content: " ["}
+.appnote:after {content: "] "}
+.hi {font-style: italic}
+.sic:before {content: "†"}
+.sic:after {content: "†"}
+.corr {color: #008000;}
+.supplied {color: #1E90FF;}
+.surplus {color: #ff3333;}
+.unclear {color: #D2B48C;}
+
+/* custom renditions */
+.b, .bf, .textbf, .bold {font-weight: bold}
+.i, .it, .textit, .italic {font-style: italic}
+.u, .underline {text-decoration: underline}
+.blue {color: #0000e6;}
+.red {color: #b30000;}
+
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 50%; padding-left: .5em; padding-right: .5em;}
+.analysis {font-size: 14px; color: #0066ff; padding-left: .5em; padding-right: .5em; padding-top: .1em;}
+.analysis:before {content: "["}
+.analysis:after {content: "]"}
+
+div.wapp:hover  span.lem {background-color: #FFFFCC;}
+
+@media screen and (max-width: 800px) {
+    body {font-size: 16px;}
+    .column {width: 100%;}
+    .analysis {width: 100%;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {padding: 10px;}
+    .app {width: 90%;}
+}
+
+@media only screen and (max-width: 1600px) {
+    body {width: auto; padding: 20px;}
+}
+
+#toc_container {background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 1em; width: auto;}
+.toc_title {font-weight: 700; text-align: center;}	  
+#toc_container li, #toc_container ul, #toc_container ul li{list-style: outside none none !important; padding-left: .5em;}
+</style>
+   </head>
+   <body>
+      <h1>Kālidāsa: Meghadūta</h1>
+      <h2>Header</h2>
+      <p>
+         This file is an html transformation of <a href="http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_kAlidAsa-meghadUta.xml">sa_kAlidAsa-meghadUta.xml</a> with a rudimentary header. For a more extensive header please refer to the source
+         file.
+         </p>
+      <p class="noindent"><b>Data entry: </b>Asko Parpola</p>
+      <p class="noindent"><b>Contribution: </b>Asko Parpola</p>
+      <p class="noindent"><b>Date of this version: </b>2020-07-31</p>
+      <h4>
+         <if test="fileDesc/sourceDesc/@xml:id" id=""></if>
+         	  Source:
+         	</h4>
+      <ul class="dash">
+         <li>S. K. De: Megha-dūta of Kālidāsa, 2nd rev. ed. by V. Raghavan. New Delhi : Sahitya
+            Akademi 1970.</li>
+      </ul>
+      <p class="noindent"><b>Publisher: </b>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</p>
+      <h4>Licence:</h4>
+      <p>This e-text was provided to GRETIL in good faith that no copyright rights have been
+         infringed.
+         	 If anyone wishes to assert copyright over this file, please contact the GRETIL management
+         at gretil(at)sub(dot)uni-goettingen(dot)de.
+         	 The file will be immediately removed pending resolution of the claim.</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License.</a></p>
+      <p class="noindent"><b>Interpretive markup: </b>none</p>
+      <h4>Notes:</h4>
+      <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">This file has been created by mass conversion of GRETIL's Sanskrit corpus from <a href="http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/5_poetry/2_kavya/kmeghdau.htm">kmeghdau.htm</a>. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+            the sake of transparency the header of the legacy file is documented in the &lt;note&gt; element below:</p>
+         	
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            	 Kalidasa: Meghaduta
+            <br />Based on the edition by S. K. De: Megha-dūta of Kālidāsa,
+            <br />2nd rev. ed. by V. Raghavan. New Delhi : Sahitya Akademi 1970
+            <br />
+            <br />Input by Asko Parpola
+            <br />July 2013
+            <br />
+            <br />TEXT WITH PADA MARKERS
+            	</p>
+         </notesStmt>
+      <h4>Revisions:</h4>
+      <ul class="dash">
+         <li>2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus</li>
+      </ul>
+      <hr />
+      <h2>Text</h2>
+      <div xml:lang="sa-Latn">
+         
+         
+         <p id="KMgD_1">
+            kaś cit kāntāvirahaguruṇā svādhikārapramattaḥ śāpenāstaṅgamitamahimā varṣabhogyeṇa bhartuḥ <br />
+            yakṣaś cakre janakatanayāsnānapuṇyodakeṣu snigdhacchāyātaruṣu vasatiṃ rāmagiryāśrameṣu //
+             <span class="ref">KMgD_1</span></p>
+         
+         
+         <p id="KMgD_2">
+            tasminn adrau kati cid abalāviprayuktaḥ sa kāmī nītvā māsān kanakavalayabhraṃśariktaprakoṣṭhaḥ <br />
+            āṣāḍhasya prathamadivase megham āśliṣṭasānuṃ vaprakrīḍāpariṇatagajaprekṣaṇīyaṃ dadarśa //
+             <span class="ref">KMgD_2</span></p>
+         
+         
+         <p id="KMgD_3">
+            tasya sthitvā katham api puraḥ ketakādhānahetor antarbāṣpaś ciram anucaro rājarājasya dadhyau <br />
+            meghāloke bhavati sukhino 'py anyathāvṛtti cetaḥ kaṇṭhāśleṣapraṇayini jane kiṃ punar dūrasaṃsthe //
+             <span class="ref">KMgD_3</span></p>
+         
+         
+         <p id="KMgD_4">
+            pratyāsanne nabhasi dayitājīvitālambanārthī jīmūtena svakuśalamayīṃ hārayiṣyan pravṛttim <br />
+            sa pratyagraiḥ kuṭajakusumaiḥ kalpitārghāya tasmai prītaḥ prītipramukhavacanaṃ svāgataṃ vyājahāra //
+             <span class="ref">KMgD_4</span></p>
+         
+         
+         <p id="KMgD_5">
+            dhūmajyotiḥsalilamarutāṃ saṃnipātaḥ kva meghaḥ saṃdeśārthāḥ kva paṭukaraṇaiḥ prāṇibhiḥ prāpaṇīyāḥ <br />
+            ity autsukyād aparigaṇayan guhyakas taṃ yayāce kāmārtā hi prakṛtikṛpaṇāś cetanācetaneṣu //
+             <span class="ref">KMgD_5</span></p>
+         
+         
+         <p id="KMgD_6">
+            jātaṃ vaṃśe bhuvanavidite puṣkarāvartakānāṃ jānāmi tvāṃ prakṛtipuruṣaṃ kāmarūpaṃ maghonaḥ <br />
+            tenārthitvaṃ tvayi vidhivaśād dūrabandhur gato 'haṃ yācñā moghā varam adhiguṇe nādhame labdhakāmā //
+             <span class="ref">KMgD_6</span></p>
+         
+         
+         <p id="KMgD_7">
+            saṃtaptānāṃ tvam asi śaraṇaṃ tat payoda priyāyāḥ saṃdeśaṃ me hara dhanapatikrodhaviśleṣitasya <br />
+            gantavyā te vasatir alakā nāma yakṣeśvarāṇāṃ bāhyodyānasthitaharaśiraścandrikādhautaharmyā //
+             <span class="ref">KMgD_7</span></p>
+         
+         
+         <p id="KMgD_8">
+            tvām ārūḍhaṃ pavanapadavīm udgṛhītālakāntāḥ prekṣiṣyante pathikavanitāḥ pratyayād āśvasantyaḥ <br />
+            kaḥ saṃnaddhe virahavidhurāṃ tvayy upekṣeta jāyāṃ na syād anyo 'py aham iva jano yaḥ parādhīnavṛttiḥ //
+             <span class="ref">KMgD_8</span></p>
+         
+         
+         <p id="KMgD_9">
+            mandaṃ mandaṃ nudati pavanaś cānukūlo yathā tvāṃ vāmaś cāyaṃ nadati madhuraṃ cātakas te sagandhaḥ <br />
+            garbhādhānakṣaṇaparicayān nūnam ābaddhamālāḥ seviṣyante nayanasubhagaṃ khe bhavantaṃ balākāḥ //
+             <span class="ref">KMgD_9</span></p>
+         
+         
+         <p id="KMgD_10">
+            tāṃ cāvaśyaṃ divasagaṇanātatparām ekapatnīm avyāpannām avihatagatir drakṣyasi bhrātṛjāyām <br />
+            āśābandhaḥ kusumasadṛśaṃ prāyaśo hy aṅganānāṃ sadyaḥpāti praṇayi hṛdayaṃ viprayoge ruṇaddhi //
+             <span class="ref">KMgD_10</span></p>
+         
+         
+         <p id="KMgD_11">
+            kartuṃ yac ca prabhavati mahīm ucchilīndhrām avandhyāṃ tac chrutvā te śravaṇasubhagaṃ garjitaṃ mānasotkāḥ <br />
+            ā kailāsād bisakisalayacchedapātheyavantaḥ saṃpatsyante nabhasi bhavato rājahaṃsāḥ sahāyāḥ //
+             <span class="ref">KMgD_11</span></p>
+         
+         
+         <p id="KMgD_12">
+            āpṛcchasva priyasakham amuṃ tuṅgam āliṅgya śailaṃ vandyaiḥ puṃsāṃ raghupatipadair aṅkitaṃ mekhalāsu <br />
+            kāle kāle bhavati bhavatā yasya saṃyogam etya snehavyaktiś ciravirahajaṃ muñcato bāṣpam uṣṇam //
+             <span class="ref">KMgD_12</span></p>
+         
+         
+         <p id="KMgD_13">
+            mārgaṃ tāvac chṛṇu kathayatas tvatprayāṇānurūpaṃ saṃdeśaṃ me tadanu jalada śroṣyasi śrotrapeyam <br />
+            khinnaḥ khinnaḥ śikhariṣu padaṃ nyasya gantāsi yatra kṣīṇaḥ kṣīṇaḥ parilaghu payaḥ srotasāṃ copabhujya //
+             <span class="ref">KMgD_13</span></p>
+         
+         
+         <p id="KMgD_14">
+            adreḥ śṛṅgaṃ harati pavanaḥ kiṃ svid ity unmukhībhir dṛṣṭotsāhaś cakitacakitaṃ mugdhasiddhāṅganābhiḥ <br />
+            sthānād asmāt sarasaniculād utpatodaṅmukhaḥ khaṃ diṅnāgānāṃ pathi pariharan sthūlahastāvalepān //
+             <span class="ref">KMgD_14</span></p>
+         
+         
+         <p id="KMgD_15">
+            ratnacchāyāvyatikara iva prekṣyam etat purastād valmīkāgrāt prabhavati dhanuḥkhaṇḍam ākhaṇḍalasya <br />
+            yena śyāmaṃ vapur atitarāṃ kāntim āpatsyate te barheṇeva sphuritarucinā gopaveṣasya viṣṇoḥ //
+             <span class="ref">KMgD_15</span></p>
+         
+         
+         <p id="KMgD_16">
+            tvayy āyattaṃ kṛṣiphalam iti bhrūvikārānabhijñaiḥ prītisnigdhair janapadavadhūlocanaiḥ pīyamānaḥ <br />
+            sadyaḥsīrotkaṣaṇasurabhikṣetram āruhya mālaṃ kiṃ cit paścād vraja laghugatir bhūya evottareṇa //
+             <span class="ref">KMgD_16</span></p>
+         
+         
+         <p id="KMgD_17">
+            tvām āsārapraśamitavanopaplavaṃ sādhu mūrdhnā vakṣyaty adhvaśramaparigataṃ sānumān āmrakūṭaḥ <br />
+            na kṣudro 'pi prathamasukṛtāpekṣayā saṃśrayāya prāpte mitre bhavati vimukhaḥ kiṃ punar yas tathoccaiḥ //
+             <span class="ref">KMgD_17</span></p>
+         
+         
+         <p id="KMgD_18">
+            channopāntaḥ pariṇataphaladyotibhiḥ kānanāmrais tvayy ārūḍhe śikharam acalaḥ snigdhaveṇīsavarṇe <br />
+            nūnaṃ yāsyaty amaramithunaprekṣaṇīyām avasthāṃ madhye śyāmaḥ stana iva bhuvaḥ śeṣavistārapāṇḍuḥ //
+             <span class="ref">KMgD_18</span></p>
+         
+         
+         <p id="KMgD_19">
+            sthitvā tasmin vanacaravadhūbhuktakuñje muhūrtaṃ toyotsargadrutataragatis tatparaṃ vartma tīrṇaḥ <br />
+            revāṃ drakṣyasy upalaviṣame vindhyapāde viśīrṇāṃ bhakticchedair iva viracitāṃ bhūtim aṅge gajasya //
+             <span class="ref">KMgD_19</span></p>
+         
+         
+         <p id="KMgD_20">
+            tasyās tiktair vanagajamadair vāsitaṃ vāntavṛṣṭir jambūkuñjapratihatarayaṃ toyam ādāya gaccheḥ <br />
+            antaḥsāraṃ ghana tulayituṃ nānilaḥ śakṣyati tvāṃ riktaḥ sarvo bhavati hi laghuḥ pūrṇatā gauravāya //
+             <span class="ref">KMgD_20</span></p>
+         
+         
+         <p id="KMgD_21">
+            nīpaṃ dṛṣṭvā haritakapiśaṃ kesarair ardharūḍhair āvirbhūtaprathamamukulāḥ kandalīś cānukaccham <br />
+            dagdhāraṇyeṣv adhikasurabhiṃ gandham āghrāya corvyāḥ sāraṅgās te jalalavamucaḥ sūcayiṣyanti mārgam //
+             <span class="ref">KMgD_21</span></p>
+         
+         
+         <p id="KMgD_22">
+            utpaśyāmi drutam api sakhe matpriyārthaṃ yiyāsoḥ kālakṣepaṃ kakubhasurabhau parvate parvate te <br />
+            śuklāpāṅgaiḥ sajalanayanaiḥ svāgatīkṛtya kekāḥ pratyudyātaḥ katham api bhavān gantum āśu vyavasyet //
+             <span class="ref">KMgD_22</span></p>
+         
+         
+         <p id="KMgD_23">
+            pāṇḍucchāyopavanavṛtayaḥ ketakaiḥ sūcibhinnair nīḍārambhair gṛhabalibhujām ākulagrāmacaityāḥ <br />
+            tvayy āsanne pariṇataphalaśyāmajambūvanāntāḥ saṃpatsyante katipayadinasthāyihaṃsā daśārṇāḥ //
+             <span class="ref">KMgD_23</span></p>
+         
+         
+         <p id="KMgD_24">
+            teṣāṃ dikṣu prathitavidiśālakṣaṇāṃ rājadhānīṃ gatvā sadyaḥ phalam api mahat kāmukatvasya labdhā <br />
+            tīropāntastanitasubhagaṃ pāsyasi svādu yat tat sabhrūbhaṅgaṃ mukham iva payo vetravatyāś calormi //
+             <span class="ref">KMgD_24</span></p>
+         
+         
+         <p id="KMgD_25">
+            nīcairākhyaṃ girim adhivases tatra viśrāmahetos tvatsamparkāt pulakitam iva prauḍhapuṣpaiḥ kadambaiḥ <br />
+            yaḥ paṇyastrīratiparimalodgāribhir nāgarāṇām uddāmāni prathayati śilāveśmabhir yauvanāni //
+             <span class="ref">KMgD_25</span></p>
+         
+         
+         <p id="KMgD_26">
+            viśrāntaḥ san vraja vananadītīrajātāni siñcann udyānānāṃ navajalakaṇair yūthikājālakāni <br />
+            gaṇḍasvedāpanayanarujāklāntakarṇotpalānāṃ chāyādānāt kṣaṇaparicitaḥ puṣpalāvīmukhānām //
+             <span class="ref">KMgD_26</span></p>
+         
+         
+         <p id="KMgD_27">
+            vakraḥ panthā yad api bhavataḥ prasthitasyottarāśāṃ saudhotsaṅgapraṇayavimukho mā sma bhūr ujjayinyāḥ <br />
+            vidyuddāmasphuritacakitais tatra paurāṅganānāṃ lolāpāṅgair yadi na ramase locanair vañcito 'si //
+             <span class="ref">KMgD_27</span></p>
+         
+         
+         <p id="KMgD_28">
+            vīcikṣobhastanitavihagaśreṇikāñcīguṇāyāḥ saṃsarpantyāḥ skhalitasubhagaṃ darśitāvartanābheḥ <br />
+            nirvindhyāyāḥ pathi bhava rasābhyantaraḥ saṃnipatya strīṇām ādyaṃ praṇayavacanaṃ vibhramo hi priyeṣu //
+             <span class="ref">KMgD_28</span></p>
+         
+         
+         <p id="KMgD_29">
+            veṇībhūtapratanusalilā tām atītasya sindhuḥ pāṇḍucchāyā taṭaruhatarubhraṃśibhir jīrṇaparṇaiḥ <br />
+            saubhāgyaṃ te subhaga virahāvasthayā vyañjayantī kārśyaṃ yena tyajati vidhinā sa tvayaivopapādyaḥ //
+             <span class="ref">KMgD_29</span></p>
+         
+         
+         <p id="KMgD_30">
+            prāpyāvantīn udayanakathākovidagrāmavṛddhān pūrvoddiṣṭām anusara purīṃ śrīviśālāṃ viśālām <br />
+            svalpībhūte sucaritaphale svargiṇāṃ gāṃ gatānāṃ śeṣaiḥ puṇyair hṛtam iva divaḥ kāntimat khaṇḍam ekam //
+             <span class="ref">KMgD_30</span></p>
+         
+         
+         <p id="KMgD_31">
+            dīrghīkurvan paṭu madakalaṃ kūjitaṃ sārasānāṃ pratyūṣeṣu sphuṭitakamalāmodamaitrīkaṣāyaḥ <br />
+            yatra strīṇāṃ harati surataglānim aṅgānukūlaḥ siprāvātaḥ priyatama iva prārthanācāṭukāraḥ //
+             <span class="ref">KMgD_31</span></p>
+         
+         
+         <p id="KMgD_32">
+            jālodgīrṇair upacitavapuḥ keśasaṃskāradhūpair bandhuprītyā bhavanaśikhibhir dattanṛttopahāraḥ <br />
+            harmyeṣv asyāḥ kusumasurabhiṣv adhvakhinnāntarātmā nītvā rātriṃ lalitavanitāpādarāgāṅkiteṣu //
+             <span class="ref">KMgD_32</span></p>
+         
+         
+         <p id="KMgD_33">
+            bhartuḥ kaṇṭhacchavir iti gaṇaiḥ sādaraṃ vīkṣyamāṇaḥ puṇyaṃ yāyās tribhuvanaguror dhāma caṇḍeśvarasya <br />
+            dhūtodyānaṃ kuvalayarajogandhibhir gandhavatyās toyakrīḍāniratayuvatisnānatiktair marudbhiḥ //
+             <span class="ref">KMgD_33</span></p>
+         
+         
+         <p id="KMgD_34">
+            apy anyasmiñ jaladhara mahākālam āsādya kāle sthātavyaṃ te nayanaviṣayaṃ yāvad atyeti bhānuḥ <br />
+            kurvan saṃdhyābalipaṭahatāṃ śūlinaḥ ślāghanīyām āmandrāṇāṃ phalam avikalaṃ lapsyase garjitānām //
+             <span class="ref">KMgD_34</span></p>
+         
+         
+         <p id="KMgD_35">
+            pādanyāsakvaṇitaraśanās tatra līlāvadhūtai ratnacchāyāracitavalibhiś cāmaraiḥ klāntahastāḥ <br />
+            veśyās tvatto nakhapadasukhān prāpya varṣāgrabindūn āmokṣyante tvayi madhukaraśreṇidīrghān kaṭākṣān //
+             <span class="ref">KMgD_35</span></p>
+         
+         
+         <p id="KMgD_36">
+            paścād uccairbhujataruvanaṃ maṇḍalenābhilīnaḥ sāṃdhyaṃ tejaḥ pratinavajapāpuṣparaktaṃ dadhānaḥ <br />
+            nṛttārambhe hara paśupater ārdranāgājinecchāṃ śāntodvegastimitanayanaṃ dṛṣṭabhaktir bhavānyā //
+             <span class="ref">KMgD_36</span></p>
+         
+         
+         <p id="KMgD_37">
+            gacchantīnāṃ ramaṇavasatiṃ yoṣitāṃ tatra naktaṃ ruddhāloke narapatipathe sūcibhedyais tamobhiḥ <br />
+            saudāmanyā kanakanikaṣasnigdhayā darśayorvīṃ toyotsargastanitamukharo mā sma bhūr viklavās tāḥ //
+             <span class="ref">KMgD_37</span></p>
+         
+         
+         <p id="KMgD_38">
+            tāṃ kasyāṃ cid bhavanavalabhau suptapārāvatāyāṃ nītvā rātriṃ ciravilasanāt khinnavidyutkalatraḥ <br />
+            dṛṣṭe sūrye punar api bhavān vāhayed adhvaśeṣaṃ mandāyante na khalu suhṛdām abhyupetārthakṛtyāḥ //
+             <span class="ref">KMgD_38</span></p>
+         
+         
+         <p id="KMgD_39">
+            tasmin kāle nayanasalilaṃ yoṣitāṃ khaṇḍitānāṃ śāntiṃ neyaṃ praṇayibhir ato vartma bhānos tyajāśu <br />
+            prāleyāsraṃ kamalavadanāt so 'pi hartuṃ nalinyāḥ pratyāvṛttas tvayi kararudhi syād analpābhyasūyaḥ //
+             <span class="ref">KMgD_39</span></p>
+         
+         
+         <p id="KMgD_40">
+            gambhīrāyāḥ payasi saritaś cetasīva prasanne chāyātmāpi prakṛtisubhago lapsyate te praveśam <br />
+            tasmād asyāḥ kumudaviśadāny arhasi tvaṃ na dhairyān moghīkartuṃ caṭulaśapharodvartanaprekṣitāni //
+             <span class="ref">KMgD_40</span></p>
+         
+         
+         <p id="KMgD_41">
+            tasyāḥ kiṃ cit karadhṛtam iva prāptavānīraśākhaṃ hṛtvā nīlaṃ salilavasanaṃ muktarodhonitambam <br />
+            prasthānaṃ te katham api sakhe lambamānasya bhāvi jñātāsvādo vivṛtajaghanāṃ ko vihātuṃ samarthaḥ //
+             <span class="ref">KMgD_41</span></p>
+         
+         
+         <p id="KMgD_42">
+            tvanniṣyandocchvasitavasudhāgandhasaṃparkaramyaḥ srotorandhradhvanitasubhagaṃ dantibhiḥ pīyamānaḥ <br />
+            nīcair vāsyaty upajigamiṣor devapūrvaṃ giriṃ te śīto vāyuḥ pariṇamayitā kānanodumbarāṇām //
+             <span class="ref">KMgD_42</span></p>
+         
+         
+         <p id="KMgD_43">
+            tatra skandaṃ niyatavasatiṃ puṣpameghīkṛtātmā puṣpāsāraiḥ snapayatu bhavān vyomagaṅgājalādreḥ <br />
+            rakṣāhetor navaśaśibhṛtā vāsavīnāṃ camūnām atyādityaṃ hutavahamukhe saṃbhṛtaṃ tadd hi tejaḥ //
+             <span class="ref">KMgD_43</span></p>
+         
+         
+         <p id="KMgD_44">
+            jyotirlekhāvalayi galitaṃ yasya barhaṃ bhavānī putrapremṇā kuvalayadalaprāpi karṇe karoti <br />
+            dhautāpāṅgaṃ haraśaśirucā pāvakes taṃ mayūraṃ paścād adrigrahaṇagurubhir garjitair nartayethāḥ //
+             <span class="ref">KMgD_44</span></p>
+         
+         
+         <p id="KMgD_45">
+            ārādhyainaṃ śaravaṇabhavaṃ devam ullaṅghitādhvā siddhadvandvair jalakaṇabhayād vīṇibhir muktamārgaḥ <br />
+            vyālambethāḥ surabhitanayālambhajāṃ mānayiṣyan srotomūrtyā bhuvi pariṇatāṃ rantidevasya kīrtim //
+             <span class="ref">KMgD_45</span></p>
+         
+         
+         <p id="KMgD_46">
+            tvayy ādātuṃ jalam avanate śārṅgiṇo varṇacaure tasyāḥ sindhoḥ pṛthum api tanuṃ dūrabhāvāt pravāham <br />
+            prekṣiṣyante gaganagatayo dūram āvarjya dṛṣṭīr ekaṃ muktāguṇam iva bhuvaḥ sthūlamadhyendranīlam //
+             <span class="ref">KMgD_46</span></p>
+         
+         
+         <p id="KMgD_47">
+            tām uttīrya vraja paricitabhrūlatāvibhramāṇāṃ pakṣmotkṣepād uparivilasatkṛṣṇaśāraprabhāṇām <br />
+            kundakṣepānugamadhukaraśrīmuṣām ātmabimbaṃ pātrīkurvan daśapuravadhūnetrakautūhalānām //
+             <span class="ref">KMgD_47</span></p>
+         
+         
+         <p id="KMgD_48">
+            brahmāvartaṃ janapadam adhaśchāyayā gāhamānaḥ kṣetraṃ kṣatrapradhanapiśunaṃ kauravaṃ tad bhajethāḥ <br />
+            rājanyānāṃ śitaśaraśatair yatra gāṇḍīvadhanvā dhārāpātais tvam iva kamalāny abhyavarṣan mukhāni //
+             <span class="ref">KMgD_48</span></p>
+         
+         
+         <p id="KMgD_49">
+            hitvā hālām abhimatarasāṃ revatīlocanāṅkāṃ bandhuprītyā samaravimukho lāṅgalī yāḥ siṣeve <br />
+            kṛtvā tāsām abhigamam apāṃ saumya sārasvatīnām antaḥśuddhas tvam asi bhavitā varṇamātreṇa kṛṣṇaḥ //
+             <span class="ref">KMgD_49</span></p>
+         
+         
+         <p id="KMgD_50">
+            tasmād gaccher anukanakhalaṃ śailarājāvatīrṇāṃ jahnoḥ kanyāṃ sagaratanayasvargasopānapaṅktim <br />
+            gaurīvaktrabhrukuṭiracanāṃ yā vihasyeva phenaiḥ śambhoḥ keśagrahaṇam akarod indulagnormihastā //
+             <span class="ref">KMgD_50</span></p>
+         
+         
+         <p id="KMgD_51">
+            tasyāḥ pātuṃ suragaja iva vyomni paścārdhalambī tvaṃ ced acchasphaṭikaviśadaṃ tarkayes tiryag ambhaḥ <br />
+            saṃsarpantyā sapadi bhavataḥ srotasi cchāyayā sā syād asthānopagatayamunāsaṃgam evābhirāmā //
+             <span class="ref">KMgD_51</span></p>
+         
+         
+         <p id="KMgD_52">
+            āsīnānāṃ surabhitaśilaṃ nābhigandhair mṛgāṇāṃ tasyā eva prabhavam acalaṃ prāpya gauraṃ tuṣāraiḥ <br />
+            vakṣyasy adhvaśramavinayane tasya śṛṅge niṣaṇṇaḥ śobhāṃ śubhratrinayanavṛṣotkhātapaṅkopameyām //
+             <span class="ref">KMgD_52</span></p>
+         
+         
+         <p id="KMgD_53">
+            taṃ ced vāyau sarati saralaskandhasaṃghaṭṭajanmā bādhetolkākṣapitacamarībālabhāro davāgniḥ <br />
+            arhasy enaṃ śamayitum alaṃ vāridhārāsahasrair āpannārtipraśamanaphalāḥ saṃpado hy uttamānām //
+             <span class="ref">KMgD_53</span></p>
+         
+         
+         <p id="KMgD_54">
+            ye tvāṃ muktadhvanim asahanāḥ svāṅgabhaṅgāya tasmin darpotsekād upari śarabhā laṅghayiṣyanty alaṅghyam <br />
+            tān kurvīthās tumulakarakāvṛṣṭihāsāvakīrṇān ke vā na syuḥ paribhavapadaṃ niṣphalārambhayatnāḥ //
+             <span class="ref">KMgD_54</span></p>
+         
+         
+         <p id="KMgD_55">
+            tatra vyaktaṃ dṛṣadi caraṇanyāsam ardhendumauleḥ śaśvat siddhair upahṛtabaliṃ bhaktinamraḥ parīyāḥ <br />
+            yasmin dṛṣṭe karaṇavigamād ūrdhvam uddhūtapāpāḥ kalpante 'sya sthiragaṇapadaprāptaye śraddadhānāḥ //
+             <span class="ref">KMgD_55</span></p>
+         
+         
+         <p id="KMgD_56">
+            śabdāyante madhuram anilaiḥ kīcakāḥ pūryamāṇāḥ saṃraktābhis tripuravijayo gīyate kiṃnarībhiḥ <br />
+            nirhrādī te muraja iva cet kandareṣu dhvaniḥ syāt saṃgītārtho nanu paśupates tatra bhāvī samastaḥ //
+             <span class="ref">KMgD_56</span></p>
+         
+         
+         <p id="KMgD_57">
+            prāleyādrer upataṭam atikramya tāṃs tān viśeṣān haṃsadvāraṃ bhṛgupatiyaśovartma yat krauñcarandhram <br />
+            tenodīcīṃ diśam anusares tiryagāyāmaśobhī śyāmaḥ pādo baliniyamanābhyudyatasyeva viṣṇoḥ //
+             <span class="ref">KMgD_57</span></p>
+         
+         
+         <p id="KMgD_58">
+            gatvā cordhvaṃ daśamukhabhujocchvāsitaprasthasaṃdheḥ kailāsasya tridaśavanitādarpaṇasyātithiḥ syāḥ <br />
+            śṛṅgocchrāyaiḥ kumudaviśadair yo vitatya sthitaḥ khaṃ rāśībhūtaḥ pratidiśam iva tryambakasyāṭṭahāsaḥ //
+             <span class="ref">KMgD_58</span></p>
+         
+         
+         <p id="KMgD_59">
+            utpaśyāmi tvayi taṭagate snigdhabhinnāñjanābhe sadyaḥkṛttadviradadaśanacchedagaurasya tasya <br />
+            līlām adreḥ stimitanayanaprekṣaṇīyāṃ bhavitrīm aṃsanyaste sati halabhṛto mecake vāsasīva //
+             <span class="ref">KMgD_59</span></p>
+         
+         
+         <p id="KMgD_60">
+            hitvā tasmin bhujagavalayaṃ śambhunā dattahastā krīḍāśaile yadi ca viharet pādacāreṇa gaurī <br />
+            bhaṅgībhaktyā viracitavapuḥ stambhitāntarjalaughaḥ sopānatvaṃ kuru padasukhasparśam ārohaṇeṣu //
+             <span class="ref">KMgD_60</span></p>
+         
+         
+         <p id="KMgD_61">
+            tatrāvaśyaṃ valayakuliśodghaṭṭanodgīrṇatoyaṃ neṣyanti tvāṃ surayuvatayo yantradhārāgṛhatvam <br />
+            tābhyo mokṣas tava yadi sakhe gharmalabdhasya na syāt krīḍālolāḥ śravaṇaparuṣair garjitair bhāyayes tāḥ //
+             <span class="ref">KMgD_61</span></p>
+         
+         
+         <p id="KMgD_62">
+            hemāmbhojaprasavi salilaṃ mānasasyādadānaḥ kurvan kāmāt kṣaṇamukhapaṭaprītim airāvaṇasya <br />
+            dhunvan vātaiḥ sajalapṛṣataiḥ kalpavṛkṣāṃśukāni cchāyābhinnaḥ sphaṭikaviśadaṃ nirviśes taṃ nagendram //
+             <span class="ref">KMgD_62</span></p>
+         
+         
+         <p id="KMgD_63">
+            tasyotsaṅge praṇayina iva srastagaṅgādukūlāṃ na tvaṃ dṛṣṭvā na punar alakāṃ jñāsyase kāmacārin <br />
+            yā vaḥ kāle vahati salilodgāram uccairvimānā muktājālagrathitam alakaṃ kāminīvābhravṛndam //
+             <span class="ref">KMgD_63</span></p>
+         
+         
+         <p id="KMgD_64">
+            vidyutvantaṃ lalitavanitāḥ sendracāpaṃ sacitrāḥ saṃgītāya prahatamurajāḥ snigdhagambhīraghoṣam <br />
+            antastoyaṃ maṇimayabhuvas tuṅgam abhraṃlihāgrāḥ prāsādās tvāṃ tulayitum alaṃ yatra tais tair viśeṣaiḥ //
+             <span class="ref">KMgD_64</span></p>
+         
+         
+         <p id="KMgD_65">
+            haste līlākamalam alakaṃ bālakundānuviddhaṃ nītā lodhraprasavarajasā pāṇḍutām ānanaśrīḥ <br />
+            cūḍāpāśe navakuravakaṃ cāru karṇe śirīṣaṃ sīmante ca tvadupagamajaṃ yatra nīpaṃ vadhūnām //
+             <span class="ref">KMgD_65</span></p>
+         
+         
+         <p id="KMgD_66">
+            yasyāṃ yakṣāḥ sitamaṇimayāny etya harmyasthalāni jyotiśchāyākusumaracanāny uttamastrīsahāyāḥ <br />
+            āsevante madhu ratiphalaṃ kalpavṛkṣaprasūtaṃ tvadgambhīradhvaniṣu śanakaiḥ puṣkareṣv āhateṣu //
+             <span class="ref">KMgD_66</span></p>
+         
+         
+         <p id="KMgD_67">
+            yatra strīṇāṃ priyatamabhujocchvāsitāliṅgitānām aṅgaglāniṃ suratajanitāṃ tantujālāvalambāḥ <br />
+            tvatsaṃrodhāpagamaviśadaiś cotitāś candrapādair vyālumpanti sphuṭajalalavasyandinaś candrakāntāḥ //
+             <span class="ref">KMgD_67</span></p>
+         
+         
+         <p id="KMgD_68">
+            netrā nītāḥ satatagatinā yad vimānāgrabhūmīr ālekhyānāṃ salilakaṇikādoṣam utpādya sadyaḥ <br />
+            śaṅkāspṛṣṭā iva jalamucas tvādṛśā yatra jālair dhūmodgārānukṛtinipuṇā jarjarā niṣpatanti //
+             <span class="ref">KMgD_68</span></p>
+         
+         
+         <p id="KMgD_69">
+            nīvībandhocchvasitaśithilaṃ yatra yakṣāṅganānāṃ vāsaḥ kāmād anibhṛtakareṣv ākṣipatsu priyeṣu <br />
+            arcistuṅgān abhimukham api prāpya ratnapradīpān hrīmūḍhānāṃ bhavati viphalapreraṇā cūrṇamuṣṭiḥ //
+             <span class="ref">KMgD_69</span></p>
+         
+         
+         <p id="KMgD_70">
+            gatyutkampād alakapatitair yatra mandārapuṣpaiḥ patracchedaiḥ kanakakamalaiḥ karṇavibhraṃśibhiś ca <br />
+            muktājālaiḥ stanaparicitacchinnasūtraiś ca hārair naiśo mārgaḥ savitur udaye sūcyate kāminīnām //
+             <span class="ref">KMgD_70</span></p>
+         
+         
+         <p id="KMgD_71">
+            matvā devaṃ dhanapatisakhaṃ yatra sākṣād vasantaṃ prāyaś cāpaṃ na vahati bhayān manmathaḥ ṣaṭpadajyam <br />
+            sabhrūbhaṅgaprahitanayanaiḥ kāmilakṣyeṣv amoghais tasyārambhaś caturavanitāvibhramair eva siddhaḥ //
+             <span class="ref">KMgD_71</span></p>
+         
+         
+         <p id="KMgD_72">
+            tatrāgāraṃ dhanapatigṛhād uttareṇāsmadīyaṃ dūrāl lakṣyaṃ tad amaradhanuś cāruṇā toraṇena <br />
+            yasyodyāne kṛtakatanayaḥ kāntayā vardhito me hastaprāpyastabakanamito bālamandāravṛkṣaḥ //
+             <span class="ref">KMgD_72</span></p>
+         
+         
+         <p id="KMgD_73">
+            vāpī cāsmin marakataśilābaddhasopānamārgā haimaiḥ syūtā kamalamukulaiḥ snigdhavaiḍūryanālaiḥ <br />
+            yasyās toye kṛtavasatayo mānasaṃ saṃnikṛṣṭaṃ nādhyāsyanti vyapagataśucas tvām api prekṣya haṃsāḥ //
+             <span class="ref">KMgD_73</span></p>
+         
+         
+         <p id="KMgD_74">
+            tasyās tīre racitaśikharaḥ peśalair indranīlaiḥ krīḍāśailaḥ kanakakadalīveṣṭanaprekṣaṇīyaḥ <br />
+            madgehinyāḥ priya iti sakhe cetasā kātareṇa prekṣyopāntasphuritataḍitaṃ tvāṃ tam eva smarāmi //
+             <span class="ref">KMgD_74</span></p>
+         
+         
+         <p id="KMgD_75">
+            raktāśokaś calakisalayaḥ kesaraś cātra kāntaḥ pratyāsannau kuravakavṛter mādhavīmaṇḍapasya <br />
+            ekaḥ sakhyās tava saha mayā vāmapādābhilāṣī kāṅkṣaty anyo vadanamadirāṃ dohadacchadmanāsyāḥ //
+             <span class="ref">KMgD_75</span></p>
+         
+         
+         <p id="KMgD_76">
+            tanmadhye ca sphaṭikaphalakā kāñcanī vāsayaṣṭir mūle baddhā maṇibhir anatiprauḍhavaṃśaprakāśaiḥ <br />
+            tālaiḥ śiñjadvalayasubhagair nartitaḥ kāntayā me yām adhyāste divasavigame nīlakaṇṭhaḥ suhṛd vaḥ //
+             <span class="ref">KMgD_76</span></p>
+         
+         
+         <p id="KMgD_77">
+            ebhiḥ sādho hṛdayanihitair lakṣaṇair lakṣayethā dvāropānte likhitavapuṣau śaṅkhapadmau ca dṛṣṭvā <br />
+            kṣāmacchāyaṃ bhavanam adhunā madviyogena nūnaṃ sūryāpāye na khalu kamalaṃ puṣyati svām abhikhyām //
+             <span class="ref">KMgD_77</span></p>
+         
+         
+         <p id="KMgD_78">
+            gatvā sadyaḥ kalabhatanutāṃ śīghrasaṃpātahetoḥ krīḍāśaile prathamakathite ramyasānau niṣaṇṇaḥ <br />
+            arhasy antarbhavanapatitāṃ kartum alpālpabhāsaṃ khadyotālīvilasitanibhāṃ vidyudunmeṣadṛṣṭim //
+             <span class="ref">KMgD_78</span></p>
+         
+         
+         <p id="KMgD_79">
+            tanvī śyāmā śikharadaśanā pakvabimbādharoṣṭhī madhye kṣāmā cakitahariṇīprekṣaṇā nimnanābhiḥ <br />
+            śroṇībhārād alasagamanā stokanamrā stanābhyāṃ yā tatra syād yuvativiṣaye sṛṣṭir ādyeva dhātuḥ //
+             <span class="ref">KMgD_79</span></p>
+         
+         
+         <p id="KMgD_80">
+            tāṃ jānīyāḥ parimitakathāṃ jīvitaṃ me dvitīyaṃ dūrībhūte mayi sahacare cakravākīm ivaikām <br />
+            gāḍhotkaṇṭhāṃ guruṣu divaseṣv eṣu gacchatsu bālāṃ jātāṃ manye śiśiramathitāṃ padminīṃ vānyarūpām //
+             <span class="ref">KMgD_80</span></p>
+         
+         
+         <p id="KMgD_81">
+            nūnaṃ tasyāḥ prabalaruditocchūnanetraṃ bahūnāṃ niḥśvāsānām aśiśiratayā bhinnavarṇādharoṣṭham <br />
+            hastanyastaṃ mukham asakalavyakti lambālakatvād indor dainyaṃ tvadupasaraṇakliṣṭakānter bibharti //
+             <span class="ref">KMgD_81</span></p>
+         
+         
+         <p id="KMgD_82">
+            āloke te nipatati purā sā balivyākulā vā matsādṛśyaṃ virahatanu vā bhāvagamyaṃ likhantī <br />
+            pṛcchantī vā madhuravacanāṃ sārikāṃ pañjarasthāṃ kac cid bhartuḥ smarasi rasike tvaṃ hi tasya priyeti //
+             <span class="ref">KMgD_82</span></p>
+         
+         
+         <p id="KMgD_83">
+            utsaṅge vā malinavasane saumya nikṣipya vīṇāṃ madgotrāṅkaṃ viracitapadaṃ geyam udgātukāmā <br />
+            tantrīr ārdrā nayanasalilaiḥ sārayitvā kathaṃ cid bhūyo bhūyaḥ svayam api kṛtāṃ mūrcchanāṃ vismarantī //
+             <span class="ref">KMgD_83</span></p>
+         
+         
+         <p id="KMgD_84">
+            śeṣān māsān virahadivasasthāpitasyāvadher vā vinyasyantī bhuvi gaṇanayā dehalīmuktapuṣpaiḥ <br />
+            sambhogaṃ vā hṛdayanihitārambham āsvādayantī prāyeṇaite ramaṇaviraheṣv aṅganānāṃ vinodāḥ //
+             <span class="ref">KMgD_84</span></p>
+         
+         
+         <p id="KMgD_85">
+            savyāpārām ahani na tathā pīḍayed viprayogaḥ śaṅke rātrau gurutaraśucaṃ nirvinodāṃ sakhīṃ te <br />
+            matsaṃdeśaiḥ sukhayitum ataḥ paśya sādhvīṃ niśīthe tām unnidrām avaniśayanāsannavātāyanasthaḥ //
+             <span class="ref">KMgD_85</span></p>
+         
+         
+         <p id="KMgD_86">
+            ādhikṣāmāṃ virahaśayane saṃniṣaṇṇaikapārśvāṃ prācīmūle tanum iva kalāmātraśeṣāṃ himāṃśoḥ <br />
+            nītā rātriḥ kṣaṇa iva mayā sārdham icchāratair yā tām evoṣṇair virahamahatīm aśrubhir yāpayantīm //
+             <span class="ref">KMgD_86</span></p>
+         
+         
+         <p id="KMgD_87">
+            niḥśvāsenādharakisalayakleśinā vikṣipantīṃ śuddhasnānāt paruṣamalakaṃ nūnam āgaṇḍalambam <br />
+            matsaṃyogaḥ katham upanamet svapnajo 'pīti nidrām ākāṅkṣantīṃ nayanasalilotpīḍaruddhāvakāśām //
+             <span class="ref">KMgD_87</span></p>
+         
+         
+         <p id="KMgD_88">
+            ādye baddhā virahadivase yā śikhā dāma hitvā śāpasyānte vigalitaśucā tāṃ mayodveṣṭanīyām <br />
+            sparśakliṣṭām ayamitanakhenāsakṛt sārayantīṃ gaṇḍābhogāt kaṭhinaviṣamām ekaveṇīṃ kareṇa //
+             <span class="ref">KMgD_88</span></p>
+         
+         
+         <p id="KMgD_89">
+            pādān indor amṛtaśiśirāñjālamārgapraviṣṭān pūrvaprītyā gatam abhimukhaṃ saṃnivṛttaṃ tathaiva <br />
+            cakṣuḥ khedāt salilagurubhiḥ pakṣmabhiś chādayantīṃ sābhre 'hnīva sthalakamalinīṃ na prabuddhāṃ na suptām //
+             <span class="ref">KMgD_89</span></p>
+         
+         
+         <p id="KMgD_90">
+            sā saṃnyastābharaṇam abalā pelavaṃ dhārayantī śayyotsaṅge nihitam asakṛd duḥkhaduḥkhena gātram <br />
+            tvām apy asraṃ navajalamayaṃ mocayiṣyaty avaśyaṃ prāyaḥ sarvo bhavati karuṇāvṛttir ārdrāntarātmā //
+             <span class="ref">KMgD_90</span></p>
+         
+         
+         <p id="KMgD_91">
+            jāne sakhyās tava mayi manaḥ saṃbhṛtasneham asmād itthaṃbhūtāṃ prathamavirahe tām ahaṃ tarkayāmi <br />
+            vācālaṃ māṃ na khalu subhagaṃmanyabhāvaḥ karoti pratyakṣaṃ te nikhilam acirād bhrātar uktaṃ mayā yat //
+             <span class="ref">KMgD_91</span></p>
+         
+         
+         <p id="KMgD_92">
+            ruddhāpāṅgaprasaram alakair añjanasnehaśūnyaṃ pratyādeśād api ca madhuno vismṛtabhrūvilāsam <br />
+            tvayy āsanne nayanam uparispandi śaṅke mṛgākṣyā mīnakṣobhāc calakuvalayaśrītulām eṣyatīti //
+             <span class="ref">KMgD_92</span></p>
+         
+         
+         <p id="KMgD_93">
+            vāmaś cāsyāḥ kararuhapadair mucyamāno madīyair muktājālaṃ ciraparicitaṃ tyājito daivagatyā <br />
+            saṃbhogānte mama samucito hastasaṃvāhanānāṃ yāsyaty ūruḥ sarasakadalīstambhagauraś calatvam //
+             <span class="ref">KMgD_93</span></p>
+         
+         
+         <p id="KMgD_94">
+            tasmin kāle jalada yadi sā labdhanidrāsukhā syād anvāsyaināṃ stanitavimukho yāmamātraṃ sahasva <br />
+            mā bhūd asyāḥ praṇayini mayi svapnalabdhe kathaṃ cit sadyaḥ kaṇṭhacyutabhujalatāgranthi gāḍhopagūḍham //
+             <span class="ref">KMgD_94</span></p>
+         
+         
+         <p id="KMgD_95">
+            tām utthāpya svajalakaṇikāśītalenānilena pratyāśvastāṃ samam abhinavair jālakair mālatīnām <br />
+            vidyudgarbhe stimitanayanāṃ tvatsanāthe gavākṣe vaktuṃ dhīrastanitavacanair māninīṃ prakramethāḥ //
+             <span class="ref">KMgD_95</span></p>
+         
+         
+         <p id="KMgD_96">
+            bhartur mitraṃ priyam avidhave viddhi mām ambuvāhaṃ tatsaṃdeśān manasi nihitād āgataṃ tvatsamīpam <br />
+            yo vṛndāni tvarayati pathi śrāmyatāṃ proṣitānāṃ mandrasnigdhair dhvanibhir abalāveṇimokṣotsukāni //
+             <span class="ref">KMgD_96</span></p>
+         
+         
+         <p id="KMgD_97">
+            ity ākhyāte pavanatanayaṃ maithilīvonmukhī sā tvām utkaṇṭhocchvasitahṛdayā vīkṣya saṃbhāvya caiva <br />
+            śroṣyaty asmāt param avahitā saumya sīmantinīnāṃ kāntodantaḥ suhṛdupanataḥ saṃgamāt kiṃ cid ūnaḥ //
+             <span class="ref">KMgD_97</span></p>
+         
+         
+         <p id="KMgD_98">
+            tām āyuṣman mama ca vacanād ātmanaś copakartuṃ brūyā evaṃ tava sahacaro rāmagiryāśramasthaḥ <br />
+            avyāpannaḥ kuśalam abale pṛcchati tvāṃ viyuktaḥ pūrvāśāsyaṃ sulabhavipadāṃ prāṇinām etad eva //
+             <span class="ref">KMgD_98</span></p>
+         
+         
+         <p id="KMgD_99">
+            aṅgenāṅgaṃ tanu ca tanunā gāḍhataptena taptaṃ sāsreṇāsradravam aviratotkaṇṭham utkaṇṭhitena <br />
+            uṣṇocchvāsaṃ samadhikatarocchvāsinā dūravartī saṃkalpais tair viśati vidhinā vairiṇā ruddhamārgaḥ //
+             <span class="ref">KMgD_99</span></p>
+         
+         
+         <p id="KMgD_100">
+            śabdākhyeyaṃ yad api kila te yaḥ sakhīnāṃ purastāt karṇe lolaḥ kathayitum abhūd ānanasparśalobhāt <br />
+            so 'tikrāntaḥ śravaṇaviṣayaṃ locanābhyām adṛṣṭas tvām utkaṇṭhāviracitapadaṃ manmukhenedam āha //
+             <span class="ref">KMgD_100</span></p>
+         
+         
+         <p id="KMgD_101">
+            śyāmāsv aṅgaṃ cakitahariṇīprekṣite dṛṣṭipātaṃ vaktracchāyāṃ śaśini śikhināṃ barhabhāreṣu keśān <br />
+            utpaśyāmi pratanuṣu nadīvīciṣu bhrūvilāsān hantaikasthaṃ kva cid api na te caṇḍi sādṛśyam asti //
+             <span class="ref">KMgD_101</span></p>
+         
+         
+         <p id="KMgD_102">
+            tvām ālikhya praṇayakupitāṃ dhāturāgaiḥ śilāyām ātmānaṃ te caraṇapatitaṃ yāvad icchāmi kartum <br />
+            asrais tāvan muhur upacitair dṛṣṭir ālupyate me krūras tasminn api na sahate saṃgamaṃ nau kṛtāntaḥ //
+             <span class="ref">KMgD_102</span></p>
+         
+         
+         <p id="KMgD_103">
+            mām ākāśapraṇihitabhujaṃ nirdayāśleṣahetor labdhāyās te katham api mayā svapnasaṃdarśaneṣu <br />
+            paśyantīnāṃ na khalu bahuśo na sthalīdevatānāṃ muktāsthūlās tarukisalayeṣv aśruleśāḥ patanti //
+             <span class="ref">KMgD_103</span></p>
+         
+         
+         <p id="KMgD_104">
+            bhittvā sadyaḥ kisalayapuṭān devadārudrumāṇāṃ ye tatkṣīrasrutisurabhayo dakṣiṇena pravṛttāḥ <br />
+            āliṅgyante guṇavati mayā te tuṣārādrivātāḥ pūrvaṃ spṛṣṭaṃ yadi kila bhaved aṅgam ebhis taveti //
+             <span class="ref">KMgD_104</span></p>
+         
+         
+         <p id="KMgD_105">
+            saṃkṣipyeta kṣaṇa iva kathaṃ dīrghayāmā triyāmā sarvāvasthāsv ahar api kathaṃ mandamandātapaṃ syāt <br />
+            itthaṃ cetaś caṭulanayane durlabhaprārthanaṃ me gāḍhoṣmābhiḥ kṛtam aśaraṇaṃ tvadviyogavyathābhiḥ //
+             <span class="ref">KMgD_105</span></p>
+         
+         
+         <p id="KMgD_106">
+            nanv ātmānaṃ bahu vigaṇayann ātmanā nāvalambe tat kalyāṇi tvam api sutarāṃ mā gamaḥ kātaratvam <br />
+            kasyātyantaṃ sukham upanataṃ duḥkham ekāntato vā nīcair gacchaty upari ca daśā cakranemikrameṇa //
+             <span class="ref">KMgD_106</span></p>
+         
+         
+         <p id="KMgD_107">
+            śāpānto me bhujagaśayanād utthite śārṅgapāṇau māsān anyān gamaya caturo locane mīlayitvā <br />
+            paścād āvāṃ virahaguṇitaṃ taṃ tam ātmābhilāṣaṃ nirvekṣyāvaḥ pariṇataśaraccandrikāsu kṣapāsu //
+             <span class="ref">KMgD_107</span></p>
+         
+         
+         <p id="KMgD_108">
+            bhūyaś cāha tvam asi śayane kaṇṭhalagnā purā me nidrāṃ gatvā kim api rudatī sasvaraṃ viprabuddhā <br />
+            sāntarhāsaṃ kathitam asakṛt pṛcchataś ca tvayā me dṛṣṭaḥ svapne kitava ramayan kām api tvaṃ mayeti //
+             <span class="ref">KMgD_108</span></p>
+         
+         
+         <p id="KMgD_109">
+            etasmān māṃ kuśalinam abhijñānadānād viditvā mā kaulīnād asitanayane mayy aviśvāsinī bhūḥ <br />
+            snehān āhuḥ kim api virahe hrāsinas te hy abhogād iṣṭe vastuny upacitarasāḥ premarāśībhavanti //
+             <span class="ref">KMgD_109</span></p>
+         
+         
+         <p id="KMgD_110">
+            kac cit saumya vyavasitam idaṃ bandhukṛtyaṃ tvayā me pratyādeśān na khalu bhavato dhīratāṃ kalpayāmi <br />
+            niḥśabdo 'pi pradiśasi jalaṃ yācitaś cātakebhyaḥ pratyuktaṃ hi praṇayiṣu satām īpsitārthakriyaiva //
+             <span class="ref">KMgD_110</span></p>
+         
+         
+         <p id="KMgD_111">
+            etat kṛtvā priyam anucitaprārthanāvartmano me sauhārdād vā vidhura iti vā mayy anukrośabuddhyā <br />
+            iṣṭān deśān vicara jalada prāvṛṣā saṃbhṛtaśrīr mā bhūd evaṃ kṣaṇam api ca te vidyutā viprayogaḥ //
+             <span class="ref">KMgD_111</span></p>
+         
+         || iti kālidāsaviracitaṃ meghadūtaṃ samāptam ||
+         
+         </div>
+   </body>
+</html>
