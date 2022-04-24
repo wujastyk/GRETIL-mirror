@@ -1,0 +1,3 @@
+#!/bin/bash -x
+# re-fetch all the Unicode files
+wget -np -r  ‐‐continue ‐‐timestamping -l7 -A "*xml","*htm","*xdxf" http://gretil.sub.uni-goettingen.de/
